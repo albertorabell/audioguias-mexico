@@ -1,0 +1,26 @@
+{
+  "id": "chi-09-cierre",
+  "tipo": "sala",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "41ff2fad56b5d305",
+      "texto": "O abandono, a memória e a redescoberta"
+    },
+    "frase_gancho": {
+      "hash": "c2a2c47bbf4f2b81",
+      "texto": "Uma cidade que perdeu seu poder, mas não sua memória."
+    },
+    "introduccion_narrativa": {
+      "hash": "054b60f79a6db7b9",
+      "texto": "Esta última parada é para pensar no que aconteceu depois. Por volta do ano mil cento e cem, Chichén Itzá já havia perdido seu papel de centro regional, mas a cidade talvez nunca tenha sido totalmente abandonada. Quando os espanhóis chegaram, havia gente vivendo ali ou por perto. Francisco de Montejo, o Moço, tentou fazer dela sua capital em mil quinhentos e trinta e dois e a deixou dois anos depois. Em mil quinhentos e oitenta e oito, era uma fazenda de gado. Hoje é Patrimônio da Humanidade e continua sendo uma das cidades maias mais visitadas."
+    }
+  }
+}

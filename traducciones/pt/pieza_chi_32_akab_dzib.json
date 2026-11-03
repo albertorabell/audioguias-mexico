@@ -1,0 +1,57 @@
+{
+  "id": "chi_32_akab_dzib",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d56b03a259b5f440",
+      "texto": "O Akab Dzib"
+    },
+    "frase_gancho": {
+      "hash": "5b42bf3a629cd747",
+      "texto": "A casa da escrita misteriosa: cinquenta metros de comprimento e uma verga que ninguém esquece."
+    },
+    "puente_narrativo": {
+      "hash": "f549109391a8d021",
+      "texto": "Quando terminar de olhar o edifício, siga para a próxima parada do seu percurso. Chichén Velho, ao sudoeste, é visitada à parte: somente às sextas e aos sábados, com reserva e guia do INAH."
+    },
+    "guion_corto": {
+      "hash": "7191c6faeddf380d",
+      "texto": "Akab Dzib significa casa da escrita misteriosa ou escura. É um edifício de estilo Puuc, com cerca de seis metros de altura, cinquenta de comprimento e quinze de largura, datado de aproximadamente o ano oitocentos e sessenta e nove. Tem sete portas na fachada oeste e quatro na leste. Em um cômodo da extremidade sul há uma verga com hieróglifos entalhados, que deram ao edifício o seu nome. Perto do teto, dentro de uma câmara, conserva-se a marca pintada de uma mão."
+    },
+    "guion_largo": {
+      "hash": "fd2f7a7f03f2c0e1",
+      "texto": "O nome diz tudo: Akab Dzib, ou Akab Tzib, é a casa da escrita misteriosa.\n\nO edifício fica a leste de El Caracol. É de estilo Puuc, com cerca de seis metros de altura, cinquenta de comprimento e quinze de largura. Sua data gira em torno do ano oitocentos e sessenta e nove. Na fachada oeste, que é a mais longa, há sete portas. Na fachada leste há quatro, interrompidas por uma grande escadaria que sobe até o teto. Sugere-se que esse lado era a frente, porque dá para um cenote seco, de paredes íngremes.\n\nNa extremidade sul há uma entrada para um cômodo pequeno. Do outro lado, uma porta tem uma verga com glifos finamente entalhados. Essa é a escrita misteriosa que dá nome ao edifício. Sob a verga, no batente, há um painel com um personagem sentado, rodeado de glifos. Dentro de uma das câmaras, perto do teto, há a marca de uma mão pintada.\n\nO edifício teve outro nome antigo. A partir dos hieróglifos da Casa Colorada, foi lido como Wakwak Puh Ak Na, que significa, com certa liberdade, a casa plana com excesso de câmaras. Diz-se que foi a casa de Yahawal Cho' K'ak', administrador de Chichén Itzá da dinastia Kokom. Não está claro se ele mandou construí-lo ou se o habitou depois.\n\nO INAH concluiu uma restauração em dois mil e sete.\n\nQuando terminar, siga para a próxima parada do seu percurso. Chichén Velho, ao sudoeste, é visitada à parte, com guia do INAH e somente às sextas e aos sábados."
+    },
+    "retos_observacion": {
+      "hash": "a8214c3aa0d64751",
+      "texto": [
+        "Conte as portas da fachada longa: são sete no lado oeste",
+        "Procure a escadaria do lado leste que sobe até o teto",
+        "Localize, se der para ver, a verga com hieróglifos na extremidade sul"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4201c25d1b38410c",
+      "texto": {
+        "Dimensões": "cerca de 6 m de altura, 50 m de comprimento e 15 m de largura",
+        "Data": "por volta do ano 869",
+        "Estilo": "Puuc",
+        "Portas": "7 na fachada oeste, 4 na leste",
+        "Nome antigo": "Wakwak Puh Ak Na, «casa plana com excesso de câmaras»",
+        "Restauração": "INAH, 2007",
+        "Código da estrutura": "4D1"
+      }
+    },
+    "faq_mito": {
+      "hash": "b04f59e330a40515",
+      "texto": {
+        "pregunta": "Mito: Ninguém conseguiu ler a escrita do Akab Dzib porque é um código secreto.",
+        "respuesta": "Realidade: O nome diz «escrita misteriosa», mas é um texto hieroglífico maia. Não há razão para pensar que seja indecifrável."
+      }
+    }
+  }
+}

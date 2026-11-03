@@ -1,0 +1,63 @@
+{
+  "id": "chi_06_aguilas_jaguares",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "b3effe4c5400637f",
+      "texto": "Plataforma das Águias e dos Jaguares"
+    },
+    "frase_gancho": {
+      "hash": "7997417a91bd05c0",
+      "texto": "Águias e jaguares que devoram corações humanos, em uma plataforma com uma escada em cada lado."
+    },
+    "puente_narrativo": {
+      "hash": "1658110b6c226dc8",
+      "texto": "Siga em direção ao [Grande Jogo de Bola](chi_08_gran_juego_pelota), a enorme quadra que fecha este lado da esplanada."
+    },
+    "guion_corto": {
+      "hash": "0bc6d550dd3ca405",
+      "texto": "Esta plataforma tem uma escada em cada um de seus quatro lados. Seus painéis mostram águias e jaguares comendo corações humanos. Ela combina estilos maias com traços do centro do México, e é uma das provas de que em Chichén Itzá se misturaram tradições. Fica bem a leste do Grande Jogo de Bola, e uma de suas esculturas é famosa: o primeiro Chac Mool que os arqueólogos descobriram saiu desta plataforma. As águias com corações também aparecem no Tzompantli e no Templo dos Guerreiros. É uma imagem que se repete nos edifícios mais importantes desta praça."
+    },
+    "guion_largo": {
+      "hash": "4e63205e3f364591",
+      "texto": "Depois dos crânios, agora vêm as águias e os jaguares. Dois animais que, na Mesoamérica, eram associados ao poder e à guerra.\n\nEsta plataforma é quadrada, com uma escada em cada um de seus quatro lados. Ela mistura o estilo maia com o estilo do centro do México. Os painéis entalhados mostram águias e jaguares que devoram corações humanos. Ela fica a leste do Grande Jogo de Bola, bem perto do Tzompantli que você acabou de ver.\n\nUma leitura frequente dessa imagem vem da tradição do centro do México. Lá, águias e jaguares simbolizavam os guerreiros de elite, e os corações eram uma oferenda para alimentar o Sol. É uma interpretação, não uma afirmação segura sobre o que pensavam em Chichén Itzá. O que se pode dizer é que essas imagens se repetem em outros edifícios do lugar. As águias com corações aparecem também no Tzompantli e nos painéis do Templo dos Guerreiros.\n\nEsta plataforma tem uma história especial. O primeiro Chac Mool que os arqueólogos descobriram saiu daqui. Um Chac Mool é uma figura de pedra reclinada que sustenta um recipiente sobre o ventre. Há outros no Templo dos Guerreiros e dentro de El Castillo. São uma das assinaturas visuais de Chichén Itzá, e a ciência ainda discute o que exatamente significavam.\n\nObserve também como esta plataforma e o Tzompantli formam um conjunto. Uma explicação frequente é que, juntos, esses edifícios representam uma forma de entender a guerra e o sacrifício como parte da ordem do mundo. É uma leitura plausível, mas é preciso lembrar que são leituras modernas sobre imagens de mais de mil anos atrás. A única certeza é que os construtores quiseram que a mensagem fosse vista.\n\nSe tiver tempo, dê a volta na plataforma e compare seus quatro lados. Em alguns, os relevos estarão mais bem conservados do que em outros.\n\nAgora siga em direção ao [Grande Jogo de Bola](chi_08_gran_juego_pelota). É a maior quadra conhecida da Mesoamérica, e lá outra imagem violenta espera por você: os painéis da decapitação."
+    },
+    "retos_observacion": {
+      "hash": "64df8bda76c8ff9e",
+      "texto": [
+        "Procure nos painéis as águias e os jaguares com um coração entre as garras ou as presas",
+        "Conte as escadas: há uma em cada um dos quatro lados",
+        "Compare esta plataforma com o Tzompantli que você acabou de ver e repare em quais imagens se repetem"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3324311b6ba8a5d8",
+      "texto": {
+        "Forma": "plataforma com uma escada em cada um de seus quatro lados",
+        "Relevos": "águias e jaguares que devoram corações humanos",
+        "Estilo": "combina traços maias e do centro do México",
+        "Localização": "bem a leste do Grande Jogo de Bola",
+        "Dado-chave": "desta plataforma saiu o primeiro Chac Mool descoberto por arqueólogos",
+        "Imagem repetida": "águias com corações, também no Tzompantli e no Templo dos Guerreiros"
+      }
+    },
+    "faq_mito": {
+      "hash": "db9dd5e7555b9b5b",
+      "texto": {
+        "pregunta": "Mito: Os relevos provam que existia uma ordem militar de águias e jaguares.",
+        "respuesta": "Realidade: Essa é uma interpretação moderna, tirada da tradição do centro do México. Não se sabe com certeza o que essas imagens significavam para os habitantes de Chichén Itzá."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "chi_23_el_osario",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e57e46b4e415af1c",
+      "texto": "O Ossuário e suas plataformas"
+    },
+    "frase_gancho": {
+      "hash": "1cbb35eceb0f44f5",
+      "texto": "Uma pirâmide com nove corpos e uma abertura no topo que desce até uma caverna."
+    },
+    "puente_narrativo": {
+      "hash": "ca47d89ab6f88925",
+      "texto": "Contorne a plataforma e olhe a pirâmide de diferentes ângulos. Quando terminar, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "b4b9fef89ff4f3b1",
+      "texto": "O Ossuário é uma pirâmide escalonada, menor que El Castillo e muito parecida com ele, com escadas nos seus quatro lados. Tem nove corpos e mais de dez metros de altura. No centro há uma abertura que desce até uma caverna natural, a cerca de dez ou doze metros de profundidade. No final do século dezenove, Edward Thompson a explorou e encontrou esqueletos e contas de jade. Por isso a chamou de Tumba do Grande Sacerdote. Hoje se pensa que não era uma tumba nem o sepultamento de sacerdotes."
+    },
+    "guion_largo": {
+      "hash": "7bebd8932377388a",
+      "texto": "Este edifício tem dois nomes, e nenhum deles é exato. Chama-se Ossuário pelos ossos que foram encontrados, e Tumba do Grande Sacerdote porque foi assim que seu explorador o batizou.\n\nComecemos pelo que se vê. É uma pirâmide escalonada de nove corpos, com mais de dez metros de altura, com escadas nos seus quatro lados. Parece muito com El Castillo, embora seja menor, e por isso há quem a chame de réplica. Os relevos do friso são mitológicos, e nos cantos há máscaras do deus da chuva, Chaac. As escadas têm balaustradas com serpentes.\n\nO especial está no centro. Uma abertura no topo desce por um conduto até uma caverna natural. As descrições dão profundidades diferentes: entre cerca de dez e cerca de doze metros. No final do século dezenove, Edward Thompson desceu a essa caverna. Encontrou esqueletos e contas de jade, e concluiu que era a tumba de um grande sacerdote. Hoje os arqueólogos pensam que não era nem tumba nem sepultamento de sacerdotes.\n\nEm mil novecentos e trinta e seis, J. C. Harrington, ao mapear o conduto, encontrou parte da abóbada de um templo anterior. Ou seja, o Ossuário também foi erguido sobre um templo mais antigo, assim como El Castillo e o Templo dos Guerreiros. Um estudo de radiocarbono de dois mil e dezenove, de Saldaña e Brady, data o fim da estrutura anterior e a construção do Ossuário no início do século oito. Um pilar do templo de cima traz uma data que corresponde ao ano novecentos e noventa e oito.\n\nHá uma leitura simbólica que se repete muito: a de que a caverna era uma entrada para o mundo inferior, e que os nove corpos aludem aos seus nove níveis. É uma interpretação popular. Os maias de fato associavam as cavernas e os cenotes ao mundo inferior, mas a relação com os nove níveis não está comprovada.\n\nDesta plataforma sai um caminho que leva ao Cenote Xtoloc. Quando terminar aqui, siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "1a98a44a14b466e7",
+      "texto": [
+        "Conte os corpos da pirâmide: são nove",
+        "Procure nos cantos as máscaras do deus da chuva, Chaac",
+        "Compare suas proporções com as de El Castillo, que você já viu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ff3ac66d851e907",
+      "texto": {
+        "Altura": "mais de 10 m",
+        "Corpos escalonados": "9, com escadas nos quatro lados",
+        "Abertura central": "desce até uma caverna natural, a cerca de 10-12 m",
+        "Exploração": "Edward Thompson, final do século XIX; J. C. Harrington (1936) encontrou um templo anterior",
+        "Data": "início do século VIII (radiocarbono, 2019); pilar do templo superior com data do ano 998",
+        "Nomes": "Ossuário e Tumba do Grande Sacerdote"
+      }
+    },
+    "faq_mito": {
+      "hash": "8faa303ff8b4a790",
+      "texto": {
+        "pregunta": "Mito: É a tumba de um grande sacerdote maia.",
+        "respuesta": "Realidade: Foi assim que Thompson a batizou, mas hoje se pensa que não era uma tumba nem um sepultamento de sacerdotes."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chi_35_templo_falos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc78b15121f84caa",
+      "texto": "O Palácio dos Falos"
+    },
+    "frase_gancho": {
+      "hash": "6a5d4dc68294a314",
+      "texto": "Um labirinto de cômodos, corredores e pátios, com uma escada interna que sobe ao segundo andar."
+    },
+    "puente_narrativo": {
+      "hash": "a04e633cfbbff075",
+      "texto": "Siga em direção à [Casa dos Caracóis](chi_36_casa_caracoles_tortuga), onde uma árvore genealógica mede cerca de vinte metros."
+    },
+    "guion_corto": {
+      "hash": "4948f3fd5554d993",
+      "texto": "Este é o Palácio dos Falos, um complexo de dois andares que faz parte de Chichén Velho. É um labirinto de cômodos, corredores e pátios internos, com uma escada que sobe a duas salas do segundo andar. Em seus bancos há relevos de estrelas de Vênus reaproveitados de outro edifício. Já se disse que outros relevos contam a origem e a vida de um personagem importante. As pedras caídas do palácio foram reaproveitadas mais tarde em outro edifício."
+    },
+    "guion_largo": {
+      "hash": "4a91ce4a8af95625",
+      "texto": "Com esse nome, a gente esperaria uma descrição chamativa. A verdade é que o que está documentado é mais arquitetônico do que qualquer outra coisa.\n\nO arqueólogo Peter Schmidt e Rocío González de la Mata descrevem a Casa dos Falos, ou Complexo Palaciano dos Falos, como um conjunto de três estruturas, que o mapa da Carnegie numera cinco C cinco, cinco C catorze e cinco C quinze. Ele contém um labirinto de cômodos, corredores e pátios internos, e uma escada que sobe a duas salas do segundo andar. Outro estudo, de dois mil e catorze, o descreve como um complexo de dois andares no lado sul da praça norte. As duas descrições situam o edifício em lugares um pouco diferentes; provavelmente se referem a partes distintas de um conjunto grande.\n\nO estudo de dois mil e catorze acrescenta um detalhe curioso: os bancos do palácio têm relevos de estrelas de Vênus de quatro pontas, que foram reaproveitados do Templo da Série Inicial. Ou seja, os construtores reciclaram peças de outro edifício.\n\nA fachada tem plaquetas do deus N em seus aspectos de caracol e de aranha. E Schmidt descreve, em outro trabalho, relevos que foram interpretados como fálicos e de autossacrifício, além de painéis no segundo andar. São descrições breves: não se conhece com precisão o número nem a forma das esculturas que dão nome ao lugar.\n\nUma matéria jornalística de dois mil e vinte e três diz que o palácio conta a origem e a vida de um personagem importante, com lutas, sacrifícios e rituais. É uma leitura geral, sem respaldo técnico.\n\nO palácio teve um destino curioso. Quando desabou, suas pedras foram reaproveitadas em outro edifício, a estrutura cinco C oito, junto com as da Galeria dos Macacos e as de outra estrutura vizinha.\n\nO INAH restaurou o palácio na intervenção de dois mil e vinte e três, reintegrando elementos de construção. Parte do que você vê foi recolocada.\n\nSiga em direção à [Casa dos Caracóis](chi_36_casa_caracoles_tortuga)."
+    },
+    "retos_observacion": {
+      "hash": "456000a7aa8b9fc7",
+      "texto": [
+        "Observe os dois andares do palácio e tente acompanhar com o olhar o percurso da escada interna",
+        "Procure as plaquetas da fachada e os elementos reintegrados na restauração",
+        "Compare o tamanho dele com o do Templo da Série Inicial que você viu antes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3125872ca055a14d",
+      "texto": {
+        "Conjunto": "Casa ou Complexo Palaciano dos Falos (estruturas 5C5, 5C14 e 5C15)",
+        "Planta": "labirinto de cômodos, corredores e pátios, com escada interna para duas salas do segundo andar",
+        "Bancos": "relevos de estrelas de Vênus reaproveitados do Templo da Série Inicial",
+        "Fachada": "plaquetas do deus N em aspecto de caracol e aranha",
+        "Ruína": "suas pedras foram reaproveitadas na estrutura 5C8",
+        "Restauração": "reintegração de elementos (INAH, 2023)"
+      }
+    },
+    "faq_mito": {
+      "hash": "137f4f3208e0bbfa",
+      "texto": {
+        "pregunta": "Mito: O Palácio dos Falos era um templo dedicado a um único ritual de fertilidade.",
+        "respuesta": "Realidade: É um palácio de dois andares, com cômodos, pátios e escada. As esculturas que lhe dão o nome não são bem conhecidas."
+      }
+    }
+  }
+}

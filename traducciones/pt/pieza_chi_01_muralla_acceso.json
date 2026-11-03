@@ -1,0 +1,56 @@
+{
+  "id": "chi_01_muralla_acceso",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "835a9b8786305840",
+      "texto": "A Grande Nivelação e o centro cerimonial"
+    },
+    "frase_gancho": {
+      "hash": "7fe3d488e8494c49",
+      "texto": "Uma esplanada artificial, nivelada pedra por pedra, para colocar o centro da cidade sobre um único plano."
+    },
+    "puente_narrativo": {
+      "hash": "89169c7cd73c8990",
+      "texto": "Caminhe até o centro da esplanada e pare diante de [El Castillo](chi_02_castillo_general), a grande pirâmide que domina a praça."
+    },
+    "guion_corto": {
+      "hash": "728e5bfd6649227e",
+      "texto": "Parece uma planície natural, mas não é. A esplanada em que você pisa se chama a Grande Nivelação. É uma plataforma artificial de uns seiscentos metros de comprimento por quatrocentos de largura e, segundo um relatório técnico da Universidade da Califórnia em San Diego, é a maior construção de Chichén Itzá. O terreno original tinha rocha e desníveis. Os construtores aterraram, aplainaram e cobriram o piso com estuque e com sascab, uma terra calcária branca. Os pisos têm uma inclinação suave, de apenas um por cento, para que a água da chuva escorra até onde devia. Sobre este grande palco foram erguidos El Castillo, o Jogo de Bola e o Templo dos Guerreiros."
+    },
+    "guion_largo": {
+      "hash": "bf3c2733ef4d63ab",
+      "texto": "Vale a pena você parar um momento. Quase ninguém percebe que o chão em que você pisa é uma obra de engenharia.\n\nO terreno natural desta parte de Yucatán é irregular, com rochas que se projetam e depressões. Os construtores nivelaram o terreno para sustentar os grandes conjuntos de edifícios, e o maior esforço foi feito na área de El Castillo. Um relatório técnico de um projeto da Universidade da Califórnia em San Diego, de dois mil e nove, calcula o espaço em uns seiscentos metros por quatrocentos. Chama-o de a maior construção de Chichén Itzá e uma das maiores plataformas do mundo maia.\n\nFoi uma obra feita por etapas: os pesquisadores propõem dez. Em algumas, aterrou-se com uma camada de terra e pedra sobre a rocha natural e, em outras, os afloramentos foram nivelados com sascab. Os pisos de estuque não eram brancos, como costumamos imaginar. Em diferentes etapas usou-se estuque amarelo e estuque vermelho. E todos os pisos têm uma inclinação de mais ou menos um por cento. Entre El Castillo e a colunata que você verá mais adiante, o piso desce uns setenta e cinco centímetros ao longo de uns setenta e sete metros. É uma inclinação quase imperceptível, pensada para que a água da chuva fosse encaminhada até onde os construtores queriam.\n\nTambém se calculou o tempo. As maiores etapas desta plataforma correspondem ao que os arqueólogos chamam de fase Sotuta, entre os anos oitocentos e mil e cinquenta ou mil e cem. E todo o processo de construção teria durado menos de quinhentos anos, e provavelmente não mais de trezentos.\n\nEsta esplanada também teve um muro. Era uma muralha que cercava o centro cerimonial. Os arqueólogos escavaram uma seção de uns noventa metros entre o Grande Jogo de Bola e a atual entrada de pedestres a oeste. Era um muro alto e fino, sem parapeito pelo lado de dentro, por isso se acredita que sua função ia além da defesa. Mais tarde, foi acrescentado a ele um contraforte feito com pedras reaproveitadas de outros edifícios, e isso sim eles interpretam como um reforço defensivo.\n\nTudo isso muda o que você vê. Os edifícios não estão sobre uma planície. Estão sobre uma plataforma planejada, com inclinações, pisos coloridos e um limite construído. É o palco em que acontecia o mais importante da vida da cidade.\n\nAgora caminhe até o centro. Diante de você se ergue [El Castillo](chi_02_castillo_general), o edifício que organiza toda esta praça."
+    },
+    "retos_observacion": {
+      "hash": "a7d7da0b43e0134a",
+      "texto": [
+        "Olhe a borda da esplanada e procure onde começa o desnível com o terreno natural",
+        "Imagine o piso coberto de estuque amarelo ou vermelho, e não o gramado verde de hoje",
+        "Caminhe até o centro da praça e procure a silhueta de El Castillo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "33412e54bcacba79",
+      "texto": {
+        "Nome": "a Grande Nivelação",
+        "Dimensões aproximadas": "600 × 400 metros (UC San Diego, 2009)",
+        "Etapas de construção propostas": "10",
+        "Inclinação dos pisos": "cerca de 1 %",
+        "Estuque dos pisos": "amarelo e vermelho, conforme a etapa",
+        "Muralha escavada": "uns 90 metros entre o Grande Jogo de Bola e a entrada de pedestres a oeste"
+      }
+    },
+    "faq_mito": {
+      "hash": "3052c5f83760e118",
+      "texto": {
+        "pregunta": "Mito: A esplanada é uma planície natural coberta de grama.",
+        "respuesta": "Realidade: É uma plataforma artificial, construída por etapas com aterros, pisos de estuque e uma inclinação suave para a água da chuva. A grama é de hoje."
+      }
+    }
+  }
+}

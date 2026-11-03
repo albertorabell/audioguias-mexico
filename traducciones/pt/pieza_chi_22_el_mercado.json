@@ -1,0 +1,60 @@
+{
+  "id": "chi_22_el_mercado",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "77f290ac9bd6716d",
+      "texto": "O Mercado"
+    },
+    "frase_gancho": {
+      "hash": "e9eca5738bff012c",
+      "texto": "Um longo edifício de pilares, com serpentes nas banquetas e guerreiros pisando em cativos."
+    },
+    "puente_narrativo": {
+      "hash": "3e8d12812746f916",
+      "texto": "Siga em direção ao [Ossuário](chi_23_el_osario), uma pirâmide com uma abertura no topo que desce até uma caverna."
+    },
+    "guion_corto": {
+      "hash": "d896f82fe0c03816",
+      "texto": "Chama-se o Mercado porque os primeiros exploradores pensaram que aqui se comerciava. Hoje os arqueólogos o veem mais como um edifício cerimonial do que comercial. Tem uma plataforma frontal de uns oitenta metros por quinze, feita com uma fileira de pilares, um pórtico com abóbada e um pátio quadrado com colunas. Suas banquetas têm serpentes emplumadas, e um talude mostra uma procissão de guerreiros que pisam em cativos. Sob o piso do pátio foi encontrada uma pequena oferenda de contas e uma cabecinha de jadeíta."
+    },
+    "guion_largo": {
+      "hash": "6f3da82da251edca",
+      "texto": "O nome Mercado é um bom exemplo de uma ideia que ficou, embora os especialistas já pensem outra coisa.\n\nOs primeiros exploradores acreditaram que este edifício era um mercado, por causa de sua longa galeria com um banco de pedra ao redor e de seu pátio. Hoje os arqueólogos pensam que sua função era mais cerimonial do que comercial. Assim, o nome vem de uma interpretação antiga, não de uma comprovação.\n\nA descrição mais completa é a do arqueólogo Alexandre Guida Navarro, que trabalhou na Gran Nivelación entre dois mil e quatro e dois mil e sete, e que segue a planta de Marquina de mil novecentos e sessenta e quatro. A frente é uma plataforma de uns oitenta metros por quinze, formada por uma fileira de pilares. Atrás há um pórtico coberto com abóbada. Por um acesso no centro do muro sul chega-se a um pátio quadrado cercado de colunas. As ombreiras dessa entrada levam três guerreiros de cada lado.\n\nA decoração é o que mais chama a atenção. Há duas banquetas com serpentes emplumadas. No talude, a parede inclinada, avança uma procissão de guerreiros que pisoteiam cativos. Sob o piso do pátio, Marquina encontrou uma caixa de alvenaria com uma oferenda: contas de pedra verde e de concha, e uma pequena cabeça de jadeíta.\n\nGuida Navarro propõe uma leitura. Segundo ele, a iconografia de serpentes emplumadas deste edifício e do Tzompantli alude a um personagem que ele chama de Capitão Serpente, e os dois edifícios teriam comemorado sua entronização como governante durante o Clássico Terminal, entre os anos oitocentos e mil e cinquenta. É uma hipótese de um autor, não um consenso.\n\nHá um dado prático: as pilastras deste edifício, assim como as das Mil Colunas, perderam quase toda a sua pintura. O que você vê hoje é pedra nua.\n\nAs descrições não coincidem quanto à forma: uma o chama de quadrado e outra, de forma de T. Talvez falem de partes distintas do edifício.\n\nCaminhe agora até o [Ossuário](chi_23_el_osario)."
+    },
+    "retos_observacion": {
+      "hash": "e5af8b7c01a49a0f",
+      "texto": [
+        "Procure os pilares da frente e calcule quanta gente cabia em uma galeria tão longa",
+        "Veja se você distingue as serpentes emplumadas das banquetas",
+        "Imagine a procissão de guerreiros que pisam em cativos, no talude"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ba35cb916ed77def",
+      "texto": {
+        "Plataforma frontal": "cerca de 80 × 15 m, com uma fileira de pilares",
+        "Elementos": "pórtico com abóbada e pátio quadrado com colunas",
+        "Entrada do pátio": "três guerreiros em cada ombreira",
+        "Decoração": "duas banquetas com serpentes emplumadas e um talude com procissão de guerreiros que pisam em cativos",
+        "Oferenda sob o pátio": "contas de pedra verde e concha, cabecinha de jadeíta (Marquina, 1964)",
+        "Leitura proposta (Guida Navarro)": "comemora a entronização de um «Capitão Serpente», por volta de 800-1050"
+      }
+    },
+    "faq_mito": {
+      "hash": "a5721cd81e1cdb28",
+      "texto": {
+        "pregunta": "Mito: Era o mercado onde os maias trocavam seus produtos.",
+        "respuesta": "Realidade: É o nome que lhe deram os primeiros exploradores. Hoje os arqueólogos o consideram um edifício mais cerimonial do que comercial."
+      }
+    }
+  }
+}

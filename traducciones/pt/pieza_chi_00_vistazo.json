@@ -1,0 +1,60 @@
+{
+  "id": "chi_00_vistazo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3b0bff030db10d27",
+      "texto": "Chichén Itzá num relance"
+    },
+    "frase_gancho": {
+      "hash": "5e1b57cf61aa438b",
+      "texto": "Uma cidade erguida junto a poços naturais de água, numa terra sem rios."
+    },
+    "puente_narrativo": {
+      "hash": "8d8b49e3baf8b546",
+      "texto": "Siga o caminho arborizado de entrada até que se abra a grande esplanada. Ali, continue com a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "aa4d1c9935dd8b5e",
+      "texto": "Você caminha rumo a uma das cidades mais famosas do mundo maia, e tudo começa com uma pergunta: como se funda uma capital onde não há rios. No norte de Yucatán, a rocha calcária absorve a chuva como uma esponja, e a água corre debaixo da terra. Ela só aparece onde o teto de uma caverna desabou: os cenotes. Daí vem o nome. Chichén Itzá significa, em maia, na boca do poço dos itzás. Itzá costuma ser traduzido como bruxos da água, embora seja uma tradução discutida. A cidade se desenvolveu sobretudo entre os anos setecentos e cinquenta e mil e cem, e desde mil novecentos e oitenta e oito é Patrimônio Mundial da UNESCO. Em poucos passos você sairá das árvores e verá a grande esplanada."
+    },
+    "guion_largo": {
+      "hash": "9713ff64ba37524e",
+      "texto": "Quase tudo o que você vai ver hoje se explica por duas coisas: a água escondida debaixo da terra e o encontro de diferentes tradições da Mesoamérica.\n\nComecemos pela água. Nesta parte de Yucatán não há um único rio na superfície. A chuva se infiltra pela rocha calcária e corre por cavernas subterrâneas. Os cenotes são os lugares onde o teto dessas cavernas afundou e deixou a água à mostra. El Castillo, o edifício mais conhecido, fica no cruzamento de duas linhas imaginárias que unem quatro cenotes: uma vai do Sagrado, ao norte, ao Xtoloc, ao sul, e a outra, do Holtún, a oeste, ao Kanjuyum, a leste. Assim propõe o projeto Grande Aquífero Maia. Por isso, antes de ser uma cidade de pedra, Chichén Itzá é uma cidade de poços.\n\nO nome diz tudo. Chi significa boca ou borda, e ch'een significa poço. Itzá é o nome do grupo que dá sua identidade à cidade. Uma das traduções propostas o liga a itz, que quer dizer feiticeiro, e ha, que quer dizer água: daí os bruxos da água. Mas não é a única leitura. Conta-se que o povo da região chamava os itzás de os que falam nossa língua pela metade. E os livros do Chilam Balam mencionam nomes mais antigos para este lugar, como Uuc Yabnal, que foi traduzido como sete grandes casas.\n\nSobre a sua história, os arqueólogos costumam dividi-la assim. O traçado central se formou entre os anos setecentos e cinquenta e novecentos, e a cidade tomou sua forma final depois do ano novecentos. A primeira data em hieróglifos do sítio equivale ao ano oitocentos e trinta e dois da nossa era. A última conhecida está no templo do Ossuário, e equivale ao ano novecentos e noventa e oito. Por volta do ano mil e cem, Chichén Itzá já havia perdido peso como centro regional.\n\nHá uma discussão que convém conhecer. Durante muito tempo pensou-se que os edifícios de estilo parecido com o do centro do México, como o Templo dos Guerreiros, eram a marca de uma invasão vinda de Tula. Hoje, a maioria das interpretações fala antes de influência e contato entre regiões, e não de uma conquista. Você verá esse diálogo de estilos ao longo do percurso.\n\nUm aviso prático. O INAH fechou a subida e a entrada de muitos dos monumentos. Você pode contorná-los e olhá-los de perto, mas não subir neles nem entrar em suas câmaras. Por isso, algumas paradas contam o que há lá dentro, e você imagina de fora.\n\nAgora siga o caminho. Ao sair das árvores, você terá diante de si a grande esplanada, a plataforma artificial sobre a qual se ergue o centro cerimonial."
+    },
+    "retos_observacion": {
+      "hash": "6b7b5e61e0c3a70e",
+      "texto": [
+        "Repare na rocha calcária branca e porosa do chão e dos muros, a mesma que absorve a água da chuva",
+        "Observe a vegetação: é uma selva baixa, sem rios nem lagos à vista",
+        "Ao sair das árvores, procure a silhueta piramidal de El Castillo no centro da esplanada"
+      ]
+    },
+    "especificaciones": {
+      "hash": "31971c4db987001c",
+      "texto": {
+        "Nome": "«na boca do poço dos itzás»",
+        "Desenvolvimento principal": "aproximadamente entre os anos 750 e 1100 da nossa era",
+        "Datas em hieróglifos": "de 832 (a mais antiga) a 998 (no Ossuário)",
+        "Cenotes": "Sagrado, Xtoloc, Kanjuyum e Holtún",
+        "Declaração da UNESCO": "Patrimônio Mundial desde 1988",
+        "Acesso": "o INAH não permite subir nem entrar na maioria dos monumentos"
+      }
+    },
+    "faq_mito": {
+      "hash": "ab6c68e0c235e559",
+      "texto": {
+        "pregunta": "Mito: Os toltecas do centro do México conquistaram Chichén Itzá e construíram metade da cidade.",
+        "respuesta": "Realidade: A maioria das interpretações atuais fala de influência e contato cultural entre a área maia e o centro do México, e não de uma conquista."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "chi_16_templo_guerreros",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cd6f64b01a908be4",
+      "texto": "Templo dos Guerreiros e a Colunata Noroeste"
+    },
+    "frase_gancho": {
+      "hash": "6d01b78e2c4d509d",
+      "texto": "Colunas esculpidas com guerreiros, um Chac Mool no alto e, dentro, outro templo mais antigo."
+    },
+    "puente_narrativo": {
+      "hash": "cd9bfdc1b8314878",
+      "texto": "Siga junto ao templo em direção ao [Grupo das Mil Colunas](chi_19_grupo_mil_columnas), o maior bosque de pilares da praça."
+    },
+    "guion_corto": {
+      "hash": "76b13d969224ffde",
+      "texto": "Este é o Templo dos Guerreiros. É uma grande pirâmide escalonada e, na frente e nas laterais, tem fileiras de colunas esculpidas com guerreiros; a Colunata Noroeste faz parte desse conjunto. Acredita-se que essas colunas sustentaram tetos de galerias que já não existem. No alto da escadaria há um Chac Mool, a figura reclinada que segura um recipiente. Os arqueólogos o comparam com o Templo B de Tula, no centro do México, e essa semelhança alimentou durante décadas a ideia de uma invasão tolteca. Hoje se fala mais em influência. Dentro do templo há outro mais antigo, o Templo do Chac Mool, que o Instituto Carnegie escavou entre mil novecentos e vinte e cinco e mil novecentos e vinte e oito."
+    },
+    "guion_largo": {
+      "hash": "9b21f07b27085ac7",
+      "texto": "Você está diante de um dos edifícios mais famosos de Chichén Itzá, e também de um dos que mais discussões provocaram.\n\nÉ uma grande pirâmide escalonada, com fileiras de colunas esculpidas com guerreiros na frente e nas laterais, com cerca de quarenta metros de lado e quatro níveis. No alto há um templo com duas salas e um pórtico de entrada, cuja verga se apoia em duas colunas em forma de serpentes de cascavel gigantes. No topo, junto à escadaria, há um Chac Mool, uma figura reclinada que segura um prato ou recipiente sobre o ventre.\n\nOs arqueólogos o comparam com o Templo B de Tula, a cidade do centro do México que durante muito tempo foi considerada a capital dos tolteca. A semelhança é real, e por isso se pensou que Chichén Itzá tinha sido conquistada. A maioria das interpretações atuais vê, antes, um diálogo de estilos, produto do contato. Repare que aqui não há apenas imitação: as colunas, as serpentes e os salões se misturam com uma tradição própria.\n\nA data também é discutida. Alguns o situam por volta do ano mil e duzentos. Mas a cronologia de Chichén Itzá continua sendo ajustada, e não há uma única data aceita por todos.\n\nO mais interessante está lá dentro. Esta pirâmide cobre outra, mais antiga, chamada Templo do Chac Mool. O Instituto Carnegie a escavou e restaurou entre mil novecentos e vinte e cinco e mil novecentos e vinte e oito. O arqueólogo Earl Morris publicou o trabalho em dois volumes. No interior se conservam murais com cenas de batalha. Como toda essa zona está fechada, você não pode entrar, mas vale saber que ela está ali. É uma pirâmide dentro de outra, como El Castillo.\n\nTambém vale saber que o edifício foi restaurado. Os trabalhos começaram em mil novecentos e vinte e cinco. O que você vê hoje é uma mistura de pedra original e pedra recolocada, de modo que nem tudo está como os construtores deixaram.\n\nAgora olhe as colunas com calma. Na frente e nas laterais do templo há fileiras de colunas de pedra, e as da Colunata Noroeste, junto ao templo, levam quase todas figuras de guerreiros. Acredita-se que sustentaram tetos de madeira e pedra, hoje desaparecidos, com galerias abertas embaixo. Por isso hoje você as vê descobertas. Muitas figuras estão de perfil, com cocar, adornos e armas. Se encontrar um relevo nítido, pare para observá-lo. Dessa colunata se conhecem poucos dados próprios: não tem dimensões nem data bem documentadas, e um estudo técnico de dois mil e dezesseis apenas a menciona entre as construções próximas que levam símbolos guerreiros.\n\nAgora siga junto ao templo em direção ao [Grupo das Mil Colunas](chi_19_grupo_mil_columnas). Ali as colunas já não são uma fileira, e sim um bosque."
+    },
+    "retos_observacion": {
+      "hash": "721a38f04107f8fe",
+      "texto": [
+        "Localize no alto da escadaria o Chac Mool, a figura reclinada que segura um recipiente",
+        "Procure as duas colunas em forma de serpente de cascavel que sustentam a verga do pórtico",
+        "Percorra com o olhar as fileiras de colunas da Colunata Noroeste e procure os guerreiros mais bem conservados"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ab36c0e3d6d34a8",
+      "texto": {
+        "Forma": "grande pirâmide escalonada de quatro níveis, com fileiras de colunas com guerreiros",
+        "Tamanho": "cerca de 40 metros de lado",
+        "Comparação": "parece-se com o Templo B de Tula, no centro do México",
+        "Subestrutura": "o Templo do Chac Mool, escavado pelo Instituto Carnegie entre 1925 e 1928",
+        "Colunata Noroeste": "fileiras de colunas com guerreiros de perfil junto ao templo; acredita-se que sustentavam tetos de galerias",
+        "Data": "alguns o situam por volta do ano 1200 (a cronologia continua em discussão)",
+        "Acesso": "não é possível subir nem entrar na subestrutura"
+      }
+    },
+    "faq_mito": {
+      "hash": "9ab61d54962f38ee",
+      "texto": {
+        "pregunta": "Mito: O Templo dos Guerreiros prova que os tolteca conquistaram Chichén Itzá.",
+        "respuesta": "Realidade: A semelhança com o Templo B de Tula é real, mas a maioria das interpretações atuais fala de influência e contato, não de uma conquista."
+      }
+    }
+  }
+}

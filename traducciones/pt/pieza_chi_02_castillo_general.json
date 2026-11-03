@@ -1,0 +1,56 @@
+{
+  "id": "chi_02_castillo_general",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1bd1fd9856689c7d",
+      "texto": "El Castillo (Pirâmide de Kukulcán)"
+    },
+    "frase_gancho": {
+      "hash": "53bb7013dd4d1a8b",
+      "texto": "Uma pirâmide de trinta metros que mistura o calendário, o céu e a água escondida debaixo da terra."
+    },
+    "puente_narrativo": {
+      "hash": "9a6b239ee20123d4",
+      "texto": "Fique diante da escadaria norte, a das cabeças de serpente. Quando terminar de olhar, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "2a2bff3292c10405",
+      "texto": "Você está diante de El Castillo, o templo de Kukulcán, a serpente emplumada. Ele mede uns vinte e quatro metros de altura, e o templo no alto soma outros seis. A base é um quadrado de uns cinquenta e cinco metros de lado. Cada uma das quatro escadarias tem aproximadamente noventa e um degraus. Se você os somar, com a plataforma superior, chega a trezentos e sessenta e cinco, igual aos dias do ano. Esse número levou a pensar num calendário de pedra, embora os especialistas considerem que sua relação com os rituais importa mais do que a aritmética. Desde cerca do ano dois mil e seis, o INAH não permite subir. Mas contorná-lo já é uma forma de lê-lo."
+    },
+    "guion_largo": {
+      "hash": "15b1351f42e928ea",
+      "texto": "El Castillo é, provavelmente, o edifício mais fotografado do México. Mas vale a pena olhá-lo devagar, porque cada uma de suas medidas parece falar de tempo e de cosmos.\n\nComecemos pelos números. O corpo da pirâmide mede uns vinte e quatro metros, e o templo do topo acrescenta uns seis, num total de uns trinta. A base é um quadrado de cinquenta e cinco metros e trinta centímetros. Cada lado tem uma escadaria de mais ou menos noventa e um degraus. Com a plataforma superior como último degrau, a conta dá trezentos e sessenta e cinco. O lado sul está muito erodido, e por isso a cifra é aproximada. E embora o número lembre o ano solar de trezentos e sessenta e cinco dias, provavelmente ele se relaciona, sobretudo, com rituais.\n\nOutras explicações circulam bastante. Costuma-se dizer que os nove terraços, divididos em dois pelas escadarias, formam dezoito seções, como os dezoito meses do calendário solar maia, e que cada face tem cinquenta e dois painéis, como os anos do ciclo da roda calendárica. São leituras muito repetidas, e vale a pena ouvi-las como interpretações, não como dados medidos.\n\nHá outra pista em sua orientação. A pirâmide não está alinhada exatamente com os pontos cardeais. Uma explicação propõe que sua face principal aponta para dois pores do Sol, o vinte de maio e o vinte e quatro de julho. Entre uma data e outra passam sessenta e cinco e trezentos dias, múltiplos de treze e vinte, que são os números do calendário ritual. Outro templo, o de Tulum, marca as mesmas datas, e a coincidência das outras faces com o zênite e o nadir provavelmente é casual.\n\nTambém se discute quando ele foi construído. Fala-se dos séculos oito ao doze, e para a última etapa há duas estimativas: entre o ano novecentos e o ano mil, ou o século onze. Não há uma única data segura.\n\nSua história recente também conta. O Instituto Carnegie pediu permissão para trabalhar em mil novecentos e vinte e quatro e iniciou a restauração em mil novecentos e vinte e sete, com arqueólogos mexicanos. Nos anos trinta, para entrar e explorar o interior, abriu-se uma passagem na esquina nordeste da escadaria norte. Durante anos os turistas também puderam subir. Por volta de dois mil e seis, após a queda mortal de uma visitante, o INAH fechou a subida. Hoje você pode contornar o edifício, mas não pode subir nem entrar.\n\nE ainda há mais embaixo. Esta pirâmide guarda outra pirâmide mais antiga, e embaixo há uma cavidade com água. Parte dessa história é contada em outras paradas do percurso.\n\nPor agora, fique aqui um momento e olhe a escadaria norte, a das cabeças de serpente."
+    },
+    "retos_observacion": {
+      "hash": "814b6c43c5a59b61",
+      "texto": [
+        "Localize as duas cabeças de serpente de pedra ao pé da escadaria norte",
+        "Conte os nove corpos escalonados: as escadarias os dividem ao meio e formam dezoito seções",
+        "Contorne o edifício e compare o lado sul, mais erodido, com a face norte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5dc286df61145e29",
+      "texto": {
+        "Altura": "uns 24 m de base mais 6 m do templo, uns 30 m no total",
+        "Base": "quadrada, 55,3 m de lado",
+        "Degraus": "uns 91 em cada lado; com a plataforma superior somam 365 (aproximado)",
+        "Época": "entre os séculos VIII e XII; a última etapa é estimada por volta de 900-1000 ou no século XI",
+        "Restauração": "desde 1927, com o Instituto Carnegie e arqueólogos mexicanos",
+        "Acesso": "desde cerca de 2006 não é permitido subir nem entrar"
+      }
+    },
+    "faq_mito": {
+      "hash": "dafe28e71e1d6526",
+      "texto": {
+        "pregunta": "Mito: É possível subir ao topo de El Castillo e entrar em seu templo interior.",
+        "respuesta": "Realidade: Desde cerca de 2006 o INAH fechou a subida e a entrada da pirâmide. É possível contorná-la e olhá-la de perto, mas não subir."
+      }
+    }
+  }
+}

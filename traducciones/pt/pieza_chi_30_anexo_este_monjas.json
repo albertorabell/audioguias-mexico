@@ -1,0 +1,55 @@
+{
+  "id": "chi_30_anexo_este_monjas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5b336e81005050e0",
+      "texto": "O Anexo Leste"
+    },
+    "frase_gancho": {
+      "hash": "ec2b597fa5308e55",
+      "texto": "Uma porta que é a boca de uma gigantesca máscara da chuva."
+    },
+    "puente_narrativo": {
+      "hash": "e6097543bb17c89d",
+      "texto": "Repare nas máscaras da fachada. Quando terminar, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "0cfb77ae9959f816",
+      "texto": "O Anexo Leste faz parte do edifício original de Las Monjas. Sua fachada está coberta de máscaras de Chaac, o deus da chuva. A portada é uma enorme máscara de Chaac, ou de Witz, o espírito da montanha, com a porta como sua boca. Acima corre uma serpente ondulante entalhada. O INAH diz que uma porta com inscrição lembra o estilo Chenes. Sua inscrição é calculada por volta do ano oitocentos e oitenta."
+    },
+    "guion_largo": {
+      "hash": "c97dcb3632ee3317",
+      "texto": "Esta é uma das fachadas mais espetaculares do sítio, e também uma das mais difíceis de explicar com certeza.\n\nSegundo o INAH, o Anexo faz parte da construção original de Las Monjas. Sua fachada tem muitas máscaras de Chaac, o deus da chuva, e uma porta com uma inscrição que lembra o estilo Chenes. O edifício principal tem três partes, e o Anexo Leste corresponde à ala leste.\n\nVárias descrições trazem detalhes. A fachada principal está entalhada como um enorme rosto de Chaac, ou de Witz, que é o espírito que habita as montanhas, e a porta funciona como sua boca. As duas figuras têm a ver com a chuva. Na cornija há uma serpente ondulante, que poderia ser a Serpente Emplumada. Também se descreve a câmara leste com a porta emoldurada por narizes curvos de Chaac, com quatro máscaras de cada lado, duas sobrepostas em cada canto, e uma crista com treliças e máscaras.\n\nOs detalhes variam conforme quem os descreve. O que convém reter é o essencial: máscaras de Chaac, uma portada de estilo Chenes e uma cornija com serpente.\n\nA inscrição hieroglífica da verga da câmara leste é calculada por volta do ano oitocentos e oitenta, segundo a contagem katún. O epigrafista Hermann Beyer registrou em mil novecentos e trinta e sete a decoração da fachada do Anexo Leste, embora não forneça datas de construção. Os estilos que esta construção mistura, Puuc, Chenes e Río Bec, foram comuns no Clássico Tardio em Yucatán.\n\nOlhe com calma a repetição das máscaras. Em uma região sem rios, pedir água era pedir vida.\n\nQuando terminar, siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "3a9d4932a0b44167",
+      "texto": [
+        "Procure a porta e tente ver, ao redor dela, a forma de uma boca e de narizes curvos",
+        "Conte quantas vezes a máscara de Chaac se repete em um trecho da fachada",
+        "Olhe a cornija e procure a serpente ondulante"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c1bba47855940429",
+      "texto": {
+        "Localização": "ala leste de Las Monjas",
+        "Decoração": "muitas máscaras de Chaac; portada que foi descrita como máscara de Chaac ou Witz, com a porta como boca",
+        "Cornija": "serpente ondulante",
+        "Estilo": "Chenes (INAH); Puuc, Chenes e Río Bec",
+        "Inscrição da verga": "por volta do ano 880 (aproximado)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0890c02d0e7da80",
+      "texto": {
+        "pregunta": "Mito: As máscaras da fachada representam diferentes governantes.",
+        "respuesta": "Realidade: O INAH as identifica como máscaras do deus da chuva, Chaac, repetidas na decoração."
+      }
+    }
+  }
+}

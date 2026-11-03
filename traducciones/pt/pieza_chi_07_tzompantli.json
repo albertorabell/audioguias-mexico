@@ -1,0 +1,60 @@
+{
+  "id": "chi_07_tzompantli",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "1b402fb72d217f3c",
+      "texto": "O Tzompantli, muro dos crânios"
+    },
+    "frase_gancho": {
+      "hash": "19537684377b1b04",
+      "texto": "Um muro de crânios talhados em pedra, e nenhum crânio é igual a outro."
+    },
+    "puente_narrativo": {
+      "hash": "01a3506df1ed7256",
+      "texto": "Siga alguns passos até a plataforma vizinha, a [Plataforma das Águias e dos Jaguares](chi_06_aguilas_jaguares), onde as águias sustentam corações."
+    },
+    "guion_corto": {
+      "hash": "dfb61fc4c2bbe393",
+      "texto": "Tzompantli é uma palavra náuatle que costuma ser traduzida como fileira de crânios. Esta plataforma em forma de tê, de cerca de cinquenta e cinco metros por doze, tem as paredes cobertas de crânios talhados. Calcula-se cerca de dois mil e quatrocentos, e eles variam notavelmente entre si. Os crânios aparecem enfiados na vertical, como em postes, e não na horizontal, como no centro do México. Isso ajuda a distinguir esta versão maia das mexicas. É o primeiro lugar conhecido da Mesoamérica com um tzompantli talhado em pedra. O que você vê foi reconstruído em mil novecentos e cinquenta e um."
+    },
+    "guion_largo": {
+      "hash": "bf94a21f91844e39",
+      "texto": "É uma das imagens mais impactantes de Chichén Itzá, e convém olhá-la com calma, sem perder de vista que é um monumento religioso de há mil anos.\n\nPrimeiro, a palavra. Tzompantli vem do náuatle e costuma ser traduzida como fileira ou muro de crânios. No centro do México, os mexicas colocavam crânios reais em postes de madeira. Aqui, os construtores os talharam em pedra. Chichén Itzá é o primeiro lugar conhecido da Mesoamérica com um tzompantli de pedra, e a ideia de torná-lo permanente pode ter nascido entre os maias do período Clássico Terminal, entre os anos oitocentos e mil e cem.\n\nA plataforma tem forma de tê. Mede cerca de cinquenta e cinco metros por doze, com uma escada central de cerca de seis metros e meio de largura no lado leste. Está orientada cerca de dezessete graus a leste em relação ao norte. As paredes têm quatro fileiras de crânios: a de cima e a de baixo formam molduras, e as demais cobrem os muros, que se apoiam sobre um talude inclinado.\n\nQuantos crânios há? Calcula-se cerca de dois mil e quatrocentos, embora outras estimativas deem cifras muito menores, de quinhentos ou de centenas. O que está claro é que os crânios variam notavelmente. Talvez tenham sido feitos por vários artistas, ou talvez representem pessoas específicas. Aparecem de perfil, enfiados em postes verticais. Os mexicas, por sua vez, os enfiavam de maneira horizontal.\n\nNo lado leste, perto da escada, há figuras masculinas de perfil, vinte no total, que avançam em procissão. Entre elas se alternam dezesseis águias grandes, cada uma com um coração humano nas garras. Ainda restam vestígios de pintura azul e vermelha. As molduras que emolduram os relevos são serpentes de cascavel: emplumadas em cima e segmentadas embaixo. Podem aludir ao céu e à terra.\n\nO edifício também tem uma história de pesquisa. Eduard Seler o descreveu em mil novecentos e nove, e o chamou de Mausoléu Dois. José Erosa Peniche o escavou em mil novecentos e vinte e sete, e Manuel Cirerol Sansores continuou em mil novecentos e quarenta. Em mil novecentos e cinquenta e um, Jorge Acosta e Ponciano Salazar o reconstruíram. Dentro encontraram dois crânios humanos com oferendas de jade, contas de concha e espelhos com mosaico de pirita.\n\nHá outro dado que vale a pena. Em Tula, a cidade do centro do México com a qual Chichén Itzá costuma ser comparada, há uma estrutura sem decoração que poderia ser contemporânea. Os especialistas ainda discutem como foi a relação entre as duas cidades, embora compartilhassem uma forma de entender a guerra e a arte.\n\nSiga agora para a plataforma vizinha, a [Plataforma das Águias e dos Jaguares](chi_06_aguilas_jaguares). Ali você voltará a ver águias com corações, mas em uma escala diferente."
+    },
+    "retos_observacion": {
+      "hash": "3151853ba5aac088",
+      "texto": [
+        "Repare que os crânios aparecem de perfil, e compare dois ou três: não são iguais",
+        "Localize as águias com corações nas garras, no lado leste",
+        "Procure as serpentes de cascavel que emolduram os relevos, emplumadas em cima e segmentadas embaixo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ae5012650ebac817",
+      "texto": {
+        "Forma": "plataforma em T, de cerca de 55 × 12 metros",
+        "Crânios": "cerca de 2 400 (outras estimativas dão menos)",
+        "Figuras": "20 figuras masculinas de perfil e 16 águias com corações, no lado leste",
+        "Época": "Clássico Terminal, por volta de 800-1100",
+        "Exploração": "Seler (1909), Erosa Peniche (1927), Cirerol Sansores (1940)",
+        "Reconstrução": "Jorge Acosta e Ponciano Salazar, 1951"
+      }
+    },
+    "faq_mito": {
+      "hash": "a35b1fc3a11efe0b",
+      "texto": {
+        "pregunta": "Mito: Os crânios do Tzompantli são reais.",
+        "respuesta": "Realidade: São relevos talhados em pedra. Dentro da plataforma foram encontrados dois crânios humanos com oferendas, mas os que você vê nas paredes são esculturas."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "chi_34_templo_serie_inicial",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e4c4238afd6a019e",
+      "texto": "Templo da Série Inicial"
+    },
+    "frase_gancho": {
+      "hash": "58d1c3fd3f4f2df6",
+      "texto": "A entrada de Chichén Velho: um templo de três corpos com uma verga datada do ano oitocentos e setenta e oito."
+    },
+    "puente_narrativo": {
+      "hash": "9957d7b813e7aa17",
+      "texto": "Percorra a praça norte até o [Templo dos Falos](chi_35_templo_falos), um palácio de dois andares."
+    },
+    "guion_corto": {
+      "hash": "ce780e7a286833a9",
+      "texto": "Você está no Grupo da Série Inicial, também chamado de Chichén Velho. É um conjunto residencial e cerimonial a sudoeste do centro de Chichén Itzá, com cerca de vinte e cinco estruturas em torno de duas praças, sobre uma plataforma cercada por muros. O templo que dá nome ao grupo é uma pirâmide de três corpos com uma única escadaria. Uma verga com data do ano oitocentos e setenta e oito, que provavelmente foi movida de seu lugar original, é uma de suas peças mais notáveis."
+    },
+    "guion_largo": {
+      "hash": "e8140b9f80f106e1",
+      "texto": "Chichén Velho é o nome popular de um lugar que, durante décadas, foi difícil de visitar.\n\nSegundo um boletim do INAH de fevereiro de dois mil e vinte e três, o Grupo da Série Inicial fica a sudoeste do centro de Chichén Itzá, cobre cerca de quatorze mil seiscentos e cinco metros quadrados e inclui vinte e cinco estruturas organizadas em torno de duas praças, sobre uma grande plataforma cercada por muros. Mistura áreas residenciais, administrativas e religiosas. Outras contagens dão números um pouco diferentes: vinte e sete edificações, ou mais de vinte e três. Convém ficar com a ideia de um conjunto de entre vinte e trinta construções.\n\nA data mudou o que se pensava sobre este lugar. O INAH diz que a ocupação se situa no Clássico Tardio, entre os anos seiscentos e oitocentos e cinquenta. Antes, acreditava-se que ele datava apenas do Clássico Terminal e do Pós-clássico inicial, por volta dos anos oitocentos a mil e duzentos. O Palácio dos Estuques deu as provas mais antigas de arquitetura em Chichén Itzá: estuque modelado de cores.\n\nO templo principal, a estrutura cinco C quatro, é uma pirâmide de três corpos com uma única escadaria. Seu templo superior é da época Sotuta. Segundo o INAH, a escadaria frontal fica a oeste e está associada a uma pedra de sacrifício; no nível de baixo há um Chac Mool, e dois atlantes servem de ombreiras da entrada. Sua verga traz uma data que corresponde a trinta de julho de oitocentos e setenta e oito. Um estudo técnico de dois mil e catorze diz que ela provavelmente foi movida de seu lugar original e que menciona algumas mulheres e homens e se refere a deuses e rituais.\n\nEdward Thompson explorou esta zona por volta de mil oitocentos e noventa e cinco, e o Instituto Carnegie se interessou por ela em mil novecentos e vinte e três. Peter Schmidt dirigiu, nos anos noventa, uma intervenção de grande escala.\n\nO INAH abriu Chichén Velho ao público em setembro de dois mil e vinte e três. Segundo o INAH, hoje ele é visitado às sextas e aos sábados, em dois turnos: das nove às onze e meia, e das doze às duas e meia. É preciso reservar na bilheteria da zona arqueológica, e você sempre vai com pessoal do INAH e um guia. Os grupos têm até cinquenta pessoas e o percurso dura cerca de duas horas e meia. Essas regras podem mudar: confirme-as antes de ir.\n\nSiga agora para o [Templo dos Falos](chi_35_templo_falos)."
+    },
+    "retos_observacion": {
+      "hash": "f6f609f3572ee677",
+      "texto": [
+        "Observe a pirâmide de três corpos com uma única escadaria",
+        "Procure o Chac Mool no nível baixo e os atlantes que servem de ombreiras",
+        "Repare no muro que cerca a plataforma do conjunto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f43608b3284221c",
+      "texto": {
+        "Conjunto": "Grupo da Série Inicial (Chichén Velho), cerca de 14 605 m², cerca de 25 estruturas em torno de duas praças",
+        "Templo da Série Inicial (5C4)": "pirâmide de três corpos com uma única escadaria",
+        "Verga": "data de 30 de julho de 878; provavelmente movida",
+        "Ocupação": "600-850 (Clássico Tardio), segundo o INAH",
+        "Exploração": "Thompson (por volta de 1895), Carnegie (1923), Schmidt (anos noventa)",
+        "Visita": "sexta e sábado, das 9h às 11h30 e das 12h às 14h30, com reserva na bilheteria da zona arqueológica, acompanhamento de guia e do INAH; até 50 pessoas por grupo e cerca de 2,5 horas (INAH; confirmar antes de ir)",
+        "Abertura ao público": "setembro de 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "d949c73d58de3a80",
+      "texto": {
+        "pregunta": "Mito: Chichén Velho é uma cidade distinta, anterior a Chichén Itzá.",
+        "respuesta": "Realidade: É o nome popular de um grupo dentro de Chichén Itzá. O INAH situa sua ocupação a partir do Clássico Tardio, antes do período mais conhecido do sítio."
+      }
+    }
+  }
+}

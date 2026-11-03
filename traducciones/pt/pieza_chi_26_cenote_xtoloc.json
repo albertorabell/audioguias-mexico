@@ -1,0 +1,56 @@
+{
+  "id": "chi_26_cenote_xtoloc",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3d23ef01bc868fa3",
+      "texto": "O Cenote Xtoloc"
+    },
+    "frase_gancho": {
+      "hash": "943c2d93b5a65133",
+      "texto": "O outro cenote de Chichén Itzá, que se acreditou ser só de água para beber e talvez tenha sido muito mais."
+    },
+    "puente_narrativo": {
+      "hash": "a8d9e98ffb3e296f",
+      "texto": "Aproxime-se com cuidado da borda do cenote. Quando terminar, volte pelo caminho e siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "fd84ee3acdce473f",
+      "texto": "Este é o Cenote Xtoloc, o segundo maior de Chichén Itzá. Seu nome vem de uma palavra maia que significa iguana. Durante muito tempo se disse que o Cenote Sagrado era o religioso e que este era o profano, o que fornecia água à população. Hoje, vários pesquisadores dizem que essa separação é simples demais. Um estudo de dois mil e dezoito encontrou escadas do caminho até a água, plataformas de alvenaria e três cavernas na parede noroeste. O templo que o contempla tem colunas com figuras de guerreiros."
+    },
+    "guion_largo": {
+      "hash": "0f57e8dfaa38f81a",
+      "texto": "Quando se pensa nos cenotes de Chichén Itzá, quase sempre se pensa no Sagrado. Este é o outro, e sua história ajuda a entender como as ideias mudam.\n\nO Cenote Xtoloc é o segundo maior do sítio. Seu nome vem de uma palavra maia para iguana. Ao lado dele se ergue o Templo de Xtoloc, com pilastras esculpidas com figuras humanas, plantas, aves e cenas mitológicas. Sua entrada central olha para o oeste, alinhada com o sacbé que leva ao Ossuário, e o altar interior tem baixos-relevos de plantas, aves e cenas míticas.\n\nDurante décadas se repetiu uma ideia: a de que o Cenote Sagrado era o lugar dos rituais, e que Xtoloc era o cenote profano, o que fornecia água de uso diário. Um resumo apresentado em dois mil e dezoito por Cristina Verdugo, Jeremy Coltman, James Brady e Guillermo de Anda diz que essa suposição se transformou em uma verdade repetida, e que por isso se deu pouca atenção ao lugar. Como exemplo, o templo nem sequer aparece no mapa da Instituição Carnegie, embora Ann Axtell Morris tenha escavado ali nos anos vinte.\n\nQuando o projeto Grande Aquífero Maia revisou todas as fontes de água do sítio, encontrou escadas do sacbé até a água, plataformas de alvenaria que davam forma ao espaço e três cavernas na parede noroeste do cenote. Outro resumo, de Brian Waldo, de dois mil e dezenove, diz que separar o sagrado do profano é uma ideia simplista, própria da nossa cultura. Ele argumenta que os sacbés conectavam os corpos de água ao centro da cidade.\n\nEsses são resumos de congresso, não artigos publicados, de modo que representam uma linha de pesquisa em andamento. Eles não dizem qual é a profundidade do cenote nem que objetos foram encontrados.\n\nA lição é que a água de Chichén Itzá era, ao mesmo tempo, prática e sagrada. Quando terminar, volte pelo caminho e siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "bed325aec35d6819",
+      "texto": [
+        "Procure a borda do cenote e observe a vegetação que pende sobre a água",
+        "Localize o templo que o contempla e suas pilastras com figuras",
+        "Pense no caminho que chega até aqui desde o Ossuário"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a36ffb04e66019c7",
+      "texto": {
+        "Tamanho": "segundo maior cenote de Chichén Itzá",
+        "Nome": "do maia, «iguana»",
+        "Templo de Xtoloc": "pilastras com pessoas, plantas e aves; entrada central a oeste",
+        "Descobertas do Grande Aquífero Maia": "escadas desde o sacbé, plataformas de alvenaria, três cavernas na parede noroeste",
+        "Escavação no templo": "Ann Axtell Morris, anos vinte",
+        "Profundidade e objetos": "sem dados publicados"
+      }
+    },
+    "faq_mito": {
+      "hash": "ce9d8e8343da4b48",
+      "texto": {
+        "pregunta": "Mito: O Cenote Xtoloc era apenas o poço de água cotidiano, sem valor ritual.",
+        "respuesta": "Realidade: É uma ideia tradicional que vários pesquisadores questionam hoje. Eles encontraram escadas, plataformas e cavernas que sugerem que o lugar também foi formalizado e cuidado."
+      }
+    }
+  }
+}

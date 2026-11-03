@@ -1,0 +1,56 @@
+{
+  "id": "chi_25_casa_venado_colorada",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e128551d4843eb2b",
+      "texto": "A Casa Colorada e a Casa do Cervo"
+    },
+    "frase_gancho": {
+      "hash": "6f893303c47d49e9",
+      "texto": "Uma casa que ainda conserva a marca de sua cor e outra da qual resta apenas a metade."
+    },
+    "puente_narrativo": {
+      "hash": "d7d58e3809fffd90",
+      "texto": "Siga em direção a [El Caracol](chi_27_el_caracol), a torre redonda do lado leste."
+    },
+    "guion_corto": {
+      "hash": "bd84eef619aa0c67",
+      "texto": "Você está diante da Casa Colorada, um dos edifícios mais bem conservados de Chichén Itzá. No século dezenove ainda se via pintura vermelha. Seu nome maia é Chichanchob, que o INAH relaciona com pequenos buracos. Uma inscrição entalhada traz uma data que corresponde ao ano oitocentos e sessenta e nove, e menciona cerimônias do fogo realizadas pelos senhores sob a supervisão do rei. Ao lado fica a Casa do Cervo, muito deteriorada, que recebe esse nome por causa de uma pintura de um cervo que já não existe."
+    },
+    "guion_largo": {
+      "hash": "c91ee1c27e6dddbf",
+      "texto": "Dois edifícios próximos, com destinos muito diferentes: um bem conservado e outro quase desaparecido.\n\nA Casa Colorada é a maior e a mais bem conservada dos quatro edifícios deste grupo. Seu nome vem de uma faixa vermelha que se vê no vestíbulo, e no século dezenove ainda havia pintura vermelha visível. Em maia, ela é conhecida como Chichanchob. O INAH diz que o nome poderia significar pequenos buracos, talvez pelas aberturas que há na crista do telhado.\n\nNo interior há um texto hieroglífico com uma data que se converte no ano oitocentos e sessenta e nove. O texto fala de cerimônias do fogo realizadas pelos senhores sob a supervisão do rei, e é uma das datas mais antigas do sítio. Desses mesmos hieróglifos se tomou outro nome antigo para o Akab Dzib, que você verá mais adiante. Atrás da casa, o INAH restaurou em dois mil e nove uma pequena quadra de jogo de bola.\n\nAo lado está a Casa do Cervo. Ela está muito deteriorada e só resta parte dela em pé. O nome se deve, segundo se diz, a uma pintura de um cervo que já não existe. Sua arquitetura se parece muito com a de Chichanchob: uma plataforma de cantos arredondados, uma fachada simples e um friso sem decoração. Sugeriu-se que provavelmente era um conjunto residencial ligado ao Osário. É uma hipótese.\n\nSiga agora em direção a [El Caracol](chi_27_el_caracol), uma torre redonda sobre uma plataforma."
+    },
+    "retos_observacion": {
+      "hash": "b64c3ff060b89ace",
+      "texto": [
+        "Procure os restos de pintura vermelha no vestíbulo e a faixa que dá nome à casa",
+        "Observe as aberturas da crista do telhado, que talvez tenham dado nome a Chichanchob",
+        "Compare a Casa Colorada, bem conservada, com a Casa do Cervo, da qual resta a metade"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ec4ab25cc2457b3",
+      "texto": {
+        "Nome maia": "Chichanchob, que o INAH relaciona com «pequenos buracos»",
+        "Data entalhada": "corresponde ao ano 869",
+        "Pintura vermelha": "ainda visível no século XIX",
+        "Restauração": "o INAH restaurou em 2009 uma pequena quadra atrás da casa",
+        "Casa do Cervo": "muito deteriorada; arquitetura parecida com a de Chichanchob",
+        "Uso proposto da Casa do Cervo": "conjunto residencial provavelmente ligado ao Osário (hipótese)"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a2a6cd3e6f1ff11",
+      "texto": {
+        "pregunta": "Mito: A Casa Colorada se chama assim porque continua pintada de vermelho.",
+        "respuesta": "Realidade: O nome vem de uma faixa vermelha do vestíbulo. No século XIX havia pintura vermelha visível, mas hoje resta muito pouca."
+      }
+    }
+  }
+}

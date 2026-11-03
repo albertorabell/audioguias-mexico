@@ -1,0 +1,56 @@
+{
+  "id": "chi_20_templo_mesas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1b9e78d71fe5518f",
+      "texto": "Templo das Grandes Mesas"
+    },
+    "frase_gancho": {
+      "hash": "351b4ce108ae3a38",
+      "texto": "Uma pirâmide de quatro corpos com pilastras que ainda conservam sua pintura."
+    },
+    "puente_narrativo": {
+      "hash": "93ca4a279e253701",
+      "texto": "Observe o templo por fora. Quando terminar, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "4d0afb88cfeaafb8",
+      "texto": "Este é o Templo das Grandes Mesas, ao norte do Templo dos Guerreiros. Foi descoberto em escavações de mil novecentos e noventa e três e noventa e quatro, coordenadas pelo arqueólogo Peter Schmidt. Tem uma base de quatro corpos e um pequeno templo no alto, com uma única entrada, voltada para o oeste. Suas pilastras conservam quase por completo o acabamento pintado. Há duas serpentes nas extremidades das alfardas, relevos de guerreiros no centro e uma mesa sustentada por atlantes na esquina nordeste."
+    },
+    "guion_largo": {
+      "hash": "9bafe6b07128c633",
+      "texto": "Este templo guarda algo que quase não se vê em Chichén Itzá: cor.\n\nO Templo das Grandes Mesas fica ao norte do Templo dos Guerreiros. Foi descoberto durante as escavações de mil novecentos e noventa e três e noventa e quatro, coordenadas por Peter Schmidt. É uma construção piramidal com uma base de quatro corpos e um pequeno templo na parte alta. Sua fachada principal olha para o oeste, e é o único acesso.\n\nO mais notável são suas pilastras. Elas ainda conservam quase integralmente o acabamento pictórico, ou seja, a pintura original. Até agora, apenas dois lados de cada pilastra foram deixados à vista. Na maior parte da praça vizinha, por outro lado, as pilastras do Grupo das Mil Colunas e do Mercado perderam quase toda a sua policromia.\n\nA decoração inclui duas serpentes nas extremidades das alfardas, relevos de guerreiros no centro e uma mesa sustentada por atlantes na esquina nordeste. Daí vem o nome. São altares apoiados em pequenas figuras masculinas, com os braços levantados. Na primeira abóbada foi encontrado um mural com uma serpente.\n\nNão confunda este edifício com o Templo das Mesinhas, que outro estudo situa perto do Palácio das Colunas Esculpidas.\n\nQuando terminar, siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "02dd50adcec16306",
+      "texto": [
+        "Conte os corpos da base: são quatro",
+        "Procure as serpentes nas extremidades das alfardas, junto à escada",
+        "Veja se você consegue distinguir restos de pintura nas pilastras"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bd8a76ef53f9f165",
+      "texto": {
+        "Localização": "ao norte do Templo dos Guerreiros",
+        "Escavação": "1993-1994, coordenada por Peter Schmidt",
+        "Forma": "base de quatro corpos e pequeno templo; um único acesso, voltado para o oeste",
+        "Pilastras": "conservam quase por completo o acabamento pintado",
+        "Decoração": "duas serpentes nas alfardas, guerreiros no centro, mesa com atlantes na esquina nordeste",
+        "Achado na abóbada": "mural com uma serpente"
+      }
+    },
+    "faq_mito": {
+      "hash": "f990703cf60dbca1",
+      "texto": {
+        "pregunta": "Mito: Todos os edifícios de Chichén Itzá eram de pedra cinzenta, sem cor.",
+        "respuesta": "Realidade: Havia pintura. Neste templo, as pilastras conservam quase por completo seu acabamento pintado, algo pouco comum no sítio."
+      }
+    }
+  }
+}

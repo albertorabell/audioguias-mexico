@@ -1,0 +1,60 @@
+{
+  "id": "chi_21_bano_vapor",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "31bb3efa0b8f36e9",
+      "texto": "O banho de vapor (temazcal)"
+    },
+    "frase_gancho": {
+      "hash": "250da0e0ff9176c4",
+      "texto": "Um banho de vapor maia: uma sala de espera, um banho de água e uma câmara aquecida com pedras."
+    },
+    "puente_narrativo": {
+      "hash": "1f86bb6cc3dd0b82",
+      "texto": "Olhe de fora a entrada do banho e suas três partes. Quando terminar, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "5445090daa857d6d",
+      "texto": "Isto é um banho de vapor, que em maia iucateque se chama pibná e em náuatle, temazcal. Tem três partes: uma galeria de espera, um banho de água e uma câmara de vapor aquecida com pedras. Funcionava como uma pequena sauna: aqueciam-se pedras em um fogão e jogava-se água sobre elas para produzir vapor. Está no grupo das Mil Colunas e é o único banho de vapor sobre a Grande Nivelação. Os especialistas pensam que esses banhos podem ter tido usos rituais, de cura ou de descanso, e que serviam às elites."
+    },
+    "guion_largo": {
+      "hash": "22758c04d2725d89",
+      "texto": "Um temazcal é um banho de vapor. A palavra é de origem náuatle. Em maia iucateque o banho de vapor se chama pibná, e pib, segundo o Dicionário Maia Cordemex, quer dizer banho de água quente e vapor de água. Um artigo de dois mil e catorze, publicado na revista Estudios de Cultura Maya, descreve esses banhos como um dos tipos de edifício mais singulares e menos estudados da civilização maia.\n\nPara entender o que você vê, ajuda saber como funcionava. Segundo um estudo de Antonio Benavides e Heber Ojeda, publicado pelo INAH em dois mil e quinze, esses banhos compartilham cinco traços: um fogão que aquece pedras, sobre as quais se joga água para produzir vapor; uma câmara pequena que retém o vapor; bancos; um canal ou declive no piso que escoa a água que sobra; e uma entrada baixa e estreita que evita que o calor escape. Às vezes havia nichos nas paredes e pequenas janelas para regular a temperatura.\n\nOs banhos de vapor são muito antigos no mundo maia. O mais antigo que se conhece é o de Cuello, em Belize, por volta do ano novecentos antes da nossa era. Muitos foram construídos perto do final do período Clássico, entre os anos oitocentos e cinquenta e mil. Hoje se conhecem pouco mais de cinquenta em toda a área maia.\n\nO de Chichén Itzá tem três partes. Primeiro há uma galeria de espera. Depois, um banho de água. E no fim, uma câmara de vapor, que era aquecida com pedras. É uma ordem lógica: espera-se, lava-se o corpo e entra-se no calor. O estudo de Benavides e Ojeda cita dois banhos em Chichén Itzá, com os códigos três E três e três C quinze, e diz que seu espaço interior gira em torno de quinze metros quadrados, que é a média desses edifícios. Uma diferença curiosa: os fogões de Chichén Itzá ficam em uma câmara muito pequena, ao contrário de outras cidades, onde o fogão fica na parede oposta à entrada.\n\nPara que eram usados? Os estudos propõem vários usos. Um é curativo: nas tradições que se conservam, o banho de vapor devolve o calor ao corpo e ajuda a suar as febres. Outro é ritual: em outro sítio, Acanmul, propôs-se que servia para purificar a elite. Também pode ter sido um lugar de descanso. Esses banhos estavam nas mãos das elites que os mandaram construir e faziam parte das zonas cívico-cerimoniais: não eram um serviço para todo o povo. Na época colonial, além disso, proibiu-se usá-los com fins de culto a divindades não cristãs.\n\nOs estudos não concordam totalmente sobre quantos banhos há em Chichén Itzá. Um estudo de dois mil e dezesseis diz que o banho de vapor do grupo das Mil Colunas é o único que existe sobre a Grande Nivelação, e que seu acesso é reservado, saindo da praça em direção ao leste. Por isso é melhor não dar um número de banhos no sítio.\n\nTampouco há datas precisas: Benavides só os situa em centros cerimoniais do período Clássico. É uma das paradas com menos dados de todo o percurso, mas pelo menos você sabe o que está olhando: uma pequena sauna de pedra, feita para o calor, a água e a purificação.\n\nQuando terminar de olhar, siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "2c157897c3f33aaa",
+      "texto": [
+        "Procure a entrada do banho e a galeria de espera",
+        "Imagine a câmara de vapor, pequena e aquecida com pedras",
+        "Pense na ordem: espera, água, calor",
+        "Pense por que esses banhos tinham a entrada baixa e estreita: para que o calor não escapasse"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4561c8ab83ec514b",
+      "texto": {
+        "Partes": "galeria de espera, banho de água e câmara de vapor com pedras quentes",
+        "Como funcionava": "um fogão aquecia pedras e jogava-se água sobre elas para produzir vapor",
+        "Espaço interior": "cerca de 15 m² (média desses banhos, segundo Benavides e Ojeda)",
+        "Localização": "grupo das Mil Colunas (González et al., 2016)",
+        "Nome maia": "pibná (plural pibnaob)",
+        "Banhos de vapor conhecidos na área maia": "pouco mais de 50",
+        "O mais antigo conhecido": "Cuello, Belize, por volta de 900 a.C.",
+        "Usos propostos": "ritual, curativo ou de descanso, a serviço das elites",
+        "Datas em Chichén Itzá": "sem dado preciso"
+      }
+    },
+    "faq_mito": {
+      "hash": "24233368d642b3f0",
+      "texto": {
+        "pregunta": "Mito: Esses banhos eram lugares de limpeza para todo o povo.",
+        "respuesta": "Realidade: Os estudos os associam às elites e a usos rituais, curativos ou de descanso, não ao uso diário de toda a população."
+      }
+    }
+  }
+}

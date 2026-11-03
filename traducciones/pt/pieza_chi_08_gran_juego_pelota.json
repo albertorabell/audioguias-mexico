@@ -1,0 +1,60 @@
+{
+  "id": "chi_08_gran_juego_pelota",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "ef611bef583fdc40",
+      "texto": "O Grande Jogo de Bola"
+    },
+    "frase_gancho": {
+      "hash": "ae1be7f22c00f74d",
+      "texto": "A maior quadra conhecida de Mesoamérica: mais de cento e sessenta metros de comprimento."
+    },
+    "puente_narrativo": {
+      "hash": "c2d5568588337440",
+      "texto": "Aproxime-se da base dos muros da quadra, onde estão as banquetas com relevos. Quando terminar, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "e2d5fed09dbc6b16",
+      "texto": "Você está no Grande Jogo de Bola, o maior que se conhece em Mesoamérica. O INAH o descreve com mais de cento e sessenta e oito metros de comprimento por setenta de largura, embora outras medições deem números um pouco menores. É o principal dos treze que se conhecem em Chichén Itzá e foi construído por volta do ano novecentos. Nas paredes laterais há anéis de pedra a cerca de oito metros de altura, com duas serpentes emplumadas entrelaçadas. Parecem aros de basquete, mas são interpretados antes como portais para o mundo subterrâneo. A especialista Linda Schele resumiu assim: não era um esporte."
+    },
+    "guion_largo": {
+      "hash": "139ddbcc57aa6c00",
+      "texto": "Você está na quadra de jogo de bola maior que se conhece em Mesoamérica. Dá para entender por quê quando você vê até onde ela chega.\n\nO INAH a descreve com mais de cento e sessenta e oito metros de comprimento por setenta de largura. Outra descrição, mais técnica, dá um comprimento total de cento e cinquenta e dois metros e meio e uma largura de uns setenta e um. A quadra propriamente dita mede uns trinta metros de largura, e cada muro lateral, uns noventa e seis metros e meio. As medidas variam conforme o que se mede. O certo é que é enorme.\n\nFoi construída por volta do ano novecentos, no período Clássico Terminal. Era uma época em que várias cidades maias do norte passaram do comando de um único governante para um conselho de nobres. É o principal dos treze jogos de bola documentados em Chichén Itzá. Uma inscrição em uma pedra circular traz a data de dezessete de novembro do ano oitocentos e sessenta e quatro, segundo uma leitura da pesquisadora Ruth Krochock, e alguns a tomaram como a dedicação da quadra. No entanto, há estudos que pensam que a quadra foi construída por volta do ano novecentos, talvez sobre outra anterior.\n\nO conjunto tem quatro grandes estruturas. A leste e a oeste há duas plataformas longas com banquetas, que trazem os relevos. Na parte de trás dessas plataformas, escadas sobem a cinco templos pequenos e ao Templo Superior dos Jaguares. E nas extremidades da quadra há mais dois templos, o Norte e o Sul.\n\nOlhe os anéis. Estão nos muros laterais, a grande altura acima do piso. O INAH registra um anel a uns oito metros. Têm entalhadas duas cascavéis emplumadas que se entrelaçam ao redor de seis círculos concêntricos. O INAH lembra que se acreditou que os jogadores tentavam passar a bola de borracha pelo aro, e que a imagem poderia simbolizar um portal para o mundo subterrâneo e um ciclo de morte e renascimento. Um anel entalhado está hoje exposto no Grande Museu de Chichén Itzá, dentro da zona arqueológica.\n\nHá uma ideia importante por trás de tudo isso. A especialista Linda Schele sustentou que o jogo de bola não era um esporte, mas um assunto sério, ligado à continuidade do Estado e ao contato com o outro mundo. Por isso os relevos das banquetas falam de sacrifício, e os anéis, do mundo subterrâneo.\n\nAinda falta uma peça para entender o lugar. Os arqueólogos escavaram uma seção de uns noventa metros da muralha que cercava o centro cerimonial, justo entre esta quadra e a entrada de pedestres oeste. Uma hipótese propõe que o Jogo de Bola foi erguido depois dessa muralha e do Templo Inferior dos Jaguares.\n\nQuando terminar, siga para a próxima parada do seu percurso. As banquetas com relevos estão na base dos muros, rente ao chão."
+    },
+    "retos_observacion": {
+      "hash": "0a341eec1b3d84d1",
+      "texto": [
+        "Olhe para os muros laterais e localize os anéis de pedra, a muitos metros acima do piso",
+        "Meça com os olhos o comprimento da quadra, de uma extremidade à outra",
+        "Identifique os dois templos das extremidades, o Norte e o Sul, e a plataforma lateral com as banquetas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "54ec939de8bbf154",
+      "texto": {
+        "Comprimento e largura": "mais de 168 × 70 metros segundo o INAH; outra descrição dá cerca de 152,5 × 70,75 metros",
+        "Época": "por volta do ano 900, Clássico Terminal",
+        "Anéis": "a cerca de 8 metros acima do piso, com duas serpentes emplumadas entrelaçadas",
+        "Estruturas": "duas plataformas laterais com banquetas, cinco templos pequenos, o Templo Superior dos Jaguares e os templos Norte e Sul",
+        "Quadras documentadas em Chichén Itzá": "13",
+        "Museu": "um anel entalhado está exposto no Grande Museu de Chichén Itzá"
+      }
+    },
+    "faq_mito": {
+      "hash": "e8e01786bc275d1d",
+      "texto": {
+        "pregunta": "Mito: No jogo de bola maia, jogava-se para passar a bola pelo aro, como em um esporte moderno.",
+        "respuesta": "Realidade: Os anéis são interpretados como portais para o mundo subterrâneo. A especialista Linda Schele sustentou que o jogo “não era um esporte”, mas algo ligado ao Estado e ao outro mundo."
+      }
+    }
+  }
+}

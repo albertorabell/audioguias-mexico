@@ -1,0 +1,64 @@
+{
+  "id": "chi_05_plataforma_venus",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "18353759b58471de",
+      "texto": "Plataforma de Vênus"
+    },
+    "frase_gancho": {
+      "hash": "8d4d34dc5f31ef26",
+      "texto": "Uma plataforma dedicada ao planeta Vênus, a poucos passos de El Castillo."
+    },
+    "puente_narrativo": {
+      "hash": "ab63f4a503e22021",
+      "texto": "Fique junto à plataforma baixa e olhe ao redor: você está no coração da praça. Quando terminar, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "6d8c7a104b80e113",
+      "texto": "Esta plataforma fica ao norte de El Castillo, a poucos passos da pirâmide, no caminho para o Cenote Sagrado. Ela é dedicada ao planeta Vênus. Segundo uma placa do INAH, foi originalmente pintada de vermelho, verde, ocre, azul e preto, e no centro traz o relevo de um homem-pássaro-serpente que é interpretado como Kukulcán em seu aspecto de estrela da manhã. Dentro dela foram encontrados grandes cones de pedra entalhados, e ninguém sabe para que serviam. Os maias acompanharam os movimentos de Vênus com muita atenção e os registraram em códices como o de Dresden."
+    },
+    "guion_largo": {
+      "hash": "6ab9759f32ccb9a9",
+      "texto": "Esta parada é curta, mas se conecta a uma ideia que percorre todo Chichén Itzá: os maias liam o céu.\n\nA Plataforma de Vênus fica ao norte de El Castillo, a poucos passos da pirâmide, no caminho para o Cenote Sagrado. Ela é dedicada ao planeta Vênus. Dentro da plataforma foram encontrados grandes cones de pedra entalhados, e sua função é desconhecida. É uma dessas perguntas que a arqueologia ainda não responde.\n\nSegundo uma placa do INAH, a plataforma foi originalmente pintada de vermelho, verde, ocre, azul e preto. Ela tem uma escada, e entre seus relevos há uma figura central: um homem-pássaro-serpente. A placa o interpreta como uma imagem de Quetzalcóatl-Kukulcán em seu aspecto de estrela da manhã. Nos cantos aparece o laço dos anos junto ao planeta Vênus. A placa também diz que na escada oriental foi encontrada uma oferenda, e que a plataforma provavelmente serviu de palco para cerimônias, ritos ou danças. São interpretações: a placa não informa dimensões nem data.\n\nPara entender por que Vênus importava, vale lembrar como os maias olhavam o céu. Eles tinham uma atenção especial por esse planeta, que aparece como estrela da manhã e como estrela da tarde. O Códice de Dresden, um dos poucos livros maias que sobrevivem, inclui tabelas para acompanhar seus ciclos. É uma forma de entender que o céu não era um pano de fundo: era um calendário que organizava a guerra, os rituais e as decisões dos governantes.\n\nDaqui, rumo ao norte, sai uma calçada reta de pedra que se perde entre a vegetação e leva ao cenote: o Sacbé número um.\n\nQuando terminar de olhar, siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "d4cd314182eb6543",
+      "texto": [
+        "Localize a plataforma baixa ao norte de El Castillo, a poucos passos da pirâmide",
+        "Procure os relevos que ainda se distinguem, como a figura central ou os dos cantos, se houver",
+        "Olhe para o norte e localize a calçada reta que se perde entre a vegetação"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1752b5b24fa4e82d",
+      "texto": {
+        "Localização": "ao norte de El Castillo, a poucos passos da pirâmide, a caminho do Cenote Sagrado",
+        "Dedicação": "ao planeta Vênus",
+        "Cores originais": "vermelho, verde, ocre, azul e preto (placa do INAH)",
+        "Relevo central": "homem-pássaro-serpente, interpretado como Kukulcán em seu aspecto de estrela da manhã (placa do INAH)",
+        "Achados": "grandes cones de pedra entalhados dentro da plataforma, de função desconhecida; uma oferenda na escada oriental",
+        "Possível uso": "palco de cerimônias, ritos ou danças",
+        "Referência": "o Códice de Dresden inclui tabelas de Vênus"
+      }
+    },
+    "faq_mito": {
+      "hash": "f6f97bf0600d0da8",
+      "texto": {
+        "pregunta": "Mito: Esta plataforma era um observatório astronômico comprovado.",
+        "respuesta": "Realidade: Ela é dedicada a Vênus, mas não há provas de que fosse um observatório. O que está documentado são seus cones de pedra, de função desconhecida, e relevos que são interpretados como palco de cerimônias."
+      }
+    }
+  }
+}

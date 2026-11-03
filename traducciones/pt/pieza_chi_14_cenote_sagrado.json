@@ -1,0 +1,60 @@
+{
+  "id": "chi_14_cenote_sagrado",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2e1a11bdf7134302",
+      "texto": "O Cenote Sagrado"
+    },
+    "frase_gancho": {
+      "hash": "fff0e3b277b7af2d",
+      "texto": "Um poço de sessenta metros de diâmetro onde foram lançados ouro, jade, copal e pessoas."
+    },
+    "puente_narrativo": {
+      "hash": "94569c1a60960f94",
+      "texto": "Quando terminar de se debruçar sobre o poço, volte com calma pelo sacbé até a praça. De lá, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "45ecbe7456a60709",
+      "texto": "Você está diante do Cenote Sagrado. Segundo o INAH, é um cenote aberto de sessenta metros de diâmetro. As paredes descem na vertical até a água. Os maias o associavam a Chaac, o deus da chuva, e durante séculos foram lançadas aqui oferendas: ouro, cobre, jade, cerâmica, copal, tecidos e também pessoas. Edward Thompson o dragou entre mil novecentos e quatro e mil novecentos e dez, e os restos humanos que encontrou são de homens, mulheres e crianças. O frei Diego de Landa escreveu em mil quinhentos e sessenta e seis que pessoas vivas eram lançadas em tempos de seca."
+    },
+    "guion_largo": {
+      "hash": "67b9c3db8da34093",
+      "texto": "Este poço é um dos lugares mais carregados de significado de todo Chichén Itzá, e também um dos mais debatidos.\n\nComecemos pelo aspecto físico. O INAH o descreve como um cenote a céu aberto, de sessenta metros de diâmetro. As paredes descem uns vinte e sete metros até o nível da água, embora outras medições apontem uns quinze. Seja qual for a cifra, é uma queda vertical impressionante. Ao contrário do cenote Xtoloc, que tradicionalmente foi visto como o que abastecia de água a população, este se associa a rituais dedicados a Chaac, o deus da chuva.\n\nSua fama vem do que foi encontrado. Em mil oitocentos e noventa e três, Edward Herbert Thompson comprou a fazenda de Chichén Itzá. Em mil novecentos e quatro, começou a dragar o cenote com uma draga e polias. Em mil novecentos e nove, chegou a mergulhar com dois mergulhadores gregos. Os trabalhos duraram até mil novecentos e dez, embora oficialmente tenham sido dados por encerrados em mil novecentos e vinte e três. Dali saíram ouro, cobre, jade entalhado, cerâmica, incenso, tecido e armas de madeira, além de restos humanos.\n\nHá um detalhe importante sobre esses objetos. Nem o ouro, nem o cobre, nem o jade são naturais de Yucatán. Vieram de outras regiões da América Central. Além disso, muitos objetos apareceram danificados de propósito antes de serem lançados. Alguns estudiosos pensam que era uma maneira de matar o objeto, como uma oferenda.\n\nSobre os restos humanos, o pesquisador Guillermo de Anda relatou, em dois mil e sete, que havia homens, mulheres e crianças. Muitas vítimas eram jovens, de entre seis e doze anos, e sobretudo do sexo masculino. Alguns esqueletos têm ferimentos compatíveis com sacrifício, e outros não. Isso continua em discussão.\n\nO testemunho escrito mais importante é o do frei Diego de Landa. Em mil quinhentos e sessenta e seis, ele escreveu que, em tempos de seca, pessoas vivas eram lançadas neste poço para pedir chuva. Mas ele não diz com que frequência isso acontecia, e seu testemunho não basta para saber quantas vezes aconteceu.\n\nDepois de Thompson houve mais explorações. Em mil novecentos e sessenta e um, uma expedição do INAH, da National Geographic e do grupo CEDAM resgatou objetos com ouro e mosaicos de jade. Em mil novecentos e sessenta e sete e sessenta e oito, o nível da água foi rebaixado uns quatro metros. A maior parte do material de Thompson foi parar no Museu Peabody de Harvard, e o museu devolveu metade ao México em mil novecentos e setenta, e mais em dois mil e oito.\n\nAgora pense na viagem. Este é o final do sacbé, a calçada que chega até aqui. Quem chegava havia atravessado a praça, havia caminhado pela calçada e se debruçava numa borda vertical sobre a água verde. É difícil imaginar uma encenação mais forte.\n\nVolte com calma pelo sacbé até a praça e siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "06959ee5065843ec",
+      "texto": [
+        "Maravilhe-se com a queda vertical das paredes até a água e calcule a olho a altura",
+        "Repare na cor da água e na vegetação que pende das bordas",
+        "Olhe de volta para o sacbé e imagine o percurso de quem chegava até aqui"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9eaa12bde83e82ef",
+      "texto": {
+        "Diâmetro": "cerca de 60 metros (INAH)",
+        "Queda até a água": "cerca de 27 metros (outras medições apontam cerca de 15)",
+        "Dragagem": "Edward H. Thompson, de 1904 a 1910 (oficialmente até 1923)",
+        "Achados": "ouro, cobre, jade entalhado, cerâmica, copal, tecido, armas de madeira e restos humanos",
+        "Origem dos metais": "ouro, cobre e jade não são de Yucatán",
+        "Testemunho escrito": "Diego de Landa, 1566, sobre pessoas lançadas em tempos de seca"
+      }
+    },
+    "faq_mito": {
+      "hash": "1df925db81bbf6c3",
+      "texto": {
+        "pregunta": "Mito: A cada ano uma jovem era lançada no Cenote Sagrado, e todos os restos humanos são de mulheres.",
+        "respuesta": "Realidade: Os restos são de homens, mulheres e crianças, e muitas vítimas eram jovens do sexo masculino. Landa fala de pessoas lançadas em períodos de seca, mas não diz com que frequência."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chi_04_subestructura_castillo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1ac227c526f6584b",
+      "texto": "O templo oculto, o trono do jaguar e o cenote sob El Castillo"
+    },
+    "frase_gancho": {
+      "hash": "bf81af0d4d048aa7",
+      "texto": "Dentro da pirâmide há outra, com um trono de jaguar vermelho e, embaixo, segundo a UNAM, uma cavidade com água."
+    },
+    "puente_narrativo": {
+      "hash": "49b1f21d9326a11b",
+      "texto": "Continue diante da pirâmide: o que esta parada conta está dentro e debaixo dela. Quando terminar, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "263391c9c6d6c4d4",
+      "texto": "Esta pirâmide guarda outra pirâmide. Em mil novecentos e trinta e um, arqueólogos começaram a explorar o interior para provar que El Castillo tinha sido erguido sobre um templo mais antigo. E o encontraram. Em sua câmara estavam um Chac Mool com unhas, dentes e olhos de madrepérola, e um trono em forma de jaguar pintado de vermelho com cinábrio, com incrustações de jade. Hoje esse interior está fechado ao público desde cerca de dois mil e seis. E há mais. Em dois mil e quinze, pesquisadores da UNAM e do INAH relataram, com uma técnica chamada tomografia elétrica, uma cavidade com água sob a pirâmide, sem escavar uma única pedra."
+    },
+    "guion_largo": {
+      "hash": "c1dd9e878c89fd92",
+      "texto": "O que você vê é apenas a camada externa. Dentro de El Castillo há um templo mais antigo e, embaixo, um enigma de água.\n\nComecemos pelo interior. Em abril de mil novecentos e trinta e um, arqueólogos começaram a explorar o edifício para comprovar uma ideia: que esta pirâmide tinha sido construída sobre outra. Eles tinham razão. Dentro há um templo anterior, de cerca de trinta e três metros de largura e cerca de dezessete de altura até a base do seu templo. Sua data é incerta. Uma estimativa o situa entre os anos seiscentos e oitocentos.\n\nNessa pirâmide interior apareceram duas câmaras. Em abril de mil novecentos e trinta e cinco, encontraram um Chac Mool, uma figura reclinada que sustenta um recipiente sobre o ventre. Os olhos, as unhas e os dentes estavam incrustados com madrepérola. Em agosto de mil novecentos e trinta e seis, encontraram outra sala, a poucos metros da primeira. Ela foi chamada de Câmara dos Sacrifícios. Havia duas fileiras de ossos humanos e uma escultura de jaguar vermelho.\n\nEssa escultura é o Trono do Jaguar Vermelho. Análises posteriores com fluorescência de raios X detectaram que a pintura vermelha contém cinábrio, um mineral de mercúrio. Acreditava-se que as manchas da pele eram discos de sílex, mas elas se revelaram de jadeíta, uma variedade de jade. As presas são conchas de caracol marinho. Desde dois mil e seis, o interior está fechado ao público, e o trono não é exibido.\n\nAgora, a água. A Universidade Nacional Autônoma do México e o INAH relataram, em dois mil e quinze, uma descoberta debaixo da pirâmide. Uma equipe do Instituto de Geofísica, liderada por René Chávez, com o engenheiro Andrés Tejero e a arqueóloga Denisse Argote, usou uma técnica chamada tomografia de resistividade elétrica tridimensional. Ela consiste em enviar corrente ao solo e medir como ele responde. Para não danificar os pisos antigos, usaram noventa e seis placas planas, coladas com gel médico. Os resultados foram publicados na revista Scientific Reports.\n\nO que detectaram é uma cavidade cheia de água doce. Segundo a Gaceta da UNAM, ela está a cerca de oito metros debaixo da pirâmide. Outras notícias de dois mil e quinze deram números maiores, de cerca de vinte metros de profundidade e um tamanho de vinte e cinco por trinta e cinco. Os números não coincidem, então convém ficar com o básico: há indícios de um corpo de água sob El Castillo. Ninguém o escavou.\n\nO pesquisador Chávez mencionou que poderia haver um sistema com entradas e saídas de água. Alguns arqueólogos pensam que ele poderia se conectar com os cenotes Xtoloc e Sagrado. Isso ainda não foi comprovado.\n\nCom a subestrutura, o jaguar e a água, a pirâmide ganha um sentido mais profundo. É um edifício que sobe ao céu, mas que também se apoia na água do mundo subterrâneo.\n\nQuando terminar aqui, siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "acc04f90321bf734",
+      "texto": [
+        "Procure, no canto nordeste da escadaria norte, a passagem que foi aberta nos anos trinta para explorar o interior",
+        "Imagine, dentro da pirâmide, o trono de jaguar vermelho com manchas de jade e presas de concha",
+        "Pense que, segundo a UNAM, sob o chão que você pisa há uma cavidade com água"
+      ]
+    },
+    "especificaciones": {
+      "hash": "32412be0b5bfe96e",
+      "texto": {
+        "Subestrutura": "templo anterior de cerca de 33 m de largura e cerca de 17 m de altura até a base do templo; sua data é incerta",
+        "Exploração": "desde abril de 1931",
+        "Chac Mool": "encontrado em abril de 1935, com olhos, unhas e dentes de madrepérola",
+        "Trono do Jaguar Vermelho": "pintura com cinábrio, manchas de jadeíta e presas de concha",
+        "Estudo com tomografia elétrica": "UNAM e INAH, 2015; publicado na Scientific Reports",
+        "Acesso": "o interior está fechado ao público desde cerca de 2006"
+      }
+    },
+    "faq_mito": {
+      "hash": "0fbd8b801250570d",
+      "texto": {
+        "pregunta": "Mito: Há um túnel aberto pelo qual se pode descer ao cenote que está sob El Castillo.",
+        "respuesta": "Realidade: A cavidade com água foi detectada com estudos feitos da superfície e ninguém a escavou. O interior da pirâmide está fechado ao público."
+      }
+    }
+  }
+}

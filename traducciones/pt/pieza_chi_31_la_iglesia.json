@@ -1,0 +1,61 @@
+{
+  "id": "chi_31_la_iglesia",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f731c9e645f7a9ce",
+      "texto": "La Iglesia"
+    },
+    "frase_gancho": {
+      "hash": "4b93a4804689435d",
+      "texto": "Um templo de uma única sala, com três máscaras de Chaac e quatro figuras que carregam o céu."
+    },
+    "puente_narrativo": {
+      "hash": "af0e04c2f847a9a7",
+      "texto": "Siga em direção ao leste e pare no [Akab Dzib](chi_32_akab_dzib), a casa da escrita obscura."
+    },
+    "guion_corto": {
+      "hash": "67635864737aeca3",
+      "texto": "Esta é La Iglesia, um pequeno templo ao lado de Las Monjas. Tem uma única sala abobadada e uma única porta, com a fachada voltada para o oeste. Parece uma capela retangular, e daí vem o seu nome. O friso tem três máscaras de Chaac feitas com mosaico de pedra, uma no centro e uma em cada canto. Nas laterais há nichos com figuras sentadas, que são identificadas com os quatro Bacabes, os deuses que sustentavam o céu."
+    },
+    "guion_largo": {
+      "hash": "95c76c8338e30ccb",
+      "texto": "É o menor edifício do grupo e um dos mais decorados.\n\nLa Iglesia é uma construção pequena, de um único cômodo e com uma única porta, parecida com uma capela retangular. Seu nome é posterior, e não se sabe com certeza de onde vem. Fica logo a leste de Las Monjas. Segundo o INAH, é uma construção com uma fachada decorada com elementos geométricos e representações de divindades, em estilo Puuc.\n\nCom mais detalhes, o edifício tem planta retangular, com um único cômodo abobadado. Sua fachada olha para o oeste, com uma entrada de verga de pedra. Acima da porta há duas faixas com gregas: uma simples, limitada por duas molduras, e outra, acima do friso, formada por barras serrilhadas em zigue-zague, que dão a impressão de uma serpente.\n\nO friso tem três máscaras de Chaac em mosaico de pedra, uma no centro e outra em cada canto, com os narizes enrolados. De cada lado da máscara central há um nicho com duas figuras sentadas. No lado norte aparecem uma figura alada com um peitoral oval, e outra com um caracol nas costas. No lado sul, uma figura com uma espécie de concha em volta do corpo, e outra com um casco de tartaruga. Elas são identificadas com os quatro Bacabes, os deuses que sustentavam o céu nas quatro direções, e alguns os consideram disfarçados de caranguejo, caracol, tatu e tartaruga. É uma interpretação, não um fato comprovado.\n\nSobre o edifício ergue-se uma crista decorada com mosaicos de pedra, em estilo Puuc. Quando foi descoberto, chamou a atenção pelo bom estado de conservação e pela riqueza de seus adornos.\n\nA ficha do INAH atribui ao grupo uma data aproximada de seiscentos a oitocentos da nossa era, embora outras descrições o situem no Clássico Terminal. As datas não coincidem.\n\nNão se conhecem dimensões publicadas nem o tipo de rituais que se realizavam lá dentro. O prudente é dizer que era um templo ou uma capela de uso desconhecido.\n\nContinue agora até o [Akab Dzib](chi_32_akab_dzib), a leste de El Caracol."
+    },
+    "retos_observacion": {
+      "hash": "43d34f853ff59d41",
+      "texto": [
+        "Procure as três máscaras de Chaac do friso: uma no centro e uma em cada canto",
+        "Localize os nichos laterais com figuras sentadas",
+        "Observe a faixa de barras em zigue-zague e pense se ela lembra uma serpente"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de8be6f7848acbcc",
+      "texto": {
+        "Tamanho": "pequeno, com uma única sala abobadada e uma porta",
+        "Fachada": "voltada para o oeste",
+        "Friso": "três máscaras de Chaac em mosaico de pedra",
+        "Nichos laterais": "duas figuras sentadas de cada lado (identificadas com os quatro Bacabes)",
+        "Estilo": "Puuc",
+        "Localização": "logo a leste de Las Monjas",
+        "Data": "Clássico Terminal, ou 600-800 segundo a ficha do INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "d831c92e8eac8a12",
+      "texto": {
+        "pregunta": "Mito: Chama-se La Iglesia porque os maias a usavam como igreja.",
+        "respuesta": "Realidade: O nome é posterior. É um templo pré-hispânico de uma única sala, parecido com uma capela, e não se sabe com certeza a origem exata do nome."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "chi_19_grupo_mil_columnas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "9d78d8ea0a3e8d37",
+      "texto": "A Grande Praça das Mil Colunas"
+    },
+    "frase_gancho": {
+      "hash": "3056d52a533c7607",
+      "texto": "Uma floresta de pilares: mais de duzentos e quarenta em uma única colunata."
+    },
+    "puente_narrativo": {
+      "hash": "09ec4387a33f03a6",
+      "texto": "Percorra com calma a floresta de colunas, à sombra. Quando terminar, siga para a próxima parada do seu roteiro."
+    },
+    "guion_corto": {
+      "hash": "653793cca26b973e",
+      "texto": "Esta é a praça das Mil Colunas. O nome exagera, mas não muito. O arqueólogo Peter Schmidt contou, em um estudo de dois mil e treze, duzentas e quarenta e três colunas e treze pilastras, em cinco fileiras, somente na colunata norte. Essa colunata mede oitenta e nove metros de leste a oeste por vinte e nove de norte a sul, sobre uma plataforma baixa. A praça completa mede cerca de vinte e quatro mil metros quadrados, pouco mais de dois hectares. Em várias colunas se conservam relevos de figuras com aspecto de guerreiros."
+    },
+    "guion_largo": {
+      "hash": "85cd0f81d819b54d",
+      "texto": "Diante de você se abre uma das praças mais estranhas de Chichén Itzá, porque seu atrativo não são as pirâmides, mas os pilares.\n\nComecemos pelo nome. O nome diz mil colunas, mas o número não é exato: é uma forma de dizer muitas. O que o arqueólogo Peter Schmidt de fato contou, em um estudo de dois mil e treze, é o seguinte. A colunata norte, que ele chama de estrutura dois D dez, ergue-se sobre uma plataforma baixa, de menos de um metro e setenta de altura. Mede oitenta e nove metros por vinte e nove, tem duas escadas, e nela havia duzentas e quarenta e três colunas e treze pilastras, distribuídas em cinco fileiras.\n\nUm estudo de González e seus colaboradores, de dois mil e dezesseis, calcula a praça completa em cerca de vinte e três mil novecentos e noventa e um metros quadrados, pouco mais de dois hectares. Descreve-a como uma praça fechada, com acesso limitado, cercada de edifícios com galerias de várias fileiras de colunas. O mesmo estudo situa neste grupo um banho de vapor e três quadras de jogo de bola. Esse banho tem sua própria parada nos roteiros mais longos.\n\nSchmidt recuperou quatro colunas esculpidas. A parte decorada de cada uma mede entre dois metros e meio e três metros, e os relevos se organizam em faixas horizontais, uma sobre a outra. Suas figuras usam traje militar. Daí surge uma proposta de Schmidt: que poderiam representar uma guarda especial ou um corpo militar, e não um grupo étnico vindo de fora. É uma hipótese. Durante anos se falou de toltecas, e esta leitura propõe outra coisa.\n\nO registro desses relevos foi iniciado pelos arqueólogos do Instituto Carnegie, sob a direção de Sylvanus Morley. O Projeto Arqueológico Chichén Itzá voltou a documentá-los entre mil novecentos e oitenta e três e dois mil.\n\nQuando terminar, siga para a próxima parada do seu roteiro."
+    },
+    "retos_observacion": {
+      "hash": "15a626d9dfd66516",
+      "texto": [
+        "Caminhe entre as colunas e conte uma fileira: você verá quantas são necessárias para sustentar um teto tão longo",
+        "Procure uma coluna com relevos e localize as faixas horizontais de figuras",
+        "Imagine o teto e a sombra que ele dava a quem se reunia aqui"
+      ]
+    },
+    "especificaciones": {
+      "hash": "912aa735992d92eb",
+      "texto": {
+        "Colunata norte": "89 × 29 m, sobre uma plataforma de até 1,70 m",
+        "Colunas e pilastras": "243 colunas e 13 pilastras em cinco fileiras",
+        "Praça completa": "cerca de 23 991 m² (pouco mais de dois hectares)",
+        "Colunas esculpidas recuperadas por Schmidt": "quatro, com 2,50 a 3 m de parte decorada",
+        "Dentro do grupo": "um banho de vapor e três quadras de jogo de bola",
+        "Estudos": "Schmidt, 2013; González et al., 2016"
+      }
+    },
+    "faq_mito": {
+      "hash": "327a20c445543ea0",
+      "texto": {
+        "pregunta": "Mito: Existem exatamente mil colunas.",
+        "respuesta": "Realidade: É um nome moderno. A colunata norte tinha 243 colunas e 13 pilastras, e outras descrições falam de cerca de 200."
+      }
+    }
+  }
+}

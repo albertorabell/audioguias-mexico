@@ -1,0 +1,60 @@
+{
+  "id": "chi_39_final_memoria",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "0ecee9076e3fd397",
+      "texto": "Abandono, redescobrimento e memória"
+    },
+    "frase_gancho": {
+      "hash": "56c76f2e1d20d638",
+      "texto": "Uma cidade que perdeu seu poder, mas nunca foi totalmente esquecida."
+    },
+    "puente_narrativo": {
+      "hash": "8f44808bd217e255",
+      "texto": "Este é o fim do percurso. Obrigado por percorrer Chichén Itzá e, se quiser continuar, volte a [El Castillo](chi_02_castillo_general) com outros olhos."
+    },
+    "guion_corto": {
+      "hash": "ecef37086bff969a",
+      "texto": "Por volta do ano mil e cem, Chichén Itzá já havia perdido seu papel de centro regional. Mesmo assim, a cidade talvez nunca tenha sido totalmente abandonada: quando os espanhóis chegaram, havia gente vivendo ali ou por perto. Em mil quinhentos e trinta e dois, Francisco de Montejo, o Jovem, tentou fazer dela sua capital e, em mil quinhentos e trinta e quatro, a abandonou de noite, depois de um cerco. Em mil quinhentos e oitenta e oito, era uma fazenda de gado. Desde mil novecentos e oitenta e oito, é Patrimônio da Humanidade."
+    },
+    "guion_largo": {
+      "hash": "3023abbc0e80a253",
+      "texto": "Vamos encerrar com uma pergunta: o que aconteceu com Chichén Itzá?\n\nPor volta do ano mil e cem, a cidade já havia declinado como centro regional, antes de Mayapán se erguer. A atividade das elites cessou, mas a cidade talvez não tenha ficado vazia. Quando os espanhóis chegaram, havia população no local ou em um povoado próximo. Além disso, durante a conquista, peregrinos maias ainda faziam rituais no Cenote Sagrado, em El Castillo e no Ossuário.\n\nSobre a queda, há uma história que aparece em fontes coloniais: a de Hunac Ceel e a guerra com Mayapán. Mas a arqueologia a discute, porque Mayapán não teria conseguido saquear uma cidade ainda ativa. A causa do declínio continua sem resposta.\n\nA presença dos espanhóis foi breve. Francisco de Montejo obteve, em mil quinhentos e vinte e seis, a licença para conquistar Yucatán. Em mil quinhentos e trinta e dois, seu filho, Francisco de Montejo, o Jovem, quis fazer de Chichén Itzá sua capital e a rebatizou de Ciudad Real. Os maias cercaram os espanhóis. Depois de perder cento e cinquenta soldados em um assalto fracassado, Montejo abandonou a cidade de noite, em mil quinhentos e trinta e quatro. Em mil quinhentos e oitenta e oito, o lugar era uma fazenda de gado. Diego de Landa, o frade, a visitou no século dezesseis e ficou impressionado com seu tamanho.\n\nO mundo moderno a redescobriu. O livro de John Lloyd Stephens, ilustrado por Frederick Catherwood, de mil oitocentos e quarenta e três, a tornou famosa. Désiré Charnay a fotografou por volta de mil oitocentos e sessenta. Em mil oitocentos e noventa e quatro, Edward Thompson comprou a fazenda e, entre mil novecentos e quatro e mil novecentos e dez, dragou o Cenote Sagrado. Em mil novecentos e vinte e três, chegou o Instituto Carnegie. Em mil novecentos e vinte e seis, o governo mexicano confiscou a fazenda de Thompson, e a Suprema Corte decidiu a seu favor anos depois; as datas variam entre mil novecentos e quarenta e quatro e quarenta e cinco. Parte dos objetos voltou ao México em mil novecentos e setenta e em dois mil e oito.\n\nEm mil novecentos e oitenta e oito, a UNESCO a declarou Patrimônio da Humanidade. Em dois mil e sete, El Castillo foi eleito uma das novas sete maravilhas, em uma votação com patrocínio comercial cujo método foi criticado.\n\nPor isso Chichén Itzá não é apenas uma ruína: é um lugar com memória, que continuou recebendo as pessoas da região mesmo quando já não era uma capital.\n\nObrigado por caminhar conosco."
+    },
+    "retos_observacion": {
+      "hash": "8c8e85427e5a2160",
+      "texto": [
+        "Olhe pela última vez para El Castillo e se pergunte que parte do que você viu é original e que parte foi restaurada",
+        "Pense em quantas pessoas diferentes a exploraram, desenharam e estudaram",
+        "Lembre-se de um detalhe que tenha surpreendido você e compartilhe com alguém"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4413e33c0de2215a",
+      "texto": {
+        "Declínio": "por volta do ano 1100, como centro regional",
+        "Conquista": "Montejo, carta de 1526; tentativa de capital em 1532; abandono em 1534",
+        "Fazenda de gado": "já em 1588",
+        "Redescobrimento": "Stephens e Catherwood (livro de 1843), Charnay (por volta de 1860), Thompson (1894), Carnegie (1923)",
+        "Patrimônio da Humanidade": "UNESCO, 1988",
+        "Novas sete maravilhas": "2007 (método criticado)"
+      }
+    },
+    "faq_mito": {
+      "hash": "b71e92300d0f0761",
+      "texto": {
+        "pregunta": "Mito: Chichén Itzá foi abandonada de repente e ficou vazia até a chegada dos exploradores.",
+        "respuesta": "Realidade: A atividade das elites cessou por volta de 1100, mas a cidade talvez nunca tenha sido totalmente abandonada: havia população quando os espanhóis chegaram e continuaram a ser feitos rituais."
+      }
+    }
+  }
+}

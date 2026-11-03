@@ -1,0 +1,56 @@
+{
+  "id": "chi_12_templo_jaguares",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0c6b3f3927b517dd",
+      "texto": "Templo dos Jaguares"
+    },
+    "frase_gancho": {
+      "hash": "50da5f977047cf94",
+      "texto": "Um templo pequeno com murais de batalhas e outro, embaixo, com uma procissão de mais de cem figuras."
+    },
+    "puente_narrativo": {
+      "hash": "6953c20041fbfbd8",
+      "texto": "Quando você terminar de ver os templos da quadra, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "d120546e59de0150",
+      "texto": "Aqui há dois templos, um em cima do outro. O Templo Superior dos Jaguares tem dezesseis metros de altura. No interior há murais de batalhas, sob o olhar de dois antepassados: o Capitão Serpente e o Capitão Escudo Solar, ou Disco Solar. Embaixo, ao nível da praça, o Templo Inferior é uma câmara pequena, com pouco mais de nove metros de comprimento. Ele olha para o leste, na direção do Templo dos Guerreiros. Seu interior guarda uma procissão em seis níveis, da qual sobrevivem cento e onze figuras em pé. Os pesquisadores a interpretam como a ascensão de um governante."
+    },
+    "guion_largo": {
+      "hash": "4d99211b83ebe962",
+      "texto": "Estes dois templos, um sobre o outro, fazem parte do conjunto do Jogo de Bola e contam uma história de guerra e de poder.\n\nComecemos por cima. Segundo um estudo técnico de dois mil e dezessete, o Templo Superior dos Jaguares mede cerca de dezessete metros de norte a sul e cerca de onze de leste a oeste, e sua altura total é de cerca de dezesseis metros. No interior se conservam murais com cenas de batalhas dos itzás. Os personagens principais são dois: o Capitão Serpente e o Capitão Disco Solar, ou Escudo Solar, segundo quem os nomeie. São nomes modernos para figuras que os especialistas interpretam como antepassados. Uma verga de madeira se conserva em sua posição original.\n\nA especialista Linda Schele propôs uma leitura. Segundo ela, este templo recorda as guerras que fundaram o império dos itzás, e seus emblemas unem o jogo ao Escudo de Sílex e à Serpente de Guerra. É uma interpretação, mas mostra como, para os antigos habitantes, o jogo, a guerra e a história estavam muito unidos.\n\nAgora baixe o olhar. Ao nível da praça está o Templo Inferior dos Jaguares. É uma câmara pequena: cerca de nove metros e meio de comprimento, três de largura e quatro e meio de altura. Sua fachada olha para o oriente, na direção do Templo dos Guerreiros. Nela aparecem dez figuras.\n\nO mais impressionante está dentro. As paredes e as abóbadas são cobertas por uma procissão que se organiza em seis níveis. Sobrevivem cento e onze figuras em pé. Os pesquisadores interpretam a cena como a ascensão de um governante. A figura central estaria no terceiro nível da parede ocidental. Propõem também que o antepassado K'ak'upakal aparece representado como o Capitão Escudo Solar. São hipóteses, e é importante ouvi-las assim.\n\nHá mais uma pista sobre a data. No Grande Jogo de Bola há uma pedra circular com uma data de contagem longa, que equivale ao dia dezessete de novembro do ano oitocentos e sessenta e quatro. Ela foi tomada como a dedicação da quadra. Mas há pesquisadores que acreditam que a quadra foi construída por volta do ano novecentos, talvez sobre outra anterior, e que o Templo Inferior foi acrescentado depois, pelo lado leste.\n\nSe você se aproximar, verá que o Templo Inferior está rente ao chão, e seus murais interiores não são visíveis do lado de fora. A maioria dos visitantes os conhece por fotografias e desenhos.\n\nQuando terminar, siga para a próxima parada do seu percurso. Se você for em direção ao nordeste, verá uma calçada reta que se perde entre a vegetação: é o Sacbé número um, o caminho branco que leva ao Cenote Sagrado."
+    },
+    "retos_observacion": {
+      "hash": "0ce19557ed54cadf",
+      "texto": [
+        "Procure o templo pequeno que fica sobre a plataforma oriental da quadra: é o Templo Superior dos Jaguares",
+        "Localize, ao nível da praça, a fachada do Templo Inferior, que olha para o Templo dos Guerreiros",
+        "Imagine, dentro do templo inferior, uma procissão de mais de cem figuras em seis níveis"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c5a39157ff76c62f",
+      "texto": {
+        "Templo Superior": "cerca de 17,1 × 11,1 metros de base e cerca de 16 metros de altura total",
+        "Murais do Templo Superior": "batalhas dos itzás, com dois antepassados, o Capitão Serpente e o Capitão Escudo Solar (ou Disco Solar)",
+        "Templo Inferior": "cerca de 9,46 × 3,06 metros, 4,56 metros de altura",
+        "Procissão interior": "seis níveis; sobrevivem 111 figuras em pé",
+        "Fachada do Templo Inferior": "dez figuras",
+        "Estudo": "González et al., 2017; Arqueología Mexicana (Velázquez Morlet)"
+      }
+    },
+    "faq_mito": {
+      "hash": "22f1e4a60ae353e8",
+      "texto": {
+        "pregunta": "Mito: Os dois capitães dos murais são personagens históricos com esses nomes.",
+        "respuesta": "Realidade: São nomes modernos que os especialistas dão a figuras que interpretam como antepassados. Até se usam nomes diferentes: Disco Solar e Escudo Solar."
+      }
+    }
+  }
+}

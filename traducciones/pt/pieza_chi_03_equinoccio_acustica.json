@@ -1,0 +1,56 @@
+{
+  "id": "chi_03_equinoccio_acustica",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "544f559577dfb49e",
+      "texto": "A descida de Kukulcán e o eco do quetzal"
+    },
+    "frase_gancho": {
+      "hash": "d6ee7e666c11297c",
+      "texto": "Luz que desenha uma serpente na escadaria e uma palma cujo eco volta como o canto de uma ave."
+    },
+    "puente_narrativo": {
+      "hash": "3af23a6afb12ecfa",
+      "texto": "Fique no canto da escadaria, onde o eco se ouve melhor. Quando terminar, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "07b815dff791f9eb",
+      "texto": "Olhe a borda inclinada que acompanha os degraus, a alfarda. Por volta dos equinócios de primavera e outono, no fim da tarde, o Sol atinge o canto noroeste da pirâmide e projeta triângulos de sombra sobre essa alfarda. Com o movimento do Sol, parece que uma serpente desce pela escada. Conta-se que são sete triângulos, e milhares de pessoas vão vê-lo. Ninguém sabe ao certo se os construtores o projetaram de propósito, porque o efeito aparece por várias semanas em torno dessas datas. Agora faça um teste: dê uma palma forte diante da escadaria. O eco que volta soa como o canto de um quetzal."
+    },
+    "guion_largo": {
+      "hash": "7c4e778231b2e00a",
+      "texto": "Esta escadaria guarda dois fenômenos, um de luz e outro de som. Os dois tornaram El Castillo famoso.\n\nO primeiro é o da luz. Por volta dos equinócios de março e setembro, no fim da tarde, o Sol toca o canto noroeste da pirâmide. Os cantos dos terraços projetam sombras em forma de triângulo sobre a alfarda noroeste, a borda inclinada que acompanha a escada. Enquanto o Sol desce, as sombras se movem e dão a impressão de uma serpente que se arrasta desde o alto até a cabeça de pedra da base. Costuma-se dizer que são sete triângulos, e nas datas do equinócio de primavera, milhares de pessoas se reúnem para vê-lo.\n\nMas há uma pergunta que os especialistas deixam em aberto. Não se sabe se o fenômeno foi projetado de propósito. O efeito pode ser visto durante várias semanas em torno de cada equinócio, não apenas em um dia exato. Isso torna difícil afirmar que os construtores o buscaram, embora a Serpente Emplumada que coroa a escadaria e as cabeças de pedra do pé tornem a imagem muito natural.\n\nO segundo fenômeno é o som. Fique diante da escadaria e dê uma palma seca. O que volta não é um eco normal. É um chiado curto que desce de tom, parecido com o canto do quetzal, a ave de plumas verdes que se associa a Kukulcán. Isso foi estudado, desde mil novecentos e noventa e oito, pelo engenheiro acústico David Lubman. Sua proposta é que o som se deve à forma da escada: cada degrau devolve um pequeno eco, e a soma de todos soa como um tom que desce. Alguns pesquisadores acreditam que os construtores buscaram esse efeito de propósito. É uma hipótese, não um fato comprovado.\n\nVale a pena experimentar com calma. Se houver muita gente, o ruído de fundo pode encobrir o efeito. Se houver silêncio, você o ouvirá com clareza. É uma das poucas vezes em que uma pirâmide responde quando você fala com ela.\n\nAs duas experiências têm algo em comum. No equinócio, a escada se transforma em uma serpente que desce. Com a palma, a escada canta como a ave que dá suas plumas a essa serpente. Seja intencional ou não, o edifício mostra uma relação entre a luz, o som e o deus que o habita.\n\nA pirâmide guarda ainda mais. Sob estas pedras há outro templo e, segundo estudos recentes, uma cavidade com água. Quando terminar aqui, siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "8265d6a5d3e34cfe",
+      "texto": [
+        "Fique diante da escadaria norte, dê uma palma forte e seca, e escute o eco que volta",
+        "Acompanhe com o olhar a alfarda, a borda inclinada da escada, até a cabeça de serpente de pedra",
+        "Imagine as sombras dos terraços caindo sobre a alfarda ao entardecer"
+      ]
+    },
+    "especificaciones": {
+      "hash": "064c62ca325479b1",
+      "texto": {
+        "Fenômeno de luz": "sombras triangulares na alfarda noroeste, por volta dos equinócios (março e setembro), no fim da tarde",
+        "Quantos triângulos": "costuma-se dizer que sete",
+        "Duração": "o efeito pode ser visto durante várias semanas em torno de cada equinócio",
+        "Fenômeno de som": "a palma volta como um chiado que desce de tom, parecido com o quetzal",
+        "Estudo": "David Lubman, desde 1998",
+        "Intenção": "não se sabe ao certo se foi projetado de propósito"
+      }
+    },
+    "faq_mito": {
+      "hash": "feb182b9756c1d67",
+      "texto": {
+        "pregunta": "Mito: O efeito da serpente só pode ser visto no dia exato do equinócio.",
+        "respuesta": "Realidade: Ele pode ser visto durante várias semanas em torno de cada equinócio, e os especialistas não sabem ao certo se os construtores o projetaram de propósito."
+      }
+    }
+  }
+}

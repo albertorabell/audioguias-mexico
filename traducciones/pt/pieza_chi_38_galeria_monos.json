@@ -1,0 +1,57 @@
+{
+  "id": "chi_38_galeria_monos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "abd897725ed4146e",
+      "texto": "A Galeria dos Macacos"
+    },
+    "frase_gancho": {
+      "hash": "a7bc72ae119bf235",
+      "texto": "Uma galeria de trinta e seis metros com mais de sessenta macacos esculpidos e aves que os atacam."
+    },
+    "puente_narrativo": {
+      "hash": "7b2c809aa3a8afc3",
+      "texto": "Aqui termina a visita a Chichén Velho. Quando você terminar de olhar a galeria, volte com seu guia pelo caminho de entrada."
+    },
+    "guion_corto": {
+      "hash": "f32e69f40f82d29a",
+      "texto": "A Galeria dos Macacos, ou Templo dos Macacos, fica no lado oeste da praça sudoeste de Chichén Velho. Mede quase trinta e seis metros de comprimento por cinco e meio de largura, e cerca de quatro metros e meio de altura. Suas molduras trazem mais de sessenta macacos em alto-relevo. O friso tem dezesseis grandes painéis: seis com senhores sentados sobre faixas celestes, e dez com aves que atacam macacos dançarinos. Um dos senhores foi lido como Dez Cervo."
+    },
+    "guion_largo": {
+      "hash": "93bd315f86679e93",
+      "texto": "Esta galeria explica o próprio nome: basta olhar a fachada.\n\nSegundo o relatório de Peter Schmidt e Rocío González de la Mata, de dois mil e sete, a estrutura cinco C seis fica no lado oeste da praça sudoeste. O Projeto Arqueológico Chichén Itzá a escavou e restaurou em parte entre mil novecentos e noventa e nove e dois mil e cinco. Mede quase trinta e seis metros de norte a sul e cinco metros e quarenta e cinco centímetros de largura, com uma altura externa de quatro metros e meio. No lado leste, aberto para a praça, há nove colunas, e uma segunda fileira de dez atrás. Karl Ruppert, em mil novecentos e cinquenta e dois, tinha contado apenas oito.\n\nPara entender o nome, basta ver o que ela conta. Mais de sessenta macacos em alto-relevo decoram as molduras. O friso tem dezesseis painéis grandes. Em seis deles, senhores principais estão sentados sobre faixas celestes e seguram hastes que terminam em cabeças de serpente. Seus glifos são lidos como dez cachorro ou dez cervo, embora os especialistas deixem a leitura com um ponto de interrogação. Nos outros dez painéis, figuras de homem-ave, talvez disfarçadas, atacam macacos que dançam. Cada esquina tem duas máscaras sobrepostas. Um estudo de dois mil e catorze relaciona o senhor do relevo com Dez Cervo, o ocupante de maior posição do grupo.\n\nSobre seu uso, Schmidt e González de la Mata descartam o mais óbvio. Os objetos encontrados não correspondem a uma casa, a um santuário nem a um posto militar. Eles a comparam com os pórticos de peregrinos da época colonial, galerias onde as pessoas se hospedavam e trabalhavam, e propõem que o lado aberto para a praça permitia supervisionar o trabalho de fora.\n\nA galeria teve um fim ruim. As vigas de madeira caíram e queimaram, e considera-se provável que o fogo tenha sido intencional. Depois houve uma ocupação breve. Na superfície foram recolhidos quase quatro mil e quinhentos fragmentos de cerâmica, quase todos da fase Sotuta.\n\nPerto dali, um chultún, que é uma cisterna escavada na rocha, tem cerca de cinco metros de profundidade. Perto do fundo apareceram seis crânios. Interpreta-se como uma limpeza apressada depois de um desastre.\n\nAqui termina a visita a Chichén Velho. Volte com seu guia pelo caminho de entrada."
+    },
+    "retos_observacion": {
+      "hash": "5170575d86256d6e",
+      "texto": [
+        "Procure nas molduras os macacos em alto-relevo e conte alguns",
+        "Localize o friso com as aves que atacam os macacos e os senhores sentados",
+        "Olhe as colunas do lado aberto para a praça: são nove"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c8060c9a73c89c9e",
+      "texto": {
+        "Estrutura": "5C6, lado oeste da praça sudoeste",
+        "Dimensões": "quase 36 m de comprimento, 5,45 m de largura, 4,50 m de altura",
+        "Colunas do lado leste": "9, e uma segunda fileira de 10",
+        "Friso": "16 painéis; 6 com senhores sentados em faixas celestes e 10 com aves atacando macacos",
+        "Macacos nas molduras": "mais de 60",
+        "Trabalhos": "escavação e restauração parcial, 1999-2005",
+        "Personagem": "Dez Cervo (leitura com interrogação)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c259fa225bffe34a",
+      "texto": {
+        "pregunta": "Mito: Os macacos da galeria eram macacos de verdade criados no templo.",
+        "respuesta": "Realidade: São relevos. Mais de 60 macacos decoram as molduras e o friso mostra aves atacando macacos dançarinos."
+      }
+    }
+  }
+}

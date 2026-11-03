@@ -1,0 +1,56 @@
+{
+  "id": "chi_13_sacbe_uno",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b2a51451617dbeb9",
+      "texto": "O Sacbé número 1"
+    },
+    "frase_gancho": {
+      "hash": "2969530dd5e5f238",
+      "texto": "Um caminho branco de pedra, reto e elevado, que leva da praça à beira da água sagrada."
+    },
+    "puente_narrativo": {
+      "hash": "b36faea0950c1878",
+      "texto": "Siga a calçada até o final. Ali, entre as árvores, está o [Cenote Sagrado](chi_14_cenote_sagrado), o poço mais famoso de Chichén Itzá."
+    },
+    "guion_corto": {
+      "hash": "1b0bf67611f67142",
+      "texto": "Você está sobre um sacbé, uma palavra maia que quer dizer caminho branco. É uma calçada elevada de pedra calcária, a maior e mais elaborada do sítio: mede cerca de duzentos e setenta metros de comprimento e nove metros de largura em média. Outras medições chegam a cerca de trezentos metros. Ela liga a praça principal ao Cenote Sagrado. Enquanto caminha, pense em quem passou por aqui: sacerdotes, governantes e, talvez, visitantes de terras distantes, porque as oferendas encontradas no cenote incluem ouro, cobre e jade que não são de Yucatán."
+    },
+    "guion_largo": {
+      "hash": "d1059db2ffaeea2c",
+      "texto": "Um sacbé é um caminho, mas também é uma ideia. Em maia, sacbé quer dizer caminho branco. Eram calçadas elevadas, de pedra, que uniam grupos de edifícios.\n\nEste é o Sacbé número um, a calçada maior e mais elaborada de Chichén Itzá. Mede cerca de duzentos e setenta metros de comprimento e nove de largura em média. Outras medições chegam a cerca de trezentos metros. A diferença provavelmente vem da forma de medir, e convém ficar com a ideia de que ele é longo, reto e largo.\n\nSua função era unir. Em uma extremidade está a grande praça, com El Castillo e o Jogo de Bola. Na outra, o Cenote Sagrado. É provável que procissões passassem por aqui. A arqueologia não pode afirmar isso, mas a forma do caminho sugere: reto, elevado e voltado para um destino.\n\nE esse destino explica muita coisa. O Cenote Sagrado recebeu oferendas durante séculos. Entre elas há ouro, cobre e jade. Nenhum desses materiais existe de forma natural em Yucatán, de modo que chegaram de outras regiões da América Central. Isso significa que este caminho também se conecta com um mundo muito maior. Quando se diz que Chichén Itzá era um centro de peregrinação, esta é uma das pistas.\n\nTambém é preciso ter cuidado com uma ideia muito repetida: a de que todo este caminho era apenas cerimonial. Talvez fosse em parte. Mas os sacbés também conectavam zonas da cidade entre si. As duas funções não se excluem.\n\nEste caminho é uma boa oportunidade para pensar na escala do sítio. Da praça não se vê o cenote. É preciso percorrer algumas centenas de metros, entre árvores, para chegar. Essa distância faz parte da experiência: sai-se do espaço aberto e entra-se em um mais fechado.\n\nCaminhe com calma até o final. Ali espera por você o [Cenote Sagrado](chi_14_cenote_sagrado), um poço natural de sessenta metros de diâmetro."
+    },
+    "retos_observacion": {
+      "hash": "f9eca1067d4b4565",
+      "texto": [
+        "Observe como o caminho é reto e elevado em relação ao terreno dos lados",
+        "Olhe a pedra do chão: é calcária, e por isso o caminho se chama branco",
+        "Ao avançar, repare como o espaço se fecha com as árvores até que apareça a beira do cenote"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e0232a33e69ff209",
+      "texto": {
+        "Nome": "sacbé, «caminho branco» em maia",
+        "Comprimento": "cerca de 270 metros (outras medições chegam a cerca de 300)",
+        "Largura": "cerca de 9 metros em média",
+        "Conecta": "a praça principal ao Cenote Sagrado",
+        "Importância": "é a calçada maior e mais elaborada de Chichén Itzá",
+        "Dado associado": "as oferendas do cenote incluem ouro, cobre e jade que não são de Yucatán"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e1675f174763f4b",
+      "texto": {
+        "pregunta": "Mito: Os sacbés eram apenas caminhos para procissões religiosas.",
+        "respuesta": "Realidade: É provável que fossem usados em rituais, mas também uniam zonas do sítio. As duas funções não se excluem."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chi_10_templo_hombre_barbado",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "00b0d8f77c65c680",
+      "texto": "Os templos Norte e Sul do Jogo de Bola"
+    },
+    "frase_gancho": {
+      "hash": "fd380cf00287dea3",
+      "texto": "Nas extremidades da quadra há dois templos: um com um homem barbado entalhado, outro com uma longa galeria."
+    },
+    "puente_narrativo": {
+      "hash": "354a6317b719bef8",
+      "texto": "Olhe agora para o lado leste da quadra. Na extremidade sul dessa plataforma fica o [Templo dos Jaguares](chi_12_templo_jaguares), com murais de batalhas."
+    },
+    "guion_corto": {
+      "hash": "c7a1abf38b0722f8",
+      "texto": "Nas extremidades da quadra há dois templos. O do norte se chama Templo do Homem Barbado, por causa de uma figura com barba entalhada em seu interior. Tem uma única câmara de cerca de oito metros por quatro. Seus relevos mostram uma cerimônia diante de um trono de jaguar vazio. O do sul é uma longa galeria abobadada de cerca de vinte e quatro metros. Somente seis pilastras têm relevos, com guerreiros de pé e bem adornados, e entre os escombros foi encontrado um Chac Mool. Acredita-se que nesses templos se realizavam rituais ligados ao jogo, mas nem todos os detalhes são conhecidos."
+    },
+    "guion_largo": {
+      "hash": "74debd32c33bcdfa",
+      "texto": "Estes dois templos fecham a quadra pelas extremidades. São menos famosos que os anéis ou os painéis, mas guardam imagens muito valiosas.\n\nO do norte se chama Templo do Homem Barbado, por causa de uma figura com barba entalhada em seu interior. Ele se ergue sobre uma base quadrada, de cerca de catorze metros de leste a oeste por sete e meio de norte a sul, e tem uma única câmara de cerca de oito metros de comprimento por quatro de largura. Tem pilares finamente esculpidos e relevos de flores, aves e árvores.\n\nO que mais chama a atenção está dentro. Os relevos interiores mostram uma cerimônia em que um personagem principal está sentado ou de pé diante de um trono de jaguar vazio. Segundo Enrique Vela, neste templo há um painel com mais de quarenta figuras em diferentes cenas. É uma imagem complexa, que os especialistas ainda estudam.\n\nO do sul é muito diferente. É uma longa galeria abobadada, de cerca de vinte e quatro metros de comprimento por quatro e meio de largura, erguida sobre a extremidade sul da quadra. Os relevos aparecem somente em seis pilastras e mostram guerreiros de pé, bem adornados. Entre os escombros foi encontrado um Chac Mool.\n\nPara que serviam? Acredita-se que neles, provavelmente, se realizavam rituais ligados ao jogo. A palavra importante é provavelmente: não há prova que o confirme. O que se pode dizer é que eles fechavam a quadra nas duas extremidades, e que as imagens de dentro falam de cerimônias, de guerreiros e de poder.\n\nUma ideia que se repete entre os guias é que o Templo do Norte tem uma acústica especial, mas não há provas documentadas disso.\n\nAgora, quando terminar de olhar as extremidades, repare no lado leste da quadra. Na extremidade sul dessa plataforma fica o [Templo dos Jaguares](chi_12_templo_jaguares), com murais de batalhas."
+    },
+    "retos_observacion": {
+      "hash": "8e81f3682a6b0918",
+      "texto": [
+        "Procure o Templo Norte, o do Homem Barbado, na extremidade norte da quadra, e sua única câmara",
+        "Localize o Templo Sul, uma galeria longa e baixa, na extremidade oposta",
+        "Olhe de longe os pilares do templo norte e procure os relevos de flores, aves e árvores"
+      ]
+    },
+    "especificaciones": {
+      "hash": "67e7dbeb3fa227b2",
+      "texto": {
+        "Templo Norte (do Homem Barbado)": "uma única câmara de cerca de 8,13 × 4 m, sobre uma base de cerca de 14 × 7,3 m",
+        "Relevos interiores": "cerimônia diante de um trono de jaguar vazio; um painel com mais de 40 figuras",
+        "Templo Sul": "galeria abobadada de cerca de 24,3 × 4,4 m",
+        "Relevos do Templo Sul": "guerreiros de pé em seis pilastras; foi encontrado um Chac Mool entre os escombros",
+        "Uso": "acredita-se que se realizavam rituais ligados ao jogo",
+        "Estudo": "González et al., 2017; Vela, Arqueología Mexicana"
+      }
+    },
+    "faq_mito": {
+      "hash": "c42a502b32a2cb7d",
+      "texto": {
+        "pregunta": "Mito: O Templo do Homem Barbado tem uma acústica especial que amplifica a voz de um lado a outro.",
+        "respuesta": "Realidade: Não há provas documentadas disso. O que está documentado é sua câmara única, seus relevos de flores, aves e árvores e a figura barbada que lhe dá nome."
+      }
+    }
+  }
+}

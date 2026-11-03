@@ -1,0 +1,56 @@
+{
+  "id": "chi_09_banquetas_decapitacion",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fabb47fec5083adf",
+      "texto": "Os painéis da decapitação"
+    },
+    "frase_gancho": {
+      "hash": "e6da41f967a5b673",
+      "texto": "Seis painéis repetem a mesma cena: um jogador com a cabeça de outro e seis serpentes de sangue."
+    },
+    "puente_narrativo": {
+      "hash": "2be332556f9c70a3",
+      "texto": "Agache-se junto aos bancos e percorra as cenas com o olhar. Quando terminar, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "fbf9d78e9b3ebee4",
+      "texto": "Agache-se junto à base das plataformas laterais. Nos bancos há uma cena que se repete seis vezes, três de cada lado. São duas equipes de jogadores com seus capitães, e uma grande bola de sílex no centro, com uma caveira dentro. Em um dos lados da cena, um jogador segura a cabeça cortada de outro, que está ajoelhado e sangra. O sangue sai como seis serpentes, e entre elas cresce uma planta. Os especialistas não entram em acordo sobre se o decapitado era o vencedor ou o perdedor. Uma especialista vê na cena uma árvore do mundo. Os detalhes continuam sendo estudados."
+    },
+    "guion_largo": {
+      "hash": "08c73639da6b2e35",
+      "texto": "Você está diante da cena mais famosa do Grande Jogo de Bola. Ela se repete seis vezes, três em cada plataforma lateral.\n\nSegundo a arqueóloga Adriana Velázquez Morlet, a cena mostra um jogo cerimonial entre duas equipes de seis jogadores, além de seus capitães. No centro há uma grande bola de sílex com uma caveira dentro. Essa caveira fala, e a autora a identifica como um way, um espírito companheiro, pelo tufo de cabelo que ela traz na cabeça.\n\nEm um dos lados da cena, um jogador segura a cabeça cortada de outro. No outro lado, o capitão decapitado aparece ajoelhado e sangrando. De seu pescoço saem seis serpentes, e a autora as identifica com um tipo de serpente chamado wak kan, que representaria a árvore do mundo. Entre as serpentes cresce uma planta de abóbora, que Linda Schele também leu como uma árvore do mundo. Os demais jogadores observam a cena, e algumas volutas ao redor deles sugerem que cantavam ou recitavam.\n\nUma pergunta continua em aberto: quem é o decapitado. Velázquez Morlet lê aquele que segura a cabeça como o vencedor e o decapitado como o derrotado. Mas os especialistas não entram em acordo sobre se o sacrificado era o vencedor ou o perdedor do jogo, e não há uma resposta aceita por todos.\n\nOutro especialista, Enrique Vela, diz algo parecido: que os relevos dos bancos mostram cenas de sacrifício de jogadores.\n\nÉ preciso dizer com clareza que esta é uma leitura, e que os detalhes da cena continuam sendo estudados. O que você vê é uma imagem poderosa: uma cena de sacrifício unida à ideia de renascimento, porque do sangue brota uma planta. Por isso costuma-se falar do jogo como uma forma de pedir fertilidade e de manter a ordem do mundo.\n\nEsta cena não foi a única. No Templo Norte, na extremidade da quadra, há outro painel com mais de quarenta figuras. E os anéis que você viu na parada anterior têm serpentes entrelaçadas, como estas.\n\nReserve um momento para olhar os detalhes. Você verá os rostos de perfil, os toucados, os adornos do pescoço, as dobras das roupas. São relevos feitos com muito cuidado, e ainda se leem, embora a pedra tenha perdido a pintura.\n\nQuando estiver pronto, siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "327146aa12ebd663",
+      "texto": [
+        "Procure a grande bola de sílex no centro da cena, com a caveira dentro",
+        "Localize as seis serpentes que saem do pescoço do capitão ajoelhado",
+        "Observe a planta que cresce entre as serpentes, símbolo de renascimento"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e06dbf56dd289a7a",
+      "texto": {
+        "Cena": "repete-se seis vezes, três em cada plataforma lateral",
+        "Jogadores": "duas equipes de seis, além de seus capitães",
+        "Elemento central": "uma grande bola de sílex com uma caveira que fala",
+        "Sangue": "seis serpentes wak kan; entre elas cresce uma planta de abóbora",
+        "Leitura": "Adriana Velázquez Morlet",
+        "Interpretação": "é a leitura de uma especialista e os detalhes continuam sendo estudados"
+      }
+    },
+    "faq_mito": {
+      "hash": "c20655e7987bb040",
+      "texto": {
+        "pregunta": "Mito: Sabe-se com certeza que o decapitado dos painéis era o perdedor do jogo.",
+        "respuesta": "Realidade: Os especialistas não entram em acordo sobre se o decapitado era o vencedor ou o perdedor. A leitura de Velázquez Morlet vê o vencedor segurando a cabeça do derrotado, mas os detalhes da cena continuam sendo estudados."
+      }
+    }
+  }
+}
