@@ -33996,6 +33996,546 @@
       }
     },
     "pt": {
+      "chap_01_rampa": {
+        "corto": {
+          "hash": "b06dd1ff0f41c121",
+          "file": "pt/chap_01_rampa_corto.mp3",
+          "remote": false,
+          "seconds": 41,
+          "bytes": 243504,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "df6dc2e0c4f59995",
+          "file": "pt/chap_01_rampa_largo.mp3",
+          "remote": false,
+          "seconds": 189,
+          "bytes": 1132272,
+          "provider": "azure"
+        }
+      },
+      "chap_02_fachada_puerta": {
+        "corto": {
+          "hash": "7cd11bad7a4910fa",
+          "file": "pt/chap_02_fachada_puerta_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 272016,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e89bfe55c203eeeb",
+          "file": "pt/chap_02_fachada_puerta_largo.mp3",
+          "remote": true,
+          "seconds": 207,
+          "bytes": 1243584,
+          "provider": "azure"
+        }
+      },
+      "chap_03_patio_canones": {
+        "corto": {
+          "hash": "8317f272709eff31",
+          "file": "pt/chap_03_patio_canones_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 185760,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "68aa8a8f8b1a7e05",
+          "file": "pt/chap_03_patio_canones_largo.mp3",
+          "remote": true,
+          "seconds": 75,
+          "bytes": 448704,
+          "provider": "azure"
+        }
+      },
+      "chap_04_encuentro_conquista": {
+        "corto": {
+          "hash": "77c2cbc686711e34",
+          "file": "pt/chap_04_encuentro_conquista_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 226224,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "23eb0eebb91481d7",
+          "file": "pt/chap_04_encuentro_conquista_largo.mp3",
+          "remote": true,
+          "seconds": 78,
+          "bytes": 469008,
+          "provider": "azure"
+        }
+      },
+      "chap_04_retablo_independencia": {
+        "corto": {
+          "hash": "f98c79897c4a1773",
+          "file": "pt/chap_04_retablo_independencia_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 250272,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7196784d9602991f",
+          "file": "pt/chap_04_retablo_independencia_largo.mp3",
+          "remote": true,
+          "seconds": 205,
+          "bytes": 1227168,
+          "provider": "azure"
+        }
+      },
+      "chap_05_nueva_espana_plata": {
+        "corto": {
+          "hash": "083aeb2c7a65fa64",
+          "file": "pt/chap_05_nueva_espana_plata_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 205776,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "34aa5541dca1ace8",
+          "file": "pt/chap_05_nueva_espana_plata_largo.mp3",
+          "remote": true,
+          "seconds": 95,
+          "bytes": 567072,
+          "provider": "azure"
+        }
+      },
+      "chap_06_morelos_iturbide": {
+        "corto": {
+          "hash": "ec0af7d91167d301",
+          "file": "pt/chap_06_morelos_iturbide_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247824,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d56e630ef0f9b727",
+          "file": "pt/chap_06_morelos_iturbide_largo.mp3",
+          "remote": true,
+          "seconds": 274,
+          "bytes": 1644624,
+          "provider": "azure"
+        }
+      },
+      "chap_07_carruaje_juarez": {
+        "corto": {
+          "hash": "0e512d242f6fe39f",
+          "file": "pt/chap_07_carruaje_juarez_corto.mp3",
+          "remote": false,
+          "seconds": 45,
+          "bytes": 271152,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "701a57c0f8834a64",
+          "file": "pt/chap_07_carruaje_juarez_largo.mp3",
+          "remote": false,
+          "seconds": 235,
+          "bytes": 1407024,
+          "provider": "azure"
+        }
+      },
+      "chap_08_intervencion_1847": {
+        "corto": {
+          "hash": "b5ebb00e9c1877c2",
+          "file": "pt/chap_08_intervencion_1847_corto.mp3",
+          "remote": true,
+          "seconds": 53,
+          "bytes": 320400,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "128eb37643b90e22",
+          "file": "pt/chap_08_intervencion_1847_largo.mp3",
+          "remote": true,
+          "seconds": 273,
+          "bytes": 1637856,
+          "provider": "azure"
+        }
+      },
+      "chap_09_batalla_puebla_orozco": {
+        "corto": {
+          "hash": "252ae7cd93cdb8ed",
+          "file": "pt/chap_09_batalla_puebla_orozco_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 207216,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "84c6077d22e7a972",
+          "file": "pt/chap_09_batalla_puebla_orozco_largo.mp3",
+          "remote": true,
+          "seconds": 100,
+          "bytes": 601200,
+          "provider": "azure"
+        }
+      },
+      "chap_09_mural_siqueiros": {
+        "corto": {
+          "hash": "49b97fe10bcfc603",
+          "file": "pt/chap_09_mural_siqueiros_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 255168,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d67c87bbb10a1ef5",
+          "file": "pt/chap_09_mural_siqueiros_largo.mp3",
+          "remote": true,
+          "seconds": 247,
+          "bytes": 1484208,
+          "provider": "azure"
+        }
+      },
+      "chap_10_mural_madero": {
+        "corto": {
+          "hash": "225e6f328cb42713",
+          "file": "pt/chap_10_mural_madero_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 248976,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "aa98e9befaac5f3f",
+          "file": "pt/chap_10_mural_madero_largo.mp3",
+          "remote": true,
+          "seconds": 252,
+          "bytes": 1513728,
+          "provider": "azure"
+        }
+      },
+      "chap_11_constitucion_1917": {
+        "corto": {
+          "hash": "4e772d23681ee315",
+          "file": "pt/chap_11_constitucion_1917_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 267552,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3f0dfd36ccc65f45",
+          "file": "pt/chap_11_constitucion_1917_largo.mp3",
+          "remote": true,
+          "seconds": 255,
+          "bytes": 1529136,
+          "provider": "azure"
+        }
+      },
+      "chap_12_sala_carruajes": {
+        "corto": {
+          "hash": "a40871167bdf82f1",
+          "file": "pt/chap_12_sala_carruajes_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 250992,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "76dcab77d809d222",
+          "file": "pt/chap_12_sala_carruajes_largo.mp3",
+          "remote": true,
+          "seconds": 174,
+          "bytes": 1045872,
+          "provider": "azure"
+        }
+      },
+      "chap_13_escalera_leones": {
+        "corto": {
+          "hash": "83e8f7c5065b3ca0",
+          "file": "pt/chap_13_escalera_leones_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 263232,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c11f59a5ecce561a",
+          "file": "pt/chap_13_escalera_leones_largo.mp3",
+          "remote": true,
+          "seconds": 182,
+          "bytes": 1092096,
+          "provider": "azure"
+        }
+      },
+      "chap_14_vitrales_emplomados": {
+        "corto": {
+          "hash": "ebb82558934b965b",
+          "file": "pt/chap_14_vitrales_emplomados_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 239328,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1475b6d05e9e426d",
+          "file": "pt/chap_14_vitrales_emplomados_largo.mp3",
+          "remote": true,
+          "seconds": 182,
+          "bytes": 1090800,
+          "provider": "azure"
+        }
+      },
+      "chap_15_comedor_imperial": {
+        "corto": {
+          "hash": "68ebfbaf022c70b6",
+          "file": "pt/chap_15_comedor_imperial_corto.mp3",
+          "remote": true,
+          "seconds": 52,
+          "bytes": 313344,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b4daa04b9f305eb5",
+          "file": "pt/chap_15_comedor_imperial_largo.mp3",
+          "remote": true,
+          "seconds": 230,
+          "bytes": 1380960,
+          "provider": "azure"
+        }
+      },
+      "chap_16_sala_lectura_goces": {
+        "corto": {
+          "hash": "e99be0826d6653db",
+          "file": "pt/chap_16_sala_lectura_goces_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247104,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c4363d85ef27155b",
+          "file": "pt/chap_16_sala_lectura_goces_largo.mp3",
+          "remote": true,
+          "seconds": 189,
+          "bytes": 1135584,
+          "provider": "azure"
+        }
+      },
+      "chap_17_salon_embajadores": {
+        "corto": {
+          "hash": "5661729e3ef5b20d",
+          "file": "pt/chap_17_salon_embajadores_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 244368,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1e6999cc5ffaa456",
+          "file": "pt/chap_17_salon_embajadores_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 1083168,
+          "provider": "azure"
+        }
+      },
+      "chap_18_recamara_carlota": {
+        "corto": {
+          "hash": "f14886cac803138f",
+          "file": "pt/chap_18_recamara_carlota_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 231120,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e9529dbc5d771a8d",
+          "file": "pt/chap_18_recamara_carlota_largo.mp3",
+          "remote": true,
+          "seconds": 188,
+          "bytes": 1128816,
+          "provider": "azure"
+        }
+      },
+      "chap_19_bano_carlota": {
+        "corto": {
+          "hash": "940305be69375f90",
+          "file": "pt/chap_19_bano_carlota_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 235584,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "32bbc50b4ac5ef9c",
+          "file": "pt/chap_19_bano_carlota_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 1075248,
+          "provider": "azure"
+        }
+      },
+      "chap_20_recamara_maximiliano": {
+        "corto": {
+          "hash": "0433643908f03d4d",
+          "file": "pt/chap_20_recamara_maximiliano_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 254880,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "94a6562ffd80aec4",
+          "file": "pt/chap_20_recamara_maximiliano_largo.mp3",
+          "remote": true,
+          "seconds": 207,
+          "bytes": 1243584,
+          "provider": "azure"
+        }
+      },
+      "chap_21_recamara_porfirio_carmen": {
+        "corto": {
+          "hash": "7e53c07be25addfe",
+          "file": "pt/chap_21_recamara_porfirio_carmen_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 235440,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8d7dfd440f7b9f35",
+          "file": "pt/chap_21_recamara_porfirio_carmen_largo.mp3",
+          "remote": true,
+          "seconds": 185,
+          "bytes": 1111104,
+          "provider": "azure"
+        }
+      },
+      "chap_22_despacho_presidencial": {
+        "corto": {
+          "hash": "a83bcc7e6ef0d1c4",
+          "file": "pt/chap_22_despacho_presidencial_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 241920,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "01689fa0c9d483a5",
+          "file": "pt/chap_22_despacho_presidencial_largo.mp3",
+          "remote": true,
+          "seconds": 205,
+          "bytes": 1227168,
+          "provider": "azure"
+        }
+      },
+      "chap_23_jardin_alcazar": {
+        "corto": {
+          "hash": "138780058e3071df",
+          "file": "pt/chap_23_jardin_alcazar_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 285840,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f21acec8db7d36eb",
+          "file": "pt/chap_23_jardin_alcazar_largo.mp3",
+          "remote": true,
+          "seconds": 184,
+          "bytes": 1105056,
+          "provider": "azure"
+        }
+      },
+      "chap_24_caballero_alto": {
+        "corto": {
+          "hash": "25f68089afd637ca",
+          "file": "pt/chap_24_caballero_alto_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 240480,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "542d501d9489e285",
+          "file": "pt/chap_24_caballero_alto_largo.mp3",
+          "remote": true,
+          "seconds": 182,
+          "bytes": 1090224,
+          "provider": "azure"
+        }
+      },
+      "chap_25_terraza_ninos_heroes": {
+        "corto": {
+          "hash": "18bd28416c130fe2",
+          "file": "pt/chap_25_terraza_ninos_heroes_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 260208,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f8924226baabbe36",
+          "file": "pt/chap_25_terraza_ninos_heroes_largo.mp3",
+          "remote": true,
+          "seconds": 194,
+          "bytes": 1161792,
+          "provider": "azure"
+        }
+      },
+      "chap_26_terraza_oriente_reforma": {
+        "corto": {
+          "hash": "7f541db2a28b57f1",
+          "file": "pt/chap_26_terraza_oriente_reforma_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 244800,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "73994bff3e82a97e",
+          "file": "pt/chap_26_terraza_oriente_reforma_largo.mp3",
+          "remote": true,
+          "seconds": 184,
+          "bytes": 1104624,
+          "provider": "azure"
+        }
+      },
+      "chap_27_estandarte_hidalgo": {
+        "corto": {
+          "hash": "83a3ebc23c133098",
+          "file": "pt/chap_27_estandarte_hidalgo_corto.mp3",
+          "remote": true,
+          "seconds": 26,
+          "bytes": 155664,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4984b531af025cf2",
+          "file": "pt/chap_27_estandarte_hidalgo_largo.mp3",
+          "remote": true,
+          "seconds": 138,
+          "bytes": 826992,
+          "provider": "azure"
+        }
+      },
+      "chap_28_salon_gobelinos": {
+        "corto": {
+          "hash": "3f83464d5e2645d7",
+          "file": "pt/chap_28_salon_gobelinos_corto.mp3",
+          "remote": true,
+          "seconds": 26,
+          "bytes": 154656,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0cbac89010ca37e8",
+          "file": "pt/chap_28_salon_gobelinos_largo.mp3",
+          "remote": true,
+          "seconds": 106,
+          "bytes": 637200,
+          "provider": "azure"
+        }
+      },
       "fri_00_fachada_azul": {
         "corto": {
           "hash": "ae606014f96696a0",
