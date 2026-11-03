@@ -164,6 +164,7 @@ export const ui = defineGroup(
       groupTiempo: 'Según tu tiempo',
       groupTema: 'Por tema',
       groupCompleto: 'Para verlo todo',
+      groupAlta: 'Planta alta (etnografía)',
       timeNote: 'Los tiempos cuentan el audio corto, mirar cada obra y caminar entre salas. Con el audio completo toman más.',
     },
     map: {
@@ -356,6 +357,7 @@ export const ui = defineGroup(
       groupTiempo: 'By time',
       groupTema: 'By theme',
       groupCompleto: 'To see it all',
+      groupAlta: 'Upper floor (ethnography)',
       timeNote: 'Times include the short audio, looking at each work and walking between halls. The full audio takes longer.',
     },
     map: {
@@ -550,6 +552,7 @@ export const ui = defineGroup(
       groupTiempo: 'Selon votre temps',
       groupTema: 'Par thème',
       groupCompleto: 'Pour tout voir',
+      groupAlta: 'Étage (ethnographie)',
       timeNote: 'Les durées comptent l’audio court, le temps de regarder chaque œuvre et la marche entre les salles. L’audio complet prend plus de temps.',
     },
     map: {

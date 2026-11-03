@@ -1,3 +1,5 @@
+import { PlanGuide } from './components/PlanGuide';
+import { computePlan } from './config/mnaGeo';
 import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { X } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, PieceData, SiteLicense, Room } from './types';
@@ -625,6 +627,25 @@ export default function App() {
     return text || mapsUrl ? { text, mapsUrl } : null;
   }, [nav, currentPiece]);
 
+  // «Cómo llegar» con mini-mapa (solo el MNA, que tiene plano propio)
+  const planGeo = useMemo(
+    () => ((selectedSite?.id || '').toLowerCase() === 'mna' ? computePlan(pieces, new Map(rooms.map((r) => [r.room_id, roomNumber(r)]))) : null),
+    [selectedSite?.id, pieces, rooms]
+  );
+  const renderGuide = useCallback(
+    (kind: 'arrive' | 'next', toId: string) => {
+      if (!planGeo || !nav || !currentPiece) return null;
+      let fromId: string | null;
+      if (kind === 'arrive') {
+        if (nav.index > 0) fromId = nav.ids[nav.index - 1];
+        else if (nav.kind === 'tour') fromId = null;
+        else return null;
+      } else fromId = currentPiece.piece_id;
+      return <PlanGuide id={kind === 'arrive' ? 'guide-arrive' : 'guide-next'} kind={kind} geo={planGeo} rooms={rooms} fromId={fromId} toId={toId} />;
+    },
+    [planGeo, nav, currentPiece, rooms]
+  );
+
   const continueInfo: ContinueInfo | null = useMemo(() => {
     if (activeTour) {
       const p = pieceById(stopId(activeTour.route.stops[activeTour.index] || {}));
@@ -849,6 +870,7 @@ export default function App() {
           onNext={nextInfo ? goNext : undefined}
           next={nextInfo}
           arrival={arrival}
+          renderGuide={renderGuide}
           siblings={siblings}
           onSelectSibling={(id) => {
             const next = roomNavFor(id);

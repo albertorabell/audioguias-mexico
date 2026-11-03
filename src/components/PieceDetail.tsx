@@ -70,6 +70,8 @@ interface PieceDetailProps {
   next?: NextInfo | null;
   /** Primera parada del recorrido: cómo llegar a ella antes de empezar. */
   arrival?: { text?: string; mapsUrl?: string } | null;
+  /** Tarjeta «cómo llegar» con mini-mapa (solo sitios con plano propio): hasta esta pieza o hasta la siguiente. */
+  renderGuide?: (kind: 'arrive' | 'next', toId: string) => React.ReactNode;
   /** Otras piezas de la misma sala (se muestran solo dentro de un recorrido). */
   siblings?: PieceData[];
   onSelectSibling?: (pieceId: string) => void;
@@ -116,6 +118,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   onNext,
   next,
   arrival,
+  renderGuide,
   siblings = [],
   onSelectSibling,
   resolvePiece,
@@ -392,6 +395,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
           )}
         </header>
 
+        {renderGuide && (
+          <div className="px-5">{renderGuide('arrive', piece.piece_id)}</div>
+        )}
+
         {arrival && (
           <div className="px-5">
             <HowToGet id="how-to-start" title={u.piece.startTitle} text={arrival.text} mapsUrl={arrival.mapsUrl} />
@@ -574,6 +581,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               </span>
               <ChevronRight className="w-5 h-5 text-jade-ink shrink-0" />
             </button>
+            {next.kind === 'piece' && next.pieceId && renderGuide?.('next', next.pieceId)}
             {next.kind === 'piece' && (
               <HowToGet id="how-to-next" title={u.piece.howTitle} text={next.howTo || (next.mapsUrl ? u.piece.goToward(next.title) : undefined)} mapsUrl={next.mapsUrl} />
             )}
