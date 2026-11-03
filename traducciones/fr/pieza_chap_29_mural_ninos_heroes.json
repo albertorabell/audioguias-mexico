@@ -1,0 +1,56 @@
+{
+  "id": "chap_29_mural_ninos_heroes",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dbe70f7bbbda003a",
+      "texto": "Le sacrifice des Niños Héroes : la fresque de Gabriel Flores"
+    },
+    "frase_gancho": {
+      "hash": "ba0d0349c07ee9b6",
+      "texto": "Un cadet tombe du haut avec le drapeau sur le bras : c’est ainsi que Gabriel Flores a peint le souvenir le plus connu de la défense de cette colline."
+    },
+    "puente_narrativo": {
+      "hash": "74404ccf0786a5d4",
+      "texto": "Poursuivez vers l’escalier principal du musée, où une fresque de Gabriel Flores montre le cadet Juan Escutia tombant avec le drapeau sur le bras."
+    },
+    "guion_corto": {
+      "hash": "f376968d09131bc6",
+      "texto": "Comment peindre un sacrifice ? Gabriel Flores, peintre originaire du Jalisco selon le musée, l’a résolu par une chute : Juan Escutia descend d’en haut avec le drapeau du Mexique sur le bras. L’œuvre rappelle le treize septembre mille huit cent quarante-sept, quand l’armée des États-Unis prit cette colline et que des cadets du Collège militaire moururent. À l’arrière-plan apparaissent des silhouettes d’armes et de chevaux ennemis, le Château lui-même, l’ancien couvent de Churubusco et la cathédrale, autant de décors de cette guerre. C’est une image faite pour émouvoir, et c’est pourquoi elle est devenue l’une des plus répétées du musée. Mieux vaut la regarder comme un symbole : plus loin, je vous explique ce qui est de l’histoire prouvée et ce qui relève de la tradition."
+    },
+    "guion_largo": {
+      "hash": "814d1f42c711661c",
+      "texto": "Six noms se répètent chaque treize septembre au Mexique : Juan de la Barrera, Juan Escutia, Francisco Márquez, Agustín Melgar, Fernando Montes de Oca et Vicente Suárez. Ce sont les cadets du Collège militaire que la mémoire nationale appelle les Niños Héroes. Cette fresque ne les représente pas un par un. Elle concentre tout dans une seule silhouette qui tombe.\n\nLa scène trouve son origine dans la guerre entre le Mexique et les États-Unis. En mille huit cent quarante-sept, l’armée américaine avança jusqu’à la vallée de Mexico. Ce château abritait alors le Collège militaire et servait de forteresse. Le treize septembre, les troupes attaquèrent la colline. La défense était dirigée par le général Nicolás Bravo, avec des soldats et quelques cadets. À la fin de la journée, la colline était aux mains de l’envahisseur.\n\nL’auteur est Gabriel Flores, que le musée présente comme un peintre originaire du Jalisco. Il a peint l’œuvre au vingtième siècle, quand le château était déjà un musée et que ses escaliers et ses salles se couvraient de fresques sur l’histoire du pays. Les publications ne s’accordent pas toujours sur la date exacte ni sur l’emplacement précis, et cela ne vaut pas la peine de s’y attarder. Ce qui compte, c’est ce que vous voyez : un jeune homme qui descend avec le drapeau du Mexique sur le bras.\n\nRegarde l’arrière-plan. Il y a la silhouette d’un aigle, des armes et des chevaux de l’armée d’invasion. Et trois décors de cette guerre apparaissent : ce château même, l’ancien couvent de Churubusco et la cathédrale. Le peintre a réuni dans une seule image des lieux et des moments différents. Il a ainsi transformé une longue campagne en une scène que l’on comprend d’un coup d’œil.\n\nVoici maintenant ce qu’il faut dire avec prudence. La version la plus connue raconte que Juan Escutia s’enveloppa dans le drapeau et se jeta du haut pour qu’on ne le capture pas. C’est une tradition profondément ancrée. Mais les historiens en discutent les détails, et les récits ne s’accordent pas sur qui fit quoi ce jour-là. Ce qui est établi est plus sobre : il y avait des cadets du Collège militaire parmi les défenseurs, et certains moururent au combat.\n\nC’est pourquoi cette fresque n’est pas un document. C’est une interprétation artistique, réalisée plus d’un siècle après, qui construit un symbole. C’est aussi une forme d’histoire : elle montre ce qu’un pays retient et comment il veut s’en souvenir. C’est pour cela que l’image figure dans les manuels, dans les cérémonies et dans les noms de rues et de monuments.\n\nDeux pistes pour poursuivre la réflexion. La première est dans la composition : la silhouette tombe, mais le regard monte, car le peintre l’a placée en hauteur. Une lecture possible est que le sacrifice pèse plus que la défaite. La seconde est le lieu. Ce même bâtiment fut le siège du Collège militaire, et dans la [cour des Canons](chap_03_patio_canones) vous avez déjà vu l’endroit où les cadets étaient formés.\n\nPlus loin, en arrivant aux terrasses, vous pourrez regarder la colline du côté où l’on se souvient de cette défense, sur la [terrasse des Niños Héroes](chap_25_terraza_ninos_heroes). Là, l’image de la fresque rejoint le paysage réel."
+    },
+    "retos_observacion": {
+      "hash": "35f6e0adf1522e2b",
+      "texto": [
+        "Cherchez le drapeau sur le bras de la silhouette qui tombe",
+        "Trouvez à l’arrière-plan la silhouette de l’aigle et les armes de l’armée d’invasion",
+        "Repérez les trois décors de la guerre : le Château, l’ancien couvent de Churubusco et la cathédrale"
+      ]
+    },
+    "especificaciones": {
+      "hash": "772938f87ba95c00",
+      "texto": {
+        "Œuvre": "Sacrifice des Niños Héroes (L’intervention nord-américaine)",
+        "Auteur": "Gabriel Flores, peintre originaire du Jalisco selon le musée",
+        "Technique": "Fresque",
+        "Fait historique": "Défense du Château, 13 septembre 1847",
+        "Personnage central": "Juan Escutia",
+        "Emplacement dans le musée": "Escalier principal, d’après une publication du musée"
+      }
+    },
+    "faq_mito": {
+      "hash": "82cbf131cabb80cc",
+      "texto": {
+        "pregunta": "Mythe : Les six Niños Héroes étaient des écoliers.",
+        "respuesta": "Réalité : C’étaient des cadets du Collège militaire, de jeunes gens en formation militaire. Le nom de Niños Héroes est une formule de la mémoire nationale, et les détails de la mort de chacun varient selon les récits."
+      }
+    }
+  }
+}

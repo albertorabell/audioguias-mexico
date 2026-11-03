@@ -1,0 +1,56 @@
+{
+  "id": "chap_29_mural_ninos_heroes",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dbe70f7bbbda003a",
+      "texto": "O sacrifício dos Meninos Heróis: o mural de Gabriel Flores"
+    },
+    "frase_gancho": {
+      "hash": "ba0d0349c07ee9b6",
+      "texto": "Um cadete cai do alto com a bandeira sobre o braço: foi assim que Gabriel Flores pintou a lembrança mais conhecida da defesa deste morro."
+    },
+    "puente_narrativo": {
+      "hash": "74404ccf0786a5d4",
+      "texto": "Siga até a escadaria principal do museu, onde um mural de Gabriel Flores mostra o cadete Juan Escutia caindo com a bandeira sobre o braço."
+    },
+    "guion_corto": {
+      "hash": "f376968d09131bc6",
+      "texto": "Como se pinta um sacrifício? Gabriel Flores, pintor de Jalisco segundo o museu, resolveu com uma queda: Juan Escutia desce do alto com a bandeira do México sobre o braço. A obra lembra o treze de setembro de mil oitocentos e quarenta e sete, quando o exército dos Estados Unidos tomou este morro e morreram cadetes do Colégio Militar. Ao fundo aparecem silhuetas de armas e cavalos inimigos, o próprio Castelo, o antigo convento de Churubusco e a catedral, cenários daquela guerra. É uma imagem feita para comover, e por isso se tornou uma das mais repetidas do museu. Convém olhá-la como símbolo: mais adiante explico o que é história comprovada e o que é tradição."
+    },
+    "guion_largo": {
+      "hash": "814d1f42c711661c",
+      "texto": "Seis nomes se repetem todo dia treze de setembro no México: Juan de la Barrera, Juan Escutia, Francisco Márquez, Agustín Melgar, Fernando Montes de Oca e Vicente Suárez. São os cadetes do Colégio Militar que a memória nacional chama de Meninos Heróis. Este mural não os retrata um a um. Concentra tudo em uma única figura que cai.\n\nA cena tem origem na guerra entre o México e os Estados Unidos. Em mil oitocentos e quarenta e sete, o exército norte-americano avançou até o vale do México. Este castelo era então a sede do Colégio Militar e funcionava como fortaleza. No dia treze de setembro, as tropas atacaram o morro. A defesa esteve sob o comando do general Nicolás Bravo, com soldados e alguns cadetes. Ao fim do dia, o morro estava nas mãos do invasor.\n\nO autor é Gabriel Flores, que o museu apresenta como pintor de Jalisco. Ele pintou a obra no século vinte, quando o castelo já era museu e suas escadas e salas se enchiam de murais sobre a história do país. As publicações nem sempre concordam sobre a data exata nem sobre o lugar preciso onde está, então não vale a pena se deter nisso. O que importa é o que você vê: um jovem que desce com a bandeira do México sobre o braço.\n\nOlhe o fundo. Há a silhueta de uma águia, armas e cavalos do exército invasor. E aparecem três cenários daquela guerra: este mesmo castelo, o antigo convento de Churubusco e a catedral. O pintor reuniu em uma só imagem lugares e momentos diferentes. Assim transformou uma campanha longa em uma cena que se entende num relance.\n\nAgora, a parte que convém dizer com cuidado. A versão mais conhecida conta que Juan Escutia se enrolou na bandeira e se lançou do alto para que ela não fosse capturada. É uma tradição muito arraigada. Mas os historiadores discutem os detalhes, e os relatos não coincidem sobre quem fez o quê naquele dia. O que é comprovado é mais sóbrio: havia cadetes do Colégio Militar entre os defensores, e alguns morreram no combate.\n\nPor isso este mural não é um documento. É uma interpretação artística, feita mais de um século depois, que constrói um símbolo. Essa também é uma forma de história: mostra o que um país lembra e como quer lembrar. Por isso a imagem aparece em livros didáticos, em cerimônias e em nomes de ruas e monumentos.\n\nDuas pistas para continuar pensando. A primeira está na composição: a figura cai, mas o olhar sobe, porque o pintor a colocou no alto. Uma leitura possível é que o sacrifício pesa mais que a derrota. A segunda é o lugar. Este mesmo edifício foi a sede do Colégio Militar, e no [Pátio dos Canhões](chap_03_patio_canones) você já viu o lugar onde os cadetes se formavam.\n\nMais adiante, quando chegar aos terraços, você poderá olhar o morro pelo lado em que se lembra essa defesa, no [terraço dos Meninos Heróis](chap_25_terraza_ninos_heroes). Ali a imagem do mural se junta à paisagem real."
+    },
+    "retos_observacion": {
+      "hash": "35f6e0adf1522e2b",
+      "texto": [
+        "Procure a bandeira sobre o braço da figura que cai",
+        "Encontre ao fundo a silhueta da águia e as armas do exército invasor",
+        "Localize os três cenários da guerra: o Castelo, o antigo convento de Churubusco e a catedral"
+      ]
+    },
+    "especificaciones": {
+      "hash": "772938f87ba95c00",
+      "texto": {
+        "Obra": "Sacrifício dos Meninos Heróis (A intervenção norte-americana)",
+        "Autor": "Gabriel Flores, pintor de Jalisco segundo o museu",
+        "Técnica": "Mural",
+        "Fato histórico": "Defesa do Castelo, 13 de setembro de 1847",
+        "Personagem central": "Juan Escutia",
+        "Lugar no museu": "Escadaria principal, segundo uma publicação do museu"
+      }
+    },
+    "faq_mito": {
+      "hash": "82cbf131cabb80cc",
+      "texto": {
+        "pregunta": "Mito: Os seis Meninos Heróis eram crianças do ensino fundamental.",
+        "respuesta": "Realidade: Eram cadetes do Colégio Militar, jovens em formação militar. O nome Meninos Heróis é uma fórmula da memória nacional, e os detalhes de como morreu cada um variam conforme os relatos."
+      }
+    }
+  }
+}

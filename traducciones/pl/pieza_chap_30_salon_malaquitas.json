@@ -1,0 +1,56 @@
+{
+  "id": "chap_30_salon_malaquitas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "012eb64d0a3c2501",
+      "texto": "Salon Malachitowy: zielony kamień z Rosji"
+    },
+    "frase_gancho": {
+      "hash": "fc021eb2ca43a276",
+      "texto": "Muzeum posiada największe elementy z malachitu poza Rosją i znajdują się one w tej sali."
+    },
+    "puente_narrativo": {
+      "hash": "ce931520fe8a4a8b",
+      "texto": "Kontynuuj trasę do Salonu Malachitowego na piętrze Alcázaru, gdzie zielony kamień przebył drogę z Rosji z polecenia Porfirio Díaza."
+    },
+    "guion_corto": {
+      "hash": "1dea80b418aaba93",
+      "texto": "Ta sala skrywa największe elementy z malachitu poza Rosją, jak podaje samo Narodowe Muzeum Historii. To cztery dzieła wielkiego formatu, a jedno z nich to drzwi. Malachit to zielony kamień z kręgami i żyłkami, tak trudny w obróbce, że stał się symbolem bogactwa. Elementy trafiły do Meksyku z polecenia Porfirio Díaza, który chciał nimi ozdobić salę w Pałacu Narodowym. Dziś są tutaj, na piętrze Alcázaru, który w czasach porfiriatu był letnią rezydencją prezydenta. Zanim ruszysz dalej, przyjrzyj się zieleni: wygląda jak jedna powierzchnia, ale wzory kamienia są składane z cierpliwością."
+    },
+    "guion_largo": {
+      "hash": "13e42ecdcdca5183",
+      "texto": "W Zamku jest sala, w której rządzi zieleń. To Salon Malachitowy, na piętrze Alcázaru. Muzeum twierdzi, że znajdują się tu największe elementy z malachitu poza Rosją. Ta informacja pomaga zrozumieć, dlaczego ta sala tak przyciąga uwagę i dlaczego wielu zwiedzających zatrzymuje się dłużej, niż planowało.\n\nMalachit to zielony minerał miedzi. Jego najbardziej charakterystyczną cechą są kręgi i pasma, które tworzą wzory podobne do usłojenia drewna. W dużych blokach prawie się go nie znajduje. Dlatego duże przedmioty z malachitu wykonywano w inny sposób, z większą cierpliwością i większym kunsztem.\n\nNajbardziej znaną techniką jest mozaika rosyjska. Polega na cięciu bardzo cienkich płytek kamienia i przyklejaniu ich do podłoża, tak by wzory jednego elementu przechodziły w następny. Z daleka efekt wygląda jak jeden blok. Z bliska widać łączenia i wtedy rozumie się, ile to kosztowało pracy. Taki element mógł powstawać bardzo długo.\n\nTrzeba to powiedzieć ostrożnie. Publiczne źródła muzeum nie wyjaśniają, jak wykonano każdy element w tej sali. Mozaika to zwykły sposób obróbki malachitu w dużym formacie. Mimo to muzeum poświęciło cały wykład ich pochodzeniu, kontekstowi, wykonaniu i atrybucji. To znak, że wiele jeszcze pozostaje do zbadania.\n\nTo, co opowiada muzeum, to historia ich przybycia. Elementy sprowadzono z Rosji do Meksyku z polecenia Porfirio Díaza. Chciał nimi ozdobić jedną z sal Pałacu Narodowego. Później weszły do kolekcji muzeum, a dziś mają własną salę. Jedno z dzieł to drzwi, a w sumie są cztery monumentalne dzieła.\n\nKontekst pomaga odczytać ten gest. W czasach porfiriatu starano się pokazać kraj nowoczesny i wyrafinowany. Widać to było w meblach, szkle i przedmiotach sprowadzanych z Europy. Ta część Alcázaru została urządzona jako letni dom Porfirio Díaza i jego żony, Carmen Romero Rubio. Było to między rokiem tysiąc osiemset osiemdziesiątym trzecim a tysiąc dziewięćset dziesiątym. Jak pokazuje [jadalnia](chap_15_comedor_imperial), zamek przechowywał luksusy dwóch różnych epok: cesarstwa i porfiriatu.\n\nRosyjski malachit w Meksyku mówi też o połączonym świecie. Jest minerał wydobyty daleko stąd, rzemiosło warsztatowe wymagające ogromnej cierpliwości i rząd, który chciał olśniewać. Trzy różne historie spotykają się w jednych drzwiach.\n\nZatrzymaj się i patrz. Zobacz, jak wzory zmieniają się z jednej strony na drugą, i poszukaj linii, w których jedna płytka styka się z następną. Zwróć też uwagę na połysk polerowania, który nadaje zieleni głębię. Jeśli podejdziesz spokojnie, kamień przestanie być tłem i stanie się tematem sali."
+    },
+    "retos_observacion": {
+      "hash": "b8fe3bc0474e2b4a",
+      "texto": [
+        "Poszukaj kręgów i pasm, które znaczą kamień, podobnych do usłojenia drewna",
+        "Znajdź linie, w których jedna płytka łączy się z następną",
+        "Wypatrz drzwi z malachitu i zobacz, jak wzory przechodzą z jednej strony na drugą"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a1705ac6e2493f74",
+      "texto": {
+        "Sala": "Salon Malachitowy, piętro Alcázaru",
+        "Materiał": "Malachit, zielony minerał miedzi",
+        "Pochodzenie": "Rosja, według muzeum",
+        "Dzieła": "Cztery monumentalne dzieła, w tym drzwi",
+        "Zamówienie": "Z polecenia Porfirio Díaza, dla sali w Pałacu Narodowym",
+        "Informacja muzeum": "Największe elementy z malachitu poza Rosją"
+      }
+    },
+    "faq_mito": {
+      "hash": "538694adc7744ca2",
+      "texto": {
+        "pregunta": "Mit: Elementy z malachitu w tej sali są wykonane z jednego bloku kamienia.",
+        "respuesta": "Rzeczywistość: W dużym formacie malachit obrabia się prawie zawsze za pomocą cienkich płytek przyklejonych do podłoża, w technice zwanej mozaiką rosyjską. Źródła muzeum nie wyjaśniają, jak wykonano każdy element w tej sali."
+      }
+    }
+  }
+}

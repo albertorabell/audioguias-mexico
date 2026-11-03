@@ -1,0 +1,56 @@
+{
+  "id": "chap_29_mural_ninos_heroes",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dbe70f7bbbda003a",
+      "texto": "Sacrifice of the Niños Héroes: Gabriel Flores’s Mural"
+    },
+    "frase_gancho": {
+      "hash": "ba0d0349c07ee9b6",
+      "texto": "A cadet falls from on high with the flag draped over his arm: this is how Gabriel Flores painted the best-known memory of the defense of this hill."
+    },
+    "puente_narrativo": {
+      "hash": "74404ccf0786a5d4",
+      "texto": "Continue to the museum’s main staircase, where a mural by Gabriel Flores shows the cadet Juan Escutia falling with the flag over his arm."
+    },
+    "guion_corto": {
+      "hash": "f376968d09131bc6",
+      "texto": "How do you paint a sacrifice? Gabriel Flores, a painter from Jalisco according to the museum, solved it with a fall: Juan Escutia plunges from above with the Mexican flag over his arm. The work recalls September thirteenth, eighteen forty-seven, when the United States Army took this hill and cadets of the Military College died. In the background you can make out the outlines of enemy weapons and horses, the Castle itself, the former Convent of Churubusco and the Cathedral, all settings of that war. It is an image made to move you, and that is why it became one of the most repeated in the museum. It is best seen as a symbol: further on I will explain which part is proven history and which part is tradition."
+    },
+    "guion_largo": {
+      "hash": "814d1f42c711661c",
+      "texto": "Six names are repeated every September thirteenth in Mexico: Juan de la Barrera, Juan Escutia, Francisco Márquez, Agustín Melgar, Fernando Montes de Oca and Vicente Suárez. They are the cadets of the Military College whom national memory calls the Niños Héroes. This mural does not portray them one by one. It gathers everything into a single falling figure.\n\nThe scene has its origin in the war between Mexico and the United States. In eighteen forty-seven, the American army advanced into the Valley of Mexico. This castle was then home to the Military College and served as a fortress. On September thirteenth, the troops attacked the hill. The defense was led by General Nicolás Bravo, with soldiers and a few cadets. By the end of the day, the hill was in the invader’s hands.\n\nThe author is Gabriel Flores, whom the museum presents as a painter from Jalisco. He painted the work in the twentieth century, when the castle was already a museum and its staircases and halls were filling with murals about the country’s history. Publications do not always agree on the exact date or on the precise spot where it hangs, so it is not worth dwelling on that. What matters is what you see: a young man descending with the Mexican flag over his arm.\n\nLook at the background. There is the outline of an eagle, along with weapons and horses of the invading army. And three settings of that war appear: this very castle, the former Convent of Churubusco and the Cathedral. The painter joined different places and moments into a single image. In this way he turned a long campaign into a scene you grasp at a glance.\n\nNow, the part that should be said with care. The best-known version says that Juan Escutia wrapped himself in the flag and leapt from on high so that it would not be captured. It is a deeply rooted tradition. But historians debate the details, and the accounts do not agree on who did what that day. What is documented is more sober: there were cadets of the Military College among the defenders, and some of them died in the fighting.\n\nThat is why this mural is not a document. It is an artistic interpretation, made more than a century later, that builds a symbol. That, too, is a form of history: it shows what a country remembers and how it wants to remember it. This is why the image appears in textbooks, in ceremonies and in the names of streets and monuments.\n\nTwo clues to keep thinking. The first is in the composition: the figure falls, but your gaze rises, because the painter placed it high up. One possible reading is that the sacrifice weighs more than the defeat. The second is the place. This same building was the seat of the Military College, and in the [Cannons Courtyard](chap_03_patio_canones) you already saw the place where the cadets were trained.\n\nFurther on, when you reach the terraces, you will be able to look at the hill from the side where that defense is remembered, at the [Niños Héroes terrace](chap_25_terraza_ninos_heroes). There, the image of the mural joins the real landscape."
+    },
+    "retos_observacion": {
+      "hash": "35f6e0adf1522e2b",
+      "texto": [
+        "Look for the flag over the arm of the falling figure",
+        "Find, in the background, the outline of the eagle and the weapons of the invading army",
+        "Locate the three settings of the war: the Castle, the former Convent of Churubusco and the Cathedral"
+      ]
+    },
+    "especificaciones": {
+      "hash": "772938f87ba95c00",
+      "texto": {
+        "Work": "Sacrifice of the Niños Héroes (The North American Intervention)",
+        "Artist": "Gabriel Flores, a painter from Jalisco according to the museum",
+        "Technique": "Mural",
+        "Historical event": "Defense of the Castle, September 13, 1847",
+        "Central figure": "Juan Escutia",
+        "Place in the museum": "Main staircase, according to a museum publication"
+      }
+    },
+    "faq_mito": {
+      "hash": "82cbf131cabb80cc",
+      "texto": {
+        "pregunta": "Myth: The six Niños Héroes were primary school children.",
+        "respuesta": "Reality: They were cadets of the Military College, young people in military training. The name Niños Héroes is a formula of national memory, and the details of how each one died vary according to the accounts."
+      }
+    }
+  }
+}
