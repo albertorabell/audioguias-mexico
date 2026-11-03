@@ -1,0 +1,68 @@
+{
+  "id": "teo_04_palacios_ciudadela",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "a89b8d317f24072b",
+      "texto": "Nord- und Südpalast der Ciudadela"
+    },
+    "frase_gancho": {
+      "hash": "8c054af18224bd4e",
+      "texto": "Zwei große Hofkomplexe zu beiden Seiten eines Tempels, und alles deutet darauf hin, dass dort sehr bedeutende Persönlichkeiten lebten."
+    },
+    "puente_narrativo": {
+      "hash": "7fe3825e8210b2a9",
+      "texto": "Geh zurück zum Eingang der Ciudadela und blick auf die riesige offene Freifläche auf der anderen Seite der Straße: Wir wechseln vom geschlossenen Palast zum großen Markt der Metropole."
+    },
+    "guion_corto": {
+      "hash": "8ec98c97cb26e3e9",
+      "texto": "Schau auf die beiden Seiten des Tempels der Gefiederten Schlange. Dort liegen große Komplexe aus Höfen und Räumen, wie Wohnungen, die als Residenzen der Elite gelten. Die Ciudadela ist ein riesiges Viereck mit fünfzehn kleinen Pyramiden und einem zentralen Platz. Stell dir die mächtigsten Menschen vor, die direkt neben dem heiligsten Tempel wohnten. Wahrscheinlich hat das Feuer des sechsten Jahrhunderts auch sie beschädigt."
+    },
+    "guion_largo": {
+      "hash": "73b11ce4c65f8246",
+      "texto": "Die Ciudadela ist eine große, quadratische Freifläche, umgeben von kleinen Pyramiden, insgesamt fünfzehn. In der Mitte steht der Tempel der Gefiederten Schlange. Zu beiden Seiten dieses Tempels erstrecken sich dichte Komplexe aus Räumen und Höfen, die Wohnungen ähneln. Die Fachleute nehmen an, dass es Residenzen der Elite waren. Das ist eine Schlussfolgerung, denn man weiß nicht mit Sicherheit, wer dort lebte. Achte auf die Lage. Nicht einmal der größte Palast liegt weit vom Tempel entfernt. Wer hier wohnte, hatte den wichtigsten Ort des Kultes direkt neben sich. Die Ausgrabungen von Manuel Gamio zwischen neunzehnhundertsiebzehn und neunzehnhundertzweiundzwanzig brachten diesen Teil der Ciudadela ans Licht. Später erforschten andere Archäologen ihn weiter. Die Ciudadela lag auch nahe der Hauptstraße und der großen offenen Fläche des Großen Komplexes. Deshalb nimmt man an, dass sie ein zentraler Punkt des politischen und religiösen Lebens war. Wahrscheinlich hat der Brand Mitte des sechsten Jahrhunderts auch diese Gebäude beschädigt, wie viele Gebäude der Elite, doch das ist hier nicht belegt. Wenn du in Ruhe hinschaust, kannst du dir vorstellen, wie es gewesen wäre, unmittelbar neben der gefiederten Schlange zu wohnen."
+    },
+    "retos_observacion": {
+      "hash": "243b8866db9a4ccd",
+      "texto": [
+        "Such die beiden erhöhten Plattformen links (Norden) und rechts (Süden) des Tempels der Gefiederten Schlange",
+        "Wenn der Seitenzugang geöffnet ist, steig die Stufen an der Nordflanke hinauf, um die Fundamente der Höfe und Räume zu sehen",
+        "Achte auf den Höhenunterschied, von dem aus die Herrscher den eingesenkten Hof überwachten"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fbc2876aec8805d5",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Klassik (etwa 200-550 n. Chr.)",
+        "Geschätzte Kapazität": "etwa 50 Personen pro Palast",
+        "Ausgrabung": "Ana María Jarquín und Enrique Martínez Vargas (INAH)",
+        "Herkunft": "Die Ciudadela, Nord- und Südflanke des Tempels der Gefiederten Schlange"
+      }
+    },
+    "faq_mito": {
+      "hash": "f091f166a3af1ee4",
+      "texto": {
+        "pregunta": "Mythos: Die Paläste der Ciudadela waren Familienresidenzen mit großen Küchen und Vorratsräumen.",
+        "respuesta": "Realität: Man fand kaum Küchengeräte; die Paläste dienten als zeremonielle und administrative Anlagen, in denen die Elite bereits zubereitete Speisen erhielt."
+      }
+    }
+  }
+}

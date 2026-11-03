@@ -1,0 +1,57 @@
+{
+  "id": "teo_26_conjunto_departamental",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4fe88105d0bcefc7",
+      "texto": "So lebte man: Zacuala und Yayahuala"
+    },
+    "frase_gancho": {
+      "hash": "974ff9609e9e0ded",
+      "texto": "Mauern ohne Fenster zur Straße hin, und das Leben richtete sich nach innen."
+    },
+    "puente_narrativo": {
+      "hash": "004fd9b40928edf8",
+      "texto": "Geh ein paar Meter weiter zur benachbarten Anlage Tetitla: Wir betreten ihre Räume, um den Glanz der bemalten Wände eines reichen Hauses aus der Nähe zu sehen."
+    },
+    "guion_corto": {
+      "hash": "defa77c9e8535176",
+      "texto": "Du stehst vor Zacuala und Yayahuala, zwei der größten Wohnanlagen der Stadt. Sie glichen ummauerten Häuserblocks, mit Mauern ohne Fenster zur Straße hin. In Teotihuacán gab es etwa zweitausend solcher Anlagen. In jeder lebten große Familien, nach einer Berechnung sechzig bis hundert Menschen. Die Toten wurden im eigenen Haus begraben. Die Mauern sagen es dir: Das Leben jeder Familie richtete sich nach innen."
+    },
+    "guion_largo": {
+      "hash": "1eaab402ff48100e",
+      "texto": "Zacuala und Yayahuala gehören zu den größten Wohnanlagen von Teotihuacán. Sieh dir ihre hohen Außenmauern an. Zur Straße hin hatten diese Häuser blinde Mauern und nur wenige Eingänge. Das Leben spielte sich nach innen ab, in Höfen und Räumen. Der Archäologe Michael Smith berechnet, dass Teotihuacán etwa zweitausend solcher Anlagen hatte. In jeder lebten zwischen sechzig und hundert Menschen. Im Allgemeinen hatte jede Wohneinheit innerhalb der Anlage zwischen fünf und zehn Bewohner. Denk darüber nach, was das bedeutet. In einer einzigen Stadt gab es Tausende kleiner Gemeinschaften, jede mit ihrer eigenen Organisation. Die Anlagen hatten meist einen oder zwei Bestattungsbereiche. Das heißt, die Toten wurden im selben Haus begraben. Die Großeltern blieben an dem Ort, an dem die Familie lebte. Archäologen nutzen diese Informationen, um zu erfahren, wie das tägliche Leben aussah. Die Anlagen unterschieden sich stark in Größe und Schmuck. Tetitla, ganz in der Nähe, hat sehr bekannte Wandmalereien. Erst wenn man Häuser vergleicht, versteht man die Stadt als ein Gefüge von Familien und nicht als eine Liste von Monumenten."
+    },
+    "retos_observacion": {
+      "hash": "54c3a8271a8f1df0",
+      "texto": [
+        "Geh außen an den hohen Umfassungsmauern von Zacuala oder Yayahuala entlang und überprüfe, dass sie zur Straße hin völlig ohne Fenster sind",
+        "Finde die breite Zugangstreppe im Westen von Yayahuala oder die Eingangshalle mit Säulen in Zacuala",
+        "Achte im Inneren darauf, wie die offenen Höfe mit zentralem Altar den Räumen Licht, Luft und Regenwasser spendeten"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7572794739938d0c",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Klassik (um 250-600 n. Chr.)",
+        "Typologie": "Mehrfamilien-Wohnanlagen (mehr als 2000 in der ganzen Stadt)",
+        "Zacuala": "ca. 4000 m² mit 13 Säulenhöfen",
+        "Yayahuala": "Häuserblock von 70 x 70 m mit 3 Tempeln",
+        "Ausgrabung": "Laurette Séjourné (1955-1961)",
+        "Standort": "Südwestlicher Rundweg"
+      }
+    },
+    "faq_mito": {
+      "hash": "07a598e60ae359e2",
+      "texto": {
+        "pregunta": "Mythos: Die einfachen Menschen von Teotihuacán lebten in armseligen Strohhütten außerhalb der Stadt, und die Toten kamen auf einen Friedhof.",
+        "respuesta": "Realität: Die große Mehrheit der Bevölkerung wohnte in soliden Wohnanlagen aus Stein und Stuck mit Regenwasserableitung und begrub ihre Toten unter den Böden der eigenen Räume."
+      }
+    }
+  }
+}

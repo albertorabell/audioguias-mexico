@@ -1,0 +1,66 @@
+{
+  "id": "teo_02_templo_serpiente",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "158a3fb6368f096b",
+      "texto": "Tempel der Gefiederten Schlange"
+    },
+    "frase_gancho": {
+      "hash": "bb40581ff6cbb46e",
+      "texto": "Mehr als hundertdreißig Menschen wurden unter seinen Fundamenten begraben, um diesen Tempel zu weihen."
+    },
+    "puente_narrativo": {
+      "hash": "180667a4dfea84f3",
+      "texto": "Wenn du der kompletten Route folgst, bleib vor dieser Treppe stehen, um mit Röntgenblick in den versiegelten Tunnel unter deinen Füßen zu schauen; wenn du auf der Expressroute bist, verlass die Ciudadela in Richtung Straße der Toten und geh nach Norden."
+    },
+    "guion_corto": {
+      "hash": "5ae5a129b00fbdfd",
+      "texto": "Wenn du dich diesem Bauwerk von vorn näherst, siehst du zuerst eine glatte, graue Struktur, die Vorgelagerte Plattform genannt wird. Steig ihre Stufen hinauf und wirf einen Blick in den schmalen Gang, der sich dahinter öffnet: Dort erscheint, jahrhundertelang verborgen, die eindrucksvollste skulptierte Fassade von Teotihuacán. Du stehst vor dem Tempel der Gefiederten Schlange, der um das Jahr zweihundert errichtet wurde. Aus seinen Tafeln ragen riesige Steinköpfe hervor, die einst rot, grün, blau und gelb bemalt waren. Die einen sind gefiederte Schlangen, die aus einer Blüte hervorkommen; die anderen, mit zwei Ringen auf der Stirn und ohne Unterkiefer, stellen nach Ansicht vieler Fachleute einen heiligen Kopfschmuck vom Ursprung der Zeit dar."
+    },
+    "guion_largo": {
+      "hash": "4bba0f56ac744fec",
+      "texto": "Diese Fassade wurde gemacht, um gelesen zu werden. Zwei Wesen wechseln sich entlang der Tafeln und der Treppe ab. Das erste ist die Gefiederte Schlange. Ihr plastischer Kopf wächst aus einer Blüte mit Blütenblättern hervor und ist von Schnecken und Muscheln umgeben, als schwämme sie in den Urwassern der Schöpfung. Das zweite Wesen hat die Archäologen jahrzehntelang verwirrt. Wegen der zwei Ringe auf der Stirn hielt man es für Tláloc, den Regengott. Heute deuten es viele Fachleute als den Kopfschmuck von Cipactli, dem monströsen Krokodil der Erde und Symbol des ersten Tages des Kalenders. Nach dieser Lesart trägt die Schlange auf ihrem Rücken den Anfang der Zeit.\n\nMan schätzt, dass zwischen dreihundert und vierhundert dieser Köpfe, jeweils etwa einen Meter hoch, das Gebäude schmückten. Und alle waren bemalt. Stell dir diese Wand in ihrer ganzen Pracht vor, leuchtend, gesehen von dem Platz voller Menschen.\n\nDie Daten sind nicht exakt: Die Studien datieren das Bauwerk zwischen die Jahre einhundertfünfzig und zweihundertfünfzig. Doch das Eindrucksvollste lag unter dem Boden. Bevor der Tempel errichtet wurde, um das Jahr zweihundert, begrub man hier Dutzende von Menschen. Die Archäologen Rubén Cabrera und Saburo Sugiyama fanden die Überreste von einhundertsiebenunddreißig Personen, sehr ordentlich angeordnet und mit auf dem Rücken gefesselten Händen. Rechnet man die Bereiche hinzu, die noch nicht ausgegraben wurden, schätzt man, dass es zwischen zweihundert und zweihundertsechzig waren.\n\nWer waren sie? Die Sauerstoffanalysen ihrer Knochen und Zähne brachten eine Überraschung. Sie stammten aus verschiedenen Regionen Mesoamerikas, aber die meisten hatten viele Jahre in Teotihuacán gelebt. Es waren keine einfachen, frisch eingetroffenen Gefangenen. Eine Hypothese besagt, dass es Fremde im Dienst des Herrschers waren, vielleicht Elitewachen, denn sie trugen sehr ähnliche und sehr reiche Gewänder und Beigaben. Es ist eine Hypothese, keine Gewissheit. Andere Vorstellungen besagen, dass sie Diener eines Dynastiegründers waren oder dass sie der Gefiederten Schlange oder dem Gebäude selbst geweiht waren. Zusammen mit ihnen wurde ein Schatz begraben: Man spricht von etwa hunderttausend kostbaren Gegenständen.\n\nNoch etwas zur Geschichte dieses Gebäudes. Etwa hundert Jahre nach seinem Bau, um das Jahr dreihundertfünfzig, wurde die Fassade von der Vorgelagerten Plattform verdeckt, die du gerade hinaufgestiegen bist. Warum, darüber wird diskutiert. Eine Lesart spricht von einem Wandel in der inneren Regierung der Stadt, eine andere von einer respektvollen rituellen Bestattung. Die Seiten, die nicht bedeckt wurden, wurden zu einem unbekannten Zeitpunkt beschädigt, und deshalb ist der verborgene Teil der am besten erhaltene.\n\nZwischen neunzehnhundertsiebzehn und neunzehnhundertzweiundzwanzig öffnete der Archäologe Manuel Gamio den Gang, in dem du gerade stehst. Er brachte eine Fassade wieder ans Licht, die seit mehr als eintausendfünfhundert Jahren niemand gesehen hatte."
+    },
+    "retos_observacion": {
+      "hash": "cffc59d3095db4b0",
+      "texto": [
+        "Steig auf die Vorgelagerte Plattform und wirf einen Blick in den hinteren Gang, um die ursprünglichen Stufenkörper von vorn zu sehen",
+        "Unterscheide die beiden Köpfe: die Gefiederte Schlange, umgeben von Blütenblättern, und den geschuppten Kopfschmuck von Cipactli mit zwei Ringen und ohne Unterkiefer",
+        "Suche an den Schrägflächen und zwischen den Pfeilern die Reliefs von Schnecken und Meeresmuscheln"
+      ]
+    },
+    "especificaciones": {
+      "hash": "750d48419595a14e",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Frühe Klassik (um 200 n. Chr.; um 350 n. Chr. verschlossen)",
+        "Material": "Bearbeitetes Vulkangestein, Stuck und Wandmalerei",
+        "Struktur": "Sieben ursprüngliche Stufenkörper im Talud-Tablero-Stil mit 366 Steinköpfen",
+        "Entdeckung": "Freigelegt von Manuel Gamio (1917-1922); Bestattungen in den Achtzigerjahren ausgegraben",
+        "Herkunft": "Die Ciudadela, Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "24ae0f14d4a7a0b6",
+      "texto": {
+        "pregunta": "Mythos: Die Köpfe mit Ringen auf der Stirn stellen den Regengott Tláloc dar.",
+        "respuesta": "Realität: Neuere ikonografische Studien zeigen, dass sie Cipactli darstellen, den Kaiman oder das Erdungeheuer und Zeichen des ersten Tages des rituellen Kalenders."
+      }
+    }
+  }
+}

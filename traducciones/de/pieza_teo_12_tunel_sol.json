@@ -1,0 +1,57 @@
+{
+  "id": "teo_12_tunel_sol",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "69fcf2aec6942eb5",
+      "texto": "Die Höhle unter der Sonnenpyramide"
+    },
+    "frase_gancho": {
+      "hash": "927db213e73348d7",
+      "texto": "Unter der Sonnenpyramide liegt ein Tunnel, mit dem niemand gerechnet hatte."
+    },
+    "puente_narrativo": {
+      "hash": "ad5946b33df6e53c",
+      "texto": "Richte deinen Blick jetzt auf die niedrigen Gebäude auf der linken Seite dieses Platzes: Dort lebten die Priester, die die Pyramide hüteten, umgeben von blau bemalten Jaguaren."
+    },
+    "guion_corto": {
+      "hash": "811539f0f1afb570",
+      "texto": "Unter der Sonnenpyramide liegen ein Tunnel und eine Kammer. Sie wurden 1971 entdeckt. Der Tunnel ist etwa hundertdrei Meter lang, und man steigt durch einen Schacht von etwa sechseinhalb Metern Tiefe hinab. Heute ist er für die Öffentlichkeit geschlossen. Eine neuere Studie geht davon aus, dass er von den Menschen von Teotihuacán geschaffen wurde und nicht von der Natur. Wozu er diente, ist bis heute umstritten. Während du hier stehst, denk an das, was direkt unter dir liegt."
+    },
+    "guion_largo": {
+      "hash": "24b51e6e0c6c1088",
+      "texto": "Unter der Sonnenpyramide liegt ein Tunnel, der 1971 entdeckt wurde. Man betritt ihn durch einen senkrechten Schacht von etwa sechseinhalb Metern Tiefe. Danach folgt ein Gang von etwa hundertdrei Metern bis zu einer Kammer unter dem Zentrum der Pyramide. Jahrelang hielt man ihn für eine natürliche Höhle vulkanischen Ursprungs. Der Archäologe Saburo Sugiyama und sein Team schlugen 2009 vor, dass die Menschen von Teotihuacán sie von Hand angelegt oder umgestaltet haben. Diese Idee verändert die Bedeutung. Sie bedeutet, dass jemand beschloss, unter dem Ort zu graben, an dem später die Pyramide errichtet wurde. Im Tunnel wurden Opfergaben gefunden, doch über den Zeitpunkt seiner Versiegelung gibt es unterschiedliche Meinungen. Einige Quellen sprechen von vor etwa eintausendachthundert Jahren, andere datieren ihn auf die Zeit zwischen 200 und 250 v. Chr. Dieser Unterschied ist weiterhin ungeklärt. Eine Hypothese besagt, dass die Höhle den mythischen Ursprung der Welt darstellte, einen Ort, aus dem Wasser und Leben hervorquollen. Das ist eine Vermutung von Fachleuten, keine Tatsache. Heute kannst du nicht hinabsteigen, aber du kannst dir vorstellen, dass unter deinen Füßen ein dunkler Weg von mehr als hundert Metern verläuft."
+    },
+    "retos_observacion": {
+      "hash": "345fab1fd1004e5c",
+      "texto": [
+        "Sieh dir den Fuß der zentralen Freitreppe neben der Angebauten Plattform an: Dort ist der 6,5 Meter tiefe Abstiegsschacht versiegelt.",
+        "Zieh mit dem Blick eine Linie von diesem Punkt bis zur senkrechten Achse des Pyramidengipfels, wo die Kammer mit den vier Blütenblättern endet.",
+        "Betrachte in den Bildern deiner App den kleeblatt- oder blumenförmigen Grundriss des Tunnels mit seinen vier Lappen."
+      ]
+    },
+    "especificaciones": {
+      "hash": "83781b3da743dae7",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Frühe Klassik (1.–2. Jahrhundert n. Chr.)",
+        "Länge": "103 m",
+        "Tiefe": "6,5 m",
+        "Antiker Verschluss": "17 Quermauern aus Tezontle und Lehm",
+        "Funde": "Entdeckt 1971 (Jorge Acosta / René Millon); Ablagerungen ausgegraben 2008–2011 (Sugiyama und Sarabia)",
+        "Zugang": "Für die Öffentlichkeit geschlossen"
+      }
+    },
+    "faq_mito": {
+      "hash": "1dd06005b1c32e15",
+      "texto": {
+        "pregunta": "Mythos: Die Höhle unter der Sonnenpyramide ist eine unberührte natürliche Grotte.",
+        "respuesta": "Realität: Neuere geologische Untersuchungen zeigen, dass sie von den Menschen von Teotihuacán selbst ausgehoben und in der Form einer vierblättrigen Blüte gestaltet wurde, um den Boden zu weihen, bevor die Pyramide errichtet wurde."
+      }
+    }
+  }
+}

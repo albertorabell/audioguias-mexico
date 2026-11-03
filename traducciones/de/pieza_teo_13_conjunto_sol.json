@@ -1,0 +1,55 @@
+{
+  "id": "teo_13_conjunto_sol",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "195d3efba3bb58de",
+      "texto": "Sonnenkomplex: das Haus der Priester und der blaue Jaguar"
+    },
+    "frase_gancho": {
+      "hash": "515e0bdb9f98bff3",
+      "texto": "Ein Gott, der vom Himmel herabsteigt, und ein Jaguar, der eine Pflanze umarmt, an den Wänden des Sonnenpalasts."
+    },
+    "puente_narrativo": {
+      "hash": "899063eebaf7dcca",
+      "texto": "Umrunde nun die Sonnenpyramide an ihrer Südseite und folge dem Pfad, der zum Museum der Teotihuacán-Kultur führt: Dort siehst du die gesamte Stadt im Maßstab und die Opfergaben, die die Pyramiden bargen."
+    },
+    "guion_corto": {
+      "hash": "0aa64feb87aa094f",
+      "texto": "Du stehst am Sonnenkomplex, auch Sonnenpalast genannt. Seine Portiken und Räume waren mit vielen Wandmalereien geschmückt. Im Patio Tres erscheint eine als Ara gekleidete Gestalt, die von einem Baum herabsteigt. Außerdem gibt es einen Jaguar mit einem netzartigen Körper, der eine Agavenpflanze umarmt. Einige Forschende glauben, dass sie den Abstieg der Sonne in die Welt des Wassers erzählen. Das ist eine Deutung, keine Tatsache. Die Wandmalereien, die du jetzt siehst, kennt man durch Studien anderer Fachleute."
+    },
+    "guion_largo": {
+      "hash": "7928ce3c93e0ecec",
+      "texto": "Der Patio Tres des Sonnenpalasts besaß eine Reihe von Wandmalereien, die intensiv erforscht worden sind. An seiner Westseite sieht man Szenen des sogenannten Schmetterlings-Vogel-Gottes. Er erscheint als Ara gekleidet, steigt von einem übernatürlichen Baum herab und ist von Wasserzeichen umgeben. An anderen Wänden findet sich ein genetzter Jaguar, dessen Körper wie von einem Netz überzogen ist und der eine Agavenpflanze umarmt. Außerdem erscheinen Gestalten, die mit dem Regengott in Verbindung gebracht werden. Mindestens sechzehn Wandmalereien sind in diesem Patio beschrieben worden. Die Forscherin Paulinyi schlägt vor, dass die Wandmalereien den Abstieg der Sonne in die Welt des Wassers erzählen, bei einem großen Fest. Andere Forschende sind damit nicht einverstanden. Manche sehen in dem Gott eine Gestalt, die Siebener-Ara ähnelt, einer Figur aus der Welt der Maya. Andere sehen in der zentralen Gestalt die Große Göttin. Sie selbst stellt ihre Lesart als Hypothese dar. Die Wandmalereien werden, mit Unsicherheit, auf die Jahre dreihundertfünfzig bis fünfhundertfünfzig datiert. Klar ist jedoch, dass die Menschen, die hier lebten, ihr Haus mit Bildern von Wasser, von Raubkatzen und von Vögeln umgaben. Wenn du auf die Mauern blickst, bedenke, dass diese Bilder eine Sprache waren, die ihre Nachbarn zu lesen verstanden."
+    },
+    "retos_observacion": {
+      "hash": "dcb2c64786fd677b",
+      "texto": [
+        "Finde auf der Nordseite der Esplanade die drei kleinen Altäre und die niedrigen Mauern des Sonnenkomplexes",
+        "Beobachte, wie der Palast einen direkten und privilegierten Zugang an der Flanke der Sonnenpyramide hatte",
+        "Betrachte auf dem Bild auf deinem Bildschirm die türkisblaue Linienführung des Jaguars, der die drei Zweige der Agave umarmt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78df0899050e0885",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Späte Klassik (Xolalpan-Phase, um 450-550 n. Chr.)",
+        "Standort": "Nordflanke des Platzes der Sonnenpyramide",
+        "Funde": "Mehr als 30 Wandmalereien (darunter der Blaue Jaguar mit Agave und Schmetterlingen) und eine außergewöhnlich hohe Konzentration zeremonieller Keramik",
+        "Heutiger Aufbewahrungsort der Wandmalereien": "Museo de Murales Beatriz de la Fuente und MNA"
+      }
+    },
+    "faq_mito": {
+      "hash": "347a861544b49ce9",
+      "texto": {
+        "pregunta": "Mythos: Alle in Teotihuacán entdeckten Wandmalereien befinden sich noch an den Mauern unter freiem Himmel.",
+        "respuesta": "Realität: Viele der empfindlichsten Wandmalereien, wie die des Blauen Jaguars aus diesem Palast, wurden von Restauratoren abgelöst, um sie vor Sonne und Regen zu schützen, und befinden sich in den Museen der Stätte und in Mexiko-Stadt."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "teo-00-introduccion",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "30985fc7fcc29f13",
+      "texto": "Teotihuacán auf einen Blick"
+    },
+    "frase_gancho": {
+      "hash": "3689e2094134529e",
+      "texto": "Eine Stadt, mit Lineal und Himmel entworfen."
+    },
+    "introduccion_narrativa": {
+      "hash": "498a939732cb3473",
+      "texto": "Bevor du den ersten Schritt tust, solltest du verstehen, worauf du da gehst. Teotihuacán war die größte Stadt Mesoamerikas, mit Zehntausenden von Einwohnern, und sie wurde mit einer Präzision angelegt, die bis heute erstaunt: ein Raster, um fünfzehneinhalb Grad gedreht, um sich am Himmel auszurichten, eine zentrale Prachtstraße von mehr als fünf Kilometern Länge und ein Fluss, der umgeleitet wurde, um dem Plan zu gehorchen. Fast keiner der Namen, die du hören wirst, stammt von denen, die die Stadt erbaut haben, und ihr wahrer Name ging verloren. Dieser erste Halt gibt dir von jedem Eingang aus die Gesamtübersicht. Danach führen sowohl die Expressroute als auch die vollständige Route die Straße der Toten von Süden nach Norden entlang."
+    }
+  }
+}

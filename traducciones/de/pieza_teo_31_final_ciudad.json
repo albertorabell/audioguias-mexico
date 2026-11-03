@@ -1,0 +1,54 @@
+{
+  "id": "teo_31_final_ciudad",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e2914c7686a232e1",
+      "texto": "Das Ende von Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "02bd1aaa113e8b45",
+      "texto": "Die Stadt brannte, aber niemand weiß mit Sicherheit, warum."
+    },
+    "puente_narrativo": {
+      "hash": "2757ce6b50929179",
+      "texto": "Während du die letzten Schritte zum Ausgang gehst, hör dir unseren Epilog an: was geschah, als die Mexica diese verlassenen Ruinen fanden, und wie die Archäologen sie wieder ans Licht brachten."
+    },
+    "guion_corto": {
+      "hash": "dcac2ef29f5ce616",
+      "texto": "Um das Jahr fünfhundertfünfzig wurden einige der wichtigsten Gebäude an der Straße der Toten geplündert und niedergebrannt. Das Feuer traf vor allem die Bauten der Elite. Es gibt keine Hinweise auf ein fremdes Heer. Die Fachleute denken an eine innere Revolte oder an eine Krise aus Dürre und Hunger. Noch immer wird darüber gestritten, wie lange dieses Ende dauerte und wie es ablief. Was du heute siehst, ist das, was von einer einst riesigen Stadt übrig blieb."
+    },
+    "guion_largo": {
+      "hash": "78e4f3c64e20287f",
+      "texto": "Um das Jahr fünfhundertfünfzig unserer Zeitrechnung erlitt Teotihuacán einen schweren Schlag. Bedeutende Monumente wurden geplündert und niedergebrannt. Das Feuer konzentrierte sich auf Bauten der herrschenden Schicht entlang der Straße der Toten. In Palästen wie Xalla wurden die Skulpturen zerschlagen. Die Zeitpunkte der Brände, mit magnetischen Untersuchungen bestimmt, weisen auf die Mitte des sechsten Jahrhunderts. Die Forschenden haben keine Hinweise auf eine fremde Invasion gefunden. Deshalb werden mehrere Erklärungen vorgeschlagen. Eine ist eine innere Revolte, bei der Menschen jene angriffen, die sie beherrschten. Eine andere ist eine Krise aus Klima und Nahrungsmangel. In den Jahren fünfhundertfünfunddreißig und fünfhundertsechsunddreißig gab es in vielen Teilen der Welt heftige Klimaereignisse. Manche bringen sie mit einem möglichen Ausbruch des Vulkans Ilopango in Verbindung. In Teotihuacán zeigen die Knochen von Kindern aus dem sechsten Jahrhundert Mangelernährung. Eine lange Dürre könnte das Problem verschärft haben. Einige fügen hinzu, dass andere Zentren, wie Xochicalco, zu wachsen begannen, doch das ist nur eine Möglichkeit. Keine dieser Ideen ist geklärt. Vielleicht gab es mehrere Ursachen zugleich. Xalla, einer dieser Paläste, umfasst etwa fünfundfünfzigtausend Quadratmeter, mit neunundzwanzig Gebäuden und acht Plätzen. Ein großer Teil der Schäden konzentriert sich auf Anlagen wie diese. Möglicherweise wussten diejenigen, die die Skulpturen zerschlugen, genau, was sie zerstörten, denn sie zielten auf die Symbole der Macht. Das ist eine Vermutung, keine Tatsache. Eine Stadt mit etwa hunderttausend Menschen leert sich nicht in einer Woche. Wie viele Jahre das Ende dauerte, wird noch erforscht. Es scheint, dass die Zentralgewalt stark geschwächt wurde. Die Stadt verlor die Kraft, die sie einst gehabt hatte. Wenn du diese Gebäude betrachtest, denk daran, dass sie über Jahrhunderte errichtet wurden und dass ihr Ende ein Prozess war und nicht ein einziger Tag."
+    },
+    "retos_observacion": {
+      "hash": "1e55bdcb896388b5",
+      "texto": [
+        "Wirf einen letzten Blick auf die lange Reihe von Tempeln und Palästen an der Straße der Toten: Sie alle brannten gleichzeitig um das Jahr 550 n. Chr.",
+        "Stell dir den Gegensatz vor zwischen dem brennenden Zeremonialzentrum und den zweitausend Wohnanlagen der Randviertel, die stehen blieben.",
+        "Denk darüber nach, wie die Ideen, die Götter und die Kunst von Teotihuacán überlebten, indem sie nach Xochicalco, Cacaxtla und in die Welt der Mexica wanderten."
+      ]
+    },
+    "especificaciones": {
+      "hash": "f67c2f282bc871c9",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Datum des großen Brandes": "Um 550 n. Chr. (± 20 Jahre, datiert durch Archäomagnetismus und Kohlenstoff-14)",
+        "Zusammenwirkende Ursachen": "Megadürre des 6. Jahrhunderts, Nahrungskrise, Zusammenbruch der Handelsrouten und innerer Aufstand gegen die Elite",
+        "Aufnahmestädte der Diaspora": "Cacaxtla, Xochicalco, Cantona, Teotenango und El Tajín"
+      }
+    },
+    "faq_mito": {
+      "hash": "32130bd7f521dabf",
+      "texto": {
+        "pregunta": "Mythos: Teotihuacán wurde durch eine Invasion von Chichimeken-Völkern aus dem Norden auf einen Schlag zerstört.",
+        "respuesta": "Realität: Die Spuren von Feuer und gezielter Zerstörung, die sich ausschließlich auf die Regierungsgebäude an der Straße der Toten konzentrieren, deuten auf eine innere Revolte hin, die nach Jahren der Dürre und einer sozialen Krise ausbrach."
+      }
+    }
+  }
+}

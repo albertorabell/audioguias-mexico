@@ -1,0 +1,54 @@
+{
+  "id": "teo_23_museo_murales",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1b5c94a616703b3a",
+      "texto": "Museum der Teotihuacán-Wandbilder „Beatriz de la Fuente“"
+    },
+    "frase_gancho": {
+      "hash": "cd3ebc0198c81564",
+      "texto": "Hier siehst du die Farben einer Stadt, die heute grau wirkt."
+    },
+    "puente_narrativo": {
+      "hash": "f80a6ed26fc1b057",
+      "texto": "Wenn du das Museum verlässt, folge dem Außenrundgang nach Osten, hinter die Sonnenpyramide: Wir betreten Tepantitla, um das berühmteste Wandbild der Stadt an seiner ursprünglichen Wand zu sehen."
+    },
+    "guion_corto": {
+      "hash": "287ef1300d3bd8e8",
+      "texto": "Du betrittst das Museum der Teotihuacán-Wandbilder, das nach der Forscherin Beatriz de la Fuente benannt ist. Draußen siehst du Stein und Erde. Hier kannst du dir eine in Farben bemalte Stadt vorstellen. Die Wandbilder zeigten Götter, Tiere, Pflanzen und Prozessionen. In einer Stadt ohne lange Schrifttexte wie bei den Maya waren die Bilder eine Art, die Welt zu erzählen. Nimm dir in jedem Saal deine Zeit."
+    },
+    "guion_largo": {
+      "hash": "101efe05804b3b0f",
+      "texto": "Das Museum der Teotihuacán-Wandbilder ist nach Beatriz de la Fuente benannt, der Forscherin, die die Untersuchung der präkolumbischen Wandmalerei koordinierte. Ihr Werk über Teotihuacán, veröffentlicht im Jahr neunzehnhundertfünfundneunzig, ist ein Referenzwerk für alle, die sich mit diesen Malereien beschäftigen. Hier werden Fragmente von Wandbildern aufbewahrt, die aus Wohn- und Tempelkomplexen der Stadt stammen. Sie helfen uns, uns vorzustellen, wie Teotihuacán aussah, als seine Mauern bemalt waren. Um ein Wandbild anzufertigen, bedeckte man die Mauer mit einer Schicht aus Kalkstuck. Dann wurde sie geglättet und mit Mineralfarben bemalt. Während du durch die Säle gehst, suche nach den Figuren, die du schon unterwegs gesehen hast: Raubkatzen mit Netz, Vögel, Agavenpflanzen, Prozessionen von Kojoten und Jaguaren. Wenn du sie findest, erinnere dich daran, wo du warst, als wir sie gesehen haben. Du musst dir nicht jedes Symbol merken. Es genügt, die Vielfalt wahrzunehmen. Es gab Szenen von Göttern, von Tieren und von Menschen, und jede hatte ihren Platz in einem Gebäude. Eine Stadt ohne lange Texte auf Stelen wie bei den Maya verwendete Bilder, um Gedanken zu vermitteln. Deshalb sind diese Wandbilder so wertvoll für alle, die Teotihuacán verstehen wollen."
+    },
+    "retos_observacion": {
+      "hash": "7a0bedad740f3aaa",
+      "texto": [
+        "Beobachte die Steinpolierer oder Steinglättkellen, mit denen die Handwerker den frischen Stuck glättend polierten",
+        "Suche die Originalpaneele des Sonnenkomplexes, auf denen der Körper der Schmetterlinge eine menschliche Hand mit Jade ist",
+        "Erkenne die Sprachvoluten – jene Schnörkel, die vor dem Mund der Priester hervorquellen –, gefüllt mit Blumen und Tropfen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f26159bfe02585df",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Funktion": "Museum, spezialisiert auf präkolumbische Wandmalerei (eröffnet 2001)",
+        "Standort": "Nördlicher Außenbereich, neben Tor 3",
+        "Ausstellung": "9 thematische Säle mit Originalwandbildern des Sonnenkomplexes sowie aus Techinantitla, Tetitla, Atetelco und La Ventilla"
+      }
+    },
+    "faq_mito": {
+      "hash": "1f6237ddd7a9f9cc",
+      "texto": {
+        "pregunta": "Mythos: Die Pyramiden und Tempel von Teotihuacán zeigten sich ursprünglich in grauem Stein und nacktem rotem Tezontle.",
+        "respuesta": "Realität: Die gesamte Architektur der Stadt war mit weißem Stuck überzogen und in intensiven Mineralfarben bemalt, vor allem in Hämatitrot."
+      }
+    }
+  }
+}

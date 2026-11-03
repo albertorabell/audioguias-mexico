@@ -1,0 +1,56 @@
+{
+  "id": "teo_32_despues",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f25f5dd61ba3ae47",
+      "texto": "Teotihuacán nach Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "7178e6cb66815842",
+      "texto": "Als die Mexica kamen, war die Stadt bereits eine heilige Ruine."
+    },
+    "puente_narrativo": {
+      "hash": "95db2801dcc6a3e1",
+      "texto": "Hier endet dein Rundgang durch Teotihuacán. Wenn du das Nationalmuseum für Anthropologie in Mexiko-Stadt besuchst, such den Saal Teotihuacán: Dort begegnen dir die steinernen Kolosse und die Wandmalereien, die aus diesem Boden stammen, von Angesicht zu Angesicht."
+    },
+    "guion_corto": {
+      "hash": "7523d26a426d0a15",
+      "texto": "Jahrhunderte nach ihrem Untergang fanden die Mexica diese Ruinen und behandelten sie mit Respekt. Sie gaben ihr den Namen Teotihuacán. Sie glaubten, dass die Götter hier die gegenwärtige Ära geschaffen hatten, die Fünfte Sonne. Moctezuma pilgerte hierher. Man sagte auch, dass Riesen die Pyramiden errichtet hätten. Heute wissen wir, dass Menschen wie du und ich sie gebaut haben, in einer Stadt mit Tausenden von Familien. Ein großer Teil der Stadt ist bis heute nicht ausgegraben. So blieb dieser Ort noch lange nach seiner Blütezeit bedeutsam."
+    },
+    "guion_largo": {
+      "hash": "38dd363dd2c22003",
+      "texto": "Für die Mexica war Teotihuacán ein heiliger Ort. Ihren Erzählungen zufolge opferten sich hier die Götter, damit die Sonne unserer Ära existieren konnte. Den Mythos von Tecciztécatl und Nanahuatzin, die sich ins Feuer stürzten, überliefern Quellen aus dem sechzehnten Jahrhundert. Die Mexica glaubten, dass Riesen die Pyramiden erbaut hätten. Heute wissen wir, dass es nicht so war. Es waren Menschen aus Fleisch und Blut, mit Werkzeugen aus Stein und mit sehr viel Organisation. Auch die Geschichte der Ausgrabungen ist lang. Im siebzehnten Jahrhundert besuchte Carlos de Sigüenza y Góngora die Ruinen bereits. Im Jahr neunzehnhundertfünf erkundete Leopoldo Batres die Sonnenpyramide und restaurierte sie für die Hundertjahrfeier von neunzehnhundertzehn. Zwischen neunzehnhundertsiebzehn und neunzehnhundertzweiundzwanzig arbeitete Manuel Gamio in der Ciudadela. Im Jahr neunzehnhundertzweiunddreißig grub Sigvald Linné Häuser der Stadt aus. Zwischen neunzehnhundertsechzig und neunzehnhundertfünfundsechzig führte das INAH unter Jorge Acosta große Arbeiten durch. Im Jahr neunzehnhunderteinundsiebzig wurde die Höhle unter der Sonnenpyramide entdeckt. Zwischen neunzehnhundertachtzig und neunzehnhundertzweiundachtzig wurden die Pyramide der Gefiederten Schlange und die Prachtstraße ausgegraben und restauriert. Das Team von René Millon erstellte eine Karte der gesamten Stadt. Dank dieser Karte wissen wir, dass es etwa zweitausend Wohnkomplexe gab. Doch ein großer Teil der Stadt ist weiterhin nicht ausgegraben. Die Sonnenpyramide gehört zu den am stärksten restaurierten. Bei dieser Restaurierung wurde ein Teil der ursprünglichen Fassaden abgetragen, laut einer Quelle an manchen Seiten bis zu zehn Meter. Deshalb lohnt es sich, stets zu fragen, welcher Teil original ist und welcher rekonstruiert wurde. Jedes Jahr kommen neue Erkenntnisse hinzu, und deshalb kann sich das, was wir dir heute erzählen, morgen ändern."
+    },
+    "retos_observacion": {
+      "hash": "6f5fef485912801a",
+      "texto": [
+        "Schau auf die Felder mit Agaven und Nopalkakteen und auf die Häuser, die den Rand der archäologischen Zone umgeben: Unter all diesem Boden liegen noch 90 % der antiken Stadt begraben",
+        "Merk dir die drei Namen, die diese Metropole getragen hat: Ho Noom Witz für die Maya, Teotihuacán für die Mexica und ihr bis heute unbekannter ursprünglicher Name",
+        "Wenn du das Nationalmuseum für Anthropologie in Chapultepec besuchst, verknüpfe diesen Rundgang mit dem Monolithen der Chalchiuhtlicue, der Todesscheibe und dem Marker von La Ventilla"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cd0389b0e362eeb2",
+      "texto": {
+        "Kultur": "Mexica-Rezeption (Späte Postklassik) und Geschichte der mexikanischen Archäologie (20. und 21. Jahrhundert)",
+        "Meilensteine der Erforschung": "Leopoldo Batres (1905-1910), Manuel Gamio (1917-1922), Teotihuacán-Projekt des INAH / Jorge Acosta und Ignacio Bernal (1962-1964), Karte von René Millon (1962-1970) und zeitgenössische Projekte (Cabrera, Sugiyama, Manzanilla, Gómez Chávez, Ortega)"
+      }
+    },
+    "faq_mito": {
+      "hash": "1cf6fe9b63af0ccb",
+      "texto": {
+        "pregunta": "Mythos: Die ganze Stadt Teotihuacán ist bereits ausgegraben.",
+        "respuesta": "Realität: Die für die Öffentlichkeit zugängliche archäologische Zone umfasst lediglich das zeremonielle Zentrum; mehr als fünfundachtzig Prozent der Wohnkomplexe der antiken Stadt liegen noch immer unter der Erde."
+      }
+    }
+  }
+}

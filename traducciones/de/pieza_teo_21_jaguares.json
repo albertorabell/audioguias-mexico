@@ -1,0 +1,62 @@
+{
+  "id": "teo_21_jaguares",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "fc74b535fb871648",
+      "texto": "Palast der Jaguare"
+    },
+    "frase_gancho": {
+      "hash": "4e1f3c73ddf683f9",
+      "texto": "Ein Jaguar, der in eine mit Federn bedeckte Muschel bläst."
+    },
+    "puente_narrativo": {
+      "hash": "9d28eeec92c5a12f",
+      "texto": "In diesem Komplex führt eine Treppe unter den Boden des Palastes hinab zum unterirdischen Tempel, den die Erbauer unversehrt begraben haben."
+    },
+    "guion_corto": {
+      "hash": "f7de04f9863fe097",
+      "texto": "Das hier ist der Hof der Jaguare, neben dem Palast des Quetzalpapálotl. An seinen Wänden sind Raubkatzen gemalt, die eine große Muschel im Maul halten, als bliesen sie hinein. Aus der Muschel kommen Federn, und im Rahmen erscheint ein Gesicht, das Tláloc, den Regengott, darstellen könnte. Andere Raubkatzen haben einen Körper, der wie von einem Netz bedeckt ist. Was das alles bedeutet, ist bis heute umstritten. Achte darauf, wie viele Details auf einer einzigen Wand zu sehen sind."
+    },
+    "guion_largo": {
+      "hash": "0b37c656ce22f799",
+      "texto": "Die Säulengänge dieses Hofes haben zwei Wandmalereien bewahrt. Auf der einen ziehen reich geschmückte Raubkatzen in einer Prozession entlang. Im Maul tragen sie ein Instrument, das aus einer großen Muschel mit Federn gefertigt ist. Der Körper ist langgestreckt und dunkelrot, und die Tiere tragen einen Kopfschmuck aus fünf langen Federn. Über den Rücken verläuft eine Reihe von Muschelschalen. Unter einer Pfote fallen drei rote Tropfen. Der Rahmen zeigt einen Federschmuck und ein Gesicht, das Tláloc sein könnte, innerhalb eines Sterns. Auf der anderen Malerei sieht man kleine Jaguare mit grünem Körper und einem blauen Netz. Sie haben ein rundes Auge, einen langen, gebogenen Eckzahn und einen Busch aus grünen Federn. Zwei menschliche Hände begleiten sie. Die Fachleute sind sich nicht einig, was das alles bedeutet. Manche meinen, die Muschel habe zum Krieg gerufen. Andere bringen sie wegen der Gegenwart von Tláloc mit Regen und Wasser in Verbindung. Auch wurde vorgeschlagen, dass der Stern die Venus darstellt. Das sind Ideen, keine Gewissheiten. Wer hier lebte, weiß man ebenfalls nicht. Was du aber tun kannst: in Ruhe hinschauen und sehen, wie viele Details auf einer einzigen Wand Platz finden."
+    },
+    "retos_observacion": {
+      "hash": "0b75af980d348e72",
+      "texto": [
+        "Geh nah an die Wände der Säulengänge des Hofes heran und suche den rötlichen Jaguar mit dem grünen Federbusch, der die Meeresmuschel hält",
+        "Erkenne vor der Muschel die Schnörkelvolute des Klangs und die Flüssigkeitstropfen, die aus dem Blasinstrument fallen",
+        "Suche in den Zierbändern und den seitlichen Räumen die Gesichter des Tláloc innerhalb von fünfzackigen Sternen und die Raubkatzen, die von einem blauen Netz bedeckt sind"
+      ]
+    },
+    "especificaciones": {
+      "hash": "37ed4013cedce97d",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Späte Klassik (Xolalpan-Phase, etwa 450-550 n. Chr.)",
+        "Technik": "Freskomalerei auf Stuck mit Hämatit, Ocker, Malachitgrün und Blau",
+        "Schlüsselmotive": "Jaguare, die gefiederte Muscheln blasen, genetzte Raubkatzen und Venussterne mit Tláloc",
+        "Standort": "Direkt westlich angrenzend an den Palast des Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "cdce351d3062d6cc",
+      "texto": {
+        "pregunta": "Mythos: Die Jaguare in der Kunst von Teotihuacán standen ausschließlich für Krieg und Zerstörung.",
+        "respuesta": "Realität: In Teotihuacán war der Jaguar eng mit Höhlen, Nacht und Donner verbunden; deshalb erscheint er hier beim Blasen einer Meeresmuschel, um den Regen herbeizurufen."
+      }
+    }
+  }
+}

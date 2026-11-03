@@ -1,0 +1,60 @@
+{
+  "id": "teo_11_piramide_sol",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "retos_observacion": [
+      "el glosario pide \"Neues Feuer\" para \"Fuego Nuevo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "1f1088c7704a4433",
+      "texto": "Sonnenpyramide"
+    },
+    "frase_gancho": {
+      "hash": "6284057064e1b14c",
+      "texto": "Ein von Menschenhand geschaffener Berg: mehr als eine Million Kubikmeter Erde, in einer einzigen Bauphase aufgeschüttet."
+    },
+    "puente_narrativo": {
+      "hash": "bac60da5ed83a96c",
+      "texto": "Wenn du der kompletten Route folgst, bleib vor der zentralen Freitreppe stehen, um mit Röntgenstrahlen einen Blick in die verborgene Höhle unter der Pyramide zu werfen; wenn du die Express-Route gehst, umrunde das Monument zu seiner rechten Seite, um das Museum der Ausgrabungsstätte zu betreten."
+    },
+    "guion_corto": {
+      "hash": "5281c4611baae3cf",
+      "texto": "Stell dich in die Mitte dieses Platzes und richte den Blick auf den Koloss, der das ganze Tal beherrscht. Du stehst vor der Sonnenpyramide: Sie ist sechsundsechzig Meter hoch und zweihundertvierundzwanzig Meter lang auf jeder Seite. Anders als andere mesoamerikanische Tempel, die über Jahrhunderte hinweg Schicht um Schicht langsam wuchsen, wurde dieser künstliche Berg mit mehr als einer Million Kubikmetern in einer einzigen großen Bauphase zwischen dem ersten und dem zweiten Jahrhundert errichtet. Den Namen Sonnenpyramide gaben ihr die Mexica; für diejenigen, die sie erbauten, war sie ein heiliger Berg. Bei dieser Sonne und der Höhe dieses Tals: Trink ein wenig Wasser, bevor du weitergehst."
+    },
+    "guion_largo": {
+      "hash": "fac8040029e6bf7f",
+      "texto": "Das Überraschendste an diesem Giganten ist sein Inneres. Es birgt keine großen behauenen Blöcke. Seine Erbauer füllten ihn mit Erde, Tuffgestein und Sand auf, bis ein Volumen von etwas mehr als einer Million Kubikmetern erreicht war, und errichteten ihn in vier Stufenkörpern. Später, zwischen den Jahren zweihundert und dreihundertfünfzig, fügten sie ihm eine Schicht von fast sechs Metern Dicke hinzu. Sie bedeckte die Nord-, Ost- und Südfassade und wurde in einer anderen Bautechnik ausgeführt. Warum sie das taten, weiß man bis heute nicht. Man hat strukturelle, ideologische und politische Gründe vorgeschlagen.\n\nSieh dir die Struktur an, die am Fuß der Freitreppe auf der Seite der Straße der Toten hervorragt. Es ist die Angebaute Plattform, gebildet aus drei kleinen Plattformen, die an die Westfassade gefügt sind. Sie wurde nach der Pyramide gebaut, in mindestens vier Etappen, und war mit schweren Skulpturen von Raubkatzen, Gefiederten Schlangen und Fabelwesen geschmückt, dazu mit Wandmalerei. Im Vergleich mit den Wandbildern von Atetelco und Tetitla nimmt man an, dass sie Raubkatzen in einer Prozession zeigten.\n\nDie Erbauer versteckten auch Opfergaben im Inneren des Bauwerks, entlang einer Achse von Osten nach Westen, nahe am natürlichen Fels. Die Archäologen fanden dort Obsidianspitzen, Gefäße mit dem Gesicht von Tláloc, Meeresschnecken, Schieferscheiben, eine Maske aus grünem Stein sowie Überreste von Adler, Schlangen, Pumas, Wölfen und Kondor. In der Füllung kam außerdem ein Kind von vier bis sechs Jahren zum Vorschein, dessen Kopf absichtlich deformiert worden war. Wer diese Opfergaben erforscht, sieht in ihnen eine Art, das Gebäude als heiligen Berg zu weihen. Sie wären zugleich eine Art, die politische und religiöse Macht der Stadt zu verkünden.\n\nDiese Pyramide misst auch die Zeit. Ihre Fassade blickt dorthin, wo die Sonne Ende April und Mitte August untergeht. Zwischen dem Untergang im August und dem im darauffolgenden April vergehen zweihundertsechzig Tage, die Zählung des rituellen Kalenders. Auch der Sonnenaufgang in derselben Richtung, Mitte Februar und Ende Oktober, liegt zweihundertsechzig Tage auseinander.\n\nAuch von innen haben Archäologen diese Pyramide durchquert. Zwischen neunzehnhundertsiebzehn und neunzehnhundertachtzehn trieb Manuel Gamio einen Tunnel von siebenundneunzig Metern in Richtung Zentrum. Im Jahr neunzehnhundertdreiunddreißig wurde ein weiterer von einhundertsechzehn Metern angelegt. So konnte man verstehen, wie sie zusammengefügt wurde.\n\nWas du heute siehst, ist nicht genau das, was die Menschen von Teotihuacán sahen. Zwischen neunzehnhundertfünf und neunzehnhundertsieben grub Leopoldo Batres sie aus, festigte sie und rekonstruierte sie teilweise, für die Feierlichkeiten zur Hundertjahrfeier der Unabhängigkeit. Seit neunzehnhundertzehn gehört sie zur ersten archäologischen Zone Mexikos, die für die Öffentlichkeit zugänglich war. Und unter ihren Fundamenten liegt eine Höhle, die man neunzehnhunderteinundsiebzig durch Zufall entdeckte und von der wir sprechen werden, wenn du der kompletten Route folgst.\n\nEs ist sonnig, und du befindest dich auf mehr als zweitausend Metern Höhe. Trink Wasser, bevor du weitergehst."
+    },
+    "retos_observacion": {
+      "hash": "2c1cb40ee102f8af",
+      "texto": [
+        "Zähle die Stufenkörper der Pyramide und erkenne die schmalere vierte Ebene, die der Wiederaufbau vor einem Jahrhundert hinterlassen hat",
+        "Finde vor der Haupttreppe die Angebaute Plattform, auf der das Neue Feuer entzündet wurde",
+        "Blick von der Mitte des Platzes zum Gipfel hinauf, um dir den Sonnenuntergang am 29. April und am 13. August vorzustellen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "705a46c21e2c6b08",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Frühe Klassik (1. und 2. Jahrhundert n. Chr.)",
+        "Abmessungen": "66 m Höhe x 224 m pro Seite",
+        "Volumen": "mehr als 1 175 000 m³",
+        "Bautechnik": "Kern aus Erde, Tuffgestein und Adobe-Kammern mit Verkleidung aus Vulkangestein und Stuck",
+        "Herkunft": "Ostseite der Straße der Toten"
+      }
+    },
+    "faq_mito": {
+      "hash": "4d3cc7eae7570084",
+      "texto": {
+        "pregunta": "Mythos: Die Sonnenpyramide ist wie die Pyramiden Ägyptens aus riesigen massiven Steinblöcken gebaut.",
+        "respuesta": "Realität: Ihr Inneres ist eine gewaltige verdichtete Füllung aus Erde, Sand und gemahlenem Tuff, gehalten von Adobemauern und außen mit Stein und rot bemaltem Stuck verkleidet."
+      }
+    }
+  }
+}

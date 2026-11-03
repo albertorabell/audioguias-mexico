@@ -1,0 +1,55 @@
+{
+  "id": "teo_10_mural_puma",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "28930d61b92dac2a",
+      "texto": "Das Pumawandbild"
+    },
+    "frase_gancho": {
+      "hash": "3b9348d32913ae8f",
+      "texto": "Eine gemalte Raubkatze schreitet an einer Mauer entlang und erinnert uns daran, dass die Stadt einst voller Farben war."
+    },
+    "puente_narrativo": {
+      "hash": "b71e932c51cb5148",
+      "texto": "Geh weiter nach Norden in Richtung der Mondpyramide: Auf der vollständigen Route besuchen wir die Regierungspaläste am Weg, auf den anderen gelangen wir direkt zum großen Platz des Mondes."
+    },
+    "guion_corto": {
+      "hash": "a3c94e50012e925d",
+      "texto": "Vor dir siehst du das Pumawandbild. Es ist ein Gemälde, das an dem Ort überdauert hat, an dem es geschaffen wurde, direkt neben der Straße. Es zeigt eine Raubkatze im Profil, umrahmt von farbigen Bändern. Heute siehst du die Ruinen in grauen Tönen, doch die Stadt war einst mit Stuck überzogen und bemalt. Raubkatzen erscheinen auch in anderen Wandbildern von Teotihuacán. Deshalb nimmt man an, dass sie wichtige Symbole waren. Tritt näher heran und betrachte in Ruhe den Verlauf der Linien."
+    },
+    "guion_largo": {
+      "hash": "0ef96b43f39e9990",
+      "texto": "Dieses Gemälde heißt Pumawandbild. Es befindet sich noch an seinem ursprünglichen Platz, direkt neben der Straße, und wird von einem Dach geschützt. Es zeigt eine Raubkatze im Profil mit ausgestreckten Krallen, umrahmt von farbigen Bändern. Nutze den Moment, um dir die ganze Straße vorzustellen. Heute sehen wir die Ruinen in Steintönen, doch die Gebäude waren mit Stuck überzogen und mit Malereien geschmückt. Raubkatzen erscheinen in den Wandbildern von Teotihuacán immer und immer wieder. Es gibt netzgemusterte Jaguare und Prozessionen von Kojoten und Jaguaren, wie die von Atetelco. Deshalb nimmt man an, dass sie sehr bedeutende Gestalten waren. Manche bringen sie mit Macht und mit Kriegerorden in Verbindung. Das ist eine Deutung, und es gibt keine Einigkeit. Achte auf den Rahmen. Die Bänder rund um das Tier scheinen Strömungen darzustellen, aber auch diese Lesart ist eine Hypothese. Was du jedoch sehr wohl sehen kannst, ist die Hand des Malers. Die Wandbilder entstanden mit Geduld, Schicht für Schicht. Sieh dir den Umriss der Raubkatze an, ihre Linien, ihre Farben. Wer sie gemalt hat, wusste sehr genau, was er tat, und kannte die Regeln, nach denen in seiner Stadt gemalt wurde."
+    },
+    "retos_observacion": {
+      "hash": "0c86d7a75568ba87",
+      "texto": [
+        "Finde innerhalb des Bildfelds die vollständige Silhouette der Raubkatze im Profil: ihre vier Pfoten mit Krallen, den langen geschwungenen Schwanz und das leicht geöffnete Maul",
+        "Beobachte die roten und blauen Wellenbänder, die das Tier oben und unten einrahmen",
+        "Achte auf die Dicke der weißen Kalkstuckschicht, auf die die Künstler vor eintausendfünfhundert Jahren die Pigmente auftrugen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "13b2cd37b5718298",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Klassik (etwa 400-550 n. Chr.)",
+        "Technik": "Freskomalerei auf Kalkstuck mit mineralischen Pigmenten (Hämatit, Ocker und Blau)",
+        "Maße des Wandbilds": "mehr als 2 m lang",
+        "Standort": "Ostseite der Straße der Toten, direkt südlich des Sonnenplatzes"
+      }
+    },
+    "faq_mito": {
+      "hash": "4eafc417259c98cf",
+      "texto": {
+        "pregunta": "Mythos: Das Pumawandbild ist eine moderne Kopie, die für Touristen angebracht wurde.",
+        "respuesta": "Realität: Es ist ein originales Wandbild aus Teotihuacán, das an seinem ursprünglichen Ort erhalten ist; das Dach wurde angebracht, um seine Pigmente vor Regen und Sonne zu schützen."
+      }
+    }
+  }
+}

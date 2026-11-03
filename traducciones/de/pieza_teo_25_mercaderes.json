@@ -1,0 +1,56 @@
+{
+  "id": "teo_25_mercaderes",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "edf9025557a15291",
+      "texto": "Das Viertel der Händler: die runden Häuser"
+    },
+    "frase_gancho": {
+      "hash": "250cea649c48b854",
+      "texto": "Runde Lehmziegelhäuser mit Gefäßen von der Küste und aus dem Land der Maya."
+    },
+    "puente_narrativo": {
+      "hash": "dd81bd60ef1139bc",
+      "texto": "Vom Osten wechseln wir auf den Rundweg im Westen und Südwesten, nahe den Toren Eins und Zwei, um die Häuser zu betreten, in denen die Teotihuacán-Familien lebten, und die Wandmalereien von Tetitla und Atetelco zu bewundern."
+    },
+    "guion_corto": {
+      "hash": "f2f7c05f85ca8066",
+      "texto": "Dies ist das sogenannte Viertel der Händler im Osten der Stadt. Seine Bauten waren rund und aus Lehmziegeln, anders als die rechteckigen Häuser in anderen Bereichen. Man hat Objekte von der Golfküste und aus Puebla gefunden, außerdem Gefäße im Stil der Maya. Knochenanalysen zeigen, dass viele Menschen von auswärts kamen. Deshalb denkt man an Kaufleute und Reisende, auch wenn der Name eine Hypothese ist. Es war ein Ort, an dem sich Gegenstände und Bräuche aus vielen Regionen kreuzten."
+    },
+    "guion_largo": {
+      "hash": "85c5f3b45bfe1577",
+      "texto": "Das Viertel liegt am östlichen Stadtrand. Auffällig sind seine runden Lehmziegelbauten, die sich von den rechteckigen Gebäuden im Rest von Teotihuacán unterscheiden. Die Verbindungen zur Golfküste, in Veracruz, sind eng. Außerdem fanden sich Objekte aus Puebla und mehrfarbige Gefäße der Maya. Analysen von Strontiumisotopen in den Knochen weisen darauf hin, dass viele Menschen aus anderen Regionen zugewandert waren. Die Archäologin Evelyn Rattray erforschte den Ort und veröffentlichte ihre Ergebnisse in den Jahren neunzehnhundertachtundachtzig und neunzehnhundertneunundneunzig. Sie verfolgte auch die Spur der Keramik, die Naranja Delgado genannt wird. Sie stammte laut Neutronenaktivierungsanalysen aus Ixcaquixtla, in Puebla. Es gab sogar Formen in Gestalt von Pilzen. Aufgrund dieser Daten dachte man an ein Händlerviertel. Doch man muss vorsichtig sein. Objekte reisen aus vielen Gründen, und wir wissen nicht sicher, womit sich jede Familie beschäftigte. Dieselben Routen, die Gefäße und Materialien brachten, könnten auch Ideen und Menschen gebracht haben. Das ist eine Möglichkeit, denn Objekte allein erzählen nicht die ganze Geschichte. Sicher ist: Teotihuacán hatte Nachbarn aus vielen Gegenden."
+    },
+    "retos_observacion": {
+      "hash": "412563b4f83e824e",
+      "texto": [
+        "Schau zum östlichen Teil des Tals, in Richtung des Flussbetts des Río San Juan, wo sich diese Handelsniederlassung befand",
+        "Vergleiche auf deinem Bildschirm den runden Grundriss mit Rampe dieser Wohnhäuser mit den geraden Mauern der übrigen Stadt",
+        "Denk an die Route von acht bis zehn Tagen zu Fuß, auf der Ballen von Baumwolle und Kakao von der Küste von Veracruz in dieses Tal gebracht wurden"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b22ddb348e40914",
+      "texto": {
+        "Kultur": "Teotihuacán im Zusammenleben mit Gruppen von der Golfküste und aus dem Maya-Gebiet",
+        "Epoche": "Klassik (um 250-550 n. Chr.)",
+        "Arquitectura": "Mehr als 20 runde Bauten aus Lehmziegeln und Bruchstein (ca. 9 m Durchmesser)",
+        "Cerámica foránea": "12 bis 18 % der Gesamtmenge",
+        "Excavación": "Evelyn Rattray",
+        "Standort": "Nordöstlicher Bereich, am Río San Juan"
+      }
+    },
+    "faq_mito": {
+      "hash": "b40ce5ba8d82745d",
+      "texto": {
+        "pregunta": "Mythos: In Teotihuacán war es verboten, außerhalb des quadratischen Entwurfs aus Talud und Tablero zu bauen.",
+        "respuesta": "Realität: Im Viertel der Händler errichteten die aus der Golfküste stammenden Kaufleute runde Wohnhäuser und Lager nach der Tradition ihrer Heimat."
+      }
+    }
+  }
+}

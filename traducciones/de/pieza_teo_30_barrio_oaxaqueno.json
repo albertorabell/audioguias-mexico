@@ -1,0 +1,68 @@
+{
+  "id": "teo_30_barrio_oaxaqueno",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"zapotekisch\" para \"zapoteco\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Zapoteken\" para \"Zapoteca / Zapotecas\" y no aparece",
+      "el glosario pide \"zapotekisch\" para \"zapoteco\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"Zapoteken\" para \"Zapoteca / Zapotecas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Zapoteken\" para \"Zapoteca / Zapotecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "c7a58af6538aea1b",
+      "texto": "Tlailotlacan: das oaxaqueñische Viertel"
+    },
+    "frase_gancho": {
+      "hash": "beacdc551ea9314d",
+      "texto": "Drei Kilometer von der Calzada entfernt lebten Menschen, die aus Oaxaca gekommen waren."
+    },
+    "puente_narrativo": {
+      "hash": "9aba4448ad35f030",
+      "texto": "Hast du die ganze Stadt nun vor Augen, such dir einen schattigen Platz oder geh Richtung Ausgang, um die beiden letzten Kapitel zu hören: wie Teotihuacán in Flammen aufging und wie seine Legende entstand."
+    },
+    "guion_corto": {
+      "hash": "b8cffbc20b969929",
+      "texto": "Dieses Viertel heißt Tlailotlacan und liegt etwa drei Kilometer westlich der Calzada, an den Hängen des Cerro Colorado Chico. Hier lebten Menschen, die Bräuche aus Oaxaca bewahrten, vor allem der Zapoteken. Es gibt Gräber aus Stein, wie dort in der Heimat, und Gefäße im zapotekischen Stil. Doch die Bewohner benutzten auch Gegenstände aus Teotihuacán. Die Archäologen sehen darin ein Viertel von Menschen, die aus der Ferne kamen und blieben. Es war eine Stadt, in der verschiedene Völker zusammenlebten, jedes in seinem eigenen Winkel."
+    },
+    "guion_largo": {
+      "hash": "1cd6259928e00bd0",
+      "texto": "Tlailotlacan ist der Name, den man diesem Viertel heute gibt. Es besteht aus zehn bis fünfzehn Wohnkomplexen an den Hängen des Cerro Colorado Chico, westlich der Stadt. Als Erste gruben hier Paddock und Rattray, in den Jahren 1966 und 1967. Später fanden Millon und Vidarte ein Grab mit einem zapotekischen Glyphen, der „neun Bewegung“ zu lesen ist. Darin lag ein Gefäß im Stil von Monte Albán, das um das Jahr 600 unserer Zeitrechnung absichtlich zerbrochen worden war. Zwischen 1987 und 1989 grub Michael Spence den Komplex namens TL sechs aus. Er entdeckte einen Platz mit einem Altar in der Mitte, drei Plattformen und zwei Gräber. Zwischen 2008 und 2014 arbeitete ein Projekt des INAH unter der Leitung von Verónica Ortega Cabrera in mehreren Komplexen. Es gibt einen Unterschied zum Rest der Stadt. Die zapotekischen Gräber sind steinausgekleidete Kammern. Die von Teotihuacán sind Gruben. Aber die zapotekische Keramik macht nur etwa drei Prozent aus und wurde aus einheimischem Ton gefertigt. Die Menschen bewahrten also ihre Bräuche, stellten ihre Gefäße aber hier her. Isotopenanalysen an den Knochen erzählen noch mehr. Viele Menschen wurden in Oaxaca geboren, und einige unternahmen Reisen zurück. Die Fachleute streiten darüber, wann das Viertel entstand. Millon schlägt die Zeit zwischen den Jahren 300 und 650 vor. Ortega findet ältere Spuren, schon ab dem Jahr 100 oder 200. Sie streiten auch darüber, was es war. Manche sprechen von einer Botschaft, andere von einer Enklave oder dem Viertel einer fremden Gemeinschaft. Niemand weiß es genau. Denk einmal darüber nach, was das bedeutet. Vor etwa 1500 Jahren lebten Familien aus Oaxaca in einer Stadt, die nicht die ihre war. Manche Bräuche bewahrten sie, etwa die Toten in Steinkammern zu bestatten. Andere übernahmen sie, etwa den einheimischen Ton und Gegenstände aus Teotihuacán zu verwenden. Das ist eine mögliche Deutung dessen, was die Gräber und die Gefäße zeigen. Der Glyph „neun Bewegung“ scheint ein Datumsname des zapotekischen Kalenders zu sein, gebildet aus einer Zahl und einem Zeichen. Klar ist jedenfalls, dass Teotihuacán Menschen aus anderen Ländern aufnahm."
+    },
+    "retos_observacion": {
+      "hash": "b5508803f233c96f",
+      "texto": [
+        "Richte deinen Blick nach Westen über das Tal, wo die alte Achse der Avenida Oeste das Zentrum mit der zapotekischen Enklave verband",
+        "Betrachte in den Bildern deiner App den Türpfosten aus Stein mit eingravierten zapotekischen Glyphen und die Urnen des Cocijo aus grauem Ton, die in diesem Viertel gefunden wurden",
+        "Denke darüber nach, wie eine so stark vereinheitlichte Metropole es Vierteln mit einer anderen Sprache und anderen Göttern ermöglichte, vier Jahrhunderte lang friedlich nebeneinander zu leben"
+      ]
+    },
+    "especificaciones": {
+      "hash": "08e8ce7b4ef2a2b5",
+      "texto": {
+        "Kultur": "Zapoteken (Oaxaca), angesiedelt in Teotihuacán",
+        "Epoche": "Klassik (um 200-600 n. Chr.)",
+        "Wichtige Funde": "Gräber aus Mauerwerk im Stil von Monte Albán mit Vorkammer und Türpfosten mit zapotekischen Glyphen, Urnen des Cocijo und graue Keramik aus einheimischem Ton",
+        "Standort": "3 km westlich der Ciudadela (Stadtviertel San Juan Evangelista)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c742a9523c188890",
+      "texto": {
+        "pregunta": "Mythos: Alle Bewohner von Teotihuacán gehörten derselben Ethnie an und sprachen nur eine Sprache.",
+        "respuesta": "Realität: Teotihuacán war eine multiethnische, kosmopolitische Metropole; ganze Viertel wie Tlailotlacan bewahrten vier Jahrhunderte lang ihre zapotekische Sprache, ihre Götter und ihre oaxaqueñischen Gräber."
+      }
+    }
+  }
+}

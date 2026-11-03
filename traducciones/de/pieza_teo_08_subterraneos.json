@@ -1,0 +1,65 @@
+{
+  "id": "teo_08_subterraneos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece",
+      "el glosario pide \"Gefiederte Muscheln\" para \"Caracoles Emplumados\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece",
+      "el glosario pide \"Gefiederte Muscheln\" para \"Caracoles Emplumados\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "7c169ed336585ece",
+      "texto": "Übereinandergebaute Gebäude, die Unterirdischen"
+    },
+    "frase_gancho": {
+      "hash": "b767eec7248bf412",
+      "texto": "In dieser Stadt wurde ein neues Gebäude über ein altes gebaut."
+    },
+    "puente_narrativo": {
+      "hash": "e8834ab8d1a331aa",
+      "texto": "Ein paar Schritte weiter, auf demselben Abschnitt der Straße, verbargen die Residenzen der Elite unter dem Boden glänzende Platten, die aus Oaxaca herbeigeschafft worden waren."
+    },
+    "guion_corto": {
+      "hash": "e23a6cdfb3bd672a",
+      "texto": "Du stehst vor einem Ort, an dem ein Gebäude auf einem älteren ruht. In Teotihuacán war es üblich, über dem Alten zu bauen. Man füllte auf und errichtete neu. Der Tempel der Gefiederten Schlange ist ein Beispiel dafür, denn um das Jahr dreihundertfünfzig wurde vor seiner Fassade eine Plattform hinzugefügt. Der Palast des Quetzalpapálotl wurde über dem Tempel der Gefiederten Muscheln errichtet. So bewahrten die Gebäude Schichten von Geschichte. Eine dieser Schichten zu sehen, ist, als schlüge man ein altes Buch auf."
+    },
+    "guion_largo": {
+      "hash": "b65af377ec971848",
+      "texto": "In Teotihuacán löschte ein neuer Bau nur selten den früheren aus. Oft wurde aufgefüllt und darüber gebaut. So blieben ganze Gebäude im Inneren anderer erhalten. In dem Bereich, der vor dir liegt und Übereinandergebaute Gebäude genannt wird, kannst du sehen, wie sich ein Gebäude auf ein älteres stützt. Einige untere Galerien sind aus Gründen der Konservierung in der Regel geschlossen, doch von den Höhenunterschieden aus lässt sich der Unterschied erkennen. Es gibt weitere bekannte Beispiele. Der Tempel der Gefiederten Schlange wurde zum Teil von einer Plattform verdeckt, die um das Jahr dreihundertfünfzig hinzugefügt wurde. So wurde seine Fassade mit den Skulpturen geschützt. Der Palast des Quetzalpapálotl wurde über dem Tempel der Gefiederten Muscheln erbaut. Dank dieser Verschüttung blieb der ältere Tempel erhalten. Die Archäologen nutzen diese Schichten. Jede erzählt von einer anderen Etappe der Stadt. Eine Frage wird bis heute diskutiert. Warum wurde ein Gebäude überbaut, anstatt es abzureißen? Manche meinen, das Zuschütten eines Tempels sei ein ritueller Akt gewesen. Das ist eine Hypothese. Jedes neue Gebäude bewahrt in seinem Inneren die Erinnerung an das vorherige. Während du schaust, stell dir vor, wie viele Versionen dieses Ortes unter deinen Füßen existiert haben."
+    },
+    "retos_observacion": {
+      "hash": "dd2b7d3a0995afdd",
+      "texto": [
+        "Wirf einen Blick auf die Schnitte und Höhenunterschiede an der Westseite der Straße, um zu erkennen, wie sich die oberen Mauern auf ältere Strukturen stützen",
+        "Finde die Treppen und den Zugang zu den unterirdischen Galerien, die zu Beginn des 20. Jahrhunderts ausgegraben wurden",
+        "Betrachte auf den Fotos auf deinem Bildschirm die roten und weißen Flechtbänder im Stil von Veracruz, die auf der unteren Ebene aufbewahrt werden"
+      ]
+    },
+    "especificaciones": {
+      "hash": "70607d9b8b40de1b",
+      "texto": {
+        "Kultur": "Teotihuacán, mit Einfluss der Golfküste",
+        "Epoche": "Frühe Klassik (untere Bauphasen um 150-250 n. Chr.)",
+        "Überlagerung": "4 bis 6 Bauebenen",
+        "Herausragendes Element": "Plattform der Verschlungenen Volute",
+        "Erste Erkundung": "Leopoldo Batres (1909)",
+        "Herkunft": "Westseite der Straße der Toten"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0b8c41f1a51f50f",
+      "texto": {
+        "pregunta": "Mythos: Die Teotihuacán rissen die alten Gebäude ab, wenn sie aus der Mode kamen.",
+        "respuesta": "Realität: Sie füllten sie sorgfältig mit Stein und Erde auf, um sie als Fundament zu nutzen, wodurch die unteren Tempel ihren Stuck und ihre Bemalung bewahren konnten."
+      }
+    }
+  }
+}

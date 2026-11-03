@@ -1,0 +1,58 @@
+{
+  "id": "teo_17_plaza_columnas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "especificaciones": [
+      "el glosario pide \"Frühe Klassik\" para \"Clásico Temprano\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "62b3b5e88d9d0695",
+      "texto": "Platz der Säulen: die Maya-Botschaft"
+    },
+    "frase_gancho": {
+      "hash": "7db6c1ec0cb127ab",
+      "texto": "Hier wurden Knochen, Gefäße und Malereien aus fernen Ländern vergraben, und das alles mit Absicht."
+    },
+    "puente_narrativo": {
+      "hash": "e4519f6dfab5e34e",
+      "texto": "Geh die letzten Meter nach Norden: Vor dir öffnet sich das große zeremonielle Theater des Mondplatzes."
+    },
+    "guion_corto": {
+      "hash": "c8754ffa3f4a92bc",
+      "texto": "Du stehst auf dem Platz der Säulen, einer großen Anlage aus Plätzen und Tempeln neben der Straße der Toten. Hier fand ein Team unter der Leitung von Saburo Sugiyama gewaltige Opfergaben. In einer lagen mehr als zweitausendvierhundert menschliche Überreste. In einer anderen waren es Tausende Tierknochen und Stücke von Wandmalerei im Maya-Stil. Alles wurde absichtlich vergraben. Was das bedeutet, ist weiterhin umstritten. Denk daran, dass unter diesen Böden Depots liegen, die vor Jahrhunderten verschlossen wurden."
+    },
+    "guion_largo": {
+      "hash": "4e663feb14ffdf5b",
+      "texto": "Die Forschenden haben hier sehr große Opfergaben gefunden, die sorgfältig im Inneren der Gebäude vergraben waren. Die sogenannte Opfergabe A eins barg mehr als zweitausendvierhundert menschliche Überreste. Einige Zähne waren abgefeilt oder hatten Metalleinlagen, und mindestens drei Schädel zeigten eine Schädeldeformation. Die Opfergabe D eins enthielt etwa dreitausendfünfhundert Knochen, fast alle von Tieren, und etwa zehntausend Keramikfragmente. Außerdem gab es Kalk und Gips mit Bildern im Maya-Stil. Dazu kamen mehr als tausend Fragmente von Wandmalerei im Maya-Stil, die wahrscheinlich absichtlich niedergerissen wurden. In einer weiteren Opfergabe lagen Meeressteine und das Skelett eines Klammeraffen. Die Archäologen glauben, dass all dies Teil großer Feste war, vielleicht um Bündnisse mit anderen Völkern zu schließen. Das ist eine Deutung, keine bewiesene Tatsache. Es gibt noch ein weiteres umstrittenes Thema. Die Maya-Texte berichten, dass ein Mann namens Siyaj Kak im Januar des Jahres dreihundertachtundsiebzig in Tikal ankam. Viele brachten ihn mit Teotihuacán in Verbindung. Diese Funde lassen manche Fachleute komplexere Beziehungen sehen als eine einfache Eroberung. Stell dir beim Gehen vor, wie unter deinen Füßen diese verschlossenen Depots liegen."
+    },
+    "retos_observacion": {
+      "hash": "297ae6927a9c1ea3",
+      "texto": [
+        "Betrachte die Hügel und Plattformen auf der Westseite der Straße der Toten, kurz bevor sie in den Mondplatz mündet",
+        "Beachte ihre unmittelbare Nachbarschaft zu den großen Bezirken der Macht im Norden (Xalla im Osten und der Mondplatz im Norden)",
+        "Sieh dir auf dem Bildschirm deiner App die Fragmente von Glyphen und Figuren im Maya-Stil an, die bei diesen Ausgrabungen geborgen wurden"
+      ]
+    },
+    "especificaciones": {
+      "hash": "484096401c2c0119",
+      "texto": {
+        "Kultur": "Teotihuacán in Interaktion mit der Maya-Elite der Frühen Klassik",
+        "Epoche": "Klassik (diplomatische Blütezeit zwischen 300 und 450 n. Chr.)",
+        "Funde": "Mehr als 500 Fragmente von Wandmalereien im Maya-Stil, Keramik aus dem Petén und Rückstände von Banketten mit Kakao",
+        "Standort": "Westflanke der Straße der Toten, direkt neben dem Mondplatz"
+      }
+    },
+    "faq_mito": {
+      "hash": "a027e54003c349ae",
+      "texto": {
+        "pregunta": "Mythos: Die Maya und die Menschen von Teotihuacán lebten in verschiedenen Epochen und hatten keinen direkten Kontakt.",
+        "respuesta": "Realität: Sie existierten während der Klassik nebeneinander; Maya-Adlige lebten in diesem Bereich von Teotihuacán, und der Teotihuacán-Staat griff im 4. Jahrhundert direkt in Maya-Städten wie Tikal und Copán ein."
+      }
+    }
+  }
+}

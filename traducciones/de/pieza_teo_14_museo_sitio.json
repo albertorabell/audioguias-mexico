@@ -1,0 +1,58 @@
+{
+  "id": "teo_14_museo_sitio",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "retos_observacion": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "66afd054cdceee21",
+      "texto": "Museum der Teotihuacán-Kultur (Ortsmuseum)"
+    },
+    "frase_gancho": {
+      "hash": "992317afa0c39a86",
+      "texto": "Eine Pause, um die Stadt im Miniaturformat zu betrachten und die Objekte, die sie möglich gemacht haben."
+    },
+    "puente_narrativo": {
+      "hash": "b28c0335c8ea3857",
+      "texto": "Wenn du das Museum verlässt, geh zurück zur Straße der Toten und wandere nach Norden: Hinter der Sonnenpyramide wartet rechts von dir, unter einem schützenden Dach, die größte bemalte Raubkatze, die entlang der Straße erhalten ist."
+    },
+    "guion_corto": {
+      "hash": "1fa7bda7cc585e10",
+      "texto": "Dieses Museum schenkt dir eine Pause auf halber Strecke. Wenn du ein Modell der Zone findest, sieh dir an, wie die Straße der Toten die Bauten ordnet. Suche auch nach Objekten aus Obsidian, einem vulkanischen Glas, das Teotihuacán verarbeitete und weit hinaus verbreitete. Wenn du orangefarbene Keramik siehst, denk daran, dass viele Gefäße aus Puebla kamen. Sieh dir die Gesichter und die Opfergaben an. Sie geben den Menschen ein Gesicht, die all das erbaut haben. Gönn dir ein paar Minuten Schatten und Ruhe."
+    },
+    "guion_largo": {
+      "hash": "2226e1a3d4cef37e",
+      "texto": "Dieses Museum ist eine gute Pause auf halber Strecke. Bevor du dir die Vitrinen ansiehst, atme durch und orientiere dich. Wenn du ein Modell der Zone findest, nutze es. Von oben sieht man, wie die Straße der Toten die Anlagen und die Plätze ordnet. Achte auch auf den Fluss San Juan, der dem Raster der Stadt folgt. In den Vitrinen suche einige Objekte, die du schon vom Weg kennst. Obsidian, ein vulkanisches Glas, wurde hier verarbeitet und bis in sehr ferne Gegenden gebracht. Teotihuacán bezog ihn aus Pachuca. Wenn du Gefäße in orangefarbenem Ton siehst, denk daran, dass diese Keramik in Puebla hergestellt wurde, die sogenannte Naranja Delgado. Und wenn es Räucherbecken aus Ton im Theatertyp gibt, betrachte ihre Figuren und ihren Schmuck. Es waren Gefäße, in denen Opfergaben verbrannt wurden. Mach dir keine Sorgen, dir alle Namen zu merken. Es genügt, die Hände zu beobachten, die jedes Objekt gefertigt haben. Hinter jedem Stück standen ein Handwerker, eine Familie und ein Stadtviertel. Bevor du weitergehst, trink Wasser und ruh dich ein wenig aus. Wenn du hinausgehst, werden dir die Pyramiden näher erscheinen, denn du hast Dinge gesehen, die von denselben Menschen gemacht wurden."
+    },
+    "retos_observacion": {
+      "hash": "05c47c98f2c8a9c2",
+      "texto": [
+        "Stell dich vor das große zentrale Modell und richte deinen Blick auf das Panoramafenster im Hintergrund, das die Sonnenpyramide einrahmt",
+        "Suche in den Vitrinen die originalen Bestattungen aus dem Tempel der Gefiederten Schlange mit ihren Halsketten aus Kiefern und Muscheln",
+        "Finde ein Räucherbecken im Theatertyp, verziert mit Schmetterlingen, und ein zylindrisches Gefäß mit drei Füßen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3df0cbfa8227a399",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Funktion": "Archäologisches Ortsmuseum",
+        "Standort": "Südseite der Sonnenpyramide (Zugang Richtung Tor 2 / Botanischer Garten)",
+        "Schlüsselstücke": "Monumentales Modell mit Panoramafenster zur Sonne, Bestattungen aus der Ciudadela, Räucherbecken im Theatertyp, Steinobjekte aus Obsidian und Architekturskulptur"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0e0089295546707",
+      "texto": {
+        "pregunta": "Mythos: Alle wichtigen Stücke, die in Teotihuacán gefunden wurden, wurden nach Mexiko-Stadt gebracht.",
+        "respuesta": "Realität: Dieses Ortsmuseum bewahrt mehr als sechshundert originale Stücke ersten Ranges, die bei den jüngsten Ausgrabungen an den Pyramiden und in den Stadtvierteln gefunden wurden."
+      }
+    }
+  }
+}

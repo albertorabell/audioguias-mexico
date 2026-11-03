@@ -1,0 +1,66 @@
+{
+  "id": "teo_29_ventilla",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "ebb30a8e0178f2c4",
+      "texto": "La Ventilla: das Viertel der Handwerker und der Marker"
+    },
+    "frase_gancho": {
+      "hash": "9daa21ed9653414c",
+      "texto": "Ein Hof mit zweiundvierzig Glyphen, die auf den Boden gemalt sind."
+    },
+    "puente_narrativo": {
+      "hash": "c3b630ac2311b5a2",
+      "texto": "Bevor wir unseren Rundgang durch die Viertel beenden, werfen wir einen Blick auf den Westen des Tals, wo eine aus Oaxaca stammende Gemeinschaft vier Jahrhunderte lang lebte, ohne ihre Sprache und ihre Gräber zu vergessen."
+    },
+    "guion_corto": {
+      "hash": "8911da31c37a03e2",
+      "texto": "Du befindest dich in La Ventilla, einem Viertel im Südwesten des Stadtzentrums. Hier liegt der Glyphenkomplex. Sein Hof hat sechsunddreißig Zeichen, die auf den Boden gemalt sind, und sechs weitere an nahen Mauern. In der Nähe lebten Handwerker. Von hier stammt auch der Marker von La Ventilla, den du im Museum sehen wirst. Ein solches Viertel zeigt, dass die Stadt sehr gut organisiert war, mit Bereichen zum Wohnen, zum Arbeiten und zum Zusammenkommen."
+    },
+    "guion_largo": {
+      "hash": "f7b21c563d255891",
+      "texto": "La Ventilla liegt südwestlich des zivilen Zentrums. Die großen Grabungen begannen im Jahr neunzehnhundertzweiundneunzig. Der Glyphenkomplex misst etwa sechzig mal siebzig Meter. Sein Hof hat sechsunddreißig Glyphen, die auf den Boden gemalt sind, und weitere sechs an angrenzenden Mauern, zusammen zweiundvierzig. Ein Autor datiert sie auf die Zeit zwischen den Jahren dreihundertfünfzig und vierhundertfünfzig und erkennt sechzehn davon als mögliche Ortsnamen. Das ist die Lesart eines einzelnen Autors, keine allgemeine Übereinkunft. In der Nähe liegt ein öffentlicher, T-förmiger Platz von mehr als eineinhalb Hektar. Es wurde vorgeschlagen, dass er für das Ballspiel diente, aber das ist nicht sicher. Dort befindet sich auch der Komplex der Handwerker, in dem jede Familie zwischen drei und sechs Räume hatte. Die ersten Bauten des Viertels stammen aus dem Jahr einhundert unserer Zeitrechnung. Schon damals folgten sie der Ausrichtung der Stadt, dreizehn Grad östlich von Norden. Unter dem Hof der Glyphen kam das älteste bekannte Räuchergefäß vom Typ Theater zum Vorschein. Und von hier stammt der Marker von La Ventilla, der im Jahr neunzehnhundertzweiundsechzig gefunden wurde. Ein solches Viertel erlaubt es, sich die Stadt so vorzustellen, wie die einfachen Leute sie erlebten: geordnete Straßen, Nachbarn mit einem Handwerk und Orte, an denen man zusammenkam."
+    },
+    "retos_observacion": {
+      "hash": "05b6c93098a3e079",
+      "texto": [
+        "Suche, wenn du zurück in Richtung des Parkplatzbereichs von Eingang 1 und 2 gehst, die Hochebene im Südwesten, auf der das Viertel La Ventilla ausgegraben wurde.",
+        "Betrachte auf dem Foto auf deinem Bildschirm den Marker von La Ventilla aus zusammensetzbaren Teilen, der mit dem Wandgemälde verbunden ist, das du in Tepantitla gesehen hast.",
+        "Sieh dir das kreuzförmige Muster der Patolli-Spielbretter an, die in die Stuckböden des Viertels geritzt sind."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a27b31f8415f5d8c",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Klassik (etwa 200-550 n. Chr.)",
+        "Art des Ortes": "Viertel mit vielfältigen Funktionen: Steinhandwerker, Nachbarschaftstempel und Glyphenkomplex",
+        "Wichtige Funde": "Marker des Ballspielplatzes aus Andesit (1962-1963, heute im MNA), Platz der Glyphen und 174 Bestattungen in La Ventilla B",
+        "Standort": "600 m südwestlich der Ciudadela"
+      }
+    },
+    "faq_mito": {
+      "hash": "988c6baf860afdd4",
+      "texto": {
+        "pregunta": "Mythos: In Teotihuacán wurde kein Ballspiel gespielt, weil es keine gemauerten Spielfelder gibt.",
+        "respuesta": "Realität: Der Fund des zerlegbaren Markers von La Ventilla und die Wandgemälde von Tepantitla haben gezeigt, dass auf offenen Plätzen gespielt wurde, mit tragbaren Pfosten und Stöcken."
+      }
+    }
+  }
+}

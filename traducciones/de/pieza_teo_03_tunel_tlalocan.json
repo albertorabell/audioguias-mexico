@@ -1,0 +1,64 @@
+{
+  "id": "teo_03_tunel_tlalocan",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "904dc9cb558da2ea",
+      "texto": "Der Tlalocan-Tunnel unter der Ciudadela"
+    },
+    "frase_gancho": {
+      "hash": "4172d403325eb274",
+      "texto": "Unter deinen Füßen barg ein versiegelter Tunnel rund fünfzigtausend Objekte und flüssiges Quecksilber."
+    },
+    "puente_narrativo": {
+      "hash": "1d48126f4c3139a6",
+      "texto": "Richte den Blick auf die beiden hohen Plattformen, die den Tempel im Norden und im Süden flankieren: Dort lebte der exklusivste Kreis der Priester."
+    },
+    "guion_corto": {
+      "hash": "b40579be6300bb44",
+      "texto": "Steig wieder hinunter auf die Esplanade und sieh dir den Boden direkt vor der Treppe der Angebauten Plattform an. Der Zugang zum Untergrund ist aus Gründen der Erhaltung für die Öffentlichkeit gesperrt, doch du stehst gerade über einem der bedeutendsten Funde der jüngeren Archäologie. Im Jahr zweitausenddrei öffneten heftige Regenfälle an dieser Stelle ein Loch. Als die Archäologen Sergio Gómez und Julie Gazola hineinblickten, entdeckten sie einen künstlichen Tunnel von etwa hundert Metern Länge, der bis zu dem Punkt reicht, der unter dem Tempel der Gefiederten Schlange liegt."
+    },
+    "guion_largo": {
+      "hash": "e5bda1bf52666d63",
+      "texto": "Dieser Tunnel wurde nicht aufgegeben: Er wurde absichtlich verschlossen. Die Teotihuacán füllten ihn auf und versiegelten ihn vor etwa eintausendachthundert Jahren, und deshalb kam nie ein Plünderer bis zum Ende. Eine Quelle des INAH nennt sogar ein früheres Datum, sodass der genaue Zeitpunkt noch erforscht wird. Der Gang hat eine gewölbte Decke und ist etwa zweieinhalb Meter hoch und vier Meter breit. An manchen Abschnitten bleiben nur fünfundzwanzig Zentimeter frei. Deshalb wurde im Jahr zweitausendzehn ein vierrädriger Roboter namens Tlaloque Uno mit eigenen Kameras und eigenem Licht hineingeschickt, um zu sehen, was sich darin befand.\n\nDie Ausgrabungen begannen im Jahr zweitausendneun. Seitdem wurden rund neunhundertsiebzig Tonnen Erde und Gestein abgetragen, mit mindestens fünfundzwanzig Arbeitern pro Schicht. Nahe dem Ende, in einem Raum von etwa vier mal acht Metern, kam die größte Opfergabe zum Vorschein: Man spricht von etwa fünfzigtausend Objekten. Es gibt mehr als viertausend aus Holz, Knochen und dem Fell großer Raubkatzen. Es gibt mehr als fünfzehntausend Samen, Schnecken aus dem Golf von Mexiko und aus der Karibik, Jade aus Guatemala, Pyritscheiben und Kautschukbälle. Außerdem gibt es vier menschliche Figuren aus grünem Stein, von etwa sechzig Zentimetern Höhe. Diese Opfergaben werden auf die Jahre hundertfünfzig bis zweihundert nach Christus datiert.\n\nHinter dieser Opfergabe wurden drei Kammern entdeckt. In einer von ihnen fand sich flüssiges Quecksilber in großen Mengen, zusammen mit Pyritspiegeln und Metallkugeln. Der Archäologe Sergio Gómez schlägt vor, dass das Quecksilber einen Fluss oder einen See der Unterwelt symbolisiert haben könnte. Das Projekt heißt Tlalocan, Weg unter der Erde, weil der Tunnel als Darstellung dieser unterirdischen Welt gedeutet wird.\n\nDie Frage, die sich alle stellen, lautet: Was liegt am Ende? Gómez hat gesagt, dass er hofft, ein Königsgrab zu finden. Bisher wurde es nicht entdeckt, und wir wissen nicht, ob es existiert. Sollte es auftauchen, wäre es das erste Grab eines Herrschers in Teotihuacán. Es würde helfen, eine gewaltige Frage zu beantworten: wie diese Stadt regiert wurde. Bis dahin wird jede Handvoll Erde, die aus dem Tunnel kommt, im Labor untersucht."
+    },
+    "retos_observacion": {
+      "hash": "790d40b876ca633e",
+      "texto": [
+        "Suche den Boden der Plaza vor der Treppe der Angebauten Plattform: Dort öffnete sich 2003 das Loch",
+        "Zieh mit dem Blick eine gerade Linie von deinen Füßen bis zur Mitte des Tempels der Gefiederten Schlange, um dem unterirdischen Verlauf von 103 Metern zu folgen",
+        "Betrachte auf deinem Bildschirm die Bilder der Skulpturen aus grünem Stein und der Pyritkugeln, die in der letzten Kammer gefunden wurden"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f806ac363e297a4b",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Frühe Klassik (verschlossen um 250 n. Chr.)",
+        "Länge": "103 m",
+        "Tiefe": "14 bis 18 m",
+        "Funde": "mehr als 100 000 Objekte, flüssiges Quecksilber, Pyritkugeln und 4 Skulpturen aus grünem Stein",
+        "Erforschung": "Projekt Tlalocan, geleitet von Sergio Gómez Chávez (INAH)",
+        "Zugang": "Für die Öffentlichkeit gesperrt"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c2fc5f6617246c3",
+      "texto": {
+        "pregunta": "Mythos: Der Tunnel unter der Ciudadela war eine natürliche Höhle, die im Lauf der Zeit eingestürzt ist.",
+        "respuesta": "Realität: Er wurde von den Teotihuacán von Hand in das Vulkangestein gegraben und um das Jahr 250 n. Chr. absichtlich mit achtzehn Steinmauern versiegelt."
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "teo_22_caracoles",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Gefiederte Muscheln\" para \"Caracoles Emplumados\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Gefiederte Muscheln\" para \"Caracoles Emplumados\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Gefiederte Muscheln\" para \"Caracoles Emplumados\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"Palast des Quetzalpapálotl\" para \"Palacio de Quetzalpapálotl\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Palast des Quetzalpapálotl\" para \"Palacio de Quetzalpapálotl\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Gefiederte Muscheln\" para \"Caracoles Emplumados\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "a265bb2c77b543e4",
+      "texto": "Tempel der Gefiederten Muscheln"
+    },
+    "frase_gancho": {
+      "hash": "bd074d1c17b04a60",
+      "texto": "Ein Tempel, der unter einem Palast begraben wurde und deshalb seine Farben bewahrt hat."
+    },
+    "puente_narrativo": {
+      "hash": "e6e840586c7dfb93",
+      "texto": "Wenn du diesen unterirdischen Rundgang beendet hast, verlass den Bereich der Mondpyramide durch das benachbarte Tor Drei und betritt das Museum der Wandmalereien von Teotihuacán „Beatriz de la Fuente“."
+    },
+    "guion_corto": {
+      "hash": "fc1062339933eb9d",
+      "texto": "Unter dem Palast des Quetzalpapálotl liegt ein weiteres, älteres Gebäude, der Tempel der Gefiederten Muscheln. Man überbaute ihn mit dem Palast, und das schützte ihn. Anfang der sechziger Jahre wurde er von Jorge Acosta wiederentdeckt. Er wird auf die Zeit zwischen den Jahren zweihundert und dreihundert unserer Zeitrechnung datiert. Sein Name kommt von den Muscheln mit Federn, die seine Pilaster schmücken. Das Gute daran, begraben gewesen zu sein: Seine Farben sind erhalten geblieben."
+    },
+    "guion_largo": {
+      "hash": "ba974b21b89e6f29",
+      "texto": "Unter dem Palast des Quetzalpapálotl liegt ein weiteres, älteres Gebäude. Es ist der Tempel der Gefiederten Muscheln. Die Teotihuacán rissen ihn nicht nieder, sondern überdeckten ihn. Das schützte ihn vor der Zeit. Der Archäologe Jorge Acosta entdeckte ihn in den sechziger Jahren wieder, um neunzehnhundertzweiundsechzig. Er wird auf die Zeit zwischen den Jahren zweihundert und dreihundert unserer Zeitrechnung datiert. Sein Name kommt von den Muscheln mit Federn, die man an seinen Pilastern sieht. In der Sprache Nahuatl heißt eine Muscheltrompete tecciztli. Dieses Wort erinnert an Tecciztécatl, einen Gott aus den Erzählungen der Mexica, der sich ins Feuer stürzte, um zum Mond zu werden. Die Mexica erzählten das Jahrhunderte später, aber wir wissen nicht, ob die Teotihuacán ebenso dachten. Diese Verbindung stellen wir selbst her. Nach Beschreibungen des Ortes sind auf der Plattform ursprüngliche Farben erhalten. Man sieht grüne Vögel, die sich paarweise gegenüberstehen, und aus ihren Schnäbeln strömen Wasserstrahlen. Diese Malerei blieb erhalten, weil der Tempel begraben wurde. Wenn du in die Galerie hinabsteigst oder von den Stufen aus hinunterschaust, stell dir die Menschen des dritten Jahrhunderts vor. Sie sahen diese Fassade in frisch gemalten Farben."
+    },
+    "retos_observacion": {
+      "hash": "c53793287611aaee",
+      "texto": [
+        "Finde innerhalb des Rundwegs der Anlage den Abstieg zu den unterirdischen Galerien unter dem Niveau des Palastes des Quetzalpapálotl.",
+        "Erkenne an den steinernen Pilastern die gemeißelten Meeresmuscheln mit Federn, vierblättrigen Blüten und Trompetenmundstück.",
+        "Beobachte die Reste grüner, blauer, roter und gelber Farbe an den Vögeln, die Wasserstrahlen aus dem Schnabel ausstoßen."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a86d259bf4d5270a",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Frühe Klassik (um 200-300 n. Chr.)",
+        "Elementos destacados": "Pilaster mit Flachreliefs von gefiederten Muscheltrompeten, Wandmalereien von Vögeln, die Wasser ausstoßen, und die Unterbauten der Roten Scheiben",
+        "Exploración": "Jorge R. Acosta (1960-1964)",
+        "Standort": "Untergrund des Palastes des Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee93b99b031f61af",
+      "texto": {
+        "pregunta": "Mythos: Der Tempel der Gefiederten Muscheln wurde ursprünglich als unterirdische Kammer errichtet.",
+        "respuesta": "Realität: Er war im 3. Jahrhundert ein Tempel unter freiem Himmel; erst Jahrhunderte später kam er unter die Erde, als die Teotihuacán ihn selbst auffüllten, um darüber den Palast des Quetzalpapálotl zu errichten."
+      }
+    }
+  }
+}

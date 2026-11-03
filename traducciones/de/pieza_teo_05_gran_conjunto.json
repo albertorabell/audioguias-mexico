@@ -1,0 +1,60 @@
+{
+  "id": "teo_05_gran_conjunto",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3615a13ce81972b4",
+      "texto": "Der Gran Conjunto: der Markt der Stadt"
+    },
+    "frase_gancho": {
+      "hash": "b8064a9fc661ddc0",
+      "texto": "Ein riesiger Platz gegenüber dem verschlossenen Heiligtum: Markt der Stadt oder Lager des Staates?"
+    },
+    "puente_narrativo": {
+      "hash": "5d0fa31c22875808",
+      "texto": "Nimm die Straße der Toten nach Norden und bleib stehen, wenn du die Brücke über das bewaldete Flussbett überquerst: Dieser Fluss wurde von Hand umgeleitet, damit er dem Plan der Stadt folgt."
+    },
+    "guion_corto": {
+      "hash": "19bbf18ac902fc29",
+      "texto": "Wenn du die Ciudadela in Richtung Straße der Toten verlässt, schau zur Westseite, in Richtung Tor Eins. Die gesamte riesige Esplanade, auf der sich heute die Eingangsgärten, die Kassen und die seitlichen Plattformen befinden, bildete den Gran Conjunto. Achte auf den Kontrast: Während die Ciudadela, die du gerade hinter dir gelassen hast, ein versunkener, geschlossener Hof ist, ist dieser Komplex der größte Platz der Stadt und liegt direkt gegenüber, auf der anderen Seite der Straße. Der Archäologe René Millon, der Urheber der großen Karte von Teotihuacán, schlug vor, dass sich hier der zentrale Markt der Metropole befunden haben könnte."
+    },
+    "guion_largo": {
+      "hash": "9f38eb6d56d98f9e",
+      "texto": "Über diesen Ort gibt es eine offene Debatte, und es lohnt sich, dass du sie kennst. René Millon schlug vor, dass auf diesem Platz der zentrale Markt von Teotihuacán betrieben wurde. Der Grund ist logisch: Es ist der größte Platz der Stadt, und er liegt gegenüber der Ciudadela, auf der anderen Seite der Straße. Millon deutete außerdem einige Figuren auf den Wandmalereien als Händler.\n\nDoch die Archäologin Linda Manzanilla von der UNAM sieht es anders. Sie legt Belege dafür vor, dass der Gran Conjunto eher ein Zentrum zur Umverteilung von Gütern war, die von den Handwerkern hergestellt wurden. Außerdem weist sie darauf hin, dass in der Stadt nie ein eindeutiger Beweis für einen Markt gefunden wurde. Dieselben Bilder auf den Wandmalereien, sagt sie, stellten Priester dar und keine Händler. Keine der beiden Deutungen ist geklärt.\n\nWas wir dagegen wissen, ist, was in dieser Stadt im Umlauf war. Man schätzt, dass etwa einhunderttausend Menschen in rund zweitausend Wohnkomplexen lebten. Der Obsidian aus Pachuca ging von hier nach Monte Albán und nach Tikal. Goldener Glimmer kam aus Oaxaca, Jade aus Guatemala und Muscheln von den Küsten des Golfs und der Karibik. Und alles wurde auf den Schultern von Trägern befördert, denn in Mesoamerika gab es weder Zugtiere noch Wagen mit Rädern.\n\nOb Markt oder Umverteilungszentrum: Dieser Ort erfüllte eine Aufgabe, die kein Tempel erfüllte: Hier lief das Wirtschaftsleben der Stadt zusammen. Auf der anderen Seite der Straße war die Ciudadela ein Bezirk mit nur einem öffentlichen Zugang und von gewaltiger ritueller Bedeutung. Eine mögliche Deutung ist, dass die Stadt zwei Gesichter der Macht einander gegenüberstellte: die heilige, verschlossene und zeremonielle Macht und die Macht der Güter und der Arbeit.\n\nDu befindest dich in einer der wichtigsten Zonen auf Millons Plan. Von diesem Punkt aus gilt das Zentrum der Stadt, und von hier aus gliedern sich die vier Viertel."
+    },
+    "retos_observacion": {
+      "hash": "5dafcce088a355b7",
+      "texto": [
+        "Vergleiche von der Straße aus die beiden großen einander gegenüberliegenden Plätze: die Ciudadela (versenkt und nach Osten geschlossen) und den Gran Conjunto (nach Westen offen)",
+        "Beobachte die lang gestreckten Plattformen und die Fundamente von Räumen, die die Esplanade säumen",
+        "Stell dir die Kreuzung der großen Avenuen vor, die die Stadt hier in vier Viertel teilten"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6cc9bd28d0da327c",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Klassik (um 150-600 n. Chr.)",
+        "Fläche": "mehr als 14 Hektar",
+        "Aufbau": "Offene Esplanade, eingefasst von zwei U-förmigen Plattformen und runden Speichern",
+        "Hauptthese": "Zentraler Markt und Verwaltungssitz (René Millon)",
+        "Herkunft": "Gegenüber der Ciudadela, Westseite der Straße der Toten"
+      }
+    },
+    "faq_mito": {
+      "hash": "1a5f0eef095c0fea",
+      "texto": {
+        "pregunta": "Mythos: Teotihuacán war ausschließlich ein von Priestern bewohntes Zeremonialzentrum.",
+        "respuesta": "Realität: Es war eine Handels- und Produktionsmetropole; im Gran Conjunto konzentrierte sich der Warenaustausch ganz Mesoamerikas."
+      }
+    }
+  }
+}

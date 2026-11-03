@@ -1,0 +1,59 @@
+{
+  "id": "teo_15_cuatro_templos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "51d07dcb1a9c6d06",
+      "texto": "Hof der Vier Kleinen Tempel"
+    },
+    "frase_gancho": {
+      "hash": "272f77e8780410f7",
+      "texto": "Ein Hof mit vier kleinen Tempeln, offen zur Prachtstraße hin."
+    },
+    "puente_narrativo": {
+      "hash": "8d257ba8f4b89a33",
+      "texto": "Wende nun den Blick zur gegenüberliegenden Seite der Prachtstraße, hinter die östlichen Mauern: Dort verbirgt sich der gewaltige Palast, in dem vier Herren gleichzeitig regierten."
+    },
+    "guion_corto": {
+      "hash": "0353978682e540fe",
+      "texto": "Du stehst vor dem Hof der Vier Kleinen Tempel. Eine Freitreppe führt von der Straße der Toten zu einer erhöhten Plattform hinauf. Der Hof ist von vier kleinen Sockelbauten umgeben. Man nimmt an, dass er eine bedeutende Residenz war. Dass sein Eingang zur Prachtstraße hin ausgerichtet war, war vielleicht kein Zufall. Viele Häuser der Stadt verschlossen sich dagegen zur Straße hin. Hier wollte man offenbar gesehen werden."
+    },
+    "guion_largo": {
+      "hash": "e23acfdf9cec2681",
+      "texto": "Sieh hinüber zur linken Seite der Straße der Toten, in Richtung Mond. Eine breite Freitreppe führt zu einer erhöhten Plattform hinauf. Das ist der Hof der Vier Kleinen Tempel. Der Name stammt von vier kleinen Sockelbauten rund um einen zentralen Platz. Viele Häuser in Teotihuacán hatten fensterlose Mauern zur Straße hin. Diese Anlage hingegen scheint sich zur Prachtstraße zu öffnen. Diese Lage macht sie für alle, die auf der Straße der Toten entlanggehen, sehr gut sichtbar. Man nimmt an, dass ihre Bewohner bedeutende Persönlichkeiten waren, auch wenn man nicht sicher weiß, wer sie waren. Die vier Tempel rund um ein Zentrum erinnern an eine Vorstellung, die in vielen Kulturen Mesoamerikas vorkommt: vier Himmelsrichtungen und eine Mitte. Das ist eine mögliche Deutung, keine bewiesene Tatsache. Außerdem hat man in Anlagen wie dieser Reste von Wandmalereien gefunden, mit Figuren und Verzierungen. Das sagt uns, dass das Haus sorgfältig ausgeschmückt wurde. Von hier aus konnten die Menschen, die oben wohnten, die Prozessionen vorüberziehen sehen. Vielleicht war das eine Art, am Leben der Stadt teilzuhaben. Sicher ist: Der Blick von unten sagt dir viel. Wer ein solches Haus besaß, wollte, dass man ihn sah."
+    },
+    "retos_observacion": {
+      "hash": "f6b53ba801e81426",
+      "texto": [
+        "Finde auf der Westseite der Straße der Toten die große Freitreppe mit Seitenwangen, die direkten Zugang zur Plattform bietet.",
+        "Wenn du zur Anlage hinaufsteigst, erkenne die vier kleinen Sockelbauten, die den zentralen Altar umgeben.",
+        "Suche am Fuß der Mauern die Rinnen aus behauenem Stein, die den Hof zur Prachtstraße hin entwässerten."
+      ]
+    },
+    "especificaciones": {
+      "hash": "aa66c28c913f5270",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Klassik (um 250-550 n. Chr.)",
+        "Aufbau": "Erhöhte Anlage mit monumentaler Freitreppe zur Straße der Toten, Hof in Quincunx-Anordnung (4 Tempel und zentraler Altar) und Säulenhallen",
+        "Funktion": "Priesterresidenz und zeremonielle Kontrolle",
+        "Herkunft": "Westseite der Straße der Toten, zwischen Sonne und Mond"
+      }
+    },
+    "faq_mito": {
+      "hash": "fbb469423ee3f78d",
+      "texto": {
+        "pregunta": "Mythos: Alle Wohnhäuser in Teotihuacán waren geschlossene Anlagen ohne Sicht auf die großen Prachtstraßen.",
+        "respuesta": "Realität: Die Priesterpaläste im Zentrum, wie diese Anlage, hatten monumentale Freitreppen und Portiken, die sich direkt zur Straße der Toten hin öffneten."
+      }
+    }
+  }
+}

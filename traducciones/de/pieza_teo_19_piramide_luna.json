@@ -1,0 +1,60 @@
+{
+  "id": "teo_19_piramide_luna",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f374cc1285da90c8",
+      "texto": "Mondpyramide"
+    },
+    "frase_gancho": {
+      "hash": "5856f87de45c4164",
+      "texto": "Sieben Pyramiden, eine in der anderen, und unter ihnen Pumas, Adler und Menschen, die als Opfergabe bestattet wurden."
+    },
+    "puente_narrativo": {
+      "hash": "4e8601e061438f71",
+      "texto": "Geh jetzt zur linken Ecke des Platzes, südwestlich der Pyramide: Wir steigen ein paar Stufen hinab, um den am besten erhaltenen Palast von Teotihuacán zu betreten."
+    },
+    "guion_corto": {
+      "hash": "d5713cf44e13509a",
+      "texto": "Stell dich vor die Freitreppe der Mondpyramide und betrachte ihre Silhouette vor dem Himmel. Obwohl sie dreiundvierzig Meter hoch ist, etwa zwanzig Meter niedriger als die Sonnenpyramide, liegen die beiden Gipfel fast auf derselben Höhe, weil das Gelände des Tals hier höher liegt. Achte auf die geneigten Böschungen des Bauwerks und vergleiche sie mit den Hängen des Cerro Gordo, der dahinter aufragt: Die Erbauer wollten die Pyramide offenbar als Echo des Berges gestalten. Und wenn du die Einschnitte ihrer Frontfassade betrachtest, wirst du bemerken, dass es kein einzelnes Bauwerk ist, sondern mehrere, die übereinandergelegt wurden."
+    },
+    "guion_largo": {
+      "hash": "36e1aee8b4f70c5a",
+      "texto": "Anders als die Sonnenpyramide, die in einer einzigen großen Bauphase errichtet wurde, wuchs die Mondpyramide über Jahrhunderte, wie ein lebendiges Wesen. Ab Ende der Neunzigerjahre gruben die Archäologen Rubén Cabrera und Saburo Sugiyama Tunnel bis in ihr Herz. Sie entdeckten, dass sich im Inneren sechs ältere Pyramiden befinden, eine über der anderen, bis hin zur siebten, der, die du heute siehst. Ab dem vierten Bauwerk wurde jede Erweiterung mit Bestattungen und Opfergaben geweiht. Und die Erweiterungen waren nicht klein: Das vierte Bauwerk war neunmal so groß wie das dritte.\n\nDer erste dieser Funde kam beim Bau des vierten Bauwerks zum Vorschein, in der ersten Hälfte des dritten Jahrhunderts. Es war ein Mann zwischen vierzig und fünfzig Jahren, sitzend, die Hände auf dem Rücken gefesselt. Die Analyse seiner Knochen zeigt, dass er seine Kindheit weit entfernt von Teotihuacán verbrachte. Ihn begleiteten Dutzende von Tieren: zwei Pumas und ein Wolf in Holzkäfigen, neun Steinadler, ein Falke, eine Eule und Klapperschlangen. Es gab auch Skulpturen aus grünem Stein, Figuren aus Obsidian und acht Gefäße mit dem Gesicht des Tláloc. Die Haltung seiner Arme und Beine ist identisch mit der der Geopferten unter dem Tempel der Gefiederten Schlange. Sie stammen etwa aus derselben Zeit, was auf ein und dasselbe Ritual hindeutet.\n\nUm das Jahr dreihundert wurde das fünfte Bauwerk mit vier jungen Männern geweiht, die gefesselt waren, und mit Schädeln von Wölfen und Pumas. Einer von ihnen trug eine Halskette aus Muschelstücken in Form von Kiefern. Später, beim Bau des sechsten Bauwerks, vergrub man die Schädel von etwa achtzehn enthaupteten Menschen, fast alle junge Männer, ganz ohne Opfergaben. Die Analysen zeigen, dass die meisten Fremde waren.\n\nDas rätselhafteste Grab markiert den Abschluss des fünften Bauwerks. Es waren drei Männer zwischen vierzig und sechzig Jahren, im Schneidersitz sitzend, mit Ohrschmuck und Anhängern aus Jadeit im Stil der Maya. Bei ihnen lagen ein Steinadler, Pumas und Schlangen. Die Analysen legen nahe, dass zwei in derselben Region aufwuchsen. Der dritte kam aus einer anderen, vielleicht von der Golfküste oder aus dem Tiefland der Maya. Die Jade stammt wahrscheinlich aus Guatemala. Die Archäologen streiten darüber, ob es eine Ehrenbestattung oder ein Opfer war.\n\nWas wollten sie mit alldem ausdrücken? Eine weit verbreitete Deutung besagt, dass sie den heiligen Berg symbolisch mit dem Wertvollsten nährten, was sie besaßen: mächtigen Tieren, Menschen, die aus der Ferne gekommen waren, und grünen Steinen, die über große Entfernungen herbeigeschafft wurden. Im Gegenzug erhofften sie sich, dass es im Tal nie an Wasser mangeln würde. Es ist eine Interpretation, aber sie erklärt, warum jede neue Schicht der Pyramide eine noch spektakulärere Opfergabe verlangte als die vorherige.\n\nDu hast noch einen Weg vor dir. Wenn du Wasser dabeihast, nutze die Gelegenheit, ein wenig zu trinken, bevor du weitergehst."
+    },
+    "retos_observacion": {
+      "hash": "0a964e669c007ca5",
+      "texto": [
+        "Vergleiche den Neigungswinkel der Seiten der Pyramide mit dem natürlichen Gefälle des Cerro Gordo hinter ihr",
+        "Beobachte an der vorgelagerten Plattform an der Vorderseite, wie die Mauern und Böschungen der früheren Bauphasen hervortreten",
+        "Beachte, wie man von hier aus die gesamte gerade Linie der Straße der Toten nach Süden überblickt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7531bf368e897ff4",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Klassik (7 Bauphasen zwischen 100 und 450 n. Chr.)",
+        "Abmessungen": "43 m Höhe x 150 m (Ost-West) x 130 m (Nord-Süd)",
+        "Funde": "Sechs innere Unterbauten und die Bestattungen 2 bis 6 mit Würdenträgern, Gefangenen und Tieren in Käfigen",
+        "Innenausgrabung": "Rubén Cabrera und Saburo Sugiyama (1998-2004)",
+        "Herkunft": "Nördlicher Abschluss der Straße der Toten"
+      }
+    },
+    "faq_mito": {
+      "hash": "413c8a2c5017064c",
+      "texto": {
+        "pregunta": "Mythos: Die Mondpyramide ist niedriger, weil sie weniger wichtig war als die Sonnenpyramide.",
+        "respuesta": "Realität: Da sie auf einer natürlichen Erhebung im Norden des Tals errichtet wurde, liegt ihr Gipfel praktisch auf derselben Höhe wie der der Sonnenpyramide, und ihre sieben Bauphasen bergen die reichsten staatlichen Opfergaben der Stadt."
+      }
+    }
+  }
+}

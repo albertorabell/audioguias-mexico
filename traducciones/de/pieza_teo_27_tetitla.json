@@ -1,0 +1,55 @@
+{
+  "id": "teo_27_tetitla",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b3ba7fd7b44ff8a8",
+      "texto": "Tetitla: der Jaguarmensch und die Jadehände"
+    },
+    "frase_gancho": {
+      "hash": "e9ef71502f9125c2",
+      "texto": "Das Haus der bemalten Wände: Jaguare, rote Adler, Jadegöttinnen und vielleicht Muschelhändler."
+    },
+    "puente_narrativo": {
+      "hash": "6075601965b56790",
+      "texto": "Folge dem Pfad noch ein paar Minuten nach Westen bis zur Anlage Atetelco: Dort wechseln wir vom Reichtum einer Familie zum Heiligtum der Kriegerorden."
+    },
+    "guion_corto": {
+      "hash": "e44af23c6f82eb3d",
+      "texto": "Du stehst jetzt in Tetitla, einer der größten Wohnanlagen von Teotihuacán. Dort sind etwa achtunddreißig Wandmalereien bekannt, die meisten noch an dem Ort, an dem sie gemalt wurden. Geh durch die Portiken und halte Ausschau nach den orangefarbenen Raubkatzen, den roten Adlern mit ausgebreiteten Flügeln, den Meeresmuscheln und den Malereien, die die Fachleute Jadegöttinnen nennen. Die Archäologen unterscheiden hier fünf Bauphasen, und die Malereien stammen nicht alle aus derselben Zeit."
+    },
+    "guion_largo": {
+      "hash": "5b139d6603341a58",
+      "texto": "Bleib zuerst bei den Portiken der Adler stehen. Der Portikus Fünfundzwanzig ist als der Portikus der Roten Adler bekannt, und sein Federband war ursprünglich tiefschwarz, was heute verloren ist. In der Nähe zeigt der Portikus Dreizehn orangefarbene Raubkatzen, und der Portikus Elf die Jadegöttinnen. In anderen Räumen geht eine Gestalt in Jaguargewand auf einen Tempel zu, und es erscheinen Meeresmuscheln, Vögel und Figuren, die zu tauchen scheinen.\n\nDiese Wände haben eine Geschichte. Mit dem Bau des Hauses wurde zwischen den Jahren zweihundert und dreihundert unserer Zeitrechnung begonnen, und es wuchs weiter bis in die letzten Jahrhunderte der Stadt. Die Archäologen unterscheiden fünf Bauphasen. Die Malereien, die du siehst, stammen nicht alle aus derselben Zeit. Manche Vorschläge verteilen sie auf einen Zeitraum von zweieinhalb Jahrhunderten, und es wird noch darüber gestritten, wann jede einzelne gemalt wurde.\n\nDie Wandmalereien haben viel durchgemacht. In den Vierzigerjahren entfernte ein privater Eigentümer Malereien, bevor das INAH das Grundstück im Jahr neunzehnhundertvierundvierzig enteignete. Ein Fragment des knienden Jaguars befindet sich heute in Dumbarton Oaks in den Vereinigten Staaten. Danach waren die Wandmalereien etwa sechzig Jahre lang der Witterung ausgesetzt, und heute stehen noch Konservierungsmaßnahmen aus.\n\nWer wohnte hier? Das ist eine der offenen Fragen. Séjourné hielt das Haus für ein religiöses Zentrum, weil es nur wenig Keramik für den Hausgebrauch gab. Jorge Angulo schlug vor, es sei eine Residenz, ein Palast oder sogar ein Regierungszentrum gewesen. Andere Forscher vertreten die Ansicht, dass die Bewohner Händler waren, die darauf spezialisiert waren, Meeresmuscheln aus dem Maya-Gebiet herbeizuschaffen. Diese Vorstellung stützt sich auf die Muschel- und Taucherbilder der Wandmalereien, auf die Keramik und auf die Opfergaben. Es ist eine Hypothese, keine bewiesene Tatsache.\n\nUnd noch etwas zum Schluss. Bei einer der Grabungen kamen im Jahr zweitausendacht unter einem Zementboden Fragmente von Wandmalerei zum Vorschein. Das ist ein Zeichen dafür, dass in diesem Haus noch Malerei unter der Erde liegt."
+    },
+    "retos_observacion": {
+      "hash": "5bd19734d8c00c16",
+      "texto": [
+        "Geh durch die Portiken, bis du die Raubkatzen oder Jaguarmenschen im Profil findest, die mit einem Knie auf dem Boden vor einem Tempel knien",
+        "Suche das Wandbild der grünen Gottheit mit ausgebreiteten Armen, aus deren Händen Kaskaden von Jadeperlen und Muscheln fallen",
+        "Erkenne an anderen Wänden die von vorn gemalten Adler mit ausgebreiteten Flügeln und die Bordüren mit Venussternen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a59cbe2db86c4055",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Klassik (sichtbare Wandmalereien um 400-550 n. Chr.; 5 sich überlagernde Bauphasen)",
+        "Abmessungen": "Quadratischer Häuserblock von etwa 70 x 70 m (4 900 m²)",
+        "Wandmalereien vor Ort": "Kniender Jaguarmensch, Göttin der Hände mit Jade, Königsadler, Taucher beim Muschelsammeln und Venusglyphen",
+        "Standort": "Südwestlicher Rundweg, neben Zacuala"
+      }
+    },
+    "faq_mito": {
+      "hash": "f5c14317a35a64eb",
+      "texto": {
+        "pregunta": "Mythos: Nur die großen Pyramiden an der Straße der Toten hatten künstlerischen Schmuck.",
+        "respuesta": "Realität: Wohnanlagen in Stadtvierteln wie Tetitla bewahren mehr als hundert originale Wandmalereien, die im Freskoverfahren in den Innenhöfen, Gängen und privaten Räumen gemalt wurden."
+      }
+    }
+  }
+}

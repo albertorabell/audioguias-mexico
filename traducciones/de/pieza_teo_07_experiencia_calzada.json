@@ -1,0 +1,56 @@
+{
+  "id": "teo_07_experiencia_calzada",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a9996968b2314ebe",
+      "texto": "Die Straße der Toten entlanggehen"
+    },
+    "frase_gancho": {
+      "hash": "51f4aa454344ea50",
+      "texto": "Eine vierzig Meter breite Prachtstraße, die die Achse der ganzen Stadt war."
+    },
+    "puente_narrativo": {
+      "hash": "27a45275081936d6",
+      "texto": "Wenn du der kompletten Route folgst, geh auf die Gebäude zur linken Seite zu und entdecke Tempel, die ineinander verschachtelt vergraben liegen. Wenn du die Express-Route nimmst, geh weiter nach Norden: Dort öffnet sich die Prachtstraße plötzlich vor der Sonnenpyramide."
+    },
+    "guion_corto": {
+      "hash": "fc4c7f94a404343f",
+      "texto": "Du stehst auf der Straße der Toten, der Achse von Teotihuacán. Sie ist etwa vierzig Meter breit. Die Mexica nannten sie Micaohtli, und deshalb glaubte man lange, dass dort Gräber lägen. Die meisten Forschenden haben diese Idee inzwischen verworfen, denn es gibt dort kaum Bestattungen. Eine Querstraße teilt die Stadt in vier Zonen. Geh langsam und achte darauf, wie die Gebäude auf deinem Weg auftauchen und wieder verschwinden."
+    },
+    "guion_largo": {
+      "hash": "8be26eea44610eaa",
+      "texto": "Die Straße der Toten ist die Hauptachse von Teotihuacán. Sie ist etwa vierzig Meter breit. Über ihre Länge sind sich die Quellen nicht einig. Manche sprechen von etwa drei Kilometern, andere von zwei bis vier. Die Mexica nannten sie Micaohtli, was sich als Weg der Toten übersetzen lässt. Man glaubte, an ihren Seiten lägen die Gräber von Königen. Solche Bestattungen wurden kaum gefunden, sodass die meisten Forschenden diese Idee aufgegeben haben. Dennoch ist der Name geblieben. An mehreren Stellen ist die Prachtstraße unterbrochen und bildet Höfe neben riesigen Gebäuden. Eine Querstraße kreuzt die Straße der Toten und teilt die Stadt in vier Viertel. Dieser Plan folgt einem Raster, dem fast alle Gebäude gehorchen. Achte beim Gehen auf das Gefühl, voranzukommen und innezuhalten. Die Mauern und Plätze zwingen dich, deinen Rhythmus zu ändern. Wir wissen nicht, ob die Erbauer eine Wirkung auf die Gehenden erzielen wollten. Aber du kannst sie selbst wahrnehmen. Wenn du magst, klatsche einmal in die Hände und lausche. Es ist nicht gewiss, ob der Klang Teil des Entwurfs war, aber es macht immer Spaß, es auszuprobieren."
+    },
+    "retos_observacion": {
+      "hash": "edeb8c1896d5d0c5",
+      "texto": [
+        "Stell dich direkt an den Fuß einer der Quermauern und achte darauf, wie sich der Blick auf das Ende der Straße der Toten vorübergehend verdeckt.",
+        "Klatsche kräftig und kurz in die Hände vor den Mauern mit geneigter Böschung und senkrechter Tafel und lausche dem Widerhall.",
+        "Suche am Boden nach den quadratischen Steinöffnungen, durch die der Regen von jedem Platz abfloss."
+      ]
+    },
+    "especificaciones": {
+      "hash": "98783113022c6ad8",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Klassik (förmlich angelegt um 150-250 n. Chr.)",
+        "Gesamtlänge": "mehr als 5 km (etwa 2 km davon in der Monumentalzone begehbar)",
+        "Breite": "40 bis 50 m",
+        "Anlage": "Nord-Süd-Achse, unterteilt durch abgestufte Plätze mit Regenwasserentwässerung",
+        "Herkunft": "Zentrale Achse von Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "b9ecc995b6557228",
+      "texto": {
+        "pregunta": "Mythos: Die Straße der Toten ist eine ebene Prachtstraße, die für schnellen Verkehr gedacht war.",
+        "respuesta": "Realität: Sie ist durch Mauern und Höhenunterschiede unterteilt, die das Regenwasser regulierten und einen rituellen Weg des Auf- und Abstiegs nach Norden schufen."
+      }
+    }
+  }
+}

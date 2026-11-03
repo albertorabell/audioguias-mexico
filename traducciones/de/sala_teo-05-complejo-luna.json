@@ -1,0 +1,26 @@
+{
+  "id": "teo-05-complejo-luna",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Gefiederte Muscheln\" para \"Caracoles Emplumados\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "a3ae1f7472bfdca7",
+      "texto": "Der Mondkomplex"
+    },
+    "frase_gancho": {
+      "hash": "2ec2a07932cddb38",
+      "texto": "Dreizehn Altäre, ein heiliger Berg und der schönste Palast der Stadt."
+    },
+    "introduccion_narrativa": {
+      "hash": "9d93f4f7d941e862",
+      "texto": "Am nördlichen Ende mündet die Straße der Toten in eine monumentale Kulisse. Der Platz des Mondes vereint dreizehn Altäre und alte rituelle Kanäle, während im Hintergrund die Mondpyramide die Silhouette des Cerro Gordo nachzeichnet und in ihrem Inneren sechs weitere Bauwerke birgt, die mit Opfern geweiht wurden. An der südwestlichen Ecke des Platzes kannst du den Palast des Quetzalpapálotl betreten, mit seinen geschnitzten Pfeilern des Quetzal-Schmetterlings, die Säulengänge des Jaguarpalasts durchschreiten und einen Blick in den unterirdischen Tempel der Gefiederten Muscheln werfen."
+    }
+  }
+}

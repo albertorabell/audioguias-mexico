@@ -1,0 +1,26 @@
+{
+  "id": "teo-07-poniente-barrios",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Zapoteken\" para \"Zapoteca / Zapotecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "15d76d6a9739b3fe",
+      "texto": "Paläste und Wohnviertel im Westen"
+    },
+    "frase_gancho": {
+      "hash": "47fdfe165ae15f19",
+      "texto": "Das Leben hinter den Mauern: Familien, Jaguare, Krieger und Zapoteken."
+    },
+    "introduccion_narrativa": {
+      "hash": "5d822b95429f38be",
+      "texto": "Südwestlich der Straße der Toten, jenseits des äußeren Rings, sind die Apartmentkomplexe erhalten, die zeigen, wie die Menschen von Teotihuacán lebten. In Zacuala und Yayahuala verstehst du, wie bis zu hundert Verwandte unter einem Dach wohnten, ihre Toten unter dem Fußboden bestattet. Nur wenige Schritte entfernt warten die Mauern von Tetitla und Atetelco mit originalen Wandmalereien auf dich: mit Jaguarmenschen, mit Händen, aus denen Jade strömt, und mit Prozessionen von Kojoten und Pumas als Kriegern. Der Rundgang wird abgerundet durch die Geschichten von La Ventilla und der zapotekischen Enklave Tlailotlacan."
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "teo_24_tepantitla",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "b931ba0b00e1d3bf",
+      "texto": "Tepantitla: das Wandbild des Tlalocan"
+    },
+    "frase_gancho": {
+      "hash": "d2fe5ad51792ea29",
+      "texto": "Ein Paradies aus Wasser, in dem Menschen schwimmen und Ball spielen – und zwischen den Blumen gibt es auch Opfer."
+    },
+    "puente_narrativo": {
+      "hash": "31bb785d24f573ae",
+      "texto": "Ein kurzes Stück nordöstlich, nahe dem Flussbett des Río San Juan, erstreckte sich das Viertel, in dem auswärtige Händler runde Häuser bauten."
+    },
+    "guion_corto": {
+      "hash": "fbba2aa5840a452f",
+      "texto": "Im östlichen Teil der Stadt liegt Tepantitla, eine Residenz der Elite. Geh bis zum Portikus Zwei des Haupthofs und stell dich vor die geschützte Wand: Du stehst vor dem berühmtesten und meistdiskutierten Wandbild von Teotihuacán. Oben beherrscht eine frontal dargestellte Figur mit einem Vogelkopfschmuck die Szene, aus ihren Händen fließt Wasser, und über ihr wächst ein Baum voller Schmetterlinge. Unten lässt ein Berg Quellen und Flüsse entstehen, in denen viele kleine menschliche Figuren schwimmen, tauchen und Ball spielen."
+    },
+    "guion_largo": {
+      "hash": "247627a984798287",
+      "texto": "Im Jahr neunzehnhundertzweiundvierzig nannte der Archäologe Alfonso Caso dieses Wandbild den Tlalocan: das Paradies des Regengottes, in das nach Quellen des sechzehnten Jahrhunderts diejenigen kamen, die ertranken oder vom Blitz getötet wurden. Die meisten Autoren akzeptierten diese Deutung jahrzehntelang. Alfonso Caso identifizierte auch die Figur oben mit Tláloc.\n\nBetrachte die Szene unten in aller Ruhe. Ein heiliger Berg lässt Quellen und Bäche entstehen, die in einen Wasserlauf münden, in dem Fische, Wasserpflanzen und ein froschähnliches Tier zu sehen sind. Manche Menschen schwimmen, andere tauchen, und einer rettet jemanden, der ertrinkt. Zwischen ihnen erscheinen überall Schmetterlinge.\n\nAuch über die große frontale Figur oben wird diskutiert. Heute nennen viele sie die Große Göttin, doch das ist ein Vorschlag und keine Tatsache. Peter Furst vertrat 1974 die Ansicht, es handle sich um eine weibliche Gottheit, und Esther Pasztory brachte sie mit der Vegetation und der Fruchtbarkeit in Verbindung. Karl Taube nannte sie die Spinnenfrau. Andere Forscher halten es für möglich, dass es ein Herrscher ist oder eine Figur gemischten Geschlechts.\n\nUnd es gibt noch mehr. Die Forscherin María Teresa Uriarte schlug vor, dass das zentrale Thema des Wandbildes das Ballspiel ist. Es gibt Partien zwischen Spielern mit bemaltem Körper, die mit Stöcken um den Ball kämpfen, zwischen zwei tragbaren Markierungen. Wenn du genau hinsiehst, erscheinen auch ein abgetrennter Kopf neben den Spielern und eine Gestalt, die eine Todeshymne singt.\n\nFür die Forscherin Nadia Giral wiederholen sich die Menschenopfer im ganzen Wandbild. Sie sagt, dass die Enthauptungen, das rituelle Spiel und die Opfer nicht zu einem rein glücklichen Paradies passen. Ein dekorativer Streifen rahmt die Szene mit Gesichtern des Tláloc und Gefäßen mit dem Jahreszeichen und der Seerosenblüte ein: Das Wasser umgibt alles. Welche dieser Deutungen die richtige ist, weiß noch niemand."
+    },
+    "retos_observacion": {
+      "hash": "a38b6d96dcecd5cb",
+      "texto": [
+        "Finde im oberen Teil des Wandbildes die frontal dargestellte Große Göttin und den Baum mit verflochtenen Ästen, der über ihrem Kopfschmuck wächst",
+        "Suche im unteren Register die kleinen Figuren mit Holzstöcken neben dem Markierungspfosten des Ballspiels",
+        "Entdecke die Schnörkel voller Blumen und Schmetterlinge, die als Symbol des Gesangs aus dem Mund der Figuren kommen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ccbd065cbed30ef1",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Späte Klassik (um 400-550 n. Chr.)",
+        "Technik": "Freskomalerei auf Kalkstuck",
+        "Standort": "Portikus 2 von Tepantitla, 500 m östlich der Sonnenpyramide",
+        "Wichtige Studien": "Alfonso Caso (1942), Esther Pasztory und María Teresa Uriarte (UNAM)"
+      }
+    },
+    "faq_mito": {
+      "hash": "0564d0c2198476ee",
+      "texto": {
+        "pregunta": "Mythos: Das Wandbild von Tepantitla zeigt ausschließlich ein friedliches Paradies der ewigen Ruhe.",
+        "respuesta": "Realität: Obwohl Alfonso Caso es den Tlalocan nannte, haben moderne ikonografische Studien darin landwirtschaftliche Rituale, Varianten des Ballspiels mit Stock und Szenen von Menschenopfern erkannt."
+      }
+    }
+  }
+}

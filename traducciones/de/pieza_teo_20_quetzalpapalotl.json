@@ -1,0 +1,65 @@
+{
+  "id": "teo_20_quetzalpapalotl",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Zentraler Innenhof\" para \"Patio Central\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Gefiederte Muscheln\" para \"Caracoles Emplumados\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Palast des Quetzalpapálotl\" para \"Palacio de Quetzalpapálotl\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3843da50bd1f1e57",
+      "texto": "Palast des Quetzalpapálotl"
+    },
+    "frase_gancho": {
+      "hash": "92779c27def36a42",
+      "texto": "Ein Hof mit behauenen Pfeilern, in dem die Augen Pupillen aus Obsidian hatten, und vielleicht sind es gar keine Schmetterlinge."
+    },
+    "puente_narrativo": {
+      "hash": "d8259fbb5edd47b2",
+      "texto": "Wenn du der vollständigen Route folgst, durchquere den hinteren Gang zu den angrenzenden Höfen, in denen Jaguare auf Muscheln blasen. Wenn du die Kurzroute gewählt hast, kannst du beim Verlassen des Palasts die beiden letzten Stationen über den Untergang und das Vermächtnis der Stadt hören."
+    },
+    "guion_corto": {
+      "hash": "21c0e3a15eaa1fb6",
+      "texto": "Geh zur südwestlichen Ecke des Mondplatzes und betritt über die Freitreppe diesen überdachten Gebäudekomplex. Du befindest dich im Palast des Quetzalpapálotl, einem der am besten erhaltenen Komplexe von Teotihuacán. Geh weiter bis zu seinem zentralen Innenhof, den vier Säulengänge umgeben, getragen von quadratischen Pfeilern aus behauenem Stein. Tritt an einen der Pfeiler heran und betrachte das Flachrelief: Die Federn und der Kopf sind im Profil zu sehen, die Brust von vorn. Als man es 1962 entdeckte, hielt man es für einen Quetzal mit einem Schmetterlingskörper. Daher sein Name auf Nahuatl: quetzalli, kostbare Feder, und papálotl, Schmetterling."
+    },
+    "guion_largo": {
+      "hash": "9a15235092242e19",
+      "texto": "Achte jetzt auf die Kreise an den Pfeilern. Heute wirken sie leer, doch an einem der Pfeiler haben vier Kreise Einlagen aus schwarzem, poliertem Obsidian bewahrt, und in einem Auge sitzt seine Einlage noch immer. Die Pfeiler waren außerdem behauen und mit Glimmer eingelegt. Wenn das Licht in den Hof fiel, musste der Stein glänzen und dem Vorübergehenden den Blick erwidern.\n\nUnd hier gibt es eine Wendung. Der Name mit dem Schmetterling stammt daher, wie man die Bilder bei ihrer Entdeckung im Jahr neunzehnhundertzweiundsechzig gedeutet hat. Heute schlagen manche Forscher vor, dass die Wesen keine Quetzal-Schmetterlinge sind, sondern Eulen, ein Symbol für Krieger, Priester und die Elite von Teotihuacán. Das ist eine Deutung, und der Name ist aus Gewohnheit geblieben.\n\nEinige Motive dieser Pfeiler, etwa ein Zickzackband, erscheinen auch in Wandmalereien von Tepantitla, Tetitla, Techinantitla und im Palast der Jaguare. Das legt nahe, dass die verschiedenen Komplexe der Stadt dieselbe Bildsprache teilten.\n\nUnter dem Boden, auf dem du stehst, liegt ein weiteres Gebäude. Der Tempel der Gefiederten Muscheln, aus der Zeit um das Jahr zweihundert, wurde unter diesem Palast vollständig begraben und unversehrt aufgefunden. Seine Pfeiler tragen Muscheln mit Federn, und sein Sockel zeigt aufgemalte Vögel, wahrscheinlich grüne Aras.\n\nWozu diente dieser Palast? Man nennt ihn meist Haus der Priester, doch einige Forscher meinen, er könnte ein Versammlungsort gewesen sein. Vielleicht war er mit einer neuen politischen Bewegung oder einem neuen Herrscher verbunden. Es waren das vierte bis sechste Jahrhundert, als der Einfluss von Teotihuacán bis zu Maya-Städten wie Tikal reichte. Das ist eine Hypothese.\n\nDer Archäologe Jorge Acosta grub diesen Komplex in den Sechzigerjahren aus und rekonstruierte ihn, und seine Studie über den Palast veröffentlichte er im Jahr neunzehnhundertvierundsechzig. Im Jahr zweitausendneun entfernte ein Konservierungsprojekt den alten Zement und restaurierte den Palast mit Kalk, Ton und Sand. Heute liest er sich als das, was er war: ein Bau aus Kalk mit Pigment und nicht aus Zement."
+    },
+    "retos_observacion": {
+      "hash": "5df62bb3b62143d6",
+      "texto": [
+        "Betrachte einen Pfeiler des Hofs aus der Nähe, um zu erkennen, wie das Profil des Quetzalvogels mit der Schmetterlingsbrust verschmilzt",
+        "Suche in den Augenhöhlen der Reliefs nach den glänzenden schwarzen Scheiben aus poliertem Obsidian",
+        "Sieh dir die roten und weißen Stufenmuster an den Innenwänden und die gestuften Zinnen an, die das Dach des Hofs krönen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d14a80916ea3473",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Späte Klassik (um 450-550 n. Chr.)",
+        "Besondere Merkmale": "Pfeilerhof mit Flachreliefs des Quetzalpapálotl, Augen aus Obsidian, Wandmalereien mit Stufenmustern und Zinnen in Form des Jahreszeichens",
+        "Restaurierung": "Jorge R. Acosta (1962-1964)",
+        "Herkunft": "Südwestliche Ecke des Mondplatzes"
+      }
+    },
+    "faq_mito": {
+      "hash": "10b50277aaae3e98",
+      "texto": {
+        "pregunta": "Mythos: Die Holzdächer und die Zinnen des Palasts des Quetzalpapálotl blieben seit vorspanischer Zeit unversehrt stehen.",
+        "respuesta": "Realität: Die Steinpfeiler und die niedrigen Mauern lagen unter ihrem eigenen Einsturz begraben. Der Archäologe Jorge Acosta stellte die flachen Dächer in den Sechzigerjahren nach den originalen Überresten wieder her, die er auf dem Boden fand."
+      }
+    }
+  }
+}

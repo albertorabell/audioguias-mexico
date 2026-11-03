@@ -1,0 +1,65 @@
+{
+  "id": "teo_00_vistazo",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece",
+      "el glosario pide \"Becken von México\" para \"Cuenca de México\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "30985fc7fcc29f13",
+      "texto": "Teotihuacán auf einen Blick"
+    },
+    "frase_gancho": {
+      "hash": "a4e9ec31641e2db7",
+      "texto": "Eine Stadt, mit Lineal und Himmel entworfen, vor etwa zweitausend Jahren."
+    },
+    "puente_narrativo": {
+      "hash": "764cb13bf3c2379a",
+      "texto": "Geh zum südlichen Ende der Allee: Dort erwartet dich die Ciudadela, ein versenkter Hof, so groß, dass eine ganze Menschenmenge darin Platz fand."
+    },
+    "guion_corto": {
+      "hash": "81b2d03851a104e7",
+      "texto": "Bleib einen Moment stehen und schau zum Horizont. Im Norden beherrscht ein Vulkanberg die Landschaft: der Cerro Gordo. Vor dir erstreckt sich eine Stadt, die auf etwa zwanzig Quadratkilometern rund hunderttausend Einwohner hatte, die größte Mesoamerikas. Achte auf die Mauern um dich herum: Fast alle verbinden eine geneigte Basis, die Böschung, mit einem rechteckigen Rahmen darüber, dem Rahmenfeld. Dieses Design wiederholt sich über mehrere Kilometer entlang der Mittelachse, der Straße der Toten. Ihr ursprünglicher Name ging verloren; den Namen Teotihuacán gaben ihr die Mexica Jahrhunderte später, und er wird gewöhnlich übersetzt als „der Ort, an dem die Götter geboren wurden“."
+    },
+    "guion_largo": {
+      "hash": "257dbd6a0a670d96",
+      "texto": "Fast kein Name, den du heute hören wirst, stammt von denen, die diese Steine errichtet haben. Teotihuacán ist der Name, den die Mexica der Stadt Jahrhunderte später gaben, als sie schon leer war. Die Mexica nannten auch die zentrale Allee Straße der Toten, weil sie glaubten, die Hügel an ihren Seiten seien Gräber alter Könige. Das stimmte nicht: Es sind Tempel und Paläste. In den Maya-Inschriften erscheint die Stadt unter einem anderen Namen, Puh, was Ort der Binsen bedeutet. Wie ihre eigenen Bewohner sie nannten, bleibt ein Rätsel.\n\nWarum entstand hier eine Stadt dieser Größe? Weil das Tal fast alles bot. Es gab Quellen, fruchtbares Land und Lehm zum Bauen. Ganz in der Nähe lagen die Obsidianminen von Pachuca, das vulkanische Glas, aus dem die besten Klingen und Pfeilspitzen Mesoamerikas gefertigt wurden. Dieser Obsidian wurde bis nach Monte Albán und Tikal verkauft, und der Staat überwachte Produktion und Handel. Manche Forscher glauben, dass auch Familien kamen, die durch Vulkanausbrüche im Süden des Beckens von México vertrieben worden waren. Die genaue Abfolge dieser Ereignisse ist noch umstritten.\n\nDie Stadtplaner legten die Stadt als riesiges Raster an. Die Straße der Toten verläuft von Süden nach Norden, und zwei große Alleen kreuzen sie im rechten Winkel. Doch mit einem Kompass würdest du etwas Seltsames bemerken: Die ganze Stadt ist etwa fünfzehn Grad nach Osten vom wahren Norden gedreht. Der zentrale Teil folgt der Ausrichtung der Sonnenpyramide. Ihre Fassade blickt dorthin, wo die Sonne Ende April und Mitte August untergeht. Zwischen diesen Daten liegen zweihundertsechzig Tage, die Zählung des rituellen Kalenders.\n\nDie Geschichte, die du gleich durchwanderst, hat vier große Momente. Zwischen dem ersten und dem zweiten Jahrhundert entstehen die Sonnen- und die Mondpyramide. Um das Jahr zweihundert wird die Ciudadela mit ihrem großen Tempel gebaut. Ab dem vierten Jahrhundert beginnt die Blütezeit: Man schätzt, dass es etwa zweitausend Wohnkomplexe gab, jeder mit Dutzenden von Menschen. Außerdem gab es Viertel von Handwerkern und von Menschen, die aus Oaxaca, Veracruz und dem Maya-Gebiet gekommen waren.\n\nDer vierte Moment ist das Ende. Um das Jahr fünfhundertfünfzig zerstörte ein Brand die Gebäude der Elite entlang der Straße der Toten. Es gibt keine Spuren einer fremden Invasion. Als Erklärungen werden Dürren, Hunger und innere Aufstände genannt. Die Stadt verschwand nicht von einem Tag auf den anderen: Sie leerte sich nach und nach. Fast alles, was wir heute wissen, haben Archäologen in mehr als einem Jahrhundert rekonstruiert, und es bleiben noch offene Fragen.\n\nDieser Führer geht von Süden nach Norden, genau wie die Straße der Toten. Manche Stationen zeigen dir, was du vor Augen hast. Andere funktionieren wie Röntgenaufnahmen: Sie erzählen dir, was unter deinen Füßen verborgen liegt, wie Tunnel und versiegelte Opfergaben."
+    },
+    "retos_observacion": {
+      "hash": "07d3ef9630cfe51e",
+      "texto": [
+        "Suche im Norden die Silhouette des Cerro Gordo, des Berges, von dem die Anlage der Stadt ausgeht",
+        "Erkenne an einem beliebigen Bauwerk in der Nähe die Böschung (unten geneigte Mauer) und das Rahmenfeld (oben rechteckiger Rahmen)",
+        "Blicke die Straße der Toten entlang, um ihren geraden Verlauf in seiner Größe zu erfassen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4664b3e8bd377e7c",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Klassik (1-650 n. Chr.)",
+        "Fläche": "etwa 20 km²",
+        "Höhe": "etwa 2300 m über dem Meeresspiegel",
+        "Straße der Toten": "mehr als 5 km lang und 40 bis 50 m breit",
+        "Geschätzte Bevölkerung": "80 000 bis 200 000 Einwohner",
+        "Herkunft": "Tal von Teotihuacán, Bundesstaat México"
+      }
+    },
+    "faq_mito": {
+      "hash": "08e264f25c0c4394",
+      "texto": {
+        "pregunta": "Mythos: Die Straße der Toten war ein Friedhof für Könige.",
+        "respuesta": "Realität: Den Namen gaben die Mexica aufgrund eines Irrglaubens. Die Gebäude, die sie säumen, waren Tempel und Wohnhäuser der Elite."
+      }
+    }
+  }
+}

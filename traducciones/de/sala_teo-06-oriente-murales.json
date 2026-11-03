@@ -1,0 +1,26 @@
+{
+  "id": "teo-06-oriente-murales",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "f2ed9b2b770a525b",
+      "texto": "Der Circuito del Oriente"
+    },
+    "frase_gancho": {
+      "hash": "f891f5a4cefe8cf8",
+      "texto": "Die lebendigen Farben von Teotihuacán, sein gemaltes Paradies und die runden Häuser."
+    },
+    "introduccion_narrativa": {
+      "hash": "294547da675b79fc",
+      "texto": "Verlässt man die archäologische Zone an ihrer Nord- und Ostseite, öffnet sich ein Rundgang, der den Farben und den Fremden gewidmet ist. Er beginnt im Museum der Teotihuacán-Wandmalereien „Beatriz de la Fuente“ neben Tor 3, wo die empfindlichsten Fresken der Metropole aufbewahrt werden. Fünfhundert Meter hinter der Sonnenpyramide geht er in der Anlage von Tepantitla weiter, die für das Wandbild des Tlalocan und für das Ballspiel berühmt ist, und er endet im benachbarten Viertel der Händler, wo Kaufleute vom Golf und aus dem Maya-Gebiet in außergewöhnlichen runden Häusern lebten."
+    }
+  }
+}

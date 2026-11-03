@@ -1,0 +1,64 @@
+{
+  "id": "teo_01_ciudadela",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "0fbe72e51926396f",
+      "texto": "Die Ciudadela und der Große Platz"
+    },
+    "frase_gancho": {
+      "hash": "67aebe3fa7b44986",
+      "texto": "Die Spanier hielten sie für eine Festung. Doch sie war das Herz der Macht."
+    },
+    "puente_narrativo": {
+      "hash": "151433b2866849d4",
+      "texto": "Überquere die große Esplanade zum Gebäude am östlichen Ende: Hinter der grauen Plattform, die es bedeckt, erwartet dich die heiligste Fassade der Stadt."
+    },
+    "guion_corto": {
+      "hash": "70a4727ffdb75508",
+      "texto": "Steige auf die Eingangsplattform und wirf einen Blick auf diese monumentale Esplanade. Als die Spanier diesen von hohen Mauern umschlossenen Bezirk sahen, vierhundert Meter lang auf jeder Seite, hielten sie ihn für eine Kaserne und nannten ihn die Ciudadela. In Wahrheit stehst du vor dem politischen und zeremoniellen Herzen von Teotihuacán. Sieh hinunter in den eingesenkten Hof: Er ist so weit, dass sich dort eine riesige Menschenmenge versammeln konnte. Ringsum, auf den Plattformen, die dich umgeben, erheben sich fünfzehn kleine Pyramiden, und im Hintergrund beherrscht der Tempel der Gefiederten Schlange die Anlage."
+    },
+    "guion_largo": {
+      "hash": "acb29bdf7aac8331",
+      "texto": "Das Wort Ciudadela haben die Spanier erfunden, die hohe Mauern sahen und an ein Fort dachten. Aber achte darauf, wie dieser Ort gebaut ist. Es sind vier miteinander verbundene Plattformen, die einen riesigen Platz umschließen, und es gibt nur einen einzigen öffentlichen Zugang, auf der Westseite. Das taugt nicht zur Verteidigung gegen ein Heer. Es dient dazu, zu kontrollieren, wer wann hineingelangt. Archäologen vermuten, dass der Bezirk fast jeden Tag geschlossen blieb und sich nur für besondere Zeremonien öffnete.\n\nRund um den Platz reihen sich fünfzehn kleine Tempel, eingefügt in die Ränder der Plattformen: vier im Westen, vier im Norden, vier im Süden und drei im Osten. Und im Osten, gegenüber dem, der eintritt, beherrscht der Tempel der Gefiederten Schlange die Anlage. Er ist das drittgrößte Bauwerk der ganzen Stadt, nach der Sonnen- und der Mondpyramide. Der gesamte Komplex wurde zwischen den Jahren einhundertfünfzig und zweihundertfünfzig unserer Zeitrechnung errichtet. Ein solches Werk erforderte einen Staat, der Tausende von Arbeitern organisieren und Materialien aus dem ganzen Tal zusammenbringen konnte.\n\nStell dir diesen Hof an einem Festtag vor. Man hat berechnet, dass der Platz Zehntausende von Menschen aufnehmen konnte, auch wenn das eine Schätzung der Kapazität und kein gesicherter Befund ist. Von unten schließen dich die seitlichen Plattformen ein: Die Landschaft des Tals verschwindet, und die ganze Aufmerksamkeit richtet sich auf die Priester oben auf den Sockelbauten und auf den Tempel im Hintergrund. Es war eine Bühne, die so gestaltet war, dass jeder das Gewicht des Staates und des Kosmos spürte.\n\nEinige Forscher vermuten, dass der Platz zeitweise rituell überflutet wurde, wie ein von Tempeln umgebener Wasserspiegel. Wasserspuren, die im Tunnel unter dem Bezirk entdeckt wurden, deuten darauf hin. Das ist eine Hypothese, aber sie passt zur Bedeutung des Wassers in der ganzen Stadt.\n\nUnter diesen Plattformen liegen außerdem noch ältere Bauten. Bevor die Ciudadela errichtet wurde, planierten die Baumeister ein früheres Bauwerk, das einem Ballspielplatz ähnelt. Teotihuacán hat sich mehr als einmal neu erschaffen, und hier kannst du es sehen: Jede Plattform verbirgt frühere Bauphasen, die noch erforscht werden.\n\nUm das Jahr dreihundertfünfzig geschah ein tiefgreifender Wandel. Die Fassade des Tempels der Gefiederten Schlange wurde hinter einer großen Plattform verborgen, der Vorgebauten Plattform, die du an der nächsten Station besteigen wirst. Manche Gelehrte lesen das als Wechsel in der Regierung der Stadt. Andere meinen, es sei ein rituelles Begräbnis gewesen, das mit Respekt vollzogen wurde. Viel später, zu einem Zeitpunkt, den wir nicht kennen, beschädigte jemand die Skulpturen an den Seiten, die unverdeckt geblieben waren.\n\nDu befindest dich auf mehr als zweitausend Metern über dem Meeresspiegel und fast immer ohne Schatten. Bevor du in Richtung der Straße der Toten aufbrichst, nimm ein paar Schluck Wasser."
+    },
+    "retos_observacion": {
+      "hash": "3d8ce3cf397b5af5",
+      "texto": [
+        "Lass den Blick rund um den Hof schweifen und zähle die kleinen Pyramiden auf den Plattformen: Es sind insgesamt fünfzehn",
+        "Suche den quadratischen Altar in der Mitte der Esplanade mit seinen vier Treppen",
+        "Blicke nach Osten, ans Ende des Hofes, wo sich das Hauptgebäude mit seinen zwei Fassaden erhebt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "caaffef9ee616a0a",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Frühe Klassik (um 150-250 n. Chr.)",
+        "Abmessungen": "etwa 400 m pro Seite",
+        "Sockelbauten": "15 kleinere Pyramiden auf 4 Plattformen",
+        "Funktion": "Sitz der politischen und religiösen Macht",
+        "Herkunft": "Teotihuacán, Bundesstaat México (südliches Ende der Straße der Toten)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5bd19317f163227",
+      "texto": {
+        "pregunta": "Mythos: Die Ciudadela war eine Militärfestung.",
+        "respuesta": "Realität: Den Namen gaben ihr die Spanier irrtümlich. Sie war das politische und zeremonielle Zentrum der Stadt, mit Palästen, einem Haupttempel und einem großen Hof für Menschenmengen."
+      }
+    }
+  }
+}

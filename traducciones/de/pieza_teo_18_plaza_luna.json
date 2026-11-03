@@ -1,0 +1,55 @@
+{
+  "id": "teo_18_plaza_luna",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9af37ca9ed2ff2e4",
+      "texto": "Mondplatz und die dreizehn Altäre"
+    },
+    "frase_gancho": {
+      "hash": "781a3cf91868679d",
+      "texto": "Ein großer Platz, auf dem noch immer Gruben, grüne Steine und Geheimnisse unter dem Boden entdeckt werden."
+    },
+    "puente_narrativo": {
+      "hash": "02ce4775c5fd0d0e",
+      "texto": "Überquere jetzt die Esplanade und geh zum Fuß der großen Pyramide am Ende des Platzes, um die sechs Bauwerke und die Opfergaben zu entdecken, die sie in ihrem Inneren verbirgt."
+    },
+    "guion_corto": {
+      "hash": "5aac4ce286c8bd39",
+      "texto": "Du hast den Mondplatz erreicht, am Ende der Straße der Toten. Viele zählen zwölf Sockelbauten ringsum und einen Altar in der Mitte, insgesamt dreizehn. Seit zweitausendfünfzehn gräbt das INAH an Struktur A. Dabei wurden tiefe Gruben, Durchbohrungen in den Böden und aufrecht gestellte grüne Steine gefunden. Die Fachleute vermuten, dass sie rituell genutzt wurden, doch das ist noch nicht bestätigt."
+    },
+    "guion_largo": {
+      "hash": "99da29875b24d155",
+      "texto": "Das ist der Mondplatz, im Norden der Straße der Toten. Viele Autoren zählen zwölf Sockelbauten ringsum und einen zentralen Altar. Das sind insgesamt dreizehn, eine wichtige Zahl im mesoamerikanischen Kalender. Diese Deutung sollte man mit Vorsicht betrachten. Das Neueste liegt unter dem Boden. Seit zweitausendfünfzehn gräbt das INAH an der sogenannten Struktur A, unter der Leitung von Verónica Ortega Cabrera. Diese Struktur wurde zwischen neunzehnhundertzweiundsechzig und vierundsechzig rekonstruiert. Damals wurde der Untergrund nicht erforscht. Jetzt hat man Gruben und Durchbohrungen in den Böden gefunden, innerhalb der Struktur und auf dem Platz. Einige Gruben messen etwa zwei mal zweieinhalb Meter und sind drei Meter tief. Sie enthielten aufrecht stehende Monolithen aus grünem Stein, einige davon mit mehr als einer halben Tonne Gewicht. In den kleinen Gruben lagen Kieselsteine und Muschelfragmente. Noch weiß man nicht, wozu sie dienten. Die Fachleute denken an eine rituelle Nutzung des Platzes und der Mondpyramide, doch das ist nicht bestätigt. Ein Plan ist in Arbeit, um zu prüfen, ob die Hohlräume ein Muster bilden. In der Nähe dieses Bereichs wurde die große Skulptur der Chalchiuhtlicue gefunden, die mehr als drei Meter misst und etwa zwanzig Tonnen wiegt. Im Jahr achtzehnhundertneunzig wurde sie mit der Eisenbahn und auf einem von Maultieren gezogenen Karren nach Mexiko-Stadt gebracht. Heute siehst du sie im Nationalmuseum für Anthropologie."
+    },
+    "retos_observacion": {
+      "hash": "d8cd689413d55f98",
+      "texto": [
+        "Zähle von der Mitte der Esplanade aus die zwölf Sockelbauten, die dich umgeben, und addiere die zentrale Struktur A, um die dreizehn Himmelsebenen zu vervollständigen",
+        "Richte deinen Blick von Struktur A auf die Mondpyramide, um zu sehen, wie sie den Gipfel des Cerro Gordo genau einrahmt",
+        "Beobachte an den Ecken der zentralen Plattform die Ausgänge der antiken rituellen Kanäle"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e91f73f7d6659e6a",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Klassik (etwa 100-550 n. Chr.)",
+        "Diseño": "Geschlossener Platz, flankiert von 12 Sockelbauten im Talud-Tablero-Stil und einem zentralen Altar (Struktur A)",
+        "Hallazgos clave": "Monumentale Skulptur der Chalchiuhtlicue, Figuren aus Jadeit und ein rituelles Wassersystem mit Flusskieseln (Verónica Ortega, INAH)",
+        "Herkunft": "Nördliches Ende der Straße der Toten"
+      }
+    },
+    "faq_mito": {
+      "hash": "2465153319b54016",
+      "texto": {
+        "pregunta": "Mythos: Der Mondplatz war einfach eine leere Esplanade, auf der sich Menschen versammelten.",
+        "respuesta": "Realität: Er funktionierte als Kosmogramm aus dreizehn Altären mit Wasserkanälen und Flusssteinen, die den Boden in eine rituelle Wasserlandschaft verwandelten."
+      }
+    }
+  }
+}

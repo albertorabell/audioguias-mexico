@@ -1,0 +1,62 @@
+{
+  "id": "teo_06_rio_san_juan",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "frase_gancho": [
+      "el glosario pide \"Teotihuacán\" para \"Teotihuacana / Teotihuacano / Teotihuacanos\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Teotihuacán\" para \"Teotihuacana / Teotihuacano / Teotihuacanos\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3ed240c5adcc2759",
+      "texto": "Der Fluss, der sich um neunzig Grad drehte"
+    },
+    "frase_gancho": {
+      "hash": "4f05f39398175e9a",
+      "texto": "Die Bewohner Teotihuacáns passten ihre Stadt nicht dem Fluss an: Sie verlegten den Fluss, damit er ihrem Plan folgte."
+    },
+    "puente_narrativo": {
+      "hash": "1387c55af4930b2b",
+      "texto": "Wenn du die Brücke überquert hast, steig den ersten Abschnitt der Treppen nach Norden hinauf und spüre, wie die Straße der Toten mit deinen Augen und deinen Ohren spielt."
+    },
+    "guion_corto": {
+      "hash": "0712e7ce71457273",
+      "texto": "Wenn du den Río San Juan überquerst, stehst du auf einem Werk der Ingenieurskunst. Sein natürliches Flussbett passte nicht in den Plan der Stadt, also leiteten die Erbauer den Fluss um und fassten ihn in einen Kanal. Laut einer Studie mit Laserscanning aus der Luft folgt er auf etwa drei Kilometern der Ausrichtung der Stadt. Wahrscheinlich geschah das im zweiten Jahrhundert. Das Wasser diente der Entwässerung und dazu, starke Regenfälle zu kontrollieren. Die Erbauer wollten eine geordnete Stadt, und die Landschaft musste gehorchen."
+    },
+    "guion_largo": {
+      "hash": "b7977d2889ad15ba",
+      "texto": "Der Río San Juan durchquert das Zentrum von Teotihuacán, und er fließt nicht wie ein natürlicher Fluss. Sein ursprüngliches Flussbett schnitt durch den Raum, in dem die Ciudadela und der Große Komplex geplant wurden. Deshalb wurde er umgeleitet. Laut einer Studie geschah das wahrscheinlich im zweiten Jahrhundert unserer Zeitrechnung. Dieses Datum ist wahrscheinlich, aber nicht sicher. Der Kanal verlief unter der Nordplattform der Ciudadela und führte Wasser zu einem Brunnen auf ihrem zentralen Platz. Danach floss er nach Westen, umschloss den Großen Komplex und verlief weiter entlang der Westlichen Avenue. Man schätzt, dass etwa drei Kilometer des Flussbetts an das Raster der Stadt angepasst wurden. Eine Studie mit Laserkartierung aus der Luft, geleitet von Nawa Sugiyama, bestätigte noch etwas anderes. Der San Juan folgt im Zentrum auf etwa drei Kilometern der Ausrichtung der Stadt. Ein anderer Fluss, der San Lorenzo, hat eine andere Ausrichtung und legt vier Komma neun Kilometer zurück. Auch er wurde verändert. Dieses System half, das Wasser abzuleiten und Überschwemmungen zu kontrollieren. Manche Autoren vermuten, dass man in bestimmten Jahreszeiten vielleicht darauf fahren konnte, doch das ist eine Hypothese. Während du den Fluss überquerst, denk daran, dass der Fluss, den du siehst, kein Zufall ist. Er war eine Entscheidung der Erbauer."
+    },
+    "retos_observacion": {
+      "hash": "448364b11b03f9bf",
+      "texto": [
+        "Beuge dich von der Brücke aus nach Osten und nach Westen, um den vollkommen geraden Verlauf des Flussbetts zu beobachten",
+        "Suche an den Wänden des Kanals nach den Resten der alten steinernen Stützmauern",
+        "Schau nach Süden und nach Norden und achte darauf, wie der Fluss die Avenue in zwei Welten teilt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d4699dec98f6933",
+      "texto": {
+        "Kultur": "Teotihuacán",
+        "Epoche": "Frühe Klassik (um 150-250 n. Chr.)",
+        "Werk": "Künstliche Umleitung des Río San Juan im Winkel von 90° auf etwa 3 km Flussbett",
+        "Funktionen": "Hochwasserschutz, Hauptsammler der städtischen Entwässerung, landwirtschaftliche Bewässerung und kosmische Ost-West-Achse",
+        "Herkunft": "Kreuzung des Río San Juan mit der Straße der Toten"
+      }
+    },
+    "faq_mito": {
+      "hash": "fd03b2d74ff52dd9",
+      "texto": {
+        "pregunta": "Mythos: Der Río San Juan floss schon immer in gerader Linie quer über die Straße.",
+        "respuesta": "Realität: Sein ursprüngliches Flussbett durchquerte das Tal diagonal; die Bewohner Teotihuacáns leiteten ihn von Hand im rechten Winkel um, um ihn in ihr städtisches Raster einzufügen."
+      }
+    }
+  }
+}

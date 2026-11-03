@@ -1,0 +1,26 @@
+{
+  "id": "teo-01-ciudadela-gran-conjunto",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "9764dbd7f609010b",
+      "texto": "Die Ciudadela und das Zentrum der Stadt"
+    },
+    "frase_gancho": {
+      "hash": "b065e702bf19dae8",
+      "texto": "Wo sich Macht, Glaube und Markt trafen."
+    },
+    "introduccion_narrativa": {
+      "hash": "272f15936e1a0783",
+      "texto": "Am südlichen Ende der Straße der Toten liegt der Nabel von Teotihuacán. Hier kreuzen sich die großen Achsen der Stadt, und einander gegenüber liegen zwei entgegengesetzte Plätze: die Ciudadela, ein versenkter, geschlossener Hof, in dem die Elite regierte, und der Gran Conjunto, eine offene Esplanade, auf der sich wahrscheinlich der Hauptmarkt befand. Am Ende des Hofes erwartet dich der Tempel der Gefiederten Schlange mit seiner Fassade aus steinernen Köpfen, die hinter einer Plattform verborgen ist; die seitlichen Paläste der Priester; der mit Quecksilber versiegelte Tunnel unter dem Platz; und die Brücke, an der der Fluss San Juan gezwungen wurde, sich um neunzig Grad zu drehen."
+    }
+  }
+}
