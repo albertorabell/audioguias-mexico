@@ -6,7 +6,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { main, parseArgs } from '../traducir.mjs';
-import { applyStoredTranslations, buildSystemPrompt, fieldHash, glossaryFor, loadGlossary, sourceFields, validateTranslation, usdFromUsage } from '../traducir-lib.mjs';
+import { LANG_NAMES, applyStoredTranslations, buildSystemPrompt, fieldHash, glossaryFor, loadGlossary, sourceFields, validateTranslation, usdFromUsage } from '../traducir-lib.mjs';
 
 const GLOSSARY = `categoria,tipo,espanol,ingles_propuesto,veces_en_los_textos,nota,frances_propuesto
 Dioses,igual,Tláloc,Tláloc,23,,Tláloc
@@ -99,7 +99,7 @@ test('sin --generar solo muestra el plan: no llama a la API ni guarda nada', asy
 });
 
 test('las opciones inválidas se rechazan', () => {
-  assert.throws(() => parseArgs(['--lang', 'de']), /Idioma no válido/);
+  assert.throws(() => parseArgs(['--lang', 'xx']), /Idioma no válido/);
   assert.throws(() => parseArgs(['--limite', '0']), /mayor que 0/);
   assert.throws(() => parseArgs(['--max-usd', '-1']), /mayor que 0/);
   assert.throws(() => parseArgs(['--proveedor', 'otro']), /claude o prueba/);
@@ -630,4 +630,25 @@ test('--sitio: por defecto solo el museo; acepta cualquier id de CONTROL y todo;
   assert.equal(parseArgs(['--sitio', 'todo']).sitio, 'todo');
   assert.equal(parseArgs(['--sitio', 'chapultepec']).sitio, 'chapultepec');
   assert.throws(() => parseArgs(['--sitio', 'Otro Sitio!']), /--sitio/);
+});
+
+test('alemán, portugués e italiano: instrucciones, glosario y revisiones', () => {
+  const g = path.join(process.cwd(), 'glosario/glosario.csv');
+  for (const lang of ['de', 'pt', 'it']) {
+    const p = buildSystemPrompt(lang);
+    assert.ok(p.includes(LANG_NAMES[lang]), lang);
+    assert.ok(/Links between pieces/.test(p), lang);
+    const gl = loadGlossary(g, lang);
+    assert.ok(gl.length > 300, `${lang}: glosario cargado`);
+    const tlaloc = gl.find((e) => e.es === 'Tláloc');
+    assert.ok(tlaloc && tlaloc.keep && tlaloc.en === 'Tláloc', `${lang}: Tláloc se queda igual`);
+  }
+  assert.equal(loadGlossary(g, 'de').find((e) => e.es === 'Pirámide del Sol').en, 'Sonnenpyramide');
+  assert.equal(loadGlossary(g, 'pt').find((e) => e.es === 'Piedra del Sol').en, 'Pedra do Sol');
+  assert.equal(loadGlossary(g, 'it').find((e) => e.es === 'Piedra del Sol').en, 'Pietra del Sole');
+  // Palabras que existen en los dos idiomas no se confunden con español sin traducir
+  const src = { guion_corto: 'Esta pieza es una de las más importantes del museo y llegó desde muy lejos con su gente.'.repeat(2) };
+  assert.deepEqual(validateTranslation(src, { guion_corto: 'Questa è una delle opere più importanti del museo, con una storia per chi viene da lontano. '.repeat(2) }, [], { lang: 'it' }).errors.filter((e) => /español/.test(e)), []);
+  assert.deepEqual(validateTranslation(src, { guion_corto: 'Esta peça é uma das mais importantes do museu, com uma história para quem vem de longe. '.repeat(2) }, [], { lang: 'pt' }).errors.filter((e) => /español/.test(e)), []);
+  assert.deepEqual(validateTranslation(src, { guion_corto: 'Dieses Stück ist eines der wichtigsten des Museums, und es hat eine Geschichte für alle, die weit herkommen. '.repeat(2) }, [], { lang: 'de' }).errors.filter((e) => /español/.test(e)), []);
 });

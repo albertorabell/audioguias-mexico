@@ -9,7 +9,7 @@ import { stripLinks } from '../src/utils/pieceLinks.js';
 
 export const PRIVATE_DIR = 'datos-privados';
 const FULL_FILE = 'piezas-completas.json';
-const TEXT_LANGS = ['en', 'fr', 'pl', 'ru', 'ja'];
+const TEXT_LANGS = ['en', 'fr', 'pl', 'de', 'pt', 'it', 'ru', 'ja'];
 /** Campos de la pieza que solo reciben quienes tienen pase. */
 const PRIVATE_BASE = ['guion_corto', 'guion_largo', 'retos_observacion', 'especificaciones', 'faq_mito'];
 

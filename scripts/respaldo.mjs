@@ -19,7 +19,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const BUCKET_RESPALDO = process.env.R2_BUCKET_RESPALDO || 'audioguias-respaldo';
 export const SHEET_RESPALDO = process.env.RESPALDO_SHEET_ID || '1Ddn0nZbpTDkXcr0s0__Q9KIDrYiRohHmXTcHH0jNxvE';
 const LIMITE_CELDA = 45000;
-const IDIOMAS = ['en', 'fr', 'pl'];
+const IDIOMAS = ['en', 'fr', 'pl', 'de', 'pt', 'it'];
 
 const flag = (n) => process.argv.includes('--' + n);
 const wr = (args, opts = {}) => run('npx', ['--yes', 'wrangler@4', ...args, '--remote'], { maxBuffer: 1 << 26, ...opts });
