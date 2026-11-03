@@ -1,0 +1,56 @@
+{
+  "id": "cue_18_claustro",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7a756d3b94c18e61",
+      "texto": "The Cloister and the Friars of the Convent"
+    },
+    "frase_gancho": {
+      "hash": "b448e6b8b7b11b28",
+      "texto": "Orange trees, an enormous orchard, and the friars who learned Nahuatl: the daily life of the Franciscan convent."
+    },
+    "puente_narrativo": {
+      "hash": "261da6bdc4326367",
+      "texto": "Move from the cloister into the halls of the Museum of Sacred Art."
+    },
+    "guion_corto": {
+      "hash": "6749cf55dc9bdb8d",
+      "texto": "A Dominican friar who arrived in Cuernavaca in fifteen eighty-five described the convent: it has a church, a cloister, dormitories, and an orchard. A chronicler of the seventeenth century added that the courtyard was adorned with orange trees and that the orchard was very large. The cloister is the central courtyard surrounded by galleries, and it was there that the friars' life unfolded. In the sixteenth century, figures such as Fray Toribio de Benavente, Motolinía, Agustín de la Coruña, and Hernando de Leyva lived here. Francisco Cimbrón and Hernando de Leyva are buried in the convent. Today, the galleries of the cloister hold a large collection of Baroque art, mostly painting, spread across several halls."
+    },
+    "guion_largo": {
+      "hash": "e65cf6c64544dd9e",
+      "texto": "A cloister is a courtyard surrounded by covered galleries. In a convent, it was the center of daily life: the friars crossed it to go to the church, the refectory, and the dormitories. In the convent of Cuernavaca, that courtyard has changed its uses, but it keeps its meaning.\n\nSeveral people left descriptions of the convent. A Dominican friar, Father Ponce, who arrived in fifteen eighty-five, wrote that the building was finished and that it had a church, a cloister, dormitories, and an orchard. In the seventeenth century, the chronicler Vetancurt described the courtyard decorated with orange trees and a very large orchard. He also wrote that the entrance vestibule, the porter's lodge, measured more than fifty varas in length.\n\nIn the sixteenth century, friars who later became very well known lived here. Fray Toribio de Benavente, whom the Indigenous people called Motolinía, which means the poor one, was one of the first Franciscans to arrive in Mexico. He wrote a history of the peoples of New Spain. Agustín de la Coruña and Hernando de Leyva were also here. Two friars are buried in the convent: Francisco Cimbrón, of the province of the Concepción, and Hernando de Leyva, of the province of Burgos.\n\nThe convent did not only shelter people. Over time, the cloister became a space for a collection. In the galleries there is a large amount of Baroque art, mostly painting, spread across several halls. A researcher, María Celia Fontana, has studied that collection. In it appear works attributed to Juan Correa, Juan de Miranda, and Tomás de Sosa.\n\nThe cloister went through other changes. When the diocese was created in eighteen ninety-one, the former convent became a cathedral. In nineteen eleven, Bishop Francisco Plancarte y Navarrete founded a Museum of Sacred Art in Cuernavaca. In nineteen eighty-nine, the engineer Juan Dubernard cataloged the cathedral's movable property. And in nineteen ninety-two, the program Adopt a Work of Art restored several key pieces. From the twenty-sixth to the thirtieth of October, two thousand two, the exhibition Artistic Treasures of the Cathedral of Cuernavaca was shown in the upper cloister.\n\nAs you walk through it, think about what a day in a convent was like: prayer, meals, study, and work. The covered galleries protected people from the sun and the rain, and that is why the courtyard worked as the common room for everyone.\n\nIf you find works with their label, read it in full. The names of Correa, Miranda, and Sosa appear in studies of this collection, but not all attributions are certain. The pieces change places over time, and the halls that are open may also change.\n\nIf the cloister is open when you visit, notice its silence. The friars walked through it praying and studying. Those who arrive today walk through it in a different way, with their heads raised to see the ceilings and the arches, and with a slower step. Now it is your turn to walk through it, looking."
+    },
+    "retos_observacion": {
+      "hash": "587c7480160f7d06",
+      "texto": [
+        "Walk along a gallery and try to imagine the friars crossing the courtyard",
+        "Look for the orange trees or the trees of the courtyard and think about the orchard that Vetancurt described",
+        "Look at the paintings in the galleries and notice which ones have a Baroque religious theme"
+      ]
+    },
+    "especificaciones": {
+      "hash": "464d14133bab7145",
+      "texto": {
+        "Description by Father Ponce": "1585",
+        "Chronicle of Vetancurt": "17th century, with orange trees and an orchard",
+        "Friars of the 16th century": "Motolinía, Agustín de la Coruña, and Hernando de Leyva",
+        "Burials": "Francisco Cimbrón and Hernando de Leyva",
+        "First Museum of Sacred Art": "1911, by Bishop Francisco Plancarte y Navarrete",
+        "Catalog of movable property": "1989, by Juan Dubernard"
+      }
+    },
+    "faq_mito": {
+      "hash": "121a6d51871af167",
+      "texto": {
+        "pregunta": "Myth: Motolinía was a mocking nickname.",
+        "respuesta": "Reality: It was a Nahuatl name that the Indigenous people gave him, meaning the poor one, because of his humble life."
+      }
+    }
+  }
+}

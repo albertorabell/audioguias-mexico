@@ -1,0 +1,56 @@
+{
+  "id": "cue_19_museo_arte_sacro",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92411ceaa71effe9",
+      "texto": "The Museum of Sacred Art"
+    },
+    "frase_gancho": {
+      "hash": "de9da99f60f9555b",
+      "texto": "Ninety-two objects from the sixteenth to the twentieth century, brought together to safeguard the religious art of all of Morelos."
+    },
+    "puente_narrativo": {
+      "hash": "f060b867381c0573",
+      "texto": "Follow your route: it may lead you to the Third Order temple or to the Borda Garden."
+    },
+    "guion_corto": {
+      "hash": "ce5f45c66bec1202",
+      "texto": "Ninety-two objects fit inside this museum, which is small but concentrated. It is located inside the cathedral and opened in 2018. It gathers paintings, ornaments and sculptures from the sixteenth to the twentieth century, all of it religious and viceregal art from Morelos. It was promoted by the Consejo Nacional Adopte una Obra de Arte, together with the diocese, the INAH and the INBA, and the state government financed a good part of it. It is not the first attempt. In 1911, Bishop Francisco Plancarte y Navarrete founded another museum of sacred art in Cuernavaca. The cathedral’s collection includes paintings attributed to Juan Correa, Juan de Miranda and Tomás de Sosa. There is also an eighteenth-century gilded wood relief about the stigmata of Saint Francis."
+    },
+    "guion_largo": {
+      "hash": "ae0ad46a36bf7542",
+      "texto": "The words sacred art sound distant, but what you will find here is very close to us: objects that real people used to pray, to celebrate and to remember. The Museum of Sacred Art is inside the cathedral. It opened in 2018 as a worthy space to safeguard the religious and viceregal art of Morelos. Viceregal art is the art made when Mexico was New Spain.\n\nIt is a small museum, with around ninety-two objects: paintings, ornaments and sculptures from the sixteenth to the twentieth century. The ornaments are the cloths and objects that priests use in ceremonies. The number may change over time, but it gives an idea of the scale: this is not an enormous gallery, but a selection.\n\nThe project was promoted by the Consejo Nacional Adopte una Obra de Arte, an organization that had already worked in the cathedral since the 1990s. The diocese of Cuernavaca took part, together with the INAH and the INBA. Governor Graco Ramírez financed a large part of the project, according to the press release for the opening.\n\nCuernavaca had already had a museum like this. In 1911, the second bishop of the diocese, Francisco Plancarte y Navarrete, founded a Museum of Sacred Art. A researcher, María Celia Fontana, does not specify whether it was in the cathedral. What matters is the idea: for more than a century, the diocese has wanted to gather and display its treasures.\n\nWhat kind of works does the cathedral’s collection hold? Fontana mentions paintings attributed to Juan Correa, Juan de Miranda and Tomás de Sosa, artists of New Spain. There is also a polychrome and gilded wood relief from the eighteenth century, by an anonymous artist. It depicts the stigmatization of Saint Francis: the moment when, according to tradition, the saint received the wounds of Christ on his body. That relief closely resembles the one that adorns the façade of [the Third Order temple](cue_20_tercera_orden). We cannot be sure which pieces are in the hall today; it is best to ask at the entrance.\n\nIn 1992, several works from the cathedral were restored through the Adopte una Obra de Arte program, directed by Teresa Loera. That work prepared the ground for the museum.\n\nAmong the things to look for, notice how one saint is told apart from another. Each one usually carries an object that identifies him or her, such as a key, a palm or a book. These attributes were the way to recognize them from afar.\n\nOne question helps in looking at this kind of art: what was it made for? A painting of saints could teach stories to people who could not read. An ornament served at a festival. A sculpture was carried out in procession. When you think of it this way, sacred art stops being an object behind glass and becomes once again part of the life of a community."
+    },
+    "retos_observacion": {
+      "hash": "211bb5f498257ec2",
+      "texto": [
+        "Find a painting with saints and ask what story it tells",
+        "Find an ornament and look closely at the fabric, the embroidery or the color",
+        "If there is a gilded wood relief, compare the figure with the façade of the Third Order"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8c72f331ae25dcb1",
+      "texto": {
+        "Opening": "2018",
+        "Collection": "92 objects from the 16th to the 20th century, according to Lonely Planet",
+        "Type of pieces": "paintings, ornaments and sculptures of the religious and viceregal art of Morelos",
+        "Promoted by": "Consejo Nacional Adopte una Obra de Arte, diocese, INAH and INBA",
+        "Earlier museum": "1911, founded by Bishop Francisco Plancarte y Navarrete",
+        "Authors cited in the cathedral’s collection": "Juan Correa, Juan de Miranda and Tomás de Sosa"
+      }
+    },
+    "faq_mito": {
+      "hash": "916359c48251ed4d",
+      "texto": {
+        "pregunta": "Myth: Sacred art is only for believers.",
+        "respuesta": "Reality: It can be viewed as history and as art. It shows how people painted, embroidered and sculpted in New Spain."
+      }
+    }
+  }
+}

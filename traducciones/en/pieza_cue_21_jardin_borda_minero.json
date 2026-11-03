@@ -1,0 +1,56 @@
+{
+  "id": "cue_21_jardin_borda_minero",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7812c0861cf93963",
+      "texto": "A Miner’s Dream: The Borda Gardens"
+    },
+    "frase_gancho": {
+      "hash": "50b62201383530f1",
+      "texto": "A man who made his fortune from Taxco silver built terraces, fountains, and a lake here in the French style."
+    },
+    "puente_narrativo": {
+      "hash": "98a5960d82dfe5d1",
+      "texto": "If your route continues, walk through the garden to the story of the emperors."
+    },
+    "guion_corto": {
+      "hash": "535b9f25adc44b4d",
+      "texto": "José de la Borda arrived in New Spain in seventeen sixteen and made an enormous fortune from the silver mines of Taxco and Zacatecas. He probably bought this land in seventeen sixty-three, across from the old Franciscan monastery that is now the cathedral. He died here in seventeen seventy-eight. His son Manuel, who was a priest and also loved botany, turned the house into a garden of flowers and fruit trees, finished in seventeen eighty-three. It has terraces, ramps, fountains, two pools, and an artificial lake, in the French style. A church dedicated to the Virgin of Guadalupe was built near the house. Today it is a cultural center, and its history includes a difficult side: Borda’s wealth was built on the exploitation of Indigenous labor."
+    },
+    "guion_largo": {
+      "hash": "eb80ec835380ade8",
+      "texto": "This garden tells the layer of rest: the place where the rich and powerful came to retire. But this story begins with a fortune. José de la Borda was born around sixteen ninety-nine or seventeen hundred, and sources disagree on whether it was in Spain or in France. He arrived in New Spain in seventeen sixteen, when he was about seventeen years old. He grew rich from the mines of Taxco and Zacatecas. At one point he was considered the richest man in Mexico, and it is estimated that he earned about forty million pesos. With that money he paid for famous works, such as the church of Santa Prisca in Taxco and the Borda House in Mexico City.\n\nHe also had a life with shadows. He is criticized for having grown rich through the cruel exploitation of Indigenous labor. In his last years he suffered mercury poisoning, a hazard of silver mining, and he retired to Cuernavaca, where his son Manuel, who was a priest, lived.\n\nAccording to one source, Borda bought this land in seventeen sixty-three, across from the Franciscan convent that is now the cathedral. He died here in seventeen seventy-eight. Manuel inherited the property. He was very interested in plants, and he turned the land into a garden of flowers and fruit trees. The work on the garden and the lake was finished in seventeen eighty-three.\n\nThe design follows the style of French gardens: terraces at different levels, ramps, stairways, and fountains. There are two pools and a water system that fed the lake and several fountains. A Baroque fountain called the Great Fountain is also mentioned, along with a gateway with iron grilles that recalls the gardens of the Alhambra, in Granada. A church dedicated to the Virgin of Guadalupe was built near the house.\n\nThe botanical collection began in the eighteenth century. It brings together plants native to Mesoamerica and exotic plants. Among the native ones, copal, plumeria, and avocado are mentioned. Among the exotic ones are mango and jacaranda. The garden is also home to fish, birds, and squirrels.\n\nToday this place is a cultural center with exhibition halls, a bookstore, and an open-air auditorium. It is classified as a historic monument. It is best to stroll without hurry: everything in the garden is designed for looking, resting, and listening to the water.\n\nTo explore the garden, follow the water. The terraces descend in levels, and each level has its own view. Look for the stairways and ramps that connect one level to another. In a French-style garden, order matters: straight paths, aligned fountains, and plants placed with intention.\n\nAnother way of looking is by species. The collection brings together native and exotic plants. If you see a plumeria, an avocado tree, or a jacaranda, you are already reading the meeting of two botanical worlds: what grew here and what arrived from far away.\n\nWhen you sit near the lake, think about the two faces of this place. It is a beautiful garden, but it was paid for with mines and the labor of others. Beauty and difficult history walk together."
+    },
+    "retos_observacion": {
+      "hash": "9bf24ef1b00f242f",
+      "texto": [
+        "Look for the terraces and ramps and notice how the garden rises and falls in levels",
+        "Find the lake and the fountains and listen to the water",
+        "Look for the church of the Virgin of Guadalupe next to the house and ask who it was built for"
+      ]
+    },
+    "especificaciones": {
+      "hash": "617e9a36bdd4d8ee",
+      "texto": {
+        "Founder": "José de la Borda, silver miner of Taxco and Zacatecas",
+        "Land": "probably purchased in 1763",
+        "Death of José de la Borda": "1778, in Cuernavaca",
+        "Garden works": "completed by his son Manuel in 1783",
+        "Style": "French, with terraces, ramps, fountains, two pools, and an artificial lake",
+        "Current use": "cultural center"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e9677f07d405a31",
+      "texto": {
+        "pregunta": "Myth: Emperor Maximilian built the Borda Garden.",
+        "respuesta": "Reality: The Borda family made it in the eighteenth century. Maximilian chose it as a summer house in eighteen sixty-five."
+      }
+    }
+  }
+}

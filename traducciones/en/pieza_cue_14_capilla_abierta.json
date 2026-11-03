@@ -1,0 +1,55 @@
+{
+  "id": "cue_14_capilla_abierta",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "44aa180a284221cd",
+      "texto": "The Open Chapel, or Chapel of the Indians"
+    },
+    "frase_gancho": {
+      "hash": "8e4f2d5664a98721",
+      "texto": "A chapel with no wall at the front, so that thousands of people could hear Mass in the open air."
+    },
+    "puente_narrativo": {
+      "hash": "2c678731f9e627c7",
+      "texto": "Follow your route: it may take you to the nave of the church or straight to the murals of the martyrs."
+    },
+    "guion_corto": {
+      "hash": "7dced689ebc1fc4d",
+      "texto": "Imagine a church with a missing wall. That is how the open chapel works: it has a roof and an altar, but the front is open toward the atrium, so that Mass can be seen from outside. The Franciscans built it to convert the Indigenous population, which was too numerous to fit inside an enclosed church. That is why it is also called the Chapel of the Indians. The sources describe it as wide and beautiful, and as possibly the oldest one still standing in Cuernavaca. It was built after the chapel of San José de los Naturales in Mexico City was demolished. That is where its other name comes from, the Open Chapel of San José. México Desconocido considers it the largest of its kind in Latin America."
+    },
+    "guion_largo": {
+      "hash": "123411dbebe785bc",
+      "texto": "A closed church does not work for everyone. In the sixteenth century, the Franciscan friars faced thousands of people who spoke Nahuatl and other languages, and they did not fit in any church. The solution was to turn the architecture inside out: instead of bringing the people into the church, Mass was taken out to the atrium.\n\nThis solution is called an open chapel. It has a presbytery, that is, the altar space, which is covered and open at the front toward the atrium. The priest officiated inside and the crowd followed Mass from outside. In Cuernavaca, this chapel is known as the Open Chapel, the Chapel of the Indians, and the Chapel of San José.\n\nThe name San José has a reason. In Mexico City there was a famous chapel, San José de los Naturales, intended for the Indigenous population. According to the art historian George Kubler, the one in Cuernavaca was built after that one was demolished. For this reason, this chapel can be seen as the heir of that one. The exact date of this work is not well established.\n\nThe descriptions agree on one thing: it is a wide chapel, of good size, and possibly the oldest one preserved in the city. The magazine México Desconocido goes further and states that it is the oldest and the largest of its kind in Latin America. We have not been able to verify that claim with another source, so we present it as an opinion and not as a fact.\n\nUNESCO explains that these sixteenth-century monasteries had open chapels with very varied solutions. Some are simple niches. Others, like this one, are large spaces with arches. The purpose was always the same: that the ceremony reach the entire community.\n\nTo fill the atrium, the friars needed to make themselves understood. They learned Indigenous languages and relied on images, songs, and performances. On feast days, people came from the nearby towns. The atrium then became a great plaza, and the open chapel, its stage.\n\nIt is also necessary to say what the name Chapel of the Indians means. It is a name from the viceregal period that refers to the Indigenous population to which it was directed. Today we use it to describe history, not to classify anyone.\n\nLook at the chapel as a stage. It has no doors closing it off from the atrium. That openness explains its function: a celebration could be followed from outside by many people at once.\n\nAs you saw at the previous stop, the atrium was an essential part of the complex. To understand this chapel is to understand that the church, here, began outside. A wall without a door can say as much as a portal with reliefs.\n\nWhen you finish, look at how much space there is in front of the chapel. That is where the people stood. That open esplanade served as the nave of the church, and the sky served as its vault."
+    },
+    "retos_observacion": {
+      "hash": "fd287a1a5b7c4972",
+      "texto": [
+        "Find the open front of the chapel and estimate how many people could follow Mass from the atrium",
+        "Look at the roof and the arches and notice which part is covered and which is not",
+        "Compare this chapel with the facade of the church: which one do you think was built first?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d47326c72a09e58d",
+      "texto": {
+        "Type": "Franciscan open chapel from the 16th century",
+        "Names": "Open Chapel, Chapel of the Indians, and Chapel of San José",
+        "Source of its name": "chapel of San José de los Naturales, in Mexico City",
+        "Function": "officiating Mass for crowds in the open air",
+        "Status": "possibly the oldest one still standing in Cuernavaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "3d21e49a22015f19",
+      "texto": {
+        "pregunta": "Myth: The Chapel of the Indians was only for Indigenous people and not for others.",
+        "respuesta": "Reality: The name comes from the viceregal period and indicates whom the evangelization was aimed at, which was the majority Indigenous population. It does not say who was allowed to enter."
+      }
+    }
+  }
+}

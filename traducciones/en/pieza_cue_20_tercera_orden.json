@@ -1,0 +1,55 @@
+{
+  "id": "cue_20_tercera_orden",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "832145101d58c960",
+      "texto": "The Church of the Third Order"
+    },
+    "frase_gancho": {
+      "hash": "31c164751db15c80",
+      "texto": "An eighteenth-century church raised by a lay steward, with the wounds of Saint Francis on its façade."
+    },
+    "puente_narrativo": {
+      "hash": "24072a38a18279e1",
+      "texto": "If you are continuing your route, walk toward the Borda Garden, which is very close to the complex."
+    },
+    "guion_corto": {
+      "hash": "dd8deb9c214c79c4",
+      "texto": "Many people believe that all Franciscans were friars. They were not. The Third Order brought together lay people who wanted to live according to the spirit of Saint Francis without entering a convent. This church was built for them between seventeen twenty-three and seventeen thirty-six, by the licentiate Enrique Jerez, a lay steward of the Franciscan order. It stands at the Northwest end of the convent cloister. On its façade there is a stone relief of the stigmatization of Saint Francis, that is, the moment when, according to tradition, he received the wounds of Christ. That relief closely resembles an eighteenth-century wooden one kept in the cathedral."
+    },
+    "guion_largo": {
+      "hash": "8336cee27e031700",
+      "texto": "In the Franciscan tradition there are three orders. The First Order is that of the friars. The Second is that of the Poor Clare nuns. The Third brought together lay men and women, that is, people who were neither priests nor members of a religious community, and who wanted to live with simplicity and prayer without leaving behind their everyday lives. They were merchants, artisans, and families who gathered in their own church.\n\nIn Cuernavaca, that church was built in the eighteenth century. According to the researcher María Celia Fontana, it was raised between seventeen twenty-three and seventeen thirty-six, on the initiative of the licentiate Enrique Jerez, a lay steward of the order. A steward was the person who managed the property and handled the expenses. That it was done by someone who was not a friar says a great deal about the importance of lay people in this order.\n\nFontana places the church at the Northwest end of the convent cloister. Another source says that the chapel of the Third Order, along with those of Dolores and El Carmen, was built later on the atrium. The two descriptions do not quite agree, so follow the signs along the route to find your way.\n\nThe façade has a stone relief of the stigmatization of Saint Francis. According to tradition, in the thirteenth century the saint prayed on a mountain and received on his body the five wounds of Christ. They are those of the hands, the feet, and the side. It is one of the most important images of Franciscan devotion. In Cuernavaca the image appears twice: in stone, on this façade, and in polychrome and gilded wood, in a relief in the cathedral.\n\nFontana observes that the two reliefs closely resemble each other. The wooden one is an eighteenth-century object by an anonymous author. We do not know which was made first or whether one inspired the other. But the coincidence shows that in the eighteenth century the models found in the main convent were still being repeated.\n\nThe date also matters. The first Franciscans arrived in Cuernavaca in the sixteenth century. Two centuries later, there were already adults who belonged to the Third Order and wanted a place of their own. It is proof that Franciscan faith was still alive in the city, and that it was no longer sustained only by friars: it was sustained by a community.\n\nTo see this façade, stand in front of it and raise your eyes to the relief. Notice the saint's posture and what surrounds him. Then recall the wooden version in the museum and ask yourself which details change from one to the other.\n\nThis church closes the visit to the cathedral with a simple idea. Here there were not only friars or only rulers: there were families and artisans who decided to raise a place of prayer of their own. A religious complex is not just an old building. It is the result of centuries of people who gathered, built, and prayed in the same place."
+    },
+    "retos_observacion": {
+      "hash": "81c3189416022e80",
+      "texto": [
+        "Find the stone relief on the façade and try to make out the hands and feet of Saint Francis",
+        "Compare that image with the one in the museum, if you can see it, and think about which features repeat",
+        "Ask at the entrance whether the church is open and at what time"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a877dd6b656a1367",
+      "texto": {
+        "Construction": "between 1723 and 1736",
+        "Sponsor": "licentiate Enrique Jerez, lay steward of the Franciscan order",
+        "Location": "Northwest end of the cloister, according to Fontana",
+        "Façade detail": "stone relief of the stigmatization of Saint Francis",
+        "Comparable relief": "polychrome and gilded wood from the 18th century, by an anonymous author"
+      }
+    },
+    "faq_mito": {
+      "hash": "39001c14ae248dc1",
+      "texto": {
+        "pregunta": "Myth: The Third Order was a group of friars.",
+        "respuesta": "Reality: It brought together lay men and women who wanted to live according to the spirit of Saint Francis without entering a convent."
+      }
+    }
+  }
+}

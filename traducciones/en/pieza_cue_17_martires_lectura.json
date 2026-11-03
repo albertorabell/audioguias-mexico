@@ -1,0 +1,56 @@
+{
+  "id": "cue_17_martires_lectura",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "56a5a05d0e657ad7",
+      "texto": "The Martyrs of Japan II: How to Read the Mural"
+    },
+    "frase_gancho": {
+      "hash": "d19d0bcab8194094",
+      "texto": "Ships, fish, ox carts, and crosses: two walls that read like a journey to Nagasaki."
+    },
+    "puente_narrativo": {
+      "hash": "7fa6d85275ba895f",
+      "texto": "Leave the nave and continue to the cloister, where the friars of the convent lived."
+    },
+    "guion_corto": {
+      "hash": "1527b5ae22697763",
+      "texto": "This mural is not read all at once: it is traveled like a journey. On one wall there is sea, fish, and ships carrying armed men and friars, bound for Nagasaki. Inland, crucified figures appear, along with executioners holding spears. On the opposite wall, the prisoners advance in ox-drawn carts, four to a cart, and there are processions on horseback through Kyoto, Osaka, and Sakai. The drawing is done in line, with few effects of light and shadow and a limited palette, features that recall East Asian art. Some compare it to Japanese folding screens, and others disagree. Its author is unknown: one hypothesis suggests an Indigenous brother or a friar familiar with Eastern art."
+    },
+    "guion_largo": {
+      "hash": "669c570dbd4336a6",
+      "texto": "You have to walk to read this mural. It is not a single scene, but a thirty-meter journey divided across two walls, and each one tells a part of the trip.\n\nOn one of the walls, the sea appears. There are fish, ships, and, aboard the vessels, armed men and men in religious habits. All of them are headed for Nagasaki. Farther in, on land, there is a scene of crucified figures with executioners holding spears. This is the part of the martyrdom, shown without exaggerated drama.\n\nOn the opposite wall, the story goes back a few days. The prisoners appear in ox-drawn carts. There is a curious detail: they travel four to a cart, not three, as other historical accounts tell it. Then you see processions on horseback through three cities: Kyoto, Osaka, and Sakai. Those cities mark the route that, according to history, the condemned men followed before reaching Nagasaki.\n\nThe technique draws the eye. The drawing is done in line, there are few effects of light and shadow, and the color palette is limited. These features recall East Asian art. The researcher Luis Islas compared it to Japanese folding screens, those large painted panels. María Elena Ota disagrees and says the technique is different. The two positions agree on the similarity of style, not on its origin.\n\nWho painted it? No one knows. According to Xavier Noguez, several authors believe it was painted by local Indigenous artists. The Eastern air may have come from what was known about the Chinese who went to the Manila market, and the general atmosphere does not reflect the Japan of the time. It remains a conjecture. Some specialists compare the mural to the Techialoyan codices, although Donald Robertson acknowledges that this one is unique.\n\nThere is also a question about the date. Specialists place it between the middle of the seventeenth century and the early part of the following century. Vetancurt described the convent in sixteen ninety-seven and does not mention the murals, which could point to a later date. Some link it to the wreck of the galleon San Francisco, in sixteen oh nine, when more than three hundred sailors from New Spain were rescued near Onjuku, in Japan. That link would explain why a painter from here knew the landscapes on the other side of the Pacific, but it is still a theory.\n\nThe mural has also suffered from earthquakes. After the earthquake of September nineteenth, two thousand seventeen, the painted walls showed cracks, and the plaster was protected.\n\nTo read the mural, do not try to take it all in at once. Walk slowly and go from scene to scene, like someone turning the pages of a long book. Look for where the landscape changes: from the sea to the city, and from the city to the hill.\n\nOne question helps you decide what to look at. Who is telling the story: the painters, the friars, or the people who looked at it? For someone who could not read, a painting like this was a way to understand an event without words.\n\nIf you walk it from wall to wall, you end up understanding the route: a journey across the sea, through the cities, and to the hill where they met their end. A story that happened in Japan was painted with patience, in a convent in Morelos."
+    },
+    "retos_observacion": {
+      "hash": "dadf962633782f00",
+      "texto": [
+        "Follow with your eyes the path of the ships and the fish on one of the walls",
+        "Look for the ox carts and count how many prisoners are in each one",
+        "Compare the colors and lines of the mural with an Eastern folding screen or print you know"
+      ]
+    },
+    "especificaciones": {
+      "hash": "431b739f436883dc",
+      "texto": {
+        "Dimensions": "about 30 m long by 8 m high",
+        "Scenes": "sea, ships, and crucified figures; prisoners in carts; processions on horseback through Kyoto, Osaka, and Sakai",
+        "Style": "line drawing, little light and shadow, and a limited palette, with features of East Asian art",
+        "Author": "unknown",
+        "Date": "between the mid-17th century and the early 18th century",
+        "Related shipwreck": "galleon San Francisco, 1609, off Onjuku"
+      }
+    },
+    "faq_mito": {
+      "hash": "882446cfc986afbc",
+      "texto": {
+        "pregunta": "Myth: The mural is a copy of a Japanese folding screen.",
+        "respuesta": "Reality: Some specialists notice similarities with folding screens, but others say the technique is different. No one has proven it is a copy."
+      }
+    }
+  }
+}
