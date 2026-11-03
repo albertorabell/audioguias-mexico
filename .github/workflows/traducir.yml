@@ -82,7 +82,13 @@ jobs:
           fi
 
       - name: Traer los textos más recientes del Google Sheets
-        run: node scripts/ci-run.mjs "sync-sheets" -- node scripts/sync-sheets.js
+        run: |
+          for intento in 1 2 3 4; do
+            if node scripts/ci-run.mjs "sync-sheets" -- node scripts/sync-sheets.js; then exit 0; fi
+            echo "Intento $intento falló (probable límite de lecturas de Google); espero 90 s"
+            sleep 90
+          done
+          exit 1
 
       - name: Plan (o traducción, o envío del lote)
         if: ${{ inputs.modo != 'lote-recoger' }}
