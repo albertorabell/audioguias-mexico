@@ -1,0 +1,68 @@
+{
+  "id": "chi_01_muralla_acceso",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "835a9b8786305840",
+      "texto": "Die Große Nivellierung und das Zeremonialzentrum"
+    },
+    "frase_gancho": {
+      "hash": "7fe3d488e8494c49",
+      "texto": "Eine künstliche Freifläche, Stein für Stein eingeebnet, um die Mitte der Stadt auf eine einzige Ebene zu setzen."
+    },
+    "puente_narrativo": {
+      "hash": "89169c7cd73c8990",
+      "texto": "Geh zur Mitte der Freifläche und bleib vor [El Castillo](chi_02_castillo_general) stehen, der großen Pyramide, die den Platz beherrscht."
+    },
+    "guion_corto": {
+      "hash": "728e5bfd6649227e",
+      "texto": "Es sieht aus wie eine natürliche Ebene, aber das ist es nicht. Die Freifläche, auf der du stehst, heißt die Große Nivellierung. Sie ist eine künstliche Plattform von etwa sechshundert Metern Länge und vierhundert Metern Breite, und laut einem technischen Bericht der University of California in San Diego ist sie das größte Bauwerk von Chichén Itzá. Das ursprüngliche Gelände bestand aus Fels und Unebenheiten. Die Baumeister füllten auf, planierten und bedeckten den Boden mit Stuck und mit sascab, einer weißen Kalkerde. Die Böden haben ein sanftes Gefälle von kaum einem Prozent, damit das Regenwasser dorthin fließt, wohin es fließen sollte. Auf dieser großen Bühne erhoben sich El Castillo, der Ballspielplatz und der Tempel der Krieger."
+    },
+    "guion_largo": {
+      "hash": "bf3c2733ef4d63ab",
+      "texto": "Es lohnt sich, einen Moment innezuhalten. Fast niemand bemerkt, dass der Boden, auf dem du stehst, ein Werk der Ingenieurskunst ist.\n\nDas natürliche Gelände in diesem Teil von Yucatán ist uneben, mit hervorstehenden Felsen und Senken. Die Baumeister nivellierten das Gelände, um die großen Gebäudekomplexe zu tragen, und die größte Mühe verwendeten sie auf den Bereich von El Castillo. Ein technischer Bericht eines Projekts der University of California in San Diego aus dem Jahr zweitausendneun schätzt die Fläche auf etwa sechshundert mal vierhundert Meter. Er nennt sie das größte Bauwerk von Chichén Itzá und eine der größten Plattformen der Maya-Welt.\n\nEs war ein Werk, das in Etappen entstand: Die Forschenden schlagen zehn vor. In einigen wurde eine Schicht aus Erde und Stein über den natürlichen Fels aufgefüllt, in anderen wurden die Felsaufbrüche mit sascab eingeebnet. Die Stuckböden waren nicht weiß, wie man sie sich gewöhnlich vorstellt. In verschiedenen Etappen verwendete man gelben und roten Stuck. Und alle Böden haben ein Gefälle von ungefähr einem Prozent. Zwischen El Castillo und der Säulenhalle, die du später sehen wirst, fällt der Boden auf einer Strecke von etwa siebenundsiebzig Metern um rund fünfundsiebzig Zentimeter ab. Es ist ein kaum wahrnehmbares Gefälle, dazu gedacht, das Regenwasser dorthin zu leiten, wohin die Baumeister es haben wollten.\n\nAuch die Zeit wurde berechnet. Die größten Etappen dieser Plattform gehören zu dem, was die Archäologen die Sotuta-Phase nennen, zwischen den Jahren achthundert und tausendfünfzig oder tausendeinhundert. Und der gesamte Bauprozess hätte weniger als fünfhundert Jahre gedauert, wahrscheinlich nicht mehr als dreihundert.\n\nDiese Freifläche hatte auch eine Mauer. Es war eine Mauer, die das Zeremonialzentrum umgab. Die Archäologen legten einen Abschnitt von etwa neunzig Metern zwischen dem Großen Ballspielplatz und dem heutigen westlichen Fußgängereingang frei. Es war eine hohe, schmale Mauer, innen ohne Brüstung, weshalb man annimmt, dass ihre Funktion über die Verteidigung hinausging. Später wurde ihr ein Strebepfeiler hinzugefügt, gebaut aus wiederverwendeten Steinen anderer Gebäude, und den deuten sie tatsächlich als Verstärkung zur Verteidigung.\n\nAll das verändert, was du siehst. Die Gebäude stehen nicht auf einer Ebene. Sie stehen auf einer durchdachten Plattform, mit Gefällen, farbigen Böden und einer errichteten Grenze. Es ist die Bühne, auf der das Wichtigste im Leben der Stadt geschah.\n\nGeh jetzt zur Mitte. Vor dir erhebt sich [El Castillo](chi_02_castillo_general), das Gebäude, das diesen ganzen Platz ordnet."
+    },
+    "retos_observacion": {
+      "hash": "a7d7da0b43e0134a",
+      "texto": [
+        "Sieh dir den Rand der Freifläche an und suche die Stelle, an der das Gefälle zum natürlichen Gelände beginnt",
+        "Stell dir den Boden mit gelbem oder rotem Stuck bedeckt vor, und nicht mit dem grünen Gras von heute",
+        "Geh zur Mitte des Platzes und suche die Silhouette von El Castillo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "33412e54bcacba79",
+      "texto": {
+        "Name": "die Große Nivellierung",
+        "Ungefähre Abmessungen": "600 × 400 Meter (UC San Diego, 2009)",
+        "Vorgeschlagene Bauetappen": "10",
+        "Gefälle der Böden": "etwa 1 %",
+        "Stuck der Böden": "gelb und rot, je nach Etappe",
+        "Freigelegte Mauer": "etwa 90 Meter zwischen dem Großen Ballspielplatz und dem westlichen Fußgängereingang"
+      }
+    },
+    "faq_mito": {
+      "hash": "3052c5f83760e118",
+      "texto": {
+        "pregunta": "Mythos: Die Freifläche ist eine natürliche, grasbewachsene Ebene.",
+        "respuesta": "Realität: Sie ist eine künstliche Plattform, in Etappen mit Auffüllungen, Stuckböden und einem sanften Gefälle für das Regenwasser errichtet. Das Gras gibt es erst heute."
+      }
+    }
+  }
+}
