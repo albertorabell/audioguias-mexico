@@ -37,7 +37,7 @@ const ALL_LANGUAGES: LanguageOption[] = [
  * Hoy (modo de prueba): español, inglés, francés, polaco y alemán, para revisar los textos. El francés aún no tiene audios y el polaco los tiene de forma parcial (donde falta usa la voz del teléfono).
  * Con un solo idioma el selector ni siquiera aparece.
  */
-const DEFAULT_PUBLISHED_LANGUAGES: SupportedLanguage[] = ['es', 'en', 'fr', 'pl', 'de'];
+const DEFAULT_PUBLISHED_LANGUAGES: SupportedLanguage[] = ['es', 'en', 'fr', 'pl', 'de', 'pt'];
 
 /**
  * Las pruebas de navegador compilan con VITE_PUBLISHED_LANGUAGES=es,en para ensayar el selector y el inglés.
