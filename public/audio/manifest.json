@@ -1460,6 +1460,24 @@
           "provider": "azure"
         }
       },
+      "chi_01_muralla_acceso": {
+        "corto": {
+          "hash": "a5a0af8b2aebb5b5",
+          "file": "de/chi_01_muralla_acceso_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 270000,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8215e404339717d1",
+          "file": "de/chi_01_muralla_acceso_largo.mp3",
+          "remote": true,
+          "seconds": 158,
+          "bytes": 950832,
+          "provider": "azure"
+        }
+      },
       "chi_02_castillo_general": {
         "corto": {
           "hash": "88a6ef8d930b7a31",
