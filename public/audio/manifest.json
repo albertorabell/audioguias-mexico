@@ -4070,6 +4070,600 @@
           "provider": "azure"
         }
       },
+      "teo_00_vistazo": {
+        "corto": {
+          "hash": "f42e873adce7256a",
+          "file": "de/teo_00_vistazo_corto.mp3",
+          "remote": false,
+          "seconds": 42,
+          "bytes": 250128,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "69df62fada131d09",
+          "file": "de/teo_00_vistazo_largo.mp3",
+          "remote": false,
+          "seconds": 180,
+          "bytes": 1081296,
+          "provider": "azure"
+        }
+      },
+      "teo_01_ciudadela": {
+        "corto": {
+          "hash": "33956859fb41ece7",
+          "file": "de/teo_01_ciudadela_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 216288,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "191589c492e0e86b",
+          "file": "de/teo_01_ciudadela_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 1071072,
+          "provider": "azure"
+        }
+      },
+      "teo_02_templo_serpiente": {
+        "corto": {
+          "hash": "9d931399947096dd",
+          "file": "de/teo_02_templo_serpiente_corto.mp3",
+          "remote": false,
+          "seconds": 43,
+          "bytes": 260640,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "56180501373d2f28",
+          "file": "de/teo_02_templo_serpiente_largo.mp3",
+          "remote": false,
+          "seconds": 182,
+          "bytes": 1089360,
+          "provider": "azure"
+        }
+      },
+      "teo_03_tunel_tlalocan": {
+        "corto": {
+          "hash": "bd9280e6ea331b55",
+          "file": "de/teo_03_tunel_tlalocan_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 192816,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d5a508a503863a73",
+          "file": "de/teo_03_tunel_tlalocan_largo.mp3",
+          "remote": true,
+          "seconds": 139,
+          "bytes": 835776,
+          "provider": "azure"
+        }
+      },
+      "teo_04_palacios_ciudadela": {
+        "corto": {
+          "hash": "41f5268e3c7d15e9",
+          "file": "de/teo_04_palacios_ciudadela_corto.mp3",
+          "remote": true,
+          "seconds": 26,
+          "bytes": 156240,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "95064743d0a75419",
+          "file": "de/teo_04_palacios_ciudadela_largo.mp3",
+          "remote": true,
+          "seconds": 77,
+          "bytes": 461664,
+          "provider": "azure"
+        }
+      },
+      "teo_05_gran_conjunto": {
+        "corto": {
+          "hash": "8a1495f65642c075",
+          "file": "de/teo_05_gran_conjunto_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 227376,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1818522bc3a4a47b",
+          "file": "de/teo_05_gran_conjunto_largo.mp3",
+          "remote": true,
+          "seconds": 116,
+          "bytes": 698112,
+          "provider": "azure"
+        }
+      },
+      "teo_06_rio_san_juan": {
+        "corto": {
+          "hash": "b3f4a206414f83f1",
+          "file": "de/teo_06_rio_san_juan_corto.mp3",
+          "remote": true,
+          "seconds": 33,
+          "bytes": 197280,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9f6ccb328c82e874",
+          "file": "de/teo_06_rio_san_juan_largo.mp3",
+          "remote": true,
+          "seconds": 85,
+          "bytes": 512640,
+          "provider": "azure"
+        }
+      },
+      "teo_07_experiencia_calzada": {
+        "corto": {
+          "hash": "d3a7f6c71be5933d",
+          "file": "de/teo_07_experiencia_calzada_corto.mp3",
+          "remote": true,
+          "seconds": 28,
+          "bytes": 168192,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "19b4fc2539c58b65",
+          "file": "de/teo_07_experiencia_calzada_largo.mp3",
+          "remote": true,
+          "seconds": 74,
+          "bytes": 443232,
+          "provider": "azure"
+        }
+      },
+      "teo_08_subterraneos": {
+        "corto": {
+          "hash": "63fcb63bdfc84120",
+          "file": "de/teo_08_subterraneos_corto.mp3",
+          "remote": true,
+          "seconds": 33,
+          "bytes": 199584,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "80fa976c51cb4695",
+          "file": "de/teo_08_subterraneos_largo.mp3",
+          "remote": true,
+          "seconds": 83,
+          "bytes": 497088,
+          "provider": "azure"
+        }
+      },
+      "teo_09_piso_mica": {
+        "corto": {
+          "hash": "c33b45d3ea64e201",
+          "file": "de/teo_09_piso_mica_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 180720,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3bf752164baae3d9",
+          "file": "de/teo_09_piso_mica_largo.mp3",
+          "remote": true,
+          "seconds": 71,
+          "bytes": 426096,
+          "provider": "azure"
+        }
+      },
+      "teo_10_mural_puma": {
+        "corto": {
+          "hash": "7a7bea181303ca4a",
+          "file": "de/teo_10_mural_puma_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 194976,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "68613da64f43b042",
+          "file": "de/teo_10_mural_puma_largo.mp3",
+          "remote": true,
+          "seconds": 78,
+          "bytes": 465840,
+          "provider": "azure"
+        }
+      },
+      "teo_11_piramide_sol": {
+        "corto": {
+          "hash": "1c253e8c56f8c4d2",
+          "file": "de/teo_11_piramide_sol_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243072,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "18e823b47bca0235",
+          "file": "de/teo_11_piramide_sol_largo.mp3",
+          "remote": true,
+          "seconds": 194,
+          "bytes": 1163376,
+          "provider": "azure"
+        }
+      },
+      "teo_12_tunel_sol": {
+        "corto": {
+          "hash": "fb94e1f3610e78a7",
+          "file": "de/teo_12_tunel_sol_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 191664,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b23ec4f422517c30",
+          "file": "de/teo_12_tunel_sol_largo.mp3",
+          "remote": true,
+          "seconds": 78,
+          "bytes": 470448,
+          "provider": "azure"
+        }
+      },
+      "teo_13_conjunto_sol": {
+        "corto": {
+          "hash": "92f6621e77107b90",
+          "file": "de/teo_13_conjunto_sol_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 206784,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dce6a4368c58962f",
+          "file": "de/teo_13_conjunto_sol_largo.mp3",
+          "remote": true,
+          "seconds": 83,
+          "bytes": 495360,
+          "provider": "azure"
+        }
+      },
+      "teo_14_museo_sitio": {
+        "corto": {
+          "hash": "cefcf2660a976660",
+          "file": "de/teo_14_museo_sitio_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 201888,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cdce3110db129139",
+          "file": "de/teo_14_museo_sitio_largo.mp3",
+          "remote": true,
+          "seconds": 79,
+          "bytes": 474912,
+          "provider": "azure"
+        }
+      },
+      "teo_15_cuatro_templos": {
+        "corto": {
+          "hash": "53d3f77483b2f0eb",
+          "file": "de/teo_15_cuatro_templos_corto.mp3",
+          "remote": true,
+          "seconds": 28,
+          "bytes": 166464,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a28ef36810437c48",
+          "file": "de/teo_15_cuatro_templos_largo.mp3",
+          "remote": true,
+          "seconds": 79,
+          "bytes": 473184,
+          "provider": "azure"
+        }
+      },
+      "teo_16_xalla": {
+        "corto": {
+          "hash": "106401e4e554bb87",
+          "file": "de/teo_16_xalla_corto.mp3",
+          "remote": true,
+          "seconds": 33,
+          "bytes": 197424,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "78d0cc8fd07086f6",
+          "file": "de/teo_16_xalla_largo.mp3",
+          "remote": true,
+          "seconds": 121,
+          "bytes": 726192,
+          "provider": "azure"
+        }
+      },
+      "teo_17_plaza_columnas": {
+        "corto": {
+          "hash": "7a22af1313fb3f5b",
+          "file": "de/teo_17_plaza_columnas_corto.mp3",
+          "remote": true,
+          "seconds": 33,
+          "bytes": 198288,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cd189a4ef5f832f2",
+          "file": "de/teo_17_plaza_columnas_largo.mp3",
+          "remote": true,
+          "seconds": 80,
+          "bytes": 480960,
+          "provider": "azure"
+        }
+      },
+      "teo_18_plaza_luna": {
+        "corto": {
+          "hash": "17b72b66ba8f15f2",
+          "file": "de/teo_18_plaza_luna_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 160416,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b59d6891731737e1",
+          "file": "de/teo_18_plaza_luna_largo.mp3",
+          "remote": true,
+          "seconds": 94,
+          "bytes": 562320,
+          "provider": "azure"
+        }
+      },
+      "teo_19_piramide_luna": {
+        "corto": {
+          "hash": "fcd9e6655c153a61",
+          "file": "de/teo_19_piramide_luna_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 214272,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d7ade906ed359779",
+          "file": "de/teo_19_piramide_luna_largo.mp3",
+          "remote": true,
+          "seconds": 182,
+          "bytes": 1091664,
+          "provider": "azure"
+        }
+      },
+      "teo_20_quetzalpapalotl": {
+        "corto": {
+          "hash": "e120c2ea574c73a3",
+          "file": "de/teo_20_quetzalpapalotl_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 250416,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dfc41658be31c9f6",
+          "file": "de/teo_20_quetzalpapalotl_largo.mp3",
+          "remote": true,
+          "seconds": 129,
+          "bytes": 772992,
+          "provider": "azure"
+        }
+      },
+      "teo_21_jaguares": {
+        "corto": {
+          "hash": "c4ba5b72ae4a6633",
+          "file": "de/teo_21_jaguares_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 189216,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5656e095a70d68b6",
+          "file": "de/teo_21_jaguares_largo.mp3",
+          "remote": true,
+          "seconds": 78,
+          "bytes": 469440,
+          "provider": "azure"
+        }
+      },
+      "teo_22_caracoles": {
+        "corto": {
+          "hash": "49648e41652f0ecd",
+          "file": "de/teo_22_caracoles_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 184896,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9153e4907c95e03a",
+          "file": "de/teo_22_caracoles_largo.mp3",
+          "remote": true,
+          "seconds": 80,
+          "bytes": 478368,
+          "provider": "azure"
+        }
+      },
+      "teo_23_museo_murales": {
+        "corto": {
+          "hash": "7090ce1d70d82f3e",
+          "file": "de/teo_23_museo_murales_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 161136,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bbbc0df309457bd7",
+          "file": "de/teo_23_museo_murales_largo.mp3",
+          "remote": true,
+          "seconds": 78,
+          "bytes": 470592,
+          "provider": "azure"
+        }
+      },
+      "teo_24_tepantitla": {
+        "corto": {
+          "hash": "80cfcc442ae17912",
+          "file": "de/teo_24_tepantitla_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 182736,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "184170b37fe7a448",
+          "file": "de/teo_24_tepantitla_largo.mp3",
+          "remote": true,
+          "seconds": 120,
+          "bytes": 717408,
+          "provider": "azure"
+        }
+      },
+      "teo_25_mercaderes": {
+        "corto": {
+          "hash": "1db01e8764203bca",
+          "file": "de/teo_25_mercaderes_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 190656,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1fcec6d6bc69db5e",
+          "file": "de/teo_25_mercaderes_largo.mp3",
+          "remote": true,
+          "seconds": 77,
+          "bytes": 464976,
+          "provider": "azure"
+        }
+      },
+      "teo_26_conjunto_departamental": {
+        "corto": {
+          "hash": "98123b4654b948b5",
+          "file": "de/teo_26_conjunto_departamental_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 164304,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b182d0992f3c776a",
+          "file": "de/teo_26_conjunto_departamental_largo.mp3",
+          "remote": true,
+          "seconds": 74,
+          "bytes": 446112,
+          "provider": "azure"
+        }
+      },
+      "teo_27_tetitla": {
+        "corto": {
+          "hash": "97c11212f3c53c2f",
+          "file": "de/teo_27_tetitla_corto.mp3",
+          "remote": true,
+          "seconds": 29,
+          "bytes": 175536,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "57654bef31ed94fb",
+          "file": "de/teo_27_tetitla_largo.mp3",
+          "remote": true,
+          "seconds": 132,
+          "bytes": 792000,
+          "provider": "azure"
+        }
+      },
+      "teo_28_atetelco": {
+        "corto": {
+          "hash": "0e94f0f1d24bd49b",
+          "file": "de/teo_28_atetelco_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 188928,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9b0321b700ce6f69",
+          "file": "de/teo_28_atetelco_largo.mp3",
+          "remote": true,
+          "seconds": 73,
+          "bytes": 436176,
+          "provider": "azure"
+        }
+      },
+      "teo_29_ventilla": {
+        "corto": {
+          "hash": "3b754c0ea69d2566",
+          "file": "de/teo_29_ventilla_corto.mp3",
+          "remote": true,
+          "seconds": 29,
+          "bytes": 175680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "46e3df5cc56614f1",
+          "file": "de/teo_29_ventilla_largo.mp3",
+          "remote": true,
+          "seconds": 84,
+          "bytes": 506016,
+          "provider": "azure"
+        }
+      },
+      "teo_30_barrio_oaxaqueno": {
+        "corto": {
+          "hash": "9a1004ed5ec7e11c",
+          "file": "de/teo_30_barrio_oaxaqueno_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 204336,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f27cd0296aa4bd85",
+          "file": "de/teo_30_barrio_oaxaqueno_largo.mp3",
+          "remote": true,
+          "seconds": 149,
+          "bytes": 895104,
+          "provider": "azure"
+        }
+      },
+      "teo_31_final_ciudad": {
+        "corto": {
+          "hash": "6fcac902d91f7b56",
+          "file": "de/teo_31_final_ciudad_corto.mp3",
+          "remote": true,
+          "seconds": 29,
+          "bytes": 176112,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a545899532721b81",
+          "file": "de/teo_31_final_ciudad_largo.mp3",
+          "remote": true,
+          "seconds": 126,
+          "bytes": 757152,
+          "provider": "azure"
+        }
+      },
+      "teo_32_despues": {
+        "corto": {
+          "hash": "7fa08817caee2d54",
+          "file": "de/teo_32_despues_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 208368,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "74c9c4e574e9cdf9",
+          "file": "de/teo_32_despues_largo.mp3",
+          "remote": true,
+          "seconds": 118,
+          "bytes": 705456,
+          "provider": "azure"
+        }
+      },
       "tmc_01_recinto_bajo_plaza": {
         "corto": {
           "hash": "7d9483fafc92c8f7",
