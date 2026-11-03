@@ -1,0 +1,63 @@
+{
+  "id": "mna_s08_senor_las_limas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "0c28a646b57fda13",
+      "texto": "O Senhor de Las Limas"
+    },
+    "frase_gancho": {
+      "hash": "80675e985d6e4984",
+      "texto": "Um jovem de pedra verde segura nos braços um menino adormecido com traços de jaguar."
+    },
+    "puente_narrativo": {
+      "hash": "90757592800996b0",
+      "texto": "O jade também servia para enterrar oferendas. Procure um grupo de figuras verdes que se olham em círculo, diante de uma fileira de machados, como se alguém tivesse congelado uma reunião."
+    },
+    "guion_corto": {
+      "hash": "2be4aa16e1e25bae",
+      "texto": "Você está diante da reprodução em escala exata do famoso Senhor de Las Limas, cuja escultura original em pedra verde serpentina, de cinquenta e cinco centímetros de altura e sessenta quilos de peso, hoje guardada no Museu de Antropologia de Xalapa, foi encontrada no povoado de Las Limas, em Veracruz. Ela representa um jovem sentado com as pernas cruzadas, que segura nos braços um menino inerte com traços de jaguar: a boca de cantos caídos, os olhos puxados. Repare nos ombros e nos joelhos do jovem: eles têm pequenas figuras gravadas, rostos de perfil que se leem como quatro deuses olmecas. Por isso essa peça tem sido chamada de um tratado de religião em pedra. O menino está dormindo? É uma oferenda? É um deus? Ninguém sabe ao certo."
+    },
+    "guion_largo": {
+      "hash": "b0fd4b0444a01465",
+      "texto": "Às vezes a descoberta é tão interessante quanto a peça. Segundo se conta, em 1965 algumas crianças do povoado de Las Limas, em Veracruz, encontraram esta pedra verde e a tomaram por uma pedra comum. Ao ver o rosto entalhado, os moradores acreditaram que se tratava de uma aparição da Virgem: cobriram a pedra de flores em um altar improvisado e a veneraram como “a Virgem de Las Limas” antes de ela passar à custódia arqueológica em Xalapa. Uma imagem sagrada de há três mil anos, recebida como uma imagem sagrada nova.\n\nOlhe bem. Um jovem, sentado com as pernas cruzadas, leva nos braços um menino que parece dormir, ou estar sem forças. O menino tem traços de jaguar: os olhos puxados e a boca de cantos caídos, a mesma boca que você já viu nos rostos de bebê de Tlapacoya e Tlatilco. Os especialistas às vezes o chamam de “homem-jaguar”, e aqui nós o vemos como uma criança. O que o torna tão importante? Ele reúne, em uma única imagem, um ser humano e a fera mais poderosa da selva.\n\nO jaguar volta, mais uma vez, e este é o seu começo. Você o viu no friso dos toltecas, nos guerreiros e nos deuses de Teotihuacán e como o Ocelotl da Sala Mexica. Aqui ele aparece mais de dois mil anos antes dos mexicas, e tudo indica que já era o animal mais poderoso do imaginário. Há uma teoria famosa, que continua em debate, segundo a qual os olmecas se contavam como descendentes da união entre uma mulher e um jaguar. Talvez este menino seja essa memória.\n\nAgora, repare nos pequenos desenhos gravados sobre a pedra: um em cada ombro e um em cada joelho. São rostos de perfil, e os especialistas os leem como os quatro grandes deuses do mundo olmeca: foram relacionados ao fogo, ao milho, ao céu e à terra. É como se o escultor tivesse deixado, nas margens da imagem, as anotações de uma enciclopédia de sua religião. Por isso se diz que esta peça é um tratado visual.\n\nO material também fala. A pedra verde, para os olmecas, era água, vida e milho novo, como o jade da máscara zapoteca do morcego. Este bloco foi polido com areia e paciência até ficar liso como um espelho. Mede cinquenta e cinco centímetros, mas impõe-se como uma escultura monumental: é uma das maiores e mais bem-feitas em pedra verde de toda a cultura olmeca.\n\nE o menino? Não há uma resposta única. Há quem pense que ele está dormindo, em transe; quem o veja como uma oferenda, e quem acredite que seja um deus menino. Talvez a ambiguidade faça parte do seu poder. O que vemos, sim, é algo muito humano: um adulto que segura com cuidado uma criatura frágil. Três mil anos depois, esse gesto continua nos parecendo próximo, e talvez por isso esta peça comova até quem nunca ouviu falar dos olmecas."
+    },
+    "retos_observacion": {
+      "hash": "8654e22b68c23694",
+      "texto": [
+        "Procure o rosto do menino: o que ele tem de felino?",
+        "Encontre os pequenos rostos gravados nos ombros e nos joelhos",
+        "Repare em como o jovem segura o menino"
+      ]
+    },
+    "especificaciones": {
+      "hash": "964db0a2688f5e7a",
+      "texto": {
+        "Cultura": "Olmeca",
+        "Período": "Pré-clássico Médio (900-600 a.C.)",
+        "Material": "Reprodução museográfica em escala 1:1 (o original é de serpentina verde incisa e fica guardado no Museu de Antropologia de Xalapa, Veracruz)",
+        "Procedência": "Las Limas, município de Jesús Carranza, Veracruz",
+        "Dimensões": "55 cm de altura x 42 cm de largura x 33 cm de espessura",
+        "Descoberta": "16 de julho de 1965, pelas crianças Severiano e Rosa Manuel Pascual"
+      }
+    },
+    "faq_mito": {
+      "hash": "e45f850feace264a",
+      "texto": {
+        "pregunta": "Mito: É uma Virgem com o Menino, como acreditaram os moradores que a encontraram.",
+        "respuesta": "Realidade: É um jovem olmeca com um menino-jaguar, esculpido há cerca de três mil anos, muito antes da chegada dos espanhóis."
+      }
+    }
+  }
+}

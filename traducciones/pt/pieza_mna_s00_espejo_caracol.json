@@ -1,0 +1,64 @@
+{
+  "id": "mna_s00_espejo_caracol",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "fdf2b1be432b9130",
+      "texto": "O Espelho d’Água e o Caracol de bronze"
+    },
+    "frase_gancho": {
+      "hash": "006aeabf44355693",
+      "texto": "Um pedaço do antigo lago em pleno pátio."
+    },
+    "puente_narrativo": {
+      "hash": "518a990d8c038f5a",
+      "texto": "Com a água às suas costas, é hora de começar o percurso em ordem. Siga para a Sala 1: antes dos deuses e das cidades existe uma pergunta maior: quem somos e de onde viemos?"
+    },
+    "guion_corto": {
+      "hash": "713922e6085caa0f",
+      "texto": "Em frente à entrada da Sala Mexica, o pátio se transforma em um tanque. É um espelho d’água com plantas aquáticas, uma pequena evocação do lago de Texcoco, a água sobre a qual se levantou Tenochtitlan, a cidade que você vai conhecer logo em seguida. No centro há uma escultura de bronze em forma de caracol marinho intitulada “Sol do Vento”, obra de Íker Larrauri. Para os antigos mexicanos, o caracol cortado era o emblema de Ehécatl, o deus do vento, e as trombetas de caracol soavam nas cerimônias e na guerra. Debruce-se sobre a água: ela reflete o céu, o guarda-chuva e os muros do museu. Aproveite como uma pausa antes de seguir adiante."
+    },
+    "guion_largo": {
+      "hash": "8c1566c46a389c96",
+      "texto": "Hoje é difícil imaginar, mas a Cidade do México nasceu no meio de um lago. Quando os Mexica fundaram Tenochtitlan em 1325, sobre uma ilhota, o vale estava cheio de água: lagos conectados, canais, chinampas flutuantes onde se cultivavam milho e flores. Os espanhóis drenaram o sistema durante séculos, e hoje a água permanece sob o asfalto. Só sobrevivem alguns fragmentos, como os canais de Xochimilco, ao sul da cidade, onde ainda se cultiva sobre chinampas. Este tanque é uma lembrança daquilo.\n\nE não é por acaso que ele esteja justamente aqui. O museu se ergue em Chapultepec, e no morro de Chapultepec brotavam as nascentes que, por um aqueduto, levavam água doce a Tenochtitlan, porque a do lago era salobra. Quem bebeu água na capital Mexica, em boa medida, bebeu deste bosque.\n\nDetenha-se na escala do tempo, porque este lago não começou com os Mexica. Mais adiante, na Sala do Povoamento da América, você vai ver como um mamute ficou preso na lama de uma de suas margens há cerca de onze mil anos. Na Sala do Pré-clássico, uma maquete mostrará a aldeia de Cuicuilco, às margens do mesmo vale. E na Sala Mexica você verá como a vida de uma cidade inteira dependia da água. O lago foi o cenário de toda a história que você vai percorrer.\n\nAgora olhe o caracol de bronze, obra de Íker Larrauri, o artista e museógrafo que fez muitos dos murais e dioramas do museu. O caracol marinho tinha uma enorme presença na Mesoamérica. Era soprado como trombeta para chamar os guerreiros, para anunciar rituais e para saudar o amanhecer. Um caracol cortado em seção, com a espiral à vista, era além disso o emblema de Ehécatl-Quetzalcóatl, o deus do vento que varria os caminhos para que chegassem as chuvas. Por isso aqui, ao lado da água, o caracol é uma espécie de aviso: o vento chega antes da chuva. Mais adiante você conhecerá Tecciztécatl, o deus da lua, cujo nome significa «o do caracol».\n\nDedique alguns segundos à superfície quieta. O museu se reflete nela, lá embaixo flutuam as sombras do Guarda-chuva e, ao longe, adivinha-se a entrada da Sala Mexica. Ramírez Vázquez quis que esse reflexo não fosse um enfeite, mas um convite a olhar o edifício como se olhava uma cidade sobre a água: com a sensação de que, sob o que você vê, há outra camada de história.\n\nE mais um convite: quando você entrar na Sala Mexica, procure se lembrar deste tanque. Você verá que o Templo Mayor se erguia em uma ilhota rodeada de água, que suas calçadas flutuavam sobre o lago e que os deuses da chuva e do vento, Tláloc e Ehécatl, tinham templo próprio. O que você vai ver lá dentro começou aqui fora. Até a guerra, para os Mexica, se dizia com uma palavra de água: «atl-tlachinolli», água e fogo juntos. Na Sala Mexica você a verá entalhada em pedra."
+    },
+    "retos_observacion": {
+      "hash": "afb32f80af497b72",
+      "texto": [
+        "Procure o caracol de bronze no centro do tanque e siga sua espiral com o olhar",
+        "Observe as plantas aquáticas que crescem no tanque",
+        "Debruce-se sobre a água e encontre o reflexo do Guarda-chuva"
+      ]
+    },
+    "especificaciones": {
+      "hash": "752ed53b5d4c7abe",
+      "texto": {
+        "Cultura": "Integração plástica moderna mexicana: Pedro Ramírez Vázquez (projeto do tanque) e Íker Larrauri (escultura “Sol do Vento”)",
+        "Período": "Inaugurado em 17 de setembro de 1964",
+        "Material": "Tanque revestido de pedra com flora lacustre (tules, papiros e lírios), queimador de gás em greca escalonada e escultura de bronze",
+        "Localização": "Extremo oriental do Pátio Central, em frente à Sala Mexica"
+      }
+    },
+    "faq_mito": {
+      "hash": "115f5e59e6a82112",
+      "texto": {
+        "pregunta": "Mito: O tanque do pátio é apenas uma piscina decorativa.",
+        "respuesta": "Realidade: Ele evoca o lago de Texcoco, a paisagem de água sobre a qual Tenochtitlan foi fundada."
+      }
+    }
+  }
+}

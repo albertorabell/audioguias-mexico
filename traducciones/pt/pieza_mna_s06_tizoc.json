@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_tizoc",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b62ce1131b69a4d1",
+      "texto": "Pedra de Tízoc"
+    },
+    "frase_gancho": {
+      "hash": "359ebf2ff7892d2f",
+      "texto": "Um tambor de pedra onde um rei segura pelos cabelos quinze povos."
+    },
+    "puente_narrativo": {
+      "hash": "1be887af9becdbcb",
+      "texto": "Os povos vencidos pagavam em tributo e em prisioneiros. Procure agora um cilindro irmão deste, com onze cenas de conquista, que apareceu em 1988 sob as ruas do centro da cidade."
+    },
+    "guion_corto": {
+      "hash": "3b9004816962ff0f",
+      "texto": "Você está diante da Pedra de Tízoc, um grande cilindro de quase um metro de altura e mais de dois metros e meio de diâmetro. Ela foi mandada esculpir pelo tlatoani Tízoc, que governou de 1481 a 1486. Caminhe ao redor dela: são quinze cenas quase idênticas. Em cada uma, o rei, vestido com as insígnias de um deus, segura pelos cabelos um chefe vencido, e junto ao cativo um pequeno glifo nomeia o povo derrotado. É uma lista de conquistas feita em pedra. Em cima, a face plana tem um disco solar com um buraco no centro e um canal até a borda, pensados para receber oferendas. Por isso os mexicas a consideravam um monumento sagrado, e não apenas político."
+    },
+    "guion_largo": {
+      "hash": "c989f5c225c07023",
+      "texto": "Esta pedra não tem um rosto espetacular nem uma lenda de terror, e por isso muita gente passa direto. É um erro, porque ela é um documento. A [Pedra do Sol](mna_s06_piedra_sol), que você verá no final da sala, fala do tempo; esta fala do poder: quem mandava, quem havia vencido e como queria ser lembrado.\n\nRepare na repetição. Nas quinze cenas, à esquerda aparece o rei, com o elmo de beija-flor de Huitzilopochtli ou com as insígnias de Xiuhtecuhtli, o deus do fogo. À direita, um chefe inimigo, a quem ele segura pelos cabelos. Agarrar alguém pelos cabelos era o gesto da vitória total, e você vai encontrá-lo em muitos códices. Cada vencido leva ao seu lado o glifo do seu povo; um deles é Matlatzinco, no vale de Toluca. São quinze nomes, quinze derrotas: um mapa político entalhado.\n\nMas atenção: nem tudo o que uma pedra diz é verdade. Tízoc reinou apenas cinco anos, entre seu irmão Axayácatl e seu outro irmão Ahuízotl, e vários historiadores acreditam que suas campanhas foram mais modestas do que aqui se vê. O que o monumento mostra não é o que aconteceu, mas o que o poder queria que se acreditasse. Hoje os governos usam discursos e anúncios; os mexicas usavam basalto.\n\nPor trás dessa lista há um império muito jovem. Havia apenas meio século, em 1428, os mexicas tinham se rebelado contra Azcapotzalco, a quem pagavam tributo, junto com os texcocanos de Nezahualcóyotl e com Tlacopan. Aquela Tríplice Aliança se tornou a força mais poderosa do centro do México, e pedras como esta eram sua maneira de lembrar a todos quem mandava agora.\n\nTambém teve um uso ritual. Os mexicas chamavam esse tipo de pedra de temalácatl e cuauhxicalli, um recipiente sagrado para oferendas. Segundo as crônicas dos frades, na festa de Tlacaxipehualiztli, dedicada a [Xipe Tótec](mna_s04_xipe_totec), um cativo de guerra de alto escalão era amarrado pela cintura a uma pedra circular. Davam-lhe um porrete enfeitado com penas, e ele devia lutar contra guerreiros mexicas armados de verdade. Depois o sacrificavam. Os especialistas debatem se esta pedra foi usada exatamente assim, mas sua forma se encaixa muito bem nessa descrição.\n\nSe você se debruçar sobre a parte de cima, verá o disco solar e o buraco central, ligado a um canal. Acredita-se que ali se derramava o sangue das oferendas, para alimentar o Sol. Há quem opine que o buraco e o canal foram acrescentados depois de esculpidas as cenas, o que sugere que a pedra pode ter mudado de função com o tempo.\n\nSua história moderna tem uma coincidência curiosa. Ela apareceu em 17 de dezembro de 1791, durante obras de drenagem na Plaza de Armas, o que hoje é o Zócalo. Exatamente um ano antes, nessa mesma praça, havia aparecido a Pedra do Sol. Dois achados gigantes, com um ano de distância. Conta-se que uns canteiros estiveram a ponto de parti-la para fazer paralelepípedos e que uns eruditos o impediram. Com o tempo, ela acabou no antigo Museu Nacional.\n\nQuando você a contornar, pense nos dois significados ao mesmo tempo: um quadro de vitória e uma mesa de oferendas. Para os mexicas, não eram coisas opostas. Ganhar uma guerra era também conseguir o que o Sol precisava para continuar caminhando."
+    },
+    "retos_observacion": {
+      "hash": "b97ecfc448886f41",
+      "texto": [
+        "Conte as quinze cenas e procure a mão do rei nos cabelos do vencido",
+        "Procure o pequeno glifo junto a cada cativo: é o nome do seu povo",
+        "Debruce-se sobre a parte de cima: você vê o buraco do centro e o canal?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "196c96efa17e2a2e",
+      "texto": {
+        "Cultura": "Mexica",
+        "Período": "Pós-clássico Tardio (1481-1486 d.C.)",
+        "Material": "Andesito",
+        "Procedência": "Centro Histórico, Cidade do México",
+        "Dimensões": "94 cm de altura x 265 cm de diâmetro"
+      }
+    },
+    "faq_mito": {
+      "hash": "1e14ed5934cb9bd1",
+      "texto": {
+        "pregunta": "Mito: Tízoc foi o maior conquistador mexica, e por isso sua pedra o mostra vencendo quinze povos.",
+        "respuesta": "Realidade: Tízoc reinou apenas cerca de cinco anos, e vários historiadores acreditam que suas campanhas foram modestas. A pedra não conta o que aconteceu, mas como o poder queria que fosse lembrado."
+      }
+    }
+  }
+}

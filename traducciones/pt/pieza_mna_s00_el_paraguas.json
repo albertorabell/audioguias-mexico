@@ -1,0 +1,58 @@
+{
+  "id": "mna_s00_el_paraguas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "474bba9aa82a6ceb",
+      "texto": "O Guarda-chuva e a Fonte Invertida"
+    },
+    "frase_gancho": {
+      "hash": "901002b574e27f6f",
+      "texto": "Um guarda-chuva de bronze em que a água se transforma em cascata."
+    },
+    "puente_narrativo": {
+      "hash": "21b72f2c32d768d3",
+      "texto": "Siga o murmúrio da água até o fundo do pátio, em frente à Sala Mexica. Ali o museu faz uma pausa em um tanque com plantas, um pedacinho do antigo lago."
+    },
+    "guion_corto": {
+      "hash": "67262e007f22f403",
+      "texto": "Você está sob O Guarda-chuva: uma cobertura enorme, de cerca de quatro mil quatrocentos e quarenta metros quadrados, que parece flutuar sobre uma única coluna, uma façanha de engenharia em 1964. Do centro cai uma cortina de água que refresca o pátio; por isso ele é chamado de fonte invertida. Olhe o pilar: está coberto de bronze, com um relevo dos irmãos José e Tomás Chávez Morado intitulado «Imagem do México». Cada face conta uma parte da nossa história: a origem indígena, a conquista e a miscigenação, a luta pela independência e o México moderno. É o coração do pátio: todas as salas giram ao seu redor, e é o melhor lugar para parar um minuto, ouvir a água e se orientar."
+    },
+    "guion_largo": {
+      "hash": "1c406944e149c152",
+      "texto": "Para os povos antigos da Mesoamérica, o centro de uma cidade não era um simples ponto no mapa: era o eixo do mundo, o lugar onde se tocavam o céu, a terra e o mundo subterrâneo. Ramírez Vázquez retomou essa ideia e deu ao museu um centro que organiza tudo. As salas se abrem ao redor do pátio como os cômodos de uma casa, e no meio ele ergueu uma estrutura que não existia em nenhuma cidade pré-hispânica: um teto gigante sobre uma única coluna.\n\nO desafio técnico foi enorme. A cobertura mede cinquenta e quatro por oitenta e dois metros e foi pensada para deixar o pátio livre de apoios, de modo que o ar e a luz continuem entrando enquanto a chuva não molha os visitantes. Essa sensação de leveza, com tantas toneladas por cima, faz parte da sua magia. Além disso, a cobertura se inclina suavemente em direção ao centro, para que a água da chuva escorra até a coluna em vez de se acumular. E a fonte invertida é um detalhe de engenharia com beleza incluída: em vez de a água cair do céu, ela cai do centro do teto, formando uma cortina circular que dá som ao pátio.\n\nMas o verdadeiro tesouro é a coluna. Os irmãos José e Tomás Chávez Morado a revestiram de bronze com um grande relevo que resume a história do México e que leva o nome de «Imagem do México». Caminhe ao redor dela, porque cada face se lê como um capítulo. De um lado está o mundo indígena, com seus deuses e a fundação de Tenochtitlan. Do outro, a chegada dos europeus e a miscigenação. Em uma terceira face estão as lutas pela independência e, na quarta, o México moderno, com a ciência e a aspiração à paz.\n\nAgora pense no que isso significa. Este relevo é uma versão moderna do que faziam os povos que você verá lá dentro: contar seu mundo em pedra e em símbolos, para que ninguém esqueça quem é. Os mexicas faziam isso no [Teocalli](mna_s06_teocalli_guerra_sagrada) e na [Pedra de Tízoc](mna_s06_tizoc); os maias, nos lintéis de Yaxchilán; os zapotecas, na Estela de [Los Danzantes](mna_s07_danzante_montealban). Aqui, a linguagem é o bronze, mas a intenção é a mesma.\n\nUma curiosidade: embora hoje o vejamos como o símbolo do museu, O Guarda-chuva foi uma aposta. Um teto desse tamanho, sustentado por uma única coluna, era uma façanha de engenharia para a sua época. E repare em um paradoxo delicioso: o edifício dedicado às civilizações que não conheciam o arco nem o ferro estreia aqui uma estrutura que só era possível com o aço e o concreto do século vinte. O antigo e o moderno se dão as mãos de propósito.\n\nAntes de seguir, pare no centro, respire e ouça a água. Essa cortina de som é a transição perfeita: dentro de alguns passos você entrará em uma história de milhares de anos."
+    },
+    "retos_observacion": {
+      "hash": "8650fbe345e55a00",
+      "texto": [
+        "Caminhe ao redor da coluna e leia as quatro faces do relevo de bronze como se fossem quatro capítulos",
+        "Procure no bronze a águia, o jaguar, as caravelas e o átomo",
+        "Feche os olhos por um momento e escute a cortina de água que cai do centro do teto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bcd8b54b0741d9de",
+      "texto": {
+        "Cultura": "Arquitetura moderna mexicana: Pedro Ramírez Vázquez e Félix Candela (estrutura); relevo em bronze «Imagem do México» de José e Tomás Chávez Morado, com roteiro histórico de Jaime Torres Bodet",
+        "Período": "Inaugurado em 17 de setembro de 1964",
+        "Material": "Cobertura de alumínio e aço sustentada por 80 cabos tensores e uma coluna de concreto de 11 m revestida de bronze",
+        "Dimensões": "82 x 54 m (4 428 m²)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c7752b1ca95e3679",
+      "texto": {
+        "pregunta": "Mito: O Guarda-chuva é só um teto com fonte para você não se molhar.",
+        "respuesta": "Realidade: Sua coluna é uma obra de arte: um relevo de bronze que resume a história do México em quatro faces."
+      }
+    }
+  }
+}

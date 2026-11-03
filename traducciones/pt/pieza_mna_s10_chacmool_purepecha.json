@@ -1,0 +1,58 @@
+{
+  "id": "mna_s10_chacmool_purepecha",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "b8a0967fe3491d2c",
+      "texto": "Chac Mool Purépecha de Ihuatzio"
+    },
+    "frase_gancho": {
+      "hash": "106d0ba1cdfd1608",
+      "texto": "Um Chac Mool de pedra cinzenta, severo e geométrico, no coração de Michoacán."
+    },
+    "puente_narrativo": {
+      "hash": "c274eec0ef389012",
+      "texto": "Os purépechas não trabalhavam apenas a pedra. Procure uma vitrine com um peitoral de cobre e pequenos guizos metálicos: o metal que tornou famosos esses artesãos."
+    },
+    "guion_corto": {
+      "hash": "699d6c14c20c2795",
+      "texto": "Esta escultura de pedra vulcânica, com mais de um metro de comprimento, vem de Ihuatzio, uma das cidades purépechas de Michoacán, e foi feita entre os anos mil trezentos e cinquenta e mil quinhentos e vinte e um. É um Chac Mool: um homem reclinado de costas, com os joelhos dobrados e a cabeça virada para o lado, que sustenta um recipiente sobre o ventre. Você já viu essa figura na Sala dos toltecas e na Sala Maia. Aqui ela é diferente: tem planos retos, linhas severas e muito pouca decoração. Os purépechas pegaram uma ideia estrangeira e a transformaram em algo próprio. É uma peça sóbria, geométrica, quase moderna. Servia de altar para as oferendas aos deuses."
+    },
+    "guion_largo": {
+      "hash": "051eef206364bc51",
+      "texto": "Quando algo viaja, muda. Esta peça é a prova. É o mesmo [Chac Mool](mna_s05_chacmool_tolteca) que você viu em Tula e em Chichén Itzá, mas esculpido por mãos purépechas, com outro caráter.\n\nCompare-o na memória. O de Tula tem volume e adornos; o de Chichén, trajes finos. Este é seco, geométrico, de planos cortados quase em esquadro. A cabeça é sóbria, o corpo não tem mais que o essencial. É outro tipo de elegância, a da austeridade.\n\nVocê já viu como a ideia viajou de Tula a Yucatán. Aqui ela chega a Michoacán, no ocidente, e cada região a adaptou. Não sabemos como foi transmitida. O que vemos é que os purépechas não copiaram: reinterpretaram.\n\nIhuatzio, segundo se diz, significa «lugar de coiotes». Foi uma das três capitais dos purépechas, junto com Tzintzuntzan e Pátzcuaro. Segundo a Relação de Michoacán, o herói Tariácuri dividiu o governo entre seu filho e seus sobrinhos, um em cada cidade. E ali foram encontradas esculturas de coiotes sentados. O coiote acompanhou você neste percurso: o osso de Tequixquiac, o guerreiro de Tula e agora Ihuatzio. Um animal que atravessa o país inteiro.\n\nO recipiente que ele sustenta recebia oferendas. Na religião purépecha, o deus principal era Curicaueri, o fogo, e o altar da praça cerimonial era um lugar de troca com o sagrado. Acredita-se que esta figura era mensageira: levava os dons da nobreza até o deus.\n\nUm pequeno experimento, se não houver ninguém por perto: imagine que você copia a postura dele. Costas para baixo, joelhos dobrados, cabeça virada, algo pesado sobre o ventre. Aguenta-se pouco. É uma postura de espera, não de descanso, e isso explica seu ar de alerta. Mede mais de um metro e trinta de comprimento, e levá-la até o museu foi uma operação considerável.\n\nRepare na pedra. O andesito é uma rocha vulcânica muito dura. Os purépechas a trabalharam com paciência, polindo as superfícies com abrasivos e água, até deixá-las limpas. No século catorze, quando foi esculpida, este povo já dominava o trabalho do cobre e do bronze, mas para esculpir continuava usando ferramentas de pedra. É outra forma de ver quanto saber se acumulou nesta região.\n\nOs purépechas e os mexicas foram rivais e, ainda assim, compartilham esta figura: também no Templo Mayor de Tenochtitlan houve um Chac Mool. As guerras fechavam fronteiras, mas não as ideias. As ideias circulavam pelo comércio, pela diplomacia, pelos viajantes e pelos artesãos.\n\nQuando os espanhóis chegaram, o último governante purépecha, Tangáxoan, não os enfrentou com armas; submeteu-se em mil quinhentos e vinte e dois e, alguns anos depois, foi executado por Nuño de Guzmán. A independência que tanto custara conservar terminou sem batalha e com uma morte injusta.\n\nOlhe de novo a cabeça virada. Em Tula, em Yucatán e aqui, a mesma postura recebe quem chega. É como se cada civilização dissesse ao visitante a mesma coisa com sotaque diferente: «estava esperando você»."
+    },
+    "retos_observacion": {
+      "hash": "a1998edab74b84dd",
+      "texto": [
+        "Compare a forma da cabeça com a do Chac Mool das salas anteriores",
+        "Procure o recipiente circular sobre o ventre",
+        "Observe os planos retos do corpo: que sensação eles transmitem a você?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b195ca313f0cd1ad",
+      "texto": {
+        "Cultura": "Tarasca / Purépecha",
+        "Período": "Pós-clássico Tardio (1250-1521 d.C.)",
+        "Material": "Pedra (basalto / rocha vulcânica)",
+        "Procedência": "Ihuatzio, Michoacán (zona arqueológica de Ihuatzio, bacia do lago de Pátzcuaro)"
+      }
+    },
+    "faq_mito": {
+      "hash": "dbc93ba58f6cc281",
+      "texto": {
+        "pregunta": "Mito: Os purépechas foram conquistados pelos mexicas.",
+        "respuesta": "Realidade: Resistiram aos mexicas e mantiveram sua independência até a chegada dos espanhóis."
+      }
+    }
+  }
+}

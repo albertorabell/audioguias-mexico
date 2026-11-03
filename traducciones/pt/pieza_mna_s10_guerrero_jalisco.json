@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_guerrero_jalisco",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "02da824cb8357e53",
+      "texto": "Guerreiro com armadura de cestaria e clava"
+    },
+    "frase_gancho": {
+      "hash": "9978ce44c93cdc4b",
+      "texto": "Um guerreiro de barro com capacete e armadura que vigia a porta de uma tumba."
+    },
+    "puente_narrativo": {
+      "hash": "2fbb70e7703821db",
+      "texto": "Depois do guerreiro, o casal. Procure duas figuras sentadas lado a lado, com o rosto pintado e grandes argolas no nariz e nas orelhas."
+    },
+    "guion_corto": {
+      "hash": "29dea7a1e3def368",
+      "texto": "Este guerreiro de barro, de uns quarenta centímetros de altura, vem de Jalisco e foi feito há cerca de dois mil anos. Está de pé, com uma postura firme e a boca aberta, como se gritasse. Usa um capacete cônico, uma armadura que cobre o torso e uma clava com a qual parece prestes a golpear. Repare nos detalhes: as orelheiras, as pupilas marcadas e as linhas do peitoral, que imitam um tecido. Estas figuras eram colocadas nas Tumbas de Poço, na entrada da câmara, como guardiãs. Não são uma cena de batalha, mas a proteção do falecido. O corpo é oco, de tons avermelhados e creme."
+    },
+    "guion_largo": {
+      "hash": "8647e00d4247762a",
+      "texto": "Olhe a boca dele. Está aberta, não para falar nem para cantar: para gritar. Este guerreiro tem o olhar fixo e o corpo pronto para o golpe, embora esteja há dois mil anos sem se mover.\n\nA armadura é o mais interessante. Discute-se de que ela era feita: alguns especialistas a descrevem como um tecido trançado de taquara ou fibras; outros, como algodão acolchoado. Os dois sistemas existiram na Mesoamérica. Os Mexica usavam o ichcahuipilli, uma armadura de algodão acolchoado, tão eficaz contra as flechas que os próprios espanhóis a adotaram e a chamaram de escaupil. As armaduras de metal que eles traziam eram muito mais desconfortáveis no calor tropical.\n\nRepare também no capacete, de forma cônica e com tiras sob o queixo, e no largo protetor que envolve o pescoço. Cada peça protege uma parte do corpo: a cabeça, a garganta, o peito. É um guerreiro pensado com cuidado, vestido para sobreviver ao combate.\n\nE a clava, com saliências na parte de cima, é uma arma real: uma maça de madeira para golpear. Os guerreiros do Ocidente também usavam fundas, lanças e dardos. O fato de haver figuras armadas nas tumbas nos diz que existiam elites militares, talvez porque se disputavam as terras férteis e materiais valiosos como a obsidiana, o vidro vulcânico que você viu nas navalhas de Teotihuacán.\n\nMas esta figura não recorda uma batalha concreta. Pensa-se que ela protege. Era colocada na entrada da câmara funerária, como guardiã da porta, junto a cães e vasilhas. Quem quisesse entrar tinha de passar por ela. É como um vigia que fica cuidando de uma casa que ninguém voltará a abrir.\n\nCada região do Ocidente tinha seu estilo. Colima, com suas figuras arredondadas e polidas, como os [cães](mna_s10_perros_colima) que você viu. Nayarit, com figuras expressivas e cheias de cor, como o casal que vem a seguir. Jalisco, com traços mais angulosos e marcados, como este guerreiro. As três fazem parte da mesma Tradição das Tumbas de Poço, mas com caráter próprio. Se você aprender a reconhecê-las, poderá saber de que região vem uma figura sem olhar a etiqueta.\n\nÉ interessante comparar este guerreiro com os que você já conhece. O [Guerreiro Águia](mna_s06_guerrero_aguila) da Sala Mexica e os [Atlantes de Tula](mna_s05_atlante_tula) são ideais de poder: guerreiros que representam deuses ou exércitos de cidades enormes. Este, em contrapartida, é um guardião modesto, feito de barro, para uma tumba familiar. E mesmo assim tem a mesma intensidade.\n\nO Ocidente, aliás, tinha senso de humor. Em outras vitrines há figuras que bebem, que dançam, que se abraçam, que carregam uma criança ou jogam bola. O guerreiro é sério porque seu trabalho exigia isso. Mas o mundo de onde ele vem era alegre.\n\nE um último olhar para a expressão. Os olhos com pupilas marcadas, a boca aberta, as orelheiras redondas: o escultor quis que o guardião parecesse vivo, atento. É uma das melhores mostras de como o barro, nas mãos de um bom artesão, pode parecer prestes a se mover."
+    },
+    "retos_observacion": {
+      "hash": "0ce25a1bde6e5d21",
+      "texto": [
+        "Observe a boca aberta: ele grita ou canta?",
+        "Repare no tecido da armadura e no capacete",
+        "Procure a clava: como ele a segura?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "906b08b7576e9521",
+      "texto": {
+        "Cultura": "Tradição das Tumbas de Poço / Colima - Jalisco",
+        "Período": "Clássico (200 a.C.-600 d.C.)",
+        "Material": "Barro (cerâmica) modelado, de tom avermelhado",
+        "Procedência": "Ocidente do México (região de Colima / Jalisco)"
+      }
+    },
+    "faq_mito": {
+      "hash": "6cfb8dd4c43a127c",
+      "texto": {
+        "pregunta": "Mito: Estas figuras de guerreiros mostram batalhas reais.",
+        "respuesta": "Realidade: Eram guardiões simbólicos da tumba. Sua função era proteger o falecido."
+      }
+    }
+  }
+}

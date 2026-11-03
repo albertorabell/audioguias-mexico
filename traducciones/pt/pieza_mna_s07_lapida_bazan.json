@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_lapida_bazan",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92bc93fe12ba2ef4",
+      "texto": "Lápida de Bazán"
+    },
+    "frase_gancho": {
+      "hash": "da3c245edab21e62",
+      "texto": "Dois personagens frente a frente: a marca de Teotihuacán em Oaxaca."
+    },
+    "puente_narrativo": {
+      "hash": "fb6fbb120ededad9",
+      "texto": "Dos contatos entre cidades, passamos aos deuses que cuidavam do campo. Procure uma urna de barro cinza com óculos grossos e presas: é Cocijo, o deus zapoteco da chuva."
+    },
+    "guion_corto": {
+      "hash": "f3c5eb39ed95136d",
+      "texto": "Esta pequena lápide de travertino, com quase cinquenta centímetros de altura, mistura dois mundos. Foi encontrada em Monte Albán e é datada por volta dos anos trezentos e cinquenta a quatrocentos da nossa era. Nela há dois personagens frente a frente, e entre eles e nas bordas há glifos de tradições distintas. Um veste-se à maneira do Altiplano, o outro à maneira zapoteca. Os especialistas a consideram uma das marcas mais claras de que Monte Albán e a grande Teotihuacán tiveram contato direto, e ela tem sido interpretada como a lembrança de uma visita oficial entre as duas cidades. É um encontro de potências, contado em uma pedra pequena."
+    },
+    "guion_largo": {
+      "hash": "735d2bcb816917f1",
+      "texto": "Às vezes uma pedra pequena conta uma história enorme. Esta lápide é pequena, de quase meio metro de altura, mas fala da relação entre duas das cidades mais poderosas de seu tempo: Teotihuacán, no vale do México, e Monte Albán, em Oaxaca. Quando foi feita, por volta do ano trezentos e cinquenta, Teotihuacán já tinha séculos de grandeza, e sua influência chegava longe. Monte Albán era outra capital, com seu próprio estilo, sua própria escrita e sua própria maneira de ver o mundo.\n\nEssa relação não foi uma lenda. Na própria Teotihuacán existiu um bairro onde viviam oaxaquenhos, chamado em náuatle Tlailotlacan, com tumbas e cerâmica ao estilo zapoteca. Os arqueólogos o conhecem bem, porque ali foram encontrados objetos de Oaxaca misturados aos do Altiplano. É provável que fossem comerciantes, artesãos ou embaixadores, que ficaram anos ou gerações. E o intercâmbio ia nos dois sentidos: em Monte Albán foram encontradas lâminas da obsidiana esverdeada de Pachuca, um material que Teotihuacán controlava, a mesma obsidiana que você já viu transformada em lâminas na Sala de Teotihuacán. Teotihuacán tinha um bairro zapoteco; e Monte Albán, ao que parece, recordou a relação em pedra.\n\nOlhe a cena. Dois personagens se encaram. Um usa roupa e toucado que lembram o estilo do Altiplano; o outro, o estilo zapoteca. Entre eles e nas bordas há glifos, e reconhecem-se signos de duas tradições distintas. É raro ver um diálogo assim em uma única lápide, com duas culturas representadas como iguais, sem que uma esmague a outra.\n\nO que ela diz exatamente? Aí está o debate. A leitura mais repetida fala de uma visita oficial, talvez uma embaixada que selava um acordo comercial ou político. Outros especialistas preferem falar apenas de contatos e de intercâmbio de objetos e ideias. A palavra “tratado” é uma interpretação, não algo que a pedra diga com clareza. O certo é que dois mundos se olharam de frente, e que em Monte Albán alguém decidiu que esse encontro merecia ficar gravado. Isso importa por outra razão: de Teotihuacán quase não se conservam textos longos, de modo que peças como esta, em que a escrita zapoteca convive com signos do Altiplano, são uma das poucas janelas que temos para ouvir como as duas cidades conversavam.\n\nÉ interessante ver também quem não aparece. Não há um conquistador nem um vencido. Ao que parece, Monte Albán nunca foi submetida por Teotihuacán; manteve seu estilo e sua independência, e sua relação com a grande cidade foi mais próxima da diplomacia do que da guerra. Se você comparar com [os Danzantes](mna_s07_danzante_montealban), que acabou de ver, é uma forma muito diferente de contar o poder.\n\nE pense na distância. Entre as duas cidades há mais de trezentos quilômetros de montanhas, sem cavalos nem rodas. Quem levava mensagens, jade, plumas, concha e notícias ia a pé, carregando nas costas. Mesoamérica era uma rede imensa, costurada por caminhos e por essa gente que os percorria.\n\nPor isso, quando você vê deuses parecidos em lugares distantes, a explicação em geral não é coincidência. Os deuses viajavam, assim como as ideias. Às vezes muda o nome, o rosto ou o mito, mas a necessidade é a mesma, como a chuva. E justamente esse é o tema da peça seguinte."
+    },
+    "retos_observacion": {
+      "hash": "243a9872fdde3491",
+      "texto": [
+        "Procure os dois personagens frente a frente",
+        "Compare suas roupas e seus toucados: que diferenças você vê?",
+        "Localize os glifos entre as figuras e nas bordas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "12674bfcfbbe52ef",
+      "texto": {
+        "Cultura": "Zapoteca (em relação diplomática com Teotihuacán)",
+        "Período": "Clássico Inicial (Monte Albán IIIA, por volta de 350-400 d.C.)",
+        "Material": "Travertino / tecali gravado e incrustado",
+        "Procedência": "Montículo X, Grande Praça de Monte Albán, Oaxaca",
+        "Dimensões": "49 cm de altura x 30 cm de largura x 7 cm de espessura"
+      }
+    },
+    "faq_mito": {
+      "hash": "f4448e4cac17b600",
+      "texto": {
+        "pregunta": "Mito: Os povos mesoamericanos viviam isolados uns dos outros.",
+        "respuesta": "Realidade: Eles estavam conectados por rotas de comércio e diplomacia: carregadores a pé levavam jade, plumas, concha e notícias a centenas de quilômetros."
+      }
+    }
+  }
+}

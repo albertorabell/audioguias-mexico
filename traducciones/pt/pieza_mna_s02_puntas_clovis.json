@@ -1,0 +1,55 @@
+{
+  "id": "mna_s02_puntas_clovis",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7eeb62f7380079ec",
+      "texto": "Pontas de projétil caneladas dos tipos Clovis e Lerma"
+    },
+    "frase_gancho": {
+      "hash": "c18d415a68bcf643",
+      "texto": "Um fio de pedra que mudou a forma de caçar gigantes."
+    },
+    "puente_narrativo": {
+      "hash": "e863c8aeacce430f",
+      "texto": "Deixamos os caçadores nômades para chegar à primeira aldeia. Siga para a Sala do Pré-clássico, onde o barro substitui a pedra e surgem casas, figurinhas e festa."
+    },
+    "guion_corto": {
+      "hash": "4a42c514cbb39616",
+      "texto": "Estas pontas de pedra parecem pequenas, mas com elas se caçavam os gigantes do Pleistoceno. As mais famosas são as Clovis, com um sulco na base chamado canelura, onde se encaixava o cabo de madeira. As Folsom são menores e com o sulco mais longo; e as Lerma têm forma de folha. Todas eram fabricadas golpeando e pressionando a pedra com paciência e muito conhecimento: cada ponta é o trabalho de várias horas, e um erro no final pode botar tudo a perder. O fato de serem encontradas por todo o continente mostra algo importante: os primeiros americanos compartilhavam técnicas e percorriam distâncias enormes, desde o Canadá até o sul do México."
+    },
+    "guion_largo": {
+      "hash": "708940b9851badff",
+      "texto": "Se você já tentou quebrar uma pedra para tirar dela um fio cortante, sabe que não é fácil. Agora imagine fazer isso para fabricar uma ponta simétrica, fina e afiada nas duas faces. Essa é a habilidade por trás destas peças. O processo começava com um bloco de pederneira, sílex ou obsidiana. Primeiro, retiravam-se lascas grandes com golpes de outra pedra. Depois, com um osso ou uma galhada de veado, ia-se pressionando a borda para soltar lascas finas, uma após a outra, até dar à ponta sua forma final. Era um trabalho de mãos e de cabeça: um erro no final podia arruinar horas de labor.\n\nA parte mais difícil de uma ponta Clovis é justamente sua característica mais marcante: a canelura. Com um golpe certeiro a partir da base, arrancava-se uma lasca longa ao longo da peça, para deixar uma espécie de canal. Muita gente se pergunta para quê. A resposta é prática: o canal afinava a base e permitia encaixá-la bem na extremidade de uma haste, presa com tendões e resina. Muitas pontas se quebravam nesse último golpe, de modo que quem conseguia fazê-lo era, sem dúvida, especialista muito hábil.\n\nAs pontas Folsom, menores e com um sulco que abrange quase toda a face, associam-se à caça do bisonte antigo, um animal mais ágil. E as Lerma, com forma de folha, são de épocas um pouco posteriores. Com o tempo, o tamanho da presa mudou, e a ponta também mudou.\n\nEstas pontas eram cravadas em lanças ou em dardos arremessados com um propulsor, também chamado atlatl, uma alavanca que dava muito mais força ao braço. O arco e a flecha ainda não existiam nestas terras; chegariam milhares de anos depois. Por isso a mentalidade da caça era diferente: era preciso chegar muito perto, e o trabalho em grupo era vital.\n\nOs nomes têm sua história. Clovis vem de uma localidade do Novo México, onde em 1932 apareceram as primeiras. Folsom vem de outra, também no Novo México, onde um vaqueiro chamado George McJunkin, nascido escravizado no Texas, notou em 1908 uns ossos enormes. Com o tempo, sua descoberta demonstrou que os humanos haviam caçado bisontes extintos. Um homem sem título científico mudou, sem saber, a história da arqueologia americana.\n\nA própria pedra também viaja conosco. A obsidiana, esse vidro vulcânico negro, já era usada nestas pontas, e séculos depois seria a matéria-prima das navalhas de Teotihuacán, das armas mexicas e até de um vaso em forma de macaco que você verá na Sala Mexica. A mesma rocha que servia para caçar mamutes acabou transformada em joia.\n\nE aqui se encerra a história desta sala. Quando o clima esquentou e os grandes animais desapareceram, essas pontas deixaram de ser a ferramenta principal. Os grupos aprenderam a viver das sementes, a observar como cresciam, a guardá-las. Aos poucos nasceu uma forma de vida nova, com uma invenção mais poderosa que qualquer ponta: semear."
+    },
+    "retos_observacion": {
+      "hash": "122a0d0d999d3fa1",
+      "texto": [
+        "Procure o sulco da base que servia para encaixar o cabo de madeira",
+        "Compare o tamanho das pontas: qual é a menor e qual tem forma de folha?",
+        "Observe os pequenos retoques que deixam a borda como um serrote"
+      ]
+    },
+    "especificaciones": {
+      "hash": "058114406ca37131",
+      "texto": {
+        "Cultura": "Caçadores-coletores pré-agrícolas do Estágio Lítico",
+        "Período": "Cenolítico Inferior (9500-7000 a.C.)",
+        "Material": "Pederneira, sílex e obsidiana lascados por percussão e pressão",
+        "Procedência": "Norte do México, Durango e Bacia do México (Santa Isabel Iztapan)",
+        "Dimensões": "Ponta Clovis: 8,2 x 2,0 x 1,0 cm; pontas Lerma: 4,5 a 7,0 cm de comprimento"
+      }
+    },
+    "faq_mito": {
+      "hash": "36dd448a500b64f0",
+      "texto": {
+        "pregunta": "Mito: As pontas Clovis eram pontas de flecha disparadas com arco.",
+        "respuesta": "Realidade: Eram pontas de lança ou de dardo, arremessadas com propulsor; o arco e a flecha chegariam a estas terras milhares de anos depois."
+      }
+    }
+  }
+}

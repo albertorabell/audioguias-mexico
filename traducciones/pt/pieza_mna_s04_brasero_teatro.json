@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_brasero_teatro",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "31cf0531f7c411c9",
+      "texto": "Braseiro cerimonial tipo teatro"
+    },
+    "frase_gancho": {
+      "hash": "78471353919c5ebd",
+      "texto": "Um altar de barro em forma de teatro para conversar com os antepassados."
+    },
+    "puente_narrativo": {
+      "hash": "9de66df35687c9d7",
+      "texto": "Para encerrar a sala, procure os animais que acompanhavam os deuses de Teotihuacán: jaguares, serpentes, coiotes e aves, que aparecem em murais e vasilhas. É o último canto antes de deixar a cidade."
+    },
+    "guion_corto": {
+      "hash": "006ded1fb9555f3a",
+      "texto": "Este é um braseiro dos chamados «tipo teatro», uma das criações de barro mais típicas de Teotihuacán. Mede setenta e seis centímetros de altura e foi encontrado em 1911 pelo arqueólogo Manuel Gamio, em Azcapotzalco. Tem duas partes: uma tigela cônica para queimar copal e, atrás, uma chaminé coberta por uma fachada como a de um palco. No centro, a máscara de um personagem, um ancestral divinizado, com grandes orelheiras. Ao redor, há placas feitas com moldes: borboletas, aves, escudos, flores e borlas. É um altar portátil, pensado para conversar com os mortos por meio da fumaça, no pátio de uma casa ou em um templo do bairro."
+    },
+    "guion_largo": {
+      "hash": "43747d2c1e86743d",
+      "texto": "Sua história começa em 1911 em Azcapotzalco, hoje parte da Cidade do México, a dezenas de quilômetros de Teotihuacán. Ali, Manuel Gamio realizou uma escavação por camadas, considerada uma das primeiras no México com esse método: ia de cima para baixo e registrava cada nível. Mostrou algo que hoje parece óbvio: que sob a camada mexica havia outras mais antigas, e que Teotihuacán havia deixado marcas fora do seu próprio vale.\n\nO nome «teatro» não é antigo; foram os arqueólogos que o deram. A chaminé parece uma cortina ou um palco: dois pilares laterais, um remate escalonado no alto e, no meio, um nicho de onde o personagem se assoma. Na verdade, era um altar. Na tigela de baixo se queimava o copal, a fumaça subia pela chaminé e saía por trás, e o rosto parecia envolto em uma nuvem.\n\nO mais surpreendente é como ele foi feito. As borboletas, as aves, os escudos e as flores não foram modelados um a um: foram feitos com moldes e colados em série, como as peças de um brinquedo de montar. É uma espécie de produção em série de há cerca de mil e quinhentos anos. Isso indica que havia oficinas que fabricavam esses altares para muitas casas, e que a religião de Teotihuacán era também um ofício com especialistas.\n\nBraseiros assim foram encontrados em bairros e moradias, não apenas em templos. Faziam parte do culto aos antepassados: cada família, cada bairro, mantinha vivo o lembrança de seus mortos com fumaça e oferendas. É uma versão de Teotihuacán que cabe em um pátio. E nos lembra que a cidade não era apenas pirâmides e governantes, mas também gente comum com um altar em casa.\n\nOs símbolos que cercam a máscara são militares e cósmicos: borboletas com as asas abertas, que séculos depois os mexicas relacionariam com as almas dos guerreiros mortos; plumas de quetzal; escudos com dardos. Há quem leia neles uma mensagem: o antepassado é também um guerreiro e um protetor. O que se queima são resinas; o que se pede é amparo.\n\nO copal, a resina de uma árvore, continua sendo usado no México em cerimônias e altares de mortos. Nas salas de etnografia do andar de cima, você verá como esse costume sobrevive em povos de hoje: a fumaça aromática que sobe, o altar que se monta com cuidado, a ideia de que os mortos voltam para visitar os vivos. O braseiro de Teotihuacán é um dos seus antepassados.\n\nAzcapotzalco guarda outra história. Séculos depois de Teotihuacán, foi a capital dos tepanecas, um senhorio poderoso que dominou o vale do México. Os mexicas lhe pagavam tributo, até que em 1428 se rebelaram e, aliados a outros povos, como os texcocanos de Nezahualcóyotl, o rei poeta cujo nome você já conhece, derrotaram seu senhor Maxtla. Foi o começo do império mexica.\n\nIsso significa que o lugar onde este braseiro foi encontrado esteve presente em dois grandes momentos da história do vale: a expansão de Teotihuacán e o nascimento do império mexica. Quando chegar à Sala Mexica, lembre-se de que a história que você verá ali começou, em parte, neste mesmo bairro."
+    },
+    "retos_observacion": {
+      "hash": "fd5803e88e8050e2",
+      "texto": [
+        "Procure a máscara do personagem no centro e suas grandes orelheiras",
+        "Conte as borboletas e as aves feitas com molde",
+        "Imagine a fumaça subindo pela chaminé, atrás da fachada"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2ed579888c421cde",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico Tardio (450-650 d.C.)",
+        "Material": "Cerâmica policromada, com pigmentos calcários",
+        "Procedência": "Azcapotzalco, Cidade do México",
+        "Dimensões": "0,76 m de altura x 0,414 m de diâmetro",
+        "Achado": "Encontrado inteiro em 1911 por Manuel Gamio em Azcapotzalco"
+      }
+    },
+    "faq_mito": {
+      "hash": "2e9396442be9114b",
+      "texto": {
+        "pregunta": "Mito: Os braseiros «tipo teatro» eram usados para encenar peças de teatro.",
+        "respuesta": "Realidade: O nome é moderno, por causa de sua forma de palco; eram altares onde se queimava copal para os antepassados."
+      }
+    }
+  }
+}

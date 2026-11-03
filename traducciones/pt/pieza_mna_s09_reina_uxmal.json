@@ -1,0 +1,59 @@
+{
+  "id": "mna_s09_reina_uxmal",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "d7d3866ea3a54a33",
+      "texto": "Rainha de Uxmal"
+    },
+    "frase_gancho": {
+      "hash": "c3cef2e86c824f37",
+      "texto": "Não é uma rainha: é um jovem que sai das fauces de uma serpente."
+    },
+    "puente_narrativo": {
+      "hash": "b5ad585261322676",
+      "texto": "Não longe de Uxmal, em Kabah, um templo estava coberto de rostos de pedra. Procure um enorme mascarão, de nariz comprido que se enrola para cima."
+    },
+    "guion_corto": {
+      "hash": "c3ba848ae64a8e76",
+      "texto": "Esta escultura de pedra calcária, de uns oitenta centímetros de altura, vem de Uxmal, em Yucatán. Ela é chamada de “Rainha de Uxmal”, mas hoje se pensa que não é uma mulher: é um jovem nobre, ou iniciado, que emerge das fauces abertas de uma serpente. Repare no rosto: cenho franzido, olhos ovalados e lábios voltados para baixo, uma expressão severa. Na bochecha esquerda ele tem uma marca em forma de serpente de mandíbula curva, talvez uma escarificação ritual. Sobre a testa ele leva uma diadema de contas. As fauces que o rodeiam são uma porta: a passagem do mundo dos deuses ao dos homens. É uma imagem de renascimento, e um apelido equivocado que se tornou famoso."
+    },
+    "guion_largo": {
+      "hash": "8be95e92026a8cc2",
+      "texto": "Como uma escultura pode errar de nome? Esta há muito tempo se chama “Rainha de Uxmal”, e não é uma rainha. Quem a viu pela primeira vez, tão refinada, com sua diadema sobre a testa, deve ter suposto que era uma mulher. O apelido pegou, e aqui continua. Hoje se pensa que é um homem jovem, um nobre ou um iniciado, e que o importante não é o seu sexo, mas o que ele faz: sair das fauces de uma serpente.\n\nEssa imagem você já viu antes, em outra forma. Na Sala dos toltecas, o [guerreiro coiote](mna_s05_guerrero_coyote) tem um rosto humano que sai das fauces do animal. Aqui é uma serpente. Para os maias, as fauces abertas da serpente ou do monstro da terra eram uma porta: entre o mundo subterrâneo e a superfície, entre os ancestrais e os vivos. Sair delas era nascer de novo, ou ser reconhecido como alguém com um poder sagrado.\n\nOlhe agora o gesto. O cenho está franzido, os cantos dos lábios descem, e o olhar é duro. Não há sorriso, como nas carinhas do Golfo. Há seriedade, a de quem passa por uma cerimônia importante. E na bochecha esquerda aparece uma pequena marca: uma cabeça de serpente fantástica, de perfil, com a mandíbula curva como um gancho. Pode ser uma escarificação, uma cicatriz feita de propósito, ou uma tatuagem; algo que, como no [Adolescente de Tamuín](mna_s08_adolescente_huasteco), transforma a pele em página escrita.\n\nEste rosto vem de um edifício muito especial. Foi encontrado na Pirâmide do Adivinho, em Uxmal, uma das mais famosas do México. É uma pirâmide curiosa: seus cantos são arredondados, de modo que parece uma enorme gota de pedra. E há uma lenda sobre ela: dizem que foi construída em uma só noite por um anão, nascido de um ovo, que havia desafiado o rei da cidade. É só uma lenda, claro. A realidade é outra: a pirâmide não foi erguida de uma vez, mas em várias etapas, uma sobre a outra, como uma boneca russa. Esta escultura fez parte de uma das fachadas internas, que depois ficaram ocultas.\n\nO estilo de Uxmal se chama Puuc. Reconhece-se por suas fachadas como mosaicos de pedra, nas quais centenas de peças cortadas com precisão formam figuras, rostos e gregas. É uma arte geométrica, elegante e muito ordenada. Você verá outro exemplo logo em seguida, no [mascarão de Kabah](mna_s09_mascaron_chaac).\n\nMais uma anedota sobre o nome: não é o único caso. Quando os visitantes percorreram as ruínas maias, batizaram os edifícios com nomes que lhes ocorriam: “Casa do Adivinho”, “Palácio do Governador”, “Quadrângulo de Las Monjas”. Nenhum desses nomes é maia. Foram dados por frades, viajantes e exploradores de séculos passados, e ficaram. Os nomes verdadeiros, quase todos, se perderam.\n\nAssim, da próxima vez que você vir uma placa com um nome bonito em uma ruína, pergunte-se quanto desse nome é antigo e quanto fomos nós que colocamos."
+    },
+    "retos_observacion": {
+      "hash": "8ca0897a56a4fe0a",
+      "texto": [
+        "Olhe o rosto: que expressão ele tem?",
+        "Procure a marca em forma de serpente na bochecha esquerda",
+        "Observe a diadema de contas sobre a testa"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a5a50e1668ce346c",
+      "texto": {
+        "Cultura": "Maia",
+        "Período": "Clássico Tardio (600-900 d.C.)",
+        "Material": "Pedra calcária",
+        "Procedência": "Uxmal, Yucatán (subestrutura da Pirâmide do Adivinho)",
+        "Dimensões": "80 cm de altura x 24 cm de largura x 99 cm de espessura"
+      }
+    },
+    "faq_mito": {
+      "hash": "051c6013c91771a4",
+      "texto": {
+        "pregunta": "Mito: A “Rainha de Uxmal” é o retrato de uma rainha maia.",
+        "respuesta": "Realidade: O nome é um apelido antigo. Hoje se pensa que ela representa um jovem nobre que sai das fauces de uma serpente."
+      }
+    }
+  }
+}

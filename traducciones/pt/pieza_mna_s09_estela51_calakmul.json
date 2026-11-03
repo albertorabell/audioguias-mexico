@@ -1,0 +1,59 @@
+{
+  "id": "mna_s09_estela51_calakmul",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "fe2cec2405d775ab",
+      "texto": "Estela 51 de Calakmul"
+    },
+    "frase_gancho": {
+      "hash": "3cc628905f90a1af",
+      "texto": "Um rei de cachos e tocado de serpente pisa em seu inimigo amarrado."
+    },
+    "puente_narrativo": {
+      "hash": "5c188b599ffc1d89",
+      "texto": "Os cativos também apareciam na quadra de jogo de bola. Procure um disco de pedra com um jogador apoiado em um joelho que golpeia uma bola com o quadril."
+    },
+    "guion_corto": {
+      "hash": "55280a9d0d14a745",
+      "texto": "Esta estela de calcário mede mais de três metros de altura e foi erguida no ano 731 em Calakmul, em Campeche. Ela mostra o rei Yuknoom Took Kawiil de perfil, em pé sobre um cativo com as mãos amarradas. Ele veste uma couraça feita de placas, uma capa longa e segura uma lança. Seu tocado é uma serpente de mandíbulas abertas, de onde parece sair a cabeça do rei. Repare em um detalhe raro: ele usa o cabelo em cachos nas laterais do rosto. É o retrato de um governante poderoso, e um aviso: é assim que se tratam os inimigos de Calakmul. Esta peça foi saqueada no século vinte e depois recuperada."
+    },
+    "guion_largo": {
+      "hash": "9e23ec37328c07ed",
+      "texto": "Um rei de pedra olha para a frente. A seus pés, um inimigo derrotado. Atrás, a serpente que lhe serve de coroa. A cena parece simples, mas encerra uma das maiores rivalidades do mundo maia: a de Calakmul e Tikal.\n\nCalakmul, no fundo da selva de Campeche, foi uma das cidades mais poderosas do mundo maia. Seu nome significa algo como «dois montículos vizinhos», e foi dado pelo botânico Cyrus Lundell, que a encontrou em 1931. Era a capital do reino da Serpente, que reunia aliados por toda a região. Sua grande rival era Tikal, na Guatemala. De Tikal já falei a você na Sala de Teotihuacán: ali, em janeiro do ano 378, as inscrições maias registram a chegada do general Siyaj Kak, «Nasce o Fogo», ligado a Teotihuacán. Os dois reinos se enfrentaram durante gerações, como dois grandes blocos.\n\nO nome do reino, Kaan, significa «serpente» em língua maia, e daí vem o tocado: o rei emerge das mandíbulas da serpente que dá nome à sua dinastia, como se esse animal fosse seu emblema e sua origem. Calakmul chegou a ter mais de uma centena de estelas, a maior coleção de monumentos desse tipo em uma única cidade maia.\n\nAqui, o rei Yuknoom Took Kawiil aparece no ano 731. Algumas décadas antes, Tikal havia vencido Calakmul em uma batalha importante. E mesmo assim, o rei mandou se retratar com toda a sua força. É propaganda, como a que você viu nos [Danzantes](mna_s07_danzante_montealban) de Monte Albán e na [Pedra de Tízoc](mna_s06_tizoc): o poder se exibe com cativos.\n\nCada estela era dedicada em uma data importante do calendário, com uma cerimônia. Pensa-se que o monumento era considerado quase um ser vivo, que recebia oferendas e, às vezes, até um nome próprio.\n\nRepare no cativo, aos pés do rei. Os maias faziam guerras para capturar nobres de outras cidades, que depois eram humilhados e, às vezes, sacrificados. Um cativo importante valia mais que um território. Por isso ele aparece aqui: é um troféu.\n\nE os cachos. É uma característica muito rara na arte maia, e ninguém sabe bem por que aparece. Pode ser um adorno, uma peruca ou uma moda da corte. Mas faz deste retrato algo inconfundível.\n\nA história moderna da estela também merece ser contada. No século vinte, saqueadores a cortaram com serras para reduzir sua espessura e tirá-la em contrabando. Ela perdeu parte da pedra e, com ela, alguns glifos das laterais. Conseguiu-se recuperá-la e trazê-la para a capital. Hoje ela se vê inteira, mas com cicatrizes. Por isso importa tanto que as peças sejam estudadas em seu lugar de origem: o que se perde em um saque não se recupera.\n\nPor fim, imagine a praça onde ela esteve: uma enorme pirâmide, de cerca de quarenta e cinco metros, atrás, e a estela diante dela, talvez pintada de cores, junto a dezenas de outras. Hoje é um lugar de silêncio, em uma reserva natural protegida. Mas há mil trezentos e anos, esta pedra era um grito."
+    },
+    "retos_observacion": {
+      "hash": "ec03d44a956ee100",
+      "texto": [
+        "Procure os cachos nas laterais do rosto do rei",
+        "Encontre o cativo amarrado sob os pés do rei",
+        "Observe as mandíbulas de serpente que formam seu tocado"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0bb037334e20ef60",
+      "texto": {
+        "Cultura": "Maia",
+        "Período": "Clássico Tardio (731 d.C.)",
+        "Material": "Calcário",
+        "Procedência": "Calakmul, Campeche (base da Estrutura 1)",
+        "Dimensões": "3,02 m de altura x 1,43 m de largura"
+      }
+    },
+    "faq_mito": {
+      "hash": "3ccb8369f11d6a72",
+      "texto": {
+        "pregunta": "Mito: As estelas maias eram apenas enfeites, sem textos.",
+        "respuesta": "Realidade: Traziam nomes, datas e feitos dos reis: eram páginas de história em pedra."
+      }
+    }
+  }
+}

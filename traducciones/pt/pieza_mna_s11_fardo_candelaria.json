@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_fardo_candelaria",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae477f12a1b7faf6",
+      "texto": "Fardo funerário da Cueva de la Candelaria"
+    },
+    "frase_gancho": {
+      "hash": "d47b72f58cd4dfae",
+      "texto": "Um volume de mantas e cordas que o deserto conservou durante séculos."
+    },
+    "puente_narrativo": {
+      "hash": "23e46836412b8389",
+      "texto": "Do volume passamos a uma pessoa concreta. Procure um crânio alongado que ainda conserva seu toucado de cordões tingidos de vermelho."
+    },
+    "guion_corto": {
+      "hash": "e61a5f0fb1b97abc",
+      "texto": "Este volume, de cerca de oitenta e cinco centímetros de altura, vem da Cueva de la Candelaria, em Coahuila, e foi feito entre os anos mil e mil e trezentos da nossa era. É um fardo funerário: uma pessoa com o corpo dobrado, em posição fetal, envolta em várias camadas de esteiras e mantas de fibras de yuca e agave, e amarrada com cordas. Tudo foi tecido à mão, sem tear. Repare nos tecidos e nas cordas: em uma caverna muito seca a matéria orgânica quase não apodrece, e por isso também se conservaram sandálias, cestos e outros objetos de uso diário. São coisas simples, mas falam de muito cuidado com os mortos."
+    },
+    "guion_largo": {
+      "hash": "2434ffbd9d3214dc",
+      "texto": "Há lugares onde o tempo se detém, e a Cueva de la Candelaria, na serra de mesmo nome, em Coahuila, é um deles. Ela é tão seca que o que se deixa ali quase não apodrece: nem os tecidos, nem as cordas, nem as sandálias, nem sequer o cabelo. Por isso conhecemos hoje objetos que em quase qualquer outro lugar do México teriam desaparecido em poucos anos.\n\nPense nos maias da Sala Maia. Suas roupas, seus livros de papel e seus móveis de madeira se perderam quase por completo na umidade da selva; deles nos restaram sobretudo pedra, barro e jade. Aqui acontece o contrário: o deserto guardou justamente o que é frágil. Cada região conserva uma parte diferente da história, e é preciso visitá-las todas para ter a imagem completa.\n\nOs grupos que usaram esta caverna eram caçadores e coletores. Voltavam a ela para enterrar seus mortos, e por isso foram encontrados muitos fardos no mesmo lugar, um ao lado do outro. Em meados do século vinte, o INAH a explorou e resgatou numerosas peças. Era, de certo modo, um cemitério familiar ao abrigo da rocha. Imagine o que isso significa: um grupo que caminhava grandes distâncias e voltava a um mesmo lugar para se despedir dos seus. Os mortos eram uma razão para voltar.\n\nOlhe os tecidos com calma. Não usaram tear. Com as mãos trançavam, davam nós e entrelaçavam fibras de lechuguilla, yuca e agave, plantas do deserto que dão um fio muito forte, chamado ixtle. Fazer uma manta assim exigia muitíssima paciência. Quando você chegar ao andar superior, verá o outro grande sistema de tecelagem do México, o tear de cintura, e entenderá de onde vem tanta destreza.\n\nA postura do corpo tampouco é casualidade. Em muitos lugares do mundo enterra-se a pessoa dobrada, como esteve antes de nascer, e já se pensou que seja uma forma de entender a morte como um regresso. Os mexicas, segundo as crônicas, também envolviam seus mortos em mantas e os amarravam sentados. Mudam as mãos e o deserto, mas a ideia de agasalhar quem parte é muito parecida.\n\nJunto ao morto deixavam-se as coisas de cada dia: sandálias de cestaria, bolsas, ferramentas de pedra, arcos e flechas, e às vezes o propulsor de dardos que você já viu nas mãos do [atlante de Tula](mna_s05_atlante_tula). Não há ouro nem jade. Se você comparar com o enxoval da Tumba 7 de Monte Albán ou com a [tumba de Pakal](mna_s09_cripta_pakal), a diferença salta aos olhos. E, no entanto, o gesto é o mesmo: ninguém devia partir sem o necessário para o caminho.\n\nNão é uma múmia como as do Egito, que eram preparadas com técnicas elaboradas. Aqui, o que conservou o corpo e os tecidos foi sobretudo o ar seco da caverna. O deserto fez o trabalho. É um lembrete de que esses povos, a quem às vezes se chama simplesmente de nômades, tinham rituais complexos, memória familiar e grande destreza manual."
+    },
+    "retos_observacion": {
+      "hash": "4b8899df4bd5f6d1",
+      "texto": [
+        "Siga as cordas que amarram o volume e veja como estão trançadas",
+        "Procure as camadas de esteiras e mantas, uma sobre a outra",
+        "Imagine as sandálias e os objetos que acompanhavam o falecido"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2b82595c4c23efa6",
+      "texto": {
+        "Cultura": "Aridoamérica / Caçadores-coletores do deserto (Comarca Lagunera)",
+        "Período": "Pós-clássico (1000-1500 d.C.)",
+        "Material": "Fibras vegetais tecidas (yuca, lechuguilla e algodão)",
+        "Procedência": "Cueva de la Candelaria, Coahuila"
+      }
+    },
+    "faq_mito": {
+      "hash": "3be9cc186355ac24",
+      "texto": {
+        "pregunta": "Mito: Este fardo é uma múmia embalsamada, como as do Egito.",
+        "respuesta": "Realidade: O que conservou o corpo e os tecidos foi sobretudo a secura da caverna. O deserto fez o trabalho."
+      }
+    }
+  }
+}

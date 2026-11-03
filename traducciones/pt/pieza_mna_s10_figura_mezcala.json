@@ -1,0 +1,58 @@
+{
+  "id": "mna_s10_figura_mezcala",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "c3b871a58704240c",
+      "texto": "Escultura antropomorfa estilo Mezcala"
+    },
+    "frase_gancho": {
+      "hash": "e204fd82939d8578",
+      "texto": "Um corpo reduzido à sua essência: pedra verde, linhas retas e nada mais."
+    },
+    "puente_narrativo": {
+      "hash": "e98dcd0be9f2867a",
+      "texto": "Da arte que elimina até o último detalhe, passamos a outra pedra de Guerrero, coberta de cor. Procure uma máscara pequena, de rosto sério, formada por minúsculas peças verdes, azuis e brancas."
+    },
+    "guion_corto": {
+      "hash": "958fcb045607bb53",
+      "texto": "Esta figura humana de pedra verde vem da bacia do rio Mezcala, em Guerrero, e foi feita há cerca de dois mil anos. Mede uns vinte e dois centímetros de altura, e seu corpo é quase um retângulo. Repare no rosto: dois planos formam a sobrancelha e o nariz triangular, e dois riscos horizontais são os olhos e a boca. Os braços são duas linhas finas sobre o abdômen. Não há detalhes de roupa nem de adornos, só o essencial. Os artistas de Mezcala não copiavam o corpo humano: eles o resumiam. Para fazê-la, desgastaram a pedra com cordas, areia e água, uma vez após a outra. Por isso a superfície é tão lisa. Parece arte moderna, mas tem cerca de dois mil anos."
+    },
+    "guion_largo": {
+      "hash": "8283436b89401d6d",
+      "texto": "Muitos visitantes dizem isto ao vê-la: “isto parece arte moderna”. E têm razão em dizer que ela surpreende. Mas o que você vê tem dois mil anos, e foi feito com areia, corda e paciência.\n\nOs artistas de Mezcala cortavam a pedra com um fio de fibra vegetal, molhado e coberto de areia, que era esticado e movido de um lado para o outro como uma serra. Depois desgastavam as superfícies com areia e água durante dias. Os cortes eram retos, os planos limpos. Eliminaram tudo o que sobrava, até que restasse apenas a essência da figura. Quem entalha assim não tem pressa.\n\nA pedra era dura e verde, extraída dos cânions do rio Balsas, em Guerrero: serpentina, diorito e outras. Para os povos da Mesoamérica, a pedra verde era água, vida e milho tenro. Você já a viu no [Senhor de Las Limas](mna_s08_senor_las_limas), nos machados olmecas e na [máscara de Pakal](mna_s09_mascara_pakal). Aqui o material não se cobre de adornos: deixa-se falar.\n\nOs artistas de Mezcala também fizeram pequenas maquetes de templos com colunas, máscaras planas e animais. Mas o mais famoso são figuras humanas como esta, de pé ou com os braços sobre o abdômen. Sempre com essa economia de linhas.\n\nNão sabemos quem eram. A cultura Mezcala é conhecida quase só por suas pedras, e é um mistério como viviam e no que acreditavam. Também não sabemos com certeza para que serviam as figuras: já se pensou que fossem amuletos, oferendas funerárias ou imagens de antepassados. Mas sua arte circulou bastante: peças Mezcala foram encontradas em lugares distantes de Guerrero.\n\nE aqui vem um dado surpreendente. Os mexicas colecionavam essas figuras. Nas oferendas do Templo Mayor foram encontradas numerosas peças Mezcala, de vários séculos antes da época deles, enterradas junto com objetos olmecas, como o [machado](mna_s08_hacha_votiva_jade) que você viu. Para os mexicas, eram relíquias de um passado remoto. Quando você a olha, faz o mesmo que eles: contempla a antiguidade de outros.\n\nContorne a vitrine e olhe-a de perfil: de frente ela tem presença, mas de lado é uma lâmina de cerca de quatro centímetros de espessura. O rosto inteiro cabe em um plano, e mesmo assim se reconhece.\n\nNo século vinte, artistas como Diego Rivera e Miguel Covarrubias ficaram fascinados com essas peças e reuniram coleções. Rivera construiu o Museo Anahuacalli, em Coyoacán, para guardar a sua. E é que o estilo delas, com suas linhas puras, dialoga com a arte moderna; há quem as compare com as esculturas de Constantin Brancusi, um escultor romeno do início do século vinte, embora nada disso tenha sido feito pensando no futuro.\n\nUm aviso final. Justamente por ser tão apreciado, o estilo Mezcala é um dos mais imitados por falsificadores. Por isso uma peça de museu, com sua história documentada, vale tanto: é a que sabemos que é de verdade.\n\nEsta figura faz uma pergunta sem palavras: o que precisamos, na realidade, para reconhecer uma pessoa? Aqui bastam um triângulo e dois riscos."
+    },
+    "retos_observacion": {
+      "hash": "156c4cb15586da1c",
+      "texto": [
+        "Procure os dois planos que formam a sobrancelha e o nariz",
+        "Repare nos riscos horizontais dos olhos e da boca",
+        "Passe o olhar pela superfície: dá para ver algum corte ou arranhão?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9b2308fc84495ea0",
+      "texto": {
+        "Cultura": "Mezcala / Estilo Guerrero",
+        "Período": "Pré-clássico Tardio a Clássico (400 a.C.-600 d.C.)",
+        "Material": "Pedras duras (principalmente serpentina verde, metassedimentar e jadeíta)",
+        "Procedência": "Bacia do rio Balsas / Mezcala, Guerrero"
+      }
+    },
+    "faq_mito": {
+      "hash": "dc080d9aa30d2fca",
+      "texto": {
+        "pregunta": "Mito: As esculturas simples são obras primitivas, feitas por quem não sabia fazer mais.",
+        "respuesta": "Realidade: A simplicidade de Mezcala foi uma decisão. Os artistas dominavam a pedra e eliminavam tudo o que sobrava."
+      }
+    }
+  }
+}

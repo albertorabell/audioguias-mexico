@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_yacata_tzintzuntzan",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "723880c21191c370",
+      "texto": "Modelo arquitetônico de yácata purépecha"
+    },
+    "frase_gancho": {
+      "hash": "7f668d0c44410f79",
+      "texto": "O edifício sagrado dos purépechas: um retângulo unido a um círculo."
+    },
+    "puente_narrativo": {
+      "hash": "dd0245427fba361d",
+      "texto": "Na praça cerimonial de Ihuatzio, outra cidade purépecha, havia uma figura que você já conhece de outras salas. Procure um homem reclinado, de pedra cinza, com a cabeça virada e um recipiente sobre o ventre."
+    },
+    "guion_corto": {
+      "hash": "b6a3a72a837ba1df",
+      "texto": "Esta maquete, de uns sessenta e cinco centímetros de altura, reproduz as yácatas, os edifícios sagrados dos purépechas, o povo que dominou Michoacán antes da chegada dos espanhóis. Diferentemente das pirâmides de outras regiões, uma yácata combina um corpo retangular com outro semicircular e, vista de cima, lembra uma fechadura ou uma letra T. Tem corpos escalonados e uma ampla rampa de acesso. No alto se erguia um templo com teto de palha, onde ardia o fogo em honra a Curicaueri, o deus do fogo e do sol. A maquete foi feita para que você entenda o conjunto de Tzintzuntzan, a capital, junto ao lago de Pátzcuaro."
+    },
+    "guion_largo": {
+      "hash": "2fefe7f0cc3d9df6",
+      "texto": "Tzintzuntzan significa «lugar de colibris». É um nome lindo para uma cidade que foi a capital de um império. Ficava à beira do lago de Pátzcuaro, em Michoacán, e dali governava o cazonci, o rei dos purépechas.\n\nOs purépechas formaram, por volta do século catorze, um dos estados mais poderosos da Mesoamérica. Seu grande rival era o império mexica, que tentou conquistá-los e fracassou: segundo as tradições, no fim do século quinze os exércitos purépechas derrotaram os mexicas. Por isso você vê aqui uma cultura que nunca foi submetida por Tenochtitlan e que conservou sua independência até a chegada dos espanhóis.\n\nFalavam purépecha, uma língua à qual não se conhecem parentes claros no México. Enquanto quase todos os povos vizinhos falavam idiomas aparentados entre si, eles falavam algo diferente. É outro sinal de seu caráter próprio.\n\nAgora, a yácata. Ela era construída com pedra vulcânica sem argamassa e revestida com lajes planas, chamadas xanamus. Em Tzintzuntzan há cinco yácatas alinhadas sobre uma enorme plataforma de mais de quatrocentos metros de comprimento, de frente para o lago. Imagine as cinco, com seus templos de palha no alto e a fumaça dos fogos sagrados sobre a água.\n\nEsse fogo era o centro de tudo. Curicaueri, o deus principal, significa algo como «o grande fogo». No alto de cada yácata mantinha-se uma fogueira acesa, e levar lenha até lá era um ato religioso. O fogo não podia se apagar. Os purépechas viam a si mesmos como guardiões de um fogo sagrado.\n\nSabemos muito sobre eles por um texto do século dezesseis, a Relación de Michoacán, escrito por um frei com a ajuda de nobres purépechas que lhe contaram sua história, seus deuses e seus reis. É uma das fontes mais ricas sobre um povo indígena daquela época, e está cheia de relatos, como o do herói Tariácuri, que uniu seu povo.\n\nPor que essa forma, um retângulo com um semicírculo? Há várias ideias. Uma diz que ela une o terrestre, o retângulo, com o celeste, o círculo do sol. Outra, que combina a pirâmide com a forma redonda dos templos ao deus do vento. Não sabemos com certeza, e talvez por isso a yácata continue fascinando quem a vê.\n\nOs espanhóis os chamaram de tarascos, um nome que eles não deram a si mesmos; hoje são chamados de purépechas. E é um povo vivo: em Michoacán ainda se fala purépecha, e nas salas de etnografia do Andar Superior há uma dedicada a seus descendentes.\n\nTzintzuntzan mudou com a conquista. Pensa-se que muitas pedras dos edifícios antigos foram reutilizadas em construções coloniais, como os conventos que os freis ergueram. Parte da cidade ficou, literalmente, dentro de outra.\n\nHoje as yácatas de Tzintzuntzan podem ser visitadas, restauradas no século vinte, à beira do lago. Esta maquete permite que você as veja de uma só vez, completas, como um pássaro sobre a água."
+    },
+    "retos_observacion": {
+      "hash": "59f52993ac30505a",
+      "texto": [
+        "Procure o corpo retangular e o corpo semicircular",
+        "Encontre a rampa por onde se subia",
+        "Imagine o templo de palha no alto, com o fogo aceso"
+      ]
+    },
+    "especificaciones": {
+      "hash": "15783f297bd5cea4",
+      "texto": {
+        "Cultura": "Tarasca / Purépecha",
+        "Período": "Pós-clássico Tardio (1200-1521 d.C.)",
+        "Material": "Modelo em escala, em argila (as yácatas originais tinham núcleo de pedra e lajes de pedra vulcânica)",
+        "Procedência": "Tzintzuntzan e Ihuatzio, bacia de Pátzcuaro, Michoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "34c2040a75de8114",
+      "texto": {
+        "pregunta": "Mito: Todas as pirâmides mesoamericanas tinham a mesma forma, quadrada e escalonada.",
+        "respuesta": "Realidade: Cada região tinha sua forma. Em Michoacán, as yácatas combinam um corpo retangular com outro semicircular, e em Teuchitlán, Jalisco, havia pirâmides circulares."
+      }
+    }
+  }
+}

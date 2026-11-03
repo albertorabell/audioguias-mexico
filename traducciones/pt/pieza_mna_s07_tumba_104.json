@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_tumba_104",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9f3e370e885b00c4",
+      "texto": "Recriação da Tumba 104 de Monte Albán"
+    },
+    "frase_gancho": {
+      "hash": "293bf9acef7e26ae",
+      "texto": "Uma casa subterrânea pintada para receber os antepassados."
+    },
+    "puente_narrativo": {
+      "hash": "fa64fc61408062c1",
+      "texto": "Foram os zapotecas que a construíram. Séculos depois, outro povo reabriu uma tumba zapoteca para enterrar seu rei com um tesouro de ouro. Procure uma joia de várias placas, com guizos, que soava a cada passo."
+    },
+    "guion_corto": {
+      "hash": "9b82ebecf51e4b19",
+      "texto": "Você está diante de uma reprodução em tamanho real da Tumba 104 de Monte Albán, descoberta em 1937 pelo arqueólogo Alfonso Caso. Os zapotecas enterravam seus senhores sob o piso dos pátios das casas, em câmaras de pedra que eram verdadeiros palácios subterrâneos. Na fachada você verá um painel com uma moldura típica de Monte Albán e, sobre a porta, um nicho com uma urna de barro. Espie o interior: as paredes copiam as pinturas originais, em vermelho, azul, amarelo e preto, nas quais uma procissão de personagens marcha rumo ao fundo da tumba com cocares de plumas, bolsas de copal e incensários, ao lado de glifos do calendário."
+    },
+    "guion_largo": {
+      "hash": "a8054ed6361c4982",
+      "texto": "Em muitos lugares, os mortos são enterrados longe dos vivos. Os zapotecas fizeram o contrário: sepultavam as pessoas importantes debaixo da própria casa, e os familiares desciam para visitá-las. Uma tumba não era um lugar de esquecimento, mas a casa onde o avô continuava cuidando da família. Levava-se comida a ele, queimava-se incenso e conversava-se com ele. Os mortos faziam parte da vida diária.\n\nIsto que você tem à frente é uma reprodução em escala real. A tumba verdadeira continua em Monte Albán; aqui ela foi reconstruída com cópias fiéis de suas pinturas para que você possa espiar como se descesse a escada. Comecemos pela fachada. O painel que a coroa tem uma moldura dupla, um quadro dentro de outro, que os arqueólogos chamam de “duplo escapulário” e que é uma marca da arquitetura de Monte Albán. É como uma assinatura.\n\nSobre a porta se abre um nicho que guarda uma urna de barro, das que você já conhece por [Cocijo](mna_s07_urna_cocijo) e por [Cozobi](mna_s07_urna_cozobi). É um guardião que vigia a entrada. Os especialistas não concordam sobre qual personagem divino ela representa, mas sim sobre sua função: proteger o morto e pô-lo em comunicação com os deuses. E dentro, na câmara, foram colocadas mais urnas, como parte da oferenda ao redor do defunto.\n\nAgora vem a melhor parte: os murais. Espie e observe as paredes laterais. Uma longa fila de figuras avança no mesmo sentido, rumo ao fundo, cada uma com suas plumas e com os objetos do rito nas mãos. Diante delas há glifos do calendário que parecem nomes e datas. Pensa-se que são os ancestrais, ou sacerdotes, que acompanham o morto em sua viagem e o recebem do outro lado. É uma pintura muito bem conservada, e isso é raro: poucas tumbas da Mesoamérica conservam murais dessa qualidade.\n\nA tumba foi descoberta por Alfonso Caso em 1937. Caso trabalhou em Monte Albán durante anos: em 1932 havia encontrado a Tumba 7, da qual você verá joias daqui a alguns passos, e em 1937, esta. Entre uma e outra, ele revolucionou o que se sabia sobre Oaxaca: demonstrou que Monte Albán havia sido uma grande cidade, muito mais antiga que os mexicas, e que havia sido zapoteca antes de ser mixteca.\n\nPara os zapotecas, os antepassados eram intermediários. Acreditava-se que os mortos das famílias importantes podiam pedir chuva a Cocijo, abundância aos deuses, proteção à cidade. Por isso era preciso honrá-los bem: a tumba era uma casa, mas também uma espécie de guichê com o céu. E por isso os senhores eram enterrados perto de seu povo: seus mortos eram sua garantia.\n\nTudo isso não desapareceu. Em Oaxaca, o Dia dos Mortos é uma das celebrações mais importantes do ano: armam-se altares com comida, copal e flores de cempasúchil, a mesma flor que se oferecia a [Xochipilli](mna_s06_xochipilli), e espera-se a visita dos defuntos. Quando você subir para as salas de cima, verá altares de mortos de vários povos: são os descendentes desse costume.\n\nAntes de seguir, caminhe até a entrada e olhe o interior mais uma vez: essa procissão que avança sem parar. Quem a pintou sabia que todos nós iríamos chegar a esse fundo da tumba, e quis que a viagem fosse bela."
+    },
+    "retos_observacion": {
+      "hash": "03278354881ba988",
+      "texto": [
+        "Procure o painel da fachada com sua moldura dupla",
+        "Espie o interior e acompanhe a procissão de personagens pintados",
+        "Encontre as bolsas de copal e os incensários que eles levam nas mãos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4c6f3c09781440d5",
+      "texto": {
+        "Cultura": "Zapoteca",
+        "Período": "Clássico (Monte Albán IIIA, por volta de 300-500 d.C.)",
+        "Material": "Recriação museográfica em escala 1:1 da fachada com nicho e da câmara funerária pintada em afresco, acompanhada de urnas e vasilhas originais de barro",
+        "Procedência": "Monte Albán, Plataforma Norte, Oaxaca",
+        "Achado": "Descoberta e explorada por Alfonso Caso em 1937"
+      }
+    },
+    "faq_mito": {
+      "hash": "14de50c3c0e3b45a",
+      "texto": {
+        "pregunta": "Mito: As tumbas pré-hispânicas eram lugares de medo, fechados e esquecidos.",
+        "respuesta": "Realidade: Para os zapotecas eram casas vivas: eram reabertas para deixar oferendas e conversar com os antepassados."
+      }
+    }
+  }
+}

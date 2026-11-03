@@ -1,0 +1,54 @@
+{
+  "id": "mna_s02_mamut_iztapan",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "26dc95c4b42196a5",
+      "texto": "Recriação do Mamute de Santa Isabel Iztapan II"
+    },
+    "frase_gancho": {
+      "hash": "09f471e6e7179086",
+      "texto": "Um gigante preso na lama, cercado de caçadores."
+    },
+    "puente_narrativo": {
+      "hash": "47c992e3663d2a06",
+      "texto": "Dos gigantes passamos aos artistas. A próxima vitrine guarda uma peça minúscula comparada ao mamute, mas muito mais antiga em significado: um osso entalhado com o rosto de um animal."
+    },
+    "guion_corto": {
+      "hash": "ebd9eee6f71b4e8b",
+      "texto": "Esta cena recria uma das grandes descobertas da arqueologia mexicana: o mamute de Santa Isabel Iztapan, às margens do antigo lago de Texcoco. Um mamute imperial, com mais de três metros de altura, ficou preso na lama há cerca de onze mil anos, e um grupo de caçadores o matou e o esquartejou ali mesmo. Sabemos disso porque, entre seus ossos, apareceram as pontas de pedra com que o atacaram e as facas com que cortaram a carne. Foi uma prova decisiva: no México, pessoas e mamutes haviam coexistido. Para esses bandos, um animal assim significava carne para muitas semanas, pele para agasalho e ossos para ferramentas."
+    },
+    "guion_largo": {
+      "hash": "f4af8e46343f8e61",
+      "texto": "Tudo começou com uma vala. Em 1952, alguns trabalhadores cavavam para instalar um sistema de drenagem no povoado de Santa Isabel Iztapan, perto de Texcoco, e toparam com ossos enormes. Foram chamados os especialistas do INAH, entre eles o arqueólogo Luis Aveleyra e o paleontólogo Manuel Maldonado-Koerdell, que confirmaram que eram de um mamute. Entre os ossos do primeiro exemplar apareceu também algo inesperado: ferramentas de pedra. Dois anos depois, a cerca de trezentos e cinquenta metros, surgiu um segundo mamute, o que hoje conhecemos como Mamute 2, e com ele veio a prova que faltava: pontas de projétil entre as costelas, dos tipos Lerma e Angostura, e uma faca. Era uma evidência de manual: os caçadores haviam matado e esquartejado o animal, e deixado ali suas armas.\n\nPara entender o valor dessa descoberta, é preciso lembrar o debate da época. Nos Estados Unidos, os achados de Folsom e de Clovis, nos anos vinte e trinta, já tinham demonstrado que havia seres humanos caçando animais extintos. No México, faltava a prova. Iztapan a deu ao país: aqui também, há mais de dez mil anos, houve pessoas no vale.\n\nTente imaginar aquela paisagem. O vale do México era um conjunto de lagos rasos, cercados de pastagens frias e bosques de pinheiros. Havia cavalos, bisões, camelídeos, preguiças-gigantes e mamutes. Os caçadores, em pequenos bandos, aproveitavam as margens lamacentas: um animal de várias toneladas afundava na lama e ficava vulnerável. Mesmo assim, matar um deles era perigosíssimo e exigia cooperação absoluta. E atenção à imagem que temos na cabeça: esses bandos não viviam de mamute o ano inteiro. Coletavam plantas, caçavam coelhos e veados, e um mamute era uma espécie de prêmio máximo, dos que se contam por gerações.\n\nCada parte do animal tinha uso. A carne era comida fresca ou posta para secar. A pele servia de agasalho e para cobrir tendas. Os tendões eram corda, e os ossos, ferramentas e suporte. As presas, de marfim, podiam ser entalhadas. Ainda hoje, quando os paleontólogos limpam um esqueleto assim, encontram marcas de corte nos ossos que contam, quase como um documento, como foi o esquartejamento.\n\nHá um fio que liga este mamute ao pátio de onde você partiu. Aquele tanque do museu lembra o lago de Texcoco, e este animal morreu em sua margem, milhares de anos antes de existir Tenochtitlan. O mesmo lago viu o mamute, os caçadores, as aldeias de Tlatilco e a capital Mexica. Quando você voltar à luz do pátio, olhe a água com essa memória.\n\nPor fim, uma pergunta incômoda: por que os mamutes desapareceram? Isso é discutido. O clima esquentou ao fim da última glaciação, as pastagens mudaram, e os caçadores talvez tenham acelerado um declínio que já estava em curso. O certo é que, depois do seu desaparecimento, a vida dos bandos teve que mudar. E essa mudança, feita de sementes, de pedra polida e de paciência, é o fio que esta Sala segue até chegar à agricultura."
+    },
+    "retos_observacion": {
+      "hash": "a03d2d45b4ca9eed",
+      "texto": [
+        "Procure entre os restos as pontas de pedra e a faca que os caçadores deixaram",
+        "Observe a escala do mamute em comparação com as figuras humanas da cena",
+        "Identifique o fundo de lama que simula a margem do lago"
+      ]
+    },
+    "especificaciones": {
+      "hash": "00b353a941400d3d",
+      "texto": {
+        "Cultura": "Caçadores-coletores do Estágio Lítico; espécie Mammuthus imperator Leidy",
+        "Período": "Cenolítico Inferior (9500-7000 a.C.)",
+        "Material": "Ossada fóssil desmembrada de mamute, associada a pontas de pedra Lerma e Angostura, integrada a um diorama",
+        "Procedência": "Santa Isabel Iztapan, Texcoco, Estado do México"
+      }
+    },
+    "faq_mito": {
+      "hash": "81991ca40a789e39",
+      "texto": {
+        "pregunta": "Mito: O mamute caiu em uma armadilha de fosso construída pelos astecas.",
+        "respuesta": "Realidade: Ele morreu há cerca de onze mil anos à margem de um lago, pelas mãos de caçadores do Pleistoceno, milhares de anos antes de os astecas existirem."
+      }
+    }
+  }
+}

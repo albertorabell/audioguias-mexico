@@ -1,0 +1,63 @@
+{
+  "id": "mna_s08_luchador_olmeca",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "d35c83ac401ef501",
+      "texto": "O Lutador Olmeca"
+    },
+    "frase_gancho": {
+      "hash": "722423cdf935af61",
+      "texto": "Uma figura de pedra que parece prestes a se mover, aprisionada há três mil anos."
+    },
+    "puente_narrativo": {
+      "hash": "9624e6261b2845cd",
+      "texto": "Do instante passamos ao mistério. Procure um jovem sentado que sustenta nos braços uma criança adormecida com traços de jaguar: a obra de pedra verde mais famosa dos olmecas."
+    },
+    "guion_corto": {
+      "hash": "8489090d7741e570",
+      "texto": "Esta escultura de basalto escuro mede cerca de sessenta e seis centímetros e foi encontrada em Antonio Plaza, perto do rio Uxpanapa, em Veracruz. Ela é chamada de “o Lutador” por causa de sua postura, embora não saibamos com certeza o que representa. Está sentado no chão, com as pernas flexionadas e o torso virado para um lado, enquanto levanta os dois braços dobrados. Tem a cabeça raspada, bigode e uma barba aparada. O que surpreende é o movimento: quase todas as esculturas de sua época são rígidas e frontais; esta, ao contrário, parece capturar um instante. Repare como os músculos do peito e das costas se tensionam. É uma das grandes obras-primas da escultura antiga da América."
+    },
+    "guion_largo": {
+      "hash": "8d50fae87f3161cb",
+      "texto": "Faça o teste: contorne esta escultura devagar. Cada lado oferece uma figura diferente, e essa é a sua primeira lição: ela foi pensada para ser vista de todos os ângulos, não apenas de frente, como quase todas as esculturas de seu tempo. O artista olmeca quis que o espectador desse a volta e que, ao fazê-lo, visse o corpo girar.\n\nO nome engana. Chamaram-no de “o Lutador” porque sua postura lembra a de um lutador em plena manobra. Mas não sabemos se ele era um, nem se se trata de um sacerdote, um jogador de bola ou um dignitário, nem o que estava fazendo. Os especialistas propuseram várias ideias; nenhuma é definitiva. Talvez não fosse uma ação: talvez fosse um instante de um ritual, um giro de dança ou o momento de um transe.\n\nRepare na cabeça. Está raspada, e o rosto tem bigode e uma barba aparada. Na Mesoamérica, os homens costumavam ter pouca barba, e por isso as figuras barbadas são raras; pensa-se que isso indicava maturidade e hierarquia. É um rosto individual, de alguém com nome e trajetória, não um tipo genérico.\n\nAgora olhe o corpo. As clavículas, os peitorais e a coluna vertebral foram esculpidos com uma suavidade que quase faz esquecer que é pedra dura. O torso se inclina, os ombros giram, os braços se levantam dobrados: há tensão, há força, há equilíbrio. Quem o fez observou corpos de verdade. E o fez sem ferramentas de metal: com pedras mais duras e com areia, com a mesma paciência com que foi lapidada a [taça de cristal de rocha](mna_s07_copa_cristal_roca) de Oaxaca. Basta imaginar quantos dias, ou talvez meses, de desgaste lento foram necessários para conseguir uma única curva do ombro.\n\nEsta peça conta algo importante: a arte olmeca não é só cabeças gigantes. Ao lado do poder frio das cabeças colossais, há um naturalismo capaz de captar o movimento. Vários séculos antes de os escultores gregos polirem seus atletas em mármore, alguém na selva do sul de Veracruz já tinha conseguido um corpo em tensão.\n\nMais um detalhe sobre o lugar onde ele apareceu. Não foi nos grandes centros olmecas, San Lorenzo ou La Venta, mas longe deles, em plena selva. É um lembrete de que o território olmeca era amplo, e de que sob a vegetação ainda restam peças por encontrar.\n\nE agora, um desafio para o corpo. Tente imitar sua postura: as pernas flexionadas, o torso virado, os braços dobrados no alto. Você vai ver que não é fácil sustentá-la nem por um minuto. O escultor conseguiu que a pedra parecesse fazê-lo sem esforço, e isso, mais do que a força, é o que o torna um mestre.\n\nCompare-o com [os Danzantes](mna_s07_danzante_montealban) de Monte Albán, que você viu há alguns minutos. Aqueles corpos eram frouxos, inertes, de vencidos. Este é o contrário: um corpo vivo, em pleno controle de si mesmo. Duas maneiras opostas de representar o corpo humano, e as duas, em pedra."
+    },
+    "retos_observacion": {
+      "hash": "07496e260584c929",
+      "texto": [
+        "Contorne a escultura: como a figura muda a partir de cada lado?",
+        "Procure a barba e o bigode",
+        "Repare no giro do torso e em como os braços se tensionam"
+      ]
+    },
+    "especificaciones": {
+      "hash": "82321a7df6dd0f77",
+      "texto": {
+        "Cultura": "Olmeca",
+        "Período": "Pré-clássico Médio",
+        "Material": "Basalto",
+        "Procedência": "Antonio Plaza, município de Jesús Carranza, Veracruz",
+        "Dimensões": "0,66 m de altura x 0,40 m de largura x 0,42 m de espessura",
+        "Achado": "Descoberto por acaso em 1933 por um camponês que arava a terra"
+      }
+    },
+    "faq_mito": {
+      "hash": "7d8d86bb1fdf6c8c",
+      "texto": {
+        "pregunta": "Mito: As esculturas olmecas eram rígidas e frontais, sem movimento.",
+        "respuesta": "Realidade: O Lutador gira o torso, tensiona os músculos e foi feito para ser visto de todos os lados: uma exceção surpreendente em sua época."
+      }
+    }
+  }
+}

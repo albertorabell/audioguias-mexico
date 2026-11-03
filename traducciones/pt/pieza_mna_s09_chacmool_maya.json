@@ -1,0 +1,63 @@
+{
+  "id": "mna_s09_chacmool_maya",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "cdc1f808fa47a780",
+      "texto": "Chac Mool de Chichén Itzá"
+    },
+    "frase_gancho": {
+      "hash": "ecc995f3bb7d77d6",
+      "texto": "Um homem recostado, com a cabeça virada, que leva as oferendas aos deuses."
+    },
+    "puente_narrativo": {
+      "hash": "ecc000e1c39e8ddf",
+      "texto": "Do Chac Mool passamos à arquitetura. Saia para o jardim da sala e procure um templo que guarda cópias de umas pinturas famosas, as que os maias fizeram na selva de Chiapas."
+    },
+    "guion_corto": {
+      "hash": "aba540b879cfafd8",
+      "texto": "Esta escultura de pedra calcária mede mais de um metro de altura e quase um metro e meio de comprimento. Vem de Chichén Itzá, em Yucatán, e foi feita entre os anos novecentos e mil e duzentos. É um Chac Mool: um homem recostado de costas, com os joelhos dobrados e a cabeça virada para você. Sobre o ventre, segura um recipiente redondo para as oferendas: copal, comida, talvez corações. Repare nos detalhes: grandes orelheiras quadradas, um peitoral em forma de borboleta, sandálias com calcanheira. Tem o rosto oval e uma expressão neutra, difícil de ler. Não é um deus nem um rei: acredita-se que seja um mensageiro entre os homens e os deuses."
+    },
+    "guion_largo": {
+      "hash": "4cc90744153d484f",
+      "texto": "Na Sala dos toltecas deixei uma pergunta para você: quem influenciou quem, Tula em Chichén Itzá, ou Chichén Itzá em Tula? Aqui está o outro lado dela. Este Chac Mool vive no mundo maia, a mais de mil quilômetros de Tula, e é muito parecido com o tolteca. Como se a pergunta não tivesse uma resposta simples.\n\nO que sabemos é que, por volta do ano novecentos, Chichén Itzá era uma cidade enorme, com edifícios que misturavam elementos maias e do centro do México. Ali está o Templo dos Guerreiros, com suas colunas de guerreiros quase idênticas às de Tula. E na entrada ou no topo de vários templos, um Chac Mool. Alguns acreditam que chegaram toltecas; outros, que foi um intercâmbio entre dois mundos poderosos; outros, que Chichén era até anterior a Tula. Os especialistas continuam discutindo, e talvez mais de uma teoria tenha razão.\n\nPense no que ele fazia. Essa cabeça virada de repente para um lado parece que acabou de ouvir seus passos. Ficava na entrada de um templo, para vigiar e receber quem chegava. E no recipiente do ventre deixavam-se copal, plumas, jade, comida e, talvez, os corações de sacrifício. A figura era um intermediário: aquele que levava os presentes dos homens até os deuses. Cada oferenda passava por suas mãos. É um gesto de serviço: não é o deus que recebe, mas quem entrega, e por isso seu corpo está sempre em tensão.\n\nSobre o nome você já conhece a história: foi dado por Augustus Le Plongeon no século dezenove, acreditando que fosse o retrato de um rei. Não era, e não sabemos como o chamavam. Mas o nome ficou e hoje serve para todas as esculturas desse tipo, de Tula até Yucatán.\n\nE também há mais a oeste. Na sala do Ocidente você verá outro Chac Mool, o dos purépechas, feito em pedra vulcânica no que hoje é Michoacán. É uma das imagens mais viajadas do México antigo: de Tula a Yucatán, de Yucatán ao Templo Mayor, dali a Michoacán. Uma forma de estar recostado que todo mundo entendeu.\n\nChichén Itzá significa algo como «na boca do poço dos itzáes». O poço é um cenote sagrado, no qual se jogavam oferendas. Ali foram recuperados objetos de jade, ouro, copal e outros tesouros. É uma pista de quanto valia a água, e de quanto se pedia a ela.\n\nCom esta peça se encerra o percurso pela Sala Maia, que começou com [Pakal](mna_s09_mascara_pakal) no ano 683. Entre ele e este Chac Mool passaram-se entre dois e cinco séculos, e muitas mudanças. Por volta do ano novecentos, várias grandes cidades do sul maia foram abandonadas. Mas o mundo maia continuou, no norte, com Chichén Itzá e depois Mayapán. E continua hoje, com milhões de pessoas que falam línguas maias. Não é um mistério que desapareceu: é uma cultura que continua."
+    },
+    "retos_observacion": {
+      "hash": "c16972348e907dee",
+      "texto": [
+        "Repare na cabeça: para onde ela olha?",
+        "Observe o recipiente que ele segura sobre o ventre",
+        "Compare a postura dele com a do Chac Mool da Sala dos toltecas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "64e9fb5693638f2b",
+      "texto": {
+        "Cultura": "Maia",
+        "Período": "Pós-clássico Inicial",
+        "Material": "Pedra calcária",
+        "Procedência": "Chichén Itzá, Yucatán",
+        "Dimensões": "1,10 m de altura x 1,48 m de largura",
+        "Descoberta": "Século XIX, por Augustus Le Plongeon, na Plataforma de Vênus de Chichén Itzá"
+      }
+    },
+    "faq_mito": {
+      "hash": "16a968d291d57d38",
+      "texto": {
+        "pregunta": "Mito: Os maias desapareceram misteriosamente depois do ano novecentos.",
+        "respuesta": "Realidade: Muitas cidades do sul foram abandonadas, mas o mundo maia continuou no norte. Hoje milhões de pessoas falam línguas maias."
+      }
+    }
+  }
+}

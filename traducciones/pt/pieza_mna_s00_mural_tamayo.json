@@ -1,0 +1,55 @@
+{
+  "id": "mna_s00_mural_tamayo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6eb8cc32697d184b",
+      "texto": "Mural “A Dualidade” de Rufino Tamayo"
+    },
+    "frase_gancho": {
+      "hash": "196efd3cd4b55190",
+      "texto": "Dois animais que sustentam o equilíbrio do universo."
+    },
+    "puente_narrativo": {
+      "hash": "38baafb3e63a4b7b",
+      "texto": "Continue em frente rumo ao pátio. Ali, sob uma coluna única que sustenta um teto enorme, está O Guarda-chuva, o coração do edifício."
+    },
+    "guion_corto": {
+      "hash": "861c8c650d526b1f",
+      "texto": "Você está diante de “Dualidade”, o mural que Rufino Tamayo pintou em 1964 no vestíbulo do museu: mais de doze metros de comprimento, com dois animais frente a frente. À esquerda, sob um céu vermelho de amanhecer, uma serpente emplumada de verde: Quetzalcóatl, a luz e a vida. À direita, sobre um azul noturno com lua e estrelas, um jaguar que salta com as presas abertas: Tezcatlipoca, a noite. Não é uma batalha com vencedor. Na Mesoamérica, o mundo se sustentava porque os opostos precisavam um do outro: dia e noite, vida e morte, calor e frio. Tamayo não copiou códices: contou isso com cor moderna e uma superfície áspera, quase de muro antigo."
+    },
+    "guion_largo": {
+      "hash": "55c37c7de66c5e6b",
+      "texto": "Se fosse preciso resumir em uma imagem o que você vai ver neste museu, seria esta. Os povos da Mesoamérica pensavam que o universo não era uma linha reta, mas um equilíbrio em movimento, feito de pares que se opõem e se completam. Os Mexica levavam isso até o ponto mais alto: no princípio havia um casal divino, Ometecuhtli e Omecíhuatl, o Senhor e a Senhora da Dualidade, que viviam no último céu e dos quais nascia todo o resto. “Ome” quer dizer “dois”.\n\nRufino Tamayo entendeu assim. Nasceu em Oaxaca em 1899, de origem zapoteco, e, ao contrário de outros muralistas da sua geração, preferiu não contar episódios políticos com muitos personagens. Quis falar de símbolos e de cor, e por isso, aqui, há apenas dois animais e um grande silêncio entre eles. O museu encomendou o mural para a sua inauguração, em 1964, e o colocou no vestíbulo, por onde todo visitante passa antes de entrar nas salas.\n\nObserve como ele trabalha a cor. A serpente é verde e surge de um céu vermelho de amanhecer, e seu corpo se curva com suavidade. O jaguar é alaranjado e parece cair sobre ela, rodeado por um azul profundo salpicado de estrelas e de lua. São cores opostas, e por isso vibram. Tamayo sabia que as cores complementares ficam mais intensas quando estão juntas. É a mesma ideia dos deuses: eles se potencializam porque não são iguais. Além disso, o jaguar era o animal de Tezcatlipoca, “Espelho Fumegante”, e sua pele manchada era lida como um céu noturno cheio de estrelas.\n\nQuetzalcóatl e Tezcatlipoca eram rivais e irmãos ao mesmo tempo. Na lenda que se conta em Tula, Tezcatlipoca enganou Quetzalcóatl com um espelho e o obrigou a fugir. Quando você chegar à Sala Tolteca, verá por que essa história foi tão importante. E na Sala Mexica, a mesma tensão aparece de outra maneira: Huitzilopochtli, o sol, vence [Coyolxauhqui](mna_s06_coyolxauhqui), a lua, em um combate que se repete todos os dias.\n\nHá outro detalhe que torna este mural especial. Tamayo reuniu durante anos uma enorme coleção de peças pré-hispânicas e a doou à sua cidade natal; hoje é o Museu Rufino Tamayo, em Oaxaca. Ou seja: ele não pintou este mural como um decorador, mas como um colecionador apaixonado por esse mundo. E essa raiz oaxaquenha tem eco no museu: na Sala Oaxaca você vai conhecer [Cocijo](mna_s07_urna_cocijo), o deus zapoteco da chuva, parente do [Tláloc da entrada](mna_s00_monolito_tlaloc).\n\nAntes de seguir, reserve um momento diante do mural. Olhe primeiro para o animal que mais chamar a sua atenção e depois observe como o outro o equilibra. Depois faça o exercício de procurar pares, porque a partir daqui você vai vê-los por toda parte. A águia e o jaguar. O dia e a noite. A vida e a morte. O masculino e o feminino. A água e o fogo. Cada vez que você descobrir um, estará lendo o museu como o liam seus criadores."
+    },
+    "retos_observacion": {
+      "hash": "b57900c5e6e72f36",
+      "texto": [
+        "Compare as cores dos dois lados: vermelho e verde contra azul e laranja",
+        "Procure a lua e as estrelas sobre o jaguar",
+        "Aproxime-se para ver a superfície áspera da pintura"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9772370b019a1aee",
+      "texto": {
+        "Cultura": "Rufino Tamayo (1899-1991), muralismo e arte moderna mexicana",
+        "Período": "1964",
+        "Material": "Tinta vinílica sobre tela montada em chassi, com textura de areia de mármore",
+        "Localização": "Parede esquerda do vestíbulo principal (entrada do Auditório Jaime Torres Bodet)",
+        "Dimensões": "3,53 m de altura x 12,21 m de comprimento"
+      }
+    },
+    "faq_mito": {
+      "hash": "3b11ccdb3f6d1b2f",
+      "texto": {
+        "pregunta": "Mito: O mural de Tamayo mostra uma batalha entre astecas e espanhóis.",
+        "respuesta": "Realidade: Mostra a dualidade mesoamericana, duas forças opostas que precisam uma da outra: a serpente emplumada (o dia) e o jaguar (a noite)."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "mna_s08_adolescente_huasteco",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2059d3b514ca4506",
+      "texto": "Escultura do Adolescente Huasteco de Tamuín"
+    },
+    "frase_gancho": {
+      "hash": "87de2e3353d196ab",
+      "texto": "Um jovem de pedra, gravado de milho, que carrega uma criança nas costas."
+    },
+    "puente_narrativo": {
+      "hash": "4066bce1cd9b3364",
+      "texto": "Do jovem de milho, subimos rumo ao norte de Veracruz, aonde também chegou o império mexica. Procure uma estela de pedra com um deus de pé, de toucado alto em forma de cone e uma máscara sobre a boca."
+    },
+    "guion_corto": {
+      "hash": "959a89e2bc13e15c",
+      "texto": "Este jovem de pedra, com mais de um metro de altura, vem de Tamuín, em San Luis Potosí, e é uma das esculturas mais célebres dos huastecos. Está de pé, magro e nu, com o corpo ereto e a cabeça raspada. Sua metade esquerda é lisa, e a direita está coberta de desenhos gravados: pés e espigas de milho, e cabeças do deus do vento. Parece uma tatuagem, ou uma pintura ritual, transformada em pedra. Nas costas, carrega uma criança pequena. É o Sol que nasce? É o milho tenro? É uma divindade? Ninguém sabe com certeza. O que vemos, sim, é um corpo que parece um campo semeado."
+    },
+    "guion_largo": {
+      "hash": "e6fbdca68401d891",
+      "texto": "Olhe bem para este corpo: é uma página escrita. O que parece um simples jovem nu é, na verdade, um corpo coberto de mensagens, e quem souber lê-las verá todo o ciclo do milho.\n\nComece pela divisão. O lado esquerdo é liso e polido, quase sem decoração. O direito, o braço, a perna e as costas estão cobertos de desenhos gravados na pedra. Parecem tatuagens, cicatrizes ornamentais ou pintura corporal ritual. Lembre-se da sala de introdução: o corpo como tela, algo que os povos da Mesoamérica levaram a muitos extremos. Aqui, o escultor decidiu mostrar os dois estados ao mesmo tempo: o corpo sem adornos e o corpo já vestido de símbolos.\n\nOs desenhos são plantas de milho, espigas, símbolos do céu e cabeças do deus do vento. Ou seja, este jovem leva o campo na pele. Já se interpretou que ele próprio é o milho: esbelto, ereto e tenro, como uma planta que brota. Para os huastecos, que viviam da roça de milho em uma região de chuvas abundantes, cada plantinha era uma vida, e o corpo humano e a planta eram quase a mesma coisa.\n\nE há a criança que ele leva nas costas. Quem é? Foram propostas várias ideias. Talvez o Sol recém-nascido; talvez o milho jovem; talvez uma divindade. Alguns especialistas a relacionam com o deus do vento, Ehécatl-Quetzalcóatl, que varria os caminhos para que chegassem as chuvas, e cujo emblema, o caracol cortado, você viu no tanque do pátio. Há quem veja aqui o próprio deus, jovem, carregando o amanhecer de uma nova era. Não há uma resposta única.\n\nAgora, um dado surpreendente. Os huastecos falam teenek, uma língua que pertence à família maia, embora vivam a mais de mil quilômetros dos maias do sul, com muitos outros povos no meio do caminho. Os linguistas pensam que, há muitos séculos, um grupo de língua maia se separou do resto e ficou no norte do Golfo, onde conservou seu idioma e desenvolveu sua própria arte. Se você pensar bem, é uma viagem enorme: uma língua que atravessou a história da Mesoamérica sem se perder.\n\nOs huastecos foram grandes escultores. Suas figuras de pedra costumam ser frontais, com toucados altos e gestos solenes, às vezes nuas e com símbolos de fertilidade. Esta é uma das mais refinadas: o equilíbrio entre a parte lisa e a gravada, e a delicadeza do contorno, a colocam entre as obras-primas do museu.\n\nAntes de seguir, olhe mais uma vez os detalhes. O rosto é sereno, os braços descansam sobre o peito e o ventre, e as orelheiras curvas pendem como pequenos ganchos. É um jovem, mas também uma planta, um dia e um deus. E tudo cabe em uma única pedra.\n\nUm último detalhe: pensa-se que esta escultura fez parte de um espaço cerimonial, e que não era um adorno, mas uma imagem para o culto da fertilidade. Diante dela, talvez, se pedia chuva e boa colheita. Hoje se pede algo mais simples: que você pare um momento para olhá-la."
+    },
+    "retos_observacion": {
+      "hash": "d140d22e0e50e090",
+      "texto": [
+        "Compare a metade esquerda, lisa, com a direita, gravada",
+        "Procure os pés e as espigas de milho no lado direito",
+        "Repare na criança que ele leva nas costas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bed288d1421034ba",
+      "texto": {
+        "Cultura": "Huasteca",
+        "Período": "Pós-clássico Inicial (900-1200 d.C.)",
+        "Material": "Arenito fino",
+        "Procedência": "Sítio de Consuelo, Tamuín, San Luis Potosí",
+        "Dimensões": "145 cm de altura x 41 cm de largura x 17,8 cm de espessura"
+      }
+    },
+    "faq_mito": {
+      "hash": "9a6f82206ad91b41",
+      "texto": {
+        "pregunta": "Mito: Os huastecos eram um povo maia, como os da sala seguinte.",
+        "respuesta": "Realidade: Eles falam uma língua da família maia, mas sua cultura, sua arte e sua história se desenvolveram separadamente, longe dos maias do sul."
+      }
+    }
+  }
+}

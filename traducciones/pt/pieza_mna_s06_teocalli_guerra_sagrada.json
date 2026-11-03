@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_teocalli_guerra_sagrada",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "975d0f20bf813e40",
+      "texto": "Teocalli da Guerra Sagrada"
+    },
+    "frase_gancho": {
+      "hash": "5e300bc9f716c978",
+      "texto": "Um templo em miniatura onde nasce a imagem do Brasão Nacional do México."
+    },
+    "puente_narrativo": {
+      "hash": "85713be3c527b43f",
+      "texto": "Nesta pedra, a águia já não segura uma serpente, e sim a guerra. Aproxime-se de um enorme tambor de pedra em que um rei segura pelos cabelos quinze chefes vencidos."
+    },
+    "guion_corto": {
+      "hash": "21908d0e634867c1",
+      "texto": "Este é o Teocalli da Guerra Sagrada, um templo em miniatura esculpido em um único bloco de basalto, com pouco mais de um metro de altura. Os pesquisadores concordam que ele serviu como trono cerimonial de Moctezuma Xocoyotzin. Na frente, tem a escadaria de um templo; no alto, o disco do Sol e duas figuras que sangram as próprias orelhas: o deus Huitzilopochtli e o próprio Moctezuma. A face mais famosa é a de trás: uma águia pousada sobre um nopal que brota do corpo da Terra. Repare no bico: ela não segura uma serpente, e sim um símbolo, o atl-tlachinolli, «água queimada», a expressão com que os mexicas diziam «guerra»."
+    },
+    "guion_largo": {
+      "hash": "386dfa644cfa3a95",
+      "texto": "Se você pudesse dar a volta nesta pedra, descobriria a imagem que viu na fachada do museu e que está na bandeira do México. Uma águia-real pousada sobre um nopal, que brota de uma figura de pedra, a Terra, que você já conhece. A lenda conta que o deus Huitzilopochtli ordenou ao seu povo que continuasse caminhando até ver uma águia pousada sobre um nopal. Ali deveriam fundar sua cidade. E eles a viram em uma ilhota do lago de Texcoco, no ano 2 Casa, que corresponde a 1325.\n\nMas repare no bico. No brasão moderno, a águia devora uma serpente. Aqui não. Do seu bico sai uma voluta dupla, que se separa em duas correntes: uma de água e outra de fogo. É o glifo atl-tlachinolli, «água queimada», que é um jeito muito mexica de dizer «guerra». O que parece oposto, a água e o fogo, vira uma só palavra. Os historiadores observam que as imagens mais antigas da águia e do nopal não tinham serpente; essa versão surgiu mais tarde.\n\nAgora levante o olhar para a parte de cima, para o santuário do templo em miniatura. Entre os dois personagens há um disco solar, o signo Nahui Ollin, «Quatro Movimento», o mesmo que você verá na [Pedra do Sol](mna_s06_piedra_sol). À esquerda está Huitzilopochtli, com seu capacete de beija-flor; à direita, o tlatoani Moctezuma Xocoyotzin. Os dois furam a orelha com um espinho para oferecer seu sangue ao Sol. É um detalhe importante: o rei e o deus fazem o mesmo. Até os poderosos pagavam a sua parte.\n\nConte também as datas. Uma delas é 2 Cana, o ano de 1507, quando os mexicas celebraram o Fogo Novo, a cerimônia que acontecia a cada cinquenta e dois anos e que você já conhece: apagar todos os fogos e acender um novo. Foi o último Fogo Novo vivido pelos mexicas; o seguinte teria sido em 1559, mas até lá o império já havia caído. Este templo em miniatura marca o último grande ciclo antes do fim.\n\nNas laterais há mais deuses. Reconhece-se Tláloc, o deus da chuva; Xiuhtecuhtli, o Senhor do Fogo, o mesmo Deus Velho que você viu em pedra e em barro; [Xochipilli](mna_s06_xochipilli), o deus das flores, que você verá daqui a pouco; e Tlahuizcalpantecuhtli, o Senhor da Aurora, o planeta Vênus que era adorado em Tula. O Teocalli é uma espécie de resumo do panteão.\n\nSua história moderna é muito curiosa. Ele foi encontrado sob os alicerces do Palácio Nacional e retirado em 1926. O Palácio Nacional se ergue sobre o que foram os palácios de Moctezuma, e por isso ali apareceram tantas peças. Quem sabe quantas mais dormem sob suas paredes.\n\nE há mais uma coisa. Quando você tirar do bolso uma moeda de pesos e olhar o reverso, verá a águia e o nopal em seu centro. Cinco séculos depois, essa imagem continua sendo vista todos os dias. O Teocalli lembra a você que o emblema nacional não foi inventado em um gabinete: ele saiu de uma pedra, de um mito e de uma fundação sobre a água."
+    },
+    "retos_observacion": {
+      "hash": "f96b9acc94c9d79e",
+      "texto": [
+        "Conte os degraus da escadaria",
+        "Procure as duas figuras que sangram as orelhas junto ao disco do Sol",
+        "Dê a volta e procure a águia do nopal: o que sai do bico dela?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9f07c574a19b4a3f",
+      "texto": {
+        "Cultura": "Mexica",
+        "Período": "Pós-clássico Tardio (1200-1521 d.C.)",
+        "Material": "Basalto e pigmento vermelho",
+        "Procedência": "Centro Histórico, Cidade do México (Palácio Nacional)",
+        "Dimensões": "123 cm de altura x 92 cm de largura x 100 cm de espessura"
+      }
+    },
+    "faq_mito": {
+      "hash": "e48efe4c249c8e6b",
+      "texto": {
+        "pregunta": "Mito: No escudo mexica, a águia sempre devorava uma serpente.",
+        "respuesta": "Realidade: Nesta pedra, do bico dela sai o símbolo da guerra, não uma serpente; segundo vários historiadores, a serpente se popularizou em versões posteriores do emblema."
+      }
+    }
+  }
+}

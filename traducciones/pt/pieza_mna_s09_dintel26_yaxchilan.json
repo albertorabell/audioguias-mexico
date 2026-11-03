@@ -1,0 +1,63 @@
+{
+  "id": "mna_s09_dintel26_yaxchilan",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "4c83064b535fee69",
+      "texto": "Lintel 26 de Yaxchilán"
+    },
+    "frase_gancho": {
+      "hash": "1f663bf3dbc63fc8",
+      "texto": "Uma rainha entrega ao seu rei um capacete de jaguar antes da batalha."
+    },
+    "puente_narrativo": {
+      "hash": "7a85207a60499299",
+      "texto": "Do palácio passamos à praça de outra grande cidade. Procure uma estela alta com um rei de pé sobre um cativo amarrado, com cachos nas laterais do rosto e um toucado de serpente."
+    },
+    "guion_corto": {
+      "hash": "89029f9ec01c1498",
+      "texto": "Este lintel de calcário, com mais de um metro de largura, ficava sobre a porta de um edifício de Yaxchilán, uma cidade às margens do rio Usumacinta, em Chiapas. Ele mostra uma cena que aconteceu, segundo o texto hieroglífico, por volta do ano 724. À esquerda está o rei Escudo Jaguar; diante dele, sua esposa, a rainha Kabal Xook, oferece um capacete de jaguar com as fauces abertas e um escudo flexível: as armas para ir à guerra. Repare nos detalhes: o huipil da rainha, de tecido fino, e os colares de jade. É uma cena íntima, quase cotidiana, mas com um pano de fundo muito sério: a preparação de uma batalha."
+    },
+    "guion_largo": {
+      "hash": "3fa2572b7e1163e4",
+      "texto": "Um casal se prepara para a guerra. Ela segura o capacete; ele, uma arma de sílex. É um momento quase doméstico, congelado na pedra há cerca de mil e trezentos anos. O extraordinário é que sabemos como eles se chamavam: ele, Itzamnaaj Bahlam, conhecido como Escudo Jaguar; ela, a senhora Kabal Xook.\n\nComo sabemos? Porque os maias escreviam. Ao redor da cena há glifos, sinais que formam uma escrita capaz de registrar a língua falada. Durante muito tempo se acreditou que esses sinais falavam apenas de calendários e de deuses. A partir de 1960, a arqueóloga Tatiana Proskouriakoff estudou as inscrições de Yaxchilán e de outras cidades, e mostrou algo revolucionário: elas contavam a história de pessoas reais, com nomes, datas, casamentos, nascimentos e batalhas. Esta peça faz parte dessa história.\n\nEscudo Jaguar governou Yaxchilán durante décadas e mandou erguer muitos edifícios. Sua esposa aparece em vários lintéis deste mesmo edifício. Em outro, ela é vista fazendo um autossacrifício: passa uma corda com espinhos pela língua para oferecer o próprio sangue aos deuses. Você já viu essa ideia, a do sangue como alimento, na [palma de pedra](mna_s08_palma_sacrificio) da sala anterior. Aqui a protagonista é uma mulher, e ela o faz como parte dos ritos da corte.\n\nIsso nos diz algo importante: entre os maias, as mulheres da nobreza podiam ter um papel político e ritual muito visível. Não eram figuras decorativas. Aqui a rainha entrega o capacete, o escudo e o peitoral: sem esse gesto, o rei não ia à guerra. Pensa-se que essa entrega abençoava a campanha.\n\nYaxchilán fica numa curva do rio Usumacinta, em plena selva, e durante séculos só se chegava lá de barco ou abrindo caminho entre a vegetação. No final do século dezenove, exploradores como Alfred Maudslay e Teobert Maler o documentaram, e alguns lintéis do mesmo edifício acabaram no Museu Britânico, em Londres. Este chegou à capital mexicana na década de 1960, para a inauguração deste museu.\n\nRepare também no jaguar. Para os maias, o jaguar era o senhor da noite, aquele que caminhava pelo mundo inferior com o Sol quando ele se ocultava. Vestir o seu capacete era tomar a sua força. Você já o viu no [jaguar de pedra da Sala Mexica](mna_s06_ocelotl_cuauhxicalli) e no menino-jaguar olmeca. Um símbolo que viajou por três mil anos.\n\nOlhe o huipil da rainha. É uma peça que ainda hoje se tece: nas salas de cima você verá huipils de mulheres maias atuais, com desenhos que lembram os de séculos atrás. A técnica do tear de cintura, com a qual ele é feito, tem uma longa história.\n\nE um último detalhe. No canto superior do lintel aparece gravada uma pequena inscrição hieroglífica que parece conter o nome do artista. Os escultores maias, às vezes, assinavam suas obras. Um escultor que quis que soubéssemos que ele esteve ali. E nós sabemos."
+    },
+    "retos_observacion": {
+      "hash": "848d96d4a7eef3e0",
+      "texto": [
+        "Procure o capacete de jaguar com as fauces abertas que a rainha segura",
+        "Olhe o huipil e o colar da rainha",
+        "Encontre os glifos no canto superior do lintel"
+      ]
+    },
+    "especificaciones": {
+      "hash": "93d2a8ffbd7b27cd",
+      "texto": {
+        "Cultura": "Maia",
+        "Período": "Clássico Tardio (600-900 d.C.); dedicado por volta de 725 d.C.",
+        "Material": "Calcário",
+        "Procedência": "Yaxchilán, Chiapas (Estrutura 23)",
+        "Dimensões": "0,85 m de altura x 1,05 m de largura x 0,16 m de espessura",
+        "Descoberta": "1881, por Edwin Rockstroh, nas ruínas de Yaxchilán"
+      }
+    },
+    "faq_mito": {
+      "hash": "399085c552a5ec98",
+      "texto": {
+        "pregunta": "Mito: Entre os maias, as mulheres nunca tiveram poder.",
+        "respuesta": "Realidade: Houve rainhas e mulheres da nobreza com um papel público. Kabal Xook aparece em vários monumentos de Yaxchilán ao lado de seu esposo."
+      }
+    }
+  }
+}

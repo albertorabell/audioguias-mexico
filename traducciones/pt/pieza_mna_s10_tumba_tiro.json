@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_tumba_tiro",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c9cb77d10938eab8",
+      "texto": "Recriação de Tumba de Poço com mobiliário funerário"
+    },
+    "frase_gancho": {
+      "hash": "6113a3dc10a7baec",
+      "texto": "Um poço profundo e uma câmara com figuras: assim se enterrava no Ocidente."
+    },
+    "puente_narrativo": {
+      "hash": "95d266ea1d4fcdd6",
+      "texto": "Nas tumbas havia companheiros e guardiões. Procure primeiro os cães de barro vermelho, redondos e brilhantes, com o corpo gordo e as orelhas atentas."
+    },
+    "guion_corto": {
+      "hash": "1ca95d7a9fb7139b",
+      "texto": "Você está diante da reconstrução de uma tumba de poço, a forma de enterrar própria de Jalisco, Nayarit e Colima há cerca de dois mil anos. A ideia é simples: cavava-se um poço vertical, com vários metros de profundidade, e no fundo abriam-se uma ou várias câmaras. Ali eram depositados os mortos, acompanhados de figuras de barro, vasilhas com alimentos e joias. Diferentemente do Altiplano, aqui não se levantaram grandes pirâmides: a monumentalidade estava debaixo da terra. Observe o contraste entre o poço, estreito e vertical, e a câmara, ampla e abobadada. E as figuras ao redor: guerreiros, músicos, casais. É um mundo inteiro enterrado para acompanhar os mortos."
+    },
+    "guion_largo": {
+      "hash": "a59781f3c59cea55",
+      "texto": "Compare três maneiras de pensar a morte. Em Palenque, o rei [Pakal](mna_s09_mascara_pakal) foi enterrado no interior de uma pirâmide, ao fim de uma escadaria. Em Monte Albán, numa câmara de pedra com pinturas, como a [Tumba 104](mna_s07_tumba_104). E aqui, no Ocidente, num poço debaixo da terra. Três regiões, três arquiteturas da morte e um mesmo desejo: que o morto tivesse companhia e uma boa viagem.\n\nAlguns especialistas veem na forma destas tumbas, com seu conduto vertical e sua câmara redonda, uma imagem do corpo feminino: o morto voltava ao ventre da terra para renascer. É uma interpretação, mas combina com outras ideias que você já viu, como a de que enterrar é semear.\n\nHá algo ainda mais surpreendente: as tumbas eram usadas várias vezes. O poço era aberto de novo, os restos dos antigos eram movidos e os novos mortos eram colocados. A tumba era a casa de uma família ao longo de gerações, não de uma única pessoa. Por isso se pensa que, na câmara, não vemos um único momento, mas a memória acumulada de uma linhagem.\n\nJunto aos mortos também se deixavam tigelas com sementes de milho, feijão e abóbora, além de joias de caracol marinho. Eram oferendas de verdade: acreditava-se que o morto precisava comer e se apresentar bem em seu novo mundo. Uma tumba era, ao mesmo tempo, despensa, porta-joias e palco.\n\nO mais extraordinário nestas tumbas é o que elas continham. Milhares de figuras de barro, feitas para serem enterradas, que mostram como se vivia: guerreiros com capacete, músicos com trombetas de caracol, casais, mulheres que carregam seus filhos, curandeiros, cães, e até casas com suas famílias dentro e banquetes. Graças a elas conhecemos a vida cotidiana do Ocidente melhor que a de muitas culturas com grandes pirâmides.\n\nTambém foram encontrados edifícios circulares. Em Teuchitlán, Jalisco, descobriu-se um conjunto de pirâmides redondas chamadas Guachimontones, algo muito diferente das pirâmides quadradas do resto do país. Pensa-se que algumas maquetes de barro do Ocidente, com um pequeno pátio redondo e personagens que parecem dançar, mostram justamente os rituais que se faziam ali.\n\nEstas tumbas foram saqueadas durante décadas. Os saqueadores abriam os poços, retiravam as figuras e as vendiam a colecionadores; por isso há tantas peças do Ocidente em museus do mundo, mas sem que saibamos de qual tumba saíram. Uma peça sem contexto perde quase toda a sua história, e por isso esta reconstrução é tão valiosa: ela permite que você imagine como estavam dispostas.\n\nAlguns poços chegam a dezesseis metros de profundidade. Escavá-los com ferramentas de pedra e madeira, numa rocha vulcânica macia, era um trabalho enorme. Isso só se fazia por alguém muito importante.\n\nQuando você se debruçar sobre a reconstrução, pense nisto: o que você vê não está em cima, mas embaixo. O verdadeiro monumento do Ocidente é um vazio debaixo da terra, cheio de gente de barro."
+    },
+    "retos_observacion": {
+      "hash": "57e123dd1ff9fd75",
+      "texto": [
+        "Olhe o poço vertical e a câmara lateral: como eles se conectam?",
+        "Conte quantos tipos diferentes de figuras você consegue encontrar no mobiliário funerário",
+        "Compare o tamanho do poço com a sua própria altura"
+      ]
+    },
+    "especificaciones": {
+      "hash": "03734b94fb91085a",
+      "texto": {
+        "Cultura": "Tradição das Tumbas de Poço (associada às culturas de Nayarit, Colima e Jalisco)",
+        "Período": "Clássico (200 a.C.-600 d.C.)",
+        "Material": "Recriação museográfica com esqueletos humanos, vasilhas de barro, figuras ocas e maciças, metates de pedra, caracóis marinhos e adornos de concha; as câmaras originais eram escavadas em tufo vulcânico ou tepetate",
+        "Procedência": "Recriação baseada em contextos arqueológicos de Nayarit, Colima e Jalisco"
+      }
+    },
+    "faq_mito": {
+      "hash": "bf86c6acc19a37f2",
+      "texto": {
+        "pregunta": "Mito: Todas as culturas da Mesoamérica enterravam seus reis em pirâmides.",
+        "respuesta": "Realidade: No Ocidente se enterrava em poços profundos com câmaras laterais: sua monumentalidade estava debaixo da terra."
+      }
+    }
+  }
+}

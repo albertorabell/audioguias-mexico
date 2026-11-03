@@ -1,0 +1,56 @@
+{
+  "id": "mna_s00_monolito_tlaloc",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7ac6bf97626991ab",
+      "texto": "Monolito de Tláloc"
+    },
+    "frase_gancho": {
+      "hash": "9be6289f8bc31e59",
+      "texto": "O deus da chuva que chegou à cidade com tempestade."
+    },
+    "puente_narrativo": {
+      "hash": "9d732f5f622d9021",
+      "texto": "Do deus que atravessou a cidade passamos ao edifício que o recebe. Aproxime-se da entrada e erga o olhar: o mármore, o bronze e uma malha de alumínio já estão contando outra história."
+    },
+    "guion_corto": {
+      "hash": "e43283e9cdca3241",
+      "texto": "Você está diante do monolito de Tláloc, o deus da chuva: sete metros de altura e cento e sessenta e oito toneladas de pedra vulcânica, uma das maiores esculturas feitas pelos povos do México antigo. Durante séculos ele ficou recostado em uma ravina perto do povoado de San Miguel Coatlinchan, e as pessoas o chamavam de Pedra dos Tecomates. Se hoje você o vê de pé na Reforma, é porque em abril de 1964 ele foi erguido, colocado em um reboque gigante e levado até Chapultepec, escoltado pelo exército. Repare no toucado quadrado, nos olhos como antolhos redondos e nos braços colados ao corpo. E lembre-se disto: contam que, ao entrar na cidade, desabou uma tempestade como poucas. Tláloc havia chegado à sua nova casa."
+    },
+    "guion_largo": {
+      "hash": "cc4c0634ed63f2d7",
+      "texto": "Quando terminar de olhar para ele, faça a si mesmo uma pergunta incômoda: será mesmo Tláloc? Assim todo o México o conhece, mas hoje vários especialistas acham que esta figura poderia ser [Chalchiuhtlicue](mna_s04_chalchiuhtlicue), «a da saia de jade», deusa dos rios e dos lagos e companheira do deus da chuva. A pedra não traz inscrição, seu estilo é geométrico e sem adornos, e costuma-se atribuí-la à época de Teotihuacán. O que é certo é o que ela significava: água, e portanto milho, e portanto vida.\n\nIsso era muito bem compreendido em Coatlinchan, o povoado junto ao qual ela jazia, com a serra às costas e o antigo lago de Texcoco à vista. Os camponeses lhe atribuíam o poder de trazer a chuva para suas colheitas e chamavam de «tecomates» as cavidades redondas que ela tem no peito, porque pareciam vasilhas. Ninguém a via como uma escultura: era uma presença.\n\nE é que Tláloc era uma das divindades mais antigas e poderosas da Mesoamérica. Os teotihuacanos já o pintavam há mais de mil e quinhentos anos, com olhos redondos e presas, e mil anos depois os mexicas ainda lhe pediam chuvas no cume do monte que leva seu nome, a leste do vale, onde tinham um santuário. Seu trabalho era dar água à terra, mas também podia negá-la, ou mandar granizo e raios. Era respeitado e temido.\n\nNo início dos anos sessenta, o arquiteto Pedro Ramírez Vázquez e o secretário de Educação, Jaime Torres Bodet, decidiram que a peça mais monumental que fosse possível mover deveria dar as boas-vindas aos visitantes do novo museu. Convencer o povoado não foi fácil. Em troca, prometeram-se obras para a comunidade, entre elas uma escola, e mesmo assim a despedida foi entre lágrimas: os moradores viam partir algo mais que uma rocha.\n\nMover cento e sessenta e oito toneladas, o peso de uns vinte e cinco elefantes grandes, obrigou a inventar a logística. Foram necessários um reboque especial com muitas rodas, estradas e pontes reforçadas, e escolta militar. A viagem começou em 16 de abril de 1964 e foi lenta, rumo a uma cidade que o esperava com curiosidade. E aqui vem a parte que nenhum livro pode garantir, mas que os moradores mais velhos da capital contam com total segurança: quando a pedra entrou na cidade, choveu, e choveu muitíssimo. Houve inundações em vários bairros. Para a memória popular, foi Tláloc saudando sua nova casa.\n\nAgora observe os detalhes. No toucado quadrado há linhas finas, e os olhos têm aqueles anéis que, na arte mesoamericana, identificam o deus das chuvas. As cavidades do peito talvez servissem para guardar oferendas ou para juntar água da chuva; ninguém sabe com certeza.\n\nGuarde este rosto, porque lá dentro você vai reencontrá-lo. Na Sala de Teotihuacán, um mural mostra uma divindade que distribui chuva sobre um paraíso verde, e uma Chalchiuhtlicue de três metros tem com este gigante um evidente ar de família. E na Sala Mexica você verá que Tláloc compartilhava o topo do Templo Mayor com Huitzilopochtli: dois deuses, um mesmo templo, porque sem sol não há colheita, mas sem chuva também não."
+    },
+    "retos_observacion": {
+      "hash": "f507728807471ca3",
+      "texto": [
+        "Conte as cavidades redondas do peito: são os «tecomates» que deram nome à pedra",
+        "Procure os olhos como antolhos e o toucado quadrado com linhas finas",
+        "Caminhe ao redor e compare seu tamanho com o de uma pessoa: sete metros de altura"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8232ebeb09fd9ff9",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (por volta de 300-600 d.C.)",
+        "Material": "Pedra vulcânica (andesito)",
+        "Procedência": "San Miguel Coatlinchan, Texcoco, Estado do México",
+        "Dimensões": "7,00 m de altura; 168 toneladas de peso",
+        "Traslado": "16 de abril de 1964"
+      }
+    },
+    "faq_mito": {
+      "hash": "e8fbe28db51ea298",
+      "texto": {
+        "pregunta": "Mito: É uma estátua asteca feita em 1964 para enfeitar a entrada do museu.",
+        "respuesta": "Realidade: É muito mais antiga que os astecas; atribui-se à época de Teotihuacán e jazia em uma ravina de Coatlinchan até que, em 1964, foi trazida a Chapultepec."
+      }
+    }
+  }
+}

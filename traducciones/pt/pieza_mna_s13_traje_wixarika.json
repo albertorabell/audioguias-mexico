@@ -1,0 +1,54 @@
+{
+  "id": "mna_s13_traje_wixarika",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc602b4b863c1cf6",
+      "texto": "Traje cerimonial Wixárika (Bordado, miçangas e veado)"
+    },
+    "frase_gancho": {
+      "hash": "7a3c3d1c894fcac4",
+      "texto": "Uma roupa bordada em que cada veado e cada flor é uma oração."
+    },
+    "puente_narrativo": {
+      "hash": "7bf41e7f764a4ad3",
+      "texto": "A roupa bordada tem parentes modernos. Procure, nas bordas da sala, um vitral de cores intensas e alguns biombos de corda, feitos por artistas do século vinte inspirados nesta serra."
+    },
+    "guion_corto": {
+      "hash": "a4596ca68d48a5d2",
+      "texto": "Este traje masculino wixárika é composto de uma camisa e uma calça de tecido branco de algodão, bordadas com fios vermelhos, azuis e amarelos em ponto de cruz. Nas bordas das mangas, na gola e na calça aparecem as flores de peyote, os veados e outros seres sagrados. Da cintura pendem bolsas tecidas, bordadas com os mesmos símbolos, e sobre a cabeça vai um chapéu de palha, enfeitado com penas e borlas. Esta roupa é usada nas cerimônias e na peregrinação. Quem a veste se cobre com as orações e os relatos do seu povo, e cada ponto é uma forma de pedir proteção."
+    },
+    "guion_largo": {
+      "hash": "7a702636ffcbfeb1",
+      "texto": "Repare que o que você viu no nierika se repete aqui. O veado, as flores de peyote, o sol: estão bordados na roupa, não colados em uma tábua. Um wixárika que se veste para uma cerimônia coloca sobre o corpo o mesmo relato que se pinta em um quadro. Na sua cultura, a roupa e o corpo também são um lugar onde o mundo sagrado se torna visível.\n\nA técnica básica é o ponto de cruz: dois pontos em diagonal que formam um X, repetidos até compor o desenho. Acredita-se que seja uma técnica que chegou com os espanhóis, mas que os wixárikas tornaram sua, até fazê-la inconfundível. Usam fios vermelhos, azuis, amarelos, verdes, e o tecido branco funciona como um papel em que se desenha com agulha. Fazer isso bem leva muitas horas, e costuma ser um trabalho de toda a família: uns fiam, outros bordam e outros costuram.\n\nOlhe o chapéu. Tem penas de aves e borlas de lã, e às vezes contas. As penas são um enfeite, mas também uma oferenda, porque a ave que voa liga a terra ao céu. Você se lembra das penas do cocar da Sala Mexica e das araras que eram criadas em Paquimé? As penas têm sido um tesouro ao longo de toda esta história, e aqui continuam sendo.\n\nAs bolsas penduradas na cintura servem para guardar coisas de uso diário e também para levar objetos de cerimônia. São tecidas em tear de cintura, assim como as faixas, e enfeitadas com os mesmos motivos. Essa forma de tecer é a que você viu há pouco no [acervo têxtil](mna_s12_acervo_textil); aqui você a vê aplicada a uma peça com um propósito concreto.\n\nOs wixárikas também são famosos pelas miçangas, essas minúsculas contas de vidro. Antes de as contas chegarem da Europa, usavam-se sementes, conchas e pedras. Hoje se cobrem com contas, coladas com cera, cabaças, máscaras e figuras de animais, em uma arte que deu a volta ao mundo. É outra maneira de transformar paciência em beleza.\n\nQuem faz essas viagens sagradas costuma exercer cargos por vários anos. Os jicareros, por exemplo, servem durante cinco anos como representantes dos ancestrais e cuidam dos templos e dos objetos sagrados. Vestem esta roupa como parte de uma obrigação com sua comunidade. Não é um traje de festa, mas um traje de serviço.\n\nAlgo importante: esta não é uma roupa de fantasia. Em muitas comunidades da serra ela continua sendo usada todos os dias, e nas festas e nas peregrinações é usada com mais cuidado. O traje do museu mostra a versão de gala. Se algum dia você vir um wixárika caminhando por uma cidade com sua roupa tradicional, saberá que ele não está usando um traje, mas uma forma de ser.\n\nEsta sala nos lembra que a beleza nem sempre está em uma vitrine. Às vezes ela caminha pelas ruas, na roupa de quem a veste, e se torna oração a cada passo."
+    },
+    "retos_observacion": {
+      "hash": "8a6cf7a075ce9083",
+      "texto": [
+        "Conte as cores dos fios do bordado",
+        "Procure os veados e as flores de peyote nas mangas e na calça",
+        "Observe o chapéu: que penas e que borlas ele tem?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "43d195cb20557b82",
+      "texto": {
+        "Povo indígena": "Wixárika (Huichol)",
+        "Região": "Serra do Gran Nayar (Jalisco e Nayarit)",
+        "Técnica/Material": "Tecido de algodão bordado, tear de cintura, miçangas de vidro, penas e palha",
+        "Função": "Vestimenta cerimonial de autoridades sagradas e iniciados (jicareros)"
+      }
+    },
+    "faq_mito": {
+      "hash": "13ca03348c27e807",
+      "texto": {
+        "pregunta": "Mito: Os huichóis se vestem com tantas cores só para chamar a atenção dos visitantes.",
+        "respuesta": "Realidade: Cada bordado tem sentido: veados, flores de peyote e outros seres sagrados protegem quem os veste, sobretudo em cerimônias e peregrinações."
+      }
+    }
+  }
+}

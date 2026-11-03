@@ -1,0 +1,55 @@
+{
+  "id": "mna_s03_sacerdote_atlihuayan",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "acf112a663d574fa",
+      "texto": "Sacerdote de Atlihuayan"
+    },
+    "frase_gancho": {
+      "hash": "2559d52b7baf3b6c",
+      "texto": "Um sacerdote que se veste com a pele de um monstro."
+    },
+    "puente_narrativo": {
+      "hash": "92ecefdd296af27a",
+      "texto": "O mundo olmeca aparece outra vez na próxima vitrine, com um menino nu de boca de jaguar. Ele tem mais em comum com o sacerdote do que parece."
+    },
+    "guion_corto": {
+      "hash": "1f248baecb2ef2b8",
+      "texto": "Este personagem oco, de barro, vem de Atlihuayan, em Morelos. É um homem robusto, sentado, com os olhos semicerrados, a boca de cantos caídos e a cabeça deformada de maneira intencional. Mas o extraordinário é o que ele veste: a pele inteira de um ser fantástico, cuja cabeça descansa sobre a sua e cujas garras caem sobre seus ombros. Os especialistas o interpretam como um sacerdote que se transforma no monstro da terra, que alguns veem como jacaré e outros como jaguar. Seu estilo é olmeca, mas ele foi feito a várias centenas de quilômetros da Costa do Golfo: sinal de que as ideias viajavam."
+    },
+    "guion_largo": {
+      "hash": "db422e09fc4ae75b",
+      "texto": "Para chegar a Atlihuayan é preciso sair do vale do México e descer para o sul, rumo às terras quentes de Morelos, perto de Yautepec. Hoje é uma zona de hortas e pomares. Há três mil anos, era um dos lugares onde se fazia sentir com mais força o estilo de uma cultura que nasceu muito longe, nas selvas úmidas da Costa do Golfo: os olmecas. A poucos quilômetros, em Chalcatzingo, há até relevos olmecas entalhados na rocha de um morro, com personagens sob a chuva e animais fantásticos.\n\nA figura que você tem diante de si mostra isso com clareza. É um homem robusto, sentado, com os olhos semicerrados e uma boca com os cantos voltados para baixo, a famosa «boca de felino» olmeca. A cabeça tem a forma alongada que se obtinha modelando o crânio desde a infância, o costume que você viu na Sala 1. E sobre ele, como um manto, cai a pele de um animal fantástico: a cabeça do monstro se assenta sobre a sua, e as garras pendem sobre seus ombros e seu peito, como se o abraçasse.\n\nQue animal é esse? Aqui há um debate. Alguns o identificam como um jacaré celestial; outros, como um jaguar ou como o «dragão olmeca», um ser que mistura traços de jaguar, de serpente e de jacaré. O importante é a ideia: o personagem não veste uma peça de roupa, ele se transforma em outro ser. Na Mesoamérica, vestir a pele de um animal não era uma fantasia, era uma transformação: quem a usava compartilhava sua força e seu espírito.\n\nEssa ideia reaparece uma e outra vez. Séculos depois, os guerreiros mexicas se vestiriam com peles de jaguar e elmos de águia para se converterem nesses animais, e na Sala Mexica você verá a cabeça de um [Guerreiro Águia](mna_s06_guerrero_aguila) saindo das mandíbulas de seu elmo. E ainda hoje, nas salas do andar de cima, há máscaras e trajes rituais com os quais as pessoas deixam de ser elas mesmas para encarnar um espírito durante uma festa.\n\nA figura também é uma façanha técnica. Está oca, modelada em barro com paredes finas, e chega quase a trinta centímetros. Para que algo assim sobreviva à queima, o oleiro precisa dominar a espessura do barro e deixar saídas para o ar. O fato de ter chegado inteira até nós diz muito sobre a habilidade de quem a fez.\n\nE aqui entra a grande pergunta que, há décadas, move os arqueólogos: os olmecas foram a «cultura mãe» da Mesoamérica, como pensaram Alfonso Caso e Miguel Covarrubias, ou uma cultura irmã entre muitas? Uma peça como esta, feita em Morelos com um estilo que veio de longe, mostra que as ideias, os objetos e os especialistas viajavam centenas de quilômetros. A resposta completa espera por você na Sala da Costa do Golfo, onde você conhecerá os olmecas em sua própria casa."
+    },
+    "retos_observacion": {
+      "hash": "0e0be021181817f7",
+      "texto": [
+        "Procure a cabeça do monstro sobre a cabeça do sacerdote",
+        "Repare nas garras que caem sobre os ombros e o peito dele",
+        "Observe a boca de cantos caídos e os olhos semicerrados"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f61e82d0decf39a4",
+      "texto": {
+        "Cultura": "Pré-clássico do Altiplano Central, com influência olmeca",
+        "Período": "Pré-clássico Médio (1200-600 a.C.)",
+        "Material": "Cerâmica, argila",
+        "Procedência": "Atlihuayan, Morelos",
+        "Dimensões": "0,295 m de altura x 0,213 m de largura"
+      }
+    },
+    "faq_mito": {
+      "hash": "a17637164e82af8e",
+      "texto": {
+        "pregunta": "Mito: O Sacerdote de Atlihuayan é um guerreiro disfarçado de jaguar para ir à batalha.",
+        "respuesta": "Realidade: É um personagem ritual que se transforma em um ser fantástico, um monstro da terra de estilo olmeca; não se trata de uma fantasia de guerra."
+      }
+    }
+  }
+}

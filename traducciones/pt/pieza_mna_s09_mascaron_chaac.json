@@ -1,0 +1,62 @@
+{
+  "id": "mna_s09_mascaron_chaac",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6276e568a2e5287a",
+      "texto": "Mascarão de Chaac (Kabah)"
+    },
+    "frase_gancho": {
+      "hash": "bbc3ddcd0747db53",
+      "texto": "Um rosto de pedra com nariz de tromba, pedindo água numa terra sem rios."
+    },
+    "puente_narrativo": {
+      "hash": "929d06fc2e725acb",
+      "texto": "Chichén Itzá, também no norte de Yucatán, nos leva de volta a uma pergunta que deixamos na Sala dos toltecas. Procure um homem reclinado que vira a cabeça e segura um recipiente sobre o ventre."
+    },
+    "guion_corto": {
+      "hash": "34f9d9f33c5a9044",
+      "texto": "Este mascarão de calcário mede mais de um metro de altura e quase um metro e oitenta de largura. Fazia parte da fachada do Codz Pop, um edifício de Kabah, em Yucatán, coberto por centenas de rostos iguais. É Chaac, o deus maia da chuva e do raio. Repare no nariz: longo, curvo, enrolado para cima como uma tromba. Tem olhos quadrados com o centro redondo e presas curvas nos cantos da boca. É feito com muitas peças de pedra, encaixadas como um quebra-cabeça. Na região Puuc não há rios, então a chuva era tudo. Cada rosto era um pedido ao céu."
+    },
+    "guion_largo": {
+      "hash": "5cc8a8a353d1a4f9",
+      "texto": "O que você faria se todo o seu mundo dependesse de a chuva chegar na hora certa? Essa é a pergunta que está por trás deste rosto. A região Puuc, no norte da Península de Yucatán, é uma zona de colinas baixas, sem rios nem lagos. As pessoas viviam da chuva, que guardavam em reservatórios subterrâneos chamados chultunes. Se a chuva falhava, tudo se acabava.\n\nPor isso Chaac, o deus da chuva e do raio, era o mais importante, e por isso seu rosto se repetia por toda parte. Este mascarão é apenas um das centenas que cobriam o Codz Pop, um edifício de Kabah cujo nome significa «esteira enrolada». Imagine a fachada inteira, de cima a baixo, com todos esses rostos olhando: não era decoração, era uma súplica gigantesca.\n\nÉ um parente maia dos deuses da chuva que você já conheceu: [Cocijo](mna_s07_urna_cocijo), dos zapotecas, e Tláloc, dos mexicas. Os maias o chamavam de Chaac. Eu lhe disse em Oaxaca que aqui você veria um parente dele com o nariz enrolado para cima, e lá está. As três culturas o representaram com presas e o ligaram ao raio e à água. São deuses parentes, nascidos da mesma necessidade.\n\nO nariz é o que mais chama a atenção. Já se disse que imita a tromba da anta, um animal de zonas úmidas. Mas nem todos concordam. Alguns especialistas pensam que também poderia ser o nariz alongado da montanha sagrada, que os maias chamavam de Witz. Os pequenos círculos que aparecem na testa de alguns mascarões indicariam a rocha. A ideia seria que as nuvens, as sementes de milho e as fontes de água saíam do interior dos morros.\n\nAgora pense em como foi feito. Cada peça era cortada para se encaixar em um único lugar, e se pensa que levava por trás uma espiga de pedra que se afundava em um núcleo de cal e entulho, de modo que o mosaico ficava preso à parede. Para montar uma fachada completa eram necessárias milhares de peças, e a isso se somava o trabalho de transportar e colocar cada uma.\n\nKabah tem outra raridade: de um grande arco da cidade partia um caminho branco de pedra, um sacbé, que chegava até Uxmal, a uns vinte quilômetros. Quem viajava por ele entre as duas cidades, a que você acaba de ver e esta, passava de uma a outra sem sair de um mesmo mundo de fachadas de pedra, Chaac e serpentes.\n\nE esta forma de pedir água não é só passado. Em muitos povoados de Yucatán se continua fazendo hoje uma cerimônia para pedir chuva a Chaac, com oferendas, orações e comida compartilhada. A chuva continua sendo importante, e o deus também.\n\nEntre os primeiros viajantes que descreveram este edifício estiveram John Lloyd Stephens e Frederick Catherwood, que o visitaram no século dezenove. Catherwood o desenhou. Seus desenhos e seus livros mostraram a muita gente, pela primeira vez, que na América havia existido uma civilização complexa."
+    },
+    "retos_observacion": {
+      "hash": "1faf5dffbde41e18",
+      "texto": [
+        "Siga o grande nariz que se enrola para cima",
+        "Procure os olhos quadrados com o centro redondo",
+        "Encontre as presas curvas nos cantos da boca"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bdb6944614b44224",
+      "texto": {
+        "Cultura": "Maia",
+        "Período": "Clássico Tardio / Terminal",
+        "Material": "Calcário (mosaico)",
+        "Procedência": "Kabah, Yucatán (Edifício Codz Pop)",
+        "Dimensões": "1,11 m de altura x 1,79 m de largura x 0,91 m de profundidade"
+      }
+    },
+    "faq_mito": {
+      "hash": "fa6a5c91bcf2738d",
+      "texto": {
+        "pregunta": "Mito: A tromba dos mascarões prova que os maias conheceram elefantes.",
+        "respuesta": "Realidade: É o nariz estilizado do deus Chaac, relacionado com a anta ou com a montanha sagrada. Os maias nunca viram um elefante."
+      }
+    }
+  }
+}

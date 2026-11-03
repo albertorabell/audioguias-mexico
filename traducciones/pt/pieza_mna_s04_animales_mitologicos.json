@@ -1,0 +1,63 @@
+{
+  "id": "mna_s04_animales_mitologicos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece",
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece",
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "dc5073a87fe16ea3",
+      "texto": "Mural dos Animais Mitológicos"
+    },
+    "frase_gancho": {
+      "hash": "28bedb436b690c6b",
+      "texto": "Jaguares emplumados, serpentes e coiotes em procissão: o bestiário de Teotihuacán."
+    },
+    "puente_narrativo": {
+      "hash": "88b921585b47d51c",
+      "texto": "Quando o incêndio do ano quinhentos e cinquenta pôs fim a Teotihuacán, o vale ficou sem capital. Siga para a Sala dos toltecas: ali, uns guerreiros de pedra sustentam o teto de um templo, e outros animais, jaguares e coiotes, voltam a desfilar."
+    },
+    "guion_corto": {
+      "hash": "5f5d87ac24f2f1c7",
+      "texto": "Os animais ocupam um lugar enorme na arte de Teotihuacán. Em seus murais e vasilhas aparecem jaguares com penas, serpentes emplumadas, aves, coiotes em fila e conchas marinhas, às vezes misturados em criaturas que não existem na natureza. Esta peça faz parte desse bestiário. Procure garras, presas, penas e escamas em um mesmo corpo, e repare nas volutas e nas gotas que saem dos focinhos: elas são interpretadas como canto, sopro ou água. Para os teotihuacanos, acredita-se, cada animal tinha seu próprio poder: o jaguar, o da terra; a serpente, o da água; a ave, o do ar. Juntos, formavam um mapa do mundo."
+    },
+    "guion_largo": {
+      "hash": "f9cd90df2b74cae6",
+      "texto": "Em Teotihuacán, os animais são protagonistas. Aparecem em murais, vasilhas, braseiros e relevos: jaguares, coiotes, corujas, serpentes, aves, borboletas e também criaturas misturadas, como um jaguar com penas ou uma serpente com asas. Esses seres são chamados de mitológicos porque não existem, mas para quem os pintou eram verdadeiros: reuniam em um só corpo vários poderes do mundo.\n\nPense no que cada um significava. O jaguar, caçador noturno, era associado à noite, à terra e ao poder. A serpente, que desliza como a água, aos rios e à fertilidade. A ave, ao céu e ao sopro. Quando os pintores os combinavam, não inventavam monstros: escreviam ideias com imagens, uma linguagem que qualquer pessoa podia ler sem precisar aprender signos.\n\nOs coiotes têm um lugar especial. Em Atetelco, um dos conjuntos de moradias de Teotihuacán, as paredes estão pintadas com coiotes em procissão, às vezes com símbolos de guerra, e há quem os relacione com guerreiros que se vestiam de coiote. Lembre-se do osso entalhado de Tequixquiac, o da sala dos primeiros povoadores: o coiote atravessa toda a história do México, desde a pré-história até o nome de um rei poeta, Nezahualcóyotl.\n\nO jaguar vem de ainda mais longe. Os olmecas já o haviam transformado em seu animal mais importante, e na Sala da Costa do Golfo você verá um menino-jaguar nos braços de um grande personagem. Em Teotihuacán, o jaguar aparece com penas, bebendo, rugindo, às vezes com uma concha na boca. É o mesmo animal, mas a cidade o transformou em um símbolo seu.\n\nA serpente emplumada, a da fachada com a qual você começou este percurso, é também um animal mitológico: réptil e ave ao mesmo tempo, terra e céu, água e vento. Em Teotihuacán, era um símbolo de poder e de ordem. Séculos depois, os toltecas e os mexicas a chamariam de Quetzalcóatl, e os maias, de Kukulkán. É um dos fios que viajaram mais longe.\n\nEntre muitos povos do México, as pessoas ainda acreditam que cada um tem um animal que o acompanha, seu nahual. E, no passado, acreditava-se que certos sacerdotes e guerreiros podiam se transformar em animais. Não sabemos se em Teotihuacán era igual, mas a mistura de pessoa e animal é muito frequente em sua arte. Na Sala Mexica você verá guerreiros vestidos de águia e de jaguar, e uma águia saindo do capacete de um guerreiro.\n\nRepare também no que sai dos focinhos: volutas enroladas, gotas, flores. É a mesma ideia que você viu no mural do Tlalocan, onde das bocas saem palavras que florescem. Os animais de Teotihuacán não apenas rugem ou rosnam: cantam, falam, respiram o ar sagrado. Até as feras são poetas.\n\nCom esses animais termina a Sala de Teotihuacán. A cidade que vimos, com suas pirâmides pintadas de vermelho, sua deusa da água, seu paraíso, seu velho do fogo e seus rostos de pedra, foi incendiada por volta do ano quinhentos e cinquenta e ficou quase vazia. Mas suas ideias não morreram: outros povos as recolheram, as transformaram e continuaram a contá-las."
+    },
+    "retos_observacion": {
+      "hash": "8d944a97bea34827",
+      "texto": [
+        "Procure garras, presas e penas em um mesmo corpo",
+        "Repare nas volutas que saem dos focinhos",
+        "Conte quantas espécies diferentes de animais você consegue reconhecer"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bb67cea7a9a99f97",
+      "texto": {
+        "Cultura": "Teotihuacana",
+        "Período": "Clássico (300-450 d.C.)",
+        "Material": "Pintura a fresco sobre estuque e argamassa de cal",
+        "Procedência": "Teotihuacán, Estado do México (Calçada dos Mortos)"
+      }
+    },
+    "faq_mito": {
+      "hash": "848ab8bf67801fc9",
+      "texto": {
+        "pregunta": "Mito: Esses animais eram apenas decoração.",
+        "respuesta": "Realidade: Cada animal tinha um significado e um poder; combiná-los era uma maneira de expressar ideias em imagens, como uma linguagem sem palavras."
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "mna_s09_cabeza_pakal",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "75a3c8a77276cf2f",
+      "texto": "Cabeça de Pakal em estuque"
+    },
+    "frase_gancho": {
+      "hash": "81e17739786c9ebf",
+      "texto": "Um jovem de estuque com três flores no penteado, encontrado junto a Pakal."
+    },
+    "puente_narrativo": {
+      "hash": "138cb59094e97945",
+      "texto": "Da tumba do pai passamos à pedra do filho. Procure um grande painel de pedra calcária em que um mesmo rei aparece duas vezes, criança e adulto, aos lados de uma cruz sagrada."
+    },
+    "guion_corto": {
+      "hash": "5c44931fd0ee19e9",
+      "texto": "Esta cabeça é modelada em estuque, uma mistura de cal, pó de pedra calcária e água que se trabalhava como barro e endurecia como pedra. Foi encontrada na [tumba de Pakal](mna_s09_cripta_pakal), em Palenque, sob o sarcófago. Representa um jovem de rosto afilado, olhos amendoados e lábios carnudos. Repare no perfil: o nariz segue quase reto até a testa, resultado de uma deformação craniana feita desde a infância. O cabelo se divide em mechas, e na frente ele traz três botões de flor, um símbolo ligado ao milho e à vegetação. Acredita-se que ela tenha sido cortada de propósito de uma escultura completa e colocada como oferenda. Ninguém sabe com certeza quem ela representa."
+    },
+    "guion_largo": {
+      "hash": "5a490b546f3214e6",
+      "texto": "Esta cabeça tem algo que a coloca entre os retratos mais delicados da arte maia: a serenidade. E, ao mesmo tempo, algo inquietante: ela está cortada. Não é um busto, mas o que resta de uma figura completa, da qual tiraram a cabeça.\n\nPara entender isso, é preciso imaginar como era Palenque. Seus templos e palácios não tinham a cor da pedra que você vê hoje nas fotografias. Estavam cobertos de estuque modelado e pintado de vermelho, azul, amarelo, com figuras de deuses e reis em tamanho natural. Os escultores de Palenque eram famosos por seu estuque: suave, fluido e realista. Esta cabeça, aliás, pertenceu a uma daquelas figuras.\n\nPor que cortá-la? Os arqueólogos que a encontraram pensaram que isso foi feito de propósito. Acredita-se que, quando o rei morreu, uma imagem foi “morta” para acompanhá-lo, assim como se enterravam as pessoas próximas ou os objetos que ele havia usado. Lembre-se de San Lorenzo, na Sala do Golfo, onde os monumentos olmecas foram mutilados e enterrados: na Mesoamérica, uma imagem era algo vivo, e destruí-la era também uma forma de oferecê-la.\n\nImagine o momento da descoberta. Quando Ruz levantou as lajes do piso da cripta, sob o enorme sarcófago, encontrou um depósito de vasilhas de cerâmica e, entre elas, duas cabeças de estuque. Sobre elas pesavam várias toneladas de pedra e mais de mil e duzentos anos. Alguém havia colocado essas cabeças com cuidado, como quem deixa um presente ao pé de uma cama.\n\nAgora repare no perfil. A testa foge para trás numa linha quase contínua com o nariz. Não é uma característica natural: foi obtida desde bebê, atando-se a cabeça entre tabuinhas, o costume que você viu na sala de introdução e nos rostos da [Oferenda 4](mna_s08_ofrenda4_laventa). Há quem pense que esse perfil lembrava a forma de uma espiga de milho tenro, e que por isso era símbolo de beleza e de nobreza. [Pakal](mna_s09_mascara_pakal), em sua máscara de jade, tem o mesmo perfil.\n\nOs três botões de flor do penteado também falam. As flores, para os maias, eram sinônimo de beleza, do sagrado e do broto do milho. O fato de serem três, na testa, de um lado e atrás, sugere uma coroa de vegetação que rodeia a cabeça. Já se propôs que seja o deus do milho jovem, ou um príncipe que se identifica com ele. Não há como saber com certeza.\n\nUma última curiosidade sobre esta tumba: dela sobe até o templo um tubo de pedra, que atravessa a escadaria. Acredita-se que servia para que o espírito do rei continuasse se comunicando com o mundo de cima. Uma tumba com uma linha direta com os vivos.\n\nEntão olhe de novo para este jovem: seus olhos amendoados, sua boca entreaberta. Por mais que seja uma peça “decapitada”, nada em seu rosto parece triste. Parece que espera. Quando você a vir na vitrine, posicione-se de perfil: é a melhor maneira de entender o ideal de beleza da nobreza maia."
+    },
+    "retos_observacion": {
+      "hash": "c44c534e1226df81",
+      "texto": [
+        "Repare no perfil: como o nariz segue até a testa?",
+        "Procure os três botões de flor no penteado",
+        "Observe as mechas do cabelo: como foram cortadas?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1a0b4183dfbf5219",
+      "texto": {
+        "Cultura": "Maia",
+        "Período": "Clássico Tardio (600-900 d.C.)",
+        "Material": "Estuque",
+        "Procedência": "Palenque, Chiapas (Templo das Inscrições)",
+        "Dimensões": "0,413 m de altura x 0,202 m de largura",
+        "Achado": "1952, por Alberto Ruz Lhuillier, sob o sarcófago de Pakal, na câmara funerária do Templo das Inscrições"
+      }
+    },
+    "faq_mito": {
+      "hash": "a05fac64a03d78b6",
+      "texto": {
+        "pregunta": "Mito: Os maias faziam suas esculturas só em pedra e sem cor.",
+        "respuesta": "Realidade: Muitas eram modeladas em estuque e pintadas com cores vivas; com os séculos, a pintura se perdeu."
+      }
+    }
+  }
+}

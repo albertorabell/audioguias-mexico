@@ -1,0 +1,57 @@
+{
+  "id": "mna_s04_disco_muerte",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d564e0fcdec1e69f",
+      "texto": "Disco da Morte"
+    },
+    "frase_gancho": {
+      "hash": "f102be8246fea795",
+      "texto": "Um crânio com raios vermelhos que representa o Sol quando morre."
+    },
+    "puente_narrativo": {
+      "hash": "f98a4dc292ac6e70",
+      "texto": "Do Sol que se apaga passamos ao fogo que não deve se apagar. Aproxime-se do ancião de pedra que carrega um braseiro sobre a cabeça: o Deus Velho, que você já conheceu em barro."
+    },
+    "guion_corto": {
+      "hash": "6ebfe55ee23b1399",
+      "texto": "Diante de você há um disco de andesita com mais de um metro de altura, com restos de pintura vermelha. No centro, um crânio humano com a boca aberta e a língua para fora; ao redor, um halo pregueado como papel ou como raios de sol. Foi encontrado em 1963 ao sul da Pirâmide do Sol, em Teotihuacán, mas, segundo a placa do museu, não foram os teotihuacán que o fizeram: foram os mexicas, séculos depois. Ele se relaciona com o Sol quando se põe no poente: a Terra o engole para iluminar o mundo dos mortos e depois o deixa renascer no oriente. Uma imagem fria e, ao mesmo tempo, luminosa."
+    },
+    "guion_largo": {
+      "hash": "66e59e6f5dbfb1d3",
+      "texto": "Os arqueólogos o encontraram em 1963, ao sul da Pirâmide do Sol, em Teotihuacán. É feito de andesita, uma pedra vulcânica, e ainda conserva restos de pintura vermelha. Aqui vai uma surpresa: embora tenha sido encontrado em uma cidade teotihuacán e esteja nesta sala, o museu explica que não foram os teotihuacán que o fizeram, e sim os mexicas, entre os anos 1200 e 1521. Teotihuacán estava abandonada havia séculos quando eles chegaram, e eles a consideravam um lugar sagrado. Talvez o disco tenha feito parte de uma oferenda que deixaram ali.\n\nRepare que não é uma caveira “triste”. Tem a boca aberta, os dentes à mostra e uma língua que sai para fora, como se estivesse falando, ou cantando, ou devorando. O halo que o rodeia é feito de estrias inclinadas, e já foi comparado a papel pregueado, a um leque de plumas e a raios de sol. Por isso ele se relaciona com a morte do Sol: uma caveira que, ao mesmo tempo, assusta e ilumina.\n\nPara os mexicas, o Sol morria todos os dias. Ao cair da tarde, descia ao mundo dos mortos, e na manhã seguinte tinha de nascer de novo. Contavam que o Sol surgia acompanhado de guerreiros mortos em combate e se despedia acompanhado de mulheres que tinham morrido ao dar à luz. Essa ideia é a que explica por que uma caveira pode ser, ao mesmo tempo, um Sol.\n\nHá um detalhe que se repete: a língua. Na Sala Mexica, a [Pedra do Sol](mna_s06_piedra_sol) tem no centro um rosto cuja língua é uma faca de sílex, símbolo do sacrifício. Como as duas são obra mexica, faz sentido que compartilhem essa imagem. Quando você vir aquele rosto, lembre-se deste.\n\nNão se sabe com certeza para que serviu este disco. Pode ter feito parte de um altar ou de uma oferenda diante da pirâmide. O fato de ter sido encontrado ali leva a pensar em um ritual solar, mas é uma hipótese. Seu tamanho, de mais de um metro, indica que era bem visível a certa distância, e a pintura vermelha o tornava ainda mais chamativo.\n\nA Pirâmide do Sol é uma das maiores da América, e sob ela há um túnel que termina em uma câmara em forma de caverna e que, segundo vários arqueólogos, pode ter sido o que tornou o lugar sagrado. Muitas culturas mesoamericanas viram nas cavernas a entrada para o submundo e a origem dos povos. Um sol que morre diante de uma pirâmide construída sobre uma caverna: a imagem é redonda.\n\nPor isso convém olhar este disco como um relógio: um sol que se esconde e volta, uma vez após a outra, enquanto a cidade se ergue, se transforma e, a seu tempo, também se apaga."
+    },
+    "retos_observacion": {
+      "hash": "bdd0b60100cc4dda",
+      "texto": [
+        "Olhe o crânio e a língua que sai da boca",
+        "Procure os restos de pintura vermelha sobre a pedra",
+        "Repare nos raios do halo: parecem papel pregueado ou luz do sol?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7964f865a2113538",
+      "texto": {
+        "Cultura": "Mexica",
+        "Período": "Pós-clássico Tardio (1200-1521 d.C.)",
+        "Material": "Andesita e pigmento vermelho",
+        "Procedência": "Teotihuacán, Estado do México (ao sul da Pirâmide do Sol)",
+        "Dimensões": "1,26 m de altura x 1,02 m de largura x 0,25 m de espessura",
+        "Achado": "Encontrado em 1963 ao sul da Pirâmide do Sol",
+        "Inventário": "09.0-02570"
+      }
+    },
+    "faq_mito": {
+      "hash": "f45334ffb3665ef5",
+      "texto": {
+        "pregunta": "Mito: É um disco teotihuacán porque foi encontrado em Teotihuacán.",
+        "respuesta": "Realidade: Foi encontrado ali, mas o museu o atribui aos mexicas, que chegaram às ruínas séculos depois de a cidade ser abandonada."
+      }
+    }
+  }
+}

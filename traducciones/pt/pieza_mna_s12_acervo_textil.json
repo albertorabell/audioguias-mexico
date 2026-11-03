@@ -1,0 +1,63 @@
+{
+  "id": "mna_s12_acervo_textil",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Otomí\" para \"Otomí\" y no aparece",
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece",
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "91ae1238e48b4489",
+      "texto": "Acervo Têxtil Comunitário (Huipils e teares tradicionais)"
+    },
+    "frase_gancho": {
+      "hash": "0f1a3dabfd3d3e54",
+      "texto": "Tecidos em que cada fio conta de que povo você é."
+    },
+    "puente_narrativo": {
+      "hash": "c34a1a6fbd628df3",
+      "texto": "Agora percorremos o país por regiões, e começamos na serra do Gran Nayar. Procure um quadro de madeira coberto de estame de cores brilhantes, com veados, flores e sóis."
+    },
+    "guion_corto": {
+      "hash": "ea57fda3fd8af113",
+      "texto": "Esta é uma pequena mostra dos têxteis do México. Você verá huipils, que são blusas longas feitas com panos retangulares; quechquémitls, que cobrem os ombros; saias envolventes e faixas. Muitas peças são tecidas no tear de cintura: a tecelã amarra uma ponta a uma árvore ou a um poste e a outra à sua própria cintura, e estica os fios com o peso do corpo. Os materiais são algodão branco ou marrom, lã, seda e ixtle; as cores vêm de plantas e animais, como o anil, a cochonilha e o caracol púrpura. Cada povo tem seus desenhos, e quem sabe lê-los reconhece de onde vem quem os veste."
+    },
+    "guion_largo": {
+      "hash": "6e49f802b7b8ec55",
+      "texto": "Os têxteis são a parte da história que quase sempre se perde. Os maias perderam os seus na umidade da selva, e da caverna de Candelaria nos restaram mantas graças ao deserto. Aqui, ao contrário, você os tem vivos, tecidos hoje e usados por quem os faz. E se prestar atenção, verá que mantêm técnicas que já eram usadas há mais de mil anos.\n\nO tear de cintura é o instrumento principal. É um conjunto de varas: uma é amarrada a uma árvore ou a um poste, e a outra é presa a uma faixa que a tecelã leva na cintura. Ao se inclinar para trás ela estica os fios, e ao se aproximar os afrouxa. Nas figurinhas de Jaina que você viu há mulheres tecendo com este mesmo sistema. Mais de mil anos depois, o tear de cintura continua em uso em muitos povos.\n\nRepare em como se faz um huipil. Como o tear produz tecido estreito, costuram-se dois ou três panos retangulares, deixa-se uma abertura para a cabeça e não se corta nada. É uma peça sem desperdício. Kabal Xook, a mulher do [lintel de Yaxchilán](mna_s09_dintel26_yaxchilan), usava um huipil; a forma básica é a mesma. O quechquémitl, a peça para cobrir os ombros, é também uma ideia muito antiga.\n\nOs materiais contam sua história. O algodão pode ser branco ou marrom; o marrom, chamado coyuchi, cresce assim, já com cor. A lã chegou com as ovelhas que os espanhóis trouxeram, e a seda também. O ixtle, a fibra do agave, é a mesma com que foram tecidos os fardos de Candelaria. Nenhum material desapareceu: cada época acrescentou o seu.\n\nAs cores são uma festa da química natural. O anil dá o azul. A cochonilha, um inseto que vive no nopal, dá um vermelho tão intenso que, depois da conquista, foi um dos produtos mais valiosos que saíam da Nova Espanha rumo à Europa. Na costa de Oaxaca, algumas tecelãs tingem o fio com um caracol marinho, o caracol púrpura, e o devolvem vivo ao mar. Esse tingimento é roxo e tem cheiro de mar.\n\nCada povo tem seus desenhos, e muitas vezes quem sabe lê-los reconhece de que comunidade vem a pessoa que os veste. Os losangos, as estrelas, as aves, as flores, as serpentes se repetem com variações. Alguns desses desenhos se relacionam com ideias sobre o mundo: o losango, por exemplo, costuma ser associado ao universo e a seus quatro rumos. Mas nem tudo está fechado: cada tecelã inventa dentro da tradição.\n\nEntre os maias, a deusa da lua, da medicina e do tecido era Ixchel; entre os mexicas, a deusa do tecido era Xochiquétzal. Hoje muitas mulheres de povos diferentes continuam tecendo como um ato de memória, e às vezes como seu sustento. Um huipil pode levar meses de trabalho, e seu preço raramente reflete esse tempo.\n\nPercorra as demais salas com este olhar. O rebozo purépecha, o [quechquémitl otomi](mna_s15_quechquemitl_otomi), o [huipil de Cuetzalan](mna_s16_huipil_cuetzalan), o triqui, o [traje de tehuana](mna_s17_traje_tehuana), o [terno de Yucatán](mna_s19_terno_yucateco): em cada um você vai ver o mesmo costume de converter um fio em uma maneira de dizer quem você é."
+    },
+    "retos_observacion": {
+      "hash": "d025a6c08a63007a",
+      "texto": [
+        "Procure um huipil e conte quantos panos ele tem",
+        "Encontre o tear de cintura e repare na faixa que a tecelã segura",
+        "Compare duas peças: quais desenhos se repetem em ambas?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d76cb21aa1ad8911",
+      "texto": {
+        "Povo indígena": "Amuzgos, Tzotziles, Povos Nahuas, Chinantecos, Triquis, entre outros",
+        "Região": "Oaxaca, Chiapas, Puebla, Guerrero e Yucatán",
+        "Técnica/Material": "Algodão, lã, seda, tingimentos naturais; tecido em tear de cintura e brocado",
+        "Função": "Indumentária cerimonial e cotidiana com alto valor identitário"
+      }
+    },
+    "faq_mito": {
+      "hash": "a930fbe3ee210b7a",
+      "texto": {
+        "pregunta": "Mito: Os bordados e brocados dos huipils são apenas enfeites.",
+        "respuesta": "Realidade: Em muitos povos os desenhos identificam de que comunidade é quem os veste, e alguns guardam ideias sobre o mundo. Cada tecelã aprende os seus com a família."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_petroglifo_desierto",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d75191878d531d35",
+      "texto": "Petróglifo e raspador cerimonial de caçadores-coletores"
+    },
+    "frase_gancho": {
+      "hash": "92ad8d93a2d33580",
+      "texto": "Uma pedra do deserto onde alguém deixou espirais e pegadas de veado."
+    },
+    "puente_narrativo": {
+      "hash": "01df5397aec68e34",
+      "texto": "Os mesmos povos que gravaram a rocha enterravam seus mortos em cavernas muito secas. Procure um fardo de quase um metro de altura, envolto em mantas tecidas e amarrado com cordas."
+    },
+    "guion_corto": {
+      "hash": "5fdc131d91f72ed8",
+      "texto": "Esta laje de pedra, de uns quarenta e cinco centímetros de altura, vem do norte do México e tem gravuras feitas por caçadores e coletores do deserto. Veem-se espirais, linhas onduladas e pegadas de veado. Foram feitas golpeando a rocha com outra pedra mais dura, até retirar a camada escura da superfície e deixar à mostra a cor clara de baixo. Ao lado há um raspador de sílex, uma ferramenta para limpar peles e trabalhar madeira e osso. Ninguém sabe com certeza o que os desenhos significam; acredita-se que podiam marcar caminhos, fontes de água ou lugares sagrados. Os povos que os fizeram não levantaram cidades, mas conheciam o deserto palmo a palmo."
+    },
+    "guion_largo": {
+      "hash": "3a201d0c624104cb",
+      "texto": "Até aqui você viu pirâmides, palácios e tumbas. Mas no México também houve povos sem cidades. Durante milhares de anos, nos desertos do norte, viveram grupos pequenos que se moviam com as estações: numa época iam aonde amadureciam os figos-da-índia, noutra aos mesquites, noutra às nascentes e aos lugares de caça. Quase não plantavam. A casa deles era o território inteiro.\n\nOs mexicas chamavam de chichimecas os povos do norte, às vezes com desprezo, como se fossem gente sem cultura. E, no entanto, segundo suas próprias tradições, os mexicas vinham de lá: de Aztlán, no norte, e de Chicomóztoc, o «lugar das sete cavernas». É um paradoxo curioso: desprezavam aqueles de quem também diziam descender.\n\nPara viver no deserto é preciso saber muitíssimo: que planta se come e qual cura, quanto tempo dura a água de uma ravina, por onde passam os veados. Esse saber não se escrevia, ensinava-se caminhando. Pense no que é aprender tudo isso sem livros: cada avô era uma biblioteca. Talvez por isso cada gravura importasse tanto: era um dos poucos lugares onde algo desse conhecimento permanecia.\n\nO que significam os desenhos? Várias ideias foram propostas: mapas de caminhos e nascentes, marcas da passagem das estações, sinais de território, rastros de cerimônias. As espirais e as linhas onduladas se repetem na arte rupestre de meio mundo, e no México aparecem desde as serras de Coahuila até as do noroeste. As pegadas de veado falam da caça, mas também de um animal que, para alguns povos do norte, era sagrado. Você o verá de novo no andar superior, quando chegarmos aos wixárikas, também chamados huicholes.\n\nO raspador de sílex lembra uma continuidade assombrosa. O sílex se quebra em lâminas de bordas muito afiadas, e com esse fio se tirava a gordura de uma pele de veado para deixá-la macia. Os primeiros povoadores da América, os da sala do povoamento, trabalhavam a pedra de maneira parecida. No norte, esse modo de vida durou milhares de anos, até a chegada dos espanhóis.\n\nE foi uma forma de vida muito difícil de conquistar. Quando os espanhóis encontraram prata em Zacatecas, em meados do século dezesseis, os povos nômades do norte defenderam seu território durante uns quarenta anos, no que se conhece como a Guerra Chichimeca. Foi uma das resistências mais longas da conquista, em parte porque não havia um rei nem uma capital a tomar. Para vencer um povo assim, é preciso vencer cada família.\n\nEssa é a lição desta laje. Sem cidades, sem metais e sem pirâmides, esses povos souberam ler uma paisagem que a outros parecia vazia. E alguém se deu ao trabalho de golpear a pedra, durante horas, para deixar nela algo que o sobrevivesse. O que você deixaria gravado numa rocha, sabendo que alguém vai olhá-lo daqui a mil anos?"
+    },
+    "retos_observacion": {
+      "hash": "4c05e30bba0292a4",
+      "texto": [
+        "Procure as espirais e as linhas onduladas",
+        "Encontre as pegadas de veado",
+        "Olhe o fio do raspador de sílex"
+      ]
+    },
+    "especificaciones": {
+      "hash": "116883fc2deb1167",
+      "texto": {
+        "Cultura": "Aridoamérica / Tradição das culturas do deserto (Grande Chichimeca)",
+        "Período": "Estágio Lítico ao Pós-clássico (8000 a.C.-1500 d.C.)",
+        "Material": "Pedra vulcânica (basalto); sílex e pederneira trabalhados por percussão e retoque",
+        "Procedência": "Desertos e serras do norte do México (Coahuila, Durango, Chihuahua, Sonora e Baixa Califórnia)"
+      }
+    },
+    "faq_mito": {
+      "hash": "533d401806162a0a",
+      "texto": {
+        "pregunta": "Mito: Os povos do deserto eram simples nômades, sem conhecimentos nem cultura.",
+        "respuesta": "Realidade: Conheciam o deserto como ninguém: que plantas comer, onde havia água e por onde passava a caça. Deixaram gravuras na pedra e resistiram uns quarenta anos aos espanhóis."
+      }
+    }
+  }
+}

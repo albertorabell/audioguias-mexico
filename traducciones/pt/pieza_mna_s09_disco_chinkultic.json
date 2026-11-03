@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_disco_chinkultic",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8aa68f8148a5c495",
+      "texto": "Marcador de Jogo de Bola de Chinkultic"
+    },
+    "frase_gancho": {
+      "hash": "631f9bc60f63f64b",
+      "texto": "Um jogador de bola em pleno movimento, com a data exata gravada ao redor."
+    },
+    "puente_narrativo": {
+      "hash": "8b82f6f3fa64dad2",
+      "texto": "Do jogo passamos à fachada de um templo. Procure um friso longo, de mais de oito metros, com um rei de rosto emoldurado por plumas e dois anciãos nos lados."
+    },
+    "guion_corto": {
+      "hash": "7f7dea46b3480df8",
+      "texto": "Este disco de pedra calcária, de cerca de cinquenta e seis centímetros de diâmetro, é um marcador de jogo de bola. Foi encontrado em La Esperanza, perto de Chinkultic, em Chiapas. No centro, um jogador apoiado em um joelho impulsiona com o quadril uma bola de borracha. Ele usa um saiote de couro de veado e um iugo protetor. Repare na bola: dentro dela aparece esculpida uma cabeça, uma referência ao mito do Popol Vuh, em que os gêmeos heróis jogam bola com os senhores da morte. Ao redor há glifos com uma data na Contagem Longa maia, que corresponde ao ano 591. É um jogo, um mito e um calendário em uma só pedra."
+    },
+    "guion_largo": {
+      "hash": "d5ab082577ddc1e5",
+      "texto": "Em Teotihuacán você viu um marcador de jogo de bola; na Costa do Golfo, iugos e palmas. Aqui, finalmente, você vê o jogo completo, com o jogador em ação. E com uma data que podemos ler.\n\nComecemos pela data. Os maias contavam os dias com um sistema chamado Contagem Longa, que fixa um dia único com uma série de cinco números. Aqui aparece uma série: nove, sete, dezessete, doze, catorze. Segundo o cálculo mais usado, equivale a 21 de maio do ano 591. É uma das datas mais exatas da arte maia daquele tempo. E como a Contagem Longa começa por volta do ano três mil cento e catorze antes de Cristo, esta pedra foi feita cerca de três mil e setecentos anos depois desse começo simbólico.\n\nAgora o jogador. Ele está numa pose quase de dança: um joelho no chão, o tronco girado, o braço estendido. Usa o iugo que você viu solto na sala do Golfo, além de um saiote de couro. Aqui você o vê em uso, embora se pense que, para jogar de verdade, o iugo era mais leve. No braço esquerdo, parece levar uma tabuinha com glifos. Alguns o identificam com um dos gêmeos heróis do Popol Vuh, por causa de uma mecha de cabelo na testa.\n\nE a bola. Dentro dela há um rosto. Lembra do que contei em Oaxaca, sobre o morcego gigante Camazotz? No Popol Vuh, esse morcego corta a cabeça de um dos gêmeos, Hunahpú, e os senhores da morte a usam como bola em sua quadra. O outro gêmeo, com astúcia, consegue recuperá-la. Muitos pensam que este rosto dentro da bola lembra essa passagem. O Popol Vuh foi escrito no século dezesseis, mas suas histórias são muito mais antigas, e aqui parecem já estar presentes.\n\nO lugar de origem também vale a pena. Chinkultic fica junto aos lagos coloridos de Montebello, em Chiapas, perto da fronteira com a Guatemala, numa região de morros e águas azuis. Este disco não apareceu na cidade principal, mas em um povoado próximo, La Esperanza. É um sinal de que o jogo de bola e sua mitologia chegavam até os cantos mais distantes da região.\n\nPor trás de tudo isso há uma ideia: a quadra era um portal para o mundo inferior. Os jogadores jogavam contra a morte. Quando a bola ia de um lado para o outro, o Sol cruzava o céu e mergulhava na noite, para voltar a nascer. Um jogo, como o iugo do Golfo, que mantinha o mundo em marcha.\n\nUma nota sobre uma famosa “profecia”. Disse-se que os maias haviam anunciado o fim do mundo em dezembro do ano dois mil e doze. Não é verdade. Essa data encerrava um grande ciclo da Contagem Longa e abria outro, como o odômetro de um carro quando volta a zero. Nenhum texto maia fala de um fim do mundo nessa data.\n\nMarcadores como este eram colocados na quadra, ao longo de seu eixo. Hoje a quadra desapareceu, e é o marcador que nos conta quem jogou e quando."
+    },
+    "retos_observacion": {
+      "hash": "9ab6f9b05a61ff03",
+      "texto": [
+        "Repare na postura do jogador: em qual joelho ele se apoia?",
+        "Procure o iugo e o saiote que ele está usando",
+        "Observe o rosto que aparece dentro da bola"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1fdc3c77416375a5",
+      "texto": {
+        "Cultura": "Maia",
+        "Período": "Clássico Inicial (591 d.C.)",
+        "Material": "Pedra calcária",
+        "Procedência": "La Esperanza, Chinkultic, Chiapas",
+        "Dimensões": "56 cm de diâmetro x 12,5 cm de espessura"
+      }
+    },
+    "faq_mito": {
+      "hash": "9b079b6c03d4b5b8",
+      "texto": {
+        "pregunta": "Mito: Os maias previram o fim do mundo em dezembro de dois mil e doze.",
+        "respuesta": "Realidade: Essa data encerrava um grande ciclo de seu calendário e abria outro. Nenhum texto maia anuncia o fim do mundo."
+      }
+    }
+  }
+}

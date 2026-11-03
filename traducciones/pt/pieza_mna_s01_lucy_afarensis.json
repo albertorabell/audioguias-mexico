@@ -1,0 +1,55 @@
+{
+  "id": "mna_s01_lucy_afarensis",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "efa176a63cc4e3ff",
+      "texto": "Réplica do esqueleto de Lucy (Australopithecus afarensis)"
+    },
+    "frase_gancho": {
+      "hash": "1af5215526e89ba0",
+      "texto": "Ela caminhava ereta há mais de três milhões de anos."
+    },
+    "puente_narrativo": {
+      "hash": "1b2c68b219cf3e48",
+      "texto": "De Lucy, uma das primeiras criaturas que caminharam eretas, saltamos até a nossa própria espécie. Procure uma cena em tamanho real: três jovens sepultados juntos sobre terra tingida de vermelho, há dezenas de milhares de anos."
+    },
+    "guion_corto": {
+      "hash": "d9b3656c024da16e",
+      "texto": "Esta é uma réplica do esqueleto de Lucy, uma fêmea da espécie Australopithecus afarensis que viveu há cerca de três milhões e duzentos mil anos no que hoje é a Etiópia. Ela media pouco mais de um metro e pesava uns trinta quilos. Seu cérebro era tão pequeno quanto o de um chimpanzé, mas seu quadril e suas pernas contam algo extraordinário: ela caminhava ereta, sobre dois pés. Foi uma surpresa para a ciência, porque demonstrou que primeiro nos pusemos de pé e muito depois nosso cérebro cresceu. Por isso Lucy é o ponto de partida deste museu: deste longo caminho, milhares de gerações depois, chegam os povos que você vai conhecer."
+    },
+    "guion_largo": {
+      "hash": "e11a19b2ad59c9a7",
+      "texto": "Imagine a manhã de 24 de novembro de 1974, em uma ravina seca da região de Afar, na Etiópia. O paleoantropólogo Donald Johanson e um estudante, Tom Gray, percorrem o terreno sob um sol brutal, e de repente Johanson vê um pedacinho de osso de braço aparecendo entre a terra. Perto dali há outro, e mais outro. Naquela tarde eles percebem que tudo pertence a um único indivíduo, e ao terminar a escavação haviam recuperado cerca de quarenta por cento do esqueleto, algo quase inacreditável para um fóssil tão antigo.\n\nNaquela noite, conta a história, a equipe comemorou no acampamento com um toca-fitas que tocava sem parar «Lucy in the Sky with Diamonds», dos Beatles. Assim nasceu o seu nome. Na Etiópia ela é chamada de Dinkinesh, que em amárico quer dizer «você é maravilhosa».\n\nO que tornou Lucy famosa foi o que seus ossos revelavam. Sua pelve é larga e baixa, como a nossa, e seus fêmures se inclinam em direção aos joelhos para manter o equilíbrio ao caminhar. Tudo isso só se explica se ela caminhava ereta. Mas seus braços eram longos e seus dedos, ligeiramente curvos, de modo que ela continuava subindo nas árvores, provavelmente para dormir em segurança. Lucy era uma mistura de dois mundos: a savana e a copa das árvores.\n\nHá ainda outra pista de que sua espécie caminhava ereta. Em Laetoli, na Tanzânia, existem umas pegadas de há cerca de três milhões e seiscentos mil anos, impressas em cinza vulcânica úmida: são pisadas de pelo menos dois indivíduos que andavam de pé, e são atribuídas à espécie de Lucy. É como se a evolução tivesse deixado um recibo.\n\nEssa mistura é um lembrete útil. Não sabemos se ela foi uma de nossas ancestrais diretas ou uma prima de um ramo que se extinguiu; o que sabemos é que ela representa muito bem a família da qual viemos. Sua espécie caminhou sobre o planeta por cerca de um milhão de anos, muito mais do que a nossa até agora. O gênero Homo aparece depois, e nossa espécie, Homo sapiens, há apenas uns duzentos ou trezentos mil anos, também na África.\n\nUm último detalhe, entre ciência e mistério. Em 2016, uma equipe propôs que Lucy morreu por uma queda de uma árvore alta, porque seus ossos tinham fraturas parecidas com as de quem cai de grande altura. Nem todos os cientistas aceitam isso. Seja como for, essa pequena habitante da savana nos aproxima muito dela.\n\nO que você vê aqui é uma réplica; os ossos originais são guardados na Etiópia, sob estrita proteção. E pense na escala: Lucy media mais ou menos o mesmo que uma criança de cinco ou seis anos. Quando você avançar pelo museu e encontrar os caçadores de mamute, as aldeias do Pré-clássico e as grandes cidades, lembre-se de onde tudo isso começa: milhões de anos antes, uma criatura pequena se pôs de pé, e o resto da história foi possível."
+    },
+    "retos_observacion": {
+      "hash": "7164b1b58f96dea0",
+      "texto": [
+        "Observe a pelve larga da réplica: é a chave para ela caminhar sobre dois pés",
+        "Repare na inclinação dos fêmures em direção aos joelhos",
+        "Compare o comprimento dos braços com o das pernas: eles ainda serviam para trepar"
+      ]
+    },
+    "especificaciones": {
+      "hash": "30a1c8e8223f3b30",
+      "texto": {
+        "Cultura": "Australopithecus afarensis, fêmea hominídea bípede",
+        "Período": "3,2 milhões de anos; o fóssil foi descoberto em novembro de 1974",
+        "Material": "Reconstrução antropológica do Atelier Daynes (Paris, 1999) a partir dos restos fósseis",
+        "Procedência": "Hadar, Etiópia (África Oriental)",
+        "Dimensões": "1,20 m de estatura aproximada; peso estimado em vida de 30 kg"
+      }
+    },
+    "faq_mito": {
+      "hash": "b194c7772633cca7",
+      "texto": {
+        "pregunta": "Mito: Lucy foi a primeira mulher humana, a «Eva» da nossa espécie.",
+        "respuesta": "Realidade: Lucy foi uma Australopithecus afarensis; viveu milhões de anos antes de existir o Homo sapiens, e não sabemos se foi nossa ancestral direta."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_mono_obsidiana",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "183fe9e97dc164cb",
+      "texto": "Macaco de Obsidiana"
+    },
+    "frase_gancho": {
+      "hash": "d16403a37c765fdf",
+      "texto": "Um macaco de vidro vulcânico, polido até virar espelho."
+    },
+    "puente_narrativo": {
+      "hash": "8f1cf3b22ba941f3",
+      "texto": "De um animal que salta e brinca passamos a outro que também salta. Procure um inseto de pedra vermelha, com as patas prontas para o salto: é o nome deste bosque escrito em pedra."
+    },
+    "guion_corto": {
+      "hash": "4426c3d44029e353",
+      "texto": "Esta vasilha de obsidiana negra mede apenas catorze centímetros de altura, mas é uma das joias do museu. Representa um macaco-aranha sentado, com braços e pernas abraçando o corpo do recipiente; a cauda se curva sobre as costas e forma a abertura. A obsidiana é vidro vulcânico: quebra com uma pancada seca, e trabalhá-la até alcançar esta forma, sem quebrá-la, foi uma proeza. Repare no brilho: o polimento é tão fino que quase funciona como espelho. Para os mexicas, o macaco estava relacionado ao vento, à dança e ao jogo. A peça foi encontrada em Texcoco e chegou ao museu no século dezenove."
+    },
+    "guion_largo": {
+      "hash": "988d9c71ea655f41",
+      "texto": "Antes de ver como foi feita, pense no material. A obsidiana é vidro de vulcão, e você já a encontrou neste percurso: nas pontas dos primeiros caçadores, há mais de dez mil anos, e nas lâminas de Teotihuacán, mais finas que um bisturi. Aqui ela chega à sua máxima expressão. Depois de milhares de anos de uso, já não é ferramenta: é escultura.\n\nEsculpir uma vasilha em obsidiana é uma loucura. O material se fratura com uma pancada seca e não perdoa erros. Os lapidários tinham que desgastar e polir com areia fina e água, talvez durante meses, e sem golpes. Um único erro podia arruinar o trabalho de semanas. Que esta peça tenha chegado intacta, depois de cerca de cinco séculos, é quase um milagre.\n\nPor que um macaco? Para os mexicas, o macaco, ozomatli, era um animal de energia inquieta: salta, gira, dança. Era o signo de um dia do calendário ritual relacionado com a festa, o jogo e as artes, o território de [Xochipilli](mna_s06_xochipilli), o deus que você acabou de ver. Também era ligado ao vento, e a Ehécatl-Quetzalcóatl, o deus da máscara de bico de ave que você já conhece. Dizia-se que o vento varria o caminho para as chuvas, e o macaco, que nunca fica quieto, era uma boa imagem desse vento.\n\nHá algo mais. Os macacos-aranha não vivem no altiplano; vivem em selvas quentes, longe de Texcoco. É provável que os mexicas os conhecessem como animais trazidos do sul, assim como as plumas de quetzal e o cacau: outro produto de um império que recebia coisas de muito longe. Esculpi-lo no material mais difícil de trabalhar era uma maneira de dizer que quem o possuía podia ter o mais raro.\n\nRepare no ventre arredondado. Alguns o leem como o de uma fêmea prenhe, imagem de fertilidade. É uma interpretação, não uma certeza. O que é certo é o cuidado: os braços flexionados, as pernas curtas, o rosto com rugas ao redor da boca entreaberta, como se estivesse prestes a soltar um grito ou um sopro. Parece vivo dentro do cristal.\n\nPara que servia? Não sabemos com exatidão. Pensa-se que era um recipiente de luxo, talvez para guardar substâncias valiosas ou rituais, e que pertenceu a uma elite. O certo é que não era um objeto de cozinha.\n\nSua história moderna parece conto. Conta-se que um camponês a encontrou perto de Texcoco e a trocou por um carneiro a um paciente do médico Rafael Lucio; e que em 1869 o doutor a cedeu ao Museu Nacional em troca de um anel de diamantes. A anedota foi recolhida por Eugène Boban, antiquário da época de Maximiliano, de modo que é preciso encará-la com cautela. O seguro é que chegou ao museu no século dezenove.\n\nVeja como a luz entra na pedra negra. A obsidiana era também o material dos espelhos de adivinhação do deus Tezcatlipoca, «Espelho Fumegante», o mesmo da lenda do espelho que você já conhece. Um macaco e um espelho: duas maneiras de o mundo olhar para si mesmo."
+    },
+    "retos_observacion": {
+      "hash": "3183bd5171745571",
+      "texto": [
+        "Procure a cauda do macaco: como ela se curva sobre as costas?",
+        "Aproxime-se do polimento: você vê o reflexo da luz na superfície?",
+        "Repare nas mãos e nos pés que abraçam o corpo da vasilha"
+      ]
+    },
+    "especificaciones": {
+      "hash": "80d20178806d07ba",
+      "texto": {
+        "Cultura": "Acolhua / Mexica",
+        "Período": "Pós-clássico Tardio (1200-1521 d.C.)",
+        "Material": "Obsidiana",
+        "Procedência": "Texcoco, Estado do México",
+        "Dimensões": "14 cm de altura x 15 cm de largura x 16,5 cm de espessura"
+      }
+    },
+    "faq_mito": {
+      "hash": "22024437ac7e8973",
+      "texto": {
+        "pregunta": "Mito: Os macacos-aranha eram animais comuns no vale do México.",
+        "respuesta": "Realidade: Eles vivem em selvas quentes do sul, longe do altiplano. Um macaco de obsidiana era um objeto de luxo e de lugares remotos."
+      }
+    }
+  }
+}

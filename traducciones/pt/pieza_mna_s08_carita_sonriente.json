@@ -1,0 +1,58 @@
+{
+  "id": "mna_s08_carita_sonriente",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Totonaca\" para \"Totonaca / Totonacas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "81b132fbddf1330c",
+      "texto": "Escultura de Carita Sorridente"
+    },
+    "frase_gancho": {
+      "hash": "4690dbae62fa72fa",
+      "texto": "Um sorriso de barro com mais de mil anos que continua contagiando."
+    },
+    "puente_narrativo": {
+      "hash": "628a7691bc574dc4",
+      "texto": "Do barro alegre ao barro solene: procure a figura, quase do tamanho de uma pessoa, de uma mulher sentada com os olhos fixos e serpentes no cinto."
+    },
+    "guion_corto": {
+      "hash": "2ca493e41a35b271",
+      "texto": "Esta figura de barro cozido, de uns dezoito centímetros de altura, é uma das chamadas caritas sorridentes do centro de Veracruz, feitas na zona de Remojadas entre os anos seiscentos e novecentos da nossa era. Repare no rosto: a boca bem aberta, os olhos semicerrados e os dentes da frente limados, como se o personagem estivesse em plena gargalhada. Ele usa um toucado retangular com relevos e orelheiras redondas, e sua cabeça é alongada, por uma deformação intencional do crânio. Em uma arte antiga que costumamos imaginar séria, essas figuras surpreendem. Já se interpretou que representam participantes de rituais de música, dança e transe. Ninguém sabe ao certo por que sorriem, mas a alegria delas atravessa os séculos."
+    },
+    "guion_largo": {
+      "hash": "936722afbc502ecb",
+      "texto": "Depois de tantas pedras graves e rostos severos, não é um alívio encontrar alguém que ri? É uma das surpresas da arte mesoamericana: nem tudo era solene.\n\nRemojadas é um sítio do centro de Veracruz que dá nome a uma tradição de barro que durou séculos. Essas figuras eram feitas com a ajuda de moldes, retocadas à mão e pintadas. Muitas foram encontradas, em túmulos e em oferendas, de modo que não eram um objeto raro, mas uma imagem muito querida. Em várias delas se descreve que as pupilas foram marcadas com chapopote, o asfalto natural que brota na região, um preto brilhante que dá ao olhar um ar de vida.\n\nOlhe de novo os dentes: estão limados. Você já viu esse costume na sala de introdução, entre os crânios com dentes decorados, quando falamos do corpo como tela. E a cabeça alongada é a mesma deformação que você viu na [Oferenda 4](mna_s08_ofrenda4_laventa) e que voltará a ver no perfil de [Pakal](mna_s09_mascara_pakal). Este sorriso carrega, portanto, toda a moda do seu tempo: crânio moldado, dentes entalhados, orelheiras e toucado.\n\nPor que sorriem? Há várias ideias. Alguns especialistas pensam que representam pessoas em cerimônias de música, dança e transe, talvez com bebidas fermentadas ou plantas que alteram a consciência. Outros as relacionam com o culto à fertilidade e com festas para pedir boas colheitas. Há até quem as imagine como parte dos jogos e das celebrações que vinham depois dos rituais sérios. Nenhuma ideia está comprovada, e talvez todas tenham algo de verdade. E nem todas são iguais: já foram descritas caritas de pé e sentadas, algumas com os braços abertos, como se dançassem.\n\nCompare, além disso, com a primeira peça da Sala. A [Cabeça Colossal](mna_s08_cabeza_colosal_6) impõe respeito; este sorriso convida a se aproximar. São duas maneiras de imaginar o ser humano, na mesma costa e com séculos de diferença. E há outra diferença: o barro, ao contrário da pedra, permitia fazer muitas peças parecidas, por isso se pensa que essas figuras chegavam a muito mais gente. Era uma arte menos de reis e mais de todos.\n\nAqui vai uma curiosidade. Em Veracruz, os artesãos desta época também fizeram figuras de animais com rodas, que parecem brinquedos. Sim, rodas: conhecem-se figuras de barro com rodinhas, embora nunca tenham tido carroças nem animais de tração para aproveitá-las. Lembre que em Oaxaca eu falei de caminhos sem rodas. Esta é a exceção em miniatura: o princípio da roda era conhecido, mas não foi usado para transportar nada. Uma invenção que ficou em brinquedo.\n\nNos andares de cima você conhecerá os totonacas, que hoje continuam vivendo nesta região de Veracruz, e seus Voladores (Voadores). Uma tradição que, como este sorriso, sobreviveu aos séculos.\n\nAssim, da próxima vez que alguém disser que o passado era só sangue e pedra, lembre-se deste rosto. Alguém, há mais de mil anos, quis fixar em barro o momento exato em que uma pessoa ri."
+    },
+    "retos_observacion": {
+      "hash": "86760473c61314f4",
+      "texto": [
+        "Observe o sorriso: quais dentes aparecem e como estão limados?",
+        "Repare no toucado retangular e nas orelheiras redondas",
+        "Compare a expressão dela com a da Cabeça Colossal"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b5cdf9c326858e7f",
+      "texto": {
+        "Cultura": "Remojadas / Centro de Veracruz",
+        "Período": "Clássico Tardio (600-900 d.C.)",
+        "Material": "Cerâmica, argila modelada",
+        "Procedência": "Remojadas, centro de Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "730d78a7393547e3",
+      "texto": {
+        "pregunta": "Mito: Os povos antigos do México eram sempre sérios e solenes.",
+        "respuesta": "Realidade: Eles também riam. As caritas sorridentes mostram alegria, música e festa em meio a uma arte que costumamos imaginar grave."
+      }
+    }
+  }
+}

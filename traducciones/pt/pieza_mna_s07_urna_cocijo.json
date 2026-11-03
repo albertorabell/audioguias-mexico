@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_urna_cocijo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1ca6a3676fd7aafe",
+      "texto": "Urna funerária do deus Cocijo"
+    },
+    "frase_gancho": {
+      "hash": "695518adbcbcb40a",
+      "texto": "Cocijo, o deus zapoteco da chuva, parente de Tláloc, com óculos e presas."
+    },
+    "puente_narrativo": {
+      "hash": "d1a60d274011f0d3",
+      "texto": "Do deus da chuva passamos ao do milho, porque sem um não existe o outro. Procure outra urna sentada, cujo cocar não tem óculos nem presas, mas espigas de milho."
+    },
+    "guion_corto": {
+      "hash": "45ed45d093ecb140",
+      "texto": "Este personagem sentado, feito de barro cinza, é Cocijo, o deus zapoteco da chuva, do trovão e do raio. Mede quase quarenta centímetros de altura. Repare no rosto: ele tem óculos grossos ao redor dos olhos, uma máscara sobre a boca da qual saem presas curvas e, no cocar, um signo que os especialistas chamam de Glifo C, relacionado ao recipiente que guarda as águas do céu. As mãos repousam sobre os joelhos, em postura solene. Urnas como esta não guardavam as cinzas dos mortos: eram colocadas em nichos e túmulos, e faziam o papel de guardiãs. Para um povo de agricultores, pedir água a Cocijo era pedir vida."
+    },
+    "guion_largo": {
+      "hash": "a7dade59c8dd2f02",
+      "texto": "Se o Tláloc do lado de fora do museu impressionou você, aqui está o seu parente oaxaquenho. Chamava-se Cocijo, ou Pitao Cocijo, nome que costuma ser traduzido como «o grande raio», e, como Tláloc, dominava a chuva, o trovão e as nuvens. Os próprios zapotecas, segundo se conta, chamavam a si mesmos de «gente das nuvens». Para eles, a chuva não era um detalhe: dela dependia o milho, e do milho, tudo.\n\nOlhe o rosto. Ao redor dos olhos há uns óculos grossos, como os que Tláloc usa; sobre a boca, uma espécie de máscara bífida, da qual saem presas curvas que às vezes são lidas como língua de serpente. No centro do cocar há um signo, o Glifo C, que Alfonso Caso, o arqueólogo que explorou Monte Albán, batizou com essa letra. Ele se relaciona com uma vasilha de água ou com o raio, e se repete em muitas urnas. É como o selo de Cocijo. E é tão frequente que Caso e seu colega Ignacio Bernal publicaram um catálogo inteiro dessas figuras, chamado Urnas de Oaxaca: são centenas, e muitas levam o mesmo cocar.\n\nEssas figuras se chamam urnas, mas enganam. Não guardavam as cinzas nem os ossos do falecido. Eram colocadas em nichos, nas fachadas e nos cantos dos túmulos, e funcionavam como guardiãs e como mensageiras: pensa-se que, por meio delas, os antepassados intercediam junto aos deuses para que chovesse. Algumas tinham, na parte de trás, um recipiente onde se queimava copal, o mesmo incenso que você já viu nos braseiros de Teotihuacán, para que as orações subissem com a fumaça.\n\nRepare em como foi feita. O corpo foi modelado à mão, e os adornos, como o peitoral de contas e o cocar, foram colados depois, alguns feitos com molde e outros com tirinhas e bolinhas de barro. Se você se aproximar, verá que a decoração foi construída peça por peça, como um colar. Conserva vestígios de pintura vermelha, e algumas urnas irmãs de Cocijo mantêm também restos de azul.\n\nCada povo teve o seu próprio deus da chuva. Os mexicas o chamavam de Tláloc; os maias, de Chaac; os mixtecas, vizinhos dos zapotecas, de Dzahui, e eles mesmos se chamavam «povo da chuva». Não se trata do mesmo deus com outro nome, mas de deuses parentes: todos nasceram da mesma necessidade, a de que a água chegasse a tempo. Na Sala Maia você verá o rosto de Chaac, com um nariz longo que se enrola para cima.\n\nA relação com a água era tão forte que, ainda hoje, em algumas comunidades de Oaxaca se fazem cerimônias para pedir chuva, em morros e em cavernas, com oferendas, flores e copal. É um costume que seguramente remonta a muito antes de Cocijo. Quando você subir às salas de etnografia, talvez reconheça esse fio.\n\nObserve a postura: sentado, solene, com as mãos sobre os joelhos. É um deus sem pressa, que não precisa provar nada. Por trás dessa calma há um trovão contido. Uma figura de barro, de quase quarenta centímetros, que há mais de mil anos diz a mesma coisa: sem água, não há milho."
+    },
+    "retos_observacion": {
+      "hash": "aa034a933877c3f0",
+      "texto": [
+        "Procure os óculos redondos ao redor dos olhos",
+        "Encontre o cocar e o signo que o coroa",
+        "Olhe a boca: o que sai dela?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "783995ec6d61d9af",
+      "texto": {
+        "Cultura": "Zapoteca",
+        "Período": "Clássico (Monte Albán III, 200-800 d.C.)",
+        "Material": "Cerâmica modelada em argila, com restos de pintura policromada ou engobe",
+        "Procedência": "Monte Albán, Vales Centrais, Oaxaca (outro exemplar de Cocijo vem de Atzompa)",
+        "Dimensões": "0,396 m de altura x 0,38 m de largura (urna central da Tumba 104; outros exemplares são maiores)"
+      }
+    },
+    "faq_mito": {
+      "hash": "b931574f91592854",
+      "texto": {
+        "pregunta": "Mito: Cocijo e Tláloc são o mesmo deus com nomes diferentes.",
+        "respuesta": "Realidade: São deuses parentes: cada povo teve o seu próprio deus da chuva, com nome, rosto e mitos próprios. Eles se parecem porque todos respondiam à mesma necessidade: água para o milho."
+      }
+    }
+  }
+}

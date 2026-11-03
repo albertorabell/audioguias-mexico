@@ -1,0 +1,57 @@
+{
+  "id": "mna_s01_mural_tzompantli",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "36da67c15df26ad9",
+      "texto": "Mural do Tzompantli da Diversidade Humana"
+    },
+    "frase_gancho": {
+      "hash": "b6e12565428f6f31",
+      "texto": "Crânios que ensinam a ler o corpo humano como uma história."
+    },
+    "puente_narrativo": {
+      "hash": "0db8f5c835317cd2",
+      "texto": "Agora sim, a viagem começa: siga para a Sala 2 e veja como chegaram os primeiros habitantes à América, seguindo o rastro dos grandes animais do Pleistoceno."
+    },
+    "guion_corto": {
+      "hash": "3a1fe1be5689a526",
+      "texto": "Aqui há crânios, e eles não são um enfeite macabro: são uma forma de ler o corpo humano como se fosse um livro. Repare que nem todos têm a mesma forma. No México antigo, algumas comunidades modelavam a cabeça dos bebês com tabuinhas e faixas, para lhe dar uma forma alongada, que era sinal de beleza ou de pertencimento a um grupo. Também se limavam os dentes, e às vezes se incrustavam neles pedras como o jade. Mas o importante está naquilo que não muda: sob todas essas diferenças, cada crânio é da mesma espécie. Essa é a lição desta sala: por fora, muito diferentes; por dentro, quase idênticos."
+    },
+    "guion_largo": {
+      "hash": "55503ac24c113538",
+      "texto": "Para entender este canto da sala, convém saber o que é um tzompantli. Era uma estrutura de madeira onde os mexicas espetavam os crânios de sacrificados, como oferenda aos deuses e como aviso de seu poder. Há poucos anos, os arqueólogos descobriram um monumental junto ao Templo Mayor. Aqui o museu se aproxima dessa imagem com uma intenção contrária: não honrar os deuses com a morte, mas ensinar o quanto somos parecidos e como, ainda assim, cada povo se inscreveu no corpo.\n\nHá uma frase que resume a antropologia física: o corpo também é história. Pelos ossos é possível saber se uma pessoa foi homem ou mulher, quantos anos viveu, do que se alimentou, que doenças sofreu e até se passou fome quando criança, porque o esmalte dos dentes guarda esses vestígios. E, às vezes, também como ela quis se ver. Essa última parte é a mais fascinante. Em muitas culturas mesoamericanas, sobretudo entre os maias, a cabeça dos bebês era presa com tabuinhas durante as primeiras semanas, quando o osso ainda é macio, para que a testa se alongasse. Não era um castigo: era um ideal de beleza, e às vezes de nobreza. Se você olhar o perfil de [Pakal](mna_s09_mascara_pakal) na Sala Maia, com o nariz que parece seguir reto até a testa, está vendo justamente esse cânone.\n\nCom os dentes acontecia algo parecido. Havia quem os limasse em formas decorativas e quem incrustasse pequenos discos de jade ou de pirita nos incisivos. Imagine sorrir com uma pedra verde brilhante: era um sinal de posição social e de identidade. E há também crânios com trepanações, orifícios abertos com instrumentos de pedra; em alguns, o osso aparece cicatrizado, o que significa que o paciente sobreviveu à operação.\n\nTudo isso convive com uma ideia que é a coluna do museu. Durante o século dezenove e boa parte do vinte, houve quem classificasse a humanidade em “raças” e as ordenasse em hierarquias, usando justamente medidas de crânios como pretexto. Hoje a ciência sabe outra coisa: nossa espécie nasceu na África há uns duzentos ou trezentos mil anos, espalhou-se por todo o planeta e adquiriu diferenças de cor de pele, forma de cabelo ou estatura como resposta ao sol, ao frio e à alimentação de cada lugar. A variação genética dentro de um mesmo povo costuma ser maior que a existente entre um povo e outro. Dito de forma simples: somos uma só família.\n\nPense nisso como um mesmo fio: [Lucy](mna_s01_lucy_afarensis) é o começo, os [três jovens do sepultamento](mna_s01_entierro_dolni_vestonice) que você acabou de ver são pessoas como você, e estes crânios são a diversidade que veio depois. Quando terminar aqui, leve consigo esse olhar. Em cada sala você verá corpos modelados, adornados e pintados. Os olmecas, com rostos de bebê. Os maias, com testas alongadas. Os teotihuacanos, com máscaras de pedra. Lá em cima, nas salas de etnografia, há pessoas vivas que ainda hoje se adornam com fitas, plumas e tecidos. O corpo humano sempre foi uma tela, e cabe a você lê-lo."
+    },
+    "retos_observacion": {
+      "hash": "8a06b585982f1ea3",
+      "texto": [
+        "Compare a forma dos crânios: alguns têm a testa alongada pela deformação intencional",
+        "Procure os dentes limados ou com orifícios para incrustar pedras",
+        "Identifique um crânio com uma trepanação cicatrizada"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eaaa071942bde5dd",
+      "texto": {
+        "Cultura": "Mostruário museográfico sobre a diversidade biológica do Homo sapiens",
+        "Período": "Época contemporânea (instalação museográfica permanente)",
+        "Procedência": "Sala de Introdução à Antropologia, Museu Nacional de Antropologia, Cidade do México"
+      }
+    },
+    "faq_mito": {
+      "hash": "5f7c595c5ed02c5a",
+      "texto": {
+        "pregunta": "Mito: Os crânios desta sala são troféus de guerra dos astecas.",
+        "respuesta": "Realidade: Estão aqui com fins científicos, para mostrar como o corpo humano varia e que costumes de modificação corporal existiam; não são troféus."
+      }
+    }
+  }
+}

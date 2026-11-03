@@ -1,0 +1,58 @@
+{
+  "id": "mna_s00_fachada_celosia",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "4e53380570ef2405",
+      "texto": "Fachada de Mármore e Treliça Exterior"
+    },
+    "frase_gancho": {
+      "hash": "109c1e7ee616752f",
+      "texto": "Um edifício que já conta a sua história antes de você entrar."
+    },
+    "puente_narrativo": {
+      "hash": "93b38e23b5702ea6",
+      "texto": "Cruze o umbral. No vestíbulo, diante de você, um mural de mais de doze metros antecipa, com dois animais, o que você vai encontrar nas salas."
+    },
+    "guion_corto": {
+      "hash": "920582da5cfd0191",
+      "texto": "Antes de entrar, pare para olhar a fachada. Do lado de fora, você é recebido por uma sóbria fachada de mármore de Santo Tomás, com o Escudo Nacional esculpido em relevo por José Chávez Morado; e ao cruzar para o Pátio Central, o segundo andar das salas aparece envolto por uma grande malha geométrica de alumínio: a treliça que Manuel Felguérez projetou, inspirada nas gregas de Uxmal. Sua trama repete uma forma geométrica que lembra o corpo ondulante de uma serpente, e a luz do Bosque de Chapultepec a atravessa e desenha sombras que se movem ao longo do dia. O presidente Adolfo López Mateos inaugurou este edifício em 17 de setembro de 1964, e seu arquiteto, Pedro Ramírez Vázquez, tinha uma meta: que o museu já parecesse uma peça a mais da coleção, um edifício de meados do século vinte que se inspira em desenhos de mais de mil anos atrás."
+    },
+    "guion_largo": {
+      "hash": "c4d33dfc02e05e33",
+      "texto": "Imagine um museu que fosse apenas um depósito de antiguidades. Ramírez Vázquez pensou o contrário: um edifício que se sentisse como uma cidade antiga, com praças, pátios e um grande espaço central, como em Uxmal ou em Teotihuacán. Por isso, desde o lado de fora, o museu não lhe pede licença: recebe você com escala, com silêncio e com uma pergunta de fundo, a de o que significa ser deste país.\n\nA obra foi uma corrida. O presidente López Mateos encomendou o novo museu em 1963, para tirar as coleções do velho edifício da rua de Moneda, no Centro, e tudo devia estar pronto em menos de dois anos. Havia pedreiros, canteiros, escultores e artistas trabalhando ao mesmo tempo, e o resultado foi aberto ao público em setembro de 1964, dezenove meses depois de começar.\n\nSeu arquiteto, aliás, é uma figura imensa na história recente do México. Pedro Ramírez Vázquez também projetou a nova Basílica de Guadalupe, participou do projeto do Estádio Azteca e presidiu o comitê organizador dos Jogos Olímpicos de 1968. Mas nenhuma dessas obras tinha a tarefa deste museu: dar uma casa digna à memória de todo um país.\n\nRepare agora na treliça, porque é a peça mais engenhosa da fachada. Manuel Felguérez, escultor e pintor zacatecano e pioneiro da arte abstrata no México, inspirou-se no estilo Puuc de Uxmal, e em especial nos frisos do Quadrilátero de Las Monjas, onde os maias montaram enormes mosaicos de pedra com formas geométricas. Felguérez pegou essa ideia e a reescreveu em alumínio. É uma piscadela entre dois mundos: a técnica industrial do século vinte vestida com a linguagem de pedra de mais de mil anos atrás.\n\nA treliça não é apenas bonita; ela trabalha. Funciona como quebra-sol: filtra a luz e protege do calor as salas do andar de cima, onde vivem as coleções dos povos indígenas de hoje. Embaixo, o passado arqueológico; em cima, o presente vivo; e entre eles, uma malha que une os dois tempos. Hoje este edifício é um dos museus mais visitados da América Latina, e quase todos os seus visitantes passam por baixo dessa trama sem notá-la. Você, não mais.\n\nE o Escudo Nacional da entrada não está ali por acaso. É a imagem que nasce da fundação de Tenochtitlan, a águia sobre um nopal devorando uma serpente. Quando você chegar à Sala Mexica, vai encontrar essa mesma cena entalhada na pedra, na parte de trás do [Teocalli da Guerra Sagrada](mna_s06_teocalli_guerra_sagrada), com um detalhe surpreendente: de seu bico não sai uma serpente, mas um símbolo de guerra.\n\nUma última informação para quando você sair: esta terra tem memória própria, e o museu se ergue dentro do Bosque de Chapultepec, um dos grandes parques da cidade. Chapultepec significa «no morro do gafanhoto», e foi um lugar sagrado e uma fonte de água para os mexicas. O museu quis ficar justamente ali."
+    },
+    "retos_observacion": {
+      "hash": "b3739a9175af99b1",
+      "texto": [
+        "Procure na treliça os módulos que se repetem: parecem o corpo de uma serpente",
+        "Encontre o Escudo Nacional em relevo sobre a entrada",
+        "Repare como as sombras do alumínio mudam sobre o pátio conforme a hora do dia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d5adf63881477cc4",
+      "texto": {
+        "Cultura": "Arquitetura moderna mexicana: Pedro Ramírez Vázquez (projeto arquitetônico), Manuel Felguérez (treliça de alumínio do Pátio Central) e José Chávez Morado (Escudo Nacional em mármore sobre a fachada principal)",
+        "Período": "Inaugurado em 17 de setembro de 1964",
+        "Material": "Mármore de Santo Tomás, vidro e treliça de alumínio anodizado",
+        "Procedência": "Bosque de Chapultepec, Cidade do México"
+      }
+    },
+    "faq_mito": {
+      "hash": "d0e5078b56fd3e42",
+      "texto": {
+        "pregunta": "Mito: A treliça do museu é apenas um enfeite moderno sem relação com o México antigo.",
+        "respuesta": "Realidade: Ela se inspira nos muros de pedra de Uxmal e, além disso, serve de quebra-sol para as salas do andar de cima."
+      }
+    }
+  }
+}

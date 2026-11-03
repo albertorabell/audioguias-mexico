@@ -1,0 +1,58 @@
+{
+  "id": "mna_s12_mapa_lenguas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "retos_observacion": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "97f3f1598e3ede65",
+      "texto": "Grande Mural e Mapa Etnolinguístico do México"
+    },
+    "frase_gancho": {
+      "hash": "93b79ac4d2c66bf7",
+      "texto": "Um mapa onde as línguas do México continuam vivas."
+    },
+    "puente_narrativo": {
+      "hash": "e35eec2715acb07a",
+      "texto": "Passamos das palavras aos lugares onde elas são faladas. Procure uma casa de paredes de varas e barro, com teto de palha, e um fogo de chão com três pedras no centro."
+    },
+    "guion_corto": {
+      "hash": "5c1ea5e24ef11fd1",
+      "texto": "Este grande mapa mostra onde vivem hoje os povos indígenas do México e qual língua cada um fala. No total, são sessenta e oito povos, com suas línguas, agrupadas em onze famílias linguísticas. Mais de sete milhões de pessoas falam uma língua indígena. Repare em como elas se distribuem pelo território: há línguas do deserto, da serra, da selva e da costa, e o sul, sobretudo Oaxaca, está cheio de cores. A cartografia etnográfica desta sala, iniciada pelo pintor Luis Covarrubias para a inauguração de mil novecentos e sessenta e quatro e acompanhada hoje por suportes audiovisuais atualizados, mostra essa vitalidade. Aqui não existe um só México: existem muitos, e todos são falados."
+    },
+    "guion_largo": {
+      "hash": "bdfa05056d394d5f",
+      "texto": "No andar térreo, quase tudo o que você viu estava no passado. Aqui você sobe, e o museu muda de tempo verbal. As salas de cima foram montadas nos anos sessenta, depois de expedições por todo o país para conhecer os povos indígenas, recolher seus objetos e, em alguns casos, convidar as próprias comunidades a construir suas casas dentro do museu. A ideia era mostrar a gente de hoje, não um passado de cartão-postal.\n\nE a gente de hoje fala muito. Sessenta e oito povos, com sessenta e oito línguas, agrupadas em onze famílias linguísticas e em mais de trezentas e sessenta variantes. Não são dialetos de uma mesma língua: são idiomas tão distintos entre si quanto o espanhol e o húngaro, que não têm parentesco. O náuatle e o maia, por exemplo, vêm de famílias que não se parecem em nada. É uma das maiores diversidades de línguas da América.\n\nProcure no mapa os povos que você já conhece. Os nahuas, descendentes dos mexicas, formam o grupo mais numeroso. Os maias continuam na península de Yucatán e em Chiapas, e suas línguas somam mais de dois milhões de falantes. Os zapotecas e mixtecas vivem em Oaxaca, onde você viu Monte Albán. Os purépechas, em Michoacán. E os huastecos, que falam uma língua do tronco maia, chamada teenek, continuam na costa do Golfo, longe de seus parentes do sul.\n\nMuitas palavras que você usa todos os dias vêm dessas línguas. Chocolate, tomate, abacate, coiote e giz são palavras náuatles. “Cuate”, que usamos para dizer “amigo”, vem de uma palavra náuatle que significa “gêmeo”. E a palavra “México” também é náuatle; segundo uma explicação muito difundida, significa “no umbigo da lua”, embora os especialistas ainda discutam sua origem exata.\n\nNem tudo é festa: muitas línguas têm cada vez menos falantes, porque ao longo de gerações se ensinou que falá-las era um obstáculo. Algumas estão à beira de desaparecer. Hoje muitas comunidades as ensinam nas escolas e as usam no rádio e nas redes. As Nações Unidas declararam o período de dois mil e vinte e dois a dois mil e trinta e dois como a Década Internacional das Línguas Indígenas.\n\nOutro dado para observar com calma. O mapa foi pintado nos anos sessenta e foi atualizado, mas qualquer mapa de línguas fica aquém da realidade: as pessoas se mudam, migram para as cidades, viajam. Há falantes de mixteco na Cidade do México e falantes de zapoteco na Califórnia. As línguas já não ficam onde começaram.\n\nPor isso este mapa não é uma peça de museu no sentido das do andar de baixo. Ele muda, assim como quem o habita. Nas próximas salas você verá como cada povo, com sua língua, sua comida, sua roupa e suas festas, constrói uma forma própria de ser mexicano. Quantas dessas línguas você já ouviu falar alguma vez?"
+    },
+    "retos_observacion": {
+      "hash": "c5198251c44fabb5",
+      "texto": [
+        "Procure a área onde se fala náuatle, a língua dos mexicas",
+        "Encontre a península de Yucatán, onde vivem os povos maias",
+        "Repare no sul: quantas cores diferentes você vê em Oaxaca?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f1755217096522cc",
+      "texto": {
+        "Povo indígena": "Plurinacional (68 agrupamentos etnolinguísticos e 11 famílias linguísticas)",
+        "Região": "Território da República Mexicana",
+        "Autoria histórica e museografia": "Cartografia original de Luis Covarrubias (1964) e infografia interativa atualizada (INAH/INALI)",
+        "Sala": "Povos Indígenas"
+      }
+    },
+    "faq_mito": {
+      "hash": "253d75a8d4059edf",
+      "texto": {
+        "pregunta": "Mito: As línguas indígenas são simples dialetos de uma mesma língua.",
+        "respuesta": "Realidade: São idiomas distintos, de famílias sem parentesco entre si. No México são faladas sessenta e oito línguas indígenas, com mais de trezentas variantes."
+      }
+    }
+  }
+}

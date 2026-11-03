@@ -1,0 +1,60 @@
+{
+  "id": "mna_s08_ofrenda4_laventa",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "bed17fcd7b28af76",
+      "texto": "Oferenda 4 de La Venta"
+    },
+    "frase_gancho": {
+      "hash": "8a6aafc5da302ef7",
+      "texto": "Dezesseis figuras de pedra que se reúnem para sempre diante de seis machados."
+    },
+    "puente_narrativo": {
+      "hash": "c68c931cfac21e03",
+      "texto": "Esses machados de jade não cortavam nada. Procure agora um maior, com o rosto de um jaguar sobrenatural e uma fenda no alto da cabeça."
+    },
+    "guion_corto": {
+      "hash": "2ee3901f9bf72c72",
+      "texto": "Esta cena de miniaturas vem de La Venta, em Tabasco, e foi descoberta em 1955. São dezesseis figurinhas de pedra, de dezesseis a vinte centímetros, colocadas em pé diante de uma fileira de seis machados finos de jade e serpentina. Quinze delas olham para um personagem central, feito de outra pedra, que dá as costas aos machados. Todas têm a cabeça alongada, por uma deformação intencional do crânio, olhos rasgados e a boca de cantos caídos. Ninguém sabe ao certo que reunião ela representa: um conselho, uma cerimônia, uma coroação? O certo é que os olmecas a enterraram de propósito e a cobriram com areias coloridas, para que a cena ficasse fixa por muito tempo."
+    },
+    "guion_largo": {
+      "hash": "cf40b7feea64ddb7",
+      "texto": "Imagine que alguém congela uma reunião. É isso que esta peça é: uma cena completa, com personagens, captada num instante e guardada debaixo da terra por mais de dois mil e seiscentos anos. É a Oferenda 4 de La Venta, e é uma das mais famosas da arqueologia mexicana.\n\nVejamos o que há aqui. Dezesseis figuras pequenas, em pé, em fila. Quinze são de jade, serpentina ou pedra verde; a central é de outra pedra, de tom mais claro, e está de costas para seis machados que se erguem como estelas, ou como pequenas colunas. Os outros personagens olham para ela. Não sabemos quem é: um chefe, um deus, um sacerdote, alguém que está sendo julgado, um rei que assume o poder?\n\nEssa é a pergunta que ninguém conseguiu responder. Foram propostas várias ideias: um conselho de chefes de linhagem, uma cerimônia de entronização, uma assembleia ritual, um julgamento. Cada especialista lê a cena de um modo diferente. É um teatro de miniaturas que ninguém conseguiu ler por completo, e talvez esse seja o seu encanto: quem a vê completa a história por conta própria.\n\nOlhe as cabeças. Todas são alongadas, para trás e para cima, porque desde a infância o crânio era moldado com tabuinhas. Você já viu esse costume na sala de introdução, entre os crânios com deformação e os dentes limados, e voltará a vê-lo na Sala Maia, no perfil de [Pakal](mna_s09_mascara_pakal). Era uma forma de dizer quem você era: a cabeça como sinal de pertencimento ou de prestígio. E os rostos compartilham a boca olmeca de cantos caídos, que você já viu nos bebês de Tlatilco e no menino de Las Limas.\n\nO mais extraordinário é o que fizeram depois. Os olmecas não deixaram a oferenda à vista: enterraram-na de propósito, numa cova, e cobriram-na com camadas de areias coloridas, branca, amarela e vermelha. Ela não foi feita para que alguém a admirasse. Foi feita para existir debaixo da terra, como uma semente. No mundo mesoamericano, enterrar era semear: dar à terra o mais valioso, para que ela devolvesse o que o povo precisava. Os mexicas fariam o mesmo no Templo Mayor, dois mil anos depois, com centenas de oferendas.\n\nLa Venta foi a capital olmeca que sucedeu a San Lorenzo. Ficava numa ilha cercada de pântanos, em Tabasco, e ali se construiu uma grande pirâmide de argila, uma das primeiras grandes construções de Mesoamérica. Teve também quatro cabeças colossais, irmãs da que você viu no começo da sala. E sob seus pátios, como esta, apareceram oferendas de jade enterradas com cuidado.\n\nEsta oferenda foi descoberta em 1955, numa expedição que explorou La Venta. Imagine: os arqueólogos foram removendo a terra e, de repente, as figuras apareceram, tal como tinham sido deixadas havia quase três mil anos, olhando-se entre si. É uma dessas imagens que ficam: uma conversa que ninguém ouviu, e que ninguém deixou de querer entender."
+    },
+    "retos_observacion": {
+      "hash": "cb30eef2520a8a96",
+      "texto": [
+        "Conte as figuras e procure a que é diferente das demais",
+        "Observe a forma alongada das cabeças",
+        "Procure os seis machados e repare como estão colocados"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2657d70b99d694a7",
+      "texto": {
+        "Cultura": "Olmeca",
+        "Período": "Pré-clássico Médio",
+        "Material": "Serpentina, jadeíta e granito verde",
+        "Procedência": "La Venta, município de Huimanguillo, Tabasco",
+        "Dimensões": "Estatuetas: 0,16 a 0,20 m de altura; machados: 0,23 a 0,27 m de altura",
+        "Achado": "Descoberta em 1955 pelo arqueólogo Eduardo Contreras no Complexo A de La Venta"
+      }
+    },
+    "faq_mito": {
+      "hash": "26d3f5deae7cdca1",
+      "texto": {
+        "pregunta": "Mito: Esta oferenda é uma escultura feita para ser exibida.",
+        "respuesta": "Realidade: Foi feita para ser enterrada: ninguém deveria vê-la. O importante era que existisse debaixo da terra, não que fosse admirada."
+      }
+    }
+  }
+}

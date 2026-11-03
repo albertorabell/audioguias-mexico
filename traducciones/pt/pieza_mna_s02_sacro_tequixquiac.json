@@ -1,0 +1,54 @@
+{
+  "id": "mna_s02_sacro_tequixquiac",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1c291d9ed9b73bae",
+      "texto": "O Osso Sacro de Tequixquiac"
+    },
+    "frase_gancho": {
+      "hash": "dced4be84db1482d",
+      "texto": "Um osso fóssil transformado em rosto há mais de doze mil anos."
+    },
+    "puente_narrativo": {
+      "hash": "6c2133964e0858d9",
+      "texto": "Da engenhosidade do artista passamos à engenhosidade do artesão. Na última vitrine da sala, você verá as armas com que se caçavam os gigantes: pontas de pedra tão bem lapidadas que parecem joias."
+    },
+    "guion_corto": {
+      "hash": "4998b3082972a4dc",
+      "texto": "Esta peça parece um simples osso, mas é uma das obras de arte mais antigas da América. Chama-se Sacro de Tequixquiac e foi talhada há entre doze mil e catorze mil anos. O osso é o sacro, a parte da pelve onde termina a coluna, de um camelídeo extinto, parente das lhamas. Alguém aproveitou seus buracos naturais e os retocou com pedra para formar olhos, nariz e focinho alongado: uma cabeça de animal que muitos identificam como um coiote. Não sabemos quem a fez nem para quê. Mas há algo impressionante: há mais de doze mil anos, no vale do México, alguém olhou para um osso e viu um rosto."
+    },
+    "guion_largo": {
+      "hash": "55225f955acb2056",
+      "texto": "Os trabalhadores que, em 1870, cavavam um canal para drenar o vale do México, na região de Tequixquiac, não sabiam que estavam prestes a trazer à luz um tesouro. Entre os restos de animais da Era do Gelo apareceu um osso de aspecto estranho: parecia ter rosto. Naturalistas mexicanos o estudaram muito cedo, e a tradição menciona Mariano Bárcena entre os primeiros. Desde então, ele nunca deixou de intrigar quem o vê.\n\nRepare primeiro no material. É um sacro, o osso triangular onde termina a coluna vertebral. A palavra “sacro” vem de “sagrado”: desde a Antiguidade, foi chamado de osso sagrado. E pertencia a um camelídeo extinto, um parente das lhamas e dos camelos. Aqui vai um dado surpreendente: os camelos nasceram na América. Seus ancestrais evoluíram na América do Norte e dali se espalharam para a Ásia e para a América do Sul, e daí vieram as lhamas e os camelos. Há treze mil anos ainda viviam nestas terras, e o animal que deu origem a este osso caminhou pelo vale do México.\n\nAgora observe a talha. Com instrumentos de pedra, o artista alargou os buracos naturais do osso para marcar os olhos, desgastou a borda para sugerir as orelhas e recortou a extremidade para formar o focinho. Quase não acrescentou nada: leu a forma que o osso já trazia e a completou. É uma escultura feita por descoberta, não por invenção. Há quem veja um coiote; outros, um cachorro ou um caititu. Essa dúvida não é uma falha: é parte da beleza de uma imagem tão antiga.\n\nPor que isso importa tanto? Porque durante muito tempo se pensou que os primeiros habitantes da América eram gente recém-chegada, ocupada apenas em sobreviver. Esta peça diz outra coisa: houve tempo, e vontade, de fazer algo que não servia para comer nem para caçar, apenas para significar. Ou seja: pensamento simbólico, arte. Isso sim: sua data exata continua em discussão, e os cientistas pedem prudência. Mas, mesmo com as margens mais prudentes, continuaria sendo uma das obras de arte mais antigas do continente. Na Europa, nesses mesmos milênios, pintavam-se os bisões das cavernas de Altamira e Lascaux. Tequixquiac nos lembra que na América também havia quem olhasse o mundo com olhos de artista.\n\nE há um detalhe para o percurso. O coiote é um animal com uma longuíssima carreira na imaginação mesoamericana. Mais adiante, na Sala dos Tolteca, você verá um friso em que se sucedem jaguares e coiotes, e um [guerreiro com elmo de coiote](mna_s05_guerrero_coyote). O grande rei poeta de Texcoco chamou-se Nezahualcóyotl, “coiote faminto”. E uma divindade velha e travessa, Huehuecóyotl, protegia a música e a dança. Talvez tudo tenha começado com esta cabeça de osso.\n\nUma última ideia. Ver rostos onde não existem, numa nuvem, numa mancha de umidade ou num osso, é um impulso muito humano, e os psicólogos o chamam de pareidolia. É possível que quem talhou esta peça há mais de doze mil anos tenha sentido o mesmo: olhou para o osso, viu um rosto e se limitou a ajudá-lo a aparecer."
+    },
+    "retos_observacion": {
+      "hash": "fdfb949f949a337a",
+      "texto": [
+        "Localize os buracos do osso retocados para formar os olhos",
+        "Siga a borda do osso: ela sugere as orelhas e o focinho",
+        "Imagine o animal que deu origem ao osso: um camelídeo do Pleistoceno aparentado com as lhamas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7ab8bd4a77d98434",
+      "texto": {
+        "Cultura": "Caçadores-coletores do Estágio Lítico (Pleistoceno Superior)",
+        "Período": "Pleistoceno Superior (12 000 a 10 000 a.C. aproximadamente)",
+        "Material": "Osso sacro fossilizado de camelídeo extinto (Camelops)",
+        "Procedência": "Tequixquiac, Estado do México"
+      }
+    },
+    "faq_mito": {
+      "hash": "388c29fa7b383cf4",
+      "texto": {
+        "pregunta": "Mito: O Sacro de Tequixquiac é uma escultura colonial talhada em um osso de vaca.",
+        "respuesta": "Realidade: É uma obra pré-histórica, talhada sobre o sacro fossilizado de um camelídeo extinto há entre doze mil e catorze mil anos."
+      }
+    }
+  }
+}

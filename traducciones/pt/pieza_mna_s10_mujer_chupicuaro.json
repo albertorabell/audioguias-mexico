@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_mujer_chupicuaro",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4abbe6a0b99bf348",
+      "texto": "Escultura feminina policromada de Chupícuaro"
+    },
+    "frase_gancho": {
+      "hash": "69569e13e9aa5994",
+      "texto": "Uma mulher de barro pintada com losangos, salva das águas de uma represa."
+    },
+    "puente_narrativo": {
+      "hash": "57f5674f57566e13",
+      "texto": "Da superfície, descemos às profundezas. Procure uma reconstrução de tumba: um poço vertical que leva a uma câmara subterrânea cercada de figuras de barro."
+    },
+    "guion_corto": {
+      "hash": "b9b13da981217fc5",
+      "texto": "Esta figura feminina de barro, com quase cinquenta centímetros de altura, vem de Chupícuaro, em Guanajuato, e foi feita entre os anos quatrocentos antes de Cristo e duzentos da nossa era. Tem o ventre estufado, quadris largos e as mãos sobre o ventre. Repare na pintura: vermelho, preto e creme, com losangos nas pernas, faixas em zigue-zague na testa e máscaras geométricas em volta dos olhos. A superfície é polida e brilhante. Essas figuras eram colocadas em tumbas e talvez em altares familiares, e estão relacionadas com a fertilidade, a maternidade e o plantio do milho. É uma das peças mais reconhecíveis do Ocidente, e também uma das mais bem pintadas."
+    },
+    "guion_largo": {
+      "hash": "5336c8195bf5c47b",
+      "texto": "Hoje, o lugar onde essas figuras foram encontradas está debaixo d’água. Chupícuaro, no vale do rio Lerma, foi coberto pela represa Solís há mais de setenta anos. Mas, antes que a água subisse, uma equipe de arqueólogos chegou às pressas para resgatar o que pudesse.\n\nEscavaram centenas de sepultamentos, cercados de vasilhas e figurinhas, numa corrida contra o nível da água. Graças a esse resgate conhecemos hoje a cultura Chupícuaro, que de outro modo teria se perdido para sempre. É um lembrete de que nem tudo o que se perde no passado se perde pela passagem do tempo: às vezes é por causa de uma obra moderna.\n\nSua cerâmica é uma das mais belas do México antigo. As vasilhas e as figuras eram polidas até brilhar e pintadas de vermelho, preto e creme, com desenhos geométricos precisos. Seu estilo se reconhece à primeira vista, e se parece com peças encontradas na Bacia do México.\n\nEssas figuras femininas, de formas cheias, ventre pronunciado e quadris largos, vão lembrar você das “[Mulheres Bonitas](mna_s03_mujeres_bonitas)” de Tlatilco, na Sala das primeiras aldeias. É a mesma ideia: a mulher como símbolo de fertilidade, do milho que nasce e da terra que dá vida. Mas aqui a pintura conta outra história.\n\nOs desenhos geométricos que cobrem o corpo podem ter sido pintura corporal, tatuagens ou a imitação de tecidos e roupas. Como no [Adolescente de Tamuín](mna_s08_adolescente_huasteco), o corpo é uma página. Em muitas sociedades, os desenhos na pele ou na roupa diziam a que grupo você pertencia, que idade tinha ou que papel desempenhava. Se pudéssemos ler esse código, saberíamos muito mais sobre a mulher que ela representa.\n\nChupícuaro fica em uma encruzilhada. Está no Bajío, entre o Ocidente e o Altiplano, às margens de um rio, o Lerma, que conectava vários vales. Por ali circulavam pessoas, produtos e ideias, e isso explica por que seu estilo às vezes se parece com o de regiões distantes.\n\nRepare na cabeça: é larga e achatada no alto. Algumas figuras de Chupícuaro mostram deformação craniana, o mesmo costume que você viu na sala de introdução e no perfil de [Pakal](mna_s09_mascara_pakal). Era uma maneira de moldar o corpo desde a infância para que expressasse pertencimento e beleza.\n\nE um detalhe técnico: essas figuras são ocas por dentro. Um pedaço de barro maciço pode estourar no forno, porque o ar preso se expande com o calor. Por isso os ceramistas faziam peças ocas e com pequenos orifícios. Além de economizar material, isso as deixa leves, e permitia fazê-las maiores.\n\nE repare nas três cores: vermelho, preto e creme. Com apenas três tons, os pintores de Chupícuaro alcançaram desenhos de uma precisão quase matemática.\n\nAssim, da próxima vez que você vir uma figura de barro com mais de dois mil anos, lembre-se desta história: há peças que chegam até nós por acaso, e outras, como esta, porque alguém se apressou para salvá-las."
+    },
+    "retos_observacion": {
+      "hash": "99d24729585019a4",
+      "texto": [
+        "Procure os losangos, os zigue-zagues e as máscaras geométricas pintadas",
+        "Observe o ventre estufado e as mãos apoiadas sobre ele",
+        "Compare sua forma com as “Mulheres Bonitas” de Tlatilco"
+      ]
+    },
+    "especificaciones": {
+      "hash": "abd87cac0bc3994f",
+      "texto": {
+        "Cultura": "Chupícuaro",
+        "Período": "Pré-clássico Tardio (400 a.C.-200 d.C.)",
+        "Material": "Barro (cerâmica) policromado em vermelho, preto e branco sobre fundo claro; modelagem, aplicação de pastilhas e incisão",
+        "Procedência": "Chupícuaro, Acámbaro, Guanajuato (bacia do rio Lerma)"
+      }
+    },
+    "faq_mito": {
+      "hash": "df39ad648bc5dc87",
+      "texto": {
+        "pregunta": "Mito: Os sítios arqueológicos sempre permanecem intactos debaixo da terra.",
+        "respuesta": "Realidade: Alguns se perdem por obras modernas. Chupícuaro ficou debaixo de uma represa e só se salvou o que foi resgatado a tempo."
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "mna_s12_ciclo_milpa",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6e14abaf576ae936",
+      "texto": "A Casa Tradicional e o Ciclo Sagrado da Milpa Indígena"
+    },
+    "frase_gancho": {
+      "hash": "412a74dd665d6a3e",
+      "texto": "Uma casa de varas e barro onde o milho organiza a vida."
+    },
+    "puente_narrativo": {
+      "hash": "b2aed25581473bf9",
+      "texto": "Da casa e da milpa passamos aos tecidos. Procure uma vitrine longa com blusas bordadas, peças com losangos e flores, e um tear com uma faixa presa a uma vara."
+    },
+    "guion_corto": {
+      "hash": "3319b12a7a615419",
+      "texto": "Esta casa tradicional é feita com o que o lugar oferece: paredes de varas e barro, chamadas de pau a pique, e teto de palha. No centro há um fogão de três pedras, com um comal de barro para as tortilhas, e perto estão o metate e os cântaros. Esta sala também mostra o ciclo da milpa. A milpa não é um simples campo de milho: ali crescem juntos o milho, o feijão, a abóbora, a pimenta e as ervas comestíveis chamadas quelites. Cada planta ajuda as outras. Para muitos povos, a casa e a milpa são o centro da vida: comem-se, cuidam-se e celebram-se com cerimônias."
+    },
+    "guion_largo": {
+      "hash": "875f3e9464ea983b",
+      "texto": "Antes de falar de cerimônias, é preciso entrar na casa. Ela não tem pregos, nem cimento, nem tijolos. As paredes são de varas amarradas e cobertas de barro, o pau a pique, e o teto é de palha. Tudo vem do entorno, e quase tudo pode ser consertado com o que há por perto. Muitas casas são erguidas por toda a família e pelos vizinhos, num trabalho coletivo que em Oaxaca se chama tequio.\n\nNo centro está o fogão. São três pedras que sustentam o comal onde se assam as tortilhas. Os antigos maias pensavam, segundo textos e monumentos, que, quando o mundo foi criado, foram colocadas três pedras como as de um fogão: assim tudo começou. Na casa, essas três pedras também são um centro, um lugar onde a família se reúne, cozinha e se aquece.\n\nAgora, a milpa. É um sistema de plantas que se ajudam. O milho cresce alto e serve de tutor ao feijão, que sobe pelo seu caule. O feijão devolve nutrientes à terra. A abóbora cobre o solo com suas folhas, conserva a umidade e freia as ervas daninhas. A essa trindade somam-se a pimenta e os quelites. É uma invenção de milhares de anos que ainda é usada em muitíssimos lugares.\n\nE o milho tem uma história impressionante. Foi domesticado a partir de uma erva silvestre chamada teocintle, provavelmente na bacia do rio Balsas, há cerca de nove mil anos. É a mesma região de onde, como você viu, vinha o cobre purépecha e a pedra de Mezcala. Daquela erva de grãos duros surgiram centenas de variedades: azuis, vermelhas, pretas, amarelas, para cada altitude e cada clima.\n\nPor isso o milho é mais que comida. Os maias do Popol Vuh acreditavam que os seres humanos foram feitos de massa de milho, depois que as primeiras tentativas, feitas de madeira, fracassaram. Você viu esse eco no rei-milho do [friso de Los Placeres](mna_s09_friso_placeres) e no broto do machado olmeca. Para quem o semeia, cada espiga guarda essa memória.\n\nCom a milpa vem um calendário. Em muitos povos, antes de semear, pede-se permissão à terra com uma cerimônia. Quando chegam as chuvas, elas são pedidas ou agradecidas nos montes e nas cavernas. Com os primeiros milhos verdes há festa. E com a colheita, no fim de outubro e início de novembro, prepara-se a oferenda para os mortos. Nas próximas salas você verá vários desses ritos.\n\nUm último dado prático. O milho não se come assim, como é colhido. Ele é cozido com cal, num processo chamado nixtamalização, que o torna mais fácil de digerir e aproveita melhor seus nutrientes. Foi inventado em Mesoamérica, há muitíssimo tempo, e é o que torna possível a tortilha. Em algumas regiões do centro, o milho é guardado em cuescomates, celeiros de barro em forma de panela gigante e teto de palha. Uma casa, um fogão e uma milpa: tudo de que uma vida precisa."
+    },
+    "retos_observacion": {
+      "hash": "959e1857de793fb3",
+      "texto": [
+        "Procure o fogão de três pedras e o comal",
+        "Encontre o metate e os cântaros junto ao fogão",
+        "Repare em como o teto está amarrado, sem pregos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e44c4a607ce6b80a",
+      "texto": {
+        "Povo indígena": "Multiétnico (Nahuas, Maias, Zapotecas, Mixtecas, entre outros)",
+        "Região": "Mesoamérica e regiões agrícolas do México",
+        "Técnica/Material": "Arquitetura vernácula (pau a pique, palha, madeira) e utensílios domésticos originais",
+        "Função": "Recriação do espaço doméstico e ciclo ritual agrofestivo do milho"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7b80072501d106d",
+      "texto": {
+        "pregunta": "Mito: A milpa é apenas um campo de milho.",
+        "respuesta": "Realidade: É um sistema de várias plantas que se ajudam: o milho sustenta o feijão, o feijão alimenta a terra e a abóbora a cobre."
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "mna_s10_vasija_capacha",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "4095784a122ad49e",
+      "texto": "Vasilha com alça em forma de estribo do Complexo Capacha"
+    },
+    "frase_gancho": {
+      "hash": "f8787b0d5c3255b5",
+      "texto": "Uma vasilha de mais de três mil anos que propõe um mistério do mar."
+    },
+    "puente_narrativo": {
+      "hash": "55eb323d881a8179",
+      "texto": "Das aldeias mais antigas, passamos a um resgate arqueológico. Procure uma figura feminina de barro pintado, com quadris largos e o corpo coberto de desenhos geométricos."
+    },
+    "guion_corto": {
+      "hash": "daa31d0f67ac9479",
+      "texto": "Esta vasilha cinza, de uns vinte e cinco centímetros de altura, vem de Colima e é uma das mais antigas do Ocidente: foi feita há uns três mil e quinhentos anos. É formada por dois corpos arredondados, um sobre o outro, unidos por tubos curvos que parecem alças; esse tipo de alça é chamado de estribo. A superfície é polida e decorada com linhas incisas, feitas com um punção quando o barro ainda estava úmido. Repare na forma, que lembra uma cabaça dupla. Foi feita à mão, sem torno. Naquela época, o povo de Colima vivia em aldeias, plantava milho e enterrava seus mortos em covas simples, com vasilhas como esta. Não é um objeto de luxo, mas uma das primeiras amostras do talento ceramista do Ocidente."
+    },
+    "guion_largo": {
+      "hash": "49c9224989e13f38",
+      "texto": "Esta vasilha se parece com outras que estão a milhares de quilômetros daqui, e ninguém sabe com certeza por quê. Isso a torna uma das peças mais interessantes da sala: uma pergunta de barro.\n\nEla se chama Capacha por causa de um lugar de Colima onde a arqueóloga Isabel Kelly encontrou os primeiros cemitérios com vasilhas deste tipo. Sua descoberta mostrou que em Colima havia aldeias tão antigas quanto as de Tlatilco, que você viu na sala das primeiras aldeias, ou quanto as dos primeiros olmecas. Ou seja, enquanto em San Lorenzo se erguiam cabeças colossais, em Colima já se fazia uma cerâmica elegante e cuidadosa.\n\nAgora, o mistério. Vasilhas de corpo duplo e alça em forma de estribo quase iguais a esta aparecem no Equador, nas culturas chamadas Machalilla e Chorrera, a mais de três mil quilômetros de distância, seguindo a costa do Pacífico. Coincidência? Há quem pense que sim: formas simples que são inventadas separadamente em lugares diferentes. Outros sustentam que houve contato por mar desde épocas muito antigas, com navegantes que percorriam a costa. Não há consenso, e por isso a peça é tão famosa entre os especialistas.\n\nEsse debate não é um capricho. Mais adiante, nesta mesma sala, você verá outra pista do mesmo tipo: a metalurgia, a técnica do metal que você viu no [peitoral de ouro da Tumba 7](mna_s07_pectoral_oro_tumba7) de Monte Albán. Segundo muitos especialistas, ela chegou ao Ocidente vinda da América do Sul por volta do ano setecentos da nossa era. Se houve viagens por mar, esta vasilha seria um dos primeiros indícios.\n\nPense em como vivia quem a usou. Eram aldeias pequenas, perto da costa e dos vales, onde se plantava milho, feijão e abóbora, e a alimentação era complementada com caça e pesca. Não havia cidades nem pirâmides. Mesmo assim, esses aldeões dedicavam tempo a modelar à mão uma vasilha de dois corpos, a poli-la com uma pedra lisa e a decorá-la com um punção de osso. A beleza não esperou que existissem reis.\n\nQuando um arqueólogo fala de um “complexo” cerâmico, como o complexo Capacha, refere-se a um conjunto de formas e decorações que aparecem juntas no mesmo tempo e lugar. É a maneira de reconhecer uma cultura quando não temos seu nome nem sua escrita: pela marca de suas mãos no barro.\n\nRepare, além disso, na forma. Ela imita uma cabaça, o fruto seco que é usado há milênios como recipiente: duas esferas unidas por um pescoço. Em muitos povos do México, a cabaça continua servindo hoje para carregar água. Os ceramistas de Capacha pegaram uma forma da natureza e a transformaram em barro.\n\nAs vasilhas como esta aparecem nas tumbas, junto ao corpo. Pensa-se que guardavam água ou bebidas para a viagem do morto. E as tumbas eram simples: covas com lajes de pedra por cima, sem pirâmides nem câmaras. A tradição das tumbas profundas, que você verá em seguida, chegaria quase mil e quinhentos anos depois. Mas o cuidado com os mortos já está aqui.\n\nAssim começa a sala do Ocidente: com uma vasilha humilde, polida à mão, que ainda faz perguntas."
+    },
+    "retos_observacion": {
+      "hash": "d7d5c27f6ce81b64",
+      "texto": [
+        "Conte os corpos da vasilha e procure os tubos que os unem",
+        "Olhe as linhas incisas da superfície",
+        "Imagine uma cabaça dupla: ela se parece com esta forma?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a108382a93553bf5",
+      "texto": {
+        "Cultura": "Capacha",
+        "Período": "Pré-clássico Inicial, Formativo (1500-1000 a.C.; por volta de 1450 a.C.)",
+        "Material": "Cerâmica de argila marrom-escura ou preta polida, com incisões finas e campos pontilhados",
+        "Procedência": "Colima (sítio-tipo na antiga fazenda Capacha), com difusão para Jalisco e Michoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "1d9e21acebc3407a",
+      "texto": {
+        "pregunta": "Mito: As culturas antigas do México viviam isoladas umas das outras.",
+        "respuesta": "Realidade: Havia intercâmbio a grandes distâncias, por terra e talvez por mar. Algumas vasilhas de Colima se parecem com outras do Equador, e discute-se se houve contato marítimo."
+      }
+    }
+  }
+}

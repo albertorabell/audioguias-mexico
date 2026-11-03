@@ -1,0 +1,53 @@
+{
+  "id": "mna_s08_palma_sacrificio",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "41571f0063aa9c9a",
+      "texto": "Palma de pedra com relevo de sacrifício humano"
+    },
+    "frase_gancho": {
+      "hash": "c55386bd216335cc",
+      "texto": "Um leque de pedra que conta como terminava o jogo mais sagrado."
+    },
+    "puente_narrativo": {
+      "hash": "2f9d04d8bb36db4b",
+      "texto": "Depois de tanta gravidade, o riso. Procure uma pequena figura de barro, com a cabeça alongada, que mostra os dentes num sorriso aberto."
+    },
+    "guion_corto": {
+      "hash": "786083689a3f5a63",
+      "texto": "Esta palma de pedra, com quase meio metro de altura, tem forma de leque: estreita na base e mais larga em cima. É assim que se chamam as peças que acompanhavam os jugos no jogo de bola. Em sua face principal há uma cena de sacrifício gravada em relevo: um personagem com o jugo na cintura segura uma faca de sílex, e o sangue jorra em curvas longas e entrelaçadas que terminam em cabeças de serpente. Observe essas curvas, tão típicas da arte de El Tajín. Para os povos do Golfo, o sangue era o alimento que mantinha o Sol vivo e que trazia a chuva. Esta pedra não é uma lembrança esportiva: é uma mensagem sagrada."
+    },
+    "guion_largo": {
+      "hash": "e03de466df60c6e0",
+      "texto": "Uma coisa é saber que o jogo de bola era sagrado, e outra é ver até onde chegava essa ideia. Esta palma mostra isso sem rodeios, por isso convém olhá-la com calma.\n\nComecemos pelo nome. Ela é chamada de “palma” por sua silhueta, que se alarga para cima como a folha de uma palmeira ou um leque. Pensa-se que era colocada em pé sobre a parte dianteira de um jugo, nas procissões e cerimônias do jogo. Imagine o conjunto: o cinturão de pedra e, por cima, uma lâmina de pedra com uma história gravada. Por seu material e seu tamanho, não eram peças para jogar, mas para serem vistas.\n\nAgora a cena. A figura central traz o jugo ajustado ao corpo e empunha uma faca de sílex. O sangue jorra em volutas longas, como fitas, que acabam transformadas em serpentes. Segundo algumas descrições, sobre a cena voa uma ave de rapina, talvez uma águia, a mesma ave do Sol que veste o [Guerreiro Águia](mna_s06_guerrero_aguila). Tudo está cheio de movimento, e não há um único espaço sem decoração. Essas curvas longas e entrelaçadas, como fitas que se enroscam sem nunca terminar, são quase uma assinatura de El Tajín: se algum dia você vir outras obras dessa cidade, vai reconhecê-las de imediato.\n\nQuem era a vítima? Aqui está uma das grandes perguntas do jogo de bola. Há quem pense que se sacrificava a equipe perdedora. Outros, que a honra de morrer era do vencedor, ou de um capitão escolhido. E há quem acredite que isso não acontecia depois de cada partida, mas em ocasiões extraordinárias. Na verdade, não sabemos: as imagens não dizem quem ganhou. O que vemos, sim, é que, nos relevos da quadra sul de El Tajín, também aparece um jogador sacrificado, com uma figura da morte presente.\n\nPor que sangue num jogo? Porque, em Mesoamérica, o mundo funcionava por troca: o Sol, a chuva e o milho davam vida, e em troca era preciso devolver-lhes o mais valioso, o sangue. Você já se deparou com essa ideia: em [os Danzantes](mna_s07_danzante_montealban) de Monte Albán, o sangue jorra em volutas; em [Coyolxauhqui](mna_s06_coyolxauhqui), o corpo desmembrado alimenta o deus; em [o Tlaltecuhtli](mna_s06_tlaltecuhtli), a terra pede para ser alimentada. Aqui o sangue se converte em serpentes, que por sua vez são água. Não é crueldade gratuita: é uma lógica em que o sangue vira chuva, a chuva vira milho e o milho vira gente.\n\nOs maias contavam algo parecido. No Popol Vuh, os primeiros jogadores de bola são vencidos pelos senhores da morte e sacrificados; a cabeça de um deles, pendurada numa árvore, acaba dando origem aos gêmeos que mais tarde vencerão esses senhores. Você voltará a encontrar o eco dessa história na Sala Maia.\n\nHoje nos custa imaginar uma partida que termine assim. Mas esse era o ponto: não se tratava de ganhar uma taça, mas de sustentar a ordem do mundo. E o escultor, como um cronista, gravou a cena para que ninguém a esquecesse."
+    },
+    "retos_observacion": {
+      "hash": "209e11b46db575cb",
+      "texto": [
+        "Observe a forma de leque: em que parte a peça é mais larga?",
+        "Procure a faca de sílex na mão do personagem",
+        "Siga as curvas longas: em que elas terminam?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ecf498636a9279b4",
+      "texto": {
+        "Cultura": "Centro de Veracruz / El Tajín",
+        "Período": "Clássico Tardio (600-900 d.C.)",
+        "Procedência": "Região central de Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "01aac139d0ed2cbc",
+      "texto": {
+        "pregunta": "Mito: No jogo de bola, a equipe perdedora sempre era sacrificada.",
+        "respuesta": "Realidade: Não sabemos com certeza. Alguns pensam que se sacrificava o perdedor; outros, o vencedor, e talvez isso não acontecesse depois de cada partida."
+      }
+    }
+  }
+}
