@@ -160,3 +160,20 @@ test('página del sitio: lista las piezas gratis con enlace', () => {
   assert.ok(html.includes('<h2>Obras para probar gratis</h2>'));
   assert.ok(html.includes('<a href="/guias/museo/piedra-del-sol/">Piedra del Sol</a>'));
 });
+
+test('alemán y portugués: dirección propia, hreflang y textos en su idioma; sin sus datos no hay página', () => {
+  const cfg2 = { ...cfg, slugs: { ...cfg.slugs, de: 'museum-de', pt: 'museu-pt' }, nombres: { ...cfg.nombres, de: 'Das Museum', pt: 'O Museu' } };
+  assert.equal(direccion('museum-de', 'de'), '/de/fuehrer/museum-de/');
+  assert.equal(direccion('museu-pt', 'pt'), '/pt/guias/museu-pt/');
+  assert.equal(contar('de', 2, false), '2 Werke');
+  assert.equal(contar('pt', 1, true), '1 parada');
+  const s2 = { ...sitio, description_de: 'Das wichtigste Haus.', intro_de: 'Erster Absatz.', description_pt: 'O espaço mais importante.', intro_pt: 'Primeiro parágrafo.' };
+  assert.equal(idiomaDisponible({ sitio, manifiesto: {}, cfg: cfg2 }, 'de'), false);
+  assert.equal(idiomaDisponible({ sitio: s2, manifiesto: {}, cfg: cfg2 }, 'de'), true);
+  const de = armarPagina({ sitio: s2, manifiesto, salas, piezas, cfg: cfg2, lang: 'de', idiomas: ['es', 'de', 'pt'] });
+  assert.equal(de.url, 'https://xolotli.com/de/fuehrer/museum-de/');
+  assert.ok(de.html.includes('<html lang="de">') && de.html.includes('hreflang="pt"') && de.html.includes('og:locale" content="de_DE"'));
+  assert.ok(de.html.includes('Audioguide für deinen Besuch'));
+  const pt = armarPagina({ sitio: s2, manifiesto, salas, piezas, cfg: cfg2, lang: 'pt', idiomas: ['es', 'de', 'pt'] });
+  assert.ok(pt.html.includes('<html lang="pt">') && pt.html.includes('og:locale" content="pt_BR"'));
+});

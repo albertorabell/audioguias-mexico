@@ -52,6 +52,8 @@ export const ui = defineGroup(
       ],
       passBadgeTitle: (hours: number, devices: number) => `Un pase de ${hours} horas, ${devices} teléfonos`,
       passBadgeText: 'Ideal para ir en pareja o con amigos: activas el segundo teléfono con un código corto, sin trámites.',
+      valueChips: (hours: number, devices: number) => ['Paradas gratis para probar', `Pase de ${hours} h para ${devices} teléfonos`, 'Funciona sin internet'],
+      tryFree: 'Probar la parada gratis',
     },
     museum: {
       startRoute: 'Empezar',
@@ -245,6 +247,8 @@ export const ui = defineGroup(
       ],
       passBadgeTitle: (hours: number, devices: number) => `One ${hours}-hour pass, ${devices} phones`,
       passBadgeText: 'Ideal for couples or friends: activate the second phone with a short code, no hassle.',
+      valueChips: (hours: number, devices: number) => ['Free stops to try', `${hours}-hour pass for ${devices} phones`, 'Works offline'],
+      tryFree: 'Try the free stop',
     },
     museum: {
       startRoute: 'Start',
@@ -440,6 +444,8 @@ export const ui = defineGroup(
       ],
       passBadgeTitle: (hours: number, devices: number) => `Un pass de ${hours} heures, ${devices} téléphones`,
       passBadgeText: 'Idéal à deux ou entre amis : activez le second téléphone avec un court code, sans formalités.',
+      valueChips: (hours: number, devices: number) => ['Étapes gratuites à essayer', `Pass de ${hours} h pour ${devices} téléphones`, 'Fonctionne hors ligne'],
+      tryFree: 'Essayer l’étape gratuite',
     },
     museum: {
       startRoute: 'Commencer',

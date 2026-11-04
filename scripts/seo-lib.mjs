@@ -8,10 +8,10 @@
 import { stripLinks } from '../src/utils/pieceLinks.js';
 
 export const DOMINIO = 'https://xolotli.com';
-export const IDIOMAS = ['es', 'en', 'fr', 'pl'];
+export const IDIOMAS = ['es', 'en', 'fr', 'pl', 'de', 'pt'];
 
-const RUTA = { es: '/guias/', en: '/en/guides/', fr: '/fr/guides/', pl: '/pl/przewodniki/' };
-const OG_LOCALE = { es: 'es_MX', en: 'en_US', fr: 'fr_FR', pl: 'pl_PL' };
+const RUTA = { es: '/guias/', en: '/en/guides/', fr: '/fr/guides/', pl: '/pl/przewodniki/', de: '/de/fuehrer/', pt: '/pt/guias/' };
+const OG_LOCALE = { es: 'es_MX', en: 'en_US', fr: 'fr_FR', pl: 'pl_PL', de: 'de_DE', pt: 'pt_BR' };
 
 /**
  * Qué sitios tienen página. slugs = nombre en la dirección, por idioma; nombres = cómo se llama el sitio en cada idioma
@@ -21,38 +21,48 @@ const OG_LOCALE = { es: 'es_MX', en: 'en_US', fr: 'fr_FR', pl: 'pl_PL' };
 export const PAGINAS = {
   MNA: {
     articulo: 'el',
-    slugs: { es: 'museo-nacional-de-antropologia', en: 'national-museum-of-anthropology', fr: 'musee-national-d-anthropologie', pl: 'narodowe-muzeum-antropologii' },
-    nombres: { en: 'National Museum of Anthropology', fr: 'Musée national d’anthropologie', pl: 'Narodowe Muzeum Antropologii' },
+    slugs: { es: 'museo-nacional-de-antropologia', en: 'national-museum-of-anthropology', fr: 'musee-national-d-anthropologie', pl: 'narodowe-muzeum-antropologii', de: 'nationales-anthropologiemuseum', pt: 'museu-nacional-de-antropologia' },
+    nombres: { en: 'National Museum of Anthropology', fr: 'Musée national d’anthropologie', pl: 'Narodowe Muzeum Antropologii', de: 'Nationales Anthropologiemuseum', pt: 'Museu Nacional de Antropologia' },
   },
   TEOTIHUACAN: {
     articulo: 'la',
-    slugs: { es: 'zona-arqueologica-de-teotihuacan', en: 'teotihuacan-archaeological-zone', fr: 'zone-archeologique-de-teotihuacan', pl: 'strefa-archeologiczna-teotihuacan' },
-    nombres: { en: 'Teotihuacan Archaeological Zone', fr: 'Zone archéologique de Teotihuacan', pl: 'Strefa archeologiczna Teotihuacán' },
+    slugs: { es: 'zona-arqueologica-de-teotihuacan', en: 'teotihuacan-archaeological-zone', fr: 'zone-archeologique-de-teotihuacan', pl: 'strefa-archeologiczna-teotihuacan', de: 'archaeologische-zone-teotihuacan', pt: 'zona-arqueologica-de-teotihuacan' },
+    nombres: { en: 'Teotihuacan Archaeological Zone', fr: 'Zone archéologique de Teotihuacan', pl: 'Strefa archeologiczna Teotihuacán', de: 'Archäologische Zone Teotihuacán', pt: 'Zona Arqueológica de Teotihuacán' },
   },
   CHAPULTEPEC: {
     articulo: 'el',
-    slugs: { es: 'castillo-de-chapultepec', en: 'chapultepec-castle', fr: 'chateau-de-chapultepec', pl: 'zamek-chapultepec' },
-    nombres: { en: 'Chapultepec Castle', fr: 'Château de Chapultepec', pl: 'Zamek Chapultepec' },
+    slugs: { es: 'castillo-de-chapultepec', en: 'chapultepec-castle', fr: 'chateau-de-chapultepec', pl: 'zamek-chapultepec', de: 'schloss-chapultepec', pt: 'castelo-de-chapultepec' },
+    nombres: { en: 'Chapultepec Castle', fr: 'Château de Chapultepec', pl: 'Zamek Chapultepec', de: 'Schloss Chapultepec', pt: 'Castelo de Chapultepec' },
   },
   CENTRO_HISTORICO: {
     articulo: 'el',
-    slugs: { es: 'centro-historico-ciudad-de-mexico', en: 'historic-centre-mexico-city', fr: 'centre-historique-mexico', pl: 'centrum-historyczne-miasta-meksyk' },
-    nombres: { en: 'Historic Centre of Mexico City', fr: 'Centre historique de Mexico', pl: 'Centrum Historyczne miasta Meksyk' },
+    slugs: { es: 'centro-historico-ciudad-de-mexico', en: 'historic-centre-mexico-city', fr: 'centre-historique-mexico', pl: 'centrum-historyczne-miasta-meksyk', de: 'historisches-zentrum-mexiko-stadt', pt: 'centro-historico-da-cidade-do-mexico' },
+    nombres: { en: 'Historic Centre of Mexico City', fr: 'Centre historique de Mexico', pl: 'Centrum Historyczne miasta Meksyk', de: 'Historisches Zentrum von Mexiko-Stadt', pt: 'Centro Histórico da Cidade do México' },
   },
   CHICHEN_ITZA: {
     articulo: 'la',
-    slugs: { es: 'zona-arqueologica-de-chichen-itza', en: 'chichen-itza-archaeological-zone', fr: 'zone-archeologique-de-chichen-itza', pl: 'strefa-archeologiczna-chichen-itza' },
-    nombres: { en: 'Chichén Itzá Archaeological Zone', fr: 'Zone archéologique de Chichén Itzá', pl: 'Strefa archeologiczna Chichén Itzá' },
+    slugs: { es: 'zona-arqueologica-de-chichen-itza', en: 'chichen-itza-archaeological-zone', fr: 'zone-archeologique-de-chichen-itza', pl: 'strefa-archeologiczna-chichen-itza', de: 'archaeologische-zone-chichen-itza', pt: 'zona-arqueologica-de-chichen-itza' },
+    nombres: { en: 'Chichén Itzá Archaeological Zone', fr: 'Zone archéologique de Chichén Itzá', pl: 'Strefa archeologiczna Chichén Itzá', de: 'Archäologische Zone Chichén Itzá', pt: 'Zona Arqueológica de Chichén Itzá' },
   },
   TEMPLO_MAYOR_CATEDRAL: {
     articulo: 'el',
-    slugs: { es: 'templo-mayor-y-catedral-metropolitana', en: 'templo-mayor-and-metropolitan-cathedral', fr: 'templo-mayor-et-cathedrale-metropolitaine', pl: 'templo-mayor-i-katedra-metropolitalna' },
-    nombres: { en: 'Templo Mayor and Metropolitan Cathedral', fr: 'Templo Mayor et cathédrale métropolitaine', pl: 'Templo Mayor i Katedra Metropolitalna' },
+    slugs: { es: 'templo-mayor-y-catedral-metropolitana', en: 'templo-mayor-and-metropolitan-cathedral', fr: 'templo-mayor-et-cathedrale-metropolitaine', pl: 'templo-mayor-i-katedra-metropolitalna', de: 'templo-mayor-und-metropolitankathedrale', pt: 'templo-mayor-e-catedral-metropolitana' },
+    nombres: { en: 'Templo Mayor and Metropolitan Cathedral', fr: 'Templo Mayor et cathédrale métropolitaine', pl: 'Templo Mayor i Katedra Metropolitalna', de: 'Templo Mayor und Metropolitankathedrale', pt: 'Templo Mayor e Catedral Metropolitana' },
   },
   MUSEO_FRIDA_KAHLO: {
     articulo: 'el',
-    slugs: { es: 'museo-frida-kahlo-casa-azul', en: 'frida-kahlo-museum-blue-house', fr: 'musee-frida-kahlo-maison-bleue', pl: 'muzeum-fridy-kahlo-niebieski-dom' },
-    nombres: { en: 'Frida Kahlo Museum (The Blue House)', fr: 'Musée Frida Kahlo (La Maison Bleue)', pl: 'Muzeum Fridy Kahlo (Niebieski Dom)' },
+    slugs: { es: 'museo-frida-kahlo-casa-azul', en: 'frida-kahlo-museum-blue-house', fr: 'musee-frida-kahlo-maison-bleue', pl: 'muzeum-fridy-kahlo-niebieski-dom', de: 'frida-kahlo-museum-blaues-haus', pt: 'museu-frida-kahlo-casa-azul' },
+    nombres: { en: 'Frida Kahlo Museum (The Blue House)', fr: 'Musée Frida Kahlo (La Maison Bleue)', pl: 'Muzeum Fridy Kahlo (Niebieski Dom)', de: 'Frida-Kahlo-Museum (Das Blaue Haus)', pt: 'Museu Frida Kahlo (Casa Azul)' },
+  },
+  CUERNAVACA_HISTORICA: {
+    articulo: '',
+    slugs: { es: 'cuernavaca-historica', en: 'historic-cuernavaca', fr: 'cuernavaca-historique', pl: 'historyczna-cuernavaca', de: 'historisches-cuernavaca', pt: 'cuernavaca-historica' },
+    nombres: { en: 'Historic Cuernavaca', fr: 'Cuernavaca historique', pl: 'Historyczna Cuernavaca', de: 'Historisches Cuernavaca', pt: 'Cuernavaca Histórica' },
+  },
+  XOCHICALCO: {
+    articulo: '',
+    slugs: { es: 'zona-arqueologica-de-xochicalco', en: 'xochicalco-archaeological-zone', fr: 'zone-archeologique-de-xochicalco', pl: 'strefa-archeologiczna-xochicalco', de: 'archaeologische-zone-xochicalco', pt: 'zona-arqueologica-de-xochicalco' },
+    nombres: { en: 'Xochicalco Archaeological Zone', fr: 'Zone archéologique de Xochicalco', pl: 'Strefa archeologiczna Xochicalco', de: 'Archäologische Zone Xochicalco', pt: 'Zona Arqueológica de Xochicalco' },
   },
 };
 
@@ -120,6 +130,8 @@ export function contar(lang, n, aireLibre) {
     es: aireLibre ? ['parada', 'paradas'] : ['obra', 'obras'],
     en: aireLibre ? ['stop', 'stops'] : ['work', 'works'],
     fr: aireLibre ? ['étape', 'étapes'] : ['œuvre', 'œuvres'],
+    de: aireLibre ? ['Stopp', 'Stopps'] : ['Werk', 'Werke'],
+    pt: aireLibre ? ['parada', 'paradas'] : ['obra', 'obras'],
   };
   if (lang === 'pl') return `${n} ${aireLibre ? plPl(n, 'przystanek', 'przystanki', 'przystanków') : plPl(n, 'dzieło', 'dzieła', 'dzieł')}`;
   return `${n} ${n === 1 ? f[lang][0] : f[lang][1]}`;
@@ -221,6 +233,54 @@ const T = {
     antes: 'Przed wizytą',
     otras: 'Inne przewodniki',
     pie: 'audioprzewodniki w telefonie po muzeach i stanowiskach archeologicznych Meksyku. Po pobraniu działają bez internetu.',
+  },
+  de: {
+    titulo: (n) => `${n}: Audioguide und Besucherführer`,
+    h1: (n) => `${n}: Audioguide für deinen Besuch`,
+    desc: (n, cuantas, rango, gratis) => `${n}: Audioguide auf dem Handy, ${cuantas} erklärt${rango ? `, Touren von ${rango}` : ''}${gratis ? `, ${gratis} gratis zum Ausprobieren` : ''}, auch offline nutzbar.`,
+    pronto: 'Demnächst: Dieser Audioguide ist bald verfügbar.',
+    gratisTitulo: (aire) => (aire ? 'Gratis-Stopps zum Ausprobieren' : 'Gratis-Werke zum Ausprobieren'),
+    piezaTitulo: (p, n) => `${p}: Geschichte und Standort (${n})`,
+    ubic: (sala, n) => `Standort: ${sala ? `${sala}, ` : ''}${n}.`,
+    piezaCta: (n) => `Hör dir den vollständigen Audioguide an: ${n}`,
+    volver: (n) => `Zum Führer: ${n}`,
+    piezaDesc: (p, n) => `${p} – ${n}: Geschichte, Bedeutung und Fundort. Kostenloser Text aus dem Audioguide.`,
+    abrir: 'Audioguide öffnen',
+    precio: (p) => `72-Stunden-Pass für ${p}, ohne Abo. `,
+    gratis: (c) => `${c} zum kostenlosen Anhören, ohne Anmeldung.`,
+    sobre: (aire) => (aire ? 'Über den Ort' : 'Über das Museum'),
+    queVer: (n, art, ruta) => `Was es zu sehen gibt: ${ruta}`,
+    queVerSub: (c, d) => `${c}${d ? `, etwa ${d}` : ''}, in der Reihenfolge des Rundgangs.`,
+    recorridos: 'Touren',
+    recorridosSub: () => 'Wähle eine Tour passend zu deiner Zeit. Der Audioguide führt dich Stopp für Stopp.',
+    lugares: (aire) => (aire ? 'Bereiche' : 'Säle'),
+    antes: 'Vor dem Besuch',
+    otras: 'Weitere Führer',
+    pie: 'Audioguides auf dem Handy für Museen und archäologische Stätten in Mexiko. Nach dem Download funktionieren sie offline.',
+  },
+  pt: {
+    titulo: (n) => `${n}: audioguia e guia de visita`,
+    h1: (n) => `${n}: audioguia para a sua visita`,
+    desc: (n, cuantas, rango, gratis) => `${n}: audioguia no celular com ${cuantas} explicadas${rango ? `, roteiros de ${rango}` : ''}${gratis ? `, ${gratis} grátis para testar` : ''} e uso sem internet.`,
+    pronto: 'Em breve: este audioguia estará disponível em pouco tempo.',
+    gratisTitulo: (aire) => (aire ? 'Paradas grátis para testar' : 'Obras grátis para testar'),
+    piezaTitulo: (p, n) => `${p}: história e localização (${n})`,
+    ubic: (sala, n) => `Localização: ${sala ? `${sala}, ` : ''}${n}.`,
+    piezaCta: (n) => `Ouça o audioguia completo de ${n}`,
+    volver: (n) => `Ver o guia: ${n}`,
+    piezaDesc: (p, n) => `${p} em ${n}: sua história, o que significa e onde encontrá-la. Texto gratuito do audioguia.`,
+    abrir: 'Abrir o audioguia',
+    precio: (p) => `Passe de 72 horas por ${p}, sem assinatura. `,
+    gratis: (c) => `${c} para ouvir de graça, sem cadastro.`,
+    sobre: (aire) => (aire ? 'Sobre o local' : 'Sobre o museu'),
+    queVer: (n, art, ruta) => `O que ver: ${ruta}`,
+    queVerSub: (c, d) => `${c}${d ? ` em cerca de ${d}` : ''}, na ordem em que se caminha.`,
+    recorridos: 'Roteiros',
+    recorridosSub: () => 'Escolha um conforme o tempo que você tem. O audioguia leva você parada por parada.',
+    lugares: (aire) => (aire ? 'Zonas' : 'Salas'),
+    antes: 'Antes de ir',
+    otras: 'Outros guias',
+    pie: 'audioguias no celular para museus e sítios arqueológicos do México. Funcionam sem internet depois de baixados.',
   },
 };
 
@@ -344,7 +404,7 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
   const principal = recorridoPrincipal(rutas);
   const gratis = piezas.filter((p) => p.is_free);
   const minutos = rutas.map(minutosDe).filter((m) => m > 0);
-  const rango = minutos.length ? `${duracion(Math.min(...minutos))}${Math.min(...minutos) === Math.max(...minutos) ? '' : lang === 'es' ? ` a ${duracion(Math.max(...minutos))}` : lang === 'pl' ? ` do ${duracion(Math.max(...minutos))}` : lang === 'fr' ? ` à ${duracion(Math.max(...minutos))}` : ` to ${duracion(Math.max(...minutos))}`}` : '';
+  const rango = minutos.length ? `${duracion(Math.min(...minutos))}${Math.min(...minutos) === Math.max(...minutos) ? '' : lang === 'es' ? ` a ${duracion(Math.max(...minutos))}` : lang === 'pl' ? ` do ${duracion(Math.max(...minutos))}` : lang === 'fr' ? ` à ${duracion(Math.max(...minutos))}` : lang === 'de' ? ` bis ${duracion(Math.max(...minutos))}` : lang === 'pt' ? ` a ${duracion(Math.max(...minutos))}` : ` to ${duracion(Math.max(...minutos))}`}` : '';
   const precio = moneda(lang, sitio, manifiesto);
   const abrir = `/?sitio=${encodeURIComponent(sitio.id)}&idioma=${lang}`;
 

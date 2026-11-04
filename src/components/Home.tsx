@@ -71,10 +71,15 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
           </div>
           <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{t.heroTitle}</h1>
           <p className="mt-3 text-[1.0625rem] leading-relaxed text-ink-2 max-w-[34ch]">{u.subtitle}</p>
+          <ul className="mt-4 flex flex-wrap gap-1.5" aria-label={u.passBadgeTitle(PASS_HOURS, PASS_MAX_DEVICES)}>
+            {u.valueChips(PASS_HOURS, PASS_MAX_DEVICES).map((chip) => (
+              <li key={chip} className="rounded-full border border-line bg-surface px-2.5 py-1 text-[0.8125rem] leading-tight font-semibold text-ink-2">{chip}</li>
+            ))}
+          </ul>
         </section>
 
-        <section id="sites-grid-section" aria-label={u.venuesAria} className="space-y-3">
-          {isLoading && <div className="h-80 rounded-[20px] bg-surface animate-pulse" />}
+        <section id="sites-grid-section" aria-label={u.venuesAria} className="grid grid-cols-2 gap-3 items-stretch">
+          {isLoading && <div className="col-span-2 h-80 rounded-[20px] bg-surface animate-pulse" />}
           {active.map((rawSite) => {
             const site = localizeSite(rawSite, currentLanguage);
             // Las cifras y la foto de portada vienen de los datos del MNA; los demás sitios usan sus cifras de sites.json y no llevan foto hasta tener una con licencia
@@ -94,9 +99,9 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
                     onSelectSite(rawSite);
                   }
                 }}
-                className="block rounded-[20px] overflow-hidden bg-surface border border-line cursor-pointer active:scale-[0.99] transition-transform"
+                className="flex flex-col rounded-[16px] overflow-hidden bg-surface border border-line cursor-pointer active:scale-[0.99] transition-transform"
               >
-                <div className="relative aspect-[16/10] bg-raised">
+                <div className="relative aspect-[4/3] bg-raised">
                   {isMain && coverPiece && (
                     <PieceImage
                       filename={coverPiece.image_filename}
@@ -109,15 +114,17 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
                     <PieceImage filename={rawSite.cover_image} pieceId={rawSite.cover_piece_id} alt="" className="w-full h-full object-cover" />
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/0 to-black/0 pointer-events-none" />
-                  <span className="absolute left-4 bottom-3 text-cap font-semibold text-white/90 flex items-center gap-1.5">
-                    <MapPin className="w-4 h-4" strokeWidth={2} />
-                    {site.location}
+                  <span className="absolute left-2.5 right-2.5 bottom-2 text-cap font-semibold text-white/90 flex items-center gap-1">
+                    <MapPin className="w-3.5 h-3.5 shrink-0" strokeWidth={2} />
+                    <span className="truncate">{site.location}</span>
                   </span>
                 </div>
-                <div className="p-5 pt-4">
-                  <h2 className="font-serif text-h2 font-medium tracking-[-0.015em]">{site.name}</h2>
-                  {statsText && <p className="mt-1.5 text-ui text-ink-2">{statsText}</p>}
-                  <span className="btn-primary w-full mt-4">{isMain ? u.enter : u.enterSite}</span>
+                <div className="p-3 pt-2.5 flex flex-col flex-1">
+                  <h2 className="font-serif text-[1.0625rem] leading-snug font-medium tracking-[-0.01em] text-balance">{site.name}</h2>
+                  {statsText && <p className="mt-1 text-cap text-ink-2">{statsText}</p>}
+                  <div className="mt-auto pt-3">
+                    <span className="btn-primary w-full !px-2 !min-h-11 text-center text-cap leading-tight">{isMain ? u.enter : u.enterSite}</span>
+                  </div>
                 </div>
               </div>
             );
