@@ -25,7 +25,22 @@ async function pedir(url) {
 }
 const api = async (params) => (await pedir(`${API}?${new URLSearchParams({ format: 'json', ...params })}`)).json();
 
+async function miembrosCategoria(cat, nivel = 0) {
+  const titulos = [];
+  let cont = {};
+  do {
+    const j = await api({ action: 'query', list: 'categorymembers', cmtitle: cat, cmtype: 'file|subcat', cmlimit: '200', ...cont });
+    for (const m of j?.query?.categorymembers || []) {
+      if (m.ns === 6) titulos.push(m.title);
+      else if (m.ns === 14 && nivel < 1) titulos.push(...(await miembrosCategoria(m.title, nivel + 1)));
+    }
+    cont = j?.continue ? { cmcontinue: j.continue.cmcontinue } : null;
+  } while (cont);
+  return titulos;
+}
+
 async function buscarTitulos(consulta) {
+  if (/^Category:/i.test(consulta)) return miembrosCategoria(consulta.replace(/_/g, ' '));
   const j = await api({ action: 'query', list: 'search', srsearch: consulta, srnamespace: '6', srlimit: '30' });
   return (j?.query?.search || []).map((x) => x.title);
 }
@@ -53,9 +68,9 @@ async function infos(titulos) {
   return salida;
 }
 
-function buenas(lista, max, exactas = false) {
+function buenas(lista, max, exactas = false, minAncho = 1200) {
   const r = lista
-    .filter((x) => /^image\/(jpeg|png)/.test(x.mime) && licenciaPermitida(x.licencia) && x.ancho >= (exactas ? 300 : 1200));
+    .filter((x) => /^image\/(jpeg|png)/.test(x.mime) && licenciaPermitida(x.licencia) && x.ancho >= (exactas ? 300 : minAncho));
   // Con títulos exactos se respeta el orden pedido y no se descarta por el nombre.
   if (exactas) return r.slice(0, max);
   return r
@@ -81,7 +96,8 @@ async function main() {
       const exactas = qs.every((q) => /^File:/i.test(q));
       if (exactas) for (const q of qs) { const t = q.replace(/_/g, ' '); if (!vistos.has(t)) { vistos.add(t); titulos.push(t); } }
       else for (const q of qs) for (const t of await buscarTitulos(q)) if (!vistos.has(t)) { vistos.add(t); titulos.push(t); }
-      let lista = buenas(await infos(titulos), exactas ? Math.max(max, titulos.length) : max, exactas);
+      const conCat = qs.some((q) => /^Category:/i.test(q));
+      let lista = buenas(await infos(titulos), exactas ? Math.max(max, titulos.length) : (conCat ? Math.max(max, 30) : max), exactas, conCat ? 500 : 1200);
       if (exactas) lista = titulos.map((t) => lista.find((x) => x.titulo.replace(/_/g, ' ') === t)).filter(Boolean).concat(lista.filter((x) => !titulos.includes(x.titulo)));
       manifiesto[id] = lista;
       if (!lista.length) { console.log(`::warning::${id}: sin candidatas con licencia abierta y 1200 px o más (${titulos.length} resultados)`); continue; }
