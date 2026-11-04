@@ -1,0 +1,58 @@
+{
+  "id": "xoc_05_plaza_estela_dos_glifos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Neues Feuer\" para \"Fuego Nuevo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "05467670e0464cb0",
+      "texto": "Plaza de la Estela de los Dos Glifos"
+    },
+    "frase_gancho": {
+      "hash": "6ef5dfa286f1851b",
+      "texto": "Ein offener Platz, auf dem man die Sonne zu den Tagundnachtgleichen und Sonnenwenden aufgehen sah."
+    },
+    "puente_narrativo": {
+      "hash": "03891ee7e0a571e2",
+      "texto": "Setze deinen Weg fort: Was als Nächstes kommt, gehört zu der Stadt, die vom Handel und von der Arbeit lebte."
+    },
+    "guion_corto": {
+      "hash": "9ba2d5b84ac82855",
+      "texto": "Stell dir diesen Platz im Morgengrauen vor, voller Menschen. Es ist ein weiter öffentlicher Raum, umgeben von den Basen C und D sowie im Norden von der Großen Pyramide. Hier stand eine Stele mit zwei Glyphen. Die eine ist ein Jahr, zehn Rohr, die andere ein Tag, neun Reptilienauge. Was du auf diesem Platz siehst, ist eine Replik; das Original war eine von vier Stelen, die an der Fundstätte entdeckt wurden. Das INAH erklärt, dass der Platz genutzt wurde, um den Sonnenaufgang zu den Tagundnachtgleichen und zu den Sonnenwenden zu beobachten. Er gehört außerdem zum Marktbereich. Das heißt: Am selben Ort wurde Handel getrieben, gefeiert und die Zeit gemessen. Manche sagen, der Platz habe eine gute Akustik; wenn du laut sprichst, wirst du feststellen, dass der Schall zurückgeworfen wird."
+    },
+    "guion_largo": {
+      "hash": "bd635cbae1cca7b8",
+      "texto": "Stell dir diesen Platz im Morgengrauen vor, mit Menschen, die dastehen und nach Osten blicken. Genau das legt das INAH nahe: Der Platz wurde genutzt, um den Sonnenaufgang zu den Tagundnachtgleichen und zu den Sonnenwenden zu beobachten.\n\nEs ist ein großer öffentlicher Raum, der auf drei Seiten begrenzt wird. Im Westen liegt die Basis D. Im Osten die Basis C. Und im Norden erhebt sich die Große Pyramide, über die wir bald sprechen werden. Laut INAH ist dieser Platz Teil des Marktbereichs der Stadt.\n\nDeshalb heißt er Plaza de la Estela de los Dos Glifos. Eine Stele ist ein hoher Stein mit Reliefs. In diesem Fall trug sie zwei Glyphen, also zwei Schriftzeichen. Das eine ist ein Jahr und das andere ein Tag. Man liest es als Jahr zehn Rohr, Tag neun Reptilienauge.\n\nWas du hier siehst, ist eine Replik. Die ursprüngliche Stele war laut dem Führer des INAH eine von vier, die an der Fundstätte entdeckt wurden. Der Leiter der Zone, Medina Romero, bringt dieses Datum mit der Pyramide in Verbindung: Er schlägt vor, dass das Jahr zehn und der Tag neun Reptilienauge ihrer Einweihung entsprechen. Das ist ein Vorschlag, keine abgeschlossene Gewissheit.\n\nDas Datum taucht auch in der Schrift der Stadt auf. Die Fachleute Christophe Helmke und Jesper Nielsen heben eine Neun Rohr an der Pyramide der Gefiederten Schlangen hervor und bringen sie mit einer Zeremonie des Neuen Feuers in Verbindung. Es gibt in dieser Schrift noch viel zu entziffern.\n\nNoch ein Detail: Medina erwähnt, dass dieser Platz eine gute Akustik hat. Wenn du laut sprichst, wirst du merken, wie der Klang den Raum erfüllt. Stell dir eine wichtige Verkündung vor, die hier ausgesprochen wird, vor der versammelten Stadt.\n\nBevor du gehst, orientiere dich zur Sonne. Schau dorthin, wo sie aufgeht. Ein solcher Ort dient dazu, den Kalender mit dem Körper zu erleben: warten, schauen und wissen, welcher Tag ist.\n\nAndrews und Glascock fügen eine weitere Angabe hinzu: Auf diesem Platz fanden sich viele Projektilspitzen, und sie vermuten, dass hier bewaffnete Krieger für militärische Aktivitäten zusammengerufen wurden. Der Platz vereint Dinge, die in unserem Leben getrennt sind: Markt, Zeremonie, Kalender und Waffen. In Xochicalco teilte sich alles denselben Boden."
+    },
+    "retos_observacion": {
+      "hash": "df934e9cbc6f930c",
+      "texto": [
+        "Schau dorthin, wo die Sonne aufgeht, und überlege, was man von hier aus verkünden konnte",
+        "Suche die Basen C und D und die Große Pyramide, die den Platz begrenzen",
+        "Sprich laut und höre, wie der Raum klingt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4ed9544bd51fc8f1",
+      "texto": {
+        "Stele": "Replik; das Original war eine von vier entdeckten",
+        "Glyphen": "Jahr zehn Rohr und Tag neun Reptilienauge",
+        "Grenzen": "Basis D im Westen, Basis C im Osten, Große Pyramide im Norden",
+        "Nutzung": "Beobachtung der Sonne zu den Tagundnachtgleichen und Sonnenwenden"
+      }
+    },
+    "faq_mito": {
+      "hash": "82bcc4873039961f",
+      "texto": {
+        "pregunta": "Mythos: Die Stele, die du siehst, ist das Original.",
+        "respuesta": "Realität: Es ist eine Replik. Das Original wird verwahrt und gilt als eine der vier entdeckten Stelen."
+      }
+    }
+  }
+}

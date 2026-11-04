@@ -1,0 +1,26 @@
+{
+  "id": "xoc-02-ciudad-intermedia",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "51969fceb925901f",
+      "texto": "Plaza de la Estela und Südkomplex"
+    },
+    "frase_gancho": {
+      "hash": "a8c2e37374cd605b",
+      "texto": "Der Markt, das größte Spielfeld und eine Prozessionsstraße mit Altären, die die Tage zu zählen scheinen."
+    },
+    "introduccion_narrativa": {
+      "hash": "0afb5acfbf4c0d7a",
+      "texto": "Auf der mittleren Ebene lagen der Marktplatz, das größte Spielfeld für das Ballspiel und die Räume, in denen bedeutende Menschen lebten. Hier sieht man, wie die Stadt funktionierte, bevor man zu den Tempeln weiter oben gelangt."
+    }
+  }
+}

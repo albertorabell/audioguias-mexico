@@ -1,0 +1,57 @@
+{
+  "id": "xoc_25_rampa_animales",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3a56045fcf6104e3",
+      "texto": "Die Rampe der Tiere"
+    },
+    "frase_gancho": {
+      "hash": "c0882d86c6316e79",
+      "texto": "Platten mit eingravierten Tieren, zwischen Wirklichkeit und Mythos."
+    },
+    "puente_narrativo": {
+      "hash": "72cabd1cd78791b8",
+      "texto": "Setze deinen Weg fort: Er führt weiter zu den Bereichen der Ostanlage."
+    },
+    "guion_corto": {
+      "hash": "c1dd49bd20b1aab1",
+      "texto": "Diese Rampe besteht aus Platten mit eingravierten Tieren. Laut dem Führer des INAH hat sie zweihundertsiebzig Platten. México Desconocido zählt zweihundertfünfundfünfzig, und Medina Romero zweihunderteinundsiebzig. Die Zahlen stimmen nicht überein, deshalb sagen wir: mehr als zweihundertfünfzig. Medina Romero sagt, dass viele der eingravierten Arten noch heute existieren. Hirth spricht von mythischen Tieren. Eine Rampe ist ein geneigter Weg ohne Stufen. Hier hat der Stein die Tierwelt der Region gezeichnet. Die in der Stadt gefundenen Knochen sagen etwas Ähnliches: Jaguar und Krokodil in den oberen Bereichen, Hirsch und Hund auf allen Ebenen. Suche ein Tier, das du kennst, und eines, das dir nichts sagt."
+    },
+    "guion_largo": {
+      "hash": "dbab06b10933f6d1",
+      "texto": "Die Rampe ist ein geneigter Weg ohne Stufen. Diese hier hat etwas Besonderes: Sie besteht aus Platten mit eingravierten Tieren.\n\nLaut dem Führer des INAH hat sie zweihundertsiebzig Platten. México Desconocido zählt zweihundertfünfundfünfzig. Medina Romero spricht von zweihunderteinundsiebzig, innerhalb von insgesamt mehr als vierhundert gravierten Platten, die an der Stätte gefunden wurden. Die Zahlen stimmen nicht überein. Deshalb sagen wir hier: mehr als zweihundertfünfzig.\n\nMedina Romero fügt hinzu, dass viele der eingravierten Arten noch heute existieren. Das heißt: Wer sie in Stein schlug, betrachtete seine Umgebung und zeichnete sie in den Fels. Kenneth Hirth hingegen spricht von mythischen Tieren. Beide Beschreibungen können zugleich zutreffen: eine Rampe mit wirklichen und mit erdachten Tieren.\n\nINAH Lugares erklärt, dass die Rampe mit dem Spielfeld des Ballspiels im Osten verbunden ist. Das legt nahe, dass das Spiel und die Rampe zu derselben Anlage gehörten.\n\nDie Tierreste der Stadt erzählen etwas Ähnliches. Laut Eduardo Corona kommen Jaguar, Wildschwein, Wildkatze und Flusskrokodil vor allem in den oberen Bereichen vor, fast immer als Schmuck oder Opfergaben verarbeitet. Hirsch, Hund und Puma tauchen auf allen Ebenen auf. Im unteren Teil finden sich Welse, Enten, Schildkröten und Otter.\n\nSuche ein Tier, das du kennst, und eines, das dir nichts sagt. Bedenke, dass jemand ausgewählt hat, welche Tiere dargestellt werden und in welcher Reihenfolge."
+    },
+    "retos_observacion": {
+      "hash": "17b89e4589d74581",
+      "texto": [
+        "Suche ein Tier, das du kennst",
+        "Suche eines, das du nicht erkennen kannst",
+        "Überlege, warum jemand Tiere in den Boden einer Rampe gravieren wollte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "187be9984d824804",
+      "texto": {
+        "Gravierte Platten": "zweihundertsiebzig (INAH), zweihundertfünfundfünfzig (México Desconocido), zweihunderteinundsiebzig von mehr als vierhundert (Medina Romero)",
+        "Verbindung": "mit dem östlichen Spielfeld, laut INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed6e47c9ab03776a",
+      "texto": {
+        "pregunta": "Mythos: Alle Tiere der Rampe sind mythisch.",
+        "respuesta": "Realität: Medina Romero weist darauf hin, dass viele der eingravierten Arten noch heute existieren. Hirth hingegen spricht von mythischen Tieren."
+      }
+    }
+  }
+}

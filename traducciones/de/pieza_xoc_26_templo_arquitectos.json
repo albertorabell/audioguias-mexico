@@ -1,0 +1,53 @@
+{
+  "id": "xoc_26_templo_arquitectos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "914f5b01128cc0bd",
+      "texto": "Der Tempel der Architekten"
+    },
+    "frase_gancho": {
+      "hash": "4e475670f5712dc0",
+      "texto": "Ein Hof, in dem Baugeräte zum Vorschein kamen."
+    },
+    "puente_narrativo": {
+      "hash": "0d1efbba7db61079",
+      "texto": "Folge deiner Route: Gehe weiter durch die Arbeits- und Machträume der Stadt."
+    },
+    "guion_corto": {
+      "hash": "ee5c4f2b792e04eb",
+      "texto": "Dieses Gebäude heißt Tempel der Architekten, auch Versunkener Hof. Laut dem Führer des INAH kamen dort Baugeräte zum Vorschein: Senklote, Mischer und Polierer. Ein Senklot ist eine Schnur mit einem Gewicht, mit der man prüft, ob eine Wand senkrecht ist. Ein Polierer glättet die Oberfläche des Steins. Der INAH Lugares beschreibt im Ostkomplex ein rechteckiges Gebäude mit versunkenem Hof, das genau dieses sein könnte. Die modernen Namen sagen mehr über jene, die sie vergeben haben, als über jene, die gebaut haben. Dennoch erinnert der Anblick von Baugeräten hier daran, dass jemand jeden Stein messen, ausrichten und polieren musste. Dies ist ein guter Ort, um über die Handwerksberufe nachzudenken."
+    },
+    "guion_largo": {
+      "hash": "12bca65ed3488fc0",
+      "texto": "Der Name klingt nach einem Titel, geht aber auf das zurück, was man hier gefunden hat.\n\nEr heißt Tempel der Architekten und auch Versunkener Hof. Laut dem Führer des INAH kamen an diesem Ort Baugeräte zum Vorschein: Senklote, Mischer und Polierer.\n\nEin Senklot ist eine Schnur mit einem Gewicht an der Spitze. Es dient dazu, zu prüfen, ob eine Mauer gerade ist. Ein Polierer ist ein Stein, mit dem man die Oberfläche eines anderen glättet.\n\nDer INAH Lugares erwähnt im Ostkomplex ein rechteckiges Gebäude mit einem versunkenen Hof. Es kann dasselbe sein.\n\nDie modernen Namen sagen mehr über jene, die sie vergeben haben, als über jene, die gebaut haben. Niemand weiß, wie dieses Gebäude in der Stadt hieß. Was wir wissen, ist das, was der Fund nahelegt: Hier wurden Baugeräte aufbewahrt oder benutzt.\n\nDenk an die Arbeit hinter einer Stadt wie dieser. Jemand musste jeden Stein messen, ausrichten, schneiden und polieren und Terrassen an einen Hügel legen.\n\nWenn du den versunkenen Hof betrachtest, stell dir diese Werkzeuge auf dem Boden vor. So kannst du die Erbauer sehen und nicht nur die Herrschenden."
+    },
+    "retos_observacion": {
+      "hash": "5b60a2a6220bcbb5",
+      "texto": [
+        "Suche den versunkenen Hof",
+        "Stell dir vor, wo die Werkzeuge gelegen haben könnten",
+        "Überlege, wie viele Menschen nötig waren, um ein solches Gebäude zu errichten"
+      ]
+    },
+    "especificaciones": {
+      "hash": "779a73f4796f3331",
+      "texto": {
+        "Namen": "Tempel der Architekten und Versunkener Hof",
+        "Fund": "Senklote, Mischer und Polierer, laut dem Führer des INAH",
+        "Standort": "Ostkomplex"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c12928ab59318a5",
+      "texto": {
+        "pregunta": "Mythos: Ein Tempel ist immer ein Ort nur für Götter.",
+        "respuesta": "Realität: Der moderne Name geht auf die gefundenen Baugeräte zurück, nicht auf eine nachgewiesene religiöse Funktion."
+      }
+    }
+  }
+}

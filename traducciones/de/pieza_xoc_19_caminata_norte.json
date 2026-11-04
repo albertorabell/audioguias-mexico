@@ -1,0 +1,53 @@
+{
+  "id": "xoc_19_caminata_norte",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18d839e7b882fc73",
+      "texto": "Spaziergang: zum Nordkomplex"
+    },
+    "frase_gancho": {
+      "hash": "a1a7dc86d8c04756",
+      "texto": "Ein kurzer Weg zur Zisterne, zum vielfarbig bemalten Altar und zum Temazcal."
+    },
+    "puente_narrativo": {
+      "hash": "928a7098704ed970",
+      "texto": "Setze deine Route fort: Gehe weiter durch die Stadt."
+    },
+    "guion_corto": {
+      "hash": "54b79d2b212cac48",
+      "texto": "Jetzt entfernst du dich von der Plaza in Richtung Norden. Dieser Spaziergang führt zum Nordkomplex, wo das INAH eine Zisterne, einen vielfarbig bemalten Altar und ein Temazcal verortet. Das INAH erwähnt eine Zisterne nördlich der Plaza, die Teil des Wassersystems war. Während du gehst, denke an eine einfache Frage: Woher bekam eine Stadt, die auf einem Hügel erbaut wurde, ihr Wasser? Ein Temazcal ist ein Dampfbad. Das Temazcal im Nordkomplex diente laut INAH zeremoniellen Zwecken. Die Zisterne sammelte laut México Desconocido Regenwasser und hatte eine Entwässerung. Du musst dich nicht beeilen. Achte auf das Gelände: Wasser fließt immer bergab. Was nun folgt, erklärt diese Bauten genauer."
+    },
+    "guion_largo": {
+      "hash": "05a1d05df39cb154",
+      "texto": "Jetzt entfernst du dich von der Plaza in Richtung Norden.\n\nDieser Spaziergang führt zum Nordkomplex. Laut INAH befinden sich dort eine Zisterne, ein Saal mit einem vielfarbig bemalten Altar und ein Temazcal.\n\nDas Observatorium, das du hinter dir lässt, liegt laut INAH in Höhlen unter der Nordplattform. Zuerst waren sie ein Steinbruch und später ein Observatorium. Das heißt, dieser Teil der Stadt war innen ausgehöhlt und außen bebaut.\n\nDas INAH erwähnt eine Zisterne nördlich der Plaza, die Teil des Wassersystems war. México Desconocido beschreibt sie als Regenwasserzisterne mit Entwässerung.\n\nWährend du gehst, denke an eine einfache Frage: Woher bekam eine Stadt, die auf einem Hügel erbaut wurde, ihr Wasser? Die Antwort liegt in den Bauten, die man kaum sieht.\n\nEin Temazcal ist ein Dampfbad. Laut dem Führer des INAH diente das Temazcal im Nordkomplex zeremoniellen Zwecken. Andere Quellen verorten es in anderen Komplexen, und über seinen genauen Standort gibt es noch keine Einigkeit.\n\nDu musst dich nicht beeilen. Die Spaziergänge sind dafür gedacht, dass du beim Gehen zuhörst, ohne auf den Bildschirm zu schauen. Die nächste Station erzählt dir mehr über das Wasser."
+    },
+    "retos_observacion": {
+      "hash": "8e5c80effe7c3947",
+      "texto": [
+        "Achte darauf, in welche Richtung das Gelände abfällt",
+        "Suche die Zisterne, bevor du ankommst",
+        "Höre beim Gehen zu, ohne auf den Bildschirm zu schauen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6107c586ab2a117d",
+      "texto": {
+        "Ziel": "Nordkomplex",
+        "Räume": "Zisterne, vielfarbig bemalter Altar und Temazcal, laut INAH",
+        "Observatorium": "in Höhlen unter der Nordplattform, laut INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "950bea6f8afb80d4",
+      "texto": {
+        "pregunta": "Mythos: Das Observatorium befindet sich auf der Spitze der Pyramide.",
+        "respuesta": "Realität: Es ist eine in die Basis gegrabene Höhle; der Lichtschacht öffnet sich oben."
+      }
+    }
+  }
+}

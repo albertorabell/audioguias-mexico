@@ -1,0 +1,53 @@
+{
+  "id": "xoc_10_palacio",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1d592daab735a069",
+      "texto": "Der Palast"
+    },
+    "frase_gancho": {
+      "hash": "c20a3309c0baa591",
+      "texto": "Zimmer, Küchen, Werkstätten und Lagerräume rund um Innenhöfe."
+    },
+    "puente_narrativo": {
+      "hash": "da470518487f8f15",
+      "texto": "Folge deiner Route: Jetzt wird die Stadt höher und geschlossener."
+    },
+    "guion_corto": {
+      "hash": "f8ef89c8ed345c5f",
+      "texto": "Ein Palast ist nicht nur Luxus. Laut INAH vereint dieser Komplex auf der mittleren Ebene Zimmer, Küchen, Werkstätten, Lagerräume und ein Temazcal, alles rund um Innenhöfe. Ein Temazcal ist ein Dampfbad für den Körper und für Zeremonien. Medina Romero fügt hinzu, dass dieser Palast und der Komplex von La Malinche zusammen einen Wohnkomplex im Süden der Stadt bilden. Achte auf die Mischung: Kochen, Lagern, Arbeiten und Ausruhen teilten sich denselben Raum. Das Wort Palast ist eine Bezeichnung der Archäologen, keine Beschreibung von Luxus. Um zu sehen, wo der Herrscher lebte, wirst du nach Hirth bis zur Akropolis hinaufsteigen müssen. Schau dir hier die Innenhöfe an und überlege, wie viele Menschen sich an einem gewöhnlichen Tag zwischen ihnen bewegen konnten."
+    },
+    "guion_largo": {
+      "hash": "12838f31561d38ec",
+      "texto": "Ein Palast ist nicht immer ein Ort des Luxus. In Xochicalco wirkt der, den das INAH den Palast nennt, deutlich praktischer.\n\nLaut INAH befindet sich der Palast auf der mittleren Ebene der Stadt. Es ist ein Komplex aus Zimmern, Küchen, Werkstätten, Lagerräumen und einem Temazcal, angeordnet rund um Innenhöfe.\n\nEin Temazcal ist ein Dampfbad. Man nutzte es, um den Körper zu reinigen, und auch bei Zeremonien. Nach Andrews und Glascock gab es Temazcal-Bäder in der Akropolis und im Nordsektor. Deshalb wirst du es auch im [Nordkomplex](xoc_20_agua_ritual_norte) sehen.\n\nMedina Romero erwähnt, dass dieser Palast und der Komplex von La Malinche zusammen einen Wohnkomplex im Süden der Stadt bilden.\n\nDenke an diese Mischung der Räume. Kochen, Lagern, Arbeiten und Ausruhen lagen beieinander, rund um einen gemeinsamen Innenhof. Es ist eher ein Komplex, in dem man lebte, kochte und arbeitete.\n\nDas heißt nicht, dass es ein Palast war wie der eines europäischen Königs. Das Wort Palast ist eine Bezeichnung der Archäologen. Was die Überreste zeigen, sind Wohnräume, Innenhöfe und Arbeitsbereiche.\n\nUm zu verstehen, wo die Herrscher lebten, muss man zur [Akropolis](xoc_17_acropolis) hinaufsteigen. Dort befanden sich nach Hirth der Palast des Herrschers und das Verwaltungszentrum der Stadt.\n\nFür den Moment lass deinen Blick über die Innenhöfe wandern und suche, wie viele Zimmer sich zu jedem von ihnen öffnen."
+    },
+    "retos_observacion": {
+      "hash": "d28d7df187d93d6c",
+      "texto": [
+        "Zähle die Innenhöfe, die du überblicken kannst",
+        "Suche die Räume, die Küchen oder Lagerräume gewesen sein könnten",
+        "Stell dir vor, wer in jedem Zimmer arbeitete und wer dort schlief"
+      ]
+    },
+    "especificaciones": {
+      "hash": "53915e385e1adb62",
+      "texto": {
+        "Standort": "mittlere Ebene der Stadt",
+        "Räume": "Zimmer, Küchen, Werkstätten, Lagerräume und Temazcal, rund um Innenhöfe",
+        "Wohnkomplex": "zusammen mit La Malinche, im Süden der Stadt, laut Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "8038cb5a5306af43",
+      "texto": {
+        "pregunta": "Mythos: Der Palast war das Haus des Herrschers.",
+        "respuesta": "Realität: So nennen die Archäologen einen Komplex aus Zimmern, Küchen, Werkstätten und Lagerräumen. Die Residenz des Herrschers wird mit der Akropolis in Verbindung gebracht."
+      }
+    }
+  }
+}

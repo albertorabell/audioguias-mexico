@@ -1,0 +1,57 @@
+{
+  "id": "xoc_15_escritura",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Neues Feuer\" para \"Fuego Nuevo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "5cea5ca5e3bd9004",
+      "texto": "Die Schrift von Xochicalco"
+    },
+    "frase_gancho": {
+      "hash": "049cb7abf835bd55",
+      "texto": "Zeichen in einer Reihe, die bis heute niemand vollständig lesen kann."
+    },
+    "puente_narrativo": {
+      "hash": "bb4b1244f47c7694",
+      "texto": "Setze deinen Weg fort: Lerne weiter die Räume des Hauptplatzes kennen."
+    },
+    "guion_corto": {
+      "hash": "6321edeb1b6b25da",
+      "texto": "Xochicalco hatte eine Schrift, und sie lässt sich bis heute nicht vollständig lesen. Helmke und Nielsen datieren sie zwischen die Jahre sechshundertachtzig und tausend, in dieselbe Zeit wie die Schrift von Cacaxtla, Teotenango, El Cerrito und Acatlán. An der Pyramide der Gefiederten Schlangen gibt es einen linearen Text, also Zeichen, die in einer Reihe angeordnet sind. Die ersten Texte der Stätte wurden im Jahr tausendachthundertneunzig von Peñafiel veröffentlicht. Eine Enzyklopädie beschreibt außerdem eine Mischung aus Tageszeichen vom Nahua-Typ in Kartuschen im Maya-Stil, mit Zahlzeichen, die den zapotekischen ähneln. Diese Mischung zeigt eine Stadt, die vielen Regionen offenstand. Keine Lesung ist endgültig. Wenn du Zeichen am Bauwerk siehst, denk daran, dass du vor einem Schriftsystem stehst, das noch immer auf jemanden wartet, der es entziffert."
+    },
+    "guion_largo": {
+      "hash": "653ff7b3e0c55a68",
+      "texto": "Schrift ist nicht das Vorrecht einer einzigen Kultur. Auch in Xochicalco wurde geschrieben.\n\nHelmke und Nielsen, die diese Zeichen erforscht haben, datieren die Hieroglyphenschrift der Stadt zwischen die Jahre sechshundertachtzig und tausend. Es war die Zeit der Epiklassik, und auch andere Städte im Zentrum Mexikos schrieben: Cacaxtla, Teotenango, El Cerrito und Acatlán.\n\nAn der Pyramide der Gefiederten Schlangen gibt es einen linearen Text, also Zeichen, die in einer Reihe angeordnet sind. Unter ihnen erscheint das Datum Neun Rohr, das diese Fachleute mit dem Gedenken an eine Zeremonie des neuen Feuers in Verbindung bringen.\n\nDie ersten Texte von Xochicalco wurden im Jahr tausendachthundertneunzig von Peñafiel veröffentlicht. Später arbeiteten Caso und Berlo an ihnen. Dennoch ist die Schrift nicht entziffert.\n\nDie Enzyklopädie World History beschreibt etwas Merkwürdiges. Sie sagt, dass die Tageszeichen vom Nahua-Typ sind, dass sie in Kartuschen im Maya-Stil stehen und dass die Zahlen den zapotekischen ähneln. Das ist die Beschreibung einer einzigen Quelle, aber sie passt zu dem, was man über die Stadt weiß: ein Ort, der vielen Regionen offenstand. Es gibt noch einen weiteren Hinweis: Sáenz fand in einer Opferkammer eine Steinplatte mit zwei Nahua-Glyphen und zwei zapotekischen.\n\nDeshalb ist diese Schrift so schwer zu lesen. Sie gehört keiner bekannten Tradition ganz an. Sie mischt Mittel aus mehreren, und wer sie schuf, schien eine eigene visuelle Sprache für eine Stadt voller verschiedener Menschen zu entwickeln.\n\nEine unentzifferte Schrift ist keine stumme Schrift. Man kann Daten und einige Zeichen erkennen. Was fehlt, ist die Syntax, also wie die Zeichen zu Sätzen angeordnet werden.\n\nWenn du das Bauwerk betrachtest, suche nach den Zeichenreihen. Vielleicht ist es das Nächste, was wir an einer Stimme dieser Stadt besitzen."
+    },
+    "retos_observacion": {
+      "hash": "0af2f9b756b2c135",
+      "texto": [
+        "Suche am Bauwerk nach Zeichen, die in einer Reihe stehen",
+        "Vergleiche ihren Stil mit den Maya-Figuren",
+        "Frag deinen Guide, welche Zeichen Daten sind"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a21d661326bd512f",
+      "texto": {
+        "Epoche der epiklassischen Schrift": "zwischen sechshundertachtzig und tausend",
+        "Erste veröffentlichte Texte": "tausendachthundertneunzig, Peñafiel",
+        "Zustand": "nicht vollständig entziffert"
+      }
+    },
+    "faq_mito": {
+      "hash": "589ddc5ca137bfc9",
+      "texto": {
+        "pregunta": "Mythos: Die Glyphen von Xochicalco lassen sich schon wie ein fortlaufender Text lesen.",
+        "respuesta": "Realität: Man erkennt Daten und einige Zeichen, aber die Schrift ist nicht entziffert."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "xoc_24_caminata_este",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "bed06095b55b4554",
+      "texto": "Spaziergang: zum östlichen Komplex"
+    },
+    "frase_gancho": {
+      "hash": "e42e817f8f630cb7",
+      "texto": "Ein Weg zur Rampe, zum versunkenen Hof und zu den drei Tempeln."
+    },
+    "puente_narrativo": {
+      "hash": "19d88a5c8fc91082",
+      "texto": "Setz deinen Weg fort: Geh weiter in den östlichen Teil der Stadt."
+    },
+    "guion_corto": {
+      "hash": "6a73044044c7c784",
+      "texto": "Dieser Spaziergang führt dich zum östlichen Komplex, dem östlichen Teil der Stadt. Laut INAH Lugares gibt es dort ein rechteckiges Gebäude mit einem versunkenen Hof, einen Hof mit drei pyramidenförmigen Plattformen und ein Spielfeld für das Ballspiel. Außerdem gibt es die Tierrampe. Der Führer des INAH spricht von drei Tempeln, der Rampe und dem Tempel der Architekten. Achte beim Gehen darauf, wie sich die Landschaft verändert. Laut INAH Lugares nahm die Stadt sechs niedrige Hügel ein, mit Terrassen und Stützmauern. Stell dir vor, dass jeder Weg diese Hügel hinaufführt, hinabführt und sie umrundet. Es folgen mehrere Stationen in diesem Bereich."
+    },
+    "guion_largo": {
+      "hash": "72ea43f860e389de",
+      "texto": "Dieser Spaziergang führt dich zum östlichen Komplex, dem östlichen Teil der Stadt.\n\nLaut INAH Lugares gibt es dort ein rechteckiges Gebäude mit einem versunkenen Hof, einen Hof mit drei pyramidenförmigen Plattformen und ein Spielfeld für das Ballspiel. Außerdem gibt es die Tierrampe, die mit diesem Spielfeld verbunden ist.\n\nDer Führer des INAH spricht von drei Tempeln, von der Rampe und vom Tempel der Architekten, der auch Versunkener Hof genannt wird. Das heißt, es handelt sich um einen Komplex mit mehreren zusammengefassten Gebäuden.\n\nAchte beim Gehen darauf, wie sich die Landschaft verändert. Laut INAH Lugares nahm die Stadt sechs niedrige Hügel ein, mit Terrassen und Stützmauern. Das bedeutet, dass jeder Weg die Hügel hinaufführt, hinabführt und sie umrundet. Eine Stützmauer ist eine Mauer, die die Erde einer Terrasse hält, damit sie nicht abrutscht.\n\nDie UNESCO geht davon aus, dass Xochicalco drei Ebenen hatte: eine untere, eine mittlere und eine obere. Laut Hirth wuchs die Stadt um das Jahr sechshundert sehr schnell und siedelte zwischen zehntausend und fünfzehntausend Menschen um.\n\nDie nächsten Stationen liegen in diesem Bereich. Du musst dich nicht beeilen."
+    },
+    "retos_observacion": {
+      "hash": "8a81f85c8ad2a18f",
+      "texto": [
+        "Achte darauf, wie sich die Landschaft verändert",
+        "Zähle, wie viele Hügel du erkennen kannst",
+        "Hör beim Gehen zu, ohne auf den Bildschirm zu schauen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d0541de5c6f85f7",
+      "texto": {
+        "Ziel": "östlicher Komplex",
+        "Räume": "rechteckiges Gebäude mit versunkenem Hof, Hof mit drei pyramidenförmigen Plattformen, Spielfeld und Rampe, laut INAH Lugares",
+        "Genutzte Hügel": "sechs, laut INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7957f59da6106b7",
+      "texto": {
+        "pregunta": "Mythos: Xochicalco nimmt nur einen einzigen Hügel ein.",
+        "respuesta": "Realität: Laut INAH Lugares nahm die Stadt sechs niedrige Hügel ein, mit Terrassen und Mauern."
+      }
+    }
+  }
+}

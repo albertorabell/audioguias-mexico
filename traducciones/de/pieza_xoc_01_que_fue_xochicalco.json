@@ -1,0 +1,55 @@
+{
+  "id": "xoc_01_que_fue_xochicalco",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e42f2bf317f24449",
+      "texto": "Was Xochicalco war"
+    },
+    "frase_gancho": {
+      "hash": "60ec8a071d07f611",
+      "texto": "Eine Stadt, hoch oben erbaut, in einer Welt, die ihre Mitte verloren hatte."
+    },
+    "puente_narrativo": {
+      "hash": "3acce04c947a1bf5",
+      "texto": "Beginne deinen Rundgang: Das Folgende erklärt, warum diese Stadt auf einem Hügel liegt."
+    },
+    "guion_corto": {
+      "hash": "8f35262005a2e036",
+      "texto": "Bevor du den ersten Schritt machst, stell dir die Welt vor, die diesen Hügel umgab. Teotihuacán, die große Stadt im Zentrum Mexikos, war untergegangen. Ebenso Palenque und Tikal in der Welt der Maya. Laut der UNESCO wurden die Gesellschaften, die danach kamen, militaristischer und errichteten ihre Städte an hohen Orten, die sich leicht verteidigen ließen. Xochicalco ist eines der besten erhaltenen Beispiele, erbaut aus Terrassen, Stützmauern und Rampen. Kenneth Hirth schätzt, dass hier zeitweise zwischen zehntausend und fünfzehntausend Menschen lebten. Der Name wird meist mit „Ort des Hauses der Blumen“ übersetzt. Eine Stadt mit sanftem Namen, gebaut, um sich zu verteidigen. Dieser Gegensatz wird dich auf dem ganzen Rundgang begleiten."
+    },
+    "guion_largo": {
+      "hash": "b6946b87c9591a95",
+      "texto": "Bevor du den ersten Schritt machst, stell dir die Welt vor, die diesen Hügel umgab. Teotihuacán, die große Stadt im Zentrum Mexikos, war untergegangen. Auch Palenque und Tikal in der Welt der Maya waren gefallen.\n\nDie UNESCO erklärt, was danach kam. Die Gesellschaften jener Zeit wurden militaristischer, und ihre Städte wurden meist an hohen Orten errichtet, die sich leicht verteidigen ließen. Xochicalco ist ein sehr gut erhaltenes Beispiel für diese Art von Stadt, erbaut aus Terrassen, Stützmauern und Rampen.\n\nLaut dem INAH wurde sie in der zweiten Hälfte des siebten Jahrhunderts gegründet. Sie besetzte sechs niedrige Hügel und formte sie mit Terrassen und Mauern um. Kenneth Hirth zufolge wuchs die Stadt sehr schnell und siedelte zwischen zehntausend und fünfzehntausend Menschen um.\n\nEs war eine Stadt der Mischungen. Ihre Reliefs verbinden Muster aus dem Zentrum Mexikos mit Figuren im Maya-Stil. Eine Quelle beschreibt diese Zeit als eine Epoche des kulturellen Eklektizismus, in der sich die Kulturen begegneten und gegenseitig beeinflussten.\n\nEs war auch eine Stadt der Rivalitäten. Medina Romero, der Leiter der Stätte, erzählt, dass Xochicalco mit anderen Städten seiner Zeit konkurrierte, etwa mit Teotenango, Cacaxtla, El Tajín und La Quemada. Gegründet wurde sie um das Jahr sechshundertsiebzig und aufgegeben um das Jahr tausendfünfundsechzig, laut Alvarado León.\n\nAuf diesem Rundgang steigst du über drei Ebenen hinauf. Die untere, mit verteidigten Zugängen. Die mittlere, wo sich der Markt, die Werkstätten und die Wohnhäuser befanden. Und die obere, wo sich die Macht konzentrierte. Unterwegs wirst du sehen, wie man die Zeit am Himmel maß, was die Schrift der Stadt sagte und wie alles ein Ende fand, abrupt, inmitten von Bränden.\n\nXochicalco wird meist mit „Ort des Hauses der Blumen“ übersetzt. Eine Stadt mit einem so sanften Namen, gebaut, um sich zu verteidigen. Dieser Gegensatz wird dich von Anfang bis Ende begleiten."
+    },
+    "retos_observacion": {
+      "hash": "ba3ffad921953bba",
+      "texto": [
+        "Suche von deinem Standort aus die Hügel, die die Stadt besetzte",
+        "Achte darauf, wie das Gelände in Terrassen ansteigt",
+        "Stell dir vor, wie es gewesen wäre, vor tausendzweihundert Jahren zu Fuß hierherzukommen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0282a8b4ec5c6215",
+      "texto": {
+        "Epoche": "Epiklassik, zwischen den Jahren sechshundertfünfzig und neunhundert, laut UNESCO",
+        "Gründung": "zweite Hälfte des siebten Jahrhunderts, laut INAH",
+        "Bevölkerung": "zwischen zehntausend und fünfzehntausend Menschen, laut Hirth",
+        "Ebenen der Stadt": "drei",
+        "Geschützte Fläche": "etwa siebenhundertsieben Hektar"
+      }
+    },
+    "faq_mito": {
+      "hash": "f99e14b8583c117c",
+      "texto": {
+        "pregunta": "Mythos: Xochicalco ist eine einzelne, isolierte Pyramide.",
+        "respuesta": "Realität: Es ist eine vollständige Stadt mit Terrassen, Plätzen, Werkstätten und Wohnhäusern, die sechs niedrige Hügel besetzte."
+      }
+    }
+  }
+}

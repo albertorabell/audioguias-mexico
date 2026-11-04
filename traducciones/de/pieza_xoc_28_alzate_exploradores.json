@@ -1,0 +1,55 @@
+{
+  "id": "xoc_28_alzate_exploradores",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7911e2b7a418affa",
+      "texto": "Die ersten Augen: Alzate und die Forscher"
+    },
+    "frase_gancho": {
+      "hash": "cf2bf7263cb69cf1",
+      "texto": "Ein Gelehrter des achtzehnten Jahrhunderts, der zeichnete, was andere nicht zu sehen wagten."
+    },
+    "puente_narrativo": {
+      "hash": "2bca5b004f843ad8",
+      "texto": "Folge deiner Route: Jetzt bietet es sich an, den Rundgang mit dem abzuschließen, was aus der Stadt geworden ist."
+    },
+    "guion_corto": {
+      "hash": "da1ccab412c0c98f",
+      "texto": "Es gibt einen Grund, warum wir dieses Bauwerk so gut kennen: Jemand hat es vor mehr als zweihundert Jahren gezeichnet. José Antonio Alzate besuchte Xochicalco im Jahr siebzehnhundertsiebenundsiebzig. Er kam im Jahr siebzehnhundertvierundachtzig mit einem Zeichner namens Arana zurück, um das Gebäude der Schlangen zu vermessen. Laut López Luján hatte ein Guajebaum die Fassade beschädigt. Seine Beschreibung veröffentlichte er im Jahr siebzehnhunderteinundneunzig. Viel später veröffentlichte Peñafiel die ersten Texte über die Stätte, im Jahr achtzehnhundertneunzig. Batres führte im Jahr neunzehnhundertneun die erste wissenschaftliche Ausgrabung durch. Jeder Besuch hinterließ ein anderes Bild der Stadt. Heute siehst du sie dank dieser Blicke."
+    },
+    "guion_largo": {
+      "hash": "f858b30f3e8feae8",
+      "texto": "Wir wissen von Xochicalco zum Teil dank eines neugierigen Mannes aus dem achtzehnten Jahrhundert.\n\nJosé Antonio Alzate besuchte die Stätte im Jahr siebzehnhundertsiebenundsiebzig. Laut López Luján lief er am zwölften November mit dem Bürgermeister und zwei weiteren Männern sechs Kilometer von Tetlama aus. Auf dem Gipfel maß er die Höhe des Hügels mit einem Barometer. Die Steinplatten des Gebäudes der Schlangen erregten seine Aufmerksamkeit, und er dachte, dass die Xochicalca ohne Lasttiere viel von Mechanik verstanden haben müssen. Der Bürgermeister weigerte sich, einen unterirdischen Gang zu betreten, und erzählte, er habe dort einmal einen alten Mann gesehen, der verschwand, während der Hügel bebte. Alzate hinterließ ein Manuskript über den Besuch.\n\nEr kam im Jahr siebzehnhundertvierundachtzig zurück, diesmal mit einem Zeichner namens Arana, der das Gebäude der Schlangen vermaß. Ein Guajebaum hatte die Fassade beschädigt. Man erzählte ihm, dass noch Reste von vier Dämmen vorhanden seien, die aus den vier Himmelsrichtungen zum Gebäude führten. Der Kupferstecher Agüera y Bustamante bereitete die Abbildungen vor. Alzate veröffentlichte seine Beschreibung im Jahr siebzehnhunderteinundneunzig in der Gaceta de Literatura de México, laut El Tlacuache.\n\nSahagún erwähnte den Ort laut Medina Romero schon Mitte des sechzehnten Jahrhunderts. Humboldt besuchte ihn nie. Peñafiel veröffentlichte im Jahr achtzehnhundertneunzig die ersten Texte, und Batres führte im Jahr neunzehnhundertneun die erste wissenschaftliche Ausgrabung durch.\n\nMedina Romero berichtet außerdem, dass die Besitzer einer nahe gelegenen Zuckerrohrplantage einen großen Teil des Sockels der Pyramide zerstörten.\n\nWas du heute siehst, ist das Ergebnis vieler Blicke. Manche zeichneten, andere vermaßen, andere gruben aus, und wieder andere zerstörten. Keiner ließ die Stätte so zurück, wie sie war.\n\nWenn du die Fassade betrachtest, denk daran, dass jemand sie vor mehr als zwei Jahrhunderten gezeichnet hat, mit einem Baum, der darauf wuchs."
+    },
+    "retos_observacion": {
+      "hash": "976f963a7f990b74",
+      "texto": [
+        "Stell dir die Fassade mit einem Baum vor, der darauf wächst",
+        "Überlege, was du selbst gezeichnet hättest",
+        "Suche, wo der unterirdische Gang gewesen sein könnte, den Alzate nicht begehen konnte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d06d964ad1b1aa17",
+      "texto": {
+        "Alzates erster Besuch": "siebzehnhundertsiebenundsiebzig",
+        "Zweiter Besuch, mit dem Zeichner Arana": "siebzehnhundertvierundachtzig",
+        "Veröffentlichung von Alzate": "siebzehnhunderteinundneunzig",
+        "Erste von Peñafiel veröffentlichte Texte": "achtzehnhundertneunzig",
+        "Erste wissenschaftliche Ausgrabung, Batres": "neunzehnhundertneun, laut INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "149da8928bf519ac",
+      "texto": {
+        "pregunta": "Mythos: Xochicalco ist erst seit wenigen Jahrzehnten bekannt.",
+        "respuesta": "Realität: Alzate beschrieb es im achtzehnten Jahrhundert, und Sahagún erwähnte es schon im sechzehnten."
+      }
+    }
+  }
+}

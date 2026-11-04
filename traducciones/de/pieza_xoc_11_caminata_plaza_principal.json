@@ -1,0 +1,54 @@
+{
+  "id": "xoc_11_caminata_plaza_principal",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1879863762ac4b65",
+      "texto": "Spaziergang: zur Hauptplaza"
+    },
+    "frase_gancho": {
+      "hash": "8e9e2edf5e168fda",
+      "texto": "Ein Aufstieg durch eine Stadt, die darauf ausgelegt war, verteidigt zu werden."
+    },
+    "puente_narrativo": {
+      "hash": "e10bd2bfa52eaab2",
+      "texto": "Setze deinen Weg fort: Oben angekommen, ändert die Stadt ihren Maßstab."
+    },
+    "guion_corto": {
+      "hash": "5c70785ee1b71a54",
+      "texto": "Jetzt geht es bergauf. Dieser Spaziergang führt vom Palast zur Hauptplaza. Laut INAH liegt die Plaza auf einem künstlichen Hügel, und man erreicht sie über zwei verteidigte Torbauten. Der Führer des INAH ergänzt, dass sie der am besten erhaltene Teil der Stadt ist und zugleich der am schwersten zugängliche. Medina Romero erwähnt, dass es an der Stätte gepflasterte Dammwege von bis zu hundertfünfundsiebzig Metern Länge gibt. Während du gehst, musst du nichts Bestimmtes suchen. Achte darauf, wie sich das Gelände unter deinen Füßen verändert. Denk darüber nach, was es bedeutet, an einen Ort zu gelangen, der darauf ausgelegt war, verteidigt zu werden. Wenn du oben angekommen bist, sprechen wir über das, was sich auf der Plaza befindet."
+    },
+    "guion_largo": {
+      "hash": "efde4016d0cc3ec8",
+      "texto": "Jetzt geht es bergauf. Dieser Spaziergang führt vom Palast zur Hauptplaza.\n\nUm den Weg zu verstehen, hilft es, sich daran zu erinnern, wie die Stadt gegliedert ist. Die UNESCO unterscheidet drei Ebenen: eine untere, eine mittlere und eine obere. Du kommst von der mittleren und gehst zur höchsten.\n\nLaut INAH liegt die Hauptplaza auf einem künstlichen Hügel. Man erreicht sie über zwei verteidigte Torbauten. Es ist also kein Ort, den man einfach so betreten konnte.\n\nDer Führer des INAH sagt, sie sei der am besten erhaltene Teil der Stadt und der am schwersten zugängliche. Diese beiden Dinge gehören vielleicht zusammen.\n\nMedina Romero weist darauf hin, dass die Stätte gepflasterte Dammwege von bis zu hundertfünfundsiebzig Metern Länge hat. Er erwähnt auch, dass südlich der Akropolis eine vier Meter hohe Mauer mit Bastionen und Gräben verläuft.\n\nWährend du hinaufsteigst, höre auf, nach Monumenten zu suchen, und achte auf das Gelände. Ein Hügel, der mit Terrassen und Mauern umgestaltet wurde, fühlt sich anders an als eine offene Plaza.\n\nDie UNESCO betrachtet Xochicalco als herausragendes Beispiel einer befestigten Stadt des Epiklassikums. Du wirst es im Körper spüren, bevor du es mit den Augen siehst.\n\nWenn du oben angekommen bist, atme durch. Was jetzt folgt, ist der berühmteste Teil der Stätte."
+    },
+    "retos_observacion": {
+      "hash": "1116641122750212",
+      "texto": [
+        "Achte darauf, wie sich das Gelände unter deinen Füßen verändert",
+        "Zähle, wie oft sich die Höhe des Weges ändert",
+        "Such die Torbauten, durch die man die Plaza betritt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c2d65caad70383d0",
+      "texto": {
+        "Hauptplaza": "auf einem künstlichen Hügel",
+        "Zugänge": "zwei verteidigte Torbauten",
+        "Gepflasterte Dammwege": "bis zu hundertfünfundsiebzig Meter, laut Medina Romero",
+        "Ebenen der Stadt": "drei, laut UNESCO"
+      }
+    },
+    "faq_mito": {
+      "hash": "5407af077888d91a",
+      "texto": {
+        "pregunta": "Mythos: Die wichtigste Plaza konnte man frei betreten.",
+        "respuesta": "Realität: Laut INAH erreicht man sie über zwei verteidigte Torbauten."
+      }
+    }
+  }
+}

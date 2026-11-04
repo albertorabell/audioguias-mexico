@@ -1,0 +1,59 @@
+{
+  "id": "xoc_20_agua_ritual_norte",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "af521cbba637d651",
+      "texto": "Wasser, Dampf und Farbe: die Nordanlage"
+    },
+    "frase_gancho": {
+      "hash": "f08d9eae7fd4fd56",
+      "texto": "Wo eine Stadt hoch oben das Wasser, den Körper und das Ritual in Einklang brachte."
+    },
+    "puente_narrativo": {
+      "hash": "9286c56fe98c55d4",
+      "texto": "Setze deine Route fort: Das Nächste zeigt weitere Bereiche der Stadt."
+    },
+    "guion_corto": {
+      "hash": "2aa5f680642ae22c",
+      "texto": "Eine Stadt mit zehntausend bis fünfzehntausend Menschen, hoch oben auf einem Hügel, musste die Wasserfrage lösen. Laut INAH liegt nördlich des Platzes eine Zisterne, Teil des Wassersystems. México Desconocido beschreibt sie als Regenwasserzisterne mit Entwässerung. Der Führer des INAH nennt hier einen Temazcal, ein Dampfbad mit zeremoniellem Zweck, und den Saal des Polychromen Altars, der hilft zu verstehen, wie die Dächer gebaut wurden. Polychrom bedeutet mehrfarbig bemalt. Laut Andrews und Glascock gab es Temazcal auf der Akropolis und in diesem nördlichen Bereich. Lass dir beim Personal vor Ort bestätigen, welcher welcher ist. Hier wurde gelebt, gearbeitet und gebetet."
+    },
+    "guion_largo": {
+      "hash": "e922cbbb9d244cde",
+      "texto": "Eine Stadt hoch oben steht vor einem Problem, das man auf Fotos nicht sieht: dem Wasser.\n\nLaut Hirth lebten in Xochicalco zwischen zehntausend und fünfzehntausend Menschen. Alle brauchten etwas zu trinken, mussten kochen und arbeiten. Das INAH erwähnt eine Zisterne nördlich des Platzes, Teil des Wassersystems der Stadt. México Desconocido beschreibt sie als Regenwasserzisterne mit Entwässerung. Das heißt, es gab eine Möglichkeit, den Regen aufzufangen und den Überschuss abzuleiten.\n\nGanz in der Nähe stand laut dem Führer des INAH der Temazcal. Ein Temazcal ist ein Dampfbad. Der Führer sagt, er habe einen zeremoniellen Zweck gehabt, das heißt, er diente dazu, den Körper zu reinigen und auch für Zeremonien. Laut Andrews und Glascock gab es Temazcal an zwei Orten. Einer befand sich auf der Akropolis und ein weiterer in diesem nördlichen Bereich, neben dem Spielfeld des Ballspiels. In demselben Bereich erwähnen sie einen großen Staudamm. Wenn du einen kleinen Raum mit an die Wände gefügten Bänken siehst, könnte er es sein.\n\nDer dritte Raum ist der Saal des Polychromen Altars. Polychrom bedeutet mehrfarbig bemalt. Laut dem Führer des INAH hilft dieser Saal zu verstehen, wie die Dächer der Stadt gebaut wurden. Eine Quelle berichtet, dass die Reliefs der Pyramide der Gefiederten Schlangen in Rot, Grün, Gelb, Blau, Schwarz und Weiß bemalt waren. Stell dir auch hier Farbe vor.\n\nWasser, Dampf und Farbe. Drei Dinge, die in unserem Leben getrennt sind und die hier denselben Winkel der Stadt teilten.\n\nWenn du diese Anlage durchstreifst, such nicht nach großen Monumenten. Such nach den Spuren des Alltags: wo das Wasser aufbewahrt wurde, wo der Körper gereinigt wurde und wo gebetet wurde."
+    },
+    "retos_observacion": {
+      "hash": "8f158c8520384e56",
+      "texto": [
+        "Such die Zisterne und achte darauf, in welche Richtung das Gelände abfällt",
+        "Such einen kleinen Raum mit an die Wände gefügten Bänken",
+        "Stell dir Farbe an den Wänden des Saals vor"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5aaf1bfebcd7af84",
+      "texto": {
+        "Zisterne": "nördlich des Platzes, für Regenwasser und mit Entwässerung",
+        "Temazcal": "Dampfbad mit zeremoniellem Zweck, laut dem Führer des INAH",
+        "Saal des Polychromen Altars": "hilft zu verstehen, wie die Dächer gebaut wurden",
+        "Temazcal-Standorte": "einer auf der Akropolis und einer im nördlichen Bereich, neben dem Spielfeld, laut Andrews und Glascock"
+      }
+    },
+    "faq_mito": {
+      "hash": "13dd9c942bf1ccad",
+      "texto": {
+        "pregunta": "Mythos: Ein Temazcal war nur ein Bad.",
+        "respuesta": "Realität: Laut dem Führer des INAH hatte der Temazcal von Xochicalco einen zeremoniellen Zweck."
+      }
+    }
+  }
+}

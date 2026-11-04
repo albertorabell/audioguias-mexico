@@ -1,0 +1,51 @@
+{
+  "id": "xoc_29_fin_ciudad",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0f13fb8c4d2826b",
+      "texto": "Das Ende der Stadt"
+    },
+    "frase_gancho": {
+      "hash": "204f2953895c0a04",
+      "texto": "Eine Stadt, die diese Hügel jahrhundertelang beherrschte und auf einen Schlag unterging."
+    },
+    "guion_corto": {
+      "hash": "ca1c6d8b4e3e3349",
+      "texto": "Jahrhundertelang beherrschte Xochicalco diese Hügel. Dann, in sehr kurzer Zeit, war alles vorbei. Webb und Hirth fanden im zeremoniellen Kern Brandspuren, zerstörte Gebäude und Skulpturen sowie zerstückelte Körper auf den Böden. In den Wohnhäusern dagegen blieben noch brauchbare Gefäße zurück, als wären die Bewohner in Eile aufgebrochen. Die Fachleute streiten darüber, warum: ein interner Aufstand, der Bruch des Bündnisses zwischen den Städten oder eine Eroberung von außen. Seit neunzehnhundertneunundneunzig ist die Stadt heute Welterbe. Bevor du gehst, sieh dir den Hügel ein letztes Mal an. Was du siehst, ist eine Stadt, die im Augenblick ihres Untergangs stehen geblieben ist."
+    },
+    "guion_largo": {
+      "hash": "d5cc3fe30c912228",
+      "texto": "Jahrhundertelang beherrschte Xochicalco diese Hügel. Dann, in sehr kurzer Zeit, war alles vorbei.\n\nDie Stadt wurde um das Jahr sechshundertsiebzig auf einem Hügel gegründet, der zuvor nie bewohnt gewesen war. Laut Alvarado León kam die Aufgabe um das Jahr tausendfünfundsechzig, etwa vierhundert Jahre später. Laut dem INAH wurde sie geplündert und abrupt verlassen. Das Datum ist umstritten: Webb und Hirth setzen es früher an, um das Jahr neunhundert.\n\nDie Gebäude brannten. Webb und Hirth beschreiben Brände im zeremoniellen Kern, zerstörte Gebäude und Skulpturen sowie zerstückelte Körper auf den Böden. Es war kein stilles Verlassen.\n\nDoch die Wohnhäuser erzählen etwas anderes. In drei Wohnhäusern mit Werkstätten, die neunzehnhundertdreiundneunzig ausgegraben wurden, und besonders in einem davon, blieben mehr als hundert Gefäße und mehr als siebzig Mahlsteinwerkzeuge zurück. Wer dort lebte, ging in Eile fort und ließ Gegenstände zurück, die noch zu gebrauchen waren.\n\nWarum es geschah, darüber gibt es keine Einigkeit. Alvarado León legt zusammen mit Norberto González und Silvia Garza dar, dass die Macht um das Jahr neunhundert wegen des gesellschaftlichen Drucks und der Ressourcenknappheit auf zwei Anführer überging. Um das Jahr tausendfünfundsechzig soll ein Aufstand, der im Zentrum der Macht entstand, die Plünderung und den Brand der Gebäude und der Symbole der Elite gebracht haben. Danach tauchte Keramik aus Tula und der Matlatzinca auf, die für diese Zeit typisch ist. Abgesehen von einigen bescheidenen, viel späteren Bauten besiedelte niemand die Stadt wieder. Hirth nimmt den Bruch des Bundes an, der die Stadt trug, oder eine Eroberung von außen. Andere Quellen sprechen von einer Erhebung gegen die Elite. Eine Legende erzählt, der Herr von Xochicalco habe jedes Jahr einen Adligen als Tribut verlangt, bis der junge König von Tepoztlán, Tepoztécatl, ihn tötete. Hirth sieht darin die Erinnerung an das Ende der Stadt. Das sind Hypothesen, keine Tatsachen.\n\nEs vergingen mehrere Jahrhunderte, bis sich andere Völker in der Region niederließen. Eine Quelle berichtet, die Tlahuica seien um das Jahr zwölfhundert gekommen.\n\nHeute steht die Stätte unter Schutz. Sie wurde neunzehnhundertvierundneunzig zur archäologischen Denkmalzone erklärt, und die UNESCO erklärte sie neunzehnhundertneunundneunzig zum Welterbe. Die Zone umfasst etwa siebenhundertsieben Hektar.\n\nBevor du gehst, sieh dir den Hügel ein letztes Mal an. Eine Stadt, die Jahrhunderte bestand, hat Steine hinterlassen, die weiter davon erzählen, wie die Macht organisiert war, wie man die Zeit maß und wie man hoch oben lebte. Was du siehst, ist eine Stadt, die im Augenblick ihres Untergangs stehen geblieben ist."
+    },
+    "retos_observacion": {
+      "hash": "bfe1b1078ffc811f",
+      "texto": [
+        "Sieh dir den Hügel zum letzten Mal an",
+        "Überlege, welche Gegenstände du zurücklassen würdest, wenn du es eilig hättest",
+        "Suche nach den Brandspuren, falls sie noch zu erkennen sind"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bdeacc124e4b7e5b",
+      "texto": {
+        "Gründung": "um das Jahr sechshundertsiebzig",
+        "Aufgabe": "um tausendfünfundsechzig laut Alvarado León; Webb und Hirth setzen sie um neunhundert an",
+        "Dekret": "neunzehnhundertvierundneunzig",
+        "Welterbe": "neunzehnhundertneunundneunzig",
+        "Fläche": "etwa siebenhundertsieben Hektar"
+      }
+    },
+    "faq_mito": {
+      "hash": "9c202d058f9ebb22",
+      "texto": {
+        "pregunta": "Mythos: Xochicalco wurde nach und nach verlassen.",
+        "respuesta": "Realität: Die Brandspuren und die Häuser mit zurückgelassenen Gegenständen deuten auf einen abrupten Aufbruch hin. Über die Ursachen wird weiterhin diskutiert."
+      }
+    }
+  }
+}

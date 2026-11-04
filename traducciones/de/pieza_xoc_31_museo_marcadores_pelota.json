@@ -1,0 +1,64 @@
+{
+  "id": "xoc_31_museo_marcadores_pelota",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f4a7dc33997c90ec",
+      "texto": "Die Marker des Ballspiels"
+    },
+    "frase_gancho": {
+      "hash": "4bf3228a9d6eef01",
+      "texto": "Behauene Steine, die einst auf einem Spielfeld standen und die du hier aus nächster Nähe sehen kannst."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "Der Besuch geht weiter: Der nächste Saal zeigt weitere Stücke aus der Fundstätte."
+    },
+    "guion_corto": {
+      "hash": "155633692377d67e",
+      "texto": "Die Marker des östlichen Spielfelds sind hier zu sehen. Laut dem Führer des INAH tragen sie ein Flachrelief und werden im Museo de Sitio gezeigt. Ein Marker war ein behauener Stein, der in die Mauer des Spielfelds für das Ballspiel eingesetzt wurde. Einer anderen Quelle zufolge haben einige Stücke des Museums noch rote Pigmente bewahrt. Denk daran: Die Skulptur des Aras vom südlichen Spielfeld befindet sich im Nationalmuseum für Anthropologie und nicht hier. Achte darauf, wie tief die Steine behauen sind und ob noch etwas Farbe übrig ist. Ohne das Museum wären diese Steine nur eine Angabe in einem Führer; hier kannst du sie aus nächster Nähe betrachten und verstehen, warum die Spielfelder so wichtig waren."
+    },
+    "guion_largo": {
+      "hash": "968b4c2fc827a487",
+      "texto": "Diese Steine standen einst auf einem Spielfeld.\n\nLaut dem Führer des INAH tragen die Marker des östlichen Spielfelds ein Flachrelief und werden im Museo de Sitio gezeigt. Ein Flachrelief ist eine behauene Figur, die nur wenig aus dem Stein hervortritt. Ein Marker war ein Stein, der in die Mauer des Spielfelds für das Ballspiel eingesetzt wurde.\n\nEiner anderen Quelle zufolge zeigt das Museum behauene Marker des Ballspiels, einen davon unter seinen Stücken, und einige Stücke haben noch rote Pigmente bewahrt.\n\nEin Detail sollte klar sein. Der Ara, der auf dem südlichen Spielfeld gefunden wurde, ist nicht hier. Laut dem Führer des INAH befindet er sich heute im Nationalmuseum für Anthropologie.\n\nVergleiche diese Stücke mit dem, was du auf den Spielfeldern gesehen hast. Das südliche Spielfeld bewahrt zwei Marker an ihrem Platz, beim nördlichen liegen sie umgestürzt, und die des östlichen sind hier. Drei Spielfelder, drei Schicksale.\n\nAchte darauf, wie tief die Steine behauen sind und ob noch etwas Farbe übrig ist. So kommst du am besten dem nahe, was dort draußen gespielt wurde."
+    },
+    "retos_observacion": {
+      "hash": "4ac83377a6618d7b",
+      "texto": [
+        "Betrachte die Steinmetzarbeit aus der Nähe",
+        "Suche nach Resten roter Farbe",
+        "Vergleiche mit dem Spielfeld, das du draußen gesehen hast"
+      ]
+    },
+    "especificaciones": {
+      "hash": "91245ea8dc5e6e3f",
+      "texto": {
+        "Stück": "Marker des östlichen Spielfelds, mit Flachrelief",
+        "Standort": "Museo de Sitio, laut dem Führer des INAH",
+        "Ara vom südlichen Spielfeld": "Nationalmuseum für Anthropologie"
+      }
+    },
+    "faq_mito": {
+      "hash": "a8d4ccb5bf08898d",
+      "texto": {
+        "pregunta": "Mythos: Alle Stücke der Spielfelder befinden sich im Museum der Fundstätte.",
+        "respuesta": "Realität: Der Ara vom südlichen Spielfeld befindet sich im Nationalmuseum für Anthropologie, und zwei Marker stehen weiterhin auf dem südlichen Spielfeld."
+      }
+    }
+  }
+}

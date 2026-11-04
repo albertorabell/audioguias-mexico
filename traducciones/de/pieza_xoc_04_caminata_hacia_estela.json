@@ -1,0 +1,45 @@
+{
+  "id": "xoc_04_caminata_hacia_estela",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc9339435def9ede",
+      "texto": "Spaziergang: zum Platz der Stele der zwei Glyphen"
+    },
+    "frase_gancho": {
+      "hash": "0b4389cf20a171db",
+      "texto": "Ein kurzer Weg zum Zuhören, während du hinaufgehst."
+    },
+    "puente_narrativo": {
+      "hash": "e1bc41dd1e4b1aa2",
+      "texto": "Du hast den Platz der Stele der zwei Glyphen erreicht."
+    },
+    "guion_corto": {
+      "hash": "5dbc30445fd16020",
+      "texto": "Folge den Schildern zum Platz der Stele der zwei Glyphen. Während du gehst, sieh dir die Terrassen und die Steinmauern um dich herum an. Kenneth Hirth erzählt, dass die Menschen auf großen Terrassen und Plattformen an den Hängen lebten und dass sich die Häuser bis zum Talgrund erstreckten. Gepflasterte Straßen verbanden die Viertel der Stadt. Sie waren kein Schmuck: Sie brachten Menschen, Waren und Neuigkeiten von einem Stadtteil zum anderen. Wenn der Weg ansteigt, denk daran, dass jeder, der hier lebte, ihn täglich hinaufging. Wenn du einen weiten Platz mit einer Stele in der Mitte erreichst, bist du genau dort, wo du sein sollst."
+    },
+    "guion_largo": {
+      "hash": "52fb60cfc7ea80ec",
+      "texto": "Das hier ist ein Spaziergang. Du musst nicht stehen bleiben. Folge den Schildern zum Platz der Stele der zwei Glyphen und lass dich vom Audio begleiten.\n\nWährend du weitergehst, sieh dir die Terrassen und die Steinmauern um dich herum an. Kenneth Hirth erklärt, dass die Menschen auf großen Terrassen und Plattformen an den Hängen lebten und dass sich die Häuser bis zum Talgrund erstreckten. Was du als Landschaft siehst, war einmal ein Stadtviertel.\n\nGepflasterte Straßen verbanden die Viertel der Stadt. Sie waren kein Schmuck. Sie brachten Menschen, Waren und Neuigkeiten von einem Stadtteil zum anderen.\n\nWenn der Weg ansteigt, denk daran, dass jeder, der hier lebte, ihn täglich hinaufging, mit Last oder ohne. In einer Stadt auf Hügeln gehörte das Gehen zur Arbeit.\n\nWenn du einen weiten Platz mit einer Stele in der Mitte erreichst, bist du schon beim nächsten Audio."
+    },
+    "retos_observacion": {
+      "hash": "91f8e944fdb03547",
+      "texto": [
+        "Achte auf die Mauern, die die Terrassen stützen",
+        "Finde heraus, in wie viele Richtungen der Weg führt",
+        "Geh langsam und betrachte die Landschaft"
+      ]
+    },
+    "especificaciones": {
+      "hash": "da789b4af3f8c1ed",
+      "texto": {
+        "Art": "Spaziergang, ohne feste Station",
+        "Thema": "Terrassen, Straßen und Stadtviertel der Stadt"
+      }
+    }
+  }
+}

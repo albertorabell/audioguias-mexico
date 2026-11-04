@@ -1,0 +1,54 @@
+{
+  "id": "xoc_12_plaza_principal_accesos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "590916867dd76c70",
+      "texto": "Der Hauptplatz"
+    },
+    "frase_gancho": {
+      "hash": "787d3d0fabd17aa4",
+      "texto": "Der am besten geschützte Teil der Stadt, in dem sich die Macht konzentrierte."
+    },
+    "puente_narrativo": {
+      "hash": "0b62f0a1180a75e2",
+      "texto": "Setze deinen Weg fort: Was als Nächstes kommt, liegt auf diesem Platz oder ganz in seiner Nähe."
+    },
+    "guion_corto": {
+      "hash": "f6ac845f5a845dff",
+      "texto": "Du hast den Teil erreicht, den man am stärksten schützte. Laut INAH liegt der Hauptplatz auf einem künstlichen Hügel, und man betritt ihn durch zwei verteidigte Portiken. Der Führer beschreibt ihn als den am besten erhaltenen und am schwersten zugänglichen Bereich von Xochicalco. Hier stehen der Tempel der Gefiederten Schlangen, eine Zwillingspyramide und Verwaltungsbauten. Dazu kommt der Tempel der Stelen, der drei Stelen barg, die sich heute im Nationalmuseum für Anthropologie befinden. Im Westen liegt die Akropolis, wo der Herrscher wohnte. Alles deutet darauf hin, dass sich hier die Macht konzentrierte und dass dieser zeremonielle Kern am Ende der Stadt in Flammen aufgehen sollte. Sieh dich um und finde das Gebäude mit den Schlangen an seinen Mauern."
+    },
+    "guion_largo": {
+      "hash": "357c95846ca66cd5",
+      "texto": "Du hast den Teil erreicht, den man am stärksten schützte.\n\nStell dir den Weg eines Besuchers jener Zeit vor. Er hat verteidigte Zugänge passiert, ist über Terrassen hinaufgestiegen und hat den Markt und die Werkstätten hinter sich gelassen. Nun betritt er durch einen der beiden verteidigten Portiken, die laut INAH Zugang zu diesem Platz geben. Er liegt auf einem künstlichen Hügel: Die Höhe ist auch eine Botschaft.\n\nDer Führer des INAH beschreibt den Hauptplatz als den am besten erhaltenen und am schwersten zugänglichen Bereich von Xochicalco. Hier versammeln sich mehrere Gebäude. Das bekannteste ist der Tempel der Gefiederten Schlangen. Es gibt außerdem eine Zwillingspyramide und Verwaltungsbauten. In der Zwillingspyramide wurden etwa vierhundert Steine mit Resten von Wandmalerei geborgen, laut einer Studie von González Crespo und seinem Team.\n\nAuch der Tempel der Stelen steht hier. Laut Medina Romero barg er drei Stelen, die sich heute im Nationalmuseum für Anthropologie in Mexiko-Stadt befinden. César Sáenz grub sie 1961 aus. Sie waren in Bruchstücke zerbrochen, und Sáenz schloss daraus, dass die Bewohner von Xochicalco selbst sie absichtlich zerstörten, bevor sie die Stadt verließen. Laut Andrews und Glascock lebten in diesem Machtzentrum etwa tausend Menschen: Priester, die Elite des Palastes, Beamte und Bedienstete. Eine Stele ist ein hoher Stein mit Reliefs. Hirth berichtet, dass jede von ihnen einen Herrscher nennt: Sieben Reptilienauge, Sieben Regen und Vier Bewegung. Es sind die ersten Namen von Königen, die in Zentralmexiko geschrieben wurden, und die ersten langen Texte des Hochlands. Eingravierte Fußspuren zeigen an, in welcher Reihenfolge man sie lesen soll. Eine andere Quelle beschreibt sie mit einer Maske aus Jaguar und Schlange, himmelblauen Bändern und einem Bild von Tláloc.\n\nIm Westen liegt die Akropolis. Laut Hirth befanden sich dort der Palast des Herrschers und das Verwaltungszentrum der Stadt. Hirth beschreibt außerdem einen zeremoniellen Platz östlich der Akropolis.\n\nDas Observatorium, eine Höhle unter den Plattformen dieses Bereichs, hat seine eigene Station. Heute kann man es nicht betreten.\n\nAlles deutet darauf hin, dass sich hier die Macht konzentrierte. Und laut Webb und Hirth ist es auch der zeremonielle Kern, der am Ende der Stadt in Flammen aufgehen sollte. Behalte diesen Gedanken im Kopf: Später kommen wir darauf zurück.\n\nEine Quelle gibt an, dass der Zugang zum Platz eingeschränkt sein kann. Prüfe bei deiner Ankunft, welche Teile du begehen darfst. Bevor du weitergehst, nimm dir einen Moment und sieh dich um, den Nacken nach oben gereckt und ohne Eile."
+    },
+    "retos_observacion": {
+      "hash": "f9522d040428af12",
+      "texto": [
+        "Finde das Gebäude mit den Schlangen an seinen Mauern",
+        "Suche die Akropolis im Westen",
+        "Achte auf die Portiken, durch die man eintritt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "300b98ed915506ac",
+      "texto": {
+        "Zugang": "zwei verteidigte Portiken",
+        "Zustand": "der am besten erhaltene Teil der Stadt",
+        "Gebäude": "Tempel der Gefiederten Schlangen, Zwillingspyramide, Tempel der Stelen, Verwaltungsbauten und Akropolis",
+        "Stelen des Tempels": "drei, heute im Nationalmuseum für Anthropologie"
+      }
+    },
+    "faq_mito": {
+      "hash": "08703b1657dfc0c2",
+      "texto": {
+        "pregunta": "Mythos: Die Stelen befinden sich noch im Tempel der Stelen.",
+        "respuesta": "Realität: Die drei Stelen des Tempels befinden sich heute im Nationalmuseum für Anthropologie."
+      }
+    }
+  }
+}

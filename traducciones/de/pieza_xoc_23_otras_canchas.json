@@ -1,0 +1,61 @@
+{
+  "id": "xoc_23_otras_canchas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3d801a35963b0b8f",
+      "texto": "Die anderen beiden Ballspielfelder"
+    },
+    "frase_gancho": {
+      "hash": "733c1e2b93a4cb57",
+      "texto": "Ein Spielfeld mit umgestürzten Markierungssteinen und ein weiteres, dessen Markierungssteine heute im Museum stehen."
+    },
+    "puente_narrativo": {
+      "hash": "f1a4fb145d300f85",
+      "texto": "Setze deine Route fort: Erkunde weiter die Stadt."
+    },
+    "guion_corto": {
+      "hash": "f8cf6e8fb5043588",
+      "texto": "Du kennst bereits das südliche Spielfeld, das größte und am leichtesten zu erreichende. Die anderen beiden erzählen eine andere Geschichte. Laut dem Führer des INAH hat das nördliche Spielfeld die höchsten Seitenstrukturen, und seine Markierungssteine stürzten in den zentralen Gang. Das östliche Spielfeld, das mit der Rampe der Tiere verbunden ist, besitzt Markierungssteine mit Flachrelief, die heute im Ortsmuseum ausgestellt sind. Ein Markierungsstein ist ein gemeißelter Stein, der in die Mauer des Spielfelds eingesetzt wurde. Medina Romero erklärt, dass die drei Spielfelder auf drei der vier Himmelsrichtungen ausgerichtet sind. Vergleiche sie: Jedes hat seine eigene Höhe, seinen eigenen Zustand und sein eigenes Schicksal."
+    },
+    "guion_largo": {
+      "hash": "e09c2932277ef2ab",
+      "texto": "Du kennst bereits das südliche Spielfeld, das größte und am leichtesten zu erreichende. Die anderen beiden erzählen unterschiedliche Geschichten.\n\nLaut dem Führer des INAH liegt das nördliche Spielfeld auf der dritten Terrasse und hat die höchsten Seitenstrukturen der drei. Seine Markierungssteine, gemeißelte Steine, die in die Mauer eingesetzt waren, stürzten in den zentralen Gang.\n\nDas östliche Spielfeld liegt laut demselben Führer ebenfalls auf der dritten Terrasse. Seine Markierungssteine haben Flachrelief, das heißt gemeißelte Figuren, die nur wenig aus dem Stein hervortreten, und sie sind heute im Ortsmuseum ausgestellt. Laut dem INAH ist die Rampe der Tiere mit diesem Spielfeld verbunden. Das legt nahe, dass das Ballspiel und die Rampe Teil desselben Ensembles waren.\n\nMedina Romero erklärt, dass der Haupthügel drei Spielfelder hatte, die auf drei der vier Himmelsrichtungen ausgerichtet waren. Das südliche war das größte und am leichtesten zu erreichende. Hirth zählt fünf: drei auf dem Hügel und zwei weitere auf benachbarten Hügeln.\n\nLaut Andrews und Glascock war der Bereich des nördlichen Spielfelds ein stark auf die herrschende Elite beschränkter Raum. Das östliche Spielfeld dagegen hat eine markante, nach Osten ausgerichtete Treppe, was auf einen öffentlicheren Zugang schließen lässt. Drei Spielfelder auf einem einzigen Hügel zeigen, wie wichtig das Ballspiel für die Menschen von Xochicalco war, so wie in vielen Städten Mesoamerikas.\n\nWenn du an einem von ihnen stehst, achte auf die Höhe der Seitenstrukturen und vergleiche sie mit dem, was du am südlichen Spielfeld gesehen hast. Jedes hat seine eigene Höhe, seinen eigenen Zustand und sein eigenes Schicksal."
+    },
+    "retos_observacion": {
+      "hash": "dbccec1f191a730b",
+      "texto": [
+        "Vergleiche die Höhe der Mauern mit dem südlichen Spielfeld",
+        "Suche die umgestürzten Markierungssteine im Gang",
+        "Frage im Museum nach den Markierungssteinen mit Flachrelief"
+      ]
+    },
+    "especificaciones": {
+      "hash": "77c32fe4a97b8191",
+      "texto": {
+        "Nördliches Spielfeld": "dritte Terrasse, höhere Seitenstrukturen, umgestürzte Markierungssteine",
+        "Östliches Spielfeld": "dritte Terrasse, Markierungssteine mit Flachrelief im Ortsmuseum",
+        "Ausrichtung": "auf drei der vier Himmelsrichtungen, laut Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "5c3ba22e47883a92",
+      "texto": {
+        "pregunta": "Mythos: Alle Spielfelder von Xochicalco sind gleich.",
+        "respuesta": "Realität: Jedes hat eine andere Höhe, einen anderen Erhaltungszustand und ein anderes Schicksal seiner Stücke."
+      }
+    }
+  }
+}

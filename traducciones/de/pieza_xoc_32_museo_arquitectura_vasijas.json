@@ -1,0 +1,49 @@
+{
+  "id": "xoc_32_museo_arquitectura_vasijas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0eb2cca2b06c3ea4",
+      "texto": "Die Gebäude von innen: Reliefs, Gefäße und Modelle"
+    },
+    "frase_gancho": {
+      "hash": "ffeaaf45f1536480",
+      "texto": "Stücke, die die Stadt schmückten, und Objekte, die zeigen, wie man damals lebte."
+    },
+    "guion_corto": {
+      "hash": "55b4c0e059d36ca6",
+      "texto": "Dieser Saal zeigt, wie die Stadt von innen aussah. Das Gebäude entwarf der Architekt Rolando Dada y Lemus, und es wurde im Jahr neunzehnhundertsechsundneunzig eröffnet. Es hat sechs Säle mit Themen wie Architektur, Alltagsleben, Austausch und Religion. Laut dem INAH gibt es Architekturschnitte, die skulpturale Stücke ausstellen, mit denen die Gebäude geschmückt waren. Der Schmuck ist reich und vielfältig und wird vor allem mit der Fruchtbarkeit in Verbindung gebracht. Eine andere Quelle erwähnt kunstvoll gearbeitete Gefäße und Modelle von Pyramiden, manche mit roten Pigmenten. Zusammen vermitteln sie eine Vorstellung davon, wie diese Stadt aussah: geschmückte Gebäude, Gegenstände des täglichen Gebrauchs und die Menschen, die sie herstellten. Während du den Saal durchquerst, stell dir diese Stücke wieder an ihren Mauern vor. Bevor du gehst, such das Stück, das dich am meisten die Farbe erahnen lässt, die Xochicalco einst hatte. Damit endet dein Rundgang durch das Museum."
+    },
+    "guion_largo": {
+      "hash": "378e56b38acaca06",
+      "texto": "Bis jetzt hast du die Stadt von außen gesehen. Dieser Saal zeigt sie dir von innen. Das Museum entwarf der Architekt Rolando Dada y Lemus. Fertiggestellt wurde es im Jahr neunzehnhundertvierundneunzig, und im April neunzehnhundertsechsundneunzig wurde es eröffnet. Laut dem INAH-Buch von Alvarado León war es das weltweit erste selbstversorgende Museum, das gebaut wurde. Jeder Saal hat eine Kuppel mit Spiegeln, die das Tageslicht verteilt, und Solarzellen decken die bewölkten Tage ab. Das Regenwasser wird für die sanitären Anlagen gesammelt, und doppelte Wände belüften das Gebäude. Von außen gestaltete der Architekt es zurückhaltend, damit es nicht mit der archäologischen Zone konkurriert. Es hat sechs Säle, und seine sechseckige Form erlaubt es, von einem einzigen Punkt aus drei davon zu sehen. Es zeigt mehr als neunhundert Stücke. Die Namen der Säle geben eine Vorstellung vom Rundgang. Sie lauten Die Gaben der Erde, Krieger und Priester, Xochicalco, Zuflucht der Menschen, Schöpferische Hände, Die Rituale des Spiels sowie Alltagsräume und Zeiten des Zusammenlebens.\n\nLaut dem INAH zeigt der Saal Architekturschnitte mit skulpturalen Stücken, die die Gebäude der Stadt schmückten. Der Schmuck ist reich und vielfältig und wird vor allem mit der Fruchtbarkeit in Verbindung gebracht.\n\nEine andere Quelle erwähnt, dass das Museum auch kunstvoll gearbeitete Gefäße und Modelle von Pyramiden besitzt und dass einige Stücke rote Pigmente bewahren.\n\nDenk an das, was du draußen gesehen hast: Mauern, Terrassen und Reliefs aus nacktem Stein. Hier kannst du dir vorstellen, wie sie früher aussahen. Eine Quelle berichtet, dass die Reliefs der Pyramide der Gefiederten Schlangen rot, grün, gelb, blau, schwarz und weiß bemalt waren.\n\nDie Gefäße wiederum erzählen von den Menschen. In einem der Häuser, die Webb und Hirth ausgegraben haben, blieben mehr als hundert Gefäße zurück, als die Stadt aufgegeben wurde. Es sind die Gegenstände des Alltags.\n\nBevor du gehst, such das Stück, das dich am meisten die Farbe erahnen lässt, die Xochicalco einst hatte. Damit endet dein Rundgang durch das Museum."
+    },
+    "retos_observacion": {
+      "hash": "04e800ae8a4f5f61",
+      "texto": [
+        "Such ein Stück mit Farbresten",
+        "Vergleiche die Modelle mit der Pyramide, die du draußen gesehen hast",
+        "Schau dir die Gefäße an und überlege, wer sie benutzt hat"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f9d79a5ae02287d7",
+      "texto": {
+        "Saal": "skulpturale Stücke, die die Gebäude schmückten, vor allem mit der Fruchtbarkeit verbunden, laut INAH",
+        "Weitere Stücke": "kunstvoll gearbeitete Gefäße und Modelle von Pyramiden, laut Mesoweb",
+        "Pigmente": "einige Stücke bewahren Rot"
+      }
+    },
+    "faq_mito": {
+      "hash": "2be0fbaab1971676",
+      "texto": {
+        "pregunta": "Mythos: Alles, was man in Xochicalco sieht, befindet sich an seinem ursprünglichen Platz.",
+        "respuesta": "Realität: Viele gemeißelte Stücke sind im Museum ausgestellt, und andere befinden sich im Nationalmuseum für Anthropologie."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "xoc_06_mercado_obsidiana",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2a9f70325ec0ac9d",
+      "texto": "Der Markt und die Obsidianwerkstätten"
+    },
+    "frase_gancho": {
+      "hash": "e44e99ed1988cc7a",
+      "texto": "Eine Stadt, die davon lebte, Waren herzustellen, zu verkaufen und weit zu transportieren."
+    },
+    "puente_narrativo": {
+      "hash": "c0b8b7bedc2afe45",
+      "texto": "Folge deiner Route: Jetzt lohnt sich der Blick auf eines der größten Gebäude der Stadt."
+    },
+    "guion_corto": {
+      "hash": "6d2633f305c2b7c8",
+      "texto": "Wie viele Menschen leben von dem, was sie verkaufen? In Xochicalco: sehr viele. Die Archäologen haben fünf Werkstätten für Obsidianklingen ausgegraben: vier in Wohnhäusern und eine in einem Marktbereich, wo die Handwerker verkauften, was sie herstellten. Obsidian ist ein vulkanisches Glas, das in sehr scharfe Kanten bricht, und daraus fertigte man Klingen und Werkzeuge. Der Rohstoff kam von weit her, aus Lagerstätten in Michoacán und Hidalgo, mehr als zweihundert Kilometer entfernt. Diese Stadt war also nicht nur ein Machtzentrum. Sie war ein Ort des Handwerks und des Handels, verbunden mit Routen, die durch Mesoamerika führten. Der Reichtum von Xochicalco lag nicht nur in seinen Tempeln. Er lag in den Händen, die herstellten und verkauften."
+    },
+    "guion_largo": {
+      "hash": "08e0c7d5da9cc155",
+      "texto": "Wenn man an eine antike Stadt denkt, stellt man sich Tempel vor, aber es gab auch Märkte. Und Xochicalco hatte einen.\n\nObsidian ist ein schwarzes vulkanisches Glas, das in sehr scharfe Kanten bricht. Daraus fertigte man Klingen, Messer und Spitzen. Hier wurde es nicht aus dem Hügel gewonnen. Chemische Analysen der Stücke zeigen, dass fast alles aus zwei Lagerstätten stammte: Ucareo in Michoacán und Zacualtipán in Hidalgo. Beide liegen mehr als zweihundert Kilometer von diesem Platz entfernt.\n\nEin Projekt unter der Leitung von Kenneth Hirth legte fünf Werkstätten für Obsidianklingen in den gewöhnlichen Bereichen der Stadt frei. Vier davon waren Wohnhäuser, in denen die Familie im selben Raum lebte und arbeitete. Die fünfte lag in einem Marktbereich, wo die Handwerker verkauften, was sie herstellten. Laut Andrews und Glascock fertigten diese Werkstätten den Großteil der Klingen, die in der Stadt und ihrer Umgebung verwendet wurden.\n\nDer Vorgang hatte eine merkwürdige Besonderheit. In die Werkstätten kam kein unbearbeiteter Stein. Es kamen kleine, bereits halb bearbeitete Kerne, und Hirth vermutet, dass Händler sie brachten, die von Dorf zu Dorf zogen und weite Strecken zurücklegten. Im Haus löste der Handwerker die Klingen eine nach der anderen ab. Wenn der Kern die Schlagfläche verlor, erneuerte er sie und machte weiter.\n\nEs gibt noch eine überraschende Tatsache. Die Archäologen verglichen diese Klingen mit jenen, die in den Gebäuden der Elite gefunden wurden, und sie gleichen sich in Technik und Form. Andrews und Glascock folgern, dass die Herrscher dieses Handwerk nicht unmittelbar kontrollierten. Wahrscheinlich kauften sie ihre Klingen auf dem zentralen Markt, wie alle anderen auch.\n\nStell dir jetzt diesen Platz an einem Markttag vor. Menschen, die aus anderen Dörfern kommen, Händler, die ihre Waren anbieten, Handwerker, die frisch gefertigte Klingen zeigen. Der Lärm des Platzes, vermischt mit dem Echo, das dir schon aufgefallen ist.\n\nEine befestigte Stadt lebte nicht allein vom Krieg. Sie lebte vom Austausch. Und dieser Austausch hilft auch zu verstehen, warum ihre Kunst Stile aus so vielen Regionen vermischt."
+    },
+    "retos_observacion": {
+      "hash": "b33dc89f11b28aec",
+      "texto": [
+        "Stell dir die Verkaufsstände auf diesem Platz vor",
+        "Suche den kleinen Altar, falls er zu erkennen ist",
+        "Überlege, welche Obsidiangegenstände du selbst jeden Tag benutzen würdest"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0d713ff46083b4d8",
+      "texto": {
+        "Material": "Obsidian, vulkanisches Glas",
+        "Produkt": "Klingen und Werkzeuge",
+        "Herkunft": "Ucareo, Michoacán, und Zacualtipán, Hidalgo, mehr als zweihundert Kilometer entfernt",
+        "Ausgegrabene Werkstätten": "fünf, vier in Wohnhäusern und eine im Marktbereich",
+        "Quelle": "Andrews und Glascock, Arqueología 61"
+      }
+    },
+    "faq_mito": {
+      "hash": "e0920c41e2e80053",
+      "texto": {
+        "pregunta": "Mythos: Xochicalco war nur eine Zeremonialstadt.",
+        "respuesta": "Realität: Es war auch ein Zentrum für Handel und Werkstätten, mit Häusern, die zugleich Wohnstätte und Arbeitsort waren."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "xoc_02_ciudad_en_cerros",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "a85b947a2b8957cb",
+      "texto": "Eine Stadt auf den Hügeln"
+    },
+    "frase_gancho": {
+      "hash": "c993dbd43b575f5a",
+      "texto": "Terrassen, Mauern und Gräben, die eine ganze Stadt tragen und verteidigen sollten."
+    },
+    "puente_narrativo": {
+      "hash": "6a44071928698bda",
+      "texto": "Folge deiner Route: Der Eingangsweg verrät dir, wie der Zugang zu dieser Stadt kontrolliert wurde."
+    },
+    "guion_corto": {
+      "hash": "05b6b4758304001d",
+      "texto": "Die Stadt Xochicalco liegt nicht auf nur einem Hügel. Archäologen sprechen von drei umgestalteten und durch Terrassen verbundenen Hügeln und von sechs weiteren, niedrigeren in der Umgebung, auf denen ebenfalls Menschen lebten. Um diese Hänge in eine Stadt zu verwandeln, musste man den Fels abtragen, Senken auffüllen und Stützmauern errichten. Die offenen Räume waren durch Treppen, Terrassen und Rampen entlang einer Nord-Süd-Achse miteinander verbunden. Die UNESCO unterscheidet drei Ebenen: unten ein von Mauern umgebenes Wohngebiet, in der Mitte den Markt und den größten Ballspielplatz, oben die Tempel rund um die Hauptplaza. Diese Ordnung ist kein Zufall. Wer hinaufstieg, ging allmählich vom Alltagsleben zur Macht und zum Heiligen über."
+    },
+    "guion_largo": {
+      "hash": "6a161554bee29906",
+      "texto": "Betrachte die Stadt als eine Abfolge von Stufen. Xochicalco entstand in einer schwer zugänglichen Region, auf einer Reihe natürlicher Hügel, und das war Teil seiner Verteidigung.\n\nLaut dem INAH wurde die Stadt in der zweiten Hälfte des siebten Jahrhunderts auf mehreren Hügeln gegründet. Auch auf sechs niedrigeren Hügeln der Umgebung gab es Besiedlung. Kenneth Hirth erklärt, dass der Kern aus drei umgestalteten und durch Terrassen verbundenen Hügeln bestand.\n\nDafür war ein gewaltiges Ingenieurwerk nötig. Eine Konservierungsstudie beschreibt, dass der Hügel umgeformt wurde, indem man abtrug und auffüllte. Die Terrassen und die Stützmauern schufen ebene Flächen für Plätze und Häuser. Treppen, Rampen und Terrassen verbinden sie entlang einer Hauptachse von Norden nach Süden.\n\nDie UNESCO teilt die Stadt in drei Ebenen. Auf der unteren Ebene lag das Wohngebiet, umgeben von Mauern mit verteidigten Eingängen. Auf der mittleren Ebene befanden sich ein Marktkomplex und der größte Ballspielplatz. Auf der oberen Ebene gruppieren sich die Tempel rund um die Hauptplaza.\n\nAuch die Verteidigung war in die Landschaft eingeschrieben. Der Leiter der Ausgrabungsstätte, Medina Romero, erwähnt auf der Südseite eine vier Meter hohe Mauer mit Bastionen und Gräben. Andere Beschreibungen sprechen von Rampen, Gräben, Bastionen und Festungen. Eine solche Stadt war nicht zum Spazierengehen gedacht. Sie war dafür gedacht, standzuhalten.\n\nEine alte Angabe: Antonio Alzate, der die Stätte 1777 besuchte, schätzte die Höhe des Haupthügels auf etwa 107 Meter. Diese Messung ist mehr als zwei Jahrhunderte alt, doch sie zeigt, wie sehr ihn die gewaltige Masse beeindruckte.\n\nDer größte Teil der Häuser an den Hängen ist bis heute nicht ausgegraben. Das bedeutet, dass du nur einen Teil der Stadt siehst. Unter vielen Terrassen kann noch mehr Geschichte verborgen liegen.\n\nWährend du gehst, achte auf zwei Dinge: auf die Mauern, die das Gelände stützen, und darauf, wie die Treppen eine Ebene mit der nächsten verbinden. Das ist Xochicalco: eine Stadt, die mit den Händen erbaut wurde, Stein auf Stein, auf schwierigen Hügeln."
+    },
+    "retos_observacion": {
+      "hash": "da6d404d59f6fd5d",
+      "texto": [
+        "Suche eine Stützmauer und achte darauf, wie sie den Hang hält",
+        "Zähle, wie viele Ebenen du von deinem Standort aus unterscheiden kannst",
+        "Überlege, wer hinaufstieg und wer unten blieb"
+      ]
+    },
+    "especificaciones": {
+      "hash": "72702a2920097db4",
+      "texto": {
+        "Standort": "auf einer Reihe natürlicher Hügel",
+        "Hügel des Kerns": "drei umgestaltete, laut Hirth",
+        "Ebenen": "untere, mittlere und obere, laut UNESCO",
+        "Südmauer": "vier Meter hoch, mit Bastionen und Gräben",
+        "Geschützte Fläche": "707 ha"
+      }
+    },
+    "faq_mito": {
+      "hash": "8357c29445281361",
+      "texto": {
+        "pregunta": "Mythos: Xochicalco wurde auf einem einzigen Hügel erbaut.",
+        "respuesta": "Realität: Die Stadt entstand auf mehreren umgestalteten, durch Terrassen verbundenen Hügeln, und auch auf niedrigeren Hügeln der Umgebung lebten Menschen."
+      }
+    }
+  }
+}

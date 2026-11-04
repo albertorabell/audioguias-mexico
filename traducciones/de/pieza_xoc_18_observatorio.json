@@ -1,0 +1,58 @@
+{
+  "id": "xoc_18_observatorio",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e9a5f1066b768558",
+      "texto": "Der Lichtschacht: das Observatorium"
+    },
+    "frase_gancho": {
+      "hash": "7a24a77f38289380",
+      "texto": "Eine Höhle im Berg, in die die Sonne an bestimmten Tagen des Jahres hineinscheint."
+    },
+    "puente_narrativo": {
+      "hash": "c7b6f7d6c16df78d",
+      "texto": "Folge deiner Route: Auch das, was als Nächstes kommt, hat mit dem Himmel, dem Wasser oder der Zeit zu tun."
+    },
+    "guion_corto": {
+      "hash": "6fe1de4a5f0ca185",
+      "texto": "Unter diesem Bereich liegt eine Höhle, die zum Observatorium wurde. Laut INAH war sie zuerst ein Steinbruch, und danach nutzte man den Hohlraum. Sie hat einen Schacht, durch den von Ende April bis Mitte August ein Sonnenstrahl hinabfällt, etwa einhundertfünf Tage lang. Am vierzehnten Mai steht die Sonne im Zenit. Medina Romero schlägt vor, dass die übrigen zweihundertsechzig Tage mit dem rituellen Kalender zusammenhängen. Heute kann man nicht hinein, und Berichte vom Juni zweitausendsechsundzwanzig bestätigen das. Aber du kannst es dir vorstellen: eine Stadt, die die Sonne in den Berg hineinließ, um die Zeit zu messen. Erkundige dich am Eingang, ob sich etwas geändert hat."
+    },
+    "guion_largo": {
+      "hash": "9aaee5399cab641f",
+      "texto": "Unter diesem Teil des Hügels befindet sich ein Hohlraum. Von hier aus siehst du ihn nicht, aber er ist da.\n\nLaut INAH wurden die Höhlen unter der Nordplattform zuerst als Steinbruch genutzt. Von dort stammte Stein für den Bau. Danach machte sich jemand diese Leere zunutze und verwandelte sie in ein Observatorium.\n\nDie Höhle hat einen Schacht, einen schräg ansteigenden Kamin, der bis an die Oberfläche reicht. Eine Quelle gibt ihm acht Meter und siebzig Zentimeter Höhe und einen sechseckigen Abschluss und berichtet, dass das Innere mit Stuck überzogen war, der schwarz, gelb und rot bemalt wurde.\n\nDas Außergewöhnliche geschieht mit der Sonne. Morante, Garza und Valencia haben sie jahrelang vermessen. Die direkten Strahlen fallen von Ende April bis Mitte August ein, gegen Mittag. Am vierzehnten Mai steht die Sonne im Zenit. Laut El Tlacuache zeichnet sich die Sonne an diesem Tag etwa fünfundvierzig Minuten lang auf dem Boden ab. Der Lichteinfall verteilt sich symmetrisch um die Sommersonnenwende: zweiundfünfzig Tage davor, am Tag der Sonnenwende und zweiundfünfzig Tage danach.\n\nRubén Morante López, der die Stätte seit etwa dreißig Jahren erforscht, erklärt, dass man die Bewegung der Sonne an zwei Orten verfolgte. Der eine war der Zenit, von dieser Höhle aus. Der andere war der Horizont, mit dem Popocatépetl und dem Cerro Jumil als Bezugspunkten. Zusammengezählt ergeben diese Tage einhundertfünf, genau das, was an zweihundertsechzig fehlt, um dreihundertfünfundsechzig zu erreichen. Für Morante, Garza und Valencia sind damit die beiden mesoamerikanischen Kalender an ein und demselben Ort angezeigt.\n\nEine Zeit lang glaubte man, diese Höhle sei einfach ein weiterer Steinbruch, wie die acht anderen rund um den Hügel. Doch ihr Gewölbe und ihr sechseckiger Schacht, dessen Neigung genau berechnet ist, führten zu der Annahme, dass sie zur Zeitmessung diente. Laut Alvarado León stimmen fast alle Studien in einem Punkt überein. Die Höhle diente dazu, zweimal im Jahr den Zenitdurchgang der Sonne zu beobachten und das tropische Jahr zu messen oder den Beginn des Sommers zu markieren. Wozu sie genau diente, ist umstritten. Medina Romero schlägt vor, dass die übrigen zweihundertsechzig Tage mit dem rituellen Kalender zusammenhängen. Eine Mitteilung des INAH besagt, dass sie half, den Kalender zu korrigieren. CyArk sieht darin eine Möglichkeit, den Lauf der Sonne zum Wendekreis des Krebses zu verfolgen.\n\nDie Xochicalca betraten sie nicht dort, wo man heute hineingeht, sondern durch eine Höhle wenige Meter vom Ballspielplatz Nord entfernt. Drinnen lag ein Saal von achtundzwanzig mal zehn Metern mit drei aus dem Fels gehauenen Pfeilern. Ganz hinten befindet sich ein ovaler Raum von sechs Metern, die Kammer der Astronomen, von der ein zweiter Schacht ausgeht. In nahe gelegenen Bereichen fanden sich Keramikscheiben von vierundfünfzig Zentimetern mit Öffnungen. Auf den Schachtrand gelegt, lassen sie das Licht in kleinen Kreisen durch, die über den Boden wandern.\n\nHeute kannst du nicht hinein. Das Observatorium ist für die Öffentlichkeit geschlossen, und Berichte vom Juni zweitausendsechsundzwanzig bestätigen das. Erkundige dich am Eingang, ob sich etwas geändert hat.\n\nAber die Idee lässt sich auch vorstellen, ohne hinabzusteigen. Eine Stadt, die zur Messung der Zeit nicht nur den Himmel betrachtete. Sie ließ ihn in den Berg hinein."
+    },
+    "retos_observacion": {
+      "hash": "cc57f3f3fcded96a",
+      "texto": [
+        "Sieh dir das Gelände an, auf dem das Observatorium liegt",
+        "Stell dir einen Sonnenstrahl vor, der in eine dunkle Höhle fällt",
+        "Frag am Eingang nach, ob das Observatorium weiterhin geschlossen ist"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a6f245b1c2960428",
+      "texto": {
+        "Typ": "Höhle, die in den Sockel eines pyramidenförmigen Bauwerks gegraben wurde",
+        "Sonnenlicht": "vom dreißigsten April bis zum dreizehnten August, etwa einhundertfünf Tage, laut INAH",
+        "Höhepunkt": "vierzehnter oder fünfzehnter Mai",
+        "Zustand": "für die Öffentlichkeit geschlossen, laut Diario de Morelos, Juni zweitausendsechsundzwanzig"
+      }
+    },
+    "faq_mito": {
+      "hash": "63925042c78cc092",
+      "texto": {
+        "pregunta": "Mythos: Du kannst das Observatorium betreten und den Sonnenstrahl sehen.",
+        "respuesta": "Realität: Es ist seit Jahren für die Öffentlichkeit geschlossen. Erkundige dich am Eingang nach dem aktuellen Stand."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "xoc_03_camino_entrada",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90f92b10ca0bb62e",
+      "texto": "Der Zugangsweg"
+    },
+    "frase_gancho": {
+      "hash": "c390c1e92a49ce10",
+      "texto": "Ein Steinweg, der schon in die Stadt führte, als sie noch lebendig war."
+    },
+    "puente_narrativo": {
+      "hash": "d86ad220eec5e1cf",
+      "texto": "Folge deiner Route: Du weißt jetzt, wie die Stadt verteidigt wurde; nun geht es darum, sie zu durchwandern."
+    },
+    "guion_corto": {
+      "hash": "ac25caa0724faaeb",
+      "texto": "Laut dem Führer des INAH umfasst die Hauptzugangsanlage Kontrollsysteme am Eingang und einen quadratischen Platz. Sie umfasst auch den letzten Abschnitt des vorspanischen Weges, der aus der Stadt hinausführte. Das heißt, sie war schon darauf ausgelegt, jeden zu empfangen und zu überwachen, der ankam. Eine Stadt mit verteidigten Eingängen ließ nicht jeden einfach durch. Dieser Dammweg verbindet sich auch mit dem südlichen Ballspielplatz, der auf der untersten Terrasse liegt. Andere Autoren beschreiben einen geraden Weg an der Südseite, der vom Talgrund bis zur Stadt hinaufführt. Was du hier betrittst, ist Teil einer Route, die manche Bewohner vor mehr als tausend Jahren zurücklegten, um hineinzugehen, Handel zu treiben, zu spielen und Rechenschaft abzulegen."
+    },
+    "guion_largo": {
+      "hash": "a5a11f79728eec5f",
+      "texto": "Ein Weg ist eine Art zu sagen, wer eintreten darf. In Xochicalco ist das nicht anders.\n\nLaut dem offiziellen Führer des INAH umfasst die Hauptzugangsanlage Kontrollsysteme am Eingang und einen quadratischen Platz. Sie umfasst auch den letzten Abschnitt des vorspanischen Weges, der aus der Stadt hinausführte.\n\nAndere Quellen ergänzen, dass der Zugangsweg gerade verlief und von der Südseite her aus dem Talgrund ankam. Dieser Dammweg verbindet sich auch mit dem südlichen Ballspielplatz, dem größten der Stadt, der auf der untersten Terrasse liegt.\n\nDie UNESCO und das INAH erwähnen, dass die untere Ebene der Stadt von Mauern mit verteidigten Eingängen umgeben war. Das bedeutet, dass die Ankunft in Xochicalco nicht einfach hieß, durch ein Tor zu gehen. Man musste Kontrollpunkte passieren.\n\nDie Dammwege hatten noch eine andere Funktion. Der Leiter der Zone, Medina Romero, erklärt, dass die gepflasterten Dammwege Sektoren der Stadt miteinander verbanden und bis zu etwa einhundertfünfundsiebzig Meter lang sein konnten. Sie waren das Rückgrat, auf dem sich die Menschen bewegten.\n\nBevor du weitergehst, achte auf den Boden. Die Wege der antiken Städte wurden mit Stein gepflastert, und diese Arbeit erzählt eine Geschichte von Organisation. So viel Stein zu bewegen erforderte Menschen, Zeit und jemanden, der es anordnete.\n\nHalte einen Moment inne und denke darüber nach, wer hier hereinkam. Händler aus anderen Völkern, Menschen, die Obsidian trugen, Spieler, die zum Ballspielplatz kamen, Gesandte benachbarter Gemeinschaften. Und auch Heere, als die Stadt schon bedroht war.\n\nHeute führt dich dieser Weg zu einem einzigen Ort: ins Herz einer befestigten Stadt. Als Nächstes geht es hinauf, um sie zu entdecken."
+    },
+    "retos_observacion": {
+      "hash": "9b9ea4d4f99587ee",
+      "texto": [
+        "Sieh dir den Weg an und achte darauf, wie er gebaut ist",
+        "Suche die Stellen, an denen der Durchgang kontrolliert wurde, falls man sie noch erkennen kann",
+        "Überlege, wer vor mehr als tausend Jahren diesen Weg überquert haben könnte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f88961c233ee36a",
+      "texto": {
+        "Zugang": "Hauptanlage mit quadratischem Platz",
+        "Weg": "letzter Abschnitt des vorspanischen Weges",
+        "Gepflasterte Dammwege": "bis zu etwa 175 m, laut INAH",
+        "Verbindung": "zum südlichen Ballspielplatz"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5e937cd2bce8e3d",
+      "texto": {
+        "pregunta": "Mythos: Die Dammwege von Xochicalco sind moderne Wege.",
+        "respuesta": "Realität: Das INAH beschreibt gepflasterte Dammwege, die schon vor mehr als tausend Jahren Sektoren der Stadt miteinander verbanden."
+      }
+    }
+  }
+}

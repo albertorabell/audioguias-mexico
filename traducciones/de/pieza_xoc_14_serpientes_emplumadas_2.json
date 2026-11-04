@@ -1,0 +1,58 @@
+{
+  "id": "xoc_14_serpientes_emplumadas_2",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Neues Feuer\" para \"Fuego Nuevo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "db32b496c58d5733",
+      "texto": "Der Kalender und die Finsternis"
+    },
+    "frase_gancho": {
+      "hash": "ef20fc78e750ad73",
+      "texto": "Ein Relief, das vielleicht eine Sonnenfinsternis und die Korrektur eines Kalenders festhält."
+    },
+    "puente_narrativo": {
+      "hash": "2c29bb4010a0e4b6",
+      "texto": "Folge deiner Route: Die Schrift der Stadt hat zu diesen Daten noch mehr zu sagen."
+    },
+    "guion_corto": {
+      "hash": "67061bdf3c53ff07",
+      "texto": "Diese Pyramide lässt sich auch als Aufzeichnung des Himmels lesen. Laut dem Führer des INAH befindet sich an der Westfassade ein Bild, das mit der Anpassung des Kalenders zusammenhängt, daneben der Name und der Rang eines Herrschers. Ein weiteres Relief zeigt einen Kiefer, der im Begriff ist, einen in vier Teile geteilten Kreis zu verschlingen. Medina Romero deutet es als den Mond, der die Sonne bedeckt. Er schlägt eine Finsternis im Jahr siebenhundertdreiundvierzig vor, obwohl manche sie auf siebenhundertneunzig datieren. Florescano dagegen sieht eine Eroberungsszene. Nichts davon ist abgeschlossen. Sicher ist, dass das Bauwerk Daten und Zeitzeichen bewahrt. Sieh dir die Reliefs an und entscheide, was du darin siehst, im Wissen, dass die Fachleute noch darüber streiten."
+    },
+    "guion_largo": {
+      "hash": "a0b3912f38f7d232",
+      "texto": "Ein Bauwerk kann von einem Ereignis am Himmel erzählen. Das schlagen einige Fachleute für diese Pyramide vor.\n\nDie Westfassade trägt laut dem Führer des INAH ein Bild, das mit der Anpassung des Kalenders zusammenhängt, und außerdem den Namen und den Rang eines Herrschers. Medina Romero verortet die Kalenderkorrektur auf dem Panel im Nordwesten, mit einem Datum, das von zwei Händen begleitet wird.\n\nAuch Hirth erwähnt eine mögliche Anpassung zwischen zwei Kalendersystemen. Das eine zählt zweihundertsechzig Tage, das andere dreihundertfünfundsechzig. Da sie nicht übereinstimmen, mussten sie von Zeit zu Zeit korrigiert werden.\n\nAußerdem gibt es ein Relief mit einem Kiefer, der im Begriff ist, einen in vier Teile geteilten Kreis zu verschlingen. Laut dem Führer des INAH erscheint dort ein Verweis auf eine Sonnenfinsternis im Jahr siebenhundertdreiundvierzig. Medina Romero liest es als den Mond, der die Sonne verdeckt. Diese Lesart ist eine Interpretation.\n\nDie vorgeschlagenen Daten stimmen nicht überein. Medina Romero nennt den fünfundzwanzigsten Juli siebenhundertdreiundvierzig, mit einer partiellen Finsternis. Die UNAM schlägt den sechzehnten Juli siebenhundertneunzig vor, näher an einer totalen. Der Führer des INAH spricht von einer totalen Sonnenfinsternis. Andere Hinweise des INAH nennen innere Widersprüche, und Florescano schlägt vor, dass das Relief eine Eroberung erzählt und keine Finsternis.\n\nHelmke und Nielsen erklären, dass das Zeichen Neun Reptilienauge zweimal an den Seiten im Norden, Osten und Süden erscheint. Sie lesen es als Neun Rohr, und es wird von brennenden Feuerbecken gekrönt. Es könnte sich auf Rituale des neuen Feuers beziehen. An der Westfassade gibt es außerdem ein Jahr Neun Haus. Diese Lesarten sind vorläufig, denn die Schrift von Xochicalco ist noch nicht entziffert.\n\nJahrzehntelang las man, die Tafeln seien eine Liste von Völkern, die Xochicalco Tribut zahlten, von Coyoacán bis Iguala, so Hirth. Nielsen und Helmke schlagen eine andere Lesart vor. Die oberen Tafeln zeigen eine Reihe sitzender Figuren mit demselben Kopfschmuck und demselben Titel, den sie mit dem des Herzfressers von Cacaxtla vergleichen. Es könnten Personen von hohem Rang sein.\n\nWichtig ist, was wir wissen. Die Erbauer dieser Stadt hinterließen an ihrem sorgfältigsten Bauwerk Zeichen, die mit dem Himmel und mit der Zeit zu tun haben. Was sie genau sagen und welches Datum sie markieren, wird weiterhin diskutiert."
+    },
+    "retos_observacion": {
+      "hash": "ec17422e8b8a06b1",
+      "texto": [
+        "Suche an der Westfassade das Bild der Kalenderanpassung",
+        "Erkenne den Kiefer und den in vier Teile geteilten Kreis",
+        "Entscheide, ob du eine Finsternis oder eine Eroberungsszene siehst"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cb98c23e040f301e",
+      "texto": {
+        "Westfassade": "Anpassung des Kalenders sowie Name und Rang des Herrschers, laut INAH",
+        "Vorgeschlagene Finsternis": "fünfundzwanzigster Juli siebenhundertdreiundvierzig",
+        "Alternative der UNAM": "sechzehnter Juli siebenhundertneunzig",
+        "Alternative Lesart": "Eroberungsszene, laut Florescano"
+      }
+    },
+    "faq_mito": {
+      "hash": "978961b5ba5555af",
+      "texto": {
+        "pregunta": "Mythos: Man weiß mit Sicherheit, dass das Relief eine Sonnenfinsternis zeigt.",
+        "respuesta": "Realität: Es ist eine Interpretation. Andere Fachleute schlagen eine Eroberungsszene vor, und die vorgeschlagenen Daten stimmen nicht überein."
+      }
+    }
+  }
+}

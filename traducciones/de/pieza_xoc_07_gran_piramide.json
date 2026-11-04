@@ -1,0 +1,54 @@
+{
+  "id": "xoc_07_gran_piramide",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dead4c0a601fbc15",
+      "texto": "Die Große Pyramide"
+    },
+    "frase_gancho": {
+      "hash": "7f585051c87022e2",
+      "texto": "Ein Bauwerk mit drei Stufen auf einem Unterbau mit vier, vielleicht Tláloc geweiht."
+    },
+    "puente_narrativo": {
+      "hash": "e9fb329e876a5bab",
+      "texto": "Folge deiner Route: Was als Nächstes kommt, erzählt, worum es in dieser Stadt ging."
+    },
+    "guion_corto": {
+      "hash": "da6b17663c7aa71a",
+      "texto": "Wenn die Pyramide der Gefiederten Schlangen die berühmteste ist, so beherrscht die Große Pyramide den Platz weiter unten. Sie liegt nördlich des Stelenplatzes und besitzt laut dem Führer des INAH einen Unterbau mit drei Stufen, der ein Bauwerk mit vier Stufen trägt. Manche vermuten, dass sie Tláloc, dem Regengott, geweiht war. Kenneth Hirth erklärt, dass sich auf dem zentralen Platz, am Fuß dieses Gebäudes, Würdenträger benachbarter Gemeinden zu öffentlichen Zeremonien versammelten. Es war der Schauplatz von Begegnungen zwischen denen, die herrschten. Eine Stadt, die vom Regen und von Bündnissen mit ihren Nachbarn abhing, brauchte einen solchen Ort: groß, sichtbar und allen bekannt."
+    },
+    "guion_largo": {
+      "hash": "f644be5fde2317ec",
+      "texto": "Es gibt Bauwerke, die man schon von Weitem sieht, weil sie gesehen werden wollen. Die Große Pyramide ist eines davon.\n\nDer Führer des INAH verortet sie nördlich des Platzes der Stele mit den zwei Glyphen. Er erklärt, dass sie einen Unterbau mit drei Stufen hat, der ein Bauwerk mit vier Stufen trägt. Es ist eine Stufenpyramide mit Terrassen, die nach oben hin ansteigen.\n\nAlvarado León beschreibt sie als der Gottheit der Stürme geweiht und als das Bauwerk mit dem zweitgrößten Volumen der Stadt. Medina Romero bringt sie mit dem Kult des Tláloc in Verbindung, des Regengottes. Der Führer des INAH sagt, dass sie möglicherweise ihm geweiht war. Das entscheidende Wort ist möglicherweise. Es gibt keine Inschrift, die das bestätigt.\n\nKenneth Hirth bringt einen weiteren Gedanken ein. Auf dem zentralen Platz, am Fuß der Großen Pyramide, versammelten sich Würdenträger benachbarter Gemeinden, um an öffentlichen Zeremonien teilzunehmen. Mit anderen Worten: Sie war nicht nur ein Tempel. Sie war eine politische Bühne.\n\nDenk darüber nach, was das bedeutet. Eine Stadt, die eine Region beherrschte, brauchte Verbündete und musste Macht zeigen. Die Anführer der Nachbarn in ein großes Bauwerk zu rufen, an den Fuß einer Pyramide, die einem Regengott geweiht war, half dabei, Abkommen zu besiegeln und daran zu erinnern, wer das Sagen hatte.\n\nIn einem Land des Regenfeldbaus war der Regen Leben. Ihn zu erbitten und ihm zu danken, war eine Form von Politik.\n\nAndrews und Glascock berichten, dass auf der Spitze ein Opferbündel mit zehn großen Obsidianstücken von besonderer Form gefunden wurde. In der Nähe lag ein großes Messer, das bei Opferritualen verwendet worden sein könnte. Wenn du näher herantrittst, achte auf die Treppen und auf die Stufen, die nach oben hin immer kürzer werden. Das ist ein Kunstgriff, der den Eindruck von Höhe und Gewicht vermittelt. Auch Architektur spricht.\n\nEs gibt auch eine offene Frage. Die Große Pyramide wurde ausgegraben und gefestigt, doch sie ist viel weniger bekannt als die Pyramide der Gefiederten Schlangen. Vielleicht hat sie keine so berühmten Reliefs. Aber sie war es, die jeden zuerst empfing, der den unteren Platz erreichte, bevor er zu [dem Hauptplatz](xoc_12_plaza_principal_accesos) hinaufstieg."
+    },
+    "retos_observacion": {
+      "hash": "831461930595d7aa",
+      "texto": [
+        "Zähle die Stufen des Unterbaus und die des Bauwerks darüber",
+        "Sieh dir an, wie sie vom Stelenplatz aus wirkt",
+        "Stell dir die Würdenträger anderer Völker vor, die sich am Fuß des Gebäudes versammeln"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7e7a74fb9b627935",
+      "texto": {
+        "Standort": "nördlich des Stelenplatzes",
+        "Struktur": "Unterbau mit drei Stufen und Bauwerk mit vier Stufen",
+        "Mögliche Weihung": "Tláloc, Regengott",
+        "Nutzung": "öffentliche Zeremonien mit Würdenträgern anderer Gemeinden, laut Hirth"
+      }
+    },
+    "faq_mito": {
+      "hash": "69b9825372d069c3",
+      "texto": {
+        "pregunta": "Mythos: Die Große Pyramide ist die Pyramide der Gefiederten Schlangen.",
+        "respuesta": "Realität: Es sind zwei verschiedene Bauwerke. Die Pyramide der Gefiederten Schlangen liegt am Hauptplatz; die Große Pyramide auf der mittleren Ebene."
+      }
+    }
+  }
+}

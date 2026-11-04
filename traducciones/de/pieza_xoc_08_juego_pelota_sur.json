@@ -1,0 +1,65 @@
+{
+  "id": "xoc_08_juego_pelota_sur",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "36a3b24f383aff15",
+      "texto": "Der südliche Ballspielplatz"
+    },
+    "frase_gancho": {
+      "hash": "f515948db790b743",
+      "texto": "Das größte Spielfeld der Stadt, mit einem Ara, der heute in einem anderen Museum lebt."
+    },
+    "puente_narrativo": {
+      "hash": "f1240afc029a50a9",
+      "texto": "Setze deinen Weg fort: Nur wenige Schritte entfernt gibt es einen weiteren Ort, der erzählt, wie in der Stadt die Zeit gemessen wurde."
+    },
+    "guion_corto": {
+      "hash": "3976c02952663bbe",
+      "texto": "Mit der Form eines großen Buchstabens I ist dies das größte Ballspielfeld von Xochicalco. Es liegt auf der untersten Terrasse und besitzt noch zwei seiner Markierungssteine. An diesem Ort wurde eine Skulptur in Form eines Aras gefunden, die heute im Nationalmuseum für Anthropologie ausgestellt ist. Medina Romero, der Leiter der Zone, erklärt, dass Xochicalco drei Spielfelder hatte und dass dieses, das größte und am leichtesten zugängliche, wohl der gesamten Bevölkerung dienen konnte. Das Ballspiel war ein Sport, aber auch ein Ritual. Man spielte mit einem Ball aus Kautschuk, und das Feld mit seinen geneigten Mauern war ein Raum für Regeln, Wetten und Zeremonie."
+    },
+    "guion_largo": {
+      "hash": "adf848bd94ba709d",
+      "texto": "Es gibt Orte, die man an ihrer Form erkennt. Dieser hat die eines großen Buchstabens I.\n\nDer Führer des INAH erklärt, dass der südliche Ballspielplatz auf der fünften Terrasse liegt, der untersten, und dass dort zwei Markierungssteine an ihrem Platz erhalten sind. Die Markierungssteine waren Steine, die an den Wänden des Spielfelds angebracht wurden. Auf diesem Spielfeld wurde außerdem eine Ara-Skulptur gefunden. Heute befindet sie sich im Nationalmuseum für Anthropologie.\n\nMedina Romero, der Leiter der Zone, weist darauf hin, dass Xochicalco drei Spielfelder hatte, die nach drei der vier Himmelsrichtungen ausgerichtet waren. Das südliche ist das größte und am leichtesten zugängliche, und deshalb nimmt man an, dass es der gesamten Bevölkerung diente. Hirth zählt fünf: drei auf dem Hauptberg und zwei weitere auf benachbarten Hügeln.\n\nDas Ballspiel wurde mit einem massiven Ball aus Kautschuk gespielt. Nach den Beschreibungen des Fundorts schlugen die Spieler ihn mit den Hüften. Die geneigten Mauern des Spielfelds halfen dabei, dass der Ball abprallte und im Spiel blieb.\n\nDas Ballspiel war viel mehr als ein Sport. In Mesoamerika hatte es eine rituelle und eine politische Seite. Die Partien konnten Zeremonien sein, und die Spielfelder Orte der Begegnung für die Gemeinschaft.\n\nWenn du auf dem Spielfeld stehst, achte auf die Form. Stell dir zwei Mannschaften vor, einen schweren Ball, der hin und her fliegt, und Publikum an den Seiten. Das Geräusch des Kautschuks auf dem Stein, die Rufe, der Staub.\n\nEs war kein verborgenes Bauwerk. Es war ein Spielfeld für alle."
+    },
+    "retos_observacion": {
+      "hash": "dcbe4b9ccafc76ad",
+      "texto": [
+        "Sieh dir die Form des großen Buchstabens I an, die das Spielfeld hat",
+        "Suche die Markierungssteine, die noch an ihrem Platz sind",
+        "Stell dir vor, wo die Menschen standen, während gespielt wurde"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b645859b673d00c",
+      "texto": {
+        "Form": "großer Buchstabe I",
+        "Standort": "fünfte Terrasse, die unterste",
+        "Markierungssteine": "zwei erhalten",
+        "Hier gefundenes Stück": "Ara, heute im Nationalmuseum für Anthropologie",
+        "Spielfelder der Stadt": "drei auf dem Hauptberg, laut Hirth und Medina"
+      }
+    },
+    "faq_mito": {
+      "hash": "a9e6bbfb5b07592a",
+      "texto": {
+        "pregunta": "Mythos: Das Ballspiel war nur ein Sport.",
+        "respuesta": "Realität: Es war ein Spiel, aber auch ein Ritual und ein politischer Raum für die Gemeinschaft."
+      }
+    }
+  }
+}

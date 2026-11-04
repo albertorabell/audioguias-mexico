@@ -1,0 +1,64 @@
+{
+  "id": "xoc_17_acropolis",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Zentraler Innenhof\" para \"Patio Central\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Zentraler Innenhof\" para \"Patio Central\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"Zentraler Innenhof\" para \"Patio Central\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "cd41b8a194f98eaf",
+      "texto": "Die Akropolis"
+    },
+    "frase_gancho": {
+      "hash": "68e05cacc5800d4e",
+      "texto": "Der höchste Punkt, an dem die Elite lebte und verwaltete."
+    },
+    "puente_narrativo": {
+      "hash": "5d530a08d8e11334",
+      "texto": "Setze deinen Weg fort: Was als Nächstes kommt, hat mit Macht und mit dem Himmel zu tun."
+    },
+    "guion_corto": {
+      "hash": "0ea8521552d71e91",
+      "texto": "Du stehst an dem Ort, an dem nach mehreren Quellen die Elite von Xochicalco lebte und regierte. Das INAH erklärt, dass die Akropolis auf einer sechs Meter hohen Plattform westlich der Plaza Principal liegt. Sie besteht aus Gebäuden rund um einen zentralen Innenhof. Kenneth Hirth beschreibt sie als Palast des Herrschers und Verwaltungszentrum der Stadt. Medina Romero verortet sie am höchsten Punkt der Stätte und erwähnt einen Tempelpalast, Werkstätten, Lagerräume und Büros. Im Süden umgibt sie eine vier Meter hohe Mauer mit Bastionen und Gräben. Überlege, wie die Stadt von hier aus aussieht. Die Plaza Principal liegt dir zu Füßen, im Osten. Sehen und gesehen werden waren Formen der Macht."
+    },
+    "guion_largo": {
+      "hash": "de5281fcec350174",
+      "texto": "Der Aufstieg verändert die Perspektive. Das hier ist die Akropolis.\n\nLaut INAH erhebt sich die Akropolis auf einer sechs Meter hohen Plattform westlich der Plaza Principal. Sie hat mehrere Gebäude, die rund um einen zentralen Innenhof angeordnet sind. Diese Form ähnelt der des Palastes.\n\nKenneth Hirth beschreibt sie als Palast des Herrschers und als Verwaltungszentrum von Xochicalco. Medina Romero geht in dieselbe Richtung: Er sagt, es sei der höchste Punkt der Stätte und dort habe es einen Tempelpalast, Werkstätten, Lagerräume und Verwaltungsbereiche gegeben.\n\nDer Führer des INAH nennt sie unter den Bauten der Plaza Principal und bezeichnet sie als Residenz der Herrscher. Andrews und Glascock ergänzen, dass die Akropolis den Hauptpalast, vier große Lagerräume und ein Schwitzbad hatte. Sie ist eine der beiden Zonen, in denen die meisten Waffen gefunden wurden, was darauf hindeutet, dass die Sicherheit der Elite eine Priorität war.\n\nAlvarado León beschreibt sie als den Komplex mit dem größten Bauvolumen der Stadt. Lucet fügt etwas in Mesoamerika Seltenes hinzu: Auf ihr höchstes Bauwerk setzte man ein zweites Stockwerk. Im Süden wird die Akropolis laut Medina Romero von einer vier Meter hohen Mauer mit Bastionen und Gräben verteidigt. Eine Bastion ist ein Teil der Mauer, der vorspringt, um zu überwachen und zu verteidigen. Ein Graben ist eine Furche im Boden. Das bedeutet, dass der Ort, an dem die Herrscher lebten, auch zu den am besten geschützten gehörte.\n\nDenke jetzt an die Aussicht. Von einem hohen Ort aus sieht man, wer kommt und wer heraufsteigt. Die Plaza Principal liegt dir zu Füßen, im Osten.\n\nWas wir sicher wissen, ist bescheiden: eine Plattform, mehrere Gebäude und eine verteidigte Stadt. Alles Übrige ergänzt man mit Fantasie und mit Sorgfalt."
+    },
+    "retos_observacion": {
+      "hash": "7ad74e5c63ba51a6",
+      "texto": [
+        "Blicke nach Osten und finde die Plaza Principal",
+        "Suche den zentralen Innenhof",
+        "Stell dir vor, wen derjenige kommen sah, der hier lebte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f5bbfd4ee4caf7ee",
+      "texto": {
+        "Höhe der Plattform": "sechs Meter, laut INAH",
+        "Standort": "westlich der Plaza Principal",
+        "Nutzung": "Palast des Herrschers und Verwaltungszentrum, laut Hirth",
+        "Verteidigung": "vier Meter hohe Mauer mit Bastionen und Gräben im Süden, laut Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "32a8a38a48c09889",
+      "texto": {
+        "pregunta": "Mythos: Die Akropolis war ein Tempel.",
+        "respuesta": "Realität: Die Quellen beschreiben sie als Residenz und Verwaltungszentrum der Herrscher, mit Werkstätten und Lagerräumen."
+      }
+    }
+  }
+}

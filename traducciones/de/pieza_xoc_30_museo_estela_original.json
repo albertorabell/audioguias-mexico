@@ -1,0 +1,54 @@
+{
+  "id": "xoc_30_museo_estela_original",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2318589a1e1f2bff",
+      "texto": "Die Stele der zwei Glyphen, das Original"
+    },
+    "frase_gancho": {
+      "hash": "f94c204101cb844a",
+      "texto": "Das zentrale Stück des Museums: zwei Kalenderzeichen, in Stein gemeißelt."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "Der Rundgang geht weiter: Der nächste Saal zeigt weitere Stücke aus der Fundstätte."
+    },
+    "guion_corto": {
+      "hash": "3fe3fc2ad6bca9b3",
+      "texto": "Dies ist das zentrale Stück des Museums: die originale Stele der zwei Glyphen. Laut INAH ist sie ein Monolith mit zwei eingravierten Kalenderglyphen, die wahrscheinlich mit einem bedeutenden Ereignis in der Geschichte von Xochicalco verbunden sind. Die eine ist ein Jahr, zehn Rohr, die andere ein Tag, neun Reptilienauge. Die Stele, die du auf dem Platz gesehen hast, ist eine Replik. Medina Romero schlägt vor, dass das Datum der Einweihung der Pyramide der Gefiederten Schlangen entspricht. Das ist ein Vorschlag, keine gesicherte Tatsache. Sieh dir die Glyphen genau an: Es sind Zeichen der Zeit, in Stein gesetzt, damit sich eine ganze Stadt an einen Tag erinnerte."
+    },
+    "guion_largo": {
+      "hash": "e7c003a06489c07a",
+      "texto": "Hier steht das Stück, das du auf dem Platz gesehen hast, aber dies ist das Original.\n\nLaut INAH bildet die Stele der zwei Glyphen den Mittelpunkt eines Saals des Museums. Sie ist ein Monolith mit zwei eingravierten Kalenderglyphen, die wahrscheinlich mit einem bedeutenden Ereignis in der Geschichte von Xochicalco verbunden sind.\n\nEine der Glyphen ist ein Jahr, zehn Rohr. Die andere ist ein Tag, neun Reptilienauge. Der Führer des INAH berichtet, dass dies eine von vier Stelen war, die in der Fundstätte entdeckt wurden. Die, die du auf dem [Platz der Stele](xoc_05_plaza_estela_dos_glifos) gesehen hast, ist eine Replik.\n\nMedina Romero schlägt vor, dass dieses Datum der Einweihung der Pyramide der Gefiederten Schlangen entspricht. Das ist ein Vorschlag, keine gesicherte Tatsache. Was du aber sehen kannst, ist das, was eingraviert ist: zwei Zeichen, die dazu dienten, einen Moment festzuhalten.\n\nAchte auf die Bearbeitung des Steins. Eine Stele ist ein hoher Stein mit Reliefs, gedacht, um von vielen Menschen gesehen zu werden. Jemand entschied, dass dieser Tag es verdiente, in Stein zu bleiben."
+    },
+    "retos_observacion": {
+      "hash": "9850c246456eb565",
+      "texto": [
+        "Suche die beiden Glyphen auf der Stele",
+        "Vergleiche sie mit der Replik, die du auf dem Platz gesehen hast",
+        "Überlege, welchen Tag deines Lebens du in Stein setzen würdest"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d870fcd1d47e4b64",
+      "texto": {
+        "Stück": "Monolith mit zwei Kalenderglyphen",
+        "Glyphen": "Jahr zehn Rohr und Tag neun Reptilienauge",
+        "Standort": "Museo de Sitio de Xochicalco, laut INAH",
+        "In der Fundstätte entdeckte Stelen": "vier, laut dem Führer des INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee4187cc7ac9d4d9",
+      "texto": {
+        "pregunta": "Mythos: Die Stele auf dem Platz ist das Original.",
+        "respuesta": "Realität: Die Stele auf dem Platz ist eine Replik. Das Original befindet sich im Museo de Sitio."
+      }
+    }
+  }
+}
