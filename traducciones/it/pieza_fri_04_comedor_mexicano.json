@@ -1,0 +1,53 @@
+{
+  "id": "fri_04_comedor_mexicano",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6b49529913196bf0",
+      "texto": "La sala da pranzo: arte popolare da usare"
+    },
+    "frase_gancho": {
+      "hash": "039b24c556b3b7f0",
+      "texto": "Qui si sono seduti Trotsky, Breton ed Eisenstein, circondati da maschere, terracotta e vetro soffiato."
+    },
+    "puente_narrativo": {
+      "hash": "2bc3f18392edd311",
+      "texto": "Dalla sala da pranzo, affacciati alla cucina, dove si cucinava su un fornello a legna."
+    },
+    "guion_corto": {
+      "hash": "05bae9fa87152233",
+      "texto": "Guarda le credenze gialle e il lungo tavolo. Nella sala da pranzo della Casa Azul, Frida e Diego non misero mobili di lusso. Misero arte popolare messicana. Ci sono ceramiche di Puebla, di Oaxaca, di Michoacán e dello Stato del Messico, vetro soffiato, maschere e un Giuda con lo scheletro di un torero. Ma non era decorazione. Collezionarono quei pezzi e li usarono anche. Frida stendeva tovaglie provenienti da diverse regioni del paese. Attorno a questo tavolo passarono visitatori come André Breton, Tina Modotti, Lev Trotsky e Sergej Ėjzenštejn. Qui si capisce che per loro il Messico non era un ornamento. Era la vita di ogni giorno. Osserva con calma ogni angolo della stanza."
+    },
+    "guion_largo": {
+      "hash": "e73367196bebce49",
+      "texto": "Questa sala da pranzo è una delle stanze più allegre della casa. La prima cosa che si nota è il giallo delle credenze, quei mobili con ripiani dove si conservano piatti e bicchieri. Tra le pareti ci sono dipinti popolari dell’Ottocento, con nature morte e scene di vita quotidiana. Sul tavolo e sugli scaffali si accumulano terracotta, vetro e cartapesta.\n\nIl museo racconta che Frida e Diego si sposarono nel millenovecentoventinove e da allora collezionarono arte popolare messicana. Con il tempo misero insieme maschere, figure di cartapesta e pezzi di terracotta. Nella sala da pranzo c’è un Giuda a forma di scheletro di torero e una figura di cavallo su due zampe. C’è anche un piatto azzurro di vetro soffiato, a forma di conchiglia. Le ceramiche vengono da diverse regioni. L’elenco comprende Puebla, Oaxaca, Michoacán e lo Stato del Messico, oltre al vetro di Carretones e di Guadalajara.\n\nL’importante è che quegli oggetti si usavano. Frida stendeva tovaglie provenienti da diverse regioni del paese, e la tavola veniva preparata come per ricevere ospiti. I pezzi non stavano dietro una vetrina. Facevano parte dei pasti di tutti i giorni. Per loro, l’arte popolare era un modo di vivere, non una collezione da guardare da lontano.\n\nDecorare così era anche una presa di posizione. Dipingere la casa di blu, riempirla di terracotta e di cartapesta, mangiare in piatti di Oaxaca. Ogni scelta metteva ciò che è messicano al centro.\n\nE in questa sala da pranzo arrivavano persone da molte parti del mondo. Il museo menziona André Breton, il poeta francese che promosse il surrealismo. Menziona anche la fotografa Tina Modotti e il regista russo Sergej Ėjzenštejn. Menziona Lev Trotsky, che visse nella casa con la moglie dal millenovecentotrentasette al millenovecentotrentanove. È facile immaginare lunghe conversazioni attorno a questo tavolo.\n\nL’arte popolare è quella che realizzano artigiane e artigiani nelle loro botteghe, quasi sempre per essere usata nella vita di ogni giorno. Una brocca, un piatto, una maschera o una figura di cartone possono essere opere di grande qualità. Frida e Diego lo sapevano, e per questo li collocarono al centro della loro casa.\n\nOra guarda in alto, verso gli scaffali. Vedrai colori molto intensi, giocattoli, figure di animali e oggetti che sembrano piccoli, ma ognuno viene da una bottega e da una persona. Tutti insieme formano una specie di mappa del paese."
+    },
+    "retos_observacion": {
+      "hash": "b42572f9de953890",
+      "texto": [
+        "Cerca le credenze gialle e conta quanti tipi di ceramica riesci a distinguere",
+        "Trova il Giuda a forma di scheletro di torero e la figura di cavallo su due zampe",
+        "Immagina Trotsky, Breton, Modotti ed Eisenstein seduti a questo stesso tavolo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "628f0f25f7e0ee00",
+      "texto": {
+        "Spazio": "sala da pranzo del piano terra",
+        "Collezione": "arte popolare di Puebla, Oaxaca, Michoacán e Stato del Messico; vetro soffiato e cartapesta",
+        "Visitatori menzionati dal museo": "André Breton, Tina Modotti, Lev Trotsky, Sergej Ėjzenštejn"
+      }
+    },
+    "faq_mito": {
+      "hash": "214f7a38c7c86c52",
+      "texto": {
+        "pregunta": "Mito: I pezzi di arte popolare della casa servivano solo da decorazione e non venivano usati.",
+        "respuesta": "Realtà: Frida e Diego li collezionarono e li usavano nella vita di ogni giorno. Frida stendeva tovaglie di diverse regioni per ricevere i suoi ospiti."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "fri_01_primeras_salas_retratos",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12fb34f9f0d6aacb",
+      "texto": "La mia famiglia e il ritratto di suo padre"
+    },
+    "frase_gancho": {
+      "hash": "deeb9297eeac821b",
+      "texto": "Un albero genealogico dipinto, con genitori, nonni, sorelle, nipoti e un bebè sconosciuto."
+    },
+    "puente_narrativo": {
+      "hash": "c2a8779e86be6f80",
+      "texto": "Prosegui per le sale di pittura fino a una natura morta di angurie, uno degli ultimi grandi quadri che Frida dipinse."
+    },
+    "guion_corto": {
+      "hash": "fa50a9b4070b113b",
+      "texto": "In queste sale, che furono il soggiorno della famiglia, Frida è circondata dalla sua gente. Il quadro La mia famiglia, del millenovecentoquarantanove, è un albero genealogico. Compaiono la pittrice, i suoi genitori, i suoi nonni, le sue sorelle, due nipoti e un bebè sconosciuto. Lì vicino c’è il ritratto di suo padre, Guillermo Kahlo, fotografo che ritraeva edifici e che ritrasse anche se stesso. Frida dipinse il quadro a partire da uno di quegli autoritratti. E più indietro nel tempo c’è il suo primo autoritratto, del millenovecentoventisei, fatto come regalo per il suo fidanzato di allora. Qui si comincia a capire da dove venisse il suo modo di guardare."
+    },
+    "guion_largo": {
+      "hash": "7ebd529623d353ad",
+      "texto": "Le prime sale della casa sono state riorganizzate come una galleria. Prima erano il soggiorno della famiglia, con un camino di pietra vulcanica disegnato da Diego Rivera. Oggi qui sono appesi dipinti di Frida e di Diego, e anche fotografie del padre di Frida. Se cominci dai ritratti, capisci da dove viene tutto il resto.\n\nIl quadro La mia famiglia è del millenovecentoquarantanove. È un albero genealogico dipinto. Secondo il museo, vi compaiono Frida, i suoi genitori, i suoi nonni, le sue sorelle, due nipoti e un bebè sconosciuto. Lei lo dipinse molti anni dopo aver lasciato alle spalle l’infanzia, e ciononostante continua a raccontare chi c’era in casa sua. Per Frida, la famiglia era il luogo dove cominciava la storia.\n\nSuo padre, Guillermo Kahlo, nacque nel milleottocentosettantadue e arrivò in Messico nel milleottocentonovanta. Era fotografo e ritraeva gli edifici della sua epoca. Soffriva di epilessia. Si fotografò anche lui stesso molte volte. Anni dopo, Frida prese uno di quegli autoritratti e lo trasformò nel quadro Ritratto di mio padre Guillermo Kahlo. Il museo propone una domanda semplice ai bambini che visitano la sala: guarda lo sfondo e pensa a che cosa abbia disegnato lì Frida.\n\nDa suo padre imparò qualcosa di più dello sguardo. Fu lui a insegnarle a usare la macchina fotografica. Frida crebbe tra negativi, foto di famiglia e ritratti, e quell’abitudine di guardarsi con distacco viene da lì. Sua madre, Matilde Calderón, era originaria di Oaxaca.\n\nDa giovane, Frida imparò anche con Fernando Fernández, un incisore amico di suo padre, e lavorò come apprendista con lui. Da lì viene la sua mano sicura nel disegno, che si nota in ogni dettaglio dei suoi quadri.\n\nL’opera più antica della sala è l’Autoritratto con abito di velluto, del millenovecentoventisei. È il primo autoritratto di Frida. Lo fece come regalo per il suo fidanzato, Alejandro Gómez Arias, e richiama lo stile del Rinascimento italiano, soprattutto quello di Botticelli. Guarda il collo lungo e la postura. È una Frida giovane che sta ancora provando come vuole mostrarsi.\n\nLa casa conserva anche opere che Frida lasciò incompiute, come Frida e il parto cesareo, del millenovecentotrentuno. Parla della maternità, che lei non visse mai. Non sempre è esposta, perché le sale cambiano con le mostre.\n\nFermati un momento davanti ai ritratti. Qui non ci sono ancora né dolore né politica. C’è una famiglia, una pittrice che sta appena cominciando e la casa dove tutto accadde."
+    },
+    "retos_observacion": {
+      "hash": "d8f5d4f051c63814",
+      "texto": [
+        "Cerca ne La mia famiglia i corpi dei nonni, dei genitori e delle sorelle, e trova il bebè che il museo chiama sconosciuto",
+        "Confronta il ritratto di suo padre con l’idea che anche lui ritraesse edifici e si fotografasse da solo",
+        "Guarda il collo e la postura dell’Autoritratto con abito di velluto e cerca la somiglianza con la pittura del Rinascimento"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7572ba4279de7651",
+      "texto": {
+        "La mia famiglia": "1949, albero genealogico",
+        "Ritratto di mio padre Guillermo Kahlo": "dipinto a partire da un autoritratto fotografico di suo padre",
+        "Autoritratto con abito di velluto": "1926, il suo primo autoritratto",
+        "Frida e il parto cesareo": "1931, incompiuto, olio su tela, 620 per 730 mm, secondo Google Arts and Culture"
+      }
+    },
+    "faq_mito": {
+      "hash": "9cd78df271e15105",
+      "texto": {
+        "pregunta": "Mito: Frida imparò a dipingere in un’accademia, con Diego Rivera come maestro.",
+        "respuesta": "Realtà: Imparò soprattutto da sola. Da suo padre imparò l’occhio fotografico, e da Fernando Fernández, un incisore amico di famiglia, il disegno raffinato."
+      }
+    }
+  }
+}

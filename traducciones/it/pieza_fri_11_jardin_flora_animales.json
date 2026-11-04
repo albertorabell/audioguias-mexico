@@ -1,0 +1,54 @@
+{
+  "id": "fri_11_jardin_flora_animales",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12eb388f42cd7dc9",
+      "texto": "Il giardino della Casa Azul"
+    },
+    "frase_gancho": {
+      "hash": "09335901cd8da388",
+      "texto": "Un terreno di millequaranta metri quadrati acquistato nel millenovecentotrentasette per proteggere Trotsky."
+    },
+    "puente_narrativo": {
+      "hash": "2c16efd55d1a08be",
+      "texto": "Cammina lungo i sentieri del giardino fino alla piramide rossa."
+    },
+    "guion_corto": {
+      "hash": "031c481a55bf50de",
+      "texto": "Il giardino non faceva parte della casa originale. Fu creato nel millenovecentotrentasette. Allora si acquistò il terreno vicino, di millequaranta metri quadrati, e si innalzarono dei muri per proteggere León Trotsky, che fuggiva da Stalin. Oggi ci sono cactus, piante subtropicali, alberi, fontane e sculture mesoamericane. In questo giardino vissero anche gli animali di Frida. C’erano cani xoloitzcuintle, scimmie ragno e pappagalli, e lei li dipinse in vari quadri. Oggi il giardino è un luogo dove riposare, con l’arte in ogni angolo e tanta ombra per fermarsi un momento. Cammina piano lungo i sentieri di pietra e guarda le sculture tra le piante."
+    },
+    "guion_largo": {
+      "hash": "ef1487e521e456f4",
+      "texto": "Questo giardino è, in realtà, un terreno che la casa non aveva. Quando Guillermo Kahlo costruì la Casa Azul, nel millenovecentoquattro, esisteva solo il Patio Centrale. Nel millenovecentotrentasette vennero a vivere qui León Trotsky e sua moglie Natalia Sedova. Per proteggerli dalla persecuzione di Stalin, si chiusero alcune pareti e si acquistò il terreno vicino, di millequaranta metri quadrati. Lì fu piantato il giardino.\n\nPer questo motivo questo spazio ha un’origine politica. È il risultato di una decisione presa per prendersi cura di una persona. Con il tempo è diventato un luogo in cui vivere, come tutto il resto della casa.\n\nGuarda intorno a te. Ci sono cactus, piante subtropicali, alberi, sentieri di pietra e fontane. In vari angoli furono collocate sculture preispaniche delle culture della Mesoamerica. Il museo menziona una scultura di basalto di Chicomecóatl, una dea del mais e dei sostentamenti, collocata nel giardino. Era il modo in cui Diego mostrava i pezzi all’aperto, come parte della vita e non come oggetti da vetrina.\n\nQuesto giardino fu anche la casa di molti animali. Nella vita di Frida ci furono scimmie ragno, cani xoloitzcuintle, che sono cani messicani privi di pelo, e pappagalli. Compaiono nei suoi autoritratti. Una delle sue scimmie, Fulang-Chang, la accompagna nel quadro Fulang-Chang e io. E un giovane cervo di nome Granizo è il protagonista del quadro Il cervo ferito, in cui ha il volto di Frida. Non erano simboli inventati. Erano gli animali con cui viveva.\n\nIl giardino cambia anche con le stagioni dell’anno e con le esposizioni. A volte vi si allestisce un’offerta per il Giorno dei Morti, con candele e fiori di cempasúchil. Se vieni in quel periodo, è un altro modo di vedere la casa.\n\nCompaiono sculture dell’artista messicano Mardonio Magaña, che il museo menziona in vari angoli della casa. Un giardino di museo cambia con le stagioni, e per questo non appare uguale in tutti i mesi.\n\nLo xoloitzcuintle è un cane senza pelo che esisteva già nel Messico preispanico. Le scimmie ragno vivono in natura nelle foreste del Messico e dell’America Centrale, e così anche i pappagalli. Forse avere questi animali era un modo per avvicinare la natura e la tradizione messicana alla vita quotidiana.\n\nCammina piano. Osserva i sentieri di pietra, i colori del muro azzurro e il verde delle piante. È il luogo in cui la casa si apre verso l’esterno e smette di essere soltanto un museo."
+    },
+    "retos_observacion": {
+      "hash": "9ccb94187b86156d",
+      "texto": [
+        "Cerca i cactus e le piante subtropicali lungo i sentieri di pietra",
+        "Osserva le sculture preispaniche collocate tra le piante, come quella di Chicomecóatl",
+        "Immagina gli xoloitzcuintle, le scimmie ragno e il cervo Granizo mentre percorrono questi sentieri"
+      ]
+    },
+    "especificaciones": {
+      "hash": "20d1bb8f205ba3c1",
+      "texto": {
+        "Terreno del giardino": "1 040 m², acquistato nel 1937",
+        "Elementi": "cactus, piante messicane, fontane e sculture mesoamericane",
+        "Scultura menzionata dal museo": "Chicomecóatl, di basalto",
+        "Animali di Frida": "xoloitzcuintle, scimmie ragno, pappagalli e un cervo di nome Granizo"
+      }
+    },
+    "faq_mito": {
+      "hash": "c2ab7e8355700ba3",
+      "texto": {
+        "pregunta": "Mito: Gli animali degli autoritratti di Frida erano simboli inventati che lei non aveva mai avuto vicino.",
+        "respuesta": "Realtà: Erano i suoi animali domestici. Frida ebbe scimmie ragno, cani xoloitzcuintle e pappagalli, e vivevano nella casa e nel giardino."
+      }
+    }
+  }
+}

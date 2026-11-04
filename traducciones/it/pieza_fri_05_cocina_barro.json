@@ -1,0 +1,54 @@
+{
+  "id": "fri_05_cocina_barro",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "89f2ec9c84065314",
+      "texto": "La cucina: un focolare a legna"
+    },
+    "frase_gancho": {
+      "hash": "bb3e618ae3787f2f",
+      "texto": "Frida voleva una cucina come quella di una vecchia hacienda, con utensili di legno e di terracotta."
+    },
+    "puente_narrativo": {
+      "hash": "0a3137f3ae8d0945",
+      "texto": "La visita prosegue per la casa: continua con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "12422eea9bd54f19",
+      "texto": "La cucina della Casa Azul sembra uscita da un altro secolo, ed è stato voluto. Frida voleva che somigliasse e funzionasse come il focolare di un’antica hacienda, con utensili di legno e di terracotta. Alle pareti sono appese pentole e casseruole, ci sono piastrelle di Talavera e un focolare che lei e Diego preferirono alla cucina a gas che già esisteva. Uno dei suoi piatti preferiti era il mole poblano e, secondo Frida, fu Lupe Marín, che era stata la moglie di Diego prima di Frida, a insegnarle a prepararlo. Sulla parete, piccole brocche di terracotta formano i nomi di Frida e Diego. Qui si cucinava e si viveva."
+    },
+    "guion_largo": {
+      "hash": "5a969c502c1ca22b",
+      "texto": "Entra con calma in questa cucina, perché ogni parete ha qualcosa da guardare. Dai muri pendono pentole di terracotta, casseruole e cucchiai di legno. Il focolare è rivestito di piastrelle di Talavera, con disegni gialli e azzurri. C’è un tavolo che, a quanto si racconta, veniva usato dai domestici della casa.\n\nIl museo spiega l’idea. Frida voleva una cucina che somigliasse e funzionasse come il focolare di un’antica hacienda coloniale. Per questo ci sono utensili di legno e di terracotta, e per questo la cucina si allontana dal moderno. In quegli anni esistevano già le cucine a gas, ma Frida e Diego preferirono il focolare a legna. Volevano che gli stufati avessero il sapore della cucina tradizionale.\n\nIn questa cucina si preparavano piatti di ogni tipo, di origine precolombiana, coloniale e popolare. Uno dei preferiti di Frida era il mole poblano. Secondo Frida, Lupe Marín, che era stata la moglie di Diego prima di Frida, le aveva insegnato a preparare i mole.\n\nGuarda la parete con attenzione. Con piccole brocche di terracotta si formano i nomi di Frida e Diego, e tra di loro ci sono due colombe. È un dettaglio che si può non notare. Assomiglia al modo in cui qualcuno firma una lettera d’amore, ma al posto dell’inchiostro usa terracotta e chiodi.\n\nIn questa cucina Frida riceveva molta gente e organizzava pranzi. Per questo la cucina non è un locale di servizio nascosto. È il centro della casa. Qui si mescolavano gli stufati e le conversazioni che poi continuavano nella sala da pranzo.\n\nPer Frida, il cibo era un altro modo di affermare l’identità messicana. Come le maschere della sala da pranzo o gli abiti da tehuana, il mole poblano era un modo di dire da dove si veniva.\n\nCi sono molti pezzi che conviene osservare da vicino. Tra le pentole e le casseruole si vedono metate, recipienti per il pulque e molcajete. Il metate è una pietra per macinare il mais, e il molcajete serve a pestare peperoncini e spezie. Le piastrelle di Talavera sono di ceramica di Puebla, smaltata e dipinta a mano.\n\nIl focolare a legna dà un calore uniforme e un sapore affumicato agli stufati, e per questo molte cuoche ancora lo preferiscono. Il metate si usa da secoli in Mesoamerica. Queste cose non sono rarità da museo. Sono strumenti di una cucina che è ancora viva in molte case del Messico.\n\nPrima di proseguire, prova a immaginare il fumo del focolare, le casseruole che bollono e Frida che dà istruzioni."
+    },
+    "retos_observacion": {
+      "hash": "ffa8ba622af3b654",
+      "texto": [
+        "Cerca le piccole brocche di terracotta che formano i nomi di Frida e Diego, con le due colombe",
+        "Osserva le piastrelle di Talavera del focolare, in giallo e azzurro",
+        "Conta quante pentole, casseruole e utensili di legno pendono dai muri"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ab28db492bccb34e",
+      "texto": {
+        "Spazio": "cucina del piano terra",
+        "Elemento centrale": "focolare a legna con piastrelle di Talavera",
+        "Utensili": "pentole e casseruole di terracotta, cucchiai di legno",
+        "Piatto preferito di Frida": "mole poblano"
+      }
+    },
+    "faq_mito": {
+      "hash": "b7e9508b9d7d7263",
+      "texto": {
+        "pregunta": "Mito: Essendo un’artista, Frida non cucinava e non si interessava di cucina.",
+        "respuesta": "Realtà: Le importava così tanto che progettò la cucina come un focolare tradizionale. Era lei stessa a raccontare che Lupe Marín, che era stata la moglie di Diego prima di Frida, le aveva insegnato a preparare i mole."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "fri_10_recamara_noche_cenizas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "816ef170dfc45b3b",
+      "texto": "La camera da letto e le ceneri di Frida"
+    },
+    "frase_gancho": {
+      "hash": "34bee29ddcb02f37",
+      "texto": "Un’urna preispanica a forma di rospo custodisce le sue ceneri su una toeletta."
+    },
+    "puente_narrativo": {
+      "hash": "479447b6b5422348",
+      "texto": "Prenditi un attimo di respiro prima di lasciare le camere da letto e prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "8934f49f812a1b21",
+      "texto": "Nella camera da letto, Frida riposava quando finiva la giornata. Ci sono farfalle incorniciate, un regalo dello scultore Isamu Noguchi, un ritratto di Frida realizzato dal fotografo Nickolas Muray e oggetti di cartapesta che lei e Diego apprezzavano. Su una toeletta c’è un’urna preispanica a forma di rospo. Al suo interno ci sono le ceneri di Frida, che morì in questa casa il tredici luglio del millenovecentocinquantaquattro, a quarantasette anni. Il suo corpo fu vegliato nel Palacio de Bellas Artes, e fu cremato in seguito. Le sue ceneri sono oggi custodite nella casa in cui nacque. Guarda prima l’urna e poi le farfalle."
+    },
+    "guion_largo": {
+      "hash": "8bcf76f317d7966c",
+      "texto": "La camera da letto ha qualcosa di diverso dal resto della casa. È una stanza quieta, piena di piccoli oggetti. Il museo parla di una collezione di farfalle incorniciate, un regalo dello scultore Isamu Noguchi, e di un ritratto fotografico di Frida realizzato da Nickolas Muray. Ci sono anche giocattoli e oggetti di cartapesta, che Frida e Diego apprezzavano molto. Alcune guide menzionano inoltre delle bambole, che Frida collezionava.\n\nSu una toeletta riposa un’urna preispanica a forma di rospo. Al suo interno ci sono le ceneri di Frida. Il museo la descrive come un’urna su una toeletta che funziona come altare. Non è una tomba, né un monumento. È un oggetto di terracotta di un popolo antico, collocato nella casa in cui lei visse.\n\nFrida morì il tredici luglio del millenovecentocinquantaquattro, verso le sei del mattino, a quarantasette anni. La causa ufficiale fu un’embolia polmonare. Undici giorni prima, il due luglio, aveva partecipato a una marcia di protesta su una sedia a rotelle.\n\nIl suo corpo fu vegliato nel Palacio de Bellas Artes. La bara fu coperta con la bandiera del Partito Comunista Messicano. Quel gesto provocò uno scandalo politico, e il direttore dell’Instituto Nacional de Bellas Artes, Andrés Iduarte, fu licenziato per averlo permesso. Il giorno seguente ci fu un funerale nel Panteón Civil de Dolores, e il suo corpo fu cremato.\n\nOggi le sue ceneri sono custodite nella casa in cui nacque. Per questo molte persone entrano qui con un misto di curiosità e rispetto.\n\nL’urna a forma di rospo ha un’altra possibile lettura. Si dice che Frida chiamasse Diego il suo rospo rana. E per diverse culture del Messico antico, i rospi e le rane erano associati all’acqua e alla pioggia. Sono letture possibili, non una spiegazione che il museo dia dell’urna.\n\nDiego morì nel millenovecentocinquantasette, tre anni dopo Frida, lo stesso anno in cui creò il fondo fiduciario che si prende cura della casa. Alcune guide parlano inoltre di più di quaranta bambole in questa camera, anche se il loro numero può cambiare a seconda del modo in cui vengono esposte.\n\nOgni anno, per il Giorno dei Morti, la Casa Azul allestisce un’offerta dedicata a Frida. È un modo di ricordarla con fiori, candele e oggetti, secondo la tradizione messicana. Se visiti il museo in quelle date, forse la vedrai.\n\nResta un momento in silenzio, senza cercare altro. Questa è la casa dove Frida iniziò e concluse la sua storia."
+    },
+    "retos_observacion": {
+      "hash": "a7d4e04fed600565",
+      "texto": [
+        "Cerca sulla toeletta l’urna preispanica a forma di rospo, che contiene le ceneri di Frida",
+        "Guarda le farfalle incorniciate e ricorda che furono un regalo di Isamu Noguchi",
+        "Trova il ritratto fotografico di Frida realizzato da Nickolas Muray"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e2e2494855a7e674",
+      "texto": {
+        "Spazio": "camera da letto, piano superiore",
+        "Urna": "pezzo preispanico a forma di rospo, su una toeletta",
+        "Collezione": "farfalle incorniciate, regalo di Isamu Noguchi; ritratto di Frida di Nickolas Muray; giocattoli e cartapesta",
+        "Decesso": "13 luglio 1954, a 47 anni",
+        "Funerale": "veglia funebre nel Palacio de Bellas Artes; funerale nel Panteón Civil de Dolores"
+      }
+    },
+    "faq_mito": {
+      "hash": "ab755b149753625e",
+      "texto": {
+        "pregunta": "Mito: Frida Kahlo è sepolta nella Rotonda de las Personas Ilustres o in un cimitero.",
+        "respuesta": "Realtà: Fu cremata dopo il suo funerale nel Panteón Civil de Dolores. Le sue ceneri sono custodite in un’urna preispanica nella Casa Azul."
+      }
+    }
+  }
+}
