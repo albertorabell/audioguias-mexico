@@ -33202,6 +33202,42 @@
           "provider": "azure"
         }
       },
+      "cue_22_maximiliano_carlota": {
+        "corto": {
+          "hash": "bffbe41869503ddf",
+          "file": "it/cue_22_maximiliano_carlota_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 289152,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5dcdabd22da9970b",
+          "file": "it/cue_22_maximiliano_carlota_largo.mp3",
+          "remote": true,
+          "seconds": 187,
+          "bytes": 1123920,
+          "provider": "azure"
+        }
+      },
+      "cue_23_casa_cantinflas": {
+        "corto": {
+          "hash": "77bb5f60e1722f9b",
+          "file": "it/cue_23_casa_cantinflas_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 290304,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a782eee49d0da58c",
+          "file": "it/cue_23_casa_cantinflas_largo.mp3",
+          "remote": true,
+          "seconds": 202,
+          "bytes": 1213056,
+          "provider": "azure"
+        }
+      },
       "fri_00_fachada_azul": {
         "corto": {
           "hash": "21bc6a69b19c1c2c",
