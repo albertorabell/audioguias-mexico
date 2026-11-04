@@ -1,0 +1,55 @@
+{
+  "id": "cue_14_capilla_abierta",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "44aa180a284221cd",
+      "texto": "Die Offene Kapelle oder Kapelle der Indios"
+    },
+    "frase_gancho": {
+      "hash": "8e4f2d5664a98721",
+      "texto": "Eine Kapelle mit offener Vorderseite, damit Tausende von Menschen die Messe unter freiem Himmel hören konnten."
+    },
+    "puente_narrativo": {
+      "hash": "2c678731f9e627c7",
+      "texto": "Folge deiner Route: Sie kann dich ins Kirchenschiff führen oder direkt zu den Wandbildern der Märtyrer."
+    },
+    "guion_corto": {
+      "hash": "7dced689ebc1fc4d",
+      "texto": "Stell dir eine Kirche vor, der eine Wand fehlt. So funktioniert die offene Kapelle: Sie hat ein Dach und einen Altar, aber die Vorderseite ist zum Atrium hin offen, damit man die Messe von draußen sehen kann. Die Franziskaner bauten sie, um die indigene Bevölkerung zu bekehren, denn diese war zu zahlreich, um in eine geschlossene Kirche zu passen. Deshalb nennt man sie auch Kapelle der Indios. Die Quellen beschreiben sie als weit und schön und als möglicherweise älteste noch erhaltene Kapelle dieser Art in Cuernavaca. Sie wurde errichtet, nachdem die Kapelle San José de los Naturales in Mexiko-Stadt abgerissen worden war. Daher kommt ihr anderer Name, Offene San-José-Kapelle. México Desconocido hält sie für die größte ihrer Art in Lateinamerika."
+    },
+    "guion_largo": {
+      "hash": "123411dbebe785bc",
+      "texto": "Eine geschlossene Kirche taugt nicht für alle. Im sechzehnten Jahrhundert standen die Franziskanermönche vor Tausenden von Menschen, die Nahuatl und andere Sprachen sprachen und in keine Kirche passten. Die Lösung bestand darin, die Architektur umzukehren: Statt die Menschen in die Kirche zu holen, brachte man die Messe hinaus ins Atrium.\n\nDiese Lösung nennt man offene Kapelle. Sie hat ein Presbyterium, also den Altarraum, der überdacht und an der Vorderseite zum Atrium hin offen ist. Der Priester zelebrierte drinnen, und die Menge verfolgte die Messe von draußen. In Cuernavaca ist diese Kapelle als Offene Kapelle, Kapelle der Indios und San-José-Kapelle bekannt.\n\nDer Name San José hat einen Grund. In Mexiko-Stadt gab es eine berühmte Kapelle, San José de los Naturales, die für die indigene Bevölkerung bestimmt war. Nach dem Kunsthistoriker George Kubler wurde die Kapelle von Cuernavaca errichtet, nachdem jene abgerissen worden war. Deshalb kann man diese Kapelle als Erbin jener anderen betrachten. Das genaue Datum dieses Baus ist nicht gesichert.\n\nDie Beschreibungen stimmen in einem Punkt überein: Es ist eine breite Kapelle von guter Größe und möglicherweise die älteste, die in der Stadt erhalten ist. Die Zeitschrift México Desconocido geht weiter und behauptet, sie sei die älteste und die größte ihrer Art in Lateinamerika. Diese Behauptung konnten wir mit keiner anderen Quelle bestätigen, deshalb geben wir sie als Meinung wieder und nicht als gesichertes Faktum.\n\nDie UNESCO erklärt, dass diese Klöster des sechzehnten Jahrhunderts offene Kapellen mit sehr unterschiedlichen Lösungen hatten. Manche sind einfache Nischen. Andere, wie diese hier, sind große Räume mit Bögen. Der Zweck war immer derselbe: Die Zeremonie sollte die ganze Gemeinschaft erreichen.\n\nUm das Atrium zu füllen, mussten die Mönche sich verständlich machen. Sie lernten indigene Sprachen und stützten sich auf Bilder, Gesänge und Darstellungen. An Festtagen kamen Menschen aus den umliegenden Dörfern. Das Atrium wurde dann zu einem großen Platz und die offene Kapelle zu seiner Bühne.\n\nAuch die Bedeutung des Namens Kapelle der Indios muss man erklären. Es ist ein Name aus der Zeit des Vizekönigreichs, der sich auf die indigene Bevölkerung bezieht, an die sie gerichtet war. Heute verwenden wir ihn, um Geschichte zu beschreiben, nicht um irgendjemanden einzuordnen.\n\nBetrachte die Kapelle wie eine Bühne. Sie hat keine Türen, die sie zum Atrium hin verschließen. Diese Offenheit erklärt ihre Funktion: Viele Menschen zugleich konnten eine Feier von draußen verfolgen.\n\nWie du an der vorigen Station gesehen hast, war das Atrium ein wesentlicher Teil der Anlage. Diese Kapelle zu verstehen heißt zu verstehen, dass die Kirche hier draußen begann. Eine Wand ohne Tür kann ebenso viel sagen wie ein Portal mit Reliefs.\n\nSieh dir am Ende an, wie viel Raum vor der Kapelle liegt. Dort standen die Menschen. Diese Freifläche diente als Kirchenschiff, und der Himmel diente als Gewölbe."
+    },
+    "retos_observacion": {
+      "hash": "fd287a1a5b7c4972",
+      "texto": [
+        "Suche die offene Vorderseite der Kapelle und schätze, wie viele Menschen die Messe vom Atrium aus hätten verfolgen können",
+        "Betrachte das Dach und die Bögen und achte darauf, welcher Teil überdacht ist und welcher nicht",
+        "Vergleiche diese Kapelle mit der Fassade der Kirche: Welche wurde deiner Meinung nach zuerst gebaut?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d47326c72a09e58d",
+      "texto": {
+        "Typ": "franziskanische offene Kapelle des 16. Jahrhunderts",
+        "Namen": "Offene Kapelle, Kapelle der Indios und San-José-Kapelle",
+        "Namensherkunft": "Kapelle San José de los Naturales in Mexiko-Stadt",
+        "Funktion": "Messen für Menschenmengen unter freiem Himmel zelebrieren",
+        "Zustand": "möglicherweise die älteste noch erhaltene in Cuernavaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "3d21e49a22015f19",
+      "texto": {
+        "pregunta": "Mythos: Die Kapelle der Indios war nur für Indigene und nicht für andere.",
+        "respuesta": "Realität: Der Name stammt aus der Zeit des Vizekönigreichs und zeigt an, an wen sich die Evangelisierung richtete, nämlich an die mehrheitlich indigene Bevölkerung. Er sagt nicht, wer eintreten durfte."
+      }
+    }
+  }
+}

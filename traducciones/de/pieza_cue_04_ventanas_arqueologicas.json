@@ -1,0 +1,54 @@
+{
+  "id": "cue_04_ventanas_arqueologicas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c6e2edf17984e41b",
+      "texto": "Die archäologischen Fenster und die Monolithen"
+    },
+    "frase_gancho": {
+      "hash": "a7c37d19822e087b",
+      "texto": "Unter dem Palast von Cortés liegt weiterhin eine Tlahuica-Plaza mit Plattformen, Stufen und kreisförmigen Bauten."
+    },
+    "puente_narrativo": {
+      "hash": "1680ce1c942e210c",
+      "texto": "Geh weiter durch das Museum in den Landschaftssaal: Von der Tlahuica-Plaza gelangst du in die Natur von Morelos."
+    },
+    "guion_corto": {
+      "hash": "924ac6a4cede8ec3",
+      "texto": "Es gibt ein Detail, das fast niemand bemerkt: Der Palast ist voller Fenster im Boden und in den Mauern. Sie dienen nicht dazu, nach draußen zu schauen, sondern nach unten. Durch sie sieht man die Überreste einer vorspanischen Plaza, mit Plattformen, Treppeneinfassungen, Stufen und kreisförmigen Bauten aus Stein und Stuck. Die Archäologen unterscheiden vier Bauphasen der Tlahuica, und diese Fenster geben den Blick auf die dritte frei. Vor dem Eingang, unter dem Gras, kommen der Boden der Plaza und ein kreisförmiger Altar zum Vorschein, der kaum aus dem Rasen herausragt. An der Westseite des Palastes stehen drei behauene Monolithen: der Adler von Chapultepec, die Eidechse von San Antón und der Chimalli. Es sind Steine, die von anderen Orten hierhergekommen sind."
+    },
+    "guion_largo": {
+      "hash": "584f9f8af3bae7b6",
+      "texto": "Cuernavaca hieß einst Cuauhnáhuac, ein Nahuatl-Name, der sich meist als nahe bei den Bäumen übersetzen lässt. Als die Spanier ihn aussprachen, wurde daraus am Ende Cuernavaca. Aber vor dem neuen Namen gab es die Plaza. Und diese Plaza ist nicht vollständig verschwunden: Sie ist noch hier, unter dem Palast und rund um ihn.\n\nZwischen neunzehnhunderteinundsiebzig und neunzehnhundertdreiundsiebzig leitete der Archäologe Jorge Angulo Villaseñor während der Restaurierung durch das INAH Ausgrabungen an diesem Ort. Man fand Schichten aus der Zeit der Tlahuica und der Mexica, also der beiden Völker, die den Ort vor der Ankunft der Spanier nutzten. Seitdem bewahrt das Museum mehrere archäologische Fenster.\n\nDas INAH erklärt, dass der Bau der Tlahuica vier Phasen hatte. Was man durch die Fenster sieht, gehört zur dritten. Zu sehen sind Plattformen, Treppeneinfassungen, Stufen und kreisförmige Bauten aus Stein und Stuck. Stuck ist eine Kalkmischung, mit der man Mauern und Böden überzog. Wenn du in Ruhe hinabschaust, stell dir den Raum voller Menschen vor: Es war die Hauptplaza eines Zentrums der Herrschaft und des Tributs.\n\nVor dem Eingang des Museums haben die Ausgrabungen den Boden der Plaza freigelegt. Heute ist er mit Gras bedeckt, aber man erkennt noch einen kreisförmigen Altar, der kaum aus dem Rasen herausragt. Man geht leicht darüber hinweg, ohne ihn zu bemerken.\n\nAn der Westseite des Palastes stehen außerdem drei Monolithen. Der erste ist der Adler von Chapultepec, der zweite ist die Eidechse von San Antón und der dritte ist der Chimalli, der auch als Stein der Verzauberungen bekannt ist. Chimalli ist das Nahuatl-Wort für Schild. Im Jahr neunzehnhundertzweiundneunzig wurde der Chimalli auf die vorspanische Plaza versetzt, wo er jetzt neben den Überresten ausgestellt ist.\n\nDie Tlahuica sprachen Nahuatl und lebten in Herrschaftsgebieten, die über das verteilt waren, was heute Morelos ist. Cuauhnáhuac war eines ihrer Zentren. Ein tecpan war zugleich Palast und Amtssitz: Dort wohnte der Herrscher, und dort nahm man den Tribut entgegen. Den Palast von Cortés genau an diesem Ort zu errichten, war kein Zufall, denn der Ort war bereits ein Machtzentrum.\n\nUm diese Fenster zu lesen, sollte man wie ein Archäologe denken. Alte Bauten überlagern sich wie die Seiten eines Buches. Das Älteste liegt unten und das Jüngste oben. Wenn das INAH von vier Phasen der Tlahuica spricht, wurde höchstwahrscheinlich jede auf der vorherigen errichtet. Deshalb sind die Fenster so wertvoll: Sie lassen eine Seite des Buches sehen, ohne sie herauszureißen.\n\nDer Gedanke, den du mitnehmen solltest, ist einfach. Ein Kolonialpalast kann wie ein einziges Werk des sechzehnten Jahrhunderts wirken. Aber dieser wurde an einem Ort errichtet, der schon seit Jahrhunderten genutzt wurde. Durch die Fenster nach unten zu schauen heißt, sich daran zu erinnern, dass Cuernavaca zwei übereinanderliegende Geschichten hat. Darum lohnt es sich, langsam hinabzuschauen. Was du durch das Glas siehst, ist kein Schmuck. Es ist Boden, den andere Menschen betreten haben, bevor es dieses Gebäude gab."
+    },
+    "retos_observacion": {
+      "hash": "0b68597c16ccd15e",
+      "texto": [
+        "Suche die Fenster im Boden oder in den Mauern und versuche, die Plattformen und die Stufen zu erkennen",
+        "Finde den kreisförmigen Altar, der vor dem Eingang kaum aus dem Gras herausragt",
+        "Finde die drei Monolithen an der Westseite und suche den, der die Form eines Schildes hat"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7495d770f116598b",
+      "texto": {
+        "Vorspanische Plaza": "vier Bauphasen der Tlahuica; die Fenster zeigen die dritte",
+        "Sichtbare Überreste": "Plattformen, Treppeneinfassungen, Stufen und kreisförmige Bauten aus Stein und Stuck",
+        "Monolithen an der Westseite": "Adler von Chapultepec, Eidechse von San Antón und Chimalli",
+        "Ausgrabungen": "1971 bis 1973, geleitet von Jorge Angulo Villaseñor"
+      }
+    },
+    "faq_mito": {
+      "hash": "4ecaff91be1a3f89",
+      "texto": {
+        "pregunta": "Mythos: Der Palast von Cortés wurde auf einem leeren Grundstück errichtet.",
+        "respuesta": "Realität: Er wurde über dem tecpan und der Plaza der Tlahuica errichtet. Die Überreste sind weiterhin in den archäologischen Fenstern sichtbar."
+      }
+    }
+  }
+}

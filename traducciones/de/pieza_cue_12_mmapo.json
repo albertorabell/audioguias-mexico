@@ -1,0 +1,61 @@
+{
+  "id": "cue_12_mmapo",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"La Venta\" para \"La Venta\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"La Venta\" para \"La Venta\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "b0ee601ce52788d9",
+      "texto": "MMAPO, das Museum für Volkskunst von Morelos"
+    },
+    "frase_gancho": {
+      "hash": "f516ebdf14ca10dc",
+      "texto": "Lebensgroße Chinelos, Tontöpfe aus Cuentepec, Textilien aus Hueyapan und Figuren aus Tlayacapan, alles nur wenige Schritte vom Palast entfernt."
+    },
+    "puente_narrativo": {
+      "hash": "69be895d2d448fbf",
+      "texto": "Geh die Hidalgo-Straße entlang in Richtung Kathedrale, falls deine Route dort weiterführt."
+    },
+    "guion_corto": {
+      "hash": "0e4957ee5068a585",
+      "texto": "In der Hidalgo-Straße, Hausnummer zweihundertneununddreißig, befindet sich ein Museum, dessen Sammlung zum Teil unter freiem Himmel zu sehen ist. Es ist das Morelenser Museum für Volkskunst, bekannt als MMAPO. Es zeigt Kunsthandwerk aus allen Regionen von Morelos. Es gibt Keramik aus Cuentepec, Textilien aus Hueyapan und Arbeiten von Kunsthandwerkern aus Tlayacapan. Ein Teil der ausgestellten Stücke steht im Freien, sodass du dich den Werken nähern kannst. Besonders hervor stechen die lebensgroßen Chinelos, die Tänzer des Karnevals von Morelos, mit ihrer langen Tunika und ihrem verzierten Hut. Es ist ein Museum, das den Bundesstaat durch die Hände erzählt, die Gegenstände aus Ton, Wolle und anderen Materialien herstellen. Die meisten Stücke sind verkäuflich und wechseln häufig."
+    },
+    "guion_largo": {
+      "hash": "87bb163e6aa6a64d",
+      "texto": "Der Palast von Cortés hat dir die Geschichte von Morelos anhand seiner Steine und seiner Wandgemälde erzählt. Das MMAPO erzählt sie durch die Hände derer, die täglich Gegenstände anfertigen. Der Eingang liegt in der Hidalgo-Straße, Hausnummer zweihundertneununddreißig, zwischen dem Palast und der Kathedrale.\n\nDer vollständige Name lautet Morelenser Museum für Volkskunst, und wer es kennt, nennt es MMAPO. Es vereint Kunsthandwerk aus allen Regionen des Bundesstaates. Die Idee ist, die Arbeit der Kunsthandwerker von Morelos zu bewahren, auszustellen und zu fördern und dazu beizutragen, dass dieses Handwerk weiter ausgeübt wird.\n\nDrei Gemeinden tauchen immer auf, wenn von Kunsthandwerk aus Morelos die Rede ist. Die erste ist Cuentepec, bekannt für seine Töpferinnen, die den Ton verarbeiten. Die zweite ist Hueyapan, wo Wolle gewebt wird: Du hast ihre Garnstränge im Museum des Palasts schon gesehen. Die dritte ist Tlayacapan, dessen kunsthandwerkliche Arbeit ebenfalls im Museum gezeigt wird. Tlayacapan erscheint außerdem in einer Ausstellung des Palasts über Spindelwirtel, die Gewichte der Handspindel, mit denen schon seit vorspanischer Zeit gesponnen wurde.\n\nDie auffälligsten Figuren des MMAPO sind die Chinelos. Sie sind die Tänzer des Karnevals von Morelos, und das Museum zeigt sie in Lebensgröße. Sie tragen eine lange Tunika, eine Maske mit Bart und einen hohen, verzierten Hut. Wenn sie tanzen, machen sie kurze Sprünge im Rhythmus einer Blaskapelle. Im Museum kannst du dich ihnen nähern und sehen, wie sie gemacht sind, Detail für Detail.\n\nDer Überlieferung nach entstand der Chinelo im neunzehnten Jahrhundert als Spott der Dorfbewohner gegenüber den Hacienda-Besitzern, und deshalb übertreibt seine Kleidung die Eleganz der Gutsherren. Diese Erklärung wird oft wiederholt, auch wenn die Ursprünge des Tanzes weiterhin diskutiert werden. Klar ist jedenfalls, dass er heute ein Symbol des Bundesstaates ist und dass jeder Karneval ihn aufs Neue mit Musik und Farbe erfüllt.\n\nEin Merkmal des MMAPO ist, dass viele Objekte unter freiem Himmel stehen. Das verändert das Erlebnis. Statt geschlossener Vitrinen kannst du die Stücke aus der Nähe betrachten, im Licht des Tages.\n\nEs gibt auch einen Laden. Die Stücke wechseln häufig, und fast alle sind verkäuflich, sodass das, was du heute siehst, morgen vielleicht nicht mehr da ist. Wenn du etwas kaufst, frag die Person, die dich bedient, woher es kommt und wer es gemacht hat. In der Volkskunst sind der Name der Person und des Dorfes ebenso wichtig wie der Gegenstand.\n\nBevor du eintrittst, mach eine Pause auf der Straße. Dieses Museum liegt zwischen der Kathedrale und dem Palast von Cortés und eignet sich daher als Erholung zwischen zwei großen Stationen. Hier ändert sich der Rhythmus: weniger Jahreszahlen und mehr Objekte, die man mit dem Blick abgehen kann, eines nach dem anderen.\n\nDieses Museum ist die lebendige Seite von Morelos: Die Objekte sind nicht nur Vergangenheit, sie werden heute hergestellt und verkauft.\n\nDas Wort „Volkskunst“ hat eine genaue Bedeutung. Es heißt nicht billig und nicht einfach. Es heißt vom Volk gemacht, mit Techniken, die von Generation zu Generation weitergegeben werden. Zwischen dem Wandgemälde von Rivera und einem Tontopf aus Cuentepec besteht mehr Verbindung, als es scheint: Beide erzählen von Morelos."
+    },
+    "retos_observacion": {
+      "hash": "7ff63b254d2d42f3",
+      "texto": [
+        "Such die lebensgroßen Chinelos und achte auf die Tunika, den Bart und den Hut",
+        "Finde ein Stück aus Ton und eines aus Wolle und rate, aus welchem Dorf jedes stammt",
+        "Frag im Laden, wer das Stück gemacht hat, das dir ins Auge fällt, und wo diese Person lebt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "df8961436876665c",
+      "texto": {
+        "Adresse": "Hidalgo 239, Zentrum von Cuernavaca",
+        "Sammlung": "Kunsthandwerk aus allen Regionen von Morelos",
+        "Erwähnte Gemeinden": "Cuentepec, Hueyapan und Tlayacapan",
+        "Herausragende Figuren": "lebensgroße Chinelos"
+      }
+    },
+    "faq_mito": {
+      "hash": "8b9ba0385f2cef13",
+      "texto": {
+        "pregunta": "Mythos: Volkskunst ist dasselbe wie billiges Kunsthandwerk vom Markt.",
+        "respuesta": "Realität: Sie ist Handarbeit mit Techniken, die vererbt werden. Das MMAPO zeigt sie als Kunst, mit dem Namen ihrer Gemeinde."
+      }
+    }
+  }
+}

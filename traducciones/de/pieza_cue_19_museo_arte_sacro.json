@@ -1,0 +1,56 @@
+{
+  "id": "cue_19_museo_arte_sacro",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92411ceaa71effe9",
+      "texto": "Das Museum für sakrale Kunst"
+    },
+    "frase_gancho": {
+      "hash": "de9da99f60f9555b",
+      "texto": "Zweiundneunzig Objekte aus dem sechzehnten bis zwanzigsten Jahrhundert, zusammengetragen, um die religiöse Kunst ganz Morelos’ zu bewahren."
+    },
+    "puente_narrativo": {
+      "hash": "f060b867381c0573",
+      "texto": "Folge deiner Route: Sie kann dich zum Tempel des Dritten Ordens oder zum Borda-Garten führen."
+    },
+    "guion_corto": {
+      "hash": "ce5f45c66bec1202",
+      "texto": "Zweiundneunzig Objekte finden in diesem Museum Platz, das klein, aber dicht bestückt ist. Es liegt in der Kathedrale und wurde zweitausendachtzehn eröffnet. Es vereint Gemälde, Ornamente und Skulpturen aus dem sechzehnten bis zwanzigsten Jahrhundert, allesamt religiöse Kunst aus der Zeit des Vizekönigreichs in Morelos. Angestoßen hat es der Nationale Rat „Adoptiere ein Kunstwerk“ gemeinsam mit der Diözese, dem INAH und dem INBA, und die Landesregierung finanzierte einen großen Teil. Es ist nicht der erste Versuch. Neunzehnhundertelf gründete der Bischof Francisco Plancarte y Navarrete in Cuernavaca ein weiteres Museum für sakrale Kunst. Zur Sammlung der Kathedrale gehören Gemälde, die Juan Correa, Juan de Miranda und Tomás de Sosa zugeschrieben werden. Außerdem gibt es ein vergoldetes Holzrelief aus dem achtzehnten Jahrhundert über die Wundmale des heiligen Franziskus."
+    },
+    "guion_largo": {
+      "hash": "ae0ad46a36bf7542",
+      "texto": "Das Wort sakrale Kunst klingt fern, doch was es hier zu sehen gibt, ist ganz nah: Objekte, die echte Menschen benutzt haben, um zu beten, zu feiern und sich zu erinnern. Das Museum für sakrale Kunst befindet sich in der Kathedrale. Es wurde zweitausendachtzehn eröffnet, als würdiger Ort, um die religiöse Kunst aus der Zeit des Vizekönigreichs in Morelos zu bewahren. Kunst aus der Zeit des Vizekönigreichs ist jene, die entstand, als Mexiko Neuspanien war.\n\nEs ist ein kleines Museum mit etwa zweiundneunzig Objekten: Gemälde, Ornamente und Skulpturen aus dem sechzehnten bis zwanzigsten Jahrhundert. Die Ornamente sind die Stoffe und Gegenstände, die Priester bei den Zeremonien verwenden. Die Zahl kann sich mit der Zeit ändern, aber sie vermittelt eine Vorstellung vom Umfang: Es ist keine riesige Galerie, sondern eine Auswahl.\n\nDas Vorhaben stieß der Nationale Rat „Adoptiere ein Kunstwerk“ an, eine Organisation, die schon seit den Neunzigerjahren in der Kathedrale gearbeitet hatte. Beteiligt waren die Diözese von Cuernavaca sowie das INAH und das INBA. Der Gouverneur Graco Ramírez finanzierte einen großen Teil des Projekts, so die Pressemitteilung zur Eröffnung.\n\nCuernavaca hatte schon einmal ein solches Museum. Neunzehnhundertelf gründete der zweite Bischof der Diözese, Francisco Plancarte y Navarrete, ein Museum für sakrale Kunst. Eine Forscherin, María Celia Fontana, gibt nicht genau an, ob es in der Kathedrale war. Wichtig ist die Idee: Seit mehr als einem Jahrhundert wollte die Diözese ihre Schätze zusammentragen und zeigen.\n\nWelche Art von Werken bewahrt die Sammlung der Kathedrale? Fontana nennt Gemälde, die Juan Correa, Juan de Miranda und Tomás de Sosa zugeschrieben werden, Künstlern aus Neuspanien. Es gibt auch ein Relief aus farbig gefasstem und vergoldetem Holz aus dem achtzehnten Jahrhundert, von unbekanntem Künstler. Es stellt die Stigmatisierung des heiligen Franziskus dar: den Moment, in dem der Heilige der Überlieferung nach die Wundmale Christi an seinem Körper empfing. Dieses Relief ähnelt sehr dem, das das Portal [des Tempels des Dritten Ordens](cue_20_tercera_orden) schmückt. Wir können nicht versichern, welche Stücke heute im Saal zu sehen sind; am besten fragst du am Eingang nach.\n\nNeunzehnhundertzweiundneunzig wurden mehrere Werke der Kathedrale im Rahmen des Programms „Adoptiere ein Kunstwerk“ restauriert, unter der Leitung von Teresa Loera. Diese Arbeiten bereiteten den Boden für das Museum.\n\nWorauf du beim Betrachten achten kannst: Sieh genau hin, wie sich ein Heiliger vom anderen unterscheidet. Jeder trägt in der Regel einen Gegenstand, der ihn kenntlich macht, etwa einen Schlüssel, einen Palmzweig oder ein Buch. Mit diesen Attributen erkannte man sie schon von Weitem.\n\nEine Frage hilft beim Betrachten dieser Kunst: Wozu wurde sie geschaffen? Ein Gemälde mit Heiligen konnte Menschen, die nicht lesen konnten, Geschichten erzählen. Ein Ornament diente bei einem Fest. Eine Skulptur wurde in einer Prozession herumgetragen. Wenn du es so betrachtest, ist die sakrale Kunst nicht länger ein Objekt hinter Glas, sondern wieder Teil des Lebens eines Volkes."
+    },
+    "retos_observacion": {
+      "hash": "211bb5f498257ec2",
+      "texto": [
+        "Such ein Gemälde mit Heiligen und frage, welche Geschichte es erzählt",
+        "Finde ein Ornament und achte auf den Stoff, die Stickerei oder die Farbe",
+        "Falls es ein vergoldetes Holzrelief gibt, vergleiche die Figur mit dem Portal des Dritten Ordens"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8c72f331ae25dcb1",
+      "texto": {
+        "Eröffnung": "2018",
+        "Sammlung": "92 Objekte aus dem 16. bis 20. Jahrhundert, laut Lonely Planet",
+        "Art der Stücke": "Gemälde, Ornamente und Skulpturen der religiösen Kunst aus der Zeit des Vizekönigreichs in Morelos",
+        "Initiative": "Nationaler Rat „Adoptiere ein Kunstwerk“, Diözese, INAH und INBA",
+        "Früheres Museum": "1911, gegründet von Bischof Francisco Plancarte y Navarrete",
+        "In der Sammlung der Kathedrale genannte Künstler": "Juan Correa, Juan de Miranda und Tomás de Sosa"
+      }
+    },
+    "faq_mito": {
+      "hash": "916359c48251ed4d",
+      "texto": {
+        "pregunta": "Mythos: Sakrale Kunst ist nur etwas für Gläubige.",
+        "respuesta": "Realität: Man kann sie als Geschichte und als Kunst betrachten. Sie zeigt, wie man in Neuspanien malte, stickte und Skulpturen schuf."
+      }
+    }
+  }
+}
