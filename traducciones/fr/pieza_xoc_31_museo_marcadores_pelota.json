@@ -1,0 +1,53 @@
+{
+  "id": "xoc_31_museo_marcadores_pelota",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f4a7dc33997c90ec",
+      "texto": "Les marqueurs du jeu de balle"
+    },
+    "frase_gancho": {
+      "hash": "4bf3228a9d6eef01",
+      "texto": "Des pierres sculptées qui se trouvaient sur un terrain de jeu et que vous pouvez aujourd’hui observer de près."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "La visite continue dans le musée : la salle suivante présente d’autres pièces du site."
+    },
+    "guion_corto": {
+      "hash": "155633692377d67e",
+      "texto": "Les marqueurs du terrain est se trouvent ici. Selon le guide de l’INAH, ils sont sculptés en bas-relief et exposés au Musée de site. Un marqueur était une pierre sculptée que l’on plaçait sur le mur du terrain du jeu de balle. Une autre source raconte que certaines pièces du musée conservent des pigments rouges. Souvenez-vous que la sculpture d’ara du terrain sud se trouve au Musée national d’anthropologie, et non ici. Observez la profondeur de la sculpture et voyez s’il reste un peu de couleur. Sans le musée, ces pierres ne seraient qu’une simple mention dans un guide ; ici, vous pouvez les voir de près et comprendre pourquoi les terrains de jeu comptaient tant."
+    },
+    "guion_largo": {
+      "hash": "968b4c2fc827a487",
+      "texto": "Ces pierres se trouvaient sur un terrain de jeu.\n\nSelon le guide de l’INAH, les marqueurs du terrain est sont sculptés en bas-relief et exposés au Musée de site. Un bas-relief est une figure sculptée qui dépasse peu de la pierre. Un marqueur était une pierre que l’on plaçait sur le mur du terrain du jeu de balle.\n\nUne autre source raconte que le musée expose des marqueurs sculptés de jeu de balle, dont l’un figure parmi ses pièces, et que certaines pièces conservent des pigments rouges.\n\nUn détail mérite d’être bien clair. L’ara que l’on a trouvé sur le terrain sud n’est pas ici. Selon le guide de l’INAH, elle se trouve aujourd’hui au Musée national d’anthropologie.\n\nComparez ces pièces avec ce que vous avez vu sur les terrains. Le terrain sud conserve deux marqueurs à leur place, le nord les a tombés à terre, et ceux du terrain est sont ici. Trois terrains, trois destins.\n\nObservez la profondeur de la sculpture et voyez s’il reste un peu de couleur. C’est la meilleure façon de vous approcher de ce que l’on jouait là-dehors."
+    },
+    "retos_observacion": {
+      "hash": "4ac83377a6618d7b",
+      "texto": [
+        "Observez la sculpture de près",
+        "Cherchez des traces de couleur rouge",
+        "Comparez avec le terrain que vous avez vu dehors"
+      ]
+    },
+    "especificaciones": {
+      "hash": "91245ea8dc5e6e3f",
+      "texto": {
+        "Pièce": "marqueurs du terrain est, en bas-relief",
+        "Emplacement": "Musée de site, selon le guide de l’INAH",
+        "Ara du terrain sud": "Musée national d’anthropologie"
+      }
+    },
+    "faq_mito": {
+      "hash": "a8d4ccb5bf08898d",
+      "texto": {
+        "pregunta": "Mythe : Toutes les pièces des terrains de jeu se trouvent dans le musée du site.",
+        "respuesta": "Réalité : L’ara du terrain sud se trouve au Musée national d’anthropologie, et deux marqueurs sont toujours sur le terrain sud."
+      }
+    }
+  }
+}

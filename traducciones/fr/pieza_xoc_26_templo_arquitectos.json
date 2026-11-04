@@ -1,0 +1,53 @@
+{
+  "id": "xoc_26_templo_arquitectos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "914f5b01128cc0bd",
+      "texto": "Le Temple des Architectes"
+    },
+    "frase_gancho": {
+      "hash": "4e475670f5712dc0",
+      "texto": "Une cour où des outils de chantier ont été retrouvés."
+    },
+    "puente_narrativo": {
+      "hash": "0d1efbba7db61079",
+      "texto": "Poursuivez votre parcours : continuez par les espaces de travail et de pouvoir de la ville."
+    },
+    "guion_corto": {
+      "hash": "ee5c4f2b792e04eb",
+      "texto": "Cet édifice s’appelle le Temple des Architectes, ou encore la Cour Enfoncée. Selon le guide de l’INAH, on y a retrouvé des outils de construction : des fils à plomb, des mélangeurs et des polissoirs. Un fil à plomb est une corde munie d’un poids, qui sert à vérifier qu’un mur est bien vertical. Un polissoir lisse la surface de la pierre. L’INAH Lugares décrit dans l’ensemble est un édifice rectangulaire avec une cour enfoncée, qui peut être celui-ci. Les noms modernes en disent plus sur ceux qui les ont donnés que sur ceux qui ont construit. Pourtant, voir ici des outils de chantier rappelle que quelqu’un a dû mesurer, niveler et polir chaque pierre. C’est un bon endroit pour penser aux métiers."
+    },
+    "guion_largo": {
+      "hash": "12bca65ed3488fc0",
+      "texto": "Le nom sonne comme un titre, mais il vient de ce que l’on a trouvé ici.\n\nOn l’appelle le Temple des Architectes, et aussi la Cour Enfoncée. Selon le guide de l’INAH, on a retrouvé en ce lieu des outils de construction : des fils à plomb, des mélangeurs et des polissoirs.\n\nUn fil à plomb est une corde avec un poids au bout. Il sert à vérifier qu’un mur est bien droit. Un polissoir est une pierre avec laquelle on lisse la surface d’une autre.\n\nL’INAH Lugares mentionne, dans l’ensemble est, un édifice rectangulaire avec une cour enfoncée. Il peut s’agir du même.\n\nLes noms modernes en disent plus sur ceux qui les ont donnés que sur ceux qui ont construit. Personne ne sait comment cet édifice s’appelait dans la ville. Ce que nous savons, c’est ce que suggère la découverte : ici, on a rangé ou utilisé des outils de chantier.\n\nPensez au travail qui se cache derrière une ville comme celle-ci. Quelqu’un a dû mesurer, niveler, tailler et polir chaque pierre, et tracer des terrasses sur une colline.\n\nQuand vous regarderez la cour enfoncée, imaginez ces outils posés sur le sol. C’est une façon de voir les bâtisseurs, et pas seulement les gouvernants."
+    },
+    "retos_observacion": {
+      "hash": "5b60a2a6220bcbb5",
+      "texto": [
+        "Cherchez la cour enfoncée",
+        "Imaginez où se trouvaient les outils",
+        "Réfléchissez au nombre de personnes qu’il aurait fallu pour élever un tel édifice"
+      ]
+    },
+    "especificaciones": {
+      "hash": "779a73f4796f3331",
+      "texto": {
+        "Noms": "Temple des Architectes et Cour Enfoncée",
+        "Découverte": "fils à plomb, mélangeurs et polissoirs, selon le guide de l’INAH",
+        "Emplacement": "ensemble est"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c12928ab59318a5",
+      "texto": {
+        "pregunta": "Mythe : Un temple est toujours un lieu réservé aux dieux.",
+        "respuesta": "Réalité : Le nom moderne vient des outils de chantier retrouvés, et non d’une fonction religieuse avérée."
+      }
+    }
+  }
+}

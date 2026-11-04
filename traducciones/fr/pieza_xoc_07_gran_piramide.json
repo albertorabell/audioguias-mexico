@@ -1,0 +1,54 @@
+{
+  "id": "xoc_07_gran_piramide",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dead4c0a601fbc15",
+      "texto": "La Grande Pyramide"
+    },
+    "frase_gancho": {
+      "hash": "7f585051c87022e2",
+      "texto": "Un édifice de trois niveaux posé sur un autre de quatre, peut-être dédié à Tláloc."
+    },
+    "puente_narrativo": {
+      "hash": "e9fb329e876a5bab",
+      "texto": "Poursuivez votre parcours : la suite raconte ce qui se jouait dans cette ville."
+    },
+    "guion_corto": {
+      "hash": "da6b17663c7aa71a",
+      "texto": "Si la pyramide des Serpents à plumes est la plus célèbre, la Grande Pyramide domine la place d’en bas. Elle se trouve au nord de la place de la Stèle et, selon le guide de l’INAH, elle possède une base de trois niveaux qui soutient une structure de quatre. Certains pensent qu’elle était dédiée à Tláloc, dieu de la pluie. Kenneth Hirth explique que sur la place centrale, au pied de cet édifice, des dignitaires de communautés voisines se réunissaient pour des cérémonies publiques. Ce fut la scène de rencontres entre ceux qui gouvernaient. Une ville qui dépendait de la pluie et des alliances avec ses voisins avait besoin d’un tel lieu : grand, visible et connu de tous."
+    },
+    "guion_largo": {
+      "hash": "f644be5fde2317ec",
+      "texto": "Il y a des édifices que l’on voit de loin parce qu’ils veulent être vus. La Grande Pyramide est de ceux-là.\n\nLe guide de l’INAH la situe au nord de la place de la Stèle des Deux Glyphes. Il explique qu’elle possède une base de trois niveaux qui soutient une structure de quatre. C’est une pyramide à degrés, avec des terrasses qui s’élèvent peu à peu.\n\nAlvarado León la décrit comme dédiée à la divinité des orages et comme la deuxième structure par son volume dans la ville. Medina Romero l’associe au culte de Tláloc, le dieu de la pluie. Le guide de l’INAH dit qu’elle lui était possiblement dédiée. Le mot important, c’est possiblement. Aucune inscription ne le confirme.\n\nKenneth Hirth apporte une autre idée. Sur la place centrale, au pied de la Grande Pyramide, des dignitaires de communautés voisines se réunissaient pour participer à des cérémonies publiques. Autrement dit, ce n’était pas seulement un temple. C’était une scène politique.\n\nImaginez ce que cela signifie. Une ville qui dominait une région avait besoin d’alliés et devait montrer sa puissance. Convoquer les chefs voisins devant un grand édifice, au pied d’une pyramide dédiée à un dieu de la pluie, aidait à sceller des accords et à rappeler qui commandait.\n\nSur une terre de cultures dépendantes des pluies saisonnières, la pluie, c’était la vie. La demander et la remercier était une forme de politique.\n\nAndrews et Glascock racontent qu’au sommet est apparu un paquet d’offrande contenant dix grandes pièces d’obsidienne aux formes particulières. Tout près se trouvait un grand couteau qui a pu servir à des rituels de sacrifice. Si vous vous approchez, observez les escaliers et les niveaux qui raccourcissent vers le haut. C’est un procédé qui donne une impression de hauteur et de masse. L’architecture parle, elle aussi.\n\nIl reste aussi une question ouverte. La Grande Pyramide a été fouillée et consolidée, mais elle est beaucoup moins connue que la pyramide des Serpents à plumes. Peut-être n’a-t-elle pas de reliefs aussi célèbres. Mais c’est elle qui accueillait en premier celui qui arrivait sur la place d’en bas, avant de monter à [la place principale](xoc_12_plaza_principal_accesos)."
+    },
+    "retos_observacion": {
+      "hash": "831461930595d7aa",
+      "texto": [
+        "Comptez les niveaux de la base et ceux de la structure du dessus",
+        "Regardez comment elle se découvre depuis la place de la Stèle",
+        "Imaginez les dignitaires d’autres peuples réunis au pied de l’édifice"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7e7a74fb9b627935",
+      "texto": {
+        "Emplacement": "au nord de la place de la Stèle",
+        "Structure": "base de trois niveaux et structure de quatre",
+        "Dédicace possible": "Tláloc, dieu de la pluie",
+        "Usage": "cérémonies publiques avec des dignitaires d’autres communautés, selon Hirth"
+      }
+    },
+    "faq_mito": {
+      "hash": "69b9825372d069c3",
+      "texto": {
+        "pregunta": "Mythe : La Grande Pyramide est la pyramide des Serpents à plumes.",
+        "respuesta": "Réalité : Ce sont deux édifices distincts. Celle des Serpents se trouve sur la place principale ; la Grande Pyramide, au niveau intermédiaire."
+      }
+    }
+  }
+}

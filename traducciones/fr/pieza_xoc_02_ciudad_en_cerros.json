@@ -1,0 +1,55 @@
+{
+  "id": "xoc_02_ciudad_en_cerros",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a85b947a2b8957cb",
+      "texto": "Une ville dans les collines"
+    },
+    "frase_gancho": {
+      "hash": "c993dbd43b575f5a",
+      "texto": "Terrasses, murs et fossés pour soutenir et défendre une ville entière."
+    },
+    "puente_narrativo": {
+      "hash": "6a44071928698bda",
+      "texto": "Poursuivez votre parcours : le chemin d’entrée vous montre comment on contrôlait le passage vers cette ville."
+    },
+    "guion_corto": {
+      "hash": "05b6b4758304001d",
+      "texto": "La ville de Xochicalco ne se trouve pas sur une seule colline. Les archéologues parlent de trois collines modifiées et reliées par des terrasses, et de six autres, plus basses, aux alentours, où des gens ont aussi vécu. Pour transformer ces versants en ville, il a fallu tailler la roche, combler des creux et élever des murs de soutènement. Les espaces ouverts étaient reliés par des escaliers, des terrasses et des rampes le long d’un axe nord-sud. L’UNESCO distingue trois niveaux : en bas, une zone résidentielle entourée de murs ; au milieu, le marché et le plus grand terrain de jeu de balle ; en haut, les temples autour de la place principale. Cet ordre n’a rien de fortuit. Celui qui montait passait peu à peu de la vie quotidienne au pouvoir et au sacré."
+    },
+    "guion_largo": {
+      "hash": "6a161554bee29906",
+      "texto": "Regardez la ville comme un ensemble de marches. Xochicalco s’est élevée dans une région d’accès difficile, sur une série de collines naturelles, et cela faisait partie de sa défense.\n\nSelon l’INAH, la ville a été fondée dans la seconde moitié du septième siècle sur plusieurs collines. Il y a eu aussi une occupation sur six collines plus basses des environs. Kenneth Hirth explique que le noyau était formé de trois collines modifiées et reliées par des terrasses.\n\nPour y parvenir, on a réalisé un grand ouvrage d’ingénierie. Une étude de conservation décrit que la colline a été remodelée par des déblais et des remblais. Les terrasses et les murs de soutènement ont créé des espaces plats pour les places et les maisons. Des escaliers, des rampes et des terrasses les relient le long d’un axe principal nord-sud.\n\nL’UNESCO divise la ville en trois niveaux. Au niveau inférieur se trouvait la zone résidentielle, entourée de murs aux entrées défendues. Au niveau intermédiaire se trouvaient un ensemble de marché et le plus grand terrain de jeu de balle. Au niveau supérieur, les temples sont regroupés autour de la place principale.\n\nLa défense était aussi inscrite dans le paysage. Le directeur du site, Medina Romero, mentionne une muraille de quatre mètres de hauteur, avec des bastions et des fossés, du côté sud. D’autres descriptions parlent de rampes, de fossés, de bastions et de forts. Une ville ainsi conçue n’était pas faite pour la promenade. Elle était faite pour résister.\n\nUne donnée ancienne : Antonio Alzate, qui visita le site en mille sept cent soixante-dix-sept, estima la colline principale à environ cent sept mètres de hauteur. C’est une mesure vieille de plus de deux siècles, mais elle montre à quel point cette masse l’avait impressionné.\n\nLa plus grande partie des maisons des versants n’a toujours pas été fouillée. Cela signifie que ce que vous voyez n’est qu’une partie de la ville. Sous de nombreuses terrasses, il peut y avoir encore plus d’histoire.\n\nPendant que vous marchez, observez deux choses : les murs qui soutiennent le terrain et la manière dont les escaliers relient un niveau à l’autre. Voilà Xochicalco : une ville construite à la main, pierre sur pierre, sur des collines difficiles."
+    },
+    "retos_observacion": {
+      "hash": "da6d404d59f6fd5d",
+      "texto": [
+        "Cherchez un mur de soutènement et observez comment il retient le versant",
+        "Comptez combien de niveaux vous distinguez depuis l’endroit où vous êtes",
+        "Pensez à ceux qui montaient et à ceux qui restaient en bas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "72702a2920097db4",
+      "texto": {
+        "Emplacement": "sur une série de collines naturelles",
+        "Collines du noyau": "trois collines modifiées, selon Hirth",
+        "Niveaux": "inférieur, intermédiaire et supérieur, selon l’UNESCO",
+        "Muraille sud": "quatre mètres de hauteur, avec des bastions et des fossés",
+        "Superficie protégée": "707 ha"
+      }
+    },
+    "faq_mito": {
+      "hash": "8357c29445281361",
+      "texto": {
+        "pregunta": "Mythe : Xochicalco a été construite sur une seule colline.",
+        "respuesta": "Réalité : Elle s’est élevée sur plusieurs collines modifiées et reliées par des terrasses, et des gens vivaient aussi sur des collines plus basses aux alentours."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "xoc_05_plaza_estela_dos_glifos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "05467670e0464cb0",
+      "texto": "Place de la Stèle aux Deux Glyphes"
+    },
+    "frase_gancho": {
+      "hash": "6ef5dfa286f1851b",
+      "texto": "Une grande place ouverte où l’on voyait le Soleil se lever aux équinoxes et aux solstices."
+    },
+    "puente_narrativo": {
+      "hash": "03891ee7e0a571e2",
+      "texto": "Poursuivez votre parcours : ce qui suit fait partie de la ville qui vivait du commerce et du travail."
+    },
+    "guion_corto": {
+      "hash": "9ba2d5b84ac82855",
+      "texto": "Imaginez cette place à l’aube, pleine de monde. C’est un vaste espace public, entouré par les bases C et D, et par la Grande Pyramide au nord. Ici se dressait une stèle portant deux glyphes. L’un est une année, dix roseau, et l’autre un jour, neuf œil de reptile. Ce que vous voyez sur cette place est une réplique ; l’originale fut l’une des quatre stèles découvertes sur le site. L’INAH explique que la place servait à observer le lever du Soleil aux équinoxes et aux solstices. Elle fait aussi partie de l’ensemble du marché. Autrement dit, au même endroit, on commerçait, on célébrait et on mesurait le temps. Certains disent que la place a une bonne acoustique ; si vous parlez fort, vous constaterez que le son rebondit."
+    },
+    "guion_largo": {
+      "hash": "bd635cbae1cca7b8",
+      "texto": "Imaginez cette place à l’aube, avec des gens debout, le regard tourné vers l’est. C’est ce que suggère l’INAH : la place servait à observer le lever du Soleil aux équinoxes et aux solstices.\n\nC’est un grand espace public, délimité sur trois côtés. À l’ouest se trouve la Base D. À l’est, la Base C. Et au nord s’élève la Grande Pyramide, dont nous parlerons bientôt. Selon l’INAH, cette place fait partie de l’ensemble du marché de la ville.\n\nC’est pourquoi elle s’appelle la Place de la Stèle aux Deux Glyphes. Une stèle est une haute pierre ornée de reliefs. Ici, elle portait deux glyphes, c’est-à-dire deux signes d’écriture. L’un est une année et l’autre, un jour. On le lit comme année dix roseau, jour neuf œil de reptile.\n\nCe que vous voyez ici est une réplique. La stèle originale fut l’une des quatre découvertes sur le site, selon le guide de l’INAH. Le directeur du site, Medina Romero, relie cette date à la pyramide : il propose que l’année dix et le jour neuf œil de reptile correspondent à son inauguration. C’est une proposition, pas une donnée définitive.\n\nLa date apparaît aussi dans l’écriture de la ville. Les spécialistes Christophe Helmke et Jesper Nielsen soulignent un neuf roseau sur la Pyramide des Serpents à plumes, et le rattachent à une cérémonie du Feu nouveau. Il reste encore beaucoup à déchiffrer dans cette écriture.\n\nUn détail de plus : Medina mentionne que cette place a une bonne acoustique. Si vous parlez à voix haute, vous remarquerez comment le son remplit l’espace. Imaginez une annonce importante faite ici, devant la ville rassemblée.\n\nAvant de partir, situez-vous par rapport au Soleil. Regardez vers l’endroit où il se lève. Un lieu comme celui-ci sert à vivre le calendrier avec le corps : attendre, regarder et savoir quel jour on est.\n\nAndrews et Glascock ajoutent une autre donnée : sur cette place sont apparues de nombreuses pointes de projectile, et ils proposent que l’on y rassemblait des guerriers armés pour des activités militaires. La place réunit des choses qui, dans notre vie, sont séparées : marché, cérémonie, calendrier et armes. À Xochicalco, tout partageait le même sol."
+    },
+    "retos_observacion": {
+      "hash": "df934e9cbc6f930c",
+      "texto": [
+        "Regardez vers l’endroit où le Soleil se lève et pensez à ce que l’on pouvait annoncer d’ici",
+        "Cherchez les bases C et D et la Grande Pyramide qui délimitent la place",
+        "Parlez à voix haute et écoutez comment résonne l’espace"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4ed9544bd51fc8f1",
+      "texto": {
+        "Stèle": "réplique ; l’originale fut l’une des quatre découvertes",
+        "Glyphes": "année dix roseau et jour neuf œil de reptile",
+        "Limites": "Base D à l’ouest, Base C à l’est, Grande Pyramide au nord",
+        "Usage": "observer le Soleil aux équinoxes et aux solstices"
+      }
+    },
+    "faq_mito": {
+      "hash": "82bcc4873039961f",
+      "texto": {
+        "pregunta": "Mythe : La stèle que vous voyez est l’originale.",
+        "respuesta": "Réalité : C’est une réplique. L’originale est conservée en lieu sûr et compte parmi les quatre stèles découvertes."
+      }
+    }
+  }
+}

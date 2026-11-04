@@ -1,0 +1,22 @@
+{
+  "id": "xoc-03-plaza-principal",
+  "tipo": "sala",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "732bf6f7833381d4",
+      "texto": "Place principale"
+    },
+    "frase_gancho": {
+      "hash": "95dbaa6520e0bf0e",
+      "texto": "La place où s’élève la Pyramide des Serpents à plumes, avec son calendrier de pierre."
+    },
+    "introduccion_narrativa": {
+      "hash": "f3fd4bf5f24f3b14",
+      "texto": "La Place principale se trouve tout en haut, sur un grand monticule artificiel, avec des entrées défendues. On y trouve la Pyramide des Serpents à plumes, d’autres temples, l’Acropole et la grotte de l’observatoire, aujourd’hui fermée au public."
+    }
+  }
+}

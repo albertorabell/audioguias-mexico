@@ -1,0 +1,51 @@
+{
+  "id": "xoc_29_fin_ciudad",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0f13fb8c4d2826b",
+      "texto": "La fin de la ville"
+    },
+    "frase_gancho": {
+      "hash": "204f2953895c0a04",
+      "texto": "Une ville qui a dominé ces collines pendant des siècles et s’est effondrée d’un seul coup."
+    },
+    "guion_corto": {
+      "hash": "ca1c6d8b4e3e3349",
+      "texto": "Pendant des siècles, Xochicalco a dominé ces collines. Puis, en très peu de temps, tout a pris fin. Webb et Hirth ont trouvé des traces d’incendie dans le noyau cérémoniel, des édifices et des sculptures détruits, et des corps démembrés sur les sols. Les maisons, en revanche, ont gardé des récipients encore utilisables, comme si leurs propriétaires étaient partis à la hâte. Les spécialistes débattent des raisons : une révolte interne, la rupture de l’alliance entre les villes ou une conquête extérieure. Aujourd’hui, la ville est inscrite au patrimoine mondial de l’humanité depuis mille neuf cent quatre-vingt-dix-neuf. Avant de partir, regardez la colline une dernière fois. Ce que vous voyez est une ville figée au moment de sa chute."
+    },
+    "guion_largo": {
+      "hash": "d5cc3fe30c912228",
+      "texto": "Pendant des siècles, Xochicalco a dominé ces collines. Puis, en très peu de temps, tout a pris fin.\n\nLa ville a été fondée vers l’an six cent soixante-dix, sur une colline qui n’avait jamais été habitée auparavant. Selon Alvarado León, l’abandon est survenu vers l’an mille soixante-cinq, environ quatre cents ans plus tard. Selon l’INAH, elle a été pillée et abandonnée de manière abrupte. La date fait débat : Webb et Hirth la situent plus tôt, vers l’an neuf cents.\n\nLes édifices ont brûlé. Webb et Hirth décrivent des incendies dans le noyau cérémoniel, des édifices et des sculptures détruits, et des corps démembrés sur les sols. Ce ne fut pas un abandon silencieux.\n\nMais les maisons racontent autre chose. Dans trois habitations avec ateliers fouillées en mille neuf cent quatre-vingt-treize, et en particulier dans l’une d’elles, il est resté plus de cent récipients et plus de soixante-dix outils de pierre polie. Ceux qui vivaient là sont partis à la hâte et ont laissé des objets qui servaient encore.\n\nSur les raisons de ce qui s’est passé, il n’y a pas d’accord. Alvarado León, avec Norberto González et Silvia Garza, avance que vers l’an neuf cents le pouvoir est passé entre les mains de deux dirigeants, sous la pression sociale et en raison de la pénurie de ressources. Vers mille soixante-cinq, une révolte née au cœur du pouvoir aurait entraîné le pillage et l’incendie des édifices et des symboles de l’élite. Ensuite est apparue de la céramique de Tula et des Matlatzincas, propre à cette époque. À l’exception de quelques constructions modestes et bien postérieures, personne n’a plus occupé la ville. Hirth avance la rupture de la confédération qui soutenait la ville, ou une conquête venue de l’extérieur. D’autres sources parlent d’un soulèvement contre l’élite. Une légende raconte que le seigneur de Xochicalco exigeait chaque année un noble en tribut, jusqu’à ce que le jeune roi de Tepoztlán, Tepoztécatl, le tue. Hirth y voit la mémoire de la fin de la ville. Ce sont des hypothèses, pas des faits.\n\nPlusieurs siècles se sont écoulés avant que d’autres peuples ne s’installent dans la région. Une source raconte que les Tlahuicas sont arrivés vers l’an mille deux cents.\n\nAujourd’hui, le site est protégé. Il a été déclaré zone de monuments archéologiques en mille neuf cent quatre-vingt-quatorze, et l’UNESCO l’a inscrit au patrimoine mondial de l’humanité en mille neuf cent quatre-vingt-dix-neuf. La zone couvre environ sept cent sept hectares.\n\nAvant de partir, regardez la colline une dernière fois. Une ville qui a duré des siècles a laissé des pierres qui continuent de raconter comment le pouvoir s’organisait, comment le temps se mesurait et comment on vivait en hauteur. Ce que vous voyez est une ville figée au moment de sa chute."
+    },
+    "retos_observacion": {
+      "hash": "bfe1b1078ffc811f",
+      "texto": [
+        "Regardez la colline une dernière fois",
+        "Pensez aux objets que vous laisseriez si vous partiez à la hâte",
+        "Cherchez les traces de feu, si l’on parvient à les voir"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bdeacc124e4b7e5b",
+      "texto": {
+        "Fondation": "vers l’an six cent soixante-dix",
+        "Abandon": "vers mille soixante-cinq, selon Alvarado León ; Webb et Hirth le placent vers neuf cents",
+        "Décret": "mille neuf cent quatre-vingt-quatorze",
+        "Patrimoine mondial de l’humanité": "mille neuf cent quatre-vingt-dix-neuf",
+        "Superficie": "environ sept cent sept hectares"
+      }
+    },
+    "faq_mito": {
+      "hash": "9c202d058f9ebb22",
+      "texto": {
+        "pregunta": "Mythe : Xochicalco a été abandonnée peu à peu.",
+        "respuesta": "Réalité : Les traces d’incendie et les maisons où des objets ont été laissés suggèrent un départ abrupt. Les causes continuent d’être débattues."
+      }
+    }
+  }
+}

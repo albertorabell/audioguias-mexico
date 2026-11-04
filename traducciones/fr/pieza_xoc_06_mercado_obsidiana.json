@@ -1,0 +1,55 @@
+{
+  "id": "xoc_06_mercado_obsidiana",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2a9f70325ec0ac9d",
+      "texto": "Le marché et les ateliers d’obsidienne"
+    },
+    "frase_gancho": {
+      "hash": "e44e99ed1988cc7a",
+      "texto": "Une ville qui vivait de la fabrication, de la vente et du transport de marchandises sur de longues distances."
+    },
+    "puente_narrativo": {
+      "hash": "c0b8b7bedc2afe45",
+      "texto": "Poursuivez votre parcours : il est temps d’observer l’un des plus grands édifices de la ville."
+    },
+    "guion_corto": {
+      "hash": "6d2633f305c2b7c8",
+      "texto": "Combien de personnes vivent de ce qu’elles vendent ? À Xochicalco, beaucoup. Les archéologues ont fouillé cinq ateliers de petites lames d’obsidienne : quatre dans des maisons et un dans une zone de marché, où les artisans vendaient ce qu’ils fabriquaient. L’obsidienne est un verre volcanique qui se brise en tranchants très aigus, et l’on en faisait des lames et des outils. La matière première venait de très loin, de gisements du Michoacán et de l’Hidalgo situés à plus de deux cents kilomètres. Cette ville n’était donc pas seulement un centre de pouvoir. C’était un lieu d’artisanat et de commerce, relié à des routes qui traversaient la Mésoamérique. La richesse de Xochicalco ne résidait pas seulement dans ses temples. Elle résidait dans les mains qui fabriquaient et vendaient."
+    },
+    "guion_largo": {
+      "hash": "08e0c7d5da9cc155",
+      "texto": "Quand on pense à une ville antique, on imagine des temples, mais il y avait aussi des marchés. Et Xochicalco en a eu un.\n\nL’obsidienne est un verre volcanique noir qui se brise en bords très coupants. On en faisait des lames, des couteaux et des pointes. Ici, on ne l’extrayait pas de la colline. Les analyses chimiques des pièces montrent que presque toute venait de deux gisements : Ucareo, dans le Michoacán, et Zacualtipán, dans l’Hidalgo. Tous deux se trouvent à plus de deux cents kilomètres de cette place.\n\nUn projet dirigé par Kenneth Hirth a fouillé cinq ateliers de petites lames dans des quartiers ordinaires de la ville. Quatre étaient des maisons, où la famille vivait et travaillait dans le même espace. Le cinquième était une zone de marché, où les artisans vendaient ce qu’ils fabriquaient. Selon Andrews et Glascock, ces ateliers ont fabriqué la plupart des petites lames utilisées dans la ville et ses environs.\n\nLe processus comportait un détail curieux. La pierre n’arrivait pas brute dans les ateliers. Il arrivait de petits nucléus, déjà à moitié travaillés, et Hirth propose que ce soient des marchands qui les apportaient, allant de village en village sur de longues distances. À la maison, l’artisan détachait les petites lames une à une. Lorsque le nucléus perdait sa surface de frappe, il la renouvelait et continuait.\n\nIl y a une autre donnée surprenante. Les archéologues ont comparé ces petites lames à celles qui sont apparues dans les édifices de l’élite, et elles sont identiques par la technique et par la forme. Andrews et Glascock en concluent que les gouvernants ne contrôlaient pas directement cet artisanat. Il est probable qu’ils achetaient leurs lames au marché central, comme tout le monde.\n\nImaginez maintenant cette place un jour de marché. Des gens venus d’autres villages, des marchands qui proposent leurs produits, des artisans qui montrent des lames tout juste fabriquées. Le bruit de la place, mêlé à l’écho que vous avez déjà remarqué.\n\nUne ville fortifiée ne vivait pas seulement de la guerre. Elle vivait de l’échange. Et cet échange aide aussi à comprendre pourquoi son art mêle les styles de tant de régions."
+    },
+    "retos_observacion": {
+      "hash": "b33dc89f11b28aec",
+      "texto": [
+        "Imaginez les étals de vente sur cette place",
+        "Cherchez le petit autel, s’il est visible",
+        "Pensez aux objets d’obsidienne que vous utiliseriez tous les jours"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0d713ff46083b4d8",
+      "texto": {
+        "Matériau": "obsidienne, verre volcanique",
+        "Produit": "petites lames et outils",
+        "Origine": "Ucareo, Michoacán, et Zacualtipán, Hidalgo, à plus de deux cents kilomètres",
+        "Ateliers fouillés": "cinq, dont quatre dans des maisons et un dans une zone de marché",
+        "Source": "Andrews et Glascock, Arqueología 61"
+      }
+    },
+    "faq_mito": {
+      "hash": "e0920c41e2e80053",
+      "texto": {
+        "pregunta": "Mythe : Xochicalco n’était qu’une ville cérémonielle.",
+        "respuesta": "Réalité : c’était aussi un centre de commerce et d’ateliers, avec des maisons qui servaient à la fois d’habitation et de lieu de travail."
+      }
+    }
+  }
+}

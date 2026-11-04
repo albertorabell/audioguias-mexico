@@ -1,0 +1,54 @@
+{
+  "id": "xoc_17_acropolis",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cd41b8a194f98eaf",
+      "texto": "L’Acropole"
+    },
+    "frase_gancho": {
+      "hash": "68e05cacc5800d4e",
+      "texto": "Le point le plus haut, où l’élite vivait et administrait."
+    },
+    "puente_narrativo": {
+      "hash": "5d530a08d8e11334",
+      "texto": "Poursuivez votre parcours : ce qui suit a trait au pouvoir et au ciel."
+    },
+    "guion_corto": {
+      "hash": "0ea8521552d71e91",
+      "texto": "Vous vous trouvez à l’endroit où, selon plusieurs sources, l’élite de Xochicalco vivait et gouvernait. L’INAH explique que l’Acropole repose sur une plateforme de six mètres, à l’ouest de la Plaza Principal. Elle comprend des édifices disposés autour d’une cour centrale. Kenneth Hirth la décrit comme le palais du souverain et le centre administratif de la ville. Medina Romero la situe au point le plus haut du site et mentionne un temple-palais, des ateliers, des entrepôts et des bureaux. Au sud, elle est entourée d’un mur de quatre mètres avec des bastions et des fossés. Imaginez comment la ville se découvre d’ici. La Plaza Principal se trouve à vos pieds, vers l’est. Voir et être vu étaient des formes de pouvoir."
+    },
+    "guion_largo": {
+      "hash": "de5281fcec350174",
+      "texto": "Monter change la perspective. Voici l’Acropole.\n\nSelon l’INAH, l’Acropole s’élève sur une plateforme de six mètres, à l’ouest de la Plaza Principal. Elle comporte plusieurs édifices disposés autour d’une cour centrale. Cette forme ressemble à celle du Palais.\n\nKenneth Hirth la décrit comme le palais du souverain et le centre administratif de Xochicalco. Medina Romero va dans le même sens : il dit que c’est le point le plus haut du site et qu’il y avait là un temple-palais, des ateliers, des entrepôts et des espaces d’administration.\n\nLe guide de l’INAH la mentionne parmi les constructions de la Plaza Principal et la désigne comme la résidence des gouvernants. Andrews et Glascock ajoutent que l’Acropole comprenait le palais principal, quatre grands espaces de stockage et un temazcal. C’est l’une des deux zones où l’on a retrouvé le plus d’armes, ce qui suggère que la sécurité de l’élite était une priorité.\n\nAlvarado León la décrit comme le complexe le plus volumineux de la ville. Lucet ajoute un détail peu courant en Mésoamérique : on a ajouté un deuxième étage à sa structure la plus haute. Au sud, l’Acropole est défendue par un mur de quatre mètres avec des bastions et des fossés, d’après Medina Romero. Un bastion est une partie du mur qui fait saillie pour surveiller et défendre. Un fossé est une tranchée. Cela signifie que le lieu où vivaient les gouvernants était aussi l’un des mieux protégés.\n\nPensez maintenant à la vue. Depuis un endroit élevé, on voit qui arrive et qui monte. La Plaza Principal se trouve à vos pieds, vers l’est.\n\nCe que nous savons avec certitude est modeste : une plateforme, plusieurs édifices et une ville défendue. Le reste se complète avec de l’imagination et de la prudence."
+    },
+    "retos_observacion": {
+      "hash": "7ad74e5c63ba51a6",
+      "texto": [
+        "Regardez vers l’est et repérez la Plaza Principal",
+        "Cherchez la cour centrale",
+        "Imaginez qui voyait arriver celui qui vivait ici"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f5bbfd4ee4caf7ee",
+      "texto": {
+        "Hauteur de la plateforme": "six mètres, selon l’INAH",
+        "Emplacement": "à l’ouest de la Plaza Principal",
+        "Usage": "palais du souverain et centre administratif, selon Hirth",
+        "Défense": "mur de quatre mètres avec des bastions et des fossés au sud, selon Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "32a8a38a48c09889",
+      "texto": {
+        "pregunta": "Mythe : L’Acropole était un temple.",
+        "respuesta": "Réalité : Les sources la décrivent comme la résidence et le centre administratif des gouvernants, avec des ateliers et des entrepôts."
+      }
+    }
+  }
+}

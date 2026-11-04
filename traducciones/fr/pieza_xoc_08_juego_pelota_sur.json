@@ -1,0 +1,55 @@
+{
+  "id": "xoc_08_juego_pelota_sur",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "36a3b24f383aff15",
+      "texto": "Le jeu de balle sud"
+    },
+    "frase_gancho": {
+      "hash": "f515948db790b743",
+      "texto": "Le plus grand terrain de la cité, avec une ara sculptée qui vit aujourd’hui dans un autre musée."
+    },
+    "puente_narrativo": {
+      "hash": "f1240afc029a50a9",
+      "texto": "Poursuivez votre parcours : à quelques pas, un autre espace raconte comment on mesurait le temps dans la cité."
+    },
+    "guion_corto": {
+      "hash": "3976c02952663bbe",
+      "texto": "En forme de lettre I majuscule, voici le plus grand terrain de jeu de balle de Xochicalco. Il se trouve sur la terrasse la plus basse et conserve encore deux de ses marqueurs. C’est ici qu’on a découvert une sculpture en forme d’ara, aujourd’hui exposée au Musée national d’anthropologie. Medina Romero, directeur du site, explique que Xochicalco a compté trois terrains et que celui-ci, le plus grand et le plus facile d’accès, a pu servir à l’ensemble de la population. Le jeu de balle était un sport, mais aussi un rituel. On y jouait avec une balle en caoutchouc, et le terrain, avec ses murs inclinés, était un espace de règles, de paris et de cérémonie."
+    },
+    "guion_largo": {
+      "hash": "adf848bd94ba709d",
+      "texto": "Certains lieux se reconnaissent à leur forme. Celui-ci a la forme d’une lettre I majuscule.\n\nLe guide de l’INAH explique que le jeu de balle sud se trouve sur la cinquième terrasse, la plus basse, et qu’il conserve deux marqueurs à leur place. Les marqueurs étaient des pierres placées sur les parois du terrain. Sur ce terrain, on a aussi découvert une sculpture d’ara. Elle se trouve aujourd’hui au Musée national d’anthropologie.\n\nMedina Romero, directeur du site, indique que Xochicalco a eu trois terrains orientés vers trois des quatre points cardinaux. Celui du sud est le plus grand et le plus facile d’accès, et c’est pourquoi on pense qu’il servait à l’ensemble de la population. Hirth en compte cinq : trois sur la colline principale et deux autres sur des collines voisines.\n\nLe jeu de balle se jouait avec une balle pleine en caoutchouc. D’après les descriptions du site, les joueurs la frappaient avec les hanches. Les murs inclinés du terrain aidaient la balle à rebondir et à rester en jeu.\n\nLe jeu de balle était bien plus qu’un sport. En Mésoamérique, il avait une dimension rituelle et une dimension politique. Les parties pouvaient être des cérémonies, et les terrains, des lieux de rencontre de la communauté.\n\nSi vous vous tenez sur le terrain, observez sa forme. Imaginez deux équipes, une balle lourde qui va et vient, et du public sur les côtés. Le bruit du caoutchouc contre la pierre, les cris, la poussière.\n\nCe n’était pas un édifice caché. C’était un terrain pour tous."
+    },
+    "retos_observacion": {
+      "hash": "dcbe4b9ccafc76ad",
+      "texto": [
+        "Regardez la forme de I majuscule du terrain",
+        "Cherchez les marqueurs qui sont encore à leur place",
+        "Imaginez où se trouvait le public pendant le jeu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b645859b673d00c",
+      "texto": {
+        "Forme": "lettre I majuscule",
+        "Emplacement": "cinquième terrasse, la plus basse",
+        "Marqueurs": "deux conservés",
+        "Pièce découverte ici": "ara, aujourd’hui au Musée national d’anthropologie",
+        "Terrains de la cité": "trois sur la colline principale, selon Hirth et Medina"
+      }
+    },
+    "faq_mito": {
+      "hash": "a9e6bbfb5b07592a",
+      "texto": {
+        "pregunta": "Mythe : Le jeu de balle n’était qu’un sport.",
+        "respuesta": "Réalité : C’était un jeu, mais aussi un rituel et un espace politique pour la communauté."
+      }
+    }
+  }
+}

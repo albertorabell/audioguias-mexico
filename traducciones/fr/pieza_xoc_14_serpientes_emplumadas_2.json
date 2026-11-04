@@ -1,0 +1,54 @@
+{
+  "id": "xoc_14_serpientes_emplumadas_2",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "db32b496c58d5733",
+      "texto": "Le calendrier et l’éclipse"
+    },
+    "frase_gancho": {
+      "hash": "ef20fc78e750ad73",
+      "texto": "Un relief qui enregistre peut-être une éclipse et la correction d’un calendrier."
+    },
+    "puente_narrativo": {
+      "hash": "2c29bb4010a0e4b6",
+      "texto": "Poursuivez votre parcours : l’écriture de la ville en dit encore davantage sur ces dates."
+    },
+    "guion_corto": {
+      "hash": "67061bdf3c53ff07",
+      "texto": "Cette pyramide peut aussi se lire comme un registre du ciel. Selon le guide de l’INAH, sur la façade ouest figure une image liée à l’ajustement du calendrier, à côté du nom et du rang d’un gouverneur. Un autre relief montre une mâchoire sur le point d’avaler un cercle divisé en quatre. Medina Romero l’interprète comme la Lune qui couvre le Soleil. Il propose une éclipse en l’an sept cent quarante-trois, bien que certains la datent de sept cent quatre-vingt-dix. Florescano, lui, y voit une scène de conquête. Rien de tout cela n’est tranché. Ce qui est sûr, c’est que l’édifice conserve des dates et des signes du temps. Regardez les reliefs et décidez ce que vous y voyez, en sachant que les spécialistes en débattent encore."
+    },
+    "guion_largo": {
+      "hash": "a0b3912f38f7d232",
+      "texto": "Un édifice peut raconter un événement du ciel. C’est ce que proposent certains spécialistes au sujet de cette pyramide.\n\nLa façade ouest, selon le guide de l’INAH, présente une image liée à l’ajustement du calendrier, ainsi que le nom et le rang d’un gouverneur. Medina Romero situe la correction du calendrier sur le panneau Nord-Ouest, avec une date accompagnée de deux mains.\n\nHirth mentionne lui aussi un possible ajustement entre deux systèmes de calendrier. L’un compte deux cent soixante jours et l’autre, trois cent soixante-cinq. Comme ils ne coïncident pas, il fallait les corriger de temps à autre.\n\nIl y a en outre un relief avec une mâchoire sur le point d’avaler un cercle divisé en quatre. Selon le guide de l’INAH, on y trouve une référence à une éclipse de Soleil en l’an sept cent quarante-trois. Medina Romero y lit la Lune qui cache le Soleil. Cette lecture est une interprétation.\n\nLes dates proposées ne concordent pas. Medina Romero mentionne le vingt-cinq juillet sept cent quarante-trois, avec une éclipse partielle. L’UNAM propose le seize juillet sept cent quatre-vingt-dix, plus proche d’une éclipse totale. Le guide de l’INAH parle d’une éclipse totale. D’autres notes de l’INAH signalent des divergences internes, et Florescano propose que le relief raconte une conquête, et non une éclipse.\n\nHelmke et Nielsen expliquent que le signe neuf œil de reptile apparaît deux fois sur les côtés nord, est et sud. Ils le lisent comme neuf roseau, et il est couronné de braseros allumés. Il pourrait renvoyer à des rituels du Feu nouveau. Sur la façade ouest figure en outre une année neuf maison. Ces lectures sont préliminaires, parce que l’écriture de Xochicalco n’est pas encore déchiffrée.\n\nPendant des décennies, on a lu que les panneaux étaient une liste de peuples qui payaient tribut à Xochicalco, de Coyoacán jusqu’à Iguala, selon Hirth. Nielsen et Helmke proposent une autre lecture. Les panneaux du haut montrent une rangée de personnages assis, avec la même coiffe et le même titre, qu’ils comparent à celui de « dévoreur de cœurs » de Cacaxtla. Il pourrait s’agir de personnes de haut rang.\n\nL’important, c’est ce que nous savons. Les constructeurs de cette ville ont laissé, dans leur édifice le plus soigné, des signes qui ont à voir avec le ciel et avec le temps. Ce qu’ils disent exactement et quelle date ils marquent reste en discussion."
+    },
+    "retos_observacion": {
+      "hash": "ec17422e8b8a06b1",
+      "texto": [
+        "Cherchez sur la façade ouest l’image de l’ajustement du calendrier",
+        "Repérez la mâchoire et le cercle divisé en quatre",
+        "Décidez si vous voyez une éclipse ou une scène de conquête"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cb98c23e040f301e",
+      "texto": {
+        "Façade ouest": "ajustement du calendrier, ainsi que nom et rang du gouverneur, selon l’INAH",
+        "Éclipse proposée": "vingt-cinq juillet sept cent quarante-trois",
+        "Alternative de l’UNAM": "seize juillet sept cent quatre-vingt-dix",
+        "Lecture alternative": "scène de conquête, selon Florescano"
+      }
+    },
+    "faq_mito": {
+      "hash": "978961b5ba5555af",
+      "texto": {
+        "pregunta": "Mythe : On sait avec certitude que le relief montre une éclipse.",
+        "respuesta": "Réalité : C’est une interprétation. D’autres spécialistes proposent une scène de conquête, et les dates proposées ne concordent pas."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "xoc_18_observatorio",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9a5f1066b768558",
+      "texto": "Le puits de lumière : l’observatoire"
+    },
+    "frase_gancho": {
+      "hash": "7a24a77f38289380",
+      "texto": "Une grotte dans la montagne où le Soleil pénètre à des jours précis de l’année."
+    },
+    "puente_narrativo": {
+      "hash": "c7b6f7d6c16df78d",
+      "texto": "Poursuivez votre parcours : ce qui vient ensuite a lui aussi un lien avec le ciel, l’eau ou le temps."
+    },
+    "guion_corto": {
+      "hash": "6fe1de4a5f0ca185",
+      "texto": "Sous cette zone se trouve une grotte transformée en observatoire. Selon l’INAH, ce fut d’abord une carrière, puis on a mis à profit le vide laissé. Elle possède un puits par où descend un rayon de Soleil de fin avril à la mi-août, soit environ cent cinq jours. Le Soleil passe au zénith le quatorze mai. Medina Romero propose que les deux cent soixante jours restants soient liés au calendrier rituel. Aujourd’hui, on ne peut pas y entrer, et des rapports de juin deux mille vingt-six le confirment. Mais vous pouvez l’imaginer : une ville qui laissait entrer le Soleil dans la montagne pour mesurer le temps. Vérifiez à l’entrée si quelque chose a changé."
+    },
+    "guion_largo": {
+      "hash": "9aaee5399cab641f",
+      "texto": "Sous cette partie de la colline, il y a un vide. Vous ne le verrez pas d’ici, mais il existe.\n\nSelon l’INAH, les grottes situées sous la plateforme nord ont d’abord servi de carrière. On en a tiré de la pierre pour construire. Ensuite, quelqu’un a mis à profit ce vide et l’a transformé en observatoire.\n\nLa grotte possède un puits, une cheminée inclinée qui monte jusqu’à la surface. Une source lui donne huit mètres soixante-dix de hauteur et un couronnement hexagonal, et affirme que l’intérieur était recouvert de stuc peint en noir, jaune et rouge.\n\nL’extraordinaire se produit avec le Soleil. Morante, Garza et Valencia l’ont mesuré pendant des années. Les rayons directs entrent de fin avril à la mi-août, vers midi. Le Soleil passe au zénith le quatorze mai. Selon El Tlacuache, ce jour-là, le Soleil se projette sur le sol pendant environ quarante-cinq minutes. L’entrée de la lumière se répartit de façon symétrique autour du solstice d’été : cinquante-deux jours avant, le jour du solstice et cinquante-deux jours après.\n\nRubén Morante López, qui étudie le site depuis une trentaine d’années, explique que le mouvement du Soleil était suivi en deux endroits. L’un était le zénith, depuis cette grotte. L’autre était l’horizon, avec le Popocatépetl et le Cerro Jumil comme repères. Additionnés, ces jours donnent cent cinq, exactement ce qui manque à deux cent soixante pour arriver à trois cent soixante-cinq. Pour Morante, Garza et Valencia, les deux calendriers mésoaméricains se trouvent ainsi signalés en un seul lieu.\n\nPendant un temps, on a cru que cette grotte était une carrière de plus, comme les huit autres qui entourent la colline. Mais sa voûte et son puits hexagonal, à l’inclinaison calculée avec précision, ont conduit à penser qu’elle servait à compter le temps. Selon Alvarado León, presque toutes les études s’accordent sur un point. La grotte servait à observer deux fois par an le passage du Soleil au zénith, et à mesurer l’année tropique ou à marquer le début de l’été. À quoi elle servait exactement, cela se discute. Medina Romero propose que les deux cent soixante autres jours soient liés au calendrier rituel. Une note de l’INAH dit qu’elle aidait à corriger le calendrier. CyArk y voit une manière de suivre le parcours du Soleil vers le tropique du Cancer.\n\nLes Xochicalcas n’entraient pas par où l’on entre aujourd’hui, mais par une grotte située à quelques mètres du Jeu de balle nord. À l’intérieur se trouvait une salle de vingt-huit mètres sur dix, avec trois piliers taillés dans la roche. Au fond se trouve une enceinte ovale de six mètres, la Chambre des astronomes, d’où part un second puits. Dans des secteurs voisins sont apparus des disques de céramique de cinquante-quatre centimètres, percés d’orifices. Posés sur la margelle du puits, ils laissent passer la lumière en petits cercles qui se déplacent sur le sol.\n\nAujourd’hui, vous ne pouvez pas y entrer. L’observatoire est fermé au public, et des rapports de juin deux mille vingt-six le confirment. Vérifiez à l’entrée si quelque chose a changé.\n\nMais on peut imaginer cette idée sans descendre. Une ville qui, pour mesurer le temps, ne se contentait pas de regarder le ciel. Elle le laissait entrer dans la montagne."
+    },
+    "retos_observacion": {
+      "hash": "cc57f3f3fcded96a",
+      "texto": [
+        "Regardez le terrain où se trouve l’observatoire",
+        "Imaginez un rayon de Soleil tombant dans une grotte obscure",
+        "Demandez à l’entrée si l’observatoire est toujours fermé"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a6f245b1c2960428",
+      "texto": {
+        "Type": "grotte creusée à la base d’une structure pyramidale",
+        "Lumière du Soleil": "du trente avril au treize août, environ cent cinq jours, selon l’INAH",
+        "Maximum": "quatorze ou quinze mai",
+        "État": "fermé au public, selon Diario de Morelos, juin deux mille vingt-six"
+      }
+    },
+    "faq_mito": {
+      "hash": "63925042c78cc092",
+      "texto": {
+        "pregunta": "Mythe : Vous pouvez entrer dans l’observatoire et voir le rayon de Soleil.",
+        "respuesta": "Réalité : Il est fermé au public depuis des années. Vérifiez son état actuel à l’entrée."
+      }
+    }
+  }
+}

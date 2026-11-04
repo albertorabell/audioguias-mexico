@@ -1,0 +1,54 @@
+{
+  "id": "xoc_20_agua_ritual_norte",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "af521cbba637d651",
+      "texto": "Eau, vapeur et couleur : l’ensemble nord"
+    },
+    "frase_gancho": {
+      "hash": "f08d9eae7fd4fd56",
+      "texto": "Là où une cité perchée en hauteur réglait la question de l’eau, du corps et du rite."
+    },
+    "puente_narrativo": {
+      "hash": "9286c56fe98c55d4",
+      "texto": "Poursuivez votre parcours : la suite vous montre d’autres espaces de la cité."
+    },
+    "guion_corto": {
+      "hash": "2aa5f680642ae22c",
+      "texto": "Une cité de dix mille à quinze mille habitants, au sommet d’une colline, devait résoudre la question de l’eau. Selon l’INAH, au nord de la place se trouve une citerne, qui fait partie du système d’eau. México Desconocido la décrit comme une citerne d’eau de pluie, dotée d’un drainage. Le guide de l’INAH signale ici un temazcal, un bain de vapeur à vocation cérémonielle, ainsi que le salon de l’Autel polychrome, qui aide à comprendre comment on construisait les toits. Polychrome veut dire peint de plusieurs couleurs. Selon Andrews et Glascock, il y avait des temazcals sur l’Acropole et dans ce secteur nord. Confirmez auprès du personnel du site lequel est lequel. Ici, on vivait, on travaillait et on priait."
+    },
+    "guion_largo": {
+      "hash": "e922cbbb9d244cde",
+      "texto": "Une cité perchée en hauteur se heurte à un problème que les photos ne montrent pas : l’eau.\n\nSelon Hirth, entre dix mille et quinze mille personnes ont fini par vivre à Xochicalco. Toutes avaient besoin de boire, de cuisiner et de travailler. L’INAH mentionne une citerne au nord de la place, qui fait partie du système d’eau de la cité. México Desconocido la décrit comme une citerne d’eau de pluie, dotée d’un drainage. Autrement dit, il existait un moyen de recueillir la pluie et d’évacuer le surplus.\n\nTout près, selon le guide de l’INAH, se trouvait le temazcal. Un temazcal est un bain de vapeur. Le guide indique qu’il avait une vocation cérémonielle, c’est-à-dire qu’il servait à purifier le corps et aussi à des cérémonies. Selon Andrews et Glascock, il y avait des temazcals en deux endroits. L’un se trouvait sur l’Acropole et l’autre dans ce secteur nord, à côté du terrain de jeu de balle. Dans ce même secteur, ils mentionnent un grand barrage. Si vous voyez une petite pièce avec des bancs adossés aux murs, ce pourrait être lui.\n\nLe troisième espace est le salon de l’Autel polychrome. Polychrome veut dire peint de plusieurs couleurs. Selon le guide de l’INAH, ce salon aide à comprendre comment on construisait les toits de la cité. Une source raconte que les reliefs de la pyramide des Serpents à plumes étaient peints en rouge, vert, jaune, bleu, noir et blanc. Imaginez de la couleur ici aussi.\n\nEau, vapeur et couleur. Trois choses qui, dans notre vie, sont séparées, et qui partageaient ici un même recoin de la cité.\n\nQuand vous parcourrez cet ensemble, ne cherchez pas de grands monuments. Cherchez les traces de la vie quotidienne : où l’on gardait l’eau, où l’on purifiait le corps et où l’on priait."
+    },
+    "retos_observacion": {
+      "hash": "8f158c8520384e56",
+      "texto": [
+        "Cherchez la citerne et observez vers où le terrain descend",
+        "Cherchez une petite pièce avec des bancs adossés aux murs",
+        "Imaginez de la couleur sur les murs du salon"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5aaf1bfebcd7af84",
+      "texto": {
+        "Citerne": "au nord de la place, d’eau de pluie et dotée d’un drainage",
+        "Temazcal": "bain de vapeur à vocation cérémonielle, selon le guide de l’INAH",
+        "Salon de l’Autel polychrome": "aide à comprendre comment on construisait les toits",
+        "Temazcals": "un sur l’Acropole et un autre dans le secteur nord, à côté du terrain de jeu de balle, selon Andrews et Glascock"
+      }
+    },
+    "faq_mito": {
+      "hash": "13dd9c942bf1ccad",
+      "texto": {
+        "pregunta": "Mythe : Un temazcal n’était qu’un simple bain.",
+        "respuesta": "Réalité : Selon le guide de l’INAH, celui de Xochicalco avait une vocation cérémonielle."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "xoc_11_caminata_plaza_principal",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1879863762ac4b65",
+      "texto": "Marche : vers la place principale"
+    },
+    "frase_gancho": {
+      "hash": "8e9e2edf5e168fda",
+      "texto": "Un trajet en montée à travers une ville conçue pour être défendue."
+    },
+    "puente_narrativo": {
+      "hash": "e10bd2bfa52eaab2",
+      "texto": "Poursuivez votre parcours : en arrivant en haut, la ville change d’échelle."
+    },
+    "guion_corto": {
+      "hash": "5c70785ee1b71a54",
+      "texto": "C’est maintenant le moment de monter. Cette marche mène du Palais à la place principale. Selon l’INAH, la place se trouve sur une butte artificielle, et l’on y accède par deux portiques défendus. Le guide de l’INAH ajoute que c’est la partie la mieux conservée de la ville, et aussi la plus difficile d’accès. Medina Romero mentionne que le site compte des chaussées empierrées pouvant atteindre cent soixante-quinze mètres. Pendant que vous marchez, il n’est pas nécessaire de chercher quoi que ce soit de précis. Observez comment le terrain change sous vos pieds. Pensez à ce que signifie arriver dans un lieu qui a été pensé pour être défendu. Quand vous serez en haut, nous parlerons de ce qui se trouve sur la place."
+    },
+    "guion_largo": {
+      "hash": "efde4016d0cc3ec8",
+      "texto": "C’est maintenant le moment de monter. Cette marche mène du Palais à la place principale.\n\nPour comprendre le chemin, il est utile de rappeler comment la ville est organisée. L’UNESCO distingue trois niveaux : un niveau bas, un niveau intermédiaire et un niveau haut. Vous venez du niveau intermédiaire et vous vous dirigez vers le plus élevé.\n\nSelon l’INAH, la place principale se trouve sur une butte artificielle. On y accède par deux portiques défendus. Autrement dit, ce n’est pas un lieu où l’on entrait sans condition.\n\nLe guide de l’INAH dit que c’est la partie la mieux conservée de la ville et la plus difficile d’accès. Ces deux choses vont peut-être de pair.\n\nMedina Romero signale que le site possède des chaussées empierrées pouvant atteindre cent soixante-quinze mètres de long. Il mentionne aussi qu’au sud de l’Acropole se trouve un mur de quatre mètres de haut, avec des bastions et des fossés.\n\nPendant que vous montez, cessez de chercher des monuments et observez le terrain. Une colline modifiée par des terrasses et des murs ne se ressent pas comme une place ouverte.\n\nL’UNESCO considère Xochicalco comme un exemple suprême de ville fortifiée de l’Épiclassique. Vous allez le ressentir dans votre corps avant de le voir de vos yeux.\n\nQuand vous arriverez en haut, respirez. Ce qui suit est la partie la plus célèbre du site."
+    },
+    "retos_observacion": {
+      "hash": "1116641122750212",
+      "texto": [
+        "Observez comment le terrain change sous vos pieds",
+        "Comptez les fois où le niveau du chemin change",
+        "Cherchez les portiques par où l’on entre sur la place"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c2d65caad70383d0",
+      "texto": {
+        "Place principale": "sur une butte artificielle",
+        "Accès": "deux portiques défendus",
+        "Chaussées empierrées": "jusqu’à cent soixante-quinze mètres, selon Medina Romero",
+        "Niveaux de la ville": "trois, selon l’UNESCO"
+      }
+    },
+    "faq_mito": {
+      "hash": "5407af077888d91a",
+      "texto": {
+        "pregunta": "Mythe : on entrait librement sur la place la plus importante.",
+        "respuesta": "Réalité : selon l’INAH, on y accède par deux portiques défendus."
+      }
+    }
+  }
+}
