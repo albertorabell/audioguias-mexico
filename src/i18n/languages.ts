@@ -34,10 +34,10 @@ const ALL_LANGUAGES: LanguageOption[] = [
 /**
  * Idiomas que ve el público. Un idioma se agrega a esta lista SOLO cuando está completo:
  * interfaz, textos de las piezas, audios y revisión de una persona nativa. Así no se publica nada a medias.
- * Hoy (modo de prueba): español, inglés, francés, polaco y alemán, para revisar los textos. El francés aún no tiene audios y el polaco los tiene de forma parcial (donde falta usa la voz del teléfono).
+ * Hoy (modo de prueba): español, inglés, francés, polaco, alemán, portugués e italiano, para revisar los textos. El francés aún no tiene audios y el polaco los tiene de forma parcial (donde falta usa la voz del teléfono).
  * Con un solo idioma el selector ni siquiera aparece.
  */
-const DEFAULT_PUBLISHED_LANGUAGES: SupportedLanguage[] = ['es', 'en', 'fr', 'pl', 'de', 'pt'];
+const DEFAULT_PUBLISHED_LANGUAGES: SupportedLanguage[] = ['es', 'en', 'fr', 'pl', 'de', 'pt', 'it'];
 
 /**
  * Las pruebas de navegador compilan con VITE_PUBLISHED_LANGUAGES=es,en para ensayar el selector y el inglés.
