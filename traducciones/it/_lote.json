@@ -1,0 +1,124 @@
+{
+  "id": "msgbatch_01X9mE7spok28vQizmtywFJi",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "creado": "2026-11-04T06:49:16.182Z",
+  "estimado_usd": 0.135,
+  "unidades": [
+    {
+      "custom_id": "pieza_chap_27_estandarte_hidalgo",
+      "tipo": "pieza",
+      "id": "chap_27_estandarte_hidalgo",
+      "huellas": {
+        "titulo": "f341b68cd75663da",
+        "frase_gancho": "5facb397c8c952ed",
+        "puente_narrativo": "ed751b336ffff191",
+        "guion_corto": "94af4d86fd7c564b",
+        "guion_largo": "e65a9939fbdddc82",
+        "retos_observacion": "b35c7e8187a953aa",
+        "especificaciones": "b4e7e40a2c7c6a6c",
+        "faq_mito": "844663168a3d225a"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_28_salon_gobelinos",
+      "tipo": "pieza",
+      "id": "chap_28_salon_gobelinos",
+      "huellas": {
+        "titulo": "5246c8622a6c01fd",
+        "frase_gancho": "09ceebeb2c461b0a",
+        "puente_narrativo": "411fd8fa951161ca",
+        "guion_corto": "a582dd68048f1934",
+        "guion_largo": "f3cd2ce0bd404558",
+        "retos_observacion": "bc21a04080b9faba",
+        "especificaciones": "1ab09abec71f2720",
+        "faq_mito": "19aa53acaa4f7c55"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_29_mural_ninos_heroes",
+      "tipo": "pieza",
+      "id": "chap_29_mural_ninos_heroes",
+      "huellas": {
+        "titulo": "dbe70f7bbbda003a",
+        "frase_gancho": "ba0d0349c07ee9b6",
+        "puente_narrativo": "74404ccf0786a5d4",
+        "guion_corto": "f376968d09131bc6",
+        "guion_largo": "814d1f42c711661c",
+        "retos_observacion": "35f6e0adf1522e2b",
+        "especificaciones": "772938f87ba95c00",
+        "faq_mito": "82cbf131cabb80cc"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_30_salon_malaquitas",
+      "tipo": "pieza",
+      "id": "chap_30_salon_malaquitas",
+      "huellas": {
+        "titulo": "012eb64d0a3c2501",
+        "frase_gancho": "fc021eb2ca43a276",
+        "puente_narrativo": "ce931520fe8a4a8b",
+        "guion_corto": "1dea80b418aaba93",
+        "guion_largo": "13e42ecdcdca5183",
+        "retos_observacion": "b8fe3bc0474e2b4a",
+        "especificaciones": "a1705ac6e2493f74",
+        "faq_mito": "538694adc7744ca2"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_31_fusion_dos_culturas",
+      "tipo": "pieza",
+      "id": "chap_31_fusion_dos_culturas",
+      "huellas": {
+        "titulo": "2c9f92d31f49976f",
+        "frase_gancho": "f8ff4726ca19ee45",
+        "puente_narrativo": "2b223e60afd5db89",
+        "guion_corto": "fce485f4a0ab9c01",
+        "guion_largo": "deb598c25643d8db",
+        "retos_observacion": "1b671f7c244a5045",
+        "especificaciones": "d1fd1a0ddb572d01",
+        "faq_mito": "25b5cb2f856d1016"
+      }
+    },
+    {
+      "custom_id": "sala_chap-01-exteriores",
+      "tipo": "sala",
+      "id": "chap-01-exteriores",
+      "huellas": {
+        "nombre_oficial": "4ea0f6187c7eceae",
+        "frase_gancho": "dbcaf59c0e511d48",
+        "introduccion_narrativa": "6fb90e889189758f"
+      }
+    },
+    {
+      "custom_id": "sala_chap-02-museo-historia",
+      "tipo": "sala",
+      "id": "chap-02-museo-historia",
+      "huellas": {
+        "nombre_oficial": "ffbfbecd1ac16f2f",
+        "frase_gancho": "d97128f016e6c65d",
+        "introduccion_narrativa": "77af98a7d4cd4c49"
+      }
+    },
+    {
+      "custom_id": "sala_chap-03-alcazar",
+      "tipo": "sala",
+      "id": "chap-03-alcazar",
+      "huellas": {
+        "nombre_oficial": "8afa4def7cabdd78",
+        "frase_gancho": "f902b126298409ce",
+        "introduccion_narrativa": "be5a4701f394824b"
+      }
+    },
+    {
+      "custom_id": "sala_chap-04-terrazas-jardines",
+      "tipo": "sala",
+      "id": "chap-04-terrazas-jardines",
+      "huellas": {
+        "nombre_oficial": "6e365a16baf73924",
+        "frase_gancho": "6c6d1ae5bd2c9a4a",
+        "introduccion_narrativa": "cc1b236e03b4f32f"
+      }
+    }
+  ]
+}
