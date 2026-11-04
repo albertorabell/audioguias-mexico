@@ -1,0 +1,45 @@
+{
+  "id": "xoc_04_caminata_hacia_estela",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc9339435def9ede",
+      "texto": "Caminhada: rumo à Praça da Estela"
+    },
+    "frase_gancho": {
+      "hash": "0b4389cf20a171db",
+      "texto": "Um trajeto curto para ouvir enquanto você sobe."
+    },
+    "puente_narrativo": {
+      "hash": "e1bc41dd1e4b1aa2",
+      "texto": "Você chegou à Praça da Estela dos Dois Glifos."
+    },
+    "guion_corto": {
+      "hash": "5dbc30445fd16020",
+      "texto": "Siga as placas em direção à Praça da Estela dos Dois Glifos. Enquanto caminha, olhe as terraços e os muros de pedra que o rodeiam. Kenneth Hirth conta que as pessoas viviam em grandes terraços e plataformas nas encostas, e que as casas se estendiam até o fundo do vale. As calçadas pavimentadas conectavam os setores da cidade. Não eram enfeites: levavam gente, mercadorias e notícias de um bairro a outro. Se o caminho subir, pense que quem vivia aqui o subia todos os dias. Quando você chegar a uma praça ampla, com uma estela no centro, já estará onde precisava estar."
+    },
+    "guion_largo": {
+      "hash": "52fb60cfc7ea80ec",
+      "texto": "Esta é uma caminhada. Não é preciso parar. Siga as placas em direção à Praça da Estela dos Dois Glifos e deixe que o áudio o acompanhe.\n\nEnquanto avança, olhe os terraços e os muros de pedra que o rodeiam. Kenneth Hirth explica que as pessoas viviam em grandes terraços e plataformas nas encostas, e que as casas se estendiam até o fundo do vale. O que você vê como paisagem foi um bairro.\n\nAs calçadas pavimentadas conectavam os setores da cidade. Não eram um enfeite. Levavam gente, mercadorias e notícias de um bairro a outro.\n\nSe o caminho subir, pense que quem vivia aqui o subia todos os dias, com carga ou sem ela. Em uma cidade de morros, caminhar era parte do trabalho.\n\nQuando você chegar a uma praça ampla, com uma estela no centro, já estará no próximo áudio."
+    },
+    "retos_observacion": {
+      "hash": "91f8e944fdb03547",
+      "texto": [
+        "Repare nos muros que sustentam os terraços",
+        "Procure quantas direções o caminho tem",
+        "Caminhe devagar e olhe a paisagem"
+      ]
+    },
+    "especificaciones": {
+      "hash": "da789b4af3f8c1ed",
+      "texto": {
+        "Tipo": "caminhada, sem parada fixa",
+        "Tema": "terraços, calçadas e bairros da cidade"
+      }
+    }
+  }
+}

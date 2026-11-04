@@ -1,0 +1,53 @@
+{
+  "id": "xoc_10_palacio",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1d592daab735a069",
+      "texto": "O Palácio"
+    },
+    "frase_gancho": {
+      "hash": "c20a3309c0baa591",
+      "texto": "Quartos, cozinhas, oficinas e depósitos ao redor de pátios."
+    },
+    "puente_narrativo": {
+      "hash": "da470518487f8f15",
+      "texto": "Siga o seu roteiro: agora a cidade fica mais alta e mais fechada."
+    },
+    "guion_corto": {
+      "hash": "f8ef89c8ed345c5f",
+      "texto": "Um palácio não é só luxo. Segundo o INAH, este conjunto do nível intermediário reúne quartos, cozinhas, oficinas, depósitos e um temazcal, tudo ao redor de pátios. Um temazcal é um banho de vapor para o corpo e para cerimônias. Medina Romero acrescenta que este palácio e o conjunto de La Malinche formam um complexo residencial ao sul da cidade. Repare na mistura: cozinhar, guardar, trabalhar e descansar compartilhavam o mesmo espaço. A palavra palácio é um rótulo dos arqueólogos, não uma descrição de luxo. Para ver onde vivia o governante, segundo Hirth, você terá de subir até a Acrópole. Aqui, olhe os pátios e pense em quantas pessoas podiam circular entre eles num dia comum."
+    },
+    "guion_largo": {
+      "hash": "12838f31561d38ec",
+      "texto": "Um palácio nem sempre é um lugar de luxo. Em Xochicalco, o que o INAH chama de Palácio tem um ar mais prático.\n\nSegundo o INAH, o Palácio fica no nível intermediário da cidade. É um conjunto de quartos, cozinhas, oficinas, depósitos e um temazcal, organizado ao redor de pátios.\n\nUm temazcal é um banho de vapor. Era usado para limpar o corpo e também em cerimônias. Segundo Andrews e Glascock, houve temazcales na Acrópole e no setor norte. Por isso você também o verá no [conjunto norte](xoc_20_agua_ritual_norte).\n\nMedina Romero menciona que este palácio e o conjunto de La Malinche formam um complexo residencial ao sul da cidade.\n\nPense nessa mistura de espaços. Cozinhar, guardar, trabalhar e descansar aconteciam juntos, ao redor de um mesmo pátio. É, antes, um conjunto onde se vivia, se cozinhava e se trabalhava.\n\nIsso não quer dizer que fosse um palácio como o de um rei europeu. A palavra palácio é um rótulo dos arqueólogos. O que os vestígios mostram são aposentos, pátios e áreas de trabalho.\n\nPara entender onde viviam os governantes, é preciso subir até a [Acrópole](xoc_17_acropolis). Ali esteve, segundo Hirth, o palácio do governante e o centro administrativo da cidade.\n\nPor ora, percorra os pátios com o olhar e procure quantos quartos se abrem para cada um."
+    },
+    "retos_observacion": {
+      "hash": "d28d7df187d93d6c",
+      "texto": [
+        "Conte os pátios que você consegue ver",
+        "Procure os espaços que podem ter sido cozinhas ou depósitos",
+        "Imagine quem trabalhava e quem dormia em cada quarto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "53915e385e1adb62",
+      "texto": {
+        "Localização": "nível intermediário da cidade",
+        "Espaços": "quartos, cozinhas, oficinas, depósitos e temazcal, ao redor de pátios",
+        "Complexo residencial": "com La Malinche, ao sul da cidade, segundo Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "8038cb5a5306af43",
+      "texto": {
+        "pregunta": "Mito: O Palácio era a casa do governante.",
+        "respuesta": "Realidade: É o nome que os arqueólogos dão a um conjunto de quartos, cozinhas, oficinas e depósitos. A residência do governante é associada à Acrópole."
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "xoc_25_rampa_animales",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3a56045fcf6104e3",
+      "texto": "A Rampa dos Animais"
+    },
+    "frase_gancho": {
+      "hash": "c0882d86c6316e79",
+      "texto": "Lajes com animais gravados, entre o real e o mítico."
+    },
+    "puente_narrativo": {
+      "hash": "72cabd1cd78791b8",
+      "texto": "Continue seu percurso: siga para os espaços do conjunto leste."
+    },
+    "guion_corto": {
+      "hash": "c1dd49bd20b1aab1",
+      "texto": "Esta rampa é formada por lajes com animais gravados. Segundo o guia do INAH, ela tem duzentas e setenta lajes. A México Desconocido conta duzentas e cinquenta e cinco, e Medina Romero, duzentas e setenta e uma. Os números não coincidem, então diremos mais de duzentas e cinquenta. Medina Romero diz que muitas das espécies gravadas ainda existem. Hirth fala de animais míticos. Uma rampa é um caminho inclinado, sem degraus. Aqui a pedra desenhou a fauna da região. Os ossos encontrados na cidade dizem algo parecido: jaguar e crocodilo nas áreas altas, veado e cachorro em todos os níveis. Procure um animal que você conheça e outro que não lhe soe familiar."
+    },
+    "guion_largo": {
+      "hash": "dbab06b10933f6d1",
+      "texto": "A rampa é um caminho inclinado, sem degraus. Esta tem algo especial: é feita de lajes com animais gravados.\n\nSegundo o guia do INAH, ela tem duzentas e setenta lajes. A México Desconocido conta duzentas e cinquenta e cinco. Medina Romero fala de duzentas e setenta e uma, dentro de um total de mais de quatrocentas lajes gravadas encontradas no sítio. Os números não coincidem. Por isso, aqui dizemos: mais de duzentas e cinquenta.\n\nMedina Romero acrescenta que muitas das espécies gravadas ainda existem. Ou seja, quem as entalhou olhava para o seu entorno e o desenhava na pedra. Kenneth Hirth fala, por outro lado, de animais míticos. As duas descrições podem ser verdadeiras ao mesmo tempo: uma rampa com fauna real e fauna imaginada.\n\nO INAH Lugares explica que a rampa se conecta com a quadra de jogo de bola do leste. Isso sugere que o jogo e a rampa faziam parte do mesmo conjunto.\n\nOs restos de animais da cidade contam algo parecido. Segundo Eduardo Corona, jaguar, javali, gato-do-mato e crocodilo de rio aparecem sobretudo nas áreas altas, quase sempre transformados em adornos ou oferendas. Veado, cachorro e puma aparecem em todos os níveis. Na parte baixa há bagres, patos, tartarugas e lontras.\n\nProcure um animal que você conheça e outro que não lhe soe familiar. Pense que alguém escolheu quais animais colocar e em que ordem."
+    },
+    "retos_observacion": {
+      "hash": "17b89e4589d74581",
+      "texto": [
+        "Procure um animal que você conheça",
+        "Procure um que você não consiga identificar",
+        "Pense por que alguém escolheu gravar animais no piso de uma rampa"
+      ]
+    },
+    "especificaciones": {
+      "hash": "187be9984d824804",
+      "texto": {
+        "Lajes gravadas": "duzentas e setenta (INAH), duzentas e cinquenta e cinco (México Desconocido), duzentas e setenta e uma de mais de quatrocentas (Medina Romero)",
+        "Conexão": "com a quadra leste, segundo o INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed6e47c9ab03776a",
+      "texto": {
+        "pregunta": "Mito: Todos os animais da rampa são míticos.",
+        "respuesta": "Realidade: Medina Romero indica que muitas das espécies gravadas ainda existem. Hirth, por outro lado, fala de animais míticos."
+      }
+    }
+  }
+}

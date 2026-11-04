@@ -1,0 +1,53 @@
+{
+  "id": "xoc_24_caminata_este",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bed06095b55b4554",
+      "texto": "Caminhada: rumo ao conjunto leste"
+    },
+    "frase_gancho": {
+      "hash": "e42e817f8f630cb7",
+      "texto": "Um trajeto até a rampa, o pátio afundado e os três templos."
+    },
+    "puente_narrativo": {
+      "hash": "19d88a5c8fc91082",
+      "texto": "Continue seu roteiro: siga para a zona oriental da cidade."
+    },
+    "guion_corto": {
+      "hash": "6a73044044c7c784",
+      "texto": "Esta caminhada leva você ao conjunto leste, a parte oriental da cidade. Segundo o INAH Lugares, ali há um edifício retangular com um pátio afundado, um pátio com três plataformas piramidais e uma quadra de jogo de bola. Também está lá a Rampa dos Animais. O guia do INAH fala de três templos, da rampa e do Templo dos Arquitetos. Enquanto caminha, repare em como a paisagem muda. Segundo o INAH Lugares, a cidade ocupou seis morros baixos, com terraços e muros de contenção. Pense que cada trajeto sobe, desce e contorna esses morros. O que vem a seguir são várias paradas nessa zona."
+    },
+    "guion_largo": {
+      "hash": "72ea43f860e389de",
+      "texto": "Esta caminhada leva você ao conjunto leste, a parte oriental da cidade.\n\nSegundo o INAH Lugares, ali há um edifício retangular com um pátio afundado, um pátio com três plataformas piramidais e uma quadra de jogo de bola. Também está lá a Rampa dos Animais, que se conecta com essa quadra.\n\nO guia do INAH fala de três templos, da rampa e do Templo dos Arquitetos, também chamado de Pátio Afundado. Ou seja, trata-se de um conjunto com vários edifícios agrupados.\n\nEnquanto caminha, repare em como a paisagem muda. Segundo o INAH Lugares, a cidade ocupou seis morros baixos, com terraços e muros de contenção. Isso significa que cada trajeto sobe, desce e contorna os morros. Um muro de contenção é aquele que sustenta a terra de um terraço para que ela não deslize.\n\nA UNESCO considera que Xochicalco teve três níveis: um baixo, um intermediário e um alto. Segundo Hirth, a cidade cresceu muito rápido por volta do ano seiscentos e realocou entre dez mil e quinze mil pessoas.\n\nAs próximas paradas acontecem nessa zona. Não é preciso ter pressa."
+    },
+    "retos_observacion": {
+      "hash": "8a81f85c8ad2a18f",
+      "texto": [
+        "Repare em como a paisagem muda",
+        "Conte quantos morros você consegue ver",
+        "Escute enquanto caminha, sem olhar para a tela"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d0541de5c6f85f7",
+      "texto": {
+        "Destino": "conjunto leste",
+        "Espacios": "edifício retangular com pátio afundado, pátio com três plataformas piramidais, quadra e rampa, segundo o INAH Lugares",
+        "Cerros ocupados": "seis, segundo o INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7957f59da6106b7",
+      "texto": {
+        "pregunta": "Mito: Xochicalco ocupa um único morro.",
+        "respuesta": "Realidade: Segundo o INAH Lugares, ocupou seis morros baixos, com terraços e muros."
+      }
+    }
+  }
+}

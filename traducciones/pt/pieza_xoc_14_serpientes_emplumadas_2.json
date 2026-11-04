@@ -1,0 +1,54 @@
+{
+  "id": "xoc_14_serpientes_emplumadas_2",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "db32b496c58d5733",
+      "texto": "O calendário e o eclipse"
+    },
+    "frase_gancho": {
+      "hash": "ef20fc78e750ad73",
+      "texto": "Um relevo que talvez registre um eclipse e a correção de um calendário."
+    },
+    "puente_narrativo": {
+      "hash": "2c29bb4010a0e4b6",
+      "texto": "Siga sua rota: a escrita da cidade tem mais a dizer sobre estas datas."
+    },
+    "guion_corto": {
+      "hash": "67061bdf3c53ff07",
+      "texto": "Esta pirâmide também pode ser lida como um registro do céu. Segundo o guia do INAH, na fachada oeste há uma imagem relacionada ao ajuste do calendário, junto ao nome e à posição de um governante. Outro relevo mostra uma mandíbula prestes a engolir um círculo dividido em quatro. Medina Romero o interpreta como a Lua cobrindo o Sol. Ele propõe um eclipse no ano setecentos e quarenta e três, embora haja quem o date em setecentos e noventa. Florescano, por outro lado, vê uma cena de conquista. Nada disso está encerrado. O certo é que o edifício guarda datas e signos do tempo. Olhe os relevos e decida o que você vê, sabendo que os especialistas ainda discutem."
+    },
+    "guion_largo": {
+      "hash": "a0b3912f38f7d232",
+      "texto": "Um edifício pode contar um fato do céu. É o que alguns especialistas propõem sobre esta pirâmide.\n\nA fachada oeste, segundo o guia do INAH, tem uma imagem relacionada ao ajuste do calendário e também o nome e a posição de um governante. Medina Romero situa a correção calendárica no painel noroeste, com uma data acompanhada de duas mãos.\n\nHirth também menciona um possível ajuste entre dois sistemas de calendário. Um conta duzentos e sessenta dias e o outro, trezentos e sessenta e cinco. Como não coincidem, de tempos em tempos era preciso corrigi-los.\n\nHá ainda um relevo com uma mandíbula prestes a engolir um círculo dividido em quatro. Segundo o guia do INAH, aparece uma referência a um eclipse do Sol no ano setecentos e quarenta e três. Medina Romero o lê como a Lua tapando o Sol. Essa leitura é uma interpretação.\n\nAs datas propostas não coincidem. Medina Romero menciona o vinte e cinco de julho de setecentos e quarenta e três, com um eclipse parcial. A UNAM propõe o dezesseis de julho de setecentos e noventa, mais próximo de um eclipse total. O guia do INAH fala de um eclipse total. Outras notas do INAH apontam discrepâncias internas, e Florescano propõe que o relevo narra uma conquista, não um eclipse.\n\nHelmke e Nielsen explicam que o signo nove olho de réptil aparece duas vezes nos lados norte, leste e sul. Eles o leem como nove cana, e ele está coroado por braseiros acesos. Poderia se referir a rituais de fogo novo. Na fachada oeste há ainda um ano nove casa. Essas leituras são preliminares, porque a escrita de Xochicalco ainda não foi decifrada.\n\nDurante décadas, leu-se que os painéis eram uma lista de povos que pagavam tributo a Xochicalco, de Coyoacán até Iguala, segundo Hirth. Nielsen e Helmke propõem outra leitura. Os painéis de cima mostram uma fileira de figuras sentadas com o mesmo toucado e o mesmo título, que eles comparam com o de devorador de corações de Cacaxtla. Poderiam ser pessoas de alta posição.\n\nO importante é o que sabemos. Os construtores desta cidade deixaram, no edifício mais cuidado, signos que têm a ver com o céu e com o tempo. O que dizem exatamente e que data marcam continua em discussão."
+    },
+    "retos_observacion": {
+      "hash": "ec17422e8b8a06b1",
+      "texto": [
+        "Procure na fachada oeste a imagem do ajuste do calendário",
+        "Identifique a mandíbula e o círculo dividido em quatro",
+        "Decida se você vê um eclipse ou uma cena de conquista"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cb98c23e040f301e",
+      "texto": {
+        "Fachada oeste": "ajuste do calendário e nome e posição do governante, segundo o INAH",
+        "Eclipse proposto": "vinte e cinco de julho de setecentos e quarenta e três",
+        "Alternativa da UNAM": "dezesseis de julho de setecentos e noventa",
+        "Leitura alternativa": "cena de conquista, segundo Florescano"
+      }
+    },
+    "faq_mito": {
+      "hash": "978961b5ba5555af",
+      "texto": {
+        "pregunta": "Mito: Sabe-se com certeza que o relevo mostra um eclipse.",
+        "respuesta": "Realidade: É uma interpretação. Outros especialistas propõem uma cena de conquista, e as datas propostas não coincidem."
+      }
+    }
+  }
+}

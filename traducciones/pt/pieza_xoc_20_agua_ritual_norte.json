@@ -1,0 +1,54 @@
+{
+  "id": "xoc_20_agua_ritual_norte",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "af521cbba637d651",
+      "texto": "Água, vapor e cor: o conjunto norte"
+    },
+    "frase_gancho": {
+      "hash": "f08d9eae7fd4fd56",
+      "texto": "Onde uma cidade no alto de um morro resolvia a água, o corpo e o rito."
+    },
+    "puente_narrativo": {
+      "hash": "9286c56fe98c55d4",
+      "texto": "Continue seu percurso: o que vem a seguir mostra outros espaços da cidade."
+    },
+    "guion_corto": {
+      "hash": "2aa5f680642ae22c",
+      "texto": "Uma cidade de entre dez mil e quinze mil pessoas, no alto de um morro, tinha que resolver a questão da água. Segundo o INAH, ao norte da praça há uma cisterna, parte do sistema de água. O México Desconocido a descreve como uma cisterna de água da chuva, com drenagem. O guia do INAH inclui aqui um temazcal, um banho de vapor com finalidade cerimonial, e o Salão do Altar Policromado, que ajuda a entender como eram construídos os tetos. Policromado quer dizer pintado de várias cores. Segundo Andrews e Glascock, houve temazcais na Acrópole e neste setor norte. Confirme com a equipe do sítio qual é qual. Aqui se vivia, se trabalhava e se rezava."
+    },
+    "guion_largo": {
+      "hash": "e922cbbb9d244cde",
+      "texto": "Uma cidade no alto enfrenta um problema que não aparece nas fotos: a água.\n\nSegundo Hirth, em Xochicalco chegaram a viver entre dez mil e quinze mil pessoas. Todas precisavam beber, cozinhar e trabalhar. O INAH menciona uma cisterna ao norte da praça, parte do sistema de água da cidade. O México Desconocido a descreve como uma cisterna de água da chuva, com drenagem. Ou seja, havia uma forma de recolher a chuva e de dar saída ao excesso.\n\nMuito perto, segundo o guia do INAH, ficava o temazcal. Um temazcal é um banho de vapor. O guia diz que teve uma finalidade cerimonial, ou seja, que servia para limpar o corpo e também para cerimônias. Segundo Andrews e Glascock, houve temazcais em dois lugares. Um ficava na Acrópole e o outro neste setor norte, junto à quadra do jogo de bola. Nesse mesmo setor mencionam uma represa grande. Se você vir um cômodo pequeno com bancos encostados nas paredes, pode ser ele.\n\nO terceiro espaço é o Salão do Altar Policromado. Policromado quer dizer pintado de várias cores. Segundo o guia do INAH, este salão ajuda a entender como eram construídos os tetos da cidade. Uma fonte conta que os relevos da Pirâmide das Serpentes Emplumadas foram pintados de vermelho, verde, amarelo, azul, preto e branco. Imagine cor aqui também.\n\nÁgua, vapor e cor. Três coisas que, na nossa vida, estão separadas e que aqui compartilhavam um mesmo canto da cidade.\n\nQuando você percorrer este conjunto, não procure grandes monumentos. Procure os vestígios da vida diária: onde se guardava a água, onde se limpava o corpo e onde se rezava."
+    },
+    "retos_observacion": {
+      "hash": "8f158c8520384e56",
+      "texto": [
+        "Procure a cisterna e observe para onde o terreno desce",
+        "Procure um cômodo pequeno com bancos encostados nas paredes",
+        "Imagine cor nas paredes do salão"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5aaf1bfebcd7af84",
+      "texto": {
+        "Cisterna": "ao norte da praça, de água da chuva e com drenagem",
+        "Temazcal": "banho de vapor com finalidade cerimonial, segundo o guia do INAH",
+        "Salão do Altar Policromado": "ajuda a entender como eram construídos os tetos",
+        "Temazcais": "um na Acrópole e outro no setor norte, junto à quadra, segundo Andrews e Glascock"
+      }
+    },
+    "faq_mito": {
+      "hash": "13dd9c942bf1ccad",
+      "texto": {
+        "pregunta": "Mito: Um temazcal era apenas um banho.",
+        "respuesta": "Realidade: Segundo o guia do INAH, o de Xochicalco teve uma finalidade cerimonial."
+      }
+    }
+  }
+}

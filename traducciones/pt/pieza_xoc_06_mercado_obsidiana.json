@@ -1,0 +1,55 @@
+{
+  "id": "xoc_06_mercado_obsidiana",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2a9f70325ec0ac9d",
+      "texto": "O mercado e as oficinas de obsidiana"
+    },
+    "frase_gancho": {
+      "hash": "e44e99ed1988cc7a",
+      "texto": "Uma cidade que vivia de fabricar, vender e levar mercadorias para longe."
+    },
+    "puente_narrativo": {
+      "hash": "c0b8b7bedc2afe45",
+      "texto": "Siga o seu percurso: agora vale a pena olhar para um dos maiores edifícios da cidade."
+    },
+    "guion_corto": {
+      "hash": "6d2633f305c2b7c8",
+      "texto": "Quantas pessoas vivem do que vendem? Em Xochicalco, muitas. Os arqueólogos escavaram cinco oficinas de lâminas de obsidiana: quatro dentro de casas e uma em uma área de mercado, onde os artesãos vendiam o que faziam. A obsidiana é um vidro vulcânico que se quebra em gumes muito afiados, e com ela se faziam lâminas e ferramentas. A matéria-prima vinha de muito longe, de jazidas de Michoacán e Hidalgo a mais de duzentos quilômetros. Assim, esta cidade não era apenas um centro de poder. Era um lugar de ofícios e de comércio, conectado com rotas que cruzavam a Mesoamérica. A riqueza de Xochicalco não estava apenas em seus templos. Estava nas mãos que fabricavam e vendiam."
+    },
+    "guion_largo": {
+      "hash": "08e0c7d5da9cc155",
+      "texto": "Quando se pensa em uma cidade antiga, imaginam-se templos, mas também havia mercados. E Xochicalco teve um.\n\nA obsidiana é um vidro vulcânico negro que se quebra em bordas muito afiadas. Com ela se faziam lâminas, facas e pontas. Aqui não a extraíam do morro. As análises químicas das peças mostram que quase toda vinha de duas jazidas: Ucareo, em Michoacán, e Zacualtipán, em Hidalgo. As duas ficam a mais de duzentos quilômetros desta praça.\n\nUm projeto dirigido por Kenneth Hirth escavou cinco oficinas de lâminas em áreas comuns da cidade. Quatro eram casas, onde a família vivia e trabalhava no mesmo espaço. A quinta era uma área de mercado, onde os artesãos vendiam o que faziam. Segundo Andrews e Glascock, essas oficinas fabricaram a maioria das lâminas que eram usadas na cidade e em seus arredores.\n\nO processo tinha um detalhe curioso. Às oficinas não chegava a pedra bruta. Chegavam núcleos pequenos, já trabalhados pela metade, e Hirth propõe que eram trazidos por comerciantes que andavam de povoado em povoado, percorrendo longas distâncias. Em casa, o artesão tirava as lâminas uma a uma. Quando o núcleo perdia a superfície para golpear, ele a renovava e seguia em frente.\n\nHá outro dado que surpreende. Os arqueólogos compararam essas lâminas com as que apareceram nos edifícios da elite, e são iguais em técnica e em forma. Andrews e Glascock concluem que os governantes não controlavam diretamente esse ofício. É provável que comprassem suas lâminas no mercado central, como todos os demais.\n\nAgora imagine esta praça em um dia de mercado. Gente que chega de outros povoados, comerciantes que oferecem seus produtos, artesãos que mostram lâminas recém-feitas. O barulho da praça, misturado com o eco que você já notou.\n\nUma cidade fortificada não vivia apenas da guerra. Vivia do intercâmbio. E esse intercâmbio também ajuda a entender por que sua arte mistura estilos de tantas regiões."
+    },
+    "retos_observacion": {
+      "hash": "b33dc89f11b28aec",
+      "texto": [
+        "Imagine as barracas de venda nesta praça",
+        "Procure o pequeno altar, se for possível distingui-lo",
+        "Pense em quais objetos de obsidiana você usaria todos os dias"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0d713ff46083b4d8",
+      "texto": {
+        "Material": "obsidiana, vidro vulcânico",
+        "Produto": "lâminas e ferramentas",
+        "Origem": "Ucareo, Michoacán, e Zacualtipán, Hidalgo, a mais de duzentos quilômetros",
+        "Oficinas escavadas": "cinco, quatro em casas e uma em área de mercado",
+        "Fonte": "Andrews e Glascock, Arqueología 61"
+      }
+    },
+    "faq_mito": {
+      "hash": "e0920c41e2e80053",
+      "texto": {
+        "pregunta": "Mito: Xochicalco era apenas uma cidade cerimonial.",
+        "respuesta": "Realidade: Também era um centro de comércio e de oficinas, com casas que eram ao mesmo tempo moradia e local de trabalho."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "xoc_17_acropolis",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cd41b8a194f98eaf",
+      "texto": "A Acrópole"
+    },
+    "frase_gancho": {
+      "hash": "68e05cacc5800d4e",
+      "texto": "O ponto mais alto, onde a elite vivia e administrava."
+    },
+    "puente_narrativo": {
+      "hash": "5d530a08d8e11334",
+      "texto": "Continue seu percurso: o que vem a seguir tem a ver com o poder e com o céu."
+    },
+    "guion_corto": {
+      "hash": "0ea8521552d71e91",
+      "texto": "Você está no ponto onde, segundo várias fontes, vivia e governava a elite de Xochicalco. O INAH explica que a Acrópole fica sobre uma plataforma de seis metros, a oeste da Plaza Principal. Ela tem edifícios ao redor de um pátio central. Kenneth Hirth a descreve como o palácio do governante e centro administrativo da cidade. Medina Romero a situa no ponto mais alto do sítio e menciona um templo-palácio, oficinas, depósitos e escritórios. Ao sul, ela é cercada por um muro de quatro metros com bastiões e fossos. Pense em como a cidade se vê daqui. A Plaza Principal fica a seus pés, a leste. Ver e ser visto eram formas de poder."
+    },
+    "guion_largo": {
+      "hash": "de5281fcec350174",
+      "texto": "Subir muda a perspectiva. Esta é a Acrópole.\n\nSegundo o INAH, a Acrópole se ergue sobre uma plataforma de seis metros, a oeste da Plaza Principal. Ela tem vários edifícios dispostos ao redor de um pátio central. Essa forma se parece com a do Palácio.\n\nKenneth Hirth a descreve como o palácio do governante e o centro administrativo de Xochicalco. Medina Romero segue na mesma direção: diz que é o ponto mais alto do sítio e que ali havia um templo-palácio, oficinas, depósitos e áreas de administração.\n\nO guia do INAH a menciona entre as construções da Plaza Principal e a aponta como a residência dos governantes. Andrews e Glascock acrescentam que a Acrópole tinha o palácio principal, quatro grandes espaços de armazenamento e um temazcal. É uma das duas zonas onde mais armas apareceram, o que sugere que a segurança da elite era uma prioridade.\n\nAlvarado León a descreve como o complexo de maior volume da cidade. Lucet acrescenta algo pouco comum na Mesoamérica: à sua estrutura mais alta foi acrescentado um segundo andar. Ao sul, a Acrópole é defendida por um muro de quatro metros com bastiões e fossos, segundo Medina Romero. Um bastião é uma parte do muro que se projeta para vigiar e defender. Um fosso é uma vala. Isso significa que o lugar onde viviam os governantes também era um dos mais bem protegidos.\n\nAgora pense na vista. De um lugar alto se vê quem chega e quem sobe. A Plaza Principal fica a seus pés, a leste.\n\nO que sabemos com certeza é modesto: uma plataforma, vários edifícios e uma cidade defendida. O resto se completa com imaginação e com cuidado."
+    },
+    "retos_observacion": {
+      "hash": "7ad74e5c63ba51a6",
+      "texto": [
+        "Olhe para o leste e localize a Plaza Principal",
+        "Procure o pátio central",
+        "Imagine quem via chegar aquele que vivia aqui"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f5bbfd4ee4caf7ee",
+      "texto": {
+        "Altura da plataforma": "seis metros, segundo o INAH",
+        "Localização": "a oeste da Plaza Principal",
+        "Uso": "palácio do governante e centro administrativo, segundo Hirth",
+        "Defesa": "muro de quatro metros com bastiões e fossos ao sul, segundo Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "32a8a38a48c09889",
+      "texto": {
+        "pregunta": "Mito: A Acrópole era um templo.",
+        "respuesta": "Realidade: As fontes a descrevem como residência e centro administrativo dos governantes, com oficinas e depósitos."
+      }
+    }
+  }
+}

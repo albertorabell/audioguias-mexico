@@ -1,0 +1,54 @@
+{
+  "id": "xoc_05_plaza_estela_dos_glifos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "05467670e0464cb0",
+      "texto": "Praça da Estela dos Dois Glifos"
+    },
+    "frase_gancho": {
+      "hash": "6ef5dfa286f1851b",
+      "texto": "Uma praça aberta onde se via o Sol nascer nos equinócios e nos solstícios."
+    },
+    "puente_narrativo": {
+      "hash": "03891ee7e0a571e2",
+      "texto": "Continue seu percurso: o que vem a seguir faz parte da cidade que vivia do comércio e do trabalho."
+    },
+    "guion_corto": {
+      "hash": "9ba2d5b84ac82855",
+      "texto": "Imagine esta praça ao amanhecer, cheia de gente. É um espaço público amplo, cercado pelas bases C e D e pela Grande Pirâmide ao norte. Aqui havia uma estela com dois glifos. Um é um ano, dez cana, e o outro um dia, nove olho de réptil. O que você vê nesta praça é uma réplica; a original foi uma das quatro estelas encontradas no sítio. O INAH explica que a praça era usada para observar o nascer do Sol nos equinócios e nos solstícios. Ela também faz parte do conjunto do mercado. Ou seja, no mesmo lugar se comerciava, se celebrava e se media o tempo. Há quem diga que a praça tem boa acústica; se você falar alto, vai comprovar que o som ecoa."
+    },
+    "guion_largo": {
+      "hash": "bd635cbae1cca7b8",
+      "texto": "Imagine esta praça ao amanhecer, com gente de pé olhando para o leste. É isso que o INAH sugere: a praça era usada para observar o nascer do Sol nos equinócios e nos solstícios.\n\nÉ um espaço público grande, limitado por três lados. A oeste fica a Base D. A leste, a Base C. E ao norte se ergue a Grande Pirâmide, da qual falaremos em breve. Segundo o INAH, esta praça faz parte do conjunto do mercado da cidade.\n\nPor isso se chama Praça da Estela dos Dois Glifos. Uma estela é uma pedra alta com relevos. Neste caso, ela trazia dois glifos, ou seja, dois signos de escrita. Um é um ano e o outro, um dia. Lê-se como ano dez cana, dia nove olho de réptil.\n\nO que você vê aqui é uma réplica. A estela original foi uma das quatro encontradas no sítio, segundo o guia do INAH. O diretor da zona, Medina Romero, relaciona essa data com a pirâmide: propõe que o ano dez e o dia nove olho de réptil correspondem à sua inauguração. É uma proposta, não um dado definitivo.\n\nA data também aparece na escrita da cidade. Os especialistas Christophe Helmke e Jesper Nielsen destacam um nove cana na Pirâmide das Serpentes Emplumadas e o associam a uma cerimônia do Fogo Novo. Ainda há muito por decifrar nesta escrita.\n\nUm detalhe a mais: Medina menciona que esta praça tem boa acústica. Se você falar em voz alta, vai notar como o som preenche o espaço. Imagine um anúncio importante feito aqui, diante da cidade reunida.\n\nAntes de ir embora, oriente-se em relação ao Sol. Olhe para onde ele nasce. Um lugar assim serve para viver o calendário com o corpo: esperar, olhar e saber que dia é.\n\nAndrews e Glascock acrescentam outro dado: nesta praça apareceram muitas pontas de projétil, e eles propõem que aqui se reuniam guerreiros armados para atividades militares. A praça reúne coisas que em nossa vida estão separadas: mercado, cerimônia, calendário e armas. Em Xochicalco, tudo compartilhava o mesmo chão."
+    },
+    "retos_observacion": {
+      "hash": "df934e9cbc6f930c",
+      "texto": [
+        "Olhe para onde o Sol nasce e pense no que se podia anunciar daqui",
+        "Procure as bases C e D e a Grande Pirâmide que delimitam a praça",
+        "Fale em voz alta e escute como o espaço soa"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4ed9544bd51fc8f1",
+      "texto": {
+        "Estela": "réplica; a original foi uma de quatro encontradas",
+        "Glifos": "ano dez cana e dia nove olho de réptil",
+        "Límites": "Base D a oeste, Base C a leste, Grande Pirâmide ao norte",
+        "Uso": "observar o Sol nos equinócios e nos solstícios"
+      }
+    },
+    "faq_mito": {
+      "hash": "82bcc4873039961f",
+      "texto": {
+        "pregunta": "Mito: A estela que você vê é a original.",
+        "respuesta": "Realidade: É uma réplica. A original está sob guarda e é contada como uma das quatro estelas encontradas."
+      }
+    }
+  }
+}

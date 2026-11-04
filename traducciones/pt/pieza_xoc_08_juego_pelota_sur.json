@@ -1,0 +1,55 @@
+{
+  "id": "xoc_08_juego_pelota_sur",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "36a3b24f383aff15",
+      "texto": "O jogo de bola sul"
+    },
+    "frase_gancho": {
+      "hash": "f515948db790b743",
+      "texto": "A maior quadra da cidade, com uma arara que hoje vive em outro museu."
+    },
+    "puente_narrativo": {
+      "hash": "f1240afc029a50a9",
+      "texto": "Siga seu percurso: a poucos passos há outro espaço que conta como o tempo era medido na cidade."
+    },
+    "guion_corto": {
+      "hash": "3976c02952663bbe",
+      "texto": "Com a forma de um I maiúsculo, esta é a maior quadra de jogo de bola de Xochicalco. Fica no terraço mais baixo e ainda conserva dois de seus marcadores. Neste lugar foi encontrada uma escultura em forma de arara, que hoje está exposta no Museu Nacional de Antropologia. Medina Romero, diretor da zona arqueológica, explica que Xochicalco teve três quadras e que esta, a maior e a mais fácil de alcançar, pôde servir à população em geral. O jogo de bola era um esporte, mas também um ritual. Jogava-se com uma bola de borracha, e o campo, com seus muros inclinados, era um espaço de regras, apostas e cerimônia."
+    },
+    "guion_largo": {
+      "hash": "adf848bd94ba709d",
+      "texto": "Há lugares que se reconhecem pela forma. Este tem a de um I maiúsculo.\n\nO guia do INAH explica que o jogo de bola sul fica no quinto terraço, o mais baixo, e que conserva dois marcadores em seu lugar. Os marcadores eram pedras colocadas nas paredes da quadra. Nesta quadra, além disso, foi encontrada uma escultura de arara. Hoje ela está no Museu Nacional de Antropologia.\n\nMedina Romero, diretor da zona arqueológica, indica que Xochicalco teve três quadras orientadas para três dos quatro pontos cardeais. A do sul é a maior e a de acesso mais fácil, e por isso se pensa que servia à população em geral. Hirth conta cinco: três no cerro principal e duas em cerros vizinhos.\n\nO jogo de bola era jogado com uma bola maciça de borracha. Segundo as descrições do sítio, os jogadores a golpeavam com os quadris. Os muros inclinados da quadra ajudavam a bola a quicar e a continuar em jogo.\n\nO jogo de bola era muito mais que um esporte. Na Mesoamérica, tinha um lado ritual e um lado político. As partidas podiam ser cerimônias, e as quadras, lugares de encontro da comunidade.\n\nSe você está de pé na quadra, repare na forma. Imagine duas equipes, uma bola pesada que vai e vem, e o público nas laterais. O som da borracha contra a pedra, os gritos, a poeira.\n\nNão foi um edifício escondido. Foi uma quadra para todos."
+    },
+    "retos_observacion": {
+      "hash": "dcbe4b9ccafc76ad",
+      "texto": [
+        "Observe a forma de I maiúsculo da quadra",
+        "Procure os marcadores que ainda estão em seu lugar",
+        "Imagine onde as pessoas ficavam enquanto o jogo acontecia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b645859b673d00c",
+      "texto": {
+        "Forma": "I maiúsculo",
+        "Localização": "quinto terraço, o mais baixo",
+        "Marcadores": "dois conservados",
+        "Peça encontrada aqui": "arara, hoje no Museu Nacional de Antropologia",
+        "Quadras da cidade": "três no cerro principal, segundo Hirth e Medina"
+      }
+    },
+    "faq_mito": {
+      "hash": "a9e6bbfb5b07592a",
+      "texto": {
+        "pregunta": "Mito: O jogo de bola era apenas um esporte.",
+        "respuesta": "Realidade: Era um jogo, mas também um ritual e um espaço político para a comunidade."
+      }
+    }
+  }
+}

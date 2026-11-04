@@ -1,0 +1,53 @@
+{
+  "id": "xoc_31_museo_marcadores_pelota",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f4a7dc33997c90ec",
+      "texto": "Os marcadores do jogo de bola"
+    },
+    "frase_gancho": {
+      "hash": "4bf3228a9d6eef01",
+      "texto": "Pedras entalhadas que ficavam em uma quadra e hoje podem ser vistas de perto."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "A visita continua no museu: a próxima sala mostra outras peças do sítio."
+    },
+    "guion_corto": {
+      "hash": "155633692377d67e",
+      "texto": "Os marcadores da quadra leste estão aqui. Segundo o guia do INAH, eles têm baixo-relevo e são exibidos no Museu de Sítio. Um marcador era uma pedra entalhada que se colocava no muro da quadra do jogo de bola. Outra fonte conta que algumas peças do museu conservam pigmentos vermelhos. Lembre-se de que a escultura de arara da quadra sul está no Museu Nacional de Antropologia, não aqui. Observe a profundidade do entalhe e se ainda resta alguma cor. Sem o museu, estas pedras seriam apenas uma informação em um guia; aqui você pode vê-las de perto e entender por que as quadras eram tão importantes."
+    },
+    "guion_largo": {
+      "hash": "968b4c2fc827a487",
+      "texto": "Estas pedras estiveram em uma quadra.\n\nSegundo o guia do INAH, os marcadores da quadra leste têm baixo-relevo e são exibidos no Museu de Sítio. Um baixo-relevo é uma figura entalhada que se projeta pouco da pedra. Um marcador era uma pedra que se colocava no muro da quadra do jogo de bola.\n\nOutra fonte conta que o museu exibe marcadores de jogo de bola entalhados, um deles entre suas peças, e que algumas peças conservam pigmentos vermelhos.\n\nHá um detalhe que convém deixar claro. A arara que foi encontrada na quadra sul não está aqui. Segundo o guia do INAH, hoje ela está no Museu Nacional de Antropologia.\n\nCompare estas peças com o que você viu nas quadras. A quadra sul conserva dois marcadores em seu lugar, a norte os tem caídos e os da leste estão aqui. Três quadras, três destinos.\n\nObserve a profundidade do entalhe e se ainda resta alguma cor. É a melhor forma de se aproximar do que se jogava lá fora."
+    },
+    "retos_observacion": {
+      "hash": "4ac83377a6618d7b",
+      "texto": [
+        "Olhe o entalhe de perto",
+        "Procure restos de cor vermelha",
+        "Compare com a quadra que você viu lá fora"
+      ]
+    },
+    "especificaciones": {
+      "hash": "91245ea8dc5e6e3f",
+      "texto": {
+        "Peça": "marcadores da quadra leste, com baixo-relevo",
+        "Localização": "Museu de Sítio, segundo o guia do INAH",
+        "Arara da quadra sul": "Museu Nacional de Antropologia"
+      }
+    },
+    "faq_mito": {
+      "hash": "a8d4ccb5bf08898d",
+      "texto": {
+        "pregunta": "Mito: Todas as peças das quadras estão no museu do sítio.",
+        "respuesta": "Realidade: A arara da quadra sul está no Museu Nacional de Antropologia, e dois marcadores continuam na quadra sul."
+      }
+    }
+  }
+}

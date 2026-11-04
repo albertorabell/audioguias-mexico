@@ -1,0 +1,53 @@
+{
+  "id": "xoc_26_templo_arquitectos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "914f5b01128cc0bd",
+      "texto": "O Templo dos Arquitetos"
+    },
+    "frase_gancho": {
+      "hash": "4e475670f5712dc0",
+      "texto": "Um pátio onde apareceram ferramentas de obra."
+    },
+    "puente_narrativo": {
+      "hash": "0d1efbba7db61079",
+      "texto": "Siga seu roteiro: continue pelos espaços de trabalho e poder da cidade."
+    },
+    "guion_corto": {
+      "hash": "ee5c4f2b792e04eb",
+      "texto": "Este edifício se chama Templo dos Arquitetos, também Pátio Rebaixado. Segundo o guia do INAH, ali apareceram ferramentas de construção: prumos, misturadores e polidores. Um prumo é um fio com um peso que serve para verificar se uma parede está na vertical. Um polidor alisa a superfície da pedra. O INAH Lugares descreve, no conjunto leste, um edifício retangular com pátio rebaixado, que pode ser este mesmo. Os nomes modernos dizem mais sobre quem os deu do que sobre quem construiu. Ainda assim, ver aqui ferramentas de obra lembra que alguém teve de medir, nivelar e polir cada pedra. É um bom lugar para pensar nos ofícios."
+    },
+    "guion_largo": {
+      "hash": "12bca65ed3488fc0",
+      "texto": "O nome soa como um título, mas vem do que foi encontrado aqui.\n\nChama-se Templo dos Arquitetos, e também Pátio Rebaixado. Segundo o guia do INAH, neste lugar apareceram ferramentas de construção: prumos, misturadores e polidores.\n\nUm prumo é um fio com um peso na ponta. Serve para verificar se um muro está reto. Um polidor é uma pedra com a qual se alisa a superfície de outra.\n\nO INAH Lugares menciona, no conjunto leste, um edifício retangular com um pátio rebaixado. Pode ser o mesmo.\n\nOs nomes modernos dizem mais sobre quem os deu do que sobre quem construiu. Ninguém sabe como este edifício se chamava na cidade. O que sabemos é o que o achado sugere: aqui foram guardadas ou usadas ferramentas de obra.\n\nPense no trabalho por trás de uma cidade como esta. Alguém teve de medir, nivelar, cortar e polir cada pedra, e traçar terraços sobre um morro.\n\nQuando olhar para o pátio rebaixado, imagine essas ferramentas sobre o piso. É uma maneira de enxergar os construtores, e não só os governantes."
+    },
+    "retos_observacion": {
+      "hash": "5b60a2a6220bcbb5",
+      "texto": [
+        "Procure o pátio rebaixado",
+        "Imagine onde estariam as ferramentas",
+        "Pense em quantas pessoas seriam necessárias para erguer um edifício assim"
+      ]
+    },
+    "especificaciones": {
+      "hash": "779a73f4796f3331",
+      "texto": {
+        "Nomes": "Templo dos Arquitetos e Pátio Rebaixado",
+        "Achado": "prumos, misturadores e polidores, segundo o guia do INAH",
+        "Localização": "conjunto leste"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c12928ab59318a5",
+      "texto": {
+        "pregunta": "Mito: Um templo é sempre um lugar exclusivo para os deuses.",
+        "respuesta": "Realidade: O nome moderno vem das ferramentas de obra encontradas, não de uma função religiosa comprovada."
+      }
+    }
+  }
+}

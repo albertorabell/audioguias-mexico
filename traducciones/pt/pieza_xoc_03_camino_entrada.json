@@ -1,0 +1,54 @@
+{
+  "id": "xoc_03_camino_entrada",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90f92b10ca0bb62e",
+      "texto": "O caminho de entrada"
+    },
+    "frase_gancho": {
+      "hash": "c390c1e92a49ce10",
+      "texto": "Um caminho de pedra que já levava à cidade quando ela estava viva."
+    },
+    "puente_narrativo": {
+      "hash": "d86ad220eec5e1cf",
+      "texto": "Siga seu percurso: você já sabe como a cidade se defendia; agora é hora de percorrê-la."
+    },
+    "guion_corto": {
+      "hash": "ac25caa0724faaeb",
+      "texto": "Segundo o guia do INAH, o conjunto principal de acesso inclui sistemas de controle de entrada e uma praça quadrada. Inclui também o último trecho do caminho pré-hispânico que saía da cidade. Ou seja, já era pensado para receber e vigiar quem chegava. Uma cidade com entradas defendidas não deixava passar qualquer um. Essa calçada também se conecta com a quadra de jogo de bola sul, que fica no terraço mais baixo. Outros autores descrevem um caminho reto pelo lado sul, que sobe desde o fundo do vale até a cidade. O que você pisa é parte de uma rota que alguns habitantes percorriam há mais de mil anos para entrar, comerciar, jogar e prestar contas."
+    },
+    "guion_largo": {
+      "hash": "a5a11f79728eec5f",
+      "texto": "Um caminho é uma forma de dizer quem pode entrar. Em Xochicalco não é diferente.\n\nSegundo o guia oficial do INAH, o conjunto principal de acesso inclui sistemas de controle de entrada e uma praça quadrada. Inclui também o último trecho do caminho pré-hispânico que saía da cidade.\n\nOutras fontes acrescentam que o caminho de acesso era reto e chegava pelo lado sul, desde o fundo do vale. Essa calçada também se conecta com a quadra de jogo de bola sul, a maior da cidade, que fica no terraço mais baixo.\n\nA UNESCO e o INAH mencionam que o nível baixo da cidade era cercado por muros com entradas defendidas. Isso quer dizer que chegar a Xochicalco não era simplesmente cruzar uma porta. Era passar por pontos de vigilância.\n\nAs calçadas tinham outro uso. O diretor da zona, Medina Romero, explica que as calçadas pavimentadas conectavam setores da cidade e chegavam a medir cerca de cento e setenta e cinco metros. Eram a coluna vertebral por onde circulava a gente.\n\nAntes de seguir, repare no piso. Os caminhos das cidades antigas eram pavimentados com pedra, e esse trabalho conta uma história de organização. Mover tanta pedra exigia gente, tempo e alguém que o ordenasse.\n\nPare um momento e pense em quem entrava por aqui. Comerciantes de outros povos, gente que carregava obsidiana, jogadores que vinham à quadra, enviados de comunidades vizinhas. E também exércitos, quando a cidade já estava ameaçada.\n\nHoje este caminho leva você a um só lugar: ao coração de uma cidade fortificada. O que vem a seguir é subir e descobri-lo."
+    },
+    "retos_observacion": {
+      "hash": "9b9ea4d4f99587ee",
+      "texto": [
+        "Olhe o caminho e repare em como ele foi construído",
+        "Procure os pontos onde se controlava a passagem, se for possível distingui-los",
+        "Pense em quem teria cruzado este caminho há mais de mil anos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f88961c233ee36a",
+      "texto": {
+        "Acesso": "conjunto principal, com praça quadrada",
+        "Caminho": "último trecho do caminho pré-hispânico",
+        "Calçadas pavimentadas": "até cerca de 175 m, segundo o INAH",
+        "Conexão": "com a quadra de jogo de bola sul"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5e937cd2bce8e3d",
+      "texto": {
+        "pregunta": "Mito: As calçadas de Xochicalco são caminhos modernos.",
+        "respuesta": "Realidade: O INAH descreve calçadas pavimentadas que já conectavam setores da cidade há mais de mil anos."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "xoc_18_observatorio",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9a5f1066b768558",
+      "texto": "O tiro de luz: o observatório"
+    },
+    "frase_gancho": {
+      "hash": "7a24a77f38289380",
+      "texto": "Uma caverna na montanha por onde o Sol entra em dias precisos do ano."
+    },
+    "puente_narrativo": {
+      "hash": "c7b6f7d6c16df78d",
+      "texto": "Siga seu roteiro: o que vem a seguir também tem a ver com o céu, a água ou o tempo."
+    },
+    "guion_corto": {
+      "hash": "6fe1de4a5f0ca185",
+      "texto": "Debaixo desta área há uma caverna transformada em observatório. Segundo o INAH, primeiro foi pedreira e depois o vazio foi aproveitado. Tem um tiro por onde desce um raio de Sol do fim de abril a meados de agosto, uns cento e cinco dias. O Sol passa pelo zênite no catorze de maio. Medina Romero propõe que o restante dos duzentos e sessenta dias se relaciona com o calendário ritual. Hoje não é possível entrar, e relatos de junho de dois mil e vinte e seis confirmam isso. Mas você pode imaginar: uma cidade que deixava o Sol entrar na montanha para medir o tempo. Confirme na entrada se algo mudou."
+    },
+    "guion_largo": {
+      "hash": "9aaee5399cab641f",
+      "texto": "Debaixo desta parte do morro há um vazio. Você não vai vê-lo daqui, mas ele existe.\n\nSegundo o INAH, as cavernas sob a plataforma norte foram usadas primeiro como pedreira. De lá saiu pedra para construir. Depois, alguém aproveitou esse vazio e o transformou em observatório.\n\nA caverna tem um tiro, uma chaminé inclinada que sobe até a superfície. Uma fonte lhe atribui oito metros e setenta centímetros de altura e um remate hexagonal, e diz que o interior foi coberto de estuque pintado de preto, amarelo e vermelho.\n\nO extraordinário acontece com o Sol. Morante, Garza e Valencia o mediram durante anos. Os raios diretos entram do fim de abril até meados de agosto, perto do meio-dia. O Sol passa pelo zênite no catorze de maio. Segundo El Tlacuache, nesse dia o Sol se projeta no piso por uns quarenta e cinco minutos. A entrada de luz se distribui de forma simétrica em torno do solstício de verão: cinquenta e dois dias antes, o dia do solstício e cinquenta e dois depois.\n\nRubén Morante López, que estuda o sítio há uns trinta anos, explica que o movimento do Sol era acompanhado em dois lugares. Um era o zênite, a partir desta caverna. O outro era o horizonte, com o Popocatépetl e o Cerro Jumil como referências. Somados, esses dias dão cento e cinco, justamente o que falta a duzentos e sessenta para chegar a trezentos e sessenta e cinco. Para Morante, Garza e Valencia, os dois calendários mesoamericanos ficam assinalados em um mesmo lugar.\n\nDurante um tempo se acreditou que esta caverna era só mais uma pedreira, como outras oito que existem ao redor do morro. Mas sua abóbada e seu tiro hexagonal, com uma inclinação calculada com precisão, levaram a pensar que foi usada para contar o tempo. Segundo Alvarado León, quase todos os estudos coincidem em algo. A caverna servia para observar duas vezes por ano a passagem do Sol pelo zênite, e para medir o ano tropical ou marcar o início do verão. Para que servia é motivo de debate. Medina Romero propõe que os outros duzentos e sessenta dias se relacionam com o calendário ritual. Uma nota do INAH diz que ajudava a corrigir o calendário. A CyArk o vê como uma forma de acompanhar o percurso do Sol em direção ao Trópico de Câncer.\n\nOs xochicalcas não entravam por onde se entra hoje, mas por uma caverna a poucos metros do Jogo de Bola Norte. Lá dentro havia uma sala de vinte e oito por dez metros, com três pilares talhados na rocha. Ao fundo fica um recinto oval de seis metros, a Câmara dos Astrônomos, de onde sai um segundo tiro. Em setores próximos apareceram discos de cerâmica de cinquenta e quatro centímetros, com orifícios. Colocados na borda do tiro, deixam passar a luz em pequenos círculos que se movem pelo piso.\n\nHoje você não pode entrar. O observatório está fechado ao público, e relatos de junho de dois mil e vinte e seis confirmam isso. Confirme na entrada se algo mudou.\n\nMas a ideia pode ser imaginada sem descer. Uma cidade que, para medir o tempo, não só olhava o céu. Ela o deixava entrar na montanha."
+    },
+    "retos_observacion": {
+      "hash": "cc57f3f3fcded96a",
+      "texto": [
+        "Olhe o terreno onde fica o observatório",
+        "Imagine um raio de Sol caindo em uma caverna escura",
+        "Pergunte na entrada se o observatório continua fechado"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a6f245b1c2960428",
+      "texto": {
+        "Tipo": "caverna escavada na base de uma estrutura piramidal",
+        "Luz do Sol": "de trinta de abril a treze de agosto, uns cento e cinco dias, segundo o INAH",
+        "Máximo": "catorze ou quinze de maio",
+        "Estado": "fechado ao público, segundo o Diario de Morelos, junho de dois mil e vinte e seis"
+      }
+    },
+    "faq_mito": {
+      "hash": "63925042c78cc092",
+      "texto": {
+        "pregunta": "Mito: Você pode entrar no observatório e ver o raio de Sol.",
+        "respuesta": "Realidade: Está fechado ao público há anos. Confirme a situação atual na entrada."
+      }
+    }
+  }
+}

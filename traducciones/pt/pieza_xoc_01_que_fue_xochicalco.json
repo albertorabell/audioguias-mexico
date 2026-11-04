@@ -1,0 +1,55 @@
+{
+  "id": "xoc_01_que_fue_xochicalco",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e42f2bf317f24449",
+      "texto": "O que foi Xochicalco"
+    },
+    "frase_gancho": {
+      "hash": "60ec8a071d07f611",
+      "texto": "Uma cidade construída no alto, em um mundo que havia ficado sem centro."
+    },
+    "puente_narrativo": {
+      "hash": "3acce04c947a1bf5",
+      "texto": "Comece o seu percurso: o que vem a seguir explica por que esta cidade está em um morro."
+    },
+    "guion_corto": {
+      "hash": "8f35262005a2e036",
+      "texto": "Antes de dar um passo, imagine o mundo que cerca este morro. Teotihuacán, a grande cidade do centro do México, havia caído. Palenque e Tikal, no mundo maia, também. Segundo a UNESCO, as sociedades que vieram depois tornaram-se mais militaristas e ergueram suas cidades em lugares altos e fáceis de defender. Xochicalco é um dos melhores exemplos que se conservam, feito de terraços, muros de contenção e rampas. Kenneth Hirth calcula que ela chegou a reunir entre dez mil e quinze mil pessoas. Seu nome costuma ser traduzido como lugar da casa das flores. Uma cidade com nome suave, feita para se defender. Essa tensão vai acompanhar você por todo o percurso."
+    },
+    "guion_largo": {
+      "hash": "b6946b87c9591a95",
+      "texto": "Antes de dar um passo, imagine o mundo que cerca este morro. Teotihuacán, a grande cidade do centro do México, havia caído. Palenque e Tikal, no mundo maia, também haviam caído.\n\nA UNESCO explica o que veio depois. As sociedades daquele tempo tornaram-se mais militaristas, e suas cidades costumavam ser erguidas em lugares altos e fáceis de defender. Xochicalco é um exemplo muito bem conservado desse tipo de cidade, feita de terraços, muros de contenção e rampas.\n\nSegundo o INAH, ela foi fundada na segunda metade do século sete. Ocupou seis morros baixos e os transformou com terraços e muros. Kenneth Hirth sustenta que a cidade cresceu muito rápido e reassentou entre dez mil e quinze mil pessoas.\n\nEra uma cidade de misturas. Seus relevos combinam desenhos do centro do México com figuras de estilo maia. Uma fonte descreve esse tempo como uma época de ecletismo cultural, quando as culturas se cruzavam e influenciavam umas às outras.\n\nTambém era uma cidade de rivalidades. Medina Romero, diretor do sítio, conta que Xochicalco competiu com outras cidades de sua época, como Teotenango, Cacaxtla, El Tajín e La Quemada. Foi fundada por volta do ano seiscentos e setenta e abandonada por volta do ano mil e sessenta e cinco, segundo Alvarado León.\n\nNeste percurso você vai subir por três níveis. O baixo, com acessos defendidos. O intermediário, onde ficavam o mercado, as oficinas e as casas. E o alto, onde se concentrava o poder. No caminho você verá como o tempo era medido com o céu, o que dizia a escrita da cidade e como tudo terminou, de repente, entre incêndios.\n\nXochicalco costuma ser traduzido como lugar da casa das flores. Uma cidade com um nome tão suave, feita para se defender. Essa tensão vai acompanhar você do início ao fim."
+    },
+    "retos_observacion": {
+      "hash": "ba3ffad921953bba",
+      "texto": [
+        "Procure, de onde você está, os morros que a cidade ocupou",
+        "Repare como o terreno sobe em terraços",
+        "Imagine como seria chegar a pé até aqui há mil e duzentos anos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0282a8b4ec5c6215",
+      "texto": {
+        "Período": "Epiclássico, entre os anos seiscentos e cinquenta e novecentos, segundo a UNESCO",
+        "Fundação": "segunda metade do século sete, segundo o INAH",
+        "População": "entre dez mil e quinze mil pessoas, segundo Hirth",
+        "Níveis da cidade": "três",
+        "Superfície protegida": "cerca de setecentos e sete hectares"
+      }
+    },
+    "faq_mito": {
+      "hash": "f99e14b8583c117c",
+      "texto": {
+        "pregunta": "Mito: Xochicalco é uma pirâmide isolada.",
+        "respuesta": "Realidade: É uma cidade completa, de terraços, praças, oficinas e casas, que ocupou seis morros baixos."
+      }
+    }
+  }
+}

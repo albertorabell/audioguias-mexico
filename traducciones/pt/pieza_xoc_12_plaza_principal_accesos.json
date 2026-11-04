@@ -1,0 +1,54 @@
+{
+  "id": "xoc_12_plaza_principal_accesos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "590916867dd76c70",
+      "texto": "A Praça Principal"
+    },
+    "frase_gancho": {
+      "hash": "787d3d0fabd17aa4",
+      "texto": "A parte mais bem protegida da cidade, onde o poder se concentrava."
+    },
+    "puente_narrativo": {
+      "hash": "0b62f0a1180a75e2",
+      "texto": "Continue seu percurso: o que vem a seguir está nesta mesma praça ou muito perto dela."
+    },
+    "guion_corto": {
+      "hash": "f6ac845f5a845dff",
+      "texto": "Você chegou à parte que mais protegeram. Segundo o INAH, a Praça Principal fica sobre um montículo artificial e se entra por dois pórticos defendidos. O guia a descreve como a zona mais bem conservada e de acesso mais difícil de Xochicalco. Aqui estão o Templo das Serpentes Emplumadas, uma Pirâmide Gêmea e estruturas administrativas. Também o Templo das Estelas, que guardava três estelas hoje no Museu Nacional de Antropologia. A oeste fica a Acrópole, onde vivia o governante. Tudo indica que aqui o poder se concentrava, e que este núcleo cerimonial arderia no fim da cidade. Olhe ao redor e localize o edifício com serpentes em seus muros."
+    },
+    "guion_largo": {
+      "hash": "357c95846ca66cd5",
+      "texto": "Você chegou à parte que mais protegeram.\n\nImagine o percurso de um visitante da época. Ele passou por acessos defendidos, subiu por terraços e deixou para trás o mercado e as oficinas. Agora entra por um dos dois pórticos defendidos que, segundo o INAH, dão acesso a esta praça. Ela fica sobre um montículo artificial: a altura também é uma mensagem.\n\nO guia do INAH descreve a Praça Principal como a zona mais bem conservada e de acesso mais difícil de Xochicalco. Aqui se reúnem vários edifícios. O mais conhecido é o Templo das Serpentes Emplumadas. Há também uma Pirâmide Gêmea e estruturas administrativas. Na Pirâmide Gêmea foram recuperadas cerca de quatrocentas pedras com restos de pintura mural, segundo um estudo de González Crespo e sua equipe.\n\nTambém está aqui o Templo das Estelas. Segundo Medina Romero, ele guardava três estelas que hoje se encontram no Museu Nacional de Antropologia, na Cidade do México. César Sáenz as escavou em mil novecentos e sessenta e um. Estavam fragmentadas, e Sáenz concluiu que os próprios xochicalcas as destruíram de propósito antes de abandonar a cidade. Segundo Andrews e Glascock, neste centro do poder viviam cerca de mil pessoas: sacerdotes, a elite do palácio, burocratas e serviçais. Uma estela é uma pedra alta com relevos. Hirth conta que cada uma nomeia um governante: sete Olho de Réptil, sete Chuva e quatro Movimento. São os primeiros nomes de reis escritos no centro do México e os primeiros textos longos do Altiplano. Umas pegadas gravadas indicam em que ordem lê-las. Outra fonte as descreve com uma máscara de jaguar e serpente, faixas celestes e uma imagem de Tláloc.\n\nA oeste fica a Acrópole. Segundo Hirth, ali estiveram o palácio do governante e o centro administrativo da cidade. Hirth também descreve uma praça cerimonial a leste da Acrópole.\n\nO observatório, uma caverna sob as plataformas desta zona, tem sua própria parada. Hoje não é possível entrar.\n\nTudo indica que aqui o poder se concentrava. E também, segundo Webb e Hirth, este é o núcleo cerimonial que arderia no fim da cidade. Guarde essa ideia: mais adiante voltaremos a ela.\n\nUma fonte indica que o acesso à praça pode estar restrito. Confirme ao chegar quais partes você pode percorrer. Antes de seguir, reserve um momento e olhe ao redor, com o pescoço voltado para cima e sem pressa."
+    },
+    "retos_observacion": {
+      "hash": "f9522d040428af12",
+      "texto": [
+        "Localize o edifício com serpentes em seus muros",
+        "Procure a Acrópole, a oeste",
+        "Observe os pórticos por onde se entra"
+      ]
+    },
+    "especificaciones": {
+      "hash": "300b98ed915506ac",
+      "texto": {
+        "Acesso": "dois pórticos defendidos",
+        "Estado": "a parte mais bem conservada da cidade",
+        "Edifícios": "Templo das Serpentes Emplumadas, Pirâmide Gêmea, Templo das Estelas, estruturas administrativas e Acrópole",
+        "Estelas do templo": "três, hoje no Museu Nacional de Antropologia"
+      }
+    },
+    "faq_mito": {
+      "hash": "08703b1657dfc0c2",
+      "texto": {
+        "pregunta": "Mito: As estelas continuam no Templo das Estelas.",
+        "respuesta": "Realidade: As três estelas do templo estão hoje no Museu Nacional de Antropologia."
+      }
+    }
+  }
+}

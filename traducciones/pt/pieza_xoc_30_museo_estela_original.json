@@ -1,0 +1,54 @@
+{
+  "id": "xoc_30_museo_estela_original",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2318589a1e1f2bff",
+      "texto": "A Estela dos Dois Glifos, a original"
+    },
+    "frase_gancho": {
+      "hash": "f94c204101cb844a",
+      "texto": "A peça central do museu: dois signos de calendário gravados em pedra."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "Continue no museu: a próxima sala mostra outras peças do sítio."
+    },
+    "guion_corto": {
+      "hash": "3fe3fc2ad6bca9b3",
+      "texto": "Esta é a peça central do museu: a Estela dos Dois Glifos original. Segundo o INAH, é um monólito gravado com dois glifos de calendário, provavelmente ligados a um fato importante da história de Xochicalco. Um é um ano, dez cana, e o outro um dia, nove olho de réptil. A estela que você viu na praça é uma réplica. Medina Romero propõe que a data corresponde à inauguração da Pirâmide das Serpentes Emplumadas. É uma proposta, não um dado definitivo. Repare nos glifos: são signos de tempo postos em pedra para que uma cidade inteira se lembrasse de um dia."
+    },
+    "guion_largo": {
+      "hash": "e7c003a06489c07a",
+      "texto": "Aqui está a peça que você viu na praça, mas esta é a original.\n\nSegundo o INAH, a Estela dos Dois Glifos é o centro de uma sala do museu. É um monólito gravado com dois glifos de calendário, provavelmente ligados a um fato importante da história de Xochicalco.\n\nUm dos glifos é um ano, dez cana. O outro é um dia, nove olho de réptil. O guia do INAH conta que esta foi uma de quatro estelas encontradas no sítio. A que você viu na [Praça da Estela](xoc_05_plaza_estela_dos_glifos) é uma réplica.\n\nMedina Romero propõe que essa data corresponde à inauguração da Pirâmide das Serpentes Emplumadas. É uma proposta, não um dado definitivo. O que você pode ver é o que está gravado: dois signos que serviram para fixar um momento.\n\nRepare na talha. Uma estela é uma pedra alta com relevos, pensada para ser vista por muita gente. Alguém decidiu que esse dia merecia ficar na pedra."
+    },
+    "retos_observacion": {
+      "hash": "9850c246456eb565",
+      "texto": [
+        "Procure os dois glifos na estela",
+        "Compare com a réplica que você viu na praça",
+        "Pense em qual dia da sua vida você poria na pedra"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d870fcd1d47e4b64",
+      "texto": {
+        "Peça": "monólito com dois glifos de calendário",
+        "Glifos": "ano dez cana e dia nove olho de réptil",
+        "Localização": "Museu de Sítio de Xochicalco, segundo o INAH",
+        "Estelas encontradas no sítio": "quatro, segundo o guia do INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee4187cc7ac9d4d9",
+      "texto": {
+        "pregunta": "Mito: A estela da praça é a original.",
+        "respuesta": "Realidade: A da praça é uma réplica. A original está no Museu de Sítio."
+      }
+    }
+  }
+}

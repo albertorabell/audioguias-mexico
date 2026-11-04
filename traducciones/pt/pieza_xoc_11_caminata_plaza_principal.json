@@ -1,0 +1,54 @@
+{
+  "id": "xoc_11_caminata_plaza_principal",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1879863762ac4b65",
+      "texto": "Caminhada: rumo à Praça Principal"
+    },
+    "frase_gancho": {
+      "hash": "8e9e2edf5e168fda",
+      "texto": "Um trajeto de subida por uma cidade pensada para ser defendida."
+    },
+    "puente_narrativo": {
+      "hash": "e10bd2bfa52eaab2",
+      "texto": "Continue seu percurso: ao chegar lá em cima, a cidade muda de escala."
+    },
+    "guion_corto": {
+      "hash": "5c70785ee1b71a54",
+      "texto": "Agora é hora de subir. Esta caminhada leva do Palácio à Praça Principal. Segundo o INAH, a praça fica sobre um montículo artificial e se chega a ela por dois pórticos defendidos. O guia do INAH acrescenta que é a parte mais bem conservada da cidade e também a de acesso mais difícil. Medina Romero menciona que no sítio há calçadas empedradas de até cento e setenta e cinco metros. Enquanto você caminha, não precisa procurar nada em especial. Repare em como o terreno muda sob seus pés. Pense no que significa chegar a um lugar que foi pensado para ser defendido. Quando você chegar lá em cima, vamos falar do que há na praça."
+    },
+    "guion_largo": {
+      "hash": "efde4016d0cc3ec8",
+      "texto": "Agora é hora de subir. Esta caminhada leva do Palácio à Praça Principal.\n\nPara entender o caminho, ajuda lembrar como a cidade está organizada. A UNESCO distingue três níveis: um baixo, um intermediário e um alto. Você vem do intermediário e se dirige ao mais alto.\n\nSegundo o INAH, a Praça Principal fica sobre um montículo artificial. Chega-se a ela por dois pórticos defendidos. Ou seja, não é um lugar onde se entrava sem mais nem menos.\n\nO guia do INAH diz que é a parte mais bem conservada da cidade e a de acesso mais difícil. Talvez essas duas coisas andem juntas.\n\nMedina Romero assinala que o sítio tem calçadas empedradas de até cento e setenta e cinco metros de comprimento. Também menciona que, ao sul da Acrópole, há um muro de quatro metros com bastiões e fossos.\n\nEnquanto sobe, deixe de procurar monumentos e repare no terreno. Um morro modificado com terraços e muros se sente diferente de uma praça aberta.\n\nA UNESCO considera Xochicalco um exemplo supremo de cidade fortificada do Epiclássico. Você vai sentir isso no corpo antes de ver com os olhos.\n\nQuando chegar lá em cima, respire. O que vem a seguir é a parte mais famosa do sítio."
+    },
+    "retos_observacion": {
+      "hash": "1116641122750212",
+      "texto": [
+        "Repare em como o terreno muda sob seus pés",
+        "Conte quantas vezes muda o nível do caminho",
+        "Procure os pórticos por onde se entra na praça"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c2d65caad70383d0",
+      "texto": {
+        "Praça Principal": "sobre um montículo artificial",
+        "Acessos": "dois pórticos defendidos",
+        "Calçadas empedradas": "até cento e setenta e cinco metros, segundo Medina Romero",
+        "Níveis da cidade": "três, segundo a UNESCO"
+      }
+    },
+    "faq_mito": {
+      "hash": "5407af077888d91a",
+      "texto": {
+        "pregunta": "Mito: A praça mais importante era de entrada livre.",
+        "respuesta": "Realidade: Segundo o INAH, chega-se a ela por dois pórticos defendidos."
+      }
+    }
+  }
+}

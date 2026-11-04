@@ -1,0 +1,53 @@
+{
+  "id": "xoc_19_caminata_norte",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18d839e7b882fc73",
+      "texto": "Caminhada: rumo ao conjunto norte"
+    },
+    "frase_gancho": {
+      "hash": "a1a7dc86d8c04756",
+      "texto": "Um trajeto curto até a cisterna, o altar policromado e o temazcal."
+    },
+    "puente_narrativo": {
+      "hash": "928a7098704ed970",
+      "texto": "Continue o seu percurso: siga avançando pela cidade."
+    },
+    "guion_corto": {
+      "hash": "54b79d2b212cac48",
+      "texto": "Agora você se afasta da praça em direção ao norte. Esta caminhada leva ao conjunto norte, onde o INAH situa uma cisterna, um altar policromado e um temazcal. O INAH menciona uma cisterna ao norte da praça, parte do sistema de água. Enquanto caminha, pense numa pergunta simples: de onde tirava água uma cidade construída sobre um morro. Um temazcal é um banho de vapor. O do conjunto norte teve, segundo o INAH, uma finalidade cerimonial. A cisterna recolhia água da chuva, segundo o México Desconocido, e tinha drenagem. Não é preciso ter pressa. Observe o terreno: a água sempre desce. O que vem a seguir explica essas obras com mais detalhes."
+    },
+    "guion_largo": {
+      "hash": "05a1d05df39cb154",
+      "texto": "Agora você se afasta da praça em direção ao norte.\n\nEsta caminhada leva ao conjunto norte. Segundo o INAH, ali se encontram uma cisterna, um salão com um altar policromado e um temazcal.\n\nO observatório que você deixa para trás está, segundo o INAH, em cavernas sob a plataforma norte. Primeiro foram pedreira e depois observatório. Ou seja, esta parte da cidade era escavada por dentro e construída por fora.\n\nO INAH menciona uma cisterna ao norte da praça, parte do sistema de água. O México Desconocido a descreve como uma cisterna de água da chuva com drenagem.\n\nEnquanto caminha, pense numa pergunta simples: de onde tirava água uma cidade construída sobre um morro. A resposta está nas obras que quase não se veem.\n\nUm temazcal é um banho de vapor. Segundo o guia do INAH, o do conjunto norte teve uma finalidade cerimonial. Outras fontes o situam em outros conjuntos, e ainda não há consenso sobre o seu lugar exato.\n\nNão é preciso ter pressa. As caminhadas foram pensadas para serem ouvidas enquanto você avança, sem olhar para a tela. A próxima parada conta mais sobre a água."
+    },
+    "retos_observacion": {
+      "hash": "8e5c80effe7c3947",
+      "texto": [
+        "Observe para onde o terreno desce",
+        "Procure a cisterna antes de chegar",
+        "Escute enquanto caminha, sem olhar para a tela"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6107c586ab2a117d",
+      "texto": {
+        "Destino": "conjunto norte",
+        "Espacios": "cisterna, altar policromado e temazcal, segundo o INAH",
+        "Observatorio": "em cavernas sob a plataforma norte, segundo o INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "950bea6f8afb80d4",
+      "texto": {
+        "pregunta": "Mito: O observatório fica no alto da pirâmide.",
+        "respuesta": "Realidade: É uma caverna escavada na base; o poço de luz se abre no alto."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "xoc_13_serpientes_emplumadas_1",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f0b607a11477ca63",
+      "texto": "A Pirâmide das Serpentes Emplumadas"
+    },
+    "frase_gancho": {
+      "hash": "1acbfba69416f19a",
+      "texto": "Oito serpentes e figuras sentadas em um edifício feito para ser lido."
+    },
+    "puente_narrativo": {
+      "hash": "4269f3585ec5ac98",
+      "texto": "Continue seu percurso: o que vem a seguir também está ligado ao céu e ao tempo."
+    },
+    "guion_corto": {
+      "hash": "4452483d9dee526c",
+      "texto": "Este é o edifício que deu fama a Xochicalco. Segundo o guia do INAH, ele tem dois corpos e oito serpentes emplumadas, com caracóis e contas no relevo. O INAH descreve ainda figuras sentadas entre as serpentes, que podem ser sacerdotes, governantes ou astrônomos, e uma cornija de caracóis. Nos muros superiores aparecem figuras de guerreiros. Kenneth Hirth observa que algumas figuras têm estilo maia. Pense no relevo como uma página, não apenas como um enfeite. Hirth acredita que o nome da cidade alude a essa decoração. Xochicalco costuma ser traduzido como lugar da casa das flores. A interpretação completa continua em debate. Reserve um tempo para observá-lo com calma."
+    },
+    "guion_largo": {
+      "hash": "7351479f0cf307f0",
+      "texto": "Antes que eu lhe conte qualquer coisa, olhe. Este edifício foi feito para ser lido.\n\nÉ a Pirâmide das Serpentes Emplumadas. Segundo o guia do INAH, ela tem dois corpos e oito serpentes emplumadas, acompanhadas de caracóis e contas. Medina Romero, diretor do sítio, esclarece que são duas serpentes em cada uma das quatro fachadas.\n\nEntre as serpentes há figuras sentadas. Segundo o INAH, elas podem representar sacerdotes, governantes ou astrônomos. No alto corre uma cornija de caracóis e, nos muros superiores, aparecem figuras de guerreiros.\n\nKenneth Hirth observa que algumas dessas figuras têm estilo maia. Os epigrafistas Nielsen e Helmke acrescentam que as serpentes parecem se mover na água, por causa das conchas que as rodeiam. As figuras sentadas poderiam ser autoridades transportadas por elas. A enciclopédia World History acrescenta que, no friso superior, há pares de figuras com trajes maias, separados por signos do calendário.\n\nA mesma enciclopédia conta que o relevo foi pintado de vermelho, verde, amarelo, azul, preto e branco. Hoje você o vê em pedra. Vale a pena imaginá-lo com cor.\n\nO nome da cidade parece vir dessa decoração, segundo Hirth. Xochicalco costuma ser traduzido como lugar da casa das flores.\n\nUm aviso: este edifício foi reconstruído. Segundo o INAH, a primeira escavação científica foi a de Batres, em mil novecentos e nove. Medina Romero menciona que os donos de uma fazenda açucareira próxima destruíram boa parte da base da pirâmide. O que você vê inclui restaurações, e alguns estudos criticaram a que foi feita naquela época.\n\nMesmo assim, a mensagem continua ali. Uma serpente emplumada envolve um edifício e, entre suas ondas, há pessoas sentadas. O poder, a religião e o céu se misturam em um mesmo relevo.\n\nOlhe devagar, uma figura de cada vez."
+    },
+    "retos_observacion": {
+      "hash": "92752c01f604c29c",
+      "texto": [
+        "Conte as serpentes que conseguir ver",
+        "Procure as figuras sentadas entre elas",
+        "Imagine o relevo pintado de vermelho, verde, amarelo, azul, preto e branco"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4d22bfe680be2a89",
+      "texto": {
+        "Corpos": "dois",
+        "Serpentes emplumadas": "oito, segundo o INAH e Medina Romero",
+        "Primeira escavação científica": "Batres, mil novecentos e nove, segundo o INAH",
+        "Cores originais": "vermelho, verde, amarelo, azul, preto e branco, segundo a World History"
+      }
+    },
+    "faq_mito": {
+      "hash": "2ecad3a2942a261a",
+      "texto": {
+        "pregunta": "Mito: A pirâmide conserva toda a sua cor original.",
+        "respuesta": "Realidade: Hoje ela é vista em pedra. Uma fonte indica que o relevo foi pintado em várias cores."
+      }
+    }
+  }
+}

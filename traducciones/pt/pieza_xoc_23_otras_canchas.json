@@ -1,0 +1,53 @@
+{
+  "id": "xoc_23_otras_canchas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3d801a35963b0b8f",
+      "texto": "As outras duas quadras de jogo de bola"
+    },
+    "frase_gancho": {
+      "hash": "733c1e2b93a4cb57",
+      "texto": "Uma quadra com os marcadores caídos e outra cujos marcadores hoje estão no museu."
+    },
+    "puente_narrativo": {
+      "hash": "f1a4fb145d300f85",
+      "texto": "Continue seu percurso: siga explorando a cidade."
+    },
+    "guion_corto": {
+      "hash": "f8cf6e8fb5043588",
+      "texto": "Você já conhece a quadra sul, a maior e a mais fácil de alcançar. As outras duas contam outra história. Segundo o guia do INAH, a quadra norte tem as estruturas laterais mais altas, e seus marcadores caíram no corredor central. A quadra leste, conectada à Rampa dos Animais, tem marcadores com baixo-relevo que hoje estão expostos no Museu de Sítio. Um marcador é uma pedra entalhada que era colocada no muro da quadra. Medina Romero explica que as três quadras olham para três dos quatro pontos cardeais. Compare-as: cada uma tem sua própria altura, seu próprio estado e seu próprio destino."
+    },
+    "guion_largo": {
+      "hash": "e09c2932277ef2ab",
+      "texto": "Você já conhece a quadra sul, a maior e a mais fácil de alcançar. As outras duas contam histórias diferentes.\n\nSegundo o guia do INAH, a quadra norte fica no terceiro terraço e tem as estruturas laterais mais altas das três. Seus marcadores, que eram pedras entalhadas colocadas no muro, caíram no corredor central.\n\nA quadra leste, segundo o mesmo guia, também fica no terceiro terraço. Seus marcadores têm baixo-relevo, ou seja, figuras entalhadas que se projetam pouco da pedra, e hoje estão expostos no Museu de Sítio. Segundo o INAH, a Rampa dos Animais se conecta a esta quadra. Isso sugere que o jogo e a rampa faziam parte do mesmo conjunto.\n\nMedina Romero explica que o morro principal teve três quadras, orientadas para três dos quatro pontos cardeais. A do sul era a maior e a mais fácil de alcançar. Hirth conta cinco: três no morro e duas em morros vizinhos.\n\nSegundo Andrews e Glascock, o setor da quadra norte era um espaço muito restrito à elite governante. A quadra leste, por outro lado, tem uma escadaria proeminente voltada para o leste, o que sugere um acesso mais público. Três quadras em um mesmo morro falam de como o jogo era importante para o povo de Xochicalco, como foi em muitas cidades da Mesoamérica.\n\nSe você estiver de pé em uma delas, observe a altura das estruturas laterais e compare-a com o que viu na quadra sul. Cada uma tem sua própria altura, seu próprio estado e seu próprio destino."
+    },
+    "retos_observacion": {
+      "hash": "dbccec1f191a730b",
+      "texto": [
+        "Compare a altura dos muros com a da quadra sul",
+        "Procure os marcadores caídos no corredor",
+        "Pergunte no museu pelos marcadores de baixo-relevo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "77c32fe4a97b8191",
+      "texto": {
+        "Quadra norte": "terceiro terraço, estruturas laterais mais altas, marcadores caídos",
+        "Quadra leste": "terceiro terraço, marcadores com baixo-relevo no Museu de Sítio",
+        "Orientação": "para três dos quatro pontos cardeais, segundo Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "5c3ba22e47883a92",
+      "texto": {
+        "pregunta": "Mito: Todas as quadras de Xochicalco são iguais.",
+        "respuesta": "Realidade: Cada uma tem altura, estado de conservação e destino das peças diferentes."
+      }
+    }
+  }
+}

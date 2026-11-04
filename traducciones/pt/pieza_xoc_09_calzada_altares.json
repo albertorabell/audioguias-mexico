@@ -1,0 +1,54 @@
+{
+  "id": "xoc_09_calzada_altares",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b712a1fadee7fa9d",
+      "texto": "A calçada dos vinte e um altares"
+    },
+    "frase_gancho": {
+      "hash": "817befa50b031c72",
+      "texto": "Uma fila de altares que parece um calendário posto no chão."
+    },
+    "puente_narrativo": {
+      "hash": "716df23a938eb74c",
+      "texto": "Continue seu percurso: o que vem a seguir mostra como se vivia e se trabalhava na cidade."
+    },
+    "guion_corto": {
+      "hash": "8831acdbca4cc916",
+      "texto": "Uma calçada é um caminho largo e elevado. Esta tem, em seus lados, vinte e um altares. Segundo o INAH, eles representam os meses do ano cerimonial e, em um caso, os dias. O México Desconocido descreve vinte altares redondos e um quadrado, e sugere que serviam para contar o calendário de duzentos e sessenta dias. Conte-os enquanto avança. Os dois relatos coincidem em que os altares tinham a ver com o calendário. Caminhar entre eles era percorrer esse calendário passo a passo. É uma proposta dos especialistas, não um fato encerrado, e por isso vale a pena vê-los com seus próprios olhos. Aqui, o tempo não só se olhava. Caminhava-se por ele."
+    },
+    "guion_largo": {
+      "hash": "2045e493410cc203",
+      "texto": "Conte com o olhar. Ao longo desta calçada há uma fila de altares, vinte e um no total, segundo o INAH.\n\nUma calçada é um caminho largo e elevado, feito para caminhar com ordem. Esta faz parte do nível intermediário da cidade, e em seus lados se alinham os altares.\n\nO INAH explica que eles representam os meses do ano cerimonial e que, em um caso, representam dias. Ou seja, cada altar ocupa um lugar dentro de um calendário.\n\nO México Desconocido dá mais detalhes. Fala de vinte altares redondos e um quadrado, no setor que chama de La Malinche, e diz que talvez servissem para calcular o calendário de duzentos e sessenta dias. Esse calendário ritual foi usado em toda a Mesoamérica.\n\nComo eram usados é uma proposta dos especialistas, mas não é um fato encerrado. O que sabemos é que seu número e sua disposição em fila convidam a pensar em contagens e ciclos.\n\nTalvez as pessoas percorressem a calçada em uma cerimônia, detendo-se em cada altar. É uma possibilidade, não um fato comprovado.\n\nSe você caminhar entre eles, faça isso devagar. Cada passo o aproxima do altar seguinte e lembra que, em Xochicalco, o tempo tinha forma e lugar, e podia ser pisado.\n\nA cidade não media o tempo só olhando para o céu. Também o media com pedras postas no chão."
+    },
+    "retos_observacion": {
+      "hash": "18b700af1a630f36",
+      "texto": [
+        "Conte os altares enquanto caminha",
+        "Caminhe devagar entre eles",
+        "Imagine que dia ou mês cada um representaria"
+      ]
+    },
+    "especificaciones": {
+      "hash": "577bbc8132554847",
+      "texto": {
+        "Cantidad": "vinte e um altares, segundo o INAH",
+        "Formas": "vinte redondos e um quadrado, segundo o México Desconocido",
+        "Posible uso": "contar o calendário ritual de duzentos e sessenta dias",
+        "Ubicación": "nível intermediário da cidade"
+      }
+    },
+    "faq_mito": {
+      "hash": "311167ca88b1c159",
+      "texto": {
+        "pregunta": "Mito: Sabe-se exatamente como os altares eram usados.",
+        "respuesta": "Realidade: Não. Os especialistas propõem que representam meses e dias do calendário, mas não há um texto que explique seu uso."
+      }
+    }
+  }
+}

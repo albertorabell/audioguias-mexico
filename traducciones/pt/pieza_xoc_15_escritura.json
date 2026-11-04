@@ -1,0 +1,57 @@
+{
+  "id": "xoc_15_escritura",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "retos_observacion": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "5cea5ca5e3bd9004",
+      "texto": "A escrita de Xochicalco"
+    },
+    "frase_gancho": {
+      "hash": "049cb7abf835bd55",
+      "texto": "Signos dispostos em fila que ainda ninguém lê por completo."
+    },
+    "puente_narrativo": {
+      "hash": "bb4b1244f47c7694",
+      "texto": "Continue seu percurso: siga conhecendo os espaços da Praça Principal."
+    },
+    "guion_corto": {
+      "hash": "6321edeb1b6b25da",
+      "texto": "Xochicalco teve escrita, e ela ainda não é lida por completo. Helmke e Nielsen a situam entre os anos seiscentos e oitenta e mil, na mesma época que a de Cacaxtla, Teotenango, El Cerrito e Acatlán. Na Pirâmide das Serpentes Emplumadas há um texto linear, isto é, signos dispostos em fila. Os primeiros textos do sítio foram publicados em mil oitocentos e noventa, por Peñafiel. Uma enciclopédia descreve ainda uma mistura de signos de dia de tipo nahua dentro de cartuchos de estilo maia, com numerais parecidos com os dos zapotecas. Essa mistura mostra uma cidade aberta a muitas regiões. Nenhuma leitura é definitiva. Se você vir signos no edifício, pense que está diante de um sistema de escrita que continua esperando por quem o decifre."
+    },
+    "guion_largo": {
+      "hash": "653ff7b3e0c55a68",
+      "texto": "A escrita não é exclusiva de uma única cultura. Em Xochicalco também se escreveu.\n\nHelmke e Nielsen, que estudaram esses signos, situam a escrita hieroglífica da cidade entre os anos seiscentos e oitenta e mil. Era a época do Epiclássico, e outras cidades do centro do México também escreviam: Cacaxtla, Teotenango, El Cerrito e Acatlán.\n\nNa Pirâmide das Serpentes Emplumadas há um texto linear, isto é, signos dispostos em uma fila. Entre eles aparece a data nove cana, que esses especialistas relacionam com a comemoração de uma cerimônia do fogo novo.\n\nOs primeiros textos de Xochicalco foram publicados em mil oitocentos e noventa, por Peñafiel. Mais tarde, Caso e Berlo trabalharam neles. Mesmo assim, a escrita não está decifrada.\n\nA enciclopédia World History descreve algo curioso. Diz que os signos de dia são de tipo nahua, que estão dentro de cartuchos de estilo maia e que os números se parecem com os dos zapotecas. É a descrição de uma única fonte, mas combina com o que se sabe da cidade: um lugar aberto a muitas regiões. Há outra pista: Sáenz encontrou, em uma câmara de oferendas, uma lápide com dois glifos nahuas e dois zapotecas.\n\nPor isso essa escrita é difícil de ler. Ela não pertence por completo a nenhuma tradição conhecida. Mistura recursos de várias, e quem a criou parecia estar construindo uma linguagem visual própria para uma cidade de gente diversa.\n\nUma escrita não decifrada não é uma escrita muda. É possível reconhecer datas e alguns signos. O que falta é a sintaxe, isto é, como os signos se ordenam para formar frases.\n\nSe você olhar para o edifício, procure as fileiras de signos. Talvez seja o que temos de mais próximo de uma voz desta cidade."
+    },
+    "retos_observacion": {
+      "hash": "0af2f9b756b2c135",
+      "texto": [
+        "Procure signos dispostos em fila no edifício",
+        "Compare seu estilo com as figuras maias",
+        "Pergunte ao seu guia quais signos são datas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a21d661326bd512f",
+      "texto": {
+        "Período da escrita epiclássica": "entre seiscentos e oitenta e mil",
+        "Primeiros textos publicados": "mil oitocentos e noventa, Peñafiel",
+        "Estado": "não totalmente decifrada"
+      }
+    },
+    "faq_mito": {
+      "hash": "589ddc5ca137bfc9",
+      "texto": {
+        "pregunta": "Mito: Os glifos de Xochicalco já são lidos como um texto corrido.",
+        "respuesta": "Realidade: Identificam-se datas e alguns signos, mas a escrita não está decifrada."
+      }
+    }
+  }
+}

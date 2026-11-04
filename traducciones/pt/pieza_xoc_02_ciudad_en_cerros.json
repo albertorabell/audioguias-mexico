@@ -1,0 +1,55 @@
+{
+  "id": "xoc_02_ciudad_en_cerros",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a85b947a2b8957cb",
+      "texto": "Uma cidade nos morros"
+    },
+    "frase_gancho": {
+      "hash": "c993dbd43b575f5a",
+      "texto": "Terraços, muros e fossos para sustentar e defender uma cidade inteira."
+    },
+    "puente_narrativo": {
+      "hash": "6a44071928698bda",
+      "texto": "Siga o seu roteiro: o caminho de entrada mostra como se controlava a passagem para esta cidade."
+    },
+    "guion_corto": {
+      "hash": "05b6b4758304001d",
+      "texto": "A cidade de Xochicalco não está sobre um único morro. Os arqueólogos falam de três morros modificados e unidos por terraços, e de outros seis mais baixos ao redor, onde também viveu gente. Para transformar essas encostas em uma cidade, foi preciso cortar a rocha, aterrar vazios e erguer muros de contenção. Os espaços abertos se conectavam por escadas, terraços e rampas ao longo de um eixo de norte a sul. A UNESCO distingue três níveis: embaixo, uma zona residencial cercada por muros; no meio, o mercado e a maior quadra; no alto, os templos ao redor da Praça Principal. Essa ordem não é casual. Quem subia ia passando da vida diária ao poder e ao sagrado."
+    },
+    "guion_largo": {
+      "hash": "6a161554bee29906",
+      "texto": "Olhe a cidade como um conjunto de degraus. Xochicalco foi erguida em uma região de acesso difícil, sobre uma série de morros naturais, e isso foi parte de sua defesa.\n\nSegundo o INAH, a cidade foi fundada na segunda metade do século sete sobre vários morros. Também houve ocupação em seis morros mais baixos do entorno. Kenneth Hirth explica que o núcleo era formado por três morros modificados e conectados por terraços.\n\nPara isso, foi feita uma grande obra de engenharia. Um estudo de conservação descreve que o morro foi remodelado com cortes e aterros. Os terraços e os muros de contenção criaram espaços planos para praças e casas. Escadas, rampas e terraços os unem ao longo de um eixo principal de norte a sul.\n\nA UNESCO divide a cidade em três níveis. No nível baixo havia uma zona residencial, cercada por muros com entradas defendidas. No nível intermediário ficavam um conjunto de mercado e a maior quadra de jogo de bola. No nível alto, os templos se agrupam ao redor da Praça Principal.\n\nA defesa também estava escrita na paisagem. O diretor da zona arqueológica, Medina Romero, menciona uma muralha de quatro metros de altura, com bastiões e fossos, no lado sul. Outras descrições falam de rampas, fossos, bastiões e fortes. Uma cidade assim não era pensada para passear. Era pensada para resistir.\n\nUm dado antigo: Antonio Alzate, que visitou o sítio em mil setecentos e setenta e sete, calculou o morro principal em cerca de cento e sete metros de altura. É uma medição de mais de dois séculos atrás, mas mostra o quanto a imensidão da montanha o impressionou.\n\nA maior parte das casas das encostas continua sem ser escavada. Isso significa que o que você vê é apenas uma parte da cidade. Sob muitos terraços pode haver mais história.\n\nEnquanto caminha, repare em duas coisas: os muros que sustentam o terreno e o modo como as escadas vão unindo um nível ao outro. Isso é Xochicalco: uma cidade construída com as mãos, pedra sobre pedra, sobre uns morros difíceis."
+    },
+    "retos_observacion": {
+      "hash": "da6d404d59f6fd5d",
+      "texto": [
+        "Procure um muro de contenção e observe como ele sustenta a encosta",
+        "Conte quantos níveis você distingue de onde está",
+        "Pense em quem subia e em quem ficava embaixo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "72702a2920097db4",
+      "texto": {
+        "Localização": "sobre uma série de morros naturais",
+        "Morros do núcleo": "três modificados, segundo Hirth",
+        "Níveis": "baixo, intermediário e alto, segundo a UNESCO",
+        "Muralha sul": "quatro metros de altura, com bastiões e fossos",
+        "Superfície protegida": "707 ha"
+      }
+    },
+    "faq_mito": {
+      "hash": "8357c29445281361",
+      "texto": {
+        "pregunta": "Mito: Xochicalco foi construída em um único morro.",
+        "respuesta": "Realidade: Ela foi erguida sobre vários morros modificados e unidos por terraços, e também havia gente vivendo em morros mais baixos ao redor."
+      }
+    }
+  }
+}
