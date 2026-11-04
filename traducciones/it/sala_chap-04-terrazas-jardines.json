@@ -1,0 +1,29 @@
+{
+  "id": "chap-04-terrazas-jardines",
+  "tipo": "sala",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "frase_gancho": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ],
+    "introduccion_narrativa": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "6e365a16baf73924",
+      "texto": "Terrazze e giardini"
+    },
+    "frase_gancho": {
+      "hash": "6c6d1ae5bd2c9a4a",
+      "texto": "In cima al colle, il castello si apre all’aria aperta con giardini intimi, terrazze panoramiche e una torre che fu osservatorio."
+    },
+    "introduccion_narrativa": {
+      "hash": "cc1b236e03b4f32f",
+      "texto": "Qui il castello esce dalle sale e si apre all’aria aperta. Ciò che racconta questa zona sta nel colle stesso. Un cartello del museo colloca la parte più alta del promontorio a circa quarantacinque metri sopra Città del Messico. Spiega che dalla sommità si domina la conca. Un bollettino dell’INAH ricorda inoltre che il colle fu un punto strategico per le campagne militari. Le terrazze sono cambiate in ogni epoca. Con Massimiliano e Carlotta fu costruita una terrazza panoramica di fronte alle stanze a oriente. Nel milleottocentosettantotto una terrazza fu ampliata per il primo Osservatorio Astronomico Nazionale. Durante il porfiriato fu installata una grande vetrata sulla terrazza orientale del Piano superiore, che secondo il museo si conserva ancora oggi. In questa zona ci sono un giardino intimo, un torrione, un belvedere e la memoria di una difesa. Sono quattro modi di comprendere la storia di uno stesso luogo."
+    }
+  }
+}

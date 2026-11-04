@@ -1,0 +1,26 @@
+{
+  "id": "chap-02-museo-historia",
+  "tipo": "sala",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "ffbfbecd1ac16f2f",
+      "texto": "Museo di Storia (ex Collegio Militare)"
+    },
+    "frase_gancho": {
+      "hash": "d97128f016e6c65d",
+      "texto": "Un edificio che è stato scuola militare, osservatorio e residenza oggi racconta la storia del Messico come Museo Nazionale di Storia."
+    },
+    "introduccion_narrativa": {
+      "hash": "77af98a7d4cd4c49",
+      "texto": "Prima di essere un museo, questa parte dell’edificio è stata una scuola. Dopo i lavori iniziati nel milleottocentoquarantuno, il castello fu adattato a Collegio Militare. Fu il teatro della difesa del tredici settembre milleottocentoquarantasette, che lasciò gravi danni all’immobile. Il collegio non vi rimase per sempre. Secondo lo storico Michael Drewes, nel milleottocentocinquantotto il generale Miramón trasferì gli allievi. La scuola tornò intorno al milleottocentottantadue. Il Museo Nazionale di Storia aggiunge un dato. Nel milleottocentottantatré l’osservatorio si trasferì a Tacubaya perché il castello tornasse a essere Collegio Militare. La fase da museo arrivò con il presidente Lázaro Cárdenas, che trasferì la sua residenza ufficiale a Los Pinos. Il tre febbraio milleniovecentotrentanove fu dichiarato Museo Nazionale di Storia. Fu inaugurato il ventisette settembre milleniovecentoquarantaquattro."
+    }
+  }
+}

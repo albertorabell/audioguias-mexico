@@ -1,0 +1,57 @@
+{
+  "id": "chap_27_estandarte_hidalgo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f341b68cd75663da",
+      "texto": "Lo stendardo di Guadalupe e le reliquie di Hidalgo"
+    },
+    "frase_gancho": {
+      "hash": "5facb397c8c952ed",
+      "texto": "Un prete che suonava il violino, una tela staccata in un santuario e un bastone: così nacque lo stendardo dell’Indipendenza."
+    },
+    "puente_narrativo": {
+      "hash": "ed751b336ffff191",
+      "texto": "Prosegui verso la prossima tappa, dove la guerra iniziata con quella tela continua con due uomini che si scontrarono: José María Morelos e Agustín de Iturbide."
+    },
+    "guion_corto": {
+      "hash": "94af4d86fd7c564b",
+      "texto": "Hidalgo aveva cinquantasette anni quando prese le armi. Era un prete accademico e un notevole violinista, che suonava nelle tertulias di casa sua. Partì da Dolores alle undici del mattino e arrivò al santuario di Atotonilco alle cinque e mezza del pomeriggio. Lì, secondo la dichiarazione del cappellano, un contadino chiese un’immagine a una delle beate e la fissò a un bastone. Quella tela della Vergine di Guadalupe è lo stendardo dell’Indipendenza."
+    },
+    "guion_largo": {
+      "hash": "e65a9939fbdddc82",
+      "texto": "Miguel Hidalgo aveva cinquantasette anni quando prese le armi. Non era un guerriero. Era un prete accademico, noto a Dolores per la sua cultura e per il suo violino: suonava nelle tertulias che si tenevano in casa sua. Questa è la persona di cui la sala custodisce le tracce.\n\nNella notte che precedeva l’alba del sedici settembre milleottocentodieci, la campana di Dolores chiamò la gente. All’inizio si riunirono ottanta uomini con spade e lance. Le schede della sala raccontano che in poche ore erano già seicento. La colonna partì da Dolores alle undici del mattino, mangiò e riposò nella hacienda de la Erre, e arrivò al santuario di Atotonilco alle cinque e mezza del pomeriggio.\n\nAd Atotonilco accadde qualcosa che cambiò l’insurrezione. Qualcuno prese dal santuario una tela della Vergine di Guadalupe e la innalzò. Ma nessuno sa con certezza chi la prese. Ignacio Allende, durante il processo, dichiarò di non sapere per ordine di chi fosse stata presa la tela. Il cappellano di Atotonilco dichiarò che fu un contadino a chiedere un’immagine a una delle beate del santuario e a fissarla a un bastone. Così nacque lo stendardo: non da un piano, ma da un gesto improvvisato che divenne simbolo.\n\nLo stendardo proseguì il suo cammino con gli insorti. Fu catturato dall’esercito di Félix María Calleja a San Jerónimo Aculco. Nel milleottocentocinquantatré fu inscritta una leggenda sul suo rovescio. Oggi è esposto su un piedistallo di legno intagliato, realizzato nel millenovecentoundici.\n\nIntorno allo stendardo si trovano le reliquie. In tutto il museo si conserva appena una cinquantina di oggetti di Hidalgo, recuperati in gran parte intorno al millenovecentodieci, quando si celebrò il Centenario. La scheda che li presenta s’intitola El pudor de la historia. Tra di essi ci sono pezzi intimi: il fonte battesimale in cui fu battezzato, il confessionale della parrocchia di Dolores, l’abito che usava per amministrare i sacramenti e un reliquiario con la Vergine dei Dolori.\n\nQuesto è l’altro volto dell’uomo che hai già visto due volte nel [retablo di O’Gorman](chap_04_retablo_independencia). Lì è un simbolo su un muro; qui è una persona, con il suo violino, il suo confessionale e il suo fonte battesimale. La guerra iniziata con quella tela proseguì con altri capi. Il prossimo è [Morelos](chap_06_morelos_iturbide), che era stato allievo di Hidalgo."
+    },
+    "retos_observacion": {
+      "hash": "b35c7e8187a953aa",
+      "texto": [
+        "Cerca lo stendardo della Vergine di Guadalupe e osserva il piedistallo di legno intagliato che lo sostiene",
+        "Individua il confessionale della parrocchia di Dolores e il fonte battesimale",
+        "Cerca il reliquiario con la Vergine dei Dolori e l’abito che usava per amministrare i sacramenti"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b4e7e40a2c7c6a6c",
+      "texto": {
+        "Oggetto": "Stendardo di Guadalupe di Miguel Hidalgo",
+        "Luogo in cui fu preso": "santuario di Atotonilco, 16 settembre 1810",
+        "Partenza da Dolores": "11:00; arrivo ad Atotonilco: 17:30",
+        "Cattura": "San Jerónimo Aculco, da parte di Calleja",
+        "Leggenda sul rovescio": "1853",
+        "Piedistallo": "legno intagliato, 1911",
+        "Reliquie": "fonte battesimale, confessionale di Dolores, abito sacramentale, reliquiario con la Vergine dei Dolori"
+      }
+    },
+    "faq_mito": {
+      "hash": "844663168a3d225a",
+      "texto": {
+        "pregunta": "Mito: Hidalgo preparò lo stendardo in anticipo.",
+        "respuesta": "Realtà: Allende dichiarò durante il processo di non sapere per ordine di chi fosse stata presa la tela, e il cappellano di Atotonilco disse che un contadino chiese un’immagine a una beata e la fissò a un bastone."
+      }
+    }
+  }
+}

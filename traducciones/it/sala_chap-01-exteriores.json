@@ -1,0 +1,27 @@
+{
+  "id": "chap-01-exteriores",
+  "tipo": "sala",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Tolteco\" para \"Tolteca / Toltecas\" y no aparece",
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "4ea0f6187c7eceae",
+      "texto": "Esterni e accesso"
+    },
+    "frase_gancho": {
+      "hash": "dbcaf59c0e511d48",
+      "texto": "Molto prima di essere un castello, questo colle serviva già a osservare il sole, a vivere accanto ai laghi e a sorvegliare la valle."
+    },
+    "introduccion_narrativa": {
+      "hash": "6fb90e889189758f",
+      "texto": "Il percorso comincia da un colle, non da un edificio. Un bollettino dell’INAH sulle ricerche archeologiche di Chapultepec descrive il colle come un cono vulcanico. Si formò tra ventitré e cinque milioni di anni fa e sorse accanto ai laghi della valle. Lo stesso testo racconta che gruppi stanziati usarono la collina per osservare il sole e tenere il conto del tempo. Afferma inoltre che l’area fu abitata da almeno duemila anni, e che la occuparono gli abitanti di Teotihuacán, i Toltechi e i Mexica. Fin dall’epoca vicereale, inoltre, il colle fu un punto strategico per le campagne militari. Una scheda del museo colloca la sua sommità a circa quarantacinque metri sopra il livello di Città del Messico. Il castello che oggi la corona iniziò a essere costruito nel millesettecentottantacinque. Fu per ordine del viceré Bernardo de Gálvez, come luogo di riposo. In questa prima zona passerai dal paesaggio all’edificio, e da una storia molto antica a una più recente."
+    }
+  }
+}

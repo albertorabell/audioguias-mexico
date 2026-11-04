@@ -1,0 +1,56 @@
+{
+  "id": "chap_28_salon_gobelinos",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5246c8622a6c01fd",
+      "texto": "Il Salone dei Gobelins"
+    },
+    "frase_gancho": {
+      "hash": "09ceebeb2c461b0a",
+      "texto": "Un salotto in legno di nocciolo e arazzi che Napoleone III regalò a Massimiliano, e quattro ritratti di due coppie di monarchi."
+    },
+    "puente_narrativo": {
+      "hash": "411fd8fa951161ca",
+      "texto": "Prosegui verso la Camera di Carlotta, l’imperatrice che governò quando suo marito era lontano."
+    },
+    "guion_corto": {
+      "hash": "a582dd68048f1934",
+      "texto": "Questa sala si chiama Salone dei Gobelins, e la sua didascalia la intitola Nostalgia per l’Europa. Ha un salotto in legno di nocciolo in stile Luigi Quindicesimo, con tappezzeria di Aubusson con le favole di La Fontaine, dono personale di Napoleone Terzo a Massimiliano. Alle pareti sono appesi quattro ritratti dipinti da Albert Graefle nel milleottocentosessantacinque, e ci sono due pianoforti, uno francese e uno inglese."
+    },
+    "guion_largo": {
+      "hash": "f3cd2ce0bd404558",
+      "texto": "Quando Massimiliano e Carlotta si stabilirono a Chapultepec, portarono in Messico un pezzo d’Europa. La didascalia di questa sala lo dice nel titolo: Nostalgia per l’Europa.\n\nIl pezzo più prezioso è un salotto di sedute in legno di nocciolo, in stile Luigi Quindicesimo, con tappezzeria di Aubusson. Nella tappezzeria compaiono le favole di Jean de La Fontaine, l’autore francese delle rane, delle volpi e dei corvi. Non fu un acquisto: fu un dono personale dell’imperatore Napoleone Terzo a Massimiliano.\n\nOra guarda le pareti. Ci sono quattro ritratti dipinti da Albert Graefle nel milleottocentosessantacinque: Massimiliano, Carlotta, Napoleone Terzo e sua moglie, Eugenia de Montijo. I monarchi francesi furono i tutori politici della coppia imperiale. Sono due coppie sulla stessa parete: quella che governava il Messico e quella che l’aveva posta sul trono.\n\nNella sala ci sono inoltre due pianoforti, uno francese e uno inglese, che appartennero personalmente a Massimiliano e a Carlotta.\n\nQuesta stanza non è sempre stata un salone. La didascalia riporta un riquadro, Questo spazio in altri tempi, che elenca i suoi usi. Nel milleottocentosessantasei erano stanze per i dipendenti e un guardaroba. Nel milleottocentosettantasette fu la stanza del direttore dell’osservatorio. Nel milleottocentottantadue, con il presidente Manuel González, fu la stanza della governante. E nel millenovecentosei, con Porfirio Díaz, si trasformò nella Sala Baja. Quattro epoche, quattro mestieri, e un salotto di nocciolo che oggi li riunisce.\n\nNon confonderlo con il vicino [Salone degli Ambasciatori](chap_17_salon_embajadores), che racconta un’altra storia. La prossima tappa è la [camera di Carlotta](chap_18_recamara_carlota), l’imperatrice che viaggiò in Europa a chiedere aiuto quando l’Impero stava crollando."
+    },
+    "retos_observacion": {
+      "hash": "bc21a04080b9faba",
+      "texto": [
+        "Cerca i quattro ritratti di Albert Graefle e riconosci le due coppie di monarchi",
+        "Individua i due pianoforti, uno francese e uno inglese",
+        "Osserva la tappezzeria delle sedute: sono scene delle favole di La Fontaine"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1ab09abec71f2720",
+      "texto": {
+        "Nome sulla didascalia": "Salone dei Gobelins (Nostalgia per l’Europa)",
+        "Ritratti": "Albert Graefle, 1865 (Massimiliano, Carlotta, Napoleone III ed Eugenia de Montijo)",
+        "Pianoforti": "uno francese e uno inglese",
+        "Sedute": "legno di nocciolo, stile Luigi XV, tappezzeria di Aubusson con favole di La Fontaine",
+        "Origine": "dono personale di Napoleone III a Massimiliano",
+        "Usi precedenti": "1866 guardaroba e stanze dei dipendenti; 1877 direttore dell’osservatorio; 1882 governante; 1906 Sala Baja"
+      }
+    },
+    "faq_mito": {
+      "hash": "19aa53acaa4f7c55",
+      "texto": {
+        "pregunta": "Mito: I mobili di questo salone furono acquistati da Massimiliano per impressionare gli ambasciatori.",
+        "respuesta": "Realtà: Il salotto in legno di nocciolo con tappezzeria di Aubusson fu un dono personale di Napoleone III a Massimiliano. Il Salone degli Ambasciatori è un’altra sala, dell’epoca di Porfirio Díaz."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chap_30_salon_malaquitas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "012eb64d0a3c2501",
+      "texto": "Il Salone delle Malachiti: la pietra verde della Russia"
+    },
+    "frase_gancho": {
+      "hash": "fc021eb2ca43a276",
+      "texto": "Il museo conserva i pezzi di malachite più grandi che esistano fuori dalla Russia, e si trovano in questa sala."
+    },
+    "puente_narrativo": {
+      "hash": "ce931520fe8a4a8b",
+      "texto": "Prosegui il percorso verso le terrazze del castello. Lì la collina scende verso il bosco e si ricorda la difesa di settembre del milleottocentoquarantasette."
+    },
+    "guion_corto": {
+      "hash": "1dea80b418aaba93",
+      "texto": "Questa sala custodisce i pezzi di malachite più grandi che esistano fuori dalla Russia, secondo lo stesso Museo Nazionale di Storia. Sono quattro opere di grande formato, e una di esse è una porta. La malachite è una pietra verde con anelli e venature, e lavorarla era così difficile che divenne un simbolo di ricchezza. I pezzi arrivarono in Messico per ordine di Porfirio Díaz, che li voleva per ornare un salone del Palazzo Nazionale. Oggi si trovano qui, nella parte alta dell’Alcázar, che fu la residenza estiva del presidente durante il Porfiriato. Prima di proseguire, osserva il verde: sembra un’unica superficie, ma i disegni della pietra sono assemblati con pazienza."
+    },
+    "guion_largo": {
+      "hash": "13e42ecdcdca5183",
+      "texto": "C’è una sala di El Castillo in cui domina il verde. È il Salone delle Malachiti, al piano superiore dell’Alcázar. Il museo sostiene che qui si trovano i pezzi di malachite più grandi che esistano fuori dalla Russia. Questo dato aiuta a capire perché questa sala attiri tanto l’attenzione, e perché molti visitatori si fermino più a lungo di quanto pensavano.\n\nLa malachite è un minerale di rame di colore verde. Il suo tratto più riconoscibile sono gli anelli e le bande che formano disegni simili alle venature del legno. In grandi blocchi non si trova quasi mai. Per questo gli oggetti grandi di malachite si realizzavano in un altro modo, con più pazienza e più mestiere.\n\nLa tecnica più conosciuta è il mosaico russo. Consiste nel tagliare lamine sottilissime di pietra e incollarle su una base, curando che i disegni di un pezzo proseguano in quello successivo. Da lontano, il risultato sembra un unico blocco. Da vicino si scoprono le giunture, e allora si capisce il lavoro che richiedeva. Un pezzo così poteva richiedere molto tempo per essere terminato.\n\nConviene dirlo con cautela. Le fonti pubbliche del museo non spiegano nel dettaglio come sia stato realizzato ciascun pezzo di questa sala. Il mosaico è il modo abituale di lavorare la malachite in grande formato. Ciononostante, il museo ha dedicato un’intera conferenza alla sua origine, al suo contesto, alla sua manifattura e alla sua attribuzione. È segno che c’è ancora molto da studiare.\n\nCiò che il museo racconta è la storia del loro arrivo. I pezzi furono portati dalla Russia in Messico per ordine di Porfirio Díaz. Li voleva per ornare una delle sale del Palazzo Nazionale. In seguito entrarono a far parte della collezione del museo, e oggi hanno un salone tutto per sé. Una delle opere è una porta, e in tutto sono quattro opere monumentali.\n\nIl contesto aiuta a leggere questo gesto. Durante il Porfiriato si cercava di mostrare un paese moderno e raffinato. Lo si notava nei mobili, nei cristalli e negli oggetti portati dall’Europa. Questa parte dell’Alcázar fu allestita come la residenza estiva di Porfirio Díaz e di sua moglie, Carmen Romero Rubio. Fu tra il milleottocentottantatré e il millenovecentodieci. Come hai visto nella [sala da pranzo imperiale](chap_15_comedor_imperial), il castello custodiva lussi di due epoche diverse, quella dell’Impero e quella del Porfiriato.\n\nUna malachite russa in Messico parla anche di un mondo connesso. C’è un minerale estratto lontano, un mestiere di bottega che esigeva un’enorme pazienza e un governo che voleva mettersi in mostra. Tre storie diverse si incontrano in una stessa porta.\n\nFermati a guardare. Verifica come cambiano i disegni da un lato all’altro e cerca le linee in cui una lamina si unisce all’altra. Osserva anche la lucentezza della lucidatura, che dà profondità al verde. Se ti avvicini con calma, la pietra smette di essere uno sfondo e diventa il tema della sala."
+    },
+    "retos_observacion": {
+      "hash": "b8fe3bc0474e2b4a",
+      "texto": [
+        "Cerca gli anelli e le bande che disegnano la pietra, simili alle venature del legno",
+        "Trova le linee in cui una lamina si unisce a quella successiva",
+        "Individua la porta di malachite e guarda come proseguono i disegni da un lato all’altro"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a1705ac6e2493f74",
+      "texto": {
+        "Sala": "Salone delle Malachiti, piano superiore dell’Alcázar",
+        "Materiale": "Malachite, minerale di rame di colore verde",
+        "Origine": "Russia, secondo il museo",
+        "Opere": "Quattro opere monumentali, tra cui una porta",
+        "Commissione": "Per ordine di Porfirio Díaz, per un salone del Palazzo Nazionale",
+        "Dato del museo": "I più grandi pezzi di malachite fuori dalla Russia"
+      }
+    },
+    "faq_mito": {
+      "hash": "538694adc7744ca2",
+      "texto": {
+        "pregunta": "Mito: I pezzi di malachite di questa sala sono ricavati da un unico blocco di pietra.",
+        "respuesta": "Realtà: In grande formato, la malachite si lavora quasi sempre con lamine sottili incollate su una base, nella tecnica chiamata mosaico russo. Le fonti del museo non spiegano nel dettaglio come sia stato realizzato ciascun pezzo di questa sala."
+      }
+    }
+  }
+}

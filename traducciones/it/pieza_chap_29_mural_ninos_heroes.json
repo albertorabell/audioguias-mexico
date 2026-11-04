@@ -1,0 +1,60 @@
+{
+  "id": "chap_29_mural_ninos_heroes",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "dbe70f7bbbda003a",
+      "texto": "Sacrificio dei Bambini Eroi: il murale di Gabriel Flores"
+    },
+    "frase_gancho": {
+      "hash": "ba0d0349c07ee9b6",
+      "texto": "Un cadetto cade dall’alto con la bandiera sul braccio: così Gabriel Flores dipinse il ricordo più noto della difesa di questa collina."
+    },
+    "puente_narrativo": {
+      "hash": "74404ccf0786a5d4",
+      "texto": "Prosegui verso la prossima tappa del percorso: un’altra intervenzione straniera ti porta a Puebla, al cinque maggio milleottocentosessantadue e al murale di Orozco."
+    },
+    "guion_corto": {
+      "hash": "f376968d09131bc6",
+      "texto": "Come si dipinge un sacrificio? Gabriel Flores, pittore di Jalisciense secondo il museo, lo risolse con una caduta: Juan Escutia scende dall’alto con la bandiera del Messico sul braccio. L’opera ricorda il tredici settembre milleottocentoquarantasette, quando l’esercito degli Stati Uniti prese questa collina e morirono dei cadetti del Collegio Militare. Sullo sfondo compaiono sagome di armi e di cavalli nemici, El Castillo stesso, l’ex convento di Churubusco e la Cattedrale, scenari di quella guerra. È un’immagine fatta per commuovere, e per questo è diventata una delle più riprodotte del museo. Conviene guardarla come un simbolo: più avanti ti spiego quale parte è storia comprovata e quale parte è tradizione."
+    },
+    "guion_largo": {
+      "hash": "814d1f42c711661c",
+      "texto": "Sei nomi si ripetono ogni tredici settembre in Messico: Juan de la Barrera, Juan Escutia, Francisco Márquez, Agustín Melgar, Fernando Montes de Oca e Vicente Suárez. Sono i cadetti del Collegio Militare che la memoria nazionale chiama Bambini Eroi. Questo murale non li ritrae uno per uno. Concentra tutto in una sola figura che cade.\n\nLa scena ha origine nella guerra tra Messico e Stati Uniti. Nel milleottocentoquarantasette l’esercito statunitense avanzò fino alla Valle del Messico. Questo castello era allora sede del Collegio Militare e funzionava come fortezza. Il tredici settembre le truppe attaccarono la collina. La difesa era al comando del generale Nicolás Bravo, con soldati e con alcuni cadetti. Al termine della giornata, il colle era nelle mani dell’invasore.\n\nL’autore è Gabriel Flores, che il museo presenta come pittore di Jalisco. Dipinse l’opera nel ventesimo secolo, quando il castello era ormai un museo e le sue scale e le sue sale si riempivano di murali sulla storia del paese. Le pubblicazioni non sempre concordano sulla data esatta né sul luogo preciso in cui si trova, quindi non vale la pena soffermarsi su questo. Ciò che conta è quello che vedi: un giovane che scende con la bandiera del Messico sul braccio.\n\nGuarda lo sfondo. Ci sono la sagoma di un’aquila, armi e cavalli dell’esercito invasore. E compaiono tre scenari di quella guerra: questo stesso castello, l’ex convento di Churubusco e la Cattedrale. Il pittore riunì in una sola immagine luoghi e momenti diversi. Così trasformò una lunga campagna in una scena che si comprende a colpo d’occhio.\n\nOra, la parte che conviene dire con attenzione. La versione più nota racconta che Juan Escutia si avvolse nella bandiera e si lanciò dall’alto perché non fosse catturata. È una tradizione molto radicata. Ma gli storici discutono i dettagli, e i racconti non concordano su chi fece che cosa quel giorno. Ciò che è comprovato è più sobrio: tra i difensori c’erano cadetti del Collegio Militare, e alcuni morirono in combattimento.\n\nPer questo il murale non è un documento. È un’interpretazione artistica, realizzata più di un secolo dopo, che costruisce un simbolo. Anche questa è una forma di storia: mostra che cosa ricorda un paese e come vuole ricordarlo. Per questa ragione l’immagine compare nei libri di testo, nelle cerimonie e nel nome di strade e monumenti.\n\nDue spunti per continuare a riflettere. Il primo è nella composizione: la figura cade, ma lo sguardo sale, perché il pittore l’ha collocata in alto. Una lettura possibile è che il sacrificio pesi più della sconfitta. Il secondo è il luogo. Questo stesso edificio fu la sede del Collegio Militare, e nel [cortile dei cannoni](chap_03_patio_canones) hai già visto il luogo dove i cadetti si schieravano in formazione.\n\nPiù avanti, quando arriverai alle terrazze, potrai guardare il colle dal lato da cui si ricorda quella difesa, nella [terrazza dei Bambini Eroi](chap_25_terraza_ninos_heroes). Lì l’immagine del murale si unisce al paesaggio reale."
+    },
+    "retos_observacion": {
+      "hash": "35f6e0adf1522e2b",
+      "texto": [
+        "Cerca la bandiera sul braccio della figura che cade",
+        "Trova sullo sfondo la sagoma dell’aquila e le armi dell’esercito invasore",
+        "Individua i tre scenari della guerra: El Castillo, l’ex convento di Churubusco e la Cattedrale"
+      ]
+    },
+    "especificaciones": {
+      "hash": "772938f87ba95c00",
+      "texto": {
+        "Opera": "Sacrificio dei Bambini Eroi (L’intervento nordamericano)",
+        "Autore": "Gabriel Flores, pittore di Jalisco secondo il museo",
+        "Tecnica": "Murale",
+        "Fatto storico": "Difesa di El Castillo, 13 settembre 1847",
+        "Personaggio centrale": "Juan Escutia",
+        "Luogo nel museo": "Scalinata principale, secondo una pubblicazione del museo"
+      }
+    },
+    "faq_mito": {
+      "hash": "82cbf131cabb80cc",
+      "texto": {
+        "pregunta": "Mito: I sei Bambini Eroi erano bambini delle elementari.",
+        "respuesta": "Realtà: Erano cadetti del Collegio Militare, giovani in formazione militare. Il nome di Bambini Eroi è una formula della memoria nazionale, e i dettagli di come morì ciascuno variano a seconda delle versioni."
+      }
+    }
+  }
+}
