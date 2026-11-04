@@ -259,6 +259,7 @@ async function handleStripeWebhook(request, env, cfg, cors) {
 const EVENTS = new Set([
   'app_open', 'piece_view', 'audio_play', 'audio_end', 'paywall_open', 'checkout_start', 'lang_change',
   'route_start', 'tour_done', 'install', 'offline_download', 'search', 'purchase', 'refund', 'code_redeem',
+  'screen_view', 'visit_country',
 ]);
 const PIECE_RE = /^[a-z0-9_]{3,60}$/;
 const DAILY_KEY_LIMIT = 3000;
@@ -289,12 +290,17 @@ async function handleEvent(request, env, cfg, cors) {
   // Solo desde la app (sitio permitido): evita que cualquiera infle los números con un script suelto
   if (!cors['Access-Control-Allow-Origin']) return json({ error: 'origin_not_allowed' }, 403);
   const body = await readJson(request);
-  if (!body || typeof body.e !== 'string' || !EVENTS.has(body.e) || body.e === 'purchase' || body.e === 'refund') return json({ error: 'bad_request' }, 400, cors);
+  if (!body || typeof body.e !== 'string' || !EVENTS.has(body.e) || body.e === 'purchase' || body.e === 'refund' || body.e === 'visit_country') return json({ error: 'bad_request' }, 400, cors);
   const book = await loadBook(env, cfg);
   // Sin sitio (por ejemplo, la pantalla de inicio) el evento se cuenta sin sitio, no en el primero de la lista
   const site = siteKey(body.s);
   if (site && !book.ids.has(site)) return json({ error: 'bad_request' }, 400, cors);
   await countEvent(env, body.e, { s: site, p: body.p, l: body.l, m: body.m, k: body.k });
+  // País de la visita: lo da Cloudflare en la petición (dos letras). No se guarda la IP ni nada más, solo el contador del país.
+  if (body.e === 'app_open') {
+    const country = String(request.cf?.country || request.headers.get('CF-IPCountry') || '').toUpperCase();
+    if (/^[A-Z]{2}$/.test(country)) await countEvent(env, 'visit_country', { k: country });
+  }
   return new Response(null, { status: 204, headers: cors });
 }
 

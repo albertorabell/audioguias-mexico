@@ -86,6 +86,15 @@
     <h2>Idiomas</h2>
     <div class="card" id="langs"></div>
 
+    <h2>De qué país entran</h2>
+    <div class="card" id="countries"></div>
+
+    <h2>Cómo llegan a la app</h2>
+    <div class="card" id="sources"></div>
+
+    <h2>Pantallas más vistas</h2>
+    <div class="card" id="screens"></div>
+
     <p class="note">«Visitas» son aperturas de la app, no personas: quien vuelve cuenta otra vez. Los días van en hora UTC. Las cifras son aproximadas (dos eventos exactamente simultáneos pueden contarse como uno).</p>
   </section>
 </main>
@@ -232,6 +241,31 @@
       lbox.appendChild(r);
     });
     if (!lt) lbox.textContent = 'Todavía no hay datos.';
+
+    // Barras simples: cuenta por la clave k de un evento (país, origen o pantalla)
+    function tally(box, event, labelOf, emptyText) {
+      var m = {}, total = 0;
+      rs.forEach(function (r) { if (r.e === event && r.k) { m[r.k] = (m[r.k] || 0) + r.n; total += r.n; } });
+      box.innerHTML = '';
+      Object.keys(m).sort(function (a, b) { return m[b] - m[a]; }).slice(0, 15).forEach(function (k) {
+        var row = el('div', undefined, 'hbar');
+        row.appendChild(el('span', labelOf(k)));
+        var track = el('div', undefined, 'track'), fill = el('div', undefined, 'fill'); fill.style.width = (m[k] / total) * 100 + '%'; track.appendChild(fill); row.appendChild(track);
+        row.appendChild(el('span', fmt(m[k]) + ' · ' + pct(m[k], total), 'n'));
+        box.appendChild(row);
+      });
+      if (!total) box.textContent = emptyText;
+    }
+    var regionNames = null;
+    try { regionNames = new Intl.DisplayNames(['es'], { type: 'region' }); } catch (e) {}
+    tally($('countries'), 'visit_country', function (c) {
+      if (c === 'XX' || c === 'T1') return 'No se sabe';
+      try { return (regionNames && regionNames.of(c)) || c; } catch (e) { return c; }
+    }, 'Todavía no hay datos de país (empiezan a contarse desde la última actualización).');
+    var srcNames = { app_instalada: 'Abren la app instalada', qr: 'Un QR o enlace con código', buscador: 'Un buscador (Google, Bing…)', redes: 'Redes sociales', otro_sitio: 'Otra página web', directo: 'Escribieron la dirección o la tenían guardada' };
+    tally($('sources'), 'app_open', function (k) { return srcNames[k] || k; }, 'Todavía no hay datos de origen.');
+    var scrNames = { inicio: 'Inicio', salas: 'Salas o zonas', recorridos: 'Recorridos', mapa: 'Mapa', buscar: 'Buscar', sala: 'Dentro de una sala', ficha: 'Ficha de una obra o parada', asistente: 'Asistente de recorrido', fin_recorrido: 'Final de un recorrido' };
+    tally($('screens'), 'screen_view', function (k) { return scrNames[k] || k; }, 'Todavía no hay datos de pantallas.');
   }
 
   $('loginForm').addEventListener('submit', function (e) { e.preventDefault(); load(); });

@@ -16,7 +16,46 @@ export type AnalyticsEvent =
   | 'route_start'
   | 'tour_done'
   | 'install'
-  | 'offline_download';
+  | 'offline_download'
+  | 'screen_view';
+
+/**
+ * De dónde llegó la persona, en una categoría muy general (nunca la dirección completa ni ningún código).
+ * Se calcula al cargar el módulo, antes de que la app quite ?c= de la dirección.
+ */
+export type TrafficSource = 'app_instalada' | 'qr' | 'buscador' | 'redes' | 'otro_sitio' | 'directo';
+
+export function classifySource(search: string, referrer: string, ownHost: string, standalone: boolean): TrafficSource {
+  if (standalone) return 'app_instalada';
+  const params = new URLSearchParams(search);
+  if (params.has('c') || params.has('qr') || params.has('utm_source')) return 'qr';
+  if (!referrer) return 'directo';
+  let host = '';
+  try {
+    host = new URL(referrer).hostname.toLowerCase().replace(/^www\./, '');
+  } catch {
+    return 'directo';
+  }
+  if (!host || host === ownHost.toLowerCase().replace(/^www\./, '')) return 'directo';
+  if (/(^|\.)(google|bing|duckduckgo|yahoo|ecosia|baidu|yandex)\./.test(host) || host === 'search.brave.com') return 'buscador';
+  if (/(^|\.)(facebook|instagram|tiktok|twitter|x|t|reddit|linkedin|pinterest|youtube|whatsapp|wa)\.(com|co|me|net)$/.test(host) || host === 't.co' || host === 'l.facebook.com') return 'redes';
+  return 'otro_sitio';
+}
+
+let SOURCE: TrafficSource = 'directo';
+try {
+  if (typeof window !== 'undefined') {
+    const standalone = !!(window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || (navigator as any).standalone === true;
+    SOURCE = classifySource(window.location.search, document.referrer, window.location.hostname, standalone);
+  }
+} catch {
+  /* sin acceso a la dirección: se queda en «directo» */
+}
+
+/** Origen de esta visita (solo se manda con la apertura de la app). */
+export function trafficSource(): TrafficSource {
+  return SOURCE;
+}
 
 let currentSite = '';
 
