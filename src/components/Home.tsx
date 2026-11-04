@@ -71,9 +71,9 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
           </div>
           <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{t.heroTitle}</h1>
           <p className="mt-3 text-[1.0625rem] leading-relaxed text-ink-2 max-w-[34ch]">{u.subtitle}</p>
-          <ul className="mt-4 flex flex-wrap gap-2" aria-label={u.passBadgeTitle(PASS_HOURS, PASS_MAX_DEVICES)}>
+          <ul className="mt-4 flex flex-wrap gap-1.5" aria-label={u.passBadgeTitle(PASS_HOURS, PASS_MAX_DEVICES)}>
             {u.valueChips(PASS_HOURS, PASS_MAX_DEVICES).map((chip) => (
-              <li key={chip} className="rounded-full border border-line bg-surface px-3 py-1.5 text-cap font-semibold text-ink-2">{chip}</li>
+              <li key={chip} className="rounded-full border border-line bg-surface px-2.5 py-1 text-[0.8125rem] leading-tight font-semibold text-ink-2">{chip}</li>
             ))}
           </ul>
         </section>
@@ -123,7 +123,7 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
                   <h2 className="font-serif text-[1.0625rem] leading-snug font-medium tracking-[-0.01em] text-balance">{site.name}</h2>
                   {statsText && <p className="mt-1 text-cap text-ink-2">{statsText}</p>}
                   <div className="mt-auto pt-3">
-                    <span className="btn-primary w-full text-ui">{isMain ? u.enter : u.enterSite}</span>
+                    <span className="btn-primary w-full !px-2 !min-h-11 text-center text-cap leading-tight">{isMain ? u.enter : u.enterSite}</span>
                   </div>
                 </div>
               </div>
