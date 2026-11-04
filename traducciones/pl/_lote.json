@@ -1,0 +1,424 @@
+{
+  "id": "msgbatch_01S8Bjh9vMhxzju1Upuh3BTx",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "creado": "2026-11-04T00:40:23.204Z",
+  "estimado_usd": 0.705,
+  "unidades": [
+    {
+      "custom_id": "pieza_cue_00_por_que_cuernavaca",
+      "tipo": "pieza",
+      "id": "cue_00_por_que_cuernavaca",
+      "huellas": {
+        "titulo": "ae5f541ca4c8dfa9",
+        "frase_gancho": "9aa2882648988595",
+        "puente_narrativo": "3362898271083a97",
+        "guion_corto": "155910f9aa1dba1c",
+        "guion_largo": "0ec3c5a6ff4fb3a8",
+        "retos_observacion": "e4c64790da73afbc",
+        "especificaciones": "208d52b9b2c2cd9e",
+        "faq_mito": "99a6a5b5ae66423d"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_01_zapata_plaza_armas",
+      "tipo": "pieza",
+      "id": "cue_01_zapata_plaza_armas",
+      "huellas": {
+        "titulo": "7619071f5afec7aa",
+        "frase_gancho": "0b04d7338c20725b",
+        "puente_narrativo": "5144ce105b71054c",
+        "guion_corto": "025e48ad423dcd01",
+        "guion_largo": "082faa512f5621f3",
+        "retos_observacion": "eac309c8a6d6c1c4",
+        "especificaciones": "3f0ad3ab3815a11d",
+        "faq_mito": "c2a3b07c59044d0e"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_02_fortaleza_cortes",
+      "tipo": "pieza",
+      "id": "cue_02_fortaleza_cortes",
+      "huellas": {
+        "titulo": "92bf74aefba78ae3",
+        "frase_gancho": "58c499f91578d5ef",
+        "puente_narrativo": "1caca043206f2e4e",
+        "guion_corto": "d5c5fcc854f89c68",
+        "guion_largo": "c94d242589e2347e",
+        "retos_observacion": "486b4d803cb45bb1",
+        "especificaciones": "a33f0926729aebf1",
+        "faq_mito": "2f4f7ce4bfb3d642"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_03_palacio_que_fue_de_todo",
+      "tipo": "pieza",
+      "id": "cue_03_palacio_que_fue_de_todo",
+      "huellas": {
+        "titulo": "3e15416d2cccd74f",
+        "frase_gancho": "40a0ee031f1928cd",
+        "puente_narrativo": "57d94e100397c65b",
+        "guion_corto": "00cd20fb8c556882",
+        "guion_largo": "5e212e4d6349632f",
+        "retos_observacion": "d2253232d12f0b62",
+        "especificaciones": "4639f4c94ca6974b",
+        "faq_mito": "e63123d3c746c243"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_04_ventanas_arqueologicas",
+      "tipo": "pieza",
+      "id": "cue_04_ventanas_arqueologicas",
+      "huellas": {
+        "titulo": "c6e2edf17984e41b",
+        "frase_gancho": "a7c37d19822e087b",
+        "puente_narrativo": "1680ce1c942e210c",
+        "guion_corto": "924ac6a4cede8ec3",
+        "guion_largo": "584f9f8af3bae7b6",
+        "retos_observacion": "0b68597c16ccd15e",
+        "especificaciones": "7495d770f116598b",
+        "faq_mito": "4ecaff91be1a3f89"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_05_sala_paisaje",
+      "tipo": "pieza",
+      "id": "cue_05_sala_paisaje",
+      "huellas": {
+        "titulo": "6ff793b97e1fd30d",
+        "frase_gancho": "0dce834adf5b7ccf",
+        "puente_narrativo": "dadd4a7491026a80",
+        "guion_corto": "0b5b4cdd7c075655",
+        "guion_largo": "69a4dcd24ded888b",
+        "retos_observacion": "44d507b3f025bcf7",
+        "especificaciones": "00b0bc25da3d68b0",
+        "faq_mito": "f90d9c95e14f264c"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_06_maiz_piedra_olmeca",
+      "tipo": "pieza",
+      "id": "cue_06_maiz_piedra_olmeca",
+      "huellas": {
+        "titulo": "f29ffa16e53ad4b9",
+        "frase_gancho": "420846fa523fa552",
+        "puente_narrativo": "758b9fd119efee26",
+        "guion_corto": "cf323ba0f079d414",
+        "guion_largo": "9886962ec6a45cf8",
+        "retos_observacion": "ca13ce1200e9bda1",
+        "especificaciones": "398ab5fb288426d8",
+        "faq_mito": "15ab07157492117b"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_08_cuexcomate",
+      "tipo": "pieza",
+      "id": "cue_08_cuexcomate",
+      "huellas": {
+        "titulo": "2f8efde1b7f0dfa1",
+        "frase_gancho": "7cad580475a9a61a",
+        "puente_narrativo": "d36bba40646320cf",
+        "guion_corto": "6d63da5611d1d15a",
+        "guion_largo": "b22159afade07b7c",
+        "retos_observacion": "55c9f6fff02ef385",
+        "especificaciones": "b8ccce5fe54ab7ca",
+        "faq_mito": "7cc8fe99d7bcf0d4"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_09_rivera_conquista",
+      "tipo": "pieza",
+      "id": "cue_09_rivera_conquista",
+      "huellas": {
+        "titulo": "3b9081ba22c522bf",
+        "frase_gancho": "989c8dab38127948",
+        "puente_narrativo": "8d238e2b9be8c633",
+        "guion_corto": "abbd6974476c0ebf",
+        "guion_largo": "46195e1887985355",
+        "retos_observacion": "b892ebaeb815e862",
+        "especificaciones": "30f483bab1b2d224",
+        "faq_mito": "6c8c26a3b114a155"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_10_rivera_zapata",
+      "tipo": "pieza",
+      "id": "cue_10_rivera_zapata",
+      "huellas": {
+        "titulo": "9cd069570e1a213b",
+        "frase_gancho": "fa912fb48d887c65",
+        "puente_narrativo": "eb070647fcd0ac56",
+        "guion_corto": "f277202d606c02b8",
+        "guion_largo": "56e24a597efc40ff",
+        "retos_observacion": "38a96fdb36343d24",
+        "especificaciones": "edd7ccfb0202062a",
+        "faq_mito": "5f98a354088d7720"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_11_galeria_oriente_torreon",
+      "tipo": "pieza",
+      "id": "cue_11_galeria_oriente_torreon",
+      "huellas": {
+        "titulo": "3333ea022ba736e8",
+        "frase_gancho": "0c24a7c791f228ce",
+        "puente_narrativo": "f0c0b2ab5201462c",
+        "guion_corto": "756ca80c2aff865f",
+        "guion_largo": "5eb4b18327b75faa",
+        "retos_observacion": "6fdb56439b867288",
+        "especificaciones": "64161448927c395d",
+        "faq_mito": "b56fb36f8c0a58d9"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_12_mmapo",
+      "tipo": "pieza",
+      "id": "cue_12_mmapo",
+      "huellas": {
+        "titulo": "b0ee601ce52788d9",
+        "frase_gancho": "f516ebdf14ca10dc",
+        "puente_narrativo": "69be895d2d448fbf",
+        "guion_corto": "0e4957ee5068a585",
+        "guion_largo": "87bb163e6aa6a64d",
+        "retos_observacion": "7ff63b254d2d42f3",
+        "especificaciones": "df8961436876665c",
+        "faq_mito": "8b9ba0385f2cef13"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_13_atrio_catedral",
+      "tipo": "pieza",
+      "id": "cue_13_atrio_catedral",
+      "huellas": {
+        "titulo": "0bb65925e1631a65",
+        "frase_gancho": "589769ede5c9084d",
+        "puente_narrativo": "e82c854f8c8aa925",
+        "guion_corto": "dd080fe6e345c2f4",
+        "guion_largo": "cf0dc81ade47238a",
+        "retos_observacion": "675d58e708695000",
+        "especificaciones": "fa0b9c9cf4eda831",
+        "faq_mito": "538a6ffa4e9ffd63"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_14_capilla_abierta",
+      "tipo": "pieza",
+      "id": "cue_14_capilla_abierta",
+      "huellas": {
+        "titulo": "44aa180a284221cd",
+        "frase_gancho": "8e4f2d5664a98721",
+        "puente_narrativo": "2c678731f9e627c7",
+        "guion_corto": "7dced689ebc1fc4d",
+        "guion_largo": "123411dbebe785bc",
+        "retos_observacion": "fd287a1a5b7c4972",
+        "especificaciones": "d47326c72a09e58d",
+        "faq_mito": "3d21e49a22015f19"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_15_nave_sotocoro",
+      "tipo": "pieza",
+      "id": "cue_15_nave_sotocoro",
+      "huellas": {
+        "titulo": "ad191ce723bf4626",
+        "frase_gancho": "24b88a434157bbdd",
+        "puente_narrativo": "c1d662be085d50a3",
+        "guion_corto": "f63383ec40a170a8",
+        "guion_largo": "c8413a504e097b12",
+        "retos_observacion": "cea6c63e703b6a90",
+        "especificaciones": "a5131c05b9aa6176",
+        "faq_mito": "0122afaaa25c8fb2"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_16_martires_hallazgo",
+      "tipo": "pieza",
+      "id": "cue_16_martires_hallazgo",
+      "huellas": {
+        "titulo": "3f5c9fde1d522692",
+        "frase_gancho": "e599545de6cf4dd0",
+        "puente_narrativo": "2fae5821ce7727ef",
+        "guion_corto": "f183e764b752d7a9",
+        "guion_largo": "8a71bad48fc35802",
+        "retos_observacion": "2606b86ff4172481",
+        "especificaciones": "c161f1c1d0358e46",
+        "faq_mito": "fb9ef3b3c064aaff"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_17_martires_lectura",
+      "tipo": "pieza",
+      "id": "cue_17_martires_lectura",
+      "huellas": {
+        "titulo": "56a5a05d0e657ad7",
+        "frase_gancho": "d19d0bcab8194094",
+        "puente_narrativo": "7fa6d85275ba895f",
+        "guion_corto": "1527b5ae22697763",
+        "guion_largo": "669c570dbd4336a6",
+        "retos_observacion": "dadf962633782f00",
+        "especificaciones": "431b739f436883dc",
+        "faq_mito": "882446cfc986afbc"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_18_claustro",
+      "tipo": "pieza",
+      "id": "cue_18_claustro",
+      "huellas": {
+        "titulo": "7a756d3b94c18e61",
+        "frase_gancho": "b448e6b8b7b11b28",
+        "puente_narrativo": "261da6bdc4326367",
+        "guion_corto": "6749cf55dc9bdb8d",
+        "guion_largo": "e65cf6c64544dd9e",
+        "retos_observacion": "587c7480160f7d06",
+        "especificaciones": "464d14133bab7145",
+        "faq_mito": "121a6d51871af167"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_19_museo_arte_sacro",
+      "tipo": "pieza",
+      "id": "cue_19_museo_arte_sacro",
+      "huellas": {
+        "titulo": "92411ceaa71effe9",
+        "frase_gancho": "de9da99f60f9555b",
+        "puente_narrativo": "f060b867381c0573",
+        "guion_corto": "ce5f45c66bec1202",
+        "guion_largo": "ae0ad46a36bf7542",
+        "retos_observacion": "211bb5f498257ec2",
+        "especificaciones": "8c72f331ae25dcb1",
+        "faq_mito": "916359c48251ed4d"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_20_tercera_orden",
+      "tipo": "pieza",
+      "id": "cue_20_tercera_orden",
+      "huellas": {
+        "titulo": "832145101d58c960",
+        "frase_gancho": "31c164751db15c80",
+        "puente_narrativo": "24072a38a18279e1",
+        "guion_corto": "dd8deb9c214c79c4",
+        "guion_largo": "8336cee27e031700",
+        "retos_observacion": "81c3189416022e80",
+        "especificaciones": "a877dd6b656a1367",
+        "faq_mito": "39001c14ae248dc1"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_21_jardin_borda_minero",
+      "tipo": "pieza",
+      "id": "cue_21_jardin_borda_minero",
+      "huellas": {
+        "titulo": "7812c0861cf93963",
+        "frase_gancho": "50b62201383530f1",
+        "puente_narrativo": "98a5960d82dfe5d1",
+        "guion_corto": "535b9f25adc44b4d",
+        "guion_largo": "eb80ec835380ade8",
+        "retos_observacion": "9bf24ef1b00f242f",
+        "especificaciones": "617e9a36bdd4d8ee",
+        "faq_mito": "8e9677f07d405a31"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_22_maximiliano_carlota",
+      "tipo": "pieza",
+      "id": "cue_22_maximiliano_carlota",
+      "huellas": {
+        "titulo": "a164e03033813821",
+        "frase_gancho": "117862ecd5348874",
+        "puente_narrativo": "b70a0652b3b365b8",
+        "guion_corto": "0dafa6152cb762db",
+        "guion_largo": "ff9a9a64ddae61ba",
+        "retos_observacion": "c136e5fc5a41a410",
+        "especificaciones": "d33f874f09de228f",
+        "faq_mito": "405c7d02553040b4"
+      }
+    },
+    {
+      "custom_id": "pieza_cue_23_casa_cantinflas",
+      "tipo": "pieza",
+      "id": "cue_23_casa_cantinflas",
+      "huellas": {
+        "titulo": "97ed8a565d76756f",
+        "frase_gancho": "c46bf722f9033f45",
+        "puente_narrativo": "e765a8706d506909",
+        "guion_corto": "b0ba0d18035719e7",
+        "guion_largo": "936814169a1fb129",
+        "retos_observacion": "0f343d006982a6bb",
+        "especificaciones": "4a7d01c9e33c9906",
+        "faq_mito": "cd0cf8099490e729"
+      }
+    },
+    {
+      "custom_id": "sala_cue-01-plaza-armas",
+      "tipo": "sala",
+      "id": "cue-01-plaza-armas",
+      "huellas": {
+        "nombre_oficial": "8cd1698c125cc795",
+        "frase_gancho": "6de6c4ed9f66f0a2",
+        "introduccion_narrativa": "96b4ab4e32a66820"
+      }
+    },
+    {
+      "custom_id": "sala_cue-02-palacio-planta-baja",
+      "tipo": "sala",
+      "id": "cue-02-palacio-planta-baja",
+      "huellas": {
+        "nombre_oficial": "10985aab3d617abf",
+        "frase_gancho": "800f60555612de9c",
+        "introduccion_narrativa": "aa90067da88305c7"
+      }
+    },
+    {
+      "custom_id": "sala_cue-03-palacio-primer-piso",
+      "tipo": "sala",
+      "id": "cue-03-palacio-primer-piso",
+      "huellas": {
+        "nombre_oficial": "f94028382baa617f",
+        "frase_gancho": "247a86ebae4fd2e6",
+        "introduccion_narrativa": "19cb9afd2580e5ac"
+      }
+    },
+    {
+      "custom_id": "sala_cue-04-calle-hidalgo",
+      "tipo": "sala",
+      "id": "cue-04-calle-hidalgo",
+      "huellas": {
+        "nombre_oficial": "40c9cd9903122823",
+        "frase_gancho": "6fcf6952801f8d86",
+        "introduccion_narrativa": "9c90b0c5e9722b34"
+      }
+    },
+    {
+      "custom_id": "sala_cue-05-catedral",
+      "tipo": "sala",
+      "id": "cue-05-catedral",
+      "huellas": {
+        "nombre_oficial": "5c56f43416ebe779",
+        "frase_gancho": "36d1a800b6efcd3d",
+        "introduccion_narrativa": "7522e990d27f852c"
+      }
+    },
+    {
+      "custom_id": "sala_cue-06-jardin-borda",
+      "tipo": "sala",
+      "id": "cue-06-jardin-borda",
+      "huellas": {
+        "nombre_oficial": "d0d09854a89f2a9a",
+        "frase_gancho": "b943ce28c7d7385c",
+        "introduccion_narrativa": "e712f40ef52f72d2"
+      }
+    },
+    {
+      "custom_id": "sala_cue-07-casa-cantinflas",
+      "tipo": "sala",
+      "id": "cue-07-casa-cantinflas",
+      "huellas": {
+        "nombre_oficial": "f67cecb82598441c",
+        "frase_gancho": "a83fd0754d499b16",
+        "introduccion_narrativa": "dda584f947dfb3af"
+      }
+    }
+  ]
+}
