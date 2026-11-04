@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_43_plaza_santo_domingo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae632bd997c52faf",
+      "texto": "Piazza di Santo Domingo e gli scrivani dei portici"
+    },
+    "frase_gancho": {
+      "hash": "96bdc3a09f05522b",
+      "texto": "Sotto questi portici, dal diciannovesimo secolo, gli scrivani redigevano lettere e pratiche per chi non sapeva scrivere."
+    },
+    "puente_narrativo": {
+      "hash": "f500d6bb9b4c0457",
+      "texto": "Cammina verso il lato nord della piazza, dove la torre con le piastrelle di ceramica annuncia il [Tempio di Santo Domingo](cdmx_44_templo_santo_domingo)."
+    },
+    "como_llegar": {
+      "hash": "fb665259b4c47993",
+      "texto": "Prosegui verso la [Piazza di Santo Domingo](cdmx_43_plaza_santo_domingo), dove il percorso continua tra portici, templi e scuole."
+    },
+    "guion_corto": {
+      "hash": "9cb082db2cff0823",
+      "texto": "Sotto questi portici, più di un secolo fa, un uomo con penna, calamaio e carta scriveva le lettere degli altri. Li chiamavano evangelisti. Erano scrivani che redigevano lettere e pratiche per chi non sapeva né leggere né scrivere, e più tardi lavorarono con la macchina da scrivere. La piazza dove si stabilirono è ancora più antica. I frati domenicani la tracciarono per dare vista e splendore alla loro chiesa, e dalla metà del sedicesimo secolo ha le dimensioni che oggi conosci. Con gli anni si aggiunsero un tribunale dell’Inquisizione, una dogana e una fontana con un’eroina dell’Indipendenza. In questa piazza convivono la fede, la legge e le carte di molti secoli di città."
+    },
+    "guion_largo": {
+      "hash": "3921416fc9d9e7ad",
+      "texto": "Prima che esistesse questa piazza, che cosa c’era qui? Nessuno lo sa con certezza. Il catalogo dei monumenti storici dell’Istituto Nazionale di Antropologia e Storia (INAH) riporta un’ipotesi. Si pensa che qui sorgesse la casa di Cuauhtémoc, l’ultimo sovrano mexica, e che per questo il terreno sia rimasto libero quando la città fu spartita. È una supposizione, non un fatto dimostrato. Da essa nasce un’altra storia, quella del tesoro che Cuauhtémoc avrebbe nascosto negli stagni dei suoi giardini. È una leggenda, senza prove documentarie, e come leggenda conviene ascoltarla.\n\nCiò che è documentato è invece il lavoro dei domenicani. Furono loro a creare la piazza per dare vista e splendore alla loro chiesa. Esiste con le sue dimensioni attuali, di circa cinquanta metri per centocinquanta, dalla metà del sedicesimo secolo. In una mappa del millesettecentonovantatré compare già con il nome di Piazzetta di Santo Domingo. Gli edifici che la circondano, invece, sono più recenti. Tempio, tribunale e dogana furono costruiti o ricostruiti nel corso del diciottesimo secolo.\n\nQuesta mescolanza di poteri si nota su ogni lato. A nord c’è il tempio dei domenicani. A oriente, l’antica Dogana, che oggi fa parte del complesso della Segreteria dell’Istruzione Pubblica. E di fronte alla piazza c’è l’edificio del Santo Uffizio. L’architetto Pedro de Arrieta lo costruì tra il millesettecentotrentadue e il millesettecentotrentasei. Città del Messico ricorda che questa piazza fu legata al Tribunale dell’Inquisizione e che qui furono lette sentenze durante gli autodafé, cerimonie pubbliche in cui si rendevano note le decisioni del Santo Uffizio. È una parte dura della storia del luogo, e conviene raccontarla con sobrietà.\n\nLa piazza serviva anche per dare il benvenuto. Quando un viceré arrivava nella capitale, si innalzavano due archi di trionfo per riceverlo. Uno si trovava nella Piazza dell’Empedradillo, accanto alla Cattedrale. L’altro, qui, a Santo Domingo.\n\nOra guarda la fontana al centro. Sopra di essa si trova la statua di Josefa Ortiz de Domínguez, una delle figure della lotta per l’Indipendenza. Fu collocata nel milleottocentonovanta, ed è opera dello scultore italiano Enrico Alciati, lo stesso dell’Angelo dell’Indipendenza, sulla Reforma. La fontana, invece, sembra più antica. Si pensa che sia stata progettata alla fine del diciottesimo secolo, con l’architetto Ignacio Castera.\n\nE ci sono i portici del lato occidentale, con parti che risalgono al diciassettesimo secolo. Nel diciannovesimo secolo, sotto quegli archi si stabilirono gli evangelisti. Redigevano lettere e pratiche per chi non sapeva leggere o scrivere, prima a mano e poi a macchina. Col tempo, la zona divenne un quartiere di tipografie, e ancora oggi la piazza è associata ai documenti. Quel mestiere racconta com’era la vita quando saper scrivere non era alla portata di tutti.\n\nUn ultimo dettaglio. La piazza del lato nord è conosciuta anche come Piazza del Ventitré Maggio. Il nome ricorda il Giorno dello Studente e il movimento studentesco del millenovecentoventinove, che portò all’autonomia universitaria. Per secoli, questa piazza è stata circondata da scuole e collegi, e a pochi passi continuerai a trovarne alcuni molto importanti."
+    },
+    "retos_observacion": {
+      "hash": "2b33ca6a113f400c",
+      "texto": [
+        "Conta gli archi del portico sul lato occidentale",
+        "Cerca la statua della donna al centro della fontana",
+        "Individua la torre con le piastrelle di ceramica sul lato nord della piazza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "45d402a37ef9c519",
+      "texto": {
+        "Epoca": "tracciata verso la metà del XVI secolo; edifici attuali del XVIII secolo",
+        "Ubicazione": "via República de Brasil, Centro Storico",
+        "Dimensioni": "circa 50 per 150 metri (catalogo INAH)",
+        "Statua": "Josefa Ortiz de Domínguez, di Enrico Alciati, collocata nel 1890",
+        "Dato chiave": "sede degli scrivani o evangelisti dal XIX secolo",
+        "Protezione": "Monumento Storico, catalogo INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "a6c8aa834cf9a52a",
+      "texto": {
+        "pregunta": "Mito: Negli stagni del giardino di Cuauhtémoc, sotto questa piazza, si nasconde un tesoro.",
+        "respuesta": "Realtà: Si pensa soltanto, senza prove, che qui sorgesse la casa di Cuauhtémoc; quanto al tesoro, è una diceria e una leggenda, senza prove documentarie."
+      }
+    }
+  }
+}

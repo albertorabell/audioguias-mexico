@@ -1,0 +1,63 @@
+{
+  "id": "cdmx_46_museo_vivo_muralismo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "especificaciones": [
+      "no encuentro estos números del español: 1920"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f7669e631da928a3",
+      "texto": "Museo Vivo del Muralismo, la sede storica della SEP"
+    },
+    "frase_gancho": {
+      "hash": "ee74a83f9d366407",
+      "texto": "Era un edificio di uffici del governo, e le sue pareti sono diventate una delle scuole di pittura pubblica più famose del Novecento."
+    },
+    "puente_narrativo": {
+      "hash": "989dfa102b367108",
+      "texto": "Prosegui lungo República de Argentina fino all’angolo con Justo Sierra, dove si trova l’[Antico Collegio di San Ildefonso](cdmx_47_san_ildefonso)."
+    },
+    "como_llegar": {
+      "hash": "3a5e937adaf94510",
+      "texto": "Prosegui verso la via República de Argentina, dove si trova l’ingresso del [Museo Vivo del Muralismo](cdmx_46_museo_vivo_muralismo), nell’edificio della Segreteria dell’Istruzione Pubblica."
+    },
+    "guion_corto": {
+      "hash": "304cd605984b3a16",
+      "texto": "Era un edificio di uffici del governo, e alla fine si è riempito di murales. Qui ebbe la sua sede la Segreteria dell’Istruzione Pubblica, creata nel millenovecentoventuno, con José Vasconcelos come primo titolare. Vasconcelos invitò Diego Rivera a dipingere le pareti, e tra il millenovecentoventitré e il millenovecentoventotto Rivera ricoprì corridoi e scale. Con gli anni si aggiunsero opere di altri artisti. Nel settembre del duemilaventiquattro qui ha aperto il Museo Vivo del Muralismo, che presenta il muralismo come un lavoro di molte mani e non solo di pochi nomi. È una visita per chi vuole entrare con calma, ma la facciata e la strada raccontano già parte della storia. L’ingresso principale si trova sulla via República de Argentina."
+    },
+    "guion_largo": {
+      "hash": "00f224b24ec15c1b",
+      "texto": "Cominciamo da una domanda semplice. Perché un edificio di uffici è pieno di pittura? La risposta ha un nome, José Vasconcelos. La Segreteria dell’Istruzione Pubblica fu creata nel millenovecentoventuno, e Vasconcelos ne fu il primo titolare. Fu lui a invitare Diego Rivera a dipingere le pareti della nuova sede.\n\nL’edificio sorse sul sito dell’antico convento dell’Incarnazione. L’architetto Federico Méndez Rivas lo ristrutturò per ospitare la segreteria. Qui cominciò una storia che cambiò l’arte messicana.\n\nDiego Rivera dipinse le pareti dei corridoi tra il millenovecentoventitré e il millenovecentoventotto. Sono più di duecento pannelli, sopraporte e grisaille. Una grisaille è una pittura realizzata in toni di grigio. Due dei cortili si chiamano Cortile del Lavoro e Cortile delle Feste.\n\nRivera non era solo. L’edificio conserva anche murales di Roberto Montenegro, Jean Charlot e Amado de la Cueva. C’è inoltre un’opera in ceramica di Luis Nishizawa e una di Raúl Anguiano. C’è anche un antico teatro, il Teatro Orientamento, del millenovecentotrentuno, con pitture sull’educazione socialista. Quelle opere e la loro collocazione possono cambiare, perciò conviene consultare la mappa aggiornata quando arrivi.\n\nAccanto a questo complesso si trova l’edificio dell’antica Dogana, che ora fa parte del museo. Qui lavorò David Alfaro Siqueiros, in modo intermittente, tra il millenovecentoquarantacinque e il millenovecentosettantuno. Si tratta del murale «Patrizi e patricidi». Nel duemiladieci l’artista Manuel Felguérez creò una scultura murale in acciaio per il Bicentenario e il Centenario.\n\nIl Museo Vivo del Muralismo ha aperto il venticinque settembre duemilaventiquattro. Secondo The Art Newspaper, occupa circa ottomilacinquecento metri quadrati, con più di tremila di murales, e ha dodici sale espositive. La sua idea centrale è che il muralismo non fu solo opera di Rivera, Orozco e Siqueiros. Fu uno sforzo collettivo, con molti altri artisti, tra cui donne come Aurora Reyes e María Izquierdo.\n\nIl museo ricorda un caso. Nel millenovecentoquarantasei fu annullata una commissione di un murale a María Izquierdo, e la stampa parla di sabotaggio da parte di colleghi. Tra le opere citate figura anche «Attentato alle maestre rurali», di Aurora Reyes.\n\nUn’avvertenza onesta. Alcune opere sono in prestito, e ciò che viene esposto cambia nel tempo. Per questo non si può promettere che cosa vedrai a ogni visita. È un museo di tre livelli che si percorre con calma. Le condizioni di ingresso e gli orari vanno consultati sul sito ufficiale prima di andare.\n\nA pochi passi si trova San Ildefonso, dove il muralismo ebbe un capitolo precoce. Il primo giorno sei passato dal [Museo Mural Diego Rivera](cdmx_06_museo_mural_rivera), con un’altra opera dello stesso pittore. Tutto forma un filo comune, quello di un paese che decise di raccontare la propria storia sulle pareti."
+    },
+    "retos_observacion": {
+      "hash": "b16dfd86b47033fe",
+      "texto": [
+        "Individua l’ingresso principale su República de Argentina",
+        "Confronta l’edificio della SEP con la facciata sobria dell’antica Dogana sulla piazza",
+        "Conta i livelli della facciata dell’edificio"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de13761b9bc54ed9",
+      "texto": {
+        "Epoca": "sede della SEP dagli anni Venti del Novecento; museo aperto il 25 settembre 2024",
+        "Autori": "Diego Rivera (1923-1928), Roberto Montenegro, Jean Charlot, Amado de la Cueva, Luis Nishizawa, Raúl Anguiano, David Alfaro Siqueiros, Manuel Felguérez",
+        "Edificio": "sul sito dell’antico convento dell’Incarnazione; ristrutturazione di Federico Méndez Rivas",
+        "Ubicazione": "República de Argentina 28, Centro Storico",
+        "Dato chiave": "più di 3 000 m² di murales (The Art Newspaper)"
+      }
+    },
+    "faq_mito": {
+      "hash": "9f366aa93f2795e4",
+      "texto": {
+        "pregunta": "Mito: I murales della SEP sono tutti di Diego Rivera.",
+        "respuesta": "Realtà: Rivera dipinse i corridoi tra il 1923 e il 1928, ma l’edificio e il museo riuniscono anche opere di Montenegro, Charlot, Amado de la Cueva, Nishizawa, Anguiano, Siqueiros e Felguérez."
+      }
+    }
+  }
+}

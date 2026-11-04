@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_42_palacio_autonomia",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "85ee471721763756",
+      "texto": "Palacio de la Autonomía Universitaria"
+    },
+    "frase_gancho": {
+      "hash": "0e26312021aa71d8",
+      "texto": "In questo edificio fu dichiarata l’autonomia dell’università nel millenovecentoventinove, su terreni che furono convento e spazio sacro mexica."
+    },
+    "puente_narrativo": {
+      "hash": "fb665259b4c47993",
+      "texto": "Prosegui verso la [Plaza de Santo Domingo](cdmx_43_plaza_santo_domingo), dove il percorso continua tra portici, templi e scuole."
+    },
+    "como_llegar": {
+      "hash": "1d56f61e478bd9c7",
+      "texto": "Cammina ancora qualche passo lungo la stessa strada fino al [Palacio de la Autonomía Universitaria](cdmx_42_palacio_autonomia), al numero due, che apparteneva allo stesso complesso conventuale."
+    },
+    "guion_corto": {
+      "hash": "48484bc6a7821275",
+      "texto": "Sembra un edificio scolastico dell’inizio del Novecento, ma conserva resti di un convento del Seicento. Parte del terreno formava lo spazio sacro di Tenochtitlan. Poi qui sorse il convento di Santa Teresa la Antigua, delle carmelitane scalze. Dopo le Leggi di Riforma, il terreno passò al governo e fu caserma e casa di affitto popolare. All’epoca del Porfiriato fu costruito l’edificio attuale, di stile eclettico, e nel millenovecentodieci vi si insediò la Escuela Nacional del Maestro. Nel millenovecentoventinove qui fu dichiarata l’autonomia della Universidad Nacional. Oggi funziona come museo universitario e ha tre finestre archeologiche, aperte dal Programa de Arqueología Urbana dell’INAH."
+    },
+    "guion_largo": {
+      "hash": "3837f861d214647b",
+      "texto": "Questo edificio ha tre vite sovrapposte. La più antica appartiene alla città mexica, perché parte di questo terreno si trovava all’interno dello spazio sacro di Tenochtitlan. Oggi è il Museo de la Autonomía Universitaria, e la sua storia si percorre dal basso verso l’alto: prima il suolo mexica, poi il convento e infine l’università. Dopo la Conquista, il terreno passò a Juan Luis de Rivera, consigliere municipale del Ayuntamiento e tesoriere della Casa de Moneda. In seguito entrò a far parte del convento di Santa Teresa la Antigua.\n\nIl convento fu fondato all’inizio del Seicento, e l’INAH indica come data il milleseicentoquindici. Qui vissero le carmelitane scalze. Nell’odierna calle de Licenciado Verdad si conserva ancora la chiesa del convento, oggi [Ex Teresa Arte Actual](cdmx_41_ex_teresa). Durante la Guerra di Riforma, la Chiesa perse la proprietà, e il complesso fu caserma e poi casa di affitto popolare.\n\nAll’epoca di Porfirio Díaz, il governo federale acquistò il terreno per installarvi una scuola normale per maestri, e fu costruito l’edificio attuale, di stile eclettico. Nel millenovecentodieci vi si insediò la Escuela Nacional del Maestro, parte della Universidad Nacional de México. Quello stesso anno fu inaugurata la Universidad Nacional, diretta antenata della UNAM.\n\nPoi arriva l’episodio che dà il nome al palazzo. Nel maggio del millenovecentoventinove, gli studenti si dichiararono in sciopero. Protestavano per i cambiamenti negli esami della Escuela de Derecho e nel piano di studi della Preparatoria. Il presidente provvisorio Emilio Portes Gil promulgò la Ley Orgánica dell’università il dieci luglio di quell’anno. Ignacio García Téllez fu nominato rettore l’undici luglio. Fu uno sciopero di studenti che finì in una legge. L’autonomia fu dichiarata al primo piano di questo edificio.\n\nPiù tardi, l’immobile ospitò altre scuole universitarie. Vi ebbero sede la Escuela de Iniciación Universitaria, quella di Commercio e Amministrazione, quella di Odontoiatria e quella di Infermieristica. E anche la Preparatoria numero due, che rimase qui fino al millenovecentosettantotto.\n\nTra il millenovecentonovantotto e il duemila, il Programa de Arqueología Urbana dell’INAH ha lasciato tre finestre archeologiche. La seconda e la terza mostrano resti dell’antico convento di Santa Teresa la Antigua. La terza funziona come giardino archeologico. Conserva due portici, una scalinata con azulejos della fine del Seicento e dell’inizio del Settecento, e i resti di una vasca circolare.\n\nOggi l’edificio è il Museo de la Autonomía Universitaria. Espone documenti sull’autonomia, ha una sala dedicata all’odontoiatria messicana, una sala archeologica e un’altra per le mostre temporanee. Consulta gli orari in vigore e le visite guidate prima di andare.\n\nQui il Centro Storico diventa una lezione di strati. Un recinto sacro mexica, un convento barocco, una scuola dell’epoca del Porfiriato e un’università autonoma condividono lo stesso suolo. Pensa a questa sequenza mentre prosegui verso la [Plaza de Santo Domingo](cdmx_43_plaza_santo_domingo)."
+    },
+    "retos_observacion": {
+      "hash": "305157d87d8929e9",
+      "texto": [
+        "Cerca l’ingresso del museo, al numero due di Primo de Verdad",
+        "Osserva lo stile della facciata, dell’inizio del Novecento, e confrontalo con il tempio vicino",
+        "Individua un’insegna o una targa che menzioni l’autonomia universitaria"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0b33e89f5be0329f",
+      "texto": {
+        "Época": "convento del XVII secolo; edificio attuale dell’epoca del Porfiriato",
+        "Estilo": "eclettico",
+        "Uso actual": "Museo de la Autonomía Universitaria, UNAM",
+        "Hecho clave": "nel 1929 qui fu dichiarata l’autonomia della Universidad Nacional",
+        "Ventanas arqueológicas": "tre, del Programa de Arqueología Urbana, tra il 1998 e il 2000",
+        "Ubicación": "Licenciado Primo de Verdad 2, Centro Storico"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7b05104222f4b68",
+      "texto": {
+        "pregunta": "Mito: La Universidad Nacional è stata autonoma fin dalla sua fondazione.",
+        "respuesta": "Realtà: La Universidad Nacional fu inaugurata nel millenovecentodieci e l’autonomia arrivò nel millenovecentoventinove, quando fu promulgata la Ley Orgánica il dieci luglio, dopo uno sciopero studentesco."
+      }
+    }
+  }
+}

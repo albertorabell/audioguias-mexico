@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_44_templo_santo_domingo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "29fe076e61b78755",
+      "texto": "Tempio di Santo Domingo e l’antica Dogana"
+    },
+    "frase_gancho": {
+      "hash": "af40932c5d72c27b",
+      "texto": "Questa è la terza chiesa dei domenicani su questo terreno, e le inondazioni della città sul lago hanno pesato sulla sua storia."
+    },
+    "puente_narrativo": {
+      "hash": "0297b4ccc15bb766",
+      "texto": "Prosegui verso la calle República de Brasil, di fronte alla piazza, dove si trova il [Palazzo dell’Inquisizione](cdmx_45_inquisicion)."
+    },
+    "como_llegar": {
+      "hash": "f500d6bb9b4c0457",
+      "texto": "Cammina verso il lato nord della piazza, dove la torre con le piastrelle di ceramica annuncia il [Tempio di Santo Domingo](cdmx_44_templo_santo_domingo)."
+    },
+    "guion_corto": {
+      "hash": "8e05d6e90d0de60b",
+      "texto": "Questa è la terza chiesa che i domenicani innalzano su questo terreno, e la città costruita sul lago ebbe molto a che fare con la sua storia. I frati arrivarono in Messico nel 1526. Il loro primo tempio fu piccolo e le inondazioni lo danneggiarono. Nel 1716 un’altra inondazione colpì la seconda chiesa, e l’anno seguente iniziò la terza, quella che hai davanti. È barocca, con una torre il cui ultimo livello è ricoperto di piastrelle di ceramica, e custodisce un altare maggiore di Manuel Tolsá. Dell’enorme convento che la circondava, buona parte scomparve quando fu aperta la calle de Leandro Valle. Ciò che vedi è ciò che l’acqua, il tempo e la Reforma hanno lasciato in piedi."
+    },
+    "guion_largo": {
+      "hash": "14a5958777b132f5",
+      "texto": "I domenicani arrivarono nella Nuova Spagna nel 1526, e molto presto iniziarono a costruire qui. Il loro primo tempio, intorno al 1527, fu piccolo e semplice. Questa parte della città era un terreno paludoso accanto a un canale del lago. Le inondazioni danneggiarono più volte ciò che veniva innalzato, e il convento e la chiesa furono ricostruiti diverse volte a causa della fragilità del suolo.\n\nLa seconda chiesa fu consacrata intorno al 1590. Nel 1716 un’inondazione la danneggiò così gravemente che fu necessario sospendere il culto. L’anno seguente iniziò la terza chiesa, quella che vedi. Fu benedetta nel 1736 e consacrata nel gennaio del 1755. Da allora il tempio appare quasi come lo vedi oggi.\n\nGuarda la facciata. È barocca. La torre termina in un prisma piramidale ricoperto di piastrelle di ceramica. Gli archi sul lato sinistro non sono originali. Furono aggiunti nel Novecento, per dissimulare il passaggio verso la calle de Leandro Valle e armonizzare l’insieme con la piazza.\n\nSe il tempio è aperto al culto e vuoi affacciarti con rispetto, l’interno ha una pianta a croce latina. L’altare maggiore è un’opera neoclassica di Manuel Tolsá, lo stesso artista del Caballito e del Palacio de Minería. Nei bracci del transetto ci sono altari dorati del Settecento. L’immagine più antica del tempio è il Cristo del Noviciado, del Cinquecento, realizzato con pasta di canna di mais. Una leggenda racconta che due angeli lo donarono ai domenicani, ma questa è solo tradizione.\n\nNel tempio riposano i resti di Pedro de Moctezuma Tlacahuepantzin, figlio di Moctezuma Xocoyotzin.\n\nL’acqua segnò così tanto la storia di questo luogo da dare origine a una devozione. Dopo una grave inondazione, il consiglio comunale della città nominò Santo Domingo patrono delle acque e della città. Fu il 31 luglio del 1630.\n\nIl convento, invece, non resistette ai cambiamenti politici. A metà dell’Ottocento, con la Reforma, i beni religiosi furono confiscati. Quando fu aperta la calle de Leandro Valle, buona parte del monastero e varie cappelle furono distrutte. Città del Messico segnala che il cortile chiamato de los Generales sopravvive all’interno del Centro Cultural del México Contemporáneo, su quella strada.\n\nSul lato orientale della piazza si trova l’antica Dogana. La Real Aduana de México fu fondata nel 1574, per sostenere il sistema fiscale dell’impero spagnolo. Il suo edificio accanto a questa piazza fu costruito e ampliato nel Settecento. Nel 1921 passò alla Secretaría de Educación Pública. Oggi fa parte del complesso del [Museo Vivo del Muralismo](cdmx_46_museo_vivo_muralismo). Così, in una sola piazza, un tempio, un tribunale e una dogana raccontano come si organizzavano la fede, la giustizia e il denaro."
+    },
+    "retos_observacion": {
+      "hash": "7bd01f36bffa5646",
+      "texto": [
+        "Individua la torre con l’ultimo livello ricoperto di piastrelle di ceramica",
+        "Cerca gli archi sul lato sinistro del tempio, che non sono originali",
+        "Riconosci il sobrio edificio dell’antica Dogana sul lato orientale della piazza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07b5d3a53b2eb89c",
+      "texto": {
+        "Epoca": "terza chiesa iniziata nel 1717, benedetta nel 1736 e consacrata nel gennaio del 1755",
+        "Autore": "altare maggiore di Manuel Tolsá",
+        "Stile": "barocco, pianta a croce latina",
+        "Ubicazione": "lato nord della Plaza de Santo Domingo",
+        "Dato chiave": "dell’grande convento domenicano sopravvivono solo il tempio e alcuni spazi",
+        "Antica Dogana": "Real Aduana fondata nel 1574; oggi parte del complesso della SEP"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed13b4732489b7c0",
+      "texto": {
+        "pregunta": "Mito: Il tempio di Santo Domingo è lo stesso che i domenicani innalzarono al loro arrivo, nel Cinquecento.",
+        "respuesta": "Realtà: È la terza chiesa del luogo; la precedente subì un’inondazione nel 1716 e l’attuale fu iniziata l’anno seguente."
+      }
+    }
+  }
+}

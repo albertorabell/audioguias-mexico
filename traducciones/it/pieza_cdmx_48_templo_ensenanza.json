@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_48_templo_ensenanza",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "de63cb6607344e3b",
+      "texto": "Templo de la Enseñanza, la scuola per bambine della Nuova Spagna"
+    },
+    "frase_gancho": {
+      "hash": "d9aa1917a450452b",
+      "texto": "Sopra la porta c’è una finestra a forma di stella, e lì si affaccia la Vergine del Pilar."
+    },
+    "puente_narrativo": {
+      "hash": "e697dc790e84dc31",
+      "texto": "Prosegui per pochi passi lungo la stessa via Donceles fino al [Museo de la Caricatura](cdmx_49_museo_caricatura), nell’antico Colegio de Cristo."
+    },
+    "como_llegar": {
+      "hash": "a47a8e1fa4f733a0",
+      "texto": "Prosegui lungo Donceles, la via in cui si trasforma Justo Sierra dopo aver attraversato República de Argentina, fino al [Templo de la Enseñanza](cdmx_48_templo_ensenanza)."
+    },
+    "guion_corto": {
+      "hash": "21b8cb2dc3d44207",
+      "texto": "Sopra il portale d’ingresso c’è una finestra a forma di stella svasata. Illumina il coro e incornicia l’immagine della Vergine del Pilar. È un dettaglio di Francisco Guerrero y Torres, l’architetto a cui fu affidato questo tempio nel millesettecentosettantadue. Qui sorgeva un convento con collegio della Compagnia di Maria, noto come La Enseñanza, fondato da madre María Ignacia Azlor. Fu una delle scuole per bambine più rinomate della Nuova Spagna. Del complesso originale, molto più grande, sopravvive oggi il tempio, uno degli ultimi grandi edifici del suo stile in città, oggi parrocchia di Nostra Signora del Pilar."
+    },
+    "guion_largo": {
+      "hash": "91476849d9fe82cf",
+      "texto": "Osserva il portale principale. L’arco è basso, e la pietra centrale, la chiave di volta, si trova più in basso del normale. In alto, la finestra a forma di stella svasata illumina il coro. E al centro della facciata c’è una scultura in alabastro della Vergine del Pilar. Quel titolo mariano era la devozione della fondatrice, e dà il nome al tempio.\n\nLa storia comincia con María Ignacia Azlor. Era figlia di un governatore del Texas e di Coahuila, e volle dedicarsi all’istruzione delle bambine. Viaggiò in Spagna per unirsi alla Compagnia di Maria, un ordine dedicato all’insegnamento. Voleva promuovere l’istruzione delle bambine di tutte le classi sociali. Il suo convento e collegio sorse nella via che allora si chiamava de Cordobanes, e che oggi è Donceles.\n\nMadre María Ignacia morì prima di vedere il tempio. Nel millesettecentosettantadue la chiesa fu affidata a Francisco Guerrero y Torres, grande architetto del Settecento. È lo stesso della Capilla del Pocito e del [Palacio de Iturbide](cdmx_18_palacio_iturbide), che già conosci. Lavorò qui dal millesettecentosettantadue al millesettecentosettantotto. Questo colloca il tempio alla fine del periodo vicereale, circa quattro decenni prima dell’Indipendenza. Il convento e il collegio vengono attribuiti a Ignacio Castera, intorno al milleottocentocinque.\n\nSe il tempio è aperto e decidi di entrare con rispetto, la sua struttura nasconde un trucco. Un arco a tre lobi sostiene il coro alto e permette una navata senza colonne, così che nulla ostacola la vista verso l’altare. Anche le finestre della volta centrale hanno tre lobi, un aspetto considerato singolare nel barocco messicano.\n\nAll’interno spicca la pala d’altare maggiore, considerata una delle migliori opere di Guerrero y Torres. Nella volta c’è un affresco dell’apparizione della Vergine del Pilar all’apostolo Giacomo. Tele di Andrés López accompagnano la pala d’altare. L’accesso e le visite guidate cambiano, quindi consulta gli orari in vigore.\n\nC’è un ultimo dettaglio umano. Città del Messico ricorda che, nel Novecento, la comunità spagnola esiliata a causa della guerra civile ebbe una devozione speciale per questo tempio. Vi si recava ogni dodici ottobre, giorno della Vergine del Pilar.\n\nCon le Leggi di Riforma, il complesso perse il suo carattere di collegio e convento. Oggi il tempio è parrocchia di Nostra Signora del Pilar, ed è ciò che resta di un complesso molto più ampio, probabilmente uno degli ultimi edifici del suo genere.\n\nPensa a ciò che significava questa scuola, un luogo creato per educare le bambine. Fu una delle più rinomate della Nuova Spagna. A pochi passi si trova un altro collegio vicereale, quello di Cristo, che oggi ospita un museo di caricature. Tra i due, la via Donceles racconta la storia dell’istruzione in città."
+    },
+    "retos_observacion": {
+      "hash": "e6b7718cf00c993a",
+      "texto": [
+        "Cerca la finestra a forma di stella sopra il portale principale",
+        "Individua la scultura della Vergine del Pilar sulla facciata",
+        "Osserva l’arco basso del portale d’ingresso"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e050a53a7ec7ee87",
+      "texto": {
+        "Epoca": "tempio commissionato nel 1772; lavori dal 1772 al 1778",
+        "Architetto": "Francisco Guerrero y Torres; convento e collegio attribuiti a Ignacio Castera (1805)",
+        "Stile": "barocco tardo della Nuova Spagna",
+        "Ubicazione": "Donceles 102, Centro Storico",
+        "Fondatrice": "María Ignacia Azlor, Compagnia di Maria",
+        "Dato chiave": "navata senza colonne grazie al coro sorretto da un arco trilobato"
+      }
+    },
+    "faq_mito": {
+      "hash": "4835b7386d721684",
+      "texto": {
+        "pregunta": "Mito: La Enseñanza, per il suo aspetto antico, sarebbe una delle prime chiese della città.",
+        "respuesta": "Realtà: Il suo tempio fu commissionato nel 1772 e i lavori proseguirono fino al 1778, alla fine del periodo vicereale."
+      }
+    }
+  }
+}
