@@ -13,6 +13,7 @@ import { FloorSwitch } from './MuseumScreen';
 import { ActiveTour } from './RoutesScreen';
 import { ErrorBoundary } from './ErrorBoundary';
 import type { LiveStop } from './LiveMap';
+import { useWakeLock } from '../utils/useWakeLock';
 
 // MapLibre pesa bastante: solo se descarga cuando alguien abre el mapa real.
 const LiveMap = lazy(() => import('./LiveMap'));
@@ -45,6 +46,8 @@ interface MapScreenProps {
 export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFloorChange, zoneMap, hereRoomId, tour, hasPass, onOpenPaywall, onSelectRoom, liveMap, onOpenPiece, hasScheme, siteId, herePieceId, onOpenStop }) => {
   const { strings } = useLanguage();
   const u = strings.ui;
+  // Con el mapa abierto la pantalla no se apaga sola (se suelta al salir de la pestaña).
+  useWakeLock(true);
 
   const roomOfPiece = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p.room_id])), [pieces]);
   const worksByRoom = useMemo(() => {
