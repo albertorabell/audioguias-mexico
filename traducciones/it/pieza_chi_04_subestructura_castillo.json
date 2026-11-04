@@ -1,0 +1,56 @@
+{
+  "id": "chi_04_subestructura_castillo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1ac227c526f6584b",
+      "texto": "Il tempio nascosto, il trono del giaguaro e il cenote sotto El Castillo"
+    },
+    "frase_gancho": {
+      "hash": "bf81af0d4d048aa7",
+      "texto": "Dentro la piramide ce n’è un’altra, con un trono di giaguaro rosso, e sotto, secondo la UNAM, una cavità con acqua."
+    },
+    "puente_narrativo": {
+      "hash": "49b1f21d9326a11b",
+      "texto": "Resta davanti alla piramide: ciò che racconta questa tappa si trova al suo interno e sotto di essa. Quando hai finito, prosegui con la tappa successiva del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "263391c9c6d6c4d4",
+      "texto": "Questa piramide ne custodisce un’altra. Nel 1931 alcuni archeologi iniziarono a esplorarne l’interno per dimostrare che El Castillo era stato costruito sopra un tempio più antico. E lo trovarono. Nella sua camera c’erano un Chac Mool con unghie, denti e occhi di madreperla, e un trono a forma di giaguaro dipinto di rosso con cinabro, con incrostazioni di giada. Oggi quell’interno è chiuso al pubblico da circa il 2006. E c’è di più. Nel 2015 alcuni ricercatori della UNAM e dell’INAH hanno riferito, con una tecnica chiamata tomografia elettrica, la presenza di una cavità con acqua sotto la piramide, senza scavare nemmeno una pietra."
+    },
+    "guion_largo": {
+      "hash": "c1dd9e878c89fd92",
+      "texto": "Ciò che vedi è soltanto lo strato esterno. Dentro El Castillo c’è un tempio più antico, e sotto c’è un enigma d’acqua.\n\nCominciamo dall’interno. Nell’aprile del 1931 alcuni archeologi iniziarono a esplorare l’edificio per verificare un’idea: che questa piramide fosse stata costruita sopra un’altra. Avevano ragione. Dentro c’è un tempio precedente, largo circa trentatré metri e alto circa diciassette fino alla base del suo tempio. La sua datazione è incerta. Una stima lo colloca tra gli anni 600 e 800.\n\nIn quella piramide interna sono comparse due camere. Nell’aprile del 1935 trovarono un Chac Mool, una figura reclinata che regge un recipiente sul ventre. Gli occhi, le unghie e i denti erano incrostati di madreperla. Nell’agosto del 1936 trovarono un’altra sala, a pochi metri dalla prima. Fu chiamata la Camera dei Sacrifici. C’erano due file di ossa umane e una scultura di giaguaro rosso.\n\nQuella scultura è il Trono del Giaguaro Rosso. Analisi successive con la fluorescenza a raggi X hanno rilevato che la pittura rossa contiene cinabro, un minerale di mercurio. Si credeva che le macchie sulla pelle fossero dischi di selce, ma si è scoperto che sono di giadeite, una varietà di giada. Le zanne sono conchiglie di lumaca marina. Dal 2006 l’interno è chiuso al pubblico, e il trono non è esposto.\n\nOra, l’acqua. L’Università Nazionale Autonoma del Messico e l’INAH hanno riferito nel 2015 una scoperta sotto la piramide. Un’équipe dell’Istituto di Geofisica, guidata da René Chávez, con l’ingegnere Andrés Tejero e l’archeologa Denisse Argote, ha usato una tecnica chiamata tomografia di resistività elettrica tridimensionale. Consiste nell’inviare corrente nel suolo e misurare come risponde. Per non danneggiare i pavimenti antichi hanno usato novantasei piastre piatte, fissate con gel medico. I risultati sono stati pubblicati sulla rivista Scientific Reports.\n\nCiò che hanno individuato è una cavità piena di acqua dolce. Secondo la Gaceta de la UNAM, si trova a circa otto metri sotto la piramide. Altre notizie del 2015 hanno fornito cifre maggiori, circa venti metri di profondità e una dimensione di venticinque per trentacinque. Le cifre non coincidono, quindi conviene fermarsi all’essenziale: ci sono indizi di un corpo d’acqua sotto El Castillo. Nessuno lo ha scavato.\n\nIl ricercatore Chávez ha accennato che potrebbe esserci un sistema con ingressi e uscite d’acqua. Alcuni archeologi pensano che potrebbe collegarsi con i cenotes Xtoloc e Sagrado. Questo non è ancora stato dimostrato.\n\nCon la sottostruttura, il giaguaro e l’acqua, la piramide acquista un significato più profondo. È un edificio che sale verso il cielo, ma che poggia anche sull’acqua del mondo sotterraneo.\n\nQuando hai finito qui, prosegui con la tappa successiva del tuo percorso."
+    },
+    "retos_observacion": {
+      "hash": "acc04f90321bf734",
+      "texto": [
+        "Cerca nell’angolo nordorientale della scalinata nord il passaggio che fu aperto negli anni Trenta per esplorare l’interno",
+        "Immagina, dentro la piramide, il trono di giaguaro rosso con macchie di giada e zanne di conchiglia",
+        "Pensa che, secondo la UNAM, sotto il suolo che calpesti c’è una cavità con acqua"
+      ]
+    },
+    "especificaciones": {
+      "hash": "32412be0b5bfe96e",
+      "texto": {
+        "Sottostruttura": "tempio precedente largo circa 33 m e alto circa 17 m fino alla base del tempio; la sua datazione è incerta",
+        "Esplorazione": "da aprile 1931",
+        "Chac Mool": "trovato nell’aprile del 1935, con occhi, unghie e denti di madreperla",
+        "Trono del Giaguaro Rosso": "pittura con cinabro, macchie di giadeite e zanne di conchiglia",
+        "Studio con tomografia elettrica": "UNAM e INAH, 2015; pubblicato su Scientific Reports",
+        "Accesso": "l’interno è chiuso al pubblico da circa il 2006"
+      }
+    },
+    "faq_mito": {
+      "hash": "0fbd8b801250570d",
+      "texto": {
+        "pregunta": "Mito: C’è un tunnel aperto da cui si può scendere al cenote che si trova sotto El Castillo.",
+        "respuesta": "Realtà: La cavità con acqua è stata individuata con studi dalla superficie e nessuno l’ha scavata. L’interno della piramide è chiuso al pubblico."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "chi_29_las_monjas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e0d005c4ea4cde31",
+      "texto": "L’Edificio di Las Monjas"
+    },
+    "frase_gancho": {
+      "hash": "475d498c34e10fd7",
+      "texto": "Un palazzo con il nome di un convento, costruito in almeno sei fasi."
+    },
+    "puente_narrativo": {
+      "hash": "19b16a457b1a7166",
+      "texto": "Gira intorno all’edificio con calma per vederlo da tutti i suoi lati. Quando hai finito, prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "6510c0af105d0a21",
+      "texto": "Questo è l’Edificio di Las Monjas. Gli spagnoli gli diedero questo nome, forse perché le sue numerose stanze ricordavano loro i conventi, ma era un palazzo di governo. Ebbe almeno sei fasi di costruzione, ha tre livelli e unisce lo stile maya-tolteco e lo stile Puuc. Il secondo piano presenta lunghe iscrizioni sugli architravi e mosaici di pietra di stile Puuc tardo. I testi menzionano spesso il governante K'ak'upakal."
+    },
+    "guion_largo": {
+      "hash": "43b39cc587248af1",
+      "texto": "Il nome inganna, e per questo conviene cominciare da ciò che non è. Las Monjas non fu un convento. Fu un palazzo di governo. Una spiegazione probabile del nome è che gli edifici, con tante stanze, ricordassero agli spagnoli i loro conventi. È una possibilità, non un fatto.\n\nL’INAH colloca questo complesso in un gruppo diverso da quello della Piazza Principale. Qui domina l’architettura Puuc e Chenes. Nella grande piazza, invece, gli edifici sono di stile maya-tolteco. Questa differenza aiuta a capire che Chichén Itzá ebbe più tradizioni allo stesso tempo. Il gruppo comprende la Casa de las Monjas, il suo Annesso, la Chiesa e un campo del gioco della palla che non è stato scavato.\n\nL’edificio principale ebbe almeno sei fasi di costruzione, con cambiamenti nella forma, nella decorazione e nello stile, il che parla di un’occupazione lunga. Ha tre livelli che uniscono lo stile maya-tolteco e lo stile Puuc. Al secondo piano ci sono lunghe iscrizioni sugli architravi, pittura murale e mosaici di pietra di stile Puuc tardo. Secondo alcune descrizioni, il tempio originale, già ampliato, misura circa cinquanta metri per ventitré, e il corpo alto dell’edificio più recente circa dieci metri.\n\nL’edificio guarda a nord e ha tre parti: Las Monjas propriamente detto, l’ala est e l’ala sudest. I testi geroglifici di questo complesso menzionano spesso il governante K'ak'upakal. L’INAH parla inoltre di disegni di stuoia, un simbolo di potere, e di un trono a forma di giaguaro a due teste accanto alla scalinata principale.\n\nI primi disegni noti sono di Frederick Catherwood, della spedizione di John Stephens, tra milleottocentotrentanove e milleottocentoquaranta. Vennero poi le fotografie di Alfred Maudslay. Maudslay pubblicò gli architravi in modo incompleto, e oggi sono molto consumati.\n\nC’è un disaccordo sulle date. Alcuni lo collocano nel Classico Terminale, e la scheda dell’INAH assegna al gruppo una data approssimativa dal seicento all’ottocento della nostra era. Un’iscrizione dell’annesso viene calcolata intorno all’anno ottocentoottanta. Non fermarti a un solo numero.\n\nGira intorno all’edificio con calma. Quando arrivi al lato est, osserva le maschere dell’Annesso Est."
+    },
+    "retos_observacion": {
+      "hash": "647e5425756f744b",
+      "texto": [
+        "Guarda la facciata e cerca gli elementi geometrici e le maschere dello stile Puuc",
+        "Confronta questo edificio con il Tempio dei Guerrieri: sono due tradizioni diverse",
+        "Cerca, accanto alla scalinata principale, il trono a forma di giaguaro a due teste"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78713fbcc8e9ae09",
+      "texto": {
+        "Stile": "Puuc e Chenes (INAH); maya-tolteco e Puuc",
+        "Fasi": "almeno 6",
+        "Livelli": "3",
+        "Orientamento": "guarda a nord",
+        "Parti": "Las Monjas, ala est (Annesso) e ala sudest",
+        "Dimensioni approssimative": "circa 50 × 23 m il tempio originale già ampliato; circa 10 m il corpo alto dell’edificio recente",
+        "Primi disegni": "Catherwood (1839-1840); fotografie di Maudslay"
+      }
+    },
+    "faq_mito": {
+      "hash": "14cdfb3bb6535ab1",
+      "texto": {
+        "pregunta": "Mito: Las Monjas era un convento di donne maya.",
+        "respuesta": "Realtà: È un nome che gli diedero gli spagnoli. Si tratta di un palazzo di governo, con testi che menzionano un governante."
+      }
+    }
+  }
+}

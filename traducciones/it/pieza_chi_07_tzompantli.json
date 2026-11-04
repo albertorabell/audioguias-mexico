@@ -1,0 +1,56 @@
+{
+  "id": "chi_07_tzompantli",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1b402fb72d217f3c",
+      "texto": "Il Tzompantli, il muro dei teschi"
+    },
+    "frase_gancho": {
+      "hash": "19537684377b1b04",
+      "texto": "Un muro di teschi scolpiti nella pietra, e nessun teschio è uguale a un altro."
+    },
+    "puente_narrativo": {
+      "hash": "01a3506df1ed7256",
+      "texto": "Fai qualche passo verso la piattaforma vicina, la [Piattaforma delle Aquile e dei Giaguari](chi_06_aguilas_jaguares), dove le aquile reggono cuori."
+    },
+    "guion_corto": {
+      "hash": "dfb61fc4c2bbe393",
+      "texto": "Tzompantli è una parola nahuatl che di solito si traduce come fila di teschi. Questa piattaforma a forma di T, di circa cinquantacinque metri per dodici, ha le pareti coperte di teschi scolpiti. Se ne calcolano circa duemilaquattrocento, e differiscono notevolmente l’uno dall’altro. I teschi appaiono infilzati in verticale, come su pali, e non in orizzontale, come nel Messico centrale. Questo aiuta a distinguere questa versione maya da quelle dei Mexica. È il primo luogo conosciuto di Mesoamerica con un tzompantli scolpito nella pietra. Ciò che vedi fu ricostruito nel millenovecentocinquantuno."
+    },
+    "guion_largo": {
+      "hash": "bf94a21f91844e39",
+      "texto": "È una delle immagini più impressionanti di Chichén Itzá, e conviene guardarla con calma, senza dimenticare che si tratta di un monumento religioso di mille anni fa.\n\nPrima di tutto, la parola. Tzompantli viene dal nahuatl e di solito si traduce come fila o muro di teschi. Nel Messico centrale, i Mexica collocavano teschi veri su pali di legno. Qui, i costruttori li scolpirono nella pietra. Chichén Itzá è il primo luogo conosciuto di Mesoamerica con un tzompantli di pietra, e l’idea di renderlo permanente potrebbe essere nata tra i Maya del periodo Classico Terminale, tra gli anni ottocento e millecento.\n\nLa piattaforma ha la forma di una T. Misura circa cinquantacinque metri per dodici, con una scalinata centrale di circa sei metri e mezzo di larghezza sul lato orientale. È orientata di circa diciassette gradi a est rispetto al nord. Le pareti hanno quattro file di teschi: quella in alto e quella in basso formano delle modanature, e le altre coprono i muri, che poggiano su una scarpata inclinata.\n\nQuanti teschi ci sono? Se ne calcolano circa duemilaquattrocento, anche se altre stime indicano cifre molto più basse, di cinquecento o di alcune centinaia. Ciò che è certo è che i teschi variano notevolmente. Forse li realizzarono diversi artisti, o forse rappresentano persone specifiche. Appaiono di profilo, infilzati su pali verticali. I Mexica, invece, li infilzavano in orizzontale.\n\nSul lato orientale, vicino alla scalinata, ci sono figure maschili di profilo, venti in tutto, che avanzano in processione. Tra di esse si alternano sedici grandi aquile, ciascuna con un cuore umano tra gli artigli. Restano ancora tracce di pittura azzurra e rossa. Le modanature che incorniciano i rilievi sono serpenti a sonagli: piumati in alto e segmentati in basso. Potrebbero alludere al cielo e alla terra.\n\nL’edificio ha anche una storia di ricerche. Eduard Seler lo descrisse nel millenovecentonove, e lo chiamò Mausoleo Due. José Erosa Peniche lo scavò nel millenovecentoventisette, e Manuel Cirerol Sansores proseguì nel millenovecentoquaranta. Nel millenovecentocinquantuno, Jorge Acosta e Ponciano Salazar lo ricostruirono. All’interno trovarono due teschi umani con offerte di giada, perle di conchiglia e specchi con mosaico di pirite.\n\nC’è un altro dato che vale la pena ricordare. A Tula, la città del Messico centrale con cui Chichén Itzá viene spesso paragonata, c’è una struttura senza decorazione che potrebbe essere contemporanea. Gli specialisti discutono ancora su come fosse il rapporto tra le due città, anche se condividevano un modo di intendere la guerra e l’arte.\n\nProsegui ora verso la piattaforma vicina, la [Piattaforma delle Aquile e dei Giaguari](chi_06_aguilas_jaguares). Lì rivedrai aquile con cuori, ma su una scala diversa."
+    },
+    "retos_observacion": {
+      "hash": "3151853ba5aac088",
+      "texto": [
+        "Osserva che i teschi appaiono di profilo, e confrontane due o tre: non sono uguali",
+        "Individua le aquile con i cuori tra gli artigli, sul lato orientale",
+        "Cerca i serpenti a sonagli che incorniciano i rilievi, piumati in alto e segmentati in basso"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ae5012650ebac817",
+      "texto": {
+        "Forma": "piattaforma a T, di circa 55 × 12 metri",
+        "Teschi": "circa 2 400 (altre stime ne indicano meno)",
+        "Figure": "20 figure maschili di profilo e 16 aquile con cuori, sul lato orientale",
+        "Epoca": "Classico Terminale, 800-1100 circa",
+        "Esplorazione": "Seler (1909), Erosa Peniche (1927), Cirerol Sansores (1940)",
+        "Ricostruzione": "Jorge Acosta e Ponciano Salazar, 1951"
+      }
+    },
+    "faq_mito": {
+      "hash": "a35b1fc3a11efe0b",
+      "texto": {
+        "pregunta": "Mito: I teschi del Tzompantli sono veri.",
+        "respuesta": "Realtà: Sono rilievi scolpiti nella pietra. All’interno della piattaforma furono trovati due teschi umani con delle offerte, ma quelli che vedi sulle pareti sono sculture."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chi_30_anexo_este_monjas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5b336e81005050e0",
+      "texto": "L’Annesso Est"
+    },
+    "frase_gancho": {
+      "hash": "ec2b597fa5308e55",
+      "texto": "Una porta che è la bocca di una gigantesca maschera della pioggia."
+    },
+    "puente_narrativo": {
+      "hash": "e6097543bb17c89d",
+      "texto": "Osserva le maschere della facciata. Quando hai finito, prosegui con la tappa successiva del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "0cfb77ae9959f816",
+      "texto": "L’Annesso Est fa parte dell’edificio originale di Las Monjas. La sua facciata è coperta di maschere di Chaac, il dio della pioggia. Il portale è un’enorme maschera di Chaac, o di Witz, lo spirito della montagna, con la porta come bocca. In alto corre un serpente ondulato scolpito. Secondo l’INAH, una porta con un’iscrizione ricorda lo stile Chenes. La sua iscrizione si calcola intorno all’anno ottocentoottanta."
+    },
+    "guion_largo": {
+      "hash": "c97dcb3632ee3317",
+      "texto": "Questa è una delle facciate più spettacolari del sito, e anche una delle più difficili da spiegare con certezza.\n\nSecondo l’INAH, l’Annesso fa parte della costruzione originale di Las Monjas. La sua facciata ha molte maschere di Chaac, il dio della pioggia, e una porta con un’iscrizione che ricorda lo stile Chenes. L’edificio principale ha tre parti, e l’Annesso Est corrisponde all’ala est.\n\nVarie descrizioni aggiungono dettagli. La facciata principale è scolpita come un enorme volto di Chaac, o di Witz, che è lo spirito che abita le montagne, e la porta funziona come la sua bocca. Entrambe le figure hanno a che vedere con la pioggia. Sulla cornice c’è un serpente ondulato, che potrebbe essere il Serpente piumato. Si descrive anche la camera est, con la porta incorniciata da nasi curvi di Chaac, con quattro maschere per lato, due sovrapposte in ogni angolo, e una cresta con grate e maschere.\n\nI dettagli variano a seconda di chi li descrive. Ciò che conviene ricordare è l’essenziale: maschere di Chaac, un portale di stile Chenes e una cornice con un serpente.\n\nL’iscrizione geroglifica dell’architrave della camera est si calcola intorno all’anno ottocentoottanta, secondo il computo katún. L’epigrafista Hermann Beyer registrò nel millenovecentotrentasette la decorazione della facciata dell’Annesso Est, ma non fornisce date di costruzione. Gli stili che questa costruzione mescola, Puuc, Chenes e Río Bec, erano comuni nel Classico recente in Yucatán.\n\nGuarda con calma la ripetizione delle maschere. In una regione senza fiumi, chiedere acqua era chiedere vita.\n\nQuando hai finito, prosegui con la tappa successiva del tuo percorso."
+    },
+    "retos_observacion": {
+      "hash": "3a9d4932a0b44167",
+      "texto": [
+        "Cerca la porta e prova a vedere, intorno a essa, la forma di una bocca e di un naso curvo",
+        "Conta quante volte si ripete la maschera di Chaac in un tratto della facciata",
+        "Guarda la cornice e cerca il serpente ondulato"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c1bba47855940429",
+      "texto": {
+        "Ubicazione": "ala est di Las Monjas",
+        "Decorazione": "molte maschere di Chaac; portale descritto come maschera di Chaac o di Witz con la porta come bocca",
+        "Cornice": "serpente ondulato",
+        "Stile": "Chenes (INAH); Puuc, Chenes e Río Bec",
+        "Iscrizione dell’architrave": "intorno all’anno 880 (approssimativo)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0890c02d0e7da80",
+      "texto": {
+        "pregunta": "Mito: Le maschere della facciata rappresentano diversi governanti.",
+        "respuesta": "Realtà: L’INAH le identifica come maschere del dio della pioggia, Chaac, ripetute nella decorazione."
+      }
+    }
+  }
+}

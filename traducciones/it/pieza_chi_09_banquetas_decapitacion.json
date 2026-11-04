@@ -1,0 +1,56 @@
+{
+  "id": "chi_09_banquetas_decapitacion",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fabb47fec5083adf",
+      "texto": "I pannelli della decapitazione"
+    },
+    "frase_gancho": {
+      "hash": "e6da41f967a5b673",
+      "texto": "Sei pannelli ripetono la stessa scena: un giocatore con la testa di un altro, e sei serpenti di sangue."
+    },
+    "puente_narrativo": {
+      "hash": "2be332556f9c70a3",
+      "texto": "Abbassati accanto alle banchine e percorri le scene con lo sguardo. Quando hai finito, prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "fbf9d78e9b3ebee4",
+      "texto": "Abbassati accanto alla base delle piattaforme laterali. Sulle banchine c’è una scena che si ripete sei volte, tre per lato. Sono due squadre di giocatori con i loro capitani, e una grande palla di selce al centro, con un teschio all’interno. Su un lato della scena, un giocatore regge la testa mozzata di un altro, che è inginocchiato e sanguina. Il sangue esce come sei serpenti, e tra di loro cresce una pianta. Gli specialisti non sono d’accordo sul fatto che il decapitato fosse il vincitore o il perdente. Una specialista vede nella scena un albero del mondo. I dettagli continuano a essere studiati."
+    },
+    "guion_largo": {
+      "hash": "08c73639da6b2e35",
+      "texto": "Sei davanti alla scena più famosa del Grande campo del gioco della palla. Si ripete sei volte, tre su ciascuna piattaforma laterale.\n\nSecondo l’archeologa Adriana Velázquez Morlet, la scena mostra un gioco cerimoniale tra due squadre di sei giocatori, più i loro capitani. Al centro c’è una grande palla di selce con un teschio all’interno. Quel teschio parla, e l’autrice lo identifica come un way, uno spirito compagno, per il ciuffo di capelli che porta sulla testa.\n\nSu un lato della scena, un giocatore regge la testa mozzata di un altro. Sull’altro lato, il capitano decapitato appare inginocchiato e sanguinante. Dal suo collo escono sei serpenti, e l’autrice li identifica con un tipo di serpente chiamato wak kan, che rappresenterebbe l’albero del mondo. Tra i serpenti cresce una pianta di zucca, che anche Linda Schele lesse come un albero del mondo. Gli altri giocatori osservano la scena, e alcune volute attorno a loro suggeriscono che cantassero o recitassero.\n\nUna domanda resta aperta: chi sia il decapitato. Velázquez Morlet legge colui che regge la testa come il vincitore e il decapitato come lo sconfitto. Ma gli specialisti non sono d’accordo sul fatto che il sacrificato fosse il vincitore o il perdente del gioco, e non c’è una risposta accettata da tutti.\n\nUn altro specialista, Enrique Vela, dice qualcosa di simile: che i rilievi delle banchine mostrano scene di sacrificio di giocatori.\n\nVa detto con chiarezza che questa è una lettura, e che i dettagli della scena continuano a essere studiati. Quello che vedi è un’immagine potente: una scena di sacrificio unita all’idea di rinascita, perché dal sangue germoglia una pianta. Per questo si parla spesso del gioco come di un modo per chiedere fertilità e per mantenere l’ordine del mondo.\n\nQuesta scena non fu l’unica. Nel Tempio Nord, all’estremità del campo, c’è un altro pannello con più di quaranta figure. E gli anelli che hai visto alla tappa precedente hanno serpenti intrecciati, come questi.\n\nPrenditi un momento per osservare i dettagli. Vedrai i volti di profilo, i copricapi, gli ornamenti del collo, le pieghe degli abiti. Sono rilievi realizzati con molta cura, e si leggono ancora anche se la pietra ha perso i colori.\n\nQuando sei pronto, prosegui con la prossima tappa del tuo percorso."
+    },
+    "retos_observacion": {
+      "hash": "327146aa12ebd663",
+      "texto": [
+        "Cerca la grande palla di selce al centro della scena, con il teschio all’interno",
+        "Individua i sei serpenti che escono dal collo del capitano inginocchiato",
+        "Osserva la pianta che cresce tra i serpenti, simbolo di rinascita"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e06dbf56dd289a7a",
+      "texto": {
+        "Scena": "si ripete sei volte, tre su ciascuna piattaforma laterale",
+        "Giocatori": "due squadre di sei, più i loro capitani",
+        "Elemento centrale": "una grande palla di selce con un teschio che parla",
+        "Sangue": "sei serpenti wak kan; tra di loro cresce una pianta di zucca",
+        "Lettura": "Adriana Velázquez Morlet",
+        "Interpretazione": "è la lettura di una specialista e i dettagli continuano a essere studiati"
+      }
+    },
+    "faq_mito": {
+      "hash": "c20655e7987bb040",
+      "texto": {
+        "pregunta": "Mito: Si sa con certezza che il decapitato dei pannelli era il perdente del gioco.",
+        "respuesta": "Realtà: Gli specialisti non sono d’accordo sul fatto che il decapitato fosse il vincitore o il perdente. La lettura di Velázquez Morlet vede il vincitore che regge la testa dello sconfitto, ma i dettagli della scena continuano a essere studiati."
+      }
+    }
+  }
+}

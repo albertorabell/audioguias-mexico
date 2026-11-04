@@ -1,0 +1,56 @@
+{
+  "id": "chi_23_el_osario",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e57e46b4e415af1c",
+      "texto": "L’Osario e le sue piattaforme"
+    },
+    "frase_gancho": {
+      "hash": "1cbb35eceb0f44f5",
+      "texto": "Una piramide a nove corpi con un’apertura sulla sommità che scende fino a una grotta."
+    },
+    "puente_narrativo": {
+      "hash": "ca47d89ab6f88925",
+      "texto": "Gira attorno alla piattaforma e osserva la piramide da diverse angolazioni. Quando hai finito, prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "b4b9fef89ff4f3b1",
+      "texto": "L’Osario è una piramide a gradoni, più piccola di El Castillo e molto simile a esso, con scalinate su tutti e quattro i lati. Ha nove corpi e supera i dieci metri di altezza. Al centro c’è un’apertura che scende fino a una grotta naturale, a circa dieci o dodici metri di profondità. Alla fine dell’Ottocento, Edward Thompson la esplorò e vi trovò scheletri e perle di giada. Per questo la chiamò Tomba del Gran Sacerdote. Oggi si pensa che non fosse né una tomba né la sepoltura di sacerdoti."
+    },
+    "guion_largo": {
+      "hash": "7bebd8932377388a",
+      "texto": "Questo edificio ha due nomi, e nessuno dei due è esatto. Lo si chiama Osario per le ossa che vi furono trovate, e Tomba del Gran Sacerdote perché così lo battezzò il suo esploratore.\n\nPartiamo da ciò che si vede. È una piramide a gradoni di nove corpi, alta più di dieci metri, con scalinate su tutti e quattro i lati. Somiglia molto a El Castillo, anche se è più piccola, e per questo c’è chi la definisce una replica. I rilievi del fregio sono mitologici, e agli angoli ci sono maschere del dio della pioggia, Chaac. Le scalinate hanno balaustre con serpenti.\n\nLa particolarità sta al centro. Un’apertura sulla sommità scende attraverso un condotto fino a una grotta naturale. Le descrizioni indicano profondità diverse: tra circa dieci e circa dodici metri. Alla fine dell’Ottocento, Edward Thompson scese in quella grotta. Trovò scheletri e perle di giada, e concluse che fosse la tomba di un gran sacerdote. Oggi gli archeologi pensano che non fosse né una tomba né una sepoltura di sacerdoti.\n\nNel millenovecentotrentasei, J. C. Harrington, mentre rilevava la mappa del condotto, trovò parte della volta di un tempio precedente. Ciò significa che anche l’Osario fu costruito sopra un tempio più antico, proprio come El Castillo e il Tempio dei Guerrieri. Uno studio al radiocarbonio del duemiladiciannove, di Saldaña e Brady, data la fine della struttura precedente e la costruzione dell’Osario all’inizio dell’ottavo secolo. Un pilastro del tempio superiore riporta una data che corrisponde all’anno novecentonovantotto.\n\nC’è una lettura simbolica molto ripetuta: che la grotta fosse un ingresso all’oltretomba, e che i nove corpi alludessero ai suoi nove livelli. È un’interpretazione popolare. I Maya associavano davvero le grotte e i cenote all’oltretomba, ma il rapporto con i nove livelli non è provato.\n\nDa questa piattaforma parte un sentiero che porta al Cenote Xtoloc. Quando hai finito qui, prosegui con la prossima tappa del tuo percorso."
+    },
+    "retos_observacion": {
+      "hash": "1a98a44a14b466e7",
+      "texto": [
+        "Conta i corpi della piramide: sono nove",
+        "Cerca agli angoli le maschere del dio della pioggia, Chaac",
+        "Confronta le sue proporzioni con quelle di El Castillo, che hai già visto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ff3ac66d851e907",
+      "texto": {
+        "Altezza": "più di 10 m",
+        "Corpi a gradoni": "9, con scalinate su tutti e quattro i lati",
+        "Apertura centrale": "scende fino a una grotta naturale, a circa 10-12 m",
+        "Esplorazione": "Edward Thompson, fine del XIX secolo; J. C. Harrington (1936) trovò un tempio precedente",
+        "Data": "inizio dell’VIII secolo (radiocarbonio, 2019); pilastro del tempio superiore con data corrispondente all’anno 998",
+        "Nomi": "Osario e Tomba del Gran Sacerdote"
+      }
+    },
+    "faq_mito": {
+      "hash": "8faa303ff8b4a790",
+      "texto": {
+        "pregunta": "Mito: È la tomba di un gran sacerdote maya.",
+        "respuesta": "Realtà: Così la battezzò Thompson, ma oggi si pensa che non fosse né una tomba né una sepoltura di sacerdoti."
+      }
+    }
+  }
+}

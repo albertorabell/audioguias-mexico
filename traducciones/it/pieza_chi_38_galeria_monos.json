@@ -1,0 +1,57 @@
+{
+  "id": "chi_38_galeria_monos",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "abd897725ed4146e",
+      "texto": "La Galleria delle Scimmie"
+    },
+    "frase_gancho": {
+      "hash": "a7bc72ae119bf235",
+      "texto": "Una galleria di trentasei metri con più di sessanta scimmie scolpite e uccelli che le attaccano."
+    },
+    "puente_narrativo": {
+      "hash": "7b2c809aa3a8afc3",
+      "texto": "Qui termina la visita a Chichén Vecchia. Quando avrai finito di guardare la galleria, torna con la tua guida lungo il sentiero d’ingresso."
+    },
+    "guion_corto": {
+      "hash": "f32e69f40f82d29a",
+      "texto": "La Galleria delle Scimmie, o Tempio delle Scimmie, si trova sul lato ovest della piazza sudovest di Chichén Vecchia. Misura quasi trentasei metri di lunghezza per cinque e mezzo di larghezza, e circa quattro metri e mezzo di altezza. Le sue modanature portano più di sessanta scimmie in altorilievo. Il fregio ha sedici grandi pannelli: sei con signori seduti su fasce celesti, e dieci con uccelli che attaccano scimmie danzanti. Uno dei signori è stato letto come Dieci Cervo."
+    },
+    "guion_largo": {
+      "hash": "93bd315f86679e93",
+      "texto": "Questa galleria spiega il suo nome da sola: basta guardare la facciata.\n\nSecondo il rapporto di Peter Schmidt e Rocío González de la Mata, del duemilasette, la struttura cinque C sei si trova sul lato ovest della piazza sudovest. Il Progetto Archeologico Chichén Itzá la scavò e la restaurò in parte tra il millenovecentonovantanove e il duemilacinque. Misura quasi trentasei metri da nord a sud e cinque metri e quarantacinque di larghezza, con un’altezza esterna di quattro metri e mezzo. Sul lato est, aperto verso la piazza, ci sono nove colonne, e dietro una seconda fila di dieci. Karl Ruppert, nel millenovecentocinquantadue, ne aveva contate solo otto.\n\nPer capire il nome basta vedere ciò che racconta. Più di sessanta scimmie in altorilievo decorano le modanature. Il fregio ha sedici pannelli grandi. In sei, signori di alto rango sono seduti su fasce celesti e reggono steli che terminano in teste di serpente. I loro glifi si leggono come dieci cane o dieci cervo, anche se gli specialisti lasciano la lettura con un punto interrogativo. Negli altri dieci pannelli, figure di uomo-uccello, forse in costume, attaccano scimmie che danzano. Ogni angolo ha due maschere sovrapposte. Uno studio del duemilaquattordici mette in relazione il signore del rilievo con Dieci Cervo, l’occupante di rango più alto del gruppo.\n\nSul suo uso, Schmidt e González de la Mata scartano l’ipotesi più ovvia. Gli oggetti ritrovati non corrispondono a una casa, a un santuario né a un presidio militare. La paragonano ai portici dei pellegrini dell’epoca coloniale, gallerie dove si alloggiava e si lavorava, e propongono che il lato aperto verso la piazza permettesse di sorvegliare il lavoro dall’esterno.\n\nLa galleria ebbe una brutta fine. Le travi di legno crollarono e bruciarono, ed è considerato probabile che l’incendio fosse intenzionale. Poi ci fu un’occupazione breve. Sulla superficie furono raccolti quasi quattromilacinquecento cocci, quasi tutti della fase Sotuta.\n\nLì vicino, un chultún, cioè una cisterna scavata nella roccia, ha circa cinque metri di profondità. Vicino al fondo sono comparsi sei crani. Viene interpretato come una pulizia frettolosa dopo un disastro.\n\nQui termina la visita a Chichén Vecchia. Torna con la tua guida lungo il sentiero d’ingresso."
+    },
+    "retos_observacion": {
+      "hash": "5170575d86256d6e",
+      "texto": [
+        "Cerca nelle modanature le scimmie in altorilievo e contane alcune",
+        "Individua il fregio con gli uccelli che attaccano le scimmie e i signori seduti",
+        "Guarda le colonne del lato aperto verso la piazza: sono nove"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c8060c9a73c89c9e",
+      "texto": {
+        "Struttura": "5C6, lato ovest della piazza sudovest",
+        "Dimensioni": "quasi 36 m di lunghezza, 5,45 m di larghezza, 4,50 m di altezza",
+        "Colonne del lato est": "9, e una seconda fila di 10",
+        "Fregio": "16 pannelli; 6 con signori seduti su fasce celesti e 10 con uccelli che attaccano scimmie",
+        "Scimmie nelle modanature": "più di 60",
+        "Lavori": "scavo e restauro parziale, 1999-2005",
+        "Personaggio": "Dieci Cervo (lettura con punto interrogativo)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c259fa225bffe34a",
+      "texto": {
+        "pregunta": "Mito: Le scimmie della galleria erano scimmie vere allevate nel tempio.",
+        "respuesta": "Realtà: Sono rilievi. Più di 60 scimmie decorano le modanature e il fregio mostra uccelli che attaccano scimmie danzanti."
+      }
+    }
+  }
+}

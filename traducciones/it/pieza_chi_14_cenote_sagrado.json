@@ -1,0 +1,56 @@
+{
+  "id": "chi_14_cenote_sagrado",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2e1a11bdf7134302",
+      "texto": "Il Cenote Sacro"
+    },
+    "frase_gancho": {
+      "hash": "fff0e3b277b7af2d",
+      "texto": "Un pozzo di sessanta metri di diametro in cui furono gettati oro, giada, copal e persone."
+    },
+    "puente_narrativo": {
+      "hash": "94569c1a60960f94",
+      "texto": "Quando hai finito di affacciarti al pozzo, torna con calma lungo il sacbé verso la piazza. Da lì, prosegui con la tappa successiva del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "45ecbe7456a60709",
+      "texto": "Sei davanti al Cenote Sacro. Secondo l’INAH, è un cenote aperto di sessanta metri di diametro. Le pareti scendono a picco fino all’acqua. I Maya lo associavano a Chaac, il dio della pioggia, e per secoli qui furono gettate offerte: oro, rame, giada, ceramica, copal, tessuti e anche persone. Edward Thompson lo dragò tra millenovecentoquattro e millenovecentodieci, e i resti umani che trovò appartengono a uomini, donne e bambini. Il frate Diego de Landa scrisse nel millecinquecentosessantasei che in tempi di siccità venivano gettate persone vive."
+    },
+    "guion_largo": {
+      "hash": "67b9c3db8da34093",
+      "texto": "Questo pozzo è uno dei luoghi più carichi di significato di tutta Chichén Itzá, e anche uno dei più dibattuti.\n\nPartiamo dall’aspetto fisico. L’INAH lo descrive come un cenote a cielo aperto, di sessanta metri di diametro. Le pareti scendono per circa ventisette metri fino al livello dell’acqua, anche se altre misurazioni ne indicano circa quindici. Qualunque sia la cifra, è una caduta verticale impressionante. A differenza del cenote Xtoloc, che tradizionalmente era considerato quello che riforniva d’acqua la popolazione, questo è associato a rituali dedicati a Chaac, il dio della pioggia.\n\nLa sua fama deriva da ciò che vi fu ritrovato. Nel milleottocentonovantatré, Edward Herbert Thompson comprò l’hacienda di Chichén Itzá. Nel millenovecentoquattro iniziò a dragare il cenote con una draga e delle carrucole. Nel millenovecentonove si immerse perfino con due palombari greci. I lavori durarono fino al millenovecentodieci, anche se ufficialmente furono dichiarati conclusi nel millenovecentoventitré. Ne uscirono oro, rame, giada scolpita, ceramica, incenso, tessuti e armi di legno, e resti umani.\n\nC’è un dettaglio importante su quegli oggetti. Né l’oro, né il rame, né la giada sono originari dello Yucatán. Arrivarono da altre regioni dell’America Centrale. Inoltre, molti oggetti furono trovati danneggiati di proposito prima di essere gettati. Alcuni studiosi pensano che fosse un modo per uccidere l’oggetto, come un’offerta.\n\nSui resti umani, il ricercatore Guillermo de Anda riferì, nel duemilasette, che c’erano uomini, donne e bambini. Molte vittime erano giovani, tra i sei e i dodici anni, e soprattutto maschi. Alcuni scheletri presentano ferite compatibili con un sacrificio, altri no. La questione resta aperta.\n\nLa testimonianza scritta più importante è quella del frate Diego de Landa. Nel millecinquecentosessantasei scrisse che, in tempi di siccità, in questo pozzo venivano gettate persone vive per chiedere la pioggia. Ma egli non dice con quale frequenza accadesse, e la sua testimonianza non basta per sapere quante volte sia successo.\n\nDopo Thompson ci furono altre esplorazioni. Nel millenovecentosessantuno, una spedizione dell’INAH, della National Geographic e del gruppo CEDAM recuperò oggetti con oro e mosaici di giada. Nel millenovecentosessantasette e sessantotto il livello dell’acqua fu abbassato di circa quattro metri. La maggior parte del materiale di Thompson finì al Museo Peabody di Harvard, e il museo ne restituì la metà al Messico nel millenovecentosettanta, e altro ancora nel duemilaotto.\n\nOra pensa al viaggio. Questa è la fine del sacbé, la strada rialzata che arriva fin qui. Chi arrivava aveva attraversato la piazza, aveva percorso la strada rialzata e si affacciava su un bordo a picco sopra un’acqua verde. È difficile immaginare una messa in scena più potente.\n\nTorna con calma lungo il sacbé verso la piazza e prosegui con la tappa successiva del tuo percorso."
+    },
+    "retos_observacion": {
+      "hash": "06959ee5065843ec",
+      "texto": [
+        "Lasciati stupire dalla caduta verticale delle pareti fino all’acqua, e calcola a occhio la loro altezza",
+        "Osserva il colore dell’acqua e la vegetazione che pende dai bordi",
+        "Guarda indietro verso il sacbé e immagina il cammino di chi arrivava fin qui"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9eaa12bde83e82ef",
+      "texto": {
+        "Diametro": "circa 60 metri (INAH)",
+        "Caduta fino all’acqua": "circa 27 metri (altre misurazioni ne indicano circa 15)",
+        "Dragaggio": "Edward H. Thompson, dal 1904 al 1910 (ufficialmente fino al 1923)",
+        "Ritrovamenti": "oro, rame, giada scolpita, ceramica, copal, tessuti, armi di legno e resti umani",
+        "Origine dei metalli": "oro, rame e giada non provengono dallo Yucatán",
+        "Testimonianza scritta": "Diego de Landa, 1566, su persone gettate in tempi di siccità"
+      }
+    },
+    "faq_mito": {
+      "hash": "1df925db81bbf6c3",
+      "texto": {
+        "pregunta": "Mito: Ogni anno una giovane veniva gettata nel Cenote Sacro, e tutti i resti umani sono di donne.",
+        "respuesta": "Realtà: I resti sono di uomini, donne e bambini, e molte vittime erano giovani maschi. Landa parla di persone gettate in periodi di siccità, ma non dice con quale frequenza."
+      }
+    }
+  }
+}

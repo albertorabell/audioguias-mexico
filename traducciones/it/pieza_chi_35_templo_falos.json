@@ -1,0 +1,56 @@
+{
+  "id": "chi_35_templo_falos",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc78b15121f84caa",
+      "texto": "Il Palazzo dei Falli"
+    },
+    "frase_gancho": {
+      "hash": "6a5d4dc68294a314",
+      "texto": "Un labirinto di stanze, corridoi e cortili, con una scala interna che sale al secondo piano."
+    },
+    "puente_narrativo": {
+      "hash": "a04e633cfbbff075",
+      "texto": "Attraversa verso la [Casa delle Lumache](chi_36_casa_caracoles_tortuga), dove un albero genealogico misura circa venti metri."
+    },
+    "guion_corto": {
+      "hash": "4948f3fd5554d993",
+      "texto": "Questo è il Palazzo dei Falli, un complesso di due piani che fa parte di Chichén Vecchia. È un labirinto di stanze, corridoi e cortili interni, con una scala che sale a due stanze del secondo piano. Sulle sue panche ci sono rilievi di stelle di Venere riutilizzati da un altro edificio. Si è detto che altri rilievi raccontino l’origine e la vita di un personaggio importante. Le pietre crollate del palazzo furono riutilizzate più tardi in un altro edificio."
+    },
+    "guion_largo": {
+      "hash": "4a91ce4a8af95625",
+      "texto": "Con questo nome, ci si aspetterebbe una descrizione appariscente. La verità è che ciò che è documentato è più architettonico che altro.\n\nL’archeologo Peter Schmidt e Rocío González de la Mata descrivono la Casa dei Falli, o Complesso Palaziale dei Falli, come un insieme di tre strutture, che la mappa della Carnegie numera cinque C cinque, cinque C quattordici e cinque C quindici. Contiene un labirinto di stanze, corridoi e cortili interni, e una scala che sale a due stanze del secondo piano. Un altro studio, del duemilaquattordici, lo descrive come un complesso di due piani sul lato sud della piazza nord. Le due descrizioni collocano l’edificio in punti un po’ diversi; probabilmente si riferiscono a parti differenti di un grande insieme.\n\nLo studio del duemilaquattordici aggiunge un dettaglio curioso: le panche del palazzo hanno rilievi di stelle di Venere a quattro punte, che furono riutilizzati dal Tempio della Serie Iniziale. Vale a dire che i costruttori riciclarono pezzi di un altro edificio.\n\nLa facciata ha tavolette del dio N nei suoi aspetti di lumaca e di ragno. E Schmidt descrive, in un altro lavoro, rilievi che sono stati letti come fallici e di autosacrificio, oltre a pannelli al secondo piano. Sono descrizioni brevi: non si conosce con precisione il numero né la forma delle sculture che danno il nome al luogo.\n\nUna nota giornalistica del duemilaventitré dice che il palazzo racconta l’origine e la vita di un personaggio importante, con lotte, sacrifici e rituali. È una lettura generale, senza fondamento tecnico.\n\nIl palazzo ebbe un destino curioso. Quando crollò, le sue pietre furono riutilizzate in un altro edificio, la struttura cinque C otto, insieme a quelle della Galleria delle Scimmie e a quelle di un’altra struttura vicina.\n\nL’INAH ha restaurato il palazzo nell’intervento del duemilaventitré, reintegrando elementi di costruzione. Parte di ciò che vedi è stata ricollocata.\n\nContinua verso la [Casa delle Lumache](chi_36_casa_caracoles_tortuga)."
+    },
+    "retos_observacion": {
+      "hash": "456000a7aa8b9fc7",
+      "texto": [
+        "Osserva i due piani del palazzo e prova a seguire con lo sguardo il percorso della scala interna",
+        "Cerca le tavolette della facciata e gli elementi reintegrati durante il restauro",
+        "Confronta le sue dimensioni con quelle del Tempio della Serie Iniziale che hai visto prima"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3125872ca055a14d",
+      "texto": {
+        "Insieme": "Casa o Complesso Palaziale dei Falli (strutture 5C5, 5C14 e 5C15)",
+        "Pianta": "labirinto di stanze, corridoi e cortili, con scala interna verso due stanze del secondo piano",
+        "Panche": "rilievi di stelle di Venere riutilizzati dal Tempio della Serie Iniziale",
+        "Facciata": "tavolette del dio N in aspetto di lumaca e ragno",
+        "Rovina": "le sue pietre furono riutilizzate nella struttura 5C8",
+        "Restauro": "reintegrazione di elementi (INAH, 2023)"
+      }
+    },
+    "faq_mito": {
+      "hash": "137f4f3208e0bbfa",
+      "texto": {
+        "pregunta": "Mito: Il Palazzo dei Falli era un tempio dedicato a un unico rituale di fertilità.",
+        "respuesta": "Realtà: È un palazzo di due piani, con stanze, cortili e scala. Le sculture che gli danno il nome non sono ben conosciute."
+      }
+    }
+  }
+}

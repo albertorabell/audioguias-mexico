@@ -1,0 +1,56 @@
+{
+  "id": "chi_25_casa_venado_colorada",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e128551d4843eb2b",
+      "texto": "La Casa Colorada e la Casa del Venado"
+    },
+    "frase_gancho": {
+      "hash": "6f893303c47d49e9",
+      "texto": "Una casa che conserva ancora la traccia del suo colore e un’altra di cui resta solo la metà."
+    },
+    "puente_narrativo": {
+      "hash": "d7d58e3809fffd90",
+      "texto": "Prosegui verso [El Caracol](chi_27_el_caracol), la torre rotonda sul lato orientale."
+    },
+    "guion_corto": {
+      "hash": "bd84eef619aa0c67",
+      "texto": "Ti trovi davanti alla Casa Colorada, uno degli edifici meglio conservati di Chichén Itzá. Nell’Ottocento vi si vedeva ancora della pittura rossa. Il suo nome maya è Chichanchob, che l’INAH collega a piccoli fori. Un’iscrizione scolpita riporta una data che corrisponde all’anno ottocentosessantanove e menziona cerimonie del fuoco compiute dai signori sotto la supervisione del re. Accanto si trova la Casa del Venado, molto deteriorata, che prende il nome da una pittura di un cervo che non esiste più."
+    },
+    "guion_largo": {
+      "hash": "c91ee1c27e6dddbf",
+      "texto": "Due edifici vicini, con destini molto diversi: uno ben conservato e l’altro quasi scomparso.\n\nLa Casa Colorada è il più grande e meglio conservato dei quattro edifici di questo gruppo. Il suo nome deriva da una fascia rossa che si vede nel vestibolo, e nell’Ottocento c’era ancora della pittura rossa visibile. In maya è conosciuta come Chichanchob. L’INAH afferma che potrebbe significare piccoli fori, forse per le aperture che si trovano nella cresta del tetto.\n\nAll’interno c’è un testo geroglifico con una data che si converte nell’anno ottocentosessantanove. Il testo parla di cerimonie del fuoco compiute dai signori sotto la supervisione del re, ed è una delle date più antiche del sito. Dagli stessi geroglifici è stato tratto un altro antico nome per l’Akab Dzib, che vedrai più avanti. Dietro la casa, l’INAH ha restaurato nel duemilanove un piccolo campo da gioco della palla.\n\nAccanto si trova la Casa del Venado. È molto deteriorata e ne resta in piedi solo una parte. Il nome si deve, a quanto si dice, a una pittura di un cervo che non esiste più. La sua architettura somiglia molto a quella di Chichanchob: una piattaforma dagli angoli arrotondati, una facciata semplice e un fregio privo di decorazione. È stato suggerito che probabilmente fosse un complesso residenziale legato all’Osario. È un’ipotesi.\n\nProsegui ora verso [El Caracol](chi_27_el_caracol), una torre rotonda su una piattaforma."
+    },
+    "retos_observacion": {
+      "hash": "b64c3ff060b89ace",
+      "texto": [
+        "Cerca i resti di pittura rossa nel vestibolo e la fascia che dà il nome alla casa",
+        "Osserva le aperture della cresta del tetto, che forse hanno dato il nome a Chichanchob",
+        "Confronta la Casa Colorada, ben conservata, con la Casa del Venado, di cui resta la metà"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ec4ab25cc2457b3",
+      "texto": {
+        "Nome maya": "Chichanchob, che l’INAH collega a «piccoli fori»",
+        "Data scolpita": "corrisponde all’anno 869",
+        "Pittura rossa": "ancora visibile nell’Ottocento",
+        "Restauro": "l’INAH ha restaurato nel 2009 un piccolo campo dietro la casa",
+        "Casa del Venado": "molto deteriorata; architettura simile a Chichanchob",
+        "Uso proposto della Casa del Venado": "complesso residenziale probabilmente legato all’Osario (ipotesi)"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a2a6cd3e6f1ff11",
+      "texto": {
+        "pregunta": "Mito: La Casa Colorada si chiama così perché è ancora dipinta di rosso.",
+        "respuesta": "Realtà: Il nome deriva da una fascia rossa del vestibolo. Nell’Ottocento c’era pittura rossa visibile, ma oggi ne resta molto poca."
+      }
+    }
+  }
+}

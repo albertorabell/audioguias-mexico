@@ -1,0 +1,56 @@
+{
+  "id": "chi_20_templo_mesas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1b9e78d71fe5518f",
+      "texto": "Tempio delle Grandi Tavole"
+    },
+    "frase_gancho": {
+      "hash": "351b4ce108ae3a38",
+      "texto": "Una piramide a quattro corpi con pilastri che conservano ancora la loro pittura."
+    },
+    "puente_narrativo": {
+      "hash": "93ca4a279e253701",
+      "texto": "Osserva il tempio dall’esterno. Quando hai finito, prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "4d0afb88cfeaafb8",
+      "texto": "Questo è il Tempio delle Grandi Tavole, a nord del Tempio dei Guerrieri. Fu scoperto durante gli scavi del millenovecentonovantatré e novantaquattro, coordinati dall’archeologo Peter Schmidt. Ha una base a quattro corpi e un piccolo tempio in cima, con un solo ingresso, verso ovest. I suoi pilastri conservano quasi per intero la finitura dipinta. Ci sono due serpenti alle estremità delle balaustre della scalinata, rilievi di guerrieri al centro, e una tavola sostenuta da atlanti nell’angolo nordorientale."
+    },
+    "guion_largo": {
+      "hash": "9bafe6b07128c633",
+      "texto": "Questo tempio custodisce qualcosa che a Chichén Itzá quasi non si vede: il colore.\n\nIl Tempio delle Grandi Tavole si trova a nord del Tempio dei Guerrieri. Fu scoperto durante gli scavi del millenovecentonovantatré e novantaquattro, coordinati da Peter Schmidt. È una costruzione piramidale con una base a quattro corpi e un piccolo tempio nella parte alta. La sua facciata principale guarda a ovest, ed è l’unico accesso.\n\nLa cosa più notevole sono i suoi pilastri. Conservano ancora quasi interamente la finitura pittorica, cioè la pittura originale. Finora sono stati lasciati in vista solo due lati di ogni pilastro. Nella maggior parte della piazza vicina, invece, i pilastri del Gruppo delle Mille Colonne e del Mercato hanno perso quasi tutta la loro policromia.\n\nLa decorazione comprende due serpenti alle estremità delle balaustre della scalinata, rilievi di guerrieri al centro e una tavola sostenuta da atlanti nell’angolo nordorientale. Da qui viene il nome. Sono altari poggiati su piccole figure maschili, con le braccia alzate. Nella prima volta fu trovato un murale con un serpente.\n\nNon confondere questo edificio con il Tempio delle Tavolette, che un altro studio colloca vicino al Palazzo delle Colonne Scolpite.\n\nQuando hai finito, prosegui con la prossima tappa del tuo percorso."
+    },
+    "retos_observacion": {
+      "hash": "02dd50adcec16306",
+      "texto": [
+        "Conta i corpi della base: sono quattro",
+        "Cerca i serpenti alle estremità delle balaustre della scalinata, accanto alla scala",
+        "Prova a vedere se riesci a distinguere resti di pittura sui pilastri"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bd8a76ef53f9f165",
+      "texto": {
+        "Ubicazione": "a nord del Tempio dei Guerrieri",
+        "Scavo": "1993-1994, coordinato da Peter Schmidt",
+        "Forma": "base a quattro corpi e piccolo tempio; un solo accesso, verso ovest",
+        "Pilastri": "conservano quasi per intero la finitura dipinta",
+        "Decorazione": "due serpenti sulle balaustre, guerrieri al centro, tavola con atlanti nell’angolo nordorientale",
+        "Ritrovamento nella volta": "murale con un serpente"
+      }
+    },
+    "faq_mito": {
+      "hash": "f990703cf60dbca1",
+      "texto": {
+        "pregunta": "Mito: Tutti gli edifici di Chichén Itzá erano di pietra grigia, senza colore.",
+        "respuesta": "Realtà: C’era la pittura. In questo tempio i pilastri conservano quasi per intero la loro finitura dipinta, cosa poco comune nel sito."
+      }
+    }
+  }
+}

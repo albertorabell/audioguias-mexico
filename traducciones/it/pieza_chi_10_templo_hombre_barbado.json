@@ -1,0 +1,56 @@
+{
+  "id": "chi_10_templo_hombre_barbado",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "00b0d8f77c65c680",
+      "texto": "I templi Nord e Sud del Gioco della palla"
+    },
+    "frase_gancho": {
+      "hash": "fd380cf00287dea3",
+      "texto": "Alle estremità del campo ci sono due templi: uno con un uomo barbuto scolpito, l’altro con una lunga galleria."
+    },
+    "puente_narrativo": {
+      "hash": "354a6317b719bef8",
+      "texto": "Guarda ora il lato orientale del campo. All’estremità sud di quella piattaforma si trova il [Tempio dei Giaguari](chi_12_templo_jaguares), con murales di battaglie."
+    },
+    "guion_corto": {
+      "hash": "c7a1abf38b0722f8",
+      "texto": "Alle estremità del campo ci sono due templi. Quello a nord si chiama Tempio dell’Uomo Barbuto, per una figura con la barba scolpita al suo interno. Ha una sola camera di circa otto metri per quattro. I suoi rilievi mostrano una cerimonia davanti a un trono di giaguaro vuoto. Quello a sud è una lunga galleria a volta di circa ventiquattro metri. Solo sei pilastri hanno dei rilievi, con guerrieri in piedi e riccamente adornati, e tra le macerie è stato trovato un Chac Mool. Si pensa che in questi templi si svolgessero rituali legati al gioco, ma non se ne conoscono tutti i dettagli."
+    },
+    "guion_largo": {
+      "hash": "74debd32c33bcdfa",
+      "texto": "Questi due templi chiudono il campo alle sue estremità. Sono meno famosi degli anelli o dei pannelli, ma custodiscono immagini di grande valore.\n\nQuello a nord si chiama Tempio dell’Uomo Barbuto, per una figura con la barba scolpita al suo interno. Si erge su una base quadrata, di circa quattordici metri da est a ovest per sette e mezzo da nord a sud, e ha una sola camera di circa otto metri di lunghezza per quattro di larghezza. Ha pilastri finemente scolpiti e rilievi di fiori, uccelli e alberi.\n\nQuello che più colpisce si trova all’interno. I rilievi interni mostrano una cerimonia in cui un personaggio principale è seduto o in piedi davanti a un trono di giaguaro vuoto. Secondo Enrique Vela, in questo tempio c’è un pannello con più di quaranta figure in scene diverse. È un’immagine complessa, che gli specialisti studiano ancora.\n\nQuello a sud è molto diverso. È una lunga galleria a volta, di circa ventiquattro metri di lunghezza per quattro e mezzo di larghezza, costruita sull’estremità sud del campo. I rilievi compaiono solo su sei pilastri, e mostrano guerrieri in piedi, riccamente adornati. Tra le macerie è stato trovato un Chac Mool.\n\nA cosa servivano? Si pensa che in essi, con ogni probabilità, si svolgessero rituali legati al gioco. La parola importante è «probabilità»: non c’è nessuna prova che lo confermi. Quello che si può dire è che chiudevano il campo ai suoi due estremi, e che le immagini all’interno parlano di cerimonie, di guerrieri e di potere.\n\nUn’idea che si ripete tra le guide è che il Tempio Nord abbia un’acustica speciale, ma non ci sono prove documentate in proposito.\n\nOra, quando avrai finito di osservare le estremità, fai attenzione al lato orientale del campo. All’estremità sud di quella piattaforma si trova il [Tempio dei Giaguari](chi_12_templo_jaguares), con murales di battaglie."
+    },
+    "retos_observacion": {
+      "hash": "8e81f3682a6b0918",
+      "texto": [
+        "Cerca il Tempio Nord, quello dell’Uomo Barbuto, all’estremità nord del campo, e la sua unica camera",
+        "Individua il Tempio Sud, una galleria lunga e bassa, all’estremità opposta",
+        "Guarda da lontano i pilastri del tempio nord e cerca i rilievi di fiori, uccelli e alberi"
+      ]
+    },
+    "especificaciones": {
+      "hash": "67e7dbeb3fa227b2",
+      "texto": {
+        "Tempio Nord (dell’Uomo Barbuto)": "una sola camera di circa 8,13 × 4 m, su una base di circa 14 × 7,3 m",
+        "Rilievi interni": "cerimonia davanti a un trono di giaguaro vuoto; un pannello con più di 40 figure",
+        "Tempio Sud": "galleria a volta di circa 24,3 × 4,4 m",
+        "Rilievi del Tempio Sud": "guerrieri in piedi su sei pilastri; tra le macerie è stato trovato un Chac Mool",
+        "Uso": "si pensa che vi si svolgessero rituali legati al gioco",
+        "Studio": "González et al., 2017; Vela, Arqueología Mexicana"
+      }
+    },
+    "faq_mito": {
+      "hash": "c42a502b32a2cb7d",
+      "texto": {
+        "pregunta": "Mito: Il Tempio dell’Uomo Barbuto ha un’acustica speciale che amplifica la voce da una parte all’altra.",
+        "respuesta": "Realtà: Non ci sono prove documentate in proposito. Ciò che è documentato è la sua camera unica, i suoi rilievi di fiori, uccelli e alberi e la figura barbuta che gli dà il nome."
+      }
+    }
+  }
+}

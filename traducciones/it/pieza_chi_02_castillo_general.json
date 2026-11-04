@@ -1,0 +1,56 @@
+{
+  "id": "chi_02_castillo_general",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1bd1fd9856689c7d",
+      "texto": "El Castillo (Piramide di Kukulcán)"
+    },
+    "frase_gancho": {
+      "hash": "53bb7013dd4d1a8b",
+      "texto": "Una piramide di trenta metri che unisce il calendario, il cielo e l’acqua nascosta sotto la terra."
+    },
+    "puente_narrativo": {
+      "hash": "9a6b239ee20123d4",
+      "texto": "Fermati davanti alla scalinata nord, quella delle teste di serpente. Quando hai finito di guardare, prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "2a2bff3292c10405",
+      "texto": "Sei davanti a El Castillo, il tempio di Kukulcán, il serpente piumato. Misura circa ventiquattro metri di altezza, e il tempio in cima ne aggiunge altri sei. La base è un quadrato di circa cinquantacinque metri per lato. Ciascuna delle quattro scalinate ha approssimativamente novantuno gradini. Se li sommi, con la piattaforma in cima, ottieni trecentosessantacinque, come i giorni dell’anno. Quel numero ha fatto pensare a un calendario di pietra, anche se gli specialisti ritengono che il suo legame con i rituali conti più dell’aritmetica. Più o meno dall’anno duemilasei l’INAH non permette di salire. Ma girarci intorno è già un modo di leggerlo."
+    },
+    "guion_largo": {
+      "hash": "15b1351f42e928ea",
+      "texto": "El Castillo è, probabilmente, l’edificio più fotografato del Messico. Ma conviene guardarlo con calma, perché ciascuna delle sue misure sembra parlare di tempo e di cosmo.\n\nCominciamo dai numeri. Il corpo della piramide misura circa ventiquattro metri, e il tempio in cima ne aggiunge circa sei, per un totale di circa trenta. La base è un quadrato di cinquantacinque metri e trenta centimetri. Ogni lato ha una scalinata di più o meno novantuno gradini. Con la piattaforma superiore come ultimo gradino, il conto dà trecentosessantacinque. Il lato sud è molto eroso, e per questo la cifra è approssimativa. E anche se il numero ricorda l’anno solare di trecentosessantacinque giorni, probabilmente si collega soprattutto ai rituali.\n\nCircolano molto anche altre spiegazioni. Si dice spesso che le nove terrazze, divise in due dalle scale, formino diciotto sezioni, come i diciotto mesi del calendario solare maya, e che ogni lato abbia cinquantadue pannelli, come gli anni del ciclo della ruota calendarica. Sono letture molto ripetute, e vale la pena ascoltarle come interpretazioni, non come dati misurati.\n\nC’è un altro indizio nel suo orientamento. La piramide non è allineata esattamente con i punti cardinali. Una spiegazione propone che la sua facciata principale punti a due tramonti del Sole, il venti maggio e il ventiquattro luglio. Tra l’uno e l’altro passano sessantacinque e trecento giorni, multipli di tredici e venti, che sono i numeri del calendario rituale. Un altro tempio, quello di Tulum, segna le stesse date, e la coincidenza delle altre facce con lo zenit e il nadir probabilmente è casuale.\n\nSi discute anche su quando fu costruita. Si parla dei secoli dall’ottavo al dodicesimo, e per l’ultima fase ci sono due stime: tra l’anno novecento e il mille, oppure l’undicesimo secolo. Non esiste una sola data certa.\n\nAnche la sua storia recente racconta molto. L’Istituto Carnegie chiese il permesso di lavorare nel millenovecentoventiquattro e iniziò il restauro nel millenovecentoventisette, con archeologi messicani. Negli anni trenta, per entrare a esplorare l’interno, fu aperto un passaggio nell’angolo nordorientale della scalinata nord. Per anni anche i turisti poterono salire. Intorno al duemilasei, dopo la caduta mortale di una visitatrice, l’INAH chiuse la salita. Oggi puoi girare attorno all’edificio, ma non salirci né entrare.\n\nE sotto c’è ancora di più. Questa piramide ne racchiude un’altra più antica, e più in basso c’è una cavità con acqua. Parte di questa storia si racconta in altre tappe del percorso.\n\nPer ora, fermati qui un momento e guarda la scalinata nord, quella delle teste di serpente."
+    },
+    "retos_observacion": {
+      "hash": "814b6c43c5a59b61",
+      "texto": [
+        "Individua le due teste di serpente di pietra ai piedi della scalinata nord",
+        "Conta i nove corpi a gradoni: le scale li dividono a metà e formano diciotto sezioni",
+        "Gira attorno all’edificio e confronta il lato sud, più eroso, con il lato nord"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5dc286df61145e29",
+      "texto": {
+        "Altezza": "circa 24 m di basamento più 6 m del tempio, circa 30 m in totale",
+        "Base": "quadrata, 55,3 m per lato",
+        "Gradini": "circa 91 per ogni lato; con la piattaforma superiore sono 365 (approssimativo)",
+        "Epoca": "tra l’VIII e il XII secolo; l’ultima fase si stima intorno al 900-1000 o nell’XI secolo",
+        "Restauro": "dal 1927, con l’Istituto Carnegie e archeologi messicani",
+        "Accesso": "dal 2006 circa non è consentito salire né entrare"
+      }
+    },
+    "faq_mito": {
+      "hash": "dafe28e71e1d6526",
+      "texto": {
+        "pregunta": "Mito: Si può salire in cima a El Castillo ed entrare nel suo tempio interno.",
+        "respuesta": "Realtà: Dal 2006 circa l’INAH ha chiuso la salita e l’ingresso alla piramide. Si può girarci intorno e guardarla da vicino, ma non salire."
+      }
+    }
+  }
+}

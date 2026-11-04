@@ -1,0 +1,64 @@
+{
+  "id": "chi_16_templo_guerreros",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Tolteco\" para \"Tolteca / Toltecas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Tolteco\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "cd6f64b01a908be4",
+      "texto": "Tempio dei Guerrieri e Colonnato nord-ovest"
+    },
+    "frase_gancho": {
+      "hash": "6d01b78e2c4d509d",
+      "texto": "Colonne scolpite con guerrieri, un Chac Mool in cima e, all’interno, un altro tempio più antico."
+    },
+    "puente_narrativo": {
+      "hash": "cd9bfdc1b8314878",
+      "texto": "Prosegui lungo il tempio verso il [Gruppo delle Mille Colonne](chi_19_grupo_mil_columnas), il bosco di pilastri più grande della piazza."
+    },
+    "guion_corto": {
+      "hash": "76b13d969224ffde",
+      "texto": "Questo è il Tempio dei Guerrieri. È una grande piramide a gradoni, e sul fronte e sui lati ha file di colonne scolpite con guerrieri; il Colonnato nord-ovest fa parte di questo complesso. Si crede che quelle colonne sostenessero i tetti di gallerie che oggi non esistono più. In cima alla scalinata c’è un Chac Mool, la figura reclinata che regge un recipiente. Gli archeologi lo confrontano con il Tempio B di Tula, nel Messico centrale, e questa somiglianza ha alimentato per decenni l’idea di un’invasione tolteca. Oggi si parla piuttosto di influenza. All’interno del tempio ce n’è un altro più antico, il Tempio del Chac Mool, che l’Istituto Carnegie scavò tra il millenovecentoventicinque e il millenovecentoventotto."
+    },
+    "guion_largo": {
+      "hash": "9b21f07b27085ac7",
+      "texto": "Ti trovi davanti a uno degli edifici più famosi di Chichén Itzá, e anche a uno di quelli che hanno suscitato più discussioni.\n\nÈ una grande piramide a gradoni, con file di colonne scolpite con guerrieri sul fronte e sui lati, di circa quaranta metri per lato e quattro livelli. In alto c’è un tempio con due sale e un portico d’ingresso, il cui architrave poggia su due colonne a forma di giganteschi serpenti a sonagli. Sulla sommità, accanto alla scalinata, c’è un Chac Mool, una figura reclinata che regge un piatto o un recipiente sul ventre.\n\nGli archeologi lo confrontano con il Tempio B di Tula, la città del Messico centrale che per molto tempo è stata considerata la capitale dei Tolteci. La somiglianza è reale, e per questo si pensò che Chichén Itzá fosse stata conquistata. La maggior parte delle interpretazioni attuali vede piuttosto un dialogo di stili, frutto del contatto. Fai attenzione: qui non c’è solo imitazione: le colonne, i serpenti e le sale si mescolano con una tradizione locale.\n\nAnche la data è discussa. Alcuni lo collocano intorno all’anno milleduecento. Ma la cronologia di Chichén Itzá continua a essere rivista, e non esiste un’unica data accettata da tutti.\n\nLa cosa più interessante è all’interno. Questa piramide ne copre un’altra, più antica, chiamata Tempio del Chac Mool. L’Istituto Carnegie la scavò e la restaurò tra il millenovecentoventicinque e il millenovecentoventotto. L’archeologo Earl Morris pubblicò il lavoro in due volumi. All’interno si conservano murali con scene di battaglia. Poiché tutta quella zona è chiusa, non puoi entrare, ma è bene sapere che è lì. È una piramide dentro un’altra, come El Castillo.\n\nÈ bene sapere anche che l’edificio è stato restaurato. I lavori iniziarono nel millenovecentoventicinque. Quello che vedi oggi è un misto di pietra originale e pietra ricollocata, quindi non tutto è come lo lasciarono i costruttori.\n\nOra osserva le colonne con calma. Davanti e ai lati del tempio ci sono file di colonne di pietra, e quelle del Colonnato nord-ovest, accanto al tempio, portano quasi tutte figure di guerrieri. Si crede che sostenessero tetti di legno e pietra, oggi scomparsi, con gallerie aperte al di sotto. Per questo oggi le vedi scoperte. Molte figure sono di profilo, con copricapo, ornamenti e armi. Se trovi un rilievo ben leggibile, fermati a guardarlo. Di questo colonnato si conoscono pochi dati specifici: non ha dimensioni né data ben documentate, e uno studio tecnico del duemilasedici lo menziona soltanto tra le costruzioni vicine che portano simboli guerrieri.\n\nOra prosegui lungo il tempio verso il [Gruppo delle Mille Colonne](chi_19_grupo_mil_columnas). Lì le colonne non sono più una fila, ma un bosco."
+    },
+    "retos_observacion": {
+      "hash": "721a38f04107f8fe",
+      "texto": [
+        "Individua in cima alla scalinata il Chac Mool, la figura reclinata che regge un recipiente",
+        "Cerca le due colonne a forma di serpente a sonagli che sostengono l’architrave del portico",
+        "Percorri con lo sguardo le file di colonne del Colonnato nord-ovest e cerca i guerrieri meglio conservati"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ab36c0e3d6d34a8",
+      "texto": {
+        "Forma": "grande piramide a gradoni di quattro livelli, con file di colonne con guerrieri",
+        "Tamaño": "circa 40 metri per lato",
+        "Comparación": "somiglia al Tempio B di Tula, nel Messico centrale",
+        "Subestructura": "il Tempio del Chac Mool, scavato dall’Istituto Carnegie tra il 1925 e il 1928",
+        "Columnata Noroeste": "file di colonne con guerrieri di profilo accanto al tempio; si crede che sostenessero i tetti di gallerie",
+        "Fecha": "alcuni lo collocano intorno all’anno 1200 (la cronologia è ancora in discussione)",
+        "Acceso": "non è possibile salire né entrare nella sottostruttura"
+      }
+    },
+    "faq_mito": {
+      "hash": "9ab61d54962f38ee",
+      "texto": {
+        "pregunta": "Mito: Il Tempio dei Guerrieri dimostra che i Tolteci conquistarono Chichén Itzá.",
+        "respuesta": "Realtà: La somiglianza con il Tempio B di Tula è reale, ma la maggior parte delle interpretazioni attuali parla di influenza e contatto, non di una conquista."
+      }
+    }
+  }
+}

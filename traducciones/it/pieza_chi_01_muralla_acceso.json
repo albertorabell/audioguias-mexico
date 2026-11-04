@@ -1,0 +1,56 @@
+{
+  "id": "chi_01_muralla_acceso",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "835a9b8786305840",
+      "texto": "La Grande Livellazione e il centro cerimoniale"
+    },
+    "frase_gancho": {
+      "hash": "7fe3d488e8494c49",
+      "texto": "Una spianata artificiale, livellata pietra su pietra, per collocare il centro della città su un unico piano."
+    },
+    "puente_narrativo": {
+      "hash": "89169c7cd73c8990",
+      "texto": "Cammina verso il centro della spianata e fermati davanti a [El Castillo](chi_02_castillo_general), la grande piramide che domina la piazza."
+    },
+    "guion_corto": {
+      "hash": "728e5bfd6649227e",
+      "texto": "Sembra una pianura naturale, ma non lo è. La spianata che stai calpestando si chiama la Grande Livellazione. È una piattaforma artificiale di circa seicento metri di lunghezza per quattrocento di larghezza e, secondo una relazione tecnica dell’Università della California a San Diego, è la costruzione più grande di Chichén Itzá. Il terreno originale era fatto di roccia e dislivelli. I costruttori riempirono, spianarono e ricoprirono il suolo con stucco e con sascab, una terra calcarea bianca. I pavimenti hanno una pendenza lieve, appena dell’uno per cento, perché l’acqua piovana scorresse dove doveva. Su questo grande palcoscenico si innalzarono El Castillo, il Gioco della palla e il Tempio dei Guerrieri."
+    },
+    "guion_largo": {
+      "hash": "bf3c2733ef4d63ab",
+      "texto": "Vale la pena fermarti un momento. Quasi nessuno si accorge che il suolo che calpesti è un’opera di ingegneria.\n\nIl terreno naturale di questa parte dello Yucatán è irregolare, con rocce che affiorano e avvallamenti. I costruttori livellarono il terreno per sostenere i grandi complessi di edifici, e lo sforzo maggiore fu compiuto nell’area di El Castillo. Una relazione tecnica di un progetto dell’Università della California a San Diego, del duemilanove, calcola lo spazio in circa seicento metri per quattrocento. La definisce la costruzione più grande di Chichén Itzá, e una delle piattaforme più grandi del mondo maya.\n\nFu un’opera realizzata per fasi: i ricercatori ne propongono dieci. In alcune si riempì con uno strato di terra e pietre sopra la roccia naturale, e in altre si livellarono gli affioramenti con il sascab. I pavimenti di stucco non erano bianchi, come si è soliti immaginare. In diverse fasi si usò stucco giallo e stucco rosso. E tutti i pavimenti hanno una pendenza di più o meno l’uno per cento. Tra El Castillo e il colonnato che vedrai più avanti, il pavimento scende di circa settantacinque centimetri lungo circa settantasette metri. È una pendenza quasi impercettibile, pensata perché l’acqua piovana fosse incanalata dove i costruttori volevano.\n\nÈ stato calcolato anche il tempo. Le fasi più grandi di questa piattaforma corrispondono a quella che gli archeologi chiamano fase Sotuta, tra gli anni ottocento e mille cinquanta o mille cento. E l’intero processo di costruzione sarebbe durato meno di cinquecento anni, e probabilmente non più di trecento.\n\nQuesta spianata ebbe anche un muro. Era una muraglia che circondava il centro cerimoniale. Gli archeologi scavarono un tratto di circa novanta metri tra il Grande campo del gioco della palla e l’attuale ingresso pedonale occidentale. Era un muro alto e sottile, senza parapetto all’interno, per cui si ritiene che la sua funzione andasse oltre la difesa. Più tardi vi fu aggiunto un contrafforte fatto con pietre riutilizzate da altri edifici, e questo sì lo interpretano come un rinforzo difensivo.\n\nTutto questo cambia ciò che vedi. Gli edifici non si trovano su una pianura. Si trovano su una piattaforma progettata, con pendenze, pavimenti colorati e un confine costruito. È il palcoscenico in cui avveniva ciò che contava di più nella vita della città.\n\nOra cammina verso il centro. Davanti a te si erge [El Castillo](chi_02_castillo_general), l’edificio che organizza tutta questa piazza."
+    },
+    "retos_observacion": {
+      "hash": "a7d7da0b43e0134a",
+      "texto": [
+        "Guarda il bordo della spianata e cerca il punto in cui comincia il dislivello con il terreno naturale",
+        "Immagina il pavimento ricoperto di stucco giallo o rosso, e non dell’erba verde di oggi",
+        "Cammina verso il centro della piazza e cerca la sagoma di El Castillo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "33412e54bcacba79",
+      "texto": {
+        "Nome": "la Grande Livellazione",
+        "Dimensioni approssimative": "600 × 400 metri (UC San Diego, 2009)",
+        "Fasi di costruzione proposte": "10",
+        "Pendenza dei pavimenti": "circa l’1 %",
+        "Stucco dei pavimenti": "giallo e rosso, a seconda della fase",
+        "Muraglia scavata": "circa 90 metri tra il Grande campo del gioco della palla e l’ingresso pedonale occidentale"
+      }
+    },
+    "faq_mito": {
+      "hash": "3052c5f83760e118",
+      "texto": {
+        "pregunta": "Mito: La spianata è una pianura naturale coperta di erba.",
+        "respuesta": "Realtà: È una piattaforma artificiale, costruita per fasi con riempimenti, pavimenti di stucco e una lieve pendenza per l’acqua piovana. L’erba è di oggi."
+      }
+    }
+  }
+}

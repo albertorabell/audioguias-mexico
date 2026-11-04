@@ -1,0 +1,57 @@
+{
+  "id": "chi_34_templo_serie_inicial",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e4c4238afd6a019e",
+      "texto": "Tempio della Serie Iniziale"
+    },
+    "frase_gancho": {
+      "hash": "58d1c3fd3f4f2df6",
+      "texto": "L’ingresso a Chichén Vecchia: un tempio a tre corpi con un architrave datato all’anno ottocentosettantotto."
+    },
+    "puente_narrativo": {
+      "hash": "9957d7b813e7aa17",
+      "texto": "Percorri la piazza nord fino al [Tempio dei Falli](chi_35_templo_falos), un palazzo a due piani."
+    },
+    "guion_corto": {
+      "hash": "ce780e7a286833a9",
+      "texto": "Ti trovi nel Gruppo della Serie Iniziale, chiamato anche Chichén Vecchia. È un complesso residenziale e cerimoniale a sudovest del centro di Chichén Itzá, con circa venticinque strutture attorno a due piazze su una piattaforma cinta da mura. Il tempio che gli dà il nome è una piramide a tre corpi con una sola scalinata. Un architrave con la data dell’anno ottocentosettantotto, che probabilmente fu spostato dalla sua collocazione originaria, è uno dei suoi pezzi più notevoli."
+    },
+    "guion_largo": {
+      "hash": "e8140b9f80f106e1",
+      "texto": "Chichén Vecchia è il nome popolare di un luogo che per decenni è stato difficile da visitare.\n\nSecondo un comunicato dell’INAH del febbraio duemilaventitré, il Gruppo della Serie Iniziale si trova a sudovest del centro di Chichén Itzá, copre circa quattordicimilaseicentocinque metri quadrati e comprende venticinque strutture disposte attorno a due piazze, su una grande piattaforma cinta da mura. Unisce aree residenziali, amministrative e religiose. Altri conteggi danno cifre leggermente diverse: ventisette edifici, o più di ventitré. Conviene tenere a mente l’idea di un complesso di una ventina o una trentina di costruzioni.\n\nLa data ha cambiato ciò che si pensava di questo luogo. L’INAH afferma che l’occupazione si colloca nel Classico recente, tra gli anni seicento e ottocentocinquanta. Prima si credeva che risalisse solo al Classico terminale e al Postclassico antico, attorno agli anni dall’ottocento al milleduecento. Il Palazzo degli Stucchi ha offerto le prove più antiche di architettura a Chichén Itzá: stucco modellato e colorato.\n\nIl tempio principale, la struttura cinque C quattro, è una piramide a tre corpi con una sola scalinata. Il suo tempio superiore è dell’epoca Sotuta. Secondo l’INAH, la scalinata frontale è rivolta a ovest e si associa a una pietra sacrificale; al livello inferiore c’è un Chac Mool, e due atlanti fanno da stipiti all’ingresso. Il suo architrave porta una data che corrisponde al trenta luglio dell’anno ottocentosettantotto. Uno studio tecnico del duemilaquattordici dice che probabilmente fu spostato dal suo sito originario, e che menziona alcune donne e alcuni uomini e fa riferimento a dèi e rituali.\n\nEdward Thompson esplorò questa zona intorno al milleottocentonovantacinque, e l’Istituto Carnegie se ne interessò nel millenovecentoventitré. Peter Schmidt diresse negli anni novanta un intervento su larga scala.\n\nL’INAH ha aperto Chichén Vecchia al pubblico nel settembre duemilaventitré. Secondo l’INAH, oggi si visita il venerdì e il sabato, in due turni: dalle nove alle undici e mezza, e dalle dodici alle due e mezza. Bisogna prenotare alla biglietteria della zona archeologica, e vai sempre con personale dell’INAH e una guida. I gruppi sono di al massimo cinquanta persone e il percorso dura circa due ore e mezza. Queste regole possono cambiare: confermale prima di andare.\n\nProsegui ora verso il [Tempio dei Falli](chi_35_templo_falos)."
+    },
+    "retos_observacion": {
+      "hash": "f6f609f3572ee677",
+      "texto": [
+        "Osserva la piramide a tre corpi con una sola scalinata",
+        "Cerca il Chac Mool al livello inferiore e gli atlanti che fanno da stipiti",
+        "Fai attenzione al muro che circonda la piattaforma del complesso"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f43608b3284221c",
+      "texto": {
+        "Complesso": "Gruppo della Serie Iniziale (Chichén Vecchia), circa 14 605 m², circa 25 strutture attorno a due piazze",
+        "Tempio della Serie Iniziale (5C4)": "piramide a tre corpi con una sola scalinata",
+        "Architrave": "data del 30 luglio 878; probabilmente spostato",
+        "Occupazione": "600-850 (Classico recente), secondo l’INAH",
+        "Esplorazione": "Thompson (intorno al 1895), Carnegie (1923), Schmidt (anni novanta)",
+        "Visita": "venerdì e sabato, dalle 9:00 alle 11:30 e dalle 12:00 alle 14:30, con prenotazione alla biglietteria della zona, guida e INAH; fino a 50 persone per gruppo e circa 2,5 ore (INAH; da confermare prima di andare)",
+        "Apertura al pubblico": "settembre 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "d949c73d58de3a80",
+      "texto": {
+        "pregunta": "Mito: Chichén Vecchia è una città distinta, anteriore a Chichén Itzá.",
+        "respuesta": "Realtà: È il nome popolare di un gruppo all’interno di Chichén Itzá. L’INAH colloca la sua occupazione a partire dal Classico recente, prima del periodo più noto del sito."
+      }
+    }
+  }
+}

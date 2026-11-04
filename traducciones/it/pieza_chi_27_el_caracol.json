@@ -1,0 +1,56 @@
+{
+  "id": "chi_27_el_caracol",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6dddd829991935e9",
+      "texto": "El Caracol"
+    },
+    "frase_gancho": {
+      "hash": "1855dae43d6d6ae4",
+      "texto": "Una torre rotonda con una scala a chiocciola all’interno: l’unico edificio circolare di Chichén Itzá."
+    },
+    "puente_narrativo": {
+      "hash": "8b5248a870f086d2",
+      "texto": "Cammina verso [Las Monjas](chi_29_las_monjas), un grande palazzo in stile Puuc."
+    },
+    "guion_corto": {
+      "hash": "79c38490dd6839a8",
+      "texto": "Questa è l’unica struttura rotonda di Chichén Itzá, una torre su una grande piattaforma quadrata. Si chiama El Caracol per la scala a chiocciola che ha all’interno. Una pietra della piattaforma superiore permette di datarlo intorno all’anno novecentosei. Si propone che fosse un osservatorio. L’astronomo Anthony Aveni e la sua squadra hanno trovato nell’edificio linee di visuale per venti dei ventinove eventi del cielo che potevano interessare i suoi abitanti, ma una parte della torre è andata perduta, quindi non tutto si può verificare."
+    },
+    "guion_largo": {
+      "hash": "68f1c7954ed1c81f",
+      "texto": "El Caracol rompe la geometria di Chichén Itzá. Quasi tutto il resto è quadrato, a gradoni o rettangolare. Questa invece è una torre rotonda.\n\nÈ l’unica struttura circolare del sito. Si innalza su una grande piattaforma quadrata. Gli spagnoli le diedero il nome di El Caracol per la scala interna a spirale. Una stele della piattaforma superiore permette di datarlo intorno all’anno novecentosei.\n\nL’idea che fosse un osservatorio è la più conosciuta. L’argomento è semplice: nel paesaggio piatto dello Yucatán non ci sono montagne che facciano da riferimento, e una torre permetteva di vedere il cielo al di sopra della vegetazione. L’astronomo Anthony Aveni studiò l’orientamento dell’edificio a partire dalla metà degli anni settanta. Secondo un reportage del The New York Times del millenovecentottantasei, la sua squadra trovò linee di visuale verso le posizioni del Sole nei solstizi, verso i due passaggi del Sole allo zenit tra maggio e agosto, e verso i punti estremi di Venere. Conclusero che, su ventinove eventi astronomici possibili, l’edificio aveva allineamenti per venti.\n\nVenere era importante. Gli astronomi maya sapevano, per osservazione a occhio nudo, che il suo ciclo dura circa cinquecentoottantaquattro giorni, e che cinque cicli equivalgono a otto anni solari.\n\nConviene ricordare i limiti. Una parte della torre che si trovava sulla piattaforma è andata perduta, quindi alcune osservazioni forse non saranno mai confermate. E questi allineamenti sono risultati di una squadra, non fatti accettati da tutti. Si tratta di un’ipotesi, anche se solida.\n\nL’edificio ha anche una sua storia di esplorazione. Alfred Maudslay lo disegnò e lo fotografò nel milleottocentottantanove, e William Holmes lo visitò nel milleottocentonovantaquattro. L’Istituto Carnegie restaurò El Caracol dopo il millenovecentoventitré.\n\nProsegui ora verso [Las Monjas](chi_29_las_monjas), un edificio molto diverso, con la facciata piena di maschere."
+    },
+    "retos_observacion": {
+      "hash": "cce356069a3334d6",
+      "texto": [
+        "Osserva la torre rotonda sulla piattaforma quadrata: è l’unica del sito",
+        "Fai attenzione alle piccole aperture della parte alta che si associano agli allineamenti",
+        "Immagina la parte superiore che è andata perduta e ciò che poteva vedere chi saliva"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f169095e68d4f60b",
+      "texto": {
+        "Forma": "torre circolare su una grande piattaforma quadrata",
+        "Nome": "per la scala interna a spirale",
+        "Data": "intorno all’anno 906, in base a una stele della piattaforma superiore",
+        "Allineamenti proposti (Aveni)": "20 su 29 eventi astronomici possibili",
+        "Ciclo di Venere": "circa 584 giorni; 5 cicli = 8 anni solari",
+        "Esplorazione": "Maudslay (1889), Holmes (1894), Aveni (anni settanta)"
+      }
+    },
+    "faq_mito": {
+      "hash": "532a8b4701bd38ae",
+      "texto": {
+        "pregunta": "Mito: È dimostrato che El Caracol fosse un osservatorio astronomico ufficiale.",
+        "respuesta": "Realtà: È un’ipotesi ben studiata. Sono state trovate linee di visuale verso 20 eventi su 29, ma una parte della torre è andata perduta e non tutto si può verificare."
+      }
+    }
+  }
+}

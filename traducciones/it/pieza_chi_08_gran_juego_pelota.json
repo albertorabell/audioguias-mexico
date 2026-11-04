@@ -1,0 +1,56 @@
+{
+  "id": "chi_08_gran_juego_pelota",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ef611bef583fdc40",
+      "texto": "Il Grande campo del gioco della palla"
+    },
+    "frase_gancho": {
+      "hash": "ae1be7f22c00f74d",
+      "texto": "Il campo più grande conosciuto in Mesoamerica: più di centosessanta metri di lunghezza."
+    },
+    "puente_narrativo": {
+      "hash": "c2d5568588337440",
+      "texto": "Avvicinati alla base dei muri del campo, dove si trovano le banchine con i rilievi. Quando hai finito, prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "e2d5fed09dbc6b16",
+      "texto": "Ti trovi nel Grande campo del gioco della palla, il più grande che si conosca in Mesoamerica. L’INAH lo descrive con più di centosessantotto metri di lunghezza per settanta di larghezza, anche se altre misurazioni indicano cifre un po’ inferiori. È il principale dei tredici che si conoscono a Chichén Itzá, e fu costruito intorno all’anno novecento. Sulle pareti laterali ci sono anelli di pietra a circa otto metri di altezza, con due serpenti piumati intrecciati. Sembrano canestri da pallacanestro, ma si interpretano piuttosto come portali verso il mondo sotterraneo. La specialista Linda Schele lo riassunse così: non era uno sport."
+    },
+    "guion_largo": {
+      "hash": "139ddbcc57aa6c00",
+      "texto": "Ti trovi nel campo del gioco della palla più grande che si conosca in Mesoamerica. Si capisce perché quando vedi fin dove arriva.\n\nL’INAH lo descrive con più di centosessantotto metri di lunghezza per settanta di larghezza. Un’altra descrizione più tecnica indica una lunghezza totale di centocinquantadue metri e mezzo, e una larghezza di circa settantuno. Il campo vero e proprio misura circa trenta metri di larghezza, e ogni muro laterale circa novantasei metri e mezzo. Le misure variano a seconda di ciò che si misura. Di certo è enorme.\n\nFu costruito intorno all’anno novecento, nel periodo Classico Terminale. Fu un’epoca in cui diverse città maya del nord passarono dal comando di un solo governante a un consiglio di nobili. È il principale dei tredici giochi della palla documentati a Chichén Itzá. Un’iscrizione su una pietra circolare riporta la data del diciassette novembre dell’anno ottocentosessantaquattro, secondo una lettura della ricercatrice Ruth Krochock, e alcuni l’hanno considerata la dedicazione del campo. Tuttavia, alcuni studi ritengono che il campo sia stato costruito intorno all’anno novecento, forse sopra uno precedente.\n\nIl complesso ha quattro grandi strutture. A oriente e a occidente ci sono due lunghe piattaforme con banchine, che portano i rilievi. Sul retro di quelle piattaforme, alcune scale salgono a cinque piccoli templi e al Tempio Superiore dei Giaguari. E alle estremità del campo ci sono altri due templi, quello Nord e quello Sud.\n\nGuarda gli anelli. Si trovano sui muri laterali, a grande altezza dal suolo. L’INAH registra un anello a circa otto metri. Hanno scolpiti due serpenti a sonagli piumati che si intrecciano attorno a sei cerchi concentrici. L’INAH ricorda che si credette che i giocatori cercassero di far passare la palla di gomma attraverso l’anello, e che l’immagine potrebbe simboleggiare un portale verso il mondo sotterraneo e un ciclo di morte e rinascita. Un anello scolpito è oggi esposto nel Grande Museo di Chichén Itzá, all’interno dell’area archeologica.\n\nDietro tutto questo c’è un’idea importante. La specialista Linda Schele sostenne che il gioco della palla non era uno sport, ma una questione seria, legata alla continuità dello Stato e al contatto con l’altro mondo. Per questo i rilievi delle banchine parlano di sacrificio, e gli anelli, del mondo sotterraneo.\n\nManca ancora un tassello per comprendere il luogo. Gli archeologi hanno scavato una sezione di circa novanta metri del muro di cinta che circondava il centro cerimoniale, proprio tra questo campo e l’ingresso pedonale occidentale. Un’ipotesi propone che il Gioco della palla sia stato eretto dopo quel muro e dopo il Tempio Inferiore dei Giaguari.\n\nQuando hai finito, prosegui con la prossima tappa del tuo percorso. Le banchine con i rilievi si trovano alla base dei muri, a livello del suolo."
+    },
+    "retos_observacion": {
+      "hash": "0a341eec1b3d84d1",
+      "texto": [
+        "Guarda verso i muri laterali e individua gli anelli di pietra, a molti metri dal suolo",
+        "Misura con lo sguardo la lunghezza del campo da un’estremità all’altra",
+        "Individua i due templi delle estremità, quello Nord e quello Sud, e la piattaforma laterale con le banchine"
+      ]
+    },
+    "especificaciones": {
+      "hash": "54ec939de8bbf154",
+      "texto": {
+        "Lunghezza e larghezza": "più di 168 × 70 metri secondo l’INAH; un’altra descrizione indica circa 152,5 × 70,75 metri",
+        "Epoca": "intorno all’anno 900, Classico Terminale",
+        "Anelli": "a circa 8 metri dal suolo, con due serpenti piumati intrecciati",
+        "Strutture": "due piattaforme laterali con banchine, cinque piccoli templi, il Tempio Superiore dei Giaguari e i templi Nord e Sud",
+        "Campi documentati a Chichén Itzá": "13",
+        "Museo": "un anello scolpito è esposto nel Grande Museo di Chichén Itzá"
+      }
+    },
+    "faq_mito": {
+      "hash": "e8e01786bc275d1d",
+      "texto": {
+        "pregunta": "Mito: Nel gioco della palla maya si giocava per far passare la palla attraverso l’anello, come in uno sport moderno.",
+        "respuesta": "Realtà: Gli anelli si interpretano come portali verso il mondo sotterraneo. La specialista Linda Schele sostenne che il gioco «non era uno sport», ma qualcosa di legato allo Stato e all’altro mondo."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "chi_05_plataforma_venus",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18353759b58471de",
+      "texto": "Piattaforma di Venere"
+    },
+    "frase_gancho": {
+      "hash": "8d4d34dc5f31ef26",
+      "texto": "Una piattaforma dedicata al pianeta Venere, a pochi passi da El Castillo."
+    },
+    "puente_narrativo": {
+      "hash": "ab63f4a503e22021",
+      "texto": "Fermati accanto alla piattaforma bassa e guardati intorno: sei nel cuore della piazza. Quando hai finito, prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "6d8c7a104b80e113",
+      "texto": "Questa piattaforma si trova a nord di El Castillo, a pochi passi dalla piramide, sulla strada verso il Cenote Sacro. È dedicata al pianeta Venere. Secondo una targa dell’INAH, in origine era dipinta di rosso, verde, ocra, blu e nero, e al centro reca il rilievo di un uomo-uccello-serpente che viene interpretato come Kukulcán nel suo aspetto di stella del mattino. Al suo interno sono stati trovati grandi coni di pietra scolpiti, e nessuno sa a cosa servissero. I Maya seguirono i movimenti di Venere con grande attenzione, e li registrarono in codici come quello di Dresda."
+    },
+    "guion_largo": {
+      "hash": "6ab9759f32ccb9a9",
+      "texto": "Questa tappa è breve, ma si collega a un’idea che attraversa tutta Chichén Itzá: i Maya leggevano il cielo.\n\nLa Piattaforma di Venere si trova a nord di El Castillo, a pochi passi dalla piramide, sulla strada verso il Cenote Sacro. È dedicata al pianeta Venere. Dentro la piattaforma sono stati trovati grandi coni di pietra scolpiti, e la loro funzione è sconosciuta. È una di quelle domande a cui l’archeologia non ha ancora risposto.\n\nSecondo una targa dell’INAH, in origine la piattaforma era dipinta di rosso, verde, ocra, blu e nero. Ha una scalinata, e tra i suoi rilievi c’è una figura centrale: un uomo-uccello-serpente. La targa lo interpreta come un’immagine di Quetzalcóatl-Kukulcán nel suo aspetto di stella del mattino. Agli angoli compare il legaccio degli anni accanto al pianeta Venere. Dice anche che sulla scalinata orientale è stata trovata un’offerta, e che la piattaforma servì probabilmente da scenario per cerimonie, riti o danze. Sono interpretazioni: la targa non fornisce né dimensioni né data.\n\nPer capire perché Venere fosse importante, vale la pena ricordare come i Maya guardavano il cielo. Avevano un’attenzione speciale per quel pianeta, che appare come stella del mattino e come stella della sera. Il Codice di Dresda, uno dei pochi libri maya sopravvissuti, include tavole per seguirne i cicli. È un modo per capire che il cielo non era uno sfondo: era un calendario che organizzava la guerra, i rituali e le decisioni dei governanti.\n\nDa qui, verso nord, parte una strada rettilinea di pietra che si perde tra la vegetazione e porta al cenote: il Sacbé numero uno.\n\nQuando hai finito di guardare, prosegui con la prossima tappa del tuo percorso."
+    },
+    "retos_observacion": {
+      "hash": "d4cd314182eb6543",
+      "texto": [
+        "Individua la piattaforma bassa a nord di El Castillo, a pochi passi dalla piramide",
+        "Cerca i rilievi che si distinguono ancora, come la figura centrale o quelli degli angoli, se ci sono",
+        "Guarda verso nord e individua la strada rettilinea che si perde tra la vegetazione"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1752b5b24fa4e82d",
+      "texto": {
+        "Ubicazione": "a nord di El Castillo, a pochi passi dalla piramide, in direzione del Cenote Sacro",
+        "Dedica": "al pianeta Venere",
+        "Colori originali": "rosso, verde, ocra, blu e nero (targa dell’INAH)",
+        "Rilievo centrale": "uomo-uccello-serpente, interpretato come Kukulcán nel suo aspetto di stella del mattino (targa dell’INAH)",
+        "Ritrovamenti": "grandi coni di pietra scolpiti all’interno della piattaforma, di funzione sconosciuta; un’offerta sulla scalinata orientale",
+        "Possibile uso": "scenario di cerimonie, riti o danze",
+        "Riferimento": "il Codice di Dresda include tavole di Venere"
+      }
+    },
+    "faq_mito": {
+      "hash": "f6f97bf0600d0da8",
+      "texto": {
+        "pregunta": "Mito: Questa piattaforma era un osservatorio astronomico accertato.",
+        "respuesta": "Realtà: È dedicata a Venere, ma non ci sono prove che fosse un osservatorio. Ciò che è documentato sono i suoi coni di pietra, di funzione sconosciuta, e rilievi che vengono interpretati come scenario di cerimonie."
+      }
+    }
+  }
+}

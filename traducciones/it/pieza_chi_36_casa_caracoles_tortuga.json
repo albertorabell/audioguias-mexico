@@ -1,0 +1,57 @@
+{
+  "id": "chi_36_casa_caracoles_tortuga",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3c97d858880aeb8b",
+      "texto": "La Casa dei Lumaconi e la Piattaforma della Tartaruga"
+    },
+    "frase_gancho": {
+      "hash": "4aa2e6a7f230b634",
+      "texto": "Un albero genealogico di circa venti metri e una piattaforma a forma di tartaruga."
+    },
+    "puente_narrativo": {
+      "hash": "3ffdd99fc99a5203",
+      "texto": "Passa alla piazza sud, alla [Galleria delle Scimmie](chi_38_galeria_monos), dove compare un sovrano chiamato Diez Venado."
+    },
+    "guion_corto": {
+      "hash": "fa2603d70430dfa8",
+      "texto": "La Casa dei Lumaconi ha sulla facciata ovest una scena di circa venti metri che sembra un albero genealogico. Una figura metà umana e metà animale emerge da un frutto, circondata da chiocciole, uccelli, fiori e piante. Una divinità fondatrice esce da uno stelo che si moltiplica in altre figure, e una di esse è identificata con il glifo Nueve Coyote. Al centro della piazza nord si trova la Piattaforma della Tartaruga, con la testa rivolta a est."
+    },
+    "guion_largo": {
+      "hash": "cfd91a9349eddbd8",
+      "texto": "Questa tappa riunisce due cose: una facciata che racconta un lignaggio e una piattaforma che segna il centro.\n\nLa Casa dei Lumaconi, la struttura cinque C cinque, fa parte del Complesso dei Falli. Il suo nome deriva dalle chiocciole che compaiono nella decorazione. Ha un fregio elaborato con una figura metà umana e metà animale che emerge da un frutto, circondata da chiocciole, uccelli, fiori, piante e frutti. La facciata era crollata sotto forma di macerie e l’istituzione Carnegie la lasciò intatta, e questo aiutò Peter Schmidt a ricostruirla pezzo per pezzo.\n\nSecondo il bollettino dell’INAH del duemilaventitré, sulla facciata ovest c’è una scena di circa venti metri che mostra un albero genealogico. Una divinità fondatrice emerge da uno stelo, e lo stelo si moltiplica in altre figure. L’INAH propone che una di esse, identificata con il glifo Nueve Coyote, possa essere il fondatore che fece realizzare la maggior parte dei rilievi del gruppo. È una proposta, non un fatto.\n\nL’INAH collega questo luogo al lignaggio Cupul, una delle famiglie nobili di Chichén Itzá. Il suo nome si riferisce a una giicama selvatica, che in lingua maya si dice kup. Sono stati inoltre recuperati circa quindici metri lineari di elementi decorativi di un altare, con una scena di guerra scolpita, che era caduto insieme a una volta. Non si chiarisce con precisione da quale edificio provenisse.\n\nOra la Piattaforma della Tartaruga, la struttura cinque C diciassette, al centro della piazza nord. È bassa: misura circa un metro e venti di altezza, nove metri e sessantatré di diametro e dodici metri e ottantatré di lunghezza. Ha due scalinate. Una testa di tartaruga scolpita guarda verso est, verso il Tempio della Serie Iniziale, e la coda punta a ovest. I muri laterali delle scalinate formano le zampe, e la tartaruga porta una collana scolpita. In una sottostruttura precedente, gli scavatori trovarono una cassa esagonale di pietra con quindici punte di selce mai usate. Si dice che i Maya la considerassero il centro dell’universo.\n\nNel duemilasette, accanto a un’altra struttura della piazza nord, sono state trovate una tomba collettiva e circa settemilacinquecento perle di pasta che imitavano la turchese.\n\nDa qui, prosegui verso la [Galleria delle Scimmie](chi_38_galeria_monos)."
+    },
+    "retos_observacion": {
+      "hash": "01940c47a2d046a9",
+      "texto": [
+        "Cerca la lunga scena della facciata ovest e segui con lo sguardo le figure che escono dallo stelo",
+        "Individua la piattaforma bassa a forma di tartaruga: testa verso est, coda verso ovest",
+        "Osserva le scalinate laterali, che formano le zampe della tartaruga"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a22276c53190276e",
+      "texto": {
+        "Casa dei Lumaconi": "struttura 5C5, parte del Complesso dei Falli",
+        "Scena della facciata ovest": "circa 20 m, albero genealogico con una divinità fondatrice",
+        "Glifo": "Nueve Coyote, possibile fondatore (INAH)",
+        "Lignaggio": "Cupul",
+        "Piattaforma della Tartaruga (5C17)": "altezza massima 1,20 m, diametro 9,63 m, lunghezza 12,83 m; due scalinate; testa a est",
+        "Offerta": "cassa esagonale con 15 punte di selce mai usate",
+        "Tomba del 2007": "circa 7 500 perle di pasta che imitano la turchese"
+      }
+    },
+    "faq_mito": {
+      "hash": "c9f051630f30f82a",
+      "texto": {
+        "pregunta": "Mito: La Casa dei Lumaconi si chiama così per una collezione di conchiglie.",
+        "respuesta": "Realtà: Il nome deriva dalle chiocciole della sua decorazione: un fregio con una figura che emerge da un frutto, circondata da chiocciole, uccelli e piante."
+      }
+    }
+  }
+}

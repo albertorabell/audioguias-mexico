@@ -1,0 +1,56 @@
+{
+  "id": "chi_22_el_mercado",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "77f290ac9bd6716d",
+      "texto": "Il Mercato"
+    },
+    "frase_gancho": {
+      "hash": "e9eca5738bff012c",
+      "texto": "Un lungo edificio di pilastri, con serpenti sulle banchine e guerrieri che calpestano i prigionieri."
+    },
+    "puente_narrativo": {
+      "hash": "3e8d12812746f916",
+      "texto": "Prosegui verso l’[Ossario](chi_23_el_osario), una piramide con un’apertura in cima che scende fino a una grotta."
+    },
+    "guion_corto": {
+      "hash": "d896f82fe0c03816",
+      "texto": "Si chiama il Mercato perché i primi esploratori pensarono che qui si commerciasse. Oggi gli archeologi lo vedono più come un edificio cerimoniale che commerciale. Ha una piattaforma frontale di circa ottanta metri per quindici, formata da una fila di pilastri, un portico con volta e un patio quadrato con colonne. Le sue banchine hanno serpenti piumati, e una scarpata mostra una processione di guerrieri che calpestano dei prigionieri. Sotto il pavimento del patio si trovò una piccola offerta di perline e una testina di giadeite."
+    },
+    "guion_largo": {
+      "hash": "6f3da82da251edca",
+      "texto": "Il nome Mercato è un buon esempio di un’idea che è rimasta, anche se gli specialisti ormai pensano altro.\n\nI primi esploratori credettero che questo edificio fosse un mercato, per la sua lunga galleria con una panca di pietra tutt’intorno e per il suo patio. Oggi gli archeologi pensano che la sua funzione fosse più cerimoniale che commerciale. Quindi il nome deriva da un’interpretazione antica, non da una verifica.\n\nLa descrizione più completa è quella dell’archeologo Alexandre Guida Navarro, che lavorò alla Gran Nivelación tra il duemilaquattro e il duemilasette, e che segue la pianta di Marquina del millenovecentosessantaquattro. Il fronte è una piattaforma di circa ottanta metri per quindici, formata da una fila di pilastri. Dietro c’è un portico coperto con volta. Da un accesso al centro del muro sud si arriva a un patio quadrato circondato da colonne. Gli stipiti di quell’ingresso recano tre guerrieri per lato.\n\nLa decorazione è ciò che colpisce di più. Ci sono due banchine con serpenti piumati. Sulla scarpata, la parete inclinata, avanza una processione di guerrieri che calpestano dei prigionieri. Sotto il pavimento del patio, Marquina trovò una cassa di muratura con un’offerta: perline di pietra verde e di conchiglia, e una piccola testa di giadeite.\n\nGuida Navarro propone una lettura. Secondo lui, l’iconografia di serpenti piumati di questo edificio e del Tzompantli allude a un personaggio che chiama Capitano Serpente, e i due edifici avrebbero commemorato la sua investitura come governante durante il Classico Terminale, tra gli anni ottocento e millecinquanta. È un’ipotesi di un autore, non un consenso.\n\nC’è un dato pratico: i pilastri di questo edificio, come quelli delle Mille Colonne, hanno perso quasi tutta la loro pittura. Quello che vedi oggi è pietra nuda.\n\nLe descrizioni non coincidono sulla forma: una lo definisce quadrato e un’altra a forma di T. Forse parlano di parti diverse dell’edificio.\n\nCammina ora verso l’[Ossario](chi_23_el_osario)."
+    },
+    "retos_observacion": {
+      "hash": "e5af8b7c01a49a0f",
+      "texto": [
+        "Cerca i pilastri del fronte e calcola quante persone potevano starci in una galleria così lunga",
+        "Guarda se riesci a distinguere i serpenti piumati delle banchine",
+        "Immagina la processione di guerrieri che calpestano i prigionieri, sulla scarpata"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ba35cb916ed77def",
+      "texto": {
+        "Piattaforma frontale": "circa 80 × 15 m, con una fila di pilastri",
+        "Elementi": "portico con volta e patio quadrato con colonne",
+        "Ingresso al patio": "tre guerrieri su ogni stipite",
+        "Decorazione": "due banchine con serpenti piumati e una scarpata con processione di guerrieri che calpestano prigionieri",
+        "Offerta sotto il patio": "perline di pietra verde e conchiglia, testina di giadeite (Marquina, 1964)",
+        "Lettura proposta (Guida Navarro)": "commemora l’investitura di un «Capitano Serpente», verso il 800-1050"
+      }
+    },
+    "faq_mito": {
+      "hash": "a5721cd81e1cdb28",
+      "texto": {
+        "pregunta": "Mito: Era il mercato dove i Maya scambiavano i loro prodotti.",
+        "respuesta": "Realtà: È il nome che gli diedero i primi esploratori. Oggi gli archeologi lo considerano un edificio più cerimoniale che commerciale."
+      }
+    }
+  }
+}

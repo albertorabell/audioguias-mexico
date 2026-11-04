@@ -1,0 +1,56 @@
+{
+  "id": "chi_12_templo_jaguares",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0c6b3f3927b517dd",
+      "texto": "Templo de los Jaguares"
+    },
+    "frase_gancho": {
+      "hash": "50da5f977047cf94",
+      "texto": "Un piccolo tempio con murales di battaglie e, sotto, un altro con una processione di più di cento figure."
+    },
+    "puente_narrativo": {
+      "hash": "6953c20041fbfbd8",
+      "texto": "Quando avrai finito di osservare i templi del campo, prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "d120546e59de0150",
+      "texto": "Qui ci sono due templi, uno sopra l’altro. Il Tempio Superiore dei Jaguares è alto sedici metri. All’interno ci sono murales di battaglie, sotto lo sguardo di due antenati: il Capitano Serpente e il Capitano Scudo Solare, o Disco Solare. Sotto, al livello della piazza, il Tempio Inferiore è una piccola camera, lunga poco più di nove metri. Guarda verso est, verso il Tempio dei Guerrieri. Al suo interno custodisce una processione su sei livelli, della quale sopravvivono centoundici figure in piedi. Gli studiosi la interpretano come l’ascesa di un governante."
+    },
+    "guion_largo": {
+      "hash": "4d99211b83ebe962",
+      "texto": "Questi due templi, uno sopra l’altro, fanno parte del complesso del Gioco della palla, e raccontano una storia di guerra e di potere.\n\nPartiamo dall’alto. Secondo uno studio tecnico del duemiladiciassette, il Tempio Superiore dei Jaguares misura circa diciassette metri da nord a sud e circa undici da est a ovest, e la sua altezza totale è di circa sedici metri. All’interno si conservano murales con scene di battaglie degli Itzá. I personaggi principali sono due: il Capitano Serpente e il Capitano Disco Solare, o Scudo Solare, a seconda di chi li nomina. Sono nomi moderni per figure che gli specialisti interpretano come antenati. Un architrave di legno si conserva nella sua posizione originale.\n\nLa specialista Linda Schele propose una lettura. Secondo lei, questo tempio ricorda le guerre che fondarono l’impero degli Itzá, e i suoi emblemi uniscono il gioco con lo Scudo di Selce e il Serpente di Guerra. È un’interpretazione, ma mostra come, per gli antichi abitanti, il gioco, la guerra e la storia fossero strettamente legati.\n\nOra abbassa lo sguardo. Al livello della piazza si trova il Tempio Inferiore dei Jaguares. È una piccola camera: circa nove metri e mezzo di lunghezza, tre di larghezza e quattro e mezzo di altezza. La sua facciata guarda a oriente, verso il Tempio dei Guerrieri. Vi compaiono dieci figure.\n\nLa cosa più impressionante è all’interno. Le pareti e le volte sono ricoperte da una processione organizzata su sei livelli. Sopravvivono centoundici figure in piedi. Gli studiosi interpretano la scena come l’ascesa di un governante. La figura centrale si troverebbe al terzo livello della parete occidentale. Propongono anche che l’antenato K'ak'upakal appaia rappresentato come il Capitano Scudo Solare. Sono ipotesi, ed è importante ascoltarle come tali.\n\nC’è un altro indizio sulla data. Nel Grande campo del gioco della palla c’è una pietra circolare con una data del Lungo Computo, che equivale al diciassette novembre dell’anno ottocentosessantaquattro. È stata considerata la dedicazione del campo. Ma ci sono studiosi che credono che il campo sia stato costruito intorno all’anno novecento, forse sopra uno precedente, e che il Tempio Inferiore sia stato aggiunto in seguito, sul lato orientale.\n\nSe ti avvicini, vedrai che il Tempio Inferiore è a livello del suolo, e i suoi murales interni non sono visibili dall’esterno. La maggior parte dei visitatori li conosce attraverso fotografie e disegni.\n\nQuando avrai finito, prosegui con la prossima tappa del tuo percorso. Se vai verso nord-est, vedrai una strada rialzata dritta che si perde tra la vegetazione: è il Sacbé numero uno, la via bianca che porta al Cenote Sacro."
+    },
+    "retos_observacion": {
+      "hash": "0ce19557ed54cadf",
+      "texto": [
+        "Cerca il piccolo tempio che si trova sulla piattaforma orientale del campo: è il Tempio Superiore dei Jaguares",
+        "Individua, al livello della piazza, la facciata del Tempio Inferiore, che guarda verso il Tempio dei Guerrieri",
+        "Immagina all’interno del tempio inferiore una processione di più di cento figure su sei livelli"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c5a39157ff76c62f",
+      "texto": {
+        "Tempio Superiore": "circa 17,1 × 11,1 metri di base e circa 16 metri di altezza totale",
+        "Murales del Tempio Superiore": "battaglie degli Itzá, con due antenati, il Capitano Serpente e il Capitano Scudo Solare (o Disco Solare)",
+        "Tempio Inferiore": "circa 9,46 × 3,06 metri, 4,56 metri di altezza",
+        "Processione interna": "sei livelli; sopravvivono 111 figure in piedi",
+        "Facciata del Tempio Inferiore": "dieci figure",
+        "Studio": "González et al., 2017; Arqueología Mexicana (Velázquez Morlet)"
+      }
+    },
+    "faq_mito": {
+      "hash": "22f1e4a60ae353e8",
+      "texto": {
+        "pregunta": "Mito: I due capitani dei murales sono personaggi storici con quei nomi.",
+        "respuesta": "Realtà: Sono nomi moderni che gli specialisti danno a figure che interpretano come antenati. Si usano perfino nomi diversi: Disco Solare e Scudo Solare."
+      }
+    }
+  }
+}

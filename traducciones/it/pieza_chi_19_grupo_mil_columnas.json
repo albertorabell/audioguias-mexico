@@ -1,0 +1,60 @@
+{
+  "id": "chi_19_grupo_mil_columnas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Tolteco\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "9d78d8ea0a3e8d37",
+      "texto": "La Grande Piazza delle Mille Colonne"
+    },
+    "frase_gancho": {
+      "hash": "3056d52a533c7607",
+      "texto": "Una foresta di pilastri: più di duecentoquaranta in un unico colonnato."
+    },
+    "puente_narrativo": {
+      "hash": "09ec4387a33f03a6",
+      "texto": "Percorri con calma la foresta di colonne, all’ombra. Quando hai finito, prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "653793cca26b973e",
+      "texto": "Questa è la piazza delle Mille Colonne. Il nome esagera, ma non di molto. L’archeologo Peter Schmidt, in uno studio del duemilatredici, contò duecentoquarantatré colonne e tredici lesene, in cinque file, solo nel colonnato nord. Quel colonnato misura ottantanove metri da est a ovest per ventinove da nord a sud, su una bassa piattaforma. La piazza completa misura circa ventiquattromila metri quadrati, poco più di due ettari. Su diverse colonne si conservano rilievi di figure dall’aspetto di guerrieri."
+    },
+    "guion_largo": {
+      "hash": "85cd0f81d819b54d",
+      "texto": "Davanti a te si apre una delle piazze più singolari di Chichén Itzá, perché il suo fascino non sono le piramidi, ma i pilastri.\n\nPartiamo dal nome. Il nome dice mille colonne, ma la cifra non è esatta: è un modo per dire molte. Ciò che invece l’archeologo Peter Schmidt contò, in uno studio del duemilatredici, è quanto segue. Il colonnato nord, che lui chiama struttura due D dieci, si erge su una bassa piattaforma alta meno di un metro e settanta. Misura ottantanove metri per ventinove, ha due scalinate, e vi si trovavano duecentoquarantatré colonne e tredici lesene, distribuite in cinque file.\n\nUno studio di González e dei suoi collaboratori, del duemilasedici, calcola la piazza completa in circa ventitremilanovecentonovantuno metri quadrati, poco più di due ettari. La descrive come una piazza chiusa, con accesso limitato, circondata da edifici con gallerie di più file di colonne. Lo stesso studio colloca in questo gruppo un bagno di vapore e tre campi del gioco della palla. Quel bagno ha una sua tappa nei percorsi più lunghi.\n\nSchmidt recuperò quattro colonne scolpite. La parte decorata di ciascuna misura tra due metri e mezzo e tre metri, e i rilievi sono organizzati in fasce orizzontali, una sopra l’altra. Le loro figure indossano abiti militari. Da qui nasce una proposta di Schmidt: che potrebbero rappresentare una guardia speciale o un corpo militare, e non un gruppo etnico venuto da fuori. È un’ipotesi. Per anni si è parlato di Toltechi, e questa lettura propone qualcosa di diverso.\n\nLa registrazione di questi rilievi fu avviata dagli archeologi dell’Istituto Carnegie, sotto la guida di Sylvanus Morley. Il Progetto Archeologico Chichén Itzá li documentò di nuovo tra il 1983 e il duemila.\n\nQuando hai finito, prosegui con la prossima tappa del tuo percorso."
+    },
+    "retos_observacion": {
+      "hash": "15a626d9dfd66516",
+      "texto": [
+        "Cammina tra le colonne e conta una fila: vedrai quante ne servono per sostenere un tetto così lungo",
+        "Cerca una colonna con rilievi e individua le fasce orizzontali di figure",
+        "Immagina il tetto e l’ombra che offriva a chi si riuniva qui"
+      ]
+    },
+    "especificaciones": {
+      "hash": "912aa735992d92eb",
+      "texto": {
+        "Colonnato nord": "89 × 29 m, su una piattaforma alta fino a 1,70 m",
+        "Colonne e lesene": "243 colonne e 13 lesene in cinque file",
+        "Piazza completa": "circa 23 991 m² (poco più di due ettari)",
+        "Colonne scolpite recuperate da Schmidt": "quattro, con parte decorata da 2,50 a 3 m",
+        "All’interno del gruppo": "un bagno di vapore e tre campi del gioco della palla",
+        "Studi": "Schmidt, 2013; González et al., 2016"
+      }
+    },
+    "faq_mito": {
+      "hash": "327a20c445543ea0",
+      "texto": {
+        "pregunta": "Mito: Ci sono esattamente mille colonne.",
+        "respuesta": "Realtà: È un nome moderno. Il colonnato nord aveva 243 colonne e 13 lesene, e altre descrizioni parlano di circa 200."
+      }
+    }
+  }
+}

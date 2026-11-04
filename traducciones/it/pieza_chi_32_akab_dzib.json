@@ -1,0 +1,57 @@
+{
+  "id": "chi_32_akab_dzib",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d56b03a259b5f440",
+      "texto": "L’Akab Dzib"
+    },
+    "frase_gancho": {
+      "hash": "5b42bf3a629cd747",
+      "texto": "La casa della scrittura misteriosa: cinquanta metri di lunghezza e un architrave che nessuno dimentica."
+    },
+    "puente_narrativo": {
+      "hash": "f549109391a8d021",
+      "texto": "Quando hai finito di guardare l’edificio, prosegui con la prossima tappa del tuo percorso. Chichén Vecchia, a sudovest, si visita a parte: solo il venerdì e il sabato, su prenotazione e con una guida dell’INAH."
+    },
+    "guion_corto": {
+      "hash": "7191c6faeddf380d",
+      "texto": "Akab Dzib significa casa della scrittura misteriosa od oscura. È un edificio di stile Puuc, alto circa sei metri, lungo cinquanta e largo quindici, datato intorno all’anno ottocentosessantanove. Ha sette porte sulla facciata ovest e quattro su quella est. In una stanza all’estremità sud c’è un architrave con geroglifici scolpiti, che hanno dato all’edificio il suo nome. Vicino al soffitto, all’interno di una camera, si conserva l’impronta dipinta di una mano."
+    },
+    "guion_largo": {
+      "hash": "fd2f7a7f03f2c0e1",
+      "texto": "Il nome dice tutto: Akab Dzib, o Akab Tzib, è la casa della scrittura misteriosa.\n\nL’edificio si trova a est di El Caracol. È di stile Puuc, alto circa sei metri, lungo cinquanta e largo quindici. La sua data si aggira intorno all’anno ottocentosessantanove. Sulla facciata ovest, che è quella lunga, ci sono sette porte. Sulla facciata est ce ne sono quattro, interrotte da una grande scalinata che sale fino al tetto. Si suggerisce che quel lato fosse il fronte, perché si affaccia su un cenote asciutto, dalle pareti scoscese.\n\nSull’estremità sud c’è un ingresso che porta a una piccola stanza. Dall’altra parte, una porta ha un architrave con glifi scolpiti con grande finezza. Questa è la scrittura misteriosa che dà il nome all’edificio. Sotto l’architrave, sullo stipite, c’è un pannello con un personaggio seduto circondato da glifi. All’interno di una delle camere, vicino al soffitto, c’è l’impronta dipinta di una mano.\n\nL’edificio ebbe un altro nome antico. A partire dai geroglifici della Casa Colorada, è stato letto come Wakwak Puh Ak Na, che significa, con una certa libertà, la casa piatta con eccesso di camere. Si dice che fosse la casa di Yahawal Cho' K'ak', amministratore di Chichén Itzá della dinastia Kokom. Non è chiaro se l’abbia fatta costruire o se l’abbia abitata in seguito.\n\nL’INAH ha concluso un restauro nel duemilasette.\n\nQuando hai finito, prosegui con la prossima tappa del tuo percorso. Chichén Vecchia, a sudovest, si visita a parte, con una guida dell’INAH e solo il venerdì e il sabato."
+    },
+    "retos_observacion": {
+      "hash": "a8214c3aa0d64751",
+      "texto": [
+        "Conta le porte della facciata lunga: sono sette sul lato ovest",
+        "Cerca la scalinata del lato est che sale fino al tetto",
+        "Individua, se riesci a vederlo, l’architrave con i geroglifici all’estremità sud"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4201c25d1b38410c",
+      "texto": {
+        "Dimensioni": "circa 6 m di altezza, 50 m di lunghezza e 15 m di larghezza",
+        "Data": "intorno all’anno 869",
+        "Stile": "Puuc",
+        "Porte": "7 sulla facciata ovest, 4 su quella est",
+        "Nome antico": "Wakwak Puh Ak Na, «casa piatta con eccesso di camere»",
+        "Restauro": "INAH, 2007",
+        "Codice della struttura": "4D1"
+      }
+    },
+    "faq_mito": {
+      "hash": "b04f59e330a40515",
+      "texto": {
+        "pregunta": "Mito: Nessuno è riuscito a leggere la scrittura dell’Akab Dzib perché è un codice segreto.",
+        "respuesta": "Realtà: Il nome dice «scrittura misteriosa», ma si tratta di un testo geroglifico maya. Non c’è alcuna ragione per pensare che sia indecifrabile."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chi_13_sacbe_uno",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b2a51451617dbeb9",
+      "texto": "Il Sacbé numero 1"
+    },
+    "frase_gancho": {
+      "hash": "2969530dd5e5f238",
+      "texto": "Una strada bianca di pietra, dritta e sopraelevata, che conduce dalla piazza fino al bordo dell’acqua sacra."
+    },
+    "puente_narrativo": {
+      "hash": "b36faea0950c1878",
+      "texto": "Segui la strada rialzata fino in fondo. Lì, tra gli alberi, si trova il [Cenote Sacro](chi_14_cenote_sagrado), il pozzo più famoso di Chichén Itzá."
+    },
+    "guion_corto": {
+      "hash": "1b0bf67611f67142",
+      "texto": "Ti trovi su un sacbé, una parola maya che significa strada bianca. È una strada rialzata di pietra calcarea, la più grande e raffinata del sito: misura circa duecentosettanta metri di lunghezza e nove metri di larghezza in media. Altre misurazioni indicano circa trecento metri. Collega la piazza principale con il Cenote Sacro. Mentre cammini, pensa a chi l’ha percorsa: sacerdoti, governanti e forse visitatori di terre lontane, perché le offerte rinvenute nel cenote comprendono oro, rame e giada che non provengono dallo Yucatán."
+    },
+    "guion_largo": {
+      "hash": "d1059db2ffaeea2c",
+      "texto": "Un sacbé è una strada, ma è anche un’idea. In lingua maya, sacbé significa strada bianca. Erano strade rialzate, di pietra, che univano gruppi di edifici.\n\nQuesto è il Sacbé numero uno, la strada rialzata più grande e raffinata di Chichén Itzá. Misura circa duecentosettanta metri di lunghezza e nove di larghezza in media. Altre misurazioni indicano circa trecento metri. La differenza dipende senza dubbio da come si misura, ed è meglio tenere a mente che è lunga, dritta e larga.\n\nLa sua funzione era unire. A un’estremità c’è la grande piazza, con El Castillo e il Gioco della palla. All’altra, il Cenote Sacro. È probabile che di qui passassero delle processioni. L’archeologia non può affermarlo con certezza, ma la forma della strada lo suggerisce: dritta, sopraelevata e diretta verso una meta.\n\nE quella meta spiega molto. Il Cenote Sacro ricevette offerte per secoli. Tra queste ci sono oro, rame e giada. Nessuno di questi materiali esiste in natura nello Yucatán, perciò arrivarono da altre regioni dell’America Centrale. Questo significa che questa strada è collegata anche a un mondo molto più grande. Quando si dice che Chichén Itzá era un centro di pellegrinaggio, questo è uno degli indizi.\n\nBisogna anche fare attenzione a un’idea molto ripetuta: che tutta questa strada fosse solo cerimoniale. Forse lo era in parte. Ma i sacbé collegavano anche diverse zone della città tra loro. Le due funzioni non si escludono.\n\nQuesta strada è una buona occasione per riflettere sulla scala del sito. Dalla piazza non si vede il cenote. Bisogna percorrere un paio di centinaia di metri, tra gli alberi, per arrivarci. Questa distanza fa parte dell’esperienza: si esce dallo spazio aperto e si entra in uno più chiuso.\n\nCammina con calma fino in fondo. Lì ti aspetta il [Cenote Sacro](chi_14_cenote_sagrado), un pozzo naturale di sessanta metri di diametro."
+    },
+    "retos_observacion": {
+      "hash": "f9eca1067d4b4565",
+      "texto": [
+        "Osserva quanto è dritta e sopraelevata la strada rispetto al terreno ai lati",
+        "Guarda la pietra del suolo: è calcarea, ed è per questo che la strada si chiama bianca",
+        "Mentre avanzi, nota come lo spazio si chiude con gli alberi fino a quando compare il bordo del cenote"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e0232a33e69ff209",
+      "texto": {
+        "Nome": "sacbé, «strada bianca» in lingua maya",
+        "Lunghezza": "circa 270 metri (altre misurazioni indicano circa 300)",
+        "Larghezza": "circa 9 metri in media",
+        "Collega": "la piazza principale con il Cenote Sacro",
+        "Importanza": "è la strada rialzata più grande e raffinata di Chichén Itzá",
+        "Dato associato": "le offerte del cenote comprendono oro, rame e giada che non provengono dallo Yucatán"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e1675f174763f4b",
+      "texto": {
+        "pregunta": "Mito: I sacbé erano solo strade per le processioni religiose.",
+        "respuesta": "Realtà: È probabile che venissero usati nei rituali, ma univano anche diverse zone del sito. Le due funzioni non si escludono."
+      }
+    }
+  }
+}

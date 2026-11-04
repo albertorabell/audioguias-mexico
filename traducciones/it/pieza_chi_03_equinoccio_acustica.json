@@ -1,0 +1,56 @@
+{
+  "id": "chi_03_equinoccio_acustica",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "544f559577dfb49e",
+      "texto": "La discesa di Kukulcán e l’eco del quetzal"
+    },
+    "frase_gancho": {
+      "hash": "d6ee7e666c11297c",
+      "texto": "Una luce che disegna un serpente sulla scalinata e un applauso che ritorna come il canto di un uccello."
+    },
+    "puente_narrativo": {
+      "hash": "3af23a6afb12ecfa",
+      "texto": "Fermati all’angolo della scalinata, dove l’eco si sente meglio. Quando hai finito, prosegui con la tappa successiva del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "07b815dff791f9eb",
+      "texto": "Guarda il bordo inclinato che accompagna i gradini, l’alfarda. Intorno agli equinozi di primavera e d’autunno, a fine pomeriggio, il Sole colpisce l’angolo nord-ovest della piramide e proietta triangoli d’ombra su quell’alfarda. Con il movimento del Sole, sembra che un serpente scenda lungo la scalinata. Si racconta che i triangoli siano sette, e migliaia di persone vengono a vederlo. Nessuno sa con certezza se i costruttori lo abbiano progettato di proposito, perché l’effetto si vede per diverse settimane intorno a quelle date. Ora fai una prova: batti forte le mani davanti alla scalinata. L’eco che ritorna suona come il canto di un quetzal."
+    },
+    "guion_largo": {
+      "hash": "7c4e778231b2e00a",
+      "texto": "Questa scalinata custodisce due fenomeni, uno di luce e uno di suono. Entrambi hanno reso famoso El Castillo.\n\nIl primo è quello della luce. Intorno agli equinozi di marzo e settembre, a fine pomeriggio, il Sole tocca l’angolo nord-ovest della piramide. Gli spigoli delle terrazze proiettano ombre a forma di triangolo sull’alfarda nord-ovest, il bordo inclinato che accompagna la scalinata. Mentre il Sole scende, le ombre si muovono e danno l’impressione di un serpente che striscia dall’alto fino alla testa di pietra della base. Si dice di solito che i triangoli siano sette, e nei giorni dell’equinozio di primavera migliaia di persone si radunano per vederlo.\n\nMa c’è una domanda che gli specialisti lasciano aperta. Non si sa se il fenomeno sia stato progettato di proposito. L’effetto si può vedere per diverse settimane intorno a ciascun equinozio, non solo in un giorno preciso. Questo rende difficile affermare che i costruttori lo abbiano cercato, anche se il Serpente piumato che corona la scalinata e le teste di pietra ai piedi rendono l’immagine molto naturale.\n\nIl secondo fenomeno è il suono. Mettiti davanti alla scalinata e batti le mani con un colpo secco. Ciò che ritorna non è un normale eco. È uno stridio breve che scende di tono, simile al canto del quetzal, l’uccello dalle piume verdi associato a Kukulcán. Lo studia dal millenovecentonovantotto l’ingegnere acustico David Lubman. La sua proposta è che il suono dipenda dalla forma della scalinata: ogni gradino rimanda un piccolo eco, e la somma di tutti suona come un tono che scende. Alcuni ricercatori credono che i costruttori abbiano cercato questo effetto di proposito. È un’ipotesi, non un fatto dimostrato.\n\nVale la pena provare con calma. Se c’è molta gente, il rumore di fondo può coprire l’effetto. Se c’è silenzio, lo sentirai con chiarezza. È una delle poche volte in cui una piramide risponde quando le parli.\n\nLe due prove hanno qualcosa in comune. Nell’equinozio, la scalinata si trasforma in un serpente che scende. Con l’applauso, la scalinata canta come l’uccello che dona le sue piume a quel serpente. Che sia intenzionale o no, l’edificio mostra un legame tra la luce, il suono e il dio che lo abita.\n\nLa piramide custodisce ancora di più. Sotto queste pietre c’è un altro tempio e, secondo studi recenti, una cavità con acqua. Quando hai finito qui, prosegui con la tappa successiva del tuo percorso."
+    },
+    "retos_observacion": {
+      "hash": "8265d6a5d3e34cfe",
+      "texto": [
+        "Mettiti davanti alla scalinata nord, batti le mani con un colpo forte e secco, e ascolta l’eco che ritorna",
+        "Segui con lo sguardo l’alfarda, il bordo inclinato della scalinata, fino alla testa di serpente di pietra",
+        "Immagina le ombre delle terrazze che cadono sull’alfarda al tramonto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "064c62ca325479b1",
+      "texto": {
+        "Fenomeno di luce": "ombre triangolari sull’alfarda nord-ovest, intorno agli equinozi (marzo e settembre), a fine pomeriggio",
+        "Quanti triangoli": "si dice di solito che siano sette",
+        "Durata": "l’effetto si vede per diverse settimane intorno a ciascun equinozio",
+        "Fenomeno di suono": "l’applauso ritorna come uno stridio che scende di tono, simile al quetzal",
+        "Studio": "David Lubman, dal 1998",
+        "Intenzione": "non si sa con certezza se sia stato progettato di proposito"
+      }
+    },
+    "faq_mito": {
+      "hash": "feb182b9756c1d67",
+      "texto": {
+        "pregunta": "Mito: L’effetto del serpente si può vedere solo nel giorno esatto dell’equinozio.",
+        "respuesta": "Realtà: Si vede per diverse settimane intorno a ciascun equinozio, e gli specialisti non sanno con certezza se i costruttori lo abbiano progettato di proposito."
+      }
+    }
+  }
+}
