@@ -1,0 +1,56 @@
+{
+  "id": "teo_05_gran_conjunto",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3615a13ce81972b4",
+      "texto": "Il Gran Conjunto: il mercato della città"
+    },
+    "frase_gancho": {
+      "hash": "b8064a9fc661ddc0",
+      "texto": "Una piazza enorme di fronte al santuario chiuso: mercato della città o magazzino dello Stato?"
+    },
+    "puente_narrativo": {
+      "hash": "5d0fa31c22875808",
+      "texto": "Imbocca la Via dei Morti verso nord e fermati quando attraversi il ponte sul corso d’acqua alberato: quel fiume fu piegato a mano per obbedire al piano della città."
+    },
+    "guion_corto": {
+      "hash": "19bbf18ac902fc29",
+      "texto": "Uscendo dalla Ciudadela verso la Via dei Morti, guarda verso il lato occidentale, in direzione della Porta Uno. Tutta quell’enorme spianata che oggi è occupata dai giardini d’ingresso, dalle biglietterie e dalle piattaforme laterali formava il Gran Conjunto. Nota il contrasto: mentre la Ciudadela che ti sei appena lasciato alle spalle è un cortile incassato e chiuso, questo complesso è la piazza più grande della città e si trova proprio di fronte a essa, dall’altro lato della Via. L’archeologo René Millon, autore della grande mappa di Teotihuacán, propose che qui potesse trovarsi il mercato centrale della metropoli."
+    },
+    "guion_largo": {
+      "hash": "9f38eb6d56d98f9e",
+      "texto": "Su questo luogo c’è un dibattito aperto, e vale la pena che tu lo conosca. René Millon propose che in questa piazza funzionasse il mercato centrale di Teotihuacán. La ragione è logica: è la piazza più grande della città e si trova di fronte alla Ciudadela, dall’altro lato della Via dei Morti. Millon interpretò inoltre come commercianti alcune figure dei murali.\n\nMa l’archeologa Linda Manzanilla, della UNAM, vede un’altra cosa. Lei presenta prove che il Gran Conjunto fosse piuttosto un centro di redistribuzione dei beni fabbricati dagli artigiani. Inoltre sottolinea che non è mai stata trovata una prova chiara dell’esistenza di un mercato in città. Le stesse immagini dei murali, afferma, rappresenterebbero sacerdoti e non commercianti. Nessuna delle due letture è stata risolta.\n\nQuello che sappiamo con certezza è ciò che circolava per questa città. Si calcola che vivessero circa centomila persone in circa duemila complessi abitativi. L’ossidiana di Pachuca partiva da qui verso Monte Albán e Tikal. La mica dorata arrivava da Oaxaca, la giada dal Guatemala, e le conchiglie dalle coste del Golfo e dei Caraibi. E tutto viaggiava sulle spalle dei portatori, perché in Mesoamerica non c’erano animali da tiro né carri con ruote.\n\nSia che fosse un mercato o un centro di redistribuzione, questo luogo svolgeva una funzione che nessun tempio svolgeva: da qui passava la vita economica della città. Dall’altro lato della Via dei Morti, la Ciudadela era un recinto con un solo ingresso pubblico e un enorme peso rituale. Una lettura possibile è che la città mostrasse due volti del potere uno di fronte all’altro: il potere sacro, chiuso e cerimoniale, e il potere dei beni e del lavoro.\n\nTi trovi in una delle zone più importanti della mappa di Millon. Da questo punto si considera il centro della città, e a partire da qui si organizzano i quattro quadranti."
+    },
+    "retos_observacion": {
+      "hash": "5dafcce088a355b7",
+      "texto": [
+        "Confronta dalla Via dei Morti le due grandi piazze una di fronte all’altra: la Ciudadela (incassata e chiusa a oriente) e il Gran Conjunto (aperto a occidente)",
+        "Osserva le piattaforme allungate e le fondamenta di stanze che costeggiano la spianata",
+        "Immagina l’incrocio delle grandi avenue che qui dividevano la città in quattro quadranti"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6cc9bd28d0da327c",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (circa 150-600 d.C.)",
+        "Superficie": "più di 14 ettari",
+        "Struttura": "Spianata aperta racchiusa da due piattaforme a U e magazzini circolari",
+        "Ipotesi principale": "Mercato centrale e sede amministrativa (René Millon)",
+        "Provenienza": "Di fronte alla Ciudadela, lato occidentale della Via dei Morti"
+      }
+    },
+    "faq_mito": {
+      "hash": "1a5f0eef095c0fea",
+      "texto": {
+        "pregunta": "Mito: Teotihuacán era soltanto un centro cerimoniale abitato da sacerdoti.",
+        "respuesta": "Realtà: Fu una metropoli commerciale e manifatturiera; il Gran Conjunto concentrava lo scambio di merci di tutta la Mesoamerica."
+      }
+    }
+  }
+}

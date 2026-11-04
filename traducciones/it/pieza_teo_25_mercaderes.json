@@ -1,0 +1,56 @@
+{
+  "id": "teo_25_mercaderes",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "edf9025557a15291",
+      "texto": "Quartiere dei Mercanti: le case circolari"
+    },
+    "frase_gancho": {
+      "hash": "250cea649c48b854",
+      "texto": "Case circolari di adobe, con vasi della costa e delle terre maya."
+    },
+    "puente_narrativo": {
+      "hash": "dd81bd60ef1139bc",
+      "texto": "Da oriente ci spostiamo verso il circuito di ovest e sudovest, vicino alle Porte Uno e Due, per entrare nelle case dove vivevano le famiglie di Teotihuacán e ammirare i murales di Tetitla e Atetelco."
+    },
+    "guion_corto": {
+      "hash": "f2f7c05f85ca8066",
+      "texto": "Questo è il cosiddetto Quartiere dei Mercanti, nella parte orientale della città. Le sue strutture erano circolari, di adobe, diverse dalle case rettangolari di altre zone. Sono stati rinvenuti oggetti della Costa del Golfo, di Puebla e vasi di stile maya. Le analisi delle ossa indicano che molte persone venivano da fuori. Per questo si pensa a commercianti e viaggiatori, anche se il nome è un’ipotesi. Era un luogo dove si incrociavano oggetti e usanze di molte regioni."
+    },
+    "guion_largo": {
+      "hash": "85c5f3b45bfe1577",
+      "texto": "Il quartiere si trova nella periferia orientale della città. Spiccano le sue strutture circolari di adobe, diverse dalle costruzioni rettangolari del resto di Teotihuacán. I legami con la Costa del Golfo, a Veracruz, sono forti. Sono emersi inoltre oggetti di Puebla e vasi maya di vari colori. Le analisi degli isotopi di stronzio nelle ossa indicano che molte persone erano arrivate da altre regioni. L’archeologa Evelyn Rattray studiò il luogo e pubblicò i suoi risultati nel millenovecentoottantotto e nel millenovecentonovantanove. Seguì anche le tracce della ceramica chiamata Naranja Delgado. Proveniva da Ixcaquixtla, a Puebla, secondo analisi di attivazione neutronica. C’erano perfino stampi a forma di fungo. Con questi dati si pensò a un quartiere di commercianti. Ma bisogna essere prudenti. Gli oggetti viaggiano per molti motivi, e non sappiamo con certezza a che cosa si dedicasse ogni famiglia. Le stesse rotte che portavano vasi e materiali poterono portare anche idee e persone. È una possibilità, perché gli oggetti da soli non raccontano tutta la storia. La cosa certa è che Teotihuacán aveva vicini provenienti da molte parti."
+    },
+    "retos_observacion": {
+      "hash": "412563b4f83e824e",
+      "texto": [
+        "Guarda verso il settore orientale della valle, in direzione del letto del fiume San Juan, dove sorgeva questa enclave commerciale",
+        "Confronta sul tuo schermo la pianta circolare con rampa di queste abitazioni con i muri dritti di tutta la città",
+        "Pensa al percorso di otto o dieci giorni a piedi per portare fardelli di cotone e cacao dalla costa di Veracruz fino a questa valle"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b22ddb348e40914",
+      "texto": {
+        "Cultura": "Teotihuacán in convivenza con gruppi della Costa del Golfo e dell’area maya",
+        "Periodo": "Classico (verso il 250-550 d.C.)",
+        "Arquitectura": "Più di 20 strutture circolari di adobe e muratura (circa 9 m di diametro)",
+        "Cerámica foránea": "Dal 12 al 18 % del totale",
+        "Excavación": "Evelyn Rattray",
+        "Ubicación": "Settore nordorientale, accanto al fiume San Juan"
+      }
+    },
+    "faq_mito": {
+      "hash": "b40ce5ba8d82745d",
+      "texto": {
+        "pregunta": "Mito: A Teotihuacán era vietato costruire al di fuori del disegno quadrato di talud e tablero.",
+        "respuesta": "Realtà: Nel Quartiere dei Mercanti, i commercianti originari della Costa del Golfo costruirono abitazioni e magazzini circolari seguendo la tradizione della loro terra natale."
+      }
+    }
+  }
+}

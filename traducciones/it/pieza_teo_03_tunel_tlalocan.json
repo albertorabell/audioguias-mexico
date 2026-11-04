@@ -1,0 +1,57 @@
+{
+  "id": "teo_03_tunel_tlalocan",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "904dc9cb558da2ea",
+      "texto": "Il tunnel Tlalocan sotto la Ciudadela"
+    },
+    "frase_gancho": {
+      "hash": "4172d403325eb274",
+      "texto": "Sotto i tuoi piedi, un tunnel sigillato custodiva circa cinquantamila oggetti e mercurio liquido."
+    },
+    "puente_narrativo": {
+      "hash": "1d48126f4c3139a6",
+      "texto": "Alza lo sguardo verso le due piattaforme alte che affiancano il tempio a nord e a sud: lì viveva la cerchia più esclusiva dei sacerdoti."
+    },
+    "guion_corto": {
+      "hash": "b40579be6300bb44",
+      "texto": "Torna giù sulla spianata e guarda il pavimento proprio davanti alla scalinata della Plataforma Adosada. L’accesso al sottosuolo è chiuso al pubblico per ragioni di conservazione, ma tu stai in piedi sopra uno dei ritrovamenti più importanti dell’archeologia recente. Nell’anno duemilatré, forti piogge aprirono una voragine in questo punto. Affacciandosi, gli archeologi Sergio Gómez e Julie Gazola scoprirono un tunnel artificiale, lungo circa cento metri, che arriva fino al punto che si trova sotto il Tempio del Serpente piumato."
+    },
+    "guion_largo": {
+      "hash": "e5bda1bf52666d63",
+      "texto": "Questo tunnel non fu abbandonato: fu chiuso di proposito. I Teotihuacán lo riempirono e lo sigillarono circa milleottocento anni fa, ed è per questo che nessun saccheggiatore arrivò in fondo. Una fonte dell’INAH suggerisce addirittura una data anteriore, quindi il momento esatto è ancora in fase di studio. Il condotto ha il soffitto a volta, circa due metri e mezzo di altezza e quattro di larghezza. In alcuni tratti restano liberi appena venticinque centimetri. Per questo, nel duemiladieci, fu inviato un robot a quattro ruote, Tlaloque Uno, con telecamere e luce propria, per vedere che cosa ci fosse all’interno.\n\nGli scavi cominciarono nel duemilanove. Da allora sono state rimosse circa novecentosettanta tonnellate di terra e pietra, con almeno venticinque lavoratori per turno. Verso la fine, in uno spazio di circa quattro metri per otto, è comparsa l’offerta più grande: si parla di circa cinquantamila oggetti. Ce ne sono più di quattromila di legno, osso e pelo di grandi felini. Ci sono più di quindicimila semi, lumache di mare del Golfo del Messico e dei Caraibi, giada del Guatemala, dischi di pirite e palle di gomma. Ci sono anche quattro figure umane di pietra verde, alte circa sessanta centimetri. Queste offerte sono datate tra gli anni centocinquanta e duecento dopo Cristo.\n\nDietro quell’offerta sono state individuate tre camere. In una di esse è apparso mercurio liquido in grandi quantità, insieme a specchi di pirite e sfere metalliche. L’archeologo Sergio Gómez propone che il mercurio possa aver simboleggiato un fiume o un lago del mondo sotterraneo. Il progetto si chiama Tlalocan, Cammino sotto la terra, perché il tunnel viene interpretato come una rappresentazione di quel mondo sotterraneo.\n\nLa domanda che tutti si pongono è che cosa ci sia in fondo. Gómez ha detto di sperare di trovare una tomba reale. Non è ancora stata trovata, e non sappiamo se esista. Se comparisse, sarebbe la prima tomba di un governante a Teotihuacán. Aiuterebbe a rispondere a un dubbio enorme: come veniva governata questa città. Nel frattempo, ogni manciata di terra che esce dal tunnel viene studiata in laboratorio."
+    },
+    "retos_observacion": {
+      "hash": "790d40b876ca633e",
+      "texto": [
+        "Individua il pavimento della piazza davanti alla scalinata della Plataforma Adosada: lì si aprì la voragine nel 2003",
+        "Traccia con lo sguardo una linea retta dai tuoi piedi fino al centro del Tempio del Serpente piumato per seguire il percorso sotterraneo di 103 metri",
+        "Osserva sul tuo schermo le immagini delle sculture di pietra verde e delle sfere di pirite ritrovate nella camera finale"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f806ac363e297a4b",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico antico (chiuso intorno al 250 d.C.)",
+        "Lunghezza": "103 m",
+        "Profondità": "da 14 a 18 m",
+        "Ritrovamenti": "più di 100 000 oggetti, mercurio liquido, sfere di pirite e 4 sculture di pietra verde",
+        "Esplorazione": "Progetto Tlalocan, diretto da Sergio Gómez Chávez (INAH)",
+        "Accesso": "Chiuso al pubblico"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c2fc5f6617246c3",
+      "texto": {
+        "pregunta": "Mito: Il tunnel sotto la Ciudadela era una grotta naturale crollata con il passare del tempo.",
+        "respuesta": "Realtà: Fu scavato a mano nella roccia vulcanica dai Teotihuacán e sigillato deliberatamente con diciotto muri di pietra intorno all’anno 250 d.C."
+      }
+    }
+  }
+}

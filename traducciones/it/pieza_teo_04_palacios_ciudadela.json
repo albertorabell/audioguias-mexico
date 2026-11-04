@@ -1,0 +1,55 @@
+{
+  "id": "teo_04_palacios_ciudadela",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a89b8d317f24072b",
+      "texto": "Palazzi Nord e Sud della Ciudadela"
+    },
+    "frase_gancho": {
+      "hash": "8c054af18224bd4e",
+      "texto": "Due grandi complessi di cortili ai lati di un tempio, e tutto indica che lì vivessero persone molto importanti."
+    },
+    "puente_narrativo": {
+      "hash": "7fe3825e8210b2a9",
+      "texto": "Torna verso l’ingresso della Ciudadela e guarda l’immensa spianata aperta dall’altra parte del viale: passeremo dal palazzo chiuso al grande mercato della metropoli."
+    },
+    "guion_corto": {
+      "hash": "8ec98c97cb26e3e9",
+      "texto": "Guarda i due lati del Tempio del Serpente piumato. Lì ci sono grandi complessi di cortili e stanze, come appartamenti, che si ritiene fossero residenze dell’élite. La Ciudadela è un enorme quadrato con quindici piccole piramidi e una piazza centrale. Immagina le persone più potenti che vivevano accanto al tempio più sacro. È probabile che anche l’incendio del VI secolo li abbia danneggiati."
+    },
+    "guion_largo": {
+      "hash": "73b11ce4c65f8246",
+      "texto": "La Ciudadela è una grande spianata quadrata circondata da piccole piramidi, quindici in totale. Al centro si trova il Tempio del Serpente piumato. Ai due lati di quel tempio si estendono fitti complessi di stanze e cortili, simili ad appartamenti. Gli specialisti ritengono che fossero residenze dell’élite. È una deduzione, perché non si sa con certezza chi vivesse lì. Fai attenzione alla posizione. Nemmeno il palazzo più grande è lontano dal tempio. Chi viveva qui aveva accanto il luogo più importante del culto. Gli scavi di Manuel Gamio, tra il millenovecentodiciassette e il millenovecentoventidue, hanno riportato alla luce questa parte della Ciudadela. Più tardi, altri archeologi hanno continuato a esplorarla. La Ciudadela era anche vicina alla Calzada e al grande spazio aperto del Gran Conjunto. Per questo si pensa che fosse un punto centrale della vita politica e religiosa. È probabile che l’incendio della metà del VI secolo abbia danneggiato anche questi edifici, come molti dell’élite, ma qui non è stato dimostrato. Se osservi con calma, puoi immaginare come sarebbe stato vivere proprio accanto al serpente piumato."
+    },
+    "retos_observacion": {
+      "hash": "243b8866db9a4ccd",
+      "texto": [
+        "Individua le due piattaforme rialzate a sinistra (Nord) e a destra (Sud) del Tempio del Serpente piumato",
+        "Se il passaggio laterale è aperto, sali i gradini del fianco nord per vedere le fondamenta dei cortili e delle stanze",
+        "Nota la differenza di altezza da cui i governanti sorvegliavano il cortile ribassato"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fbc2876aec8805d5",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (circa 200-550 d.C.)",
+        "Capacidad estimada": "circa 50 persone per palazzo",
+        "Excavación": "Ana María Jarquín ed Enrique Martínez Vargas (INAH)",
+        "Procedencia": "La Ciudadela, fianchi nord e sud del Tempio del Serpente piumato"
+      }
+    },
+    "faq_mito": {
+      "hash": "f091f166a3af1ee4",
+      "texto": {
+        "pregunta": "Mito: I palazzi della Ciudadela erano residenze familiari con grandi cucine e magazzini.",
+        "respuesta": "Realtà: Sono stati trovati pochissimi utensili da cucina; funzionavano come recinti cerimoniali e amministrativi in cui l’élite riceveva cibo già preparato."
+      }
+    }
+  }
+}

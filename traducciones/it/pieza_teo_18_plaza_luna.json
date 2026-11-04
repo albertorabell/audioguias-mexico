@@ -1,0 +1,55 @@
+{
+  "id": "teo_18_plaza_luna",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9af37ca9ed2ff2e4",
+      "texto": "Plaza della Luna e i tredici altari"
+    },
+    "frase_gancho": {
+      "hash": "781a3cf91868679d",
+      "texto": "Una grande piazza dove ancora oggi si scoprono fosse, pietre verdi e segreti sotto il pavimento."
+    },
+    "puente_narrativo": {
+      "hash": "02ce4775c5fd0d0e",
+      "texto": "Attraversa ora la spianata e avvicinati ai piedi della grande piramide in fondo, per scoprire i sei edifici e le offerte che custodisce nelle sue viscere."
+    },
+    "guion_corto": {
+      "hash": "5aac4ce286c8bd39",
+      "texto": "Sei arrivato alla Plaza della Luna, in fondo alla Via. Molti contano dodici basamenti intorno e un altare al centro, tredici in tutto. Dal duemilaquindici l’INAH scava la Struttura A. Ha trovato fosse profonde, perforazioni nei pavimenti e pietre verdi poste in piedi. Gli specialisti pensano che avessero un uso rituale, ma non è ancora confermato."
+    },
+    "guion_largo": {
+      "hash": "99da29875b24d155",
+      "texto": "Questa è la Plaza della Luna, a nord della Via. Molti autori contano dodici basamenti intorno e un altare centrale. Sono tredici in tutto, un numero importante nel calendario mesoamericano. Questa lettura va presa con cautela. La novità più recente si trova sotto il pavimento. Dal duemilaquindici l’INAH scava la cosiddetta Struttura A, diretta da Verónica Ortega Cabrera. Questa struttura fu ricostruita tra il millenovecentosessantadue e il sessantaquattro. In quell’epoca il sottosuolo non fu esplorato. Ora sono state trovate fosse e perforazioni nei pavimenti, dentro la struttura e nella piazza. Alcune fosse misurano circa due metri per due e mezzo, con tre metri di profondità. Contenevano monoliti di pietra verde posti in piedi, alcuni di oltre mezza tonnellata. Le fosse piccole custodivano ciottoli e frammenti di conchiglia. Ancora non si sa a cosa servissero. Gli specialisti pensano a un uso rituale della piazza e della Piramide della Luna, ma non è confermato. Si sta preparando una planimetria per vedere se i vuoti formino uno schema. Vicino a questa zona è stata trovata la grande scultura di Chalchiuhtlicue, che misura più di tre metri e pesa circa venti tonnellate. Nel milleottocentonovanta fu portata a Città del Messico in treno e su un carro trainato da muli. Oggi la vedrai nel Museo Nazionale di Antropologia."
+    },
+    "retos_observacion": {
+      "hash": "d8cd689413d55f98",
+      "texto": [
+        "Conta dal centro della spianata i dodici basamenti che ti circondano e aggiungi la Struttura A centrale per completare i tredici livelli celesti",
+        "Allinea lo sguardo dalla Struttura A verso la Piramide della Luna per vedere come inquadra esattamente la cima del Cerro Gordo",
+        "Osserva negli angoli della piattaforma centrale gli sbocchi degli antichi canali rituali"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e91f73f7d6659e6a",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (verso il 100-550 d.C.)",
+        "Diseño": "Piazza chiusa fiancheggiata da 12 basamenti in talud-tablero e un altare centrale (Struttura A)",
+        "Hallazgos clave": "Scultura monumentale di Chalchiuhtlicue, statuette di giadeite e sistema idraulico rituale con ciottoli di fiume (Verónica Ortega, INAH)",
+        "Procedencia": "Estremità nord della Via dei Morti"
+      }
+    },
+    "faq_mito": {
+      "hash": "2465153319b54016",
+      "texto": {
+        "pregunta": "Mito: la Plaza della Luna era semplicemente una spianata vuota dove radunare la gente.",
+        "respuesta": "Realtà: funzionava come un cosmogramma di tredici altari con canali idraulici e pietre di fiume che trasformavano il pavimento in un paesaggio acquatico rituale."
+      }
+    }
+  }
+}

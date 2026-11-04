@@ -1,0 +1,56 @@
+{
+  "id": "teo_11_piramide_sol",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1f1088c7704a4433",
+      "texto": "Piramide del Sole"
+    },
+    "frase_gancho": {
+      "hash": "6284057064e1b14c",
+      "texto": "Una montagna fatta a mano: più di un milione di metri cubi di terra innalzati in un’unica fase."
+    },
+    "puente_narrativo": {
+      "hash": "bac60da5ed83a96c",
+      "texto": "Se segui il percorso completo, fermati davanti alla scalinata centrale per sbirciare con i raggi X la grotta nascosta sotto la piramide; se sei nel percorso express, gira attorno al monumento verso il lato destro per entrare nel Museo del Sito."
+    },
+    "guion_corto": {
+      "hash": "5281c4611baae3cf",
+      "texto": "Fermati al centro di questa piazza e alza lo sguardo verso il colosso che domina tutta la valle. Sei davanti alla Piramide del Sole: misura sessantasei metri di altezza e duecentoventiquattro metri per lato. A differenza di altri templi mesoamericani, cresciuti a poco a poco aggiungendo strati nel corso dei secoli, questa montagna artificiale di più di un milione di metri cubi fu innalzata in un’unica grande fase costruttiva, tra il primo e il secondo secolo. Il nome di Piramide del Sole lo diedero i Mexica; per chi la costruì era una montagna sacra. Con il sole e l’altitudine di questa valle, bevi un po’ d’acqua prima di proseguire."
+    },
+    "guion_largo": {
+      "hash": "fac8040029e6bf7f",
+      "texto": "La cosa più sorprendente di questo gigante è ciò che custodisce al suo interno. Non racchiude grandi blocchi scolpiti. I suoi costruttori la riempirono di terra, tepetate e sabbia, fino a raggiungere un volume di poco più di un milione di metri cubi, e la innalzarono in quattro corpi. Più tardi, tra gli anni duecento e trecentocinquanta, le aggiunsero uno strato di quasi sei metri di spessore. Coprì le facciate nord, est e sud, e fu realizzato con un’altra tecnica costruttiva. Perché lo fecero, ancora non si sa. Sono state proposte ragioni strutturali, ideologiche e politiche.\n\nGuarda la struttura che sporge ai piedi della scalinata, dal lato della Via dei Morti. È la Piattaforma Addossata, formata da tre piccole piattaforme appoggiate alla facciata occidentale. Fu costruita dopo la piramide, in almeno quattro fasi, e fu decorata con pesanti sculture di felini, serpenti piumati ed esseri fantastici, oltre che con pitture murali. Per confronto con i murali di Atetelco e Tetitla, si pensa che raffigurassero felini in processione.\n\nI costruttori nascosero anche delle offerte all’interno dell’edificio, lungo un asse da oriente a occidente, vicino alla roccia naturale. Qui gli archeologi trovarono punte di ossidiana, vasi con il volto di Tláloc, conchiglie marine, dischi di ardesia, una maschera di pietra verde e resti di aquila, serpenti, puma, lupi e condor. Nel riempimento comparve anche un bambino tra i quattro e i sei anni, con il cranio deformato di proposito. Gli studiosi di queste offerte le interpretano come un modo per consacrare l’edificio come montagna sacra. Sarebbe anche un modo per proclamare il potere politico e religioso della città.\n\nQuesta piramide segna anche il tempo. La sua facciata guarda verso il punto in cui tramonta il Sole alla fine di aprile e a metà agosto. Tra il tramonto di agosto e quello di aprile successivo passano duecentosessanta giorni, il conteggio del calendario rituale. Anche il sorgere del Sole in quella stessa direzione, a metà febbraio e alla fine di ottobre, è separato da duecentosessanta giorni.\n\nAnche gli archeologi hanno percorso questa piramide al suo interno. Tra il millenovecentodiciassette e il millenovecentodiciotto, Manuel Gamio aprì un tunnel di novantasette metri verso il centro. Nel millenovecentotrentatré ne fu aperto un altro di centosedici. Così si poté capire come l’avessero costruita.\n\nQuello che vedi oggi non è esattamente ciò che videro gli abitanti di Teotihuacán. Tra il millenovecentocinque e il millenovecentosette, Leopoldo Batres la scavò, la consolidò e la ricostruì in parte, per i festeggiamenti del Centenario dell’Indipendenza. Dal millenovecentodieci fa parte della prima zona archeologica aperta al pubblico in Messico. E sotto le sue fondamenta c’è una grotta scoperta per caso nel millenovecentosettantuno, di cui parleremo se segui il percorso completo.\n\nC’è il sole, e sei a più di duemila metri di altitudine. Bevi dell’acqua prima di proseguire."
+    },
+    "retos_observacion": {
+      "hash": "2c1cb40ee102f8af",
+      "texto": [
+        "Conta i corpi a gradoni della piramide e distingui il quarto livello più stretto lasciato dalla ricostruzione di un secolo fa",
+        "Individua di fronte alla scalinata principale la Piattaforma Addossata, dove si accendeva il Fuoco Nuovo",
+        "Guarda dal centro della piazza verso la sommità per immaginare il tramonto del Sole il 29 aprile e il 13 agosto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "705a46c21e2c6b08",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico antico (secoli I e II d.C.)",
+        "Dimensioni": "66 m di altezza x 224 m per lato",
+        "Volume": "più di 1 175 000 m³",
+        "Tecnica costruttiva": "Nucleo di terra, tepetate e cassoni di adobe con rivestimento di pietra vulcanica e stucco",
+        "Provenienza": "Lato orientale della Via dei Morti"
+      }
+    },
+    "faq_mito": {
+      "hash": "4d3cc7eae7570084",
+      "texto": {
+        "pregunta": "Mito: La Piramide del Sole è costruita con enormi blocchi massicci di pietra, come le piramidi d’Egitto.",
+        "respuesta": "Realtà: Il suo interno è un gigantesco riempimento compattato di terra, sabbia e tepetate macinato, sostenuto da muri di adobe e rivestito all’esterno con pietra e stucco dipinto di rosso."
+      }
+    }
+  }
+}

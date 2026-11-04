@@ -1,0 +1,55 @@
+{
+  "id": "teo_10_mural_puma",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "28930d61b92dac2a",
+      "texto": "Il Murale del Puma"
+    },
+    "frase_gancho": {
+      "hash": "3b9348d32913ae8f",
+      "texto": "Un felino dipinto cammina lungo un muro e ci ricorda che la città aveva colore."
+    },
+    "puente_narrativo": {
+      "hash": "b71e932c51cb5148",
+      "texto": "Prosegui verso nord in direzione della Piramide della Luna: nel percorso completo visiteremo i palazzi di governo lungo il cammino, mentre negli altri arriveremo direttamente alla grande Piazza della Luna."
+    },
+    "guion_corto": {
+      "hash": "a3c94e50012e925d",
+      "texto": "Davanti a te c’è il Murale del Puma. È una pittura che sopravvive nel luogo in cui fu realizzata, accanto alla Via dei Morti. Mostra un felino di profilo, con una cornice di bande colorate. Oggi vedi le rovine in toni grigi, ma la città era ricoperta di stucco e dipinta. I felini compaiono in altri murali di Teotihuacán. Per questo si pensa che fossero simboli importanti. Avvicinati e osserva con calma il tratto delle linee."
+    },
+    "guion_largo": {
+      "hash": "0ef96b43f39e9990",
+      "texto": "Questa pittura si chiama il Murale del Puma. Si trova nella sua posizione originale, accanto alla Via dei Morti, protetta da una copertura. Mostra un felino di profilo, con gli artigli distesi, e una cornice di bande colorate. Approfittane per immaginare la Via dei Morti per intero. Oggi vediamo le rovine nei toni della pietra, ma gli edifici erano ricoperti di stucco e decorati con pitture. I felini compaiono più e più volte nei murali di Teotihuacán. Ci sono giaguari reticolati e processioni di coyote e giaguari, come quelle di Atetelco. Per questo si pensa che fossero figure molto importanti. Alcuni li mettono in relazione con il potere e con gli ordini guerrieri. È un’interpretazione e non c’è accordo. Fai attenzione alla cornice. Le bande attorno all’animale sembrano rappresentare delle correnti, ma anche questa lettura è un’ipotesi. Ciò che puoi vedere con certezza è la mano del pittore. I murali venivano realizzati con pazienza, strato dopo strato. Guarda il contorno del felino, le sue linee, i suoi colori. Chi lo dipinse sapeva molto bene ciò che faceva e conosceva le regole con cui si dipingeva nella sua città."
+    },
+    "retos_observacion": {
+      "hash": "0c86d7a75568ba87",
+      "texto": [
+        "Individua nel riquadro la sagoma completa del felino di profilo: le quattro zampe con gli artigli, la lunga coda curva e le fauci socchiuse",
+        "Osserva le bande ondulate rosse e blu che incorniciano l’animale in alto e in basso",
+        "Fai attenzione allo spessore dello strato bianco di stucco di calce su cui gli artisti applicarono i pigmenti mille cinquecento anni fa"
+      ]
+    },
+    "especificaciones": {
+      "hash": "13b2cd37b5718298",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (verso il 400-550 d.C.)",
+        "Tecnica": "Pittura murale ad affresco su stucco di calce con pigmenti minerali (ematite, ocra e azzurro)",
+        "Dimensioni del murale": "oltre 2 m di lunghezza",
+        "Ubicazione": "Lato orientale della Via dei Morti, subito a sud della Piazza del Sole"
+      }
+    },
+    "faq_mito": {
+      "hash": "4eafc417259c98cf",
+      "texto": {
+        "pregunta": "Mito: Il Murale del Puma è una copia moderna collocata per i turisti.",
+        "respuesta": "Realtà: È un murale teotihuacán originale conservato in situ; la copertura è stata collocata per proteggere i suoi pigmenti dalla pioggia e dal sole."
+      }
+    }
+  }
+}

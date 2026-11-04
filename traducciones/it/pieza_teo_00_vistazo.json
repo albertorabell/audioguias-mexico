@@ -1,0 +1,57 @@
+{
+  "id": "teo_00_vistazo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "30985fc7fcc29f13",
+      "texto": "Teotihuacán a colpo d’occhio"
+    },
+    "frase_gancho": {
+      "hash": "a4e9ec31641e2db7",
+      "texto": "Una città tracciata con la squadra e con il cielo, circa duemila anni fa."
+    },
+    "puente_narrativo": {
+      "hash": "764cb13bf3c2379a",
+      "texto": "Dirigiti verso l’estremità sud del viale: lì ti aspetta la Ciudadela, un cortile incassato così grande da poter contenere un’intera moltitudine."
+    },
+    "guion_corto": {
+      "hash": "81b2d03851a104e7",
+      "texto": "Fermati un momento e guarda l’orizzonte. A nord, una montagna vulcanica domina il paesaggio: è il Cerro Gordo. Davanti a te si estende una città che arrivò ad avere circa centomila abitanti in una ventina di chilometri quadrati, la più grande della Mesoamerica. Osserva i muri che ti circondano: quasi tutti combinano una base inclinata, il talud, con una cornice rettangolare sopra, il tablero. Questo disegno si ripete per vari chilometri lungo il suo asse centrale, la Via dei Morti. Il suo nome originale è andato perduto; Teotihuacán glielo diedero i Mexica secoli dopo e di solito si traduce come «il luogo dove nacquero gli dèi»."
+    },
+    "guion_largo": {
+      "hash": "257dbd6a0a670d96",
+      "texto": "Quasi nessuno dei nomi che ascolterai oggi apparteneva a coloro che innalzarono queste pietre. Teotihuacán è il nome che le diedero i Mexica secoli dopo, quando la città era ormai vuota. I Mexica battezzarono anche il viale centrale come Via dei Morti, perché credevano che i tumuli ai suoi lati fossero tombe di antichi re. Non lo erano: sono templi e palazzi. Nelle iscrizioni maya la città compare con un altro nome, Puh, che significa Luogo di Giunchi. Come la chiamassero i suoi stessi abitanti resta un mistero.\n\nPerché sorse proprio qui una città di questa scala? Perché la valle aveva quasi tutto. C’erano sorgenti, terra fertile e argilla per costruire. Molto vicino si trovavano le miniere di ossidiana di Pachuca, il vetro vulcanico con cui si fabbricavano le migliori lame e punte di freccia della Mesoamerica. Quell’ossidiana si vendeva fino a Monte Albán e Tikal, e lo Stato vigilava sulla sua produzione e sul suo commercio. Alcuni studiosi pensano che arrivassero anche famiglie sfollate dalle eruzioni vulcaniche del sud del Bacino del Messico. L’ordine esatto di quegli eventi è ancora oggetto di discussione.\n\nGli urbanisti tracciarono la città come una gigantesca scacchiera. La Via dei Morti corre da sud a nord, e due grandi viali la incrociano ad angolo retto. Ma se avessi con te una bussola noteresti qualcosa di strano: tutta la città è ruotata di circa quindici gradi verso est rispetto al nord vero. La parte centrale segue l’orientamento della Piramide del Sole. La sua facciata guarda verso il punto in cui il Sole tramonta a fine aprile e a metà agosto. Tra quelle date si contano duecentosessanta giorni, il computo del calendario rituale.\n\nLa storia che stai per percorrere ha quattro grandi momenti. Tra il primo e il secondo secolo si innalzano le piramidi del Sole e della Luna. Verso l’anno duecento si costruisce la Ciudadela con il suo grande tempio. A partire dal quarto secolo arriva l’apogeo: si calcola che ci fossero circa duemila complessi abitativi, ciascuno con decine di persone. C’erano inoltre quartieri di artigiani e gente venuta da Oaxaca, da Veracruz e dall’area maya.\n\nIl quarto momento è la fine. Verso l’anno cinquecentocinquanta, un incendio devastò gli edifici dell’élite lungo la Via. Non ci sono tracce di un’invasione straniera. Tra le spiegazioni si citano siccità, carestia e rivolte interne. La città non scomparve da un giorno all’altro: si svuotò a poco a poco. Quasi tutto ciò che oggi sappiamo è stato ricostruito dagli archeologi in più di un secolo, e restano ancora domande aperte.\n\nQuesta guida procede da sud a nord, come la Via. Alcune tappe ti mostrano ciò che hai sotto gli occhi. Altre funzionano come raggi X: ti raccontano ciò che si nasconde sotto i tuoi piedi, come tunnel e offerte sigillate."
+    },
+    "retos_observacion": {
+      "hash": "07d3ef9630cfe51e",
+      "texto": [
+        "Individua a nord la sagoma del Cerro Gordo, la montagna da cui ha origine il tracciato della città",
+        "Riconosci in una qualsiasi struttura vicina il talud (muro inclinato in basso) e il tablero (cornice rettangolare in alto)",
+        "Guarda lungo la Via dei Morti per renderti conto di quanto sia rettilineo il suo tracciato"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4664b3e8bd377e7c",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (1-650 d.C.)",
+        "Superficie": "circa 20 km²",
+        "Altitud": "circa 2 300 m sul livello del mare",
+        "Via dei Morti": "più di 5 km di lunghezza e da 40 a 50 m di larghezza",
+        "Popolazione stimata": "da 80 000 a 200 000 abitanti",
+        "Provenienza": "Valle di Teotihuacán, Stato del Messico"
+      }
+    },
+    "faq_mito": {
+      "hash": "08e264f25c0c4394",
+      "texto": {
+        "pregunta": "Mito: La Via dei Morti era un cimitero di re.",
+        "respuesta": "Realtà: Il nome lo diedero i Mexica per una convinzione errata. Gli edifici che la fiancheggiano erano templi e residenze dell’élite."
+      }
+    }
+  }
+}

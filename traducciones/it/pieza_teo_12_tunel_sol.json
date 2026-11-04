@@ -1,0 +1,57 @@
+{
+  "id": "teo_12_tunel_sol",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "69fcf2aec6942eb5",
+      "texto": "La grotta sotto la Piramide del Sole"
+    },
+    "frase_gancho": {
+      "hash": "927db213e73348d7",
+      "texto": "Sotto la Piramide del Sole c’è un tunnel che nessuno si aspettava."
+    },
+    "puente_narrativo": {
+      "hash": "ad5946b33df6e53c",
+      "texto": "Volgi ora lo sguardo agli edifici bassi sul lato sinistro di questa piazza: lì vivevano i sacerdoti che si prendevano cura della piramide, circondati da giaguari dipinti di azzurro."
+    },
+    "guion_corto": {
+      "hash": "811539f0f1afb570",
+      "texto": "Sotto la Piramide del Sole ci sono un tunnel e una camera. Furono scoperti nel millenovecentosettantuno. Il tunnel misura circa centotré metri, e vi si scende attraverso un pozzo di circa sei metri e mezzo. Oggi è chiuso al pubblico. Uno studio recente ritiene che sia stato realizzato dagli abitanti di Teotihuacán, e non dalla natura. A cosa servisse è ancora oggetto di discussione. Mentre sei qui, pensa a ciò che si trova proprio sotto di te."
+    },
+    "guion_largo": {
+      "hash": "24b51e6e0c6c1088",
+      "texto": "Sotto la Piramide del Sole c’è un tunnel che fu scoperto nel millenovecentosettantuno. Vi si entra da un pozzo verticale di circa sei metri e mezzo. Poi prosegue un passaggio di circa centotré metri fino a una camera sotto il centro della piramide. Per anni si pensò che fosse una grotta naturale di origine vulcanica. L’archeologo Saburo Sugiyama e la sua squadra, nel duemilanove, proposero che gli abitanti di Teotihuacán l’avessero costruita o modificata a mano. Questa idea ne cambia il significato. Significa che qualcuno decise di scavare sotto il luogo in cui poi innalzò la piramide. Nel tunnel sono state trovate offerte, ma ci sono opinioni diverse su quando sia stato sigillato. Alcune fonti dicono che accadde circa milleottocento anni fa, altre lo datano tra il duecento e il duecentocinquanta avanti la nostra era. Questa differenza resta irrisolta. Un’ipotesi sostiene che la grotta rappresentasse l’origine mitica del mondo, un luogo da cui sgorgavano l’acqua e la vita. È un’idea degli specialisti, non un fatto. Oggi non puoi scendere, ma puoi immaginare che sotto i tuoi piedi ci sia un cammino oscuro di più di cento metri."
+    },
+    "retos_observacion": {
+      "hash": "345fab1fd1004e5c",
+      "texto": [
+        "Guarda la base della scalinata centrale accanto alla Plataforma Adosada: lì si trova sigillato il pozzo di discesa di 6,5 metri",
+        "Traccia con lo sguardo una linea da quel punto fino all’asse verticale della sommità della piramide, dove termina la camera a quattro petali",
+        "Osserva nelle immagini della tua app la pianta a forma di trifoglio o di fiore a quattro lobi del tunnel"
+      ]
+    },
+    "especificaciones": {
+      "hash": "83781b3da743dae7",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico antico (I-II secolo d.C.)",
+        "Lunghezza": "103 m",
+        "Profondità": "6,5 m",
+        "Chiusura antica": "17 muri trasversali di tezontle e fango",
+        "Ritrovamenti": "Scoperto nel 1971 (Jorge Acosta / René Millon); depositi scavati nel 2008-2011 (Sugiyama e Sarabia)",
+        "Accesso": "Chiuso al pubblico"
+      }
+    },
+    "faq_mito": {
+      "hash": "1dd06005b1c32e15",
+      "texto": {
+        "pregunta": "Mito: la grotta sotto la Piramide del Sole è una caverna naturale intatta.",
+        "respuesta": "Realtà: i recenti studi geologici indicano che fu scavata e modellata a forma di fiore a quattro petali dagli stessi abitanti di Teotihuacán per sacralizzare il terreno prima di innalzare la piramide."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "teo_06_rio_san_juan",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3ed240c5adcc2759",
+      "texto": "Il fiume che girò di novanta gradi"
+    },
+    "frase_gancho": {
+      "hash": "4f05f39398175e9a",
+      "texto": "I Teotihuacán non adattarono la loro città al fiume: spostarono il fiume perché seguisse il loro piano."
+    },
+    "puente_narrativo": {
+      "hash": "1387c55af4930b2b",
+      "texto": "Quando hai finito di attraversare il ponte, comincia a salire il primo tratto di scalinate verso nord per sentire come la Via dei Morti gioca con i tuoi occhi e con le tue orecchie."
+    },
+    "guion_corto": {
+      "hash": "0712e7ce71457273",
+      "texto": "Attraversando il fiume San Juan, ti trovi in un’opera di ingegneria. Il suo corso naturale non si adattava al piano della città, così lo deviarono e lo incanalarono. Secondo uno studio con laser aereo, per circa tre chilometri segue l’orientamento della città. Probabilmente questo avvenne nel secondo secolo. L’acqua serviva a drenare e a controllare le forti piogge. I costruttori volevano una città ordinata, e il paesaggio dovette obbedire."
+    },
+    "guion_largo": {
+      "hash": "b7977d2889ad15ba",
+      "texto": "Il fiume San Juan attraversa il centro di Teotihuacán, e non scorre come un fiume naturale. Il suo corso originario tagliava lo spazio in cui furono progettati la Ciudadela e il Grande Complesso. Per questo fu deviato. Secondo uno studio, probabilmente questo avvenne nel secondo secolo della nostra era. È una data probabile, non certa. Il canale passava sotto la piattaforma nord della Ciudadela e portava acqua a un pozzo nella sua piazza centrale. Poi correva verso ovest, aggirava il Grande Complesso e proseguiva lungo il Viale Ovest. Si calcola che circa tre chilometri di alveo siano stati adattati alla griglia della città. Uno studio con mappatura aerea laser, diretto da Nawa Sugiyama, ha confermato qualcosa di più. Il San Juan segue l’orientamento della città per circa tre chilometri nel centro. Un altro fiume, il San Lorenzo, ha un orientamento diverso e percorre quattro virgola nove chilometri. Anch’esso fu modificato. Questo sistema aiutava a drenare l’acqua e a controllare le inondazioni. Alcuni autori pensano che forse in certe stagioni vi si potesse navigare, ma è un’ipotesi. Mentre attraversi, pensa che il fiume che vedi non è un caso. Fu una decisione dei costruttori."
+    },
+    "retos_observacion": {
+      "hash": "448364b11b03f9bf",
+      "texto": [
+        "Affacciati dal ponte verso est e verso ovest per osservare il tracciato perfettamente rettilineo del corso d’acqua",
+        "Cerca sulle pareti del canale i resti degli antichi muri di contenimento in pietra",
+        "Guarda verso sud e verso nord per notare come il fiume divide il viale in due mondi"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d4699dec98f6933",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico antico (verso il 150-250 d.C.)",
+        "Opera": "Deviazione artificiale ad angolo di 90° di circa 3 km del corso del fiume San Juan",
+        "Funzioni": "Controllo delle inondazioni, collettore generale del drenaggio urbano, irrigazione agricola e asse cosmico Est-Ovest",
+        "Provenienza": "Incrocio del fiume San Juan con la Via dei Morti"
+      }
+    },
+    "faq_mito": {
+      "hash": "fd03b2d74ff52dd9",
+      "texto": {
+        "pregunta": "Mito: Il fiume San Juan ha sempre scorso in linea retta attraversando la Via.",
+        "respuesta": "Realtà: Il suo corso originario attraversava la valle in diagonale; i Teotihuacán lo deviarono a mano ad angolo retto per integrarlo nella loro griglia urbana."
+      }
+    }
+  }
+}

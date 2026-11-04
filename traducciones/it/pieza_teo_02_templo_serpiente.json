@@ -1,0 +1,56 @@
+{
+  "id": "teo_02_templo_serpiente",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "158a3fb6368f096b",
+      "texto": "Tempio del Serpente piumato"
+    },
+    "frase_gancho": {
+      "hash": "bb40581ff6cbb46e",
+      "texto": "Più di centotrenta persone furono sepolte sotto le sue fondamenta per consacrare questo tempio."
+    },
+    "puente_narrativo": {
+      "hash": "180667a4dfea84f3",
+      "texto": "Se segui il percorso completo, fermati davanti a questa scalinata per sbirciare con i raggi X nel tunnel sigillato sotto i tuoi piedi; se sei nel percorso express, esci dalla Ciudadela verso la Via dei Morti e cammina in direzione nord."
+    },
+    "guion_corto": {
+      "hash": "5ae5a129b00fbdfd",
+      "texto": "Quando ti avvicini frontalmente a questo edificio, la prima cosa che vedi è una struttura liscia e grigia chiamata Piattaforma Addossata. Sali i suoi gradini e affacciati allo stretto corridoio che si apre dietro: lì appare, nascosta per secoli, la facciata scolpita più spettacolare di Teotihuacán. Sei davanti al Tempio del Serpente piumato, costruito intorno all’anno duecento. Dai suoi pannelli sporgono enormi teste di pietra che un tempo erano dipinte di rosso, verde, azzurro e giallo. Alcune sono serpenti piumati che emergono da un fiore; le altre, con due anelli sulla fronte e senza mandibola inferiore, rappresentano, secondo molti specialisti, un copricapo sacro legato all’origine del tempo."
+    },
+    "guion_largo": {
+      "hash": "4bba0f56ac744fec",
+      "texto": "Questa facciata fu fatta per essere letta. Due creature si alternano lungo i pannelli e la scalinata. La prima è il Serpente piumato. La sua testa a tutto tondo sboccia da una corolla di petali ed è circondata da lumache e conchiglie, come se nuotasse nelle acque primordiali della creazione. La seconda lasciò sconcertati gli archeologi per decenni. Per i due anelli che porta sulla fronte si pensò che fosse Tláloc, il dio della pioggia. Oggi molti specialisti la interpretano come il copricapo di Cipactli, il coccodrillo mostruoso della Terra e simbolo del primo giorno del calendario. Secondo questa lettura, il serpente porta sul dorso l’inizio del tempo.\n\nSi calcola che tra trecento e quattrocento di queste teste, alte circa un metro, decorassero l’edificio. E tutte furono dipinte. Immagina questa parete intera, splendente, vista dalla piazza gremita di gente.\n\nLe date non sono esatte: gli studi collocano l’opera tra l’anno centocinquanta e l’anno duecentocinquanta. Ma la cosa più impressionante si trovava sotto il pavimento. Prima di innalzare il tempio, intorno all’anno duecento, qui furono sepolte decine di persone. Gli archeologi Rubén Cabrera e Saburo Sugiyama trovarono i resti di centotrentasette, disposti con grande ordine e con le mani legate dietro la schiena. Se si sommano le zone che non sono state scavate, si calcola che fossero tra duecento e duecentosessanta.\n\nChi erano? Le analisi dell’ossigeno nelle loro ossa e nei loro denti hanno riservato una sorpresa. Venivano da varie regioni della Mesoamerica, ma la maggior parte aveva vissuto a Teotihuacán per anni. Non erano semplici prigionieri appena arrivati. Un’ipotesi propone che fossero stranieri al servizio del governante, forse guardie d’élite, perché indossavano abiti e offerte molto simili e molto ricchi. È un’ipotesi, non una certezza. Altre idee propongono che fossero servitori del fondatore di una dinastia, oppure che fossero dedicati al Serpente piumato o all’edificio stesso. Insieme a loro fu sepolto un tesoro: si parla di circa centomila oggetti preziosi.\n\nUn’altra cosa sulla storia di questo edificio. Circa cento anni dopo la sua costruzione, intorno all’anno trecentocinquanta, la facciata fu coperta dalla Piattaforma Addossata che hai appena salito. Si discute sul perché. Una lettura parla di un cambiamento nel governo interno della città; un’altra, di una sepoltura rituale rispettosa. I lati che non furono coperti vennero danneggiati in una data sconosciuta, e per questo la parte nascosta è quella che si è conservata meglio.\n\nTra il millenovecentodiciassette e il millenovecentoventidue, l’archeologo Manuel Gamio aprì il corridoio in cui ti trovi. Riportò alla luce una facciata che nessuno vedeva da più di millecinquecento anni."
+    },
+    "retos_observacion": {
+      "hash": "cffc59d3095db4b0",
+      "texto": [
+        "Sali sulla Piattaforma Addossata e affacciati al corridoio posteriore per vedere di fronte i corpi a gradoni originali",
+        "Distingui le due teste: il Serpente piumato circondato da petali e il copricapo squamoso di Cipactli con due anelli e senza mandibola inferiore",
+        "Cerca nelle scarpate e negli intercolonni i rilievi di lumache e conchiglie marine"
+      ]
+    },
+    "especificaciones": {
+      "hash": "750d48419595a14e",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico antico (intorno al 200 d.C.; chiuso intorno al 350 d.C.)",
+        "Materiale": "Pietra vulcanica lavorata, stucco e pittura murale",
+        "Struttura": "Sette corpi originali a scarpa e pannello con 366 teste di pietra",
+        "Scoperta": "Portato alla luce da Manuel Gamio (1917-1922); sepolture scavate negli anni Ottanta",
+        "Provenienza": "La Ciudadela, Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "24ae0f14d4a7a0b6",
+      "texto": {
+        "pregunta": "Mito: Le teste con anelli sulla fronte rappresentano il dio della pioggia, Tláloc.",
+        "respuesta": "Realtà: Recenti studi iconografici dimostrano che rappresentano Cipactli, il caimano o mostro della Terra e segno del primo giorno del calendario rituale."
+      }
+    }
+  }
+}

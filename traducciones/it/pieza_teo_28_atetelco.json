@@ -1,0 +1,59 @@
+{
+  "id": "teo_28_atetelco",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Tolteco\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "985ec9a9b2f2453d",
+      "texto": "Atetelco: coyote e puma guerrieri"
+    },
+    "frase_gancho": {
+      "hash": "f2248d4b77b914ec",
+      "texto": "Una sfilata di coyote e giaguari che camminano verso la porta."
+    },
+    "puente_narrativo": {
+      "hash": "f65f72623a1c3f4c",
+      "texto": "Uscendo da Atetelco, mentre torni verso l’ingresso sud, ascolteremo le storie di due quartieri vicini che completano la mappa umana della città: gli artigiani di La Ventilla e gli Zapotechi di Oaxaca."
+    },
+    "guion_corto": {
+      "hash": "3ce958cfadd82b32",
+      "texto": "Atetelco significa sul muro di pietra accanto all’acqua. È un complesso residenziale con patii decorati. Nel Patio Bianco, un murale mostra una processione di coyote e giaguari che camminano uno dietro l’altro verso la porta centrale. Il Patio Rosso ha un altare dai colori vivi e ornamenti legati all’attività militare. Osserva gli animali e vedrai che ognuno ha dettagli propri. Il coyote e il giaguaro non hanno lo stesso muso né la stessa coda."
+    },
+    "guion_largo": {
+      "hash": "841288dfd9d917cd",
+      "texto": "Il Patio Bianco ha tre templi delle prime fasi della città, datati tra gli anni trecento e quattrocento. Nel Portico 2 del Tempio Orientale, i muri mostrano una processione di coyote e giaguari. In alcuni murali, un giaguaro precede il coyote. In altri, il coyote va per primo e il giaguaro lo segue. Tutti si dirigono verso la porta centrale. I coyote sono disegnati con sottili linee rosse. Hanno lunghi ciuffi sui gomiti e una banda di piccole piume triangolari sulla schiena. Il loro copricapo è un diadema con lunghe piume. I giaguari hanno il corpo come coperto da una rete. Il loro muso è più corto, le zanne più curve e la lingua appare divisa in due. Ogni murale è incorniciato da un bordo di linee sottili. Più in alto si trova il Patio Rosso, con recinti su basi di piramide e un altare dai colori vivi. La sua decorazione è legata all’attività militare. Che cosa significasse esattamente la processione, non lo sappiamo. Ma puoi confrontare i due animali e scoprire come gli artisti li distinguevano."
+    },
+    "retos_observacion": {
+      "hash": "4753b1f1921cc09d",
+      "texto": [
+        "Entra nei portici del Patio Bianco e osserva il reticolo di rombi nella parte alta, con guerrieri e coyote dentro ogni cella",
+        "Passa al Patio Rosso (dei Canidi) e cerca nella parte bassa dei muri la fila di coyote e puma con pennacchi verdi",
+        "Individua davanti al muso degli animali il cuore umano trilobato da cui cadono tre gocce di sangue, e guarda al centro del patio il piccolo altare a scarpata e pannello"
+      ]
+    },
+    "especificaciones": {
+      "hash": "84fea297416b3d11",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico recente (murali verso il 350-550 d.C.)",
+        "Spazi principali": "Patio Bianco (3 portici con reticolo di rombi) e Patio Dipinto o dei Canidi (processione di coyote e puma e altare centrale)",
+        "Tematica": "Ordini militari di coyote, puma e aquile e rituali di sacrificio",
+        "Ubicazione": "Estremità sudovest (1,5 km a sudovest della Piramide del Sole)"
+      }
+    },
+    "faq_mito": {
+      "hash": "5617ebaf631c238e",
+      "texto": {
+        "pregunta": "Mito: Teotihuacán fu una città pacifica, senza esercito né sacrifici umani, e la guerra rituale fu un’invenzione successiva dei Toltechi e dei Mexica.",
+        "respuesta": "Realtà: I murali di Atetelco dimostrano che a Teotihuacán esistevano fin dal IV secolo ordini militari di guerrieri coyote, puma e aquila legati al sacrificio dei cuori."
+      }
+    }
+  }
+}

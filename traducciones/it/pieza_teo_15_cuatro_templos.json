@@ -1,0 +1,55 @@
+{
+  "id": "teo_15_cuatro_templos",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "51d07dcb1a9c6d06",
+      "texto": "Cortile dei Quattro Piccoli Templi"
+    },
+    "frase_gancho": {
+      "hash": "272f77e8780410f7",
+      "texto": "Un cortile con quattro piccoli templi, aperto verso il grande viale."
+    },
+    "puente_narrativo": {
+      "hash": "8d257ba8f4b89a33",
+      "texto": "Volgi ora lo sguardo verso il lato opposto del viale, dietro i muri orientali: lì si nasconde il gigantesco palazzo in cui governavano quattro signori allo stesso tempo."
+    },
+    "guion_corto": {
+      "hash": "0353978682e540fe",
+      "texto": "Ti trovi davanti al Cortile dei Quattro Piccoli Templi. Una scalinata sale dalla Via dei Morti fino a una piattaforma rialzata. Il cortile è circondato da quattro piccole basi. Si pensa che fosse una residenza importante. Che il suo ingresso guardasse verso il viale forse non fu un caso. Molte case della città, invece, si chiudevano verso la strada. Qui sembra che si volesse essere visti."
+    },
+    "guion_largo": {
+      "hash": "e23acfdf9cec2681",
+      "texto": "Guarda verso il marciapiede sinistro della Via dei Morti, in direzione della Luna. Un’ampia scalinata sale a una piattaforma rialzata. È il Cortile dei Quattro Piccoli Templi. Il nome viene da quattro piccole basi disposte intorno a uno spazio centrale. Molte case di Teotihuacán avevano muri ciechi verso la strada. Questo complesso, invece, sembra aprirsi verso il viale. Questa posizione lo rende molto visibile a chi cammina lungo la Via dei Morti. Si pensa che i suoi abitanti fossero persone importanti, anche se non si sa con certezza chi fossero. I quattro templi intorno a un centro ricordano un’idea che compare in molte culture della Mesoamerica: quattro direzioni e un centro. È una lettura possibile, non un fatto provato. Sono stati ritrovati anche resti di pittura murale in complessi come questo, con personaggi e ornamenti. Ciò ci dice che la casa era decorata con cura. Da qui, le persone che vivevano in alto potevano vedere passare le processioni. Forse era un modo di partecipare alla vita della città. Di certo, guardarlo dal basso ti dice molto: chi aveva una casa così voleva essere visto."
+    },
+    "retos_observacion": {
+      "hash": "f6b53ba801e81426",
+      "texto": [
+        "Individua sul marciapiede occidentale della Via dei Morti la grande scalinata con balaustre inclinate che dà accesso diretto alla piattaforma",
+        "Se sali al complesso, individua le quattro piccole basi che circondano l’altare centrale",
+        "Cerca ai piedi dei muri i canali di pietra scolpita che scaricavano l’acqua del cortile verso il viale"
+      ]
+    },
+    "especificaciones": {
+      "hash": "aa66c28c913f5270",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (circa 250-550 d.C.)",
+        "Estructura": "Complesso rialzato con scalinata monumentale verso la Via dei Morti, cortile a quinconce (4 templi e altare centrale) e sale porticate",
+        "Funzione": "Residenza sacerdotale e controllo cerimoniale",
+        "Provenienza": "Lato occidentale della Via dei Morti, tra il Sole e la Luna"
+      }
+    },
+    "faq_mito": {
+      "hash": "fbb469423ee3f78d",
+      "texto": {
+        "pregunta": "Mito: Tutte le abitazioni di Teotihuacán erano recinti chiusi, senza vista sui grandi viali principali.",
+        "respuesta": "Realtà: I palazzi sacerdotali del centro, come questo complesso, avevano scalinate e portici monumentali aperti direttamente sulla Via dei Morti."
+      }
+    }
+  }
+}

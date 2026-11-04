@@ -1,0 +1,56 @@
+{
+  "id": "teo_19_piramide_luna",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f374cc1285da90c8",
+      "texto": "Piramide della Luna"
+    },
+    "frase_gancho": {
+      "hash": "5856f87de45c4164",
+      "texto": "Sette piramidi, una dentro l’altra, e sotto di esse puma, aquile e persone sepolte come offerta."
+    },
+    "puente_narrativo": {
+      "hash": "4e8601e061438f71",
+      "texto": "Cammina ora verso l’angolo sinistro della piazza, a sud-ovest della piramide: scenderemo alcuni gradini per entrare nel palazzo meglio conservato di Teotihuacán."
+    },
+    "guion_corto": {
+      "hash": "d5713cf44e13509a",
+      "texto": "Fermati davanti alla scalinata della Piramide della Luna e osserva la sua silhouette contro il cielo. Anche se misura quarantatré metri di altezza, una ventina di metri meno della Piramide del Sole, le due cime si trovano quasi alla stessa altitudine perché qui il terreno della valle è più elevato. Fai attenzione alle pareti inclinate a scarpa dell’edificio e confrontale con i pendii del Cerro Gordo che spunta dietro: i costruttori sembrano aver voluto che la piramide fosse un’eco della montagna. E se guardi i tagli della sua facciata frontale, noterai che non è un solo edificio, ma diversi sovrapposti."
+    },
+    "guion_largo": {
+      "hash": "36e1aee8b4f70c5a",
+      "texto": "A differenza della Piramide del Sole, che fu innalzata in un’unica grande fase, la Piramide della Luna crebbe nel corso dei secoli, come un essere vivente. A partire dalla fine degli anni novanta, gli archeologi Rubén Cabrera e Saburo Sugiyama scavarono dei tunnel fino al suo cuore. Scoprirono che all’interno ci sono sei piramidi precedenti, una che ricopre l’altra, fino ad arrivare alla settima, quella che vedi oggi. A partire dal quarto edificio, ogni ampliamento fu consacrato con sepolture e offerte. E gli ampliamenti non erano piccoli: l’edificio quattro fu nove volte più grande del tre.\n\nIl primo di questi ritrovamenti comparve durante la costruzione dell’edificio quattro, nella prima metà del terzo secolo. Era un uomo tra i quaranta e i cinquant’anni, seduto, con le mani legate dietro la schiena. L’analisi delle sue ossa indica che trascorse l’infanzia lontano da Teotihuacán. Lo accompagnavano decine di animali: due puma e un lupo in gabbie di legno, nove aquile reali, un falco, un gufo e serpenti a sonagli. C’erano anche sculture di pietra verde, figure di ossidiana e otto vasi con il volto di Tláloc. La posizione delle sue braccia e delle sue gambe è identica a quella dei sacrificati sotto il Tempio del Serpente piumato. Appartengono più o meno alla stessa epoca, il che suggerisce un medesimo rituale.\n\nVerso l’anno trecento, l’edificio cinque fu consacrato con quattro giovani uomini, legati, e con crani di lupi e di puma. Uno di loro portava una collana di pezzi di conchiglia a forma di mandibole. Più tardi, quando fu innalzato l’edificio sei, furono sepolti i crani di una diciottina di persone decapitate, quasi tutte giovani uomini, senza alcuna offerta. Le analisi indicano che la maggior parte erano stranieri.\n\nLa tomba più enigmatica segna la chiusura dell’edificio cinque. Erano tre uomini tra i quaranta e i sessant’anni, seduti con le gambe incrociate, con orecchini a disco e pendenti di giadeite di stile maya. Con loro c’erano un’aquila reale, puma e serpenti. Le analisi suggeriscono che due di loro siano cresciuti nella stessa regione. Il terzo veniva da un’altra diversa, forse dalla Costa del Golfo o dalle terre basse maya. La giada proviene probabilmente dal Guatemala. Gli archeologi discutono se si trattasse di una sepoltura d’onore o di un sacrificio.\n\nCosa volevano dire con tutto questo? Una lettura molto diffusa propone che nutrissero simbolicamente la montagna sacra con ciò che avevano di più prezioso: animali potenti, persone giunte da lontano e pietre verdi portate da grandi distanze. In cambio, speravano che l’acqua non mancasse mai nella valle. È un’interpretazione, ma spiega perché ogni nuovo strato della piramide richiedesse un’offerta più spettacolare della precedente.\n\nHai ancora strada da percorrere. Se hai dell’acqua, approfittane per berne un po’ prima di proseguire."
+    },
+    "retos_observacion": {
+      "hash": "0a964e669c007ca5",
+      "texto": [
+        "Confronta l’angolo di inclinazione dei lati della piramide con il pendio naturale del Cerro Gordo dietro di essa",
+        "Osserva nella Piattaforma Adosada sul davanti come spuntano i muri e le pareti inclinate a scarpa delle fasi costruttive precedenti",
+        "Nota come da qui si domina visivamente tutta la linea retta della Via dei Morti verso sud"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7531bf368e897ff4",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (7 fasi costruttive tra il 100 e il 450 d.C.)",
+        "Dimensioni": "43 m di altezza x 150 m (est-ovest) x 130 m (nord-sud)",
+        "Ritrovamenti": "Sei sottostrutture interne e le Sepolture da 2 a 6 con dignitari, prigionieri e animali in gabbia",
+        "Scavo interno": "Rubén Cabrera e Saburo Sugiyama (1998-2004)",
+        "Provenienza": "Estremità nord della Via dei Morti"
+      }
+    },
+    "faq_mito": {
+      "hash": "413c8a2c5017064c",
+      "texto": {
+        "pregunta": "Mito: La Piramide della Luna è più bassa perché era meno importante di quella del Sole.",
+        "respuesta": "Realtà: Essendo costruita su un’elevazione naturale a nord della valle, la sua sommità si trova praticamente alla stessa altitudine di quella del Sole, e le sue sette fasi costruttive custodiscono le offerte di Stato più ricche della città."
+      }
+    }
+  }
+}

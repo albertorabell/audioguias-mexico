@@ -1,0 +1,55 @@
+{
+  "id": "teo_09_piso_mica",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5f215a62fe41b4e4",
+      "texto": "Complesso della Via dei Morti e Pavimento di Mica"
+    },
+    "frase_gancho": {
+      "hash": "bef5c0a75d0a3ef0",
+      "texto": "Un pavimento rivestito di mica che arrivò da molto lontano."
+    },
+    "puente_narrativo": {
+      "hash": "a36c9b8ac5daff06",
+      "texto": "Prosegui verso nord: il viale si apre all’improvviso davanti alla montagna artificiale più colossale della città, la Piramide del Sole."
+    },
+    "guion_corto": {
+      "hash": "c6617f5a78802f59",
+      "texto": "Qui vicino, nel cosiddetto Grupo Viking, è apparso un pavimento con strati di mica, un minerale brillante. La mica non si trova nella valle di Teotihuacán. Si pensa che provenga da Oaxaca, dalla regione di Ejutla. Portarla fin qui richiese molto sforzo, quindi doveva essere un materiale di grande valore. Ancora oggi si discute a che cosa servisse. Immagina una stanza con il pavimento che brilla come uno specchio."
+    },
+    "guion_largo": {
+      "hash": "63504e30dbb7a516",
+      "texto": "In questo settore è venuto alla luce uno dei ritrovamenti più famosi di Teotihuacán. Nel cosiddetto Grupo Viking, gli archeologi hanno trovato un pavimento con strati di mica. La mica è un minerale in lamine, brillante e resistente. Non si trova nella valle di Teotihuacán. Le analisi indicano una fonte a Oaxaca, nella regione di Ejutla. Ciò significa che qualcuno la portò da molto lontano. La ricercatrice Linda Manzanilla riferisce che a Xalla sono stati registrati circa trentasette chili di mica. Si è trovata anche in altri edifici importanti, per cui si pensa che fosse preziosa. A che cosa servisse esattamente, è ancora oggetto di discussione. Alcuni pensano che il suo splendore imitasse il riflesso del sole o dell’acqua. Altri la vedono come un materiale di prestigio, che mostrava il potere di chi riusciva a procurarsela. Nessuna di queste idee è confermata. Mentre percorri questi cortili, pensa che sotto di essi potrebbero esserci ancora altre sorprese. Ogni nuova scoperta corregge un poco ciò che credevamo di sapere."
+    },
+    "retos_observacion": {
+      "hash": "8e33077e232f60cf",
+      "texto": [
+        "Osserva i complessi di cortili e piattaforme a gradoni che fiancheggiano entrambi i lati di questo tratto della Via dei Morti",
+        "Cerca nei pavimenti di pietra i canali e i pozzetti d’ispezione del sistema di drenaggio delle acque piovane teotihuacano",
+        "Nota i spessi pavimenti di cemento preispanico fatto di calce, sabbia e ghiaia vulcanica frantumata"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e233d93d8d42c6b9",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (circa 250-550 d.C.)",
+        "Ubicación": "Tratto centrale della Via dei Morti (Complesso Plaza Oeste e Grupo Viking)",
+        "Hallazgo destacado": "Camera con pavimento a due strati di lastre di mica importata da Oaxaca (circa 30 m²)",
+        "Exploración": "Pedro Sánchez (1906) e Sigvald Linné / Fondazione Viking (1942)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c7a4add4d7dd2f5f",
+      "texto": {
+        "pregunta": "Mito: Il Pavimento di Mica aveva una funzione tecnologica o industriale sconosciuta.",
+        "respuesta": "Realtà: La mica era un minerale sacro e di altissimo lusso, importato da Oaxaca dall’élite teotihuacán per consacrare spazi rituali e decorare muri e vesti."
+      }
+    }
+  }
+}

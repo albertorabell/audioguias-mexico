@@ -1,0 +1,54 @@
+{
+  "id": "teo_14_museo_sitio",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "66afd054cdceee21",
+      "texto": "Museo de la Cultura Teotihuacán (Museo di Sito)"
+    },
+    "frase_gancho": {
+      "hash": "992317afa0c39a86",
+      "texto": "Una pausa per vedere la città in miniatura e gli oggetti che l’hanno resa possibile."
+    },
+    "puente_narrativo": {
+      "hash": "b28c0335c8ea3857",
+      "texto": "All’uscita dal museo, torna sulla Via dei Morti e cammina verso nord: superata la Piramide del Sole, alla tua destra e sotto una tettoia protettiva, ti aspetta il felino dipinto più grande che si conservi lungo la Via."
+    },
+    "guion_corto": {
+      "hash": "1fa7bda7cc585e10",
+      "texto": "Questo museo ti offre una pausa a metà percorso. Se c’è un plastico della zona, guarda come la Via ordina gli edifici. Cerca anche oggetti di ossidiana, un vetro vulcanico che Teotihuacán lavorò e portò molto lontano. Se vedi della ceramica arancione, ricorda che molti vasi arrivarono da Puebla. Guarda i volti e le offerte. Danno un volto alle persone che costruirono tutto questo. Concediti qualche minuto di ombra e di riposo."
+    },
+    "guion_largo": {
+      "hash": "2226e1a3d4cef37e",
+      "texto": "Questo museo è una buona pausa a metà percorso. Prima di guardare le vetrine, respira e orientati. Se trovi un plastico della zona, approfittane. Dall’alto si vede come la Via dei Morti ordina i complessi e le piazze. Fai attenzione anche al fiume San Juan, che segue la griglia della città. Nelle vetrine cerca alcuni oggetti che già conosci per strada. L’ossidiana, un vetro vulcanico, veniva lavorata qui e portata in luoghi molto lontani. Teotihuacán la otteneva da Pachuca. Se vedi dei vasi di colore arancione, ricorda che quella ceramica si faceva a Puebla, la cosiddetta Naranja Delgado. E se ci sono bracieri di argilla di tipo teatro, osserva le loro figure e i loro ornamenti. Erano oggetti per bruciare offerte. Non preoccuparti di ricordare tutti i nomi. Basta osservare le mani che lavorarono ogni oggetto. Dietro ogni pezzo c’è stato un artigiano, una famiglia e un quartiere. Prima di proseguire, bevi un po’ d’acqua e riposati un attimo. Quando uscirai, le piramidi ti sembreranno più vicine, perché avrai visto cose fatte dalla stessa gente."
+    },
+    "retos_observacion": {
+      "hash": "05c47c98f2c8a9c2",
+      "texto": [
+        "Fermati davanti al grande plastico centrale e allinea lo sguardo con la vetrata in fondo che incornicia la Piramide del Sole",
+        "Cerca nelle vetrine le sepolture originali del Tempio del Serpente piumato con le loro collane di mandibole e conchiglie",
+        "Trova un incensiere di tipo teatro decorato con farfalle e un vaso cilindrico a tre supporti"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3df0cbfa8227a399",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Funzione": "Museo archeologico di sito",
+        "Ubicazione": "Lato sud della Piramide del Sole (accesso verso la Porta 2 / Giardino Botanico)",
+        "Pezzi chiave": "Plastico monumentale con vetrata sul Sole, sepolture della Ciudadela, incensieri di tipo teatro, industria litica in ossidiana e scultura architettonica"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0e0089295546707",
+      "texto": {
+        "pregunta": "Mito: Tutti i pezzi importanti trovati a Teotihuacán sono stati portati a Città del Messico.",
+        "respuesta": "Realtà: Questo museo di sito custodisce più di seicento pezzi originali di prima importanza, rinvenuti nei recenti scavi delle piramidi e dei quartieri."
+      }
+    }
+  }
+}

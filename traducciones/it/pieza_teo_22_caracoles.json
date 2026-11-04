@@ -1,0 +1,55 @@
+{
+  "id": "teo_22_caracoles",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a265bb2c77b543e4",
+      "texto": "Tempio delle Conchiglie piumate"
+    },
+    "frase_gancho": {
+      "hash": "bd074d1c17b04a60",
+      "texto": "Un tempio rimasto sepolto sotto un palazzo, e per questo ha conservato i suoi colori."
+    },
+    "puente_narrativo": {
+      "hash": "e6e840586c7dfb93",
+      "texto": "Al termine di questo percorso sotterraneo, esci dalla zona della Luna dalla vicina Porta Tre per entrare nel Museo dei Murales Teotihuacán «Beatriz de la Fuente»."
+    },
+    "guion_corto": {
+      "hash": "fc1062339933eb9d",
+      "texto": "Sotto il Palazzo di Quetzalpapálotl si trova un altro edificio più antico, il Tempio delle Conchiglie piumate. Lo coprirono con il palazzo, e questo lo protesse. Fu riscoperto all’inizio degli anni sessanta da Jorge Acosta. Si data tra il duecento e il trecento della nostra era. Il suo nome deriva dalle conchiglie con le piume che ornano i suoi pilastri. Il lato positivo dell’essere stato sepolto è che i suoi colori si sono conservati."
+    },
+    "guion_largo": {
+      "hash": "ba974b21b89e6f29",
+      "texto": "Sotto il Palazzo di Quetzalpapálotl si trova un altro edificio più antico. È il Tempio delle Conchiglie piumate. I Teotihuacán non lo demolirono, ma lo coprirono. Questo lo protesse dal tempo. L’archeologo Jorge Acosta lo riscoprì negli anni sessanta, intorno al millenovecentosessantadue. Si data tra il duecento e il trecento della nostra era. Il suo nome deriva dalle conchiglie con le piume che si vedono sui suoi pilastri. In lingua nahuatl, una tromba di conchiglia si chiama tecciztli. Questa parola ricorda Tecciztécatl, un dio dei racconti mexica che si gettò nel fuoco per trasformarsi in luna. I Mexica lo raccontarono secoli dopo, ma non sappiamo se i Teotihuacán la pensassero allo stesso modo. È un collegamento che facciamo noi. Secondo le descrizioni del luogo, sulla piattaforma si conservano colori originali. Si vedono uccelli verdi che si fronteggiano a due a due, con getti d’acqua che escono dai loro becchi. Quella pittura si è conservata perché il tempio rimase sepolto. Se scendi nella galleria, o ti affacci dai gradini, immagina le persone del terzo secolo. Loro vedevano quella facciata con i colori appena dipinti."
+    },
+    "retos_observacion": {
+      "hash": "c53793287611aaee",
+      "texto": [
+        "Individua, all’interno del percorso del complesso, la discesa verso le gallerie sotterranee sotto il livello del Palazzo di Quetzalpapálotl",
+        "Identifica sui pilastri di pietra le conchiglie marine scolpite con piume, fiori a quattro petali e bocchino di tromba",
+        "Osserva i resti di pittura verde, azzurra, rossa e gialla degli uccelli che versano getti d’acqua dal becco"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a86d259bf4d5270a",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico antico (intorno al 200-300 d.C.)",
+        "Elementos destacados": "Pilastri con bassorilievi di trombe di conchiglia piumata, murales di uccelli che versano acqua e sottostruttura dei Dischi Rossi",
+        "Exploración": "Jorge R. Acosta (1960-1964)",
+        "Ubicación": "Sottosuolo del Palazzo di Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee93b99b031f61af",
+      "texto": {
+        "pregunta": "Mito: Il Tempio delle Conchiglie piumate fu costruito originariamente come una camera sotterranea.",
+        "respuesta": "Realtà: Fu un tempio all’aperto durante il III secolo; rimase sottoterra secoli dopo, quando gli stessi Teotihuacán lo riempirono per edificarvi sopra il Palazzo di Quetzalpapálotl."
+      }
+    }
+  }
+}

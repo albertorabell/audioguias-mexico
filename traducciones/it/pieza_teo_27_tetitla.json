@@ -1,0 +1,55 @@
+{
+  "id": "teo_27_tetitla",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b3ba7fd7b44ff8a8",
+      "texto": "Tetitla: l’uomo-giaguaro e le mani di giada"
+    },
+    "frase_gancho": {
+      "hash": "e9ef71502f9125c2",
+      "texto": "La casa dalle pareti dipinte: giaguari, aquile rosse, dee di giada e forse mercanti di conchiglie."
+    },
+    "puente_narrativo": {
+      "hash": "6075601965b56790",
+      "texto": "Segui il sentiero ancora per qualche minuto verso ovest fino al complesso di Atetelco: lì passeremo dalla ricchezza familiare al santuario degli ordini guerrieri."
+    },
+    "guion_corto": {
+      "hash": "e44af23c6f82eb3d",
+      "texto": "Ti trovi ora a Tetitla, uno dei complessi residenziali più grandi di Teotihuacán. Qui si conoscono circa trentotto murali, la maggior parte ancora nel luogo in cui furono dipinti. Cammina sotto i suoi portici e cerca i felini arancioni, le aquile rosse con le ali aperte, le conchiglie marine e i dipinti che gli specialisti chiamano Dee di Giada. Gli archeologi distinguono qui cinque fasi di costruzione, e i dipinti non sono tutti della stessa epoca."
+    },
+    "guion_largo": {
+      "hash": "5b139d6603341a58",
+      "texto": "Fermati prima di tutto nei portici delle aquile. Il Portico Venticinque è noto come quello delle Aquile Rosse, e la sua fascia di piume era in origine di un nero intenso, oggi perduto. Lì vicino, il Portico Tredici mostra felini arancioni, e il Portico Undici, le Dee di Giada. In altre stanze, un personaggio con abito da giaguaro cammina verso un tempio, e compaiono conchiglie marine, uccelli e figure che sembrano immergersi.\n\nQueste pareti hanno una storia. La casa iniziò a essere costruita tra gli anni duecento e trecento della nostra era, e continuò a crescere fino agli ultimi secoli della città. Gli archeologi distinguono cinque fasi di costruzione. I dipinti che vedi non sono tutti della stessa epoca. Alcune proposte li collocano in un arco di due secoli e mezzo, e si discute ancora su quando sia stato dipinto ciascuno.\n\nI murali ne hanno passate tante. Negli anni quaranta, un proprietario privato asportò dei dipinti prima che l’INAH espropriasse il terreno nel millenovecentoquarantaquattro. Un frammento del giaguaro inginocchiato si trova oggi a Dumbarton Oaks, negli Stati Uniti. In seguito i murali rimasero esposti per una sessantina d’anni, e oggi restano in sospeso interventi di conservazione.\n\nChi viveva qui? È una delle domande ancora aperte. Séjourné pensò che fosse un centro religioso, perché c’era poca ceramica d’uso domestico. Jorge Angulo propose che fosse una residenza, un palazzo o persino un centro di governo. Altri studiosi sostengono che i suoi abitanti fossero mercanti specializzati nel portare conchiglie marine dall’area maya. Questa idea si basa sui motivi di conchiglie e di subacquei nei murali, sulla ceramica e sulle offerte. È un’ipotesi, non un fatto dimostrato.\n\nE un’ultima cosa. In uno degli scavi, nel duemilaotto, sono apparsi frammenti di pittura murale sotto un pavimento di cemento. È un segnale che in questa casa c’è ancora della pittura sepolta."
+    },
+    "retos_observacion": {
+      "hash": "5bd19734d8c00c16",
+      "texto": [
+        "Percorri i portici fino a trovare i felini o uomini-giaguaro di profilo con un ginocchio appoggiato a terra davanti a un tempio",
+        "Cerca il murale della divinità verde con le braccia aperte, dalle cui mani cadono cascate di perline di giada e conchiglie",
+        "Individua sugli altri muri le aquile dipinte di fronte con le ali spiegate e i fregi con stelle di Venere"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a59cbe2db86c4055",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (murali visibili intorno al 400-550 d.C.; 5 fasi costruttive sovrapposte)",
+        "Dimensioni": "Isolato quadrato di circa 70 x 70 m (4 900 m²)",
+        "Murali in situ": "Uomo-giaguaro inginocchiato, Dea dalle mani con giada, aquile reali, subacquei raccoglitori di conchiglie e glifi di Venere",
+        "Ubicazione": "Circuito Sudovest, accanto a Zacuala"
+      }
+    },
+    "faq_mito": {
+      "hash": "f5c14317a35a64eb",
+      "texto": {
+        "pregunta": "Mito: Solo le grandi piramidi della Via dei Morti avevano una decorazione artistica.",
+        "respuesta": "Realtà: I complessi residenziali di quartiere come Tetitla conservano più di cento murali originali dipinti ad affresco nei loro cortili, corridoi e stanze private."
+      }
+    }
+  }
+}

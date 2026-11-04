@@ -1,0 +1,55 @@
+{
+  "id": "teo_29_ventilla",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ebb30a8e0178f2c4",
+      "texto": "La Ventilla: il quartiere degli artigiani e il segnapunti"
+    },
+    "frase_gancho": {
+      "hash": "9daa21ed9653414c",
+      "texto": "Un cortile con quarantadue glifi dipinti sul pavimento."
+    },
+    "puente_narrativo": {
+      "hash": "c3b630ac2311b5a2",
+      "texto": "Prima di concludere il nostro percorso tra i quartieri, affacciamoci verso la parte occidentale della valle, dove una comunità arrivata da Oaxaca visse per quattro secoli senza dimenticare la propria lingua né le proprie tombe."
+    },
+    "guion_corto": {
+      "hash": "8911da31c37a03e2",
+      "texto": "Ti trovi a La Ventilla, un quartiere a sudovest del centro della città. Qui si trova il Complesso dei Glifi. Il suo cortile ha trentasei segni dipinti sul pavimento e altri sei sui muri vicini. Nelle vicinanze vivevano degli artigiani. Da qui proviene anche il Segnapunti di La Ventilla, che vedrai nel museo. Un quartiere come questo mostra che la città era molto ben organizzata, con zone per vivere, lavorare e riunirsi."
+    },
+    "guion_largo": {
+      "hash": "f7b21c563d255891",
+      "texto": "La Ventilla si trova a sudovest del centro civico. I suoi grandi scavi iniziarono nel millenovecentonovantadue. Il Complesso dei Glifi misura circa sessanta per settanta metri. Il suo cortile ha trentasei glifi dipinti sul pavimento e altri sei sui muri contigui, quarantadue in totale. Uno studioso li data tra gli anni trecentocinquanta e quattrocentocinquanta, e ne riconosce sedici come possibili nomi di luoghi. È una lettura di un singolo studioso, non un accordo generale. Nelle vicinanze c’è una piazza pubblica a forma di T, di più di un ettaro e mezzo. Si è proposto che servisse per il gioco della palla, ma non è sicuro. C’è anche il Complesso degli Artigiani, dove ogni famiglia aveva da tre a sei stanze. Le prime costruzioni del quartiere risalgono all’anno cento della nostra era. Seguivano già l’orientamento della città, tredici gradi a est del nord. Sotto il cortile dei glifi è apparso il più antico braciere di tipo teatro che si conosca. E da qui proviene il Segnapunti di La Ventilla, ritrovato nel millenovecentosessantadue. Un quartiere come questo permette di immaginare la città come la viveva la gente comune: strade ordinate, vicini con un mestiere e luoghi in cui ritrovarsi."
+    },
+    "retos_observacion": {
+      "hash": "05b6c93098a3e079",
+      "texto": [
+        "Individua, tornando indietro verso l’area dei parcheggi delle Porte 1 e 2, la pianura a sudovest dove fu scavato il quartiere di La Ventilla",
+        "Osserva nella foto sul tuo schermo il Segnapunti di La Ventilla, fatto di pezzi componibili, che si collega al murale che hai visto a Tepantitla",
+        "Guarda il disegno a croce dei tavolieri di patolli incisi sui pavimenti di stucco del quartiere"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a27b31f8415f5d8c",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (circa 200-550 d.C.)",
+        "Naturaleza del sitio": "Quartiere polifunzionale di artigiani lapidari, templi di vicinato e complesso dei Glifi",
+        "Hallazgos clave": "Segnapunti del Gioco della palla in andesite (1962-1963, oggi nel MNA), Piazza dei Glifi e 174 sepolture a La Ventilla B",
+        "Ubicación": "600 m a sudovest della Ciudadela"
+      }
+    },
+    "faq_mito": {
+      "hash": "988c6baf860afdd4",
+      "texto": {
+        "pregunta": "Mito: A Teotihuacán non si praticava il gioco della palla perché non esistono campi in muratura.",
+        "respuesta": "Realtà: Il ritrovamento del segnapunti smontabile di La Ventilla e i murali di Tepantitla hanno dimostrato che si giocava in piazze aperte usando pali portatili e bastoni."
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "teo_31_final_ciudad",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Chichimeco\" para \"Chichimeca / Chichimecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e2914c7686a232e1",
+      "texto": "La fine di Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "02bd1aaa113e8b45",
+      "texto": "La città bruciò, ma nessuno sa con certezza perché."
+    },
+    "puente_narrativo": {
+      "hash": "2757ce6b50929179",
+      "texto": "Mentre fai gli ultimi passi verso l’uscita, ascolta il nostro epilogo: che cosa accadde quando i Mexica trovarono queste rovine vuote e come gli archeologi le hanno riportate alla luce."
+    },
+    "guion_corto": {
+      "hash": "dcac2ef29f5ce616",
+      "texto": "Verso l’anno cinquecentocinquanta, alcuni degli edifici più importanti della Via dei Morti furono saccheggiati e bruciati. Il fuoco colpì soprattutto le costruzioni dell’élite. Non ci sono segni di un esercito straniero. Gli esperti pensano a una rivolta interna o a una crisi di siccità e fame. Si discute ancora su quanto sia durata questa fine e su come sia stata. Quello che guardi oggi è ciò che resta di una città che era stata enorme."
+    },
+    "guion_largo": {
+      "hash": "78e4f3c64e20287f",
+      "texto": "Intorno all’anno cinquecentocinquanta della nostra era, Teotihuacán subì un duro colpo. Monumenti importanti furono saccheggiati e bruciati. Il fuoco si concentrò sulle costruzioni della classe dirigente lungo la Via dei Morti. In palazzi come Xalla, le sculture furono spezzate. Le date degli incendi, misurate con studi di magnetismo, indicano la metà del sesto secolo. I ricercatori non hanno trovato segni di un’invasione straniera. Per questo si propongono diverse spiegazioni. Una è una rivolta interna, di gente che attaccò chi comandava. Un’altra è una crisi climatica e alimentare. Negli anni cinquecentotrentacinque e cinquecentotrentasei si verificarono forti eventi climatici in molte parti del mondo. Alcuni li collegano a una possibile eruzione del vulcano Ilopango. A Teotihuacán, le ossa di bambini del sesto secolo mostrano segni di denutrizione. Una lunga siccità può aver aggravato il problema. Alcuni aggiungono che altri centri, come Xochicalco, cominciarono a crescere, anche se questa è solo una possibilità. Nessuna di queste idee è risolta. Forse ci furono più cause allo stesso tempo. Xalla, uno di quei palazzi, occupa circa cinquantacinquemila metri quadrati, con ventinove edifici e otto piazze. Buona parte dei danni si concentra in strutture come questa. È possibile che chi spezzò le sculture sapesse bene che cosa distruggeva, perché prese di mira i simboli del potere. È un’ipotesi, non un fatto. Una città di circa centomila persone non si svuota in una settimana. Quanti anni sia durata la fine, è ancora oggetto di ricerca. Sembra che il potere centrale si sia indebolito molto. La città smise di avere la forza che aveva avuto. Quando guardi questi edifici, ricorda che furono costruiti nel corso di secoli e che la loro fine fu un processo, non un solo giorno."
+    },
+    "retos_observacion": {
+      "hash": "1e55bdcb896388b5",
+      "texto": [
+        "Guarda un’ultima volta la lunga fila di templi e palazzi della Via dei Morti: tutti bruciarono contemporaneamente verso l’anno 550 d.C.",
+        "Immagina il contrasto tra il centro cerimoniale in fiamme e i duemila complessi dei quartieri periferici che rimasero in piedi",
+        "Pensa a come le idee, gli dèi e l’arte di Teotihuacán sopravvissero viaggiando verso Xochicalco, Cacaxtla e il mondo Mexica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f67c2f282bc871c9",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Data del grande incendio": "Intorno al 550 d.C. (± 20 anni, datato con archeomagnetismo e carbonio 14)",
+        "Cause concomitanti": "Megasiccità del VI secolo, crisi alimentare, rottura delle rotte commerciali e rivolta interna contro l’élite",
+        "Città che accolsero la diaspora": "Cacaxtla, Xochicalco, Cantona, Teotenango e El Tajín"
+      }
+    },
+    "faq_mito": {
+      "hash": "32130bd7f521dabf",
+      "texto": {
+        "pregunta": "Mito: Teotihuacán fu distrutta di colpo da un’invasione di popoli chichimechi del nord.",
+        "respuesta": "Realtà: Le tracce di fuoco e di distruzione selettiva, concentrate esclusivamente negli edifici di governo sulla Via dei Morti, indicano una rivolta interna scatenata dopo anni di siccità e di crisi sociale."
+      }
+    }
+  }
+}

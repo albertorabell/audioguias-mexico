@@ -1,0 +1,54 @@
+{
+  "id": "teo_17_plaza_columnas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "62b3b5e88d9d0695",
+      "texto": "Plaza de las Columnas: l’ambasciata maya"
+    },
+    "frase_gancho": {
+      "hash": "7db6c1ec0cb127ab",
+      "texto": "Qui furono sepolti ossa, vasi e pitture di terre lontane, e tutto di proposito."
+    },
+    "puente_narrativo": {
+      "hash": "e4519f6dfab5e34e",
+      "texto": "Percorri gli ultimi metri verso nord: davanti a te si apre il grande teatro cerimoniale della Plaza de la Luna."
+    },
+    "guion_corto": {
+      "hash": "c8754ffa3f4a92bc",
+      "texto": "Ti trovi nella Plaza de las Columnas, un grande complesso di piazze e templi accanto alla Via dei Morti. Qui un gruppo diretto da Saburo Sugiyama ha trovato offerte enormi. In una c’erano più di duemilaquattrocento resti umani. In un’altra, migliaia di ossa di animali e frammenti di pittura murale di stile maya. Tutto fu sepolto con intenzione. Che cosa significhi è ancora oggetto di discussione. Pensa che sotto questi pavimenti ci sono depositi che furono chiusi secoli fa."
+    },
+    "guion_largo": {
+      "hash": "4e663feb14ffdf5b",
+      "texto": "Qui i ricercatori hanno trovato offerte molto grandi, sepolte con cura all’interno degli edifici. La cosiddetta Offerta A uno custodiva più di duemilaquattrocento resti umani. Alcuni denti erano limati o avevano incrostazioni di metallo, e almeno tre crani mostravano deformazione cranica. L’Offerta D uno conteneva circa tremilacinquecento ossa, quasi tutte di animali, e circa diecimila frammenti di ceramica. C’erano anche calce e gesso con immagini di stile maya. Sono comparsi inoltre più di mille frammenti di pittura murale di stile maya, che probabilmente furono abbattuti di proposito. In un’altra offerta c’erano pietre marine e lo scheletro di una scimmia ragno. Gli archeologi pensano che tutto questo facesse parte di grandi feste, forse per stringere alleanze con altri popoli. Questa è un’interpretazione, non un fatto dimostrato. C’è un altro tema in discussione. I testi maya dicono che un uomo chiamato Siyaj Kak arrivò a Tikal nel gennaio dell’anno trecentosettantotto. Molti lo collegavano a Teotihuacán. Queste scoperte fanno sì che alcuni esperti vedano rapporti più complessi di una semplice conquista. Mentre cammini, immagina sotto i tuoi piedi quei depositi sigillati."
+    },
+    "retos_observacion": {
+      "hash": "297ae6927a9c1ea3",
+      "texto": [
+        "Osserva i tumuli e le piattaforme sul lato occidentale della Via dei Morti, poco prima dello sbocco nella Plaza de la Luna",
+        "Nota la loro immediata vicinanza ai grandi recinti del potere settentrionale (Xalla a est e la Luna a nord)",
+        "Guarda sullo schermo della tua app i frammenti di glifi e figure di stile maya recuperati in questi scavi"
+      ]
+    },
+    "especificaciones": {
+      "hash": "484096401c2c0119",
+      "texto": {
+        "Cultura": "Teotihuacán in interazione con l’élite maya del Classico antico",
+        "Periodo": "Classico (apogeo diplomatico tra il 300 e il 450 d.C.)",
+        "Hallazgos": "Più di 500 frammenti di murali di stile maya, ceramica del Petén e residui di banchetti con cacao",
+        "Ubicación": "Fianco occidentale della Via dei Morti, adiacente alla Plaza de la Luna"
+      }
+    },
+    "faq_mito": {
+      "hash": "a027e54003c349ae",
+      "texto": {
+        "pregunta": "Mito: I Maya e i Teotihuacán vissero in epoche diverse e non ebbero contatti diretti.",
+        "respuesta": "Realtà: Coesistettero durante il periodo Classico; nobili maya vissero in questo settore di Teotihuacán e lo Stato teotihuacano intervenne direttamente in città maya come Tikal e Copán nel IV secolo."
+      }
+    }
+  }
+}

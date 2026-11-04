@@ -1,0 +1,56 @@
+{
+  "id": "teo_01_ciudadela",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0fbe72e51926396f",
+      "texto": "La Ciudadela e la Grande Piazza"
+    },
+    "frase_gancho": {
+      "hash": "67aebe3fa7b44986",
+      "texto": "Gli spagnoli credettero che fosse una fortezza. Era il cuore del potere."
+    },
+    "puente_narrativo": {
+      "hash": "151433b2866849d4",
+      "texto": "Attraversa la grande spianata verso l’edificio in fondo, sul lato orientale: dietro la piattaforma grigia che lo ricopre ti aspetta la facciata più sacra della città."
+    },
+    "guion_corto": {
+      "hash": "70a4727ffdb75508",
+      "texto": "Sali sulla piattaforma d’ingresso e affacciati su questa spianata monumentale. Quando gli spagnoli videro questo recinto chiuso da alte mura di quattrocento metri per lato, credettero che fosse una caserma militare e lo chiamarono La Ciudadela. In realtà ti trovi davanti al cuore politico e cerimoniale di Teotihuacán. Guarda il cortile incassato: è così vasto che poteva riunire una folla enorme. Tutt’intorno, sulle piattaforme che ti circondano, si innalzano quindici piccole piramidi, e in fondo domina il Tempio del Serpente piumato."
+    },
+    "guion_largo": {
+      "hash": "acb29bdf7aac8331",
+      "texto": "La parola Ciudadela l’hanno inventata gli spagnoli, che videro alte mura e pensarono a un forte. Ma osserva come è fatto questo luogo. Sono quattro piattaforme unite che circondano una piazza immensa, e c’è una sola entrata pubblica, sul lato occidentale. Questo non serve a difendersi da un esercito. Serve a controllare chi entra e quando. Gli archeologi pensano che il recinto potesse restare chiuso quasi tutti i giorni e aprirsi solo per cerimonie speciali.\n\nIntorno alla piazza si allineano quindici piccoli templi, incastonati nei bordi delle piattaforme: quattro a occidente, quattro a nord, quattro a sud e tre a oriente. E a oriente, di fronte a chi entra, domina il Tempio del Serpente piumato. È il terzo edificio più grande di tutta la città, dopo le piramidi del Sole e della Luna. L’intero complesso fu costruito tra gli anni centocinquanta e duecentocinquanta della nostra era. Un’opera simile richiese uno Stato capace di organizzare migliaia di lavoratori e di raccogliere materiali da tutta la valle.\n\nImmagina questo cortile in un giorno di festa. Si è calcolato che la piazza potesse accogliere decine di migliaia di persone, anche se questa è una stima di capienza e non un dato comprovato. Da giù, le piattaforme laterali ti racchiudono: il paesaggio della valle scompare e tutta l’attenzione si dirige verso i sacerdoti in cima ai basamenti e verso il tempio in fondo. Era una scenografia pensata perché chiunque sentisse il peso dello Stato e del cosmo.\n\nAlcuni studiosi propongono che la piazza arrivasse a essere allagata in modo rituale, come uno specchio d’acqua circondato da templi. I segni dell’acqua comparsi nel tunnel che corre sotto il recinto lo suggeriscono. È un’ipotesi, ma si accorda con l’importanza dell’acqua in tutta la città.\n\nSotto queste piattaforme ci sono inoltre costruzioni più antiche. Prima di innalzare la Ciudadela, i costruttori rasero al suolo una struttura precedente che somiglia a un campo da gioco della palla. Teotihuacán si rifece più di una volta, e qui puoi vederlo: ogni piattaforma nasconde fasi precedenti che si studiano ancora.\n\nVerso l’anno trecentocinquanta avvenne un cambiamento profondo. La facciata del Tempio del Serpente piumato rimase nascosta dietro una grande piattaforma, la Piattaforma Addossata, che salirai alla prossima tappa. Alcuni studiosi lo leggono come un cambiamento nel governo della città. Altri pensano che fosse una sepoltura rituale compiuta con rispetto. Molto tempo dopo, in una data che non conosciamo, qualcuno danneggiò le sculture dei lati rimasti scoperti.\n\nTi trovi a più di duemila metri sul livello del mare e quasi sempre senza ombra. Prima di uscire verso la Via dei Morti, bevi qualche sorso d’acqua."
+    },
+    "retos_observacion": {
+      "hash": "3d8ce3cf397b5af5",
+      "texto": [
+        "Percorri il cortile con lo sguardo e conta le piccole piramidi sulle piattaforme: in totale sono quindici",
+        "Individua l’altare quadrato al centro della spianata con le sue quattro scalinate",
+        "Guarda verso oriente, in fondo al cortile, dove si erge l’edificio principale con due facciate"
+      ]
+    },
+    "especificaciones": {
+      "hash": "caaffef9ee616a0a",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico antico (verso il 150-250 d.C.)",
+        "Dimensioni": "circa 400 m per lato",
+        "Basamenti": "15 piramidi minori su 4 piattaforme",
+        "Funzione": "sede del potere politico e religioso",
+        "Provenienza": "Teotihuacán, Stato del Messico (estremità meridionale della Via dei Morti)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5bd19317f163227",
+      "texto": {
+        "pregunta": "Mito: La Ciudadela fu una fortezza militare.",
+        "respuesta": "Realtà: Il nome lo diedero gli spagnoli per errore. Era il centro politico e cerimoniale della città, con palazzi, un tempio principale e un grande cortile per le moltitudini."
+      }
+    }
+  }
+}

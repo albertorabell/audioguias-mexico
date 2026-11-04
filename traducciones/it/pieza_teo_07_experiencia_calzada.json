@@ -1,0 +1,56 @@
+{
+  "id": "teo_07_experiencia_calzada",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a9996968b2314ebe",
+      "texto": "Camminare lungo la Via dei Morti"
+    },
+    "frase_gancho": {
+      "hash": "51f4aa454344ea50",
+      "texto": "Un viale largo quaranta metri che fu l’asse di tutta la città."
+    },
+    "puente_narrativo": {
+      "hash": "27a45275081936d6",
+      "texto": "Se segui il percorso completo, avvicinati agli edifici sul lato sinistro per scoprire templi sepolti uno dentro l’altro; se segui il percorso express, prosegui verso nord: il viale si apre all’improvviso davanti alla Piramide del Sole."
+    },
+    "guion_corto": {
+      "hash": "fc4c7f94a404343f",
+      "texto": "Sei sulla Via dei Morti, l’asse di Teotihuacán. È larga circa quaranta metri. I mexica la chiamarono Micaohtli, e per questo si pensò che lì ci fossero delle tombe. La maggior parte dei ricercatori ha ormai scartato questa idea, perché lungo la via non ci sono quasi sepolture. Una strada trasversale divide la città in quattro zone. Cammina lentamente e fai attenzione a come gli edifici appaiono e scompaiono al tuo passaggio."
+    },
+    "guion_largo": {
+      "hash": "8be26eea44610eaa",
+      "texto": "La Via dei Morti è l’asse principale di Teotihuacán. La sua larghezza è di circa quaranta metri. Sulla sua lunghezza le fonti non concordano. Alcune parlano di circa tre chilometri, altre di una misura compresa tra due e quattro. I mexica la chiamarono Micaohtli, che si traduce come cammino dei morti. Si pensava che ai suoi lati ci fossero tombe di re. Di tali sepolture non ne sono state trovate quasi, perciò la maggior parte dei ricercatori ha abbandonato questa idea. Eppure il nome è rimasto. In vari punti il viale è interrotto per formare cortili accanto a edifici enormi. Un viale trasversale attraversa la Via dei Morti e divide la città in quattro quadranti. Questa pianta segue una griglia che quasi tutti gli edifici rispettano. Mentre cammini, fai caso alla sensazione di avanzare e fermarti. I muri e le piazze ti costringono a cambiare ritmo. Non sappiamo se i costruttori cercassero un effetto su chi camminava. Ma puoi notarlo tu. Se vuoi, batti le mani e ascolta. Non c’è certezza che il suono facesse parte del progetto, ma provare è sempre divertente."
+    },
+    "retos_observacion": {
+      "hash": "edeb8c1896d5d0c5",
+      "texto": [
+        "Fermati proprio ai piedi di uno dei muri trasversali e osserva come la vista del fondo della Via dei Morti si nasconde temporaneamente",
+        "Batti le mani con un colpo secco davanti ai muri a scarpa e pannello per ascoltare il rimbalzo acustico",
+        "Cerca a filo del suolo le aperture quadrate di pietra da cui defluiva la pioggia di ogni piazza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "98783113022c6ad8",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (tracciata formalmente intorno al 150-250 d.C.)",
+        "Longitud total": "Lunghezza totale: oltre 5 km (circa 2 km percorribili nella zona monumentale)",
+        "Ancho": "Larghezza: da 40 a 50 m",
+        "Diseño": "Progetto: asse nord-sud suddiviso da piazze a gradoni con drenaggio pluviale",
+        "Procedencia": "Provenienza: asse centrale di Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "b9ecc995b6557228",
+      "texto": {
+        "pregunta": "Mito: la Via dei Morti è un viale pianeggiante pensato per il transito veloce.",
+        "respuesta": "Realtà: è suddivisa da muri e dislivelli che regolavano l’acqua piovana e creavano un percorso rituale di salita e discesa verso nord."
+      }
+    }
+  }
+}

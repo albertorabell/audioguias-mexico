@@ -1,0 +1,56 @@
+{
+  "id": "teo_08_subterraneos",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7c169ed336585ece",
+      "texto": "Edifici sovrapposti, i sotterranei"
+    },
+    "frase_gancho": {
+      "hash": "b767eec7248bf412",
+      "texto": "In questa città si costruiva un edificio nuovo sopra uno vecchio."
+    },
+    "puente_narrativo": {
+      "hash": "e8834ab8d1a331aa",
+      "texto": "Qualche passo più avanti, lungo questo stesso tratto del viale, le residenze dell’élite nascondevano sotto il pavimento lamine splendenti portate da Oaxaca."
+    },
+    "guion_corto": {
+      "hash": "e23a6cdfb3bd672a",
+      "texto": "Ti trovi davanti a un luogo in cui un edificio poggia su un altro più antico. A Teotihuacán era comune costruire sopra ciò che esisteva già. Si riempiva e si costruiva di nuovo. Il Tempio del Serpente piumato ne è un esempio: intorno all’anno trecentocinquanta fu aggiunta una piattaforma davanti alla sua facciata. Il Palazzo di Quetzalpapálotl fu costruito sul Tempio delle Conchiglie piumate. Così gli edifici custodirono strati di storia. Vedere uno di questi strati è come aprire un vecchio libro."
+    },
+    "guion_largo": {
+      "hash": "b65af377ec971848",
+      "texto": "A Teotihuacán, una nuova costruzione raramente cancellava quella precedente. Spesso si riempiva e si edificava sopra. Questo lasciò interi edifici custoditi dentro altri. Nel settore che hai di fronte, chiamato Edifici sovrapposti, puoi vedere come un edificio si appoggi su un altro più antico. Alcune gallerie inferiori sono spesso chiuse per ragioni di conservazione, ma dai dislivelli si riesce a notare la differenza. Ci sono altri esempi noti. Il Tempio del Serpente piumato rimase nascosto, in parte, da una piattaforma aggiunta intorno all’anno trecentocinquanta. Così la sua facciata con le sculture fu protetta. Il Palazzo di Quetzalpapálotl fu costruito sopra il Tempio delle Conchiglie piumate. Grazie a quella sepoltura, il tempio più antico si salvò. Gli archeologi sfruttano questi strati. Ognuno racconta una fase diversa della città. C’è una domanda ancora dibattuta. Perché si copriva un edificio invece di abbatterlo? Alcuni pensano che seppellire un tempio fosse un atto rituale. È un’ipotesi. Ogni nuovo edificio conserva dentro di sé il ricordo del precedente. Mentre guardi, immagina quante versioni di questo luogo siano esistite sotto i tuoi piedi."
+    },
+    "retos_observacion": {
+      "hash": "dd2b7d3a0995afdd",
+      "texto": [
+        "Affacciati sui tagli e sui dislivelli del lato occidentale della Via dei Morti per distinguere come i muri superiori poggino su strutture più antiche",
+        "Individua le scale e l’accesso alle gallerie sotterranee scavate all’inizio del XX secolo",
+        "Osserva nelle foto sul tuo schermo gli intrecci rossi e bianchi di stile veracruzano conservati al livello inferiore"
+      ]
+    },
+    "especificaciones": {
+      "hash": "70607d9b8b40de1b",
+      "texto": {
+        "Cultura": "Teotihuacán, con influenza della Costa del Golfo",
+        "Periodo": "Classico antico (fasi inferiori intorno al 150-250 d.C.)",
+        "Sovrapposizione": "da 4 a 6 livelli costruttivi",
+        "Elemento di rilievo": "Piattaforma della Voluta intrecciata",
+        "Esplorazione iniziale": "Leopoldo Batres (1909)",
+        "Provenienza": "Lato occidentale della Via dei Morti"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0b8c41f1a51f50f",
+      "texto": {
+        "pregunta": "Mito: i Teotihuacán abbattevano gli edifici antichi quando passavano di moda.",
+        "respuesta": "Realtà: li riempivano con cura di pietra e terra per usarli come fondamenta, il che permise ai templi inferiori di conservare il loro stucco e la loro pittura."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "teo_23_museo_murales",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1b5c94a616703b3a",
+      "texto": "Museo de Murales Teotihuacanos «Beatriz de la Fuente»"
+    },
+    "frase_gancho": {
+      "hash": "cd3ebc0198c81564",
+      "texto": "Qui vedi i colori di una città che oggi appare grigia."
+    },
+    "puente_narrativo": {
+      "hash": "f80a6ed26fc1b057",
+      "texto": "Uscendo dal museo, segui il percorso esterno verso oriente, dietro la Piramide del Sole: entreremo a Tepantitla per vedere sulla sua parete originale il murale più famoso della città."
+    },
+    "guion_corto": {
+      "hash": "287ef1300d3bd8e8",
+      "texto": "Entri nel Museo de Murales Teotihuacanos, che porta il nome della ricercatrice Beatriz de la Fuente. Fuori vedi pietra e terra. Qui puoi immaginare una città dipinta di colori. I murali mostravano dèi, animali, piante e processioni. In una città senza una scrittura lunga come quella maya, le immagini erano un modo di raccontare il mondo. Prenditi il tempo che vuoi in ogni sala."
+    },
+    "guion_largo": {
+      "hash": "101efe05804b3b0f",
+      "texto": "Il Museo de Murales Teotihuacanos porta il nome di Beatriz de la Fuente, la ricercatrice che coordinò lo studio della pittura murale precolombiana. La sua opera su Teotihuacán, pubblicata nel millenovecentonovantacinque, è un punto di riferimento per chi studia questi dipinti. Qui si conservano frammenti di murali provenienti da complessi della città. Servono a immaginare come appariva Teotihuacán quando i suoi muri erano dipinti. Per realizzare un murale si ricopriva il muro con uno strato di stucco di calce. Poi lo si lisciava e lo si dipingeva con colori minerali. Mentre percorri le sale, cerca le figure che hai già visto lungo il cammino: felini con la rete, uccelli, piante di maguey, processioni di coyote e giaguari. Se le trovi, ricorda dove ti trovavi quando le abbiamo viste. Non serve ricordare ogni simbolo. Basta notare la varietà. C’erano scene di dèi, di animali e di persone, e ognuna aveva il proprio posto in un edificio. Una città senza lunghi testi sulle stele, come i Maya, usava le immagini per trasmettere idee. Per questo questi murali sono così preziosi per chi vuole comprendere Teotihuacán."
+    },
+    "retos_observacion": {
+      "hash": "7a0bedad740f3aaa",
+      "texto": [
+        "Osserva i levigatori o le spatole di pietra con cui gli artigiani brunivano lo stucco fresco",
+        "Cerca i pannelli originali del Conjunto del Sol in cui il corpo delle farfalle è una mano umana con giada",
+        "Individua le volute della parola, quegli arabeschi che sgorgano davanti alla bocca dei sacerdoti, colme di fiori e gocce"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f26159bfe02585df",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Función": "Museo specializzato in pittura murale precolombiana (inaugurato nel 2001)",
+        "Ubicación": "Esterno nord, accanto alla Porta 3",
+        "Exposición": "9 sale tematiche con murali originali del Conjunto del Sol, Techinantitla, Tetitla, Atetelco e La Ventilla"
+      }
+    },
+    "faq_mito": {
+      "hash": "1f6237ddd7a9f9cc",
+      "texto": {
+        "pregunta": "Mito: Le piramidi e i templi di Teotihuacán apparivano in origine di pietra grigia e tezontle rosso a vista.",
+        "respuesta": "Realtà: Tutta l’architettura della città era rivestita di stucco bianco e dipinta con intensi colori minerali, soprattutto il rosso ematite."
+      }
+    }
+  }
+}

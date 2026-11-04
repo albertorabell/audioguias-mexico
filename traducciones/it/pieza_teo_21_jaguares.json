@@ -1,0 +1,62 @@
+{
+  "id": "teo_21_jaguares",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "fc74b535fb871648",
+      "texto": "Palazzo dei Giaguari"
+    },
+    "frase_gancho": {
+      "hash": "4e1f3c73ddf683f9",
+      "texto": "Un giaguaro che soffia in una conchiglia coperta di piume."
+    },
+    "puente_narrativo": {
+      "hash": "9d28eeec92c5a12f",
+      "texto": "In questo stesso complesso, una scalinata scende sotto il pavimento del palazzo verso il tempio sotterraneo che i costruttori seppellirono intatto."
+    },
+    "guion_corto": {
+      "hash": "f7de04f9863fe097",
+      "texto": "Questo è il Cortile dei Giaguari, accanto al palazzo di Quetzalpapálotl. Sui suoi muri ci sono pitture di felini con una grande conchiglia in bocca, come se la soffiassero. Dalla conchiglia escono piume, e nella cornice compare un volto che potrebbe essere di Tláloc, dio della pioggia. Altri felini hanno il corpo coperto come da una rete. Ancora oggi si discute su che cosa significhino. Osserva quanti dettagli ci sono in un solo muro."
+    },
+    "guion_largo": {
+      "hash": "0b37c656ce22f799",
+      "texto": "I portici di questo cortile conservano due pitture. In una, felini con ricchi ornamenti camminano in processione. Portano in bocca uno strumento fatto di una grande conchiglia con piume. Il corpo è allungato e rosso scuro, e porta un copricapo di cinque lunghe piume. Sul dorso corre una fila di conchiglie. Sotto una zampa cadono tre gocce rosse. La cornice ha un copricapo di piume e un volto che potrebbe essere Tláloc dentro una stella. Nell’altra pittura ci sono piccoli giaguari dal corpo verde con una rete azzurra. Hanno l’occhio rotondo, una lunga zanna ricurva e un pennacchio di piume verdi. Due mani umane li accompagnano. Gli studiosi non concordano su ciò che significhino. Alcuni pensano che la conchiglia chiamasse alla guerra. Altri la collegano alla pioggia e all’acqua, per la presenza di Tláloc. Si è anche proposto che la stella sia Venere. Sono ipotesi, non certezze. Neppure si sa chi vivesse qui. Quello che puoi fare è guardare con calma e vedere quanti dettagli stanno in un solo muro."
+    },
+    "retos_observacion": {
+      "hash": "0b75af980d348e72",
+      "texto": [
+        "Avvicinati ai muri dei portici del cortile e individua il giaguaro rossastro con il pennacchio verde che sostiene la conchiglia marina",
+        "Individua davanti alla conchiglia la voluta del suono e le gocce di liquido che cadono dalla tromba",
+        "Cerca nelle bordure e nelle stanze laterali i volti di Tláloc dentro stelle a cinque punte e i felini coperti da una rete azzurra"
+      ]
+    },
+    "especificaciones": {
+      "hash": "37ed4013cedce97d",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico recente (fase Xolalpan, intorno al 450-550 d.C.)",
+        "Tecnica": "Pittura murale ad affresco su stucco con ematite, ocra, verde malachite e azzurro",
+        "Motivi principali": "Giaguari che suonano conchiglie piumate, felini reticolati e stelle di Venere con Tláloc",
+        "Ubicazione": "Adiacente, a ovest del Palazzo di Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "cdce351d3062d6cc",
+      "texto": {
+        "pregunta": "Mito: I giaguari nell’arte teotihuacana rappresentavano soltanto la guerra e la distruzione.",
+        "respuesta": "Realtà: A Teotihuacán il giaguaro era intimamente legato alle grotte, alla notte e al tuono; per questo qui appare mentre suona una conchiglia marina per invocare la pioggia."
+      }
+    }
+  }
+}
