@@ -519,6 +519,23 @@ test('/evento: cuenta lo permitido, rechaza lo raro y /estadisticas pide la clav
   assert.ok(!JSON.stringify(conteos).includes('dev_'));
 });
 
+test('/evento: cuenta pantallas, origen y país (el país lo pone el servidor, no la app)', async () => {
+  env.STATS_KEY = 'k';
+  const ev = (body, headers = {}) => call('/evento', { body, origin: ORIGIN, headers });
+  assert.equal((await ev({ e: 'screen_view', k: 'mapa', s: 'MNA' })).status, 204);
+  assert.equal((await ev({ e: 'app_open', l: 'es', k: 'buscador' }, { 'CF-IPCountry': 'jp' })).status, 204);
+  assert.equal((await ev({ e: 'app_open', l: 'en', k: 'qr' })).status, 204); // sin país: no cuenta país
+  assert.equal((await ev({ e: 'visit_country', k: 'MX' })).status, 400); // la app no puede poner el país
+  const { conteos } = await (await call('/estadisticas', { method: 'GET', origin: null, headers: { Authorization: 'Bearer k' } })).json();
+  const hoy = Object.values(conteos)[0];
+  assert.equal(hoy['screen_view|mna||||mapa'], 1);
+  assert.equal(hoy['app_open|||es||buscador'], 1);
+  assert.equal(hoy['app_open|||en||qr'], 1);
+  assert.equal(hoy['visit_country|||||JP'], 1);
+  assert.equal(Object.keys(hoy).filter((k) => k.startsWith('visit_country')).length, 1);
+  assert.ok(!JSON.stringify(conteos).includes('127.0.0.1'));
+});
+
 test('una compra nueva se cuenta una sola vez (aunque se canjee otra vez)', async () => {
   env.STATS_KEY = 'k';
   await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1, siteId: 'mna' } });

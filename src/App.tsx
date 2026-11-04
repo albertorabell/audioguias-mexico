@@ -30,7 +30,7 @@ import { useLanguage } from './utils/LanguageContext';
 import { isActiveLanguage } from './i18n/languages';
 import { localizeSite, localizeRoute } from './i18n/content';
 import { getRoomLabel } from './utils/roomLabel';
-import { track, setAnalyticsSite } from './utils/analytics';
+import { track, setAnalyticsSite, trafficSource } from './utils/analytics';
 import { cachedPremiumText, clearPremiumText, loadPremiumText, mergePremiumText, PremiumTextMap } from './utils/premiumText';
 
 /** Con qué se navega dentro de la ficha de una pieza (anterior / siguiente): una sala o un recorrido. */
@@ -70,6 +70,11 @@ export default function App() {
     setStackState(next);
   }, []);
   const screen = stack[stack.length - 1];
+  // Conteo anónimo de pantallas vistas (inicio, salas, mapa, ficha...): sirve para saber qué se usa y qué no.
+  const screenName = screen.kind === 'tab' ? screen.tab : screen.kind === 'home' ? 'inicio' : screen.kind === 'room' ? 'sala' : screen.kind === 'piece' ? 'ficha' : screen.kind === 'wizard' ? 'asistente' : 'fin_recorrido';
+  useEffect(() => {
+    track('screen_view', { k: screenName });
+  }, [screenName]);
   const scrollMemo = useRef<number[]>([]);
   const prevDepth = useRef(1);
   /** Al regresar varias pantallas de golpe (cambiar de pestaña, ir al inicio) se espera a que el navegador llegue. */
@@ -134,7 +139,7 @@ export default function App() {
   useEffect(() => {
     // Un QR o enlace con ?c=CODIGO deja guardado el código de descuento para cuando se abra la ventana de pago
     capturePromoFromUrl();
-    track('app_open', { l: currentLanguage });
+    track('app_open', { l: currentLanguage, k: trafficSource() });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
