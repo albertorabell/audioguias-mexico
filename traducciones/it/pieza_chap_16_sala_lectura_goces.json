@@ -1,0 +1,59 @@
+{
+  "id": "chap_16_sala_lectura_goces",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "c3af75998b97aa20",
+      "texto": "Sala de Lectura y Salón de Juegos"
+    },
+    "frase_gancho": {
+      "hash": "9817d7d29f811f67",
+      "texto": "Alcuni arazzi francesi mostrano trottole e giochi con la palla e il volano, e la Sala di Lettura era in origine una sala da biliardo."
+    },
+    "puente_narrativo": {
+      "hash": "c6da8431408543e9",
+      "texto": "Prosegui verso il Salón de Embajadores, la sala delle ricevimenti diplomatiche dell’Alcázar."
+    },
+    "guion_corto": {
+      "hash": "e5ad5e299aeaa0f1",
+      "texto": "In alcuni arazzi realizzati in Francia compaiono una trottola, un gioco del cerchio e pallina, un badminton e dei birilli. Secondo il pannello didattico del Salón de Juegos, Napoleone Terzo li regalò a Massimiliano per il suo compleanno, il sei luglio. Lì, dice il museo, i governanti giocavano a birilli, a biliardo, a carte e a scacchi con i loro ospiti. La Sala di Lettura ricorda un altro aspetto: Massimiliano chiamò Miravalle il suo palazzo e sulle sue terrazze leggeva e scriveva decreti e corrispondenza. I registri citati dal museo mostrano, tuttavia, un altro uso per quella stanza. Fu sala da biliardo nel milleottocentottantadue, nel millenovecentosei e nel millenovecentotrentadue."
+    },
+    "guion_largo": {
+      "hash": "7bfa1347b3ea548a",
+      "texto": "È facile immaginare Massimiliano che legge in questa stanza, ma i registri raccontano altro. Il museo cita elenchi di occupazione dell’edificio. Nel milleottocentosettantasette la sala di lettura compare come alloggio del secondo astronomo. Nel milleottocentottantadue, nel millenovecentosei e nel millenovecentotrentadue, come sala da biliardo. Sono gli anni dell’osservatorio che hai visto nella [Scalinata dei Leoni](chap_13_escalera_leones). Ciò che il museo afferma con certezza è che Massimiliano leggeva e scriveva sulle terrazze del suo palazzo. Lì sbrigava decreti e corrispondenza. Il palazzo lo chiamò Miravalle.\n\nIl nome Miravalle dice tutto: un luogo da cui guardare la valle. Il pannello ricorda anche il motto di famiglia degli Asburgo, in latino: Austria est imperare orbi universo. Significa che all’Austria spetta governare il mondo intero. Il sito ufficiale degli Asburgo avverte che questa lettura è posteriore. Federico Terzo, l’imperatore del quindicesimo secolo che usava le cinque vocali come divisa, non spiegò mai il loro significato. Sono state proposte più di trecento interpretazioni.\n\nGli arazzi del Salón de Juegos sono più leggeri. Secondo il museo, furono realizzati in Francia e Napoleone Terzo li regalò a Massimiliano per il suo compleanno, il sei luglio. Rappresentano giochi come la trottola, il gioco del cerchio e pallina, il badminton e i birilli. Il museo parla anche di un’altra sala con arazzi di Aubusson, basati sulle favole di Jean de La Fontaine, dono dello stesso Napoleone Terzo. È il Salón de los Gobelinos.\n\nI registri del museo mostrano come cambiava l’uso delle sale. Nel milleottocentottantadue un salone compare come sala del tresillo, un gioco di carte. Nel millenovecentosei, come salottino da gioco, e nel millenovecentotrentadue, come sala da gioco. Secondo il museo, i governanti giocavano a birilli, a biliardo, a carte e a scacchi con i loro ospiti.\n\nQuella vita di svago ebbe il suo lato moderno sotto Porfirio Díaz. Il museo racconta che Díaz fece installare nel castello ascensori e una pista da birilli. E nell’agosto del milleottocentonovantasei ricevette lì gli inviati dei fratelli Lumière, che gli presentarono il cinematografo. Secondo un articolo della Revista de la Universidad, vi assistette un gruppo ristretto di una ventina di persone vicine alla sua famiglia. La proiezione iniziò presto e, su richiesta del pubblico, si protrasse fino all’una di notte. L’articolo non precisa in quale salone avvenne. Díaz e i suoi accettarono di essere filmati. In una seconda sessione, il venticinque agosto, furono proiettati quelli che l’articolo descrive come i primi film girati in Messico.\n\nDel compleanno di Massimiliano resta un’altra traccia. Secondo la Revista Bicentenario, il banchetto per il suo compleanno cominciò alle sei del pomeriggio. Fu il sei luglio milleottocentosessantacinque. La rivista non precisa in quale residenza si tenne. Così si incrociano i regali di Napoleone Terzo, le feste dell’Impero e i giochi da salotto.\n\nPiù avanti, il [Salón de Embajadores](chap_17_salon_embajadores) mostra il lato più formale della casa."
+    },
+    "retos_observacion": {
+      "hash": "49ef68730774c12d",
+      "texto": [
+        "Cerca negli arazzi una trottola, un gioco del cerchio e pallina, un badminton e dei birilli, i giochi menzionati dal museo",
+        "Osserva la luce della sala e immagina di scrivere decreti qui o su una terrazza",
+        "Confronta le dimensioni di questo spazio con quelle di una sala da pranzo: ci sta un gruppo numeroso o uno intimo?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bf15c968ad3ac598",
+      "texto": {
+        "Palazzo": "Miravalle, nome dato da Massimiliano, secondo il MNH",
+        "Arazzi": "realizzati in Francia; dono di Napoleone III a Massimiliano per il suo compleanno, il 6 luglio",
+        "Giochi rappresentati": "trottola, gioco del cerchio e pallina, badminton e birilli",
+        "Usi antichi registrati dal MNH": "alloggio del secondo astronomo (1877); sala da biliardo (1882, 1906 e 1932); sala del tresillo (1882)",
+        "Ubicazione": "Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "064b24ca5cd741a0",
+      "texto": {
+        "pregunta": "Mito: La Sala di Lettura fu sempre la biblioteca privata di Massimiliano.",
+        "respuesta": "Realtà: Secondo i registri citati dal Museo Nazionale di Storia, nel 1877 era l’alloggio del secondo astronomo e nel 1882, 1906 e 1932 compare come sala da biliardo; di Massimiliano si sa che leggeva e scriveva sulle terrazze del suo palazzo."
+      }
+    }
+  }
+}

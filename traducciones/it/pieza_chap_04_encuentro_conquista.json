@@ -1,0 +1,54 @@
+{
+  "id": "chap_04_encuentro_conquista",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "478bfdd9e731deee",
+      "texto": "Due mondi e il Tzompantli di Tecoaque"
+    },
+    "frase_gancho": {
+      "hash": "c9e86832374112c3",
+      "texto": "Dodici crani forati nel millecinquecentoventuno che confermano le cronache più crude della Conquista."
+    },
+    "puente_narrativo": {
+      "hash": "97b610fe23bbd057",
+      "texto": "Prima di uscire da questa sala, cerca il murale di Jorge González Camarena: un soldato spagnolo e una figura con la testa d’aquila si fronteggiano in un’immagine dell’origine del Messico."
+    },
+    "guion_corto": {
+      "hash": "5532a0891bb67dc3",
+      "texto": "Varcando la porta dell’antico Colegio Militar entri nelle prime sale del Museo Nazionale di Storia, dedicate allo scontro tra due mondi che avevano vissuto separati da un oceano fino alla fine del Quattrocento. Tra armature di ferro, spade castigliane e rilievi preispanici, fermati davanti alla vetrina più sconvolgente della sala: il tzompantli, o altare di crani, proveniente da Tecoaque, Tlaxcala. Lì vedrai allineati dodici crani veri, forati alle tempie nell’anno millecinquecentoventuno: cinque appartengono a soldati spagnoli della carovana di Juan de Yuste e sette a guerrieri indigeni cempoalteca che marciavano come alleati di Hernán Cortés."
+    },
+    "guion_largo": {
+      "hash": "88e53afaa19ebbcd",
+      "texto": "Per capire questa sala bisogna guardare i due schieramenti senza leggende rosa né nere, proprio come mostrano i pezzi che hai davanti. Dal lato mesoamericano non esisteva un unico paese unito, ma un mosaico di signorie, o altépetl, autonome; i Mexica dominavano con le armi gran parte del territorio, riscuotendo tributi e catturando guerrieri per il sacrificio, e questo seminò un profondo rancore tra i popoli sottomessi, che presto si sarebbero alleati con i nuovi arrivati. Dall’altra parte dell’Atlantico giungevano uomini temprati da secoli di guerra contro l’islam nella Reconquista di Granada e sopravvissuti a un’Europa colpita dalla fame e dalle epidemie, dove un bambino su tre moriva prima di compiere un anno di vita. Quando, nell’anno ce-ácatl millecinquecentodiciannove, giunsero alle orecchie di Moctezuma Xocoyotzin le notizie che torri o piccole montagne galleggiavano sul mare, il tlatoani credette che si compissero gli otto presagi sul ritorno di Quetzalcóatl. Ma la guerra scoppiata nel millecinquecentoventuno fu spietata per entrambe le parti: quando gli Acolhua di Tecoaque catturarono una carovana spagnola che andava da Veracruz verso Tenochtitlan, sacrificarono i prigionieri e collocarono le loro teste in questo tzompantli, scoperto dagli archeologi nel maggio del millenovecentonovantatré, prima che Cortés mandasse Gonzalo de Sandoval a radere al suolo il villaggio per vendetta."
+    },
+    "retos_observacion": {
+      "hash": "45271f30ff5dac4b",
+      "texto": [
+        "Avvicinati alla vetrina del Tzompantli di Tecoaque e conta i dodici crani forati lateralmente per far passare la trave di legno",
+        "Osserva le armi d’acciaio, gli elmi e i pettorali europei che contrastano con le sculture in pietra mesoamericane",
+        "Cerca i cartellini che spiegano il significato di altépetl (acqua-montagna) e gli otto presagi di Moctezuma"
+      ]
+    },
+    "especificaciones": {
+      "hash": "785c6f120c4eb30e",
+      "texto": {
+        "Pezzo centrale": "Tzompantli («muro di crani») proveniente da Tecoaque (antica Zultepec), Tlaxcala",
+        "Data dei resti": "Inizio del 1521 (scoperti nel maggio del 1993)",
+        "Composizione del ritrovamento": "12 crani (5 di spagnoli della compagnia di Juan de Yuste e 7 di indigeni cempoalteca alleati)",
+        "Ubicazione": "Sale 1 e 2 (Due continenti isolati / Alla vigilia del contatto), Piano terra MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e98c041d6edf348",
+      "texto": {
+        "pregunta": "Mito: Nel 1519 esisteva un’unica nazione messicana unita e tutti i popoli indigeni difesero insieme Moctezuma contro gli spagnoli.",
+        "respuesta": "Realtà: Mesoamerica era divisa in signorie, o altépetl, indipendenti; il severo sistema di tributi e di guerre di cattura imposto dai Mexica fece sì che i Cempoalteca, i Tlaxcalteca e altri popoli vedessero negli spagnoli un’opportunità per liberarsi da Tenochtitlan."
+      }
+    }
+  }
+}

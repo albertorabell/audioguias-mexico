@@ -1,0 +1,62 @@
+{
+  "id": "chap_24_caballero_alto",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2f75f1f51c4efe5a",
+      "texto": "El Caballero Alto, torrione e primo osservatorio"
+    },
+    "frase_gancho": {
+      "hash": "daf1ed1e5f285cb3",
+      "texto": "Sembra una torre medievale, ma fu eretta negli anni milleottocentoquaranta e divenne il primo Osservatorio Astronomico Nazionale."
+    },
+    "puente_narrativo": {
+      "hash": "2bd2e89ec8b9b183",
+      "texto": "Prosegui il percorso verso il Salón de Malaquitas, al Piano superiore dell’Alcázar, dove una pietra verde viaggiò dalla Russia per ordine di Porfirio Díaz."
+    },
+    "guion_corto": {
+      "hash": "ab56b933935ba35a",
+      "texto": "Sembra una torre medievale, ma ha meno di duecento anni. El Caballero Alto fu eretto nella parte più alta della collina. Accadde durante i lavori iniziati nel milleottocentoquarantuno, quando l’edificio veniva adattato a Collegio Militare. Diede al complesso l’aspetto di una fortezza, e da lì nacque il nome di castello. Decenni dopo ebbe un’altra vita. Nel milleottocentosettantotto ricevette una cupola e il telescopio principale del primo Osservatorio Astronomico Nazionale. Gli astronomi lavorarono qui fino al milleottocentoottantatré. In quell’anno si trasferirono a Tacubaya, e il castello poté tornare a essere una scuola militare."
+    },
+    "guion_largo": {
+      "hash": "f69056f45b717a56",
+      "texto": "Il punto in cui si innalza questa torre aveva già una storia prima che esistesse il castello. Secondo una didascalia del museo, sulla sommità sorgeva in precedenza un tempio preispanico. Nel sedicesimo secolo vi fu costruita una cappella dedicata a San Michele Arcangelo, che fu demolita nel diciottesimo secolo. Poi arrivò il torrione. La stessa didascalia lo data intorno al milleottocentoquarantadue. Dice che si trova a circa quarantacinque metri sopra il livello di Città del Messico.\n\nQuell’altezza spiega la sua funzione originaria. Da Chapultepec si domina il Bacino del Messico, e un bollettino dell’INAH ricorda che la collina fu sempre un punto strategico per le campagne militari. Quando l’edificio fu adattato a Collegio Militare, il torrione completò l’immagine di fortezza. Della difesa del castello nel milleottocentoquarantasette parlano la tappa dedicata all’[intervento](chap_08_intervencion_1847) e la [terrazza dei Niños Héroes](chap_25_terraza_ninos_heroes).\n\nLa seconda vita della torre cominciò con una domanda scientifica. Nel milleottocentosettantaquattro un transito di Venere portò una commissione messicana fino in Giappone. Al ritorno, i suoi membri riferirono che il transito successivo, quello del milleottocentoottantadue, sarebbe stato visibile dal Messico. Questo diede impulso alla creazione di un osservatorio. Il diciotto dicembre del milleottocentosettantasei, il ministro dello Sviluppo Vicente Riva Palacio affidò un incarico. L’ingegnere Ángel Anguiano doveva ricostruirlo nel castello. Quella data è considerata la data di fondazione dell’Osservatorio Astronomico Nazionale.\n\nI lavori cominciarono nel milleottocentosettantasette. Sopra il Caballero Alto fu innalzata una cupola, che secondo la didascalia era di metallo e vetro e durò fino all’inizio del ventesimo secolo. Il cinque maggio del milleottocentosettantotto si tenne una solenne inaugurazione. Lo storico dell’astronomia Felipe Valle menziona che l’edificio arrivò ad avere un ufficio telegrafico e una biblioteca. I primi strumenti includevano un telescopio zenitale, un piccolo altazimut e un pendolo siderale, secondo un articolo della Revista de la Universidad de México. Per salire fino a quel piano si ampliò la terrazza e si aprì un accesso, all’origine della [Escalera de los Leones](chap_13_escalera_leones).\n\nGli astronomi restarono poco tempo. Nel milleottocentottantuno, Anguiano viaggiò in Europa per procurarsi strumenti e conoscere altri osservatori. Poco dopo il transito di Venere del milleottocentoottantadue, l’osservatorio si trasferì nell’antico Palazzo dell’Arcivescovado, a Tacubaya. Il Museo Nazionale di Storia indica il motivo ufficiale: che il castello tornasse a essere Collegio Militare. Valle aggiunge che Anguiano chiese aiuto a Porfirio Díaz per rimandare il trasferimento a dopo il transito.\n\nCosì, una torre pensata per sorvegliare la valle servì poi a studiare il cielo. Oggi la torre è un simbolo del castello. La sua storia, però, è quella di varie istituzioni che si avvicendarono sulla collina: scuola militare, osservatorio, residenza presidenziale e museo. Se arrivi dal [giardino](chap_23_jardin_alcazar) o dallo [studio di Díaz](chap_22_despacho_presidencial), ricorda che tutte quelle epoche condividono la stessa collina."
+    },
+    "retos_observacion": {
+      "hash": "d62e8c304b97fdb9",
+      "texto": [
+        "Alza lo sguardo verso la sommità del torrione e cerca la sagoma cilindrica che dà al castello l’aspetto di una fortezza",
+        "Confronta le sue mura con lo stile da palazzo dell’Alcázar: sono opere di epoche diverse",
+        "Guarda verso l’orizzonte da dove ti trovi e calcola quanta parte della valle si dominava dalla sommità della collina"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2625759213b59caa",
+      "texto": {
+        "Nome": "Caballero Alto, torrione del Castello di Chapultepec",
+        "Costruzione": "lavori iniziati nel 1841; la didascalia del museo lo data intorno al 1842, come parte del Collegio Militare",
+        "Altezza": "parte più alta del promontorio, circa 45 m sopra il livello di Città del Messico",
+        "Osservatorio": "commissionato il 18 dicembre 1876, inaugurato il 5 maggio 1878",
+        "Trasferimento dell’osservatorio a Tacubaya": "1883"
+      }
+    },
+    "faq_mito": {
+      "hash": "72210ac36231c515",
+      "texto": {
+        "pregunta": "Mito: El Caballero Alto è una torre medievale o vicereale, molto più antica del resto del palazzo.",
+        "respuesta": "Realtà: Secondo il Museo Nazionale di Storia, fu eretto durante i lavori iniziati nel milleottocentoquarantuno per il Collegio Militare, e la didascalia dell’Alcázar lo data intorno al milleottocentoquarantadue; il suo aspetto di fortezza diede origine al nome di castello."
+      }
+    }
+  }
+}

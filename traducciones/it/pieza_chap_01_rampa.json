@@ -1,0 +1,59 @@
+{
+  "id": "chap_01_rampa",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "d9f43da925a1471b",
+      "texto": "Chapultepec: il colle della cavalletta e le sue sorgenti"
+    },
+    "frase_gancho": {
+      "hash": "9604ddc6f2cdd70d",
+      "texto": "Prima di essere un castello, questo colle fu una fonte di acqua dolce che tenne in vita la capitale mexica."
+    },
+    "puente_narrativo": {
+      "hash": "405a650038748245",
+      "texto": "Segui il sentiero verso la sommità del colle. Presto arriverai all’ingresso principale del Castello, dove comincia la storia dell’edificio."
+    },
+    "guion_corto": {
+      "hash": "ceeae5ec271316a8",
+      "texto": "Chapultepec viene dal nahuatl chapulin, che vuol dire cavalletta, e tepetl, che vuol dire colle. La c finale indica il luogo, quindi il nome significa sul colle della cavalletta. Qui viveva gente già tremila anni fa, sulla riva dell’antico lago di Texcoco. I Mexica lo considerarono un sito sacro e strategico fin dalla fondazione di Tenochtitlan, nell’anno milletrecentoventicinque. La ragione era pratica: da questo colle sgorgavano sorgenti di acqua dolce, mentre l’acqua del lago non si poteva bere. Un acquedotto portava quel tesoro fino alla capitale. Mentre sali, ricorda che cammini su una montagna d’acqua, molto prima che esistesse un palazzo."
+    },
+    "guion_largo": {
+      "hash": "5849bab9a26294c8",
+      "texto": "Questa salita attraversa vari strati di storia, e il più antico non ha mura. È l’acqua.\n\nCi sono ceramiche e sepolture del periodo Preclassico, tra l’anno duemilacinquecento prima di Cristo e l’anno duecento dopo Cristo. Dimostrano che qui c’erano degli abitanti già tremila anni fa. Scelsero la riva dell’antico lago di Texcoco, accanto a un colle che dominava il paesaggio.\n\nI Mexica conobbero il luogo durante la loro lunga migrazione. Vi si fermarono per un certo tempo, finché i Chalca e i Xochimilca li cacciarono. Quando fondarono Tenochtitlan, tornarono a guardare verso questo luogo. Il Museo Nazionale di Storia spiega che Chapultepec fu considerato un luogo sacro e strategico per le sue sorgenti. Una ricerca della UNAM ricorda il dettaglio che spiega tutto: l’acqua del lago di Texcoco non era potabile. Senza queste sorgenti, la capitale mexica avrebbe patito la sete.\n\nPer questo furono costruiti degli acquedotti, e le fonti non concordano del tutto sulle date. Uno studio dell’INAH racconta che gli abitanti di Texcoco portarono l’acqua alla città nell’anno millequattrocentosessantasei. Fu per ordine di Nezahualcóyotl, durante il governo di Moctezuma Ilhuicamina. Altre notizie dell’INAH parlano di un primo canale semplice, fatto di canne, pietre e fango, intorno al millequattrocentodiciotto. Ciò che è certo è la funzione: portare acqua dolce a una città costruita sul lago.\n\nIl colle servì anche a lasciare memoria. L’INAH riferisce che i sovrani mexica fecero scolpire la propria effigie sulle rocce vicine. Un testo dell’Istituto di Ricerche Storiche della UNAM aggiunge che varie di quelle immagini andarono distrutte con il passare dei secoli.\n\nL’acqua fu anche un’arma. Durante l’assedio di Tenochtitlan, le truppe spagnole al comando di Cristóbal de Olid distrussero il primo acquedotto di Chapultepec. Anni dopo, nel millecinquecentotrenta, un decreto reale dell’imperatore Carlo V consegnò il bosco a Città del Messico. Gli alberi dal tronco grosso che crescono ai piedi del colle sono ahuehuetes, parola nahuatl che significa vecchio dell’acqua. Una lettera del viceré Antonio de Mendoza, del millecinquecentotrentasette, ne parla già. La tradizione attribuisce a Nezahualcóyotl la piantagione dei più antichi.\n\nLa sommità tardò a ricevere un palazzo. Secondo il museo, un’esplosione di polvere da sparo distrusse nel millesettecentoottantaquattro la residenza di villeggiatura di un viceré. Si trovava alle pendici del colle. Un anno dopo, Bernardo de Gálvez diede inizio ai lavori di un nuovo palazzo in cima. Questa è l’origine del Castello che stai per visitare.\n\nDa allora, questi pendii hanno visto passare cadetti, imperatori e presidenti. Nella battaglia del milleottocentoquarantasette, il battaglione di San Blas fu l’unico rinforzo dei difensori. Secondo l’Istituto Nazionale di Studi Storici delle Rivoluzioni del Messico, riuscì a salire solo fino alla prima rampa.\n\nDunque, prima di arrivare al portone, tieni a mente questa idea: il colle fu prima una sorgente, poi un bosco protetto e, molto più tardi, un palazzo. Ora ti aspetta [l’ingresso principale del complesso](chap_02_fachada_puerta)."
+    },
+    "retos_observacion": {
+      "hash": "d2fe29701143e71d",
+      "texto": [
+        "Cerca tra gli alberi del bosco qualche ahuehuete, che si riconosce dal tronco grosso e dai rami penduli",
+        "Osserva come sale il sentiero e guarda quanto bosco resta ai tuoi piedi",
+        "Guarda verso l’orizzonte e immagina la valle con il lago di Texcoco, che oggi non si vede più"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e5520fd6148063d",
+      "texto": {
+        "Nome": "Chapultepec, dal nahuatl chapulin (cavalletta) e tepetl (colle): sul colle della cavalletta",
+        "Occupazione antica": "ceramiche e sepolture del Preclassico, dall’anno 2500 prima di Cristo al 200 dopo Cristo",
+        "Importanza mexica": "luogo sacro e strategico per le sue sorgenti, dalla fondazione di Tenochtitlan nel 1325",
+        "Bosco della città": "decreto reale di Carlo V, 1530",
+        "Dato chiave": "nel 1785 il viceré Bernardo de Gálvez iniziò il palazzo sulla sommità"
+      }
+    },
+    "faq_mito": {
+      "hash": "bc68ce1c15e2ac94",
+      "texto": {
+        "pregunta": "Mito: Il Castello di Chapultepec fu costruito dall’imperatore Massimiliano.",
+        "respuesta": "Realtà: I lavori cominciarono nel 1785, con il viceré Bernardo de Gálvez. Massimiliano e Carlotta vi abitarono dal 1864 al 1867 e lo trasformarono in palazzo."
+      }
+    }
+  }
+}

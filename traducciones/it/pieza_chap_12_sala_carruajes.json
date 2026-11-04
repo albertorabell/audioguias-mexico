@@ -1,0 +1,60 @@
+{
+  "id": "chap_12_sala_carruajes",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2ea081b1178ddcdb",
+      "texto": "La Sala delle Carrozze dell’Alcázar"
+    },
+    "frase_gancho": {
+      "hash": "80f057a99988f61c",
+      "texto": "Una carrozza barocca costruita a Milano e una vettura d’uso quotidiano che cambiò stemmi quando cambiò il governo."
+    },
+    "puente_narrativo": {
+      "hash": "d9073dedd52a5abd",
+      "texto": "Prosegui il percorso verso la Scala dei Leoni, dove una scalinata dall’aria imperiale nasconde un’origine scientifica."
+    },
+    "guion_corto": {
+      "hash": "f5cc41e47d99bea9",
+      "texto": "Prima di essere l’ingresso all’Alcázar, questo spazio servì come rimessa delle carrozze del castello, secondo il museo. Oggi riunisce carrozze di due governi diversi. La carrozza di gala di Massimiliano e Carlotta uscì intorno al milleottocentosessantaquattro dalla casa Cesare Scala, a Milano. È di stile barocco, con modanature in argento e bronzo, bambini e angeli scolpiti, stemmi imperiali e un motto in spagnolo: Equità nella giustizia. In questa sala il museo presenta anche la carrozza che Massimiliano e Carlotta usavano ogni giorno. Poi la utilizzò Benito Juárez, e gli stemmi dell’Impero lasciarono il posto alle armi della Repubblica. È una stessa vettura con due storie."
+    },
+    "guion_largo": {
+      "hash": "ac5560762e61ea5f",
+      "texto": "I piani del viceré Bernardo de Gálvez, del millesettecentottantacinque, prevedevano già una rimessa per le carrozze al piano terra del palazzo. Il palazzo non fu mai terminato, e l’edificio ebbe molte vite. Secondo il museo, questo salone servì poi come rimessa delle carrozze del castello, e oggi è l’ingresso all’Alcázar. È un buon inizio per il piano degli imperatori: dove un tempo si custodivano le carrozze, ora si custodiscono carrozze, ma di un’altra specie.\n\nIl pezzo più sfarzoso è la carrozza di gala di Massimiliano e Carlotta. Il museo la attribuisce alla casa Cesare Scala, di Milano, e la data intorno al milleottocentosessantaquattro. Il suo stile è barocco. Ha modanature in argento e bronzo, sculture di bambini e angeli, stemmi imperiali e un motto in spagnolo, Equità nella giustizia. Una carrozza di gala non è fatta per arrivare in fretta in un luogo. È fatta perché la vedano passare.\n\nMassimiliano d’Asburgo arrivò al castello il dodici giugno del milleottocentosessantaquattro. Governò con l’appoggio dell’esercito francese di Napoleone Terzo. Il suo regno finì nel milleottocentosessantasette. Fu fucilato sul Cerro de las Campanas, a Querétaro, insieme ai generali Miguel Miramón e Tomás Mejía. Quella fase si chiama Secondo Impero, perché prima il Messico ne aveva già avuto uno primo, quello di [Agustín de Iturbide](chap_06_morelos_iturbide).\n\nNella stessa sala c’è un’altra storia, più repubblicana. Il museo spiega che la carrozza d’uso quotidiano di Massimiliano e Carlotta passò poi a Benito Juárez. Per questo, gli stemmi imperiali furono sostituiti dalle armi della Repubblica. L’oggetto era lo stesso, ma il messaggio cambiò. Il museo menziona inoltre un calesse. Su di esso, afferma, Juárez entrò a Città del Messico il quindici luglio del milleottocentosessantasette, ventisei giorni dopo la fucilazione. Il calesse fu costruito a Parigi e fu decorato con lo Stemma Nazionale e motivi preispanici. È un buon momento per ricordare la [carrozza di Juárez](chap_07_carruaje_juarez) di una tappa precedente.\n\nVale la pena soffermarsi sul contrasto. Da un lato, una carrozza con modanature d’argento, angeli e stemmi; dall’altro, veicoli che cambiarono proprietario solo cambiando un emblema. Sono due modi di dire chi comanda: con l’ornamento o con i simboli nazionali.\n\nDietro questi oggetti c’è anche la storia del museo. Nel millenovecentotrentanove, il presidente Lázaro Cárdenas decretò che il castello diventasse un museo. Manuel Ávila Camacho lo inaugurò il ventisette settembre del millenovecentoquarantaquattro. Oggi riunisce più di sessantacinquemila oggetti, tra dipinti, mobili, abiti, documenti e carrozze.\n\nSalendo all’Alcázar, porta con te questa idea. Un oggetto di governo raramente è solo un oggetto: porta stemmi, motti ed emblemi che cambiano quando cambia il potere, e per questo si possono leggere come un documento."
+    },
+    "retos_observacion": {
+      "hash": "573235bb5f6bdaf7",
+      "texto": [
+        "Cerca sulla carrozza di gala le modanature in argento e bronzo e le figure di bambini e angeli",
+        "Trova il motto in spagnolo, Equità nella giustizia, e gli stemmi imperiali",
+        "Confronta la carrozza d’uso quotidiano con la carrozza di gala e osserva quale ha più ornamenti e quale emblema mostra"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dda3689baf17655",
+      "texto": {
+        "Epoca": "Secondo Impero, intorno al 1864",
+        "Bottega della carrozza di gala": "casa Cesare Scala, Milano",
+        "Stile e materiali": "barocco, con modanature in argento e bronzo",
+        "Motto": "Equità nella giustizia",
+        "Dato chiave": "la carrozza d’uso quotidiano di Massimiliano e Carlotta fu usata poi da Benito Juárez, con le armi repubblicane",
+        "Ubicazione": "Salone delle Carrozze, ingresso all’Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "e319dbbd98f47c9e",
+      "texto": {
+        "pregunta": "Mito: Le carrozze dell’imperatore Massimiliano furono distrutte o abbandonate alla caduta dell’Impero.",
+        "respuesta": "Realtà: Secondo il Museo Nazionale di Storia, la carrozza che Massimiliano e Carlotta usavano ogni giorno passò a Benito Juárez, e i suoi stemmi imperiali furono sostituiti dalle armi della Repubblica."
+      }
+    }
+  }
+}

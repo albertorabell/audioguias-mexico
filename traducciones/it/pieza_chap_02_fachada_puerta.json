@@ -1,0 +1,56 @@
+{
+  "id": "chap_02_fachada_puerta",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a1635e04078536c3",
+      "texto": "L’ingresso del Castello e la sua origine vicereale"
+    },
+    "frase_gancho": {
+      "hash": "525275c3f40a2f5b",
+      "texto": "Si disse che il viceré che ordinò di erigere questo edificio volesse farsi re; i documenti raccontano un’altra storia."
+    },
+    "puente_narrativo": {
+      "hash": "3712d97d74d58f8c",
+      "texto": "Prosegui verso lo spazio aperto dove i cadetti del Collegio Militare studiarono e vissero. Lì ti aspetta il Patio de los Cañones."
+    },
+    "guion_corto": {
+      "hash": "31b793ac0193eac3",
+      "texto": "C’è chi ha sostenuto che il viceré Bernardo de Gálvez fece costruire questo edificio come fortezza, per proclamarsi re della Nuova Spagna. È una storia vecchia, e uno studio della UNAM la scarta: non ci sono documenti che dimostrino che Gálvez aspirasse alla corona. Ciò che è documentato è un’altra cosa. I lavori iniziarono nel millesettecentottantacinque, sotto la direzione degli ingegneri Francisco Bambitelli e, in seguito, Manuel Agustín Mascaró. Gálvez morì nel millesettecentottantasei, e secondo il museo l’opera rimase incompiuta. Quando la Corona ordinò di mettere all’asta il terreno, nessuno se ne interessò. Quel rifugio di campagna del Settecento avrebbe poi vissuto molte vite: collegio militare, palazzo imperiale, residenza presidenziale e museo."
+    },
+    "guion_largo": {
+      "hash": "ccef97c094013df0",
+      "texto": "Bernardo de Gálvez nacque nel millesettecentoquarantasei a Macharaviaya, in Spagna. Prima di arrivare in Messico era già noto come militare: diresse l’assedio di Pensacola, in Florida, che si concluse nel maggio del millesettecentoottantuno con una vittoria spagnola. Nel millesettecentottantacinque si trasferì nella Nuova Spagna per succedere come viceré a suo padre, Matías de Gálvez.\n\nL’idea di un palazzo sulla sommità di Chapultepec era anteriore al suo arrivo. Secondo il Museo Nazionale di Storia, dopo l’esplosione di una polveriera vicina, gli architetti proposero un nuovo palazzo in alto. Fu per ordine di Matías de Gálvez. Uno studio dell’INAH registra che i progetti furono presentati il ventinove maggio del millesettecentottantaquattro. Con Bernardo, nel millesettecentottantacinque, cominciò la costruzione. L’INAH lo descrive come un rifugio di campagna, non come una fortezza.\n\nPoi arrivò la malattia. Un articolo della UNAM sul suo governo racconta che i sintomi compaiono a partire da luglio del millesettecentottantasei. In ottobre era già gravemente malato, e fu trasferito a Tacubaya. Lì morì il trenta novembre di quell’anno, a quarant’anni. I suoi funerali furono affollatissimi, e il corpo rimase esposto per tre giorni davanti a un popolo che, secondo le cronache, gli voleva molto bene.\n\nDa lì nacquero le voci. Alcuni dissero che lo avevano avvelenato, persino per ordine del re Carlo Terzo, per impedire che si impadronisse del regno. Altri sostenevano che avesse costruito questo edificio come fortezza per incoronarsi. L’autore dello studio li respinge. La malattia durò almeno quattro mesi, e un veleno lento sarebbe stato notato dai medici. Inoltre, non esistono documenti che suggeriscano che Gálvez aspirasse alla corona. È un buon esempio di come la morte improvvisa di un personaggio amato possa riempirsi di leggende.\n\nSenza il viceré, il palazzo perse il suo promotore. La Corona sospese i lavori e ordinò di mettere all’asta il terreno, ma l’asta fallì perché nessuno se ne interessò. Poi i ministri della Real Hacienda vendettero i vetri, le porte e le finestre. Nel milleottocentosei, il Comune di Città del Messico acquistò l’immobile.\n\nIl nome di Castello arrivò molto più tardi. Nel milleottocentotrentatré si decise di trasformare il palazzo in sede del Collegio Militare. Nel milleottocentoquarantuno iniziò la ricostruzione. Allora fu innalzato un torrione, il Caballero Alto, che diede all’edificio l’aspetto di una fortezza e fece sì che lo chiamassero Castello. Più avanti vedrai il [Caballero Alto](chap_24_caballero_alto).\n\nAnche l’ingresso cambiò con le epoche. Nella pianta del millesettecentottantacinque compare un ingresso principale. Con Massimiliano, l’architetto Ramón Rodríguez Arangoity adattò l’edificio a palazzo, tra il milleottocentosessantaquattro e il milleottocentosessantasette. Furono aggiunti porticati e balconi sulla facciata sud. Fu costruito anche un portico centrale di cinque archi a tutto sesto. Nel milleottocentottantatré, quando il Collegio Militare tornò al Castello, Porfirio Díaz lo usò come residenza estiva. Per questo la facciata è una somma di epoche, più che il risultato di un unico progetto.\n\nSe ti resta in mente una sola idea, che sia questa: l’edificio che un viceré iniziò come rifugio di campagna finì per essere scuola, palazzo e museo."
+    },
+    "retos_observacion": {
+      "hash": "6493575589db9f2f",
+      "texto": [
+        "Conta quanti tipi diversi di aperture vedi sulla facciata: porte, finestre, balconi o archi",
+        "Confronta i muri massicci con le parti più leggere e decorate, e chiediti quale sembri più antica",
+        "Cerca in alto il torrione del Castello, arrivato con la ricostruzione del milleottocentoquarantuno"
+      ]
+    },
+    "especificaciones": {
+      "hash": "12bba7d7c8bf6e2e",
+      "texto": {
+        "Inizio dei lavori": "1785, viceré Bernardo de Gálvez",
+        "Ingegneri": "Francisco Bambitelli e, in seguito, Manuel Agustín Mascaró",
+        "Uso originale": "rifugio di campagna vicereale",
+        "Acquisto da parte del Comune di Città del Messico": "1806",
+        "Collegio Militare": "deciso nel 1833, ricostruzione dal 1841, con il torrione Caballero Alto",
+        "Portico centrale di cinque archi a tutto sesto": "epoca di Massimiliano, dal 1864 al 1867"
+      }
+    },
+    "faq_mito": {
+      "hash": "d64a889e4b371292",
+      "texto": {
+        "pregunta": "Mito: L’edificio si chiama castello perché fu costruito per un re europeo.",
+        "respuesta": "Realtà: Lo iniziò un viceré nel 1785 come palazzo di villeggiatura. Il nome arrivò dopo: il torrione Caballero Alto, costruito durante la ricostruzione del 1841 per il Collegio Militare, gli diede l’aspetto di una fortezza."
+      }
+    }
+  }
+}

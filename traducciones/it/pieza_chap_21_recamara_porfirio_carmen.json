@@ -1,0 +1,56 @@
+{
+  "id": "chap_21_recamara_porfirio_carmen",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "81a31a50bf386b90",
+      "texto": "Camere da letto di Porfirio Díaz e Carmen Romero Rubio"
+    },
+    "frase_gancho": {
+      "hash": "08bb0cde6f491f53",
+      "texto": "Porfirio Díaz non viveva a El Castillo tutto l’anno: lo usava in estate, per balli e ricevimenti."
+    },
+    "puente_narrativo": {
+      "hash": "fa52be94894a1563",
+      "texto": "Avanza verso lo studio presidenziale, la stanza in cui Díaz teneva la sua biblioteca."
+    },
+    "guion_corto": {
+      "hash": "5ac80c9b423f73a3",
+      "texto": "Prima dell’alba, il presidente era già in piedi. Secondo il museo, Porfirio Díaz si alzava all’alba, faceva ginnastica e nuotava. Ma qui trascorreva soprattutto l’estate: la sua famiglia viveva la maggior parte dell’anno nella casa numero otto della calle de La Cadena, oggi Venustiano Carranza. El Castillo fu adattato per balli e ricevimenti. Le camere da letto dei coniugi, quella di Díaz e quella di Carmen Romero Rubio, furono importate dalla Francia. Lei aveva diciassette anni quando lo sposò, e lui ne aveva cinquantuno, nel novembre del milleottocentoottantuno. Il museo descrive la camera di Carmen come un misto di austerità ed eleganza."
+    },
+    "guion_largo": {
+      "hash": "973c05d2fbed00f4",
+      "texto": "Se immagini il presidente Díaz stabilito a El Castillo per tutto l’anno, conviene correggere la scena. La sua casa di tutti i giorni si trovava nella calle de La Cadena, nel centro. Lì visse la sua famiglia la maggior parte dell’anno. I suoi ministri li riceveva nel Palazzo Nazionale. El Castillo era il luogo dell’estate: fu adattato per balli e ricevimenti. La sua routine, secondo il museo, cominciava all’alba, con ginnastica e nuoto, e in altri periodi comprendeva la caccia a Querétaro, Michoacán e Jalisco.\n\nLa donna che diede un altro tono a quella vita è Carmen Romero Rubio. Nacque nel milleottocentosessantaquattro, in piena guerra contro l’Intervento francese, e il suo padrino di battesimo fu Sebastián Lerdo de Tejada. La sua famiglia apparteneva a una corrente politica contraria a quella di Díaz. Eppure, nel novembre del milleottocentoottantuno, si sposarono. Díaz era vedovo, aveva cinquantun anni ed era ministro dello Sviluppo. Lei ne aveva diciassette. Il matrimonio civile fu il cinque di novembre e quello religioso due giorni dopo, nell’oratorio dell’arcivescovo Pelagio Antonio de Labastida. Una tesi dell’UNAM segnala che la cerimonia fu presentata come un gesto di buona volontà verso la Chiesa.\n\nIl museo descrive Carmen come istruita, elegante, discreta e devota. Dice che conquistò l’accettazione di settori che non simpatizzavano con il governo e che migliorò l’immagine pubblica di Díaz, senza immischiarsi in politica. A volte si racconta che fosse lei a insegnargli l’inglese. La stessa tesi ha trovato qualcosa di più modesto. Alcune lezioni di inglese, organizzate dal dottor Eduardo Liceaga prima delle nozze, sono descritte come infruttuose. Furono nella primavera del milleottocentoottantuno.\n\nLe camere da letto dei coniugi furono importate dalla Francia, secondo il museo. Quella di Carmen unisce austerità ed eleganza, riflesso del gusto europeo adottato dalle classi alte dell’epoca. Le stanze della coppia si trovavano al piano superiore. Una scala interna, aperta durante il governo di Manuel González, le collegava con le sale di ricevimento e la sala da pranzo. C’era anche un ascensore elettrico, a uso esclusivo del presidente e della sua famiglia, che collegava i due piani e il seminterrato. La [Scalinata dei Leoni](chap_13_escalera_leones), invece, era per gli invitati.\n\nLa casa si riempiva di gente. Carmen e Díaz non ebbero figli, ma vivevano con Luz, Porfirio e Amada, i figli di lui, e con alcuni dei suoi sedici nipoti. Del gusto di Díaz per mostrare il progresso del paese restano inoltre le vetrate della [Galleria delle Vetrate Piombate](chap_14_vitrales_emplomados), commissionate a Parigi intorno al millenovecento.\n\nQuel mondo finì presto. Díaz si dimise il venticinque maggio del millenovecentoundici. Il trentuno partì da Veracruz sul piroscafo Ypiranga con la sua famiglia, e la nave arrivò in Francia il venti giugno. Morì a Parigi il due luglio del millenovecentoquindici, e la coppia rimase unita fino ad allora. Carmen tornò in Messico e morì nella capitale nel millenovecentoquarantaquattro."
+    },
+    "retos_observacion": {
+      "hash": "d305610faa5bbc1b",
+      "texto": [
+        "Cerca la didascalia che menziona la casa della calle de La Cadena",
+        "Osserva il contrasto tra l’austerità e l’eleganza che il museo attribuisce alla camera di Carmen",
+        "Cerca qualche riferimento alla scala interna o all’ascensore elettrico della famiglia presidenziale"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07063aa551ea6ebb",
+      "texto": {
+        "Personaggi": "Porfirio Díaz e Carmen Romero Rubio, sposati nel novembre del 1881",
+        "Uso de El Castillo": "residenza estiva della famiglia presidenziale, adattata per balli e ricevimenti",
+        "Residenza abituale": "casa numero 8 della calle de La Cadena, oggi Venustiano Carranza",
+        "Camere da letto": "importate dalla Francia, improntate ad austerità ed eleganza",
+        "Ascensore": "elettrico, a uso esclusivo del presidente e della sua famiglia",
+        "Ubicazione": "Alcázar, piano superiore"
+      }
+    },
+    "faq_mito": {
+      "hash": "50a9cf6a000f80e9",
+      "texto": {
+        "pregunta": "Mito: Porfirio Díaz viveva nel Castello di Chapultepec per tutta la durata del suo governo.",
+        "respuesta": "Realtà: secondo il Museo Nazionale di Storia, la famiglia presidenziale viveva la maggior parte dell’anno nella casa numero otto della calle de La Cadena, oggi Venustiano Carranza, e usava El Castillo in estate, adattato per balli e ricevimenti."
+      }
+    }
+  }
+}

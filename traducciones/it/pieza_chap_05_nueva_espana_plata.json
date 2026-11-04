@@ -1,0 +1,55 @@
+{
+  "id": "chap_05_nueva_espana_plata",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a28105ad7c5d082d",
+      "texto": "Il Regno della Nuova Spagna: argento, galeoni e avori"
+    },
+    "frase_gancho": {
+      "hash": "0a796012b1c98d73",
+      "texto": "L’argento messicano che pagò la battaglia di Trafalgar e le cento botteghe dove si vendevano cannella di Ceylon e seta di Manila."
+    },
+    "puente_narrativo": {
+      "hash": "915392e641f9f178",
+      "texto": "Continua fino in fondo alle sale vicereali: svoltato il corridoio, si aprirà davanti a te il gigantesco murale concavo in cui Juan O’Gorman dipinse lo scoppio dell’Indipendenza."
+    },
+    "guion_corto": {
+      "hash": "31d2c1bdc0e7a2a7",
+      "texto": "Queste sale dispiegano lo splendore materiale e le profonde contraddizioni dei trecento anni del vicereame della Nuova Spagna. Intorno a te brillano bauli di lacca asiatica, Cristi e figure intagliate nell’avorio filippino, tibores di porcellana, paraventi dipinti a olio con vedute del Tepeyac, oggetti in argento lavorato e quadri di caste. Tutto questo universo nacque quando la terra americana del mais, del cacao, della vaniglia e della cocciniglia si fuse con il grano, il bestiame, la canna da zucchero e l’aratro portati dall’Europa, trasformando Città del Messico nel centro commerciale che univa l’Europa all’Asia."
+    },
+    "guion_largo": {
+      "hash": "c3dcc9437a62ecd4",
+      "texto": "Raramente ci fermiamo a pensare che, nel Settecento, la moneta usata dai commercianti in Cina e l’argento che finanziava gli eserciti d’Europa uscivano dalle viscere del Messico. Tutto cominciò nel millecinquecentoventotto con la fondazione di Taxco, la prima miniera americana sfruttata con tecniche europee, seguita ben presto dai giganteschi filoni di Zacatecas nel millecinquecentoquarantasei e di Guanajuato nel millecinquecentocinquantaquattro, collegati dal Camino Real de Tierra Adentro. L’argento novoispanico fu così potente da finanziare dalla Guerra dei Trent’anni nel Seicento fino alle navi spagnole e francesi che combatterono nella battaglia di Trafalgar nel milleottocentocinque, e perfino i sussidi inglesi per sconfiggere Napoleone Bonaparte. In cambio di quell’argento, delle perle della Baja California e del colorante rosso della cocciniglia, il Galeone di Manila riempiva la capitale di tesori. Verso l’anno milleottocentoquattro esistevano a Città del Messico circa centosette pulperías, le botteghe di generi alimentari e coloniali dell’epoca, dove potevi comprare vino della Rioja, olive di Siviglia, cannella di Ceylon, cacao di Caracas, chiodi di garofano delle Filippine, scialli di Manila, ventagli con stecche di tartaruga e persino i primi paliacates di cotone che più tardi avrebbe usato [José María Morelos](chap_06_morelos_iturbide). Ma questa ricchezza poggiava su una ferita umana: oltre al lavoro indigeno nelle haciendas, nel corso di tre secoli furono portati dall’Africa circa duecentocinquantamila schiavi trattati come merci, la cui ribellione e il cui meticciato prepararono il terreno per la rivoluzione d’Indipendenza che vedrai nella prossima sala."
+    },
+    "retos_observacion": {
+      "hash": "997ac149671a1558",
+      "texto": [
+        "Osserva le delicate sculture religiose intagliate nelle zanne d’avorio e le scatole di lacca portate con il Galeone di Manila",
+        "Cerca i dipinti e i paraventi vicereali che ritraggono il santuario del Tepeyac e la vita quotidiana della capitale",
+        "Guarda gli oggetti in argento lavorato, ferro battuto e ceramica di Puebla e Guanajuato che venivano esportati in tre continenti"
+      ]
+    },
+    "especificaciones": {
+      "hash": "08cbd7618a7ae398",
+      "texto": {
+        "Periodo": "Vicereame della Nuova Spagna (1521-1821)",
+        "Tappe minerarie": "Taxco (1528), Zacatecas (1546) e Guanajuato (1554)",
+        "Commercio urbano": "Circa 107 pulperías registrate a Città del Messico intorno al 1804",
+        "Demografia forzata": "Circa 250 000 schiavi africani introdotti nell’arco di tre secoli",
+        "Ubicazione": "Sale 3-6 (Il Regno della Nuova Spagna), Piano Terra MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "c41b406a4d225f0f",
+      "texto": {
+        "pregunta": "Mito: Durante il vicereame la Nuova Spagna commerciava solo con la Spagna ed era isolata dal resto del mondo.",
+        "respuesta": "Realtà: La Nuova Spagna fu il ponte del primo commercio globale: il suo argento circolava come moneta in Cina e finanziò guerre europee come Trafalgar (1805), mentre a Città del Messico arrivavano sete dall’Asia, cannella di Ceylon, cacao di Caracas e avori delle Filippine."
+      }
+    }
+  }
+}

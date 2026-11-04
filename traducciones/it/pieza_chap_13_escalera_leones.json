@@ -1,0 +1,63 @@
+{
+  "id": "chap_13_escalera_leones",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6a7e9f78e88d8bf8",
+      "texto": "La Scala dei Leoni"
+    },
+    "frase_gancho": {
+      "hash": "7d5ad72a0abcc7b8",
+      "texto": "Una scalinata di marmo che non si aprì per una corte, ma per raggiungere un osservatorio."
+    },
+    "puente_narrativo": {
+      "hash": "4c00cef1930ffc24",
+      "texto": "Prosegui il percorso verso la Galleria delle Vetrate piombate, dove cinque dee di vetro filtrano la luce del giorno."
+    },
+    "guion_corto": {
+      "hash": "b785a48931937cce",
+      "texto": "Nel milleottocentosettantotto si aprì un accesso al piano superiore dell’Alcázar, e non fu per una festa. Fu perché gli scienziati potessero raggiungere l’Osservatorio Astronomico, Meteorologico e Magnetico Nazionale, che funzionava nel castello. Più tardi, per iniziativa di Porfirio Díaz, fu costruita una scala di marmo bianco con il corrimano di ottone. Intorno al millenovecentoquindici, sotto Venustiano Carranza, fu rimodernata e vi furono collocate le sculture di leoni che le danno il nome, secondo il museo. Cioè, una scalinata dall’aria imperiale che fu aperta undici anni dopo la fucilazione di Massimiliano. La sua origine è scientifica, e le sue mani, repubblicane. Ogni epoca ha lasciato qui il suo strato."
+    },
+    "guion_largo": {
+      "hash": "ce122e6a67c92044",
+      "texto": "Molti immaginano questa scalinata come parte del sogno di Massimiliano e Carlotta. La data dice altro. Secondo il Museo Nazionale di Storia, l’accesso fu aperto nel milleottocentosettantotto, undici anni dopo la fucilazione dell’imperatore. La ragione fu scientifica: nel castello funzionava allora l’Osservatorio Astronomico Nazionale.\n\nL’osservatorio fu fondato per decreto presidenziale il diciotto dicembre del milleottocentosettantasei. Il suo primo direttore fu l’ingegnere Ángel Anguiano, e i lavori ufficiali a Chapultepec cominciarono il cinque maggio del milleottocentosettantotto. Un articolo della Revista de la Universidad de México riporta ciò che raccontò l’astronomo Joaquín Gallo. Il presidente Porfirio Díaz voleva mappe più precise del paese. Per questo serviva un punto di riferimento che permettesse di calcolare la longitudine di paesi e città. Il museo aggiunge che in quegli anni fu posta una cupola sulla torre del [Caballero Alto](chap_24_caballero_alto).\n\nNel milleottocentoottantatré l’osservatorio si trasferì nell’antico Palazzo dell’Arcivescovado, a Tacubaya. Gli astronomi se ne andarono, il castello tornò a essere sede del Collegio Militare e Díaz lo usò come residenza estiva. La scala, invece, rimase. Secondo il museo, fu Díaz a ordinare di ricostruirla in marmo bianco, con il corrimano di ottone.\n\nNon è l’unica scala dell’Alcázar. Il museo racconta che un’altra, interna, fu aperta durante il governo di Manuel González, tra il milleottocentottanta e il milleottocentoottantaquattro. Collegava le stanze della famiglia presidenziale con le sale di ricevimento e la sala da pranzo. Aveva un ascensore elettrico a uso esclusivo di quella famiglia. La servitù usava altre scalinate. Un palazzo è anche una mappa di chi può salire e da dove.\n\nI leoni arrivarono dopo. Secondo il museo, intorno al millenovecentoquindici la scala fu rimodernata, durante il governo di Venustiano Carranza. Allora furono collocate le sculture che le diedero il nome. La Rivoluzione lasciò così la sua impronta in un castello pensato per viceré, imperatori e presidenti. Nel millenovecentosedici, lo stesso Carranza ordinò di demolire un edificio porfiriano per dare più visibilità all’Alcázar.\n\nUno studio di conservazione dell’INAH descrive in questa scala una vetrata con lo Stemma Nazionale al centro. Ai lati ci sono due glifi di Chapultepec: una collina, una cavalletta sulla sommità e acqua alla base. È l’antica forma di scrivere il nome del luogo, che si traduce come collina della cavalletta. Secondo quello studio, nel millenovecentoquarantuno Francisco Goitia propose di chiudere il vano con semplici vetri. Il motivo era il budget. Nel millenovecentoquarantatré furono posti vetri smerigliati incolori.\n\nOgni epoca ha lasciato qui uno strato: l’osservatorio, il marmo di Díaz, i leoni della Rivoluzione e i vetri degli anni quaranta. Più avanti, la [Galleria delle Vetrate piombate](chap_14_vitrales_emplomados) mostra un altro modo di lavorare con la luce, molto diverso da quello del telescopio."
+    },
+    "retos_observacion": {
+      "hash": "6df92d19d968c298",
+      "texto": [
+        "Confronta i due leoni di marmo e cerca che cosa li rende simili o diversi",
+        "Osserva il corrimano, che secondo il museo è di ottone, e confrontalo con il marmo bianco dei gradini",
+        "Se vedi una vetrata alla chiusura della scala, cerca il glifo di Chapultepec: una collina con una cavalletta sulla sommità"
+      ]
+    },
+    "especificaciones": {
+      "hash": "615130e47621d863",
+      "texto": {
+        "Apertura dell’accesso": "1878, per l’Osservatorio Astronomico, Meteorologico e Magnetico Nazionale",
+        "Ricostruzione": "marmo bianco e corrimano di ottone, per iniziativa di Porfirio Díaz",
+        "Leoni": "collocati intorno al 1915 sotto Venustiano Carranza, secondo il MNH",
+        "Scala interna": "aperta durante il governo di Manuel González (1880-1884), con ascensore elettrico per la famiglia presidenziale",
+        "Vetrata": "Stemma Nazionale e due glifi di Chapultepec, secondo uno studio dell’INAH",
+        "Ubicazione": "Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "c10f0fa812051c24",
+      "texto": {
+        "pregunta": "Mito: La Scala dei Leoni fa parte del palazzo che Massimiliano e Carlotta progettarono per la loro corte.",
+        "respuesta": "Realtà: Secondo il Museo Nazionale di Storia, l’accesso fu aperto nel 1878, undici anni dopo la fucilazione di Massimiliano, per salire all’Osservatorio Astronomico Nazionale; il marmo è dell’epoca di Díaz e i leoni furono collocati intorno al 1915."
+      }
+    }
+  }
+}

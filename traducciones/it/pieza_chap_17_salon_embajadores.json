@@ -1,0 +1,59 @@
+{
+  "id": "chap_17_salon_embajadores",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "5bcc9bda2318d2a5",
+      "texto": "Salone degli Ambasciatori"
+    },
+    "frase_gancho": {
+      "hash": "049a0c9979c65a3a",
+      "texto": "Un tappeto francese, con la veduta di questo stesso Castillo tessuta sulla trama, ornava il salone in cui Porfirio Díaz riceveva i diplomatici."
+    },
+    "puente_narrativo": {
+      "hash": "8b299b373439964b",
+      "texto": "Prosegui verso il Salone degli Arazzi, la sala vicina, dove un dono di Napoleone III a Massimiliano racconta un’altra storia."
+    },
+    "guion_corto": {
+      "hash": "8c323626d8db469c",
+      "texto": "Questo salone ha cambiato funzione molte volte. Il Museo Nazionale di Storia presenta una linea del tempo per ogni spazio. Nel milleottocentosessantasei questo era il salone di Carlota e una sala da biliardo. Nel milleottocentottantadue, sotto il presidente Manuel González, fu usato come sala per i ricevimenti. Nel millenovecentosei compare ormai come il grande salone di Porfirio Díaz. Il nome che porta oggi deriva dalla sua funzione in quell’epoca: ricevere i diplomatici stranieri. La decorazione, di stile francese, si deve a Epitacio Calvo. L’arredamento segue il gusto Luigi Sedicesimo, e il tappeto, della casa Aubusson, mostra una veduta del Castillo."
+    },
+    "guion_largo": {
+      "hash": "cf4dfdce6a907cdc",
+      "texto": "I musei di solito mostrano i saloni come se fossero sempre stati così. Questo no. La linea del tempo che accompagna le sale dell’Alcázar registra per questo spazio una serie di usi che quasi nessuno indovinerebbe. Nel milleottocentosessantasei vivevano ancora qui Massimiliano e Carlota. Per quell’anno, il registro parla del salone dell’imperatrice e di una sala da biliardo. Nel milleottocentosettantasette compaiono il Dipartimento e la Direzione del Meteorologico. Erano gli anni del primo Osservatorio Astronomico Nazionale. Fu installato nel Castillo nel milleottocentosettantotto e si trasferì a Tacubaya nel milleottocentoottantatré. Nel milleottocentottantadue, durante il governo di Manuel González, c’era una sala per i ricevimenti con un annesso.\n\nFu con Porfirio Díaz che il luogo divenne il grande salone. Il museo spiega che Díaz volle mostrare il progresso artistico e tecnologico del Messico, e questo desiderio si nota in tutto l’Alcázar. Fece installare ascensori e trasformò il bosco vicino in un parco pubblico. Commissionò inoltre a Parigi le vetrate della [Galleria delle Vetrate Piombate](chap_14_vitrales_emplomados), realizzate intorno al millenovecento. Un salone per ricevere i diplomatici stranieri si accordava con questo proposito.\n\nLa decorazione, secondo la scheda, è di stile francese e unisce elementi barocchi e neoclassici. Il suo autore è Epitacio Calvo. L’arredamento segue lo stile Luigi Sedicesimo. Questo stile prende il nome da un re francese del diciottesimo secolo e si riconosce per linee più rette e sobrie di quelle del barocco. Il museo segnala che sia i mobili sia il tappeto furono fabbricati in Francia. Era il gusto europeo che adottarono le classi alte dell’epoca.\n\nIl tappeto merita uno sguardo a parte. È della casa Aubusson, famosa da secoli per i suoi arazzi, e mostra una veduta dello stesso Castillo. Cioè, l’edificio appare rappresentato dentro se stesso, come in uno specchio tessuto.\n\nConviene non immaginare Díaz mentre vive qui tutto l’anno. Secondo il museo, la sua famiglia viveva per la maggior parte dell’anno in una casa della calle de La Cadena, oggi Venustiano Carranza. Il Castillo serviva d’estate per balli e ricevimenti. In quelle occasioni si accoglieva il mondo. Le stanze della famiglia erano collegate da una scala interna, aperta sotto Manuel González. C’era anche un ascensore elettrico a uso esclusivo del presidente e dei suoi. La [Scalinata dei Leoni](chap_13_escalera_leones) restava invece per gli invitati.\n\nPoi vennero altri cambiamenti. Nel millenovecentotrentanove, il presidente Lázaro Cárdenas consegnò il Castillo al popolo. Il Museo Nazionale di Storia aprì le sue porte nel millenovecentoquarantaquattro. Oggi, al posto degli ambasciatori, passano di qui visitatori con le cuffie come te. Se ti fermi un momento, pensa a quante versioni di questa stanza stanno tra una data e l’altra: salone dell’imperatrice, sala da biliardo, sala per i ricevimenti e salone di rappresentanza."
+    },
+    "retos_observacion": {
+      "hash": "2ad6eb1fe801ec71",
+      "texto": [
+        "Cerca sul tappeto la veduta dello stesso Castillo",
+        "Osserva le gambe e gli schienali dei mobili: lo stile Luigi Sedicesimo predilige le linee rette",
+        "Cerca la scheda che menziona il nome del decoratore, Epitacio Calvo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e1b8acc0b9ffeaf",
+      "texto": {
+        "Epoca": "Porfiriato; il museo registra lo spazio come grande salone nel 1906",
+        "Decorazione": "stile francese con elementi barocchi e neoclassici, di Epitacio Calvo",
+        "Arredamento": "stile Luigi XVI, fabbricato in Francia",
+        "Tappeto": "casa Aubusson, Francia, con una veduta del Castillo",
+        "Funzione": "ricevere i diplomatici stranieri durante la presidenza di Porfirio Díaz"
+      }
+    },
+    "faq_mito": {
+      "hash": "1376eab2f35e9a3d",
+      "texto": {
+        "pregunta": "Mito: Questo è il salone in cui Massimiliano e Carlota ricevevano gli ambasciatori dell’Impero.",
+        "respuesta": "Realtà: secondo il Museo Nazionale di Storia, il salone accolse diplomatici stranieri durante la presidenza di Porfirio Díaz, e la linea del tempo del museo registra questo spazio nel milleottocentosessantasei come salone di Carlota e sala da biliardo."
+      }
+    }
+  }
+}
