@@ -30754,6 +30754,672 @@
       }
     },
     "it": {
+      "cdmx_01_bellas_artes": {
+        "corto": {
+          "hash": "a224ed73596ec538",
+          "file": "it/cdmx_01_bellas_artes_corto.mp3",
+          "remote": false,
+          "seconds": 50,
+          "bytes": 297216,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2fa7d065b7b179ff",
+          "file": "it/cdmx_01_bellas_artes_largo.mp3",
+          "remote": false,
+          "seconds": 215,
+          "bytes": 1288944,
+          "provider": "azure"
+        }
+      },
+      "cdmx_02_bellas_artes_museo": {
+        "corto": {
+          "hash": "17e49a4f8c088059",
+          "file": "it/cdmx_02_bellas_artes_museo_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 244800,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "aa69c7c936a2e90d",
+          "file": "it/cdmx_02_bellas_artes_museo_largo.mp3",
+          "remote": true,
+          "seconds": 206,
+          "bytes": 1234944,
+          "provider": "azure"
+        }
+      },
+      "cdmx_03_alameda": {
+        "corto": {
+          "hash": "5a15e42608030a5b",
+          "file": "it/cdmx_03_alameda_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243504,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7bf40584d3646125",
+          "file": "it/cdmx_03_alameda_largo.mp3",
+          "remote": true,
+          "seconds": 196,
+          "bytes": 1174176,
+          "provider": "azure"
+        }
+      },
+      "cdmx_04_alameda_fuentes": {
+        "corto": {
+          "hash": "0f33d5c822c55792",
+          "file": "it/cdmx_04_alameda_fuentes_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 225936,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d40376817031c4b2",
+          "file": "it/cdmx_04_alameda_fuentes_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1062720,
+          "provider": "azure"
+        }
+      },
+      "cdmx_05_hemiciclo_juarez": {
+        "corto": {
+          "hash": "2ed0d9ef3ce39677",
+          "file": "it/cdmx_05_hemiciclo_juarez_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 263664,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ab5f80dadf1c2f05",
+          "file": "it/cdmx_05_hemiciclo_juarez_largo.mp3",
+          "remote": true,
+          "seconds": 187,
+          "bytes": 1124640,
+          "provider": "azure"
+        }
+      },
+      "cdmx_06_museo_mural_rivera": {
+        "corto": {
+          "hash": "04d79c517bbb4f02",
+          "file": "it/cdmx_06_museo_mural_rivera_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ba293e84e47e8c7b",
+          "file": "it/cdmx_06_museo_mural_rivera_largo.mp3",
+          "remote": true,
+          "seconds": 203,
+          "bytes": 1220976,
+          "provider": "azure"
+        }
+      },
+      "cdmx_07_palacio_postal": {
+        "corto": {
+          "hash": "9d46a7c8fc891464",
+          "file": "it/cdmx_07_palacio_postal_corto.mp3",
+          "remote": false,
+          "seconds": 47,
+          "bytes": 283680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bdf8e707f174e91a",
+          "file": "it/cdmx_07_palacio_postal_largo.mp3",
+          "remote": false,
+          "seconds": 186,
+          "bytes": 1118160,
+          "provider": "azure"
+        }
+      },
+      "cdmx_08_museo_telegrafo": {
+        "corto": {
+          "hash": "1764160e30aed146",
+          "file": "it/cdmx_08_museo_telegrafo_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 254448,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0822b56976af2b0f",
+          "file": "it/cdmx_08_museo_telegrafo_largo.mp3",
+          "remote": true,
+          "seconds": 183,
+          "bytes": 1098000,
+          "provider": "azure"
+        }
+      },
+      "cdmx_09_plaza_tolsa_caballito": {
+        "corto": {
+          "hash": "669e82bb560ebfdd",
+          "file": "it/cdmx_09_plaza_tolsa_caballito_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 266688,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "221dede4870d1e73",
+          "file": "it/cdmx_09_plaza_tolsa_caballito_largo.mp3",
+          "remote": true,
+          "seconds": 196,
+          "bytes": 1176048,
+          "provider": "azure"
+        }
+      },
+      "cdmx_10_munal": {
+        "corto": {
+          "hash": "c880eee86f323711",
+          "file": "it/cdmx_10_munal_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 271584,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c988d635b69c9bfb",
+          "file": "it/cdmx_10_munal_largo.mp3",
+          "remote": true,
+          "seconds": 197,
+          "bytes": 1179792,
+          "provider": "azure"
+        }
+      },
+      "cdmx_11_palacio_mineria": {
+        "corto": {
+          "hash": "9d74ddd361582972",
+          "file": "it/cdmx_11_palacio_mineria_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 255600,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6b07ea2bded8f4aa",
+          "file": "it/cdmx_11_palacio_mineria_largo.mp3",
+          "remote": true,
+          "seconds": 210,
+          "bytes": 1262448,
+          "provider": "azure"
+        }
+      },
+      "cdmx_12_la_nacional": {
+        "corto": {
+          "hash": "9b681eb205debb90",
+          "file": "it/cdmx_12_la_nacional_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 258480,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "267e85d0bf83ab19",
+          "file": "it/cdmx_12_la_nacional_largo.mp3",
+          "remote": true,
+          "seconds": 184,
+          "bytes": 1104480,
+          "provider": "azure"
+        }
+      },
+      "cdmx_13_torre_latinoamericana": {
+        "corto": {
+          "hash": "02ceac872007ffa0",
+          "file": "it/cdmx_13_torre_latinoamericana_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 263232,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7e6aee4b41505121",
+          "file": "it/cdmx_13_torre_latinoamericana_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 1077264,
+          "provider": "azure"
+        }
+      },
+      "cdmx_14_casa_azulejos": {
+        "corto": {
+          "hash": "699d5ad65f977ec8",
+          "file": "it/cdmx_14_casa_azulejos_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 237312,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cab53d04e26ef46b",
+          "file": "it/cdmx_14_casa_azulejos_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1063296,
+          "provider": "azure"
+        }
+      },
+      "cdmx_15_banco_mexico": {
+        "corto": {
+          "hash": "6dd8795c9b167368",
+          "file": "it/cdmx_15_banco_mexico_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 254304,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8db9e9d49617f74d",
+          "file": "it/cdmx_15_banco_mexico_largo.mp3",
+          "remote": true,
+          "seconds": 207,
+          "bytes": 1244448,
+          "provider": "azure"
+        }
+      },
+      "cdmx_16_san_francisco_gante": {
+        "corto": {
+          "hash": "2938a932db391f53",
+          "file": "it/cdmx_16_san_francisco_gante_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243792,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ab740f5e71238873",
+          "file": "it/cdmx_16_san_francisco_gante_largo.mp3",
+          "remote": true,
+          "seconds": 184,
+          "bytes": 1102896,
+          "provider": "azure"
+        }
+      },
+      "cdmx_17_calle_madero": {
+        "corto": {
+          "hash": "0f7540d80bdd66a7",
+          "file": "it/cdmx_17_calle_madero_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243936,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "031a37fc42e02f0d",
+          "file": "it/cdmx_17_calle_madero_largo.mp3",
+          "remote": true,
+          "seconds": 187,
+          "bytes": 1122480,
+          "provider": "azure"
+        }
+      },
+      "cdmx_18_palacio_iturbide": {
+        "corto": {
+          "hash": "b7bb74fea7bbf6d7",
+          "file": "it/cdmx_18_palacio_iturbide_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 269856,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bd023a012e23663f",
+          "file": "it/cdmx_18_palacio_iturbide_largo.mp3",
+          "remote": true,
+          "seconds": 185,
+          "bytes": 1110528,
+          "provider": "azure"
+        }
+      },
+      "cdmx_19_la_profesa": {
+        "corto": {
+          "hash": "58e40c1c36ec9242",
+          "file": "it/cdmx_19_la_profesa_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 283248,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b981137eb4e2188e",
+          "file": "it/cdmx_19_la_profesa_largo.mp3",
+          "remote": true,
+          "seconds": 188,
+          "bytes": 1126656,
+          "provider": "azure"
+        }
+      },
+      "cdmx_20_estanquillo": {
+        "corto": {
+          "hash": "0098f99a980f6147",
+          "file": "it/cdmx_20_estanquillo_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 248400,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2d98bcdcbf269399",
+          "file": "it/cdmx_20_estanquillo_largo.mp3",
+          "remote": true,
+          "seconds": 205,
+          "bytes": 1227024,
+          "provider": "azure"
+        }
+      },
+      "cdmx_21_dulceria_celaya": {
+        "corto": {
+          "hash": "858d9e062e616a0e",
+          "file": "it/cdmx_21_dulceria_celaya_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 225360,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "926697636bbdca89",
+          "file": "it/cdmx_21_dulceria_celaya_largo.mp3",
+          "remote": true,
+          "seconds": 187,
+          "bytes": 1119456,
+          "provider": "azure"
+        }
+      },
+      "cdmx_22_cafe_tacuba": {
+        "corto": {
+          "hash": "a04a4d721b42519e",
+          "file": "it/cdmx_22_cafe_tacuba_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 244080,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6e6e8fc1d9ab1c8b",
+          "file": "it/cdmx_22_cafe_tacuba_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 1085616,
+          "provider": "azure"
+        }
+      },
+      "cdmx_23_casino_espanol": {
+        "corto": {
+          "hash": "b6be2673b1bb2b5f",
+          "file": "it/cdmx_23_casino_espanol_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 257472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6d23f3ab5e6a35d9",
+          "file": "it/cdmx_23_casino_espanol_largo.mp3",
+          "remote": true,
+          "seconds": 218,
+          "bytes": 1310400,
+          "provider": "azure"
+        }
+      },
+      "cdmx_24_casa_boker": {
+        "corto": {
+          "hash": "a8dd0e6ee0b3bc25",
+          "file": "it/cdmx_24_casa_boker_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 224784,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e9aa5c0cd8e975ab",
+          "file": "it/cdmx_24_casa_boker_largo.mp3",
+          "remote": true,
+          "seconds": 187,
+          "bytes": 1121328,
+          "provider": "azure"
+        }
+      },
+      "cdmx_25_zocalo": {
+        "corto": {
+          "hash": "07a5015d48021c17",
+          "file": "it/cdmx_25_zocalo_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 255888,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "df82690450fa59f0",
+          "file": "it/cdmx_25_zocalo_largo.mp3",
+          "remote": true,
+          "seconds": 196,
+          "bytes": 1173024,
+          "provider": "azure"
+        }
+      },
+      "cdmx_26_zocalo_memoria": {
+        "corto": {
+          "hash": "282751c7af9e30f6",
+          "file": "it/cdmx_26_zocalo_memoria_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 251136,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7d9473868925b699",
+          "file": "it/cdmx_26_zocalo_memoria_largo.mp3",
+          "remote": true,
+          "seconds": 188,
+          "bytes": 1129392,
+          "provider": "azure"
+        }
+      },
+      "cdmx_27_catedral": {
+        "corto": {
+          "hash": "77d7eae2773da9b3",
+          "file": "it/cdmx_27_catedral_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 258048,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "efacaa3886d7ef40",
+          "file": "it/cdmx_27_catedral_largo.mp3",
+          "remote": true,
+          "seconds": 243,
+          "bytes": 1459872,
+          "provider": "azure"
+        }
+      },
+      "cdmx_28_sagrario": {
+        "corto": {
+          "hash": "ce239813c5bc44c8",
+          "file": "it/cdmx_28_sagrario_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 252000,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "846c63d2d08fe30e",
+          "file": "it/cdmx_28_sagrario_largo.mp3",
+          "remote": true,
+          "seconds": 194,
+          "bytes": 1162656,
+          "provider": "azure"
+        }
+      },
+      "cdmx_29_palacio_nacional": {
+        "corto": {
+          "hash": "2ae7b98e31c373a7",
+          "file": "it/cdmx_29_palacio_nacional_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 212400,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cf1de41e6c6b1fac",
+          "file": "it/cdmx_29_palacio_nacional_largo.mp3",
+          "remote": true,
+          "seconds": 223,
+          "bytes": 1339632,
+          "provider": "azure"
+        }
+      },
+      "cdmx_30_antiguo_ayuntamiento": {
+        "corto": {
+          "hash": "a3c6eb686cee1e3c",
+          "file": "it/cdmx_30_antiguo_ayuntamiento_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247536,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "10596119a920a921",
+          "file": "it/cdmx_30_antiguo_ayuntamiento_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 1073088,
+          "provider": "azure"
+        }
+      },
+      "cdmx_31_portal_mercaderes": {
+        "corto": {
+          "hash": "72cf25849f6c2ce0",
+          "file": "it/cdmx_31_portal_mercaderes_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 281376,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b4f2bab8c1739fcf",
+          "file": "it/cdmx_31_portal_mercaderes_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 1075824,
+          "provider": "azure"
+        }
+      },
+      "cdmx_32_gran_hotel": {
+        "corto": {
+          "hash": "243e335cdc4c2860",
+          "file": "it/cdmx_32_gran_hotel_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 252144,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6872e28e577707d8",
+          "file": "it/cdmx_32_gran_hotel_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1009440,
+          "provider": "azure"
+        }
+      },
+      "cdmx_33_monte_piedad": {
+        "corto": {
+          "hash": "c78da288054a85ba",
+          "file": "it/cdmx_33_monte_piedad_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 261792,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4598fab687195555",
+          "file": "it/cdmx_33_monte_piedad_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 1080432,
+          "provider": "azure"
+        }
+      },
+      "cdmx_34_templo_mayor": {
+        "corto": {
+          "hash": "42d05abe38fc11db",
+          "file": "it/cdmx_34_templo_mayor_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 275328,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5fdaa2cabfb737be",
+          "file": "it/cdmx_34_templo_mayor_largo.mp3",
+          "remote": true,
+          "seconds": 251,
+          "bytes": 1503792,
+          "provider": "azure"
+        }
+      },
+      "cdmx_35_plaza_seminario": {
+        "corto": {
+          "hash": "8b0fef2c25798453",
+          "file": "it/cdmx_35_plaza_seminario_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 253296,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "28fa2843f680ef2e",
+          "file": "it/cdmx_35_plaza_seminario_largo.mp3",
+          "remote": true,
+          "seconds": 204,
+          "bytes": 1223424,
+          "provider": "azure"
+        }
+      },
+      "cdmx_36_tzompantli_ajaracas": {
+        "corto": {
+          "hash": "7244e4eeb48ffbd1",
+          "file": "it/cdmx_36_tzompantli_ajaracas_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 246816,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0e535f28d5b731c0",
+          "file": "it/cdmx_36_tzompantli_ajaracas_largo.mp3",
+          "remote": true,
+          "seconds": 220,
+          "bytes": 1321632,
+          "provider": "azure"
+        }
+      },
+      "cdmx_37_calle_moneda": {
+        "corto": {
+          "hash": "301a094a1b414fc2",
+          "file": "it/cdmx_37_calle_moneda_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247824,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dcc64b86962edad9",
+          "file": "it/cdmx_37_calle_moneda_largo.mp3",
+          "remote": true,
+          "seconds": 187,
+          "bytes": 1119168,
+          "provider": "azure"
+        }
+      },
       "teo_00_vistazo": {
         "corto": {
           "hash": "8e71322a871bdb37",
