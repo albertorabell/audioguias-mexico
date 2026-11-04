@@ -1,0 +1,54 @@
+{
+  "id": "mna_s17_barro_negro",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4e3284425c6a4829",
+      "texto": "Borraccia e vasi di Barro Negro di San Bartolo Coyotepec"
+    },
+    "frase_gancho": {
+      "hash": "12d5b91c76fba4e4",
+      "texto": "Argilla che diventa nera e lucente grazie al fumo e alla pazienza."
+    },
+    "puente_narrativo": {
+      "hash": "de575be8b35714e1",
+      "texto": "Dalla ceramica passiamo alla festa. Cerca una maschera con corna di animale, criniere e barbe, accanto a una mascella d’asino usata come strumento."
+    },
+    "guion_corto": {
+      "hash": "6880944c9e45bddf",
+      "texto": "Questi vasi di argilla nera vengono da San Bartolo Coyotepec, un paese zapoteco dei Valli Centrali di Oaxaca. Si fanno a mano, senza tornio, e si sfregano con un quarzo molto liscio finché la superficie brilla. Il loro colore nero non è vernice né smalto: si ottiene cuocendo i pezzi in un forno chiuso, con poco ossigeno, dove il fumo scurisce l’argilla. Osserva il contrasto tra le zone levigate, che brillano come metallo, e il fondo più opaco. Alcuni pezzi hanno intagli a forma di fiori, fatti con molta pazienza. A Oaxaca questi vasi sono serviti per conservare acqua e mezcal, per le offerte e per le feste. Sono un esempio di come il fuoco e il fumo possano diventare arte."
+    },
+    "guion_largo": {
+      "hash": "f17856e9da7ecdc5",
+      "texto": "Se un vaso potesse sembrare metallo, sarebbero questi. Il loro nero è così profondo e la loro lucentezza così uniforme che è difficile credere che siano di argilla. Eppure lo sono, e ciò che dà loro quella finitura non è una vernice né uno smalto, ma fuoco, fumo e molta pazienza.\n\nI vasai di San Bartolo Coyotepec lavorano l’argilla a mano, senza tornio, con una tecnica che consiste nel modellare il pezzo in due metà, unirle e rifinirle. Poi lo lasciano asciugare, lo bruniscono con un quarzo liscio, sfregando ancora e ancora finché la superficie diventa come uno specchio, e infine lo cuociono. Tutto il processo richiede cura, perché una crepa può rovinare giorni di lavoro.\n\nLa chiave è nella cottura. I pezzi vengono messi in un forno chiuso, in cui non entra quasi aria. In quell’ambiente, che si chiama riducente, il fumo penetra nei pori dell’argilla e il ferro dell’argilla reagisce. Il risultato è il nero. Se il forno ricevesse più aria, i pezzi uscirebbero rossicci. Cioè: il colore si ottiene per mancanza di ossigeno, non aggiungendo qualcosa.\n\nQuesto nero ha dei precedenti. Nella sala di Oaxaca di sotto hai visto urne e vasi di argilla grigia, dell’epoca di Monte Albán. Si pensa che la tradizione dell’argilla scura nella valle venga da quell’epoca, e che nel corso dei secoli sia cambiata. La finitura molto lucente è più recente: la si attribuisce di solito a Doña Rosa Real, una vasaia di San Bartolo Coyotepec che a metà del Novecento rese popolare la brunitura con il quarzo.\n\nUn buon pezzo si riconosce dal suono: se lo batti piano, suona quasi come una campana. Se c’è una crepa, il suono si spegne. È una prova semplice che i vasai fanno da sempre.\n\nOsserva gli intagli, quei tagli a forma di fiori o di rosoni. Si fanno con un coltello, prima di cuocere il pezzo, e sembrano ricami nell’argilla. È un lavoro delicato, perché l’argilla umida si rompe facilmente. Alcuni pezzi sono così decorativi che si pensa siano solo ornamentali, ma molti sono serviti per conservare acqua, mezcal o alimenti.\n\nE a proposito di mezcal: lo stesso maguey che hai visto nella sala otomí, quello che dà l’ixtle e il pulque, dà a Oaxaca quella bevanda. Si fa con diversi tipi di agave, e per secoli è stato servito in jícaras, in tazzine di argilla e in vasi come questi. È un altro modo di vedere come una stessa pianta possa dare vita a un’intera regione.\n\nC’è un insegnamento discreto. In un mondo che apprezza la velocità, il barro negro costringe ad andare piano. Non ci sono scorciatoie per quella lucentezza: ogni pezzo richiede ore di brunitura, un forno da sorvegliare e l’incertezza di vedere, aprendolo, se è riuscito bene. Per questo ogni vaso è anche un atto di fiducia."
+    },
+    "retos_observacion": {
+      "hash": "d705449b9b1e1a40",
+      "texto": [
+        "Confronta le zone lucide con quelle opache",
+        "Cerca gli intagli a forma di fiori",
+        "Immagina il forno chiuso e il fumo che ha tinto ogni vaso"
+      ]
+    },
+    "especificaciones": {
+      "hash": "29132d856b298421",
+      "texto": {
+        "Popolo": "Zapoteco (Ben 'Zaa)",
+        "Regione": "San Bartolo Coyotepec, Valli Centrali di Oaxaca",
+        "Tecnica/Materiale": "Argilla nera modellata, brunita con quarzo e cotta in forno chiuso riducente",
+        "Funzione": "Vaso per acqua e mezcal, recipienti per offerte e artigianato cerimoniale"
+      }
+    },
+    "faq_mito": {
+      "hash": "52d0ca82a2c620b6",
+      "texto": {
+        "pregunta": "Mito: Il barro negro è argilla dipinta di nero.",
+        "respuesta": "Realtà: Il suo colore nasce dalla cottura: senza ossigeno, il fumo e il ferro dell’argilla la scuriscono. La lucentezza si ottiene sfregando l’argilla con un quarzo."
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "mna_s19_gaban_chamula",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Popoli indigeni\" para \"Pueblos Indios\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "9356512f2e48245a",
+      "texto": "Chuj / Gabán tradizionale di lana di San Juan Chamula"
+    },
+    "frase_gancho": {
+      "hash": "8fda965be39f51c4",
+      "texto": "Lana nera, spessa come feltro, per ripararsi dalla nebbia degli Altos del Chiapas."
+    },
+    "puente_narrativo": {
+      "hash": "c20cc94703ec4fac",
+      "texto": "Dalla lana degli Altos passiamo alla pittura. Cerca un piccolo murale, dall’aria fantastica, firmato da Leonora Carrington, la pittrice che viaggiò in quegli stessi Altos del Chiapas."
+    },
+    "guion_corto": {
+      "hash": "841a4b4bcbc682db",
+      "texto": "Questo gabán di lana nera, che in tzotzil si chiama chuj, è l’indumento degli uomini di San Juan Chamula, un paese degli Altos del Chiapas, a più di duemila metri di altitudine. È una tunica corta, senza maniche, con un’apertura per la testa e altre ai lati per far passare le braccia. Le donne tosano le pecore, lavano la lana, la filano con il fuso e la tessono al telaio a cintura. Il risultato è un tessuto così spesso e fitto da proteggere dal freddo e dalla pioggia della sierra. Fai attenzione ai fili sciolti che pendono in basso e ondeggiano mentre si cammina. Per i chamula, questo indumento è molto più di un cappotto: dice chi sei e a quale comunità appartieni."
+    },
+    "guion_largo": {
+      "hash": "bfa68398608a8b76",
+      "texto": "Se sei sceso a vedere [Pakal](mna_s09_mascara_pakal), Chaac e la [Regina di Uxmal](mna_s09_reina_uxmal), forse ti è rimasta l’idea che i maya siano un mistero del passato. Questa sala dice il contrario. Secondo i censimenti, più di due milioni di persone parlano oggi una lingua maya in Messico, e il nostro percorso tra di loro comincia in montagna, con il tzotzil degli Altos del Chiapas.\n\nSan Juan Chamula è un paese noto per la forza delle sue usanze. Nella sua chiesa non ci sono panche: il pavimento si copre di aghi di pino, le famiglie accendono centinaia di candele e si prega in tzotzil. Il patrono è San Giovanni Battista, che si rappresenta con un agnello, e si dice che da lì venga il rispetto per le pecore, che si allevano per tosarle e non per mangiarle. Così, ogni gabán è fatto con la lana di un animale rispettato.\n\nC’è un dato che sorprende: prima dell’arrivo degli spagnoli non c’erano pecore in America. I maya tessevano il cotone, che non cresce nelle terre fredde, e la lana arrivò con gli europei nel sedicesimo secolo. I tzotzil l’hanno presa e l’hanno resa così propria che oggi sembra parte del paesaggio. Ciò che non è cambiato è il telaio a cintura, lo stesso che compare in alcune immagini antiche della dea Ixchel, di cui abbiamo parlato nella sala dei popoli indios.\n\nQuando il tessuto esce dal telaio è sciolto e leggero. Allora lo si fa bollire e lo si batte perché le fibre si intreccino tra loro e la lana diventi feltro. Questo trattamento si chiama follatura, ed è ciò che dà al gabán il suo spessore. Inoltre, la lana ha una virtù che il cotone non ha: continua a scaldare anche se si bagna, cosa molto preziosa in una sierra dove le albe d’inverno possono gelare.\n\nOgni paese tzotzil si riconosce dal suo abbigliamento, e all’interno del paese, l’abito dice chi sei. In molti paesi degli Altos, servire la comunità è un incarico che si alterna, quasi sempre per un anno e senza stipendio, e chi lo ricopre porta insegne proprie, come nastri, bastoni o un certo tipo di gabán. Si dice che i più fitti e scuri corrispondano alle autorità tradizionali, come i mayordomos. Vedendoli passare, tutti sanno chi ha la responsabilità.\n\nFai attenzione anche a ciò che manca: non ci sono tinture. I colori della lana, nero, bianco o marrone scuro, sono quelli della pecora stessa. L’abito ha dunque il colore delle cose della montagna: le ombre del bosco, le nuvole basse, la terra bagnata.\n\nIn questa stessa sala c’è un altro sguardo sul Chiapas: il grande murale «El mundo mágico de los mayas», della pittrice surrealista [Leonora Carrington](mna_s19_mural_carrington), dell’inizio degli anni Sessanta. Lei viaggiò in Chiapas e dipinse guaritori, animali e montagne sacre a partire da racconti della regione. Non è una fotografia, ma un sogno, e vale la pena guardarlo con calma.\n\nUn solo indumento custodisce così il lavoro delle donne, il rispetto per un animale, l’autorità di un popolo e l’orgoglio di una lingua. Quando proseguirai per la sala, cerca quante volte ritorna quel filo: fare, curare e condividere."
+    },
+    "retos_observacion": {
+      "hash": "e08f76bcd6959581",
+      "texto": [
+        "Cerca i fili sciolti che pendono dal bordo inferiore",
+        "Fai attenzione all’apertura per la testa e a quelle per le braccia",
+        "Immagina il peso di questa lana bagnata dalla pioggia della sierra"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c91e614de9d46d45",
+      "texto": {
+        "Popolo": "Maya Tzotzil",
+        "Regione": "Gli Altos del Chiapas (San Juan Chamula)",
+        "Tecnica/Materiale": "Lana di pecora nera filata e tessuta a mano, nappe di filato",
+        "Funzione": "Abbigliamento maschile di gala, gerarchia degli incarichi e riparo di montagna"
+      }
+    },
+    "faq_mito": {
+      "hash": "040f9491bc571896",
+      "texto": {
+        "pregunta": "Mito: I maya sono scomparsi secoli fa.",
+        "respuesta": "Realtà: Più di due milioni di persone parlano oggi una lingua maya in Messico, e vestono, tessono e celebrano come i loro nonni."
+      }
+    }
+  }
+}

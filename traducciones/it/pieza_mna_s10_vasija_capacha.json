@@ -1,0 +1,58 @@
+{
+  "id": "mna_s10_vasija_capacha",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "4095784a122ad49e",
+      "texto": "Vaso con ansa a staffa del Complesso Capacha"
+    },
+    "frase_gancho": {
+      "hash": "f8787b0d5c3255b5",
+      "texto": "Un vaso di più di tremila anni fa che pone un mistero legato al mare."
+    },
+    "puente_narrativo": {
+      "hash": "55eb323d881a8179",
+      "texto": "Dai villaggi più antichi passiamo a un recupero archeologico. Cerca una figura femminile di argilla dipinta, con i fianchi larghi e il corpo coperto di disegni geometrici."
+    },
+    "guion_corto": {
+      "hash": "daa31d0f67ac9479",
+      "texto": "Questo vaso grigio, alto circa venticinque centimetri, viene da Colima ed è tra i più antichi dell’Occidente: fu realizzato circa tremilacinquecento anni fa. È formato da due corpi arrotondati, uno sopra l’altro, uniti da tubi curvi che sembrano anse; questo tipo di ansa si chiama a staffa. La superficie è levigata e decorata con linee incise, fatte con una punta quando l’argilla era ancora umida. Guarda la forma, che ricorda una zucca-bottiglia doppia. Fu fatto a mano, senza tornio. In quell’epoca la gente di Colima viveva in villaggi, coltivava il mais e seppelliva i propri morti in semplici fosse, con vasi come questo. Non è un oggetto di lusso, ma una delle prime testimonianze del talento ceramico dell’Occidente."
+    },
+    "guion_largo": {
+      "hash": "49c9224989e13f38",
+      "texto": "Questo vaso somiglia ad altri che si trovano a migliaia di chilometri da qui, e nessuno sa con certezza perché. Questo lo rende uno dei pezzi più interessanti della sala: una domanda di argilla.\n\nSi chiama Capacha da un luogo di Colima in cui l’archeologa Isabel Kelly trovò i primi cimiteri con vasi di questo tipo. La sua scoperta mostrò che a Colima c’erano villaggi antichi quanto quelli di Tlatilco, che hai visto nella sala dei primi villaggi, o quelli dei primi Olmechi. Cioè, mentre a San Lorenzo si innalzavano teste colossali, a Colima si faceva già una ceramica elegante e curata.\n\nOra, il mistero. Vasi a doppio corpo e ansa a staffa quasi uguali a questo compaiono in Ecuador, nelle culture chiamate Machalilla e Chorrera, a più di tremila chilometri di distanza, lungo la costa del Pacifico. Una coincidenza? C’è chi pensa di sì: forme semplici che si inventano separatamente in luoghi diversi. Altri sostengono che ci fu contatto via mare fin da epoche molto antiche, con navigatori che percorrevano la costa. Non c’è consenso, e per questo il pezzo è così famoso tra gli specialisti.\n\nQuesto dibattito non è un capriccio. Più avanti, in questa stessa sala, vedrai un altro indizio dello stesso tipo: la metallurgia, la tecnica del metallo che hai visto nel [pettorale d’oro della Tomba 7](mna_s07_pectoral_oro_tumba7) di Monte Albán. Secondo molti specialisti, arrivò nell’Occidente dal Sudamerica intorno all’anno settecento della nostra era. Se ci furono viaggi per mare, questo vaso sarebbe uno dei primi indizi.\n\nPensa a come viveva chi lo usava. Erano villaggi piccoli, vicini alla costa e alle valli, dove si coltivavano mais, fagioli e zucca, e si integrava il cibo con la caccia e la pesca. Non c’erano città né piramidi. Eppure, quei contadini dedicavano tempo a modellare a mano un vaso a due corpi, a levigarlo con una pietra liscia e a decorarlo con una punta d’osso. La bellezza non aspettò che esistessero i re.\n\nQuando un archeologo parla di un «complesso» ceramico, come il complesso Capacha, si riferisce a un insieme di forme e decorazioni che compaiono insieme nello stesso tempo e luogo. È il modo di riconoscere una cultura quando non abbiamo il suo nome né la sua scrittura: dall’impronta delle sue mani nell’argilla.\n\nGuarda, inoltre, la forma. Imita una zucca-bottiglia, il frutto secco che si usa da millenni come recipiente: due sfere unite da un collo. In molti popoli del Messico, la zucca-bottiglia serve ancora oggi per portare l’acqua. I vasai di Capacha presero una forma dalla natura e la trasformarono in argilla.\n\nI vasi come questo compaiono nelle tombe, accanto al corpo. Si pensa che contenessero acqua o bevande per il viaggio del morto. E le tombe erano semplici: fosse con lastre di pietra sopra, senza piramidi né camere. La tradizione delle tombe profonde, che vedrai subito dopo, sarebbe arrivata quasi millecinquecento anni più tardi. Ma la cura per i morti è già qui.\n\nCosì comincia la sala dell’Occidente: con un vaso umile, levigato a mano, che ancora oggi pone domande."
+    },
+    "retos_observacion": {
+      "hash": "d7d5c27f6ce81b64",
+      "texto": [
+        "Conta i corpi del vaso e cerca i tubi che li uniscono",
+        "Guarda le linee incise sulla superficie",
+        "Immagina una zucca-bottiglia doppia: somiglia a questa forma?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a108382a93553bf5",
+      "texto": {
+        "Cultura": "Capacha",
+        "Periodo": "Preclassico antico, Formativo (1500-1000 a.C.; intorno al 1450 a.C.)",
+        "Materiale": "Ceramica di argilla marrone scuro o nera levigata, con incisioni sottili e campi punteggiati",
+        "Provenienza": "Colima (sito tipo nell’antica hacienda Capacha), con diffusione verso Jalisco e Michoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "1d9e21acebc3407a",
+      "texto": {
+        "pregunta": "Mito: Le culture antiche del Messico vivevano isolate le une dalle altre.",
+        "respuesta": "Realtà: C’erano scambi a grandi distanze, per terra e forse per mare. Alcuni vasi di Colima somigliano ad altri dell’Ecuador, e si discute se ci sia stato un contatto marittimo."
+      }
+    }
+  }
+}

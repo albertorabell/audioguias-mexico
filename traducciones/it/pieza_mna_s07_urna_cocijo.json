@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_urna_cocijo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1ca6a3676fd7aafe",
+      "texto": "Urna funeraria del dio Cocijo"
+    },
+    "frase_gancho": {
+      "hash": "695518adbcbcb40a",
+      "texto": "Cocijo, il dio zapoteco della pioggia, parente di Tláloc, con occhiali e canini."
+    },
+    "puente_narrativo": {
+      "hash": "d1a60d274011f0d3",
+      "texto": "Dal dio della pioggia passiamo a quello del mais, perché senza l’uno non c’è l’altro. Cerca un’altra urna seduta, il cui copricapo non ha occhiali né canini, ma pannocchie."
+    },
+    "guion_corto": {
+      "hash": "45ed45d093ecb140",
+      "texto": "Questo personaggio seduto, fatto di argilla grigia, è Cocijo, il dio zapoteco della pioggia, del tuono e del fulmine. È alto quasi quaranta centimetri. Guarda il suo volto: ha spessi cerchi attorno agli occhi, una maschera sulla bocca da cui escono canini ricurvi e, nel copricapo, un segno che gli specialisti chiamano Glifo C, legato al recipiente che custodisce le acque del cielo. Le mani riposano sulle ginocchia, in una postura solenne. Le urne come questa non custodivano le ceneri dei morti: venivano collocate in nicchie e tombe, e facevano da guardiani. Per un popolo di agricoltori, chiedere acqua a Cocijo era chiedere vita."
+    },
+    "guion_largo": {
+      "hash": "a7dade59c8dd2f02",
+      "texto": "Se il Tláloc all’esterno del museo ti ha colpito, ecco qui il suo parente di Oaxaca. Si chiamava Cocijo, o Pitao Cocijo, nome che di solito si traduce «il grande fulmine», e come Tláloc dominava la pioggia, il tuono e le nuvole. Gli stessi zapotechi, a quanto si racconta, si chiamavano «gente delle nuvole». Per loro la pioggia non era un dettaglio: da essa dipendeva il mais, e dal mais, tutto.\n\nGuarda il volto. Attorno agli occhi ci sono spessi cerchi, come quelli che porta Tláloc; sopra la bocca, una specie di maschera bifida, da cui escono canini ricurvi che a volte si leggono come lingua di serpente. Al centro del copricapo c’è un segno, il Glifo C, che Alfonso Caso, l’archeologo che esplorò Monte Albán, battezzò con quella lettera. Si collega a un vaso d’acqua o al fulmine, e si ripete in molte urne. È come il sigillo di Cocijo. Ed è così frequente che Caso e il suo collega Ignacio Bernal pubblicarono un intero catalogo di queste figure, intitolato Urnas de Oaxaca: ce ne sono centinaia, e molte portano lo stesso copricapo.\n\nQueste figure si chiamano urne, ma ingannano. Non custodivano né le ceneri né le ossa del defunto. Venivano collocate in nicchie, sulle facciate e negli angoli delle tombe, e funzionavano da guardiani e da messaggeri: si pensa che, attraverso di esse, gli antenati intercedessero presso gli dèi perché piovesse. Alcune avevano, sul retro, un recipiente dove si bruciava il copal, lo stesso incenso che hai già visto nei bracieri di Teotihuacán, perché le preghiere salissero con il fumo.\n\nGuarda come fu fatta. Il corpo fu modellato a mano, e gli ornamenti, come il pettorale di perline e il copricapo, furono incollati in seguito, alcuni fatti con lo stampo e altri con striscioline e palline di argilla. Se ti avvicini, vedrai che la decorazione fu costruita pezzo per pezzo, come una collana. Conserva tracce di pittura rossa, e alcune urne sorelle di Cocijo mantengono anche resti di azzurro.\n\nOgni popolo ebbe il proprio dio della pioggia. I mexica lo chiamavano Tláloc; i maya, Chaac; i mixtechi, vicini degli zapotechi, Dzahui, ed essi stessi si chiamavano «popolo della pioggia». Non si tratta dello stesso dio con un altro nome, ma di dèi parenti: tutti nati dalla stessa necessità, quella che l’acqua arrivasse in tempo. Nella Sala Maya vedrai il volto di Chaac, con un lungo naso che si arriccia verso l’alto.\n\nIl legame con l’acqua era così forte che, ancora oggi, in alcune comunità di Oaxaca si celebrano cerimonie per chiedere la pioggia, sui colli e nelle grotte, con offerte, fiori e copal. È un’usanza che risale sicuramente a ben prima di Cocijo. Quando salirai alle sale di etnografia, forse riconoscerai quel filo.\n\nGuardane la postura: seduto, solenne, con le mani sulle ginocchia. È un dio senza fretta, che non ha bisogno di dimostrare nulla. Dietro quella calma c’è un tuono trattenuto. Una figura di argilla, di quasi quaranta centimetri, che da più di mille anni ripete la stessa cosa: senza acqua, non c’è mais."
+    },
+    "retos_observacion": {
+      "hash": "aa034a933877c3f0",
+      "texto": [
+        "Cerca i cerchi rotondi attorno agli occhi",
+        "Trova il copricapo e il segno che lo corona",
+        "Guarda la bocca: che cosa ne esce?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "783995ec6d61d9af",
+      "texto": {
+        "Cultura": "Zapoteco",
+        "Periodo": "Classico (Monte Albán III, 200-800 d.C.)",
+        "Materiale": "Ceramica modellata in argilla, con tracce di pittura policroma o ingobbio",
+        "Provenienza": "Monte Albán, Valles Centrales, Oaxaca (un altro esemplare di Cocijo proviene da Atzompa)",
+        "Misure": "0.396 m di altezza x 0.38 m di larghezza (urna centrale della Tomba 104; altri esemplari sono più grandi)"
+      }
+    },
+    "faq_mito": {
+      "hash": "b931574f91592854",
+      "texto": {
+        "pregunta": "Mito: Cocijo e Tláloc sono lo stesso dio con un nome diverso.",
+        "respuesta": "Realtà: sono dèi parenti: ogni popolo ebbe il proprio dio della pioggia, con nome, volto e miti propri. Si assomigliano perché tutti rispondevano alla stessa necessità: acqua per il mais."
+      }
+    }
+  }
+}

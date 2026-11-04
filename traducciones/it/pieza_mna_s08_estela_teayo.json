@@ -1,0 +1,59 @@
+{
+  "id": "mna_s08_estela_teayo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "85018674449e0a3a",
+      "texto": "Stele di Quetzalcóatl di Castillo de Teayo"
+    },
+    "frase_gancho": {
+      "hash": "e64a476dc83fa6e0",
+      "texto": "Ehécatl, il dio del vento, scolpito dove si incontravano il mondo huasteco e quello mexica."
+    },
+    "puente_narrativo": {
+      "hash": "f91c6b85fa7413cf",
+      "texto": "Dal vento che muove le nuvole passiamo alla destinazione finale di tutti. Prima di lasciare la sala, esci in giardino e cerca una figura seduta su un trono, così magra da sembrare quasi uno scheletro, con teschi umani sul copricapo."
+    },
+    "guion_corto": {
+      "hash": "34ab7df46a04ea8e",
+      "texto": "Ehécatl significa «vento», e questa stele mostra il dio del vento in piedi, con un alto copricapo a forma di cono, chiamato copilli. Sulla bocca porta una maschera, sul petto un ornamento di conchiglia marina tagliata, l’ehecacózcatl, e in vita una gonna di stoffa. Proviene da Castillo de Teayo, nel nord del Veracruz, ed è del Postclassico recente, gli ultimi secoli prima dell’arrivo degli spagnoli. È un’opera huasteca con una forte impronta mexica. Per questo aiuta a capire fin dove arrivò l’impero mexica sulla costa del Golfo: si pensa che, in quella zona, i mexica abbiano stabilito una colonia strategica."
+    },
+    "guion_largo": {
+      "hash": "7c903626cc5d8998",
+      "texto": "Come si scolpisce il vento? Non si può. Si possono però scolpire i suoi segni, e questa stele lo fa con tre: una maschera sulla bocca, una conchiglia tagliata sul petto e un copricapo a forma di cono. Con questo basta per sapere che ti trovi davanti a Ehécatl, il dio del vento.\n\nIl suo nome è nahuatl e significa, semplicemente, «vento». Qui appare unito a un altro nome: Ehécatl-Quetzalcóatl, la forma di Quetzalcóatl come dio del vento. È lo stesso dio del [serpente piumato](mna_s04_templo_quetzalcoatl) che hai visto a Teotihuacán e a Tula, ma con corpo umano. Secondo un mito nahua, fu lui a soffiare per mettere in movimento il Sole, e il mondo cominciò a camminare.\n\nPercorri i suoi attributi uno per uno. La maschera che gli copre la bocca ricorda un becco di uccello, ed è il modo in cui viene quasi sempre disegnato: il dio che soffia. Sul petto porta l’ehecacózcatl, il «gioiello del vento», una conchiglia marina tagliata a spirale, lo stesso simbolo che hai visto sui merli di Tula e nella conchiglia di bronzo del patio. E sul capo, il copilli, un copricapo alto e conico, che in nahuatl è anche la parola per «corona». Completa l’abbigliamento una gonna di stoffa.\n\nQuesta stele viene da Castillo de Teayo, un sito del nord del Veracruz. Il suo nome moderno glielo diedero gli spagnoli per «El Castillo», una piramide a più corpi. Intorno ad essa sono state trovate sculture di dèi che già conosci o conoscerai, come Tláloc, [Xipe Tótec](mna_s04_xipe_totec) e divinità del mais, il che dice molto di ciò che si chiedeva agli dèi in quella regione: pioggia, rinnovamento e buoni raccolti.\n\nTeayo si trova in terra huasteca. Gli Uastechi abitarono la costa nord del Golfo e parlavano una lingua maya, il teenek, che i loro discendenti parlano ancora oggi. Lo vedrai quando salirai alle sale di etnografia. Tuttavia, nel Postclassico recente, l’impero mexica estese il suo potere fino a questa parte della costa. Gli specialisti vedono perciò nella stele una miscela: una figura eretta e a tutto tondo, in stile locale, con un’iconografia di dèi proveniente dal Messico centrale.\n\nCosa facevano qui i mexica? Si pensa che, in quella zona, abbiano stabilito una colonia strategica, un luogo da cui sorvegliare le rotte e assicurarsi i prodotti della costa: cotone, cacao, piume e altri beni che arrivavano a Tenochtitlan come tributo. Non sappiamo tutti i dettagli, e gli specialisti continuano a discutere quanto fu conquista e quanto scambio.\n\nPer questo questo pezzo racconta qualcosa di più di una storia di dèi. Può essere letto come una dimostrazione di come il potere di Tenochtitlan si estendesse lontano dalla sua isola e si mescolasse con gli stili locali. Gli dèi viaggiavano con gli eserciti, con i mercanti e con i tributi, e ogni regione li vestiva a modo suo.\n\nPrima di proseguire, guarda di nuovo il copricapo, la maschera e la conchiglia. Nel Messico antico, il vento non era un dettaglio del clima: apriva la strada alle piogge, muoveva il Sole e dava aria alle conchiglie che chiamavano ai rituali. Chi scolpì questa pietra volle che, passandole davanti, tu sentissi una folata."
+    },
+    "retos_observacion": {
+      "hash": "41bae6fef8aa7491",
+      "texto": [
+        "Cerca l’alto copricapo a forma di cono",
+        "Trova l’ornamento di conchiglia marina sul petto",
+        "Osserva la maschera che copre la bocca del dio"
+      ]
+    },
+    "especificaciones": {
+      "hash": "625c154f7e6c9f74",
+      "texto": {
+        "Cultura": "Huasteca con influenza Mexica",
+        "Periodo": "Postclassico recente (1200-1521 d.C.)",
+        "Materiale": "Arenaria scolpita ad alto rilievo",
+        "Provenienza": "Castillo de Teayo, nord del Veracruz",
+        "Misure": "142 cm di altezza"
+      }
+    },
+    "faq_mito": {
+      "hash": "b6e10698eec20183",
+      "texto": {
+        "pregunta": "Mito: Quetzalcóatl è sempre rappresentato come un serpente con le piume.",
+        "respuesta": "Realtà: Veniva rappresentato anche come Ehécatl, il dio del vento, in forma umana, con alto copricapo e maschera sulla bocca, come in questa stele."
+      }
+    }
+  }
+}

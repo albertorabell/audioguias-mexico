@@ -1,0 +1,53 @@
+{
+  "id": "mna_s08_palma_sacrificio",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "41571f0063aa9c9a",
+      "texto": "Palma di pietra con rilievo di sacrificio umano"
+    },
+    "frase_gancho": {
+      "hash": "c55386bd216335cc",
+      "texto": "Un ventaglio di pietra che racconta come finiva il gioco più sacro."
+    },
+    "puente_narrativo": {
+      "hash": "2f9d04d8bb36db4b",
+      "texto": "Dopo tanta gravità, il riso. Cerca una piccola figura di argilla, con la testa allungata, che mostra i denti in un sorriso aperto."
+    },
+    "guion_corto": {
+      "hash": "786083689a3f5a63",
+      "texto": "Questa palma di pietra, alta quasi mezzo metro, ha la forma di un ventaglio: stretta alla base e più larga in alto. Così si chiamano i pezzi che accompagnavano i gioghi nel gioco della palla. Sulla faccia principale c’è una scena di sacrificio incisa a rilievo: un personaggio con il giogo alla vita impugna un coltello di selce, e il sangue sgorga in lunghe curve intrecciate che terminano in teste di serpente. Guarda quelle curve, così tipiche dell’arte di El Tajín. Per i popoli del Golfo, il sangue era il nutrimento che manteneva in vita il Sole e portava la pioggia. Questa pietra non è un ricordo sportivo: è un messaggio sacro."
+    },
+    "guion_largo": {
+      "hash": "e03de466df60c6e0",
+      "texto": "Una cosa è sapere che il gioco della palla era sacro, un’altra è vedere fin dove arrivava quell’idea. Questa palma lo mostra senza giri di parole, per cui conviene guardarla con calma.\n\nPartiamo dal nome. Si chiama «palma» per la sua sagoma, che si allarga verso l’alto come la foglia di una palma o un ventaglio. Si pensa che fosse collocata in piedi sulla parte anteriore di un giogo, nelle processioni e nelle cerimonie del gioco. Immagina l’insieme: la cintura di pietra e, sopra, una lastra di pietra con una storia incisa. Per il materiale e le dimensioni, non erano pezzi per giocare, ma per essere visti.\n\nOra la scena. La figura centrale porta il giogo stretto in vita e impugna un coltello di selce. Il sangue sgorga in lunghe volute, come nastri, che finiscono trasformate in serpenti. Secondo alcune descrizioni, sopra la scena vola un rapace, forse un’aquila, lo stesso uccello del Sole che hai visto con il [Guerriero Aquila](mna_s06_guerrero_aguila). Tutto è pieno di movimento, e non c’è un solo spazio senza decorazione. Quelle lunghe curve intrecciate, come nastri che si avvolgono senza mai finire, sono quasi una firma di El Tajín: se un giorno vedrai altre opere di quella città, le riconoscerai subito.\n\nChi era la vittima? Qui c’è una delle grandi domande del gioco della palla. C’è chi pensa che si sacrificasse la squadra perdente. Altri, che l’onore di morire spettasse al vincitore, o a un capitano scelto. E c’è chi crede che non avvenisse dopo ogni partita, ma in occasioni straordinarie. In realtà non lo sappiamo: le immagini non dicono chi abbia vinto. Ciò che vediamo è che, nei rilievi del campo sud di El Tajín, compare anche un giocatore sacrificato, con una figura della morte presente.\n\nPerché del sangue in un gioco? Perché in Mesoamerica il mondo funzionava per scambio: il Sole, la pioggia e il mais davano la vita, e in cambio bisognava restituire loro ciò che c’era di più prezioso, il sangue. Hai già incontrato quest’idea: nei [Danzanti](mna_s07_danzante_montealban) di Monte Albán, il sangue sgorga in volute; in [Coyolxauhqui](mna_s06_coyolxauhqui), il corpo smembrato nutre il dio; nel [Tlaltecuhtli](mna_s06_tlaltecuhtli), la terra chiede di essere nutrita. Qui il sangue si trasforma in serpenti, che a loro volta sono acqua. Non è crudeltà fine a se stessa: è una logica in cui il sangue diventa pioggia, la pioggia diventa mais e il mais diventa gente.\n\nI Maya raccontavano qualcosa di simile. Nel Popol Vuh, i primi giocatori di palla vengono sconfitti dai signori della morte e sacrificati; la testa di uno di loro, appesa a un albero, finisce per dare origine ai gemelli che in seguito sconfiggeranno quei signori. Ritroverai l’eco di questa storia nella Sala Maya.\n\nOggi facciamo fatica a immaginare una partita che finisca così. Ma era proprio questo il punto: non si trattava di vincere una coppa, ma di sostenere l’ordine del mondo. E lo scultore, come un cronista, incise la scena perché nessuno la dimenticasse."
+    },
+    "retos_observacion": {
+      "hash": "209e11b46db575cb",
+      "texto": [
+        "Nota la forma a ventaglio: in quale punto il pezzo è più largo?",
+        "Cerca il coltello di selce nella mano del personaggio",
+        "Segui le lunghe curve: dove terminano?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ecf498636a9279b4",
+      "texto": {
+        "Cultura": "Veracruz centrale / El Tajín",
+        "Periodo": "Classico recente (600-900 d.C.)",
+        "Provenienza": "Regione centrale del Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "01aac139d0ed2cbc",
+      "texto": {
+        "pregunta": "Mito: Nel gioco della palla si sacrificava sempre la squadra perdente.",
+        "respuesta": "Realtà: Non lo sappiamo con certezza. Alcuni pensano che si sacrificasse il perdente; altri, il vincitore, e forse non avveniva dopo ogni partita."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "xoc_18_observatorio",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9a5f1066b768558",
+      "texto": "Il pozzo di luce: l’osservatorio"
+    },
+    "frase_gancho": {
+      "hash": "7a24a77f38289380",
+      "texto": "Una grotta nella montagna dove il Sole entra in giorni precisi dell’anno."
+    },
+    "puente_narrativo": {
+      "hash": "c7b6f7d6c16df78d",
+      "texto": "Prosegui il tuo percorso: ciò che viene dopo ha a che fare anch’esso con il cielo, l’acqua o il tempo."
+    },
+    "guion_corto": {
+      "hash": "6fe1de4a5f0ca185",
+      "texto": "Sotto quest’area c’è una grotta trasformata in osservatorio. Secondo l’INAH, prima fu una cava e poi si sfruttò il vuoto. Ha un pozzo da cui scende un raggio di Sole da fine aprile a metà agosto, circa centocinque giorni. Il Sole passa allo zenit il quattordici maggio. Medina Romero propone che i restanti duecentosessanta giorni siano legati al calendario rituale. Oggi non si può entrare, e le notizie di giugno del duemilaventisei lo confermano. Ma puoi immaginarlo: una città che lasciava entrare il Sole nella montagna per misurare il tempo. Controlla all’ingresso se qualcosa è cambiato."
+    },
+    "guion_largo": {
+      "hash": "9aaee5399cab641f",
+      "texto": "Sotto questa parte del colle c’è un vuoto. Da qui non lo vedrai, ma c’è.\n\nSecondo l’INAH, le grotte sotto la piattaforma nord furono usate prima come cava. Da lì uscì la pietra per costruire. Poi, qualcuno sfruttò quel vuoto e lo trasformò in osservatorio.\n\nLa grotta ha un pozzo, un camino inclinato che sale fino alla superficie. Una fonte gli attribuisce un’altezza di otto metri e settanta centimetri e un coronamento esagonale, e dice che l’interno fu rivestito di stucco dipinto di nero, giallo e rosso.\n\nLa cosa straordinaria accade con il Sole. Morante, Garza e Valencia lo hanno misurato per anni. I raggi diretti entrano da fine aprile a metà agosto, verso mezzogiorno. Il Sole passa allo zenit il quattordici maggio. Secondo El Tlacuache, quel giorno il Sole si proietta sul pavimento per circa quarantacinque minuti. L’ingresso della luce si distribuisce in modo simmetrico attorno al solstizio d’estate: cinquantadue giorni prima, il giorno del solstizio e cinquantadue dopo.\n\nRubén Morante López, che studia il sito da circa trent’anni, spiega che il movimento del Sole si seguiva in due luoghi. Uno era lo zenit, da questa grotta. L’altro era l’orizzonte, con il Popocatépetl e il Cerro Jumil come riferimenti. Sommati, questi giorni fanno centocinque, proprio quanto manca a duecentosessanta per arrivare a trecentosessantacinque. Per Morante, Garza e Valencia, i due calendari mesoamericani sono segnalati in un unico luogo.\n\nPer un certo tempo si pensò che questa grotta fosse una cava come le altre otto che ci sono intorno al colle. Ma la sua volta e il suo pozzo esagonale, con un’inclinazione calcolata con precisione, hanno fatto pensare che servisse a contare il tempo. Secondo Alvarado León, quasi tutti gli studi concordano su un punto. La grotta serviva a osservare due volte l’anno il passaggio del Sole allo zenit, e a misurare l’anno tropicale o a segnare l’inizio dell’estate. A cosa servisse esattamente è oggetto di discussione. Medina Romero propone che gli altri duecentosessanta giorni siano legati al calendario rituale. Una nota dell’INAH dice che aiutava a correggere il calendario. CyArk la vede come un modo di seguire il percorso del Sole verso il Tropico del Cancro.\n\nGli xochicalca non entravano da dove si entra oggi, ma da una grotta a pochi metri dal Gioco della Palla Nord. All’interno c’era una sala di ventotto metri per dieci, con tre pilastri scolpiti nella roccia. In fondo c’è un ambiente ovale di sei metri, la Camera degli Astronomi, da cui parte un secondo pozzo. In settori vicini sono apparsi dischi di ceramica di cinquantaquattro centimetri, con dei fori. Posti sull’orlo del pozzo, lasciano passare la luce in piccoli cerchi che si muovono sul pavimento.\n\nOggi non puoi entrare. L’osservatorio è chiuso al pubblico, e le notizie di giugno del duemilaventisei lo confermano. Controlla all’ingresso se qualcosa è cambiato.\n\nMa l’idea si può immaginare senza scendere. Una città che, per misurare il tempo, non si limitava a guardare il cielo. Lo lasciava entrare nella montagna."
+    },
+    "retos_observacion": {
+      "hash": "cc57f3f3fcded96a",
+      "texto": [
+        "Guarda il terreno dove si trova l’osservatorio",
+        "Immagina un raggio di Sole che cade in una grotta buia",
+        "Chiedi all’ingresso se l’osservatorio è ancora chiuso"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a6f245b1c2960428",
+      "texto": {
+        "Tipo": "grotta scavata alla base di una struttura piramidale",
+        "Luce del Sole": "dal trenta aprile al tredici agosto, circa centocinque giorni, secondo l’INAH",
+        "Massimo": "quattordici o quindici maggio",
+        "Stato": "chiuso al pubblico, secondo Diario de Morelos, giugno del duemilaventisei"
+      }
+    },
+    "faq_mito": {
+      "hash": "63925042c78cc092",
+      "texto": {
+        "pregunta": "Mito: Puoi entrare nell’osservatorio e vedere il raggio di Sole.",
+        "respuesta": "Realtà: È chiuso al pubblico da anni. Controlla lo stato attuale all’ingresso."
+      }
+    }
+  }
+}

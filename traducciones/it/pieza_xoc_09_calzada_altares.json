@@ -1,0 +1,54 @@
+{
+  "id": "xoc_09_calzada_altares",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b712a1fadee7fa9d",
+      "texto": "La strada dei ventuno altari"
+    },
+    "frase_gancho": {
+      "hash": "817befa50b031c72",
+      "texto": "Una fila di altari che sembra un calendario posato sul terreno."
+    },
+    "puente_narrativo": {
+      "hash": "716df23a938eb74c",
+      "texto": "Continua il tuo percorso: ciò che segue mostra come si viveva e si lavorava in città."
+    },
+    "guion_corto": {
+      "hash": "8831acdbca4cc916",
+      "texto": "Una strada rialzata è un cammino largo ed elevato. Questa ha ai lati ventuno altari. Secondo l’INAH, rappresentano i mesi dell’anno cerimoniale e, in un caso, i giorni. México Desconocido descrive venti altari rotondi e uno quadrato, e suggerisce che servissero a contare il calendario di duecentosessanta giorni. Contali mentre avanzi. Entrambi i resoconti concordano sul fatto che gli altari avessero a che fare con il calendario. Camminare tra di essi era percorrere quel calendario passo dopo passo. È una proposta degli specialisti, non un fatto certo, e per questo vale la pena vederli con i tuoi occhi. Qui, il tempo non si guardava soltanto. Si percorreva a piedi."
+    },
+    "guion_largo": {
+      "hash": "2045e493410cc203",
+      "texto": "Conta con lo sguardo. Lungo questa strada c’è una fila di altari, ventuno in tutto, secondo l’INAH.\n\nUna strada rialzata è un cammino largo ed elevato, fatto per camminare con ordine. Questa fa parte del livello intermedio della città, e ai suoi lati si allineano gli altari.\n\nL’INAH spiega che rappresentano i mesi dell’anno cerimoniale e che, in un caso, rappresentano giorni. Cioè, ogni altare occupa un posto all’interno di un calendario.\n\nMéxico Desconocido dà più dettagli. Parla di venti altari rotondi e uno quadrato, nel settore che chiama La Malinche, e dice che forse servivano a calcolare il calendario di duecentosessanta giorni. Quel calendario rituale fu usato in tutta la Mesoamerica.\n\nCome venissero usati lo propongono gli specialisti, ma non è un fatto certo. Quello che sappiamo è che il loro numero e la disposizione in fila invitano a pensare a conteggi e cicli.\n\nForse la gente percorreva la strada in una cerimonia, fermandosi a ogni altare. È una possibilità, non un fatto comprovato.\n\nSe cammini tra di essi, fallo con calma. Ogni passo ti avvicina al prossimo altare e ti ricorda che a Xochicalco il tempo aveva forma e luogo, e si poteva calpestare.\n\nLa città non misurava il tempo soltanto guardando il cielo. Lo misurava anche con pietre poste sul terreno."
+    },
+    "retos_observacion": {
+      "hash": "18b700af1a630f36",
+      "texto": [
+        "Conta gli altari mentre cammini",
+        "Cammina con calma tra di essi",
+        "Immagina quale giorno o mese rappresenterebbe ciascuno"
+      ]
+    },
+    "especificaciones": {
+      "hash": "577bbc8132554847",
+      "texto": {
+        "Quantità": "ventuno altari, secondo l’INAH",
+        "Forme": "venti rotondi e uno quadrato, secondo México Desconocido",
+        "Possibile uso": "contare il calendario rituale di duecentosessanta giorni",
+        "Posizione": "livello intermedio della città"
+      }
+    },
+    "faq_mito": {
+      "hash": "311167ca88b1c159",
+      "texto": {
+        "pregunta": "Mito: Si sa esattamente come venivano usati gli altari.",
+        "respuesta": "Realtà: No. Gli specialisti propongono che rappresentino mesi e giorni del calendario, ma non esiste un testo che ne spieghi l’uso."
+      }
+    }
+  }
+}

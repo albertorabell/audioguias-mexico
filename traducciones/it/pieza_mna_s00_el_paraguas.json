@@ -1,0 +1,54 @@
+{
+  "id": "mna_s00_el_paraguas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "474bba9aa82a6ceb",
+      "texto": "L’Ombrello e la Fontana Invertita"
+    },
+    "frase_gancho": {
+      "hash": "901002b574e27f6f",
+      "texto": "Un ombrello di bronzo dove l’acqua diventa cascata."
+    },
+    "puente_narrativo": {
+      "hash": "21b72f2c32d768d3",
+      "texto": "Segui il mormorio dell’acqua verso il fondo del patio, di fronte alla Sala Mexica. Lì il museo si ferma accanto a uno stagno con piante, un piccolo pezzo dell’antico lago."
+    },
+    "guion_corto": {
+      "hash": "67262e007f22f403",
+      "texto": "Ti trovi sotto L’Ombrello: una copertura enorme, di circa quattromilaquattrocento metri quadrati, che sembra galleggiare su una sola colonna, un’impresa di ingegneria nel 1964. Dal centro cade una cortina d’acqua che rinfresca il patio; per questo la chiamano fontana invertita. Guarda il pilastro: è rivestito di bronzo, con un rilievo dei fratelli José e Tomás Chávez Morado intitolato «Immagine del Messico». Ogni lato racconta una parte della nostra storia: l’origine indigena, la conquista e il meticciato, la lotta per l’indipendenza e il Messico moderno. È il cuore del patio: tutte le sale girano intorno a lui, ed è il posto migliore per fermarti un minuto, ascoltare l’acqua e orientarti."
+    },
+    "guion_largo": {
+      "hash": "1c406944e149c152",
+      "texto": "Per i popoli antichi della Mesoamerica, il centro di una città non era un semplice punto sulla mappa: era l’asse del mondo, il luogo dove si toccavano il cielo, la terra e il mondo sotterraneo. Ramírez Vázquez riprese quell’idea e diede al museo un centro che organizza ogni cosa. Le sale si aprono intorno al patio come le stanze di una casa, e in mezzo lui innalzò una struttura che non esisteva in nessuna città preispanica: un tetto gigante su una sola colonna.\n\nLa sfida tecnica fu enorme. La copertura misura cinquantaquattro per ottantadue metri ed è pensata per lasciare il patio libero da sostegni, in modo che l’aria e la luce continuino a entrare mentre la pioggia non bagna i visitatori. Quella sensazione di leggerezza, con tante tonnellate sopra la testa, fa parte della sua magia. Inoltre, la copertura si inclina dolcemente verso il centro, così l’acqua piovana scorre verso la colonna invece di accumularsi. E la fontana invertita è un dettaglio di ingegneria con tanto di bellezza: invece di cadere dal cielo, l’acqua cade dal centro del tetto, formando una cortina circolare che dà un suono al patio.\n\nMa il vero tesoro è la colonna. I fratelli José e Tomás Chávez Morado l’hanno rivestita di bronzo con un grande rilievo che riassume la storia del Messico e che porta il nome di «Immagine del Messico». Cammina intorno a essa, perché ogni lato si legge come un capitolo. Da una parte c’è il mondo indigeno, con i suoi dèi e la fondazione di Tenochtitlan. Dall’altra, l’arrivo degli europei e il meticciato. Su un terzo lato ci sono le lotte per l’indipendenza, e sul quarto il Messico moderno, con la scienza e l’aspirazione alla pace.\n\nOra pensa a ciò che significa. Questo rilievo è una versione moderna di ciò che facevano i popoli che vedrai all’interno: raccontare il proprio mondo nella pietra e nei simboli, perché nessuno dimentichi chi è. I mexica lo facevano nel [Teocalli](mna_s06_teocalli_guerra_sagrada) e nella [Pietra di Tízoc](mna_s06_tizoc); i maya, negli architravi di Yaxchilán; gli zapotechi, nella Stele dei [Danzantes](mna_s07_danzante_montealban). Qui il linguaggio è il bronzo, ma l’intenzione è la stessa.\n\nUna curiosità: anche se oggi lo vediamo come il simbolo del museo, L’Ombrello fu una scommessa. Un tetto di queste dimensioni, sostenuto da una sola colonna, era un’impresa di ingegneria per la sua epoca. E nota un paradosso delizioso: l’edificio dedicato alle civiltà che non conoscevano né l’arco né il ferro inaugura qui una struttura possibile solo con l’acciaio e il cemento del Novecento. L’antico e il moderno si stringono la mano di proposito.\n\nPrima di proseguire, fermati al centro, respira e ascolta l’acqua. Quella cortina di suono è la transizione perfetta: tra pochi passi entrerai in una storia di migliaia di anni."
+    },
+    "retos_observacion": {
+      "hash": "8650fbe345e55a00",
+      "texto": [
+        "Cammina intorno alla colonna e leggi i quattro lati del rilievo di bronzo come se fossero quattro capitoli",
+        "Cerca nel bronzo l’aquila, il giaguaro, le caravelle e l’atomo",
+        "Chiudi gli occhi un momento e ascolta la cortina d’acqua che cade dal centro del tetto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bcd8b54b0741d9de",
+      "texto": {
+        "Cultura": "Architettura moderna messicana: Pedro Ramírez Vázquez e Félix Candela (struttura); rilievo in bronzo «Immagine del Messico» di José e Tomás Chávez Morado con sceneggiatura storica di Jaime Torres Bodet",
+        "Periodo": "Inaugurato il 17 settembre 1964",
+        "Materiale": "Copertura in alluminio e acciaio sostenuta da 80 cavi tenditori e da una colonna di cemento di 11 m rivestita di bronzo",
+        "Misure": "82 x 54 m (4.428 m²)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c7752b1ca95e3679",
+      "texto": {
+        "pregunta": "Mito: L’Ombrello è solo un tetto con una fontana per non bagnarti.",
+        "respuesta": "Realtà: La sua colonna è un’opera d’arte: un rilievo di bronzo che riassume la storia del Messico in quattro lati."
+      }
+    }
+  }
+}

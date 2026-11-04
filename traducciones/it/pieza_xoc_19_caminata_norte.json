@@ -1,0 +1,53 @@
+{
+  "id": "xoc_19_caminata_norte",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18d839e7b882fc73",
+      "texto": "Camminata: verso il complesso nord"
+    },
+    "frase_gancho": {
+      "hash": "a1a7dc86d8c04756",
+      "texto": "Un breve tragitto verso la cisterna, l’altare policromo e il temazcal."
+    },
+    "puente_narrativo": {
+      "hash": "928a7098704ed970",
+      "texto": "Continua il tuo percorso: prosegui attraverso la città."
+    },
+    "guion_corto": {
+      "hash": "54b79d2b212cac48",
+      "texto": "Ora ti allontani dalla piazza verso nord. Questa camminata porta al complesso nord, dove l’INAH colloca una cisterna, un altare policromo e un temazcal. L’INAH menziona una cisterna a nord della piazza, parte del sistema idrico. Mentre cammini, pensa a una domanda semplice: da dove prendeva l’acqua una città costruita su un colle. Un temazcal è un bagno di vapore. Quello del complesso nord ebbe, secondo l’INAH, una finalità cerimoniale. La cisterna raccoglieva acqua piovana, secondo México Desconocido, e aveva un drenaggio. Non c’è bisogno di avere fretta. Osserva il terreno: l’acqua scende sempre. La prossima tappa spiega queste opere più in dettaglio."
+    },
+    "guion_largo": {
+      "hash": "05a1d05df39cb154",
+      "texto": "Ora ti allontani dalla piazza verso nord.\n\nQuesta camminata porta al complesso nord. Secondo l’INAH, lì si trovano una cisterna, una sala con un altare policromo e un temazcal.\n\nL’osservatorio che ti lasci alle spalle si trova, secondo l’INAH, in grotte sotto la piattaforma nord. Prima furono una cava e poi un osservatorio. Cioè, questa parte della città era scavata all’interno e costruita all’esterno.\n\nL’INAH menziona una cisterna a nord della piazza, parte del sistema idrico. México Desconocido la descrive come una cisterna per l’acqua piovana con drenaggio.\n\nMentre cammini, pensa a una domanda semplice: da dove prendeva l’acqua una città costruita su un colle. La risposta sta nelle opere che quasi non si vedono.\n\nUn temazcal è un bagno di vapore. Secondo la guida dell’INAH, quello del complesso nord ebbe una finalità cerimoniale. Altre fonti lo collocano in altri complessi, e non c’è ancora accordo sulla sua posizione esatta.\n\nNon c’è bisogno di avere fretta. Le camminate sono pensate per ascoltare mentre avanzi, senza guardare lo schermo. La tappa successiva ti racconta di più sull’acqua."
+    },
+    "retos_observacion": {
+      "hash": "8e5c80effe7c3947",
+      "texto": [
+        "Osserva verso dove scende il terreno",
+        "Cerca la cisterna prima di arrivare",
+        "Ascolta mentre cammini, senza guardare lo schermo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6107c586ab2a117d",
+      "texto": {
+        "Destinazione": "complesso nord",
+        "Spazi": "cisterna, altare policromo e temazcal, secondo l’INAH",
+        "Osservatorio": "in grotte sotto la piattaforma nord, secondo l’INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "950bea6f8afb80d4",
+      "texto": {
+        "pregunta": "Mito: L’osservatorio si trova sulla sommità della piramide.",
+        "respuesta": "Realtà: È una grotta scavata alla base; il pozzo di luce si apre in alto."
+      }
+    }
+  }
+}

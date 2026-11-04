@@ -1,0 +1,26 @@
+{
+  "id": "sala-03-preclasico-altiplano-central",
+  "tipo": "sala",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "4ee9c3f18d8f0b31",
+      "texto": "Preclassico nell’Altopiano Centrale"
+    },
+    "frase_gancho": {
+      "hash": "ab0af0fdd68865fb",
+      "texto": "Qui il seme diventa villaggio."
+    },
+    "introduccion_narrativa": {
+      "hash": "c2c699d1650eab50",
+      "texto": "Finisce il tempo dei cacciatori e comincia quello dei vicini di casa. Il seme con cui si chiudeva la sala precedente è già germogliato: ora ci sono case di fango e paglia, milpe, cani, ceramica e feste. Sono più di duemila anni, dal 2500 avanti Cristo fino ai primi secoli della nostra era, in cui i villaggi dell’Altopiano Centrale diventano paesi e, alla fine, la prima grande città della valle. Vedrai il villaggio-cimitero di Tlatilco, gli echi lontani degli Olmechi e il plastico di Cuicuilco, sepolta da un vulcano. Tra figurine di donne, animali d’acqua e dèi antichi, qui si scrive il prologo di tutto ciò che verrà."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "xoc_26_templo_arquitectos",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "914f5b01128cc0bd",
+      "texto": "Il Tempio degli Architetti"
+    },
+    "frase_gancho": {
+      "hash": "4e475670f5712dc0",
+      "texto": "Un patio dove sono comparsi attrezzi da cantiere."
+    },
+    "puente_narrativo": {
+      "hash": "0d1efbba7db61079",
+      "texto": "Segui il tuo percorso: continua attraverso gli spazi di lavoro e di potere della città."
+    },
+    "guion_corto": {
+      "hash": "ee5c4f2b792e04eb",
+      "texto": "Questo edificio si chiama Tempio degli Architetti, o anche Patio Hundido, il Patio Affondato. Secondo la guida dell’INAH, qui sono comparsi attrezzi da costruzione: fili a piombo, miscelatori e levigatori. Un filo a piombo è un filo con un peso all’estremità, che serve a verificare che una parete sia verticale. Un levigatore rende liscia la superficie della pietra. L’INAH Lugares descrive nel complesso orientale un edificio rettangolare con un patio affondato, che potrebbe essere proprio questo. I nomi moderni dicono più su chi li ha dati che su chi ha costruito. Eppure, vedere qui degli attrezzi da cantiere ricorda che qualcuno ha dovuto misurare, livellare e levigare ogni pietra. È un buon posto per pensare ai mestieri."
+    },
+    "guion_largo": {
+      "hash": "12bca65ed3488fc0",
+      "texto": "Il nome suona come un titolo, ma viene da ciò che è stato trovato qui.\n\nSi chiama Tempio degli Architetti, e anche Patio Hundido, il Patio Affondato. Secondo la guida dell’INAH, in questo luogo sono comparsi attrezzi da costruzione: fili a piombo, miscelatori e levigatori.\n\nUn filo a piombo è un filo con un peso sulla punta. Serve a verificare che un muro sia dritto. Un levigatore è una pietra con cui si rende liscia la superficie di un’altra.\n\nL’INAH Lugares menziona, nel complesso orientale, un edificio rettangolare con un patio affondato. Potrebbe essere lo stesso.\n\nI nomi moderni dicono più su chi li ha dati che su chi ha costruito. Nessuno sa come si chiamasse questo edificio nella città. Quello che sappiamo è ciò che suggerisce il ritrovamento: qui sono stati conservati o usati degli attrezzi da cantiere.\n\nPensa al lavoro che sta dietro a una città come questa. Qualcuno ha dovuto misurare, livellare, tagliare e levigare ogni pietra, e tracciare terrazze su un colle.\n\nQuando guardi il patio affondato, immagina quegli attrezzi sul pavimento. È un modo per vedere i costruttori, e non solo i governanti."
+    },
+    "retos_observacion": {
+      "hash": "5b60a2a6220bcbb5",
+      "texto": [
+        "Cerca il patio affondato",
+        "Immagina dove si trovassero gli attrezzi",
+        "Pensa a quante persone sarebbero servite per innalzare un edificio come questo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "779a73f4796f3331",
+      "texto": {
+        "Nomi": "Tempio degli Architetti e Patio Hundido (Patio Affondato)",
+        "Ritrovamento": "fili a piombo, miscelatori e levigatori, secondo la guida dell’INAH",
+        "Ubicazione": "complesso orientale"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c12928ab59318a5",
+      "texto": {
+        "pregunta": "Mito: Un tempio è sempre un luogo solo per gli dèi.",
+        "respuesta": "Realtà: Il nome moderno deriva dagli attrezzi da cantiere ritrovati, non da una funzione religiosa dimostrata."
+      }
+    }
+  }
+}

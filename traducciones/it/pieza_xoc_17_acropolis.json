@@ -1,0 +1,54 @@
+{
+  "id": "xoc_17_acropolis",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cd41b8a194f98eaf",
+      "texto": "L’Acropoli"
+    },
+    "frase_gancho": {
+      "hash": "68e05cacc5800d4e",
+      "texto": "Il punto più alto, dove viveva e amministrava l’élite."
+    },
+    "puente_narrativo": {
+      "hash": "5d530a08d8e11334",
+      "texto": "Continua il tuo percorso: ciò che segue ha a che fare con il potere e con il cielo."
+    },
+    "guion_corto": {
+      "hash": "0ea8521552d71e91",
+      "texto": "Ti trovi nel punto in cui, secondo varie fonti, viveva e governava l’élite di Xochicalco. L’INAH spiega che l’Acropoli sorge su una piattaforma di sei metri, a ovest della Plaza Principal. Ha edifici attorno a un Patio Centrale. Kenneth Hirth la descrive come il palazzo del governante e centro amministrativo della città. Medina Romero la colloca nel punto più alto del sito e menziona un tempio-palazzo, botteghe, magazzini e uffici. A sud la circonda un muro di quattro metri con bastioni e fossati. Pensa a come si vede la città da qui. La Plaza Principal si trova ai tuoi piedi, verso est. Vedere ed essere visti erano forme di potere."
+    },
+    "guion_largo": {
+      "hash": "de5281fcec350174",
+      "texto": "Salire cambia la prospettiva. Questa è l’Acropoli.\n\nSecondo l’INAH, l’Acropoli si erge su una piattaforma di sei metri, a ovest della Plaza Principal. Ha vari edifici disposti attorno a un Patio Centrale. Questa forma ricorda quella del Palazzo.\n\nKenneth Hirth la descrive come il palazzo del governante e il centro amministrativo di Xochicalco. Medina Romero va nella stessa direzione: dice che è il punto più alto del sito e che lì c’erano un tempio-palazzo, botteghe, magazzini e aree di amministrazione.\n\nLa guida dell’INAH la menziona tra le costruzioni della Plaza Principal e la indica come la residenza dei governanti. Andrews e Glascock aggiungono che l’Acropoli aveva il palazzo principale, quattro grandi spazi di stoccaggio e un temazcal. È una delle due zone in cui sono state trovate più armi, il che suggerisce che la sicurezza dell’élite fosse una priorità.\n\nAlvarado León la descrive come il complesso di maggior volume della città. Lucet aggiunge qualcosa di poco comune in Mesoamerica: alla sua struttura più alta fu aggiunto un secondo piano. A sud, l’Acropoli è difesa da un muro di quattro metri con bastioni e fossati, secondo Medina Romero. Un bastione è una parte del muro che sporge per sorvegliare e difendere. Un fossato è una trincea. Questo significa che il luogo in cui vivevano i governanti era anche tra i meglio protetti.\n\nOra pensa alla vista. Da un luogo alto si vede chi arriva e chi sale. La Plaza Principal si trova ai tuoi piedi, verso est.\n\nCiò che sappiamo con certezza è modesto: una piattaforma, vari edifici e una città difesa. Il resto si completa con l’immaginazione e con prudenza."
+    },
+    "retos_observacion": {
+      "hash": "7ad74e5c63ba51a6",
+      "texto": [
+        "Guarda verso est e individua la Plaza Principal",
+        "Cerca il Patio Centrale",
+        "Immagina chi vedeva arrivare colui che viveva qui"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f5bbfd4ee4caf7ee",
+      "texto": {
+        "Altezza della piattaforma": "sei metri, secondo l’INAH",
+        "Posizione": "a ovest della Plaza Principal",
+        "Uso": "palazzo del governante e centro amministrativo, secondo Hirth",
+        "Difesa": "muro di quattro metri con bastioni e fossati a sud, secondo Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "32a8a38a48c09889",
+      "texto": {
+        "pregunta": "Mito: L’Acropoli era un tempio.",
+        "respuesta": "Realtà: Le fonti la descrivono come residenza e centro amministrativo dei governanti, con botteghe e magazzini."
+      }
+    }
+  }
+}

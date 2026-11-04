@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_tablero_cruz",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7e147b0d606407e2",
+      "texto": "Tavola della Croce di Palenque"
+    },
+    "frase_gancho": {
+      "hash": "739924d51876e119",
+      "texto": "Un bambino e un re adulto, lo stesso uomo, ai lati di una croce sacra."
+    },
+    "puente_narrativo": {
+      "hash": "95c9142a818ddf57",
+      "texto": "Da Palenque passiamo al palazzo di un altro regno, sulle rive del fiume Usumacinta. Cerca un rilievo di pietra con due figure una di fronte all’altra: un re e una regina che gli porge un elmo di giaguaro."
+    },
+    "guion_corto": {
+      "hash": "333aab32547f6b0c",
+      "texto": "Un bambino di sei anni e un re adulto compaiono sulla stessa pietra, e sono lo stesso uomo: Kan Bahlam, figlio e successore di [Pakal](mna_s09_mascara_pakal). È una grande tavola di pietra calcarea del Gruppo delle Croci di Palenque, un’opera maya del Classico recente, scolpita intorno all’anno 692. Gli specialisti vi leggono due momenti della sua vita: da bambino, quando fu presentato come erede, un fatto dell’anno 641, e da adulto, quando ricevette il potere, nell’anno 684. Al centro si innalza una pianta sacra a forma di croce. Ai lati, colonne di geroglifici raccontano chi fu e perché toccava a lui governare. È un argomento politico scolpito nella pietra."
+    },
+    "guion_largo": {
+      "hash": "c3b90339d9f90549",
+      "texto": "Immagina che tuo padre, il re più famoso della città, sia appena morto e che ora tocchi a te governare. Come convinci tutti di averne il diritto? Kan Bahlam, il figlio di [Pakal](mna_s09_mascara_pakal), lo fece con una pietra: fece scolpire questa tavola e la collocò nel luogo più sacro di un tempio.\n\nÈ un’opera maya del Classico recente, scolpita intorno all’anno 692 in pietra calcarea. Viene da Palenque, in Chiapas, dal Gruppo delle Croci, un insieme di tre templi: quello della Croce, quello del Sole e quello della Croce Fogliata. Ciascuno custodiva nel suo santuario interno una grande tavola come questa, con una scena e un testo che si leggevano come un unico messaggio.\n\nGuarda i personaggi. Il re compare due volte: da bambino, a sei anni, e da adulto. Secondo la lettura degli specialisti, la scena del bambino ricorda l’anno 641, quando fu presentato come erede; quella dell’adulto, l’anno 684, quando ricevette le insegne del potere, pochi mesi dopo la morte del padre. Tra un momento e l’altro passarono quarantatré anni, e la pietra li riunisce in una sola immagine, come se tutto fosse stato deciso fin dal principio.\n\nTra le due figure si innalza una pianta sacra a forma di croce. Per i maya non era un simbolo cristiano: era l’asse del mondo, un albero o una pianta di mais che univa il mondo sotterraneo, la terra e il cielo. Furono scolpite molto prima dell’arrivo degli spagnoli, e per questo la chiamiamo «croce» solo per la sua forma.\n\nAi lati scorrono i testi, intere colonne di geroglifici. Questa è la parte più importante, anche se la più difficile da vedere. Raccontano che, secondo la tradizione di Palenque, gli dèi protettori della città erano nati in tempi mitici, e che il re era il loro erede sulla terra. Così la storia personale di Kan Bahlam si univa a quella degli dèi della sua città, e il suo diritto a governare sembrava antico quanto l’universo.\n\nPensala come un manifesto politico, ma scolpito per durare. I governanti di oggi usano discorsi, annunci e social network; Kan Bahlam usò calcare, scultori e diversi anni di lavoro. E funzionò: più di milletrecento anni dopo, il suo nome è arrivato fino a te.\n\nSe vieni dalla [cripta di Pakal](mna_s09_cripta_pakal), conosci già il padre: il re il cui volto era coperto di giada. Qui conosci il figlio, quello che ereditò la città e governò fino all’anno 702. In quegli anni costruì questo gruppo di templi per chiarire che la dinastia era ancora in piedi. Una tomba per il padre e tre templi per il figlio: la storia di una famiglia, raccontata in due tipi di pietra.\n\nPrima di proseguire, confronta le due figure del re. Che cosa cambia nel corpo, nell’acconciatura e nella postura del bambino e dell’adulto? In questa pietra il tempo non passa: il bambino e il re sono una cosa sola."
+    },
+    "retos_observacion": {
+      "hash": "f033df1db6d94a2a",
+      "texto": [
+        "Cerca i due ritratti del re: uno da bambino e uno da adulto",
+        "Trova la pianta sacra a forma di croce che sta tra loro",
+        "Guarda le colonne di geroglifici ai lati: sono il testo che spiega la scena"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a01539b997eb1885",
+      "texto": {
+        "Cultura": "Maya, Palenque",
+        "Periodo": "Classico recente (intorno al 692 d.C.)",
+        "Material": "Pietra calcarea, bassorilievo su più lastre",
+        "Procedencia": "Gruppo delle Croci, Palenque, Chiapas"
+      }
+    },
+    "faq_mito": {
+      "hash": "1e7546d953929576",
+      "texto": {
+        "pregunta": "Mito: La croce della tavola è un simbolo cristiano arrivato con gli spagnoli.",
+        "respuesta": "Realidad: È una pianta o un albero sacro maya a forma di croce, scolpito intorno all’anno 692, molto prima dell’arrivo degli spagnoli."
+      }
+    }
+  }
+}

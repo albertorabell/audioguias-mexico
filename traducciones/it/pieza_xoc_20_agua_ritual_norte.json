@@ -1,0 +1,54 @@
+{
+  "id": "xoc_20_agua_ritual_norte",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "af521cbba637d651",
+      "texto": "Acqua, vapore e colore: il complesso nord"
+    },
+    "frase_gancho": {
+      "hash": "f08d9eae7fd4fd56",
+      "texto": "Dove una città in alto risolveva l’acqua, il corpo e il rito."
+    },
+    "puente_narrativo": {
+      "hash": "9286c56fe98c55d4",
+      "texto": "Continua il tuo percorso: ciò che segue mostra altri spazi della città."
+    },
+    "guion_corto": {
+      "hash": "2aa5f680642ae22c",
+      "texto": "Una città di tra diecimila e quindicimila persone, in cima a un colle, doveva risolvere il problema dell’acqua. Secondo l’INAH, a nord della piazza c’è una cisterna, parte del sistema idrico. México Desconocido la descrive come una cisterna per l’acqua piovana, con drenaggio. La guida dell’INAH include qui un temazcal, un bagno di vapore con finalità cerimoniale, e il Salone dell’Altare Policromo, che aiuta a capire come si costruivano i tetti. Policromo vuol dire dipinto in vari colori. Secondo Andrews e Glascock, c’erano temazcal nell’Acropoli e in questo settore nord. Verifica con il personale del sito qual è quale. Qui si viveva, si lavorava e si pregava."
+    },
+    "guion_largo": {
+      "hash": "e922cbbb9d244cde",
+      "texto": "Una città in alto affronta un problema che nelle foto non si vede: l’acqua.\n\nSecondo Hirth, a Xochicalco arrivarono a vivere tra diecimila e quindicimila persone. Tutte avevano bisogno di bere, cucinare e lavorare. L’INAH menziona una cisterna a nord della piazza, parte del sistema idrico della città. México Desconocido la descrive come una cisterna per l’acqua piovana, con drenaggio. Cioè, c’era un modo di raccogliere la pioggia e di far defluire l’eccesso.\n\nMolto vicino, secondo la guida dell’INAH, si trovava il temazcal. Un temazcal è un bagno di vapore. La guida dice che ebbe una finalità cerimoniale, cioè che serviva a purificare il corpo e anche per le cerimonie. Secondo Andrews e Glascock, c’erano temazcal in due luoghi. Uno era nell’Acropoli e l’altro in questo settore nord, accanto al campo del gioco della palla. In quello stesso settore menzionano una grande diga. Se vedi una piccola stanza con panche addossate alle pareti, può essere lui.\n\nIl terzo spazio è il Salone dell’Altare Policromo. Policromo vuol dire dipinto in vari colori. Secondo la guida dell’INAH, questo salone aiuta a capire come si costruivano i tetti della città. Una fonte racconta che i rilievi della Piramide dei Serpenti Piumati erano dipinti di rosso, verde, giallo, azzurro, nero e bianco. Immagina il colore anche qui.\n\nAcqua, vapore e colore. Tre cose che nella nostra vita sono separate e che qui condividevano uno stesso angolo della città.\n\nQuando percorrerai questo complesso, non cercare grandi monumenti. Cerca le tracce della vita quotidiana: dove si conservava l’acqua, dove si purificava il corpo e dove si pregava."
+    },
+    "retos_observacion": {
+      "hash": "8f158c8520384e56",
+      "texto": [
+        "Cerca la cisterna e osserva verso dove scende il terreno",
+        "Cerca una piccola stanza con panche addossate alle pareti",
+        "Immagina il colore sulle pareti del salone"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5aaf1bfebcd7af84",
+      "texto": {
+        "Cisterna": "a nord della piazza, per l’acqua piovana e con drenaggio",
+        "Temazcal": "bagno di vapore con finalità cerimoniale, secondo la guida dell’INAH",
+        "Salone dell’Altare Policromo": "aiuta a capire come si costruivano i tetti",
+        "Temazcal (due)": "uno nell’Acropoli e uno nel settore nord, accanto al campo, secondo Andrews e Glascock"
+      }
+    },
+    "faq_mito": {
+      "hash": "13dd9c942bf1ccad",
+      "texto": {
+        "pregunta": "Mito: Un temazcal era solo un bagno.",
+        "respuesta": "Realtà: Secondo la guida dell’INAH, quello di Xochicalco ebbe una finalità cerimoniale."
+      }
+    }
+  }
+}

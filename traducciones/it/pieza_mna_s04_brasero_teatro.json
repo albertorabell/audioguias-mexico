@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_brasero_teatro",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "31cf0531f7c411c9",
+      "texto": "Braciere cerimoniale tipo teatro"
+    },
+    "frase_gancho": {
+      "hash": "78471353919c5ebd",
+      "texto": "Un altare d’argilla a forma di teatro per parlare con gli antenati."
+    },
+    "puente_narrativo": {
+      "hash": "9de66df35687c9d7",
+      "texto": "Per chiudere la sala, cerca gli animali che accompagnavano gli dei di Teotihuacán: giaguari, serpenti, coyote e uccelli, che si affacciano nei murali e nei vasi. È l’ultimo angolo prima di lasciare la città."
+    },
+    "guion_corto": {
+      "hash": "006ded1fb9555f3a",
+      "texto": "Questo è uno dei bracieri detti «tipo teatro», una delle creazioni di argilla più tipiche di Teotihuacán. È alto settantasei centimetri e lo trovò nel 1911 l’archeologo Manuel Gamio ad Azcapotzalco. Ha due parti: una scodella conica per bruciare il copal e, dietro, un camino coperto da una facciata come di palcoscenico. Al centro, la maschera di un personaggio, un antenato divinizzato, con grandi orecchini. Intorno ci sono placche fatte con stampi: farfalle, uccelli, scudi, fiori e nappe. È un altare portatile, pensato per parlare con i morti attraverso il fumo, nel patio di una casa o in un tempio del quartiere."
+    },
+    "guion_largo": {
+      "hash": "43747d2c1e86743d",
+      "texto": "La sua storia comincia nel 1911 ad Azcapotzalco, oggi parte di Città del Messico, a decine di chilometri da Teotihuacán. Lì Manuel Gamio realizzò uno scavo per strati, considerato uno dei primi in Messico con quel metodo: procedeva dall’alto verso il basso e registrava ogni livello. Dimostrò qualcosa che oggi sembra ovvio: che sotto lo strato mexica ce n’erano altri più antichi, e che Teotihuacán aveva lasciato tracce al di fuori della propria valle.\n\nIl nome «teatro» non è antico; lo hanno dato gli archeologi. Il camino sembra un sipario o un palcoscenico: due pilastri laterali, un coronamento a gradini in alto e, in mezzo, una nicchia da cui si affaccia il personaggio. In realtà era un altare. Nella scodella in basso si bruciava il copal, il fumo saliva lungo il camino e usciva da dietro, e il volto sembrava avvolto in una nuvola.\n\nLa cosa più sorprendente è come è fatto. Le farfalle, gli uccelli, gli scudi e i fiori non venivano modellati uno per uno: si facevano con stampi e si incollavano in serie, come i pezzi di un gioco di costruzioni. È una specie di produzione in serie di circa millecinquecento anni fa. Questo indica che c’erano botteghe che fabbricavano questi altari per molte case, e che la religione di Teotihuacán era anche un mestiere con i suoi specialisti.\n\nBracieri come questo sono stati trovati nei quartieri e nelle abitazioni, non solo nei templi. Facevano parte del culto degli antenati: ogni famiglia, ogni quartiere, manteneva vivo il ricordo dei propri morti con fumo e offerte. È una versione di Teotihuacán che sta in un patio. E ci ricorda che la città non era fatta solo di piramidi e governanti, ma anche di gente comune con un altare in casa.\n\nI simboli che circondano la maschera sono militari e cosmici: farfalle con le ali aperte, che secoli dopo i Mexica avrebbero messo in relazione con le anime dei guerrieri morti; piume di quetzal; scudi con dardi. C’è chi vi legge un messaggio: l’antenato è anche un guerriero e un protettore. Ciò che si brucia sono resine; ciò che si chiede è protezione.\n\nIl copal, la resina di un albero, si usa ancora oggi in Messico nelle cerimonie e negli altari dei morti. Nelle sale di etnografia del piano di sopra vedrai come quell’usanza sopravvive nei villaggi di oggi: il fumo aromatico che sale, l’altare allestito con cura, l’idea che i morti tornino a far visita ai vivi. Il braciere di Teotihuacán è uno dei loro antenati.\n\nAzcapotzalco custodisce un’altra storia. Secoli dopo Teotihuacán fu la capitale dei Tepanechi, un potente signorato che dominò la valle del Messico. I Mexica pagavano loro tributo, finché nel 1428 si ribellarono e, alleati con altri popoli, come i texcocani di Nezahualcóyotl, il re poeta di cui già conosci il nome, sconfissero il loro signore Maxtla. Fu l’inizio dell’impero mexica.\n\nQuesto significa che il luogo dove fu trovato questo braciere fu presente in due grandi momenti della storia della valle: l’espansione di Teotihuacán e la nascita dell’impero mexica. Quando arriverai alla Sala Mexica, ricorda che la storia che vedrai lì cominciò, in parte, proprio in questo quartiere."
+    },
+    "retos_observacion": {
+      "hash": "fd5803e88e8050e2",
+      "texto": [
+        "Cerca la maschera del personaggio al centro e i suoi grandi orecchini",
+        "Conta le farfalle e gli uccelli fatti con lo stampo",
+        "Immagina il fumo che sale lungo il camino, dietro la facciata"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2ed579888c421cde",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico recente (450-650 d.C.)",
+        "Materiale": "Ceramica policroma, con pigmenti calcarei",
+        "Provenienza": "Azcapotzalco, Città del Messico",
+        "Misure": "0,76 m di altezza x 0,414 m di diametro",
+        "Ritrovamento": "Trovato intero nel 1911 da Manuel Gamio ad Azcapotzalco"
+      }
+    },
+    "faq_mito": {
+      "hash": "2e9396442be9114b",
+      "texto": {
+        "pregunta": "Mito: I bracieri «tipo teatro» si usavano per rappresentare opere teatrali.",
+        "respuesta": "Realtà: Il nome è moderno, per la loro forma di palcoscenico; erano altari dove si bruciava il copal per gli antenati."
+      }
+    }
+  }
+}

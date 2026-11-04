@@ -1,0 +1,53 @@
+{
+  "id": "xoc_23_otras_canchas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3d801a35963b0b8f",
+      "texto": "Gli altri due campi del gioco della palla"
+    },
+    "frase_gancho": {
+      "hash": "733c1e2b93a4cb57",
+      "texto": "Un campo con i marcatori caduti e un altro i cui marcatori oggi si trovano nel museo."
+    },
+    "puente_narrativo": {
+      "hash": "f1a4fb145d300f85",
+      "texto": "Continua il tuo percorso: prosegui visitando la città."
+    },
+    "guion_corto": {
+      "hash": "f8cf6e8fb5043588",
+      "texto": "Ormai conosci il campo sud, il più grande e il più facile da raggiungere. Gli altri due raccontano un’altra storia. Secondo la guida dell’INAH, il campo nord ha le strutture laterali più alte, e i suoi marcatori sono caduti nel corridoio centrale. Il campo est, collegato alla Rampa degli Animali, ha marcatori con bassorilievo che oggi sono esposti nel Museo del Sito. Un marcatore è una pietra scolpita che si collocava nel muro del campo. Medina Romero spiega che i tre campi guardano verso tre dei quattro punti cardinali. Confrontali: ognuno ha la propria altezza, il proprio stato e il proprio destino."
+    },
+    "guion_largo": {
+      "hash": "e09c2932277ef2ab",
+      "texto": "Ormai conosci il campo sud, il più grande e il più facile da raggiungere. Gli altri due raccontano storie diverse.\n\nSecondo la guida dell’INAH, il campo nord si trova sulla terza terrazza e ha le strutture laterali più alte dei tre. I suoi marcatori, che erano pietre scolpite collocate nel muro, sono caduti nel corridoio centrale.\n\nIl campo est, secondo la stessa guida, si trova anch’esso sulla terza terrazza. I suoi marcatori hanno un bassorilievo, cioè figure scolpite che sporgono poco dalla pietra, e oggi sono esposti nel Museo del Sito. Secondo l’INAH, la Rampa degli Animali è collegata a questo campo. Ciò suggerisce che il gioco e la rampa facessero parte dello stesso complesso.\n\nMedina Romero spiega che il colle principale ebbe tre campi, orientati verso tre dei quattro punti cardinali. Quello sud era il più grande e facile da raggiungere. Hirth ne conta cinque: tre sul colle e altri due su colli vicini.\n\nSecondo Andrews e Glascock, il settore del campo nord era uno spazio molto riservato all’élite dominante. Il campo est, invece, ha una scalinata prominente orientata a est, il che suggerisce un accesso più pubblico. Tre campi su uno stesso colle parlano di quanto fosse importante il gioco per la gente di Xochicalco, come lo fu in molte città della Mesoamerica.\n\nSe ti trovi in piedi in uno di essi, osserva l’altezza delle strutture laterali e confrontala con ciò che hai visto nel campo sud. Ognuno ha la propria altezza, il proprio stato e il proprio destino."
+    },
+    "retos_observacion": {
+      "hash": "dbccec1f191a730b",
+      "texto": [
+        "Confronta l’altezza dei muri con il campo sud",
+        "Cerca i marcatori caduti nel corridoio",
+        "Chiedi nel museo dei marcatori con bassorilievo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "77c32fe4a97b8191",
+      "texto": {
+        "Campo nord": "terza terrazza, strutture laterali più alte, marcatori caduti",
+        "Campo est": "terza terrazza, marcatori con bassorilievo nel Museo del Sito",
+        "Orientamento": "verso tre dei quattro punti cardinali, secondo Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "5c3ba22e47883a92",
+      "texto": {
+        "pregunta": "Mito: Tutti i campi di Xochicalco sono uguali.",
+        "respuesta": "Realtà: Ognuno ha un’altezza, uno stato di conservazione e un destino dei propri pezzi diversi."
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "xoc_10_palacio",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1d592daab735a069",
+      "texto": "Il Palazzo"
+    },
+    "frase_gancho": {
+      "hash": "c20a3309c0baa591",
+      "texto": "Stanze, cucine, laboratori e magazzini attorno a dei cortili."
+    },
+    "puente_narrativo": {
+      "hash": "da470518487f8f15",
+      "texto": "Prosegui il tuo percorso: ora la città diventa più alta e più chiusa."
+    },
+    "guion_corto": {
+      "hash": "f8ef89c8ed345c5f",
+      "texto": "Un palazzo non è solo lusso. Secondo l’INAH, questo complesso del livello intermedio riunisce stanze, cucine, laboratori, magazzini e un temazcal, tutto attorno a dei cortili. Un temazcal è un bagno di vapore per il corpo e per le cerimonie. Medina Romero aggiunge che questo palazzo e il complesso di La Malinche formano un complesso residenziale a sud della città. Nota la mescolanza: cucinare, conservare, lavorare e riposare condividevano lo stesso spazio. La parola palazzo è un’etichetta degli archeologi, non una descrizione di lusso. Per vedere dove viveva il governante, secondo Hirth, dovrai salire fino all’Acropoli. Qui, guarda i cortili e pensa a quante persone potevano muoversi tra di essi in un giorno normale."
+    },
+    "guion_largo": {
+      "hash": "12838f31561d38ec",
+      "texto": "Un palazzo non è sempre un luogo di lusso. A Xochicalco, quello che l’INAH chiama il Palazzo ha un’aria più pratica.\n\nSecondo l’INAH, il Palazzo si trova nel livello intermedio della città. È un complesso di stanze, cucine, laboratori, magazzini e un temazcal, organizzato attorno a dei cortili.\n\nUn temazcal è un bagno di vapore. Si usava per purificare il corpo e anche nelle cerimonie. Secondo Andrews e Glascock, vi furono temazcal nell’Acropoli e nel settore nord. Per questo lo vedrai anche nel [complesso nord](xoc_20_agua_ritual_norte).\n\nMedina Romero ricorda che questo palazzo e il complesso di La Malinche formano un complesso residenziale a sud della città.\n\nPensa a questa mescolanza di spazi. Cucinare, conservare, lavorare e riposare stavano insieme, attorno a uno stesso cortile. È piuttosto un complesso dove si viveva, si cucinava e si lavorava.\n\nQuesto non vuol dire che fosse un palazzo come quello di un re europeo. La parola palazzo è un’etichetta degli archeologi. Ciò che mostrano i resti sono stanze, cortili e aree di lavoro.\n\nPer capire dove vivevano i governanti, bisogna salire a [l’Acropoli](xoc_17_acropolis). Lì stette, secondo Hirth, il palazzo del governante e il centro amministrativo della città.\n\nPer ora, percorri i cortili con lo sguardo e cerca quante stanze si aprono su ciascuno."
+    },
+    "retos_observacion": {
+      "hash": "d28d7df187d93d6c",
+      "texto": [
+        "Conta i cortili che riesci a vedere",
+        "Cerca gli spazi che possono essere stati cucine o magazzini",
+        "Immagina chi lavorava e chi dormiva in ogni stanza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "53915e385e1adb62",
+      "texto": {
+        "Posizione": "livello intermedio della città",
+        "Spazi": "stanze, cucine, laboratori, magazzini e temazcal, attorno a dei cortili",
+        "Complesso residenziale": "con La Malinche, a sud della città, secondo Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "8038cb5a5306af43",
+      "texto": {
+        "pregunta": "Mito: Il Palazzo era la casa del governante.",
+        "respuesta": "Realtà: È il nome che gli archeologi danno a un insieme di stanze, cucine, laboratori e magazzini. La residenza del governante si associa all’Acropoli."
+      }
+    }
+  }
+}

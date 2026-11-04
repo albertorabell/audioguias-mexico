@@ -1,0 +1,58 @@
+{
+  "id": "mna_s17_mascara_diablos_costa",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Uastechi e Totonachi\" para \"Huastecos y Totonacos\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "a2a339c41b882f80",
+      "texto": "Maschera e mascella d’asino della Danza dei Diablos"
+    },
+    "frase_gancho": {
+      "hash": "fe43448293a81a14",
+      "texto": "Una maschera con corna e criniere per una danza che parla dell’Africa."
+    },
+    "puente_narrativo": {
+      "hash": "4bbb9ca7f67a85dd",
+      "texto": "Dalla maschera della costa passiamo alla pittura. Cerca un murale con gente delle diverse regioni di Oaxaca, dipinta con i suoi abiti, le sue feste e il suo commercio."
+    },
+    "guion_corto": {
+      "hash": "ca0a93fa588741fe",
+      "texto": "Questa maschera e la mascella d’asino che l’accompagna appartengono alla Danza dei Diablos, che si balla nelle comunità afromessicane della Costa Chica di Oaxaca e del Guerrero. La maschera ha vere corna di animale, criniere di cavallo e lunghe barbe, e provoca timore e riso allo stesso tempo. La mascella d’asino è uno strumento: si raschia o si percuote per ottenere un suono aspro e ritmico. I danzatori percorrono le strade battendo i piedi, al suono del violino e di strumenti fatti con oggetti quotidiani. La danza si balla soprattutto nelle feste di Ognissanti e del Giorno dei Morti. È una tradizione che parla dell’eredità africana del Messico, la cosiddetta terza radice."
+    },
+    "guion_largo": {
+      "hash": "282bd03f5aba9282",
+      "texto": "Tra le maschere che hai visto, questa è la più rumorosa. Corna di animale, criniere di cavallo, barbe nere. E accanto a essa, uno strumento inatteso: la mascella di un asino. Si raschia con un bastoncino o si percuote, e i denti sciolti suonano come una raganella. È la Danza dei Diablos, e viene da una parte del Messico che molte volte si dimentica: la Costa Chica di Oaxaca e del Guerrero, con le sue comunità afromessicane.\n\nPer capirla bisogna guardare indietro. Durante l’epoca coloniale, migliaia di africani arrivarono nella Nuova Spagna, la maggior parte come schiavi. Molti finirono nelle haciendas e sulle coste. Col tempo, i loro discendenti formarono comunità proprie in luoghi come la Costa Chica, dove conservarono musica, cucina, parole e feste. A volte vengono chiamati «la terza radice» del Messico, accanto a quella indigena e a quella spagnola.\n\nLa danza si balla soprattutto a Ognissanti e nel Giorno dei Morti. I danzatori, vestiti da diavoli, percorrono il paese, ballano nelle case e per le strade, e ricevono cibo, bevande e mance. Li accompagnano un violino e vari strumenti fatti con oggetti quotidiani, tra cui la mascella, il barattolo che si raschia e la charrasca. È una festa rumorosa, beffarda e carica di energia.\n\nPerché diavoli? Ci sono varie interpretazioni. Una dice che gli africani schiavizzati usarono la figura del diavolo per prendere in giro i caporali spagnoli e la religione che veniva loro imposta, senza che fosse facile punirli, perché «stavano solo facendo festa». Un’altra, che la danza ricorda antenati e spiriti africani mescolati con idee cattoliche. Probabilmente ha un po’ di entrambe. L’importante è che si è conservata per secoli.\n\nLa maschera ha vere corna, criniere e barbe, e si fa con materiali vicini: cuoio, legno, a volte cartone. Il suo aspetto è mezzo terrificante, mezzo comico, che è il tono di tutta la danza. Come il Viejito del Michoacán e il giudeo cora, chi la indossa diventa un altro, e per qualche ora può dire, fare e ballare ciò che non avrebbe il coraggio di fare senza di essa.\n\nC’è anche una storia recente. Per molto tempo, le comunità afromessicane sono state poco visibili nella storia ufficiale. Nel duemiladiciannove, la Costituzione ha finalmente riconosciuto i popoli e le comunità afromessicani. Il censimento del duemilaventi ha contato più di due milioni e mezzo di persone che si identificano come afromessicane. Questo significa che le voci di queste comunità sono sempre più presenti.\n\nUna curiosità per il cammino: Vicente Guerrero, uno degli eroi dell’Indipendenza e secondo presidente del paese, aveva ascendenza africana ed era nato in quello che oggi è lo stato del Guerrero. Più avanti, nella sala degli Uastechi e dei Totonachi, vedrai un’altra maschera, [quella dei Negritos](mna_s18_mascara_negritos), nata in un’altra regione del paese a partire da altri incontri tra popoli. Le maschere, ancora una volta, ci raccontano chi è arrivato, chi è rimasto e come si sono mescolati."
+    },
+    "retos_observacion": {
+      "hash": "091c967d79976194",
+      "texto": [
+        "Cerca le corna, le criniere e le barbe della maschera",
+        "Osserva la mascella d’asino: come pensi che suoni?",
+        "Immagina la danza che percorre le strade di un paese nella notte dei morti"
+      ]
+    },
+    "especificaciones": {
+      "hash": "746329a5816b088b",
+      "texto": {
+        "Popolo": "Afromessicano",
+        "Regione": "Costa Chica di Oaxaca (Collantes, Santiago Llano Grande, Chacahua)",
+        "Tecnica/Materiale": "Legno intagliato, crine di cavallo, corna naturali, cartone e osso percussore",
+        "Funzione": "Parafernalia rituale della Danza dei Diablos per Ognissanti e affermazione identitaria"
+      }
+    },
+    "faq_mito": {
+      "hash": "a0c3820ffe563122",
+      "texto": {
+        "pregunta": "Mito: In Messico non c’è stata né c’è popolazione di origine africana.",
+        "respuesta": "Realtà: Esistono comunità afromessicane fin dall’epoca coloniale, soprattutto nella Costa Chica di Oaxaca e del Guerrero. Sono la terza radice del paese e la Costituzione le riconosce dal duemiladiciannove."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "xoc_02_ciudad_en_cerros",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a85b947a2b8957cb",
+      "texto": "Una città sui colli"
+    },
+    "frase_gancho": {
+      "hash": "c993dbd43b575f5a",
+      "texto": "Terrazze, muri e fossati per sostenere e difendere un’intera città."
+    },
+    "puente_narrativo": {
+      "hash": "6a44071928698bda",
+      "texto": "Continua il tuo percorso: la strada d’ingresso ti dice come si controllava il passaggio verso questa città."
+    },
+    "guion_corto": {
+      "hash": "05b6b4758304001d",
+      "texto": "La città di Xochicalco non sorge su un solo colle. Gli archeologi parlano di tre colli modificati e uniti con terrazze, e di altri sei più bassi intorno, dove viveva anche della gente. Per trasformare quei pendii in una città si dovette tagliare la roccia, riempire cavità e innalzare muri di contenimento. Gli spazi aperti erano collegati da scale, terrazze e rampe lungo un asse da nord a sud. L’UNESCO distingue tre livelli: in basso, una zona residenziale circondata da muri; nel mezzo, il mercato e il campo da gioco più grande; in alto, i templi intorno alla Piazza Principale. Quest’ordine non è casuale. Chi saliva passava dalla vita quotidiana al potere e al sacro."
+    },
+    "guion_largo": {
+      "hash": "6a161554bee29906",
+      "texto": "Guarda la città come un insieme di gradini. Xochicalco sorse in una regione di difficile accesso, su una serie di colli naturali, e questo fu parte della sua difesa.\n\nSecondo l’INAH, la città fu fondata nella seconda metà del secolo settimo su diversi colli. Ci fu occupazione anche su sei colli più bassi del circondario. Kenneth Hirth spiega che il nucleo era formato da tre colli modificati e collegati con terrazze.\n\nPer riuscirci si fece una grande opera di ingegneria. Uno studio di conservazione descrive che il colle fu rimodellato tagliando e riempiendo. Le terrazze e i muri di contenimento crearono spazi piani per piazze e case. Scale, rampe e terrazze li uniscono lungo un asse principale da nord a sud.\n\nL’UNESCO divide la città in tre livelli. Nel livello basso c’era la zona residenziale, circondata da muri con ingressi difesi. Nel livello intermedio c’erano un complesso di mercato e il campo del gioco della palla più grande. Nel livello alto si raggruppano i templi intorno alla Piazza Principale.\n\nLa difesa era scritta anche nel paesaggio. Il direttore della zona, Medina Romero, menziona una muraglia alta quattro metri, con bastioni e fossati, sul lato sud. Altre descrizioni parlano di rampe, fossati, bastioni e fortini. Una città così non era pensata per passeggiare. Era pensata per resistere.\n\nUn dato antico: Antonio Alzate, che visitò il sito nel millesettecentosettantasette, calcolò il colle principale in circa centosette metri di altezza. È una misurazione di più di due secoli fa, ma mostra quanto lo impressionò quella mole.\n\nLa maggior parte delle case dei pendii non è ancora stata scavata. Questo significa che ciò che vedi è solo una parte della città. Sotto molte terrazze potrebbe esserci altra storia.\n\nMentre cammini, osserva due cose: i muri che sostengono il terreno e il modo in cui le scale uniscono un livello all’altro. Questo è Xochicalco: una città costruita con le mani, pietra su pietra, su colli difficili."
+    },
+    "retos_observacion": {
+      "hash": "da6d404d59f6fd5d",
+      "texto": [
+        "Cerca un muro di contenimento e osserva come sostiene il pendio",
+        "Conta quanti livelli distingui da dove ti trovi",
+        "Pensa a chi saliva e a chi restava in basso"
+      ]
+    },
+    "especificaciones": {
+      "hash": "72702a2920097db4",
+      "texto": {
+        "Ubicazione": "su una serie di colli naturali",
+        "Colli del nucleo": "tre modificati, secondo Hirth",
+        "Livelli": "basso, intermedio e alto, secondo l’UNESCO",
+        "Muraglia sud": "quattro metri di altezza, con bastioni e fossati",
+        "Superficie protetta": "707 ha"
+      }
+    },
+    "faq_mito": {
+      "hash": "8357c29445281361",
+      "texto": {
+        "pregunta": "Mito: Xochicalco fu costruita su un solo colle.",
+        "respuesta": "Realtà: Sorse su diversi colli modificati e uniti con terrazze, e anche sui colli più bassi intorno viveva della gente."
+      }
+    }
+  }
+}

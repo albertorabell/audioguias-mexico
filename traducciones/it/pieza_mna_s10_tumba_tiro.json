@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_tumba_tiro",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c9cb77d10938eab8",
+      "texto": "Ricostruzione di una tomba a pozzo con corredo funerario"
+    },
+    "frase_gancho": {
+      "hash": "6113a3dc10a7baec",
+      "texto": "Un pozzo profondo e una camera con figure: così si seppelliva nell’Occidente."
+    },
+    "puente_narrativo": {
+      "hash": "95d266ea1d4fcdd6",
+      "texto": "Nelle tombe c’erano compagni e guardiani. Cerca prima i cani di argilla rossa, tondi e lucidi, con il corpo grasso e le orecchie attente."
+    },
+    "guion_corto": {
+      "hash": "1ca95d7a9fb7139b",
+      "texto": "Sei davanti alla ricostruzione di una tomba a pozzo, la forma di sepoltura propria di Jalisco, Nayarit e Colima circa duemila anni fa. L’idea è semplice: si scavava un pozzo verticale, profondo vari metri, e in fondo si aprivano una o più camere. Lì si deponevano i defunti, accompagnati da figure di argilla, vasi con alimenti e gioielli. A differenza dell’Altopiano, qui non si costruirono grandi piramidi: la monumentalità stava sottoterra. Guarda il contrasto tra il pozzo, stretto e verticale, e la camera, ampia e a volta. E le figure intorno: guerrieri, musicisti, coppie. È un mondo intero sepolto per accompagnare i morti."
+    },
+    "guion_largo": {
+      "hash": "a59781f3c59cea55",
+      "texto": "Confronta tre modi di pensare la morte. A Palenque, il re [Pakal](mna_s09_mascara_pakal) fu sepolto all’interno di una piramide, in fondo a una scalinata. A Monte Albán, in una camera di pietra con pitture, come la [Tomba 104](mna_s07_tumba_104). E qui, nell’Occidente, in un pozzo sotto terra. Tre regioni, tre architetture della morte e un unico desiderio: che il defunto avesse compagnia e un buon viaggio.\n\nAlcuni specialisti vedono nella forma di queste tombe, con il loro condotto verticale e la loro camera rotonda, un’immagine del corpo femminile: il morto tornava al grembo della terra per rinascere. È un’interpretazione, ma si accorda con altre idee che hai già visto, come quella secondo cui seppellire è seminare.\n\nC’è qualcosa di ancora più sorprendente: le tombe venivano usate più volte. Si riapriva il pozzo, si spostavano i resti degli antichi e si collocavano i nuovi defunti. La tomba era la casa di una famiglia attraverso le generazioni, non di una sola persona. Per questo si pensa che nella camera non vediamo un solo momento, ma la memoria accumulata di un lignaggio.\n\nAccanto ai defunti si lasciavano anche ciotole con semi di mais, fagioli e zucca, oltre a gioielli di conchiglia marina. Erano offerte vere: si credeva che il morto avesse bisogno di mangiare e di presentarsi bene nel suo nuovo mondo. Una tomba era, allo stesso tempo, dispensa, portagioie e palcoscenico.\n\nLa cosa più straordinaria di queste tombe è ciò che contenevano. Migliaia di figure di argilla, fatte per essere sepolte, che mostrano come si viveva: guerrieri con l’elmo, musicisti con trombe di conchiglia, coppie, donne che portano in braccio i loro figli, guaritori, cani, e persino case con le loro famiglie dentro e banchetti. Grazie a esse conosciamo la vita quotidiana dell’Occidente meglio di quella di molte culture con grandi piramidi.\n\nSono stati trovati anche edifici circolari. A Teuchitlán, nel Jalisco, è stato scoperto un complesso di piramidi rotonde chiamate Guachimontones, qualcosa di molto diverso dalle piramidi quadrate del resto del paese. Si pensa che alcuni plastici di argilla dell’Occidente, con un piccolo cortile rotondo e personaggi che sembrano ballare, mostrino proprio i rituali che si svolgevano lì.\n\nQueste tombe furono saccheggiate per decenni. I saccheggiatori aprivano i pozzi, tiravano fuori le figure e le vendevano ai collezionisti; per questo ci sono tanti pezzi dell’Occidente nei musei del mondo, ma senza che sappiamo da quale tomba provengano. Un pezzo senza contesto perde quasi tutta la sua storia, e per questo è così preziosa questa ricostruzione: ti permette di immaginare come erano disposti.\n\nAlcuni pozzi arrivano a sedici metri di profondità. Scavarli con attrezzi di pietra e di legno, in una roccia vulcanica tenera, era un lavoro enorme. Lo si faceva solo per qualcuno di molto importante.\n\nQuando ti affaccerai sulla ricostruzione, pensa a questo: ciò che vedi non sta in alto, ma in basso. Il vero monumento dell’Occidente è un vuoto sotto la terra, pieno di gente di argilla."
+    },
+    "retos_observacion": {
+      "hash": "57e123dd1ff9fd75",
+      "texto": [
+        "Guarda il pozzo verticale e la camera laterale: come si collegano?",
+        "Conta quanti tipi diversi di figure riesci a trovare nel corredo",
+        "Confronta la dimensione del pozzo con la tua altezza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "03734b94fb91085a",
+      "texto": {
+        "Cultura": "Tradizione delle tombe a pozzo (associata alle culture di Nayarit, Colima e Jalisco)",
+        "Periodo": "Classico (200 a.C.-600 d.C.)",
+        "Materiale": "Ricostruzione museografica con scheletri umani, vasi di argilla, figurine cave e piene, metates di pietra, conchiglie marine e ornamenti di conchiglia; le camere originali venivano scavate nel tufo vulcanico o nel tepetate",
+        "Provenienza": "Ricostruzione basata su contesti archeologici di Nayarit, Colima e Jalisco"
+      }
+    },
+    "faq_mito": {
+      "hash": "bf86c6acc19a37f2",
+      "texto": {
+        "pregunta": "Mito: Tutte le culture della Mesoamerica seppellivano i loro re nelle piramidi.",
+        "respuesta": "Realtà: Nell’Occidente si seppelliva in pozzi profondi con camere laterali: la loro monumentalità stava sottoterra."
+      }
+    }
+  }
+}
