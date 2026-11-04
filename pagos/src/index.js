@@ -7,6 +7,8 @@
 //   POST /status     revisa si una clave sigue vigente
 //   POST /stripe-webhook  Stripe avisa de reembolsos y disputas: el pase se cancela solo
 //   POST /evento      la app cuenta (sin datos personales) qué se usa: obra vista, audio, pantalla del pase...
+//   POST /recorrido    al cerrar la app, el resumen anónimo de la visita (pantallas, audios, duración); sin identificador
+//   GET  /recorridos   resumen de esas visitas (solo con la clave STATS_KEY); se borran a los 60 días
 //   GET  /estadisticas  resumen de esos conteos (solo con la clave STATS_KEY)
 //   GET  /config     precios y forma de acceso (del sitio pedido con ?site=, o los de Stripe si no hay tabla) y reglas del pase
 //   POST /admin/codigos  el robot de GitHub publica los códigos de acceso (hoja CODIGOS); solo con la clave CODES_KEY
@@ -259,7 +261,7 @@ async function handleStripeWebhook(request, env, cfg, cors) {
 const EVENTS = new Set([
   'app_open', 'piece_view', 'audio_play', 'audio_end', 'paywall_open', 'checkout_start', 'lang_change',
   'route_start', 'tour_done', 'install', 'offline_download', 'search', 'purchase', 'refund', 'code_redeem',
-  'screen_view', 'visit_country',
+  'screen_view', 'visit_country', 'audio_stop',
 ]);
 const PIECE_RE = /^[a-z0-9_]{3,60}$/;
 const DAILY_KEY_LIMIT = 3000;
@@ -302,6 +304,63 @@ async function handleEvent(request, env, cfg, cors) {
     if (/^[A-Z]{2}$/.test(country)) await countEvent(env, 'visit_country', { k: country });
   }
   return new Response(null, { status: 204, headers: cors });
+}
+
+// ---------------------------------------------------------------------------
+// Recorridos anónimos. La app manda UN resumen al cerrarse ("inicio > sala > ficha, 3 audios, 6 minutos").
+// No lleva ningún identificador, y aquí tampoco se guarda uno ni la IP: solo se suman contadores por día,
+// así que no se puede reconstruir la visita de una persona. Esos contadores se borran solos a los 60 días.
+// ---------------------------------------------------------------------------
+const SCREENS = new Set(['inicio', 'salas', 'recorridos', 'mapa', 'buscar', 'sala', 'ficha', 'asistente', 'fin_recorrido', 'pase']);
+const VISIT_TTL = 60 * 86400;
+const visitDayKey = (d = new Date()) => `rc:${d.toISOString().slice(0, 10)}`;
+const bucket = (n, cuts) => { for (const c of cuts) if (n <= c) return String(c); return `${cuts[cuts.length - 1]}+`; };
+
+async function handleVisit(request, env, cfg, cors) {
+  if (!cors['Access-Control-Allow-Origin']) return json({ error: 'origin_not_allowed' }, 403);
+  const b = await readJson(request);
+  if (!b || !Array.isArray(b.p) || b.p.length < 1 || b.p.length > 8 || !b.p.every((x) => SCREENS.has(x))) return json({ error: 'bad_request' }, 400, cors);
+  const num = (v, max) => (Number.isInteger(v) && v >= 0 ? Math.min(v, max) : 0);
+  const book = await loadBook(env, cfg);
+  const sites = [...new Set((Array.isArray(b.s) ? b.s : []).map(siteKey).filter((x) => x && book.ids.has(x)))].slice(0, 4);
+  const keys = [
+    `ruta|${b.p.join('>')}`,
+    `entrada|${b.p[0]}`,
+    `salida|${b.p[b.p.length - 1]}`,
+    `pantallas|${bucket(num(b.n, 99), [1, 2, 3, 5, 8, 12, 20])}`,
+    `audios|${bucket(num(b.a, 99), [0, 1, 2, 3, 5, 10])}`,
+    `minutos|${bucket(Math.round(num(b.d, 100000) / 60), [1, 3, 5, 10, 20, 40])}`,
+    ...sites.map((x) => `sitio|${x}`),
+    ...(num(b.a, 99) > 0 ? [`escucha|${bucket(num(b.c, 100), [25, 50, 75, 100])}`] : []),
+    ...(b.w === true ? ['vio_pase'] : []),
+  ];
+  try {
+    const dk = visitDayKey();
+    const raw = await env.PASES.get(dk);
+    const day = raw ? JSON.parse(raw) : { c: {} };
+    day.c.visitas = (day.c.visitas || 0) + 1;
+    for (const k of keys) {
+      if (!(k in day.c) && Object.keys(day.c).length >= DAILY_KEY_LIMIT) day.c._descartados = (day.c._descartados || 0) + 1;
+      else day.c[k] = (day.c[k] || 0) + 1;
+    }
+    await env.PASES.put(dk, JSON.stringify(day), { expirationTtl: VISIT_TTL });
+  } catch (e) {
+    console.error('recorrido', e && e.message);
+  }
+  return new Response(null, { status: 204, headers: cors });
+}
+
+async function handleVisits(request, env, url, cors) {
+  const auth = request.headers.get('Authorization') || '';
+  if (!env.STATS_KEY || !timingSafeEqual(auth, `Bearer ${env.STATS_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
+  const days = Math.min(Math.max(parseInt(url.searchParams.get('dias') || '30', 10) || 30, 1), 60);
+  const total = {};
+  for (let i = 0; i < days; i++) {
+    const raw = await env.PASES.get(visitDayKey(new Date(Date.now() - i * 86400_000)));
+    if (!raw) continue;
+    for (const [k, n] of Object.entries(JSON.parse(raw).c)) total[k] = (total[k] || 0) + n;
+  }
+  return json({ dias: days, zona: 'UTC', conteos: total }, 200, cors);
 }
 
 async function handleStats(request, env, url, cors) {
@@ -761,6 +820,7 @@ export default {
       if (request.method === 'POST' && origin && !cors['Access-Control-Allow-Origin']) return json({ error: 'origin_not_allowed' }, 403);
 
       if (url.pathname === '/estadisticas' && request.method === 'GET') return handleStats(request, env, url, cors);
+      if (url.pathname === '/recorridos' && request.method === 'GET') return handleVisits(request, env, url, cors);
       if (url.pathname === '/health') return json({ ok: true }, 200, cors);
       if (url.pathname === '/config' && request.method === 'GET') return handleConfig(env, cfg, cors, url);
       if (url.pathname === '/admin/codigos' && request.method === 'POST') return handleAdminCodes(request, env, cors);
@@ -768,6 +828,7 @@ export default {
       if (url.pathname.startsWith('/audio/') && (request.method === 'GET' || request.method === 'HEAD')) return handleAudio(request, env, cfg, cors, url);
       if (request.method === 'POST' && url.pathname === '/stripe-webhook') return handleStripeWebhook(request, env, cfg, cors);
       if (request.method === 'POST' && url.pathname === '/evento') return handleEvent(request, env, cfg, cors);
+      if (request.method === 'POST' && url.pathname === '/recorrido') return handleVisit(request, env, cfg, cors);
       if (request.method === 'POST') {
         if (!env.TOKEN_SECRET || !env.STRIPE_SECRET_KEY) return json({ error: 'not_configured' }, 503, cors);
         if (url.pathname === '/checkout') return handleCheckout(request, env, cfg, cors);

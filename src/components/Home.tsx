@@ -5,6 +5,7 @@ import { useLanguage } from '../utils/LanguageContext';
 import { localizeSite } from '../i18n/content';
 import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
 import { InstallCard } from './InstallHelp';
+import { FooterLinks } from './FooterLinks';
 import { LanguageMenu, ThemeButton } from './ui/HeaderControls';
 import { PieceImage } from './PieceImage';
 import { getAssetUrl } from '../utils/urlHelper';
@@ -179,6 +180,8 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
         <div className="mt-10">
           <InstallCard />
         </div>
+
+        <FooterLinks />
       </main>
     </div>
   );

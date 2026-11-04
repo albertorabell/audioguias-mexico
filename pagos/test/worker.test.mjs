@@ -536,6 +536,30 @@ test('/evento: cuenta pantallas, origen y país (el país lo pone el servidor, n
   assert.ok(!JSON.stringify(conteos).includes('127.0.0.1'));
 });
 
+test('/recorrido: suma el resumen anónimo de una visita, caduca a los 60 días y no admite basura', async () => {
+  env.STATS_KEY = 'k';
+  const rc = (body) => call('/recorrido', { body, origin: ORIGIN });
+  assert.equal((await rc({ p: ['inicio', 'sala', 'ficha'], n: 3, a: 2, c: 80, d: 400, s: ['MNA', 'inventado'], w: true })).status, 204);
+  assert.equal((await rc({ p: ['inicio'], n: 1, a: 0, d: 20 })).status, 204);
+  assert.equal((await rc({ p: ['inicio', 'cualquier_cosa'] })).status, 400); // solo pantallas conocidas
+  assert.equal((await rc({ p: [] })).status, 400);
+  assert.equal((await call('/recorrido', { body: { p: ['inicio'] }, origin: 'https://otro.example' })).status, 403);
+  assert.equal(env.PASES.lastTtl, 60 * 86400);
+  const r = await call('/recorridos', { method: 'GET', origin: null, headers: { Authorization: 'Bearer k' } });
+  const { conteos } = await r.json();
+  assert.equal(conteos.visitas, 2);
+  assert.equal(conteos['ruta|inicio>sala>ficha'], 1);
+  assert.equal(conteos['salida|ficha'], 1);
+  assert.equal(conteos['audios|0'], 1);
+  assert.equal(conteos['audios|2'], 1);
+  assert.equal(conteos['minutos|10'], 1);
+  assert.equal(conteos['escucha|100'], 1);
+  assert.equal(conteos['sitio|mna'], 1);
+  assert.equal(conteos.vio_pase, 1);
+  assert.equal(Object.keys(conteos).some((k) => k.startsWith('sitio|inventado')), false);
+  assert.equal((await call('/recorridos', { method: 'GET', origin: null })).status, 401);
+});
+
 test('una compra nueva se cuenta una sola vez (aunque se canjee otra vez)', async () => {
   env.STATS_KEY = 'k';
   await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1, siteId: 'mna' } });
