@@ -1,0 +1,59 @@
+{
+  "id": "mna_s08_adolescente_huasteco",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2059d3b514ca4506",
+      "texto": "Scultura dell’Adolescente Huasteco di Tamuín"
+    },
+    "frase_gancho": {
+      "hash": "87de2e3353d196ab",
+      "texto": "Un giovane di pietra, inciso di mais, che porta un bambino sulle spalle."
+    },
+    "puente_narrativo": {
+      "hash": "4066bce1cd9b3364",
+      "texto": "Dal giovane di mais saliamo verso il nord di Veracruz, dove arrivò anche l’impero mexica. Cerca una stele di pietra con un dio in piedi, dall’alto copricapo a forma di cono e una maschera sulla bocca."
+    },
+    "guion_corto": {
+      "hash": "959a89e2bc13e15c",
+      "texto": "Questo giovane di pietra, alto più di un metro, viene da Tamuín, nello stato di San Luis Potosí, ed è una delle sculture più celebri degli Uastechi. È in piedi, snello e nudo, con il corpo eretto e la testa rasata. La sua metà sinistra è liscia, mentre la destra è coperta di disegni incisi: piante e pannocchie di mais, e teste del dio del vento. Sembra un tatuaggio, o una pittura rituale, trasformato in pietra. Sulla schiena porta un bambino piccolo. È il Sole che nasce? È il mais tenero? È una divinità? Nessuno lo sa con certezza. Quello che vediamo è un corpo che sembra un campo seminato."
+    },
+    "guion_largo": {
+      "hash": "e6fbdca68401d891",
+      "texto": "Guarda bene questo corpo: è una pagina scritta. Quello che sembra un semplice giovane nudo è, in realtà, un corpo coperto di messaggi, e chi sa leggerli vedrà l’intero ciclo del mais.\n\nComincia dalla divisione. Il lato sinistro è liscio e levigato, quasi senza decorazione. Il destro, il braccio, la gamba e la schiena sono coperti di disegni incisi nella pietra. Sembrano tatuaggi, cicatrici ornamentali o pittura corporale rituale. Ricorda la sala introduttiva: il corpo come tela, qualcosa che i popoli della Mesoamerica portarono a molti estremi. Qui lo scultore ha deciso di mostrare i due stati insieme: il corpo senza ornamenti e il corpo già vestito di simboli.\n\nI disegni sono piante di mais, pannocchie, simboli del cielo e teste del dio del vento. Cioè, questo giovane porta il campo sulla pelle. Si è interpretato che sia lui stesso il mais: slanciato, eretto e tenero, come una pianta che germoglia. Per gli Uastechi, che vivevano della milpa in una regione di piogge abbondanti, ogni pianticella era una vita, e il corpo umano e la pianta erano quasi la stessa cosa.\n\nE poi c’è il bambino che porta sulla schiena. Chi è? Sono state proposte varie idee. Forse il Sole appena nato; forse il mais giovane; forse una divinità. Alcuni specialisti lo mettono in relazione con il dio del vento, Ehécatl-Quetzalcóatl, che spazzava le strade perché arrivassero le piogge, e il cui emblema, la conchiglia tagliata, vesti nella vasca del patio. C’è chi vede qui il dio stesso, giovane, che porta l’alba di una nuova era. Non c’è una risposta unica.\n\nOra, un dato sorprendente. Gli Uastechi parlano teenek, una lingua che appartiene alla famiglia maya, anche se vivono a più di mille chilometri dai Maya del sud, con molti altri popoli in mezzo. I linguisti pensano che, molti secoli fa, un gruppo di lingua maya si separò dal resto e rimase nel nord del Golfo, dove conservò il suo idioma e sviluppò una propria arte. Se ci pensi, è un viaggio enorme: una lingua che ha attraversato la storia della Mesoamerica senza perdersi.\n\nGli Uastechi furono grandi scultori. Le loro figure di pietra sono spesso frontali, con alti copricapi e gesti solenni, a volte nude e con simboli di fertilità. Questa è una delle più raffinate: l’equilibrio tra la parte liscia e quella incisa, e la delicatezza del contorno, la collocano tra i capolavori del museo.\n\nPrima di proseguire, guarda ancora una volta i dettagli. Il volto è sereno, le braccia riposano sul petto e sul ventre, e gli orecchini curvi pendono come piccoli ganci. È un giovane, ma anche una pianta, un giorno e un dio. E tutto sta in una sola pietra.\n\nUn ultimo dettaglio: si pensa che questa scultura facesse parte di uno spazio cerimoniale, e che non fosse un ornamento, ma un’immagine per il culto della fertilità. Davanti a lei, forse, si chiedevano pioggia e buon raccolto. Oggi si chiede qualcosa di più semplice: che tu ti fermi un momento a guardarla."
+    },
+    "retos_observacion": {
+      "hash": "d140d22e0e50e090",
+      "texto": [
+        "Confronta la metà sinistra, liscia, con la destra, incisa",
+        "Cerca le piante e le pannocchie di mais sul lato destro",
+        "Osserva il bambino che porta sulla schiena"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bed288d1421034ba",
+      "texto": {
+        "Cultura": "Huasteca",
+        "Periodo": "Postclassico antico (900-1200 d.C.)",
+        "Materiale": "Arenaria fine",
+        "Provenienza": "Sito di Consuelo, Tamuín, San Luis Potosí",
+        "Misure": "145 cm di altezza x 41 cm di larghezza x 17,8 cm di spessore"
+      }
+    },
+    "faq_mito": {
+      "hash": "9a6f82206ad91b41",
+      "texto": {
+        "pregunta": "Mito: Gli Uastechi erano un popolo maya, come quelli della sala successiva.",
+        "respuesta": "Realtà: Parlano una lingua della famiglia maya, ma la loro cultura, la loro arte e la loro storia si sono sviluppate separatamente, lontano dai Maya del sud."
+      }
+    }
+  }
+}

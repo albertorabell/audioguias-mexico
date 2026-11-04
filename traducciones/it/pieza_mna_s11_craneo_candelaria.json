@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_craneo_candelaria",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dd30a42ac1b7f28d",
+      "texto": "Cranio con copricapo della Cueva de la Candelaria"
+    },
+    "frase_gancho": {
+      "hash": "aaa3d13c2c9e719f",
+      "texto": "Un cranio di mille anni fa che conserva ancora il suo copricapo di cordoni rossi."
+    },
+    "puente_narrativo": {
+      "hash": "d7288c7788d8e1f6",
+      "texto": "Dalle grotte del deserto passiamo a un popolo di agricoltori della frontiera. Cerca un bicchiere piccolo e cilindrico, decorato con fasce di colori vivaci: rosso, giallo e azzurro turchese."
+    },
+    "guion_corto": {
+      "hash": "a8c25e5161e10814",
+      "texto": "Questo cranio apparteneva a un uomo adulto, tra i trentasei e i cinquantacinque anni, che visse verso l’anno mille della nostra era. Viene dalla Cueva de la Candelaria, nel sudovest del Coahuila, lo stesso sito del fagotto funerario. Ha una forma allungata, che gli specialisti chiamano dolicocefala. Conserva ancora il suo copricapo, con cordoni tinti di rosso, che potevano indicare il suo rango o la sua autorità. Tra i capelli e le fibre sono comparsi resti di mosche e le loro uova, segno che il corpo fu esposto durante una cerimonia prima della sepoltura. E i suoi denti, consumati dal mangiare semi duri, raccontano che da bambino patì la fame."
+    },
+    "guion_largo": {
+      "hash": "16b8e3073c6632a4",
+      "texto": "A volte un oggetto racconta la sua storia con dettagli piccolissimi, e questo cranio è uno di quelli. Gli scienziati che lo hanno studiato lo hanno letto come si legge un libro: l’età, il cibo, i rituali, perfino gli insetti che visitarono il corpo.\n\nPartiamo dal luogo. La Cueva de la Candelaria si trova nel sudovest del Coahuila, nel deserto, all’interno di una regione conosciuta come Aridoamerica. È una grotta di roccia calcarea in cui si entrava attraverso un pozzo verticale profondo circa nove metri, che conduceva a varie camere con centinaia di oggetti. Era nota fin dal 1838, ma la grande esplorazione avvenne nel 1953 e nel 1954. Allora furono recuperati i resti di centodiciassette persone, uomini, donne e bambini, deposti con ordine nel corso di generazioni.\n\nHai già conosciuto il fagotto: una di quelle persone, parzialmente mummificata dalla secchezza, piegata e avvolta in coperte tessute. Con i resti comparvero collane di conchiglie e semi, orecchini a disco, tessuti decorati, punte di proiettile con il loro manico e perfino una borsa a rete. Questo cranio proviene dallo stesso cimitero.\n\nApparteneva a un uomo tra i trentasei e i cinquantacinque anni, che visse verso l’anno mille, secondo la datazione al radiocarbonio. Questa tecnica misura quanto carbonio radioattivo resta in un osso o in una fibra; poiché questo carbonio si perde a un ritmo noto, permette di calcolare quanto tempo fa è morta la persona. Il suo cranio è lungo e stretto. Sui capelli si conservano ancora dei cordoni tinti di rosso, che formavano il suo copricapo. Si è pensato che il colore e la disposizione indicassero la sua posizione sociale, forse un capo o un personaggio rispettato.\n\nOra arrivano i dettagli da scienziato. Tra i capelli e le fibre sono stati trovati resti di mosche e le loro uova. Questo significa che il corpo non fu sepolto subito: rimase esposto, all’aria aperta, durante un rito funebre, prima di essere avvolto e portato nella grotta. Un dettaglio minuscolo ha rivelato un’intera cerimonia.\n\nI denti dicono di più. Alcuni presentano segni di ipoplasia dello smalto, linee che si formano quando un bambino cresce con la fame o con la malattia. Questo suggerisce che da piccolo attraversò periodi di scarsità, forse stagionale, come è normale nel deserto. E l’usura dei molari indica che mangiava alimenti duri, come i semi. È la vita di un cacciatore e raccoglitore scritta nella sua bocca.\n\nLa grotta fu usata per secoli, dall’anno novecento fino al milleseicento circa, e la sua storia non è finita. Nel 2025 l’INAH ha recuperato i resti di almeno diciassette persone in un’altra grotta della stessa regione del Coahuila, che era stata saccheggiata. Per questo le grotte vanno protette: quando qualcuno porta via un osso o un tessuto, si perde proprio quell’informazione così piccola, e così grande.\n\nGuarda di nuovo il copricapo. Chi lo indossò quel giorno sapeva che sarebbe rimasto con lui. Mille anni dopo è ancora lì, e ci racconta ancora come visse qualcuno che non lasciò scrittura."
+    },
+    "retos_observacion": {
+      "hash": "bb8ed52d7bbc4381",
+      "texto": [
+        "Cerca i cordoni tinti di rosso del copricapo",
+        "Osserva la forma allungata del cranio",
+        "Guarda i denti: quali segni di usura si vedono?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "abe52a6265106c73",
+      "texto": {
+        "Cultura": "Cacciatori raccoglitori del nord (Aridoamerica)",
+        "Periodo": "Intorno all’anno 1000 d.C. (la grotta fu occupata tra il 900 e il 1600 d.C.)",
+        "Materiale": "Resti ossei e fibre vegetali tinte",
+        "Provenienza": "Cueva de la Candelaria, sudovest del Coahuila"
+      }
+    },
+    "faq_mito": {
+      "hash": "c8aab6b0a619f595",
+      "texto": {
+        "pregunta": "Mito: Queste grotte custodivano solo ossa senza storia.",
+        "respuesta": "Realtà: Gli specialisti vi leggono l’età, la dieta, le malattie e perfino i riti funebri di ciascuna persona."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_palacio_hochob",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f696ddc923bd2153",
+      "texto": "Replica del Palazzo di Hochob"
+    },
+    "frase_gancho": {
+      "hash": "13ebf3d95ab98896",
+      "texto": "Una porta che imita la bocca spalancata del mostro della terra."
+    },
+    "puente_narrativo": {
+      "hash": "ced7ad0e799c63aa",
+      "texto": "Dalla facciata di pietra torniamo alle piccole figure di Jaina. Cerca un anziano di argilla circondato da petali, come se sbocciasse da un fiore aperto."
+    },
+    "guion_corto": {
+      "hash": "ff9f39353b025000",
+      "texto": "Questa facciata riproduce il Palazzo di Hochob, nello stato del Campeche. Hochob appartiene alla regione dei Chenes, nome che in maya significa «pozzi», perché lì quasi non ci sono fiumi e l’acqua si conserva in pozzi e cisterne. La porta centrale è la bocca spalancata del mostro della terra: per entrare nell’edificio bisognava passare attraverso le sue fauci. Il resto della facciata era ricoperto da un mosaico di pietre tagliate che formavano maschere dai lunghi nasi, come quelli di Chaac, il dio della pioggia. È un edificio del periodo Classico recente, costruito per impressionare. Nel museo lo vedi di fronte, ma immagina l’edificio circondato dalla foresta bassa."
+    },
+    "guion_largo": {
+      "hash": "18a44e6817e80f02",
+      "texto": "Poche facciate richiedono tanto coraggio per essere attraversate: la porta di questo edificio è una bocca. Guarda i denti scolpiti nella pietra intorno al vano, e in alto il volto di una creatura mostruosa. I Maya la intendevano come il mostro della terra, da cui nascono il mais, l’acqua e la vita, e che al tempo stesso era una soglia verso l’oltretomba. Entrare nel palazzo era, letteralmente, entrare nella terra.\n\nL’idea non è esclusiva dei Maya. I Mexica rappresentavano la terra come [Tlaltecuhtli](mna_s06_tlaltecuhtli), un mostro accovacciato dalle fauci aperte, che hai visto nella Sala Mexica. In entrambi i mondi, la terra divora i morti e dà anche il mais. Si pensa che attraversare quella bocca fosse un modo per dire che l’edificio era un luogo tra il mondo dei vivi e quello degli dèi.\n\nQuesta è una riproduzione della Struttura due di Hochob. L’originale si trova nel Campeche, nella regione dei Chenes. Chen, in maya yucateco, significa «pozzo», e i Chenes sono «i pozzi»: una terra di foresta bassa, senza fiumi, dove la gente dipendeva da pozzi e da cisterne sotterranee, chiamate chultun, per conservare la pioggia. L’hai già visto con il [Mascherone di Chaac](mna_s09_mascaron_chaac): quando l’acqua scarseggia, il dio della pioggia ricopre le facciate.\n\nPrendi nota della tecnica. La facciata era rivestita con un mosaico: molte pietre tagliate su misura, incastrate una per una per formare volti, serpenti e simboli. Le più facili da riconoscere sono le maschere dal naso lungo e arrotolato, quelle del dio Chaac, che affiancano l’ingresso. È la stessa estetica del mascherone di Kabah, ma qui non è un pezzo isolato: è una parete intera.\n\nLo stile dei Chenes ha vicini e parenti. Con lo stile Río Bec condivide l’idea di facciate come maschere giganti, e con lo stile Puuc, di Uxmal e di Kabah, il gusto per i mosaici di pietra. È come se un’intera regione si fosse messa d’accordo per trasformare i propri edifici in volti.\n\nLo si chiama palazzo, anche se nel mondo maya il confine tra un palazzo e un tempio era sottile: il potere e il sacro andavano di pari passo. Chi governava parlava con gli dèi, e le facciate lo ricordavano a chiunque si avvicinasse.\n\nUn dettaglio per quando viaggerai: la maggior parte delle persone pensa a Chichén Itzá o a Palenque, ma il Campeche custodisce città enormi che quasi nessuno visita, come Calakmul, da cui viene la [Stele cinquantuno](mna_s09_estela51_calakmul). Questa facciata è un invito a cercarle.\n\nE un trucco da museo: ricorda che molti pezzi di questa sala, come le stele, gli architravi e i mascheroni, non stavano isolati in una vetrina. Facevano parte di edifici come questo, ricoperti di colore. Restituiscili, con l’immaginazione, al loro posto.\n\nGuarda ancora una volta i denti e la fronte del mostro, e nota quanto, da lontano, somigli a un volto. Varca la soglia con lo sguardo, ma rispetta il mostro: qui, la terra ti lascia passare."
+    },
+    "retos_observacion": {
+      "hash": "a9f1e60866c72e2c",
+      "texto": [
+        "Cerca la porta che sembra una bocca e osserva i suoi denti",
+        "Trova le maschere dal naso lungo che affiancano l’ingresso",
+        "Osserva come le piccole pietre formano un mosaico"
+      ]
+    },
+    "especificaciones": {
+      "hash": "66cbc0d19923c1f1",
+      "texto": {
+        "Cultura": "Maya (stile Chenes)",
+        "Periodo": "Classico recente",
+        "Material": "Replica di una facciata di pietra",
+        "Procedencia": "Hochob, Campeche (l’originale)"
+      }
+    },
+    "faq_mito": {
+      "hash": "de7e37c7098d980e",
+      "texto": {
+        "pregunta": "Mito: Le facciate maya erano di pietra liscia e grigia, senza decorazioni.",
+        "respuesta": "Realtà: Molti edifici maya erano ricoperti da mosaici di pietra che formavano volti e simboli, e venivano dipinti di vari colori."
+      }
+    }
+  }
+}

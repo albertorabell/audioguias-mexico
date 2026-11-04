@@ -1,0 +1,63 @@
+{
+  "id": "mna_s08_luchador_olmeca",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "d35c83ac401ef501",
+      "texto": "Il Lottatore Olmeco"
+    },
+    "frase_gancho": {
+      "hash": "722423cdf935af61",
+      "texto": "Una figura di pietra che sembra sul punto di muoversi, intrappolata tremila anni fa."
+    },
+    "puente_narrativo": {
+      "hash": "9624e6261b2845cd",
+      "texto": "Dall’istante passiamo al mistero. Cerca un giovane seduto che tiene tra le braccia un bambino addormentato con tratti di giaguaro: l’opera di pietra verde più famosa degli Olmechi."
+    },
+    "guion_corto": {
+      "hash": "8489090d7741e570",
+      "texto": "Questa scultura di basalto scuro misura circa sessantasei centimetri e fu trovata a Antonio Plaza, vicino al fiume Uxpanapa, nel Veracruz. Viene chiamata «il Lottatore» per la sua postura, anche se non sappiamo con certezza che cosa rappresenti. È seduto per terra, con le gambe piegate e il busto girato di lato, mentre solleva entrambe le braccia piegate. Ha la testa rasata, i baffi e una barba corta. Ciò che sorprende è il movimento: quasi tutte le sculture della sua epoca sono rigide e frontali; questa, invece, sembra catturare un istante. Guarda come si tendono i muscoli del petto e della schiena. È uno dei grandi capolavori della scultura antica d’America."
+    },
+    "guion_largo": {
+      "hash": "8d50fae87f3161cb",
+      "texto": "Fai la prova: gira intorno a questa scultura lentamente. Ogni lato offre una figura diversa, e questa è la sua prima lezione: fu pensata per essere vista da tutti gli angoli, non solo di fronte, come quasi tutte le sculture del suo tempo. L’artista olmeco volle che lo spettatore girasse intorno e che, facendolo, vedesse il corpo ruotare.\n\nIl nome inganna. Lo chiamarono «il Lottatore» perché la sua postura ricorda un lottatore nel pieno di una mossa. Ma non sappiamo se lo fosse, né se si tratti di un sacerdote, di un giocatore di palla o di un dignitario, né che cosa stesse facendo. Gli specialisti hanno proposto varie idee; nessuna è definitiva. Forse non era un’azione: forse era un istante di un rituale, un giro di danza o il momento di una trance.\n\nGuarda la testa. È rasata, e il volto ha i baffi e una barba corta. In Mesoamerica gli uomini avevano di solito poca barba, e per questo le figure con la barba sono rare; si pensa che indicasse maturità e rango. È un volto individuale, di qualcuno con un nome e una storia, non un tipo generico.\n\nOra guarda il corpo. Le clavicole, i pettorali e la colonna vertebrale sono scolpiti con una morbidezza che fa quasi dimenticare che sia pietra dura. Il busto si inclina, le spalle ruotano, le braccia si sollevano piegate: c’è tensione, c’è forza, c’è equilibrio. Chi la fece aveva osservato corpi veri. E la fece senza utensili di metallo: con pietre più dure e con la sabbia, con la stessa pazienza con cui fu scolpita la [coppa di cristallo di rocca](mna_s07_copa_cristal_roca) di Oaxaca. Basta immaginare quanti giorni, o forse mesi, di lento sfregamento furono necessari per ottenere una sola curva della spalla.\n\nQuesto pezzo racconta qualcosa di importante: l’arte olmeca non è solo teste giganti. Accanto alla fredda potenza delle teste colossali, c’è un naturalismo capace di cogliere il movimento. Diversi secoli prima che gli scultori greci levigassero i loro atleti nel marmo, qualcuno nella selva del sud del Veracruz era già riuscito a creare un corpo in tensione.\n\nUn ultimo dettaglio sul luogo in cui è apparsa. Non fu nei grandi centri olmechi, San Lorenzo o La Venta, ma lontano da essi, in piena selva. È un promemoria del fatto che il territorio olmeco era vasto, e che sotto la vegetazione restano ancora pezzi da trovare.\n\nE ora, una sfida per il corpo. Prova a imitare la sua postura: le gambe piegate, il busto girato, le braccia piegate in alto. Vedrai che non è facile mantenerla nemmeno per un minuto. Lo scultore fece in modo che la pietra sembrasse farlo senza sforzo, e questo, più della forza, è ciò che lo rende un maestro.\n\nConfrontalo con [i Danzanti](mna_s07_danzante_montealban) di Monte Albán, che hai visto pochi minuti fa. Quei corpi erano flosci, inerti, di vinti. Questo è il contrario: un corpo vivo, in pieno controllo di sé. Due modi opposti di rappresentare il corpo umano, e tutti e due nella pietra."
+    },
+    "retos_observacion": {
+      "hash": "07496e260584c929",
+      "texto": [
+        "Gira intorno alla scultura: come cambia la figura da ogni lato?",
+        "Cerca la barba e i baffi",
+        "Nota la torsione del busto e come si tendono le braccia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "82321a7df6dd0f77",
+      "texto": {
+        "Cultura": "Olmeca",
+        "Periodo": "Preclassico medio",
+        "Materiale": "Basalto",
+        "Provenienza": "Antonio Plaza, comune di Jesús Carranza, Veracruz",
+        "Misure": "0,66 m di altezza x 0,40 m di larghezza x 0,42 m di spessore",
+        "Ritrovamento": "Scoperto per caso nel 1933 da un contadino che arava la terra"
+      }
+    },
+    "faq_mito": {
+      "hash": "7d8d86bb1fdf6c8c",
+      "texto": {
+        "pregunta": "Mito: Le sculture olmeche erano rigide e frontali, senza movimento.",
+        "respuesta": "Realtà: Il Lottatore ruota il busto, tende i muscoli ed è stato fatto per essere visto da tutti i lati: un’eccezione stupefacente per la sua epoca."
+      }
+    }
+  }
+}

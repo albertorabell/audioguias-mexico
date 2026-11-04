@@ -1,0 +1,54 @@
+{
+  "id": "mna_s21_danza_tlacololeros",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "80fff9a06020ea2e",
+      "texto": "Danza dei Tlacololeros"
+    },
+    "frase_gancho": {
+      "hash": "089df9bfb68d4bc7",
+      "texto": "Danzatori con fruste che risuonano come il tuono per chiamare la pioggia nel Guerrero."
+    },
+    "puente_narrativo": {
+      "hash": "3f6cb0e22830de95",
+      "texto": "Dai danzatori passiamo a un indumento con fama di leggenda. Cerca un antico huipil, tessuto con cotone bianco e marrone, con un’aquila a due teste ricamata sul davanti."
+    },
+    "guion_corto": {
+      "hash": "14229a2b15892dfa",
+      "texto": "Tlacolol è il nome di un campo coltivato sul pendio di un colle. Si ripulisce bruciando il bosco prima di seminare mais e fagioli. Da qui viene il nome dei tlacololeros, danzatori delle montagne del Guerrero che rappresentano questo lavoro dei campi. Indossano abiti di stoffa ruvida e cappelli di paglia, e portano maschere dai tratti esagerati, spesso dipinte di rosso. In mano tengono una frusta, e il suo schiocco suona come il tuono e il fuoco del disboscamento. La danza si racconta come una piccola commedia. I contadini lavorano la terra e danno la caccia a una tigre che minaccia la comunità e i suoi animali. È anche un modo di chiedere che arrivi la pioggia e che il raccolto sia buono."
+    },
+    "guion_largo": {
+      "hash": "e773d49662ee68b2",
+      "texto": "Tlacolol è una parola nahuatl che indica un tipo di terra coltivata. È un pezzo di pendio dove si abbatte il bosco, lo si brucia e si semina mais e fagioli. Nelle montagne del Guerrero, dove quasi non c’è terra pianeggiante, questo sistema è la base del ciclo agricolo. Da qui viene il nome dei tlacololeros, i danzatori che rappresentano quel lavoro.\n\nLa loro danza segue i compiti del campo. I danzatori imitano la semina e si lamentano con il loro capo dei danni della tigre. In una versione del Guerrero che è stata studiata, i contadini portano nomi di piante, come il Chile Verde o il Calabacero. Inoltre c’è un pagliaccio che parodia gli altri e fa smorfie al pubblico.\n\nLa tigre è il cattivo. Nel Guerrero, come in buona parte del Messico, «tigre» è il nome popolare del giaguaro. Nella danza attacca gli animali della comunità, e per questo si organizza una battuta di caccia. Il capo chiama i suoi aiutanti. Una cagna da traccia, di nome Maravilla, segue la pista. Dopo uno scontro, la tigre muore. I nomi cambiano da villaggio a villaggio, ma la storia è simile. Qualcosa di simile hai visto nel [dipinto di Xalitla](mna_s21_pintura_xalitla), dove compaiono i danzatori dei tecuanes.\n\nLa parte che si ricorda di più è il suono. Ogni tlacololero porta una frusta, che laggiù chiamano chirrión, e la fa schioccare sul braccio imbottito del compagno. Quello schiocco non è un ornamento. Uno studio lo paragona allo scricchiolio degli alberi che bruciano, e un altro al tuono che annuncia la pioggia. È fuoco e tempesta insieme.\n\nGli abiti e le maschere sono semplici. Le descrizioni parlano di costumi di sacco o di stoffa ruvida e di cappelli di paglia a tesa larga. Le maschere hanno tratti esagerati, con bocche allungate e smorfiose, e spesso sono rosse. Il pittore Carlos Mérida, quello della vetrata della sala del Gran Nayar, disegnò la danza intorno al 1939. Lo fece in una litografia della sua serie «Danzas de México», con maschere rosse e costumi di sacco.\n\nTutto questo ha uno scopo: chiedere acqua. Uno studio sulla regione Centro Montaña del Guerrero riporta che la danza fa parte delle cerimonie di richiesta della pioggia. Queste cerimonie terminano sui colli intorno al due e al tre maggio. Un giornale nazionale racconta inoltre che i tlacololeros sono «invocatori della vita». Chiedono la pioggia perché ci sia un buon raccolto di mais, fagioli e zucca.\n\nÈ, dunque, il quarto modo di chiedere la pioggia che incontri nel percorso. I maya lo fanno con il Cha Chaak, i rarámuri con lo yúmari e i nahua con l’[altare del Tlamanaliztli](mna_s21_altar_tlamanaliztli) che hai appena visto. Qui la richiesta si fa con i piedi, con le maschere e con lo schiocco della frusta.\n\nNon è tutto una sola danza. A Zitlala, nel Guerrero, ci sono combattimenti rituali di tigri, con elmi di cuoio, e in altri villaggi si ballano i tecuanes. Sono parenti dei tlacololeros, ma non sono la stessa cosa. Oggi i gruppi si riuniscono in incontri come quello di Chilpancingo. L’INAH ha avvertito che queste tradizioni possono andare perdute se le nuove generazioni perdono interesse."
+    },
+    "retos_observacion": {
+      "hash": "be7cb67907bdf25a",
+      "texto": [
+        "Cerca i tratti esagerati delle maschere: bocche, nasi e sopracciglia",
+        "Osserva il colore predominante del volto della maschera",
+        "Trova la frusta e gli abiti di stoffa ruvida dei danzatori"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f082e46e690bbd31",
+      "texto": {
+        "Cultura": "Nahua (montagne del Guerrero)",
+        "Periodo": "Tradizione viva",
+        "Materiale": "Maschere, abiti di stoffa grezza e fruste dei danzatori",
+        "Provenienza": "Guerrero"
+      }
+    },
+    "faq_mito": {
+      "hash": "8cd1e6214e91a144",
+      "texto": {
+        "pregunta": "Mito: In Messico non ci sono tigri, quindi la «tigre» di queste danze è un’invenzione.",
+        "respuesta": "Realtà: Nel linguaggio popolare del Messico, «tigre» è il nome del giaguaro, e nella danza rappresenta un animale che minaccia la comunità."
+      }
+    }
+  }
+}

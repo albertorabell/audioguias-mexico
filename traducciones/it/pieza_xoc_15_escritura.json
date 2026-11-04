@@ -1,0 +1,53 @@
+{
+  "id": "xoc_15_escritura",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5cea5ca5e3bd9004",
+      "texto": "La scrittura di Xochicalco"
+    },
+    "frase_gancho": {
+      "hash": "049cb7abf835bd55",
+      "texto": "Segni disposti in fila che ancora nessuno legge del tutto."
+    },
+    "puente_narrativo": {
+      "hash": "bb4b1244f47c7694",
+      "texto": "Continua il tuo percorso: prosegui alla scoperta degli spazi della Plaza Principal."
+    },
+    "guion_corto": {
+      "hash": "6321edeb1b6b25da",
+      "texto": "Xochicalco ebbe una scrittura, e ancora non si legge del tutto. Helmke e Nielsen la collocano tra gli anni seicentoottanta e mille, nella stessa epoca di quella di Cacaxtla, Teotenango, El Cerrito e Acatlán. Nella Piramide dei Serpenti Piumati c’è un testo lineare, cioè segni disposti in fila. I primi testi del sito furono pubblicati nel milleottocentonovanta, con Peñafiel. Un’enciclopedia descrive inoltre una miscela di segni di giorno di tipo nahua dentro cartigli di stile maya, con numerali simili a quelli zapotechi. Questa miscela mostra una città aperta a molte regioni. Nessuna lettura è definitiva. Se vedi dei segni sull’edificio, pensa di trovarti davanti a un sistema di scrittura che aspetta ancora chi lo decifri."
+    },
+    "guion_largo": {
+      "hash": "653ff7b3e0c55a68",
+      "texto": "La scrittura non è esclusiva di una sola cultura. A Xochicalco si scriveva anche.\n\nHelmke e Nielsen, che hanno studiato questi segni, collocano la scrittura geroglifica della città tra gli anni seicentoottanta e mille. Era l’epoca dell’Epiclassico, e anche altre città del Messico centrale scrivevano: Cacaxtla, Teotenango, El Cerrito e Acatlán.\n\nNella Piramide dei Serpenti Piumati c’è un testo lineare, cioè segni disposti in una fila. Tra questi compare la data nove Canna, che questi specialisti mettono in relazione con la commemorazione di una cerimonia del fuoco nuovo.\n\nI primi testi di Xochicalco furono pubblicati nel milleottocentonovanta, con Peñafiel. Più tardi ci lavorarono Caso e Berlo. Eppure la scrittura non è decifrata.\n\nL’enciclopedia World History descrive qualcosa di curioso. Dice che i segni di giorno sono di tipo nahua, che si trovano dentro cartigli di stile maya e che i numeri somigliano a quelli zapotechi. È la descrizione di una sola fonte, ma si accorda con ciò che si sa della città: un luogo aperto a molte regioni. C’è un altro indizio: Sáenz trovò in una camera di offerte una lapide con due glifi nahua e due zapotechi.\n\nPer questo questa scrittura è difficile da leggere. Non appartiene del tutto a nessuna tradizione conosciuta. Mescola risorse di diverse, e chi la realizzò sembrava creare un linguaggio visivo proprio per una città di gente diversa.\n\nUna scrittura non decifrata non è una scrittura muta. Si possono riconoscere date e alcuni segni. Quello che manca è la sintassi, cioè il modo in cui i segni si ordinano per formare frasi.\n\nSe guardi l’edificio, cerca le file di segni. Forse è ciò che di più vicino abbiamo a una voce di questa città."
+    },
+    "retos_observacion": {
+      "hash": "0af2f9b756b2c135",
+      "texto": [
+        "Cerca segni disposti in fila sull’edificio",
+        "Confronta il loro stile con le figure maya",
+        "Chiedi alla tua guida quali segni sono date"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a21d661326bd512f",
+      "texto": {
+        "Periodo della scrittura epiclassica": "tra seicentoottanta e mille",
+        "Primi testi pubblicati": "milleottocentonovanta, Peñafiel",
+        "Stato": "non del tutto decifrata"
+      }
+    },
+    "faq_mito": {
+      "hash": "589ddc5ca137bfc9",
+      "texto": {
+        "pregunta": "Mito: I glifi di Xochicalco si leggono già come un testo continuo.",
+        "respuesta": "Realtà: Si identificano date e alcuni segni, ma la scrittura non è decifrata."
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "mna_s12_acervo_textil",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "91ae1238e48b4489",
+      "texto": "Patrimonio tessile comunitario (huipil e telai tradizionali)"
+    },
+    "frase_gancho": {
+      "hash": "0f1a3dabfd3d3e54",
+      "texto": "Tessuti in cui ogni filo dice di quale paese sei."
+    },
+    "puente_narrativo": {
+      "hash": "c34a1a6fbd628df3",
+      "texto": "Ora percorriamo il paese per regioni, e cominciamo dalla sierra del Gran Nayar. Cerca un quadro di legno ricoperto di filato di lana dai colori brillanti, con cervi, fiori e soli."
+    },
+    "guion_corto": {
+      "hash": "ea57fda3fd8af113",
+      "texto": "Questa è una piccola rassegna dei tessuti del Messico. Vedrai huipil, che sono lunghe bluse fatte con teli rettangolari; quechquémitl, che coprono le spalle; enredos e fasce. Molti sono tessuti al telaio a cinghia: la tessitrice lega un'estremità a un albero o a un palo e l'altra alla propria vita, e tende i fili con il peso del corpo. I materiali sono cotone bianco o marrone, lana, seta e ixtle; i colori vengono da piante e animali, come l'indaco, la cocciniglia e la murice. Ogni paese ha i suoi disegni, e chi sa leggerli riconosce da dove viene chi li indossa."
+    },
+    "guion_largo": {
+      "hash": "6e49f802b7b8ec55",
+      "texto": "I tessuti sono la parte della storia che quasi sempre si perde. I maya persero i loro nell'umidità della foresta, e della grotta di Candelaria ci sono rimaste delle coperte grazie al deserto. Qui, invece, li hai vivi, tessuti oggi e indossati da chi li fa. E se presti attenzione, vedrai che conservano tecniche già in uso più di mille anni fa.\n\nIl telaio a cinghia è lo strumento principale. È un insieme di bastoni: uno si lega a un albero o a un palo, e l'altro si fissa a una fascia che la tessitrice porta in vita. Quando si china all'indietro tende i fili, e quando si avvicina li allenta. Nelle statuette di Jaina che hai visto ci sono donne che tessono con questo stesso sistema. Più di mille anni dopo, il telaio a cinghia è ancora in uso in molti villaggi.\n\nOsserva come si fa un huipil. Poiché il telaio produce un tessuto stretto, si cuciono insieme due o tre teli rettangolari, si lascia un'apertura per la testa e non si taglia nulla. È un indumento senza sprechi. Kabal Xook, la donna dell'[architrave di Yaxchilán](mna_s09_dintel26_yaxchilan), indossava un huipil; la forma di base è la stessa. Anche il quechquémitl, l'indumento per coprire le spalle, è un'idea molto antica.\n\nI materiali raccontano la loro storia. Il cotone può essere bianco o marrone; quello marrone, chiamato coyuchi, cresce proprio così, già colorato. La lana arrivò con le pecore portate dagli spagnoli, e anche la seta. L'ixtle, la fibra del maguey, è la stessa con cui furono intrecciati i fagotti di Candelaria. Nessun materiale è scomparso: ogni epoca ha aggiunto il suo.\n\nI colori sono una festa di chimica naturale. L'indaco dà l'azzurro. La cocciniglia, un insetto che vive sul fico d'India, dà un rosso così intenso che, dopo la conquista, fu tra i prodotti più preziosi che dalla Nuova Spagna partivano per l'Europa. Sulla costa di Oaxaca, alcune tessitrici tingono il filo con una lumaca di mare, la murice, e poi la restituiscono viva al mare. Quella tinta è viola e sa di mare.\n\nOgni paese ha i suoi disegni, e spesso chi sa leggerli riconosce da quale comunità viene la persona che li indossa. I rombi, le stelle, gli uccelli, i fiori, i serpenti si ripetono con variazioni. Alcuni di questi disegni sono legati a idee sul mondo: il rombo, per esempio, di solito si associa all'universo e ai suoi quattro punti cardinali. Ma non tutto è fissato: ogni tessitrice inventa dentro la tradizione.\n\nTra i maya, la dea della luna, della medicina e della tessitura era Ixchel; tra i mexica, la dea della tessitura era Xochiquétzal. Oggi molte donne di popoli diversi continuano a tessere come atto di memoria, e a volte come mezzo di sostentamento. Un huipil può richiedere mesi di lavoro, e il suo prezzo raramente rispecchia quel tempo.\n\nPercorri le altre sale con questo sguardo. Il rebozo purépecha, il [quechquémitl otomí](mna_s15_quechquemitl_otomi), l'[huipil di Cuetzalan](mna_s16_huipil_cuetzalan), quello triqui, l'[abito da tehuana](mna_s17_traje_tehuana), il [terno yucateco](mna_s19_terno_yucateco): in ciascuno vedrai la stessa abitudine di trasformare un filo in un modo di dire chi sei."
+    },
+    "retos_observacion": {
+      "hash": "d025a6c08a63007a",
+      "texto": [
+        "Cerca un huipil e conta quanti teli ha",
+        "Trova il telaio a cinghia e osserva la fascia che sorregge la tessitrice",
+        "Confronta due indumenti: quali disegni si ripetono in entrambi?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d76cb21aa1ad8911",
+      "texto": {
+        "Popolo indigeno": "Amuzgo, Tzotzil, Nahua, Chinantechi, Triqui, tra gli altri",
+        "Regione": "Oaxaca, Chiapas, Puebla, Guerrero e Yucatán",
+        "Tecnica/Materiale": "Cotone, lana, seta, tinture naturali; tessitura al telaio a cinghia e broccato",
+        "Funzione": "Abbigliamento cerimoniale e quotidiano di grande valore identitario"
+      }
+    },
+    "faq_mito": {
+      "hash": "a930fbe3ee210b7a",
+      "texto": {
+        "pregunta": "Mito: i ricami e i broccati degli huipil sono solo decorazioni.",
+        "respuesta": "Realtà: in molti villaggi i disegni identificano la comunità di chi li indossa, e alcuni custodiscono idee sul mondo. Ogni tessitrice impara i suoi dalla propria famiglia."
+      }
+    }
+  }
+}

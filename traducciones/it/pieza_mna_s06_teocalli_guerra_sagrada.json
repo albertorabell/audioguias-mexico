@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_teocalli_guerra_sagrada",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "975d0f20bf813e40",
+      "texto": "Teocalli della Guerra Sacra"
+    },
+    "frase_gancho": {
+      "hash": "5e300bc9f716c978",
+      "texto": "Un tempio in miniatura dove nasce l’immagine dello Stemma Nazionale."
+    },
+    "puente_narrativo": {
+      "hash": "85713be3c527b43f",
+      "texto": "In questa pietra l’aquila non sorregge più un serpente, ma la guerra. Avvicinati a un enorme tamburo di pietra dove un re afferra per i capelli quindici capi vinti."
+    },
+    "guion_corto": {
+      "hash": "21908d0e634867c1",
+      "texto": "Questo è il Teocalli della Guerra Sacra, un tempio in miniatura scolpito in un unico blocco di basalto, alto poco più di un metro. Gli studiosi concordano nel ritenere che servisse da trono cerimoniale di Moctezuma Xocoyotzin. Sul davanti ha la scalinata di un tempio; in alto, il disco del Sole e due figure che si fanno sanguinare le orecchie: il dio Huitzilopochtli e lo stesso Moctezuma. La faccia più famosa è quella posteriore: un’aquila posata su un nopal che nasce dal corpo della Terra. Guarda il becco: non regge un serpente, ma un simbolo, l’atl-tlachinolli, «acqua bruciata», la parola con cui i mexica dicevano «guerra»."
+    },
+    "guion_largo": {
+      "hash": "386dfa644cfa3a95",
+      "texto": "Se potessi girare intorno a questa pietra, scopriresti l’immagine che hai visto sulla facciata del museo e che è sulla bandiera del Messico. Un’aquila reale posata su un nopal, che sorge da una figura di pietra, la Terra, che già conosci. La leggenda racconta che il dio Huitzilopochtli ordinò al suo popolo di continuare a camminare finché non avesse visto un’aquila posata su un nopal. Lì avrebbero dovuto fondare la loro città. E la videro su un isolotto del lago di Texcoco, nell’anno 2 Casa, che corrisponde al 1325.\n\nMa guarda il becco. Nello stemma moderno, l’aquila divora un serpente. Qui no. Dal suo becco esce una doppia voluta, che si separa in due correnti: una d’acqua e una di fuoco. È il glifo atl-tlachinolli, «acqua bruciata», che è un modo molto mexica di dire «guerra». Ciò che sembra opposto, l’acqua e il fuoco, diventa una sola parola. Gli storici fanno notare che le immagini più antiche dell’aquila e del nopal non avevano il serpente; quella versione arrivò più tardi.\n\nOra alza lo sguardo alla parte superiore, al santuario del tempio in miniatura. Tra i due personaggi c’è un disco solare, il segno Nahui Ollin, «Quattro Movimento», lo stesso che vedrai nella [Pietra del Sole](mna_s06_piedra_sol). A sinistra c’è Huitzilopochtli, con il suo elmo di colibrì; a destra, il tlatoani Moctezuma Xocoyotzin. Entrambi si pungono l’orecchio con una spina per offrire il proprio sangue al Sole. È un dettaglio importante: il re e il dio fanno la stessa cosa. Anche i potenti pagavano la loro parte.\n\nConta anche le date. Una di esse è 2 Canna, l’anno 1507, quando i mexica celebrarono il Fuoco Nuovo, la cerimonia che si svolgeva ogni cinquantadue anni e che già conosci: spegnere tutti i fuochi e accenderne uno nuovo. Fu l’ultimo Fuoco Nuovo che i mexica vissero; il successivo sarebbe toccato nel 1559, ma per allora l’impero era già caduto. Questo tempio in miniatura segna l’ultimo grande ciclo prima della fine.\n\nSui lati ci sono altri dèi. Si riconosce Tláloc, il dio della pioggia; Xiuhtecuhtli, il Signore del Fuoco, lo stesso Vecchio Dio del Fuoco che hai visto in pietra e in argilla; [Xochipilli](mna_s06_xochipilli), il dio dei fiori, che vedrai tra poco, e Tlahuizcalpantecuhtli, il Signore dell’Alba, il pianeta Venere che si adorava a Tula. Il Teocalli è una specie di riassunto del pantheon.\n\nLa sua storia moderna è molto curiosa. Fu trovato sotto le fondamenta del Palazzo Nazionale e fu estratto nel 1926. Il Palazzo Nazionale sorge su quelli che furono i palazzi di Moctezuma, ed è per questo che vi sono comparsi tanti pezzi. Chissà quanti altri dormono sotto le sue mura.\n\nE c’è dell’altro. Quando estrai una moneta da pesos e guardi il rovescio, vedrai al centro l’aquila e il nopal. Cinque secoli dopo, quell’immagine si vede ancora ogni giorno. Il Teocalli ti ricorda che l’emblema nazionale non è stato inventato in un ufficio: è uscito da una pietra, da un mito e da una fondazione sull’acqua."
+    },
+    "retos_observacion": {
+      "hash": "f96b9acc94c9d79e",
+      "texto": [
+        "Conta i gradini della scalinata",
+        "Cerca le due figure che si fanno sanguinare le orecchie accanto al disco del Sole",
+        "Gira intorno e cerca l’aquila del nopal: che cosa esce dal suo becco?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9f07c574a19b4a3f",
+      "texto": {
+        "Cultura": "Mexica",
+        "Periodo": "Postclassico recente (1200-1521 d.C.)",
+        "Materiale": "Basalto e pigmento rosso",
+        "Provenienza": "Centro Storico, Città del Messico (Palazzo Nazionale)",
+        "Misure": "123 cm di altezza x 92 cm di larghezza x 100 cm di spessore"
+      }
+    },
+    "faq_mito": {
+      "hash": "e48efe4c249c8e6b",
+      "texto": {
+        "pregunta": "Mito: Nello stemma mexica l’aquila divorava sempre un serpente.",
+        "respuesta": "Realtà: In questa pietra, dal suo becco esce il simbolo della guerra, non un serpente; secondo vari storici, il serpente si diffuse in versioni successive dell’emblema."
+      }
+    }
+  }
+}

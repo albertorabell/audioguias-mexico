@@ -1,0 +1,58 @@
+{
+  "id": "mna_s20_mascara_chapayeka",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Tolteco\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6106535299f73dcf",
+      "texto": "Maschera di Chapayeka / Fariseo della Settimana Santa yaqui"
+    },
+    "frase_gancho": {
+      "hash": "c0e497e44c13a5f1",
+      "texto": "Orecchie enormi e naso lungo: la maschera dei farisei della Settimana Santa yaqui."
+    },
+    "puente_narrativo": {
+      "hash": "6b6a6b6a61eb1665",
+      "texto": "Dalla maschera passiamo alla musica della sierra. Cerca un violino di legno fatto a mano, accanto a un piccolo tamburo con due membrane di pelle."
+    },
+    "guion_corto": {
+      "hash": "b436ce2590224680",
+      "texto": "Questa maschera di cuoio, con orecchie enormi e naso lungo, è quella di un chapayeka, chiamato anche fariseo, personaggio centrale della Settimana Santa del popolo yaqui, o yoeme, di Sonora. È dipinta con linee geometriche e croci in rosso, bianco e nero, e dalla parte alta pendono ciuffi di crine o di lana. Gli uomini che la indossano sciolgono una promessa, una manda, durante la Quaresima, e si vestono con una coperta, una cintura di zoccoli e una spada di legno. Rappresentano i persecutori di Cristo e le forze del male. Il Sabato Santo, al termine della Settimana Santa, il male viene sconfitto: i danzatori si tolgono le maschere e le gettano nel fuoco. È un teatro sacro a cui partecipa tutto il popolo."
+    },
+    "guion_largo": {
+      "hash": "aedfdea4e19cfbcf",
+      "texto": "Gli yaqui chiamano se stessi yoeme, «il popolo». Vivono nel sud di Sonora, lungo il fiume Yaqui, e la loro lingua appartiene alla stessa grande famiglia del nahuatl. Non sono lo stesso popolo, certo, ma le loro lingue condividono un’origine remotissima. Forse ricordi che i mexica raccontavano di essere venuti dal nord, da Aztlán: qui, nel nord, vivono ancora lingue sorelle della loro.\n\nNel diciassettesimo secolo arrivarono nella regione i missionari gesuiti e, con loro, il calendario cristiano. Gli yaqui non lo accolsero semplicemente: lo mescolarono con le loro idee sul monte, sull’acqua e sugli antenati, e crearono una Settimana Santa che non somiglia a nessun’altra. Questa maschera fa parte di quella mescolanza.\n\nPer quaranta giorni, la Quaresima trasforma l’intero villaggio in un palcoscenico. I farisei percorrono le strade e il tempio e, si racconta, finché indossano la maschera restano in silenzio e comunicano a gesti e con il rumore delle loro cinture. Mettersi la maschera significa smettere di essere se stessi. Per questo la si tratta con rispetto e non come un costume di carnevale.\n\nPoi arriva lo scioglimento. Il Sabato Santo, tra campane e fiori, a quanto si racconta, i farisei perdono la battaglia, si tolgono le maschere e le gettano in un rogo. Poiché molte maschere finiscono nel fuoco, ogni anno bisogna farne di nuove. Per questo è interessante averne una qui: normalmente questi oggetti scompaiono quando finisce la loro funzione.\n\nAltri danzatori yaqui hanno il loro posto nelle feste. I pascola ballano e fanno ridere, e il danzatore del cervo imita i movimenti dell’animale, da quando beve nel bosco fino a quando cade cacciato. Alle gambe legano i tenábaris, le file di bozzoli con sassolini che hai già visto raffigurati nella [danzatrice di Tlatilco](mna_s03_bailarina_cascabeles). Il cervo, che è apparso nelle impronte del [petroglifo del deserto](mna_s11_petroglifo_desierto) e nei quadri wixárika, nel nord è un animale sacro.\n\nNella sala dei Toltechi hai visto un guerriero che portava un coyote come elmo per prenderne la forza. Qui l’idea è diversa: chi indossa la maschera si carica del ruolo del male perché la comunità possa sconfiggerlo. È una delle forme più antiche di teatro, e ancora oggi viene rappresentata ogni anno.\n\nLa storia degli yaqui è anche una storia di resistenza. Per secoli difesero il loro territorio e l’acqua del fiume, e nell’Ottocento e all’inizio del Novecento ci furono guerre e deportazioni. Secondo gli storici, migliaia di yaqui furono mandati lontano dalla loro terra, tra le altre destinazioni alle haciendas di henequén dello Yucatán, dove hai visto [il terno](mna_s19_terno_yucateco). Che la festa sopravviva è un modo di tornare a casa.\n\nQuando guardi la maschera, immagina il suono degli zoccoli della cintura che battono sul pavimento, un ritmo che annuncia il fariseo. Dietro questo oggetto di cuoio c’è un insegnamento: la comunità si rinnova ogni anno ricordando che il male esiste e che, unita, può vincerlo."
+    },
+    "retos_observacion": {
+      "hash": "369cc4a85825f51b",
+      "texto": [
+        "Cerca le orecchie enormi e il naso allungato",
+        "Osserva le croci e le linee dipinte in rosso, bianco e nero",
+        "Immagina il rumore degli zoccoli della cintura mentre cammina"
+      ]
+    },
+    "especificaciones": {
+      "hash": "79f7178ced2adb9f",
+      "texto": {
+        "Popolo": "Yaqui (Yoeme)",
+        "Regione": "Valle del Río Yaqui (Sonora)",
+        "Tecnica/Materiale": "Cuoio di capra essiccato, legno di chivato, pelo naturale e pigmenti",
+        "Funzione": "Paramenti rituali di mascheramento per la Quaresima e la Settimana Santa yaqui"
+      }
+    },
+    "faq_mito": {
+      "hash": "98420d32404736e5",
+      "texto": {
+        "pregunta": "Mito: La maschera del chapayeka è un costume di carnevale.",
+        "respuesta": "Realtà: Fa parte di una promessa religiosa della Quaresima yaqui, e alla fine della Settimana Santa molte maschere vengono bruciate."
+      }
+    }
+  }
+}

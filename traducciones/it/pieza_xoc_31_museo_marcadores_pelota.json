@@ -1,0 +1,53 @@
+{
+  "id": "xoc_31_museo_marcadores_pelota",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f4a7dc33997c90ec",
+      "texto": "I marcatori del gioco della palla"
+    },
+    "frase_gancho": {
+      "hash": "4bf3228a9d6eef01",
+      "texto": "Pietre scolpite che stavano in un campo e oggi si vedono da vicino."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "Continua nel museo: la sala successiva mostra altri pezzi del sito."
+    },
+    "guion_corto": {
+      "hash": "155633692377d67e",
+      "texto": "I marcatori del campo orientale sono qui. Secondo la guida dell’INAH, hanno un bassorilievo e sono esposti nel Museo di Sito. Un marcatore era una pietra scolpita che si collocava sul muro del campo del gioco della palla. Un’altra fonte racconta che alcuni pezzi del museo conservano pigmenti rossi. Ricorda che la scultura della guacamaya del campo meridionale si trova nel Museo Nazionale di Antropologia, non qui. Osserva quanto è profondo l’intaglio e se rimane qualche traccia di colore. Senza il museo, queste pietre sarebbero solo un dato in una guida; qui puoi vederle da vicino e capire perché i campi fossero così importanti."
+    },
+    "guion_largo": {
+      "hash": "968b4c2fc827a487",
+      "texto": "Queste pietre stavano in un campo.\n\nSecondo la guida dell’INAH, i marcatori del campo orientale hanno un bassorilievo e sono esposti nel Museo di Sito. Un bassorilievo è una figura scolpita che sporge poco dalla pietra. Un marcatore era una pietra che si collocava sul muro del campo del gioco della palla.\n\nUn’altra fonte racconta che il museo espone marcatori del gioco della palla scolpiti, uno di essi tra i suoi pezzi, e che alcuni pezzi conservano pigmenti rossi.\n\nC’è un dettaglio da avere ben chiaro. La guacamaya che fu trovata nel campo meridionale non è qui. Secondo la guida dell’INAH, oggi si trova nel Museo Nazionale di Antropologia.\n\nConfronta questi pezzi con quello che hai visto nei campi. Il campo meridionale conserva due marcatori al loro posto, quello settentrionale li ha caduti e quelli del campo orientale sono qui. Tre campi, tre destini.\n\nOsserva quanto è profondo l’intaglio e se rimane qualche traccia di colore. È il modo migliore per avvicinarti a ciò che si giocava là fuori."
+    },
+    "retos_observacion": {
+      "hash": "4ac83377a6618d7b",
+      "texto": [
+        "Guarda l’intaglio da vicino",
+        "Cerca tracce di colore rosso",
+        "Confronta con il campo che hai visto all’esterno"
+      ]
+    },
+    "especificaciones": {
+      "hash": "91245ea8dc5e6e3f",
+      "texto": {
+        "Pezzo": "marcatori del campo orientale, con bassorilievo",
+        "Ubicazione": "Museo di Sito, secondo la guida dell’INAH",
+        "Guacamaya del campo meridionale": "Museo Nazionale di Antropologia"
+      }
+    },
+    "faq_mito": {
+      "hash": "a8d4ccb5bf08898d",
+      "texto": {
+        "pregunta": "Mito: Tutti i pezzi dei campi si trovano nel museo del sito.",
+        "respuesta": "Realtà: La guacamaya del campo meridionale si trova nel Museo Nazionale di Antropologia, e due marcatori sono ancora nel campo meridionale."
+      }
+    }
+  }
+}

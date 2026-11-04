@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_petroglifo_desierto",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d75191878d531d35",
+      "texto": "Petroglifo e raschiatoio cerimoniale di cacciatori-raccoglitori"
+    },
+    "frase_gancho": {
+      "hash": "92ad8d93a2d33580",
+      "texto": "Una pietra del deserto dove qualcuno lasciò spirali e impronte di cervo."
+    },
+    "puente_narrativo": {
+      "hash": "01df5397aec68e34",
+      "texto": "Gli stessi popoli che incisero la roccia seppellivano i loro morti in grotte molto asciutte. Cerca un fagotto alto quasi un metro, avvolto in coperte tessute e legato con corde."
+    },
+    "guion_corto": {
+      "hash": "5fdc131d91f72ed8",
+      "texto": "Questa lastra di pietra, alta una quarantina di centimetri, viene dal nord del Messico e ha incisioni fatte da cacciatori e raccoglitori del deserto. Si vedono spirali, linee ondulate e impronte di cervo. Furono fatte battendo la roccia con un’altra pietra più dura, fino a togliere lo strato scuro della superficie e lasciar vedere il colore chiaro sottostante. Accanto c’è un raschiatoio di selce, uno strumento per pulire le pelli e lavorare legno e osso. Nessuno sa con certezza che cosa significhino i disegni; si pensa che potessero segnare cammini, fonti d’acqua o luoghi sacri. I popoli che li fecero non costruirono città, ma conoscevano il deserto palmo a palmo."
+    },
+    "guion_largo": {
+      "hash": "3a201d0c624104cb",
+      "texto": "Fin qui hai visto piramidi, palazzi e tombe. Ma in Messico ci furono anche popoli senza città. Per migliaia di anni, nei deserti del nord, vissero piccoli gruppi che si spostavano con le stagioni: in un periodo andavano dove maturavano i fichi d’India, in un altro dove c’erano i mesquite, in un altro ancora alle sorgenti e ai luoghi di caccia. Quasi non seminavano. La loro casa era l’intero territorio.\n\nI Mexica chiamavano Chichimechi i popoli del nord, a volte con disprezzo, come se fossero gente senza cultura. Eppure, secondo le loro stesse tradizioni, i Mexica venivano da laggiù: da Aztlán, nel nord, e da Chicomóztoc, il «luogo delle sette grotte». È un paradosso curioso: disprezzavano coloro da cui dicevano di discendere anch’essi.\n\nPer vivere nel deserto bisogna sapere moltissimo: quale pianta si mangia e quale cura, quanto dura l’acqua di un burrone, da dove passano i cervi. Quel sapere non si scriveva, si insegnava camminando. Pensa a che cosa significhi imparare tutto questo senza libri: ogni nonno era una biblioteca. Forse per questo ogni incisione contava tanto: era uno dei pochi luoghi in cui qualcosa di quella conoscenza restava.\n\nChe cosa significano i disegni? Sono state proposte varie idee: mappe di cammini e sorgenti, segni del passare delle stagioni, indicazioni di territorio, tracce di cerimonie. Le spirali e le linee ondulate si ripetono nell’arte rupestre di mezzo mondo, e in Messico compaiono dalle sierre del Coahuila a quelle del Nord-ovest. Le impronte di cervo parlano della caccia, ma anche di un animale che per alcuni popoli del nord era sacro. Lo vedrai di nuovo al piano superiore, quando arriveremo ai Wixárika, chiamati anche Huichol.\n\nIl raschiatoio di selce ti ricorda una continuità sorprendente. La selce si spezza in lamine dai bordi molto affilati, e con quel filo si toglieva il grasso da una pelle di cervo per renderla morbida. I primi abitanti dell’America, quelli della sala del popolamento, lavoravano la pietra in modo simile. Nel nord, quel modo di vivere durò migliaia di anni, fino all’arrivo degli spagnoli.\n\nE fu una forma di vita molto difficile da conquistare. Quando gli spagnoli trovarono l’argento nello Zacatecas, a metà del sedicesimo secolo, i popoli nomadi del nord difesero il loro territorio per una quarantina d’anni, in quella che è nota come la Guerra Chichimeca. Fu una delle resistenze più lunghe della conquista, in parte perché non c’era un re né una capitale da prendere. Per vincere un popolo così, bisogna vincere ogni famiglia.\n\nQuesta è la lezione di questa lastra. Senza città, senza metalli e senza piramidi, questi popoli seppero leggere un paesaggio che ad altri sembrava vuoto. E qualcuno si prese la briga di battere la pietra, per ore, per lasciarvi qualcosa che gli sopravvivesse. Che cosa lasceresti tu inciso su una roccia, sapendo che qualcuno lo guarderà fra mille anni?"
+    },
+    "retos_observacion": {
+      "hash": "4c05e30bba0292a4",
+      "texto": [
+        "Cerca le spirali e le linee ondulate",
+        "Trova le impronte di cervo",
+        "Guarda il filo del raschiatoio di selce"
+      ]
+    },
+    "especificaciones": {
+      "hash": "116883fc2deb1167",
+      "texto": {
+        "Cultura": "Aridoamerica / Tradizione delle culture del deserto (Gran Chichimeca)",
+        "Periodo": "Dallo Stadio litico al Postclassico (8000 a.C.-1500 d.C.)",
+        "Materiale": "Pietra vulcanica (basalto); selce e pietra focaia lavorate per percussione e ritocco",
+        "Provenienza": "Deserti e sierre del nord del Messico (Coahuila, Durango, Chihuahua, Sonora e Bassa California)"
+      }
+    },
+    "faq_mito": {
+      "hash": "533d401806162a0a",
+      "texto": {
+        "pregunta": "Mito: I popoli del deserto erano semplici nomadi, senza conoscenze né cultura.",
+        "respuesta": "Realtà: Conoscevano il deserto come nessun altro: quali piante mangiare, dove c’era acqua e da dove passava la selvaggina. Lasciarono incisioni nella pietra e resistettero per una quarantina d’anni agli spagnoli."
+      }
+    }
+  }
+}

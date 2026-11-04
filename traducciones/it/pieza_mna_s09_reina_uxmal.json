@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_reina_uxmal",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d7d3866ea3a54a33",
+      "texto": "Regina di Uxmal"
+    },
+    "frase_gancho": {
+      "hash": "c3cef2e86c824f37",
+      "texto": "Non è una regina: è un giovane che esce dalle fauci di un serpente."
+    },
+    "puente_narrativo": {
+      "hash": "b5ad585261322676",
+      "texto": "Non lontano da Uxmal, a Kabah, un tempio era ricoperto di volti di pietra. Cerca un enorme mascherone dal naso lungo che si arrotola verso l’alto."
+    },
+    "guion_corto": {
+      "hash": "c3ba848ae64a8e76",
+      "texto": "Questa scultura di pietra calcarea, alta circa ottanta centimetri, viene da Uxmal, nello Yucatán. Si chiama la «Regina di Uxmal», ma oggi si pensa che non sia una donna: è un giovane nobile, o iniziato, che emerge dalle fauci aperte di un serpente. Guarda il suo volto: fronte corrucciata, occhi ovali e labbra rivolte verso il basso, un’espressione severa. Sulla guancia sinistra ha un segno a forma di serpente dalla mandibola curva, forse una scarificazione rituale. Sulla fronte porta un diadema di grani. Le fauci che lo circondano sono una porta: il passaggio dal mondo degli dèi a quello degli uomini. È un’immagine di rinascita, e un soprannome sbagliato diventato famoso."
+    },
+    "guion_largo": {
+      "hash": "8be95e92026a8cc2",
+      "texto": "Come fa una scultura a sbagliare nome? Questa si chiama da molto tempo «Regina di Uxmal», e non è una regina. Chi la vide per la prima volta, così raffinata, con il suo diadema sulla fronte, dovette supporre che fosse una donna. Il soprannome rimase, e ancora c’è. Oggi si pensa che sia un giovane uomo, un nobile o un iniziato, e che l’importante non sia il suo sesso, ma ciò che fa: uscire dalle fauci di un serpente.\n\nQuesta immagine l’hai già vista, in un’altra forma. Nella Sala tolteca, il [guerriero coyote](mna_s05_guerrero_coyote) ha un volto umano che esce dalle fauci dell’animale. Qui è un serpente. Per i Maya, le fauci aperte del serpente o del mostro della terra erano una porta: tra l’oltretomba e la superficie, tra gli antenati e i vivi. Uscirne era nascere di nuovo, o essere riconosciuti come qualcuno dotato di un potere sacro.\n\nGuarda ora l’espressione. La fronte è corrucciata, gli angoli delle labbra scendono, e lo sguardo è duro. Non c’è sorriso, come nelle faccine del Golfo. C’è serietà, quella di chi attraversa una cerimonia importante. E sulla guancia sinistra compare un piccolo segno: una testa di serpente fantastico, di profilo, con la mandibola curva come un gancio. Può essere una scarificazione, una cicatrice fatta di proposito, o un tatuaggio; qualcosa che, come nell’[Adolescente di Tamuín](mna_s08_adolescente_huasteco), trasforma la pelle in una pagina scritta.\n\nQuesto volto viene da un edificio molto speciale. Fu trovato nella Piramide dell’Indovino, a Uxmal, una delle più famose del Messico. È una piramide curiosa: i suoi angoli sono arrotondati, per cui sembra un’enorme goccia di pietra. E c’è una leggenda su di essa: dicono che la costruì in una sola notte un nano, nato da un uovo, che aveva sfidato il re della città. È solo una leggenda, naturalmente. La realtà è un’altra: la piramide non fu innalzata in una volta sola, ma in più fasi, una sopra l’altra, come una matrioska. Questa scultura faceva parte di una delle facciate interne, che poi rimasero nascoste.\n\nLo stile di Uxmal si chiama Puuc. Si riconosce dalle facciate a mosaico di pietra, in cui centinaia di pezzi tagliati con precisione formano figure, volti e greche. È un’arte geometrica, elegante e molto ordinata. Ne vedrai subito un altro esempio, nel [mascherone di Kabah](mna_s09_mascaron_chaac).\n\nUn aneddoto in più sul nome: non è l’unico caso. Quando i visitatori percorsero le rovine maya, battezzarono gli edifici con i nomi che venivano loro in mente: «Casa dell’Indovino», «Palazzo del Governatore», «Quadrilatero Las Monjas». Nessuno di questi nomi è maya. Li diedero frati, viaggiatori ed esploratori di secoli passati, e restarono. I nomi veri, quasi tutti, andarono perduti.\n\nQuindi, la prossima volta che vedrai una targa con un bel nome in una rovina, chiediti quanto di quel nome sia antico e quanto lo abbiamo messo noi."
+    },
+    "retos_observacion": {
+      "hash": "8ca0897a56a4fe0a",
+      "texto": [
+        "Guarda il volto: che espressione ha?",
+        "Cerca il segno a forma di serpente sulla guancia sinistra",
+        "Osserva il diadema di grani sulla fronte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a5a50e1668ce346c",
+      "texto": {
+        "Cultura": "Maya",
+        "Periodo": "Classico recente (600-900 d.C.)",
+        "Material": "Pietra calcarea",
+        "Procedencia": "Uxmal, Yucatán (sottostruttura della Piramide dell’Indovino)",
+        "Medidas": "80 cm di altezza x 24 cm di larghezza x 99 cm di spessore"
+      }
+    },
+    "faq_mito": {
+      "hash": "051c6013c91771a4",
+      "texto": {
+        "pregunta": "Mito: La «Regina di Uxmal» è il ritratto di una regina maya.",
+        "respuesta": "Realtà: Il nome è un soprannome antico. Oggi si pensa che rappresenti un giovane nobile che esce dalle fauci di un serpente."
+      }
+    }
+  }
+}

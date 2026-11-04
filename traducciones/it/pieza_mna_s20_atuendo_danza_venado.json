@@ -1,0 +1,54 @@
+{
+  "id": "mna_s20_atuendo_danza_venado",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "441b8af2455f9bf4",
+      "texto": "Abbigliamento della Danza del Cervo yaqui"
+    },
+    "frase_gancho": {
+      "hash": "b38794fc827a3d4c",
+      "texto": "Con una testa di cervo e dei sonagli, un uomo yaqui diventa animale."
+    },
+    "puente_narrativo": {
+      "hash": "1c148ada216bc27a",
+      "texto": "Lasciamo il nord-ovest e torniamo al centro del paese, dai Nahua della Huasteca. Cerca un abito bianco di cotone coperto di fiori e uccelli ricamati in rosso, rosa e arancione."
+    },
+    "guion_corto": {
+      "hash": "48820dc34da445d1",
+      "texto": "Questo è l’abbigliamento del danzatore del cervo, che ballano il popolo yaqui e anche i mayo, in Sonora e Sinaloa. In lingua yaqui, il cervo si chiama maaso. Sul capo, il ballerino porta la testa di un cervo, adornata con nastri o fazzoletti colorati che fanno le veci dei fiori. Nelle mani tiene due sonagli fatti con zucche essiccate, che segnano il ritmo. Dalla cintura pendono zoccoli di cervo che risuonano a ogni movimento, e alle caviglie si legano fili di bozzoli di farfalla chiamati tenábaris. I cantori accompagnano con raschiatori e un tamburo ad acqua. Durante la danza, l’uomo imita l’animale: si mette in allerta, si spaventa, fugge e si difende. Per gli Yaqui, il cervo è un essere sacro."
+    },
+    "guion_largo": {
+      "hash": "86b17595475d8cde",
+      "texto": "Maaso è la parola yaqui per cervo. È anche il nome di una delle danze più importanti del popolo yaqui, o yoeme. La ballano anche i loro vicini, i mayo, che chiamano sé stessi yoreme. In essa, un uomo si trasforma: abbandona simbolicamente la propria condizione umana e si trasfigura in cervo. È una danza che ballano solo gli uomini.\n\nTutto comincia dalla testa. Il ballerino si lega una testa di cervo, con le sue corna, e la adorna con nastri o fazzoletti colorati che rappresentano fiori. I fiori sono molto importanti nel mondo yaqui, ed è per questo che l’animale del monte appare coperto di essi.\n\nIl resto del corpo resta quasi scoperto. Il petto è nudo e dalla vita pende una stoffa. Una cintura di cuoio sostiene file di zoccoli di cervo che risuonano a ogni passo. Dal collo pende un rosario con croci. Il danzatore porta anche una collana di madreperla o di conchiglia che rappresenta l’universo del mare. I piedi sono nudi e avvolti dai tenábaris, quei fili di bozzoli di farfalla che hai già visto raffigurati nella [danzatrice di Tlatilco](mna_s03_bailarina_cascabeles). In ogni mano tiene un sonaglio fatto con una zucca essiccata, che in yaqui si chiama áyam. Con essi segna i suoi movimenti. Zoccoli, bozzoli e zucche trasformano il ballerino stesso in uno strumento.\n\nLa musica arriva a parte. I cantori del cervo intonano canzoni in una forma molto antica della lingua yaqui. I loro testi parlano della natura: animali, piante e cielo. Per accompagnarsi raschiano delle canne scanalate e suonano un tamburo ad acqua, che è una grande zucca posta su un vassoio con dell’acqua.\n\nCiò che fa il ballerino è mimica. Secondo gli studiosi, rappresenta le tappe della vita del cervo. Si mette in allerta, guarda in lontananza, si agita, si spaventa, fugge e si difende. Un pittore dell’Arizona che conobbe la danza ne lasciò scritta un’immagine. All’inizio della notte, il danzatore è un cerbiatto, e durante la notte cresce fino a diventare un cervo adulto.\n\nIl cervo non balla da solo. Lo accompagna il pascola, il personaggio che fa ridere e che abbiamo già menzionato accanto alla maschera del [chapayeka](mna_s20_mascara_chapayeka). Porta una maschera di coyote o di capro, una cintura con sonagli metallici e balla con musica di violino o di arpa. Mentre il pascola scherza, il cervo rappresenta qualcosa di più solenne: il rapporto tra le persone e il mondo del monte. Tra gli Yaqui, cervo e pascola sono considerate le due danze più rappresentative.\n\nIl cervo è già comparso nel tuo percorso: nelle impronte del [petroglifo del deserto](mna_s11_petroglifo_desierto) e nei quadri wixárika. Nel nord-ovest, quell’idea di un animale sacro prende corpo e si balla.\n\nGli studiosi ritengono che la danza abbia origine preispanica, in parte per i suoi strumenti. Raschiatori, sonagli e un tamburo ad acqua non vennero dall’Europa. Eppure non è un pezzo da museo: si balla ancora oggi nelle feste yaqui e mayo. Per molti, il fatto che sia ancora viva è anche una forma di resistenza, in un popolo che per secoli ha difeso il proprio territorio."
+    },
+    "retos_observacion": {
+      "hash": "88ac6952de6363a8",
+      "texto": [
+        "Cerca la testa di cervo e i nastri colorati che la adornano",
+        "Osserva i sonagli di zucca che il ballerino tiene nelle mani",
+        "Trova la cintura di zoccoli e i fili di bozzoli per le caviglie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "44c01c2a5b2ac5fb",
+      "texto": {
+        "Cultura": "Yaqui (yoeme) e mayo (yoreme)",
+        "Periodo": "Tradizione viva, considerata di origine preispanica",
+        "Materiale": "Testa di cervo, nastri, stoffa, cuoio con zoccoli di cervo, zucche essiccate e bozzoli di farfalla",
+        "Provenienza": "Sonora e Sinaloa"
+      }
+    },
+    "faq_mito": {
+      "hash": "2accc4d7de68f07a",
+      "texto": {
+        "pregunta": "Mito: il danzatore del cervo si traveste da animale solo per divertire.",
+        "respuesta": "Realtà: per gli Yaqui e i mayo è una cerimonia: il ballerino rappresenta un animale sacro, e i canti parlano della natura."
+      }
+    }
+  }
+}

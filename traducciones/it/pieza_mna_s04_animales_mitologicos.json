@@ -1,0 +1,62 @@
+{
+  "id": "mna_s04_animales_mitologicos",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Tolteco\" para \"Tolteca / Toltecas\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Tolteco\" para \"Tolteca / Toltecas\" y no aparece",
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "dc5073a87fe16ea3",
+      "texto": "Murale degli Animali Mitologici"
+    },
+    "frase_gancho": {
+      "hash": "28bedb436b690c6b",
+      "texto": "Giaguari piumati, serpenti e coyote in processione: il bestiario di Teotihuacán."
+    },
+    "puente_narrativo": {
+      "hash": "88b921585b47d51c",
+      "texto": "Quando l’incendio dell’anno cinquecentocinquanta pose fine a Teotihuacán, la valle rimase senza capitale. Prosegui verso la Sala dei Toltechi: lì alcuni guerrieri di pietra sostengono il soffitto di un tempio, e altri animali, giaguari e coyote, tornano a sfilare."
+    },
+    "guion_corto": {
+      "hash": "5f5d87ac24f2f1c7",
+      "texto": "Gli animali occupano un posto enorme nell’arte di Teotihuacán. Nei suoi murali e nei suoi vasi compaiono giaguari con le piume, serpenti piumati, uccelli, coyote in fila e conchiglie marine, a volte mescolati in creature che non esistono in natura. Questo pezzo fa parte di quel bestiario. Cerca artigli, zanne, piume e squame in uno stesso corpo, e fai attenzione alle volute e alle gocce che escono dai musi: si interpretano come canto, respiro o acqua. Per i teotihuacani, si pensa, ogni animale aveva un proprio potere: il giaguaro, quello della terra; il serpente, quello dell’acqua; l’uccello, quello dell’aria. Insieme formavano una mappa del mondo."
+    },
+    "guion_largo": {
+      "hash": "f9cd90df2b74cae6",
+      "texto": "A Teotihuacán gli animali sono protagonisti. Compaiono nei murali, nei vasi, nei bracieri e nei rilievi: giaguari, coyote, civette, serpenti, uccelli, farfalle e anche creature ibride, come un giaguaro con le piume o un serpente con le ali. Questi esseri si chiamano mitologici perché non esistono, ma per chi li dipinse erano veri: riunivano in un solo corpo diversi poteri del mondo.\n\nPensa a ciò che significava ciascuno. Il giaguaro, cacciatore notturno, era associato alla notte, alla terra e al potere. Il serpente, che scivola come l’acqua, ai fiumi e alla fertilità. L’uccello, al cielo e al respiro. Quando i pittori li combinavano, non inventavano mostri: scrivevano idee con le immagini, un linguaggio che chiunque poteva leggere senza bisogno di imparare dei segni.\n\nI coyote hanno un posto speciale. Ad Atetelco, uno dei complessi residenziali di Teotihuacán, i muri sono dipinti con coyote in processione, a volte con simboli di guerra, e c’è chi li mette in relazione con guerrieri che si vestivano da coyote. Ricordi l’osso intagliato di Tequixquiac, quello della sala dei primi abitanti: il coyote attraversa tutta la storia del Messico, dalla preistoria fino al nome di un re poeta, Nezahualcóyotl.\n\nIl giaguaro viene da ancora più lontano. Gli Olmechi ne avevano già fatto il loro animale più importante, e nella Sala della Costa del Golfo vedrai un bambino-giaguaro tra le braccia di un grande personaggio. A Teotihuacán il giaguaro compare con le piume, mentre beve, mentre ruggisce, a volte con una conchiglia in bocca. È lo stesso animale, ma la città ne fece un proprio simbolo.\n\nIl serpente piumato, quello della facciata con cui hai iniziato questo percorso, è anch’esso un animale mitologico: rettile e uccello allo stesso tempo, terra e cielo, acqua e vento. A Teotihuacán era un simbolo di potere e di ordine. Secoli dopo, i Toltechi e i Mexica lo avrebbero chiamato Quetzalcóatl, e i Maya, Kukulkán. È uno dei fili che viaggiò più lontano.\n\nTra molti popoli del Messico, la gente crede ancora che ogni persona abbia un animale che la accompagna, il suo nahual. E in passato si credeva che certi sacerdoti e guerrieri potessero trasformarsi in animali. Non sappiamo se a Teotihuacán fosse lo stesso, ma la mescolanza di persona e animale è molto frequente nella sua arte. Nella Sala Mexica vedrai guerrieri vestiti da aquila e da giaguaro, e un’aquila che esce dall’elmo di un guerriero.\n\nOsserva anche ciò che esce dai musi: volute arricciate, gocce, fiori. È la stessa idea che hai visto nel murale del Tlalocan, dove dalle bocche escono parole che fioriscono. Gli animali di Teotihuacán non si limitano a ruggire o a ringhiare: cantano, parlano, respirano l’aria sacra. Perfino le fiere sono poeti.\n\nCon questi animali finisce la Sala di Teotihuacán. La città che abbiamo visto, con le sue piramidi dipinte di rosso, la sua dea dell’acqua, il suo paradiso, il suo vecchio del fuoco e i suoi volti di pietra, andò in fiamme verso l’anno cinquecentocinquanta e rimase quasi vuota. Ma le sue idee non morirono: altri popoli le raccolsero, le cambiarono e continuarono a raccontarle."
+    },
+    "retos_observacion": {
+      "hash": "8d944a97bea34827",
+      "texto": [
+        "Cerca artigli, zanne e piume in uno stesso corpo",
+        "Fai attenzione alle volute che escono dai musi",
+        "Conta quante specie diverse di animali riesci a riconoscere"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bb67cea7a9a99f97",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Periodo": "Classico (300-450 d.C.)",
+        "Materiale": "Pittura a fresco su stucco e malta di calce",
+        "Provenienza": "Teotihuacán, Stato del Messico (Via dei Morti)"
+      }
+    },
+    "faq_mito": {
+      "hash": "848ab8bf67801fc9",
+      "texto": {
+        "pregunta": "Mito: Questi animali erano solo decorazione.",
+        "respuesta": "Realtà: Ogni animale aveva un significato e un potere; combinarli era un modo di esprimere idee in immagini, come un linguaggio senza parole."
+      }
+    }
+  }
+}

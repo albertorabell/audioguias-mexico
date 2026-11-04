@@ -1,0 +1,54 @@
+{
+  "id": "xoc_14_serpientes_emplumadas_2",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "db32b496c58d5733",
+      "texto": "Il calendario e l’eclissi"
+    },
+    "frase_gancho": {
+      "hash": "ef20fc78e750ad73",
+      "texto": "Un rilievo che forse registra un’eclissi e la correzione di un calendario."
+    },
+    "puente_narrativo": {
+      "hash": "2c29bb4010a0e4b6",
+      "texto": "Prosegui il tuo percorso: la scrittura della città ha altro da dire su queste date."
+    },
+    "guion_corto": {
+      "hash": "67061bdf3c53ff07",
+      "texto": "Questa piramide può essere letta anche come un registro del cielo. Secondo la guida dell’INAH, sulla facciata ovest c’è un’immagine legata alla correzione del calendario, accanto al nome e al rango di un governante. Un altro rilievo mostra una mandibola sul punto di inghiottire un cerchio diviso in quattro. Medina Romero lo interpreta come la Luna che copre il Sole. Propone un’eclissi nell’anno settecentoquarantatré, anche se c’è chi la data al settecentonovanta. Florescano, invece, vede una scena di conquista. Niente di tutto questo è chiuso. Di sicuro c’è che l’edificio custodisce date e segni del tempo. Guarda i rilievi e decidi tu cosa vedi, sapendo che gli specialisti ne discutono ancora."
+    },
+    "guion_largo": {
+      "hash": "a0b3912f38f7d232",
+      "texto": "Un edificio può raccontare un fatto del cielo. Questo è ciò che propongono alcuni specialisti su questa piramide.\n\nLa facciata ovest, secondo la guida dell’INAH, ha un’immagine legata alla correzione del calendario e anche il nome e il rango di un governante. Medina Romero colloca la correzione calendariale nel pannello Nord-ovest, con una data accompagnata da due mani.\n\nAnche Hirth menziona una possibile correzione tra due sistemi di calendario. Uno conta duecentosessanta giorni e l’altro trecentosessantacinque. Poiché non coincidono, ogni tanto bisognava correggerli.\n\nC’è inoltre un rilievo con una mandibola sul punto di inghiottire un cerchio diviso in quattro. Secondo la guida dell’INAH, compare un riferimento a un’eclissi di Sole nell’anno settecentoquarantatré. Medina Romero la legge come la Luna che copre il Sole. Questa lettura è un’interpretazione.\n\nLe date proposte non coincidono. Medina Romero menziona il venticinque luglio del settecentoquarantatré, con un’eclissi parziale. L’UNAM propone il sedici luglio del settecentonovanta, più vicina a una totale. La guida dell’INAH parla di un’eclissi totale. Altre note dell’INAH segnalano discrepanze interne, e Florescano propone che il rilievo narri una conquista, non un’eclissi.\n\nHelmke e Nielsen spiegano che il segno nove Occhio di Rettile compare due volte sui lati nord, est e sud. Loro lo leggono come nove Canna, ed è sormontato da bracieri accesi. Potrebbe riferirsi a rituali del fuoco nuovo. Sulla facciata ovest c’è inoltre un anno nove Casa. Queste letture sono preliminari, perché la scrittura di Xochicalco non è ancora decifrata.\n\nPer decenni si è letto che i pannelli fossero un elenco di popoli che pagavano tributo a Xochicalco, da Coyoacán a Iguala, secondo Hirth. Nielsen e Helmke propongono un’altra lettura. I pannelli superiori mostrano una fila di figure sedute con lo stesso copricapo e lo stesso titolo, che loro confrontano con quello di divoratore di cuori di Cacaxtla. Potrebbero essere persone di alto rango.\n\nL’importante è ciò che sappiamo davvero. I costruttori di questa città lasciarono nel loro edificio più curato segni che hanno a che fare con il cielo e con il tempo. Che cosa dicano esattamente e quale data indichino resta in discussione."
+    },
+    "retos_observacion": {
+      "hash": "ec17422e8b8a06b1",
+      "texto": [
+        "Cerca sulla facciata ovest l’immagine della correzione del calendario",
+        "Individua la mandibola e il cerchio diviso in quattro",
+        "Decidi se vedi un’eclissi o una scena di conquista"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cb98c23e040f301e",
+      "texto": {
+        "Facciata ovest": "correzione del calendario e nome e rango del governante, secondo l’INAH",
+        "Eclissi proposta": "venticinque luglio settecentoquarantatré",
+        "Alternativa dell’UNAM": "sedici luglio settecentonovanta",
+        "Lettura alternativa": "scena di conquista, secondo Florescano"
+      }
+    },
+    "faq_mito": {
+      "hash": "978961b5ba5555af",
+      "texto": {
+        "pregunta": "Mito: Si sa con certezza che il rilievo mostra un’eclissi.",
+        "respuesta": "Realtà: È un’interpretazione. Altri specialisti propongono una scena di conquista e le date proposte non coincidono."
+      }
+    }
+  }
+}

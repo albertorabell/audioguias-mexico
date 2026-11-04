@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_fardo_candelaria",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae477f12a1b7faf6",
+      "texto": "Fagotto funerario della Cueva de la Candelaria"
+    },
+    "frase_gancho": {
+      "hash": "d47b72f58cd4dfae",
+      "texto": "Un fagotto di coperte e corde che il deserto ha conservato per secoli."
+    },
+    "puente_narrativo": {
+      "hash": "23e46836412b8389",
+      "texto": "Dal fagotto passiamo a una persona concreta. Cerca un cranio allungato che conserva ancora il suo copricapo di cordoni tinti di rosso."
+    },
+    "guion_corto": {
+      "hash": "e61a5f0fb1b97abc",
+      "texto": "Questo fagotto, alto circa ottantacinque centimetri, viene dalla Cueva de la Candelaria, nel Coahuila, ed è stato realizzato tra l’anno mille e il milletrecento della nostra era. È un fagotto funerario: una persona con il corpo piegato, in posizione fetale, avvolta in vari strati di stuoie e coperte di fibre di yucca e agave, e legata con corde. Tutto fu tessuto a mano, senza telaio. Osserva i tessuti e le corde: in una grotta molto secca la materia organica non marcisce quasi, e per questo si sono conservati anche sandali, ceste e altri oggetti di uso quotidiano. Sono cose semplici, ma parlano di una grande cura per i morti."
+    },
+    "guion_largo": {
+      "hash": "2434ffbd9d3214dc",
+      "texto": "Ci sono luoghi in cui il tempo si ferma, e la Cueva de la Candelaria, nella sierra che porta lo stesso nome, nel Coahuila, è uno di questi. È così secca che ciò che vi si lascia non marcisce quasi: né le stoffe, né le corde, né i sandali, nemmeno i capelli. Per questo oggi conosciamo oggetti che quasi in qualsiasi altro luogo del Messico sarebbero scomparsi in pochi anni.\n\nPensa ai maya della Sala Maya. I loro vestiti, i loro libri di carta e i loro mobili di legno andarono quasi completamente perduti nell’umidità della foresta; di loro ci sono rimasti soprattutto pietra, argilla e giada. Qui succede il contrario: il deserto ha custodito proprio ciò che è fragile. Ogni regione conserva una parte diversa della storia, e bisogna visitarle tutte per avere l’immagine completa.\n\nI gruppi che usarono questa grotta erano cacciatori e raccoglitori. Tornavano qui per seppellire i loro morti, e per questo molti fagotti sono stati trovati nello stesso luogo, uno accanto all’altro. A metà del ventesimo secolo l’INAH la esplorò e recuperò numerosi pezzi. Era, in un certo senso, un cimitero di famiglia al riparo della roccia. Immagina che cosa significa: un gruppo che percorreva grandi distanze e tornava sempre allo stesso luogo per congedarsi dai suoi cari. I morti erano una ragione per tornare.\n\nGuarda i tessuti con calma. Non usarono il telaio. Con le mani intrecciavano, annodavano e univano fibre di lechuguilla, yucca e agave, piante del deserto che danno un filo molto resistente, chiamato ixtle. Fare una coperta così richiedeva moltissima pazienza. Quando arriverai al piano superiore vedrai l’altro grande sistema di tessitura del Messico, il telaio a cintura, e capirai da dove viene tanta abilità.\n\nNemmeno la postura del corpo è un caso. In molti luoghi del mondo la persona viene sepolta piegata, come stava prima di nascere, e si è pensato che sia un modo di concepire la morte come un ritorno. Anche i mexica, secondo le cronache, avvolgevano i loro morti in coperte e li legavano seduti. Cambiano le mani e il deserto, ma l’idea di avvolgere con cura chi se ne va è molto simile.\n\nAccanto al morto si lasciavano le cose di ogni giorno: sandali di cesteria, borse, strumenti di pietra, archi e frecce, e a volte il propulsore che hai già visto nelle mani dell’[atlante di Tula](mna_s05_atlante_tula). Non c’è oro né giada. Se lo confronti con il corredo della Tomba 7 di Monte Albán o con la [tomba di Pakal](mna_s09_cripta_pakal), la differenza salta agli occhi. Eppure il gesto è lo stesso: nessuno doveva andarsene senza il necessario per il cammino.\n\nNon è una mummia come quelle dell’Egitto, che venivano preparate con tecniche elaborate. Qui ciò che ha conservato il corpo e i tessuti è stata soprattutto l’aria secca della grotta. Il deserto ha fatto il lavoro. È un promemoria del fatto che questi popoli, che a volte vengono chiamati semplicemente nomadi, avevano rituali complessi, memoria familiare e una grande abilità manuale."
+    },
+    "retos_observacion": {
+      "hash": "4b8899df4bd5f6d1",
+      "texto": [
+        "Segui le corde che legano il fagotto e guarda come sono intrecciate",
+        "Cerca gli strati di stuoie e coperte, uno sopra l’altro",
+        "Immagina i sandali e gli oggetti che accompagnavano il defunto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2b82595c4c23efa6",
+      "texto": {
+        "Cultura": "Aridoamerica / Cacciatori-raccoglitori del deserto (Comarca Lagunera)",
+        "Periodo": "Postclassico (1000-1500 d.C.)",
+        "Materiale": "Fibre vegetali tessute (yucca, lechuguilla e cotone)",
+        "Provenienza": "Cueva de la Candelaria, Coahuila"
+      }
+    },
+    "faq_mito": {
+      "hash": "3be9cc186355ac24",
+      "texto": {
+        "pregunta": "Mito: Questo fagotto è una mummia imbalsamata, come quelle dell’Egitto.",
+        "respuesta": "Realtà: Ciò che ha conservato il corpo e i tessuti è stata soprattutto la secchezza della grotta. Il deserto ha fatto il lavoro."
+      }
+    }
+  }
+}

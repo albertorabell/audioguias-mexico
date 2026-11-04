@@ -1,0 +1,64 @@
+{
+  "id": "mna_s00_espejo_caracol",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "fdf2b1be432b9130",
+      "texto": "Lo Specchio d’Acqua e la Conchiglia di bronzo"
+    },
+    "frase_gancho": {
+      "hash": "006aeabf44355693",
+      "texto": "Un pezzo dell’antico lago in pieno patio."
+    },
+    "puente_narrativo": {
+      "hash": "518a990d8c038f5a",
+      "texto": "Con l’acqua alle spalle, è ora di iniziare il percorso in ordine. Dirigiti verso la Sala 1: prima degli dèi e delle città c’è una domanda più grande, chi siamo e da dove veniamo?"
+    },
+    "guion_corto": {
+      "hash": "713922e6085caa0f",
+      "texto": "Di fronte all’ingresso della Sala Mexica il patio si fa stagno. È uno specchio d’acqua con piante acquatiche, una piccola evocazione del lago di Texcoco, l’acqua sulla quale si innalzò Tenochtitlan, la città che tra poco conoscerai. Al centro c’è una scultura di bronzo a forma di conchiglia marina intitolata «Sole del Vento», opera di Íker Larrauri. Per gli antichi messicani, la conchiglia tagliata era l’emblema di Ehécatl, il dio del vento, e le trombe di conchiglia suonavano nelle cerimonie e in guerra. Sporgiti sull’acqua: riflette il cielo, L’Ombrello e i muri del museo. Usalo come pausa prima di proseguire."
+    },
+    "guion_largo": {
+      "hash": "8c1566c46a389c96",
+      "texto": "Oggi è difficile immaginarlo, ma Città del Messico nacque in mezzo a un lago. Quando i mexica fondarono Tenochtitlan nel 1325, su un isolotto, la valle era piena d’acqua: laghi collegati, canali, chinampas galleggianti dove si coltivavano mais e fiori. Gli spagnoli prosciugarono il sistema nel corso dei secoli, e oggi l’acqua resta sotto l’asfalto. Sopravvivono solo alcuni frammenti, come i canali di Xochimilco, a sud della città, dove si coltiva ancora sulle chinampas. Questo stagno è un ricordo di tutto ciò.\n\nE non è un caso che sia proprio qui. Il museo sorge a Chapultepec, e sul colle di Chapultepec sgorgavano le sorgenti che, attraverso un acquedotto, portavano acqua dolce a Tenochtitlan, perché quella del lago era salmastra. Chi beveva acqua nella capitale mexica, in buona parte, beveva da questo bosco.\n\nFermati un momento sulla scala del tempo, perché questo lago non cominciò con i mexica. Più avanti, nella Sala del Popolamento delle Americhe, vedrai come un mammut rimase intrappolato nel fango di una delle sue rive circa undicimila anni fa. Nella Sala del Preclassico, un plastico mostrerà il villaggio di Cuicuilco, sulle sponde della stessa valle. E nella Sala Mexica vedrai come la vita di un’intera città dipendesse dall’acqua. Il lago fu il palcoscenico di tutta la storia che percorrerai.\n\nOra guarda la conchiglia di bronzo, opera di Íker Larrauri, l’artista e museografo che realizzò molti dei murali e dei diorami del museo. La conchiglia marina aveva una presenza enorme in Mesoamerica. Si soffiava come una tromba per chiamare i guerrieri, per annunciare i rituali e per salutare l’alba. Una conchiglia tagliata in sezione, con la spirale in vista, era inoltre l’emblema di Ehécatl-Quetzalcóatl, il dio del vento che spazzava le strade perché arrivassero le piogge. Per questo qui, accanto all’acqua, la conchiglia è una specie di avviso: il vento arriva prima della pioggia. Più avanti conoscerai Tecciztécatl, il dio della luna, il cui nome significa «colui della conchiglia».\n\nConcediti qualche secondo davanti alla superficie ferma. Il museo vi si riflette, laggiù galleggiano le ombre dell’Ombrello e, in lontananza, si intuisce l’ingresso della Sala Mexica. Ramírez Vázquez volle che quel riflesso non fosse un ornamento ma un invito a guardare l’edificio come si guardava una città sull’acqua: con la sensazione che, sotto ciò che vedi, ci sia un altro strato di storia.\n\nE un invito in più: quando entrerai nella Sala Mexica, cerca di ricordare questo stagno. Vedrai che il Templo Mayor sorgeva su un isolotto circondato d’acqua, che le sue strade rialzate galleggiavano sul lago e che gli dèi della pioggia e del vento, Tláloc ed Ehécatl, avevano un tempio tutto loro. Ciò che vedrai dentro è cominciato qui fuori. Perfino la guerra, per i mexica, si diceva con una parola d’acqua: «atl-tlachinolli», acqua e fuoco insieme. Nella Sala Mexica la vedrai scolpita nella pietra."
+    },
+    "retos_observacion": {
+      "hash": "afb32f80af497b72",
+      "texto": [
+        "Cerca la conchiglia di bronzo al centro dello stagno e segui la sua spirale con lo sguardo",
+        "Osserva le piante acquatiche che crescono nello stagno",
+        "Sporgiti sull’acqua e trova il riflesso dell’Ombrello"
+      ]
+    },
+    "especificaciones": {
+      "hash": "752ed53b5d4c7abe",
+      "texto": {
+        "Cultura": "Integrazione plastica moderna messicana: Pedro Ramírez Vázquez (progetto dello stagno) e Íker Larrauri (scultura «Sole del Vento»)",
+        "Periodo": "Inaugurato il 17 settembre 1964",
+        "Materiale": "Stagno rivestito di pietra con flora lacustre (tife, papiri e gigli), bruciatore a gas a greca a gradini e scultura di bronzo",
+        "Ubicazione": "Estremità orientale del Patio Centrale, di fronte alla Sala Mexica"
+      }
+    },
+    "faq_mito": {
+      "hash": "115f5e59e6a82112",
+      "texto": {
+        "pregunta": "Mito: Lo stagno del patio è solo una vasca decorativa.",
+        "respuesta": "Realtà: Evoca il lago di Texcoco, il paesaggio d’acqua sul quale fu fondata Tenochtitlan."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s15_cesteria_ixtle",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bedd207ed41e7614",
+      "texto": "Utensili e Cesteria di Ixtle di Maguey"
+    },
+    "frase_gancho": {
+      "hash": "27cf21104df6fdc3",
+      "texto": "Dal maguey vengono filo, corda, borsa e ago."
+    },
+    "puente_narrativo": {
+      "hash": "dfa2b3b4190c905b",
+      "texto": "Dal lavoro delle mani passiamo alla preghiera. Cerca un altare a gradini con croci vestite di tessuti ricamati, fiori, candele e un incensiere di terracotta."
+    },
+    "guion_corto": {
+      "hash": "c4778b1789260869",
+      "texto": "Questi oggetti sono fatti di ixtle, la fibra del maguey, la pianta più importante dell’altopiano. Per ricavarla si raschiano le foglie spesse fino a separare i fili, che poi si lavano, si asciugano e si intrecciano. Vedrai ayates, che sono coperte da carico; morrales, corde, spazzole e altri utensili di uso quotidiano. Gli otomí della Valle del Mezquital, una regione secca e con poca pioggia, hanno fatto del maguey quasi tutto: tetto, cibo, bevanda, medicina e vestito. L’ixtle è duro ma flessibile, e con esso si fanno dalle funi per portare i pesi fino a morbide coperte. Questi oggetti mostrano come, con pazienza, si possa vivere di una sola pianta."
+    },
+    "guion_largo": {
+      "hash": "af99d523fc32e7a1",
+      "texto": "Immagina di poter scegliere una sola pianta per sopravvivere. Molti popoli dell’altopiano sceglierebbero il maguey. E non è un’esagerazione: dal maguey vengono la fibra per fare corde, borse e abiti; l’aguamiel, un succo dolce che si beve così com’è o si lascia fermentare per trasformarlo in pulque; il verme che si mangia; la foglia carnosa che serve da tetto; e perfino un ago con il filo, perché la spina della punta si strappa con un filo attaccato.\n\nQui ciò che vedi è la fibra, l’ixtle. È la stessa che hai già visto nei [fagotti della grotta di Candelaria](mna_s11_fardo_candelaria) e nella chioma della [maschera dei Viejitos](mna_s14_mascara_viejitos). Si ottiene raschiando le foglie fino a che restano i fili. È un lavoro duro, che si fa a mano e si impara fin da bambina. Poi la fibra si lava, si asciuga al sole e si fila con un fuso di terracotta.\n\nGli otomí della Valle del Mezquital vivono in una regione secca, di mezquite e di maguey. «Mezquital» viene da una parola nahuatl che indica il mezquite. In un luogo dove piove poco, il maguey resiste alla siccità e dà da mangiare, da bere e da vestire. Questa capacità di sfruttare tutto è ciò che si suole chiamare saggezza ecologica: vivere bene senza esaurire ciò che ti circonda.\n\nGuarda l’ayate, quella specie di coperta a rete. Serve per portare mais, legna, frutta e anche neonati. Si porta sulla schiena, fissato con un mecapal, una fascia che poggia sulla fronte. È il sistema che usavano i portatori del Messico antico, i tlamemes. Senza animali da soma né ruote, il commercio a lunga distanza, a Teotihuacán come a Paquimé, si faceva a piedi, con persone che portavano il carico così, sulla schiena e sostenuto dalla fronte.\n\nE l’ayate ha una fama speciale. Secondo la tradizione, la tilma di Juan Diego, dove si dice sia apparsa l’immagine della Vergine di Guadalupe, era fatta di fibra di maguey. È un modo per ricordare che questo materiale così umile è stato presente nei momenti più importanti della storia del paese.\n\nIl maguey aveva anche la sua dea. I mexica veneravano Mayahuel, la dea del maguey, e credevano che i suoi figli, i Quattrocento Conigli, fossero dèi del pulque, che presiedevano all’ebbrezza e alla festa. Era una bevanda sacra che non tutti potevano bere. Oggi il pulque è ancora vivo in molti luoghi dell’altopiano, anche se ormai senza quelle regole.\n\nPer questo questi oggetti, così semplici, sono una lezione. Corde, spazzole, coperte: niente di ciò che vedi è fatto in una fabbrica. Tutto è uscito da una pianta, dal lavoro di alcune mani e da una conoscenza antica. Oggi l’ixtle torna a essere apprezzato: si fanno borse, spugne e spazzole di fibra come alternativa alla plastica. Se ci pensi bene, è il miglior esempio di uso sapiente della natura che troverai in tutto il museo."
+    },
+    "retos_observacion": {
+      "hash": "27209f6d0158508f",
+      "texto": [
+        "Cerca l’ayate, la coperta a rete, e i mecapales che lo sostenevano",
+        "Confronta i fili di ixtle: quali sono più spessi e quali più sottili?",
+        "Osserva le spazzole e le corde: sai a che cosa serve ciascuna?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c49c13e32c1fdd54",
+      "texto": {
+        "Popolo": "Otomí (Hñähñu)",
+        "Regione": "Valle del Mezquital, Hidalgo e Stato del Messico",
+        "Tecnica/Materiale": "Fibra di maguey (ixtle) sfibrata, filata con il fuso (malacate) e tessuta al telaio a cintura",
+        "Funzione": "Attrezzi per il trasporto agricolo, cesteria, contenitori e abbigliamento contadino"
+      }
+    },
+    "faq_mito": {
+      "hash": "7e1dce3cdd271ca8",
+      "texto": {
+        "pregunta": "Mito: Il maguey serve solo a fare pulque o tequila.",
+        "respuesta": "Realtà: Dà fibra per corde, borse e abiti, cibo, bevande, medicine, tetti e perfino ago e filo. Gli otomí del Mezquital vivono di questa conoscenza."
+      }
+    }
+  }
+}

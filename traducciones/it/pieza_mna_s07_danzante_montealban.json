@@ -1,0 +1,54 @@
+{
+  "id": "mna_s07_danzante_montealban",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0a262e2ee8669e2",
+      "texto": "Stele dei «Danzantes» di Monte Albán"
+    },
+    "frase_gancho": {
+      "hash": "cecc072f39c4d566",
+      "texto": "Non ballano: sono capi sconfitti, scolpiti nella pietra duemilacinquecento anni fa."
+    },
+    "puente_narrativo": {
+      "hash": "bff0e626bf79c3fc",
+      "texto": "Monte Albán mostrava il suo potere nella pietra, ma aveva anche un lato sacro. Cerca ora un volto di giada fatto con venticinque pezzi verdi, che guarda dalla notte."
+    },
+    "guion_corto": {
+      "hash": "9de3d585f1b5bbdf",
+      "texto": "Questa lastra, alta quasi un metro e mezzo, è una delle cosiddette «Danzantes» di Monte Albán. I primi esploratori credettero che fossero ballerini, per le loro posture contorte. Oggi si pensa che siano ritratti di capi e guerrieri rivali, catturati, denudati e sacrificati dalla nascente élite della città. Osserva gli occhi chiusi, gli arti piegati senza forza e le linee che sgorgano dal corpo: rappresentano sangue. Vicino a ogni figura c'è un glifo, che probabilmente è il suo nome. Monte Albán fu fondata intorno al cinquecento avanti Cristo, e questa è una delle prime cose che decise di raccontare al mondo: chi comandava qui."
+    },
+    "guion_largo": {
+      "hash": "229e8cd87b6652d1",
+      "texto": "Immagina un colle. Nell'anno cinquecento avanti Cristo, nel cuore delle Valli Centrali di Oaxaca, diversi popoli decidono di fare qualcosa di enorme: spianare a mano la cima di una montagna per fondare una città. È Monte Albán. La cosa notevole è che lo fecero in un luogo senza acqua nelle vicinanze, e la città crebbe comunque per più di mille anni. Da quella cima si domina tutta la valle, dove si uniscono i tre bracci di Etla, Zimatlán e Tlacolula: chi sedeva lassù vedeva arrivare chiunque. E chi comanda in un luogo così ha bisogno di convincere gli altri che non si può sfidarlo.\n\nTra i suoi primi monumenti ci sono queste lastre. Erano centinaia, più di trecento secondo quanto si dice di solito, collocate in un edificio della piazza principale che oggi chiamiamo dei Danzantes. Ogni lastra mostra un uomo nudo, dal corpo molle e dagli occhi chiusi, in una posa che sembra una danza goffa. Da qui viene il nome. Ma il nome inganna.\n\nOggi si pensa che siano i vinti. Spogliare un capo dei suoi vestiti, dei suoi gioielli e delle sue insegne significava togliergli l'identità: ridurlo a un corpo. Diversi mostrano mutilazioni, e da esse escono delle volute che rappresentano sangue. Sono capi e guerrieri di popoli rivali, e la loro immagine fu scolpita nella pietra perché nessuno dimenticasse come finiva chi si opponeva.\n\nGuarda ora il glifo che accompagna la figura. Ognuno è il segno di un giorno del calendario di duecentosessanta giorni, che si usava come nome proprio. Sono tra i primi esempi di scrittura della Mesoamerica: gli zapotechi scrivevano già nomi e date più di duemila anni fa. E non fu nemmeno la prima volta che ci provarono. A San José Mogote, un villaggio della stessa valle, è comparsa una lastra ancora più antica con lo stesso tema: un prigioniero sacrificato e un segno che lo nomina.\n\nQuesta è propaganda, e della più antica. Duemila anni prima della [Pietra di Tízoc](mna_s06_tizoc), che hai visto nella Sala Mexica, un'altra città usava già la pietra per dire: così finiscono quelli che ci sfidano. È la stessa logica, lo stesso gesto del potere, ripetuto attraverso i secoli. Forse per questo è così inquietante: ci ricorda che alcune cose del potere non sono cambiate.\n\nNota anche qualcosa che non si vede a prima vista: quasi non ci sono due figure con la stessa postura. Ogni corpo fu scolpito in modo diverso, con braccia e gambe ad angoli diversi. Questo suggerisce che ogni uomo fosse un individuo concreto, con un nome e una biografia, e non un simbolo generico. Qualcuno si prese la briga di ricordarli uno per uno, anche se solo per umiliarli.\n\nCol tempo, la città cambiò gusto: si pensa che diverse lastre siano state riutilizzate come pietra da costruzione in edifici successivi, ed è per questo che oggi alcune appaiono ritagliate o fuori posto. Ma questa si è conservata intera.\n\nE pensa a questo: questa pietra era guardata da gente che andava e veniva per la piazza più importante della città. Era un libro aperto e un avvertimento allo stesso tempo. Gli zapotechi avevano molti altri modi di raccontare il loro mondo, come vedrai tra poco, ma questo fu il primo che decisero di incidere nella pietra."
+    },
+    "retos_observacion": {
+      "hash": "cc2ba47abb80ae22",
+      "texto": [
+        "Cerca gli occhi chiusi e le braccia e le gambe senza forza",
+        "Trova il glifo accanto alla figura: è il suo nome",
+        "Guarda le linee che sgorgano dal corpo: che cosa rappresentano?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bf20bfd72137eda5",
+      "texto": {
+        "Cultura": "Zapoteco",
+        "Periodo": "Preclassico, prima fase di Monte Albán (Monte Albán I)",
+        "Materiale": "Pietra",
+        "Provenienza": "Edificio dei Danzantes, Monte Albán, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "3b4e7943e349af1a",
+      "texto": {
+        "pregunta": "Mito: I Danzantes di Monte Albán sono ballerini.",
+        "respuesta": "Realtà: Sono prigionieri: capi e guerrieri rivali, denudati e sacrificati. Il nome «danzantes» viene dalle loro posture contorte, che i primi esploratori scambiarono per una danza."
+      }
+    }
+  }
+}

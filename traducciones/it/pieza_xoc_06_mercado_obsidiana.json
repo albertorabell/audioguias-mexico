@@ -1,0 +1,55 @@
+{
+  "id": "xoc_06_mercado_obsidiana",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2a9f70325ec0ac9d",
+      "texto": "Il mercato e le officine di ossidiana"
+    },
+    "frase_gancho": {
+      "hash": "e44e99ed1988cc7a",
+      "texto": "Una città che viveva producendo, vendendo e portando merci lontano."
+    },
+    "puente_narrativo": {
+      "hash": "c0b8b7bedc2afe45",
+      "texto": "Prosegui il tuo percorso: ora conviene guardare uno degli edifici più grandi della città."
+    },
+    "guion_corto": {
+      "hash": "6d2633f305c2b7c8",
+      "texto": "Quante persone vivono di ciò che vendono? A Xochicalco, molte. Gli archeologi hanno scavato cinque officine di lamelle di ossidiana: quattro dentro le case e una in una zona di mercato, dove gli artigiani vendevano ciò che producevano. L’ossidiana è un vetro vulcanico che si spezza in margini molto taglienti, e con essa si facevano lame e utensili. La materia prima veniva da molto lontano, da giacimenti del Michoacán e dell’Hidalgo a più di duecento chilometri. Quindi questa città non era soltanto un centro di potere. Era un luogo di mestieri e di commercio, collegato a rotte che attraversavano la Mesoamerica. La ricchezza di Xochicalco non stava solo nei suoi templi. Stava nelle mani che producevano e vendevano."
+    },
+    "guion_largo": {
+      "hash": "08e0c7d5da9cc155",
+      "texto": "Quando si pensa a una città antica si immaginano i templi, ma c’erano anche i mercati. E Xochicalco ne ebbe uno.\n\nL’ossidiana è un vetro vulcanico nero che si spezza in bordi molto affilati. Con essa si facevano lame, coltelli e punte. Qui non la estraevano dalla collina. Le analisi chimiche dei reperti mostrano che quasi tutta veniva da due giacimenti: Ucareo, nel Michoacán, e Zacualtipán, nell’Hidalgo. Entrambi si trovano a più di duecento chilometri da questa piazza.\n\nUn progetto diretto da Kenneth Hirth scavò cinque officine di lamelle in zone comuni della città. Quattro erano case, dove la famiglia viveva e lavorava nello stesso spazio. La quinta era una zona di mercato, dove gli artigiani vendevano ciò che producevano. Secondo Andrews e Glascock, quelle officine fabbricarono la maggior parte delle lamelle usate in città e nei dintorni.\n\nIl processo aveva un dettaglio curioso. Alle officine non arrivava la pietra grezza. Arrivavano piccoli nuclei, già lavorati a metà, e Hirth propone che li portassero commercianti che andavano di villaggio in villaggio percorrendo lunghe distanze. In casa, l’artigiano staccava le lamelle una a una. Quando il nucleo perdeva la superficie da colpire, la rinnovava e continuava.\n\nC’è un altro dato che sorprende. Gli archeologi hanno confrontato quelle lamelle con quelle apparse negli edifici dell’élite, e sono uguali per tecnica e per forma. Andrews e Glascock concludono che i governanti non controllavano direttamente questo mestiere. È probabile che comprassero le loro lame al mercato centrale, come tutti gli altri.\n\nOra immagina questa piazza in un giorno di mercato. Gente che arriva da altri villaggi, commercianti che offrono i loro prodotti, artigiani che mostrano lame appena fatte. Il rumore della piazza, mescolato all’eco che hai già notato.\n\nUna città fortificata non viveva solo di guerra. Viveva di scambi. E quello scambio aiuta anche a capire perché la sua arte mescoli stili di tante regioni."
+    },
+    "retos_observacion": {
+      "hash": "b33dc89f11b28aec",
+      "texto": [
+        "Immagina le bancarelle in questa piazza",
+        "Cerca il piccolo altare, se si distingue",
+        "Pensa a quali oggetti di ossidiana useresti tu ogni giorno"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0d713ff46083b4d8",
+      "texto": {
+        "Materiale": "ossidiana, vetro vulcanico",
+        "Prodotto": "lamelle e utensili",
+        "Origine": "Ucareo, Michoacán, e Zacualtipán, Hidalgo, a più di duecento chilometri",
+        "Officine scavate": "cinque, quattro nelle case e una in una zona di mercato",
+        "Fonte": "Andrews e Glascock, Arqueología 61"
+      }
+    },
+    "faq_mito": {
+      "hash": "e0920c41e2e80053",
+      "texto": {
+        "pregunta": "Mito: Xochicalco era solo una città cerimoniale.",
+        "respuesta": "Realtà: Era anche un centro di commercio e di officine, con case che erano allo stesso tempo abitazione e luogo di lavoro."
+      }
+    }
+  }
+}

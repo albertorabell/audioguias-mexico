@@ -1,0 +1,60 @@
+{
+  "id": "mna_s08_ofrenda4_laventa",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "bed17fcd7b28af76",
+      "texto": "Offerta 4 di La Venta"
+    },
+    "frase_gancho": {
+      "hash": "8a6aafc5da302ef7",
+      "texto": "Sedici figure di pietra che si riuniscono per sempre davanti a sei asce."
+    },
+    "puente_narrativo": {
+      "hash": "c68c931cfac21e03",
+      "texto": "Quelle asce di giada non tagliavano nulla. Cerca ora un’ascia più grande, con il volto di un giaguaro soprannaturale e un incavo sulla sommità della testa."
+    },
+    "guion_corto": {
+      "hash": "2ee3901f9bf72c72",
+      "texto": "Questa scena di miniature proviene da La Venta, nel Tabasco, e fu scoperta nel 1955. Sono sedici figurine di pietra, tra i sedici e i venti centimetri, disposte in piedi davanti a una fila di sei asce sottili di giada e serpentino. Quindici di loro guardano un personaggio centrale, fatto di un’altra pietra, che dà le spalle alle asce. Tutte hanno la testa allungata, per una deformazione intenzionale del cranio, occhi allungati e la bocca dagli angoli abbassati. Nessuno sa con certezza che riunione rappresenti: un consiglio, una cerimonia, un’incoronazione? Di sicuro gli Olmechi la seppellirono di proposito e la ricoprirono di sabbie colorate, perché la scena restasse fissa a lungo."
+    },
+    "guion_largo": {
+      "hash": "cf40b7feea64ddb7",
+      "texto": "Immagina che qualcuno congeli una riunione. Questo è questo pezzo: una scena completa, con personaggi, colta in un istante e custodita sottoterra per più di duemilaseicento anni. È l’Offerta 4 di La Venta, ed è tra le più famose dell’archeologia messicana.\n\nVediamo che cosa c’è. Sedici figure piccole, in piedi, in fila. Quindici sono di giada, serpentino o pietra verde; quella centrale è di un’altra pietra, di tono più chiaro, ed è di spalle a sei asce che si ergono come stele, o come piccole colonne. Gli altri personaggi la guardano. Non sappiamo chi sia: un capo, un dio, un sacerdote, qualcuno che viene giudicato, un re che assume il potere?\n\nQuesta è la domanda a cui nessuno ha saputo rispondere. Sono state proposte varie idee: un consiglio di capi di lignaggio, una cerimonia di intronizzazione, un’assemblea rituale, un processo. Ogni specialista legge la scena in modo diverso. È un teatro di miniature che nessuno è riuscito a leggere del tutto, e forse questo è il suo fascino: chi la guarda completa la storia a modo suo.\n\nGuarda le teste. Sono tutte allungate, all’indietro e verso l’alto, perché fin dall’infanzia il cranio veniva modellato con tavolette. Hai già visto questa usanza nella sala di introduzione, tra i crani con deformazione e i denti limati, e la rivedrai nella Sala Maya, nel profilo di [Pakal](mna_s09_mascara_pakal). Era un modo di dire chi eri: la testa come segno di appartenenza o di prestigio. E i volti condividono la bocca olmeca dagli angoli abbassati, che hai già visto nei bambini di Tlatilco e nel bambino di Las Limas.\n\nLa cosa più straordinaria è ciò che fecero dopo. Gli Olmechi non lasciarono l’offerta in vista: la seppellirono di proposito, in una fossa, e la ricoprirono con strati di sabbie colorate, bianca, gialla e rossa. Non fu fatta perché qualcuno la ammirasse. Fu fatta per esistere sottoterra, come un seme. Nel mondo mesoamericano, seppellire era seminare: dare alla terra ciò che c’era di più prezioso, perché lei restituisse ciò di cui il popolo aveva bisogno. I Mexica avrebbero fatto lo stesso nel Templo Mayor, duemila anni dopo, con centinaia di offerte.\n\nLa Venta fu la capitale olmeca che seguì San Lorenzo. Sorgeva su un’isola circondata da paludi, nel Tabasco, e lì fu costruita una grande piramide di argilla, una delle prime grandi costruzioni della Mesoamerica. Ebbe anche quattro teste colossali, sorelle di quella che hai visto all’inizio della sala. E sotto i suoi cortili, come questa, apparvero offerte di giada sepolte con cura.\n\nQuesta offerta fu scoperta nel 1955, durante una spedizione che esplorò La Venta. Immaginalo: gli archeologi toglievano la terra a poco a poco e all’improvviso spuntarono le figure, così come erano state lasciate quasi tremila anni prima, che si guardavano tra loro. È una di quelle immagini che restano: una conversazione che nessuno ha ascoltato, e che nessuno ha smesso di voler capire."
+    },
+    "retos_observacion": {
+      "hash": "cb30eef2520a8a96",
+      "texto": [
+        "Conta le figure e cerca quella diversa dalle altre",
+        "Osserva la forma allungata delle teste",
+        "Cerca le sei asce e nota come sono disposte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2657d70b99d694a7",
+      "texto": {
+        "Cultura": "Olmeca",
+        "Periodo": "Preclassico medio",
+        "Materiale": "Serpentino, giadeite e granito verde",
+        "Provenienza": "La Venta, comune di Huimanguillo, Tabasco",
+        "Misure": "Statuette: da 0,16 a 0,20 m di altezza; asce: da 0,23 a 0,27 m di altezza",
+        "Ritrovamento": "Scoperta nel 1955 dall’archeologo Eduardo Contreras nel Complesso A di La Venta"
+      }
+    },
+    "faq_mito": {
+      "hash": "26d3f5deae7cdca1",
+      "texto": {
+        "pregunta": "Mito: Questa offerta è una scultura fatta per essere esposta.",
+        "respuesta": "Realtà: Fu fatta per essere sepolta: nessuno doveva vederla. Importava che esistesse sottoterra, non che fosse ammirata."
+      }
+    }
+  }
+}
