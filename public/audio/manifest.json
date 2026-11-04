@@ -2072,6 +2072,420 @@
           "provider": "azure"
         }
       },
+      "cue_00_por_que_cuernavaca": {
+        "corto": {
+          "hash": "279bbd2632c113fd",
+          "file": "de/cue_00_por_que_cuernavaca_corto.mp3",
+          "remote": false,
+          "seconds": 47,
+          "bytes": 283824,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "de574913812ca4ae",
+          "file": "de/cue_00_por_que_cuernavaca_largo.mp3",
+          "remote": false,
+          "seconds": 259,
+          "bytes": 1555632,
+          "provider": "azure"
+        }
+      },
+      "cue_01_zapata_plaza_armas": {
+        "corto": {
+          "hash": "0ac1683ac2dd0d7c",
+          "file": "de/cue_01_zapata_plaza_armas_corto.mp3",
+          "remote": false,
+          "seconds": 51,
+          "bytes": 304992,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "40516fef04efdf1f",
+          "file": "de/cue_01_zapata_plaza_armas_largo.mp3",
+          "remote": false,
+          "seconds": 198,
+          "bytes": 1186128,
+          "provider": "azure"
+        }
+      },
+      "cue_02_fortaleza_cortes": {
+        "corto": {
+          "hash": "15c9feb22832a9bb",
+          "file": "de/cue_02_fortaleza_cortes_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 261792,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "425a5a9316d2c85f",
+          "file": "de/cue_02_fortaleza_cortes_largo.mp3",
+          "remote": true,
+          "seconds": 216,
+          "bytes": 1295136,
+          "provider": "azure"
+        }
+      },
+      "cue_03_palacio_que_fue_de_todo": {
+        "corto": {
+          "hash": "2e49a0996158bedf",
+          "file": "de/cue_03_palacio_que_fue_de_todo_corto.mp3",
+          "remote": true,
+          "seconds": 53,
+          "bytes": 319392,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8460f1fee4ca3411",
+          "file": "de/cue_03_palacio_que_fue_de_todo_largo.mp3",
+          "remote": true,
+          "seconds": 237,
+          "bytes": 1419408,
+          "provider": "azure"
+        }
+      },
+      "cue_04_ventanas_arqueologicas": {
+        "corto": {
+          "hash": "a6a6050fd94eeb9c",
+          "file": "de/cue_04_ventanas_arqueologicas_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 286704,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "441791d270740a7d",
+          "file": "de/cue_04_ventanas_arqueologicas_largo.mp3",
+          "remote": true,
+          "seconds": 194,
+          "bytes": 1163232,
+          "provider": "azure"
+        }
+      },
+      "cue_05_sala_paisaje": {
+        "corto": {
+          "hash": "e2203217524483f4",
+          "file": "de/cue_05_sala_paisaje_corto.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 295776,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7fd94003283a93a4",
+          "file": "de/cue_05_sala_paisaje_largo.mp3",
+          "remote": true,
+          "seconds": 197,
+          "bytes": 1183680,
+          "provider": "azure"
+        }
+      },
+      "cue_06_maiz_piedra_olmeca": {
+        "corto": {
+          "hash": "6cd9b413e7e3d076",
+          "file": "de/cue_06_maiz_piedra_olmeca_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 285984,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bf86e6754bbcbe61",
+          "file": "de/cue_06_maiz_piedra_olmeca_largo.mp3",
+          "remote": true,
+          "seconds": 200,
+          "bytes": 1199952,
+          "provider": "azure"
+        }
+      },
+      "cue_08_cuexcomate": {
+        "corto": {
+          "hash": "c5880d8ab84e8ab4",
+          "file": "de/cue_08_cuexcomate_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 276048,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "eb7909cae23d0cd8",
+          "file": "de/cue_08_cuexcomate_largo.mp3",
+          "remote": true,
+          "seconds": 190,
+          "bytes": 1137312,
+          "provider": "azure"
+        }
+      },
+      "cue_09_rivera_conquista": {
+        "corto": {
+          "hash": "3a99c494ed0d5051",
+          "file": "de/cue_09_rivera_conquista_corto.mp3",
+          "remote": true,
+          "seconds": 51,
+          "bytes": 303408,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "adf8752bd73173c3",
+          "file": "de/cue_09_rivera_conquista_largo.mp3",
+          "remote": true,
+          "seconds": 209,
+          "bytes": 1256400,
+          "provider": "azure"
+        }
+      },
+      "cue_10_rivera_zapata": {
+        "corto": {
+          "hash": "b5f0a38e41ed3011",
+          "file": "de/cue_10_rivera_zapata_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 270144,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b6ec8eab27be467c",
+          "file": "de/cue_10_rivera_zapata_largo.mp3",
+          "remote": true,
+          "seconds": 197,
+          "bytes": 1184256,
+          "provider": "azure"
+        }
+      },
+      "cue_11_galeria_oriente_torreon": {
+        "corto": {
+          "hash": "e6193eb095651199",
+          "file": "de/cue_11_galeria_oriente_torreon_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 282672,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8fc75f3cbecf1f01",
+          "file": "de/cue_11_galeria_oriente_torreon_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 1117152,
+          "provider": "azure"
+        }
+      },
+      "cue_12_mmapo": {
+        "corto": {
+          "hash": "511b716360edbe29",
+          "file": "de/cue_12_mmapo_corto.mp3",
+          "remote": true,
+          "seconds": 50,
+          "bytes": 302688,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6cdf75cc325351be",
+          "file": "de/cue_12_mmapo_largo.mp3",
+          "remote": true,
+          "seconds": 206,
+          "bytes": 1236096,
+          "provider": "azure"
+        }
+      },
+      "cue_13_atrio_catedral": {
+        "corto": {
+          "hash": "3d7543121e08576e",
+          "file": "de/cue_13_atrio_catedral_corto.mp3",
+          "remote": true,
+          "seconds": 50,
+          "bytes": 301392,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6929799b6cd40f5b",
+          "file": "de/cue_13_atrio_catedral_largo.mp3",
+          "remote": true,
+          "seconds": 200,
+          "bytes": 1201968,
+          "provider": "azure"
+        }
+      },
+      "cue_14_capilla_abierta": {
+        "corto": {
+          "hash": "52f4eb00367024e2",
+          "file": "de/cue_14_capilla_abierta_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 282096,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6cbcb3cd136193f1",
+          "file": "de/cue_14_capilla_abierta_largo.mp3",
+          "remote": true,
+          "seconds": 185,
+          "bytes": 1111968,
+          "provider": "azure"
+        }
+      },
+      "cue_15_nave_sotocoro": {
+        "corto": {
+          "hash": "48c251defbe4e0f1",
+          "file": "de/cue_15_nave_sotocoro_corto.mp3",
+          "remote": true,
+          "seconds": 50,
+          "bytes": 297936,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b9382d76f8e1b9ce",
+          "file": "de/cue_15_nave_sotocoro_largo.mp3",
+          "remote": true,
+          "seconds": 199,
+          "bytes": 1192032,
+          "provider": "azure"
+        }
+      },
+      "cue_16_martires_hallazgo": {
+        "corto": {
+          "hash": "acc65d10f0a08ea1",
+          "file": "de/cue_16_martires_hallazgo_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 269424,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9f5ba2fde565d0e5",
+          "file": "de/cue_16_martires_hallazgo_largo.mp3",
+          "remote": true,
+          "seconds": 197,
+          "bytes": 1181232,
+          "provider": "azure"
+        }
+      },
+      "cue_17_martires_lectura": {
+        "corto": {
+          "hash": "2b43b8b518d86e57",
+          "file": "de/cue_17_martires_lectura_corto.mp3",
+          "remote": true,
+          "seconds": 50,
+          "bytes": 299520,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4024f9cae1fbc9f8",
+          "file": "de/cue_17_martires_lectura_largo.mp3",
+          "remote": true,
+          "seconds": 221,
+          "bytes": 1327968,
+          "provider": "azure"
+        }
+      },
+      "cue_18_claustro": {
+        "corto": {
+          "hash": "6cde34f99e355679",
+          "file": "de/cue_18_claustro_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 276768,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0951caf701c4d44a",
+          "file": "de/cue_18_claustro_largo.mp3",
+          "remote": true,
+          "seconds": 198,
+          "bytes": 1190592,
+          "provider": "azure"
+        }
+      },
+      "cue_19_museo_arte_sacro": {
+        "corto": {
+          "hash": "4ecaee5661adb08d",
+          "file": "de/cue_19_museo_arte_sacro_corto.mp3",
+          "remote": true,
+          "seconds": 55,
+          "bytes": 332640,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "96e0ef445a07b9bf",
+          "file": "de/cue_19_museo_arte_sacro_largo.mp3",
+          "remote": true,
+          "seconds": 193,
+          "bytes": 1158048,
+          "provider": "azure"
+        }
+      },
+      "cue_20_tercera_orden": {
+        "corto": {
+          "hash": "15e957e11e161930",
+          "file": "de/cue_20_tercera_orden_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 270144,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3705d831a89c61cc",
+          "file": "de/cue_20_tercera_orden_largo.mp3",
+          "remote": true,
+          "seconds": 192,
+          "bytes": 1150992,
+          "provider": "azure"
+        }
+      },
+      "cue_21_jardin_borda_minero": {
+        "corto": {
+          "hash": "44281ee4de52c441",
+          "file": "de/cue_21_jardin_borda_minero_corto.mp3",
+          "remote": true,
+          "seconds": 53,
+          "bytes": 318096,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6497ca3f1d07dc24",
+          "file": "de/cue_21_jardin_borda_minero_largo.mp3",
+          "remote": true,
+          "seconds": 212,
+          "bytes": 1273968,
+          "provider": "azure"
+        }
+      },
+      "cue_22_maximiliano_carlota": {
+        "corto": {
+          "hash": "facbb2022818f461",
+          "file": "de/cue_22_maximiliano_carlota_corto.mp3",
+          "remote": true,
+          "seconds": 51,
+          "bytes": 304992,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "fba1ac8adc4e11d6",
+          "file": "de/cue_22_maximiliano_carlota_largo.mp3",
+          "remote": true,
+          "seconds": 201,
+          "bytes": 1208736,
+          "provider": "azure"
+        }
+      },
+      "cue_23_casa_cantinflas": {
+        "corto": {
+          "hash": "f82c7162201146e8",
+          "file": "de/cue_23_casa_cantinflas_corto.mp3",
+          "remote": true,
+          "seconds": 52,
+          "bytes": 310896,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ab23e62c5a796ca2",
+          "file": "de/cue_23_casa_cantinflas_largo.mp3",
+          "remote": true,
+          "seconds": 225,
+          "bytes": 1347840,
+          "provider": "azure"
+        }
+      },
       "fri_00_fachada_azul": {
         "corto": {
           "hash": "991759847153dad9",
