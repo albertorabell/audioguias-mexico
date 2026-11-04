@@ -10,6 +10,8 @@ import { Home } from './components/Home';
 import { MuseumScreen, ContinueInfo, byOrder } from './components/MuseumScreen';
 import { RoutesScreen, ActiveTour } from './components/RoutesScreen';
 import { MapScreen } from './components/MapScreen';
+import { getSitePlan } from './config/sitePlan';
+import './config/plans/chapultepec';
 import { SearchScreen } from './components/SearchScreen';
 import { RoomView } from './components/RoomView';
 import { PieceDetail, NextInfo } from './components/PieceDetail';
@@ -780,7 +782,7 @@ export default function App() {
           onOpenPaywall={openPaywall}
           onSelectRoom={openRoom}
           liveMap={liveMap}
-          hasScheme={!isZones || !!manifest?.zone_map}
+          hasScheme={!isZones || !!manifest?.zone_map || !!getSitePlan(selectedSite?.id)}
           onOpenPiece={openPieceInRoom}
           siteId={selectedSite?.id}
           herePieceId={currentPiece?.piece_id || null}
