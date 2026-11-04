@@ -1,0 +1,54 @@
+{
+  "id": "cue_04_ventanas_arqueologicas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c6e2edf17984e41b",
+      "texto": "As janelas arqueológicas e os monólitos"
+    },
+    "frase_gancho": {
+      "hash": "a7c37d19822e087b",
+      "texto": "Sob o palácio de Cortés continua uma praça tlahuica com plataformas, degraus e estruturas circulares."
+    },
+    "puente_narrativo": {
+      "hash": "1680ce1c942e210c",
+      "texto": "Siga pelo museu em direção à sala de paisagem: da praça tlahuica você passa à natureza de Morelos."
+    },
+    "guion_corto": {
+      "hash": "924ac6a4cede8ec3",
+      "texto": "Há um detalhe que quase ninguém nota: o palácio está cheio de janelas no chão e nas paredes. Elas não servem para olhar para fora, mas para olhar para baixo. Por elas se avistam os restos de uma praça pré-hispânica, com plataformas, molduras de escadas, degraus e estruturas circulares de pedra e estuque. Os arqueólogos distinguem quatro etapas de construção tlahuica, e estas janelas deixam ver a terceira. Diante da entrada, sob a grama, aparece o piso da praça e um altar circular que mal desponta do gramado. No lado oeste do palácio há três monólitos esculpidos: a Águia de Chapultepec, a Lagartixa de San Antón e o Chimalli. São pedras que chegaram aqui vindas de outros lugares."
+    },
+    "guion_largo": {
+      "hash": "584f9f8af3bae7b6",
+      "texto": "Cuernavaca se chamava Cuauhnáhuac, um nome náuatle que costuma ser traduzido como perto das árvores. Quando os espanhóis o pronunciaram, acabou virando Cuernavaca. Mas, antes do nome novo, existia a praça. E essa praça não desapareceu por completo: continua aqui, debaixo e ao redor do palácio.\n\nEntre mil novecentos e setenta e um e mil novecentos e setenta e três, durante a restauração do INAH, o arqueólogo Jorge Angulo Villaseñor dirigiu escavações neste lugar. Encontraram camadas das épocas tlahuica e Mexica, ou seja, dos dois povos que usaram o sítio antes da chegada dos espanhóis. Desde então, o museu conserva várias janelas arqueológicas.\n\nO INAH explica que a construção tlahuica teve quatro etapas. O que se vê pelas janelas pertence à terceira. Há plataformas, molduras de escadas, degraus e estruturas circulares feitas de pedra e estuque. O estuque é uma mistura de cal que era usada para revestir as paredes e os pisos. Se você olhar com calma, imagine o espaço cheio de gente: era a praça principal de um centro de governo e de tributo.\n\nDiante da entrada do museu, as escavações deixaram à mostra o piso da praça. Hoje está coberto de grama, mas dá para distinguir um altar circular que mal desponta do gramado. É fácil passar por cima sem perceber.\n\nTambém há três monólitos no lado oeste do palácio. O primeiro é a Águia de Chapultepec, o segundo é a Lagartixa de San Antón e o terceiro é o Chimalli, que também é conhecido como Pedra dos Encantos. Chimalli é a palavra náuatle para escudo. Em mil novecentos e noventa e dois, o Chimalli foi levado para a praça pré-hispânica, onde agora é exibido junto aos restos.\n\nOs tlahuicas falavam náuatle e viviam em senhorios espalhados pelo que hoje é Morelos. Cuauhnáhuac era um de seus centros. Um tecpan era ao mesmo tempo palácio e escritório: ali vivia o governante e ali se recebia o tributo. Levantar o palácio de Cortés justamente nesse lugar não foi por acaso, porque o sítio já era um centro de poder.\n\nPara ler estas janelas, convém pensar como um arqueólogo. As construções antigas se sobrepõem como as páginas de um livro. O mais antigo fica embaixo e o mais recente em cima. Quando o INAH fala de quatro etapas tlahuicas, o mais provável é que cada uma tenha sido erguida sobre a anterior. Por isso as janelas são tão valiosas: deixam ver uma página do livro sem arrancá-la.\n\nA ideia que vale levar com você é simples. Um palácio colonial pode parecer uma única obra do século dezesseis. Mas este foi erguido sobre um lugar que já tinha séculos de uso. Olhar para baixo, pelas janelas, é lembrar que Cuernavaca tem duas histórias sobrepostas. Por isso convém espiar devagar. O que você vê pelo vidro não é um enfeite. É chão que outras pessoas pisaram, antes de este edifício existir."
+    },
+    "retos_observacion": {
+      "hash": "0b68597c16ccd15e",
+      "texto": [
+        "Procure as janelas no chão ou nas paredes e tente distinguir as plataformas e os degraus",
+        "Encontre o altar circular que mal desponta da grama diante da entrada",
+        "Localize os três monólitos do lado oeste e procure o que tem forma de escudo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7495d770f116598b",
+      "texto": {
+        "Praça pré-hispânica": "quatro etapas de construção tlahuica; as janelas mostram a terceira",
+        "Restos visíveis": "plataformas, molduras de escadas, degraus e estruturas circulares de pedra e estuque",
+        "Monólitos do lado oeste": "Águia de Chapultepec, Lagartixa de San Antón e Chimalli",
+        "Escavações": "1971 a 1973, dirigidas por Jorge Angulo Villaseñor"
+      }
+    },
+    "faq_mito": {
+      "hash": "4ecaff91be1a3f89",
+      "texto": {
+        "pregunta": "Mito: O palácio de Cortés foi construído em um terreno vazio.",
+        "respuesta": "Realidade: Foi erguido sobre o tecpan e a praça dos tlahuicas. Os restos continuam visíveis nas janelas arqueológicas."
+      }
+    }
+  }
+}

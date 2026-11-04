@@ -1,0 +1,59 @@
+{
+  "id": "cue_05_sala_paisaje",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6ff793b97e1fd30d",
+      "texto": "Sala Paisagem: mamute, obsidiana e cavernas"
+    },
+    "frase_gancho": {
+      "hash": "0dce834adf5b7ccf",
+      "texto": "Um fêmur e presas de mamute com mais de dez mil anos lembram quem caminhava por Morelos antes dos povos."
+    },
+    "puente_narrativo": {
+      "hash": "dadd4a7491026a80",
+      "texto": "Continue com a sala dos povos de milho e pedra e a dos olmecas."
+    },
+    "guion_corto": {
+      "hash": "0b5b4cdd7c075655",
+      "texto": "Os ossos que recebem você nesta sala têm mais de dez mil anos. São um fêmur e presas de mamute, um animal da última era do gelo. A sala se chama Paisagem e conta como são os ecossistemas e a geologia de Morelos. Há fósseis, peças de obsidiana, que é um vidro vulcânico com o qual se faziam gumes, e cestaria das cavernas de El Gallo e La Chagüera. O museu calcula que a região é habitada há cerca de seis mil e trezentos anos antes da nossa era. Mas esta sala vai ainda mais longe no tempo: mostra que o território já existia, com a sua natureza, antes de chegar a primeira pessoa. Morelos é um estado pequeno, mas reúne montanhas, vales e terras quentes."
+    },
+    "guion_largo": {
+      "hash": "69a4dcd24ded888b",
+      "texto": "O museu do Palácio de Cortés mudou de ideia quando reabriu, em dois mil e vinte e três. Antes, contava a história por épocas e por personagens. Agora, segundo seus responsáveis, conta quem moldou o território, desde as primeiras comunidades até hoje, sem se concentrar nas grandes datas nem nos grandes personagens. Esta sala é a melhor mostra dessa ideia, porque começa pela paisagem.\n\nA Sala Paisagem fala dos ecossistemas e da geologia de Morelos. É um estado pequeno, mas tem bosques nas zonas altas do norte e terras quentes em direção ao sul. Essa variedade de climas explica por que houve tantas formas de viver aqui.\n\nO que mais chama a atenção são os restos de mamute. Há um fêmur e presas com mais de dez mil anos. O mamute é um animal extinto, parente dos elefantes, que viveu na última era do gelo. Quando se pensa nessa época, quase ninguém imagina que esses animais passaram pelo que hoje é Morelos, mas estes restos mostram que sim.\n\nTambém há fósseis e peças de obsidiana. A obsidiana é vidro vulcânico. Ela se quebra em lascas muito afiadas, por isso foi um material valioso para fabricar facas e pontas desde a pré-história. Que ela esteja numa sala sobre paisagem não é por acaso: a obsidiana nasce dos vulcões, e Morelos tem vulcões por perto.\n\nOutra parte da sala mostra cestaria das cavernas de El Gallo e La Chagüera. Os cestos são objetos frágeis. Que tenham sobrevivido por tanto tempo indica que as cavernas conservaram bem os materiais. Por isso os arqueólogos se interessam tanto por esses sítios: eles guardam coisas que quase nunca se conservam ao ar livre.\n\nOutra sala do museu, Biodiversidade, mostra com infográficos a flora e a fauna endêmicas de Morelos. Endêmico quer dizer que só existe em um lugar. As duas salas formam um par: uma ensina o que vive no território hoje, e a outra, o que deixou marca há milhares de anos. Os fósseis, por sua vez, são restos ou marcas de seres vivos que se conservaram na rocha.\n\nO museu ainda não está completo. Segundo o INAH, faltam as salas de arqueologia, as de história do século dezesseis ao século dezenove e as de antropologia do século vinte ao século vinte e um. Falta também um epílogo sobre a responsabilidade compartilhada de cuidar do patrimônio. Na reabertura de dois mil e vinte e três, foram abertas cinco salas permanentes e três exposições temporárias.\n\nSe você pensar bem, um museu deste tipo faz algo que os livros didáticos não fazem. Coloca diante de você um osso real, de um animal que ninguém viu vivo, e deixa você calcular o tamanho dele a olho.\n\nAo terminar, fique com uma ideia. Antes dos reis, dos conquistadores e dos governadores, houve uma paisagem que oferecia água, pedra, plantas e animais. Tudo o mais foi construído sobre isso."
+    },
+    "retos_observacion": {
+      "hash": "44d507b3f025bcf7",
+      "texto": [
+        "Procure o fêmur e as presas de mamute e calcule quanto media o animal que as carregava",
+        "Encontre as peças de obsidiana e observe como o material brilha, parecido com o vidro",
+        "Olhe a cestaria das cavernas e pense em quanto tempo ela ficou guardada"
+      ]
+    },
+    "especificaciones": {
+      "hash": "00b0bc25da3d68b0",
+      "texto": {
+        "Sala": "Paisagem, sobre ecossistemas e geologia de Morelos",
+        "Mamute": "fêmur e presas com mais de 10 000 anos",
+        "Outras peças": "fósseis, obsidiana e cestaria das cavernas de El Gallo e La Chagüera",
+        "Povoamento da região": "há cerca de 6 300 anos antes da nossa era, segundo o museu",
+        "Museu reinaugurado": "30 de março de 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "f90d9c95e14f264c",
+      "texto": {
+        "pregunta": "Mito: Os mamutes viveram apenas em terras frias do norte.",
+        "respuesta": "Realidade: Há restos de mamute em Morelos, e o museu exibe um fêmur e presas com mais de dez mil anos."
+      }
+    }
+  }
+}

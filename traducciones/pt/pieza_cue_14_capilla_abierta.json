@@ -1,0 +1,55 @@
+{
+  "id": "cue_14_capilla_abierta",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "44aa180a284221cd",
+      "texto": "A Capela Aberta, ou Capela dos Índios"
+    },
+    "frase_gancho": {
+      "hash": "8e4f2d5664a98721",
+      "texto": "Uma capela sem paredes na frente para que milhares de pessoas pudessem assistir à missa ao ar livre."
+    },
+    "puente_narrativo": {
+      "hash": "2c678731f9e627c7",
+      "texto": "Siga o seu roteiro: ele pode levar você à nave do templo ou direto aos murais dos mártires."
+    },
+    "guion_corto": {
+      "hash": "7dced689ebc1fc4d",
+      "texto": "Imagine uma igreja com uma parede faltando. É assim que funciona a capela aberta: tem teto e altar, mas a frente é aberta para o átrio, para que a missa possa ser vista de fora. Os franciscanos a construíram para converter a população indígena, que era numerosa demais para caber em um templo fechado. Por isso ela também é chamada de Capela dos Índios. As fontes a descrevem como ampla e bonita, e como possivelmente a mais antiga ainda de pé em Cuernavaca. Ela foi erguida depois que a capela de San José de los Naturales, na Cidade do México, foi demolida. Daí vem o seu outro nome, Capela Aberta de San José. A revista México Desconocido a considera a maior do seu tipo na América Latina."
+    },
+    "guion_largo": {
+      "hash": "123411dbebe785bc",
+      "texto": "Uma igreja fechada não serve para todos. No século dezesseis, os frades franciscanos tinham diante de si milhares de pessoas que falavam náuatle e outras línguas, e que não cabiam em nenhum templo. A solução foi inverter a arquitetura: em vez de colocar as pessoas dentro da igreja, levou-se a missa para o átrio.\n\nEssa solução se chama capela aberta. Ela tem um presbitério, ou seja, o espaço do altar, coberto e aberto na frente para o átrio. O sacerdote oficiava lá dentro e a multidão acompanhava a missa de fora. Em Cuernavaca, essa capela é conhecida como Capela Aberta, Capela dos Índios e Capela de San José.\n\nO nome San José tem uma razão. Na Cidade do México existiu uma capela famosa, a de San José de los Naturales, destinada à população indígena. Segundo o historiador da arte George Kubler, a de Cuernavaca foi erguida depois que aquela foi demolida. Por isso, esta capela pode ser vista como herdeira daquela. A data exata desta obra não está bem estabelecida.\n\nAs descrições coincidem em um ponto: é uma capela larga, de bom tamanho, e possivelmente a mais antiga conservada na cidade. A revista México Desconocido vai mais longe e afirma que é a mais antiga e a maior do seu tipo na América Latina. Não conseguimos confirmar essa afirmação com outra fonte, por isso a apresentamos como uma opinião e não como um dado.\n\nA UNESCO explica que esses mosteiros do século dezesseis tinham capelas abertas com soluções muito variadas. Algumas são simples nichos. Outras, como esta, são grandes espaços com arcos. O propósito era sempre o mesmo: que a cerimônia chegasse a toda a comunidade.\n\nPara encher o átrio, os frades precisavam se fazer entender. Aprenderam línguas indígenas e se apoiaram em imagens, cantos e encenações. Nos dias de festa, chegava gente dos povoados vizinhos. O átrio se transformava então em uma grande praça, e a capela aberta, em seu palco.\n\nTambém é preciso dizer o que significa o nome Capela dos Índios. É um nome do período vice-reinal que se refere à população indígena a quem ela era dirigida. Hoje o usamos para descrever a história, não para classificar ninguém.\n\nOlhe a capela como um palco. Ela não tem portas que a fechem para o átrio. Essa abertura explica a sua função: uma celebração podia ser acompanhada de fora por muitas pessoas ao mesmo tempo.\n\nComo você viu na parada anterior, o átrio era parte essencial do conjunto. Entender esta capela é entender que a igreja, aqui, começava do lado de fora. Uma parede sem porta pode dizer tanto quanto uma portada com relevos.\n\nAo terminar, veja quanto espaço há diante da capela. Era ali que as pessoas ficavam. Essa explanada fazia as vezes de nave da igreja, e o céu fazia as vezes de abóbada."
+    },
+    "retos_observacion": {
+      "hash": "fd287a1a5b7c4972",
+      "texto": [
+        "Procure a frente aberta da capela e calcule quantas pessoas poderiam acompanhar a missa a partir do átrio",
+        "Olhe o teto e os arcos e repare em que parte está coberta e qual não está",
+        "Compare esta capela com a fachada do templo: qual você acha que foi construída primeiro?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d47326c72a09e58d",
+      "texto": {
+        "Tipo": "capela aberta franciscana do século XVI",
+        "Nomes": "Capela Aberta, Capela dos Índios e Capela de San José",
+        "Origem do nome": "capela de San José de los Naturales, na Cidade do México",
+        "Função": "celebrar missa para multidões ao ar livre",
+        "Estado": "possivelmente a mais antiga ainda de pé em Cuernavaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "3d21e49a22015f19",
+      "texto": {
+        "pregunta": "Mito: A Capela dos Índios era só para indígenas e não para outras pessoas.",
+        "respuesta": "Realidade: O nome vem do período vice-reinal e indica a quem se dirigia a evangelização, que era a população indígena majoritária. Ele não diz quem podia entrar."
+      }
+    }
+  }
+}

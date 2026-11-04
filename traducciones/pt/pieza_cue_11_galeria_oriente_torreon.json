@@ -1,0 +1,55 @@
+{
+  "id": "cue_11_galeria_oriente_torreon",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3333ea022ba736e8",
+      "texto": "A galeria leste e o torreão"
+    },
+    "frase_gancho": {
+      "hash": "0c24a7c791f228ce",
+      "texto": "Uma data gravada nas colunas, vista para os vulcões e uma torre que voltou ao seu lugar cinco anos depois do terremoto."
+    },
+    "puente_narrativo": {
+      "hash": "f0c0b2ab5201462c",
+      "texto": "Siga sua rota: ela pode levar você até a rua Hidalgo ou até a Casa de Cantinflas."
+    },
+    "guion_corto": {
+      "hash": "756ca80c2aff865f",
+      "texto": "Mil quinhentos e trinta e cinco. Esse ano está gravado nas colunas da galeria leste, como a data de conclusão das obras do palácio. Aqui, sob os arcos, o edifício oferece a sua melhor vista: o terraço se abre para a cidade e para os vulcões. É o mesmo corredor onde está o mural de Rivera, e o tríptico restaurado ocupa o seu lugar original. Daqui também se aprecia o torreão, a torre cilíndrica do canto noroeste, de cerca de quinze metros. O terremoto de dois mil e dezessete o danificou, e em dois mil e vinte e dois ele voltou ao seu lugar, com materiais mais leves e com setenta por cento menos peso. É o fecho da parte alta do palácio."
+    },
+    "guion_largo": {
+      "hash": "5eb4b18327b75faa",
+      "texto": "Os números guardam segredos. Nas colunas da galeria leste do primeiro andar há uma data entalhada: mil quinhentos e trinta e cinco. Segundo a ficha do INAH, ela marca o ano em que terminou a construção do palácio. Se você reparar, é uma forma antiga de assinar um edifício.\n\nA galeria é o que resta do núcleo mais antigo do palácio. Segundo uma descrição do museu, o primeiro núcleo, da época da encomenda, era formado por três grandes salas e um terraço com arcos que olhava para os vulcões. Hoje você continua caminhando por esse terraço. É o mesmo lugar onde Diego Rivera pintou em mil novecentos e trinta, e onde o tríptico restaurado é exibido novamente desde a reabertura de dois mil e vinte e três.\n\nVale a pena fazer uma pausa aqui e olhar para fora. Os corredores de arcos não são apenas um enfeite. Deixam o ar passar, dão sombra e oferecem vista. Cortés escolheu Cuernavaca por seu clima e por suas terras férteis, e deste terraço se entende a escolha.\n\nTambém se vê o torreão. É uma torre cilíndrica no canto noroeste do palácio, de cerca de quinze metros, que foi acrescentada no final do século dezenove. É o que dá ao edifício a sua silhueta de castelo, e é o elemento mais fotografado. O terremoto do dezenove de setembro de dois mil e dezessete o danificou. Cinco anos depois, em dois mil e vinte e dois, ele voltou a ser erguido. Para torná-lo mais seguro, foi reconstruído com materiais mais leves e ficou com setenta por cento menos peso. Com essa obra, concluiu-se a parte arquitetônica da restauração.\n\nA diretora do INBAL, Lucina Jiménez, disse na reabertura que o edifício é uma das construções coloniais mais importantes do país. Descreveu-o como uma fortaleza que, em algum momento, cedeu diante da natureza. Essa ideia resume bem o que você viu hoje: um palácio que caiu e foi levantado de novo muitas vezes.\n\nO mural de Rivera desta galeria também teve anos difíceis. Foi protegido entre mil novecentos e noventa e três e mil novecentos e noventa e cinco, e o tríptico restaurado é exibido outra vez em seu lugar original desde a reabertura.\n\nNessa cerimônia, o diretor do INAH, Diego Prieto, disse que o museu deve representar todos os povos de Morelos. Disse também que esses povos precisam ser ouvidos em suas próprias línguas, canções e danças. Descreveu-o como um espaço plural que fala do presente comunitário. A galeria, com sua vista e sua história, é um bom lugar para pensar nessa ideia.\n\nAntes de sair da galeria, olhe para cima e para os lados. A pedra, os arcos e a data de mil quinhentos e trinta e cinco estão aí há quase cinco séculos. Rivera, Cortés, Morelos e Zapata olharam, cada um à sua maneira, esta mesma vista."
+    },
+    "retos_observacion": {
+      "hash": "6fdb56439b867288",
+      "texto": [
+        "Procure a data entalhada nas colunas da galeria leste",
+        "Olhe do terraço para a cidade e para os vulcões e pense por que Cortés escolheu este lugar",
+        "Localize o torreão cilíndrico do canto noroeste e repare que ele parece de pedra, embora seja mais leve"
+      ]
+    },
+    "especificaciones": {
+      "hash": "64161448927c395d",
+      "texto": {
+        "Data gravada": "1535, marca o ano em que terminou a construção",
+        "Torreão": "cilíndrico, de cerca de 15 m, canto noroeste, acrescentado no final do século XIX",
+        "Sismo": "19 de setembro de 2017",
+        "Fechamento do museu": "cinco anos e seis meses",
+        "Reabertura": "30 de março de 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "b56fb36f8c0a58d9",
+      "texto": {
+        "pregunta": "Mito: O torreão faz parte da construção original de Cortés.",
+        "respuesta": "Realidade: Foi acrescentado no final do século dezenove. Depois do sismo de 2017, foi erguido de novo com materiais mais leves."
+      }
+    }
+  }
+}

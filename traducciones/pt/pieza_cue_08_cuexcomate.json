@@ -1,0 +1,55 @@
+{
+  "id": "cue_08_cuexcomate",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2f8efde1b7f0dfa1",
+      "texto": "O cuexcomate, o celeiro de barro"
+    },
+    "frase_gancho": {
+      "hash": "7cad580475a9a61a",
+      "texto": "Uma grande vasilha de barro para guardar o milho, ao ar livre, em um terraço do primeiro andar."
+    },
+    "puente_narrativo": {
+      "hash": "d36bba40646320cf",
+      "texto": "Deixe o terraço e siga o roteiro que você escolheu."
+    },
+    "guion_corto": {
+      "hash": "6d63da5611d1d15a",
+      "texto": "Onde se guarda o milho para que a chuva não o molhe nem os ratos o comam? Em Morelos, durante gerações, a resposta foi o cuexcomate. É um celeiro tradicional de barro, em forma de grande panela, que se ergue do chão. Aqui, em um terraço ao ar livre do primeiro andar, você pode ver um. O museu o apresenta dentro da Sala Bioculturalidade, junto com meadas de lã de Hueyapan. Os dois objetos contam como a natureza se transformou em cultura: o barro, o milho e a lã, trabalhados por mãos da região. É uma arquitetura sem muros de pedra nem arcos, e ainda assim resolveu um problema que todos os povos agrícolas têm."
+    },
+    "guion_largo": {
+      "hash": "b22159afade07b7c",
+      "texto": "A palavra cuexcomate vem do náuatle cuexcomatl, e nomeia o celeiro tradicional de barro de Morelos e de outras regiões do centro do México. Se você vê um pela primeira vez, ele parece uma vasilha gigante. Na verdade, é uma construção funcional, pensada para armazenar milho e outros grãos.\n\nNeste terraço do primeiro andar do palácio há um. Está ao ar livre, enquanto o museu o apresenta dentro de uma sala, a de Bioculturalidade. Ali se explicam aspectos da cultura de Morelos, como o cuexcomate e as meadas de lã de Hueyapan. Bioculturalidade significa a relação entre a natureza e a cultura: como um povo usa o que tem ao seu redor e o transforma em tradição.\n\nPara entender o cuexcomate, pense no problema que ele resolve. Depois da colheita, o milho deve durar meses. Se ele umedece, apodrece. Se os roedores e os insetos o encontram, ele se perde. Um celeiro erguido do chão, feito de barro e coberto por um teto, evita essas duas coisas. Em geral, é construído com barro misturado com capim, ergue-se sobre uma base de pedra e tem uma abertura em cima para enchê-lo.\n\nO milho é a base da vida nestes povos há mais de três mil anos, como contam as salas do andar térreo. Guardá-lo bem significa garantir a comida de uma família durante o ano. Por isso o cuexcomate é muito mais que um objeto bonito: é parte da segurança de uma casa camponesa.\n\nVale a pena compará-lo com o que Diego Rivera conta nos murais deste mesmo palácio. [O primeiro trecho do mural](cue_09_rivera_conquista) mostra os engenhos de açúcar, que tomaram muitas terras. Um cuexcomate representa a outra face da terra: a da comida dos povos.\n\nO museu reabriu em dois mil e vinte e três com uma ideia clara: falar das pessoas que deram forma ao território e não apenas das grandes datas. O cuexcomate se encaixa bem nessa ideia. Não tem um autor famoso: é obra de uma tradição compartilhada, que passou de família em família.\n\nAs meadas de lã de Hueyapan, que acompanham o cuexcomate na sala, contam algo parecido. Hueyapan é uma comunidade de Morelos conhecida por seu trabalho têxtil. A lã é fiada e tingida à mão. Nem o barro nem a lã vêm de fábricas: vêm do território e da habilidade das pessoas.\n\nRepare na forma. Um cuexcomate é um celeiro de barro, largo de barriga e estreito de boca, que se ergue sobre uma base para que a umidade não estrague o grão. É uma solução simples que conserva o milho durante meses.\n\nAntes de seguir, olhe deste terraço em direção à cidade. É um bom lugar para pensar que Cuernavaca, a dos edifícios coloniais e ruas de pedra, também está rodeada de povoados que vivem do campo. Um celeiro de barro representa todos eles."
+    },
+    "retos_observacion": {
+      "hash": "55c9f6fff02ef385",
+      "texto": [
+        "Contorne o cuexcomate e repare em sua forma de panela grande: por onde você acha que se tira o milho?",
+        "Procure a parte que o separa do chão e pense por que convém levantar o grão",
+        "Do terraço, olhe em direção à cidade e pense nos povoados de Morelos que ainda vivem do milho"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b8ccce5fe54ab7ca",
+      "texto": {
+        "Objeto": "cuexcomate, celeiro tradicional de Morelos",
+        "Palavra": "do náuatle cuexcomatl",
+        "Material": "barro",
+        "Localização": "terraço ao ar livre no primeiro andar do palácio",
+        "Sala do museu onde é apresentado": "Bioculturalidade, junto com meadas de lã de Hueyapan"
+      }
+    },
+    "faq_mito": {
+      "hash": "7cc8fe99d7bcf0d4",
+      "texto": {
+        "pregunta": "Mito: O cuexcomate é uma vasilha decorativa.",
+        "respuesta": "Realidade: É um celeiro. Sua forma serve para proteger o milho da chuva e dos animais."
+      }
+    }
+  }
+}

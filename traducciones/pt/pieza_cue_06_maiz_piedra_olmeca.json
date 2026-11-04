@@ -1,0 +1,58 @@
+{
+  "id": "cue_06_maiz_piedra_olmeca",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f29ffa16e53ad4b9",
+      "texto": "Povos de milho e pedra, e o fenômeno olmeca"
+    },
+    "frase_gancho": {
+      "hash": "420846fa523fa552",
+      "texto": "Figurinhas, vasilhas e um incensário em forma de bagre: assim começa a vida nas aldeias de Morelos há mais de três mil anos."
+    },
+    "puente_narrativo": {
+      "hash": "758b9fd119efee26",
+      "texto": "Continue pelo palácio: suba até o terraço onde está o cuexcomate."
+    },
+    "guion_corto": {
+      "hash": "cf323ba0f079d414",
+      "texto": "Há cerca de três mil e quinhentos anos, as comunidades de Morelos já viviam do cultivo do milho. A sala Povos de milho e pedra mostra figurinhas femininas, garrafas e panelas de cozinha datadas entre mil e quinhentos e mil e duzentos antes da nossa era. São objetos de uso diário, não de luxo. Na sala seguinte, O fenômeno olmeca, aparece outra coisa: a influência de uma cultura da Costa do Golfo na cerâmica e na escultura de Morelos. Entre as peças estão a vasilha de Oaxtepec e um incensário em forma de bagre. Também há uma réplica do Monumento trinta e seis de Chalcatzingo, um sítio de Morelos com relevos em pedra. Aqui o museu fala de aldeias, não de reis."
+    },
+    "guion_largo": {
+      "hash": "9886962ec6a45cf8",
+      "texto": "Estas duas salas contam uma mesma história em dois tons. A primeira trata da vida cotidiana; a segunda, das ideias que viajaram.\n\nEm Povos de milho e pedra, o museu reúne objetos de comunidades que viviam em Morelos entre mil e quinhentos e mil e duzentos antes da nossa era. Há figurinhas femininas de barro, garrafas e panelas de cozinha. As figurinhas são um dos objetos mais comuns daquela época em Mesoamérica. Ainda se discute para que serviam. Alguns especialistas as relacionam com a fertilidade ou com rituais domésticos. As panelas e garrafas são mais fáceis de interpretar. Serviam para cozinhar, guardar e servir.\n\nO título da sala fala de milho e de pedra por uma razão. O milho foi a base da alimentação e da vida dos povos mesoamericanos. A pedra foi o material das ferramentas e, mais tarde, das esculturas e dos templos. Entre os dois, forma-se um modo de vida estável.\n\nA segunda sala se chama O fenômeno olmeca. Os olmecas foram uma cultura da Costa do Golfo do México, famosa por suas cabeças colossais. Sua influência chegou a muitas regiões, incluindo Morelos. Na sala há cerâmica e escultura de Morelos que mostram traços desse estilo.\n\nEntre as peças mais importantes está a vasilha de Oaxtepec. Outra é um incensário em forma de bagre, isto é, de peixe de rio com bigodes. E há uma réplica do Monumento trinta e seis de Chalcatzingo. Chalcatzingo é um sítio arqueológico de Morelos com relevos esculpidos nas rochas de um morro. Quando o museu exibe uma réplica, é porque o original ficou em seu lugar.\n\nA palavra influência é importante. Os especialistas debatem como o estilo olmeca chegou a Morelos: se por comércio, por viagens de pessoas ou por troca de ideias. O que se vê nas vitrines é que as comunidades locais fizeram sua própria versão.\n\nO museu aponta Xochicalco como o sítio arqueológico mais importante entre os que apresenta. Xochicalco é uma cidade antiga de Morelos, construída sobre um morro e muito mais tardia que as aldeias desta sala. As duas épocas convivem no museu e mostram como é longo o fio da história do estado.\n\nUma forma de olhar as duas salas juntas é se perguntar o que muda e o que permanece. Mudam os objetos e os estilos. Permanecem o barro, o milho e a necessidade de guardar, cozinhar e compartilhar.\n\nO percurso por estas salas deixa uma pergunta que vale levar para o resto do museu. No ano mil e quinhentos antes da nossa era já havia aldeias com panelas, figurinhas e estilos compartilhados. Então, o que havia antes do tecpan, da praça tlahuica e do palácio de Cortés? Muito mais história do que costuma ser contada. Se sobrar tempo, volte a olhar uma vasilha ou uma figurinha e pense nas mãos que a fizeram. Cada peça foi feita por uma pessoa, para um uso concreto."
+    },
+    "retos_observacion": {
+      "hash": "ca13ce1200e9bda1",
+      "texto": [
+        "Procure a vasilha de Oaxtepec e o incensário em forma de bagre e compare-os: qual parece de uso diário e qual de cerimônia?",
+        "Encontre as figurinhas femininas e observe como o artista resolveu o rosto e o corpo",
+        "Olhe a réplica do Monumento trinta e seis de Chalcatzingo e pense por que se exibe uma cópia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "398ab5fb288426d8",
+      "texto": {
+        "Sala 1": "Povos de milho e pedra, com figurinhas, garrafas e panelas de cozinha de cerca de 1500 a 1200 a.C.",
+        "Sala 2": "O fenômeno olmeca",
+        "Peças": "vasilha de Oaxtepec, incensário em forma de bagre e réplica do Monumento 36 de Chalcatzingo",
+        "Sítio mencionado": "Chalcatzingo, Morelos"
+      }
+    },
+    "faq_mito": {
+      "hash": "15ab07157492117b",
+      "texto": {
+        "pregunta": "Mito: Os olmecas foram os fundadores de todas as culturas de Mesoamérica.",
+        "respuesta": "Realidade: Os especialistas debatem o quanto eles influenciaram. Em Morelos vê-se sua influência, mas as comunidades locais criaram seu próprio estilo."
+      }
+    }
+  }
+}

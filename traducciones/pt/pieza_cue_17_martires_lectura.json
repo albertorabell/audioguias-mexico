@@ -1,0 +1,56 @@
+{
+  "id": "cue_17_martires_lectura",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "56a5a05d0e657ad7",
+      "texto": "Os mártires do Japão II: como ler o mural"
+    },
+    "frase_gancho": {
+      "hash": "d19d0bcab8194094",
+      "texto": "Barcos, peixes, carroças de bois e cruzes: duas paredes que se leem como uma viagem rumo a Nagasaki."
+    },
+    "puente_narrativo": {
+      "hash": "7fa6d85275ba895f",
+      "texto": "Saia da nave e siga para o claustro, onde viveram os frades do convento."
+    },
+    "guion_corto": {
+      "hash": "1527b5ae22697763",
+      "texto": "Este mural não se lê de uma só vez: percorre-se como uma viagem. Em uma parede há mar, peixes e barcos com homens armados e com frades, rumo a Nagasaki. Terra adentro aparecem figuras crucificadas e carrascos com lanças. Na parede oposta, os presos avançam em carroças puxadas por bois, de quatro em quatro, e há procissões a cavalo por Kyoto, Osaka e Sakai. O traço é de linha, com poucos efeitos de luz e sombra e uma paleta limitada, características que lembram a arte do Leste Asiático. Alguns o comparam aos biombos japoneses e outros discordam. Seu autor é desconhecido: uma hipótese propõe um irmão indígena ou um frade familiarizado com a arte oriental."
+    },
+    "guion_largo": {
+      "hash": "669c570dbd4336a6",
+      "texto": "É preciso caminhar para ler este mural. Não é uma cena, mas um percurso de trinta metros dividido em duas paredes, e cada uma conta uma parte da viagem.\n\nEm uma das paredes aparece o mar. Há peixes, barcos e, nas embarcações, homens armados e homens de hábito. Todos vão rumo a Nagasaki. Mais adiante, já em terra, há uma cena de figuras crucificadas com carrascos que seguram lanças. É a parte do martírio, representada sem dramatismo exagerado.\n\nNa parede oposta, o relato recua alguns dias. Aparecem os presos em carroças puxadas por bois. Há um detalhe curioso: vão de quatro em quatro, e não de três em três, como contam outros relatos históricos. Depois se veem procissões a cavalo por três cidades: Kyoto, Osaka e Sakai. Essas cidades marcam o caminho que, segundo a história, os condenados percorreram antes de chegar a Nagasaki.\n\nA técnica chama a atenção. O desenho é de linha, há poucos efeitos de luz e sombra, e a paleta de cores é limitada. Essas características lembram a arte do Leste Asiático. O pesquisador Luis Islas o comparou aos biombos japoneses, aqueles grandes painéis pintados. María Elena Ota discorda e diz que a técnica é diferente. As duas posições coincidem na semelhança de estilo, não na origem.\n\nQuem o pintou? Não se sabe. Segundo Xavier Noguez, vários autores acreditam que foram pintores indígenas locais. O ar oriental pode ter vindo do que se sabia sobre os chineses que frequentavam o mercado de Manila, e a atmosfera geral não reflete o Japão da época. Continua sendo uma conjectura. Alguns especialistas comparam o mural com os códices Techialoyan, embora Donald Robertson reconheça que este é único.\n\nHá também uma pergunta sobre a data. Os especialistas a situam entre meados do século dezessete e o início do século seguinte. Vetancurt descreveu o convento em mil seiscentos e noventa e sete e não menciona os murais, o que poderia apontar para uma data mais tardia. Alguns a relacionam com o naufrágio do galeão San Francisco, em mil seiscentos e nove, quando mais de trezentos marinheiros da Nova Espanha foram resgatados perto de Onjuku, no Japão. Esse vínculo explicaria por que um pintor daqui conhecia as paisagens do outro lado do Pacífico, mas ainda é uma teoria.\n\nO mural também sofreu com os terremotos. Depois do sismo de dezenove de setembro de dois mil e dezessete, as paredes com pintura apresentaram rachaduras, e o reboco foi protegido.\n\nPara ler o mural, não tente ver tudo de uma vez. Caminhe devagar e vá de cena em cena, como quem passa as páginas de um livro longo. Procure onde a paisagem muda: do mar para a cidade e da cidade para o morro.\n\nUma pergunta ajuda a decidir o que olhar. Quem conta a história: os pintores, os frades ou o povo que a contemplava? Para quem não sabia ler, uma pintura assim era uma forma de entender um fato sem palavras.\n\nSe você o percorrer de parede a parede, acaba entendendo a rota: uma viagem pelo mar, pelas cidades e pelo morro onde eles terminaram. Uma história que aconteceu no Japão foi pintada com calma, em um convento de Morelos."
+    },
+    "retos_observacion": {
+      "hash": "dadf962633782f00",
+      "texto": [
+        "Siga com o olhar o percurso dos barcos e dos peixes em uma das paredes",
+        "Procure as carroças com bois e conte quantos presos vão em cada uma",
+        "Compare as cores e as linhas do mural com um biombo ou uma gravura oriental que você conheça"
+      ]
+    },
+    "especificaciones": {
+      "hash": "431b739f436883dc",
+      "texto": {
+        "Dimensões": "cerca de 30 m de comprimento por 8 m de altura",
+        "Cenas": "mar, barcos e crucificados; presos em carroças; procissões a cavalo por Kyoto, Osaka e Sakai",
+        "Estilo": "desenho de linha, pouca luz e sombra e paleta limitada, com características da arte do Leste Asiático",
+        "Autor": "desconhecido",
+        "Data": "entre meados do século XVII e início do XVIII",
+        "Naufrágio relacionado": "galeão San Francisco, 1609, diante de Onjuku"
+      }
+    },
+    "faq_mito": {
+      "hash": "882446cfc986afbc",
+      "texto": {
+        "pregunta": "Mito: O mural é uma cópia de um biombo japonês.",
+        "respuesta": "Realidade: Alguns especialistas notam semelhanças com os biombos, mas outros dizem que a técnica é diferente. Ninguém provou que seja uma cópia."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "cue_16_martires_hallazgo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3f5c9fde1d522692",
+      "texto": "Os mártires do Japão I: a descoberta"
+    },
+    "frase_gancho": {
+      "hash": "e599545de6cf4dd0",
+      "texto": "Um mural de uns trinta metros que ficou coberto de cal por gerações e cujo autor ninguém lembra quem foi."
+    },
+    "puente_narrativo": {
+      "hash": "2fae5821ce7727ef",
+      "texto": "Siga o seu roteiro: ele pode levar você a ler o mural com calma ou ao Museu de Arte Sacra."
+    },
+    "guion_corto": {
+      "hash": "f183e764b752d7a9",
+      "texto": "Alguém limpava as paredes da catedral quando apareceu um peixe. É o que contam algumas versões da descoberta deste mural, que estava coberto de cal havia gerações. Sob as camadas de tinta havia uma cena enorme, de uns trinta metros de comprimento por oito de altura, sobre os mártires de Nagasaki e são Filipe de Jesus. Ela apareceu durante uma grande reforma ordenada pelo bispo Sergio Méndez Arceo, no fim dos anos cinquenta. Ninguém sabe quem o pintou: atribui-se a um artista anônimo do século dezessete ou do início do dezoito. Ele conta um episódio real, ocorrido no Japão em mil quinhentos e noventa e sete, e que teve muita repercussão no México."
+    },
+    "guion_largo": {
+      "hash": "8a71bad48fc35802",
+      "texto": "A história começa no Japão. No dia dezoito de janeiro de mil quinhentos e noventa e sete, o governante Taicosama ditou em Osaka uma sentença. É o nome pelo qual os textos espanhóis chamam Toyotomi Hideyoshi. A ordem: vinte e quatro cristãos deviam ser crucificados em Nagasaki. No fim foram vinte e seis, entre franciscanos, jesuítas e leigos. Eles foram executados no dia cinco de fevereiro daquele ano. Um deles era Filipe de Jesus, um jovem franciscano nascido na Cidade do México, e por isso a história dele teve tanta importância aqui. É o primeiro santo nascido no México, e foi canonizado em mil oitocentos e sessenta e dois.\n\nUma das perguntas em aberto é por que esta cena acabou pintada em um convento de Cuernavaca. Uma hipótese menciona franciscanos que passaram por este convento a caminho do martírio, como Pedro Bautista, Martín de la Ascensión, Francisco Blanco e Francisco de San Miguel. Outra relaciona a pintura com o naufrágio do galeão San Francisco em mil seiscentos e nove, diante da costa do Japão. Então foram resgatados mais de trezentos marinheiros da Nova Espanha. Nenhuma das duas está comprovada.\n\nO mural mede uns trinta metros de comprimento e oito de altura. Cobre as paredes da nave, entre o sotocoro e o arco toral, que é o grande arco que separa a nave do presbitério. Seu autor e seu título original são desconhecidos. Os especialistas o datam entre meados do século dezessete e o início do século seguinte. Alguns o relacionam com o período posterior a mil seiscentos e vinte e oito, quando foi anunciada a beatificação de Filipe de Jesus.\n\nDepois veio a cal. Durante a modernização dos interiores, entre os séculos dezoito e dezenove, as paredes foram caiadas e cobertas com retábulos neoclássicos. Uma pesquisadora, María Elena Ota, relaciona a caiação com o pároco Vito Cruz Manjarrez, que esteve no cargo de mil oitocentos e sessenta e sete a mil oitocentos e oitenta.\n\nA descoberta tem várias versões. A reforma foi ordenada pelo bispo Sergio Méndez Arceo e dirigida por frei Gabriel Chávez de la Mora e pelo arquiteto Ricardo de Robina. Segundo um autor, a descoberta foi acidental. Segundo outro, o Departamento de Monumentos Coloniais mandou retirar a cal para procurar pinturas. Um terceiro conta que já se viam peixes sobre a porta norte e que embaixo havia treze camadas de tinta. E um quarto diz que um trabalhador a destapou enquanto limpava as paredes que ficaram sem altares. As fontes apontam mil novecentos e cinquenta e sete como o ano da descoberta e mil novecentos e cinquenta e nove para a restauração.\n\nNessa restauração a cor foi reintegrada, sobretudo ocres e azuis. Os retoques foram criticados, porque foram feitos sem autorização e com cores intensas demais. Depois foram suavizados.\n\nJustamente por isso convém olhar com cuidado. O que você vê é uma pintura antiga, mas também o resultado de uma restauração do século vinte."
+    },
+    "retos_observacion": {
+      "hash": "2606b86ff4172481",
+      "texto": [
+        "Procure na parede a borda do mural e tente imaginar a nave coberta de cal branca",
+        "Pense nas quatro versões da descoberta e decida qual lhe parece mais crível",
+        "Procure os ocres e azuis que foram repintados na restauração de mil novecentos e cinquenta e nove"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c161f1c1d0358e46",
+      "texto": {
+        "Tamanho": "uns 30 m de comprimento por 8 m de altura",
+        "Localização": "paredes da nave, do sotocoro ao arco toral",
+        "Autor": "desconhecido",
+        "Data": "entre meados do século XVII e início do XVIII",
+        "Descoberta": "1957, durante uma reforma do bispo Sergio Méndez Arceo",
+        "Restauração": "1959, com reintegração de cor"
+      }
+    },
+    "faq_mito": {
+      "hash": "fb9ef3b3c064aaff",
+      "texto": {
+        "pregunta": "Mito: Um artista japonês pintou o mural em Cuernavaca.",
+        "respuesta": "Realidade: Não se sabe quem o pintou. Seu estilo se parece com a arte do Leste Asiático, mas ninguém comprovou que seu autor fosse japonês."
+      }
+    }
+  }
+}

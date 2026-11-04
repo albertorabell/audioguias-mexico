@@ -1,0 +1,55 @@
+{
+  "id": "cue_15_nave_sotocoro",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ad191ce723bf4626",
+      "texto": "A nave e o sotocoro"
+    },
+    "frase_gancho": {
+      "hash": "24b88a434157bbdd",
+      "texto": "Um Cristo da Ascensão no lugar do crucificado, uma porta que concede perdão e uma abóbada gótica sob o coro."
+    },
+    "puente_narrativo": {
+      "hash": "c1d662be085d50a3",
+      "texto": "Levante o olhar para as paredes da nave: ali estão os murais dos mártires do Japão."
+    },
+    "guion_corto": {
+      "hash": "f63383ec40a170a8",
+      "texto": "Por que o Cristo desta catedral não está crucificado? Porque aqui Jesus é mostrado na Ascensão, subindo ao céu. É assim que o descreve um guia da catedral. A nave é ampla e sóbria, como a de um convento franciscano do século dezesseis. Sob o coro fica o sotocoro, o espaço coberto pela galeria superior. Segundo a México Desconocido, ele tem rendilhado gótico e uma das representações mais antigas da Virgem de Guadalupe, um dado que convém confirmar. Na fachada norte está a Porta da Porciúncula. A tradição franciscana diz que quem cruza essa porta com as condições da Igreja obtém a indulgência plenária chamada Perdão de Assis."
+    },
+    "guion_largo": {
+      "hash": "c8413a504e097b12",
+      "texto": "A maioria das igrejas católicas tem um Cristo crucificado sobre o altar. Esta não. Um guia do templo conta que a imagem principal representa Jesus na Ascensão, subindo ao céu.\n\nA planta do templo é em cruz latina, com uma única nave, e sua orientação vai de leste a oeste. Assim são muitos templos franciscanos da época: simples, de uma só nave, pensados para pregar. O interior tem a sobriedade de um convento.\n\nNo século dezenove, a nave se encheu de retábulos neoclássicos, que cobriam as paredes. Depois, na renovação dos anos cinquenta do século vinte, foram retirados o altar-mor e os altares laterais. Essa limpeza deixou à vista algo que estava escondido havia séculos: os murais dos mártires do Japão. Falaremos disso nas duas próximas paradas.\n\nMais tarde, o retábulo-mor foi resgatado e restaurado, em mil novecentos e noventa e três. Antes, em mil novecentos e noventa e dois, várias pinturas da catedral foram protegidas graças ao programa Adote uma Obra de Arte.\n\nDo centro da nave se entende por que o mural é tão longo. Ele cobre as paredes desde o sotocoro até o arco toral, que é o grande arco que separa a nave do presbitério. São cerca de trinta metros de pintura que acompanham quem caminha em direção ao altar.\n\nO templo também já sofreu com terremotos. Depois do sismo de dois mil e dezessete, apareceram rachaduras nos muros com pintura, e o reboco foi protegido. Isso faz parte da vida de um edifício que está de pé há quase cinco séculos.\n\nSob o coro está o sotocoro. A palavra é literal: a parte que fica debaixo do coro. Segundo uma das fontes, ele tem rendilhado gótico, ou seja, nervuras de pedra que formam desenhos no teto. Erga o olhar e siga essas linhas com calma. As nervuras não apenas sustentam o teto: também ordenam o olhar, que sobe e volta a descer em direção ao altar.\n\nNa parede norte está a Porta da Porciúncula. O nome vem da pequena capela da Porciúncula, perto de Assis, na Itália, onde São Francisco pediu um perdão especial para quem se arrependesse. A tradição o chama de Perdão de Assis. Quem cruza uma porta como esta, nos dias e com as condições que a Igreja estabelece, pode obter uma indulgência plenária. As condições e as datas são definidas pela Igreja.\n\nAntes de seguir, levante o olhar e baixe a voz. Se houver missa, espere um momento do lado de fora ou percorra o templo com respeito. Se você viu primeiro o átrio, note a mudança de luz ao entrar: da praça aberta você passa a uma nave mais sombreada. Falar em voz baixa ajuda a ouvir o eco do lugar. É um lugar de culto ativo, não apenas uma sala de museu.\n\nFique um momento no centro da nave. É o melhor lugar para sentir a escala do templo e para olhar as paredes longas que, como você verá logo a seguir, guardaram uma pintura de trinta metros."
+    },
+    "retos_observacion": {
+      "hash": "cea6c63e703b6a90",
+      "texto": [
+        "Procure a imagem principal do templo e observe se o Cristo está subindo ao céu ou crucificado",
+        "Olhe sob o coro e tente ver os desenhos de pedra no teto",
+        "Localize a porta norte, a da Porciúncula, e pergunte o que se pede ao cruzá-la"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a5131c05b9aa6176",
+      "texto": {
+        "Planta": "cruz latina, uma única nave, orientação leste-oeste",
+        "Retábulo-mor": "resgatado e restaurado em 1993",
+        "Programa Adote uma Obra de Arte": "1992",
+        "Porta norte": "Porciúncula, vinculada ao Perdão de Assis",
+        "Sotocoro": "com rendilhado gótico, segundo a México Desconocido"
+      }
+    },
+    "faq_mito": {
+      "hash": "0122afaaa25c8fb2",
+      "texto": {
+        "pregunta": "Mito: Todas as igrejas têm um Cristo crucificado sobre o altar.",
+        "respuesta": "Realidade: Nesta, Jesus é representado na Ascensão, segundo um guia do templo."
+      }
+    }
+  }
+}

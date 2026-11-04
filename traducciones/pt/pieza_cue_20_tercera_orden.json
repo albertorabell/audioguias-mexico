@@ -1,0 +1,59 @@
+{
+  "id": "cue_20_tercera_orden",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Las Monjas\" para \"Las Monjas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "832145101d58c960",
+      "texto": "O templo da Ordem Terceira"
+    },
+    "frase_gancho": {
+      "hash": "31c164751db15c80",
+      "texto": "Um templo do século dezoito erguido por um mordomo leigo, com as chagas de são Francisco na fachada."
+    },
+    "puente_narrativo": {
+      "hash": "24072a38a18279e1",
+      "texto": "Se o seu percurso continua, caminhe até o Jardim Borda, que fica bem perto do conjunto."
+    },
+    "guion_corto": {
+      "hash": "dd8deb9c214c79c4",
+      "texto": "Muita gente acredita que todos os franciscanos eram frades. Não é assim. A Ordem Terceira reunia leigos que queriam viver segundo o espírito de são Francisco sem entrar em um convento. Este templo foi construído para eles entre mil setecentos e vinte e três e mil setecentos e trinta e seis, pelo licenciado Enrique Jerez, mordomo secular da ordem franciscana. Fica no extremo Noroeste do claustro do convento. Na fachada há um relevo de pedra sobre a estigmatização de são Francisco, ou seja, o momento em que, segundo a tradição, ele recebeu as chagas de Cristo. Esse relevo se parece muito com um de madeira do século dezoito que a catedral guarda."
+    },
+    "guion_largo": {
+      "hash": "8336cee27e031700",
+      "texto": "Na tradição franciscana há três ordens. A Primeira Ordem é a dos frades. A Segunda é a das monjas clarissas. A Terceira reunia homens e mulheres leigos, ou seja, que não eram sacerdotes nem religiosos, e que queriam viver com simplicidade e oração sem deixar a vida cotidiana. Eram comerciantes, artesãos e famílias que se reuniam em seu próprio templo.\n\nEm Cuernavaca, esse templo foi construído no século dezoito. Segundo a pesquisadora María Celia Fontana, ele foi erguido entre mil setecentos e vinte e três e mil setecentos e trinta e seis, por iniciativa do licenciado Enrique Jerez, mordomo secular da ordem. Um mordomo era a pessoa que administrava os bens e cuidava dos gastos. O fato de ter sido obra de alguém que não era frade diz muito sobre a importância dos leigos nesta ordem.\n\nFontana situa o templo no extremo Noroeste do claustro do convento. Outra fonte diz que a capela da Ordem Terceira, junto com as de Dolores e do Carmo, foi construída depois sobre o átrio. As duas descrições não coincidem totalmente, então siga as indicações do percurso para chegar.\n\nA fachada tem um relevo de pedra sobre a estigmatização de são Francisco. Segundo a tradição, no século treze o santo rezou em uma montanha e recebeu em seu corpo as cinco chagas de Cristo. São as das mãos, dos pés e do lado. É uma das imagens mais importantes da devoção franciscana. Em Cuernavaca a imagem aparece duas vezes: em pedra, nesta fachada, e em madeira policromada e dourada, em um relevo da catedral.\n\nFontana observa que os dois relevos se parecem muito. O de madeira é um objeto do século dezoito, de autor anônimo. Não sabemos qual foi feito primeiro nem se um inspirou o outro. Mas a coincidência mostra que, no século dezoito, ainda se repetiam os modelos que estavam no convento principal.\n\nA data também importa. Os primeiros franciscanos chegaram a Cuernavaca no século dezesseis. Dois séculos depois, já havia adultos que pertenciam à Ordem Terceira e queriam um lugar próprio. É a prova de que a fé franciscana continuava viva na cidade, e de que já não eram só os frades que a sustentavam: era uma comunidade que a sustentava.\n\nPara ver esta fachada, fique de frente e levante o olhar até o relevo. Observe a postura do santo e o que há ao redor dele. Depois, lembre-se da versão em madeira do museu e pergunte-se que detalhes mudam de uma para a outra.\n\nEste templo encerra a visita à catedral com uma ideia simples. Aqui não houve só frades nem só governantes: houve famílias e artesãos que decidiram erguer um lugar de oração próprio. Um conjunto religioso não é só um edifício antigo. É o resultado de séculos de gente que se reuniu, construiu e rezou no mesmo lugar."
+    },
+    "retos_observacion": {
+      "hash": "81c3189416022e80",
+      "texto": [
+        "Procure o relevo de pedra da fachada e tente ver as mãos e os pés de são Francisco",
+        "Compare essa imagem com a do museu, se puder vê-la, e pense em quais traços se repetem",
+        "Pergunte na entrada se o templo está aberto e a que horas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a877dd6b656a1367",
+      "texto": {
+        "Construção": "entre 1723 e 1736",
+        "Promotor": "licenciado Enrique Jerez, mordomo secular da ordem franciscana",
+        "Localização": "extremo Noroeste do claustro, segundo Fontana",
+        "Detalhe da fachada": "relevo de pedra da estigmatização de são Francisco",
+        "Relevo comparável": "madeira policromada e dourada do século XVIII, de autor anônimo"
+      }
+    },
+    "faq_mito": {
+      "hash": "39001c14ae248dc1",
+      "texto": {
+        "pregunta": "Mito: A Ordem Terceira era um grupo de frades.",
+        "respuesta": "Realidade: Reunia leigos, homens e mulheres, que queriam viver segundo o espírito de são Francisco sem entrar em um convento."
+      }
+    }
+  }
+}

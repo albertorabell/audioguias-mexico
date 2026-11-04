@@ -1,0 +1,56 @@
+{
+  "id": "cue_03_palacio_que_fue_de_todo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3e15416d2cccd74f",
+      "texto": "Um palácio que foi de tudo"
+    },
+    "frase_gancho": {
+      "hash": "40a0ee031f1928cd",
+      "texto": "Fábrica, prisão, quartel, residência de um imperador e sede de governo: o edifício mudou de função uma e outra vez."
+    },
+    "puente_narrativo": {
+      "hash": "57d94e100397c65b",
+      "texto": "Baixe o olhar para o chão do museu: debaixo deste piso há outra história."
+    },
+    "guion_corto": {
+      "hash": "00cd20fb8c556882",
+      "texto": "Imagine este palácio sem museu e sem turistas, com soldados nos corredores e presos nos quartos. Foi assim durante a guerra de Independência. Entre os que estiveram presos aqui estão José María Morelos y Pavón e Ignacio López Rayón, dois chefes do movimento insurgente. Foi apenas uma das muitas vidas do edifício. A família de Cortés foi abandonando o palácio aos poucos e, entre mil seiscentos e vinte e nove e mil setecentos e quarenta e sete, aqui houve uma fundição de ferro, um curtume e uma oficina têxtil. Depois foi quartel. Em mil oitocentos e setenta e dois, tornou-se sede do governo de Morelos e foi por cerca de um século. No térreo, a Sala do Congresso do Estado lembra essa etapa e hoje recebe exposições temporárias. Desde mil novecentos e setenta e quatro, é museu."
+    },
+    "guion_largo": {
+      "hash": "5e212e4d6349632f",
+      "texto": "Poucos edifícios de Cuernavaca tiveram tantas funções quanto este. Vamos começar pelo princípio. Depois de Cortés, a família foi deixando o palácio aos poucos. Entre mil seiscentos e vinte e nove e mil setecentos e quarenta e sete, o edifício foi usado como fundição de ferro, curtume e oficina têxtil. Em meados do século dezoito, as autoridades mandaram restaurá-lo. Participaram três arquitetos, e acredita-se que Gregorio Cayetano Durán tenha dirigido a maior parte da obra. A ficha do INAH fala de um letreiro entalhado que Durán deixou no andar de cima.\n\nDepois o palácio serviu de quartel e de prisão. Durante a guerra de Independência houve presos aqui, entre eles José María Morelos y Pavón e Ignacio López Rayón, dois chefes insurgentes.\n\nEm mil oitocentos e cinquenta e cinco, o general Juan Álvarez instalou aqui um governo provisório. Entre mil oitocentos e sessenta e quatro e mil oitocentos e sessenta e seis, algumas fontes o mencionam como residência de verão do imperador Maximiliano. É outro episódio que mostra como o edifício acompanhava a política do país: cada governo o usou à sua maneira.\n\nEm mil oitocentos e setenta e dois, o palácio se tornou a sede do governo de Morelos, e foi por cerca de um século. O governador Francisco Leyva mandou fazer uma ampliação na extremidade norte e uma escadaria de estilo francês. No final do século dezenove, acrescentou-se o torreão cilíndrico do canto noroeste, que mede cerca de quinze metros. Foi nesses anos que o edifício começou a ter o aspecto de castelo pelo qual é conhecido.\n\nEm mil novecentos e trinta, quando o palácio ainda era sede do governo estadual, Diego Rivera pintou o grande mural dos corredores do andar de cima. No edifício ficam marcas de cada época: a base pré-hispânica, as paredes do século dezesseis, as reformas do dezoito e as ampliações do dezenove.\n\nEntre mil novecentos e setenta e um e mil novecentos e setenta e três, o INAH restaurou o palácio e devolveu-lhe a forma do século dezesseis. O arqueólogo Jorge Angulo Villaseñor dirigiu as escavações, que encontraram camadas das épocas tlahuica e mexica. Em mil novecentos e setenta e quatro, abriu como museu.\n\nO terremoto de dezenove de setembro de dois mil e dezessete danificou o edifício. O museu ficou fechado cinco anos e seis meses e reabriu em trinta de março de dois mil e vinte e três como Museu Regional dos Povos de Morelos. O diretor do INAH, Diego Prieto, disse que o nome de Palácio de Cortés devia ser conservado porque é o monumento histórico mais emblemático de Morelos.\n\nUma sala do térreo guarda essa etapa em seu nome: a Sala do Congresso do Estado, porque o palácio foi sede do governo de Morelos. Hoje recebe exposições temporárias, então o que você vir depende do dia. Ao reabrir o museu, em dois mil e vinte e três, mostrou trinta peças em forma humana de Mesoamérica e Oasisamérica, com mais de dois mil e quinhentos anos de antiguidade. Segundo as fontes, esta sala também guarda telas do pintor Salvador Tarazona, de mil novecentos e trinta e oito, sobre o período pré-hispânico e o revolucionário. Estão pintadas sobre tela e não sobre a parede, e por isso se distinguem do mural de Rivera.\n\nEnquanto caminha, tente dar um rótulo a cada espaço: casa, prisão, escritório, museu. Você vai notar que quase nenhum tem um só. Se percorrer o edifício pensando em tudo o que ele foi, cada parede ganha outro sentido. Uma casa de conquistador, uma prisão, um palácio de governo e um museu: são camadas, assim como as camadas de terra que os arqueólogos encontraram embaixo."
+    },
+    "retos_observacion": {
+      "hash": "d2253232d12f0b62",
+      "texto": [
+        "Procure a torre cilíndrica do canto e pense que ela foi acrescentada no final do século dezenove",
+        "Olhe a escadaria: uma parte é de estilo francês e foi feita em mil oitocentos e setenta e dois",
+        "Conte quantos usos diferentes o palácio teve, de fábrica a museu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4639f4c94ca6974b",
+      "texto": {
+        "Abandono pela família Cortés": "de 1629 a 1747, usado como fundição de ferro, curtume e oficina têxtil",
+        "Governo de Morelos": "sede desde 1872 por cerca de um século",
+        "Restauração do INAH": "1971 a 1973",
+        "Primeiro museu": "1974",
+        "Fechamento pelo terremoto de 2017": "cinco anos e seis meses",
+        "Reabertura": "30 de março de 2023 como Museu Regional dos Povos de Morelos"
+      }
+    },
+    "faq_mito": {
+      "hash": "e63123d3c746c243",
+      "texto": {
+        "pregunta": "Mito: O Palácio de Cortés sempre foi a casa de Cortés.",
+        "respuesta": "Realidade: Foi casa apenas por algumas décadas. Depois foi usado como fábrica, quartel, prisão, residência, sede de governo e museu."
+      }
+    }
+  }
+}

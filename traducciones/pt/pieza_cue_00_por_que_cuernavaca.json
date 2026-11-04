@@ -1,0 +1,63 @@
+{
+  "id": "cue_00_por_que_cuernavaca",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Ciudadela\" para \"Ciudadela\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Ciudadela\" para \"Ciudadela\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "ae5f541ca4c8dfa9",
+      "texto": "Por que Cuernavaca existe aqui"
+    },
+    "frase_gancho": {
+      "hash": "9aa2882648988595",
+      "texto": "Uma cidade entre vulcões e ravinas, a cerca de mil e quinhentos metros de altura, com fama de primavera eterna."
+    },
+    "puente_narrativo": {
+      "hash": "3362898271083a97",
+      "texto": "Caminhe até o monumento equestre de Zapata, nesta mesma praça."
+    },
+    "guion_corto": {
+      "hash": "155910f9aa1dba1c",
+      "texto": "Antes de falar de monumentos, vamos falar do lugar. Cuernavaca fica em Morelos, ao sul da Cidade do México, a cerca de mil e quinhentos metros acima do nível do mar. Essa altitude dá um clima suave, e por isso a cidade é chamada de Cidade da Eterna Primavera, um apelido que se atribui ao barão Alexander von Humboldt. A cidade também é cortada por ravinas, vales profundos que se formaram pela erosão de materiais vulcânicos da serra do Chichinautzin. Essas ravinas levam água, refrescam o ar e, segundo uma fonte, dificultaram a passagem para a cidadela dos tlahuicas. Com o tempo, a água e o clima fizeram deste vale um lugar de poder, de fé e de descanso. Essa é a ideia deste percurso."
+    },
+    "guion_largo": {
+      "hash": "0ec3c5a6ff4fb3a8",
+      "texto": "Antes de falar de monumentos, vamos falar do lugar, porque quase tudo o que você verá neste percurso nasceu dele. Cuernavaca é a capital de Morelos e fica ao sul da Cidade do México. Está a cerca de mil e quinhentos metros acima do nível do mar. Seu território se divide entre duas grandes regiões do relevo do país: o Eixo Neovulcânico e a Serra Madre do Sul, segundo o INEGI. Dito de forma simples, aqui se encontram vulcões e serras, e a terra sobe e desce a cada passo.\n\nA altitude também muda o clima. No município, as temperaturas médias vão de doze a vinte e quatro graus, e as chuvas chegam sobretudo no verão. Não faz o calor extremo da costa nem o frio das montanhas altas. Por isso Cuernavaca é chamada de Cidade da Eterna Primavera. O apelido é atribuído ao barão Alexander von Humboldt, o cientista alemão que esteve na região no início do século dezenove. É uma atribuição que se repete muito em livros e guias.\n\nO que mais distingue a cidade não se vê da rua: as ravinas. São vales profundos que cortam Cuernavaca e que, segundo o governo de Morelos, somam cerca de quinhentos quilômetros de comprimento. Formaram-se pela erosão de materiais vulcânicos. Esses materiais saíram das erupções da serra do Chichinautzin, ao norte, nos últimos dois ou três milhões de anos. A água da chuva e dos riachos foi cortando essa rocha até deixar os leitos que hoje atravessam a cidade.\n\nAs ravinas cumprem várias funções. Levam água: quase todo o município pertence à sub-bacia do rio Apatlaco, que faz parte da bacia do rio Balsas. Também ajudam a regular o clima, porque o ar que passa por elas se refresca, segundo as autoridades ambientais do estado. E, segundo uma fonte, a Ravina de Amanalco foi uma barreira natural que dificultava o acesso, vindo do norte, à cidadela dos tlahuicas. Quando chegarmos ao Palácio de Cortés, voltaremos a esta ideia.\n\nCom água, terra fértil e clima suave, a região atraiu gente desde muito antes da conquista. Os tlahuicas eram um povo de língua náuatle, estabelecido na região desde o século doze. Fizeram deste lugar sua capital de província, Cuauhnáhuac, um nome náuatle que costuma ser traduzido como perto das árvores. Com os anos, os espanhóis o pronunciaram como Cuernavaca. Segundo uma fonte, os tlahuicas cultivavam algodão, e isso despertou o interesse dos mexicas. Segundo o Códice Mendocino, Cuauhnáhuac figura entre os lugares conquistados pelos mexicas. Segundo Maldonado Jiménez, era a capital de uma província de dezesseis povos. Pagou tributo aos mexicas por cerca de oitenta anos, desde perto de mil quatrocentos e trinta e oito até a chegada dos espanhóis. Hernán Cortés tomou a cidade em mil quinhentos e vinte e um.\n\nO atrativo não terminou com a conquista. Durante muito tempo, famílias poderosas do México tiveram casas de descanso em Cuernavaca para passar fins de semana e férias longe da capital. Esse costume é parte da personalidade da cidade, e você o verá reaparecer várias vezes ao longo do percurso.\n\nPor isso este audioguia fala de três camadas: poder, fé e descanso. O poder, porque primeiro os mexicas e depois Cortés quiseram controlar este vale. A fé, porque os franciscanos levantaram aqui um dos primeiros mosteiros do século dezesseis. O descanso, porque, com os séculos, a cidade se tornou refúgio de ricos e famosos, dos Borda a Cantinflas.\n\nAgora levante o olhar e situe-se. Você está na Plaza de Armas, em pleno centro histórico. Antes de se mover, imagine uma cidade sem edifícios: só colinas, ravinas, árvores e água. Essa é a cidade que os tlahuicas escolheram, e cada parada que vem a seguir é uma camada que se pôs por cima. Quando estiver pronto, caminhe até o monumento equestre de Zapata, nesta mesma praça."
+    },
+    "retos_observacion": {
+      "hash": "e4c64790da73afbc",
+      "texto": [
+        "Olhe para o horizonte e procure onde o terreno sobe e desce",
+        "Imagine a praça sem edifícios, só com colinas, árvores e água",
+        "Pense no nome Cuauhnáhuac, perto das árvores, e veja quantas árvores há ao seu redor"
+      ]
+    },
+    "especificaciones": {
+      "hash": "208d52b9b2c2cd9e",
+      "texto": {
+        "Capital": "Morelos",
+        "Altitude": "cerca de 1 500 m acima do nível do mar",
+        "Relevo": "Eixo Neovulcânico e Serra Madre do Sul",
+        "Temperatura média no município": "de 12 a 24 graus",
+        "Bacia": "rio Balsas, sub-bacia do rio Apatlaco",
+        "Ravinas": "cerca de 500 km de comprimento total"
+      }
+    },
+    "faq_mito": {
+      "hash": "99a6a5b5ae66423d",
+      "texto": {
+        "pregunta": "Mito: Cuernavaca tem esse nome por causa dos chifres de uma vaca.",
+        "respuesta": "Realidade: O nome vem de Cuauhnáhuac, uma palavra náuatle que costuma ser traduzida como perto das árvores. Os espanhóis a pronunciaram como Cuernavaca."
+      }
+    }
+  }
+}

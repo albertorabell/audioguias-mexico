@@ -1,0 +1,56 @@
+{
+  "id": "cue_02_fortaleza_cortes",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92bf74aefba78ae3",
+      "texto": "A fortaleza de Cortés"
+    },
+    "frase_gancho": {
+      "hash": "58c499f91578d5ef",
+      "texto": "Uma casa de família com muros grossos e ameias, erguida sobre o centro de governo dos tlahuicas."
+    },
+    "puente_narrativo": {
+      "hash": "1caca043206f2e4e",
+      "texto": "Entre no museu e siga seu percurso dentro do palácio."
+    },
+    "guion_corto": {
+      "hash": "d5c5fcc854f89c68",
+      "texto": "Isto é uma casa ou uma fortaleza? As duas coisas. Hernán Cortés mandou erguer este edifício sobre o tecpan de Cuauhnáhuac, a casa de governo onde os tlahuicas reuniam o tributo, e usou materiais dessa construção destruída. Os muros são grossos e a parte alta tem ameias, como as de um castelo. Em mil quinhentos e vinte e nove, Cortés recebeu o título de Marquês do Vale de Oaxaca, e em mil quinhentos e trinta e um instalou-se aqui com sua esposa, Juana de Zúñiga. Dos corredores se veem os vulcões e as terras férteis que o atraíram a Cuernavaca. O INAH o descreve como a primeira obra civil erguida na América depois da chegada dos europeus."
+    },
+    "guion_largo": {
+      "hash": "c94d242589e2347e",
+      "texto": "Antes de existir este palácio, aqui havia outro edifício. Os tlahuicas, o povo que habitava estas terras, tinham neste lugar um tecpan, que era uma casa de governo onde se reunia o tributo. No século quinze, os mexicas dominaram a região e o sítio continuou servindo para cobrar tributo. Quando os espanhóis chegaram, Hernán Cortés mandou destruir esse edifício e erguer o seu por cima. Parte dos materiais saiu das ruínas.\n\nDiz-se que Cortés escolheu Cuernavaca pela fertilidade de suas terras. Em mil quinhentos e vinte e nove, o rei lhe deu o título de Marquês do Vale de Oaxaca, com um território enorme que incluía esta zona. Foi no dia seis de julho, segundo Wobeser. Esse senhorio não era um único bloco: tinha vinte e dois povoados distribuídos em sete jurisdições, e a maior era a Alcaldia Maior de Cuernavaca, onde ficava seu centro administrativo. Durou até mil oitocentos e vinte e um. Alguns autores situam o início das obras por volta de mil quinhentos e vinte e seis, e a ampliação principal entre mil quinhentos e trinta e um e mil quinhentos e trinta e cinco. Cortés instalou-se aqui em mil quinhentos e trinta e um com sua segunda esposa, Juana de Zúñiga.\n\nA construção mistura traços góticos e mudéjares, ou seja, de tradição islâmica na Espanha. Os muros são grossos, de pedra da região, e no alto há ameias. Não são um simples adorno: naqueles anos, um conquistador podia precisar se defender. O palácio chegou a ter até um depósito de armas. Mas também era uma casa. Conta-se que Cortés a mobiliou com vinte e uma tapeçarias e uma capela com objetos de ouro e prata.\n\nAqui nasceu seu filho Martín Cortés, segundo marquês do Vale. Cortés visitou o palácio com frequência durante a década de mil quinhentos e trinta. Partiu para a Espanha em mil quinhentos e quarenta, nunca voltou ao México e morreu lá em mil quinhentos e quarenta e sete. Juana de Zúñiga continuou vivendo no palácio até depois de sua morte.\n\nHá uma lenda famosa de Cortés em Cuernavaca: que ele saltou a cavalo uma ribanceira de cinco metros para escapar de um ataque. Essa história não está documentada. O que consta, sim, é que guerreiros tlahuicas atacaram os espanhóis na época, perto do lugar que hoje se chama Beco do Diabo.\n\nAlgo que convém ter em mente é quem realmente ergueu a obra. Os muros não foram postos por Cortés com suas próprias mãos. Foram postos por mão de obra indígena, como conta Diego Rivera no [primeiro trecho do mural](cue_09_rivera_conquista), com a cena da construção do palácio. Não temos um número confiável de quantas pessoas trabalharam na obra, e por isso aqui não vamos inventá-lo.\n\nEntre mil novecentos e setenta e um e mil novecentos e setenta e três, o INAH restaurou o palácio para devolver-lhe sua forma do século dezesseis. Ainda assim, o edifício que você vê mistura épocas, porque foi reparado e ampliado muitas vezes. Algumas partes vêm do tempo de Cortés e outras foram acrescentadas séculos depois.\n\nO INAH descreve o palácio como a primeira obra civil que se ergueu na América depois da chegada dos europeus. Percorra o edifício com essa ideia: uma casa de família, uma fortaleza e um sinal de poder, tudo feito com a mesma pedra."
+    },
+    "retos_observacion": {
+      "hash": "486b4d803cb45bb1",
+      "texto": [
+        "Procure os muros grossos e as ameias da parte alta: foram pensados para defender",
+        "Olhe os arcos dos corredores e repare no que se vê através deles: os vulcões e a cidade",
+        "Pergunte qual parte do edifício é antiga e qual foi acrescentada depois: o palácio mudou muitas vezes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a33f0926729aebf1",
+      "texto": {
+        "Construtor": "Hernán Cortés, sobre o tecpan de Cuauhnáhuac",
+        "Início": "por volta de 1526, segundo alguns autores; ampliação entre 1531 e 1535",
+        "Estilo": "gótico e mudéjar",
+        "Material": "pedra da região sobre uma base pré-hispânica",
+        "Cortés": "Marquês do Vale de Oaxaca desde 1529",
+        "Esposa": "Juana de Zúñiga"
+      }
+    },
+    "faq_mito": {
+      "hash": "2f4f7ce4bfb3d642",
+      "texto": {
+        "pregunta": "Mito: Cortés saltou a cavalo uma ribanceira de cinco metros no Beco do Diabo.",
+        "respuesta": "Realidade: É uma lenda sem documentos que a sustentem. Está documentado, sim, um ataque de guerreiros tlahuicas nessa zona."
+      }
+    }
+  }
+}

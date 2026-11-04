@@ -1,0 +1,58 @@
+{
+  "id": "cue_09_rivera_conquista",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3b9081ba22c522bf",
+      "texto": "Rivera I: a encomenda e a Conquista"
+    },
+    "frase_gancho": {
+      "hash": "989c8dab38127948",
+      "texto": "Doze mil dólares, oito meses e meio de trabalho em afresco e uma Conquista contada do lado de quem a sofreu."
+    },
+    "puente_narrativo": {
+      "hash": "8d238e2b9be8c633",
+      "texto": "Siga pela galeria até o segundo trecho do mural: a conversão, a Inquisição e Zapata."
+    },
+    "guion_corto": {
+      "hash": "abbd6974476c0ebf",
+      "texto": "Em outubro de mil novecentos e vinte e nove, o embaixador dos Estados Unidos, Dwight Morrow, encomendou a Diego Rivera um mural para este corredor. Pagou doze mil dólares, que incluíam os materiais e o salário de seu ajudante. Rivera o pintou em afresco entre o dia dois de janeiro e o dia dezesseis de setembro de mil novecentos e trinta. Ele cobre três paredes da galeria: uma faixa colorida em cima e onze grisalhas, ou pinturas em tons de cinza, embaixo. Lê-se como uma história em ordem. Começa com a batalha entre os espanhóis e os mexicas. Segue com a captura de Cuernavaca, a construção deste palácio com trabalho indígena e a chegada dos engenhos de açúcar. Segundo o INAH, Rivera conta a Conquista do ponto de vista dos explorados."
+    },
+    "guion_largo": {
+      "hash": "46195e1887985355",
+      "texto": "Imagine a cena. É mil novecentos e vinte e nove e Diego Rivera é o pintor mais famoso do México. Ele recebe uma oferta do embaixador dos Estados Unidos, Dwight Morrow, que chega por meio de William Spratling. Oferecem a ele doze mil dólares, mais do que o governo mexicano já lhe havia pago até então. Rivera aceita com uma condição: escolher livremente o tema. Morrow tem uma casa de descanso em Cuernavaca, e ali se hospedam Rivera e Frida Kahlo enquanto o pintor trabalha.\n\nO preço foi polêmico. Rivera era membro do Partido Comunista Mexicano, e aceitar uma encomenda do embaixador norte-americano lhe custou a expulsão do partido, segundo o INAH. Alguns historiadores acreditam que Morrow fez isso como gesto de boa vontade e outros, que foi um movimento diplomático. Não há uma resposta única.\n\nRivera pintou em afresco, entre o dia dois de janeiro e o dia dezesseis de setembro de mil novecentos e trinta. Afresco significa pintar sobre cal ainda úmida, de modo que a cada dia se prepara apenas o pedaço de parede que se consegue terminar. A obra ocupa as paredes norte, oeste e sul da galeria de arcos deste andar, e está dividida em duas faixas. A de cima, em cores plenas, ocupa três quartos. A de baixo, de onze painéis em tons de cinza, é uma espécie de comentário paralelo.\n\nO primeiro trecho trata da Conquista. Nos painéis coloridos você verá uma batalha entre soldados espanhóis, com armadura de metal, e guerreiros mexicas, com trajes coloridos e maças com espinhos. Outra cena mostra a captura de Cuernavaca, com um guia disfarçado de coiote. Há uma cena de saque e de marcação a ferro de indígenas escravizados. Segue-se a construção da casa fortificada de Cortés, que é este mesmo palácio, e o sistema de tributo. E depois chegam os engenhos de açúcar, que mudaram a paisagem de Morelos.\n\nNas grisalhas de baixo, Rivera conta a mesma história com outro ritmo. Aparecem o desembarque de Cortés em Chalchihueyecan, Malintzin e Aguilar como intérpretes, a aliança com Xicoténcatl, o Velho, e o cerco de Tenochtitlan com bergantins. Para desenhar tudo isso, Rivera consultou o Lienzo de Tlaxcala, a Matrícula de Tributos, o Códice Florentino e o Códice Mendoza.\n\nA obra é enorme: cobre cerca de cento e cinquenta metros quadrados de parede. Por isso convém olhá-la em duas passadas. Primeiro percorra o corredor atento apenas à faixa colorida. Depois baixe o olhar para as grisalhas, que se parecem com gravuras antigas. O contraste entre uma e outra faz parte da ideia de Rivera.\n\nHá algo que você não verá. No mural não aparecem estrelas vermelhas, martelos nem foices, os símbolos do socialismo. Rivera não fez um cartaz de partido. Fez uma história narrada de baixo, a partir dos explorados. Esse ponto de vista é o que faz com que o mural continue sendo interessante hoje.\n\nUm detalhe final: quando a esposa de Morrow pediu uma cópia de um fragmento, Rivera começou a desenvolver os murais portáteis, pinturas em afresco sobre painéis que podem ser movidos. Foi uma consequência imprevista desta encomenda."
+    },
+    "retos_observacion": {
+      "hash": "b892ebaeb815e862",
+      "texto": [
+        "Procure a cena da batalha e observe como Rivera diferencia os dois lados pelas roupas e pelas armas",
+        "Encontre o guia disfarçado de coiote na captura de Cuernavaca",
+        "Procure as assinaturas D.R. e a data trinta nas grisalhas do canto sul da parede oeste"
+      ]
+    },
+    "especificaciones": {
+      "hash": "30f483bab1b2d224",
+      "texto": {
+        "Autor": "Diego Rivera",
+        "Encomenda": "Dwight Morrow, embaixador dos Estados Unidos, outubro de 1929",
+        "Pagamento": "12 000 dólares, com materiais e ajudante incluídos",
+        "Ajudante": "Victor Arnautoff",
+        "Data": "de 2 de janeiro a 16 de setembro de 1930",
+        "Técnica": "afresco",
+        "Estrutura": "faixa superior colorida e onze grisalhas embaixo",
+        "Fontes visuais": "Lienzo de Tlaxcala, Matrícula de Tributos, Códice Florentino e Códice Mendoza"
+      }
+    },
+    "faq_mito": {
+      "hash": "6c8c26a3b114a155",
+      "texto": {
+        "pregunta": "Mito: Rivera pintou este mural para o governo de Morelos.",
+        "respuesta": "Realidade: Foi encomendado pelo embaixador dos Estados Unidos, Dwight Morrow, e Rivera aceitou com total liberdade sobre o tema."
+      }
+    }
+  }
+}

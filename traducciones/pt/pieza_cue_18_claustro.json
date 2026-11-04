@@ -1,0 +1,56 @@
+{
+  "id": "cue_18_claustro",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7a756d3b94c18e61",
+      "texto": "O claustro e os frades do convento"
+    },
+    "frase_gancho": {
+      "hash": "b448e6b8b7b11b28",
+      "texto": "Laranjeiras, uma horta enorme e os frades que aprenderam náuatle: a vida cotidiana do convento franciscano."
+    },
+    "puente_narrativo": {
+      "hash": "261da6bdc4326367",
+      "texto": "Passe do claustro para as salas do Museu de Arte Sacra."
+    },
+    "guion_corto": {
+      "hash": "6749cf55dc9bdb8d",
+      "texto": "Um frade dominicano que chegou a Cuernavaca em mil quinhentos e oitenta e cinco descreveu o convento: tem igreja, claustro, dormitórios e horta. Um cronista do século dezessete acrescentou que o pátio estava enfeitado com laranjeiras e que a horta era muito grande. O claustro é o pátio central rodeado de galerias, e ali transcorria a vida dos frades. No século dezesseis viveram aqui figuras como frei Toribio de Benavente, Motolinía, Agustín de la Coruña e Hernando de Leyva. Francisco Cimbrón e Hernando de Leyva estão enterrados no convento. Hoje, as galerias do claustro guardam uma grande coleção de arte barroca, sobretudo pintura, distribuída em várias salas."
+    },
+    "guion_largo": {
+      "hash": "e65cf6c64544dd9e",
+      "texto": "Um claustro é um pátio rodeado de galerias cobertas. Em um convento, era o centro da vida diária: os frades o atravessavam para ir ao templo, ao refeitório e aos dormitórios. No de Cuernavaca, esse pátio mudou de usos, mas conserva o seu sentido.\n\nVárias pessoas deixaram descrições do convento. Um frade dominicano, o padre Ponce, que chegou em mil quinhentos e oitenta e cinco, escreveu que o edifício estava terminado e que tinha igreja, claustro, dormitórios e uma horta. No século dezessete, o cronista Vetancurt descreveu o pátio decorado com laranjeiras e uma horta muito grande. Também escreveu que o vestíbulo de entrada, a portaria, media mais de cinquenta varas de comprimento.\n\nNo século dezesseis viveram aqui frades que depois ficaram muito conhecidos. Frei Toribio de Benavente, a quem os indígenas chamaram Motolinía, que quer dizer o pobre, foi um dos primeiros franciscanos a chegar ao México. Escreveu uma história dos povos da Nova Espanha. Também estiveram aqui Agustín de la Coruña e Hernando de Leyva. Dois frades estão enterrados no convento: Francisco Cimbrón, da província da Conceição, e Hernando de Leyva, da província de Burgos.\n\nO convento não guardava apenas pessoas. Com o tempo, o claustro se transformou em um espaço de coleção. Nas galerias há uma grande quantidade de arte barroca, sobretudo pintura, distribuída em várias salas. Uma pesquisadora, María Celia Fontana, estudou essa coleção. Nela aparecem obras atribuídas a Juan Correa, Juan de Miranda e Tomás de Sosa.\n\nO claustro passou por outras mudanças. Quando a diocese foi criada, em mil oitocentos e noventa e um, o antigo convento passou a ser catedral. Em mil novecentos e onze, o bispo Francisco Plancarte y Navarrete fundou um Museu de Arte Sacra em Cuernavaca. Em mil novecentos e oitenta e nove, o engenheiro Juan Dubernard catalogou os bens móveis da catedral. E em mil novecentos e noventa e dois, o programa Adote uma Obra de Arte restaurou várias peças-chave. De vinte e seis a trinta de outubro de dois mil e dois, a exposição Tesouros artísticos da catedral de Cuernavaca foi mostrada no claustro alto.\n\nPara percorrê-lo, pense em como era o dia em um convento: oração, refeições, estudo e trabalho. As galerias cobertas protegiam do sol e da chuva, e por isso o pátio funcionava como a sala comum de todos.\n\nSe você encontrar obras com a sua legenda, leia-a por inteiro. Os nomes de Correa, Miranda e Sosa aparecem nos estudos sobre esta coleção, mas nem todas as atribuições são seguras. As peças mudam de lugar com o tempo, e as salas abertas também podem mudar.\n\nSe o claustro estiver aberto quando você o visitar, repare no silêncio. Os frades o percorriam rezando e estudando. Quem chega hoje o percorre de outra maneira, com a cabeça erguida para ver os tetos e os arcos, e com o passo mais lento. Agora é a sua vez de percorrê-lo olhando."
+    },
+    "retos_observacion": {
+      "hash": "587c7480160f7d06",
+      "texto": [
+        "Caminhe por uma galeria e tente imaginar os frades atravessando o pátio",
+        "Procure as laranjeiras ou as árvores do pátio e pense na horta que Vetancurt descreveu",
+        "Olhe as pinturas das galerias e repare quais são de tema religioso barroco"
+      ]
+    },
+    "especificaciones": {
+      "hash": "464d14133bab7145",
+      "texto": {
+        "Descrição do padre Ponce": "1585",
+        "Crônica de Vetancurt": "século XVII, com laranjeiras e horta",
+        "Frades do século XVI": "Motolinía, Agustín de la Coruña e Hernando de Leyva",
+        "Sepultamentos": "Francisco Cimbrón e Hernando de Leyva",
+        "Primeiro Museu de Arte Sacra": "1911, pelo bispo Francisco Plancarte y Navarrete",
+        "Catálogo dos bens móveis": "1989, por Juan Dubernard"
+      }
+    },
+    "faq_mito": {
+      "hash": "121a6d51871af167",
+      "texto": {
+        "pregunta": "Mito: Motolinía era um apelido zombeteiro.",
+        "respuesta": "Realidade: Foi um nome náuatle que os indígenas lhe deram e que quer dizer o pobre, por causa de sua vida humilde."
+      }
+    }
+  }
+}

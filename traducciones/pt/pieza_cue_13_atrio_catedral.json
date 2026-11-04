@@ -1,0 +1,56 @@
+{
+  "id": "cue_13_atrio_catedral",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0bb65925e1631a65",
+      "texto": "O átrio e a fachada de fortaleza"
+    },
+    "frase_gancho": {
+      "hash": "589769ede5c9084d",
+      "texto": "Uma única torre, muros com ameias e um convento franciscano que hoje é Patrimônio da Humanidade."
+    },
+    "puente_narrativo": {
+      "hash": "e82c854f8c8aa925",
+      "texto": "Entre no átrio e procure a capela aberta, a mais antiga do conjunto."
+    },
+    "guion_corto": {
+      "hash": "dd080fe6e345c2f4",
+      "texto": "Esta catedral tem uma única torre, e não é por falta de planos. É um convento franciscano do século dezesseis, e os conventos daquela época se pareciam mais com uma fortaleza do que com uma catedral europeia. Os frades franciscanos chegaram a Cuernavaca em mil quinhentos e vinte e cinco, e o mosteiro foi fundado formalmente em mil quinhentos e vinte e nove. Foi a quinta fundação franciscana no México, depois das da capital, Tlaxcala, Huejotzingo e Texcoco. Tornou-se catedral em mil oitocentos e noventa e um, quando foi criada a diocese de Cuernavaca. Em mil novecentos e noventa e quatro, a UNESCO o declarou Patrimônio da Humanidade, junto com outros mosteiros das encostas do Popocatépetl. O átrio, o grande espaço aberto da entrada, era o coração da vida do convento."
+    },
+    "guion_largo": {
+      "hash": "cf0dc81ade47238a",
+      "texto": "Os frades franciscanos chegaram a Cuernavaca em mil quinhentos e vinte e cinco. Segundo cronistas como Motolinía e Mendieta, desde essa data começaram a construir um convento. Outros documentos fixam a fundação formal do mosteiro em dois de janeiro de mil quinhentos e vinte e nove. Segundo a Arqueologia Mexicana, a obra se prolongou até algum momento entre mil quinhentos e setenta e quatro e mil quinhentos e oitenta e cinco. Foi a quinta fundação franciscana no México, depois das da Cidade do México, Tlaxcala, Huejotzingo e Texcoco. Acredita-se que a construção tenha sido erguida sobre um possível templo pré-hispânico.\n\nO edifício se chama Templo e Ex-convento da Assunção, e é dedicado à Assunção de Maria. Seu aspecto é sóbrio, de fortaleza, com muros grossos e ameias. Não era um capricho: esses conventos serviam para proteger os frades e, ao mesmo tempo, para impressionar. Também foram pensados para evangelizar muitas pessoas de uma só vez, e por isso têm um átrio enorme, capelas abertas e capelas posas.\n\nO átrio é o espaço aberto diante do templo. Nos conventos do século dezesseis, costumava ser retangular, cercado por um muro, e servia para reunir a comunidade. As capelas posas eram pequenas capelas dos cantos, onde se fazia uma pausa durante as procissões. Em Cuernavaca, as posas dos cantos já não se conservam. Também se perdeu boa parte do átrio quando foi aberta a rua Morelos. Depois, outras capelas foram construídas sobre ele, como as das Dores, do Carmo e da Ordem Terceira. Assim, o que você vê hoje é apenas uma parte do átrio original.\n\nA UNESCO descreve o modelo comum desses mosteiros: uma igreja de uma única nave e, ao sul, os edifícios dos frades em volta de um claustro. O átrio era cercado por capelas posas em um caminho de procissão. Seus muros tinham pequenos nichos para a Via Sacra, que é o percurso pelas estações da paixão de Cristo. Também havia obras hidráulicas que levavam água da montanha para o uso da comunidade.\n\nA torre tem sua própria história. Foi construída em parte no século dezessete e em parte no dezenove. No dezenove de julho de mil oitocentos e oitenta e dois, um terremoto destruiu sua parte alta, e o pároco Vicente Salinas a restaurou em setembro daquele mesmo ano.\n\nO conjunto passou por muitos terremotos. Houve danos pelos terremotos do quinze e do vinte e um de junho de mil novecentos e noventa e nove, e pelo do dezenove de setembro de dois mil e dezessete. A reconstrução do edifício se desenvolveu entre dois mil e dezessete e dois mil e dezoito.\n\nA Igreja o transformou em catedral em mil oitocentos e noventa e um, quando o papa Leão treze criou a diocese de Cuernavaca. Desde mil novecentos e noventa e quatro, faz parte da lista de Patrimônio da Humanidade da UNESCO. É um dos primeiros mosteiros do século dezesseis nas encostas do Popocatépetl. Essa lista inclui quinze monumentos de Morelos, Puebla e Tlaxcala.\n\nAntes de entrar, fique um momento no átrio. Hoje é um lugar de passagem, mas há quatro séculos toda a comunidade se reunia aqui para ouvir missa ao ar livre."
+    },
+    "retos_observacion": {
+      "hash": "675d58e708695000",
+      "texto": [
+        "Procure a torre única da fachada e pense por que o templo parece um forte",
+        "Olhe o átrio e tente imaginar as capelas posas que já não existem nos cantos",
+        "Observe quantas capelas há dentro do conjunto e procure a mais antiga"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fa0b9c9cf4eda831",
+      "texto": {
+        "Dedicação": "Assunção de Maria",
+        "Chegada dos franciscanos": "1525; fundação do mosteiro, 2 de janeiro de 1529",
+        "Catedral": "desde 1891, quando foi criada a diocese de Cuernavaca",
+        "Patrimônio da Humanidade": "desde 1994",
+        "Torre": "construída em parte no século XVII e em parte no XIX",
+        "Terremoto que destruiu a parte alta da torre": "19 de julho de 1882"
+      }
+    },
+    "faq_mito": {
+      "hash": "538a6ffa4e9ffd63",
+      "texto": {
+        "pregunta": "Mito: Uma catedral sempre é construída como catedral.",
+        "respuesta": "Realidade: Esta foi um convento franciscano do século dezesseis. Tornou-se catedral em mil oitocentos e noventa e um."
+      }
+    }
+  }
+}

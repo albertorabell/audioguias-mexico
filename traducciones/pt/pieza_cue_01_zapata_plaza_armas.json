@@ -1,0 +1,57 @@
+{
+  "id": "cue_01_zapata_plaza_armas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7619071f5afec7aa",
+      "texto": "Zapata a cavalo, agora no centro de Cuernavaca"
+    },
+    "frase_gancho": {
+      "hash": "0b04d7338c20725b",
+      "texto": "Pesa mais de cinco toneladas e chegou a esta praça em agosto de dois mil e vinte e cinco, depois de duas mudanças."
+    },
+    "puente_narrativo": {
+      "hash": "5144ce105b71054c",
+      "texto": "Atravesse em direção ao Palácio de Cortés: o seu percurso segue por ali."
+    },
+    "guion_corto": {
+      "hash": "025e48ad423dcd01",
+      "texto": "Mais de cinco toneladas de bronze chegaram a esta praça em agosto de dois mil e vinte e cinco. É o monumento equestre a Emiliano Zapata, obra dos escultores Carlos Kunte e Estela Ubando. Durante quarenta anos, recebeu quem entrava em Cuernavaca pela rodovia federal, e depois passou seis anos abandonado junto a um cruzamento de avenidas. Hoje está na Plaza de Armas, em frente ao Palácio de Governo, em pleno centro histórico. Zapata nasceu em mil oitocentos e setenta e nove e liderou os camponeses do sul que pediam terra para seus povoados. Morelos foi seu território e sua causa. Mais adiante, no percurso, você verá como Diego Rivera o pintou, apenas onze anos depois de sua morte. Aqui começa a história de uma cidade feita de camadas de poder, fé e descanso."
+    },
+    "guion_largo": {
+      "hash": "082faa512f5621f3",
+      "texto": "Para chegar a esta praça, o monumento teve de atravessar a cidade duas vezes. Foi instalado em mil novecentos e setenta e nove na entrada de Cuernavaca, junto à rodovia federal, no bairro Buena Vista. Ali, saudava quem chegava da Cidade do México. Em dois mil e dezenove, foi transferido para o chamado Paso Exprés, no cruzamento com a avenida Vicente Guerrero, onde ficou abandonado. E em agosto de dois mil e vinte e cinco foi trazido para cá, para o centro histórico.\n\nA última mudança foi uma operação delicada. A escultura foi desmontada numa sexta-feira, primeiro de agosto, à tarde, e ficou posicionada na madrugada de terça-feira, cinco de agosto. A figura de bronze pesa pouco mais de cinco toneladas e mede cerca de cinco metros e meio de altura por nove e meio de comprimento. Seu pedestal tem sete metros de comprimento, quatro de largura e três de altura. A governadora Margarita González Saravia impulsionou a transferência. O governo explicou que assim se fortalecem a identidade e a memória de Zapata no estado. Acrescentou que aqui visitantes e turistas podem apreciá-lo no coração do centro histórico.\n\nOs escultores são Carlos Kunte e Estela Ubando. É um monumento equestre, ou seja, com o cavaleiro montado em seu cavalo, como é costume para homenagear chefes militares. Zapata foi um deles, mas sua fama vem de outra coisa: da terra.\n\nEmiliano Zapata nasceu em Anenecuilco, Morelos, no dia oito de agosto de mil oitocentos e setenta e nove. Naquela época, as fazendas de açúcar haviam ficado com muitas das terras dos povoados do estado. Zapata liderou os camponeses que queriam recuperá-las. Em mil novecentos e onze, proclamou o Plano de Ayala, que pedia devolver suas terras aos povoados. Seu lema foi Terra e liberdade. Morreu em mil novecentos e dezenove, numa emboscada na fazenda de Chinameca, também em Morelos.\n\nA praça que agora o recebe se chama Plaza de Armas General Emiliano Zapata Salazar. Foi reformada quase por completo em dois mil e dezesseis. Em frente fica o Palácio de Governo, e a poucas quadras está o Palácio de Cortés, onde continua a visita.\n\nLá, Diego Rivera pintou Zapata em mil novecentos e trinta, a apenas onze anos de sua morte. Não o vestiu de charro com adornos de prata, como aparece em muitas fotografias. Pintou-o como um camponês humilde, com camisa e calça de algodão branco e sandálias de couro. Entre a escultura de bronze e o mural há quase um século de distância, mas a mensagem é parecida: o herói é gente do campo.\n\nAntes de seguir, compare o tamanho do cavaleiro com as pessoas que cruzam a praça. Uma escultura deste tamanho pede distância, e a praça aberta a oferece. Um monumento não é só uma obra de arte. É também uma decisão sobre o que uma cidade recorda e onde quer recordá-lo.\n\nEste monumento é um primeiro sinal da camada do poder: quem manda, quem recorda e o que se celebra em uma cidade."
+    },
+    "retos_observacion": {
+      "hash": "eac309c8a6d6c1c4",
+      "texto": [
+        "Compare o tamanho do cavaleiro com as pessoas que cruzam a praça: a escultura mede cerca de cinco metros e meio de altura",
+        "Observe o pedestal, que mede sete metros de comprimento e três de altura",
+        "Procure o Palácio de Governo em frente à praça, o edifício com o qual o monumento dialoga"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3f0ad3ab3815a11d",
+      "texto": {
+        "Obra": "monumento equestre a Emiliano Zapata",
+        "Escultores": "Carlos Kunte e Estela Ubando",
+        "Material": "bronze",
+        "Dimensões": "cerca de 5,5 m de altura por 9,5 m de comprimento",
+        "Peso": "pouco mais de 5 toneladas",
+        "Pedestal": "7 m de comprimento, 4 m de largura e 3 m de altura",
+        "História": "instalado em 1979, transferido em 2019 e chegado à Plaza de Armas em agosto de 2025"
+      }
+    },
+    "faq_mito": {
+      "hash": "c2a3b07c59044d0e",
+      "texto": {
+        "pregunta": "Mito: Zapata morreu em Cuernavaca.",
+        "respuesta": "Realidade: Morreu numa emboscada na fazenda de Chinameca, Morelos, no dia dez de abril de mil novecentos e dezenove."
+      }
+    }
+  }
+}
