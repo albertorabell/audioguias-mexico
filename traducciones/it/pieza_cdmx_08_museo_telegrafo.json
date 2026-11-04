@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_08_museo_telegrafo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d2587d2a9b151fa5",
+      "texto": "Museo del Telegrafo: quando i messaggi viaggiavano via cavo"
+    },
+    "frase_gancho": {
+      "hash": "3e0b1ec490b697f2",
+      "texto": "Nel milleottocentocinquantuno, un cavo unì Città del Messico a un paese di Puebla chiamato Nopalucan."
+    },
+    "puente_narrativo": {
+      "hash": "5c95c4e5ac54d72c",
+      "texto": "Cammina verso l’Eje Central Lázaro Cárdenas e proseguilo in direzione dell’Avenida Juárez, dove ti aspetta l’edificio La Nacional."
+    },
+    "como_llegar": {
+      "hash": "845282a5c8dd1b21",
+      "texto": "Il museo successivo condivide l’edificio con questo: il Museo del Telegrafo occupa una sezione dell’antico Palazzo delle Comunicazioni."
+    },
+    "guion_corto": {
+      "hash": "5262ebb3f084ba16",
+      "texto": "Nopalucan, un paese di Puebla, fu la destinazione della prima linea telegrafica del Messico. Nel milleottocentoquarantanove, Juan de la Granja, un commerciante e diplomatico di origine spagnola, ottenne la concessione per installare il telegrafo. Nel milleottocentocinquantuno la linea fu inaugurata. Più di un secolo dopo, nel millenovecentonovantadue, fu cancellato ufficialmente il codice Morse dal sistema telegrafico del paese. Questa storia, quella dei messaggi che attraversavano il paese via cavo, è il tema del Museo del Telegrafo. Si trova in un’ala dell’edificio costruito dall’architetto italiano Silvio Contri per la Segreteria delle Comunicazioni e dei Lavori Pubblici."
+    },
+    "guion_largo": {
+      "hash": "19ca01b108cd602a",
+      "texto": "Questo museo racconta la storia delle telecomunicazioni in Messico, e per comprenderla bisogna viaggiare fino al milleottocentoquarantaquattro. Il ventiquattro maggio di quell’anno, Samuel Morse inviò da Washington a Baltimora il primo messaggio pubblico del telegrafo negli Stati Uniti. Era una frase della Bibbia, «Che cosa ha fatto Dio?», suggerita da Annie Ellsworth, la giovane figlia di un suo amico.\n\nIl principio del telegrafo era semplice. Un operatore apriva e chiudeva un circuito elettrico, e all’altro capo del cavo arrivavano impulsi brevi e lunghi. Ogni lettera aveva la sua combinazione di punti e linee, e quella combinazione è il codice Morse. Grazie a esso, un messaggio poteva attraversare un paese senza che nessuno viaggiasse con lui.\n\nIl Messico non tardò molto ad aggiungersi. Juan de la Granja, commerciante e diplomatico di origine spagnola, visse negli Stati Uniti e fu console del Messico a New York. Tornò nel paese nel milleottocentoquarantasei. Nel milleottocentoquarantanove ottenne la concessione per introdurre il telegrafo elettromagnetico, e nel milleottocentocinquantuno fu inaugurata la prima linea telegrafica del paese, tra Città del Messico e il paese di Nopalucan, a Puebla. De la Granja morì nel milleottocentocinquantatré. Dopo la sua morte, il paese prese il nome di Nopalucan de la Granja in suo onore.\n\nLa rete crebbe con gli anni. Nel milleottocentosessantasette, il presidente Juárez decretò la federalizzazione dei telegrafi che funzionavano su concessione di imprenditori privati. Cioè, le linee passarono nelle mani del governo federale.\n\nIl cavo diventò anche satellite. Nel millenovecentosessantotto entrò in servizio la stazione terrestre di Tulancingo, che trasmise ad altri paesi i Giochi Olimpici del Messico. Quel salto, dal cavo al satellite, è l’arco di tempo che percorre il tema di questo museo.\n\nLa fine del codice Morse arrivò quasi al termine del ventesimo secolo. Nel millenovecentonovantadue, l’apparato telegrafico del governo, che ancora lo usava, fu smantellato. Passarono più di centoquaranta anni tra la prima linea e quell’ultimo giorno del codice.\n\nIl museo occupa un’ala di un edificio che costruì tra il millenovecentoquattro e il millenovecentoundici l’architetto italiano Silvio Contri, per la Segreteria delle Comunicazioni e dei Lavori Pubblici. La storia completa di quell’edificio l’ha appena raccontata la tappa del Museo Nazionale d’Arte. Qui basta ricordare che pochi minuti fa sei passato davanti al Palazzo Postale, e che i due nacquero negli anni finali del Porfiriato per istituzioni dello Stato dedicate alle comunicazioni.\n\nL’ingresso al museo è libero, anche se conviene consultare gli orari in vigore prima di venire. Il complesso lo condivide con il [Museo Nazionale d’Arte](cdmx_10_munal), che hai appena visto. Se decidi di entrare, il museo ti racconta come è cambiato il modo di inviare un messaggio. E se preferisci continuare a camminare, la facciata parla già di quell’epoca."
+    },
+    "retos_observacion": {
+      "hash": "c4aa73f8a8172ef4",
+      "texto": [
+        "Percorri con lo sguardo la facciata e osserva la varietà dei suoi ornamenti, perché mescola elementi di diversi stili antichi",
+        "Conta quanti piani ha l’edificio di Contri visto dalla strada",
+        "Guarda verso la piazza vicina: lì c’è il Caballito, a pochi passi da questo edificio"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b1831d95078a8859",
+      "texto": {
+        "Epoca": "edificio dal 1904 al 1911; museo aperto dal 2006",
+        "Architetto": "Silvio Contri",
+        "Stile": "eclettico, con elementi di diversi stili antichi",
+        "Ubicazione": "Tacuba 8, Centro Storico",
+        "Tema": "storia delle telecomunicazioni in Messico"
+      }
+    },
+    "faq_mito": {
+      "hash": "361b901dade8b43e",
+      "texto": {
+        "pregunta": "Mito: Il telegrafo arrivò in Messico con Porfirio Díaz.",
+        "respuesta": "Realtà: La concessione fu rilasciata nel 1849 e la prima linea fu inaugurata nel 1851, decenni prima che Díaz governasse."
+      }
+    }
+  }
+}

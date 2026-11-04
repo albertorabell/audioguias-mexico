@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_01_bellas_artes",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e1ea0258585e5e32",
+      "texto": "Palacio de Bellas Artes: il teatro che impiegò trent’anni"
+    },
+    "frase_gancho": {
+      "hash": "9eeabd059995069e",
+      "texto": "Fu progettato per il Centenario del millenovecentodieci e inaugurato solo nel millenovecentotrentaquattro, con uno stile diverso all’interno."
+    },
+    "puente_narrativo": {
+      "hash": "4151fe65286163ae",
+      "texto": "Cammina verso l’ingresso del palazzo. La prossima tappa racconta ciò che custodisce al suo interno, e puoi ascoltarla anche se decidi di non entrare."
+    },
+    "como_llegar": {
+      "hash": "b69450a6deb97ada",
+      "texto": "Raggiungi il Palacio de Bellas Artes, all’angolo tra l’avenida Juárez e l’Eje Central Lázaro Cárdenas, accanto all’Alameda Central. La stazione della metropolitana più vicina è Bellas Artes (linee 2 e 8)."
+    },
+    "guion_corto": {
+      "hash": "dd8f969e9bc19b16",
+      "texto": "Questo palazzo impiegò trent’anni per essere terminato. Nacque come progetto di Teatro Nazionale, e il presidente Porfirio Díaz lo voleva pronto per il Centenario dell’Indipendenza, nel millenovecentodieci. Non ci riuscì. L’architetto italiano Adamo Boari iniziò i lavori nel millenovecentoquattro, e la Rivoluzione li interruppe. Anni dopo, l’architetto messicano Federico Mariscal li riprese e gli diede un interno in stile Art Déco. Per questo questo edificio ha due epoche. All’esterno, marmo bianco e decorazioni Art Nouveau. All’interno, linee geometriche e marmi del Messico. Fu inaugurato il ventinove settembre del millenovecentotrentaquattro. Oggi è teatro, sala da concerti e museo, e qui comincia il nostro percorso."
+    },
+    "guion_largo": {
+      "hash": "94f9a90459fc69a6",
+      "texto": "Prima che esistesse questo palazzo, qui sorgeva un convento. Nell’epoca vicereale, in questo luogo si trovava il convento di Santa Isabel. Dopo la confisca dei beni della Chiesa, il convento fu trasformato in abitazioni private, e il tempio in una fabbrica di sete. Anni più tardi, l’ingegnere Gonzalo Garita propose quel terreno per costruire il nuovo teatro.\n\nIl progetto fu affidato all’architetto italiano Adamo Boari, assunto dal governo di Porfirio Díaz. Al suo fianco lavorò Garita, ingegnere militare messicano responsabile della struttura. Insieme introdussero in Messico il sistema detto Chicago, che combina cemento armato e acciaio. Boari immaginava una grande serra di cristallo, sormontata da tre cupole traslucide, con una decorazione in stile Art Nouveau. I lavori iniziarono nel millenovecentoquattro. L’obiettivo era inaugurare per il Centenario dell’Indipendenza, nel millenovecentodieci.\n\nMa il suolo di Città del Messico è quello di un’antica laguna, e l’edificio sprofondava. Nel millenovecentoventotto fu necessario riportare alla luce la parte affondata del basamento. Poi arrivò la Rivoluzione. Tra il millenovecentotredici e il millenovecentotrentadue ci furono diversi tentativi di portare a termine l’opera. Boari lasciò il paese e non vide mai terminato il suo teatro.\n\nNel millenovecentotrenta, Federico Mariscal presentò il suo progetto definitivo. I lavori ripresero nel luglio del millenovecentotrentadue, e la costruzione si concluse nel marzo del millenovecentotrentaquattro. Mariscal conservò l’esterno di Boari e progettò l’interno in stile Art Déco, con forme geometriche ed elementi che evocano il mondo preispanico. Per questi interni furono usati marmi provenienti da diverse regioni del Messico.\n\nL’inaugurazione ebbe luogo il ventinove settembre del millenovecentotrentaquattro, con il presidente Abelardo L. Rodríguez. Nella serata di gala si ascoltò l’Orchestra Sinfonica del Messico, diretta da Carlos Chávez, e fu rappresentata La verdad sospechosa, di Juan Ruiz de Alarcón. Ciò che era nato come un omaggio del Porfiriato al Centenario si apriva, finalmente, in un Messico postrivoluzionario. Il palazzo comprendeva inoltre un museo di arti plastiche, che aprì due mesi dopo. Ne parleremo nella prossima tappa.\n\nI quattro Pegasi della spianata sono opera dello scultore spagnolo Agustí Querol. Arrivarono dalla Spagna nel millenovecentoundici ed erano pensati per coronare gli angoli del tetto del teatro. Dopo vari spostamenti, compreso un periodo nello Zócalo, sono approdati qui. Il Pegaso è il cavallo alato della mitologia greca e si associa all’immaginazione e alla creatività.\n\nC’è un’opera che non si vede dalla strada e che compare solo in certe rappresentazioni. È il sipario di cristallo della sala, disegnato dallo scenografo Harry Stoner e realizzato dalla casa Tiffany di New York. Il contratto fu firmato nel millenovecentonove, e il sipario fu installato nel millenovecentododici. È formato da circa un milione di pezzi di vetro opalescente, pesa più di venti tonnellate e raffigura i vulcani Popocatépetl e Iztaccíhuatl.\n\nE c’è un dato sorprendente. Il Palazzo Postale, che Boari e Garita costruirono prima di questo teatro, si mantiene in piedi senza segni di cedimento. Lo visiteremo più avanti. Per ora, voltati verso l’Alameda, perché questa spianata è solo l’inizio."
+    },
+    "retos_observacion": {
+      "hash": "973093e286afbdc2",
+      "texto": [
+        "Conta i cavalli alati della spianata: sono quattro Pegasi",
+        "Scorri con lo sguardo la facciata di marmo bianco e cerca le sue decorazioni a linee curve, tipiche dell’Art Nouveau",
+        "Voltati verso il parco che si trova di fronte al palazzo: è l’Alameda Central, che percorreremo subito dopo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8de1a5eb3fe1050d",
+      "texto": {
+        "Epoca": "dal 1904 al 1934",
+        "Autori": "Adamo Boari (progetto), Gonzalo Garita (ingegneria) e Federico Mariscal (conclusione e interno)",
+        "Stile": "esterno Art Nouveau, interno Art Déco",
+        "Ubicazione": "Av. Juárez angolo Eje Central Lázaro Cárdenas",
+        "Dato chiave": "inaugurato il 29 settembre 1934 dal presidente Abelardo L. Rodríguez"
+      }
+    },
+    "faq_mito": {
+      "hash": "f71539a76814152e",
+      "texto": {
+        "pregunta": "Mito: il Palacio de Bellas Artes fu inaugurato da Porfirio Díaz per il Centenario del millenovecentodieci.",
+        "respuesta": "Realtà: fu progettato per quel Centenario, ma i lavori furono interrotti dalla Rivoluzione e il palazzo fu inaugurato il 29 settembre 1934, con il presidente Abelardo L. Rodríguez."
+      }
+    }
+  }
+}

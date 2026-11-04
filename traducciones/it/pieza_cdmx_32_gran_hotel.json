@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_32_gran_hotel",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0bcdd469b1c4920f",
+      "texto": "Gran Hotel Ciudad de México: da negozio francese a hotel con vetrata"
+    },
+    "frase_gancho": {
+      "hash": "82524e4c34f396b2",
+      "texto": "Prima di accogliere ospiti, questo edificio vendette cappelli, tessuti e abiti importati dall’Europa."
+    },
+    "puente_narrativo": {
+      "hash": "eca0b029f636493b",
+      "texto": "Torna verso la piazza e prosegui verso il suo angolo nord-ovest, dove la calle Monte de Piedad costeggia la Cattedrale."
+    },
+    "como_llegar": {
+      "hash": "0a260dfda73070b3",
+      "texto": "Continua lungo il marciapiede, sotto i portici, fino ad arrivare all’avenida Dieciséis de Septiembre, dove si trova il Gran Hotel."
+    },
+    "guion_corto": {
+      "hash": "0bd8f6307805ac52",
+      "texto": "Oggi è un hotel, ma nacque come grande magazzino. Fu inaugurato nel milleottocentonovantanove con il nome di Centro Mercantil, e il presidente Porfirio Díaz presiedette la cerimonia. Un immigrato francese, Sebastien Robert, lo fece costruire per vendere abiti, tessuti e cappelli portati dall’Europa. Funzionò come negozio per diversi decenni. Nel millenovecentosessantotto aprì come hotel, in tempo per i visitatori dei Giochi Olimpici. Il suo gioiello è all’interno: un soffitto di vetro colorato nell’atrio, che si attribuisce all’artista francese Jacques Gruber. Dalla strada puoi vedere la facciata, sull’avenida Dieciséis de Septiembre."
+    },
+    "guion_largo": {
+      "hash": "145081a88cad08d3",
+      "texto": "I grandi magazzini arrivarono nella capitale ai tempi di Porfirio Díaz, e questo fu uno dei primi. Si chiamava El Centro Mercantil e aprì le sue porte nell’ultimo anno del diciannovesimo secolo, con il presidente Díaz alla guida dell’inaugurazione. Vendeva merci importate dall’Europa. I lavori durarono diversi anni.\n\nLa sua grande scalinata originale fu demolita negli anni sessanta. Dell’insieme originale spiccano la vetrata e gli ascensori in ferro battuto.\n\nLa vetrata è ciò che ha reso famoso l’edificio. È una copertura di vetro colorato sopra l’atrio, in stile art nouveau, e si attribuisce a Jacques Gruber, un artista della Francia. Gruber fu decoratore e pittore su vetro, e fece parte del comitato direttivo della Scuola di Nancy fin dalla sua creazione, nel millenovecentouno. Realizzò anche la cupola dei magazzini Galeries Lafayette, a Parigi, nel millenovecentoundici. Per questo gli si attribuisce la vetrata dell’atrio, che fu terminata all’inizio del ventesimo secolo, quando l’edificio funzionava già come negozio. Se l’atrio è aperto al pubblico, vale la pena fermarti qualche minuto e osservare come la luce attraversa il vetro e cambia i colori nel corso della giornata.\n\nIl negozio smise di operare nel millenovecentocinquantotto. Dieci anni dopo, l’edificio aprì come hotel. Il suo pubblico era formato da chi arrivava per i Giochi Olimpici del Messico. Quello stesso anno, questa piazza visse i fatti del movimento studentesco che raccontiamo parlando della [memoria dello Zócalo](cdmx_26_zocalo_memoria). Tra il duemilatré e il duemilacinque l’edificio fu ristrutturato e prese il nome di Gran Hotel Ciudad de México.\n\nImmagina l’atrio ai tempi del negozio: clienti che entravano per comprare tessuti, cappelli e abiti che arrivavano dall’Europa, sotto una luce colorata che scendeva dall’alto. Era una città che guardava oltre l’oceano per vestirsi e per fare acquisti.\n\nEsternamente lo stile è eclettico, ed è all’interno che spicca l’art nouveau. Osserva ora con calma la facciata e le porte d’ingresso. L’atrio è a uso dell’hotel, quindi, se vuoi vederlo, rispetta le regole del luogo e informati su cosa è aperto. Già dalla strada hai l’essenziale: un edificio che racconta la modernità del Porfiriato, il commercio con l’Europa e il cambio di destinazione d’uso da un secolo all’altro.\n\nPer concludere, cammina qualche passo verso il portico del Portal de Mercaderes e confronta: laggiù il commercio dei secoli vicereali, e qui quello della modernità porfiriana. Un ultimo dettaglio: i cappelli, i tessuti e gli abiti importati del primo negozio parlano di una città che comprava moda europea alla fine del diciannovesimo secolo. Oggi quelle merci non ci sono più, ma l’edificio conserva l’impronta di quel commercio."
+    },
+    "retos_observacion": {
+      "hash": "f240aa2cc99db008",
+      "texto": [
+        "Conta i piani dell’edificio dal marciapiede",
+        "Cerca il nome dell’hotel sopra l’ingresso",
+        "Confronta la sua facciata con il portico del Portal de Mercaderes, che hai appena percorso: quali epoche riconosci?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e819d6b08753344a",
+      "texto": {
+        "Epoca": "Centro Mercantil aperto nel 1899, hotel dal 1968",
+        "Fondatore": "Sebastien Robert, immigrato francese",
+        "Stile": "facciata eclettica, interno art nouveau",
+        "Vetrata": "attribuita a Jacques Gruber",
+        "Ubicazione": "avenida 16 de Septiembre 82, angolo sud-ovest dello Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "cf16c18cfa82d9ac",
+      "texto": {
+        "pregunta": "Mito: Questo edificio è sempre stato un hotel.",
+        "respuesta": "Realtà: Nacque nel 1899 come grande magazzino, il Centro Mercantil; il negozio chiuse nel 1958 e aprì come hotel nel 1968."
+      }
+    }
+  }
+}

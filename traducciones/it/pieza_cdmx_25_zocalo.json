@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_25_zocalo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0be09e00cdadd1bc",
+      "texto": "Zócalo: la piazza che porta il nome di una base senza monumento"
+    },
+    "frase_gancho": {
+      "hash": "0195248b2e9f4404",
+      "texto": "Questa piazza porta il nome di una base di pietra che non arrivò mai a sostenere alcun monumento."
+    },
+    "puente_narrativo": {
+      "hash": "02ab666f13961fab",
+      "texto": "Cammina lentamente verso il centro della piazza e fermati lì un momento, perché anche la storia recente è passata da questo luogo."
+    },
+    "como_llegar": {
+      "hash": "6aa832cf785ae3c7",
+      "texto": "Prosegui lungo l’avenida Dieciséis de Septiembre verso est, fino a sboccare nella grande piazza dello Zócalo."
+    },
+    "guion_corto": {
+      "hash": "85502b555541c9f4",
+      "texto": "Si chiama Plaza de la Constitución, ma quasi nessuno la chiama così. Tutti dicono Zócalo, una parola che significa base o piedistallo. Il soprannome nacque nel milleottocentoquarantatré, quando qui fu posata la prima pietra di un monumento all’Indipendenza. La colonna non fu mai innalzata. Rimase solo la base, e con gli anni la gente iniziò a chiamare zócalo l’intera piazza. L’usanza si estese poi alle piazze principali di molte città del Messico. Sotto i tuoi piedi c’era il recinto sacro di Tenochtitlan. Intorno a te hai la Cattedrale, il Palazzo Nazionale e gli edifici del governo della città. Fai un giro lento per orientarti."
+    },
+    "guion_largo": {
+      "hash": "29bf7613d2640096",
+      "texto": "Prima di essere una piazza, questo luogo fu il cuore cerimoniale di Tenochtitlan. Fray Bernardino de Sahagún parlò di settantotto edifici all’interno del recinto sacro, e gli archeologi ne hanno localizzati ed esplorati ventiquattro. Dopo la caduta della città nel millecinquecentoventuno, il terreno divenne la Plaza Mayor della Nuova Spagna.\n\nDurante il periodo vicereale la piazza fu soprattutto un mercato. Si riempì di bancarelle di legno, e nel milleseicentonovantadue una crisi del mais terminò in una rivolta. I rivoltosi incendiarono il palazzo vicereale, la sede del Municipio e duecentottanta bancarelle di legno. Anni dopo fu costruito il Parián, un grande mercato sul lato sudovest che fu inaugurato nel millesettecentotré. Il ventisette giugno del milleottocentoquarantatré, Santa Anna ordinò di demolirlo.\n\nLa piazza fece anche riemergere il passato. Verso il millesettecentottantanove, il viceré conte di Revillagigedo ordinò di abbassare il livello del suolo, coprire il canale e rimuovere la forca e la gogna. Con quei lavori vennero alla luce due grandi sculture mexica, la Coatlicue e la Pietra del Sole. La Pietra del Sole apparve nel dicembre del millesettecentonovanta. Il viceré la affidò ai responsabili della Cattedrale, con la condizione di conservarla ed esporla in un luogo pubblico. Rimase montata su una torre della Cattedrale fino al milleottocentottantacinque, quando passò al Museo Nazionale.\n\nIl nome e i monumenti cambiarono più volte. Nel settembre del milleottocentododici si giurò nella capitale la Costituzione di Cadice, e la piazza prese il nome di Plaza de la Constitución. Nel milleottocentotré era stata inaugurata qui una statua equestre in bronzo del re Carlo Quarto, opera di Manuel Tolsá. Nel milleottocentoventiquattro fu trasferita nel cortile dell’Università.\n\nPoi venne la base che dà il nome alla piazza. Fu Santa Anna a promuovere un monumento all’Indipendenza. Si scelse il progetto dell’architetto Lorenzo de la Hidalga, anche se l’Accademia di San Carlos ne aveva preferito un altro. Il sedici settembre fu posata una prima pietra di marmo bianco, con una cassetta di zinco che conservava documenti, medaglie e monete. Si riuscì a costruire le fondamenta e la base, e l’opera non andò oltre. Quella base, lo zócalo, finì per dare il nome all’intera piazza. Nel duemiladiciassette, durante la riqualificazione della piazza, l’INAH ne documentò i resti, li ricoprì di nuovo e li segnalò con targhe.\n\nUna curiosità: la Real Academia Española definisce zócalo anche come la piazza principale di una città, soprattutto quella di Città del Messico.\n\nOggi il Centro Storico, con questa piazza al suo centro, è Patrimonio Mondiale dell’UNESCO dal millenovecentottantasette. È una piazza viva, quasi sempre occupata da qualche attività, quindi può darsi che la trovi con palchi, transenne o bancarelle. Questo non cambia l’essenziale: da qui si vedono, tutti insieme, gli strati della città, quello mexica, quello vicereale e quello repubblicano. Alla prossima tappa, senza muoverci da questo luogo, parleremo di ciò che questa piazza ha vissuto in tempi più recenti."
+    },
+    "retos_observacion": {
+      "hash": "e87c59fe36b09c1d",
+      "texto": [
+        "Fai un giro completo e nomina gli edifici che circondano la piazza: la Cattedrale, il Palazzo Nazionale e l’Antico Municipio",
+        "Individua l’asta della bandiera al centro e calcola quanto spazio aperto hai intorno",
+        "Se il suolo è libero, cerca a nord dell’asta le targhe che segnalano i resti della base del milleottocentoquarantatré"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f9c99863a0a34c1",
+      "texto": {
+        "Epoca": "recinto sacro mexica, Plaza Mayor vicereale e piazza repubblicana",
+        "Nome ufficiale": "Plaza de la Constitución, dal 1812",
+        "Origine del nome popolare": "base del monumento all’Indipendenza, prima pietra il 16 settembre 1843",
+        "Ubicazione": "centro del Centro Storico, circondata dalla Cattedrale, dal Palazzo Nazionale e dall’Antico Municipio",
+        "Patrimonio": "Centro Storico iscritto nella lista dell’UNESCO nel 1987"
+      }
+    },
+    "faq_mito": {
+      "hash": "710703dad0c978b9",
+      "texto": {
+        "pregunta": "Mito: Zócalo è il nome ufficiale della piazza.",
+        "respuesta": "Realtà: Il nome ufficiale è Plaza de la Constitución. Zócalo deriva dalla base di un monumento all’Indipendenza la cui prima pietra fu posata nel 1843 e che non fu mai terminato."
+      }
+    }
+  }
+}

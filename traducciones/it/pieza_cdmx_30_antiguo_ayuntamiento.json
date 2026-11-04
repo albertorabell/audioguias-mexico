@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_30_antiguo_ayuntamiento",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae1da1f921671d09",
+      "texto": "Antico Palazzo del Municipio: la casa del governo della città"
+    },
+    "frase_gancho": {
+      "hash": "73d0f327051768b7",
+      "texto": "Qui si riunì per secoli il governo della città, e nel milleseicentonovantadue una folla gli diede fuoco."
+    },
+    "puente_narrativo": {
+      "hash": "f03c786251d6d028",
+      "texto": "Prosegui verso ovest, lungo la piazza, fino alle arcate del Portale dei Mercanti, dove da secoli il commercio occupa il piano terra."
+    },
+    "como_llegar": {
+      "hash": "08e79ee7f9deeae1",
+      "texto": "Attraversa la piazza verso il lato sud, dove si trova l’Antico Palazzo del Municipio, per proseguire con la storia del governo della città."
+    },
+    "guion_corto": {
+      "hash": "0aa9df9dce669b3d",
+      "texto": "Una folla infuriata per la carestia di mais diede fuoco, nel milleseicentonovantadue, alle sedi del consiglio comunale di questa piazza. Era la sede del governo della città, e per questo finì al centro della protesta. L’edificio fu ricostruito negli anni successivi e, già nel ventesimo secolo, ricevette nuovi piani. Oggi continua a far parte del governo della capitale. Accanto si erge un altro edificio, costruito per completarlo. All’interno, il Salone del Consiglio comunale conserva una decorazione del milleottocentonovantatré e un soffitto dipinto a olio. Insieme, i due edifici raccolgono secoli di storia municipale."
+    },
+    "guion_largo": {
+      "hash": "cd6b4e6bfd61b671",
+      "texto": "Municipio è il nome antico del governo di una città. E la capitale della Nuova Spagna ebbe bisogno di una casa propria molto presto. Un decreto reale del millecinquecentoventisette destinò dei lotti in questa piazza alla sede del consiglio comunale, al carcere, alla macelleria e alle botteghe.\n\nL’edificio originale rimase segnato dal fuoco. L’otto giugno del milleseicentonovantadue, una crisi del mais provocò una rivolta. La folla incendiò il palazzo vicereale, la sede del Municipio e centinaia di bancarelle di legno della piazza. Le sedi del consiglio comunale furono ricostruite negli anni successivi. All’inizio del diciottesimo secolo furono innalzate di nuovo, in stile barocco peninsulare.\n\nI piani superiori sono più recenti. Furono aggiunti nel ventesimo secolo. Il terzo piano arrivò nel millenovecentodieci, per il Centenario dell’Indipendenza, e il quarto nel millenovecentotrentaquattro. Della costruzione originale si conservano solo le fondamenta e alcuni muri.\n\nAll’interno spicca il Salone del Consiglio comunale, decorato nel milleottocentonovantatré in stile art nouveau. Ha una pedana con centodiciannove sedie di legno intagliato e, sul soffitto, un dipinto a olio di Francisco Parra che raffigura in forma allegorica la Patria. In questo salone si consegnano le chiavi della città a visitatori illustri. Accanto, il Salone dei Viceré riunisce i ritratti dei sessantadue viceré della Nuova Spagna. Al secondo piano, la Galleria Agorà racconta le lotte degli abitanti della città per i loro diritti. Se vuoi visitarlo all’interno, consulta le informazioni aggiornate, perché l’accesso può essere limitato durante le cerimonie ufficiali.\n\nL’edificio accanto è il suo fratello. Il Governo di Città del Messico fu costruito tra il millenovecentoquarantuno e il millenovecentoquarantotto. Occupa l’area dell’antico Portale dei Fiori, e gran parte del suo progetto cercò di completare l’Antico Municipio. Durante i lavori vennero alla luce i resti di una casa associata a donna Marina e un campo per il gioco della palla. Il terremoto del millenovecentottantacinque lo danneggiò gravemente, come ricordiamo parlando della [memoria dello Zócalo](cdmx_26_zocalo_memoria).\n\nUna curiosità: il governo della capitale si chiamò Municipio dal millecinquecentodiciannove al millenovecentoventotto. Sono quasi quattro secoli con lo stesso nome.\n\nSe arrivi con calma, percorri con lo sguardo le due facciate da un angolo all’altro e nota come l’edificio nuovo cerchi di accompagnare quello antico.\n\nQuesta piazza racconta così la storia del potere a strati. A est c’è il palazzo del governo nazionale, a nord la Cattedrale e qui, sul lato sud, la casa del governo della città. Mentre il paese cambiava regime, la città conservò un luogo proprio dove riunirsi e decidere. Quell’uso, il governarsi a partire dalla piazza, è ancora vivo in questi edifici."
+    },
+    "retos_observacion": {
+      "hash": "b4cc6b22630cdca7",
+      "texto": [
+        "Conta i piani dell’Antico Municipio: gli ultimi furono aggiunti nel ventesimo secolo",
+        "Cerca l’edificio vicino del Governo della Città e confronta le due facciate",
+        "Individua il lato sud della piazza e ricorda che lì sorgeva la sede del consiglio comunale fin dal sedicesimo secolo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f3c0bf98e71a5c5e",
+      "texto": {
+        "Epoca": "origine nel XVI secolo, ricostruzione dopo la rivolta del 1692",
+        "Stile": "barocco peninsulare con ristrutturazioni del XX secolo",
+        "Salone del Consiglio comunale": "decorato nel 1893 in stile art nouveau",
+        "Edificio vicino": "Governo di Città del Messico, dal 1941 al 1948",
+        "Ubicazione": "Piazza della Costituzione 2, lato sud dello Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "9bf9e5f63b85b476",
+      "texto": {
+        "pregunta": "Mito: Hernán Cortés fece costruire l’edificio che vedi oggi.",
+        "respuesta": "Realtà: La sede del consiglio comunale risale al XVI secolo, ma l’edificio attuale è il risultato delle ricostruzioni successive all’incendio del 1692 e delle ristrutturazioni del XX secolo."
+      }
+    }
+  }
+}

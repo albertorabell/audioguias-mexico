@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_16_san_francisco_gante",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1757e6c5a283ed24",
+      "texto": "San Francisco e via de Gante: il convento che si andò spezzettando"
+    },
+    "frase_gancho": {
+      "hash": "016bca116f36665a",
+      "texto": "Di un unico convento francescano sono rimasti un tempio, una cappella, una strada e il ricordo di un frate maestro."
+    },
+    "puente_narrativo": {
+      "hash": "52b9b73c044c7165",
+      "texto": "Torna su via Madero e prosegui verso lo Zócalo: inizia il tratto pedonale di [via Madero](cdmx_17_calle_madero)."
+    },
+    "como_llegar": {
+      "hash": "140c303f49b083a9",
+      "texto": "Prosegui fino all’angolo tra l’Asse Centrale e via Madero, dove il tempio di [San Francisco](cdmx_16_san_francisco_gante) custodisce una storia più antica di quella della banca."
+    },
+    "guion_corto": {
+      "hash": "a7f8a83afae66316",
+      "texto": "C’è stato un tempo in cui questa chiesa, via de Gante e vari edifici vicini appartenevano a un unico convento. Era quello di San Francisco, dove dal millecinquecentoventicinque si stabilirono i primi francescani, arrivati nel millecinquecentoventiquattro. Con la Riforma, a metà del diciannovesimo secolo, il convento fu diviso in lotti e fu aperta via de Gante. Quello che vedi è ciò che è rimasto: il tempio, ricostruito all’inizio del diciottesimo secolo, e la cappella di Balvanera con il suo portale barocco. Se percorri via de Gante, troverai la statua di fra Pedro de Gante, il frate fiammingo che insegnò agli indigeni a leggere, cantare e lavorare."
+    },
+    "guion_largo": {
+      "hash": "81604d9fb99f66a6",
+      "texto": "Prima che questa fosse una chiesa con una strada accanto, fu un progetto di evangelizzazione. Il frate fiammingo Pedro de Gante arrivò nella Nuova Spagna nel millecinquecentoventitré, insieme ad altri due frati fiamminghi. Un anno dopo, nel millecinquecentoventiquattro, sbarcò a Veracruz il gruppo di dodici francescani guidato da fra Martín de Valencia. Hernán Cortés concesse loro un terreno in città.\n\nLa storica Josefina Muriel spiega che il primo convento sorgeva in un altro punto della città, sulla via Tacuba, nei terreni dell’antico recinto del Templo Mayor. I frati lo occuparono dalla metà di giugno del millecinquecentoventiquattro. Alla fine di maggio del millecinquecentoventicinque si trasferirono qui, in un luogo che era stato il serraglio di Moctezuma. Un documento del due giugno di quell’anno parla già di San Francisco il Nuovo.\n\nFra Pedro de Gante diresse una scuola in questo convento, quella di San Giuseppe degli Indigeni. Insegnava a bambini e adulti a leggere, scrivere, cantare e suonare strumenti. In seguito aggiunse mestieri come la pittura, la forgiatura, la falegnameria, la muratura e la sartoria. Nel millecinquecentoventotto fu stampato un catechismo in nahuatl. Morì a Città del Messico il diciannove aprile del millecinquecentosettantadue. Lo storico Joaquín García Icazbalceta definì la sua opera un centro completo di civiltà.\n\nIl tempio che vedi oggi non è quello di quei tempi. È il terzo che sorse in questo luogo e fu costruito tra il millesettecentodieci e il millesettecentosedici. La cappella di Balvanera, accanto ad esso, ha una facciata del millesettecentosessantasei.\n\nLa Riforma cambiò tutto. Il sedici settembre del milleottocentocinquantasei, il presidente Ignacio Comonfort decretò la soppressione del convento e l’apertura della via dell’Indipendenza, oggi Sedici Settembre, e per questo furono demolite parti del complesso. I francescani se ne andarono definitivamente il ventotto dicembre del milleottocentosessanta. Nel milleottocentosessantuno il complesso fu diviso in nove lotti. Allora fu aperta via de Gante e furono demolite diverse cappelle. Il tempio servì poi da scuderia e magazzino del Circo Chiarini, e più tardi da luogo di culto protestante.\n\nDi quel complesso sopravvivono parti sparse. Si conservano tre cappelle, un chiostro, l’atrio e il tempio originale. Sull’antico chiostro si trova oggi il Tempio Metodista della Santissima Trinità. Il resto dei terreni fu venduto a privati e suddiviso in parcelle.\n\nIn via de Gante c’è un monumento a fra Pedro de Gante. Fu inaugurato nel millenovecentosettantasei, come dono del Belgio, terra natale del frate.\n\nQuesta tappa spiega il nome della strada che percorrerai. Madero si chiamò dapprima via San Francisco, per questo convento. Quando camminerai lungo il suo primo tratto, ricorda che molto di ciò che vedi fu un tempo proprietà di frati."
+    },
+    "retos_observacion": {
+      "hash": "bd738c90adf01446",
+      "texto": [
+        "Individua il portale barocco della cappella di Balvanera su via Madero",
+        "Confronta la semplicità del tempio con gli alti edifici che lo circondano",
+        "Cammina fino a via de Gante e cerca la statua del frate con la targa del Belgio"
+      ]
+    },
+    "especificaciones": {
+      "hash": "392e860106389c88",
+      "texto": {
+        "Epoca": "Convento dal 1525; tempio attuale costruito tra il 1710 e il 1716",
+        "Ordine": "Francescani",
+        "Stile": "Barocco; portale della cappella di Balvanera del 1766",
+        "Ubicazione": "Avenida Francisco I. Madero 7, a est dell’Asse Centrale; via de Gante sul lato",
+        "Dato chiave": "Monumento a fra Pedro de Gante, inaugurato nel 1976, dono del Belgio"
+      }
+    },
+    "faq_mito": {
+      "hash": "e200371a454cc724",
+      "texto": {
+        "pregunta": "Mito: Fra Pedro de Gante, il maestro di questo convento, era figlio dell’imperatore Massimiliano I.",
+        "respuesta": "Realtà: Alcune versioni lo imparentano con imperatori come Carlo Quinto o Massimiliano Primo, ma sono tradizioni senza prove. Non è sicuro nemmeno l’anno della sua nascita: gli storici lo collocano tra il 1480 e il 1486."
+      }
+    }
+  }
+}

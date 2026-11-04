@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_21_dulceria_celaya",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "11e1e60aed5d27a7",
+      "texto": "Dulcería de Celaya: dolci dal milleottocentosettantaquattro"
+    },
+    "frase_gancho": {
+      "hash": "35e03e2b5ec8a1fe",
+      "texto": "Perché una pasticceria di dolci della capitale porta il nome di una città del Guanajuato? La risposta sta nella cajeta."
+    },
+    "puente_narrativo": {
+      "hash": "c8ebf60ba9497789",
+      "texto": "Prosegui verso la calle de Tacuba e cerca, accanto all’incrocio con Isabel la Católica, il caffè che aprì nel millenovecentododici."
+    },
+    "como_llegar": {
+      "hash": "8fd51d63437bdc53",
+      "texto": "Sali di un isolato lungo Isabel la Católica fino all’avenida Cinco de Mayo, gira verso ovest e cerca, in direzione della calle Motolinia, una dolceria con più di un secolo di storia."
+    },
+    "guion_corto": {
+      "hash": "7ec0e7f88625e18a",
+      "texto": "Perché una dolceria della capitale si chiama come una città del Guanajuato? Perché Celaya è famosa per i suoi dolci, soprattutto per la cajeta, e la famiglia Guízar volle rendere omaggio a quella città. Il negozio aprì nel milleottocentosettantaquattro, nell’antica calle de Plateros, oggi Madero. Intorno al millenovecento si trasferì in Cinco de Mayo. Qui, una targa del governo della città dice una cosa precisa. La pensilina del negozio è la più antica che esista in città. Cerca quell’insegna sopra l’ingresso e fai caso al fatto che parla della pensilina, non dei dolci."
+    },
+    "guion_largo": {
+      "hash": "1b12c53aec4f474d",
+      "texto": "Questa dolceria nacque da una domanda di commercianti: dove si trovasse la migliore cajeta del paese. La storia della casa racconta che la famiglia Guízar la cercò e la trovò a Celaya, nel Guanajuato. Per questo il negozio, aperto nel milleottocentosettantaquattro, porta il nome di quella città.\n\nLa sua prima sede fu nell’antica calle de Plateros, oggi Madero, la stessa che hai appena percorso. Lì rimase in attività per circa ventisei anni. Intorno al millenovecento si trasferì in questo locale dell’avenida Cinco de Mayo, dove si trova ancora. Era il periodo in cui quella strada veniva urbanizzata, all’inizio del Novecento. Quando fu inaugurata la Casa Boker, che vedrai più avanti, il negozio aveva già più di due decenni di vita.\n\nI dolci hanno una storia tutta loro. Molte ricette provengono dalla pasticceria dei conventi della Nuova Spagna. Le religiose preparavano dolci che i confettieri hanno poi conservato, tramandandoli di generazione in generazione. La produzione continua a essere fatta in modo tradizionale. Nelle vetrine ci sono jamoncillos, meringhe, cocadas, torroni, pepitorias, príncipes de nuez, suspiros e frutta candita. È un modo per vedere come la cucina dei conventi sia approdata alla vita quotidiana della città.\n\nOra, il dato che puoi verificare con i tuoi occhi. Nel negozio c’è una targa collocata dal Governo di Città del Messico. Dice, testualmente, che la pensilina di questo negozio, fondato nel milleottocentosettantaquattro, è la più antica che esista in città. Fai attenzione alla precisione. La targa parla della pensilina, quell’elemento che copre l’ingresso e regge l’insegna. Non afferma che sia l’attività più antica della capitale. È un buon esempio di come convenga leggere le targhe con attenzione.\n\nL’arredo interno conserva l’aria dell’epoca porfiriana. Le vetrine, la decorazione e l’insegna della facciata mantengono l’aspetto dei tempi dei fondatori. Puoi dare un’occhiata dall’ingresso; entrare o acquistare è una scelta personale e non fa parte del percorso.\n\nLa casa si vanta, inoltre, di essere rimasta aperta dalla sua fondazione, persino durante la Rivoluzione. È una tradizione di famiglia che oggi arriva alla quinta generazione.\n\nQuesta tappa si collega ad altre della giornata. La calle de Madero, dove nacque l’attività, è quella che hai appena percorso. Il Café de Tacuba, la tua prossima tappa, è un altro esempio di esercizio commerciale che ha superato i cento anni. E la Casa Boker, più avanti, racconta l’altra faccia del commercio porfiriano, quella della ferramenta e delle importazioni.\n\nPrima di proseguire, guarda in alto. In queste strade, i piani alti degli edifici spesso conservano dettagli che le insegne in basso nascondono. Una dolceria come questa ricorda che il Centro Storico non custodisce solo chiese e palazzi. Custodisce anche mestieri e ricette che si ereditano da una famiglia all’altra."
+    },
+    "retos_observacion": {
+      "hash": "9b09622de6f93ea0",
+      "texto": [
+        "Individua la targa del governo della città che parla della pensilina più antica",
+        "Cerca l’insegna e la pensilina sopra l’ingresso e confrontale con quelle dei negozi vicini",
+        "Guarda i piani alti dell’edificio e confronta la sua facciata con quella dei locali del marciapiede di fronte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3007e5278e97eb4",
+      "texto": {
+        "Fondazione": "1874",
+        "Fondatori": "famiglia Guízar",
+        "Prima sede": "calle de Plateros, oggi Madero; dal 1900 circa in Cinco de Mayo",
+        "Ubicazione": "avenida Cinco de Mayo 39, Centro Storico",
+        "Targa del governo della città": "la pensilina è la più antica che esista in città",
+        "Dato chiave": "il nome rende omaggio a Celaya, nel Guanajuato, per la sua cajeta"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e498f48c4eda66f",
+      "texto": {
+        "pregunta": "Mito: La Dulcería de Celaya è ufficialmente la dolceria più antica della città.",
+        "respuesta": "Realtà: La targa del negozio afferma qualcosa di più circoscritto: che la sua pensilina, di un negozio fondato nel milleottocentosettantaquattro, è la più antica che esista in città. Che sia l’attività più antica non è provato dalla targa."
+      }
+    }
+  }
+}

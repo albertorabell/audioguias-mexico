@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_37_calle_moneda",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc5fd4a8e328b316",
+      "texto": "Calle de Moneda: l’isolato dei musei"
+    },
+    "frase_gancho": {
+      "hash": "3a6e927c7e2f85ba",
+      "texto": "Accanto al Palazzo Nazionale, una sola strada riunisce un palazzo di arcivescovi, una zecca, una tipografia e diversi conventi."
+    },
+    "puente_narrativo": {
+      "hash": "4617ef355a9a3503",
+      "texto": "Prosegui lungo Moneda fino al numero quattro, dove un antico palazzo di arcivescovi custodisce oggi opere d’arte. È il [Museo de Arte de la SHCP](cdmx_38_museo_shcp)."
+    },
+    "como_llegar": {
+      "hash": "7e43f3d2b22e2c4e",
+      "texto": "Prosegui verso la [calle de Moneda](cdmx_37_calle_moneda), a lato del [Palazzo Nazionale](cdmx_29_palacio_nacional). Lì comincia un isolato di musei e di edifici vicereali con molti strati di storia."
+    },
+    "guion_corto": {
+      "hash": "1d4d0dd373c5f4d1",
+      "texto": "Una strada che porta il nome del denaro. Moneda deve il suo nome alla Real Casa de Moneda, l’edificio in cui si coniava la moneta della Nuova Spagna. Ma questo isolato, che nasce tra la Cattedrale e il Palazzo Nazionale, custodisce molto più che monete. Qui sorgeva un palazzo di arcivescovi, e a pochi passi fu installata la prima tipografia delle Americhe. Poco distante c’è un convento dove Suor Juana trascorse alcuni mesi. Oggi diversi di questi edifici sono musei, e li visiteremo uno per uno. Il tratto è breve, ma ogni numero civico nasconde una storia diversa. Questa strada è l’ingresso a un piccolo quartiere di storia."
+    },
+    "guion_largo": {
+      "hash": "fa327954c4eae698",
+      "texto": "Moneda è una di quelle strade corte con tanta memoria. Nasce tra la Cattedrale e il Palazzo Nazionale, all’angolo con Seminario, e prosegue verso est. In quel primo angolo funzionò la prima università delle Americhe, e poi una cantina. Il suo nome viene dalla Real Casa de Moneda, che oggi è il [Museo Nacional de las Culturas del Mundo](cdmx_39_culturas_mundo). La storia di quell’edificio e del suo terreno la raccontiamo nella sua tappa.\n\nGuarda come convivono qui i poteri del vicereame. A lato c’è il [Palazzo Nazionale](cdmx_29_palacio_nacional), sede del governo. Al numero quattro sorgeva il palazzo degli arcivescovi, oggi [Museo de Arte de la SHCP](cdmx_38_museo_shcp). E al numero tredici, la casa dove si coniava la moneta. La Chiesa, il governo e il denaro occuparono edifici vicini, nello stesso isolato.\n\nA pochi passi, all’angolo con Primo de Verdad, fu installata la prima tipografia delle Americhe. Il suo torchio arrivò nel millecinquecentotrentanove, voluto da fra Juan de Zumárraga e dal viceré Antonio de Mendoza. Quando arriverai alla [Casa de la Primera Imprenta de América](cdmx_40_primera_imprenta), vedrai perché una targa riporta un’altra data.\n\nMolto vicino cominciano i conventi. Quello di Santa Teresa la Antigua, delle carmelitane scalze, oggi si divide tra [Ex Teresa Arte Actual](cdmx_41_ex_teresa) e il [Palacio de la Autonomía](cdmx_42_palacio_autonomia). Suor Juana Inés de la Cruz entrò tra le carmelitane nel milleseicentosessantasette. Ne uscì dopo pochi mesi, per problemi di salute.\n\nL’ordine delle tappe ha un piccolo andirivieni. Prima vedrai il numero quattro, poi il tredici, che si trova più a est, e poi tornerai indietro di qualche passo fino all’angolo con Primo de Verdad, dove si raggruppano la tipografia e i conventi. È mezzo isolato, e vale la pena per ciò che racconta ogni edificio. Mentre avanzi, la storia va dal mondo mexica al vicereame e da lì alla repubblica: prima il terreno di Moctezuma, poi gli arcivescovi e la tipografia, e infine i musei di oggi.\n\nVicino all’angolo con Correo Mayor ci sono due grandi case barocche, una di fronte all’altra, che formano le Casas del Mayorazgo de Guerrero. Sono un promemoria del fatto che questa strada non ebbe soltanto chiese e uffici, ma anche le case di famiglie potenti.\n\nA breve distanza, nella calle de la Academia, si trova il Museo José Luis Cuevas. Non ha una tappa propria in questo percorso, ma vale la pena menzionarlo. Occupa l’antico convento di Santa Inés e aprì come museo nel millenovecentonovantadue. Il convento fu ricostruito alla fine del Settecento, in buona parte sotto la direzione di Manuel Tolsá. Raccoglie circa milleottocentosessanta opere, soprattutto di pittori e illustratori latinoamericani.\n\nQuesta strada insegna a guardare il Centro per strati. Ogni facciata fu palazzo, convento, ufficio o scuola. Quasi tutte ripetono la stessa lezione: la città cambia uso, ma il suolo conserva la memoria. Prima di proseguire, individua il numero quattro di Moneda, che è la tua prossima destinazione."
+    },
+    "retos_observacion": {
+      "hash": "60fd3508c8d52dc7",
+      "texto": [
+        "Cerca il numero quattro di Moneda, l’ingresso dell’antico palazzo degli arcivescovi",
+        "Trova il numero tredici, l’edificio dell’antica Casa de Moneda",
+        "Individua l’angolo con Primo de Verdad e la targa che ricorda la prima tipografia delle Americhe"
+      ]
+    },
+    "especificaciones": {
+      "hash": "44ac57f5dd908f7b",
+      "texto": {
+        "Ubicazione": "calle de Moneda, a lato del Palazzo Nazionale",
+        "Origine del nome": "la Real Casa de Moneda",
+        "Casa de Moneda": "edificio costruito tra il 1731 e il 1734",
+        "Moneda 4": "Museo de Arte de la SHCP, antico Palazzo dell’Arcivescovado",
+        "Moneda 13": "Museo Nacional de las Culturas del Mundo",
+        "Nelle vicinanze": "Prima Tipografia, Ex Teresa, Palacio de la Autonomía e Museo José Luis Cuevas"
+      }
+    },
+    "faq_mito": {
+      "hash": "1bdfaf973703a71c",
+      "texto": {
+        "pregunta": "Mito: L’edificio della Casa de Moneda risale ai tempi di Hernán Cortés.",
+        "respuesta": "Realtà: Il terreno ha una storia che risale alla Conquista, ma l’edificio attuale fu costruito tra il millesettecentotrentuno e il millesettecentotrentaquattro."
+      }
+    }
+  }
+}

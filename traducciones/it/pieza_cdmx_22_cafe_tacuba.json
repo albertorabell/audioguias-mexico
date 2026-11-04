@@ -1,0 +1,64 @@
+{
+  "id": "cdmx_22_cafe_tacuba",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "0fe323f1aad21c77",
+      "texto": "Café de Tacuba: la casona e l’attività di Papá Nicho"
+    },
+    "frase_gancho": {
+      "hash": "fb67ae5b4535bfed",
+      "texto": "Papá Nicho aprì questo caffè nel millenovecentododici, ma la casona che lo custodisce è più antica dell’attività di secoli."
+    },
+    "puente_narrativo": {
+      "hash": "b71a8a4e38de51ed",
+      "texto": "Torna su Isabel la Católica e scendi verso sud, attraversando Madero, fino al numero ventinove, dove un club spagnolo costruì la sua sede nel millenovecentocinque."
+    },
+    "como_llegar": {
+      "hash": "c8ebf60ba9497789",
+      "texto": "Prosegui verso la calle de Tacuba e cerca, accanto all’incrocio con Isabel la Católica, il caffè che aprì nel millenovecentododici."
+    },
+    "guion_corto": {
+      "hash": "4ffd3e62d9cfc437",
+      "texto": "Papá Nicho era il soprannome di Dionisio Mollinedo, un originario del Tabasco che aprì questo locale nel millenovecentododici, in piena Rivoluzione. Una targa all’ingresso ricorda la sua fondazione e lo definisce uno dei ristoranti più antichi. Ma l’attività è più giovane dell’edificio. La casona risale al Seicento, e la sua parte posteriore appartenne a un ospedale per donne. Prima di diventare ristorante funzionò come latteria. Oggi ha sei sale con talavera e vetrate, ma dalla strada basta leggere la targa e guardare la facciata. Qui si celebrò, nel millenovecentoventidue, il banchetto di nozze di Diego Rivera e Guadalupe Marín."
+    },
+    "guion_largo": {
+      "hash": "681260745fcdbfa9",
+      "texto": "Cominciamo dal nome. Dionisio Mollinedo, originario del Tabasco, arrivò nella capitale e aprì questa attività nel millenovecentododici. Molti lo conoscevano come Papá Nicho. Sua moglie, Josefina García, che si ricorda come Pepita, trasformava in piatti le ricette regionali che lui aveva raccolto nei mercati e nelle cenadurías. Questa coppia è l’origine della casa. La targa accanto all’ingresso lo riassume: uno dei ristoranti più antichi, fondato nel millenovecentododici da Dionisio Mollinedo.\n\nOra osserva la differenza tra l’attività e l’edificio. Questa fu una delle case signorili del Centro, costruita nel Seicento. La sua parte posteriore fece parte dell’Hospital del Divino Salvador, un ospedale per donne. Vale a dire che il caffè occupa un luogo dalla lunga storia. Non cominciò con la latteria che funzionò qui prima del ristorante.\n\nUna cosa va chiarita, perché spesso si fa confusione. Il caffè non ha secoli di attività. A vantare secoli è la casona. L’attività di Mollinedo aprì quando la Rivoluzione durava appena da due anni, e prese il nome dalla strada in cui si trova: Tacuba.\n\nSe un giorno deciderai di entrare, sai già che è un ristorante e che si entra per consumare. Ha sei sale con talavera e vetrate. Sulle pareti ci sono repliche di dipinti che decorano il Castello di Chapultepec, e anche un ritratto di José de la Borda. Tutto questo resta all’interno. Dalla strada hai la facciata, la targa e la storia che ti stiamo raccontando.\n\nAlcuni aneddoti con data accompagnano questa casa. Nel millenovecentoventidue qui si celebrò il banchetto di nozze del pittore Diego Rivera e Guadalupe Marín. Negli anni venti e trenta fu luogo di incontro di scrittori, politici, attori e intellettuali. E il venticinque giugno del millenovecentotrentasei fu assassinato qui Manlio Fabio Altamirano, governatore eletto di Veracruz. Cenava con la moglie. È un episodio della violenza politica di quegli anni, e qui lo lasciamo a ciò che è documentato.\n\nOgni tredici dicembre, per l’anniversario del locale, gli organilleros intonano las mañanitas. E si dice spesso che tutti i presidenti del Messico abbiano mangiato qui, una frase che si ripete molto ma che nessuno può verificare.\n\nQuesta tappa ti serve anche per guardare la strada. Su questa stessa calle de Tacuba si trovavano due tappe precedenti del tuo percorso. Sono il [Museo Nacional de Arte](cdmx_10_munal) e il [Palacio de Minería](cdmx_11_palacio_mineria). Un caffè che aprì in pieno Novecento convive con edifici di secoli precedenti. Questa miscela è proprio ciò che rende speciale il Centro: non c’è una sola epoca, ci sono strati.\n\nPer il tratto successivo, torni su Isabel la Católica. In quella strada ti aspettano due edifici risalenti a circa il millenovecento. Sono il Casino Español e, poi, la Casa Boker, legata a una famiglia tedesca."
+    },
+    "retos_observacion": {
+      "hash": "fa220942a578f1b2",
+      "texto": [
+        "Cerca la targa accanto all’ingresso che ricorda la fondazione del caffè nel millenovecentododici",
+        "Osserva la facciata della casona e prova a immaginare che sia anteriore all’attività di vari secoli",
+        "Leggi l’indicazione della strada per confermare che sei su Tacuba, vicino all’incrocio con Isabel la Católica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e977fc248bc6c134",
+      "texto": {
+        "Attività fondata": "1912, da Dionisio Mollinedo",
+        "Edificio": "casona del XVII secolo; la sua parte posteriore appartenne all’Hospital del Divino Salvador",
+        "Uso precedente": "latteria",
+        "Ubicazione": "calle de Tacuba 28, a ovest di Isabel la Católica",
+        "Dato chiave": "banchetto di nozze di Diego Rivera e Guadalupe Marín nel 1922",
+        "Interno": "sei sale con talavera e vetrate"
+      }
+    },
+    "faq_mito": {
+      "hash": "1705a6ddf279e1a0",
+      "texto": {
+        "pregunta": "Mito: il Café de Tacuba funziona come caffè da vari secoli.",
+        "respuesta": "Realtà: l’attività aprì nel millenovecentododici, come ricorda la targa del locale; a risalire al Seicento è la casona che la ospita."
+      }
+    }
+  }
+}

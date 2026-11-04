@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_02_bellas_artes_museo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5ede0d98df8e2613",
+      "texto": "Museo del Palacio de Bellas Artes: culla dei musei d’arte"
+    },
+    "frase_gancho": {
+      "hash": "d286d8db1a9902ad",
+      "texto": "Qui vivono diciassette murales di sette artisti, tra cui la seconda versione di un murale che fu distrutto a New York."
+    },
+    "puente_narrativo": {
+      "hash": "75e35678e350f2b0",
+      "texto": "Esci dal palazzo e attraversa verso l’Alameda Central, il parco che si estende davanti alla spianata. Segui i suoi viali per la prossima tappa."
+    },
+    "como_llegar": {
+      "hash": "4151fe65286163ae",
+      "texto": "Cammina verso l’ingresso del palazzo. La prossima tappa racconta ciò che custodisce al suo interno, e puoi ascoltarla anche se decidi di non entrare."
+    },
+    "guion_corto": {
+      "hash": "681e671286e6153f",
+      "texto": "Qui c’è un murale che Diego Rivera dipinse per la seconda volta. La prima versione si trovava al Rockefeller Center di New York e fu rimossa a colpi di scalpello nel millenovecentotrentaquattro. Rivera ricreò l’opera in Messico, con il titolo El hombre controlador del universo, e oggi è esposta in questo palazzo. È uno dei pezzi del primo museo d’arte del Messico. Oggi riunisce diciassette murales permanenti di sette artisti messicani, realizzati tra il millenovecentoventotto e il millenovecentosessantatré. L’ingresso al museo è a pagamento, quindi ascolta questo brano come un invito. Se decidi di entrare, consulta gli orari in vigore."
+    },
+    "guion_largo": {
+      "hash": "4641789469f49971",
+      "texto": "Questo museo è antico quasi quanto il palazzo che lo ospita. Aprì il ventinove novembre del millenovecentotrentaquattro, due mesi dopo l’inaugurazione dell’edificio. Allora si chiamava Museo de Artes Plásticas, e fu il primo museo d’arte del Messico. Oggi è considerato l’origine del sistema dei musei d’arte del paese.\n\nLa sua collezione originale era molto diversa da quella che si vede adesso. Includeva opere dal sedicesimo secolo fino ai murales che Diego Rivera e José Clemente Orozco dipinsero nel millenovecentotrentaquattro. Aveva inoltre sale di scultura mesoamericana, di stampa messicana e un museo di arte popolare con la collezione di Roberto Montenegro. Il patrimonio si formò con collezioni del governo, acquisizioni, donazioni, lasciti e i fondi della antica Academia de San Carlos.\n\nCon gli anni, quel patrimonio fu distribuito altrove. Le opere in eccedenza alimentarono altri musei del sistema. Tra questi ci sono il Museo de Arte Moderno, la Pinacoteca Virreinal e il Museo Nacional de San Carlos. C’è anche il Museo Nacional de Arte, il Munal, che si trova a poche strade da qui e che visiteremo. Quando fu creato l’Instituto Nacional de Bellas Artes, Fernando Gamboa, Julio Castellanos e Julio Prieto trasformarono il progetto nel Museo Nacional de Artes Plásticas. Dal millenovecentosessantotto si chiama Museo del Palacio de Bellas Artes.\n\nOggi il museo è conosciuto soprattutto per i suoi murales. Espone in modo permanente diciassette opere di sette artisti messicani, realizzate tra il millenovecentoventotto e il millenovecentosessantatré. Molti pezzi del patrimonio storico non si trovano più in questo edificio. Tra i murales ci sono La eterna lucha de la humanidad por un mundo mejor, chiamato anche Katharsis, di José Clemente Orozco, del millenovecentotrentaquattro. C’è La nueva democracia, di David Alfaro Siqueiros, del millenovecentoquarantacinque, e ci sono opere di Rufino Tamayo. C’è anche Liberación, di González Camarena, del millenovecentosessantatré.\n\nAlcuni murales arrivarono in seguito. Nell’ambito di un programma di conservazione, furono trasferite in questo museo opere di Manuel Rodríguez Lozano e di Roberto Montenegro. Arrivarono anche altri murales di Rivera.\n\nLa storia più nota è quella di Rivera. Nel millenovecentotrentadue ricevette l’incarico di dipingere un murale al Rockefeller Center, a New York. L’opera suscitò una polemica per il suo contenuto politico. Fu rimossa dalla parete a colpi di scalpello nel millenovecentotrentaquattro. Rivera la ricreò in Messico con il titolo El hombre controlador del universo, e oggi è esposta in questo palazzo.\n\nVedrai che Rivera riappare in altre tappe. Molto presto lo incontrerai all’Alameda, con un murale che ha come scenario questo stesso parco. Nel [Museo Mural Diego Rivera](cdmx_06_museo_mural_rivera) potrai saperne di più su quell’opera.\n\nIl museo offre visite guidate, e il suo programma comprende laboratori e concerti. L’ingresso è a pagamento. Se decidi di entrare, consulta gli orari e le condizioni in vigore prima di venire. E se preferisci non farlo, non perdi l’essenziale. La facciata, la spianata e i Pegasos si apprezzano gratis dalla strada, e la tappa precedente ti ha raccontato la loro storia."
+    },
+    "retos_observacion": {
+      "hash": "b3819cb30f1d99cd",
+      "texto": [
+        "Individua l’ingresso principale del palazzo, da cui si accede al museo se decidi di entrare",
+        "Percorri con lo sguardo la facciata di marmo e cerca il punto più alto dell’edificio",
+        "Scegli il Pegaso che ti è più vicino e osserva in che direzione allunga le ali"
+      ]
+    },
+    "especificaciones": {
+      "hash": "668766425e4d29af",
+      "texto": {
+        "Época": "inaugurato il 29 novembre 1934",
+        "Nombre actual": "Museo del Palacio de Bellas Artes, dal 1968",
+        "Colección": "17 murales permanenti di sette artisti messicani, dal 1928 al 1963",
+        "Ubicación": "Av. Juárez angolo Eje Central Lázaro Cárdenas",
+        "Dato clave": "è stato il primo museo d’arte del Messico"
+      }
+    },
+    "faq_mito": {
+      "hash": "a4e20d546b656635",
+      "texto": {
+        "pregunta": "Mito: Il murale di Rivera che si vede a Bellas Artes è lo stesso che dipinse al Rockefeller Center.",
+        "respuesta": "Realtà: Quello di New York fu rimosso a colpi di scalpello nel 1934; Rivera dipinse una nuova versione, intitolata El hombre controlador del universo, che è esposta in questo palazzo."
+      }
+    }
+  }
+}

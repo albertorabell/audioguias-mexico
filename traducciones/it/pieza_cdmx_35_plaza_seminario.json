@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_35_plaza_seminario",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8b4e81a9b8de5806",
+      "texto": "Piazza del Seminario, chiamata anche Piazza Manuel Gamio"
+    },
+    "frase_gancho": {
+      "hash": "c83c165e5d71a241",
+      "texto": "Questa piazza ha due nomi: uno ricorda un seminario del Seicento e l’altro l’archeologo che qui trovò un angolo del Templo Mayor."
+    },
+    "puente_narrativo": {
+      "hash": "787fcc1b0a74619a",
+      "texto": "Prosegui verso via República de Guatemala, dietro la Cattedrale, dove ti aspettano l’[Huei Tzompantli e la Casa delle Ajaracas](cdmx_36_tzompantli_ajaracas). Una stessa strada riunisce un altare di teschi mexica e una casa vicereale."
+    },
+    "como_llegar": {
+      "hash": "f4c9f1fe2e908762",
+      "texto": "Cammina per qualche passo verso la piazza che si apre accanto all’ingresso del museo. È la [Piazza del Seminario](cdmx_35_plaza_seminario), e qui la storia si affaccia sulla strada."
+    },
+    "guion_corto": {
+      "hash": "7ba996aca68ed28a",
+      "texto": "Perché questa piazza ha due nomi? Ufficialmente è la Piazza Manuel Gamio. È conosciuta anche come Piazza del Seminario, dal Seminario Conciliare di San Paolo, che qui sorse nel milleseicentoottantanove. Gamio fu l’archeologo che, nel millenovecentotredici, scoprì qui un angolo del Templo Mayor. Prima si credeva che il tempio si trovasse sotto la Cattedrale. Il seminario fu fatto demolire nel milleottocentosessantuno, ma non scomparve del tutto fino al millenovecentoventotto. La piazza assunse il suo aspetto attuale con la zona archeologica, nel millenovecentosettantotto. Fu completata con una fontana che include un plastico di Tenochtitlan."
+    },
+    "guion_largo": {
+      "hash": "d1ed940824c491c6",
+      "texto": "Immagina che cosa c’è sotto questa piazza. Ti trovi sul lato orientale della Cattedrale, di fronte alla Piazzetta del Marqués, dentro quello che fu il recinto sacro di Tenochtitlan. Oggi la piazza è l’ingresso al museo del [Templo Mayor](cdmx_34_templo_mayor), ma prima fu casa di un soldato, aula universitaria, seminario, albergo e persino cantina.\n\nIl nome ufficiale ricorda Manuel Gamio, archeologo e antropologo, pioniere dell’antropologia in Messico. Nel millenovecentotredici, Gamio scoprì in questo luogo un angolo del Templo Mayor. Fino ad allora si credeva che il tempio si trovasse sotto la Cattedrale. La scoperta mostrò che una parte del recinto sacro si trovava proprio qui. Passarono sessantacinque anni prima che la comparsa della Coyolxauhqui, nel millenovecentosettantotto, desse impulso allo scavo su larga scala.\n\nDopo la caduta di Tenochtitlan, quest’area entrò nel tracciato della nuova città. Tra il milleccinquecentoventuno e il millecinquecentoventidue, per ordine di Hernán Cortés, il maestro d’opera Alonso García Bravo tracciò la scacchiera della capitale, e questa piazza si trova vicino al luogo dove fu realizzato quel primo piano. Con il tempo, il terreno divenne la casa di un soldato spagnolo di nome Pedro González Trujillo. Ospitò anche la prima cattedra della Reale e Pontificia Università, istituita nel millecinquecentocinquantuno.\n\nIl nome più conosciuto, Piazza del Seminario, deriva dal Seminario Conciliare di San Paolo, del milleseicentoottantanove, dove si formavano i sacerdoti. Nel milleottocentosessantuno ne fu ordinata la demolizione, ma l’edificio non scomparve del tutto fino al millenovecentoventotto. Poi il terreno fu usato come albergo e come farmacia. La via vicina conserva ancora il nome di Seminario. Qui funzionò anche una cantina chiamata El Nivel, che ebbe la licenza numero uno.\n\nSotto la piazza, l’archeologia continua a trovare pezzi del puzzle. Nel duemilatredici furono recuperati i resti degli alloggi che occupavano i sacerdoti mexica, vicino al tempio di Tezcatlipoca. È un promemoria del fatto che il recinto non era fatto solo di piramidi: c’erano anche luoghi in cui vivevano coloro che servivano gli dei.\n\nLa piazza assunse il suo aspetto attuale quando fu formata la zona archeologica, nel millenovecentosettantotto. Fu completata alla fine di quel decennio con una fontana che include un plastico di Tenochtitlan. Aiuta a immaginare la città che esisteva prima della Cattedrale.\n\nFai il conto delle scoperte in quest’area. Nel millesettecentonovanta comparve nella piazza principale la Coatlicue e, qualche mese dopo, la Pietra del Sole. Poi vennero il millenovecentotredici, con Gamio, e il millenovecentosettantotto, con la Coyolxauhqui. Nel duemilasei apparve il monolito di Tlaltecuhtli. Nel duemilatredici, gli alloggi dei sacerdoti, e nel duemilaquindici, l’Huei Tzompantli. Sei date in pochi isolati.\n\nSe metti insieme tutto, qui si sovrappongono quattro strati di tempo. Sono il recinto mexica, la città vicereale con la sua università e il suo seminario, lo scavo del Novecento e la piazza di oggi. È la storia della capitale raccontata in un solo spazio. A pochi passi si trovano la [Cattedrale Metropolitana](cdmx_27_catedral) e l’ingresso al museo del Templo Mayor."
+    },
+    "retos_observacion": {
+      "hash": "7414e76023acb886",
+      "texto": [
+        "Cerca la fontana della piazza e osserva se include un plastico di Tenochtitlan",
+        "Individua la via vicina che conserva il nome di Seminario",
+        "Cerca le torri della Cattedrale e pensa che la piazza si trova sul suo lato orientale"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dc1a8143de5a5661",
+      "texto": {
+        "Nome ufficiale": "Piazza Manuel Gamio",
+        "Altri nomi": "Piazza del Seminario, Piazza del Templo Mayor",
+        "Ubicazione": "lato orientale della Cattedrale, di fronte alla Piazzetta del Marqués",
+        "Dato chiave": "nel 1913 Manuel Gamio scoprì qui un angolo del Templo Mayor",
+        "Seminario Conciliare di San Paolo": "1689; demolizione ordinata nel 1861; scompare nel 1928",
+        "Forma attuale": "1978, con fontana e plastico di Tenochtitlan alla fine di quel decennio"
+      }
+    },
+    "faq_mito": {
+      "hash": "4bd5348c1ddfa79c",
+      "texto": {
+        "pregunta": "Mito: Il Templo Mayor è sempre stato sotto la Cattedrale, e per questo nessuno poteva scavarlo.",
+        "respuesta": "Realtà: Per molto tempo si credette questo, ma nel millenovecentotredici Manuel Gamio scoprì un angolo del tempio in questa piazza, e il recinto sacro si estendeva accanto alla Cattedrale."
+      }
+    }
+  }
+}
