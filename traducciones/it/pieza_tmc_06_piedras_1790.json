@@ -1,0 +1,56 @@
+{
+  "id": "tmc_06_piedras_1790",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc8571f404f14433",
+      "texto": "Le pietre del millesettecentonovanta"
+    },
+    "frase_gancho": {
+      "hash": "53e720e22dbbbb60",
+      "texto": "In un solo anno comparvero in questa piazza la Coatlicue e la Pietra del Sole, e la seconda finì addossata a una torre della Cattedrale."
+    },
+    "puente_narrativo": {
+      "hash": "1ff1f8faa20d6dca",
+      "texto": "Prosegui ora verso la Cattedrale ed entra nella navata centrale."
+    },
+    "guion_corto": {
+      "hash": "8610dd492ffd4aa3",
+      "texto": "Nel millesettecentonovanta, alcuni operai che scavavano una trincea per un canale in questa piazza si imbatterono in due grandi pietre mexica. La prima apparve il tredici agosto ed è la Coatlicue, una scultura di andesite alta due metri e mezzo. La seconda uscì il diciassette dicembre ed è la Pietra del Sole. La Coatlicue fu portata all’università e lì venne sepolta di nuovo. La Pietra del Sole fu collocata su una delle torri di questa Cattedrale, dove rimase fino al milleottocentottantacinque. Oggi entrambe si trovano nel Museo Nazionale di Antropologia. Questi ritrovamenti furono i primi segnali della città sepolta."
+    },
+    "guion_largo": {
+      "hash": "391a5d8c1918542a",
+      "texto": "Nel millesettecentonovanta questa piazza veniva lastricata e si eseguivano lavori idraulici. Quell’anno la terra restituì due enormi pietre che giacevano sepolte da quasi tre secoli.\n\nLa prima fu la Coatlicue. Apparve il tredici agosto, scavando una trincea per un canale, vicino a quello che oggi è il Palazzo Nazionale. È una scultura di andesite, scolpita a tutto tondo, alta circa due metri e mezzo. È simmetrica davanti e dietro, e ogni parte è coperta di rilievi. La si identifica con la dea Coatlicue, il cui nome significa colei dalla gonna di serpenti. La sua identificazione è ancora oggetto di discussione, e alcune studiose hanno proposto che rappresenti altre figure, come le stelle chiamate tzitzimime.\n\nGli uomini dell’epoca non sapevano che cosa farne. Fu portata all’università per conservarla e studiarla. Ma alcuni religiosi temettero che gli indigeni tornassero a venerarla, e ordinarono di seppellirla di nuovo in un cortile. Fu dissotterrata nel milleottocentotré perché Alexander von Humboldt potesse disegnarla, e ancora nel milleottocentoventitré, per ricavarne un calco. Rimase lì finché non fu fondato il primo Museo Nazionale.\n\nLa seconda pietra venne alla luce il diciassette dicembre del millesettecentonovanta, vicino alla prima. È la Pietra del Sole, chiamata anche Calendario Azteco. È un’enorme scultura di basalto. Al centro c’è un volto circondato dai segni dei venti giorni del calendario di duecentosessanta giorni. Per quasi un secolo si credette che fosse un calendario, perché così la interpretò Antonio de León y Gama, che la studiò subito. Oggi si pensa che fosse un altare per i sacrifici, un cuauhxicalli, che significa vaso delle aquile. Si dice che la dedicò Moctezuma Secondo pochi anni prima della conquista.\n\nEcco il dato che si collega alla Cattedrale. Dopo il ritrovamento, la Pietra del Sole fu collocata su una delle torri di questo tempio. Rimase incastrata nel muro del campanile fino al milleottocentottantacinque, quando fu trasferita al Museo Nazionale. Un catalogo del milleottocentottantadue la colloca ancora accanto a una delle torri. Cioè, per quasi un secolo la gente passò per questa piazza e vide, addossata alla Cattedrale, una delle opere più rappresentative della cultura mexica. Non aveva una spiegazione chiara di che cosa fosse.\n\nQuesti ritrovamenti hanno un posto speciale nella storia dell’archeologia messicana. Furono i primi segnali che la città di Tenochtitlan era ancora là sotto. Il Museo del Templo Mayor, infatti, racconta la storia della ricerca a partire dal millesettecentonovanta. Così si collegano la piazza, la Cattedrale e la zona archeologica.\n\nOggi, sia la Coatlicue sia la Pietra del Sole si trovano nel Museo Nazionale di Antropologia, a Chapultepec. Non fanno parte di questo percorso, ma vale la pena conoscerle là.\n\nMentre sei qui, immagina la scena. Una trincea, un gruppo di operai, un colpo di piccone e all’improvviso un volto di pietra. La città che sembrava dimenticata riappariva senza preavviso, e le autorità di allora non seppero se esporla, studiarla o nasconderla. Quel dubbio accompagna i ritrovamenti fino a oggi."
+    },
+    "retos_observacion": {
+      "hash": "d0de566e044714e8",
+      "texto": [
+        "Individua il Palazzo Nazionale: la Coatlicue apparve vicino a esso",
+        "Guarda le torri della Cattedrale e immagina una grande pietra circolare incastrata in una di esse",
+        "Cerca il punto in cui oggi si leva l’asta della bandiera, al centro della piazza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dbad0296172f1af",
+      "texto": {
+        "Coatlicue": "ritrovata il 13 agosto 1790, andesite, circa 2,52 m di altezza",
+        "Pietra del Sole": "ritrovata il 17 dicembre 1790, basalto",
+        "Pietra del Sole sulla torre della Cattedrale": "fino al 1885",
+        "Funzione oggi proposta per la Pietra del Sole": "cuauhxicalli, altare per i sacrifici",
+        "Ubicazione attuale di entrambe": "Museo Nazionale di Antropologia",
+        "Ubicazione del ritrovamento": "piazza della Costituzione, Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "af2c8cb7afd1974e",
+      "texto": {
+        "pregunta": "Mito: La Pietra del Sole è il calendario che i Mexica usavano ogni giorno.",
+        "respuesta": "Realtà: Anche se mostra i venti giorni del calendario di 260 giorni, oggi viene interpretata come un altare per i sacrifici, un cuauhxicalli, e non come un calendario di uso quotidiano."
+      }
+    }
+  }
+}

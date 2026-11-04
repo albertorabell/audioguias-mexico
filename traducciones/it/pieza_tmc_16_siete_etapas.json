@@ -1,0 +1,56 @@
+{
+  "id": "tmc_16_siete_etapas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d6872db1a6cf04c8",
+      "texto": "Sette fasi: un tempio cresciuto su se stesso"
+    },
+    "frase_gancho": {
+      "hash": "dea1a931c72f0f9f",
+      "texto": "Ogni volta che saliva al potere un nuovo tlatoani, il tempio diventava più grande."
+    },
+    "puente_narrativo": {
+      "hash": "3c1ad9813c90dd00",
+      "texto": "Avanza lungo la passerella verso il lato sud della piramide, dove si vedono i muri delle fasi più antiche."
+    },
+    "guion_corto": {
+      "hash": "e5a8163a3c4835eb",
+      "texto": "Il Templo Mayor non fu costruito in una sola volta. Fu ampliato per fasi, e ciascuna ricopriva la precedente come gli strati di una cipolla. Le fasi furono sette, dai primi anni di Tenochtitlan fino alla conquista. La più antica che si vede è la Fase II, risalente a circa il milletrecentonovanta. Poi vennero gli ampliamenti con Itzcóatl, Moctezuma Ilhuicamina, Axayácatl e Ahuízotl. Ogni sovrano voleva un tempio più grande di quello del suo predecessore, e così la piramide crebbe insieme al potere di Tenochtitlan. Oggi le fasi si vedono come strati nelle sezioni degli scavi, e alcune hanno conservato offerte sepolte al loro interno."
+    },
+    "guion_largo": {
+      "hash": "74f7961a04327650",
+      "texto": "Se osservi la piramide con attenzione, noterai che non è una sola costruzione. È un insieme di strati, uno dentro l’altro, e capire questo è la chiave di tutto il sito.\n\nI Mexica avevano l’abitudine di ampliare i loro templi a intervalli regolari. Invece di demolire l’edificio precedente, lo ricoprivano con uno più grande, in modo che quello vecchio restasse all’interno, come una matrioska. Si contano sette fasi, dai primi templi di Tenochtitlan fino agli ultimi anni prima della conquista. Gli archeologi le numerano con i numeri romani.\n\nLe date sono approssimative, soprattutto quelle più antiche. La Fase II si colloca intorno al milletrecentonovanta. La Fase III si attribuisce a Itzcóatl, che governò dal millequattrocentoventisei al millequattrocentoquaranta. La Fase IV si collega a Moctezuma Ilhuicamina, e il suo ampliamento, la IV b, ad Axayácatl, dal millequattrocentosessantanove al millequattrocentottantuno. La Fase VI corrisponde ad Ahuízotl, tra il millequattrocentottantasei e il millecinquecentodue. La Fase VII, l’ultima, arriva fino alla conquista, nel millecinquecentoventuno.\n\nLa ragione di questa abitudine ha a che fare con il potere politico. Quando un tlatoani, cioè un sovrano, saliva al trono, uno dei modi per mostrare la propria forza era ampliare il tempio principale. Ogni fase era più grande e più ricca della precedente. Allo stesso tempo, il tempio funzionava come un archivio di pietra, perché ogni strato custodiva ciò che vi era stato sepolto.\n\nOgni ampliamento era accompagnato da offerte. Prima di ricoprire un tempio, si seppellivano oggetti all’interno della nuova costruzione. Per questo gli archeologi hanno trovato più di cento offerte in quest’area, secondo il museo. Si dividono in tre tipi: di riempimento, di cista e di cassa. Ogni strato custodiva così un insieme di oggetti lasciati lì di proposito.\n\nLe fasi più tarde, la VI e la VII, sono quelle che furono distrutte di più. Gli spagnoli usarono quelle pietre per costruire la nuova città, e per questo dei livelli più alti non resta quasi nulla. Le fasi più antiche, invece, si sono conservate meglio perché rimasero sepolte, protette dai nuovi strati.\n\nPer questo oggi si può vedere, su una stessa parete, il muro di una fase coperto da quello di un’altra. Se trovi un tratto in cui si distinguono due tipi di pietra, o due livelli di gradini, stai vedendo il confine tra due fasi.\n\nPensa a ciò che significa tutto questo. Per i Mexica, il tempio era un edificio vivo, che cresceva con la città e con ogni nuovo sovrano. Per gli archeologi, quell’usanza fu una fortuna, perché conservò gli edifici antichi dentro quelli nuovi.\n\nOra guarderemo i due santuari che coronavano la piramide, perché la loro differenza spiega molto del pensiero mexica."
+    },
+    "retos_observacion": {
+      "hash": "56ea466d3f3f00c3",
+      "texto": [
+        "Cerca una sezione in cui si distinguano due strati di costruzione",
+        "Osserva se vedi due tipi di pietra o gradini a livelli diversi nello stesso muro",
+        "Conta le fasi che riesci a distinguere dalla passerella"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6f713e2069019443",
+      "texto": {
+        "Fasi di costruzione": "7",
+        "Fase II": "circa 1390",
+        "Fase III": "Itzcóatl, dal 1426 al 1440",
+        "Fase IV b": "Axayácatl, dal 1469 al 1481",
+        "Fase VI": "Ahuízotl, dal 1486 al 1502",
+        "Fase VII": "fino al 1521"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e9db4aae7399bb3",
+      "texto": {
+        "pregunta": "Mito: Il tempio fu costruito in una sola volta.",
+        "respuesta": "Realtà: Fu ampliato sette volte; ogni sovrano ricopriva il tempio precedente con uno più grande."
+      }
+    }
+  }
+}

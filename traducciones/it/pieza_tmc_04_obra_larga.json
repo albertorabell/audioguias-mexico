@@ -1,0 +1,56 @@
+{
+  "id": "tmc_04_obra_larga",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2d010ffa1ecaa778",
+      "texto": "Duecentoquaranta anni di cantiere"
+    },
+    "frase_gancho": {
+      "hash": "57a692ea6663751a",
+      "texto": "Una prima chiesa piccola, un progetto firmato dal re e una cattedrale che fu terminata nel milleottocentotredici."
+    },
+    "puente_narrativo": {
+      "hash": "95f7be65697c1ca8",
+      "texto": "Prosegui verso il lato della Cattedrale e cerca l’edificio più piccolo e più decorato, addossato ad essa."
+    },
+    "guion_corto": {
+      "hash": "c824aae4d16c2412",
+      "texto": "La Cattedrale impiegò circa duecentoquaranta anni per essere completata. Prima c’era stata una prima chiesa, più piccola, iniziata nel millecinquecentoventiquattro, ma ritenuta scomoda e buia. A metà del Cinquecento si decise di costruirne un’altra, molto più grande. Un progetto firmato dal re Filippo Secondo nel millecinquecentosessantanove fu seguito a partire dal millecinquecentosettantatré, con il disegno di Claudio de Arciniega. La nuova chiesa poté essere usata all’interno molto prima di essere completa, perché fu costruita per parti. L’interno fu chiuso nel Seicento, e l’esterno fu dato per terminato nel milleottocentotredici."
+    },
+    "guion_largo": {
+      "hash": "42ca3fd8216e4afc",
+      "texto": "Una cattedrale come questa non si costruisce in una sola volta. Questa impiegò circa duecentoquaranta anni, e per questo conviene comprenderne le tappe.\n\nPrima ci fu una chiesa precedente. Fu iniziata nel millecinquecentoventiquattro, poco dopo la conquista, e si trovava un po’ a sud di dove sorge quella attuale. Era una chiesa a tre navate e, con il tempo, fu ritenuta scomoda, buia e umida. A metà del Cinquecento la città era ormai la capitale di un viceregno e voleva un tempio all’altezza. Per questo si decise di costruirne un altro, molto più grande.\n\nIl progetto che fu seguito venne firmato dal re Filippo Secondo nel millecinquecentosessantanove. I lavori veri e propri cominciarono nel millecinquecentosettantatré. Il disegno si attribuisce a Claudio de Arciniega, un architetto che lavorò nella Nuova Spagna. La vecchia chiesa rimase in piedi finché non fu possibile celebrare la messa in una parte della nuova. Così la città non rimase mai senza cattedrale mentre si costruiva l’altra.\n\nIl suolo complicò tutto fin dall’inizio. La Cattedrale poggia sul terreno molle e di riporto dell’antica isola. Sotto ci sono resti preispanici. Già nel millecinquecentosessantadue le fondazioni cominciarono ad affondare. Furono rifatte con una massa di pietra su pali, e quel lavoro fu dato per concluso nel milleseicentoquindici. In quelle fondazioni furono conficcate migliaia di pali di legno.\n\nLe volte furono chiuse a partire dal millecinquecentoottantuno. L’ultima fu chiusa il ventidue giugno del milleseicentosessantasette, e si considera che quell’anno termini l’opera dell’interno. Mancavano ancora le torri e gran parte dell’esterno. Un’inondazione nel milleseicentoventinove costrinse a fermare i lavori. Poi l’architetto Juan Gómez de Trasmonte li proseguì. La parte centrale della facciata fu conclusa da Cristóbal de Medina Vargas nel milleseicentosettantacinque.\n\nAlla fine del Settecento furono innalzate le torri, sotto la direzione di José Damián Ortiz de Castro. Quando egli morì, lo scultore e architetto Manuel Tolsá si incaricò di terminare l’esterno. Rifece la cupola, collocò le balaustre e scolpì delle figure. Nel milleottocentotredici l’opera fu data per conclusa. Erano passati circa due secoli e mezzo.\n\nPer questo questa Cattedrale sembra un compendio visibile degli stili della Nuova Spagna. Il progetto originale ha un’aria rinascimentale, con il suo ordine e la sua sobrietà. All’interno e nella facciata centrale domina il barocco. Nel coronamento e nella cupola compare il neoclassicismo, che prediligeva le linee pulite. Non c’è un’unità perfetta, ma c’è un’unità costruita con il tempo.\n\nPer concludere questa tappa, pensa a cosa significhi costruire qualcosa che né tu né i tuoi figli vedrete finito. In un progetto di questo tipo si lavora con pazienza e con fede. Più avanti vedrai come quella pazienza continui a essere necessaria, perché il suolo non smette di muoversi."
+    },
+    "retos_observacion": {
+      "hash": "366372509b33ce44",
+      "texto": [
+        "Cerca sulla facciata le parti più antiche e quelle più recenti",
+        "Confronta la sobrietà della pianta generale con la decorazione del portale centrale",
+        "Immagina il lotto senza la Cattedrale, con la vecchia chiesa un po’ più a sud"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9e57c6fb2bbf5194",
+      "texto": {
+        "Prima chiesa": "iniziata nel 1524",
+        "Progetto firmato da Filippo II": "1569",
+        "Inizio formale dell’opera attuale": "1573",
+        "Ultima volta chiusa": "22 giugno 1667",
+        "Parte centrale della facciata": "1675",
+        "Opera esterna conclusa": "1813"
+      }
+    },
+    "faq_mito": {
+      "hash": "f929265d356b3240",
+      "texto": {
+        "pregunta": "Mito: La Cattedrale fu costruita sopra il Templo Mayor.",
+        "respuesta": "Realtà: La Cattedrale occupa una parte dell’antico Recinto Sacro, ma il Templo Mayor si trovava a oriente, dietro di essa, e fu scoperto solo nel XX secolo."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "tmc_11_capillas_veneno",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "832c184ecb17da30",
+      "texto": "Le cappelle laterali e il Señor del Veneno"
+    },
+    "frase_gancho": {
+      "hash": "32ed46a0fe420af1",
+      "texto": "Sedici cappelle, quattordici aperte, e un Cristo di canna di mais venerato da secoli."
+    },
+    "puente_narrativo": {
+      "hash": "8c835d5c9e5385eb",
+      "texto": "Tra le cappelle, cerca quella di San Felipe de Jesús, dove riposano i resti di Agustín de Iturbide."
+    },
+    "guion_corto": {
+      "hash": "e8cac4bffec00841",
+      "texto": "Ai lati delle navate si aprono le cappelle laterali. La Cattedrale ne ha sedici, e quattordici sono aperte al pubblico. Ognuna è dedicata a un santo o a un’invocazione e, in epoca vicereale, fu patrocinata da un ordine religioso o da una confraternita. Tra di esse ci sono le cappelle delle Reliquie, degli Angeli, di San Pietro e di San Felipe de Jesús. Una delle immagini più venerate è il Señor del Veneno, un Cristo crocifisso fatto di pasta di canna di mais, del diciottesimo secolo. Proviene dal noviziato domenicano di Porta Coeli. Un’altra è il Señor del Cacao."
+    },
+    "guion_largo": {
+      "hash": "95f34d1b5f81801c",
+      "texto": "Cammina lungo una delle navate laterali e vedrai una successione di cappelle, ognuna con il suo altare, la sua pala d’altare e la sua atmosfera. Questo è uno dei luoghi più ricchi della Cattedrale, perché ogni cappella funziona come una piccola chiesa dentro la grande.\n\nLa Cattedrale ha sedici cappelle, di cui quattordici sono aperte ai visitatori. Prendono il nome dal loro santo o dalla loro invocazione. Tra di esse compaiono le cappelle delle Reliquie, degli Angeli, di San Pietro e di San Giuseppe. Ci sono anche quelle di Nostra Signora di Guadalupe, di San Felipe de Jesús, dei Dolori e della Solitudine. I nomi e l’ordine possono variare a seconda dei lavori e delle restrizioni del giorno.\n\nLa ragione di tante cappelle sta nel modo in cui fu costruito l’edificio. Ciascuna fu patrocinata da un ordine religioso, da una corporazione o da una confraternita, che pagava l’altare e in cambio si riservava uno spazio per il proprio culto e, a volte, per le proprie sepolture. Per questo le cappelle hanno stili diversi. Alcune sono sobrie e altre piene d’oro, a seconda dell’epoca e del denaro di chi le commissionò.\n\nIn questo insieme ci sono immagini che la gente continua a visitare. Una è il Señor del Veneno, chiamato anche Cristo Nero. È una scultura di un Cristo crocifisso, realizzata in pasta di canna di mais, una tecnica della Nuova Spagna che permetteva di ottenere figure leggere. Secondo l’INAH, risale al diciottesimo secolo e proviene dal noviziato domenicano di Porta Coeli, a Città del Messico. Passò alla Cattedrale nel ventesimo secolo, intorno agli anni venti o trenta.\n\nÈ una delle immagini più visitate della Cattedrale. Quella devozione fa parte della vita attuale del tempio, non è un ornamento per turisti.\n\nUn’altra immagine nota è quella del Señor del Cacao, che si associa alla cappella di San Giuseppe. In epoca coloniale gli si lasciavano offerte di cacao, che allora era un seme prezioso e si usava anche come moneta. È un promemoria del fatto che le offerte dipendevano da ciò che la gente aveva a portata di mano, e che il culto si mescolava con l’economia.\n\nLe cappelle custodiscono anche pale d’altare, dipinti e sculture di epoche diverse. Spiccano la cappella delle Reliquie, quella degli Angeli e quella di San Pietro. Se hai tempo, entra in quelle che sono aperte e fermati un po’ in qualcuna. Vedrai come cambia l’atmosfera passando dalla navata principale, ampia e solenne, a uno spazio più intimo.\n\nNe esiste un’altra che merita una sosta a parte. È la cappella di San Felipe de Jesús, che custodisce l’urna con i resti di Agustín de Iturbide. Ne parleremo subito.\n\nMentre percorri le cappelle, ricorda che alcune sono chiuse per restauro, per messe o per celebrazioni. Non è un museo, ma un tempio in uso, e alcuni spazi si aprono solo in certi orari. Se ne trovi una chiusa, guarda dalla cancellata e prosegui."
+    },
+    "retos_observacion": {
+      "hash": "a4136e89936b2bd7",
+      "texto": [
+        "Conta quante cappelle vedi su un solo lato della navata",
+        "Cerca in una cappella il nome del santo o dell’invocazione nella parte alta della pala d’altare",
+        "Osserva se ci sono persone che pregano davanti a un’immagine venerata"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d6c8a3b101ac4ee",
+      "texto": {
+        "Cappelle": "16, aperte al pubblico: 14",
+        "Señor del Veneno": "Cristo di pasta di canna di mais, XVIII secolo",
+        "Provenienza": "noviziato domenicano di Porta Coeli",
+        "Arrivo in Cattedrale": "XX secolo",
+        "Señor del Cacao": "associato alla cappella di San Giuseppe",
+        "Patrocinio": "ordini religiosi e confraternite"
+      }
+    },
+    "faq_mito": {
+      "hash": "2b25b9689c6abfb2",
+      "texto": {
+        "pregunta": "Mito: il Señor del Veneno è una scultura preispanica.",
+        "respuesta": "Realtà: è un Cristo crocifisso del XVIII secolo, realizzato in pasta di canna di mais, che proviene dal noviziato domenicano di Porta Coeli."
+      }
+    }
+  }
+}

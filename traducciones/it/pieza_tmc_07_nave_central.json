@@ -1,0 +1,57 @@
+{
+  "id": "tmc_07_nave_central",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8b135bfca9215da1",
+      "texto": "La navata centrale e le sue cinquantun volte"
+    },
+    "frase_gancho": {
+      "hash": "a630e145bfa4429b",
+      "texto": "Cinque navate, quaranta colonne e un pavimento che non è del tutto piano."
+    },
+    "puente_narrativo": {
+      "hash": "6d0aa78644adfd61",
+      "texto": "Avanza lungo la navata centrale fino al centro del tempio. Quando sei pronto, prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "46e1938e5efca4ea",
+      "texto": "Cinque navate, cinquantuno volte, settantaquattro archi e quaranta colonne. Sono i numeri di questo interno. Le volte furono chiuse a poco a poco a partire dal millecinquecentottantuno, e l’ultima nel milleseicentosessantasette. Per questo lo spazio ha proporzioni chiare e un’aria sobria, prima che gli altari si riempissero d’oro. La navata centrale è la più larga e la più alta. Lungo di essa avanzi verso il coro, gli organi e l’altare maggiore. Cammina lentamente e fai attenzione al pavimento, perché non è del tutto piano. Il suolo sotto la Cattedrale Metropolitana si muove da secoli, e l’edificio lo mostra."
+    },
+    "guion_largo": {
+      "hash": "edc554e076b03db1",
+      "texto": "Sei appena entrato in una delle chiese più grandi dell’America. Prima di cercare altari e cappelle, vale la pena capire come è fatto questo spazio.\n\nLa Cattedrale ha cinque navate e un transetto, cioè lo spazio trasversale che attraversa la chiesa. L’interno conta cinquantuno volte, settantaquattro archi, quaranta colonne e circa centocinquanta finestre. Sono cifre tonde, che aiutano a immaginare la scala. Ciò che si vede a colpo d’occhio è che la navata centrale è la più larga e la più alta, e che quelle laterali la accompagnano come corridoi più bassi.\n\nQuesta disposizione ha una sua logica. La navata centrale conduce dall’ingresso all’altare, e lungo il suo percorso si trovano gli elementi che organizzano il tempio. Per prima compare il coro, con gli stalli di legno e i due grandi organi. Poi, l’Altare del Perdono e il transetto. In fondo, nell’abside, si trova la Cappella Maggiore con l’Altare dei Re. Le navate laterali danno accesso alle cappelle, ciascuna dedicata a un santo e patrocinata da un ordine religioso, una corporazione o una confraternita.\n\nLa costruzione di questo spazio richiese decenni. Le volte furono chiuse a poco a poco a partire dal millecinquecentottantuno, e l’ultima fu chiusa il ventidue giugno del milleseicentosessantasette. Quell’anno è considerato la fine dei lavori dell’interno. Fu allora che il tempio venne dedicato. Puoi vedere il risultato nella sobrietà delle linee. Il progetto originario ha un’aria rinascimentale, e il suo ordine contrasta con gli altari barocchi aggiunti in seguito.\n\nOra guarda verso l’alto e percorri le volte con lo sguardo. Ricorda che il tempio ha circa centocinquanta finestre, e che da esse dipende la luce che cade sulla navata.\n\nPoi abbassa lo sguardo al pavimento e cammina con prudenza. Il suolo della Cattedrale non è perfettamente orizzontale. Questa chiesa poggia sul terreno molle di quello che fu un lago, e fin dalla sua costruzione affonda in modo irregolare. In un punto dell’edificio il dislivello massimo arrivò a superare i due metri, e fu ridotto con un intervento successivo. Più avanti, in un’altra tappa, vedrai come fu raddrizzato. Per ora, basta notare che il pavimento è una specie di mappa del suolo.\n\nUn’ultima osservazione. Nonostante le dimensioni, lo spazio non dà un senso di vuoto. È occupato dalla presenza degli altari, delle grate, delle panche dei fedeli e delle cappelle laterali, e tutto mantiene un ordine. Se ti capita di assistere a una messa, l’atmosfera cambia completamente. Si sente l’organo, o il canto, e lo spazio si riempie di un significato che non si coglie quando è in silenzio. Rispetta questo rito: parla a bassa voce, evita il flash e non disturbare chi sta pregando.\n\nQuando sei pronto, prosegui lungo la navata verso il centro del tempio."
+    },
+    "retos_observacion": {
+      "hash": "46dae89079775f10",
+      "texto": [
+        "Conta quante colonne distingui in una sola fila della navata centrale",
+        "Guarda verso l’alto e segui la linea di una volta fino al punto in cui si chiude",
+        "Cammina lentamente e cerca un tratto del pavimento in cui si noti una pendenza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f950365bb6f4480",
+      "texto": {
+        "Navate": "5, più un transetto",
+        "Volte": "51",
+        "Archi": "74",
+        "Colonne": "40",
+        "Finestre": "circa 150",
+        "Ultima volta chiusa": "22 giugno 1667",
+        "Ubicazione": "interno della Cattedrale Metropolitana"
+      }
+    },
+    "faq_mito": {
+      "hash": "97510d9485f40686",
+      "texto": {
+        "pregunta": "Mito: L’interno della Cattedrale è sempre stato dorato come oggi.",
+        "respuesta": "Realtà: Il progetto originario è sobrio, di influenza rinascimentale, e gli altari barocchi dorati furono aggiunti durante il XVII e il XVIII secolo."
+      }
+    }
+  }
+}

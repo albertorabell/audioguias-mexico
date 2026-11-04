@@ -1,0 +1,53 @@
+{
+  "id": "tmc_20_muro_craneos",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "aae241fa71eb47a5",
+      "texto": "L’Altare Tzompantli e il muro di crani"
+    },
+    "frase_gancho": {
+      "hash": "179284e2773e2a04",
+      "texto": "Crani di pietra davanti al santuario di Huitzilopochtli."
+    },
+    "puente_narrativo": {
+      "hash": "796764b3c2506ae9",
+      "texto": "Prosegui lungo la passerella verso i Templi Rossi e la Casa delle Aquile."
+    },
+    "guion_corto": {
+      "hash": "6aa5f6d177a2f57a",
+      "texto": "Davanti al santuario di Huitzilopochtli fu trovata, nel millenovecentottanta, una piattaforma decorata con file di crani scolpiti nella pietra. È conosciuta come Altare Tzompantli. Un tzompantli era una struttura in cui i Mexica esponevano i crani di persone sacrificate, e le cronache raccontano che ce ne fossero diversi nel recinto sacro. Questo altare non conserva crani veri nei suoi muri, ma la loro rappresentazione in pietra, ed evocava il sacrificio e la guerra. È uno dei punti imprescindibili della visita, insieme alla Casa delle Aquile e ai Templi Rossi."
+    },
+    "guion_largo": {
+      "hash": "f396022218e0f523",
+      "texto": "Guarda la piattaforma che hai davanti. È decorata con file di piccoli teschi di pietra, ed è una delle immagini più riconoscibili del Templo Mayor.\n\nSi conosce come Altare Tzompantli o muro di crani. Fu trovato nel millenovecentottanta, davanti al santuario di Huitzilopochtli. È uno dei punti imprescindibili della visita, insieme alla Casa delle Aquile, ai Templi Rossi e alla Fase II.\n\nLa parola tzompantli proviene dal nahuatl e si collega all’idea di una fila di crani. Era una struttura in cui i Mexica esponevano le teste di persone sacrificate. Le cronache spagnole parlano di vari tzompantli a Tenochtitlan, e l’archeologia ne ha confermato almeno uno di grandi dimensioni. Fray Bernardino de Sahagún, per esempio, menziona diverse strutture di questo tipo nel recinto sacro.\n\nÈ importante distinguere tra l’altare che vedi qui e un tzompantli vero e proprio. In questo altare i teschi sono sculture di pietra, scolpite uno accanto all’altro, e decorano i muri della piattaforma. Non sono crani veri. Funzionava come una rappresentazione simbolica, e la sua posizione davanti al santuario di Huitzilopochtli lo collega al tema della guerra e del sacrificio.\n\nPerché il sacrificio era così importante per i Mexica? Secondo quella visione, gli dèi avevano donato il proprio sangue per creare la vita. Gli esseri umani dovevano restituirlo per mantenere l’ordine dell’universo. È la spiegazione che si dà di solito, anche se gli specialisti la discutono e la sfumano. È un’idea difficile, che conviene comprendere nel suo contesto, e vedrai il tema in diverse sale del museo.\n\nSe osservi con attenzione, noterai che i teschi di pietra sono disposti in file e che ciascuno ha tratti simili ma non identici. L’effetto visivo è quello di una parete piena di occhi e di denti. È un modo per ricordare a chi si avvicinava che quel luogo era dedicato alla guerra.\n\nPiù avanti parleremo di un tzompantli molto più grande, scoperto nel duemilaquindici a pochi metri da qui, in una strada vicina. Quello sì che aveva crani veri.\n\nPer ora, osserva la posizione dell’altare. Si trova davanti al santuario di Huitzilopochtli, sull’asse della piramide, e per questo si legge come parte dello stesso complesso. Tutto in questa zona segue un ordine, e l’altare aiuta a individuare il santuario del sud in mezzo alle rovine. Se hai già distinto le due metà della piramide, questo è un buon punto di riferimento per non perderti mentre cammini. Da qui, la prossima tappa ti porta ad altri edifici del recinto, più piccoli ma altrettanto interessanti, che completano l’idea di un complesso sacro."
+    },
+    "retos_observacion": {
+      "hash": "6832dfe1d2ff5ad0",
+      "texto": [
+        "Conta quante file di teschi riesci a distinguere sulla piattaforma",
+        "Nota che i crani sono di pietra scolpita, non veri",
+        "Individua l’altare in relazione al santuario di Huitzilopochtli"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dd67613a03002092",
+      "texto": {
+        "Scoperta": "1980",
+        "Ubicazione": "davanti al santuario di Huitzilopochtli",
+        "Materiale": "pietra con crani scolpiti"
+      }
+    },
+    "faq_mito": {
+      "hash": "f5cb51b9c0ec002f",
+      "texto": {
+        "pregunta": "Mito: l’Altare Tzompantli è fatto con crani umani veri.",
+        "respuesta": "Realtà: i teschi di questo altare sono sculture di pietra; i crani veri sono comparsi nello Huei Tzompantli, scoperto nel 2015."
+      }
+    }
+  }
+}

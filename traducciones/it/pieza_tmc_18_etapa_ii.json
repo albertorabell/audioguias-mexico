@@ -1,0 +1,54 @@
+{
+  "id": "tmc_18_etapa_ii",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "42fadf862f85f2d5",
+      "texto": "La Fase II: i santuari più antichi che si conservano"
+    },
+    "frase_gancho": {
+      "hash": "4e67437e95cc95aa",
+      "texto": "Il piccolo tempio di Tláloc conserva ancora tracce di pittura."
+    },
+    "puente_narrativo": {
+      "hash": "d6eec3db67b18743",
+      "texto": "Guarda verso il piede della scalinata sul lato sud e cerca il punto in cui fu ritrovata la grande pietra della Coyolxauhqui."
+    },
+    "guion_corto": {
+      "hash": "92a863ec2afa39cb",
+      "texto": "La Fase II è la parte più antica del tempio che si può vedere per intero. Conserva due piccoli santuari su una piattaforma. A sud, quello di Huitzilopochtli ha all’ingresso una pietra dei sacrifici, e sotto il pavimento sono state trovate urne con resti di cremazione. A nord, quello di Tláloc conserva un Chac Mool e tracce di pittura murale. Risale a circa il 1390, è rimasta protetta perché altre fasi la ricoprirono, e per questo oggi si conserva meglio di quelle più recenti. Vedere questi santuari significa affacciarsi su un momento precoce di Tenochtitlan, quando il tempio era ancora piccolo."
+    },
+    "guion_largo": {
+      "hash": "3f34190a0486a6ed",
+      "texto": "Ti trovi davanti alla parte più antica del Templo Mayor che si conserva in buono stato. Si chiama Fase II, ed è un gioiello per capire com’erano i santuari dei Mexica prima che l’impero crescesse.\n\nSi tratta di una piattaforma con due piccoli santuari in cima, uno sul lato sud e uno sul lato nord. Sono più modesti di quelli delle fasi successive, ma hanno un vantaggio: si sono conservati perché furono ricoperti da costruzioni più grandi. Questa fase si colloca intorno al 1390, una data approssimativa.\n\nSul lato sud si trova il santuario di Huitzilopochtli. All’ingresso c’è una pietra dei sacrifici, un blocco dove si compivano offerte rituali. Sotto il pavimento del santuario sono state trovate urne con resti di ossa bruciate, che fanno parte delle offerte. Più avanti, durante la visita al museo, vedrai che le offerte di questo tempio sono una delle fonti di informazione più importanti sul rituale mexica.\n\nSul lato nord si trova il santuario di Tláloc. Lì c’è un Chac Mool, una figura reclinata che sorregge un recipiente sul ventre. Si conservano anche tracce di pittura murale sulle pareti, e questo è raro, perché il colore tende a perdersi con il tempo.\n\nFai attenzione alle dimensioni. Questi santuari sono di dimensioni modeste, molto più piccoli di quelli delle fasi successive. Con il tempo, le fasi successive ingrandirono l’edificio, ma mantennero la stessa logica dei due santuari, uno a nord e uno a sud. Quell’idea non cambiò in tutta la storia del tempio, anche se cambiarono le sue dimensioni e la sua decorazione.\n\nConviene anche guardare ciò che non si vede. Questa fase si trova all’interno della piramide successiva. Quello che vedi oggi è una piccola finestra aperta sul passato, perché le fasi successive la ricoprirono. Per questo è protetta da tettoie e da passerelle.\n\nSe hai tempo, avvicinati alle ringhiere e guarda il pavimento del santuario. Potrai immaginare le offerte che vi venivano deposte, e che nel museo vedrai nelle vetrine. Molti oggetti di questo tipo si trovano ora nel museo, che visiteremo più avanti.\n\nUn ultimo dettaglio aiuta a leggere questo luogo. Le due metà della Fase II non sono uguali. Il lato di Tláloc conserva figure e pittura, mentre quello di Huitzilopochtli si distingue per la pietra dei sacrifici e per le urne. Questo conferma, fin dalla fase più antica, che ogni santuario aveva un proprio carattere e un proprio tipo di offerta. Se confronti con calma i due lati, cominci a distinguere come si organizzava il culto in cima alla piramide.\n\nLa Fase II ci ricorda qualcosa di importante. Prima dell’impero e delle grandi piramidi, questo tempio fu piccolo, e la sua crescita accompagnò l’ascesa di Tenochtitlan."
+    },
+    "retos_observacion": {
+      "hash": "5673df87ba264e70",
+      "texto": [
+        "Cerca la pietra dei sacrifici all’ingresso del santuario sud",
+        "Individua il Chac Mool nel santuario nord",
+        "Osserva se vedi tracce di pittura murale sulle pareti"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f42edfb409b0240",
+      "texto": {
+        "Fase II": "intorno al 1390",
+        "Santuario sud": "Huitzilopochtli, pietra dei sacrifici e urne con resti di cremazione",
+        "Santuario nord": "Tláloc, Chac Mool e tracce di pittura murale",
+        "Protezione": "tettoie e passerelle"
+      }
+    },
+    "faq_mito": {
+      "hash": "d8945338268bbea4",
+      "texto": {
+        "pregunta": "Mito: I santuari della Fase II sono stati ricostruiti interamente.",
+        "respuesta": "Realtà: Si conservano perché furono ricoperti dalle fasi successive; oggi sono protetti da tettoie."
+      }
+    }
+  }
+}

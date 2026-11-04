@@ -1,0 +1,56 @@
+{
+  "id": "tmc_02_fachada_principal",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "84e9a5f6638efbb8",
+      "texto": "La facciata principale della Cattedrale"
+    },
+    "frase_gancho": {
+      "hash": "56c89bfd0bc46464",
+      "texto": "Tre portali, un rilievo di marmo e tre virtù di bronzo: la facciata che fu completata nell’arco di più di un secolo."
+    },
+    "puente_narrativo": {
+      "hash": "6c02446457e22da4",
+      "texto": "Alza lo sguardo verso i lati della facciata, dove si innalzano le due torri con le loro campane."
+    },
+    "guion_corto": {
+      "hash": "67f8706270147144",
+      "texto": "La facciata principale della Cattedrale ha tre portali, e quello al centro è il più grande. Sopra di esso c’è un rilievo di marmo dell’Assunzione della Vergine, a cui è dedicato il tempio. Sulle porte laterali ci sono rilievi di San Pietro, che riceve le chiavi, e della nave della Chiesa. Più in alto c’è un orologio, e sopra tre sculture di Manuel Tolsá: la Fede, la Speranza e la Carità. Questa facciata non appartiene a una sola epoca. La parte centrale fu conclusa nel milleseicentosettantacinque, e Tolsá la coronò più di un secolo dopo. Percorrila dal basso verso l’alto e osserva come cambiano lo stile e il tono della pietra."
+    },
+    "guion_largo": {
+      "hash": "915575febea2b77a",
+      "texto": "Sei davanti alla facciata che guarda lo Zócalo. Anche se sembra un’opera unica, è il risultato di più mani.\n\nLa Cattedrale è dedicata all’Assunzione di Maria, ed è questa l’immagine che corona il portale centrale. Si tratta di un rilievo di marmo. Ai lati di quella porta ci sono le figure di San Pietro e San Paolo. Nei portali laterali ci sono altri rilievi. Uno mostra San Pietro che riceve le chiavi, e l’altro la nave della Chiesa. Sono tre porte, con quella al centro più grande, e ciascuna funziona come una lettura diversa dello stesso messaggio religioso.\n\nL’ordine in cui fu realizzata la facciata spiega i suoi cambi di stile. La parte centrale fu diretta dall’architetto Cristóbal de Medina Vargas, e fu conclusa nel milleseicentosettantacinque. È un’opera barocca, con molte colonne e molti rilievi. Più di un secolo dopo, alla fine del Settecento, arrivò lo scultore e architetto Manuel Tolsá, che portò a termine l’edificio. Tolsá lavorò con idee neoclassiche, più sobrie, che cercavano ordine e simmetria. Per questo la Cattedrale riunisce tratti del Rinascimento, del barocco e del neoclassicismo in una stessa veduta.\n\nSopra il portale principale c’è un orologio, e sopra di esso furono collocate tre sculture attribuite a Tolsá. Sono le tre virtù teologali: la Fede, la Speranza e la Carità. Durante il terremoto del duemiladiciassette, la Speranza cadde da circa quarantacinque metri di altezza. Fu restaurata, con una testa nuova scolpita nella pietra, e le tre sculture tornarono al loro posto nel febbraio del duemilaventiquattro. È un promemoria del fatto che anche questa pietra ha bisogno di cure costanti.\n\nPer avere un’idea della scala, la Cattedrale misura circa centoventotto metri di lunghezza per circa sessanta di larghezza, e circa sessantasette fino alla sommità delle torri. Prima di questa ci fu un’altra cattedrale, più piccola, che fu iniziata nel millecinquecentoventiquattro.\n\nC’è ancora qualcosa che conviene guardare. La pietra non ha lo stesso tono su tutta la facciata, cosa naturale in un’opera di tante fasi. Se ti allontani un poco, fino al centro della piazza, la facciata si legge meglio. Vedrai che le due torri la incorniciano come una coppia di parentesi.\n\nQuesta è la facciata più visibile, ma non l’unica. La Cattedrale ha quattro facciate, con portali laterali sui lati orientale, occidentale e settentrionale. Quella nord è la più antica e la più bassa. Le si attribuisce il Cinquecento e uno stile più austero.\n\nPrima di proseguire, vale la pena ricordare che questo è un tempio in uso. Se più tardi decidi di entrare, fallo con rispetto, con spalle e ginocchia coperte, e controlla gli orari della messa. Ora alza lo sguardo. Le torri hanno una storia propria, e le loro campane hanno un nome."
+    },
+    "retos_observacion": {
+      "hash": "2dd61c4b006c27f4",
+      "texto": [
+        "Individua il rilievo di marmo dell’Assunzione sopra la porta centrale",
+        "Cerca l’orologio e le tre figure che si trovano sopra",
+        "Confronta la pietra della parte centrale con quella delle torri: noti differenze di tono?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ddf87b9029fab64",
+      "texto": {
+        "Dedicazione": "Assunzione di Maria",
+        "Parte centrale della facciata": "conclusa nel 1675, Cristóbal de Medina Vargas",
+        "Coronamento e sculture": "Manuel Tolsá, intorno al 1813",
+        "Portali": "3 sulla facciata principale",
+        "Dimensioni approssimative": "circa 60 m di larghezza, 128 m di lunghezza e 67 m fino alla sommità delle torri",
+        "Ubicazione": "lato nord dello Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "da6ea111cf54871d",
+      "texto": {
+        "pregunta": "Mito: La Cattedrale fu costruita in un unico stile.",
+        "respuesta": "Realtà: Riunisce tratti del Rinascimento, del barocco e del neoclassicismo perché fu costruita tra il 1573 e il 1813 con architetti diversi."
+      }
+    }
+  }
+}

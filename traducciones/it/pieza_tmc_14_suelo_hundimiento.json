@@ -1,0 +1,56 @@
+{
+  "id": "tmc_14_suelo_hundimiento",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ec17cb68d8cb0345",
+      "texto": "Il suolo che affonda: la correzione della Cattedrale"
+    },
+    "frase_gancho": {
+      "hash": "69ebd04fb7ea400b",
+      "texto": "Quattromiladuecentoventi metri cubi di argilla rimossi per raddrizzare un edificio di pietra."
+    },
+    "puente_narrativo": {
+      "hash": "827553e3a09718a9",
+      "texto": "Esci dalla Cattedrale con calma. Se prosegui verso il Templo Mayor, passa dal lato orientale, verso la calle Seminario, dove inizia la zona archeologica."
+    },
+    "guion_corto": {
+      "hash": "0f7449d3232fa859",
+      "texto": "Questa Cattedrale affonda da quando è stata costruita, e affonda in modo irregolare. Sorge sul terreno molle di un antico lago. Intorno al 1989 il deterioramento era allarmante, e gli ingegneri scelsero una tecnica chiamata sottoescavazione controllata. Consiste nel rimuovere poco a poco l’argilla dagli strati profondi, tra diciotto e venti metri sotto terra, in modo che il suolo si abbassi sotto le zone più alte e l’edificio si raddrizzi. I lavori cominciarono nel 1993 e portarono via circa quattromiladuecentoventi metri cubi di argilla. L’obiettivo non era tornare alla verticalità perfetta, ma recuperare più o meno la metà della deformazione."
+    },
+    "guion_largo": {
+      "hash": "2fbb748e026aae57",
+      "texto": "Prima di lasciare la Cattedrale, conviene capire il problema che l’ha preoccupata più di ogni altro in tutta la sua storia: il suolo. Questo edificio di pietra, pesante e enorme, poggia su un terreno che non è solido.\n\nLa Cattedrale fu innalzata nell’angolo dell’antica isola di Tenochtitlan, sul fondo molle e umido di un lago che era stato riempito. Sotto ci sono strati di argilla che si comprimono con il peso e con il passare del tempo. Inoltre il sottosuolo non è uniforme: sotto certe zone ci sono resti preispanici, antiche fondazioni e riempimenti diversi. Per questo la Cattedrale non affonda in modo uniforme. Alcune parti scendono più di altre, e questo produce inclinazioni e crepe.\n\nIl problema si notò fin dalla costruzione. Già nel 1562 la fondazione cominciò ad affondare, e fu rifatta con un riempimento di pietrame su pali, dato per concluso nel 1615. Nei secoli successivi fu rinforzata più volte. Si calcola che l’edificio, con le sue fondazioni, pesi centoventisettemila tonnellate.\n\nIntorno al 1989 il deterioramento era diventato allarmante. Gli esperti cercarono una soluzione che non danneggiasse il monumento. Scelsero una tecnica chiamata sottoescavazione controllata. Funziona al contrario di quanto ci si aspetterebbe: non si rinforza il suolo, ma gli si toglie un po’ di argilla. Si scavano pozzi profondi, chiamati lumbreras, e da lì si estraggono piccole quantità di argilla da strati che si trovano tra diciotto e venti metri sotto terra. Quando viene rimossa, il terreno si abbassa un poco sotto le zone più alte dell’edificio, e l’insieme si raddrizza.\n\nI lavori cominciarono nel 1993. La fase principale andò dal 1993 al 1998, con trentadue lumbreras di venti metri, e i lavori si protrassero fino all’inizio del 2003. In totale furono rimossi circa quattromiladuecentoventi metri cubi di argilla.\n\nL’obiettivo non era tornare a un edificio perfettamente verticale. Lo scopo era recuperare più o meno la metà della deformazione accumulata. Il dislivello massimo era di più di due metri e fu ridotto di poco più di ottanta centimetri, circa un terzo. È un risultato modesto nei numeri, ma importante per la stabilità.\n\nGrazie a quel lavoro, la Cattedrale uscì dalla lista dei monumenti a più alto rischio del World Monuments Fund, nell’anno 2000. Questo non significa che il problema sia scomparso. Uno studio della UNAM avverte che l’affondamento non si è fermato, e che l’insieme è sorvegliato con strumenti che misurano ogni movimento.\n\nI pavimenti interni della Cattedrale sono irregolari. Non è un difetto dell’opera, ma l’impronta di una città che continua ad assestarsi su un lago.\n\nC’è un’ironia in tutto questo. Anche i Mexica costruirono su un lago. Il Templo Mayor fu innalzato per fasi, ciascuna sopra la precedente, e le sue rovine si trovano a pochi passi da qui."
+    },
+    "retos_observacion": {
+      "hash": "ddb14b720ec66acb",
+      "texto": [
+        "Guarda una colonna della navata e osserva se ti sembra dritta o inclinata",
+        "Cammina sul pavimento e cerca i tratti in cui noti una lieve pendenza",
+        "Ricorda il nome della tecnica: sottoescavazione controllata"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b8dbc8374ac426b",
+      "texto": {
+        "Inizio dei problemi di fondazione": "1562",
+        "Riempimento di pietrame su pali concluso": "1615",
+        "Deterioramento allarmante": "intorno al 1989",
+        "Sottoescavazione controllata": "dal 1993",
+        "Argilla rimossa": "circa 4 220 m³",
+        "Profondità dell’estrazione": "tra 18 e 20 m"
+      }
+    },
+    "faq_mito": {
+      "hash": "41465c46cebcb0f3",
+      "texto": {
+        "pregunta": "Mito: La Cattedrale sta per crollare perché affonda.",
+        "respuesta": "Realtà: Affonda in modo irregolare fin dalla sua costruzione, ma dal 1993 è stata corretta con la sottoescavazione controllata e oggi è sorvegliata con strumenti; l’affondamento non è scomparso."
+      }
+    }
+  }
+}

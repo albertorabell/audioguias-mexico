@@ -1,0 +1,56 @@
+{
+  "id": "tmc_13_sacristia_cripta",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1fa89b4b488419e3",
+      "texto": "Le aree riservate: sacrestia e Cripta degli Arcivescovi"
+    },
+    "frase_gancho": {
+      "hash": "4ef71167f0c9b52a",
+      "texto": "Settantacinque cripte, quarantuno occupate, e una sacrestia con opere di due grandi pittori vicereali."
+    },
+    "puente_narrativo": {
+      "hash": "775b72d14d19c740",
+      "texto": "Torna indietro lungo la navata verso l’uscita. Prima di andare, resta un tema: il suolo che sostiene tutta la Cattedrale."
+    },
+    "guion_corto": {
+      "hash": "4d604042952ee7ca",
+      "texto": "Accanto all’abside della Cattedrale ci sono due spazi che non sempre si possono visitare. Uno è la Sacrestia Maggiore, dove si custodiscono gli oggetti del culto e dove, alla fine del diciassettesimo secolo, lavorarono i pittori Cristóbal de Villalpando e Juan Correa. L’altro è la Cripta degli Arcivescovi, sotto l’abside, con settantacinque cripte, di cui quarantuno occupate. Lì riposano fra Juan de Zumárraga, il primo vescovo del Messico, e il cardinale Ernesto Corripio Ahumada, morto nel duemilaotto. L’accesso a queste aree è limitato e avviene con visite guidate. Chiedi al punto informazioni della Cattedrale."
+    },
+    "guion_largo": {
+      "hash": "4de87852595aafb7",
+      "texto": "Questa tappa è per chi vuole vedere la Cattedrale oltre gli altari dorati. Accanto all’abside ci sono spazi riservati che non sempre sono aperti. Se oggi li trovi chiusi, ascolta questa tappa dalla navata e pensa a ciò che si trova dietro quelle porte.\n\nIniziamo dalla Sacrestia Maggiore. Una sacrestia è il luogo in cui si custodiscono gli oggetti del culto e in cui i chierici si preparano per le cerimonie. Nella sacrestia di questa Cattedrale ci sono opere di due tra i più importanti pittori della Nuova Spagna, Cristóbal de Villalpando e Juan Correa, della fine del diciassettesimo secolo. Accanto si trova la Sala Capitolare, il luogo in cui si riuniva il capitolo, cioè il gruppo di canonici che dirigeva la Cattedrale. Lo stile di queste sale è erreriano, uno stile spagnolo sobrio, che contrasta con il barocco degli altari.\n\nIl tesoro della Cattedrale comprende anche tessuti e paramenti liturgici, oltre a dipinti, anche se non sempre vengono esposti.\n\nScendiamo ora nella cripta. La Cripta degli Arcivescovi si trova sotto l’abside, all’estremità nord del tempio. La sua costruzione iniziò tra millenovecentotrentotto e millenovecentotrentanove, e terminò nel millenovecentoquarantadue. Cioè, è molto più recente dell’edificio.\n\nLì riposano vescovi e arcivescovi della storia dell’arcidiocesi. Il più antico è fra Juan de Zumárraga, primo vescovo del Messico, che visse dal millequattrocentosessantotto al millecinquecentoquarantotto. Ha un memoriale che lo collega alla storia della Vergine di Guadalupe. L’ultimo sepolto è il cardinale Ernesto Corripio Ahumada, che visse dal millenovecentododici al duemilaotto. Ci sono anche i resti di Juan de Palafox y Mendoza, vescovo del Messico e di Puebla, e di Francisco de Aguiar y Seijas, confessore di suor Juana Inés de la Cruz.\n\nLo spazio ha settantacinque cripte, e quarantuno sono occupate. Ci sono anche quattro putridari, parte degli antichi processi funerari. La Chiesa non accettava la cremazione, perciò i corpi venivano collocati nel cimitero per un certo tempo, e poi le ossa venivano portate nelle cripte.\n\nLa porta d’accesso ha una storia curiosa. È di marmo e porta lo stemma dei re. In precedenza fu la lapide dell’arcivescovo Juan de Mañozca y Zamora, e conserva una biografia in latino. L’ingresso della cripta è, dunque, una tomba riutilizzata.\n\nPer visitare queste aree, l’accesso è limitato e ci sono visite guidate. Chiedi al punto informazioni della Cattedrale, perché gli orari e le tariffe cambiano. Alcune aree, come il coro, la sacrestia, la cripta e le torri, richiedono un’offerta o una tariffa.\n\nUscendo, pensa al contrasto. In alto, l’oro dell’Altare dei Re. In basso, il silenzio dei sepolcri. E sotto ogni cosa, il terreno molle che sostiene entrambi, e di cui parleremo subito."
+    },
+    "retos_observacion": {
+      "hash": "4438ea91a14e47da",
+      "texto": [
+        "Chiedi al punto informazioni se ci sono visite alla sacrestia o alla cripta",
+        "Se riesci a entrare nella cripta, cerca la porta di marmo con lo stemma e la sua iscrizione in latino",
+        "Confronta la sobrietà della sacrestia con gli altari dorati della navata"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a1b4893f7eeafd97",
+      "texto": {
+        "Pittori nella Sacrestia Maggiore": "Cristóbal de Villalpando e Juan Correa, fine del XVII secolo",
+        "Cripte": "75, occupate 41",
+        "Putridari": "4",
+        "Costruzione della cripta attuale": "dal 1938 o 1939 al 1942",
+        "Fra Juan de Zumárraga": "dal 1468 al 1548",
+        "Cardinale Ernesto Corripio Ahumada": "dal 1912 al 2008"
+      }
+    },
+    "faq_mito": {
+      "hash": "83779f3e92636fea",
+      "texto": {
+        "pregunta": "Mito: La cripta della Cattedrale custodisce i resti di tutti i viceré.",
+        "respuesta": "Realtà: La Cripta degli Arcivescovi accoglie i resti di vescovi e arcivescovi dell’arcidiocesi; i resti di Iturbide si trovano nella cappella di San Filippo di Gesù."
+      }
+    }
+  }
+}

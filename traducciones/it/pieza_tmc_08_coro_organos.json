@@ -1,0 +1,56 @@
+{
+  "id": "tmc_08_coro_organos",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "409d8a6d001014ee",
+      "texto": "Il coro, gli stalli e i due organi"
+    },
+    "frase_gancho": {
+      "hash": "6ddfe9292d7c2574",
+      "texto": "Un tempio dentro il tempio, con stalli intagliati e due organi monumentali."
+    },
+    "puente_narrativo": {
+      "hash": "3e700836d33c4c21",
+      "texto": "Prosegui verso il lato dell’Altare del Perdono, sul retro del coro."
+    },
+    "guion_corto": {
+      "hash": "22ef2aad20fca309",
+      "texto": "Al centro della navata centrale c’è un altro spazio, circondato da cancellate e da legno intagliato: il coro. Qui si sedevano i canonici per pregare e cantare. Gli stalli sono opera di Juan de Rojas, della fine del Seicento, e i loro sedili hanno rilievi intagliati. Sopra di essi si trovano i due grandi organi del periodo vicereale, le cui facciate misurano circa nove metri di larghezza per undici di altezza. In questa Cattedrale fu incoronato Agustín de Iturbide come imperatore, il ventuno luglio milleottocentoventidue, nella cappella maggiore, accanto all’altare. Nel millenovecentosessantasette un incendio danneggiò la maggior parte di questi stalli e colpì gli organi, e in seguito ci furono dei restauri."
+    },
+    "guion_largo": {
+      "hash": "59de813442ed413c",
+      "texto": "Ti trovi al centro del tempio, dove sorge uno degli spazi più speciali di una cattedrale antica: il coro. Nelle cattedrali della Nuova Spagna, il coro si trovava in mezzo alla navata, chiuso da cancellate, e qui si riunivano i canonici per pregare e cantare l’ufficio più volte al giorno.\n\nLa parte più appariscente sono gli stalli, l’insieme di sedili in legno intagliato. Li realizzò Juan de Rojas tra milleseicentonovantasei e milleseicentonovantasette, con un legno chiamato tapincerán, e hanno cinquantanove rilievi. Ogni sedile mostrava scene e figure, e si usava secondo il rango di chi lo occupava. È un tipo di opera che riunisce scultura, falegnameria e liturgia nello stesso arredo.\n\nSopra gli stalli si innalzano i due organi. Sono enormi: le loro facciate misurano circa nove metri di larghezza per undici di altezza, secondo l’INAH, e furono costruiti nel Settecento. Quelli attuali sono attribuiti a José Nassarre, e sono datati tra millesettecentotrentaquattro e millesettecentotrentasei. In precedenza c’era un organo più antico, della fine del Seicento. Con questi strumenti risuonava il culto della cattedrale più importante del vicereame.\n\nIn questa Cattedrale avvenne anche un momento politico. Agustín de Iturbide fu incoronato imperatore del Messico il ventuno luglio milleottocentoventidue. La cerimonia non si svolse nel coro, ma nella cappella maggiore, accanto all’altare, dove furono collocati i troni. Veniva da aver portato a compimento l’indipendenza l’anno precedente. Iturbide governò pochi mesi e abdicò nel milleottocentoventitré. I suoi resti riposano in un’altra cappella della Cattedrale.\n\nIl diciassette gennaio millenovecentosessantasette, un cortocircuito provocò un incendio che iniziò nell’Altare del Perdono, proprio dietro il coro. Il fuoco danneggiò la maggior parte degli stalli: andarono perduti settantacinque dei suoi novantanove sedili. Colpì anche gli organi. In seguito ci furono lavori di restauro, con interventi nel millenovecentosettantasei e tra il duemilasette e il duemilaotto.\n\nAnche la cancellata che chiude il coro ha una sua storia. Fu realizzata a Macao, nel sud della Cina, nel millesettecentoventidue, e fu collocata nella Cattedrale nel millesettecentotrenta. Dimostra che questa cattedrale ebbe pezzi fatti molto lontano.\n\nPer entrare nel coro di solito viene richiesta un’offerta, e a volte è chiuso per le celebrazioni. Se non puoi entrare, lo si apprezza molto anche dalla navata, attraverso le cancellate, e gli organi si vedono bene da qualsiasi punto del transetto.\n\nPensa a quanto suono è passato per questo luogo. Per secoli, il coro è stato la voce della Cattedrale. Dietro di esso, verso l’altare, c’è un’opera che subì anch’essa l’incendio e che ha un nome molto suggestivo: l’Altare del Perdono."
+    },
+    "retos_observacion": {
+      "hash": "a7a86f624e98a67d",
+      "texto": [
+        "Guarda verso l’alto e confronta le facciate dei due organi",
+        "Cerca negli stalli i rilievi intagliati negli schienali",
+        "Individua la cancellata del coro e osserva come chiude lo spazio"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c0bc73d810ef3d93",
+      "texto": {
+        "Stalli": "Juan de Rojas, dal 1696 al 1697, legno di tapincerán",
+        "Rilievi degli stalli": "59",
+        "Organi": "José Nassarre, dal 1734 al 1736",
+        "Facciate degli organi": "circa 9 m di larghezza per 11 m di altezza",
+        "Incoronazione di Iturbide": "21 luglio 1822, nella cappella maggiore",
+        "Incendio": "17 gennaio 1967"
+      }
+    },
+    "faq_mito": {
+      "hash": "b943cf0983a443de",
+      "texto": {
+        "pregunta": "Mito: Il coro della Cattedrale bruciò completamente nel 1967 e non esiste più.",
+        "respuesta": "Realtà: L’incendio distrusse gran parte degli stalli e colpì gli organi, ma il coro e gli organi furono restaurati in varie fasi."
+      }
+    }
+  }
+}

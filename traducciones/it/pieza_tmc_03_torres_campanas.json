@@ -1,0 +1,56 @@
+{
+  "id": "tmc_03_torres_campanas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1f470ba4a2b3120b",
+      "texto": "Le torri e le campane con un nome"
+    },
+    "frase_gancho": {
+      "hash": "8b952131b8a4622a",
+      "texto": "Trentacinque campane, e la più antica fu fusa nel millecinquecentosettantotto."
+    },
+    "puente_narrativo": {
+      "hash": "65a583829e791ee1",
+      "texto": "Fai qualche passo indietro e guarda la Cattedrale intera, da una torre all’altra. Quando sei pronto, prosegui con la prossima tappa del tuo percorso."
+    },
+    "guion_corto": {
+      "hash": "e6f62f47198a2c46",
+      "texto": "Trentacinque campane pendono da queste due torri, e tutte hanno un nome. La più antica è Santa Maria dell’Assunzione, che tutti chiamano Donna Maria. Fu fusa nel millecinquecentosettantotto e pesa circa sette tonnellate. Un’altra delle grandi è conosciuta come La Rauca. Le torri non furono terminate insieme al resto della facciata. Alla fine del diciottesimo secolo le innalzò l’architetto messicano José Damián Ortiz de Castro, e il loro coronamento ha la forma di una campana. Nella torre orientale ci sono ventitré campane, e in quella occidentale undici. Se ti capita di ascoltarle, ognuna suona in modo diverso, perché ognuna ha un peso diverso."
+    },
+    "guion_largo": {
+      "hash": "a0a6c62efc84c146",
+      "texto": "Alza lo sguardo verso le due torri. Sembrano gemelle, ma furono costruite in momenti diversi e custodiscono un tesoro che si sente più di quanto si veda.\n\nLa base e il primo corpo della torre orientale risalgono al diciassettesimo secolo. Le torri, così come le vedi, furono innalzate alla fine del diciottesimo secolo dall’architetto messicano José Damián Ortiz de Castro. Aveva vinto un concorso per dirigere i lavori, e morì prima di vederli conclusi. Manuel Tolsá, che arrivò a Città del Messico nel millesettecentonovantuno, proseguì il lavoro e lo portò a termine. Il coronamento di ogni torre imita la forma di una campana, ed è realizzato in tezontle, la pietra vulcanica rossastra che si usa molto in città.\n\nDentro le torri ci sono trentacinque campane. In quella orientale ne pendono ventitré, e in quella occidentale undici. Ce n’è un’altra in un’altra parte del tempio, vicino al coro. I campanili hanno posto per molte altre, ma non furono mai riempiti. La ragione che si racconta è che, durante la costruzione, la cosa urgente era chiudere i tetti per poter celebrare la messa, e le campane passarono in secondo piano.\n\nOgni campana ha il suo nome. La più antica è Santa Maria dell’Assunzione, che la gente conosce come Donna Maria. Fu fusa nel millecinquecentosettantotto e pesa circa sette tonnellate. Si dice che si trovi nella sua torre dal milleseicentocinquantaquattro. Un’altra campana grande è San Giuseppe, che chiamano La Rauca, e pesa poco più di quattro tonnellate. La più grande è Santa Maria di Guadalupe, di circa tredici tonnellate.\n\nIl bronzo di ogni campana, il suo peso e la sua forma cambiano il suono. Per questo, quando ne suonano molte insieme, non si sente un solo tono, ma un insieme di voci gravi e acute. Si suonano in certi momenti della giornata, e in date speciali suonano molte insieme. Tra queste si ricordano il Natale, la fine dell’anno, la Pasqua e la festa dell’Assunzione, il quindici agosto, che è la festa della patrona della Cattedrale. Se ti trovi qui durante un concerto di campane, vale la pena fermarti qualche minuto.\n\nC’è anche una curiosità di carpenteria. La scala del campanile è di cedro, con gradini incastrati e non inchiodati, e i suoi montanti sono di un solo pezzo. Si conserva così dai tempi in cui l’opera fu terminata. Chi sale ha una vista ampia sulla città e sulla piazza.\n\nE salire è possibile. Ci sono visite guidate al campanile, che si prenotano all’ingresso sul lato orientale della Cattedrale, con un piccolo contributo. Gli orari e i prezzi cambiano, quindi conviene chiedere il giorno stesso. Se preferisci restare in basso, basta alzare lo sguardo e contare le aperture da cui pendono le campane.\n\nUn ultimo dettaglio. In una di queste torri fu collocata la Pietra del Sole fino al milleottocentottantacinque. Quella pietra ha una storia propria, legata a questa piazza. Per ora, fai qualche passo indietro e guarda la Cattedrale intera, da una torre all’altra. Quando sei pronto, prosegui con la prossima tappa del tuo percorso."
+    },
+    "retos_observacion": {
+      "hash": "745d211a3c6d758d",
+      "texto": [
+        "Conta le torri e cerca in alto le aperture da cui pendono le campane",
+        "Osserva il coronamento di ogni torre: ha la forma di una campana",
+        "Se ti trovi qui all’ora di un concerto di campane, ascolta quanti toni diversi riesci a distinguere"
+      ]
+    },
+    "especificaciones": {
+      "hash": "288fdac5e96e6f5f",
+      "texto": {
+        "Campane in totale": "35 (23 nella torre orientale, 11 in quella occidentale e una in un’altra parte)",
+        "Santa Maria dell’Assunzione, Donna Maria": "fusa nel 1578, circa 7 tonnellate",
+        "San Giuseppe, La Rauca": "poco più di 4 tonnellate",
+        "Torri": "Ortiz de Castro, dal 1787 al 1791, e Manuel Tolsá",
+        "Coronamento": "a forma di campana, in tezontle",
+        "Scala del campanile": "cedro"
+      }
+    },
+    "faq_mito": {
+      "hash": "f3379d788e70aff9",
+      "texto": {
+        "pregunta": "Mito: Le torri della Cattedrale furono costruite insieme alla facciata principale.",
+        "respuesta": "Realtà: La parte centrale della facciata fu conclusa nel 1675, e le torri furono innalzate alla fine del XVIII secolo."
+      }
+    }
+  }
+}

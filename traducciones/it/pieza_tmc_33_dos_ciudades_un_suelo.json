@@ -1,0 +1,52 @@
+{
+  "id": "tmc_33_dos_ciudades_un_suelo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f38709486341dda6",
+      "texto": "Due città in un solo suolo"
+    },
+    "frase_gancho": {
+      "hash": "19628bfd938714aa",
+      "texto": "Dal millenovecentotredici al duemilaquindici, la città non ha mai finito di essere scoperta."
+    },
+    "puente_narrativo": {
+      "hash": "c796504652a996d4",
+      "texto": "Fermati un momento nella piazza, con la Cattedrale di fronte e le rovine a pochi passi."
+    },
+    "guion_corto": {
+      "hash": "0790e38670b6d1ff",
+      "texto": "Questa visita termina dove è iniziata: in un unico suolo con due città. Sotto c’era Tenochtitlan, con il suo tempio, e sopra si sono innalzate la Cattedrale e la città vicereale. Nel millenovecentotredici e nel millenovecentoquattordici, Manuel Gamio scoprì una parte del tempio. Nel millenovecentosettantotto comparve Coyolxauhqui. Nel duemilasei, Tlaltecuhtli. Nel duemilaquindici, il Huei Tzompantli. Ogni ritrovamento ha mostrato che il centro della città custodisce ancora molto, e che c’è ancora molto da scoprire. Sono quattro momenti che hanno cambiato ciò che si sapeva di questo luogo. La Cattedrale, a sua volta, ha dovuto essere corretta per non affondare ulteriormente, e le due storie condividono lo stesso terreno."
+    },
+    "guion_largo": {
+      "hash": "5116f5df6474d958",
+      "texto": "Hai percorso una Cattedrale e un tempio, e le due storie ti hanno condotto a un unico suolo. Quest’ultima tappa serve a guardare l’insieme con calma.\n\nPartiamo dall’inizio. Prima della conquista, i Mexica innalzarono qui il loro tempio principale, il Huey Teocalli. Era il centro del loro mondo. Dopo il millecinquecentoventuno, gli spagnoli distrussero i templi e usarono le loro pietre per costruire la nuova città. Una di queste costruzioni fu la Cattedrale, che venne innalzata nel corso dei secoli, a partire dall’epoca vicereale. Le sue volte furono chiuse tra il millecinquecentottantuno e il milleseicentosessantasette.\n\nPassarono secoli in cui il tempio rimase sepolto. I primi indizi di ciò che c’era sotto comparvero nel millesettecentonovanta, con sculture mexica trovate nella piazza. Poi, tra il millenovecentotredici e il millenovecentoquattordici, l’archeologo Manuel Gamio scoprì una parte del tempio. Era l’inizio di qualcosa che non era ancora finito, e che cambiò il modo di guardare il centro della città.\n\nNel millenovecentosettantotto, dei lavoratori di Luce e Forza trovarono il monolito di Coyolxauhqui, e prese il via il Progetto Templo Mayor. Nel duemilasei comparve Tlaltecuhtli, che oggi accoglie i visitatori nel vestibolo. Nel duemilaquindici, il Programma di Archeologia Urbana trovò il Huei Tzompantli, in via Guatemala. Ogni scoperta ha cambiato ciò che si sapeva. Quella che verrà continuerà a cambiarlo, perché l’esplorazione non è finita.\n\nNel frattempo, anche la Cattedrale ha la sua storia con il suolo. Il terreno molle sotto di essa è sprofondato in modo irregolare fin dalla costruzione. Dal millenovecentonovantatre lo si corregge con una tecnica chiamata sottoescavazione controllata, che consiste nel rimuovere l’argilla poco per volta. È un altro modo di convivere con ciò che si trova sotto la città. L’affondamento e i ritrovamenti sono due facce dello stesso terreno.\n\nC’è un’idea che unisce tutto questo. I Mexica costruirono il loro tempio per strati, ciascuno sopra il precedente. La città di oggi ha fatto lo stesso: uno strato coloniale sopra quello mexica, e uno moderno sopra quello coloniale. Tu cammini sull’ultimo. Ogni strato ha lasciato tracce, e gli archeologi le leggono con pazienza, una per una.\n\nSe ti resta tempo, siediti qualche minuto nella piazza. Guarda la Cattedrale, a nord della piazza, e ricorda che a pochi passi verso oriente si trovano le rovine del Templo Mayor. Sono due modi di intendere il mondo, e nessuno dei due ha cancellato del tutto l’altro. Uno è in piedi, l’altro è aperto sotto il livello della strada.\n\nGrazie per aver percorso questo luogo. Se tornerai un altro giorno, noterai cose che prima ti erano sfuggite. C’è sempre qualcosa di nuovo da vedere nel suolo di questa città. E se passi dalla Cattedrale, ricorda che l’edificio stesso è ancora in movimento, tenuto sotto controllo con degli strumenti."
+    },
+    "retos_observacion": {
+      "hash": "8be81b594ed21583",
+      "texto": [
+        "Guarda la Cattedrale dalla piazza e individua dove si trovano le rovine del Templo Mayor, a oriente",
+        "Cerca la differenza di livello tra la strada e le rovine",
+        "Ricorda i 4 ritrovamenti chiave: 1913, 1978, 2006 e 2015"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8f8fbe0c19b5a9f3",
+      "texto": {
+        "Ritrovamenti": "1790, sculture nella piazza",
+        "Cattedrale": "sottoescavazione controllata dal 1993"
+      }
+    },
+    "faq_mito": {
+      "hash": "aa581f112f47b823",
+      "texto": {
+        "pregunta": "Mito: Tutto ciò che si trovava sotto il centro è già stato scoperto.",
+        "respuesta": "Realtà: I ritrovamenti del 1978, 2006 e 2015 mostrano che l’esplorazione continua; non si sa che cosa verrà alla luce dopo."
+      }
+    }
+  }
+}

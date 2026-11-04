@@ -1,0 +1,54 @@
+{
+  "id": "tmc_27_sala_3_tributo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "de7c0ebcce50c657",
+      "texto": "Sala tre: tributo e commercio"
+    },
+    "frase_gancho": {
+      "hash": "21eacfa29d5a2494",
+      "texto": "Un impero che riscuoteva tributi e mercanti che viaggiavano lontano."
+    },
+    "puente_narrativo": {
+      "hash": "ef06fdfe87d006b2",
+      "texto": "Entra nella Sala quattro, quella dedicata a Huitzilopochtli, dove si trovano i pezzi del lato sud del tempio."
+    },
+    "guion_corto": {
+      "hash": "0fa082c558c08b1f",
+      "texto": "La Sala tre spiega come Tenochtitlan divenne ricca. Il dominio mexica su altri popoli si estese tra il millequattrocentotrenta e il millecinquecentodiciannove, e da quei popoli arrivava tributo alla città. La sala parla anche dei pochtecas, i mercanti, che viaggiavano verso regioni lontane. Tra gli oggetti c’è una maschera olmeca, molto più antica dei Mexica, che loro conservarono come un pezzo di valore, e questo permette di apprezzare il loro interesse per il passato. È la sala che aiuta a capire perché nel Templo Mayor compaiano oggetti provenienti da tanti luoghi diversi. Mostra anche perché la città avesse bisogno di ampie rotte di scambio."
+    },
+    "guion_largo": {
+      "hash": "00f73c9cdc4a2efb",
+      "texto": "Nella Sala tre lo sguardo si apre dal tempio all’impero. Il suo tema è il tributo e il commercio, cioè come la ricchezza arrivava a Tenochtitlan.\n\nIl dominio mexica su altri popoli si estese tra il millequattrocentotrenta e il millecinquecentodiciannove. In quasi nove decenni, la città arrivò a essere il centro di un territorio molto vasto. Dai popoli dominati si riceveva tributo, cioè beni che dovevano essere consegnati regolarmente a Tenochtitlan.\n\nQuesto aiuta a capire il Templo Mayor. Dietro ogni offerta c’era una rete di strade, mercati e tributari che la rendeva possibile. Quando guardi un pezzo, pensa anche al cammino che ha percorso per arrivare fin qui. Un edificio così grande, con offerte così varie, poteva reggersi solo con risorse che venivano da lontano. Questa sala offre il contesto per pensare da dove potessero venire gli oggetti che hai visto nella sala precedente.\n\nLa sala parla anche dei pochtecas. Erano i mercanti mexica, che viaggiavano verso regioni lontane per scambiare e procurarsi prodotti. I pochtecas avevano un ruolo importante, perché non portavano soltanto merci, ma riportavano anche notizie sui luoghi che attraversavano. Quell’informazione era preziosa per una città con interessi in un territorio così grande. I mercanti erano anche gli occhi della città lontano da essa. Il loro lavoro univa il commercio con l’informazione e con il potere.\n\nTra gli oggetti della sala c’è una maschera olmeca. Gli Olmechi vissero molti secoli prima dei Mexica, nella regione del Golfo del Messico. Il fatto che un pezzo olmeco compaia nel Templo Mayor è un dato molto interessante. Significa che i Mexica conservarono, o procurarono, oggetti di culture molto più antiche, e che davano loro valore.\n\nPensa a ciò che questo dice di loro come società. Non si vedevano come un popolo senza passato. Conservavano, e anche seppellivano, pezzi molto antichi. Questo ci parla di come intendevano il tempo e l’eredità di altri popoli.\n\nQuesta sala cambia anche l’immagine che potremmo avere del Templo Mayor come luogo solo rituale. Era inoltre un centro politico ed economico, in cui si mostrava il potere della città davanti ai popoli dominati.\n\nSe osservi le vetrine con calma, chiediti da dove verrebbe ogni oggetto. Nota la varietà di materiali e di forme, e i cartellini che li accompagnano. Gli oggetti vengono da luoghi diversi e riflettono stili diversi. Quella mescolanza è un indizio delle reti di scambio che sostenevano la vita della capitale. Nessuna città di quella scala poteva vivere solo di ciò che produceva la sua isola.\n\nQuando finisci questa sala, passa con calma alla successiva. Lì ti aspetta il dio più importante della città: Huitzilopochtli."
+    },
+    "retos_observacion": {
+      "hash": "5994c2bff30b947a",
+      "texto": [
+        "Cerca la maschera olmeca e pensa a quanti secoli separano gli Olmechi dai Mexica",
+        "Osserva la varietà di materiali nelle vetrine",
+        "Individua il materiale di due oggetti e chiediti da quale regione potrebbero provenire"
+      ]
+    },
+    "especificaciones": {
+      "hash": "34a01ad3b1658235",
+      "texto": {
+        "Sala": "3, Tributo e commercio",
+        "Dominio mexica": "dal 1430 al 1519",
+        "Comerciantes": "pochtecas",
+        "Objeto destacado": "maschera olmeca"
+      }
+    },
+    "faq_mito": {
+      "hash": "b13891c69822b14f",
+      "texto": {
+        "pregunta": "Mito: Il Templo Mayor era solo un centro religioso.",
+        "respuesta": "Realtà: Era anche un centro politico ed economico, sostenuto dal tributo dei popoli dominati e dal commercio."
+      }
+    }
+  }
+}
