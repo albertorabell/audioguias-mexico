@@ -1,0 +1,55 @@
+{
+  "id": "cue_08_cuexcomate",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2f8efde1b7f0dfa1",
+      "texto": "Cuexcomate, glinany spichlerz"
+    },
+    "frase_gancho": {
+      "hash": "7cad580475a9a61a",
+      "texto": "Wielkie gliniane naczynie do przechowywania kukurydzy, stojące pod gołym niebem na tarasie pierwszego piętra."
+    },
+    "puente_narrativo": {
+      "hash": "d36bba40646320cf",
+      "texto": "Opuść taras i idź dalej wybraną przez siebie trasą."
+    },
+    "guion_corto": {
+      "hash": "6d63da5611d1d15a",
+      "texto": "Gdzie przechowuje się kukurydzę, żeby nie zmoczył jej deszcz i nie zjadły jej myszy? W Morelos przez pokolenia odpowiedzią był cuexcomate. To tradycyjny spichlerz z gliny, w kształcie wielkiego garnka, wzniesiony nad ziemią. Tutaj, na tarasie pod gołym niebem na pierwszym piętrze, możesz zobaczyć jeden z nich. Muzeum prezentuje go w Sali Biokulturowość, razem z motkami wełny z Hueyapan. Oba przedmioty opowiadają, jak natura stała się kulturą: glina, kukurydza i wełna, obrabiane rękami ludzi z tego regionu. To architektura bez kamiennych murów i łuków, a mimo to rozwiązała problem, który mają wszystkie ludy rolnicze."
+    },
+    "guion_largo": {
+      "hash": "b22159afade07b7c",
+      "texto": "Słowo cuexcomate pochodzi z nahuatl cuexcomatl i nazywa tradycyjny glinany spichlerz z Morelos oraz z innych regionów środkowego Meksyku. Jeśli widzisz taki spichlerz po raz pierwszy, wygląda jak gigantyczne naczynie. W rzeczywistości jest to funkcjonalna budowla, pomyślana do przechowywania kukurydzy i innych zbóż.\n\nNa tym tarasie na pierwszym piętrze pałacu stoi jeden z nich. Jest pod gołym niebem, podczas gdy muzeum prezentuje go wewnątrz sali, w tej poświęconej biokulturowości. Wyjaśnia się tam różne aspekty kultury Morelos, takie jak cuexcomate i motki wełny z Hueyapan. Biokulturowość oznacza relację między naturą a kulturą: to, jak lud wykorzystuje to, co ma wokół siebie, i przemienia w tradycję.\n\nŻeby zrozumieć cuexcomate, pomyśl o problemie, który rozwiązuje. Po żniwach kukurydza musi wystarczyć na wiele miesięcy. Jeśli zawilgotnieje, zgnije. Jeśli znajdą ją gryzonie i owady, przepadnie. Spichlerz wzniesiony nad ziemią, zrobiony z gliny i przykryty dachem, chroni przed jednym i drugim. Zazwyczaj buduje się go z gliny zmieszanej z suchą trawą, stawia na kamiennej podstawie i ma u góry otwór do napełniania.\n\nKukurydza jest podstawą życia w tych ludach od ponad trzech tysięcy lat, jak opowiadają sale na parterze. Dobre jej przechowanie oznacza zapewnienie jedzenia rodzinie na cały rok. Dlatego cuexcomate to dużo więcej niż ładny przedmiot: to część bezpieczeństwa wiejskiego domu.\n\nWarto porównać go z tym, o czym opowiada Diego Rivera na muralach tego samego pałacu. [Pierwszy fragment muralu](cue_09_rivera_conquista) pokazuje cukrownie, które pochłonęły wiele ziem. Cuexcomate przedstawia drugie oblicze ziemi: tę, która żywi ludy.\n\nMuzeum otwarto ponownie w dwa tysiące dwudziestym trzecim roku z jasną ideą: mówić o ludziach, którzy nadali kształt terytorium, a nie tylko o wielkich datach. Cuexcomate dobrze pasuje do tej idei. Nie ma sławnego autora: jest dziełem wspólnej tradycji, która przechodziła z rodziny na rodzinę.\n\nMotki wełny z Hueyapan, które towarzyszą cuexcomate w sali, opowiadają o czymś podobnym. Hueyapan to społeczność w Morelos znana ze swojej pracy tkackiej. Wełnę przędzie się i farbuje ręcznie. Ani glina, ani wełna nie pochodzą z fabryk: pochodzą z ziemi i z umiejętności ludzi.\n\nPrzyjrzyj się kształtowi. Cuexcomate to glinany spichlerz, szeroki w brzuchu i wąski przy otworze, wzniesiony na podstawie, żeby wilgoć nie zniszczyła ziarna. To proste rozwiązanie, które przez miesiące zachowuje kukurydzę.\n\nZanim pójdziesz dalej, spójrz z tego tarasu w stronę miasta. To dobre miejsce, żeby pomyśleć, że Cuernavaca, ta z kolonialnymi budynkami i brukowanymi ulicami, jest też otoczona wsiami, które żyją z pracy na roli. Glinany spichlerz reprezentuje je wszystkie."
+    },
+    "retos_observacion": {
+      "hash": "55c9f6fff02ef385",
+      "texto": [
+        "Obejdź cuexcomate dookoła i przyjrzyj się jego kształtowi wielkiego garnka: jak myślisz, którędy wyjmuje się kukurydzę?",
+        "Znajdź część, która oddziela go od ziemi, i zastanów się, dlaczego warto podnieść ziarno nad ziemię",
+        "Spójrz z tarasu w stronę miasta i pomyśl o wsiach w Morelos, które wciąż żyją z kukurydzy"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b8ccce5fe54ab7ca",
+      "texto": {
+        "Obiekt": "cuexcomate, tradycyjny spichlerz z Morelos",
+        "Słowo": "z nahuatl cuexcomatl",
+        "Materiał": "glina",
+        "Lokalizacja": "taras pod gołym niebem na pierwszym piętrze pałacu",
+        "Sala muzeum, w której jest prezentowany": "Biokulturowość, razem z motkami wełny z Hueyapan"
+      }
+    },
+    "faq_mito": {
+      "hash": "7cc8fe99d7bcf0d4",
+      "texto": {
+        "pregunta": "Mit: Cuexcomate to naczynie ozdobne.",
+        "respuesta": "Rzeczywistość: To spichlerz. Jego kształt chroni kukurydzę przed deszczem i zwierzętami."
+      }
+    }
+  }
+}

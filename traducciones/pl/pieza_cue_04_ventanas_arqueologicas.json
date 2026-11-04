@@ -1,0 +1,54 @@
+{
+  "id": "cue_04_ventanas_arqueologicas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c6e2edf17984e41b",
+      "texto": "Okna archeologiczne i monolity"
+    },
+    "frase_gancho": {
+      "hash": "a7c37d19822e087b",
+      "texto": "Pod pałacem Cortésa wciąż ukryty jest plac Tlahuiców z platformami, schodami i okrągłymi budowlami."
+    },
+    "puente_narrativo": {
+      "hash": "1680ce1c942e210c",
+      "texto": "Idź dalej przez muzeum do sali krajobrazu: z placu Tlahuiców przechodzisz do przyrody Morelos."
+    },
+    "guion_corto": {
+      "hash": "924ac6a4cede8ec3",
+      "texto": "Jest pewien szczegół, którego prawie nikt nie zauważa: pałac pełen jest okien w podłodze i w murach. Nie służą do patrzenia na zewnątrz, lecz w dół. Przez nie widać pozostałości przedhiszpańskiego placu, z platformami, ramami schodów, stopniami i okrągłymi budowlami z kamienia i stiuku. Archeolodzy wyróżniają cztery etapy budowy tlahuickiej, a te okna pozwalają zobaczyć trzeci z nich. Naprzeciw wejścia, pod trawą, widać posadzkę placu i okrągły ołtarz, który ledwie wystaje ponad murawę. Po zachodniej stronie pałacu stoją trzy rzeźbione monolity: Orzeł z Chapultepec, Jaszczurka z San Antón i Chimalli. To kamienie, które trafiły tu z innych miejsc."
+    },
+    "guion_largo": {
+      "hash": "584f9f8af3bae7b6",
+      "texto": "Cuernavaca nazywała się Cuauhnáhuac, a jest to nazwa w języku nahuatl, którą zwykle tłumaczy się jako blisko drzew. Gdy Hiszpanie ją wymawiali, przekształciła się w Cuernavaca. Ale zanim pojawiła się nowa nazwa, był plac. I ten plac nie zniknął bez śladu: wciąż tu jest, pod pałacem i wokół niego.\n\nMiędzy tysiąc dziewięćset siedemdziesiątym pierwszym a tysiąc dziewięćset siedemdziesiątym trzecim rokiem, podczas renowacji prowadzonej przez INAH, archeolog Jorge Angulo Villaseñor kierował w tym miejscu wykopaliskami. Odkryto warstwy z epok tlahuickiej i Mexica, czyli dwóch ludów, które korzystały z tego miejsca przed przybyciem Hiszpanów. Od tamtej pory muzeum zachowuje kilka okien archeologicznych.\n\nINAH wyjaśnia, że budowla tlahuicka miała cztery etapy. To, co widać przez okna, należy do trzeciego. Są tam platformy, ramy schodów, stopnie i okrągłe budowle z kamienia i stiuku. Stiuk to mieszanka na bazie wapna, którą pokrywano mury i posadzki. Jeśli spojrzysz uważnie i bez pośpiechu, wyobraź sobie to miejsce pełne ludzi: był to główny plac ośrodka władzy i składania trybutu.\n\nNaprzeciw wejścia do muzeum wykopaliska odsłoniły posadzkę placu. Dziś porasta ją trawa, ale można dostrzec okrągły ołtarz, który ledwie wystaje ponad murawę. Łatwo przejść nad nim, nie zauważając go.\n\nPo zachodniej stronie pałacu stoją także trzy monolity. Pierwszy to Orzeł z Chapultepec, drugi to Jaszczurka z San Antón, a trzeci to Chimalli, znany również jako Kamień Uroków. Chimalli to słowo w języku nahuatl oznaczające tarczę. W tysiąc dziewięćset dziewięćdziesiątym drugim roku Chimalli przeniesiono na plac przedhiszpański, gdzie teraz jest wystawiony obok pozostałości.\n\nTlahuicowie mówili po nahuatl i mieszkali w państewkach rozsianych po terenie dzisiejszego Morelos. Cuauhnáhuac było jednym z ich ośrodków. Tecpan był jednocześnie pałacem i urzędem: tam mieszkał władca i tam przyjmowano trybut. Wzniesienie pałacu Cortésa właśnie w tym miejscu nie było przypadkiem, bo miejsce to było już ośrodkiem władzy.\n\nAby odczytać te okna, warto myśleć jak archeolog. Dawne budowle nakładają się na siebie jak strony księgi. To, co najstarsze, zostaje na dole, a to, co najnowsze, na górze. Gdy INAH mówi o czterech etapach tlahuickich, najprawdopodobniej każdy z nich wzniesiono na poprzednim. Dlatego okna są tak cenne: pozwalają zobaczyć jedną kartę księgi, nie wyrywając jej.\n\nMyśl, którą warto zabrać ze sobą, jest prosta. Kolonialny pałac może wyglądać na jedno dzieło szesnastego wieku. Ale ten wzniesiono w miejscu, które służyło ludziom od stuleci. Patrzeć w dół, przez okna, to pamiętać, że Cuernavaca ma dwie historie, jedną na drugiej. Dlatego warto zaglądać do nich powoli. To, co widzisz przez szybę, nie jest ozdobą. To ziemia, po której stąpali inni ludzie, zanim powstał ten budynek."
+    },
+    "retos_observacion": {
+      "hash": "0b68597c16ccd15e",
+      "texto": [
+        "Poszukaj okien w podłodze lub w murach i spróbuj odróżnić platformy od stopni",
+        "Znajdź okrągły ołtarz, który ledwie wystaje ponad trawę naprzeciw wejścia",
+        "Odszukaj trzy monolity po zachodniej stronie i znajdź ten w kształcie tarczy"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7495d770f116598b",
+      "texto": {
+        "Plac przedhiszpański": "cztery etapy budowy tlahuickiej; okna ukazują trzeci",
+        "Widoczne pozostałości": "platformy, ramy schodów, stopnie i okrągłe budowle z kamienia i stiuku",
+        "Monolity po zachodniej stronie": "Orzeł z Chapultepec, Jaszczurka z San Antón i Chimalli",
+        "Wykopaliska": "od 1971 do 1973 roku, pod kierunkiem Jorge Angulo Villaseñora"
+      }
+    },
+    "faq_mito": {
+      "hash": "4ecaff91be1a3f89",
+      "texto": {
+        "pregunta": "Mit: Pałac Cortésa zbudowano na pustym terenie.",
+        "respuesta": "Rzeczywistość: Wzniesiono go na tecpan i placu Tlahuiców. Pozostałości wciąż widać w oknach archeologicznych."
+      }
+    }
+  }
+}

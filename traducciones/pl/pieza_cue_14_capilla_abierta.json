@@ -1,0 +1,55 @@
+{
+  "id": "cue_14_capilla_abierta",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "44aa180a284221cd",
+      "texto": "Kaplica Otwarta, czyli Kaplica Indian"
+    },
+    "frase_gancho": {
+      "hash": "8e4f2d5664a98721",
+      "texto": "Kaplica bez ściany od frontu, aby tysiące ludzi mogły uczestniczyć we mszy pod gołym niebem."
+    },
+    "puente_narrativo": {
+      "hash": "2c678731f9e627c7",
+      "texto": "Idź dalej swoją trasą: może cię zaprowadzić do nawy świątyni albo prosto do murali przedstawiających męczenników."
+    },
+    "guion_corto": {
+      "hash": "7dced689ebc1fc4d",
+      "texto": "Wyobraź sobie kościół, w którym brakuje jednej ściany. Tak działa kaplica otwarta: ma dach i ołtarz, ale front jest otwarty na atrium, aby mszę było widać z zewnątrz. Franciszkanie zbudowali ją, aby nawracać ludność tubylczą, zbyt liczną, by zmieścić się w zamkniętej świątyni. Dlatego nazywa się ją też Kaplicą Indian. Źródła opisują ją jako przestronną i piękną, a także jako prawdopodobnie najstarszą, jaka wciąż stoi w Cuernavace. Wzniesiono ją po tym, jak zburzono kaplicę Świętego Józefa Tubylców w Mieście Meksyk. Stąd jej druga nazwa, Kaplica Otwarta Świętego Józefa. México Desconocido uważa ją za największą tego typu w Ameryce Łacińskiej."
+    },
+    "guion_largo": {
+      "hash": "123411dbebe785bc",
+      "texto": "Zamknięty kościół nie jest dla wszystkich. W XVI wieku bracia franciszkanie mieli przed sobą tysiące ludzi, którzy mówili po nahuatl i w innych językach, a żadna świątynia nie mogła ich pomieścić. Rozwiązaniem było odwrócenie architektury: zamiast wprowadzać ludzi do kościoła, wyniesiono mszę na atrium.\n\nTo rozwiązanie nazywa się kaplicą otwartą. Ma prezbiterium, czyli przestrzeń ołtarza, zadaszone i otwarte od frontu na atrium. Kapłan odprawiał nabożeństwo w środku, a tłum śledził mszę z zewnątrz. W Cuernavace ta kaplica jest znana jako Kaplica Otwarta, Kaplica Indian i Kaplica Świętego Józefa.\n\nNazwa Świętego Józefa ma swoje uzasadnienie. W Mieście Meksyk istniała słynna kaplica Świętego Józefa Tubylców, przeznaczona dla ludności tubylczej. Według historyka sztuki George’a Kublera kaplica w Cuernavace została wzniesiona po tym, jak tamtą zburzono. Dlatego można ją uważać za spadkobierczynię tamtej. Dokładna data powstania tej budowli nie jest dobrze ustalona.\n\nOpisy zgadzają się w jednym: to kaplica szeroka, przyzwoitych rozmiarów, i prawdopodobnie najstarsza zachowana w mieście. Czasopismo México Desconocido idzie dalej i twierdzi, że jest to najstarsza i największa kaplica tego typu w Ameryce Łacińskiej. Nie udało nam się potwierdzić tego twierdzenia w innym źródle, więc podajemy je jako opinię, a nie jako fakt.\n\nUNESCO wyjaśnia, że klasztory z XVI wieku miały kaplice otwarte o bardzo różnych rozwiązaniach. Niektóre są zwykłymi niszami. Inne, jak ta, to duże przestrzenie z arkadami. Cel był zawsze ten sam: aby ceremonia docierała do całej wspólnoty.\n\nAby wypełnić atrium, bracia musieli sprawić, by ich zrozumiano. Uczyli się języków tubylczych i posługiwali się obrazami, pieśniami i przedstawieniami. W dni świąteczne przybywali ludzie z pobliskich wsi. Atrium zamieniało się wtedy w wielki plac, a kaplica otwarta w jego scenę.\n\nTrzeba też powiedzieć, co oznacza nazwa Kaplica Indian. To nazwa z okresu wicekrólewskiego, która odnosi się do ludności tubylczej, do której kaplica była skierowana. Dziś używamy jej, aby opisywać historię, a nie by kogokolwiek klasyfikować.\n\nPopatrz na kaplicę jak na scenę. Nie ma drzwi, które zamykałyby ją od strony atrium. To otwarcie tłumaczy jej funkcję: celebrację mogło śledzić z zewnątrz wielu ludzi jednocześnie.\n\nJak zobaczyłeś na poprzednim przystanku, atrium było istotną częścią całego zespołu. Zrozumieć tę kaplicę znaczy zrozumieć, że kościół zaczynał się tutaj na zewnątrz. Ściana bez drzwi może powiedzieć tyle samo co portal z reliefami.\n\nNa koniec zobacz, ile miejsca jest przed kaplicą. Tam stali ludzie. Ta esplanada pełniła rolę nawy kościoła, a niebo rolę sklepienia."
+    },
+    "retos_observacion": {
+      "hash": "fd287a1a5b7c4972",
+      "texto": [
+        "Znajdź otwarty front kaplicy i oszacuj, ilu ludzi mogłoby śledzić mszę z atrium",
+        "Spójrz na dach i arkady i zauważ, która część jest zadaszona, a która nie",
+        "Porównaj tę kaplicę z fasadą świątyni: która twoim zdaniem powstała wcześniej?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d47326c72a09e58d",
+      "texto": {
+        "Typ": "franciszkańska kaplica otwarta z XVI wieku",
+        "Nazwy": "Kaplica Otwarta, Kaplica Indian i Kaplica Świętego Józefa",
+        "Źródło nazwy": "kaplica Świętego Józefa Tubylców w Mieście Meksyk",
+        "Funkcja": "odprawianie mszy dla tłumów pod gołym niebem",
+        "Stan": "prawdopodobnie najstarsza, jaka wciąż stoi w Cuernavace"
+      }
+    },
+    "faq_mito": {
+      "hash": "3d21e49a22015f19",
+      "texto": {
+        "pregunta": "Mit: Kaplica Indian była tylko dla tubylców, a nie dla innych.",
+        "respuesta": "Rzeczywistość: Nazwa pochodzi z okresu wicekrólewskiego i wskazuje, do kogo była skierowana ewangelizacja, czyli do większościowej ludności tubylczej. Nie mówi, kto mógł wejść."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "cue_19_museo_arte_sacro",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92411ceaa71effe9",
+      "texto": "Muzeum Sztuki Sakralnej"
+    },
+    "frase_gancho": {
+      "hash": "de9da99f60f9555b",
+      "texto": "Dziewięćdziesiąt dwa obiekty z wieków od szesnastego do dwudziestego, zebrane, by chronić religijną sztukę całego stanu Morelos."
+    },
+    "puente_narrativo": {
+      "hash": "f060b867381c0573",
+      "texto": "Idź dalej swoją trasą: może cię zaprowadzić do świątyni Trzeciego Zakonu albo do Ogrodu Borda."
+    },
+    "guion_corto": {
+      "hash": "ce5f45c66bec1202",
+      "texto": "Dziewięćdziesiąt dwa obiekty mieszczą się w tym muzeum, które jest małe, ale skoncentrowane. Znajduje się w katedrze i zostało otwarte w dwa tysiące osiemnastym roku. Zbiera obrazy, paramenty i rzeźby z wieków od szesnastego do dwudziestego, wszystko to religijna sztuka wicekrólewska z Morelos. Inicjatywę podjęła Narodowa Rada „Adoptuj dzieło sztuki”, razem z diecezją, INAH i INBA, a rząd stanowy sfinansował znaczną część. To nie pierwsza taka próba. W tysiąc dziewięćset jedenastym roku biskup Francisco Plancarte y Navarrete założył w Cuernavaca inne muzeum sztuki sakralnej. Kolekcja katedry obejmuje obrazy przypisywane Juanowi Correi, Juanowi de Mirandzie i Tomásowi de Sosie. Jest tu także osiemnastowieczna płaskorzeźba z pozłacanego drewna, przedstawiająca rany świętego Franciszka."
+    },
+    "guion_largo": {
+      "hash": "ae0ad46a36bf7542",
+      "texto": "Określenie „sztuka sakralna” brzmi odlegle, ale to, co znajdziesz tutaj, jest bardzo bliskie: przedmioty, których używali prawdziwi ludzie, żeby się modlić, świętować i pamiętać. Muzeum Sztuki Sakralnej mieści się w katedrze. Zostało otwarte w dwa tysiące osiemnastym roku jako godne miejsce, w którym przechowuje się religijną sztukę wicekrólewską z Morelos. Sztuka wicekrólewska to ta, która powstawała, gdy Meksyk był Nową Hiszpanią.\n\nTo małe muzeum, z około dziewięćdziesięcioma dwoma obiektami: obrazami, paramentami i rzeźbami z wieków od szesnastego do dwudziestego. Paramenty to tkaniny i przedmioty, których używają kapłani podczas ceremonii. Liczba może się zmieniać z czasem, ale daje wyobrażenie o skali: to nie ogromna galeria, lecz wybór.\n\nPrzedsięwzięcie zainicjowała Narodowa Rada „Adoptuj dzieło sztuki”, organizacja, która pracowała w katedrze już od lat dziewięćdziesiątych. Uczestniczyła w nim diecezja Cuernavaca, wraz z INAH i INBA. Gubernator Graco Ramírez sfinansował dużą część projektu, według komunikatu prasowego z otwarcia.\n\nCuernavaca miało już takie muzeum. W tysiąc dziewięćset jedenastym roku drugi biskup diecezji, Francisco Plancarte y Navarrete, założył Muzeum Sztuki Sakralnej. Pewna badaczka, María Celia Fontana, nie precyzuje, czy mieściło się w katedrze. Ważny jest sam pomysł: od ponad stu lat diecezja chciała zbierać i pokazywać swoje skarby.\n\nJakie dzieła kryje kolekcja katedry? Fontana wspomina o obrazach przypisywanych Juanowi Correi, Juanowi de Mirandzie i Tomásowi de Sosie, artystom Nowej Hiszpanii. Jest tu także osiemnastowieczna płaskorzeźba z drewna polichromowanego i złoconego, nieznanego autora. Przedstawia stygmatyzację świętego Franciszka: chwilę, w której według tradycji święty otrzymał w swoim ciele rany Chrystusa. Ta płaskorzeźba jest bardzo podobna do tej, która zdobi portal [świątyni Trzeciego Zakonu](cue_20_tercera_orden). Nie możemy zapewnić, które dzieła znajdują się dziś w sali; warto zapytać o to przy wejściu.\n\nW tysiąc dziewięćset dziewięćdziesiątym drugim roku kilka dzieł z katedry poddano renowacji w ramach programu „Adoptuj dzieło sztuki”, kierowanego przez Teresę Loerę. Te prace przygotowały grunt pod muzeum.\n\nWśród rzeczy, którym warto się przyjrzeć, zwróć uwagę, jak odróżnia się jednego świętego od drugiego. Każdy zwykle nosi przedmiot, który go identyfikuje, jak klucz, palmę czy księgę. Te atrybuty pozwalały rozpoznać świętych z daleka.\n\nPewne pytanie pomaga patrzeć na tego rodzaju sztukę: po co ją stworzono? Obraz ze świętymi mógł opowiadać historie ludziom, którzy nie umieli czytać. Paramenty służyły podczas uroczystości. Rzeźbę wynoszono w procesji. Kiedy myślisz o tym w ten sposób, sztuka sakralna przestaje być przedmiotem za szybą i znów staje się częścią życia wspólnoty."
+    },
+    "retos_observacion": {
+      "hash": "211bb5f498257ec2",
+      "texto": [
+        "Znajdź obraz ze świętymi i zapytaj, jaką historię opowiada",
+        "Znajdź paramenty liturgiczne i przyjrzyj się tkaninie, haftowi lub kolorowi",
+        "Jeśli jest tu płaskorzeźba z pozłacanego drewna, porównaj postać z portalem świątyni Trzeciego Zakonu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8c72f331ae25dcb1",
+      "texto": {
+        "Otwarcie": "2018",
+        "Kolekcja": "92 obiekty z wieków od XVI do XX, według Lonely Planet",
+        "Rodzaj eksponatów": "obrazy, paramenty i rzeźby z religijnej sztuki wicekrólewskiej Morelos",
+        "Inicjatywa": "Narodowa Rada „Adoptuj dzieło sztuki”, diecezja, INAH i INBA",
+        "Wcześniejsze muzeum": "1911, założone przez biskupa Francisca Plancarte y Navarrete",
+        "Autorzy wymienieni w kolekcji katedry": "Juan Correa, Juan de Miranda i Tomás de Sosa"
+      }
+    },
+    "faq_mito": {
+      "hash": "916359c48251ed4d",
+      "texto": {
+        "pregunta": "Mit: Sztuka sakralna jest tylko dla wierzących.",
+        "respuesta": "Rzeczywistość: Można ją oglądać jako historię i jako sztukę. Pokazuje, jak w Nowej Hiszpanii malowano, haftowano i rzeźbiono."
+      }
+    }
+  }
+}
