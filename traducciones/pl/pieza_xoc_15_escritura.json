@@ -1,0 +1,53 @@
+{
+  "id": "xoc_15_escritura",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5cea5ca5e3bd9004",
+      "texto": "Pismo Xochicalco"
+    },
+    "frase_gancho": {
+      "hash": "049cb7abf835bd55",
+      "texto": "Znaki ułożone w rzędzie, których nikt wciąż nie potrafi odczytać w całości."
+    },
+    "puente_narrativo": {
+      "hash": "bb4b1244f47c7694",
+      "texto": "Kontynuuj swoją trasę: poznawaj dalej przestrzenie Głównego Placu."
+    },
+    "guion_corto": {
+      "hash": "6321edeb1b6b25da",
+      "texto": "Xochicalco miało pismo i wciąż nie potrafimy go odczytać w całości. Helmke i Nielsen datują je między sześćset osiemdziesiątym a tysięcznym rokiem, na ten sam czas co pismo z Cacaxtla, Teotenango, El Cerrito i Acatlán. Na Piramidzie Pierzastych Węży znajduje się tekst liniowy, czyli znaki ułożone w rzędzie. Pierwsze teksty z tego stanowiska opublikował w tysiąc osiemset dziewięćdziesiątym roku Peñafiel. Pewna encyklopedia opisuje ponadto mieszankę znaków dni typu nahuaskiego, umieszczonych w kartuszach w stylu majowskim, z cyframi podobnymi do zapoteckich. Ta mieszanka pokazuje miasto otwarte na wiele regionów. Żadne odczytanie nie jest ostateczne. Kiedy zobaczysz znaki na budowli, pomyśl, że stoisz przed systemem pisma, który wciąż czeka na tego, kto go rozszyfruje."
+    },
+    "guion_largo": {
+      "hash": "653ff7b3e0c55a68",
+      "texto": "Pismo nie jest wyłączną własnością jednej kultury. W Xochicalco także pisano.\n\nHelmke i Nielsen, którzy badali te znaki, datują hieroglificzne pismo tego miasta między sześćset osiemdziesiątym a tysięcznym rokiem. Był to okres epiklasyku, a pisały także inne miasta środkowego Meksyku: Cacaxtla, Teotenango, El Cerrito i Acatlán.\n\nNa Piramidzie Pierzastych Węży znajduje się tekst liniowy, czyli znaki ułożone w rzędzie. Wśród nich pojawia się data dziewięć Trzcina, którą ci specjaliści wiążą z upamiętnieniem ceremonii Nowego Ognia.\n\nPierwsze teksty z Xochicalco opublikował w tysiąc osiemset dziewięćdziesiątym roku Peñafiel. Później pracowali nad nimi Caso i Berlo. Mimo to pismo nie zostało rozszyfrowane.\n\nEncyklopedia World History opisuje coś ciekawego. Podaje, że znaki dni są typu nahuaskiego, że znajdują się w kartuszach w stylu majowskim, a liczby przypominają zapoteckie. To opis pochodzący z jednego źródła, ale pasuje do tego, co wiadomo o tym mieście: miejscu otwartym na wiele regionów. Jest jeszcze jedna wskazówka: Sáenz znalazł w komorze ofiarnej płytę z dwoma glifami nahuaskimi i dwoma zapoteckimi.\n\nDlatego to pismo jest tak trudne do odczytania. Nie należy w całości do żadnej znanej tradycji. Łączy środki z kilku z nich, a ci, którzy je tworzyli, zdawali się budować własny język wizualny dla miasta zamieszkanego przez ludzi z różnych stron.\n\nPismo nierozszyfrowane nie jest pismem niemym. Można rozpoznać daty i niektóre znaki. Brakuje składni, czyli wiedzy, jak znaki układają się w zdania.\n\nJeśli spojrzysz na budowlę, poszukaj rzędów znaków. Być może to najbliższe głosowi tego miasta, co mamy."
+    },
+    "retos_observacion": {
+      "hash": "0af2f9b756b2c135",
+      "texto": [
+        "Poszukaj na budowli znaków ułożonych w rzędzie",
+        "Porównaj ich styl z postaciami Majów",
+        "Zapytaj swojego przewodnika, które znaki są datami"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a21d661326bd512f",
+      "texto": {
+        "Okres pisma epiklasycznego": "między sześćset osiemdziesiątym a tysięcznym rokiem",
+        "Pierwsze opublikowane teksty": "tysiąc osiemset dziewięćdziesiąty rok, Peñafiel",
+        "Stan": "nie w pełni rozszyfrowane"
+      }
+    },
+    "faq_mito": {
+      "hash": "589ddc5ca137bfc9",
+      "texto": {
+        "pregunta": "Mit: Glify z Xochicalco czyta się już jak ciągły tekst.",
+        "respuesta": "Rzeczywistość: Rozpoznaje się daty i niektóre znaki, ale pismo nie zostało rozszyfrowane."
+      }
+    }
+  }
+}

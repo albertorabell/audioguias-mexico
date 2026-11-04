@@ -1,0 +1,49 @@
+{
+  "id": "xoc_32_museo_arquitectura_vasijas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0eb2cca2b06c3ea4",
+      "texto": "Budynki od środka: reliefy, naczynia i makiety"
+    },
+    "frase_gancho": {
+      "hash": "ffeaaf45f1536480",
+      "texto": "Elementy, które zdobiły miasto, i przedmioty pokazujące, jak się w nim żyło."
+    },
+    "guion_corto": {
+      "hash": "55b4c0e059d36ca6",
+      "texto": "Ta sala pokazuje, jak wyglądało miasto od środka. Budynek zaprojektował architekt Rolando Dada y Lemus i otwarto go w tysiąc dziewięćset dziewięćdziesiątym szóstym roku. Ma sześć sal o takich tematach jak architektura, życie codzienne, wymiana i religia. Według INAH są tu przekroje architektoniczne, w których wystawiono rzeźbione elementy zdobiące budynki. Dekoracja jest bogata i różnorodna, a wiąże się przede wszystkim z płodnością. Inne źródło wspomina o misternie wykonanych naczyniach i makietach piramid, a niektóre z nich mają czerwone pigmenty. Razem dają wyobrażenie o tym, jak wyglądało to miasto: ozdobione budynki, przedmioty codziennego użytku i ludzie, którzy je wytwarzali. Kiedy będziesz zwiedzać salę, wyobraź sobie te elementy z powrotem na ich murach. Zanim wyjdziesz, poszukaj eksponatu, który najbardziej pozwoli ci wyobrazić sobie kolor, jaki miało Xochicalco. Na tym kończy się twoja wizyta w muzeum."
+    },
+    "guion_largo": {
+      "hash": "378e56b38acaca06",
+      "texto": "Do tej pory znasz to miasto z zewnątrz. Ta sala pokazuje ci je od środka. Muzeum zaprojektował architekt Rolando Dada y Lemus. Ukończono je w tysiąc dziewięćset dziewięćdziesiątym czwartym roku, a otwarto w kwietniu tysiąc dziewięćset dziewięćdziesiątego szóstego roku. Według książki INAH autorstwa Alvarado León było to pierwsze samowystarczalne muzeum zbudowane na świecie. Każda sala ma kopułę z lustrami, która rozprowadza światło dzienne, a ogniwa słoneczne wspierają budynek w pochmurne dni. Woda deszczowa jest gromadzona na potrzeby sanitarne, a podwójne mury wentylują budynek. Z zewnątrz architekt nadał mu dyskretny wygląd, żeby nie konkurował ze strefą archeologiczną. Muzeum ma sześć sal, a jego sześciokątny kształt pozwala z jednego miejsca zobaczyć trzy z nich. Wystawia ponad dziewięćset eksponatów. Nazwy sal dają wyobrażenie o trasie zwiedzania. Są to Dary Ziemi, Ludzie Wojownicy i Ludzie Kapłani, Xochicalco Schronienie Ludzi, Ręce Twórcze, Rytuały Gry oraz Przestrzenie Codzienne i Czasy Wspólnoty.\n\nWedług INAH sala prezentuje przekroje architektoniczne z rzeźbionymi elementami, które zdobiły budynki miasta. Dekoracja jest bogata i różnorodna, a wiąże się przede wszystkim z płodnością.\n\nInne źródło wspomina, że muzeum ma też misternie wykonane naczynia i makiety piramid oraz że niektóre eksponaty zachowały czerwone pigmenty.\n\nPomyśl o tym, co widziałeś na zewnątrz: mury, tarasy i reliefy w nagim kamieniu. Tutaj możesz sobie wyobrazić, jak wyglądały dawniej. Pewne źródło podaje, że reliefy Piramidy Pierzastych Węży były pomalowane na czerwono, zielono, żółto, niebiesko, czarno i biało.\n\nNaczynia ze swej strony opowiadają o ludziach. W jednym z domów odkopanych przez Webba i Hirtha zostało ponad sto naczyń, gdy miasto opuszczono. To przedmioty z każdego dnia.\n\nZanim wyjdziesz, poszukaj eksponatu, który najbardziej pozwoli ci wyobrazić sobie kolor, jaki miało Xochicalco. Na tym kończy się twoja wizyta w muzeum."
+    },
+    "retos_observacion": {
+      "hash": "04e800ae8a4f5f61",
+      "texto": [
+        "Poszukaj eksponatu ze śladami koloru",
+        "Porównaj makiety z piramidą, którą widziałeś na zewnątrz",
+        "Przyjrzyj się naczyniom i zastanów się, kto z nich korzystał"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f9d79a5ae02287d7",
+      "texto": {
+        "Sala": "rzeźbione elementy, które zdobiły budynki, wiązane przede wszystkim z płodnością, według INAH",
+        "Inne eksponaty": "misternie wykonane naczynia i makiety piramid, według Mesoweb",
+        "Pigmenty": "niektóre eksponaty zachowały czerwień"
+      }
+    },
+    "faq_mito": {
+      "hash": "2be0fbaab1971676",
+      "texto": {
+        "pregunta": "Mit: Wszystko, co widać w Xochicalco, stoi na swoim pierwotnym miejscu.",
+        "respuesta": "Rzeczywistość: Wiele rzeźbionych elementów jest wystawionych w muzeum, a inne znajdują się w Narodowym Muzeum Antropologii."
+      }
+    }
+  }
+}

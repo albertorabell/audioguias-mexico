@@ -1,0 +1,54 @@
+{
+  "id": "xoc_03_camino_entrada",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90f92b10ca0bb62e",
+      "texto": "Droga wejściowa"
+    },
+    "frase_gancho": {
+      "hash": "c390c1e92a49ce10",
+      "texto": "Kamienna droga, która prowadziła do miasta już wtedy, gdy ono żyło."
+    },
+    "puente_narrativo": {
+      "hash": "d86ad220eec5e1cf",
+      "texto": "Idź dalej swoją trasą: wiesz już, jak miasto się broniło; teraz czas je przemierzyć."
+    },
+    "guion_corto": {
+      "hash": "ac25caa0724faaeb",
+      "texto": "Według przewodnika INAH główny zespół wejściowy obejmuje systemy kontroli wejścia i kwadratowy plac. Obejmuje też ostatni odcinek prehiszpańskiej drogi, która wychodziła z miasta. Innymi słowy, od początku miał przyjmować i nadzorować tych, którzy przybywali. Miasto z bronionymi wejściami nie wpuszczało byle kogo. Ta droga łączy się również z południowym boiskiem do gry w piłkę, które leży na najniższym tarasie. Inni autorzy opisują prostą drogę po stronie południowej, która wspina się od dna doliny aż do miasta. To, po czym stąpasz, jest częścią szlaku, którym ponad tysiąc lat temu chodzili mieszkańcy, żeby wejść, handlować, grać i zdawać rachunek ze swoich spraw."
+    },
+    "guion_largo": {
+      "hash": "a5a11f79728eec5f",
+      "texto": "Droga to sposób, by powiedzieć, kto może wejść. W Xochicalco nie jest inaczej.\n\nWedług oficjalnego przewodnika INAH główny zespół wejściowy obejmuje systemy kontroli wejścia i kwadratowy plac. Obejmuje też ostatni odcinek prehiszpańskiej drogi, która wychodziła z miasta.\n\nInne źródła dodają, że droga dojazdowa była prosta i docierała od strony południowej, z dna doliny. Ta droga łączy się również z południowym boiskiem do gry w piłkę, największym w mieście, które leży na najniższym tarasie.\n\nUNESCO i INAH wspominają, że dolny poziom miasta był otoczony murami z bronionymi wejściami. Oznacza to, że dotarcie do Xochicalco nie polegało po prostu na przejściu przez bramę. Trzeba było minąć punkty kontrolne.\n\nDrogi miały jeszcze inne zastosowanie. Dyrektor strefy archeologicznej, Medina Romero, wyjaśnia, że brukowane drogi łączyły różne sektory miasta, a ich długość dochodziła do stu siedemdziesięciu pięciu metrów. Były kręgosłupem, którym płynął ruch ludzi.\n\nZanim pójdziesz dalej, spójrz pod nogi. Drogi starożytnych miast brukowano kamieniem, a ta praca opowiada historię organizacji. Przeniesienie tak wielu kamieni wymagało ludzi, czasu i kogoś, kto wydawał polecenia.\n\nZatrzymaj się na chwilę i pomyśl, kto tędy wchodził. Kupcy z innych ludów, ludzie niosący obsydian, gracze przybywający na boisko, wysłannicy sąsiednich społeczności. A także armie, gdy miasto było już zagrożone.\n\nDziś ta droga prowadzi cię w jedno miejsce: do serca ufortyfikowanego miasta. Teraz czas wspiąć się w górę i odkryć je."
+    },
+    "retos_observacion": {
+      "hash": "9b9ea4d4f99587ee",
+      "texto": [
+        "Spójrz na drogę i zwróć uwagę, jak została zbudowana",
+        "Poszukaj miejsc, w których kontrolowano przejście, jeśli da się je jeszcze dostrzec",
+        "Pomyśl, kto mógł przechodzić tą drogą ponad tysiąc lat temu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f88961c233ee36a",
+      "texto": {
+        "Dojście": "główny zespół wejściowy z kwadratowym placem",
+        "Droga": "ostatni odcinek prehiszpańskiej drogi",
+        "Brukowane drogi": "do około 175 m, według INAH",
+        "Połączenie": "z południowym boiskiem do gry w piłkę"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5e937cd2bce8e3d",
+      "texto": {
+        "pregunta": "Mit: Drogi w Xochicalco to współczesne ścieżki.",
+        "respuesta": "Rzeczywistość: INAH opisuje brukowane drogi, które łączyły różne sektory miasta już ponad tysiąc lat temu."
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "xoc_26_templo_arquitectos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "914f5b01128cc0bd",
+      "texto": "Świątynia Architektów"
+    },
+    "frase_gancho": {
+      "hash": "4e475670f5712dc0",
+      "texto": "Dziedziniec, na którym znaleziono narzędzia budowlane."
+    },
+    "puente_narrativo": {
+      "hash": "0d1efbba7db61079",
+      "texto": "Podążaj dalej swoją trasą: idź przez miejsca pracy i władzy tego miasta."
+    },
+    "guion_corto": {
+      "hash": "ee5c4f2b792e04eb",
+      "texto": "Ten budynek nazywa się Świątynia Architektów, a także Zapadnięty Dziedziniec. Według przewodnika INAH znaleziono tu narzędzia budowlane: pionowniki, mieszadła i polerki. Pionownik to nić z ciężarkiem, która służy do sprawdzania, czy ściana stoi pionowo. Polerka wygładza powierzchnię kamienia. INAH Lugares opisuje we wschodnim zespole budynek na planie prostokąta z zapadniętym dziedzińcem, który może być właśnie tym budynkiem. Współczesne nazwy mówią więcej o tych, którzy je nadali, niż o tych, którzy budowali. Mimo to widok narzędzi budowlanych w tym miejscu przypomina, że ktoś musiał zmierzyć, wypoziomować i wypolerować każdy kamień. To dobre miejsce, by zastanowić się nad rzemiosłem."
+    },
+    "guion_largo": {
+      "hash": "12bca65ed3488fc0",
+      "texto": "Nazwa brzmi jak tytuł, ale pochodzi od tego, co tu odnaleziono.\n\nNazywa się Świątynia Architektów, a także Zapadnięty Dziedziniec. Według przewodnika INAH w tym miejscu znaleziono narzędzia budowlane: pionowniki, mieszadła i polerki.\n\nPionownik to nić z ciężarkiem na końcu. Służy do sprawdzania, czy mur jest prosty. Polerka to kamień, którym wygładza się powierzchnię innego kamienia.\n\nINAH Lugares wspomina we wschodnim zespole o budynku na planie prostokąta z zapadniętym dziedzińcem. Może to być ten sam budynek.\n\nWspółczesne nazwy mówią więcej o tych, którzy je nadali, niż o tych, którzy budowali. Nikt nie wie, jak nazywano ten budynek w mieście. Wiemy natomiast to, co sugeruje to odkrycie: przechowywano tu lub używano narzędzi budowlanych.\n\nPomyśl o pracy, jaka kryje się za miastem takim jak to. Ktoś musiał mierzyć, poziomować, ciąć i polerować każdy kamień oraz wytyczać tarasy na wzgórzu.\n\nKiedy spojrzysz na zapadnięty dziedziniec, wyobraź sobie te narzędzia leżące na posadzce. To sposób, by dostrzec budowniczych, a nie tylko władców."
+    },
+    "retos_observacion": {
+      "hash": "5b60a2a6220bcbb5",
+      "texto": [
+        "Znajdź zapadnięty dziedziniec",
+        "Wyobraź sobie, gdzie mogły leżeć narzędzia",
+        "Pomyśl, ilu ludzi było trzeba, by wznieść taki budynek"
+      ]
+    },
+    "especificaciones": {
+      "hash": "779a73f4796f3331",
+      "texto": {
+        "Nazwy": "Świątynia Architektów i Zapadnięty Dziedziniec",
+        "Odkrycie": "pionowniki, mieszadła i polerki, według przewodnika INAH",
+        "Lokalizacja": "zespół wschodni"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c12928ab59318a5",
+      "texto": {
+        "pregunta": "Mit: Świątynia to zawsze miejsce przeznaczone wyłącznie dla bogów.",
+        "respuesta": "Rzeczywistość: Współczesna nazwa pochodzi od znalezionych narzędzi budowlanych, a nie od potwierdzonej funkcji religijnej."
+      }
+    }
+  }
+}

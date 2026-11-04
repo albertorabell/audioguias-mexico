@@ -1,0 +1,54 @@
+{
+  "id": "xoc_18_observatorio",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9a5f1066b768558",
+      "texto": "Szyb światła: obserwatorium"
+    },
+    "frase_gancho": {
+      "hash": "7a24a77f38289380",
+      "texto": "Jaskinia w górze, do której Słońce wpada w ściśle określone dni roku."
+    },
+    "puente_narrativo": {
+      "hash": "c7b6f7d6c16df78d",
+      "texto": "Idź dalej swoją trasą: to, co cię czeka, również ma związek z niebem, wodą albo czasem."
+    },
+    "guion_corto": {
+      "hash": "6fe1de4a5f0ca185",
+      "texto": "Pod tym miejscem znajduje się jaskinia zamieniona w obserwatorium. Według INAH najpierw był tu kamieniołom, a potem wykorzystano powstałą pustkę. Jest w niej szyb, którym od końca kwietnia do połowy sierpnia, przez około sto pięć dni, schodzi promień Słońca. Słońce przechodzi przez zenit czternastego maja. Medina Romero uważa, że pozostałe dwieście sześćdziesiąt dni wiąże się z kalendarzem rytualnym. Dziś nie można tam wejść, co potwierdzają doniesienia z czerwca dwa tysiące dwudziestego szóstego roku. Ale możesz to sobie wyobrazić: miasto, które wpuszczało Słońce do wnętrza góry, by mierzyć czas. Sprawdź przy wejściu, czy coś się zmieniło."
+    },
+    "guion_largo": {
+      "hash": "9aaee5399cab641f",
+      "texto": "Pod tą częścią wzgórza kryje się pustka. Stąd jej nie zobaczysz, ale tam jest.\n\nWedług INAH jaskinie pod północną platformą wykorzystywano najpierw jako kamieniołom. Stamtąd brano kamień do budowy. Potem ktoś zagospodarował tę pustkę i zamienił ją w obserwatorium.\n\nJaskinia ma szyb, pochyły komin, który wznosi się aż na powierzchnię. Pewne źródło podaje, że ma on osiem metrów i siedemdziesiąt centymetrów wysokości oraz sześciokątne zwieńczenie, a wnętrze pokryto stiukiem pomalowanym na czarno, żółto i czerwono.\n\nNiezwykłe rzeczy dzieją się tu ze Słońcem. Morante, Garza i Valencia mierzyli to przez lata. Bezpośrednie promienie wpadają od końca kwietnia do połowy sierpnia, około południa. Słońce przechodzi przez zenit czternastego maja. Według El Tlacuache tego dnia Słońce rzuca światło na podłogę przez około czterdzieści pięć minut. Wpadanie światła rozkłada się symetrycznie wokół przesilenia letniego: pięćdziesiąt dwa dni przed, w dniu przesilenia i pięćdziesiąt dwa dni po nim.\n\nRubén Morante López, który bada to stanowisko od około trzydziestu lat, wyjaśnia, że ruch Słońca śledzono w dwóch miejscach. Jednym był zenit, obserwowany z tej jaskini. Drugim był horyzont, z Popocatépetlem i wzgórzem Jumil jako punktami odniesienia. Po zsumowaniu te dni dają sto pięć, czyli dokładnie tyle, ile brakuje do dwustu sześćdziesięciu, by dojść do trzystu sześćdziesięciu pięciu. Według Morantego, Garzy i Valencii oba kalendarze mezoamerykańskie są zaznaczone w jednym miejscu.\n\nPrzez pewien czas sądzono, że ta jaskinia to zwykły kamieniołom, jak osiem innych wokół wzgórza. Jednak jej sklepienie i sześciokątny szyb, nachylony z wyliczoną precyzją, skłoniły do przypuszczenia, że służyła do liczenia czasu. Według Alvarado León niemal wszystkie badania zgadzają się w jednym. Jaskinia służyła do obserwowania dwa razy w roku przejścia Słońca przez zenit oraz do mierzenia roku tropikalnego lub wyznaczania początku lata. Do czego dokładnie służyła, to kwestia sporna. Medina Romero uważa, że pozostałe dwieście sześćdziesiąt dni wiąże się z kalendarzem rytualnym. Notatka INAH mówi, że pomagała korygować kalendarz. CyArk widzi w niej sposób śledzenia wędrówki Słońca ku Zwrotnikowi Raka.\n\nXochicalcowie nie wchodzili tamtędy, którędy wchodzi się dziś, lecz przez jaskinię kilka metrów od Północnego Boiska do Gry w Piłkę. W środku była sala o wymiarach dwadzieścia osiem na dziesięć metrów, z trzema filarami wyrzeźbionymi w skale. Na jej końcu znajduje się owalne pomieszczenie o średnicy sześciu metrów, Komora Astronomów, z której wychodzi drugi szyb. W pobliskich sektorach znaleziono ceramiczne dyski o średnicy pięćdziesięciu czterech centymetrów, z otworami. Ułożone na obrzeżu szybu przepuszczają światło w postaci małych kółek, które przesuwają się po podłodze.\n\nDziś nie możesz tam wejść. Obserwatorium jest zamknięte dla zwiedzających, co potwierdzają doniesienia z czerwca dwa tysiące dwudziestego szóstego roku. Sprawdź przy wejściu, czy coś się zmieniło.\n\nAle ten pomysł możesz sobie wyobrazić, nie schodząc na dół. Miasto, które, by mierzyć czas, nie tylko patrzyło w niebo. Wpuszczało je do wnętrza góry."
+    },
+    "retos_observacion": {
+      "hash": "cc57f3f3fcded96a",
+      "texto": [
+        "Spójrz na teren, na którym znajduje się obserwatorium",
+        "Wyobraź sobie promień Słońca padający do ciemnej jaskini",
+        "Zapytaj przy wejściu, czy obserwatorium nadal jest zamknięte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a6f245b1c2960428",
+      "texto": {
+        "Typ": "jaskinia wydrążona u podstawy budowli piramidalnej",
+        "Światło słoneczne": "od trzydziestego kwietnia do trzynastego sierpnia, około stu pięciu dni, według INAH",
+        "Maksimum": "czternasty lub piętnasty maja",
+        "Stan": "zamknięte dla zwiedzających, według Diario de Morelos, czerwiec dwa tysiące dwudziestego szóstego roku"
+      }
+    },
+    "faq_mito": {
+      "hash": "63925042c78cc092",
+      "texto": {
+        "pregunta": "Mit: Możesz wejść do obserwatorium i zobaczyć promień Słońca.",
+        "respuesta": "Rzeczywistość: Jest zamknięte dla zwiedzających od lat. Sprawdź aktualny stan przy wejściu."
+      }
+    }
+  }
+}

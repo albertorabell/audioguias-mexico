@@ -1,0 +1,54 @@
+{
+  "id": "xoc_14_serpientes_emplumadas_2",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "db32b496c58d5733",
+      "texto": "Kalendarz i zaćmienie"
+    },
+    "frase_gancho": {
+      "hash": "ef20fc78e750ad73",
+      "texto": "Relief, który być może zapisuje zaćmienie i korektę kalendarza."
+    },
+    "puente_narrativo": {
+      "hash": "2c29bb4010a0e4b6",
+      "texto": "Podążaj dalej swoją trasą: pismo tego miasta ma jeszcze wiele do powiedzenia o tych datach."
+    },
+    "guion_corto": {
+      "hash": "67061bdf3c53ff07",
+      "texto": "Tę piramidę można czytać także jako zapis nieba. Według przewodnika INAH na fasadzie zachodniej znajduje się obraz związany z korektą kalendarza, obok imienia i rangi władcy. Inny relief przedstawia szczękę, która za chwilę połknie koło podzielone na cztery części. Medina Romero odczytuje to jako Księżyc zasłaniający Słońce. Proponuje zaćmienie w siedemset czterdziestym trzecim roku, choć ktoś datuje je na siedemset dziewięćdziesiąty. Florescano natomiast widzi tu scenę podboju. Nic z tego nie jest przesądzone. Pewne jest to, że budynek kryje daty i znaki czasu. Przyjrzyj się reliefom i zdecyduj, co widzisz ty, pamiętając, że specjaliści wciąż się spierają."
+    },
+    "guion_largo": {
+      "hash": "a0b3912f38f7d232",
+      "texto": "Budynek może opowiedzieć o wydarzeniu na niebie. Tak właśnie sądzą niektórzy specjaliści o tej piramidzie.\n\nFasada zachodnia ma według przewodnika INAH obraz związany z korektą kalendarza, a także imię i rangę władcy. Medina Romero umieszcza korektę kalendarza w panelu północnego zachodu, z datą, której towarzyszą dwie dłonie.\n\nHirth wspomina także o możliwym uzgodnieniu dwóch systemów kalendarzowych. Jeden liczy dwieście sześćdziesiąt dni, a drugi trzysta sześćdziesiąt pięć. Ponieważ się nie pokrywają, co pewien czas trzeba było je korygować.\n\nJest też relief ze szczęką, która za chwilę połknie koło podzielone na cztery części. Według przewodnika INAH pojawia się tam odniesienie do zaćmienia Słońca w siedemset czterdziestym trzecim roku. Medina Romero odczytuje to jako Księżyc zasłaniający Słońce. To odczytanie jest interpretacją.\n\nProponowane daty nie są zgodne. Medina Romero wymienia dwudziesty piąty lipca siedemset czterdziestego trzeciego roku, z zaćmieniem częściowym. UNAM proponuje szesnasty lipca siedemset dziewięćdziesiątego roku, bliższy zaćmieniu całkowitemu. Przewodnik INAH mówi o zaćmieniu całkowitym. Inne noty INAH wskazują wewnętrzne rozbieżności, a Florescano proponuje, że relief opowiada o podboju, a nie o zaćmieniu.\n\nHelmke i Nielsen wyjaśniają, że znak dziewięć oko gada pojawia się dwukrotnie po stronie północnej, wschodniej i południowej. Oni odczytują go jako dziewięć trzcina, a wieńczą go płonące kadzielnice. Mogłoby to odnosić się do rytuałów Nowego Ognia. Na fasadzie zachodniej jest ponadto rok dziewięć dom. Te odczytania są wstępne, ponieważ pisma Xochicalco nie rozszyfrowano jeszcze do końca.\n\nPrzez dziesięciolecia czytano, że panele były listą ludów płacących daninę Xochicalco, od Coyoacán aż po Igualę, według Hirtha. Nielsen i Helmke proponują inne odczytanie. Górne panele pokazują rząd siedzących postaci z takim samym nakryciem głowy i takim samym tytułem, który porównują oni z tytułem pożeracza serc z Cacaxtla. Mogą to być osoby wysokiej rangi.\n\nWażne jest to, co wiemy na pewno. Budowniczowie tego miasta pozostawili w swoim najstaranniej wykonanym budynku znaki związane z niebem i z czasem. Co dokładnie mówią i jaką datę wyznaczają, pozostaje przedmiotem sporu."
+    },
+    "retos_observacion": {
+      "hash": "ec17422e8b8a06b1",
+      "texto": [
+        "Odszukaj na fasadzie zachodniej obraz korekty kalendarza",
+        "Rozpoznaj szczękę i koło podzielone na cztery części",
+        "Zdecyduj, czy widzisz zaćmienie, czy scenę podboju"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cb98c23e040f301e",
+      "texto": {
+        "Fasada zachodnia": "korekta kalendarza oraz imię i ranga władcy, według INAH",
+        "Proponowane zaćmienie": "dwudziesty piąty lipca siedemset czterdziestego trzeciego roku",
+        "Alternatywa UNAM": "szesnasty lipca siedemset dziewięćdziesiątego roku",
+        "Alternatywne odczytanie": "scena podboju, według Florescana"
+      }
+    },
+    "faq_mito": {
+      "hash": "978961b5ba5555af",
+      "texto": {
+        "pregunta": "Mit: Wiadomo z pewnością, że relief przedstawia zaćmienie.",
+        "respuesta": "Rzeczywistość: To interpretacja. Inni specjaliści proponują scenę podboju, a proponowane daty nie są zgodne."
+      }
+    }
+  }
+}

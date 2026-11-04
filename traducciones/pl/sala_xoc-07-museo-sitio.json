@@ -1,0 +1,22 @@
+{
+  "id": "xoc-07-museo-sitio",
+  "tipo": "sala",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "e032ce3fdc0f5738",
+      "texto": "Muzeum Stanowiska"
+    },
+    "frase_gancho": {
+      "hash": "f5065dee3845a4b1",
+      "texto": "Oryginalne eksponaty, których nie ma już na terenie stanowiska."
+    },
+    "introduccion_narrativa": {
+      "hash": "34518d5f2de14242",
+      "texto": "Muzeum Stanowiska gromadzi eksponaty znalezione podczas wykopalisk, wśród nich oryginalną Stelę Dwóch Glifów. Zwiedza się je osobno, po zakończeniu trasy, a jego trzy przystanki są częścią pełnej trasy."
+    }
+  }
+}

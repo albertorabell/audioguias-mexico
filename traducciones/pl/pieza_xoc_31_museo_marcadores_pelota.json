@@ -1,0 +1,53 @@
+{
+  "id": "xoc_31_museo_marcadores_pelota",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f4a7dc33997c90ec",
+      "texto": "Markery boiska do gry w piłkę"
+    },
+    "frase_gancho": {
+      "hash": "4bf3228a9d6eef01",
+      "texto": "Rzeźbione kamienie, które stały na boisku, a dziś możesz obejrzeć z bliska."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "Zwiedzaj dalej: w następnej sali zobaczysz inne eksponaty z tego stanowiska."
+    },
+    "guion_corto": {
+      "hash": "155633692377d67e",
+      "texto": "Markery z boiska wschodniego są tutaj. Według przewodnika INAH mają płaskorzeźbę i są prezentowane w Muzeum Stanowiska. Marker był rzeźbionym kamieniem, który umieszczano na murze boiska do gry w piłkę. Inne źródło podaje, że niektóre eksponaty w muzeum zachowały czerwone pigmenty. Pamiętaj, że rzeźba ary z boiska południowego znajduje się w Narodowym Muzeum Antropologii, a nie tutaj. Zwróć uwagę, jak głębokie jest rzeźbienie i czy został jeszcze jakiś kolor. Bez muzeum te kamienie byłyby tylko informacją w przewodniku; tutaj możesz obejrzeć je z bliska i zrozumieć, dlaczego boiska miały takie znaczenie."
+    },
+    "guion_largo": {
+      "hash": "968b4c2fc827a487",
+      "texto": "Te kamienie stały kiedyś na boisku.\n\nWedług przewodnika INAH markery z boiska wschodniego mają płaskorzeźbę i są prezentowane w Muzeum Stanowiska. Płaskorzeźba to rzeźbiona figura, która tylko nieznacznie wystaje z kamienia. Marker był kamieniem, który umieszczano na murze boiska do gry w piłkę.\n\nInne źródło podaje, że w muzeum prezentowane są rzeźbione markery do gry w piłkę, a jeden z nich należy do jego zbiorów, oraz że niektóre eksponaty zachowały czerwone pigmenty.\n\nJest jeden szczegół, który warto mieć jasno przed oczami. Ary, którą znaleziono na boisku południowym, tutaj nie ma. Według przewodnika INAH znajduje się dziś w Narodowym Muzeum Antropologii.\n\nPorównaj te eksponaty z tym, co widziałeś na boiskach. Boisko południowe zachowało dwa markery na swoim miejscu, na północnym leżą przewrócone, a te z wschodniego są tutaj. Trzy boiska, trzy różne losy.\n\nZwróć uwagę, jak głębokie jest rzeźbienie i czy został jeszcze jakiś kolor. To najlepszy sposób, by zbliżyć się do tego, w co grano tam na zewnątrz."
+    },
+    "retos_observacion": {
+      "hash": "4ac83377a6618d7b",
+      "texto": [
+        "Przyjrzyj się z bliska rzeźbieniu",
+        "Poszukaj śladów czerwonego koloru",
+        "Porównaj z boiskiem, które widziałeś na zewnątrz"
+      ]
+    },
+    "especificaciones": {
+      "hash": "91245ea8dc5e6e3f",
+      "texto": {
+        "Eksponat": "markery z boiska wschodniego, z płaskorzeźbą",
+        "Lokalizacja": "Muzeum Stanowiska, według przewodnika INAH",
+        "Ara z boiska południowego": "Narodowe Muzeum Antropologii"
+      }
+    },
+    "faq_mito": {
+      "hash": "a8d4ccb5bf08898d",
+      "texto": {
+        "pregunta": "Mit: Wszystkie eksponaty z boisk znajdują się w muzeum na stanowisku.",
+        "respuesta": "Rzeczywistość: Ara z boiska południowego znajduje się w Narodowym Muzeum Antropologii, a dwa markery nadal stoją na boisku południowym."
+      }
+    }
+  }
+}

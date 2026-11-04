@@ -1,0 +1,53 @@
+{
+  "id": "xoc_24_caminata_este",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bed06095b55b4554",
+      "texto": "Spacer: do zespołu wschodniego"
+    },
+    "frase_gancho": {
+      "hash": "e42e817f8f630cb7",
+      "texto": "Droga do rampy, zapadniętego dziedzińca i trzech świątyń."
+    },
+    "puente_narrativo": {
+      "hash": "19d88a5c8fc91082",
+      "texto": "Idź dalej swoją trasą: kieruj się do wschodniej części miasta."
+    },
+    "guion_corto": {
+      "hash": "6a73044044c7c784",
+      "texto": "Ten spacer prowadzi cię do zespołu wschodniego, czyli wschodniej części miasta. Według katalogu miejsc INAH znajduje się tam prostokątny budynek z zapadniętym dziedzińcem, dziedziniec z trzema platformami piramidalnymi i boisko do gry w piłkę. Jest też Rampa Zwierząt. Przewodnik INAH mówi o trzech świątyniach, rampie i Świątyni Architektów. Kiedy idziesz, zwróć uwagę, jak zmienia się krajobraz. Według katalogu miejsc INAH miasto zajmowało sześć niskich wzgórz, z tarasami i murami oporowymi. Pomyśl, że każda droga wspina się, schodzi i okrąża te wzgórza. To, co dalej, to kilka przystanków w tej okolicy."
+    },
+    "guion_largo": {
+      "hash": "72ea43f860e389de",
+      "texto": "Ten spacer prowadzi cię do zespołu wschodniego, czyli wschodniej części miasta.\n\nWedług katalogu miejsc INAH znajduje się tam prostokątny budynek z zapadniętym dziedzińcem, dziedziniec z trzema platformami piramidalnymi i boisko do gry w piłkę. Jest też Rampa Zwierząt, która łączy się z tym boiskiem.\n\nPrzewodnik INAH mówi o trzech świątyniach, o rampie i o Świątyni Architektów, zwanej także Zapadniętym Dziedzińcem. Innymi słowy, jest to zespół złożony z kilku zgrupowanych budynków.\n\nKiedy idziesz, zwróć uwagę, jak zmienia się krajobraz. Według katalogu miejsc INAH miasto zajmowało sześć niskich wzgórz, z tarasami i murami oporowymi. Oznacza to, że każda droga wspina się, schodzi i okrąża te wzgórza. Mur oporowy to taki, który podtrzymuje ziemię tarasu, aby się nie osunęła.\n\nUNESCO uważa, że Xochicalco miało trzy poziomy: niski, pośredni i wysoki. Według Hirtha miasto bardzo szybko się rozrosło około roku sześćsetnego i przesiedliło od dziesięciu do piętnastu tysięcy osób.\n\nKolejne przystanki znajdują się w tej okolicy. Nie musisz się spieszyć."
+    },
+    "retos_observacion": {
+      "hash": "8a81f85c8ad2a18f",
+      "texto": [
+        "Zwróć uwagę, jak zmienia się krajobraz",
+        "Policz, ile wzgórz jesteś w stanie dostrzec",
+        "Słuchaj podczas spaceru, nie patrząc w ekran"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d0541de5c6f85f7",
+      "texto": {
+        "Cel": "zespół wschodni",
+        "Przestrzenie": "prostokątny budynek z zapadniętym dziedzińcem, dziedziniec z trzema platformami piramidalnymi, boisko i rampa, według katalogu miejsc INAH",
+        "Zajęte wzgórza": "sześć, według katalogu miejsc INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7957f59da6106b7",
+      "texto": {
+        "pregunta": "Mit: Xochicalco zajmuje tylko jedno wzgórze.",
+        "respuesta": "Rzeczywistość: Według katalogu miejsc INAH zajmowało sześć niskich wzgórz, z tarasami i murami."
+      }
+    }
+  }
+}

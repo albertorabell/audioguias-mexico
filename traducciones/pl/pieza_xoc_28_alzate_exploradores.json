@@ -1,0 +1,55 @@
+{
+  "id": "xoc_28_alzate_exploradores",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7911e2b7a418affa",
+      "texto": "Pierwsze oczy: Alzate i eksploratorzy"
+    },
+    "frase_gancho": {
+      "hash": "cf2bf7263cb69cf1",
+      "texto": "Uczony z osiemnastego wieku, który narysował to, czego inni nie odważyli się zobaczyć."
+    },
+    "puente_narrativo": {
+      "hash": "2bca5b004f843ad8",
+      "texto": "Kontynuuj swoją trasę: teraz warto zakończyć zwiedzanie tym, co stało się z miastem."
+    },
+    "guion_corto": {
+      "hash": "da1ccab412c0c98f",
+      "texto": "Jest powód, dla którego znamy ten budynek tak dobrze: ktoś narysował go ponad dwieście lat temu. José Antonio Alzate odwiedził Xochicalco w tysiąc siedemset siedemdziesiątym siódmym roku. Wrócił w tysiąc siedemset osiemdziesiątym czwartym roku z rysownikiem, Araną, aby zmierzyć budynek węży. Według López Luján drzewo guaje uszkodziło fasadę. Alzate opublikował swój opis w tysiąc siedemset dziewięćdziesiątym pierwszym roku. Znacznie później Peñafiel opublikował pierwsze teksty o tym stanowisku, w tysiąc osiemset dziewięćdziesiątym roku. Batres przeprowadził pierwsze naukowe wykopaliska w tysiąc dziewięćset dziewiątym roku. Każda wizyta pozostawiła inny obraz miasta. Dziś widzisz je dzięki tym spojrzeniom."
+    },
+    "guion_largo": {
+      "hash": "f858b30f3e8feae8",
+      "texto": "O Xochicalco wiemy po części dzięki pewnemu ciekawskiemu człowiekowi z osiemnastego wieku.\n\nJosé Antonio Alzate odwiedził to stanowisko w tysiąc siedemset siedemdziesiątym siódmym roku. Według López Luján dwunastego listopada przeszedł sześć kilometrów z Tetlamy razem z wójtem i dwoma innymi mężczyznami. Na szczycie zmierzył wysokość wzgórza barometrem. Zwróciły jego uwagę płyty budynku węży i pomyślał, że bez zwierząt jucznych mieszkańcy Xochicalco musieli dużo wiedzieć o mechanice. Wójt odmówił wejścia do podziemnego korytarza i opowiedział, że kiedyś zobaczył tam starca, który zniknął, gdy drżało wzgórze. Alzate zostawił rękopis z tej wizyty.\n\nWrócił w tysiąc siedemset osiemdziesiątym czwartym roku, tym razem z rysownikiem o nazwisku Arana, który zmierzył budynek węży. Drzewo guaje uszkodziło fasadę. Opowiedziano mu, że wciąż zachowały się resztki czterech dróg, które dochodziły do budynku z czterech stron świata. Rytownik Agüera y Bustamante przygotował ilustracje. Alzate opublikował swój opis w tysiąc siedemset dziewięćdziesiątym pierwszym roku w „Gazecie Literatury Meksyku”, jak podaje El Tlacuache.\n\nSahagún wspominał o tym miejscu już w połowie szesnastego wieku, według Mediny Romero. Humboldt nigdy go nie odwiedził. Peñafiel opublikował pierwsze teksty w tysiąc osiemset dziewięćdziesiątym roku, a Batres przeprowadził pierwsze naukowe wykopaliska w tysiąc dziewięćset dziewiątym roku.\n\nMedina Romero opowiada też, że właściciele pobliskiej hacjendy cukrowej zniszczyli sporą część podstawy piramidy.\n\nTo, co widzisz dzisiaj, jest wynikiem wielu spojrzeń. Jedne rysowały, inne mierzyły, jeszcze inne wykopywały, a jeszcze inne niszczyły. Żadne nie zostawiło tego miejsca takim, jakie było.\n\nGdy spojrzysz na fasadę, pomyśl, że ktoś narysował ją z drzewem rosnącym na wierzchu, ponad dwa wieki temu."
+    },
+    "retos_observacion": {
+      "hash": "976f963a7f990b74",
+      "texto": [
+        "Wyobraź sobie fasadę z drzewem rosnącym na wierzchu",
+        "Pomyśl, co ty byś narysował",
+        "Poszukaj, gdzie mógłby znajdować się podziemny korytarz, którego Alzate nie zdołał przejść"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d06d964ad1b1aa17",
+      "texto": {
+        "Pierwsza wizyta Alzatego": "tysiąc siedemset siedemdziesiąty siódmy",
+        "Druga wizyta, z rysownikiem Araną": "tysiąc siedemset osiemdziesiąty czwarty",
+        "Publikacja Alzatego": "tysiąc siedemset dziewięćdziesiąty pierwszy",
+        "Pierwsze teksty opublikowane przez Peñafiela": "tysiąc osiemset dziewięćdziesiąty",
+        "Pierwsze wykopaliska naukowe, Batres": "tysiąc dziewięćset dziewiąty, według INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "149da8928bf519ac",
+      "texto": {
+        "pregunta": "Mit: Xochicalco jest znane dopiero od kilkudziesięciu lat.",
+        "respuesta": "Rzeczywistość: Alzate opisał je w osiemnastym wieku, a Sahagún wspominał o nim już w szesnastym."
+      }
+    }
+  }
+}

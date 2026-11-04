@@ -1,0 +1,55 @@
+{
+  "id": "xoc_06_mercado_obsidiana",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2a9f70325ec0ac9d",
+      "texto": "Targ i warsztaty obsydianu"
+    },
+    "frase_gancho": {
+      "hash": "e44e99ed1988cc7a",
+      "texto": "Miasto, które żyło z wytwarzania, sprzedawania i wywożenia towarów daleko stąd."
+    },
+    "puente_narrativo": {
+      "hash": "c0b8b7bedc2afe45",
+      "texto": "Idź dalej swoją trasą: teraz warto przyjrzeć się jednemu z największych budynków miasta."
+    },
+    "guion_corto": {
+      "hash": "6d2633f305c2b7c8",
+      "texto": "Ilu ludzi żyje z tego, co sprzedaje? W Xochicalco bardzo wielu. Archeolodzy odkopali pięć warsztatów obsydianowych ostrzy: cztery w domach i jeden w strefie targowej, gdzie rzemieślnicy sprzedawali to, co wytwarzali. Obsydian to szkło wulkaniczne, które pęka na bardzo ostre krawędzie, i robiono z niego noże oraz narzędzia. Surowiec przybywał z bardzo daleka, ze złóż w Michoacán i Hidalgo, położonych ponad dwieście kilometrów stąd. Dlatego to miasto nie było wyłącznie ośrodkiem władzy. Było miejscem rzemiosła i handlu, połączonym szlakami, które przecinały Mezoamerykę. Bogactwo Xochicalco nie kryło się tylko w jego świątyniach. Kryło się w dłoniach, które wytwarzały i sprzedawały."
+    },
+    "guion_largo": {
+      "hash": "08e0c7d5da9cc155",
+      "texto": "Kiedy myślimy o starożytnym mieście, wyobrażamy sobie świątynie, ale były w nim także targi. I Xochicalco miało swój.\n\nObsydian to czarne szkło wulkaniczne, które pęka na bardzo ostre krawędzie. Robiono z niego noże, nożyki i groty. Tutaj nie wydobywano go ze wzgórza. Analizy chemiczne przedmiotów pokazują, że prawie cały pochodził z dwóch złóż: Ucareo w Michoacán i Zacualtipán w Hidalgo. Oba leżą ponad dwieście kilometrów od tego placu.\n\nProjekt kierowany przez Kennetha Hirtha odkopał pięć warsztatów obsydianowych ostrzy w zwykłych dzielnicach miasta. Cztery z nich były domami, w których rodzina mieszkała i pracowała w tej samej przestrzeni. Piąty był strefą targową, gdzie rzemieślnicy sprzedawali to, co wytwarzali. Według Andrewsa i Glascocka te warsztaty wytwarzały większość ostrzy używanych w mieście i jego okolicach.\n\nW tym procesie było coś ciekawego. Do warsztatów nie docierał surowy kamień. Docierały małe rdzenie, już częściowo obrobione, a Hirth przypuszcza, że przywozili je kupcy wędrujący od wsi do wsi i pokonujący długie dystanse. W domu rzemieślnik odbijał ostrza jedno po drugim. Kiedy rdzeń tracił powierzchnię do uderzania, odnawiał ją i pracował dalej.\n\nJest jeszcze jedna zaskakująca informacja. Archeolodzy porównali te ostrza z tymi, które znaleziono w budynkach elity, i okazało się, że są takie same pod względem techniki i kształtu. Andrews i Glascock wnioskują, że władcy nie kontrolowali bezpośrednio tego rzemiosła. Prawdopodobnie kupowali swoje noże na głównym targu, tak jak wszyscy inni.\n\nTeraz wyobraź sobie ten plac w dzień targowy. Ludzie przybywający z innych wsi, kupcy zachwalający swoje towary, rzemieślnicy pokazujący świeżo wykonane ostrza. Gwar placu miesza się z echem, które już zauważyłeś.\n\nMiasto warowne nie żyło wyłącznie wojną. Żyło wymianą. A ta wymiana pomaga też zrozumieć, dlaczego jego sztuka łączy style tak wielu regionów."
+    },
+    "retos_observacion": {
+      "hash": "b33dc89f11b28aec",
+      "texto": [
+        "Wyobraź sobie stoiska handlowe na tym placu",
+        "Poszukaj małego ołtarza, jeśli jest widoczny",
+        "Zastanów się, jakich przedmiotów z obsydianu używałbyś na co dzień"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0d713ff46083b4d8",
+      "texto": {
+        "Materiał": "obsydian, szkło wulkaniczne",
+        "Produkt": "ostrza i narzędzia",
+        "Pochodzenie": "Ucareo w Michoacán oraz Zacualtipán w Hidalgo, ponad dwieście kilometrów stąd",
+        "Odkopane warsztaty": "pięć, cztery w domach i jeden w strefie targowej",
+        "Źródło": "Andrews i Glascock, Arqueología 61"
+      }
+    },
+    "faq_mito": {
+      "hash": "e0920c41e2e80053",
+      "texto": {
+        "pregunta": "Mit: Xochicalco było tylko miastem ceremonialnym.",
+        "respuesta": "Rzeczywistość: Było także ośrodkiem handlu i warsztatów, z domami, które służyły jednocześnie za mieszkanie i miejsce pracy."
+      }
+    }
+  }
+}

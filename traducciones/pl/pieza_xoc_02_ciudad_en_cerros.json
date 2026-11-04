@@ -1,0 +1,55 @@
+{
+  "id": "xoc_02_ciudad_en_cerros",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a85b947a2b8957cb",
+      "texto": "Miasto na wzgórzach"
+    },
+    "frase_gancho": {
+      "hash": "c993dbd43b575f5a",
+      "texto": "Tarasy, mury i fosy, które podtrzymywały i broniły całe miasto."
+    },
+    "puente_narrativo": {
+      "hash": "6a44071928698bda",
+      "texto": "Idź dalej swoją trasą: droga wejściowa pokaże ci, jak kontrolowano przejście do tego miasta."
+    },
+    "guion_corto": {
+      "hash": "05b6b4758304001d",
+      "texto": "Miasto Xochicalco nie leży na jednym wzgórzu. Archeolodzy mówią o trzech przekształconych wzgórzach połączonych tarasami oraz o sześciu niższych wokół, na których również mieszkali ludzie. Aby zamienić te zbocza w miasto, trzeba było wycinać skałę, zasypywać zagłębienia i wznosić mury oporowe. Otwarte przestrzenie łączyły schody, tarasy i rampy wzdłuż osi biegnącej z północy na południe. UNESCO wyróżnia trzy poziomy: na dole strefę mieszkalną otoczoną murami, pośrodku targ i największe boisko, a na górze świątynie wokół Placu Głównego. Ten porządek nie jest przypadkowy. Kto szedł w górę, przechodził od codziennego życia do władzy i tego, co święte."
+    },
+    "guion_largo": {
+      "hash": "6a161554bee29906",
+      "texto": "Spójrz na to miasto jak na zbiór stopni. Xochicalco powstało w regionie o trudnym dostępie, na szeregu naturalnych wzgórz, i to było częścią jego obrony.\n\nWedług INAH miasto założono w drugiej połowie siódmego wieku na kilku wzgórzach. Zasiedlono też sześć niższych wzgórz w okolicy. Kenneth Hirth wyjaśnia, że jądro miasta tworzyły trzy przekształcone wzgórza, połączone tarasami.\n\nAby to osiągnąć, wykonano wielkie dzieło inżynierii. Jedno z opracowań konserwatorskich opisuje, że wzgórze przebudowano, wycinając i zasypując. Tarasy i mury oporowe stworzyły płaskie przestrzenie pod place i domy. Schody, rampy i tarasy łączą je wzdłuż głównej osi biegnącej z północy na południe.\n\nUNESCO dzieli miasto na trzy poziomy. Na niskim poziomie znajdowała się strefa mieszkalna, otoczona murami z broniętymi wejściami. Na poziomie pośrednim był zespół targowy i największe boisko do gry w piłkę. Na wysokim poziomie skupiają się świątynie wokół Placu Głównego.\n\nObrona była też zapisana w krajobrazie. Dyrektor strefy archeologicznej, Medina Romero, wspomina o murze o wysokości czterech metrów, z basztami i fosami, po stronie południowej. Inne opisy mówią o rampach, fosach, basztach i fortach. Takiego miasta nie projektowano do spacerów. Projektowano je po to, by wytrwać.\n\nStarszy zapis: Antonio Alzate, który odwiedził stanowisko w tysiąc siedemset siedemdziesiątym siódmym roku, oszacował wysokość głównego wzgórza na około sto siedem metrów. To pomiar sprzed ponad dwóch wieków, ale pokazuje, jak bardzo zrobiła na nim wrażenie ta potężna bryła.\n\nWiększość domów na zboczach wciąż nie została odkopana. To znaczy, że to, co widzisz, jest tylko częścią miasta. Pod wieloma tarasami może kryć się jeszcze więcej historii.\n\nGdy będziesz iść, zwróć uwagę na dwie rzeczy: na mury, które podtrzymują teren, i na to, jak schody łączą jeden poziom z drugim. Tym właśnie jest Xochicalco: miastem zbudowanym własnymi rękami, kamień na kamieniu, na trudnych wzgórzach."
+    },
+    "retos_observacion": {
+      "hash": "da6d404d59f6fd5d",
+      "texto": [
+        "Znajdź mur oporowy i zobacz, jak podtrzymuje zbocze",
+        "Policz, ile poziomów rozróżniasz z miejsca, w którym stoisz",
+        "Pomyśl o tym, kto wchodził na górę, a kto zostawał na dole"
+      ]
+    },
+    "especificaciones": {
+      "hash": "72702a2920097db4",
+      "texto": {
+        "Lokalizacja": "na szeregu naturalnych wzgórz",
+        "Wzgórza jądra miasta": "trzy przekształcone, według Hirtha",
+        "Poziomy": "niski, pośredni i wysoki, według UNESCO",
+        "Mur południowy": "cztery metry wysokości, z basztami i fosami",
+        "Powierzchnia chroniona": "707 ha"
+      }
+    },
+    "faq_mito": {
+      "hash": "8357c29445281361",
+      "texto": {
+        "pregunta": "Mit: Xochicalco zbudowano na jednym wzgórzu.",
+        "respuesta": "Rzeczywistość: Miasto wzniesiono na kilku przekształconych wzgórzach połączonych tarasami, a ludzie mieszkali też na niższych wzgórzach w okolicy."
+      }
+    }
+  }
+}
