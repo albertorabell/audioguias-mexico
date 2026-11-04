@@ -1,0 +1,55 @@
+{
+  "id": "cue_08_cuexcomate",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2f8efde1b7f0dfa1",
+      "texto": "Il cuexcomate, il granaio di argilla"
+    },
+    "frase_gancho": {
+      "hash": "7cad580475a9a61a",
+      "texto": "Un grande vaso di argilla per conservare il mais, collocato all’aperto su una terrazza del primo piano."
+    },
+    "puente_narrativo": {
+      "hash": "d36bba40646320cf",
+      "texto": "Lascia la terrazza e segui il percorso che hai scelto."
+    },
+    "guion_corto": {
+      "hash": "6d63da5611d1d15a",
+      "texto": "Dove si conserva il mais perché non lo bagni la pioggia e non lo mangino i topi? A Morelos, per generazioni, la risposta è stata il cuexcomate. È un granaio tradizionale di argilla, a forma di grande pentola, sollevato da terra. Qui, su una terrazza all’aperto del primo piano, puoi vederne uno. Il museo lo presenta all’interno della Sala Bioculturalità, insieme a matasse di lana di Hueyapan. Entrambi gli oggetti raccontano come la natura si sia trasformata in cultura: l’argilla, il mais e la lana, lavorati da mani della regione. È un’architettura senza muri di pietra né archi, e tuttavia ha risolto un problema che tutti i popoli agricoli hanno."
+    },
+    "guion_largo": {
+      "hash": "b22159afade07b7c",
+      "texto": "La parola cuexcomate deriva dal nahuatl cuexcomatl e indica il granaio tradizionale di argilla di Morelos e di altre regioni del centro del Messico. Se ne vedi uno per la prima volta, sembra un vaso gigante. In realtà è una costruzione funzionale, pensata per immagazzinare mais e altri cereali.\n\nSu questa terrazza del primo piano del palazzo ce n’è uno. Si trova all’aperto, mentre il museo lo presenta all’interno di una sala, quella della Bioculturalità. Lì si spiegano aspetti della cultura di Morelos, come il cuexcomate e le matasse di lana di Hueyapan. Bioculturalità significa il rapporto tra la natura e la cultura: come un popolo usa ciò che ha intorno a sé e lo trasforma in tradizione.\n\nPer capire il cuexcomate, pensa al problema che risolve. Dopo il raccolto, il mais deve durare mesi. Se si inumidisce, marcisce. Se lo trovano i roditori e gli insetti, va perduto. Un granaio sollevato da terra, fatto di argilla e coperto da un tetto, evita queste due cose. In genere si costruisce con argilla mescolata a erba secca, si erge su una base di pietra e ha un’apertura in alto per riempirlo.\n\nIl mais è la base della vita in questi popoli da più di tremila anni, come raccontano le sale del piano terra. Conservarlo bene significa assicurare il cibo di una famiglia per tutto l’anno. Per questo il cuexcomate è molto più di un bell’oggetto: è parte della sicurezza di una casa contadina.\n\nVale la pena confrontarlo con ciò che racconta Diego Rivera nei murales di questo stesso palazzo. [Il primo tratto del murale](cue_09_rivera_conquista) mostra gli zuccherifici, che sottrassero molte terre. Un cuexcomate rappresenta l’altra faccia della terra: quella del cibo dei popoli.\n\nIl museo ha riaperto nel duemilaventitré con un’idea chiara: parlare delle persone che hanno dato forma al territorio e non solo delle grandi date. Il cuexcomate si inserisce bene in questa idea. Non ha un autore famoso: è opera di una tradizione condivisa, che è passata di famiglia in famiglia.\n\nLe matasse di lana di Hueyapan, che accompagnano il cuexcomate nella sala, raccontano qualcosa di simile. Hueyapan è una comunità di Morelos nota per il suo lavoro tessile. La lana si fila e si tinge a mano. Né l’argilla né la lana vengono da fabbriche: vengono dal territorio e dall’abilità delle persone.\n\nOsserva la forma. Un cuexcomate è un granaio di argilla, largo di pancia e stretto di bocca, che si erge su una base perché l’umidità non danneggi il grano. È una soluzione semplice che conserva il mais per mesi.\n\nPrima di proseguire, guarda dalla terrazza verso la città. È un buon posto per pensare che Cuernavaca, quella degli edifici coloniali e delle strade di pietra, è circondata anch’essa da paesi che vivono della campagna. Un granaio di argilla li rappresenta tutti."
+    },
+    "retos_observacion": {
+      "hash": "55c9f6fff02ef385",
+      "texto": [
+        "Gira intorno al cuexcomate e osserva la sua forma di grande pentola: da dove pensi che si prenda il mais?",
+        "Cerca la parte che lo separa dal suolo e pensa perché conviene sollevare il grano",
+        "Dalla terrazza, guarda verso la città e pensa ai paesi di Morelos che ancora vivono di mais"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b8ccce5fe54ab7ca",
+      "texto": {
+        "Oggetto": "cuexcomate, granaio tradizionale di Morelos",
+        "Parola": "dal nahuatl cuexcomatl",
+        "Materiale": "argilla",
+        "Ubicazione": "terrazza all’aperto al primo piano del palazzo",
+        "Sala del museo in cui è presentato": "Bioculturalità, insieme a matasse di lana di Hueyapan"
+      }
+    },
+    "faq_mito": {
+      "hash": "7cc8fe99d7bcf0d4",
+      "texto": {
+        "pregunta": "Mito: Il cuexcomate è un vaso decorativo.",
+        "respuesta": "Realtà: È un granaio. La sua forma serve a proteggere il mais dalla pioggia e dagli animali."
+      }
+    }
+  }
+}

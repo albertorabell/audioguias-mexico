@@ -1,0 +1,56 @@
+{
+  "id": "cue_19_museo_arte_sacro",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92411ceaa71effe9",
+      "texto": "Il Museo di Arte Sacra"
+    },
+    "frase_gancho": {
+      "hash": "de9da99f60f9555b",
+      "texto": "Novantadue oggetti dal sedicesimo al ventesimo secolo, riuniti per custodire l’arte religiosa di tutto il Morelos."
+    },
+    "puente_narrativo": {
+      "hash": "f060b867381c0573",
+      "texto": "Continua il tuo percorso: può condurti al tempio del Terz’Ordine o al Giardino Borda."
+    },
+    "guion_corto": {
+      "hash": "ce5f45c66bec1202",
+      "texto": "Novantadue oggetti trovano posto in questo museo, che è piccolo ma concentrato. Si trova dentro la cattedrale e ha aperto nel duemiladiciotto. Riunisce dipinti, paramenti e sculture dal sedicesimo al ventesimo secolo, tutta arte religiosa e vicereale del Morelos. A promuoverlo è stato il Consiglio Nazionale Adotta un’Opera d’Arte, insieme alla diocesi, all’INAH e all’INBA, e il governo statale ne ha finanziato buona parte. Non è il primo tentativo. Nel millenovecentoundici il vescovo Francisco Plancarte y Navarrete fondò a Cuernavaca un altro museo di arte sacra. La collezione della cattedrale comprende dipinti attribuiti a Juan Correa, Juan de Miranda e Tomás de Sosa. C’è inoltre un rilievo in legno dorato del diciottesimo secolo sulle stimmate di san Francesco."
+    },
+    "guion_largo": {
+      "hash": "ae0ad46a36bf7542",
+      "texto": "La parola arte sacra suona lontana, ma ciò che c’è qui è molto vicino: oggetti usati da persone reali per pregare, celebrare e ricordare. Il Museo di Arte Sacra si trova dentro la cattedrale. Ha aperto nel duemiladiciotto come spazio degno per custodire l’arte religiosa e vicereale del Morelos. L’arte vicereale è quella che si realizzò quando il Messico era la Nuova Spagna.\n\nÈ un museo piccolo, con circa novantadue oggetti: dipinti, paramenti e sculture dal sedicesimo al ventesimo secolo. I paramenti sono le stoffe e gli oggetti che i sacerdoti usano nelle cerimonie. La cifra può cambiare con il tempo, ma dà un’idea della scala: non è una galleria enorme, bensì una selezione.\n\nL’opera è stata promossa dal Consiglio Nazionale Adotta un’Opera d’Arte, un’organizzazione che lavorava già nella cattedrale dagli anni Novanta. Hanno partecipato la diocesi di Cuernavaca, insieme all’INAH e all’INBA. Il governatore Graco Ramírez ha finanziato gran parte del progetto, secondo il comunicato stampa dell’inaugurazione.\n\nCuernavaca aveva già avuto un museo simile. Nel millenovecentoundici il secondo vescovo della diocesi, Francisco Plancarte y Navarrete, fondò un Museo di Arte Sacra. Una studiosa, María Celia Fontana, non precisa se si trovasse nella cattedrale. L’importante è l’idea: da più di un secolo la diocesi ha voluto riunire e mostrare i propri tesori.\n\nChe tipo di opere custodisce la collezione della cattedrale? Fontana menziona dipinti attribuiti a Juan Correa, Juan de Miranda e Tomás de Sosa, artisti della Nuova Spagna. C’è anche un rilievo in legno policromo e dorato del diciottesimo secolo, di autore anonimo. Rappresenta la stigmatizzazione di san Francesco: il momento in cui, secondo la tradizione, il santo ricevette nel proprio corpo le piaghe di Cristo. Quel rilievo somiglia molto a quello che decora la facciata del [tempio del Terz’Ordine](cue_20_tercera_orden). Non possiamo assicurare quali pezzi siano oggi esposti nelle sale; conviene chiederlo all’ingresso.\n\nNel millenovecentonovantadue diverse opere della cattedrale furono restaurate con il programma Adotta un’Opera d’Arte, diretto da Teresa Loera. Quei lavori prepararono il terreno per il museo.\n\nTra le cose da osservare, fai caso a come si distingue un santo dall’altro. Ciascuno di solito porta un oggetto che lo identifica, come una chiave, una palma o un libro. Questi attributi erano il modo di riconoscerli da lontano.\n\nUna domanda aiuta a guardare questo tipo di arte: a che cosa serviva? Un dipinto di santi poteva insegnare storie a persone che non sapevano leggere. Un paramento serviva in una festa. Una scultura veniva portata in processione. Quando lo pensi così, l’arte sacra smette di essere un oggetto dietro un vetro e torna a essere parte della vita di un popolo."
+    },
+    "retos_observacion": {
+      "hash": "211bb5f498257ec2",
+      "texto": [
+        "Cerca un dipinto con dei santi e chiediti quale storia racconta",
+        "Trova un paramento e osserva la stoffa, il ricamo o il colore",
+        "Se c’è un rilievo in legno dorato, confronta la figura con la facciata del Terz’Ordine"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8c72f331ae25dcb1",
+      "texto": {
+        "Apertura": "2018",
+        "Colección": "92 oggetti dal XVI al XX secolo, secondo Lonely Planet",
+        "Tipo de piezas": "dipinti, paramenti e sculture dell’arte religiosa e vicereale del Morelos",
+        "Impulso": "Consiglio Nazionale Adotta un’Opera d’Arte, diocesi, INAH e INBA",
+        "Museo anterior": "1911, fondato dal vescovo Francisco Plancarte y Navarrete",
+        "Autores citados en la colección de la catedral": "Juan Correa, Juan de Miranda e Tomás de Sosa"
+      }
+    },
+    "faq_mito": {
+      "hash": "916359c48251ed4d",
+      "texto": {
+        "pregunta": "Mito: L’arte sacra è solo per chi è credente.",
+        "respuesta": "Realtà: Si può guardare come storia e come arte. Mostra come si dipingeva, si ricamava e si scolpiva nella Nuova Spagna."
+      }
+    }
+  }
+}

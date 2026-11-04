@@ -1,0 +1,59 @@
+{
+  "id": "cue_05_sala_paisaje",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6ff793b97e1fd30d",
+      "texto": "Sala Paesaggio: mammut, ossidiana e grotte"
+    },
+    "frase_gancho": {
+      "hash": "0dce834adf5b7ccf",
+      "texto": "Un femore e delle zanne di mammut di oltre diecimila anni ricordano chi camminava per Morelos prima dei popoli."
+    },
+    "puente_narrativo": {
+      "hash": "dadd4a7491026a80",
+      "texto": "Prosegui con la sala dei popoli di mais e pietra e con quella degli Olmechi."
+    },
+    "guion_corto": {
+      "hash": "0b5b4cdd7c075655",
+      "texto": "Più di diecimila anni hanno le ossa che ti accolgono in questa sala. Sono un femore e delle zanne di mammut, un animale dell’ultima era glaciale. La sala si chiama Paesaggio e racconta come sono gli ecosistemi e la geologia di Morelos. Ci sono fossili, pezzi di ossidiana, che è un vetro vulcanico con cui si ricavavano lame taglienti, e cesteria delle grotte di El Gallo e La Chagüera. Il museo stima che la regione sia abitata da circa seimilatrecento anni prima della nostra era. Ma questa sala va ancora più indietro: mostra che il territorio esisteva già, con la sua natura, prima che arrivasse la prima persona. Morelos è uno Stato piccolo, ma riunisce montagne, valli e terre calde."
+    },
+    "guion_largo": {
+      "hash": "69a4dcd24ded888b",
+      "texto": "Il museo del Palazzo di Cortés ha cambiato idea quando ha riaperto nel duemilaventitré. Prima raccontava la storia per epoche e per personaggi. Ora, secondo i suoi responsabili, racconta chi ha plasmato il territorio, dalle prime comunità fino a oggi, senza concentrarsi sulle grandi date né sui grandi personaggi. Questa sala è la dimostrazione migliore di quell’idea, perché parte dal paesaggio.\n\nLa Sala Paesaggio parla degli ecosistemi e della geologia di Morelos. È uno Stato piccolo, ma ha boschi nelle zone alte del nord e terre calde verso sud. Questa varietà di climi spiega perché qui ci siano state tante forme di vita.\n\nCiò che colpisce di più sono i resti di mammut. C’è un femore e ci sono zanne di oltre diecimila anni. Il mammut è un animale estinto, parente degli elefanti, che visse nell’ultima era glaciale. Quando si pensa a quell’epoca, quasi nessuno immagina che questi animali siano passati per quello che oggi è Morelos, ma questi resti lo dimostrano.\n\nCi sono anche fossili e pezzi di ossidiana. L’ossidiana è vetro vulcanico. Si spezza in schegge molto affilate, per questo fu un materiale prezioso per fabbricare coltelli e punte fin dalla preistoria. Che si trovi in una sala dedicata al paesaggio non è un caso: l’ossidiana nasce dai vulcani, e Morelos ha dei vulcani vicini.\n\nUn’altra parte della sala mostra la cesteria delle grotte di El Gallo e La Chagüera. I cesti sono oggetti fragili. Che siano sopravvissuti così a lungo indica che le grotte hanno conservato bene i materiali. Per questo agli archeologi interessano tanto questi siti: custodiscono cose che quasi mai si conservano all’aperto.\n\nUn’altra sala del museo, Biodiversità, mostra con infografiche la flora e la fauna endemiche di Morelos. Endemico significa che esiste solo in un luogo. Le due sale formano una coppia: una insegna ciò che vive oggi nel territorio, e l’altra ciò che ha lasciato un’impronta da migliaia di anni. I fossili, dal canto loro, sono resti o tracce di esseri viventi che si sono conservati nella roccia.\n\nIl museo non è ancora completo. Secondo l’INAH, mancano le sale di archeologia, quelle di storia dal sedicesimo al diciannovesimo secolo e quelle di antropologia dal ventesimo al ventunesimo secolo. Manca anche un epilogo sulla responsabilità condivisa di prendersi cura del patrimonio. Alla riapertura del duemilaventitré sono state aperte cinque sale permanenti e tre mostre temporanee.\n\nSe ci pensi, un museo di questo tipo fa qualcosa che i libri di testo non fanno. Mette davanti a te un osso reale, di un animale che nessuno ha mai visto vivo, e ti lascia stimarne le dimensioni a occhio.\n\nAlla fine, porta con te un’idea. Prima dei re, dei conquistatori e dei governatori, ci fu un paesaggio che offriva acqua, pietra, piante e animali. Tutto il resto è stato costruito su quello."
+    },
+    "retos_observacion": {
+      "hash": "44d507b3f025bcf7",
+      "texto": [
+        "Cerca il femore e le zanne di mammut e calcola quanto era grande l’animale che le portava",
+        "Trova i pezzi di ossidiana e osserva come brilla il materiale, simile al vetro",
+        "Guarda la cesteria delle grotte e pensa a quanto tempo è rimasta conservata"
+      ]
+    },
+    "especificaciones": {
+      "hash": "00b0bc25da3d68b0",
+      "texto": {
+        "Sala": "Paesaggio, dedicata a ecosistemi e geologia di Morelos",
+        "Mammut": "femore e zanne di oltre 10 000 anni",
+        "Altri pezzi": "fossili, ossidiana e cesteria delle grotte di El Gallo e La Chagüera",
+        "Popolamento della regione": "da circa 6 300 anni prima della nostra era, secondo il museo",
+        "Museo riaperto": "30 marzo 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "f90d9c95e14f264c",
+      "texto": {
+        "pregunta": "Mito: I mammut sono vissuti solo nelle terre fredde del nord.",
+        "respuesta": "Realtà: Esistono resti di mammut a Morelos, e il museo espone un femore e delle zanne di oltre diecimila anni."
+      }
+    }
+  }
+}

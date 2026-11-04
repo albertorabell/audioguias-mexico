@@ -1,0 +1,55 @@
+{
+  "id": "cue_14_capilla_abierta",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "44aa180a284221cd",
+      "texto": "La Cappella Aperta, o Cappella degli Indios"
+    },
+    "frase_gancho": {
+      "hash": "8e4f2d5664a98721",
+      "texto": "Una cappella senza muro sul fronte, perché migliaia di persone potessero ascoltare la messa all’aperto."
+    },
+    "puente_narrativo": {
+      "hash": "2c678731f9e627c7",
+      "texto": "Prosegui il tuo percorso: può condurti alla navata del tempio o direttamente ai murales dei martiri."
+    },
+    "guion_corto": {
+      "hash": "7dced689ebc1fc4d",
+      "texto": "Immagina una chiesa a cui manca una parete. Ecco come funziona la cappella aperta: ha il tetto e l’altare, ma il fronte è aperto verso l’atrio, così che la messa si veda da fuori. I francescani la costruirono per convertire la popolazione indigena, troppo numerosa per entrare in un tempio chiuso. Per questo si chiama anche Cappella degli Indios. Le fonti la descrivono come ampia e bella, e come forse la più antica ancora in piedi a Cuernavaca. Fu costruita dopo la demolizione della cappella di San José de los Naturales, a Città del Messico. Da qui viene il suo altro nome, Cappella Aperta di San José. México Desconocido la considera la più grande del suo genere in America Latina."
+    },
+    "guion_largo": {
+      "hash": "123411dbebe785bc",
+      "texto": "Una chiesa chiusa non basta per tutti. Nel Cinquecento, i frati francescani si trovavano davanti migliaia di persone che parlavano nahuatl e altre lingue, e che non entravano in nessun tempio. La soluzione fu capovolgere l’architettura: invece di far entrare la gente nella chiesa, si portò la messa nell’atrio.\n\nQuesta soluzione si chiama cappella aperta. Ha un presbiterio, cioè lo spazio dell’altare, coperto e aperto sul fronte verso l’atrio. Il sacerdote officiava all’interno e la folla seguiva la messa da fuori. A Cuernavaca, questa cappella è conosciuta come Cappella Aperta, Cappella degli Indios e Cappella di San José.\n\nIl nome di San José ha una ragione. A Città del Messico esisteva una cappella famosa, quella di San José de los Naturales, destinata alla popolazione indigena. Secondo lo storico dell’arte George Kubler, quella di Cuernavaca fu costruita dopo la demolizione di quella. Per questo questa cappella può essere vista come sua erede. La data esatta di quest’opera non è ben stabilita.\n\nLe descrizioni concordano su un punto: è una cappella larga, di buone dimensioni, e forse la più antica conservata in città. La rivista México Desconocido si spinge oltre e afferma che è la più antica e la più grande del suo genere in America Latina. Questa affermazione non abbiamo potuto verificarla con un’altra fonte, quindi la presentiamo come un’opinione e non come un dato.\n\nL’UNESCO spiega che questi monasteri del Cinquecento avevano cappelle aperte con soluzioni molto varie. Alcune sono semplici nicchie. Altre, come questa, sono grandi spazi con archi. Lo scopo era sempre lo stesso: far arrivare la cerimonia a tutta la comunità.\n\nPer riempire l’atrio, i frati dovevano farsi capire. Impararono le lingue indigene e si servirono di immagini, canti e rappresentazioni. Nei giorni di festa arrivava gente dai villaggi vicini. L’atrio diventava allora una grande piazza, e la cappella aperta, il suo palcoscenico.\n\nBisogna anche spiegare che cosa significa il nome Cappella degli Indios. È un nome del periodo vicereale che si riferisce alla popolazione indigena a cui era rivolta. Oggi lo usiamo per descrivere la storia, non per classificare nessuno.\n\nGuarda la cappella come un palcoscenico. Non ha porte che la chiudano verso l’atrio. Questa apertura spiega la sua funzione: una celebrazione poteva essere seguita da fuori da moltissime persone contemporaneamente.\n\nCome hai visto nella tappa precedente, l’atrio era una parte essenziale del complesso. Capire questa cappella significa capire che la chiesa, qui, cominciava all’esterno. Una parete senza porta può dire quanto un portale con rilievi.\n\nAlla fine, guarda quanto spazio c’è davanti alla cappella. Lì si fermava la gente. Quella spianata faceva da navata della chiesa, e il cielo faceva da volta."
+    },
+    "retos_observacion": {
+      "hash": "fd287a1a5b7c4972",
+      "texto": [
+        "Cerca il fronte aperto della cappella e calcola quante persone potrebbero seguire la messa dall’atrio",
+        "Guarda il tetto e gli archi e osserva quale parte è coperta e quale no",
+        "Confronta questa cappella con la facciata del tempio: quale pensi sia stata costruita per prima?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d47326c72a09e58d",
+      "texto": {
+        "Tipo": "cappella aperta francescana del XVI secolo",
+        "Nombres": "Cappella Aperta, Cappella degli Indios e Cappella di San José",
+        "Fuente de su nombre": "cappella di San José de los Naturales, a Città del Messico",
+        "Función": "officiare la messa per le moltitudini all’aperto",
+        "Estado": "forse la più antica ancora in piedi a Cuernavaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "3d21e49a22015f19",
+      "texto": {
+        "pregunta": "Mito: La Cappella degli Indios era solo per gli indigeni e non per altri.",
+        "respuesta": "Realtà: Il nome risale al periodo vicereale e indica a chi era rivolta l’evangelizzazione, cioè alla popolazione indigena, che era la maggioranza. Non dice chi potesse entrare."
+      }
+    }
+  }
+}

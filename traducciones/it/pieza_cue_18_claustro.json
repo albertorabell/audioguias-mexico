@@ -1,0 +1,56 @@
+{
+  "id": "cue_18_claustro",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7a756d3b94c18e61",
+      "texto": "Il chiostro e i frati del convento"
+    },
+    "frase_gancho": {
+      "hash": "b448e6b8b7b11b28",
+      "texto": "Aranci, un orto enorme e i frati che impararono il nahuatl: la vita quotidiana del convento francescano."
+    },
+    "puente_narrativo": {
+      "hash": "261da6bdc4326367",
+      "texto": "Passa dal chiostro alle sale del Museo d’Arte Sacra."
+    },
+    "guion_corto": {
+      "hash": "6749cf55dc9bdb8d",
+      "texto": "Un frate domenicano che arrivò a Cuernavaca nel millecinquecentottantacinque descrisse il convento: ha una chiesa, un chiostro, dei dormitori e un orto. Un cronista del diciassettesimo secolo aggiunse che il cortile era adorno di aranci e che l’orto era molto grande. Il chiostro è il patio centrale circondato da gallerie, e qui trascorreva la vita dei frati. Nel sedicesimo secolo vissero qui figure come fra Toribio de Benavente, Motolinía, Agustín de la Coruña e Hernando de Leyva. Francisco Cimbrón e Hernando de Leyva sono sepolti nel convento. Oggi le gallerie del chiostro custodiscono una grande collezione di arte barocca, soprattutto pittura, distribuita in varie sale."
+    },
+    "guion_largo": {
+      "hash": "e65cf6c64544dd9e",
+      "texto": "Un chiostro è un cortile circondato da gallerie coperte. In un convento era il centro della vita quotidiana: i frati lo attraversavano per andare al tempio, al refettorio e ai dormitori. In quello di Cuernavaca questo cortile ha cambiato usi, ma conserva il suo senso.\n\nDiverse persone hanno lasciato descrizioni del convento. Un frate domenicano, il padre Ponce, che arrivò nel millecinquecentottantacinque, scrisse che l’edificio era terminato e che aveva una chiesa, un chiostro, dei dormitori e un orto. Nel diciassettesimo secolo il cronista Vetancurt descrisse il cortile decorato con aranci e un orto molto grande. Scrisse anche che l’atrio d’ingresso, la portineria, era lungo più di cinquanta vare.\n\nNel sedicesimo secolo vissero qui frati che poi sarebbero diventati molto noti. Fra Toribio de Benavente, che gli indigeni chiamarono Motolinía, che vuol dire il povero, fu uno dei primi francescani ad arrivare in Messico. Scrisse una storia dei popoli della Nuova Spagna. Furono qui anche Agustín de la Coruña e Hernando de Leyva. Due frati sono sepolti nel convento: Francisco Cimbrón, della provincia della Concezione, e Hernando de Leyva, della provincia di Burgos.\n\nIl convento non custodiva soltanto persone. Con il tempo il chiostro divenne uno spazio di collezione. Nelle gallerie c’è una grande quantità di arte barocca, soprattutto pittura, distribuita in varie sale. Una ricercatrice, María Celia Fontana, ha studiato questa collezione. Vi compaiono opere attribuite a Juan Correa, Juan de Miranda e Tomás de Sosa.\n\nIl chiostro conobbe altri cambiamenti. Quando fu creata la diocesi nel milleottocentonovantuno, l’antico convento divenne cattedrale. Nel millenovecentoundici il vescovo Francisco Plancarte y Navarrete fondò un Museo d’Arte Sacra a Cuernavaca. Nel millenovecentottantanove l’ingegnere Juan Dubernard catalogò i beni mobili della cattedrale. E nel millenovecentonovantadue il programma Adotta un’Opera d’Arte restaurò diversi pezzi chiave. Dal ventisei al trenta ottobre del duemiladue la mostra «Tesori artistici della cattedrale di Cuernavaca» fu allestita nel chiostro superiore.\n\nPer percorrerlo, pensa a com’era la giornata in un convento: preghiera, pasti, studio e lavoro. Le gallerie coperte proteggevano dal sole e dalla pioggia, e per questo il cortile funzionava come la sala comune di tutti.\n\nSe trovi opere con il loro cartellino, leggilo per intero. I nomi di Correa, Miranda e Sosa compaiono negli studi su questa collezione, ma non tutte le attribuzioni sono sicure. I pezzi cambiano di posto con il tempo, e anche le sale aperte possono cambiare.\n\nSe il chiostro è aperto quando lo visiti, fai caso al suo silenzio. I frati lo percorrevano pregando e studiando. Chi arriva oggi lo percorre in un altro modo, con la testa alzata per vedere i soffitti e gli archi, e con il passo più lento. Ora tocca a te percorrerlo guardando."
+    },
+    "retos_observacion": {
+      "hash": "587c7480160f7d06",
+      "texto": [
+        "Cammina lungo una galleria e prova a immaginare i frati che attraversano il cortile",
+        "Cerca gli aranci o gli alberi del cortile e pensa all’orto descritto da Vetancurt",
+        "Guarda i dipinti delle gallerie e osserva quali sono di tema religioso barocco"
+      ]
+    },
+    "especificaciones": {
+      "hash": "464d14133bab7145",
+      "texto": {
+        "Descrizione di padre Ponce": "1585",
+        "Cronaca di Vetancurt": "XVII secolo, con aranci e orto",
+        "Frati del XVI secolo": "Motolinía, Agustín de la Coruña e Hernando de Leyva",
+        "Sepolture": "Francisco Cimbrón e Hernando de Leyva",
+        "Primo Museo d’Arte Sacra": "1911, per opera del vescovo Francisco Plancarte y Navarrete",
+        "Catalogo dei beni mobili": "1989, a cura di Juan Dubernard"
+      }
+    },
+    "faq_mito": {
+      "hash": "121a6d51871af167",
+      "texto": {
+        "pregunta": "Mito: Motolinía era un soprannome beffardo.",
+        "respuesta": "Realtà: Era un nome nahuatl che gli indigeni gli diedero e che vuol dire il povero, per la sua vita umile."
+      }
+    }
+  }
+}

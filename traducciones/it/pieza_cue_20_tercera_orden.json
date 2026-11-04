@@ -1,0 +1,59 @@
+{
+  "id": "cue_20_tercera_orden",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Las Monjas\" para \"Las Monjas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "832145101d58c960",
+      "texto": "Il tempio del Terz’Ordine"
+    },
+    "frase_gancho": {
+      "hash": "31c164751db15c80",
+      "texto": "Un tempio del Settecento fatto erigere da un maggiordomo laico, con le stimmate di san Francesco sul portale."
+    },
+    "puente_narrativo": {
+      "hash": "24072a38a18279e1",
+      "texto": "Se il tuo percorso prosegue, dirigiti verso il Jardín Borda, che si trova molto vicino al complesso."
+    },
+    "guion_corto": {
+      "hash": "dd8deb9c214c79c4",
+      "texto": "Molti pensano che tutti i francescani fossero frati. Non è così. Il Terz’Ordine riuniva dei laici che volevano vivere secondo lo spirito di san Francesco senza entrare in un convento. Questo tempio fu costruito per loro tra il millesettecentoventitré e il millesettecentotrentasei, dal licenziato Enrique Jerez, maggiordomo secolare dell’ordine francescano. Si trova all’estremità nord-ovest del chiostro del convento. Sul suo portale c’è un rilievo in pietra sulle stimmate di san Francesco, cioè il momento in cui, secondo la tradizione, ricevette le piaghe di Cristo. Quel rilievo somiglia molto a uno in legno del Settecento che si conserva nella cattedrale."
+    },
+    "guion_largo": {
+      "hash": "8336cee27e031700",
+      "texto": "Nella tradizione francescana ci sono tre ordini. Il Primo Ordine è quello dei frati. Il Secondo è quello delle monache clarisse. Il Terzo riuniva uomini e donne laici, cioè che non erano né sacerdoti né religiosi, e che volevano vivere con semplicità e preghiera senza lasciare la propria vita quotidiana. Erano commercianti, artigiani e famiglie che si riunivano nel loro tempio.\n\nA Cuernavaca, quel tempio fu costruito nel Settecento. Secondo la ricercatrice María Celia Fontana, fu eretto tra il millesettecentoventitré e il millesettecentotrentasei, per iniziativa del licenziato Enrique Jerez, maggiordomo secolare dell’ordine. Un maggiordomo era la persona che amministrava i beni e si occupava delle spese. Che a farlo sia stato qualcuno che non era frate dice molto sull’importanza dei laici in questo ordine.\n\nFontana colloca il tempio all’estremità nord-ovest del chiostro del convento. Un’altra fonte dice che la cappella del Terz’Ordine, insieme a quelle dei Dolori e del Carmine, fu costruita in seguito sull’atrio. Le due descrizioni non coincidono del tutto, quindi segui le indicazioni del percorso per arrivarci.\n\nIl portale ha un rilievo in pietra sulle stimmate di san Francesco. Secondo la tradizione, nel Duecento il santo pregò su un monte e ricevette nel proprio corpo le cinque piaghe di Cristo. Sono quelle delle mani, dei piedi e del costato. È una delle immagini più importanti della devozione francescana. A Cuernavaca l’immagine compare due volte: in pietra, su questo portale, e in legno policromo e dorato, in un rilievo della cattedrale.\n\nFontana osserva che i due rilievi si somigliano molto. Quello in legno è un oggetto del Settecento, di autore anonimo. Non sappiamo quale sia stato realizzato prima né se uno abbia ispirato l’altro. Ma la coincidenza mostra che nel Settecento si ripetevano ancora i modelli che si trovavano nel convento principale.\n\nAnche la data è importante. I primi francescani arrivarono a Cuernavaca nel Cinquecento. Due secoli dopo c’erano già adulti che appartenevano al Terz’Ordine e volevano un luogo tutto loro. È la prova che la fede francescana era ancora viva in città, e che non la sostenevano più soltanto i frati: la sosteneva una comunità.\n\nPer vedere questo portale, mettiti di fronte e alza lo sguardo fino al rilievo. Osserva la postura del santo e ciò che c’è intorno a lui. Poi ricorda la versione in legno del museo e chiediti quali dettagli cambino dall’una all’altra.\n\nQuesto tempio chiude la visita alla cattedrale con un’idea semplice. Qui non ci furono soltanto frati né soltanto governanti: ci furono famiglie e artigiani che decisero di costruire un proprio luogo di preghiera. Un complesso religioso non è soltanto un edificio antico. È il risultato di secoli di persone che si sono riunite, hanno costruito e hanno pregato nello stesso luogo."
+    },
+    "retos_observacion": {
+      "hash": "81c3189416022e80",
+      "texto": [
+        "Cerca il rilievo in pietra del portale e prova a distinguere le mani e i piedi di san Francesco",
+        "Confronta quell’immagine con quella del museo, se riesci a vederla, e pensa quali tratti si ripetono",
+        "Chiedi all’ingresso se il tempio è aperto e a che ora"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a877dd6b656a1367",
+      "texto": {
+        "Costruzione": "tra il 1723 e il 1736",
+        "Promotore": "licenziato Enrique Jerez, maggiordomo secolare dell’ordine francescano",
+        "Ubicazione": "estremità nord-ovest del chiostro, secondo Fontana",
+        "Dettaglio del portale": "rilievo in pietra delle stimmate di san Francesco",
+        "Rilievo comparabile": "legno policromo e dorato del XVIII secolo, di autore anonimo"
+      }
+    },
+    "faq_mito": {
+      "hash": "39001c14ae248dc1",
+      "texto": {
+        "pregunta": "Mito: il Terz’Ordine era un gruppo di frati.",
+        "respuesta": "Realtà: riuniva dei laici, uomini e donne, che volevano vivere secondo lo spirito di san Francesco senza entrare in un convento."
+      }
+    }
+  }
+}

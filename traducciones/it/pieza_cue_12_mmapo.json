@@ -1,0 +1,61 @@
+{
+  "id": "cue_12_mmapo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"La Venta\" para \"La Venta\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"La Venta\" para \"La Venta\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "b0ee601ce52788d9",
+      "texto": "MMAPO, il Museo Morelense de Arte Popular"
+    },
+    "frase_gancho": {
+      "hash": "f516ebdf14ca10dc",
+      "texto": "Chinelos a grandezza naturale, pentole di Cuentepec, tessuti di Hueyapan e figure di Tlayacapan, tutto a pochi passi dal palazzo."
+    },
+    "puente_narrativo": {
+      "hash": "69be895d2d448fbf",
+      "texto": "Cammina lungo la calle Hidalgo verso la Cattedrale, se il tuo percorso prosegue da quella parte."
+    },
+    "guion_corto": {
+      "hash": "0e4957ee5068a585",
+      "texto": "Sulla calle Hidalgo, al numero duecentotrentanove, c’è un museo con parte della collezione all’aperto. È il Museo Morelense de Arte Popular, conosciuto come MMAPO. Presenta l’artigianato di tutte le regioni di Morelos. Ci sono ceramiche di Cuentepec, tessuti di Hueyapan e lavori di artigiani di Tlayacapan. Parte di ciò che espone si trova all’aperto, così puoi avvicinarti ai pezzi. Tra questi spiccano i chinelos a grandezza naturale, i danzatori del carnevale di Morelos, con la loro lunga tunica e il cappello decorato. È un museo che racconta lo stato attraverso le mani che realizzano oggetti di argilla, lana e altri materiali. La maggior parte dei suoi pezzi è in vendita e cambia spesso."
+    },
+    "guion_largo": {
+      "hash": "87bb163e6aa6a64d",
+      "texto": "Il palazzo di Cortés ti ha raccontato la storia di Morelos attraverso le sue pietre e i suoi murali. Il MMAPO la racconta attraverso le mani di chi realizza oggetti ogni giorno. L’ingresso si trova sulla calle Hidalgo, al numero duecentotrentanove, tra il palazzo e la Cattedrale.\n\nIl nome completo è Museo Morelense de Arte Popular, e chi lo conosce lo chiama MMAPO. Raccoglie l’artigianato di tutte le regioni dello stato. L’idea è conservare, esporre e promuovere il lavoro degli artigiani di Morelos, e contribuire a far sì che questo mestiere continui a essere praticato.\n\nTre comunità compaiono sempre quando si parla di artigianato di Morelos. La prima è Cuentepec, conosciuta per le sue vasaie, che lavorano l’argilla. La seconda è Hueyapan, dove si tesse la lana: hai già visto le sue matasse nel museo del palazzo. La terza è Tlayacapan, il cui lavoro artigianale viene mostrato anch’esso nel museo. Tlayacapan compare inoltre in un’esposizione del palazzo sui malacates, i contrappesi dei fusi con cui si filava fin dall’epoca preispanica.\n\nLe figure più appariscenti del MMAPO sono i chinelos. Sono i danzatori del carnevale di Morelos, e il museo li mostra a grandezza naturale. Indossano una lunga tunica, una maschera con la barba e un alto cappello con decorazioni. Quando ballano, fanno brevi salti al ritmo di una banda. Il museo permette di avvicinarsi a loro e di vedere come sono fatti, dettaglio per dettaglio.\n\nSecondo la tradizione, il chinelo nacque nell’Ottocento come una presa in giro degli abitanti dei villaggi nei confronti dei proprietari delle haciendas, e per questo il suo abito esagera l’eleganza dei padroni. È una spiegazione che si ripete molto, anche se le origini della danza continuano a essere discusse. Ciò che è certo è che oggi è un simbolo dello stato e che ogni carnevale lo riempie di nuovo di musica e di colore.\n\nUna caratteristica del MMAPO è che molti oggetti sono all’aperto. Questo cambia l’esperienza. Invece di vetrine chiuse, puoi vedere i pezzi da vicino, con la luce del giorno.\n\nC’è anche un negozio. I pezzi cambiano spesso e quasi tutti sono in vendita, quindi ciò che vedi oggi potrebbe non esserci domani. Se compri qualcosa, chiedi a chi ti serve da dove viene e chi l’ha fatto. Nell’arte popolare, il nome della persona e del villaggio contano quanto l’oggetto.\n\nPrima di entrare, fai una pausa in strada. Questo museo si trova tra la cattedrale e il Palazzo di Cortés, quindi funziona da momento di riposo tra due grandi tappe. Qui il ritmo cambia: meno date e più oggetti che si possono percorrere con lo sguardo, uno per uno.\n\nQuesto museo è il lato vivo di Morelos: gli oggetti non sono solo passato, si fanno e si vendono oggi.\n\nLa parola popolare ha un significato preciso. Non vuol dire economico né semplice. Vuol dire fatto dal popolo, con tecniche che passano di generazione in generazione. Tra il murale di Rivera e una pentola di Cuentepec c’è più relazione di quanto sembri: entrambi raccontano Morelos."
+    },
+    "retos_observacion": {
+      "hash": "7ff63b254d2d42f3",
+      "texto": [
+        "Cerca i chinelos a grandezza naturale e osserva la tunica, la barba e il cappello",
+        "Trova un pezzo di argilla e uno di lana e indovina da quale villaggio proviene ciascuno",
+        "Chiedi nel negozio chi ha realizzato il pezzo che ti colpisce e dove vive"
+      ]
+    },
+    "especificaciones": {
+      "hash": "df8961436876665c",
+      "texto": {
+        "Indirizzo": "Hidalgo 239, centro di Cuernavaca",
+        "Collezione": "artigianato di tutte le regioni di Morelos",
+        "Comunità menzionate": "Cuentepec, Hueyapan e Tlayacapan",
+        "Figure di rilievo": "chinelos a grandezza naturale"
+      }
+    },
+    "faq_mito": {
+      "hash": "8b9ba0385f2cef13",
+      "texto": {
+        "pregunta": "Mito: L’arte popolare è la stessa cosa dell’artigianato a buon mercato dei mercati.",
+        "respuesta": "Realtà: È un lavoro fatto a mano con tecniche tramandate. Il MMAPO lo mostra come arte, con il nome della sua comunità."
+      }
+    }
+  }
+}

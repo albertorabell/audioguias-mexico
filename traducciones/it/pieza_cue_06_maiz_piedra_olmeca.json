@@ -1,0 +1,58 @@
+{
+  "id": "cue_06_maiz_piedra_olmeca",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f29ffa16e53ad4b9",
+      "texto": "Popoli di mais e pietra, e il fenomeno olmeco"
+    },
+    "frase_gancho": {
+      "hash": "420846fa523fa552",
+      "texto": "Figurine, vasi e un incensiere a forma di pesce gatto: così comincia la vita nei villaggi di Morelos più di tremila anni fa."
+    },
+    "puente_narrativo": {
+      "hash": "758b9fd119efee26",
+      "texto": "Continua lungo il palazzo: sali sulla terrazza dove si trova il cuexcomate."
+    },
+    "guion_corto": {
+      "hash": "cf323ba0f079d414",
+      "texto": "Circa tremilacinquecento anni fa, le comunità di Morelos vivevano già della coltivazione del mais. La sala Popoli di mais e pietra mostra figurine femminili, bottiglie e pentole da cucina che risalgono a un periodo tra millecinquecento e milleduecento prima della nostra era. Sono oggetti d’uso quotidiano, non di lusso. Nella sala successiva, Il fenomeno olmeco, compare qualcos’altro: l’influenza di una cultura della Costa del Golfo sulla ceramica e sulla scultura di Morelos. Tra i pezzi ci sono il vaso di Oaxtepec e un incensiere a forma di pesce gatto. C’è anche una replica del Monumento trentasei di Chalcatzingo, un sito di Morelos con rilievi nella pietra. Qui il museo parla di villaggi, non di re."
+    },
+    "guion_largo": {
+      "hash": "9886962ec6a45cf8",
+      "texto": "Queste due sale raccontano una stessa storia in due toni. La prima parla della vita quotidiana; la seconda, delle idee che hanno viaggiato.\n\nIn Popoli di mais e pietra, il museo riunisce oggetti di comunità che vivevano a Morelos tra millecinquecento e milleduecento prima della nostra era. Ci sono figurine femminili di argilla, bottiglie e pentole da cucina. Le figurine sono tra gli oggetti più comuni di quell’epoca in Mesoamerica. Si discute ancora a cosa servissero. Alcuni specialisti le collegano alla fertilità o a rituali domestici. Le pentole e le bottiglie sono più facili da interpretare. Servivano per cucinare, conservare e servire.\n\nIl titolo della sala parla di mais e di pietra per una ragione. Il mais fu la base dell’alimentazione e della vita dei popoli mesoamericani. La pietra fu il materiale degli utensili e, più tardi, di sculture e templi. Tra i due prende forma un modo di vivere stabile.\n\nLa seconda sala si chiama Il fenomeno olmeco. Gli Olmechi furono una cultura della Costa del Golfo del Messico, famosa per le sue teste colossali. La loro influenza raggiunse molte regioni, compreso Morelos. Nella sala ci sono ceramiche e sculture di Morelos che mostrano tratti di quello stile.\n\nTra i pezzi più importanti c’è il vaso di Oaxtepec. Un altro è un incensiere a forma di pesce gatto, ovvero un pesce di fiume con i baffi. E c’è una replica del Monumento trentasei di Chalcatzingo. Chalcatzingo è un sito archeologico di Morelos con rilievi scolpiti nelle rocce di una collina. Quando il museo espone una replica, è perché l’originale è rimasto al suo posto.\n\nLa parola influenza è importante. Gli specialisti discutono su come lo stile olmeco sia arrivato a Morelos: se tramite il commercio, tramite gli spostamenti di persone o tramite lo scambio di idee. Quello che si vede nelle vetrine è che le comunità locali realizzarono una propria versione.\n\nIl museo indica Xochicalco come il sito archeologico più importante tra quelli che presenta. Xochicalco è un’antica città di Morelos, costruita su una collina e molto più tarda dei villaggi di questa sala. Le due epoche convivono nel museo e mostrano quanto sia lungo il filo della storia dello stato.\n\nUn modo di guardare insieme le due sale è chiedersi che cosa cambia e che cosa resta. Cambiano gli oggetti e gli stili. Restano l’argilla, il mais e il bisogno di conservare, cucinare e condividere.\n\nIl percorso in queste sale lascia una domanda da portare con sé nel resto del museo. Nell’anno millecinquecento prima della nostra era c’erano già villaggi con pentole, figurine e stili condivisi. Allora, che cosa c’era prima del tecpan, della piazza tlahuica e del palazzo di Cortés? Molta più storia di quella che di solito si racconta. Se ti avanza tempo, torna a guardare un vaso o una figurina e pensa alle mani che li hanno fatti. Ogni pezzo è stato fatto da una persona, per un uso concreto."
+    },
+    "retos_observacion": {
+      "hash": "ca13ce1200e9bda1",
+      "texto": [
+        "Cerca il vaso di Oaxtepec e l’incensiere a forma di pesce gatto e confrontali: quale sembra d’uso quotidiano e quale cerimoniale?",
+        "Trova le figurine femminili e osserva come l’artista ha risolto il volto e il corpo",
+        "Guarda la replica del Monumento trentasei di Chalcatzingo e pensa al perché venga esposta una copia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "398ab5fb288426d8",
+      "texto": {
+        "Sala 1": "Popoli di mais e pietra, con figurine, bottiglie e pentole da cucina databili tra circa il 1500 e il 1200 a.C.",
+        "Sala 2": "Il fenomeno olmeco",
+        "Pezzi": "vaso di Oaxtepec, incensiere a forma di pesce gatto e replica del Monumento 36 di Chalcatzingo",
+        "Sito menzionato": "Chalcatzingo, Morelos"
+      }
+    },
+    "faq_mito": {
+      "hash": "15ab07157492117b",
+      "texto": {
+        "pregunta": "Mito: Gli Olmechi furono i fondatori di tutte le culture della Mesoamerica.",
+        "respuesta": "Realtà: Gli specialisti discutono su quanto abbiano influito. A Morelos si vede la loro influenza, ma le comunità locali crearono un proprio stile."
+      }
+    }
+  }
+}

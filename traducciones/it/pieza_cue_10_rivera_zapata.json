@@ -1,0 +1,55 @@
+{
+  "id": "cue_10_rivera_zapata",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9cd069570e1a213b",
+      "texto": "Rivera II: conversione, Inquisizione e Zapata"
+    },
+    "frase_gancho": {
+      "hash": "fa912fb48d887c65",
+      "texto": "Un fonte battesimale a forma di serpente piumato, uomini impiccati e un contadino in camicia bianca che chiude la storia."
+    },
+    "puente_narrativo": {
+      "hash": "eb070647fcd0ac56",
+      "texto": "Prosegui il tuo percorso: può portarti alla galleria orientale e al torrione, oppure verso la Cattedrale."
+    },
+    "guion_corto": {
+      "hash": "f277202d606c02b8",
+      "texto": "Un fonte battesimale scolpito come un serpente piumato. È uno dei dettagli più strani del secondo tratto del murale. Qui Rivera dipinse la conversione forzata delle comunità indigene, con il convento dell’Asunción sullo sfondo e fray Toribio de Benavente, Motolinía, che insegna. Poi viene l’Inquisizione sotto i domenicani e, alla fine, la rivoluzione contadina guidata da Emiliano Zapata, con impiccati e un cavallo morto. Zapata appare come un contadino, con camicia e pantaloni di cotone bianco e huaraches. Nelle grisaglie in basso ci sono scene di Cuauhtémoc, delle miniere d’argento e dei difensori degli indios, come Bartolomé de las Casas e Vasco de Quiroga."
+    },
+    "guion_largo": {
+      "hash": "56e24a597efc40ff",
+      "texto": "Qui la storia cambia tono. Il primo tratto raccontava battaglie e lavoro forzato. Questo racconta come si impose una nuova fede e, alla fine, come terminò il sistema nato dalla Conquista.\n\nLa prima scena è la conversione forzata delle comunità indigene. Rivera dipinge il convento dell’Asunción, che è lo stesso complesso che oggi conosci come la Cattedrale di Cuernavaca. Lì c’è Motolinía, il francescano che insegnò nella regione. E c’è un fonte battesimale scolpito a forma di serpente piumato. È un dettaglio che unisce due mondi: un oggetto cristiano con la forma di una divinità preispanica. Per vedere l’edificio reale, puoi visitare [l’atrio e la facciata della Cattedrale](cue_13_atrio_catedral).\n\nLa scena successiva è l’Inquisizione sotto i domenicani. In un piccolo dipinto sopra il vano di una porta, verso la fine del corridoio, Rivera mostra la persecuzione e il rogo di persone indigene accusate di eresia. All’inizio del corridoio aveva dipinto un sacrificio umano azteco. Mettere le due scene l’una di fronte all’altra è un modo per confrontare la crudeltà di due culture, ed è una delle letture proposte dagli storici dell’arte.\n\nL’ultima grande scena è la rivoluzione. Emiliano Zapata guida i contadini. Ci sono impiccati e un cavallo morto. Zapata non indossa l’abito da charro con l’argento, come in molte fotografie. Indossa camicia e pantaloni di cotone bianco e huaraches, come un contadino. Per Rivera, la Rivoluzione era la liberazione dal dominio coloniale. Zapata appare anche in una nicchia di un pilastro, sul lato orientale, e José María Morelos sul lato occidentale. Il volto di Morelos ricorda molto gli autoritratti di Rivera.\n\nIn basso, nelle grisaglie, ci sono scene che non hanno colore ma hanno peso. Rivera dipinse l’esecuzione di Cuauhtémoc e di Tetlepanquetzal, la distruzione dei templi indigeni e il lavoro forzato nelle miniere d’argento. Ci sono anche due figure di aiuto: Bartolomé de las Casas, difensore degli indigeni, e Vasco de Quiroga, che introdusse il telaio. E c’è Acualmeztli, che morì nella guerra del Mixtón nel millecinquecentoquarantadue.\n\nIl Museo di Arte Moderna di New York conserva un’altra opera di Rivera che ha come tema Zapata. Lo descrive come un umile contadino e un instancabile difensore dei braccianti senza terra. È una lettura che aiuta a capire perché Rivera lo vestì con abiti da campo e non da cerimonia.\n\nIl murale ha avuto una vita accidentata. Negli anni Novanta fu protetto e restaurato con il sostegno del Centro Nacional de Conservación e di gruppi privati. Dopo il terremoto del duemiladiciassette e la riapertura del museo nel duemilaventitré, è tornato ad aprirsi al pubblico.\n\nPrima di proseguire, torna per un momento verso l’inizio del corridoio. Rivera chiuse il cerchio: iniziò con un sacrificio e finì con una rivolta. Tra l’uno e l’altra, quattro secoli di storia."
+    },
+    "retos_observacion": {
+      "hash": "38a96fdb36343d24",
+      "texto": [
+        "Cerca il fonte battesimale a forma di serpente piumato nella scena della conversione",
+        "Trova Zapata nella nicchia del pilastro e confronta i suoi abiti con quelli delle fotografie che conosci",
+        "Cerca il volto di Morelos nell’altra nicchia e chiediti a chi somiglia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "edd7ccfb0202062a",
+      "texto": {
+        "Seconda parte del murale": "conversione forzata, Inquisizione e rivoluzione contadina",
+        "Nicchie nei pilastri": "Zapata sul lato orientale e Morelos sul lato occidentale",
+        "Grisaglie": "Cuauhtémoc, distruzione dei templi, miniere, Las Casas, Vasco de Quiroga e Acualmeztli",
+        "Firma": "D.R. 30 nell’angolo inferiore sud del muro ovest",
+        "Restauro": "protetto negli anni Novanta, di nuovo esposto dal 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "5f98a354088d7720",
+      "texto": {
+        "pregunta": "Mito: lo Zapata del murale indossa un abito da charro con decorazioni d’argento.",
+        "respuesta": "Realtà: Rivera lo dipinse come un contadino, con camicia e pantaloni di cotone bianco e huaraches."
+      }
+    }
+  }
+}

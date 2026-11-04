@@ -1,0 +1,56 @@
+{
+  "id": "cue_02_fortaleza_cortes",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92bf74aefba78ae3",
+      "texto": "La fortezza di Cortés"
+    },
+    "frase_gancho": {
+      "hash": "58c499f91578d5ef",
+      "texto": "Una casa di famiglia con muri spessi e merlature, costruita sul centro di governo dei Tlahuica."
+    },
+    "puente_narrativo": {
+      "hash": "1caca043206f2e4e",
+      "texto": "Entra nel museo e prosegui il tuo percorso dentro il palazzo."
+    },
+    "guion_corto": {
+      "hash": "d5c5fcc854f89c68",
+      "texto": "Questa è una casa o una fortezza? Entrambe. Hernán Cortés fece costruire questo edificio sul tecpan di Cuauhnáhuac, la casa di governo dove i Tlahuica raccoglievano il tributo, e usò i materiali di quella costruzione distrutta. I muri sono spessi e la parte alta ha delle merlature, come quelle di un castello. Nel millecinquecentoventinove Cortés ricevette il titolo di Marchese della Valle di Oaxaca, e nel millecinquecentotrentuno si stabilì qui con la moglie, Juana de Zúñiga. Dai corridoi si vedono i vulcani e le terre fertili che lo attrassero a Cuernavaca. L’INAH lo descrive come la prima opera civile costruita in America dopo l’arrivo degli europei."
+    },
+    "guion_largo": {
+      "hash": "c94d242589e2347e",
+      "texto": "Prima che esistesse questo palazzo, qui c’era un altro edificio. I Tlahuica, il popolo che abitava queste terre, avevano in questo luogo un tecpan, che era una casa di governo dove si raccoglieva il tributo. Nel Quattrocento i Mexica dominarono la regione e il sito continuò a servire per riscuotere il tributo. Quando arrivarono gli spagnoli, Hernán Cortés ordinò di distruggere quell’edificio e di costruire il proprio sopra di esso. Parte dei materiali proveniva dalle rovine.\n\nSi dice che Cortés scelse Cuernavaca per la fertilità delle sue terre. Nel millecinquecentoventinove il re gli conferì il titolo di Marchese della Valle di Oaxaca, con un territorio enorme che comprendeva questa zona. Fu il sei luglio, secondo Wobeser. Quel feudo non era un unico blocco: aveva ventidue villaggi distribuiti in sette giurisdizioni, e la maggiore era il Governatorato maggiore di Cuernavaca, dove si trovava il suo centro amministrativo. Durò fino al milleottocentoventuno. Alcuni autori collocano l’inizio dei lavori intorno al millecinquecentoventisei, e l’ampliamento principale tra il millecinquecentotrentuno e il millecinquecentotrentacinque. Cortés si stabilì qui nel millecinquecentotrentuno con la sua seconda moglie, Juana de Zúñiga.\n\nLa costruzione unisce tratti gotici e mudéjar, cioè di tradizione islamica in Spagna. I muri sono spessi, di pietra della regione, e in alto ci sono le merlature. Non è un semplice ornamento: in quegli anni un conquistatore poteva aver bisogno di difendersi. Il palazzo ebbe perfino un deposito di armi. Ma era anche una casa. Si racconta che Cortés l’abbia arredata con ventuno arazzi e una cappella con oggetti d’oro e d’argento.\n\nQui nacque suo figlio Martín Cortés, secondo marchese della Valle. Cortés visitò il palazzo con frequenza durante il decennio del millecinquecentotrenta. Partì per la Spagna nel millecinquecentoquaranta, non tornò mai in Messico e morì laggiù nel millecinquecentoquarantasette. Juana de Zúñiga continuò a vivere nel palazzo fino a dopo la sua morte.\n\nC’è una famosa leggenda su Cortés a Cuernavaca: che a cavallo abbia saltato un burrone di cinque metri per sfuggire a un attacco. Questa storia non è documentata. Ciò che invece risulta è che guerrieri tlahuica attaccarono gli spagnoli in quell’epoca, vicino al luogo che oggi si chiama Vicolo del Diavolo.\n\nUna cosa da tenere presente è chi costruì realmente l’opera. I muri non li innalzò Cortés con le sue mani. Li innalzò manodopera indigena, come racconta Diego Rivera nel [primo tratto del murale](cue_09_rivera_conquista), con la scena della costruzione del palazzo. Non abbiamo una cifra attendibile di quante persone lavorarono all’opera, e per questo qui non la inventeremo.\n\nTra il millenovecentosettantuno e il millenovecentosettantatré l’INAH restaurò il palazzo per restituirgli la forma del Cinquecento. Ciononostante, l’edificio che vedi unisce epoche diverse, perché è stato riparato e ampliato molte volte. Alcune parti risalgono al tempo di Cortés e altre furono aggiunte secoli dopo.\n\nL’INAH descrive il palazzo come la prima opera civile costruita in America dopo l’arrivo degli europei. Percorri l’edificio con questa idea: una casa di famiglia, una fortezza e un segno di potere, tutto fatto con la stessa pietra."
+    },
+    "retos_observacion": {
+      "hash": "486b4d803cb45bb1",
+      "texto": [
+        "Cerca i muri spessi e le merlature della parte alta: furono pensati per difendere",
+        "Guarda gli archi dei corridoi e osserva che cosa si vede da lì: i vulcani e la città",
+        "Chiedi quale parte dell’edificio è antica e quale è stata aggiunta dopo: il palazzo è cambiato molte volte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a33f0926729aebf1",
+      "texto": {
+        "Costruttore": "Hernán Cortés, sul tecpan di Cuauhnáhuac",
+        "Inizio": "intorno al 1526 secondo alcuni autori; ampliamento tra il 1531 e il 1535",
+        "Stile": "gotico e mudéjar",
+        "Materiale": "pietra della regione su una base preispanica",
+        "Cortés": "Marchese della Valle di Oaxaca dal 1529",
+        "Moglie": "Juana de Zúñiga"
+      }
+    },
+    "faq_mito": {
+      "hash": "2f4f7ce4bfb3d642",
+      "texto": {
+        "pregunta": "Mito: Cortés saltò a cavallo un burrone di cinque metri nel Vicolo del Diavolo.",
+        "respuesta": "Realtà: È una leggenda priva di documenti che la sostengano. È invece documentato un attacco di guerrieri tlahuica in quella zona."
+      }
+    }
+  }
+}
