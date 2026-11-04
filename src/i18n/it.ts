@@ -335,6 +335,8 @@ export const IT_GROUPS: Record<string, any> = {
       ],
       passBadgeTitle: (hours: number, devices: number) => `Un pass da ${hours} ore, ${devices} telefoni`,
       passBadgeText: 'Ideale per andare in coppia o con amici: attivi il secondo telefono con un breve codice, senza pratiche.',
+      valueChips: (hours: number, devices: number) => ['Tappe gratuite da provare', `Pass da ${hours} ore per ${devices} telefoni`, 'Funziona senza internet'],
+      tryFree: 'Prova la tappa gratuita',
     },
     museum: {
       startRoute: 'Inizia',

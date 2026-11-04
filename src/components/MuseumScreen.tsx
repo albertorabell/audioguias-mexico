@@ -307,6 +307,16 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 </button>
               </div>
             )}
+            {freePieces.length > 0 && onOpenPiece && !continueInfo && (
+              <button
+                type="button"
+                id="btn-try-free"
+                onClick={() => onOpenPiece(freePieces[0].piece_id)}
+                className="btn-secondary w-full mt-3"
+              >
+                {u.home.tryFree}
+              </button>
+            )}
             {before.length > 0 && (
               <button
                 type="button"

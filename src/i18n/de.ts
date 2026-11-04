@@ -335,6 +335,8 @@ export const DE_GROUPS: Record<string, any> = {
       ],
       passBadgeTitle: (hours: number, devices: number) => `Ein ${hours}-Stunden-Pass, ${devices} Handys`,
       passBadgeText: 'Ideal für Paare oder Freunde: Du schaltest das zweite Handy mit einem kurzen Code frei, ganz ohne Formalitäten.',
+      valueChips: (hours: number, devices: number) => ['Gratis-Stopps zum Testen', `${hours}-Stunden-Pass für ${devices} Handys`, 'Funktioniert offline'],
+      tryFree: 'Gratis-Stopp ausprobieren',
     },
     museum: {
       startRoute: 'Starten',

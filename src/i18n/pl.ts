@@ -288,6 +288,8 @@ export const PL_GROUPS: Record<string, any> = {
       ],
       passBadgeTitle: (hours: number, devices: number) => `Jeden ${hours}-godzinny karnet, ${devices} telefony`,
       passBadgeText: 'Idealny dla par i przyjaciół: drugi telefon aktywujesz krótkim kodem, bez formalności.',
+      valueChips: (hours: number, devices: number) => ['Darmowe przystanki na próbę', `Karnet na ${hours} godz. na ${devices} telefony`, 'Działa bez internetu'],
+      tryFree: 'Wypróbuj darmowy przystanek',
     },
     museum: {
       startRoute: 'Start',
