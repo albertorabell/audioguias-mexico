@@ -1,0 +1,55 @@
+{
+  "id": "chz_02_museo_portal_inframundo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1c18f947e71940bd",
+      "texto": "Museo di sito: il Monumento 9, Portale dell’oltretomba"
+    },
+    "frase_gancho": {
+      "hash": "0be9cc8a0e431aae",
+      "texto": "Un rilievo di una tonnellata che è tornato a Chalcatzingo dopo decenni fuori dal paese."
+    },
+    "puente_narrativo": {
+      "hash": "393fb08f4ff5d5b1",
+      "texto": "Prosegui il tuo percorso: ora usciamo a vedere dove viveva il popolo che scolpì questa pietra."
+    },
+    "guion_corto": {
+      "hash": "91e6bf2354ce6683",
+      "texto": "Questa pietra pesa circa una tonnellata e rimase fuori da Chalcatzingo per decenni. È il Monumento nove, chiamato Portale dell’oltretomba. Misura un metro e ottanta per un metro e cinquanta e ha circa duemilacinquecento anni. Mostra delle fauci aperte a quattro lobi, con bromelie agli angoli della bocca. Nell’idea mesoamericana della montagna, la grotta è l’ingresso alla dimora degli antenati e degli esseri soprannaturali. Quell’immagine si adatta bene a un colle ricco di sorgenti. La pietra lasciò il sito tra la fine degli anni cinquanta e gli anni sessanta. Tornò nel febbraio del duemilaventicinque e oggi è esposta in questo museo."
+    },
+    "guion_largo": {
+      "hash": "960f5d666cf5baa4",
+      "texto": "Ci sono pietre che viaggiano. Il Monumento nove di Chalcatzingo se ne andò di qui più di mezzo secolo fa e tornò nel duemilaventicinque. È noto come Portale dell’oltretomba.\n\nÈ un rilievo che misura un metro e ottanta per un metro e cinquanta e pesa circa una tonnellata. Si calcola che sia stato scolpito tra gli ottocento e i quattrocento anni prima di Cristo. Rappresenta delle fauci aperte a quattro lobi. Agli angoli della bocca ci sono alcune piante chiamate bromelie. Per darti un’idea, appartiene allo stesso grande periodo dei rilievi del colle, i più antichi dell’Altopiano Centrale.\n\nUn bassorilievo è un’immagine che sporge di poco dalla superficie della pietra, come se emergesse da essa. Quasi tutti i rilievi di Chalcatzingo sono di questo tipo. Quelli del colle sono ancora nella loro roccia. Questo, invece, è un blocco indipendente che poté lasciare il sito, e per questo visse una storia che i rilievi del colle non hanno vissuto.\n\nSe ti chiedi perché si chiami Portale dell’oltretomba, è un nome moderno che gli ha dato l’INAH. Gli scultori antichi non lasciarono alcun titolo. E non lasciarono scritto nemmeno che cosa significasse per loro la bocca aperta, quindi ogni lettura è un’interpretazione.\n\nC’è un dettaglio umano in questa storia. David Grove, che dedicò decenni allo studio di Chalcatzingo, morì nel duemilaventitré. Non riuscì a vedere tornare la pietra.\n\nLa bocca non è un ornamento. Arqueología Mexicana riporta un’idea molto diffusa in Mesoamerica. La montagna è il luogo dove abitano gli antenati e gli esseri soprannaturali. La grotta è l’accesso a quella dimora. Una bocca di pietra aperta in un colle ricco di sorgenti si accorda con quell’idea.\n\nNon si sa con certezza dove si trovasse in origine. David Grove, che studiò il sito per decenni, pensava che probabilmente fosse stata innalzata sulla grande piattaforma che oggi chiamiamo [Struttura quattro](chz_05_estructura_4). L’INAH, nel duemilaventicinque, suggerisce che possa aver fatto parte del programma scultoreo del colle. Le due idee restano entrambe sul tavolo.\n\nAnche la sua uscita dal paese ha versioni diverse. Secondo un bollettino dell’INAH del duemilaventicinque, la pietra si frammentò in venticinque parti alla fine degli anni cinquanta. Altre fonti la collocano fuori dal sito in qualche momento degli anni sessanta. Nel millenovecentosessantotto Grove la pubblicò già come un pezzo che non si trovava al suo posto. Finì in un museo dello stato di New York.\n\nTornare richiese anni. Tra il duemilaventitré e il duemilaventicinque il pezzo trascorse ventuno mesi nel Palazzo di Cortés, a Cuernavaca. Tornò a Chalcatzingo nel febbraio del duemilaventicinque ed è esposto dal diciotto di quel mese.\n\nQuando un pezzo torna al suo posto, cambia il modo di visitare il sito. Puoi guardare la pietra e, uscendo, guardare il colle che aveva davanti chi la scolpì. Più avanti vedrai altre scene con grotte. In [Il Re](chz_17_monumento_1_el_rey), un personaggio è seduto dentro una bocca a forma di C. Nel [Monumento tredici](chz_15_monumento_13), un altro personaggio si trova nella bocca della terra."
+    },
+    "retos_observacion": {
+      "hash": "08d9c879b156d3fe",
+      "texto": [
+        "Conta i lobi delle fauci",
+        "Cerca le bromelie agli angoli della bocca",
+        "Immagina questa pietra in piedi, all’aperto, duemilacinquecento anni fa"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07cbc3ba6d49842d",
+      "texto": {
+        "Misure": "un metro e ottanta per un metro e cinquanta",
+        "Peso": "circa una tonnellata",
+        "Età": "circa duemilacinquecento anni",
+        "Ritorno": "febbraio del duemilaventicinque",
+        "Motivi": "fauci a quattro lobi e bromelie"
+      }
+    },
+    "faq_mito": {
+      "hash": "423bde38afa2c06d",
+      "texto": {
+        "pregunta": "Mito: Questa pietra è una replica.",
+        "respuesta": "Realtà: Secondo l’INAH, è il monolite originale, tornato a Chalcatzingo nel duemilaventicinque."
+      }
+    }
+  }
+}

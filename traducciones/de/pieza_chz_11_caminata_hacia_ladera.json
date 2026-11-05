@@ -1,0 +1,45 @@
+{
+  "id": "chz_11_caminata_hacia_ladera",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e01e803c97074608",
+      "texto": "Spaziergang: von den Terrassen zum Berghang"
+    },
+    "frase_gancho": {
+      "hash": "78c18e40fab05397",
+      "texto": "Ein kurzer Weg zum Zuhören, während du dich dem Fels näherst."
+    },
+    "puente_narrativo": {
+      "hash": "5f6039159f27e8f1",
+      "texto": "Du bist am Hang des Cerro Chalcatzingo angekommen."
+    },
+    "guion_corto": {
+      "hash": "9cfa15b427cf68d5",
+      "texto": "Hier verändert sich die Landschaft. Lass die Terrassen hinter dir und geh auf den Fels des Berges zu. Bisher hast du Monumente zwischen Häusern und Plattformen gesehen, mit Themen der Macht. Am Hang wurden die großen Reliefs, wie David Grove erklärt, in den Fels selbst oder in Felsblöcke an seinem Fuß gemeißelt, und sie handeln von Mythologie und Ritus. Diese Reliefs liegen mehrere Meter voneinander entfernt und sind nicht alle zugleich zu sehen. Um sie zu sehen, muss man gehen, und vielleicht tat man das in der Antike genauso, in einer Prozession. Wenn der Pfad die Felsblöcke erreicht, bist du schon beim nächsten Audio."
+    },
+    "guion_largo": {
+      "hash": "5b81f724da1ec7c2",
+      "texto": "Das hier ist ein Spaziergang. Du musst nicht stehen bleiben. Lass die Terrassen hinter dir und nähere dich dem Berg, während dich das Audio begleitet.\n\nBis hierher hast du Monumente zwischen den Häusern und den Plattformen der Siedlung gesehen. Ihr Thema ist, so Grove, vor allem die politische Macht von Personen der Elite. Viele wurden verstümmelt, enthauptet oder vergraben aufgefunden.\n\nAm Hang ist alles anders. Die Reliefs sind direkt in den Fels des Berges oder in große Felsblöcke an seinem Fuß gemeißelt. Sie zeigen Themen der Mythologie und des religiösen Rituals. Die Reliefs an den Hängen wurden nicht verstümmelt wie die der Siedlung.\n\nNoch etwas macht diesen Abschnitt besonders. Die Reliefs liegen mehrere Meter voneinander entfernt und sind nicht alle zugleich zu sehen. Um sie zu sehen, musst du den Hang entlanggehen, und vielleicht tat man das in der Vergangenheit genauso, zu Fuß in einer Prozession.\n\nWenn du die Felsblöcke am Fuß des Berges erreichst, bist du schon beim nächsten Audio."
+    },
+    "retos_observacion": {
+      "hash": "720fde95d273785f",
+      "texto": [
+        "Betrachte den Fels des Berges, während du näher kommst",
+        "Suche nach großen Felsblöcken am Fuß des Berges",
+        "Geh langsam, wie in einer Prozession"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e3ad1addced00f30",
+      "texto": {
+        "Art": "Spaziergang, ohne feste Station",
+        "Thema": "von der Siedlung zu den Reliefs des Berges"
+      }
+    }
+  }
+}

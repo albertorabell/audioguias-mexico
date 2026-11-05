@@ -1,0 +1,45 @@
+{
+  "id": "chz_03_caminata_hacia_terrazas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9c16ba3136c5aeeb",
+      "texto": "Promenade : vers les terrasses du village"
+    },
+    "frase_gancho": {
+      "hash": "67d5b8da953bbf06",
+      "texto": "Un court trajet à écouter en marchant."
+    },
+    "puente_narrativo": {
+      "hash": "482d691438b348d2",
+      "texto": "Vous voici arrivé aux terrasses du village."
+    },
+    "guion_corto": {
+      "hash": "6d5e65a88f75117e",
+      "texto": "Sortez du musée et suivez le sentier vers les terrasses du village. Tout en marchant, regardez le sol : le terrain qui descend de la colline n’est pas plat par hasard. Selon David Grove, la terre glissée depuis la base de la colline a été transformée, vers huit cents ans avant notre ère, en grandes terrasses résidentielles. Des maisons et des plateformes s’y sont élevées. Vous marchez là où vivaient les gens qui ont sculpté les pierres que vous allez voir. Quand le sentier s’ouvrira sur un espace dégagé, vous serez arrivé."
+    },
+    "guion_largo": {
+      "hash": "e0db33dd31390ad9",
+      "texto": "Ceci est une promenade. Il n’est pas nécessaire de s’arrêter. Suivez le sentier vers les terrasses du village et laissez l’audio vous accompagner.\n\nTout en avançant, regardez le terrain. La terre qui a glissé naturellement depuis la base de la colline a été transformée en grandes terrasses résidentielles vers huit cents ans avant notre ère. C’est le résultat des fouilles de David Grove, Jorge Angulo et Raúl Arana, entre mille neuf cent soixante-douze et mille neuf cent soixante-seize.\n\nSur certaines de ces terrasses se trouvent des tertres à plateformes. Pour Grove, ces constructions montrent l’importance de Chalcatzingo comme centre régional.\n\nCe que vous voyez comme un doux versant était un quartier. Entre les maisons et les plateformes, le village plaçait des statues et des stèles. Vous allez bientôt les rencontrer."
+    },
+    "retos_observacion": {
+      "hash": "c41699394c463f3e",
+      "texto": [
+        "Remarquez les marches naturelles que forme le terrain",
+        "Cherchez des murs ou des pierres alignées au bord du chemin",
+        "Marchez lentement et regardez vers la colline"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3a96d9999ed04290",
+      "texto": {
+        "Type": "promenade, sans arrêt fixe",
+        "Thème": "les terrasses résidentielles du village"
+      }
+    }
+  }
+}

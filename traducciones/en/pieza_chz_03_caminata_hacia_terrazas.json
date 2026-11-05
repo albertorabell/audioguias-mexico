@@ -1,0 +1,45 @@
+{
+  "id": "chz_03_caminata_hacia_terrazas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9c16ba3136c5aeeb",
+      "texto": "Walk: Toward the Settlement Terraces"
+    },
+    "frase_gancho": {
+      "hash": "67d5b8da953bbf06",
+      "texto": "A short stretch to listen to while you walk."
+    },
+    "puente_narrativo": {
+      "hash": "482d691438b348d2",
+      "texto": "You have arrived at the terraces of the settlement."
+    },
+    "guion_corto": {
+      "hash": "6d5e65a88f75117e",
+      "texto": "Leave the museum and follow the path toward the terraces of the settlement. As you walk, look at the ground: the terrain that descends from the hill is not flat by chance. According to David Grove, the earth that slid down from the base of the hill was transformed, around eight hundred years before Christ, into large residential terraces. Houses and platforms were built on top of them. You are walking where the people who carved the stones you are about to see once lived. When the path opens into a wide space, you will have arrived."
+    },
+    "guion_largo": {
+      "hash": "e0db33dd31390ad9",
+      "texto": "This is a walk. There is no need to stop. Follow the path toward the terraces of the settlement and let the audio keep you company.\n\nAs you advance, look at the terrain. The earth that slid naturally from the base of the hill was transformed into large residential terraces around eight hundred years before Christ. It is the result of the excavations of David Grove, Jorge Angulo, and Raúl Arana, between nineteen seventy-two and nineteen seventy-six.\n\nOn some of those terraces there are mounds with platforms. For Grove, those constructions show the importance of Chalcatzingo as a regional center.\n\nWhat you see as a gentle slope was a neighborhood. Among the houses and the platforms, the people placed statues and stelae. You will soon find them."
+    },
+    "retos_observacion": {
+      "hash": "c41699394c463f3e",
+      "texto": [
+        "Notice the natural steps that the terrain forms",
+        "Look for walls or aligned stones beside the path",
+        "Walk slowly and look toward the hill"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3a96d9999ed04290",
+      "texto": {
+        "Type": "walk, with no fixed stop",
+        "Theme": "the residential terraces of the settlement"
+      }
+    }
+  }
+}

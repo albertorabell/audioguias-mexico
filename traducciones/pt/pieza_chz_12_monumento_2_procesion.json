@@ -1,0 +1,55 @@
+{
+  "id": "chz_12_monumento_2_procesion",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c2ed59e83caa55a5",
+      "texto": "Monumento 2: a procissão"
+    },
+    "frase_gancho": {
+      "hash": "b094063ac296664b",
+      "texto": "Três pessoas em procissão, com bastões e máscaras de felinos sobrenaturais."
+    },
+    "puente_narrativo": {
+      "hash": "1ef1c3b1580926d3",
+      "texto": "Siga o seu percurso: a rocha do morro guarda mais cenas de mito e de rito."
+    },
+    "guion_corto": {
+      "hash": "637b83aa55e7ad3a",
+      "texto": "Três pessoas avançam em fila sobre a rocha. É o Monumento dois, e David Grove o descreve como uma procissão: as três figuras marcham, levam bastões e usam máscaras de diversos felinos sobrenaturais. Não é uma cena de poder político, como as dos terraços. Pertence aos relevos do morro, cujos temas tratam de mitologia e de rito. Algumas descrições acrescentam uma quarta figura sentada, então observe bem quantas você vê. Quando este relevo já estava escavado, em mil novecentos e setenta e dois, ainda se sabia muito pouco sobre quem o talhou. Hoje sabemos que viviam nos terraços de baixo, entre casas e plataformas."
+    },
+    "guion_largo": {
+      "hash": "45cfad9a1e8b1eb9",
+      "texto": "Uma fila de pessoas que caminham juntas. Essa é a imagem do Monumento dois, um dos relevos da encosta do Cerro Chalcatzingo.\n\nGrove o descreve assim: três pessoas que marcham em procissão, empunham bastões e usam máscaras de diversos felinos sobrenaturais. Não são três felinos. São três pessoas que se disfarçam deles, ou que são representadas com os traços deles.\n\nEste relevo pertence ao grupo dos que têm temas rituais. Lembra o que você viu nos terraços. Ali, segundo Grove, dominam as imagens de poder político de pessoas da elite. No morro, ao contrário, predominam a mitologia e o rito religioso. A diferença entre as duas zonas é uma das chaves do sítio.\n\nOs felinos sobrenaturais voltam a aparecer. Em outros penhascos da base, Grove conta que quase todos os animais sobrenaturais que dominam pessoas são felinos. Mais adiante você conhecerá [esses relevos](chz_13_seres_que_dominan). Aqui, os felinos não dominam: exibem-se nas máscaras de quem marcha.\n\nEste monumento já estava escavado quando começou o grande projeto de Grove. Em mil novecentos e setenta e dois, doze relevos haviam sido escavados, entre eles os Monumentos um ao onze e o dezesseis. Mesmo assim, sabia-se muito pouco sobre o sítio. A pergunta de fundo era quem os havia feito e para quê. As escavações dos terraços deram a resposta sobre onde viviam.\n\nHá um detalhe para verificar com seus próprios olhos. Algumas descrições do relevo mencionam uma quarta figura sentada, além das três pessoas em procissão. Grove fala de três. Se você olhar o relevo, conte as figuras e decida.\n\nA ideia de uma procissão se conecta com a forma como se percorre este lugar. Os relevos estão separados por vários metros e não se veem todos juntos. Para vê-los é preciso caminhar entre eles, e talvez assim se fazia na Antiguidade. Quando você vai de um relevo a outro, repete em pequena escala esse gesto.\n\nHá outra maneira de ler a cena. Algumas descrições mais recentes falam de uma dança ligada à fertilidade. Grove, por outro lado, fala de uma procissão com bastões e máscaras. As duas leituras partem da mesma imagem: pessoas que avançam juntas.\n\nAs descrições de um relevo mudam conforme quem o olha e quando. Por isso convém tomar o que dizem as fontes como um guia e comparar com o que você vê. Observe para onde vão as figuras, o que levam nas mãos e que traços têm suas máscaras.\n\nA rocha onde o relevo está talhado é um penhasco natural da base do morro. Grove explica que os grandes relevos dessa zona são lavrados em penhascos naturais dispersos, e não em muros construídos.\n\nA Arqueología Mexicana cita uma ideia muito difundida: a montanha é o lugar onde habitam os ancestrais e os seres sobrenaturais. Um morro assim, com cenas de mito e de rito em sua rocha, combina com essa ideia."
+    },
+    "retos_observacion": {
+      "hash": "c097de05e2cbc14e",
+      "texto": [
+        "Conte as figuras que avançam",
+        "Procure os bastões que levam nas mãos",
+        "Observe as máscaras: são de diversos felinos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6684987d0d7d9167",
+      "texto": {
+        "Tema": "procissão ritual",
+        "Figuras": "três pessoas, segundo Grove",
+        "Objetos": "bastões",
+        "Disfarces": "máscaras de diversos felinos sobrenaturais",
+        "Localização": "rocha da base do morro"
+      }
+    },
+    "faq_mito": {
+      "hash": "2df10dd54f305151",
+      "texto": {
+        "pregunta": "Mito: São três felinos caminhando.",
+        "respuesta": "Realidade: São pessoas que marcham com bastões e máscaras de felinos sobrenaturais."
+      }
+    }
+  }
+}

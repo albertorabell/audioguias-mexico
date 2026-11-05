@@ -1,0 +1,59 @@
+{
+  "id": "chz_08_monumento_22_altar_trono",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3f812ecad1f013f4",
+      "texto": "Monumento 22: l’altare-trono"
+    },
+    "frase_gancho": {
+      "hash": "d22080535f535dad",
+      "texto": "Un altare-trono di pietra: l’unico che si conosca fuori dalla costa del Golfo."
+    },
+    "puente_narrativo": {
+      "hash": "b23a733965b12781",
+      "texto": "Prosegui il tuo percorso: l’arte di questo luogo mescola idee di molte parti."
+    },
+    "guion_corto": {
+      "hash": "1eb28aa8b3fefec8",
+      "texto": "Gli altari-trono sono un tipo di monumento dei centri olmechi di San Lorenzo e La Venta, sulla costa del Golfo. Il Monumento ventidue di Chalcatzingo è l’unico che sia stato trovato lontano da quella zona. Era il piano rettangolare di un altare-trono a forma di tavolo, collocato sul lato sud del grande cortile incassato. Ma non è una copia. Quelli del Golfo furono scolpiti in blocchi massicci, mentre questo fu fatto con molte grandi lastre. Mancano la grande nicchia e il personaggio seduto degli altari del Golfo. Sul fronte porta soltanto gli occhi allungati di un serpente soprannaturale. Un possibile gemello si trova a centottanta chilometri a sud, in una grotta del Guerrero."
+    },
+    "guion_largo": {
+      "hash": "1476b621ae6b2cd8",
+      "texto": "Un trono di pietra che non dovrebbe trovarsi qui. Così lo vedono gli specialisti, perché gli altari-trono sono una categoria importante di monumenti dei centri olmechi di San Lorenzo e La Venta, sulla costa del Golfo. Il Monumento ventidue è l’unico altare-trono che sia stato trovato lontano da quella zona.\n\nEra il piano rettangolare di un altare-trono a forma di tavolo. Era collocato sul lato sud del grande cortile rettangolare incassato che hai appena conosciuto.\n\nGrove sottolinea che somiglia ai suoi corrispettivi del Golfo, ma che presenta anche differenze significative. Gli altari-trono del Golfo furono scolpiti in blocchi di pietra massicci. Questo fu assemblato con molte grandi lastre. Le fonti non concordano su quante, quindi non daremo una cifra.\n\nInoltre, gli mancano due cose che caratterizzano gli altari olmechi: la grande nicchia e il personaggio seduto al centro. La superficie del fronte porta scolpiti soltanto gli occhi allungati di un serpente soprannaturale. È un disegno più semplice, con una sola immagine.\n\nOra viene la parte più curiosa. A centottanta chilometri a sud, nella grotta di Oxtotitlán, nel Guerrero, c’è un murale policromo realizzato in alto sulla roccia, sopra l’ingresso. Mostra un personaggio dall’abbigliamento elaborato seduto sulla testa di una creatura soprannaturale. La sua gamba pende con noncuranza sul volto della creatura, come se fosse seduto su un altare-trono o su una panca.\n\nIl volto di quella creatura somiglia in modo sorprendente al volto del Monumento ventidue. Ha gli stessi occhi allungati. E le misure sono quasi identiche: quattro metri e quaranta centimetri di lunghezza per un metro di altezza. Grove scrive che questa somiglianza forse non è casuale. Per questo chiama il murale un possibile gemello dell’altare.\n\nCosa significhi quella coincidenza è una domanda aperta. Quello che mostra è che chi scolpì questa pietra conosceva idee di luoghi lontani e le reinterpretò a modo proprio. Grove descrive l’insieme dei monumenti di Chalcatzingo come diverso ed eclettico. Gli scultori sperimentarono stili e tecniche differenti.\n\nC’è un’altra cosa da sapere. Gli specialisti discutono ancora che cosa significhi l’espressione stile olmeco. Arqueología Mexicana riporta che si è parlato di stile, di tradizione e di cultura olmeca, e che questi concetti sono ancora in discussione. In fondo, l’altare-trono di Chalcatzingo fa parte di quella discussione.\n\nQuesto monumento comparve durante gli scavi del Progetto Archeologico Chalcatzingo, e Grove lo annovera tra le sue scoperte più sorprendenti. Il piano di un altare non somiglia a un rilievo nella roccia. Per questo spicca tra tutto ciò che il progetto trovò.\n\nSe l’altare ti sembra semplice, guardalo di nuovo con questa idea. Non è un trono olmeco di seconda mano. È una risposta locale a un’idea che viaggiò. In un’altra parte del villaggio c’è un’immagine ancora meno comune: [la donna del Monumento ventuno](chz_09_monumento_21_mujer)."
+    },
+    "retos_observacion": {
+      "hash": "1a5b10f7315d70a8",
+      "texto": [
+        "Cerca gli occhi allungati del serpente sulla superficie",
+        "Nota che è fatto di pezzi, non di un blocco unico",
+        "Immagina l’altare sul lato sud del cortile incassato"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f781d626e94376b7",
+      "texto": {
+        "Tipo": "piano di altare-trono a forma di tavolo",
+        "Ubicazione originale": "lato sud di un grande cortile incassato",
+        "Materiale": "lastre di pietra, non un blocco massiccio",
+        "Immagine del fronte": "occhi allungati di un serpente soprannaturale",
+        "Possibile gemello": "murale di Oxtotitlán, Guerrero, a centottanta chilometri a sud"
+      }
+    },
+    "faq_mito": {
+      "hash": "10dc68e7fe067a0b",
+      "texto": {
+        "pregunta": "Mito: È un altare olmeco portato dalla costa del Golfo.",
+        "respuesta": "Realtà: Fu fatto qui, con lastre e senza la nicchia né il personaggio centrale degli altari del Golfo; è l’unico altare-trono conosciuto fuori da quella zona."
+      }
+    }
+  }
+}

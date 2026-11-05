@@ -1,0 +1,55 @@
+{
+  "id": "chz_04_terraza_1_plaza",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "eb8b7e357480fe74",
+      "texto": "Terrasse 1 und der große Platz"
+    },
+    "frase_gancho": {
+      "hash": "0cea1c5507f7e92e",
+      "texto": "Die Haupt­terrasse der Siedlung: ein weiter Platz zwischen einem Elitehaus und einer großen Plattform."
+    },
+    "puente_narrativo": {
+      "hash": "89faa625aed52d28",
+      "texto": "Folge deiner Route: Am Rand dieses Platzes erhebt sich eine Plattform von etwa siebzig Metern."
+    },
+    "guion_corto": {
+      "hash": "72acf12159dca813",
+      "texto": "Fast ein Hektar Platz und keine monumentale Skulptur. Du stehst auf der Terrasse eins, der Hauptterrasse der antiken Siedlung. Laut David Grove verwandelte sich die vom Hügel abgerutschte Erde um achthundert Jahre vor Christus in große Terrassen, auf denen man wohnte. Südlich dieses Raums stand die Residenz einer Elitefamilie. Im Norden erhebt sich ein Hügel mit Plattformen. Dazwischen liegt ein offener Raum, geschaffen, um zusammenzukommen. Die Skulpturen, die von politischer Macht sprechen, tauchten in anderen Teilen der Siedlung auf, und viele waren verstümmelt oder vergraben. Auf einem solchen Platz können viele Menschen zusammenkommen. Für Grove zeigen diese Hügel die Bedeutung von Chalcatzingo als regionales Zentrum."
+    },
+    "guion_largo": {
+      "hash": "edc5f702b73fb6bb",
+      "texto": "Ein Platz ist ein absichtlich leer gelassener Raum. Auf der Terrasse eins misst dieser Raum fast einen Hektar. Laut Grove und laut INAH gibt es hier keine monumentale Kunst. Das ganze Gewicht des Ortes liegt in dem, was ihn umgibt.\n\nZuerst die Terrassen. Die Grabungen des Archäologischen Projekts Chalcatzingo zeigten, dass die auf natürliche Weise vom Fuß des Hügels abgerutschte Erde um achthundert Jahre vor Christus in große Wohnterrassen verwandelt wurde. Dies ist die wichtigste. Das heißt: Die Siedlung wuchs nicht zufällig, sondern jemand entschied, den Hang einzuebnen und das Leben darauf zu organisieren.\n\nSüdlich des Platzes stand eine Elitere­sidenz. Im Norden liegt ein Hügel mit Plattformen, die [Struktur vier](chz_05_estructura_4). Für Grove weisen die Hügel mit Plattformen auf einigen Terrassen auf die Bedeutung von Chalcatzingo als regionales Zentrum hin.\n\nAuch das Wasser spielt in dieser Geschichte eine Rolle. Arqueología Mexicana erklärt, dass sich im Morelos jener Jahrhunderte die Gruppen mit komplexerer sozialer Organisation an Orten mit reichlich Wasser zu entwickeln begannen. Sie wählten auch Orte, an denen sie Quellen und Schluchten kontrollieren konnten. Chalcatzingo hatte eine Quelle, die die Siedlung versorgte. Alles, was du um dich herum siehst, gehörte zu einem einzigen Lebensraum.\n\nEin Hügel mit Plattformen ist eine von Menschen errichtete Erhebung mit ebenen Stufen auf der Höhe. Er dient dazu, ein Gebäude oder einen Raum über die Umgebung zu heben. Die herangezogenen Quellen beschreiben nicht, was sich auf diesem Hügel befand.\n\nWenn du den Maßstab spüren willst, stell dich in die Mitte des Platzes und sieh zuerst nach Süden und dann nach Norden. Dazwischen liegt der offene Raum des Platzes.\n\nDenk nun an die Skulpturen. Die Monumente der Terrassen gleichen nicht denen am Hügel. Grove erklärt, dass in der Siedlung Bilder vorherrschen, die mit der politischen Macht von Angehörigen der Elite zu tun haben, eher als rituelle oder mythologische Szenen. Außerdem wurden viele dieser Monumente verstümmelt, enthauptet oder vergraben. Die am Hügel mit ihren heiligen Themen nicht.\n\nEin Beispiel ist die Statue einer sitzenden Gestalt, der der Kopf fehlte. Eulalia Guzmán dokumentierte sie im Jahr neunzehnhundertvierunddreißig. Heute ist sie im Nationalmuseum für Anthropologie in Mexiko-Stadt ausgestellt, und Archäologen kennen sie als Monument sechzehn.\n\nEin weiterer Fund erzählt vom Leben der Elite. Als man ein Haus dieser Gruppe ausgrub, das die Erosion zerstörte, fand man unter dem Boden Bestattungen. Eine war ein steinverkleidetes Grab mit Gefäßen, einigen stark zersetzten Knochen und einem Steinkopf. Die Daten deuten darauf hin, dass es das Grab einer Frau der Elite war. Wenn dich diese Geschichte interessiert, geh weiter zu [der Frau des Monuments einundzwanzig](chz_09_monumento_21_mujer).\n\nDie Quellen sagen nicht, wozu genau dieser Platz diente. Sie zeigen aber die Bühne: Haus, Plattform und dazwischen ein offener Raum, auf der Hauptterrasse eines regionalen Zentrums."
+    },
+    "retos_observacion": {
+      "hash": "d742fc79a5517158",
+      "texto": [
+        "Schätze nach Augenmaß, wie viele Menschen auf diesen Platz passen würden",
+        "Suche im Norden den Hügel mit Plattformen",
+        "Sieh nach Süden, wo die Elitere­sidenz stand"
+      ]
+    },
+    "especificaciones": {
+      "hash": "28d83bab6439f142",
+      "texto": {
+        "Terrasse": "die Hauptterrasse der Siedlung",
+        "Platz": "fast ein Hektar, ohne monumentale Kunst",
+        "Im Süden": "Elite­residenz",
+        "Im Norden": "Hügel mit Plattformen",
+        "Ursprung der Terrassen": "um achthundert Jahre vor Christus"
+      }
+    },
+    "faq_mito": {
+      "hash": "96a96aceeb58d1d4",
+      "texto": {
+        "pregunta": "Mythos: Ein leerer Platz hat nichts zu erzählen.",
+        "respuesta": "Realität: Dass es hier keine Skulpturen gibt, sagt bereits etwas: Die Monumente der Macht standen zwischen den Häusern und Plattformen, die mit heiligen Themen am Hügel."
+      }
+    }
+  }
+}

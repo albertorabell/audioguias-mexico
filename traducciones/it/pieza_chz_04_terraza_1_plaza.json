@@ -1,0 +1,55 @@
+{
+  "id": "chz_04_terraza_1_plaza",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "eb8b7e357480fe74",
+      "texto": "Terrazza 1 e la grande piazza"
+    },
+    "frase_gancho": {
+      "hash": "0cea1c5507f7e92e",
+      "texto": "La terrazza principale del villaggio: una piazza ampia tra una casa d’élite e una grande piattaforma."
+    },
+    "puente_narrativo": {
+      "hash": "89faa625aed52d28",
+      "texto": "Prosegui il tuo percorso: sul bordo di questa piazza si innalza una piattaforma di circa settanta metri."
+    },
+    "guion_corto": {
+      "hash": "72acf12159dca813",
+      "texto": "Circa un ettaro di piazza e nessuna scultura monumentale. Ti trovi sulla Terrazza uno, la principale dell’antico villaggio. Secondo David Grove, verso gli ottocento anni prima di Cristo la terra franata dal colle fu trasformata in grandi terrazze dove si viveva. A sud di questo spazio sorgeva la residenza di una famiglia d’élite. A nord si innalza un tumulo con piattaforme. Tra le due resta uno spazio aperto, fatto per stare insieme. Le sculture che parlano di potere politico comparvero in altre parti del villaggio, e molte erano mutilate o sepolte. Una piazza così permette di riunire molta gente. Per Grove, questi tumuli mostrano l’importanza di Chalcatzingo come centro regionale."
+    },
+    "guion_largo": {
+      "hash": "edc5f702b73fb6bb",
+      "texto": "Una piazza è uno spazio vuoto fatto apposta. Sulla Terrazza uno, quello spazio misura circa un ettaro. Secondo Grove e secondo l’INAH, non ha arte monumentale. Tutto il peso del luogo sta in ciò che lo circonda.\n\nPrima di tutto, le terrazze. Gli scavi del Progetto Archeologico Chalcatzingo hanno mostrato che la terra franata naturalmente dalla base del colle fu trasformata in grandi terrazze residenziali verso gli ottocento anni prima di Cristo. Questa è la principale. Cioè, il villaggio non crebbe per caso: qualcuno decise di spianare il pendio e di organizzare la vita su di esso.\n\nA sud della piazza ci fu una residenza d’élite. A nord c’è un tumulo con piattaforme, la [Struttura quattro](chz_05_estructura_4). Per Grove, i tumuli con piattaforme di alcune terrazze indicano l’importanza di Chalcatzingo come centro regionale.\n\nAnche l’acqua conta in questa storia. Arqueología Mexicana spiega che, nel Morelos di quei secoli, i gruppi con un’organizzazione sociale più complessa cominciarono a svilupparsi in luoghi con acqua in abbondanza. Scelsero anche luoghi dove potevano controllare sorgenti e burroni. Chalcatzingo aveva una sorgente che riforniva l’insediamento. Tutto ciò che vedi intorno a te faceva parte di un unico luogo di vita.\n\nUn tumulo con piattaforme è un’elevazione fatta dalla gente, con livelli piani in cima. Serve a sollevare un edificio o uno spazio al di sopra del resto. Le fonti consultate non descrivono che cosa ci fosse su questo tumulo.\n\nSe vuoi sentire la scala, fermati in mezzo alla piazza e guarda prima verso sud e poi verso nord. Tra l’una e l’altro resta lo spazio aperto della piazza.\n\nOra pensa alle sculture. I monumenti delle terrazze non somigliano a quelli del colle. Grove spiega che nel villaggio predominano le immagini legate al potere politico di persone dell’élite, più che le scene rituali o mitologiche. Inoltre, molti di quei monumenti furono mutilati, decapitati o sepolti. Quelli del colle, con temi sacri, no.\n\nUn esempio è la statua di un personaggio seduto, a cui mancava la testa. Eulalia Guzmán la documentò nel millenovecentotrentaquattro. Oggi è esposta nel Museo Nazionale di Antropologia, a Città del Messico, e gli archeologi la conoscono come Monumento sedici.\n\nUn altro ritrovamento parla della vita dell’élite. Scavando una casa di quel gruppo, che l’erosione stava distruggendo, gli archeologi trovarono sepolture sotto il pavimento. Una era una tomba rivestita di pietra, con vasi, alcune ossa molto deteriorate e una testa di pietra. I dati indicano che fu la tomba di una donna d’élite. Se questa storia ti interessa, prosegui fino a [la donna del Monumento ventuno](chz_09_monumento_21_mujer).\n\nLe fonti non dicono a che cosa servisse in concreto questa piazza. Quello che mostrano è la scena: casa, piattaforma e spazio aperto nel mezzo, sulla terrazza principale di un centro regionale."
+    },
+    "retos_observacion": {
+      "hash": "d742fc79a5517158",
+      "texto": [
+        "Calcola a occhio quante persone starebbero in questa piazza",
+        "Cerca verso nord il tumulo con piattaforme",
+        "Guarda verso sud, dove sorgeva la residenza d’élite"
+      ]
+    },
+    "especificaciones": {
+      "hash": "28d83bab6439f142",
+      "texto": {
+        "Terrazza": "la principale del villaggio",
+        "Piazza": "circa un ettaro, senza arte monumentale",
+        "A sud": "residenza d’élite",
+        "A nord": "tumulo con piattaforme",
+        "Origine delle terrazze": "verso gli ottocento anni prima di Cristo"
+      }
+    },
+    "faq_mito": {
+      "hash": "96a96aceeb58d1d4",
+      "texto": {
+        "pregunta": "Mito: Una piazza vuota non ha nulla da raccontare.",
+        "respuesta": "Realtà: Il fatto che qui non ci siano sculture dice già qualcosa: i monumenti del potere stavano tra le case e le piattaforme, e quelli a tema sacro sul colle."
+      }
+    }
+  }
+}

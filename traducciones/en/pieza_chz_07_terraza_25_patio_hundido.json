@@ -1,0 +1,54 @@
+{
+  "id": "chz_07_terraza_25_patio_hundido",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8d9ac6d7599e59e7",
+      "texto": "Terrace 25: The Sunken Patio"
+    },
+    "frase_gancho": {
+      "hash": "80bff02497ea7764",
+      "texto": "A rectangular sunken patio, with stone walls decorated with slabs."
+    },
+    "puente_narrativo": {
+      "hash": "a83e25f57520080f",
+      "texto": "Follow your route: on the south side of this patio stood a very particular altar."
+    },
+    "guion_corto": {
+      "hash": "88a7847be0e4af51",
+      "texto": "A sunken patio is a rectangular space built below ground level. This one is among the large ones. Its stone walls are decorated with pieces of slab set in at an angle, so that they form a pattern like an inverted V. That motif does not appear in the Olmec sculptures of the Gulf Coast. On the other hand, it is repeated on the facades of two sites of the same era: Teopantecuanitlán, in Guerrero, and Zazacatla, in Morelos. It is a clue to the ties between Chalcatzingo and other regions. On the south side of this patio an altar-throne was placed, and we will speak of that altar right away. Whoever entered went down a level and was surrounded by decorated walls."
+    },
+    "guion_largo": {
+      "hash": "d580c34b611b21b7",
+      "texto": "Before the altar-throne, the setting. You are on Terrace Twenty-five, where a large rectangular sunken patio once stood.\n\nThe walls of that patio were made of stone and decorated in a very particular way. The builders set in pieces of slab at an angle, like wedges. The result is a motif like an inverted V, repeated along the wall.\n\nGrove highlights one fact: that motif does not appear in the Olmec sculpture of the Gulf Coast. But it does appear on the Middle Preclassic architectural facades of two sites: Teopantecuanitlán, in Guerrero, and Zazacatla, in Morelos. Teopantecuanitlán and Zazacatla are places with which Chalcatzingo seems to have shared building ideas.\n\nIt is worth lingering on Zazacatla. It lies in western Morelos, sixteen kilometers south of downtown Cuernavaca. Its earliest structure is the Building of the Slabs, made with slabs placed so that they form an inverted V. On its north facade it has four niches, and monuments were found inside them.\n\nAn article in Arqueología Mexicana about Zazacatla proposes that this inverted V evokes a cave, and that the niches reinforce the idea. According to that article, the building would be a projection of the sacred mountain, and the figures in the niches would be inside the cave, like the ancestors.\n\nZazacatla was occupied around twelve hundred years before Christ and was the dominant center of its western region between one thousand and eight hundred.\n\nA slab is a flat, thin stone, of the kind that comes away in sheets. That two sites use slabs in a V does not prove they shared the meaning. But it does show that the motif circulated through the region.\n\nAccording to that same article, Zazacatla was founded on a low outcrop of limestone. In that outcrop there was a natural depression about one hundred meters in diameter that, in the rainy season, held a sheet of water. The article interprets it as a threshold to the watery world, where the ancestors dwelled.\n\nThe sunken, decorated walls create an enclosed space, different from open plazas like Terrace One.\n\nThat fits with Grove's general conclusion. For him, Chalcatzingo was a cosmopolitan and autonomous regional center, which interacted with several centers, near or distant. It did so possibly to facilitate the circulation of green stones and other exotic objects that emerging elites sought. In architecture, that interaction shows in the walls.\n\nA sunken patio also changes the way one moves. Whoever entered went down a level and was surrounded by decorated walls. In the southern part, the altar-throne occupied the most visible spot. We do not know what ceremonies were held here; the sources do not say.\n\nIf the patio does not appear complete, do not worry. What matters is the idea: an architecture designed to receive, display, and order people.\n\nThe altar that stood on the south side is our next stop: [Monument Twenty-two](chz_08_monumento_22_altar_trono)."
+    },
+    "retos_observacion": {
+      "hash": "894585649691e9ad",
+      "texto": [
+        "Look for flat stones set at an angle in the walls",
+        "Imagine the patio at a lower level than the terrace",
+        "Find the south side, where the altar-throne stood"
+      ]
+    },
+    "especificaciones": {
+      "hash": "710228aff9401f0f",
+      "texto": {
+        "Place": "Terrace Twenty-five",
+        "Shape": "rectangular sunken patio",
+        "Decoration": "slabs set in at an angle, like an inverted V",
+        "Similar motif at": "Teopantecuanitlán, Guerrero, and Zazacatla, Morelos"
+      }
+    },
+    "faq_mito": {
+      "hash": "69527329674e7556",
+      "texto": {
+        "pregunta": "Myth: All the art of Chalcatzingo comes from the Gulf Coast.",
+        "respuesta": "Reality: This wall motif does not appear in the Olmec sculpture of the Gulf, but it does appear at sites in Guerrero and Morelos."
+      }
+    }
+  }
+}

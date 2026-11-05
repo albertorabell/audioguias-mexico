@@ -1,0 +1,59 @@
+{
+  "id": "chz_19_mirador_valle_popocatepetl",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Zentrales Hochland\" para \"Altiplano Central\" y no aparece",
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f08964bf3354ec3a",
+      "texto": "Aussichtspunkt: das Tal und der Popocatépetl"
+    },
+    "frase_gancho": {
+      "hash": "16489dd77018c1f5",
+      "texto": "Ein Ort, um das Tal des Amatzinac und die Silhouette des Popocatépetl zu betrachten."
+    },
+    "puente_narrativo": {
+      "hash": "c19cef8f33c34bba",
+      "texto": "Hier endet der Rundgang."
+    },
+    "guion_corto": {
+      "hash": "425f08e84d0c5154",
+      "texto": "Von hier aus blickst du über das Tal. Laut Grove ist der Popocatépetl von der Stätte aus zu sehen, und unten erstreckt sich das Tal des Río Amatzinac. Ist der Tag klar, zeichnet der Vulkan den Horizont. Denk an das, was du zurückgelegt hast: eine Haupterrasse, einen versenkten Hof, einen Altar-Thron, eine Frau mit ausgestreckten Armen und, am Hang, Szenen von Höhlen, Regen und Tieren. Das Volk, das all das meißelte, lebte zwischen diesen Bergen und jenem Tal, mit dem Wasser einer Quelle. Für Grove war es ein kosmopolitisches, eigenständiges regionales Zentrum. Hier erklärt die Landschaft die Steine. Chalcatzingo bedeutet, unter anderen Möglichkeiten, Ort des heiligen Wassers, laut INAH. Atme einen Moment durch, bevor du hinabsteigst."
+    },
+    "guion_largo": {
+      "hash": "f978fee6860b2483",
+      "texto": "Du bist am Ende des Rundgangs angekommen. Von diesem Punkt aus siehst du das Tal des Río Amatzinac und, wenn der Tag klar ist, die Silhouette des Popocatépetl.\n\nZuerst die Landschaft. Chalcatzingo liegt im Osten von Morelos, am Fuß von zwei Bergen. Unten erstrecken sich die Felder des Tals. Eine Quelle versorgte die Siedlung, und ein Bach führt das Regenwasser den Hang hinunter.\n\nNun geh in Ruhe durch, was du gesehen hast. Die Wohnterrassen, errichtet etwa achthundert Jahre vor Christus. Der Hauptplatz, die Plattform und der versenkte Hof. Der Altar-Thron, der keinem vom Golf gleicht. Die Frau von Monument einundzwanzig. Die Paare aus Altar und Stele, die nach Süden Mesoamerikas weisen.\n\nDanach der Hang. Eine Prozession mit Raubkatzenmasken. Übernatürliche Wesen, die Personen beherrschen. Eine Triade von Raubkatzen, die vor wenigen Jahren gefunden wurde. Und die Höhle, in der El Rey sitzt, umgeben von Wolken und Tropfen.\n\nAll das entstand in einer sehr konzentrierten Zeit. Fast alle Monumente stammen etwa aus der Zeit zwischen siebenhundert und fünfhundert Jahren vor Christus. Es sind die ältesten bekannten Steinskulpturen des Zentralen Hochlands von Mexiko.\n\nGrove fasst seine Sicht in diesen Worten zusammen: weder Olmeken noch bloße Nachahmer von La Venta. Chalcatzingo war ein kosmopolitisches, eigenständiges regionales Zentrum, das mit nahen und fernen Zentren in Wechselwirkung stand. Möglicherweise tat es das, um den Austausch von Grünsteinen und anderen exotischen Gegenständen zu erleichtern, die aufstrebende Eliten suchten.\n\nDas INAH erkennt eine andere Lesart an, die des olmekischen Einflusses. Die Debatte ist offen, und sie ist Teil dessen, was diesen Ort interessant macht.\n\nEines macht diese Aussicht klar. Wasser, Berg und Stein sind keine losen Themen. Sie sind ein und dieselbe Sache: ein Volk am Fuß eines Berges mit Quellen, das seine Vorstellungen von Erde und Regen in den Fels grub.\n\nArqueología Mexicana erklärt, dass sich im Morelos dieser Jahrhunderte die Gruppen mit komplexerer sozialer Organisation an Orten mit reichlich Wasser entwickelten. Sie wählten auch Orte, an denen sie Quellen und Schluchten kontrollieren konnten. Wenn du dieses Tal betrachtest, verstehst du leicht, warum. Von diesem Ort aus versteht man die ganze Stätte: den Berg oben, die Terrassen in der Mitte und das Tal unten.\n\nWenn du dir drei Gedanken merkst, dann diese. Erstens, dass die Kunst sich je nach Ort verändert: politische Macht auf den Terrassen, Mythos und Ritus am Berg. Zweitens, dass Chalcatzingo Ideen vieler Regionen verband. Drittens, dass Wasser und Höhlen immer wieder auftauchen.\n\nIn den Jahren neunzehnhundertsechsundsiebzig und siebenundsiebzig führte Kenneth Hirth Oberflächenbegehungen am Río Amatzinac durch. Solche Begehungen erlauben es, Siedlungen zu erfassen.\n\nDavid Grove starb im Jahr zweitausenddreiundzwanzig, aber die Arbeit geht weiter. Seit dem Jahr zweitausend erforscht, erhält und präsentiert das Projekt Chalcatzingo des INAH unter der Leitung von Mario Córdova mit Carolina Meza den Bereich der Monumente für die Öffentlichkeit.\n\nDanke, dass du Chalcatzingo durchwandert hast."
+    },
+    "retos_observacion": {
+      "hash": "200c69fd53ed8759",
+      "texto": [
+        "Suche die Silhouette des Popocatépetl, wenn der Tag klar ist",
+        "Betrachte das Tal und stell dir die Felder von vor zweitausendfünfhundert Jahren vor",
+        "Finde von hier aus den Cerro Chalcatzingo und den Cerro Delgado"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2be42b8038e3855f",
+      "texto": {
+        "Tal": "des Río Amatzinac",
+        "Sichtbarer Vulkan": "Popocatépetl, laut Grove, wenn der Tag klar ist",
+        "Berge": "Chalcatzingo und Delgado",
+        "Dokumentierte Monumente": "mehr als vierzig"
+      }
+    },
+    "faq_mito": {
+      "hash": "0a6bed8df8c8647b",
+      "texto": {
+        "pregunta": "Mythos: In Chalcatzingo ist alles seit Jahrzehnten bekannt.",
+        "respuesta": "Realität: Es tauchen noch immer Monumente auf, wie die Triade der Raubkatzen, die laut The History Blog im Jahr zweitausendelf gefunden wurde."
+      }
+    }
+  }
+}

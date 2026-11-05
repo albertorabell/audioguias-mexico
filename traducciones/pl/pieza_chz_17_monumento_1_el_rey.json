@@ -1,0 +1,55 @@
+{
+  "id": "chz_17_monumento_1_el_rey",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6159fef285264504",
+      "texto": "Monument 1: El Rey"
+    },
+    "frase_gancho": {
+      "hash": "ec8265349e1ff71a",
+      "texto": "Postać siedząca w jaskini, z chmurami i kroplami deszczu nad głową."
+    },
+    "puente_narrativo": {
+      "hash": "17e06f335c04c203",
+      "texto": "Idź dalej trasą: więcej reliefów na zboczu, tym razem z deszczem i roślinami."
+    },
+    "guion_corto": {
+      "hash": "ebd30e5b7dd5e341",
+      "texto": "Bogato ubrana osoba, siedząca w jaskini w kształcie litery C. To Monument jeden, El Rey. Grove wyjaśnia, że jaskinia jest paszczą istoty nadprzyrodzonej. Nad jaskinią są chmury i spadające krople deszczu. Z paszczy wychodzą wielkie woluty, które może przedstawiają wilgoć albo grzmot. Strój i wysokie nakrycie głowy zdobi motyw trzech kropli, a za nakryciem głowy wyglądają dwa ptaki o długich ogonach, być może kwezale. Eulalia Guzmán skupiła na tym reliefie swoje badania z tysiąc dziewięćset trzydziestego czwartego roku. Odczytywano go jako władcę albo jako postać deszczu; źródła nie rozstrzygają."
+    },
+    "guion_largo": {
+      "hash": "5f6c8b3e95576c38",
+      "texto": "Jeśli jest relief, który streszcza Chalcatzingo, to właśnie ten. Eulalia Guzmán zbadała go dogłębnie w tysiąc dziewięćset trzydziestym czwartym roku. Dziś nazywa się Monument jeden, ale prawie wszyscy znają go jako El Rey.\n\nGrove opisuje go tak. Bogato ubrana osoba siedzi w jaskini w kształcie litery C. Ta jaskinia jest paszczą istoty nadprzyrodzonej. Nad jaskinią widać, bardzo starannie wykute, chmury i spadające krople deszczu.\n\nZ wylotu jaskini wychodzą wielkie woluty. Grove mówi, że może przedstawiają wilgoć albo grzmot.\n\nStrój osoby i jej wysokie nakrycie głowy zdobi charakterystyczny motyw złożony z trzech kropli deszczu. A za nakryciem głowy wyglądają dwa ptaki o długich ogonach, być może kwezale.\n\nKażdy szczegół wskazuje na wodę: chmury u góry, spadające krople, woluty wychodzące z paszczy, nakrycie głowy z kroplami. Scena łączy jaskinię, deszcz i ważną osobę.\n\nKim jest ta osoba, było przedmiotem sporu. Odczytywano ją jako władcę i jako bóstwo deszczu. Źródła, z których korzystaliśmy, nie rozstrzygają między tymi dwiema możliwościami. Dlatego warto patrzeć na scenę bez pośpiechu.\n\nRelief wykonano w skale wzgórza, w miejscu, którym spływa woda deszczowa. W pobliżu jest strumień, który schodzi po zboczu, a obok niego [małe reliefy ze zwierzętami i dyniami](chz_18_animalitos_lluvia_calabaza). Grove mówi, że El Rey i te zwierzęta mają wspólny temat: związek między jaskiniami a deszczem, płodność i moc kosmiczną.\n\nDla perspektywy: [Monument dziewięć](chz_02_museo_portal_inframundo) z muzeum ma otwartą paszczę, a [Monument trzynaście](chz_15_monumento_13) pokazuje postać w paszczy ziemi.\n\nCzytaj scenę od góry do dołu. Najpierw chmury i spadające krople deszczu. Potem woluty wychodzące z wylotu jaskini. A pośrodku siedząca osoba z wysokim nakryciem głowy.\n\nKwezal to ptak o długich, zielonych piórach, bardzo ceniony w Mezoameryce. Grove mówi, że te dwa ptaki to być może kwezale, a nie że z pewnością nimi są.\n\nGuzmán opublikowała w tysiąc dziewięćset trzydziestym czwartym roku bardzo dobrze zilustrowane sprawozdanie i zwróciła uwagę badaczy na to stanowisko. Z tym sprawozdaniem zaczęła się nowożytna historia Chalcatzingo.\n\nEl Rey to nazwa, pod którą relief jest powszechnie znany. Nie dowodzi, że była to królewska postać. Nikt nie zostawił zapisu, kim jest ta osoba, i dlatego warto mówić o bogato ubranej osobie.\n\nWysokie nakrycie głowy i strój niosą ten sam motyw trzech kropli deszczu. Powtórzenie motywu na ubraniu i na głowie wygląda na sposób podkreślenia jednej idei: tutaj chodzi o deszcz.\n\nRelief należy do środkowego Preklasyku, jak pozostałe na wzgórzu. Grove pisze, że nawet dziś ten obraz zachowuje swoją siłę.\n\nReplika El Rey znajduje się w Narodowym Muzeum Antropologii."
+    },
+    "retos_observacion": {
+      "hash": "493fe5cfb85a3935",
+      "texto": [
+        "Poszukaj jaskini w kształcie litery C",
+        "Policz krople na nakryciu głowy",
+        "Spójrz za nakrycie głowy: są tam dwa ptaki o długich ogonach"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1236d6db15b6fd4d",
+      "texto": {
+        "Nazwa": "Monument jeden, El Rey",
+        "Scena": "osoba siedząca w jaskini w kształcie litery C",
+        "U góry": "chmury i krople deszczu",
+        "Z wylotu jaskini": "wielkie woluty",
+        "Nakrycie głowy": "motyw trzech kropli i dwa ptaki o długich ogonach"
+      }
+    },
+    "faq_mito": {
+      "hash": "34d05a58b24075ef",
+      "texto": {
+        "pregunta": "Mit: To wizerunek króla w koronie.",
+        "respuesta": "Rzeczywistość: To bogato ubrana osoba siedząca w jaskini; jej dokładna tożsamość nie jest rozstrzygnięta."
+      }
+    }
+  }
+}

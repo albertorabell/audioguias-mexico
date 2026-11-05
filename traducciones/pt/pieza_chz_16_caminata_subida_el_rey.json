@@ -1,0 +1,45 @@
+{
+  "id": "chz_16_caminata_subida_el_rey",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e0fd8081a233fb44",
+      "texto": "Caminhada: a subida até El Rey"
+    },
+    "frase_gancho": {
+      "hash": "0b4389cf20a171db",
+      "texto": "Um trajeto curto para ouvir enquanto você sobe."
+    },
+    "puente_narrativo": {
+      "hash": "8270b2cfaca66a36",
+      "texto": "Você chegou a El Rey."
+    },
+    "guion_corto": {
+      "hash": "d403d03e6e88337f",
+      "texto": "Agora suba pela encosta. No alto do morro está o relevo que Eulalia Guzmán estudou primeiro, em mil novecentos e trinta e quatro, quando as chuvas o deixaram à mostra. Enquanto caminha, lembre-se de que os relevos daqui estão separados por vários metros e não se veem todos juntos. É preciso percorrê-los. Há também um riacho que leva a água da chuva encosta abaixo, perto dos relevos mais altos. Quando você chegar a uma cena com uma pessoa sentada em uma caverna, já estará no próximo áudio."
+    },
+    "guion_largo": {
+      "hash": "e9b48292f89db7ae",
+      "texto": "Esta é uma caminhada. Não é preciso parar. Suba com calma pela encosta enquanto o áudio acompanha você.\n\nNo alto do morro está o relevo que Eulalia Guzmán estudou primeiro, em mil novecentos e trinta e quatro. Chuvas torrenciais haviam provocado um deslizamento e o deixaram à mostra. Hoje o conhecemos como Monumento um, El Rey.\n\nEnquanto sobe, tenha presente que os relevos daqui estão separados por vários metros. Para vê-los é preciso percorrer a encosta, e talvez assim se fazia na Antiguidade.\n\nPerto dos relevos mais altos corre um riacho que leva a água da chuva encosta abaixo. Essa água e essas pedras compartilham um tema, como você vai ver.\n\nQuando você chegar a uma cena com uma pessoa sentada em uma caverna, já estará no próximo áudio."
+    },
+    "retos_observacion": {
+      "hash": "84918765bf95284a",
+      "texto": [
+        "Suba devagar e olhe para a rocha do morro",
+        "Procure o riacho que desce pela encosta",
+        "Pare quando vir uma cena com uma caverna"
+      ]
+    },
+    "especificaciones": {
+      "hash": "68ee0ea1c8f2c1b2",
+      "texto": {
+        "Tipo": "caminhada, sem parada fixa",
+        "Tema": "a subida até El Rey"
+      }
+    }
+  }
+}

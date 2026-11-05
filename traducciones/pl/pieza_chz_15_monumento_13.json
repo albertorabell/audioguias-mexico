@@ -1,0 +1,55 @@
+{
+  "id": "chz_15_monumento_13",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4cc7b06c380375c3",
+      "texto": "Monument 13: władca w paszczy ziemi"
+    },
+    "frase_gancho": {
+      "hash": "8b1f1d00d2072dc9",
+      "texto": "Postać siedząca w otwartej paszczy ziemi."
+    },
+    "puente_narrativo": {
+      "hash": "f100c439deb85e5d",
+      "texto": "Idź dalej trasą: na zboczu jest jeszcze jedna scena z paszczą ziemi."
+    },
+    "guion_corto": {
+      "hash": "45cb5ab3e1d299c6",
+      "texto": "Osoba siedząca w otwartej paszczy ziemi. Tak opisują Monument trzynaście niektóre źródła: postać siedząca w paszczy istoty ziemi, otoczona roślinnością. Zachowało się mniej niż połowa reliefu, a stoi on pod dachem INAH. Porównuje się go z Monumentem jeden, El Rey, który również siedzi w jaskini. Chociaż brakuje więcej niż połowy, scenę wciąż można rozpoznać. W obu przypadkach jaskinia wydaje się drzwiami do ziemi. To nie przypadek odosobniony: Monument dziewięć z muzeum pokazuje paszczę z otwartą szczęką. Te trzy dzieła łączy idea paszczy ziemi."
+    },
+    "guion_largo": {
+      "hash": "c983b10d8494711d",
+      "texto": "Niektóre dzieła docierają do nas prawie kompletne. Inne nie. Z Monumentu trzynaście zachowało się mniej niż połowa, a mimo to mówi bardzo dużo.\n\nŹródła, z których korzystaliśmy, Mesoweb i The Post Hole, opisują go jako osobę siedzącą w otwartej paszczy potwora ziemi, wśród roślinności. Dziś stoi pod dachem zbudowanym przez INAH. Nie udało nam się sięgnąć po pełniejsze źródło naukowe, więc ten opis pozostaje otwarty na poprawki.\n\nTrzeba go oglądać razem z dwoma innymi monumentami. Pierwszy to [Monument jeden](chz_17_monumento_1_el_rey), El Rey. Grove opisuje go jako bogato ubraną osobę siedzącą w jaskini w kształcie litery C, która jest paszczą istoty nadprzyrodzonej. Drugi to [Monument dziewięć](chz_02_museo_portal_inframundo), Portal do podziemi, paszcza z otwartą szczęką.\n\nWszystkie trzy mówią o tym samym z różnych stron: paszcza ziemi jako wejście. Arqueología Mexicana przytacza ideę, że góra jest miejscem, w którym mieszkają przodkowie i istoty nadprzyrodzone, a jaskinia jest wejściem do tej siedziby.\n\nW świetle tego klucza postać siedząca w kamiennej paszczy nie jest po prostu w jakimś miejscu. Znajduje się na progu między dwoma światami. Nie wiemy, czy był to władca, przodek czy postać rytualna. Źródła tego nie precyzują i dlatego mówimy o postaci.\n\nTo także lekcja czytania. Niepełny relief nadal jest źródłem. To, czego brakuje, porównuje się z tym, co zachowało się w innych monumentach, i z tego kontrastu rodzi się hipoteza.\n\nJest pożyteczna różnica w stosunku do kobiety z [Monumentu dwadzieścia jeden](chz_09_monumento_21_mujer). Ona stoi na twarzy nadprzyrodzonej istoty ziemi. Ta postać natomiast siedzi wewnątrz paszczy. W jednym przypadku osoba stąpa po ziemi, w drugim wchodzi w nią.\n\nPod względem epoki ten relief należy do tego samego świata co pozostałe na wzgórzu. Grove zauważa, że prawie wszystkie monumenty Chalcatzingo wyrzeźbiono mniej więcej między siedemsetnym a pięćsetnym rokiem przed naszą erą.\n\nDach, który go przykrywa, pełni funkcję praktyczną. Grove ostrzega w PARI Journal przed szkodami, jakie reliefom wyrządza kwaśny deszcz, a INAH zbudował dachy i mury, żeby je chronić.\n\nW sztuce tej epoki mówi się o potworze ziemi: istocie nadprzyrodzonej, której otwarta paszcza działa jak jaskinia. Źródła, z których korzystaliśmy, używają tego wyrażenia w odniesieniu do tego monumentu.\n\nMesoweb i The Post Hole to strony popularyzujące wiedzę specjalistyczną. Służą do zlokalizowania reliefu i jego opisania, ale warto zestawić je z opracowaniem naukowym. Niepełna scena zachęca do stawiania pytań i to także jest częścią zwiedzania strefy archeologicznej. Patrz na relief powoli i porównuj to, czego brakuje, z tym, co się zachowało.\n\nJeśli idziesz od tarasów, zauważysz zmianę atmosfery. Tutaj sztuka mówi o miejscach, w których świat się otwiera."
+    },
+    "retos_observacion": {
+      "hash": "566e9aa40b4d8941",
+      "texto": [
+        "Poszukaj otwartej paszczy, w której siedzi postać",
+        "Porównaj kształt paszczy z tą z El Rey",
+        "Zwróć uwagę na roślinność wokół sceny"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c11a34b5e68c8c51",
+      "texto": {
+        "Monument": "trzynaście",
+        "Obraz": "osoba siedząca w paszczy istoty ziemi",
+        "Stan zachowania": "mniej niż połowa",
+        "Ochrona": "dach INAH",
+        "Porównanie": "Monument jeden, El Rey"
+      }
+    },
+    "faq_mito": {
+      "hash": "379093676ae8254a",
+      "texto": {
+        "pregunta": "Mit: Jest kompletny.",
+        "respuesta": "Rzeczywistość: Zachowało się mniej niż połowa reliefu, a mimo to scenę można rozpoznać."
+      }
+    }
+  }
+}

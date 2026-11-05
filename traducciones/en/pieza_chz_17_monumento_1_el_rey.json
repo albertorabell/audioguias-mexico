@@ -1,0 +1,55 @@
+{
+  "id": "chz_17_monumento_1_el_rey",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6159fef285264504",
+      "texto": "Monument 1: El Rey"
+    },
+    "frase_gancho": {
+      "hash": "ec8265349e1ff71a",
+      "texto": "A seated figure in a cave, with clouds and raindrops above the head."
+    },
+    "puente_narrativo": {
+      "hash": "17e06f335c04c203",
+      "texto": "Continue along your route: more reliefs on the slope, this time with rain and plants."
+    },
+    "guion_corto": {
+      "hash": "ebd30e5b7dd5e341",
+      "texto": "A richly attired person seated in a C-shaped cave. This is Monument One, El Rey. Grove explains that the cave is the mouth of a supernatural creature. Above the cave are clouds and falling raindrops. Great volutes emerge from the mouth, which perhaps represent moisture or thunder. The costume and the tall headdress bear a motif of three drops, and behind the headdress two long-tailed birds appear, perhaps quetzals. Eulalia Guzmán centered her nineteen thirty-four research on this relief. It has been read as a ruler or as a rain figure; the sources do not decide."
+    },
+    "guion_largo": {
+      "hash": "5f6c8b3e95576c38",
+      "texto": "If there is one relief that sums up Chalcatzingo, it is this one. Eulalia Guzmán studied it in depth in nineteen thirty-four. Today it is called Monument One, but almost everyone knows it as El Rey.\n\nGrove describes it like this. A richly attired person is seated in a C-shaped cave. That cave is the mouth of a supernatural creature. Above the cave, finely carved, are clouds and falling raindrops.\n\nFrom the mouth of the cave emerge great volutes. Grove says they perhaps represent moisture or thunder.\n\nThe person's costume and tall headdress are adorned with a distinctive motif made of three raindrops. And behind the headdress two long-tailed birds appear, perhaps quetzals.\n\nEvery detail points to water: clouds above, falling drops, volutes coming out of the mouth, a headdress with drops. The scene brings together a cave, rain and an important person.\n\nWho that person is has been a subject of debate. The figure has been read as a ruler and as a rain deity. The sources we consulted do not decide between the two. That is why it is best to look at the scene without hurry.\n\nThe relief was made in the rock of the hill, in a place where rainwater runs off. Nearby there is a stream that comes down the slope, and next to it are the [small reliefs with animals and squashes](chz_18_animalitos_lluvia_calabaza). Grove says that El Rey and those animals share a theme: the relationship between caves and rain, fertility and cosmic power.\n\nTo put it in perspective, [Monument Nine](chz_02_museo_portal_inframundo) in the museum has an open mouth, and [Monument Thirteen](chz_15_monumento_13) shows a figure in the mouth of the earth.\n\nRead the scene from top to bottom. First the clouds and the falling raindrops. Then the volutes coming out of the mouth of the cave. And at the center, the seated person, with a tall headdress.\n\nA quetzal is a bird with long green feathers, highly prized in Mesoamerica. Grove says the two birds are perhaps quetzals, not that they certainly are.\n\nGuzmán published in nineteen thirty-four a very well illustrated report and alerted researchers to the site. With that report the modern history of Chalcatzingo began.\n\nEl Rey is the name by which it is commonly known. It does not prove that he was a king. No one left in writing who the figure is, and that is why it is best to speak of a richly attired person.\n\nThe tall headdress and the costume carry the same motif of three raindrops. Repeating a motif on the clothing and on the head seems a way of insisting on one idea: here, rain.\n\nThe relief belongs to the Middle Preclassic, like the others on the hill. Grove writes that, even today, the image keeps its force.\n\nThere is a reproduction of El Rey in the National Museum of Anthropology."
+    },
+    "retos_observacion": {
+      "hash": "493fe5cfb85a3935",
+      "texto": [
+        "Look for the C-shaped cave",
+        "Count the drops on the headdress",
+        "Look behind the headdress for the two long-tailed birds"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1236d6db15b6fd4d",
+      "texto": {
+        "Name": "Monument One, El Rey",
+        "Scene": "person seated in a C-shaped cave",
+        "Above": "clouds and raindrops",
+        "From the mouth of the cave": "great volutes",
+        "Headdress": "motif of three drops and two long-tailed birds"
+      }
+    },
+    "faq_mito": {
+      "hash": "34d05a58b24075ef",
+      "texto": {
+        "pregunta": "Myth: It is the image of a king wearing a crown.",
+        "respuesta": "Reality: It is a richly attired person seated in a cave; his exact identity is unresolved."
+      }
+    }
+  }
+}

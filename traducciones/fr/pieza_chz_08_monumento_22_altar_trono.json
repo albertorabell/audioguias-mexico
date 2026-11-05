@@ -1,0 +1,55 @@
+{
+  "id": "chz_08_monumento_22_altar_trono",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3f812ecad1f013f4",
+      "texto": "Monument 22 : l’autel-trône"
+    },
+    "frase_gancho": {
+      "hash": "d22080535f535dad",
+      "texto": "Un autel-trône de pierre : le seul que l’on connaisse hors de la côte du Golfe."
+    },
+    "puente_narrativo": {
+      "hash": "b23a733965b12781",
+      "texto": "Poursuivez votre parcours : l’art de ce lieu mêle des idées venues de nombreux endroits."
+    },
+    "guion_corto": {
+      "hash": "1eb28aa8b3fefec8",
+      "texto": "Les autels-trônes sont un type de monument des centres olmèques de San Lorenzo et de La Venta, sur la côte du Golfe. Le Monument vingt-deux de Chalcatzingo est le seul que l’on ait trouvé loin de cette zone. C’était la dalle de couverture rectangulaire d’un autel-trône en forme de table, placé du côté sud de la grande cour enfoncée. Mais ce n’est pas une copie. Ceux du Golfe ont été taillés dans des blocs massifs, et celui-ci a été fait de nombreuses grandes dalles. Il lui manque la grande niche et le personnage assis des autels du Golfe. Sur la face avant, il ne porte que les yeux allongés d’un serpent surnaturel. Un possible jumeau se trouve à cent quatre-vingts kilomètres au sud, dans une grotte du Guerrero."
+    },
+    "guion_largo": {
+      "hash": "1476b621ae6b2cd8",
+      "texto": "Un trône de pierre qui ne devrait pas être ici. C’est ainsi que le voient les spécialistes, car les autels-trônes sont une catégorie importante de monuments des centres olmèques de San Lorenzo et de La Venta, sur la côte du Golfe. Le Monument vingt-deux est le seul autel-trône que l’on ait trouvé loin de cette zone.\n\nC’était la dalle de couverture rectangulaire d’un autel-trône en forme de table. Il était placé du côté sud de la grande cour rectangulaire enfoncée que vous venez de découvrir.\n\nGrove souligne qu’il ressemble à ses homologues du Golfe, mais qu’il présente aussi des différences significatives. Les autels-trônes du Golfe ont été sculptés dans des blocs de pierre massifs. Celui-ci a été assemblé à partir de nombreuses grandes dalles. Les sources ne s’accordent pas sur leur nombre ; nous ne donnerons donc pas de chiffre.\n\nDe plus, il lui manque deux choses qui caractérisent les autels olmèques : la grande niche et le personnage assis au centre. La surface de la face avant ne porte gravés que les yeux allongés d’un serpent surnaturel. C’est un dessin plus simple, avec une seule image.\n\nVoici maintenant le plus curieux. À cent quatre-vingts kilomètres au sud, dans la grotte d’Oxtotitlán, dans le Guerrero, se trouve une peinture murale polychrome réalisée en hauteur sur la roche, au-dessus de l’entrée. Elle montre un personnage à la parure élaborée, assis sur la tête d’une créature surnaturelle. Sa jambe pend négligemment sur le visage de la créature, comme s’il était assis sur un autel-trône ou sur un banc.\n\nLe visage de cette créature ressemble de façon frappante à celui du Monument vingt-deux. Il a les mêmes yeux allongés. Et les mesures sont presque identiques : quatre mètres quarante de long sur un mètre de haut. Grove écrit que cette ressemblance n’est peut-être pas fortuite. C’est pourquoi il appelle la peinture un possible jumeau de l’autel.\n\nQue signifie cette coïncidence, la question reste ouverte. Ce qu’elle montre, c’est que ceux qui ont sculpté cette pierre connaissaient des idées de lieux lointains et les ont réinterprétées à leur manière. Grove décrit l’ensemble des monuments de Chalcatzingo comme divers et éclectique. Les sculpteurs ont expérimenté des styles et des techniques différents.\n\nIl y a autre chose à savoir. Les spécialistes discutent encore de ce que signifie l’expression style olmèque. Arqueología Mexicana rapporte que l’on a parlé de style, de tradition et de culture olmèques, et que ces concepts restent en débat. Au fond, l’autel-trône de Chalcatzingo fait partie de cette discussion.\n\nCe monument est apparu lors des fouilles du Projet archéologique de Chalcatzingo, et Grove le compte parmi ses découvertes les plus surprenantes. Une dalle d’autel ne ressemble pas à un relief dans la roche. C’est pourquoi elle se distingue de tout ce que le projet a trouvé.\n\nSi l’autel vous semble simple, regardez-le à nouveau avec cette idée. Ce n’est pas un trône olmèque de seconde main. C’est une réponse locale à une idée qui a voyagé. Ailleurs dans le village, il y a une image encore moins courante : [la femme du Monument vingt et un](chz_09_monumento_21_mujer)."
+    },
+    "retos_observacion": {
+      "hash": "1a5b10f7315d70a8",
+      "texto": [
+        "Cherchez les yeux allongés du serpent sur la surface",
+        "Remarquez qu’il est fait de plusieurs pièces, et non d’un seul bloc",
+        "Imaginez l’autel du côté sud de la cour enfoncée"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f781d626e94376b7",
+      "texto": {
+        "Type": "dalle de couverture d’autel-trône en forme de table",
+        "Emplacement d’origine": "côté sud d’une grande cour enfoncée",
+        "Matériau": "dalles de pierre, et non un bloc massif",
+        "Image de la face avant": "yeux allongés d’un serpent surnaturel",
+        "Possible jumeau": "peinture murale d’Oxtotitlán, Guerrero, à cent quatre-vingts kilomètres au sud"
+      }
+    },
+    "faq_mito": {
+      "hash": "10dc68e7fe067a0b",
+      "texto": {
+        "pregunta": "Mythe : C’est un autel olmèque rapporté de la côte du Golfe.",
+        "respuesta": "Réalité : Il a été fait ici, avec des dalles et sans la niche ni le personnage central des autels du Golfe ; c’est le seul autel-trône connu hors de cette zone."
+      }
+    }
+  }
+}

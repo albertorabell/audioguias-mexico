@@ -1,0 +1,55 @@
+{
+  "id": "chz_02_museo_portal_inframundo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1c18f947e71940bd",
+      "texto": "Musée de site : le Monument 9, Portail vers le monde souterrain"
+    },
+    "frase_gancho": {
+      "hash": "0be9cc8a0e431aae",
+      "texto": "Un relief d’une tonne revenu à Chalcatzingo après des décennies passées hors du pays."
+    },
+    "puente_narrativo": {
+      "hash": "393fb08f4ff5d5b1",
+      "texto": "Poursuivez votre parcours : nous sortons maintenant voir où vivait le peuple qui a sculpté cette pierre."
+    },
+    "guion_corto": {
+      "hash": "91e6bf2354ce6683",
+      "texto": "Cette pierre pèse près d’une tonne et est restée loin de Chalcatzingo pendant des décennies. C’est le Monument neuf, appelé Portail vers le monde souterrain. Il mesure un mètre quatre-vingts sur un mètre cinquante et date d’environ deux mille cinq cents ans. Il montre une gueule ouverte à quatre lobes, avec des broméliacées aux coins de la bouche. Dans la conception mésoaméricaine de la montagne, la grotte est l’entrée de la demeure des ancêtres et des êtres surnaturels. Cette image convient bien à une colline pleine de sources. La pierre a quitté le site entre la fin des années cinquante et les années soixante. Elle est revenue en février deux mille vingt-cinq et elle est aujourd’hui exposée dans ce musée."
+    },
+    "guion_largo": {
+      "hash": "960f5d666cf5baa4",
+      "texto": "Il y a des pierres qui voyagent. Le Monument neuf de Chalcatzingo a quitté ces lieux il y a plus d’un demi-siècle et il est revenu en deux mille vingt-cinq. On le connaît sous le nom de Portail vers le monde souterrain.\n\nC’est un relief qui mesure un mètre quatre-vingts sur un mètre cinquante et pèse près d’une tonne. On estime qu’il a été sculpté entre huit cents et quatre cents ans avant notre ère. Il représente une gueule ouverte à quatre lobes. Aux coins de la bouche se trouvent des plantes appelées broméliacées. Pour le situer, il appartient à la même grande période que les reliefs de la colline, les plus anciens du Haut Plateau central.\n\nUn bas-relief est une image qui dépasse peu de la surface de la pierre, comme si elle en émergeait. Presque tous les reliefs de Chalcatzingo sont de ce type. Ceux de la colline sont toujours dans leur roche. Celui-ci, en revanche, est un bloc indépendant qui a pu quitter le site, et c’est pourquoi il a connu une histoire que les reliefs de la colline n’ont pas connue.\n\nSi vous vous demandez pourquoi on l’appelle Portail vers le monde souterrain, c’est un nom moderne que lui donne l’INAH. Les sculpteurs anciens n’ont pas laissé de titre. Ils n’ont pas non plus laissé par écrit ce que signifiait pour eux la bouche ouverte ; toute lecture est donc une interprétation.\n\nIl y a un détail humain dans cette histoire. David Grove, qui a consacré des décennies à l’étude de Chalcatzingo, est mort en deux mille vingt-trois. Il n’a pas pu voir la pierre revenir.\n\nLa bouche n’est pas un ornement. Arqueología Mexicana rapporte une idée très répandue en Mésoamérique. La montagne est le lieu où habitent les ancêtres et les êtres surnaturels. La grotte est l’accès à cette demeure. Une bouche de pierre ouverte dans une colline pleine de sources s’accorde avec cette idée.\n\nOn ne sait pas avec certitude où elle se trouvait à l’origine. David Grove, qui a étudié le site pendant des décennies, pensait qu’elle avait probablement été dressée sur la grande plateforme que nous appelons aujourd’hui [Structure quatre](chz_05_estructura_4). L’INAH, en deux mille vingt-cinq, suggère qu’elle a pu faire partie du programme sculptural de la colline. Les deux idées restent sur la table.\n\nSa sortie du pays connaît elle aussi des versions différentes. Selon un communiqué de l’INAH de deux mille vingt-cinq, la pierre s’est fragmentée en vingt-cinq morceaux à la fin des années cinquante. D’autres sources la situent hors du site à un moment des années soixante. En mille neuf cent soixante-huit, Grove la publiait déjà comme une pièce qui n’était plus à sa place. Elle a fini dans un musée de l’État de New York.\n\nLe retour a pris des années. Entre deux mille vingt-trois et deux mille vingt-cinq, la pièce a passé vingt et un mois au Palais de Cortés, à Cuernavaca. Elle est revenue à Chalcatzingo en février deux mille vingt-cinq et elle est exposée depuis le dix-huit de ce mois.\n\nQuand une pièce retrouve sa place, la façon de visiter le site change. Vous pouvez regarder la pierre et, en sortant, regarder la colline qu’avait devant lui celui qui l’a sculptée. Plus loin, vous verrez d’autres scènes avec des grottes. Dans [Le Roi](chz_17_monumento_1_el_rey), un personnage est assis à l’intérieur d’une bouche en forme de C. Dans le [Monument treize](chz_15_monumento_13), un autre personnage se tient dans la bouche de la terre."
+    },
+    "retos_observacion": {
+      "hash": "08d9c879b156d3fe",
+      "texto": [
+        "Comptez les lobes de la gueule",
+        "Cherchez les broméliacées aux coins de la bouche",
+        "Imaginez cette pierre dressée, en plein air, il y a deux mille cinq cents ans"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07cbc3ba6d49842d",
+      "texto": {
+        "Dimensions": "un mètre quatre-vingts sur un mètre cinquante",
+        "Poids": "près d’une tonne",
+        "Âge": "environ deux mille cinq cents ans",
+        "Retour": "février deux mille vingt-cinq",
+        "Motifs": "gueule à quatre lobes et broméliacées"
+      }
+    },
+    "faq_mito": {
+      "hash": "423bde38afa2c06d",
+      "texto": {
+        "pregunta": "Mythe : Cette pierre est une réplique.",
+        "respuesta": "Réalité : Selon l’INAH, c’est le monolithe original, revenu à Chalcatzingo en deux mille vingt-cinq."
+      }
+    }
+  }
+}

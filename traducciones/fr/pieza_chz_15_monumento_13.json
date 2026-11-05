@@ -1,0 +1,55 @@
+{
+  "id": "chz_15_monumento_13",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4cc7b06c380375c3",
+      "texto": "Monument 13 : le dirigeant dans la bouche de la terre"
+    },
+    "frase_gancho": {
+      "hash": "8b1f1d00d2072dc9",
+      "texto": "Un personnage assis dans la bouche ouverte de la terre."
+    },
+    "puente_narrativo": {
+      "hash": "f100c439deb85e5d",
+      "texto": "Poursuivez votre parcours : le flanc de la colline offre une autre scène avec la bouche de la terre."
+    },
+    "guion_corto": {
+      "hash": "45cb5ab3e1d299c6",
+      "texto": "Une personne assise à l’intérieur de la bouche ouverte de la terre. Ainsi certaines sources décrivent le Monument treize : un personnage assis dans la bouche d’un être de la terre, entouré de végétation. Moins de la moitié du relief est conservée, et il se trouve sous un toit de l’INAH. On le compare au Monument un, El Rey, qui est lui aussi assis dans une grotte. Bien qu’il en manque plus de la moitié, la scène se reconnaît encore. Dans les deux cas, la grotte semble une porte vers la terre. Ce n’est pas un cas isolé : le Monument neuf du musée montre une bouche aux mâchoires ouvertes. Les trois pièces partagent l’idée de la bouche de la terre."
+    },
+    "guion_largo": {
+      "hash": "c983b10d8494711d",
+      "texto": "Certaines pièces nous parviennent presque complètes. D’autres, non. Du Monument treize, moins de la moitié est conservée, et pourtant il en dit beaucoup.\n\nLes sources que nous avons consultées, Mesoweb et The Post Hole, le décrivent comme une personne assise dans la bouche ouverte d’un monstre de la terre, avec de la végétation. Aujourd’hui, il se trouve sous un toit construit par l’INAH. Nous n’avons pas pu consulter de source académique plus complète, cette description reste donc ouverte aux corrections.\n\nIl faut le regarder avec deux autres monuments. Le premier est le [Monument un](chz_17_monumento_1_el_rey), El Rey. Grove le décrit comme une personne richement parée, assise dans une grotte en forme de C, qui est la bouche d’une créature surnaturelle. Le second est le [Monument neuf](chz_02_museo_portal_inframundo), le Portail vers le monde souterrain, une bouche aux mâchoires ouvertes.\n\nLes trois parlent de la même chose sous des angles différents : la bouche de la terre comme entrée. Arqueología Mexicana rapporte l’idée que la montagne est le lieu où habitent les ancêtres et les êtres surnaturels, et que la grotte est l’accès à cette demeure.\n\nAvec cette clé, un personnage assis dans une bouche de pierre n’est pas simplement quelque part. Il est sur le seuil entre deux mondes. Nous ne savons pas s’il s’agissait d’un dirigeant, d’un ancêtre ou d’une figure rituelle. Les sources ne le précisent pas, et c’est pourquoi nous parlons d’un personnage.\n\nC’est aussi une leçon de lecture. Un relief incomplet reste une source. Ce qui manque se compare avec ce qui est conservé dans d’autres monuments, et de ce contraste naît l’hypothèse.\n\nIl y a une différence utile avec la femme du [Monument vingt et un](chz_09_monumento_21_mujer). Elle se tient debout sur le visage d’un être surnaturel de la terre. Ce personnage-ci, en revanche, est assis à l’intérieur de la bouche. Dans un cas, la personne foule la terre ; dans l’autre, elle y entre.\n\nPar son époque, ce relief appartient au même monde que les autres de la colline. Grove signale que presque tous les monuments de Chalcatzingo ont été sculptés il y a environ sept cents à cinq cents ans avant Jésus-Christ.\n\nLe toit qui le couvre remplit une fonction pratique. Grove met en garde, dans le PARI Journal, contre les dégâts des pluies acides sur les reliefs, et l’INAH a construit des toits et des murs pour les protéger.\n\nDans l’art de cette époque, on parle d’un monstre de la terre : une créature surnaturelle dont la bouche ouverte fait office de grotte. Les sources consultées emploient cette expression pour ce monument.\n\nMesoweb et The Post Hole sont des sites de vulgarisation spécialisée. Ils servent à situer le relief et à le décrire, mais il convient de les confronter à une étude académique. Une scène incomplète invite à se poser des questions, et cela aussi fait partie de la visite d’une zone archéologique. Regardez le relief lentement et comparez ce qui manque avec ce qui est conservé.\n\nSi vous venez des terrasses, vous remarquerez le changement d’ambiance. Ici, l’art parle de lieux où le monde s’ouvre."
+    },
+    "retos_observacion": {
+      "hash": "566e9aa40b4d8941",
+      "texto": [
+        "Cherchez la bouche ouverte où le personnage est assis",
+        "Comparez la forme de la bouche avec celle d’El Rey",
+        "Regardez la végétation qui entoure la scène"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c11a34b5e68c8c51",
+      "texto": {
+        "Monument": "treize",
+        "Image": "personne assise dans la bouche d’un être de la terre",
+        "Conservation": "moins de la moitié",
+        "Protection": "toit de l’INAH",
+        "Comparaison": "Monument un, El Rey"
+      }
+    },
+    "faq_mito": {
+      "hash": "379093676ae8254a",
+      "texto": {
+        "pregunta": "Mythe : Il est complet.",
+        "respuesta": "Réalité : Moins de la moitié du relief est conservée, et pourtant la scène se reconnaît."
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "chz_01_dos_cerros_un_valle",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {
+    "frase_gancho": [
+      "el glosario pide \"Zentrales Hochland\" para \"Altiplano Central\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Zentrales Hochland\" para \"Altiplano Central\" y no aparece",
+      "el glosario pide \"Nahuatl\" para \"náhuatl\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "0069201942dc0aed",
+      "texto": "Zwei Hügel und ein Tal"
+    },
+    "frase_gancho": {
+      "hash": "7439d4b5c78b500d",
+      "texto": "Zwei Hügel, eine Quelle und die ältesten bekannten Steinskulpturen des Zentralen Hochlands."
+    },
+    "puente_narrativo": {
+      "hash": "e96f221c4a1d3bc1",
+      "texto": "Folge deiner Route: Die behauenen Steine dieses Ortes haben noch viel zu erzählen."
+    },
+    "guion_corto": {
+      "hash": "405ee442b0dd221f",
+      "texto": "Im Jahr neunzehnhundertvierunddreißig unternahm Eulalia Guzmán, Leiterin der Abteilung für Archäologie des Nationalmuseums, eine lange, beschwerliche Reise in dieses Dorf im Osten von Morelos. Man hatte ihr berichtet, dass Wolkenbrüche einen Erdrutsch ausgelöst und einige Steine mit Reliefs freigelegt hatten. Es waren wenige, aber sehr kunstvoll gearbeitete, in einem Stil, der sich von allem unterschied, was man aus Zentralmexiko kannte. Vor dir liegen zwei Hügel: der Chalcatzingo, der auch Cerro de la Cantera heißt, und der Delgado. An ihrem Fuß lebte ein Volk, das schon vor Christus Stein bearbeitete. Eine Quelle versorgte die Siedlung. Diese Hügel, dieses Wasser und diese Steine sind der rote Faden des ganzen Rundgangs."
+    },
+    "guion_largo": {
+      "hash": "97bd57ac7a9f2d49",
+      "texto": "Chalcatzingo ist ein Name nahuatlischen Ursprungs. Das INAH schlägt drei mögliche Bedeutungen vor: der kostbarste Ort der Chalca, der verehrte Ort des heiligen Wassers und der Ort der kostbaren Jade. Alle drei sprechen von etwas, das sehr viel wert war.\n\nSieh dir die Landschaft an. Vor dir liegen zwei Hügel. Der eine ist der Chalcatzingo, auch Cerro de la Cantera genannt, den David Grove als das auffälligste Merkmal der Landschaft beschreibt. Der andere ist der Delgado. Eine Quelle versorgte die Siedlung, die sich zu ihren Füßen ausbreitete. Wasser, Erde und Fels: Alles, was zählte, war hier.\n\nDie Welt erfuhr von diesem Ort durch ein Unwetter. Im Jahr neunzehnhundertvierunddreißig machte sich Eulalia Guzmán, Leiterin der Abteilung für Archäologie des Nationalmuseums, auf eine lange und mühsame Reise in das Dörfchen Chalcatzingo. Man hatte ihr berichtet, dass Wolkenbrüche an den Hängen einen Erdrutsch ausgelöst und einige Steine mit Reliefs freigelegt hatten. Was sie sah, waren wenige Steine, aber sehr kunstvoll gearbeitete, in einem Stil, der sich von allen bis dahin in Zentralmexiko bekannten unterschied. Noch im selben Jahr veröffentlichte sie einen reich bebilderten Bericht. Es war das erste Mal, dass die Stätte gemeldet wurde.\n\nDanach kamen andere. Im Jahr neunzehnhundertsechsundsechzig dokumentierte Carlo Gay die Reliefs, die Altäre und die Felsmalerei. Im Jahr neunzehnhundertsiebenundsechzig machte Carmen Cook de Leonard weitere Reliefs und Skulpturen bekannt. Zwischen neunzehnhundertzweiundsiebzig und neunzehnhundertsechsundsiebzig führten Grove, Jorge Angulo und Raúl Arana umfangreiche Grabungen durch. Im Jahr neunzehnhundertzweiundsiebzig waren bereits zwölf Reliefs freigelegt. Während dieses Projekts kamen achtzehn weitere zum Vorschein. Heute sind mehr als vierzig Monumente dokumentiert.\n\nDiese Monumente gehören zwei Arten an. Die einen sind Flachreliefs, die in den Fels des Hügels oder in große Felsblöcke an seinem Fuß gehauen wurden. Die anderen sind kleinere Statuen und Stelen, die sich bewegen ließen und auf den Terrassen der Siedlung aufgestellt waren. Die Themen wechseln je nach Ort: Auf den Terrassen herrschen Bilder politischer Macht vor, am Hügel solche von Mythos und Ritual. Fast alle wurden etwa zwischen siebenhundert und fünfhundert Jahren vor Christus geschaffen. Es sind die ältesten bekannten Steinskulpturen des Zentralen Hochlands von Mexiko.\n\nWaren es Olmeken? Jahrzehntelang wurde darüber gestritten. Grove kommt zu dem Schluss, dass sie es nicht waren. Er sagt, die Bewohner von Chalcatzingo seien weder Olmeken noch bloße Nachahmer der Menschen von La Venta gewesen. Ihre Keramik und ihre Figürchen stammen aus dem Zentralen Hochland, nicht von der Golfküste. Für ihn war es ein kosmopolitisches, eigenständiges regionales Zentrum. Andere Fachleute sprechen von olmekischem Einfluss, und die Debatte ist noch offen.\n\nDieser Rundgang führt durch das Museum, folgt den Terrassen, auf denen die Menschen lebten, und steigt dann zum Hang auf, wo sich der bekannteste Teil befindet. Dort beginnt die Geschichte der Steine. Um den Weg zu eröffnen, tritt ein und sieh dir [das Monument neun](chz_02_museo_portal_inframundo) an, einen Stein, der weit gereist und zurückgekehrt ist."
+    },
+    "retos_observacion": {
+      "hash": "989424e5047fea19",
+      "texto": [
+        "Suche die beiden Hügel und entscheide, welcher der Chalcatzingo ist",
+        "Stell dir die Quelle vor, die das Dorf mit Wasser versorgte",
+        "Sieh dir den Hang des Hügels an und suche die Stellen, an denen der Fels offen liegt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3d1f3c009c40ed8",
+      "texto": {
+        "Lage": "Osten des Bundesstaates Morelos",
+        "Hügel": "Chalcatzingo, auch Cantera genannt, und Delgado",
+        "Dokumentierte Monumente": "mehr als vierzig",
+        "Zeit der Monumente": "vor allem zwischen siebenhundert und fünfhundert Jahren vor Christus",
+        "Erster veröffentlichter Bericht": "Eulalia Guzmán, neunzehnhundertvierunddreißig"
+      }
+    },
+    "faq_mito": {
+      "hash": "1b73037ebdcfb166",
+      "texto": {
+        "pregunta": "Mythos: Chalcatzingo ist eine olmekische Stätte.",
+        "respuesta": "Realität: Das ist umstritten. David Grove vertritt die Ansicht, dass ihre Bewohner weder Olmeken noch Nachahmer von La Venta waren; das INAH spricht von olmekischem Einfluss."
+      }
+    }
+  }
+}

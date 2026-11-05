@@ -1,0 +1,58 @@
+{
+  "id": "chz_07_terraza_25_patio_hundido",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "8d9ac6d7599e59e7",
+      "texto": "Terrazza 25: il cortile incassato"
+    },
+    "frase_gancho": {
+      "hash": "80bff02497ea7764",
+      "texto": "Un cortile rettangolare incassato, con muri di pietra decorati con lastre."
+    },
+    "puente_narrativo": {
+      "hash": "a83e25f57520080f",
+      "texto": "Prosegui il tuo percorso: sul lato sud di questo cortile era collocato un altare molto particolare."
+    },
+    "guion_corto": {
+      "hash": "88a7847be0e4af51",
+      "texto": "Un cortile incassato è uno spazio rettangolare costruito al di sotto del livello del suolo. Questo è tra i più grandi. Le sue pareti di pietra sono decorate con frammenti di lastra inseriti in obliquo, così da formare un disegno a V rovesciata. Questo motivo non compare nelle sculture olmeche della costa del Golfo. Si ripete invece nelle facciate di due siti della stessa epoca: Teopantecuanitlán, nel Guerrero, e Zazacatla, nel Morelos. È un indizio dei legami di Chalcatzingo con altre regioni. Sul lato sud di questo cortile era collocato un altare-trono, e di quell’altare parleremo subito. Chi entrava scendeva di livello e si ritrovava circondato da muri decorati."
+    },
+    "guion_largo": {
+      "hash": "d580c34b611b21b7",
+      "texto": "Prima dell’altare-trono, la scena. Ti trovi sulla Terrazza venticinque, dove c’era un grande cortile rettangolare incassato.\n\nLe pareti di quel cortile erano di pietra ed erano decorate in un modo molto particolare. I costruttori inserirono frammenti di lastra in obliquo, come cunei. Il risultato è un motivo a V rovesciata, ripetuto lungo il muro.\n\nGrove mette in evidenza un dato: quel motivo non compare nella scultura olmeca della costa del Golfo. Ma si vede nelle facciate architettoniche del Preclassico medio di due siti: Teopantecuanitlán, nel Guerrero, e Zazacatla, nel Morelos. Teopantecuanitlán e Zazacatla sono luoghi con cui Chalcatzingo sembra aver condiviso idee costruttive.\n\nConviene soffermarsi su Zazacatla. Si trova nell’occidente del Morelos, a sedici chilometri a sud del centro di Cuernavaca. La sua struttura più antica è l’Edificio delle Lastre, fatto con lastre disposte in modo da formare una V rovesciata. Sulla facciata nord ha quattro nicchie, e al loro interno furono trovati dei monumenti.\n\nUn articolo di Arqueología Mexicana su Zazacatla propone che quella V rovesciata evochi una grotta, e che le nicchie rafforzino l’idea. Secondo quell’articolo, l’edificio sarebbe una proiezione della montagna sacra, e i personaggi delle nicchie starebbero dentro la grotta, come gli antenati.\n\nZazacatla fu occupata verso i milleduecento anni prima di Cristo e fu il centro dominante della sua regione occidentale tra i mille e gli ottocento.\n\nUna lastra è una pietra piatta e sottile, di quelle che si staccano a strati. Il fatto che due siti usino lastre a V non prova che condividessero il significato. Ma mostra che il motivo circolava nella regione.\n\nSecondo lo stesso articolo, Zazacatla fu fondata su un affioramento basso di roccia calcarea. In quell’affioramento c’era una depressione naturale di circa cento metri di diametro che, nella stagione delle piogge, aveva uno specchio d’acqua. L’articolo la interpreta come una soglia del mondo acquatico, dove abitavano gli antenati.\n\nI muri incassati e decorati creano uno spazio chiuso, diverso dalle piazze aperte come la Terrazza uno.\n\nQuesto si accorda con la conclusione generale di Grove. Per lui, Chalcatzingo fu un centro regionale cosmopolita e autonomo, che interagì con vari centri, vicini o lontani. Lo fece forse per facilitare la circolazione di pietre verdi e di altri oggetti esotici che cercavano le élite emergenti. In architettura, quell’interazione si nota nei muri.\n\nUn cortile incassato cambia anche il modo di muoversi. Chi entrava scendeva di livello e si ritrovava circondato da pareti decorate. Nella parte sud, l’altare-trono occupava il posto più visibile. Non sappiamo quali cerimonie si svolgessero qui; le fonti non lo dicono.\n\nSe il cortile non si vede per intero, non preoccuparti. L’importante è l’idea: un’architettura pensata per accogliere, mostrare e ordinare la gente.\n\nL’altare che si trovava sul lato sud è la nostra prossima tappa: [il Monumento ventidue](chz_08_monumento_22_altar_trono)."
+    },
+    "retos_observacion": {
+      "hash": "894585649691e9ad",
+      "texto": [
+        "Cerca pietre piatte collocate in obliquo nei muri",
+        "Immagina il cortile a un livello più basso della terrazza",
+        "Individua il lato sud, dove si trovava l’altare-trono"
+      ]
+    },
+    "especificaciones": {
+      "hash": "710228aff9401f0f",
+      "texto": {
+        "Luogo": "Terrazza venticinque",
+        "Forma": "cortile rettangolare incassato",
+        "Decorazione": "lastre inserite in obliquo, a forma di V rovesciata",
+        "Motivo simile a": "Teopantecuanitlán, Guerrero, e Zazacatla, Morelos"
+      }
+    },
+    "faq_mito": {
+      "hash": "69527329674e7556",
+      "texto": {
+        "pregunta": "Mito: Tutta l’arte di Chalcatzingo viene dalla costa del Golfo.",
+        "respuesta": "Realtà: Questo motivo dei muri non compare nella scultura olmeca del Golfo, ma compare in siti del Guerrero e del Morelos."
+      }
+    }
+  }
+}
