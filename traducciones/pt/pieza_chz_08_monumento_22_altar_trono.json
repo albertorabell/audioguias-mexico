@@ -1,0 +1,59 @@
+{
+  "id": "chz_08_monumento_22_altar_trono",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3f812ecad1f013f4",
+      "texto": "Monumento 22: o altar-trono"
+    },
+    "frase_gancho": {
+      "hash": "d22080535f535dad",
+      "texto": "Um altar-trono de pedra: o único que se conhece fora da costa do Golfo."
+    },
+    "puente_narrativo": {
+      "hash": "b23a733965b12781",
+      "texto": "Siga o seu percurso: a arte deste lugar mistura ideias de muitas partes."
+    },
+    "guion_corto": {
+      "hash": "1eb28aa8b3fefec8",
+      "texto": "Os altares-trono são um tipo de monumento dos centros olmecas de San Lorenzo e La Venta, na costa do Golfo. O Monumento vinte e dois de Chalcatzingo é o único que foi encontrado longe dessa zona. Era a tampa retangular de um altar-trono em forma de mesa, colocado no lado sul do grande pátio rebaixado. Mas não é uma cópia. Os do Golfo foram entalhados em blocos maciços, e este foi feito com muitas lajes grandes. Faltam a ele o grande nicho e o personagem sentado dos altares do Golfo. Na frente leva apenas os olhos alongados de uma serpente sobrenatural. Um possível gêmeo está a cento e oitenta quilômetros ao sul, em uma caverna de Guerrero."
+    },
+    "guion_largo": {
+      "hash": "1476b621ae6b2cd8",
+      "texto": "Um trono de pedra que não deveria estar aqui. É assim que os especialistas o veem, porque os altares-trono são uma categoria importante de monumentos dos centros olmecas de San Lorenzo e La Venta, na costa do Golfo. O Monumento vinte e dois é o único altar-trono que foi encontrado longe daquela zona.\n\nEra a tampa retangular de um altar-trono em forma de mesa. Estava colocado no lado sul do grande pátio retangular rebaixado que você acabou de conhecer.\n\nGrove destaca que ele se parece com seus equivalentes do Golfo, mas que também tem diferenças significativas. Os altares-trono do Golfo foram lavrados em blocos de pedra maciços. Este foi montado com muitas lajes grandes. As fontes não coincidem quanto a quantas, então não daremos um número.\n\nAlém disso, faltam a ele duas coisas que caracterizam os altares olmecas: o grande nicho e o personagem sentado no centro. A superfície da frente leva lavrados apenas os olhos alongados de uma serpente sobrenatural. É um desenho mais simples, com uma única imagem.\n\nAgora vem o mais curioso. A cento e oitenta quilômetros ao sul, na caverna de Oxtotitlán, em Guerrero, há um mural policromado feito no alto da rocha, sobre a entrada. Mostra um personagem de atavio elaborado sentado sobre a cabeça de uma criatura sobrenatural. Sua perna pende displicente sobre o rosto da criatura, como se estivesse sentado em um altar-trono ou em um banco.\n\nO rosto dessa criatura se parece de maneira surpreendente com o rosto do Monumento vinte e dois. Tem os mesmos olhos alongados. E as medidas são quase idênticas: quatro metros e quarenta centímetros de comprimento por um metro de altura. Grove escreve que essa semelhança talvez não seja casual. Por isso chama o mural de um possível gêmeo do altar.\n\nO que significa essa coincidência é uma pergunta aberta. O que ela mostra é que quem entalhou esta pedra conhecia ideias de lugares distantes e as reinterpretou à sua maneira. Grove descreve o conjunto de monumentos de Chalcatzingo como diverso e eclético. Os escultores experimentaram estilos e técnicas diferentes.\n\nHá algo mais que convém saber. Os especialistas ainda discutem o que significa a expressão estilo olmeca. A Arqueologia Mexicana registra que se falou de estilo, de tradição e de cultura olmeca, e que esses conceitos continuam em discussão. No fundo, o altar-trono de Chalcatzingo faz parte dessa discussão.\n\nEste monumento apareceu durante as escavações do Projeto Arqueológico Chalcatzingo, e Grove o conta entre suas descobertas mais surpreendentes. Uma tampa de altar não se parece com um relevo na rocha. Por isso se destaca entre tudo o que o projeto encontrou.\n\nSe o altar lhe parece simples, volte a olhá-lo com essa ideia. Não é um trono olmeca de segunda mão. É uma resposta local a uma ideia que viajou. Em outra parte do povoado há uma imagem ainda menos comum: [a mulher do Monumento vinte e um](chz_09_monumento_21_mujer)."
+    },
+    "retos_observacion": {
+      "hash": "1a5b10f7315d70a8",
+      "texto": [
+        "Procure os olhos alongados da serpente na superfície",
+        "Repare que ele é feito de peças, não de um bloco",
+        "Imagine o altar no lado sul do pátio rebaixado"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f781d626e94376b7",
+      "texto": {
+        "Tipo": "tampa de altar-trono em forma de mesa",
+        "Localização original": "lado sul de um grande pátio rebaixado",
+        "Material": "lajes de pedra, não um bloco maciço",
+        "Imagem da frente": "olhos alongados de uma serpente sobrenatural",
+        "Possível gêmeo": "mural de Oxtotitlán, Guerrero, a cento e oitenta quilômetros ao sul"
+      }
+    },
+    "faq_mito": {
+      "hash": "10dc68e7fe067a0b",
+      "texto": {
+        "pregunta": "Mito: É um altar olmeca trazido da costa do Golfo.",
+        "respuesta": "Realidade: Foi feito aqui, com lajes e sem o nicho nem o personagem central dos altares do Golfo; é o único altar-trono conhecido fora dessa zona."
+      }
+    }
+  }
+}

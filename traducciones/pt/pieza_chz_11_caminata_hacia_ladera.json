@@ -1,0 +1,45 @@
+{
+  "id": "chz_11_caminata_hacia_ladera",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e01e803c97074608",
+      "texto": "Caminhada: dos terraços à encosta do morro"
+    },
+    "frase_gancho": {
+      "hash": "78c18e40fab05397",
+      "texto": "Um trajeto curto para ouvir enquanto você se aproxima da rocha."
+    },
+    "puente_narrativo": {
+      "hash": "5f6039159f27e8f1",
+      "texto": "Você chegou à encosta do Cerro Chalcatzingo."
+    },
+    "guion_corto": {
+      "hash": "9cfa15b427cf68d5",
+      "texto": "Aqui a paisagem muda. Deixe os terraços e aproxime-se da rocha do morro. Até agora você viu monumentos entre casas e plataformas, com temas de poder. Na encosta, segundo David Grove, os grandes relevos foram talhados na própria rocha ou em penhascos de sua base, e falam de mitologia e de rito. Esses relevos estão separados por vários metros, e não se veem todos juntos. Para vê-los é preciso caminhar, e talvez assim se fazia na Antiguidade, em procissão. Quando a trilha chegar aos penhascos, você já estará no próximo áudio."
+    },
+    "guion_largo": {
+      "hash": "5b81f724da1ec7c2",
+      "texto": "Esta é uma caminhada. Não é preciso parar. Deixe os terraços e aproxime-se do morro enquanto o áudio acompanha você.\n\nAté aqui você viu monumentos entre as casas e as plataformas do povoado. Seu tema, diz Grove, é sobretudo o poder político de pessoas da elite. Muitos apareceram mutilados, decapitados ou enterrados.\n\nNa encosta tudo muda. Os relevos estão talhados diretamente na rocha do morro ou em grandes penhascos de sua base. Ilustram temas de mitologia e de ritual religioso. Os relevos das encostas não foram mutilados como os do povoado.\n\nHá algo mais que torna este trecho especial. Os relevos estão separados por vários metros e não se veem todos juntos. Para vê-los é preciso percorrer a encosta, e talvez assim se fazia no passado, caminhando em procissão.\n\nQuando você chegar aos penhascos da base, já estará no próximo áudio."
+    },
+    "retos_observacion": {
+      "hash": "720fde95d273785f",
+      "texto": [
+        "Olhe para a rocha do morro enquanto você se aproxima",
+        "Procure grandes penhascos na base",
+        "Caminhe devagar, como em uma procissão"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e3ad1addced00f30",
+      "texto": {
+        "Tipo": "caminhada, sem parada fixa",
+        "Tema": "do povoado aos relevos do morro"
+      }
+    }
+  }
+}

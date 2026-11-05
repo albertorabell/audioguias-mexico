@@ -1,0 +1,55 @@
+{
+  "id": "chz_08_monumento_22_altar_trono",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3f812ecad1f013f4",
+      "texto": "Monument 22: The Altar-Throne"
+    },
+    "frase_gancho": {
+      "hash": "d22080535f535dad",
+      "texto": "A stone altar-throne: the only one known outside the Gulf Coast."
+    },
+    "puente_narrativo": {
+      "hash": "b23a733965b12781",
+      "texto": "Follow your route: the art of this place blends ideas from many parts."
+    },
+    "guion_corto": {
+      "hash": "1eb28aa8b3fefec8",
+      "texto": "Altar-thrones are a type of monument from the Olmec centers of San Lorenzo and La Venta, on the Gulf Coast. Monument Twenty-two of Chalcatzingo is the only one found far from that area. It was the rectangular top of a table-shaped altar-throne, placed on the south side of the great sunken patio. But it is not a copy. Those of the Gulf were carved from massive blocks, and this one was made from many large slabs. It lacks the large niche and the seated figure of the Gulf altars. On the front it bears only the elongated eyes of a supernatural serpent. A possible twin lies a hundred eighty kilometers to the south, in a cave in Guerrero."
+    },
+    "guion_largo": {
+      "hash": "1476b621ae6b2cd8",
+      "texto": "A stone throne that should not be here. That is how specialists see it, because altar-thrones are an important category of monuments from the Olmec centers of San Lorenzo and La Venta, on the Gulf Coast. Monument Twenty-two is the only altar-throne found far from that area.\n\nIt was the rectangular top of a table-shaped altar-throne. It was placed on the south side of the great rectangular sunken patio you have just seen.\n\nGrove stresses that it resembles its Gulf counterparts, but that it also has significant differences. The altar-thrones of the Gulf were carved from massive blocks of stone. This one was assembled from many large slabs. The sources do not agree on how many, so we will not give a figure.\n\nIn addition, it lacks two things that characterize Olmec altars: the large niche and the seated figure at the center. The surface of the front carries only the elongated eyes of a supernatural serpent carved on it. It is a simpler design, with a single image.\n\nNow comes the most curious part. A hundred eighty kilometers to the south, in the cave of Oxtotitlán, in Guerrero, there is a polychrome mural made high on the rock, above the entrance. It shows a figure in elaborate attire seated on the head of a supernatural creature. His leg dangles carelessly over the creature's face, as if he were seated on an altar-throne or on a bench.\n\nThe face of that creature resembles, in a surprising way, the face of Monument Twenty-two. It has the same elongated eyes. And the measurements are almost identical: four meters forty centimeters long by one meter high. Grove writes that this similarity may not be accidental. That is why he calls the mural a possible twin of the altar.\n\nWhat that coincidence means is an open question. What it does show is that those who carved this stone knew ideas from distant places and reinterpreted them in their own way. Grove describes the set of monuments of Chalcatzingo as diverse and eclectic. The sculptors experimented with different styles and techniques.\n\nThere is something else worth knowing. Specialists still debate what the expression Olmec style means. Arqueología Mexicana records that people have spoken of an Olmec style, tradition, and culture, and that these concepts remain under discussion. At bottom, the altar-throne of Chalcatzingo is part of that discussion.\n\nThis monument appeared during the excavations of the Chalcatzingo Archaeological Project, and Grove counts it among his most surprising discoveries. An altar top is not like a relief in the rock. That is why it stands out among everything the project found.\n\nIf the altar seems plain to you, look at it again with this idea in mind. It is not a secondhand Olmec throne. It is a local response to an idea that traveled. In another part of the settlement there is an image that is even less common: [the woman of Monument Twenty-one](chz_09_monumento_21_mujer)."
+    },
+    "retos_observacion": {
+      "hash": "1a5b10f7315d70a8",
+      "texto": [
+        "Look for the elongated eyes of the serpent on the surface",
+        "Notice that it is made of pieces, not of a single block",
+        "Imagine the altar on the south side of the sunken patio"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f781d626e94376b7",
+      "texto": {
+        "Type": "top of a table-shaped altar-throne",
+        "Original location": "south side of a great sunken patio",
+        "Material": "stone slabs, not a massive block",
+        "Image on the front": "elongated eyes of a supernatural serpent",
+        "Possible twin": "mural at Oxtotitlán, Guerrero, a hundred eighty kilometers to the south"
+      }
+    },
+    "faq_mito": {
+      "hash": "10dc68e7fe067a0b",
+      "texto": {
+        "pregunta": "Myth: It is an Olmec altar brought from the Gulf Coast.",
+        "respuesta": "Reality: It was made here, with slabs and without the niche or central figure of the Gulf altars; it is the only altar-throne known outside that area."
+      }
+    }
+  }
+}

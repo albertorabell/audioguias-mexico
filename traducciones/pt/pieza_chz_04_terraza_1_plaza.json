@@ -1,0 +1,55 @@
+{
+  "id": "chz_04_terraza_1_plaza",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "eb8b7e357480fe74",
+      "texto": "Terraço 1 e a grande praça"
+    },
+    "frase_gancho": {
+      "hash": "0cea1c5507f7e92e",
+      "texto": "O terraço principal do povoado: uma praça ampla entre uma casa de elite e uma grande plataforma."
+    },
+    "puente_narrativo": {
+      "hash": "89faa625aed52d28",
+      "texto": "Siga o seu percurso: na borda desta praça se ergue uma plataforma de uns setenta metros."
+    },
+    "guion_corto": {
+      "hash": "72acf12159dca813",
+      "texto": "Cerca de um hectare de praça e nenhuma escultura monumental. Você está no Terraço um, o principal do antigo povoado. Segundo David Grove, por volta de oitocentos anos antes de Cristo a terra deslizada do morro foi transformada em grandes terraços onde se vivia. Ao sul deste espaço esteve a residência de uma família de elite. Ao norte se ergue um montículo com plataformas. Entre as duas fica um espaço aberto, feito para estarem juntos. As esculturas que falam de poder político apareceram em outras partes do povoado, e muitas estavam mutiladas ou enterradas. Uma praça assim permite reunir muita gente. Para Grove, esses montículos mostram a importância de Chalcatzingo como centro regional."
+    },
+    "guion_largo": {
+      "hash": "edc5f702b73fb6bb",
+      "texto": "Uma praça é um espaço vazio feito de propósito. No Terraço um, esse espaço mede cerca de um hectare. Segundo Grove e segundo o INAH, não tem arte monumental. Todo o peso do lugar está no que o cerca.\n\nPrimeiro, os terraços. As escavações do Projeto Arqueológico Chalcatzingo mostraram que a terra deslizada naturalmente da base do morro foi transformada em grandes terraços residenciais por volta de oitocentos anos antes de Cristo. Este é o principal. Ou seja, o povoado não cresceu por acaso: alguém decidiu aplainar a encosta e organizar a vida sobre ela.\n\nAo sul da praça houve uma residência de elite. Ao norte há um montículo com plataformas, a [Estrutura quatro](chz_05_estructura_4). Para Grove, os montículos com plataformas de alguns terraços indicam a importância de Chalcatzingo como centro regional.\n\nA água também conta nesta história. A Arqueologia Mexicana explica que, no Morelos daqueles séculos, os grupos com uma organização social mais complexa começaram a se desenvolver em lugares com água em abundância. Também escolheram lugares onde podiam controlar nascentes e barrancos. Chalcatzingo tinha uma nascente que abastecia o povoado. Tudo o que você vê ao seu redor fazia parte de um mesmo lugar de vida.\n\nUm montículo com plataformas é uma elevação feita pelas pessoas, com níveis planos no alto. Serve para erguer um edifício ou um espaço acima do resto. As fontes consultadas não descrevem o que havia sobre este montículo.\n\nSe quiser sentir a escala, pare no meio da praça e olhe primeiro para o sul e depois para o norte. Entre uma e outra fica o espaço aberto da praça.\n\nAgora pense nas esculturas. Os monumentos dos terraços não se parecem com os do morro. Grove explica que no povoado predominam as imagens relacionadas ao poder político de pessoas da elite, mais do que as cenas rituais ou mitológicas. Além disso, muitos desses monumentos foram mutilados, decapitados ou enterrados. Os do morro, com temas sagrados, não.\n\nUm exemplo é uma estátua de um personagem sentado, que perdeu a cabeça. Eulalia Guzmán a documentou em mil novecentos e trinta e quatro. Hoje está exposta no Museu Nacional de Antropologia, na Cidade do México, e os arqueólogos a conhecem como Monumento dezesseis.\n\nOutro achado fala da vida da elite. Ao escavar uma casa desse grupo, que a erosão estava destruindo, os arqueólogos encontraram sepultamentos sob o piso. Um era um túmulo revestido de pedra, com vasilhas, alguns ossos muito deteriorados e uma cabeça de pedra. Os dados indicam que foi o túmulo de uma mulher de elite. Se essa história lhe interessa, siga até [a mulher do Monumento vinte e um](chz_09_monumento_21_mujer).\n\nAs fontes não dizem para que esta praça em particular foi usada. O que mostram é o cenário: casa, plataforma e espaço aberto no meio, no terraço principal de um centro regional."
+    },
+    "retos_observacion": {
+      "hash": "d742fc79a5517158",
+      "texto": [
+        "Calcule a olho quantas pessoas caberiam nesta praça",
+        "Procure, ao norte, o montículo com plataformas",
+        "Olhe para o sul, onde esteve a residência de elite"
+      ]
+    },
+    "especificaciones": {
+      "hash": "28d83bab6439f142",
+      "texto": {
+        "Terraço": "o principal do povoado",
+        "Praça": "cerca de um hectare, sem arte monumental",
+        "Ao sul": "residência de elite",
+        "Ao norte": "montículo com plataformas",
+        "Origem dos terraços": "por volta de oitocentos anos antes de Cristo"
+      }
+    },
+    "faq_mito": {
+      "hash": "96a96aceeb58d1d4",
+      "texto": {
+        "pregunta": "Mito: Uma praça vazia não tem nada a contar.",
+        "respuesta": "Realidade: O fato de não haver esculturas aqui já diz algo: os monumentos de poder ficavam entre as casas e plataformas, e os de tema sagrado, no morro."
+      }
+    }
+  }
+}

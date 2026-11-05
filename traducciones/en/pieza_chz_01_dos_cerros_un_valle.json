@@ -1,0 +1,55 @@
+{
+  "id": "chz_01_dos_cerros_un_valle",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0069201942dc0aed",
+      "texto": "Two Hills and a Valley"
+    },
+    "frase_gancho": {
+      "hash": "7439d4b5c78b500d",
+      "texto": "Two hills, a spring, and the oldest stone sculptures known in the Central Highlands."
+    },
+    "puente_narrativo": {
+      "hash": "e96f221c4a1d3bc1",
+      "texto": "Follow your route: the carved stones of this place still have a lot to tell."
+    },
+    "guion_corto": {
+      "hash": "405ee442b0dd221f",
+      "texto": "In nineteen thirty-four, Eulalia Guzmán, director of Archaeology at the National Museum, made a long and difficult journey to this town in eastern Morelos. She had been told that torrential rains had caused a landslide and uncovered some stones with reliefs. There were only a few, but they were highly elaborate, in a style unlike anything known in Central Mexico. Before you stand two hills: the Chalcatzingo, also called the Cantera, and the Delgado. At their feet lived a people who carved stone from before the time of Christ. A spring supplied the settlement. Those hills, that water, and those stones are the thread of the whole tour."
+    },
+    "guion_largo": {
+      "hash": "97bd57ac7a9f2d49",
+      "texto": "Chalcatzingo is a name of Nahuatl origin. INAH proposes three possible meanings: the most precious place of the Chalcas, the venerated place of sacred water, and the place of precious jades. All three speak of something that was worth a great deal.\n\nLook at the landscape. Before you stand two hills. One is the Chalcatzingo, also called Cerro de la Cantera, which David Grove describes as the most notable feature of the landscape. The other is the Delgado. A spring supplied the settlement that spread out at their feet. Water, earth, and rock: everything that mattered was here.\n\nThe world found out because of a storm. In nineteen thirty-four, Eulalia Guzmán, director of Archaeology at the National Museum, set out on a long and arduous journey to the little town of Chalcatzingo. She had been told that torrential rains had caused a landslide on the slopes and uncovered some stones with reliefs. What she saw was only a few stones, but highly elaborate ones, in a style different from all those known until then in Central Mexico. She published a very well illustrated report that same year. It was the first time the site was reported.\n\nOthers came afterward. In nineteen sixty-six, Carlo Gay recorded the reliefs, the altars, and the rock painting. In nineteen sixty-seven, Carmen Cook de Leonard made more reliefs and sculptures known. Between nineteen seventy-two and nineteen seventy-six, Grove, Jorge Angulo, and Raúl Arana excavated extensively. By nineteen seventy-two there were already twelve reliefs excavated. During that project, eighteen more appeared. Today more than forty monuments have been documented.\n\nThose monuments are of two kinds. Some are bas-reliefs carved into the rock of the hill or into large boulders at its base. Others are smaller statues and stelae, which could be moved, placed on the terraces of the settlement. The themes change depending on the place: on the terraces, images of political power dominate, and on the hill, those of myth and ritual. Almost all of them were sculpted around seven hundred to five hundred years before Christ. They are the oldest stone sculptures known in the Central Highlands of Mexico.\n\nWere they Olmec? For decades it was debated. Grove concludes that they were not. He says that the inhabitants of Chalcatzingo were neither Olmecs nor mere imitators of those at La Venta. Their pottery and figurines are from the Central Highlands, not from the Gulf Coast. For him it was a cosmopolitan and autonomous regional center. Other specialists speak of Olmec influence, and the debate remains open.\n\nThis tour passes through the museum, continues along the terraces where people lived, and climbs the slope, where the best-known part is found. That is where the story of the stones begins. To open the way, step in to see [Monument Nine](chz_02_museo_portal_inframundo), a stone that traveled very far and came back."
+    },
+    "retos_observacion": {
+      "hash": "989424e5047fea19",
+      "texto": [
+        "Find the two hills and decide which one is the Chalcatzingo",
+        "Imagine the spring that gave water to the settlement",
+        "Look at the hillside and find where the rock lies exposed"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3d1f3c009c40ed8",
+      "texto": {
+        "Location": "eastern part of the state of Morelos",
+        "Hills": "Chalcatzingo, also called the Cantera, and Delgado",
+        "Documented monuments": "more than forty",
+        "Era of the monuments": "mostly between seven hundred and five hundred years before Christ",
+        "First published report": "Eulalia Guzmán, nineteen thirty-four"
+      }
+    },
+    "faq_mito": {
+      "hash": "1b73037ebdcfb166",
+      "texto": {
+        "pregunta": "Myth: Chalcatzingo is an Olmec site.",
+        "respuesta": "Reality: It is a debate. David Grove maintains that its inhabitants were neither Olmecs nor imitators of La Venta; INAH speaks of Olmec influence."
+      }
+    }
+  }
+}

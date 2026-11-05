@@ -1,0 +1,54 @@
+{
+  "id": "chz_06_clasico_pelota",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6b61672ffa834cb7",
+      "texto": "Plataformas e quadra de jogo de bola do Clássico"
+    },
+    "frase_gancho": {
+      "hash": "f978942d7617359d",
+      "texto": "Edifícios do Clássico: chegaram muito depois dos relevos do morro."
+    },
+    "puente_narrativo": {
+      "hash": "2ee64caedd3feff5",
+      "texto": "Siga o seu percurso: agora voltamos à época dos relevos, em um grande pátio rebaixado."
+    },
+    "guion_corto": {
+      "hash": "2c16ce7a430ff54f",
+      "texto": "Até aqui, quase tudo o que você viu pertence ao Pré-clássico Médio. Estas plataformas e a quadra de jogo de bola são de outra época. No Clássico, muitos séculos depois dos relevos do morro, o lugar voltou a ser ocupado e se ergueram novos edifícios. O INAH reconstruiu uma plataforma do Clássico Tardio. O jogo de bola, uma quadra para um jogo sagrado que se praticou em toda a Mesoamérica, ainda não tem uma data precisa nas fontes que consultamos. O que importa é a ideia: Chalcatzingo não é um único momento. É um lugar que as pessoas voltaram a habitar durante muitos séculos. Cada época deixou marcas, e as antigas não desapareceram quando chegaram as novas."
+    },
+    "guion_largo": {
+      "hash": "2d854bf1f58317f1",
+      "texto": "Se você acompanhou o percurso, já viu o primeiro Chalcatzingo. Esta parada leva você a outro: o que voltou a se erguer muitos séculos depois.\n\nPrimeiro, a ordem do tempo. O INAH situa a história da região entre mil e quinhentos e trezentos e cinquenta anos antes de Cristo. Grove e outros pesquisadores a dividem em fases. A Amate vai de mil e quinhentos a mil e cem anos antes de Cristo. A Barranca, de mil e cem a setecentos. E a Cantera, de setecentos a quinhentos. São datas de radiocarbono não calibradas, então considere-as aproximadas.\n\nA fase Cantera é a que importa para os monumentos. Quase todos os relevos e estelas foram esculpidos nesses duzentos anos, por volta de setecentos a quinhentos anos antes de Cristo.\n\nAs plataformas e a quadra de jogo de bola que você vê aqui são de outro período: o Clássico. As fontes consultadas falam de uma ocupação do Clássico em Chalcatzingo e de uma plataforma do Clássico Tardio reconstruída pelo INAH. Não dão uma data precisa para a quadra de jogo de bola. Tampouco atribuem estas obras a nenhuma outra cidade. Um blog de viagens menciona Teotihuacán, mas não há respaldo para isso.\n\nPara situar o Clássico em Morelos, a Arqueologia Mexicana o coloca entre cem anos antes de Cristo e seiscentos e cinquenta depois. Essa mesma revista conta que, nesse período, as relações dos povos de terra quente com o Estado teotihuacano se veem com clareza em outro sítio, Zoquipa-Tlachichila. Isso não significa que estes edifícios sejam de Teotihuacán. Só mostra que Morelos estava conectado com o Centro do México.\n\nDepois veio o Epiclássico, entre seiscentos e cinquenta e oitocentos depois de Cristo. Foi a época em que Xochicalco, outra cidade de Morelos, foi fundada e se desenvolveu.\n\nO INAH reconstruiu uma plataforma do Clássico Tardio. Reconstruir significa voltar a levantar muros a partir do que foi encontrado. Por isso, o que você vê em uma construção reconstruída é em parte original e em parte restituído.\n\nQuando um lugar é ocupado várias vezes, os arqueólogos precisam separar camadas, como quem lê as páginas de um livro de baixo para cima. As mais profundas são as mais antigas.\n\nEm muitos sítios mesoamericanos a quadra é um espaço comprido, ladeado por duas estruturas paralelas. As fontes consultadas não descrevem a forma desta, então repare você mesmo nela.\n\nO jogo de bola foi praticado em grande parte da Mesoamérica durante séculos. Jogava-se com uma bola de borracha em uma quadra delimitada por estruturas. Ter uma quadra aqui mostra que o lugar continuava sendo importante para seus habitantes.\n\nPense no contraste. As esculturas do morro têm cerca de dois mil e quinhentos anos ou mais. Estas construções chegaram quando essas pedras já estavam em seu lugar havia muitíssimo tempo. Quem viveu aqui no Clássico caminhava entre relevos antiquíssimos.\n\nEssa é uma boa razão para olhar o sítio por camadas. Cada época deixou suas marcas, e as mais antigas não desapareceram quando chegaram as novas."
+    },
+    "retos_observacion": {
+      "hash": "f4ca682934e13e54",
+      "texto": [
+        "Compare a forma destas plataformas com os terraços que você viu antes",
+        "Procure a quadra do jogo de bola e sua orientação",
+        "Imagine o sítio com casas, praças e quadras ocupadas outra vez"
+      ]
+    },
+    "especificaciones": {
+      "hash": "68a1b5a08ebc06b4",
+      "texto": {
+        "Época": "Clássico, muitos séculos depois dos relevos",
+        "Edifícios": "plataformas e quadra de jogo de bola",
+        "Intervenção": "o INAH reconstruiu uma plataforma do Clássico Tardio",
+        "Data exata do jogo de bola": "sem confirmação"
+      }
+    },
+    "faq_mito": {
+      "hash": "4b8e0d549e6afc9c",
+      "texto": {
+        "pregunta": "Mito: A quadra de jogo de bola e a pirâmide foram construídas por Teotihuacán.",
+        "respuesta": "Realidade: As fontes consultadas só falam de uma ocupação do Clássico; não atribuem a obra a Teotihuacán."
+      }
+    }
+  }
+}

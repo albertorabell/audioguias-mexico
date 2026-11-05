@@ -1,0 +1,55 @@
+{
+  "id": "chz_04_terraza_1_plaza",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "eb8b7e357480fe74",
+      "texto": "Terrace 1 and the Great Plaza"
+    },
+    "frase_gancho": {
+      "hash": "0cea1c5507f7e92e",
+      "texto": "The main terrace of the settlement: a broad plaza between an elite house and a great platform."
+    },
+    "puente_narrativo": {
+      "hash": "89faa625aed52d28",
+      "texto": "Follow your route: at the edge of this plaza rises a platform about seventy meters long."
+    },
+    "guion_corto": {
+      "hash": "72acf12159dca813",
+      "texto": "About a hectare of plaza and not a single monumental sculpture. You will be standing on Terrace One, the main one of the ancient settlement. According to David Grove, around eight hundred years before Christ the earth that slid down from the hill was transformed into large terraces where people lived. To the south of this space stood the residence of an elite family. To the north rises a mound with platforms. Between the two lies an open space, made for being together. The sculptures that speak of political power appeared in other parts of the settlement, and many were mutilated or buried. A plaza like this can gather a great many people. For Grove, those mounds show the importance of Chalcatzingo as a regional center."
+    },
+    "guion_largo": {
+      "hash": "edc5f702b73fb6bb",
+      "texto": "A plaza is an empty space made on purpose. On Terrace One, that space measures about a hectare. According to Grove and to INAH, it has no monumental art. All the weight of the place lies in what surrounds it.\n\nFirst, the terraces. The excavations of the Chalcatzingo Archaeological Project showed that the earth that slid naturally from the base of the hill was transformed into large residential terraces around eight hundred years before Christ. This is the main one. In other words, the settlement did not grow by chance: someone decided to level the slope and organize life upon it.\n\nTo the south of the plaza there was an elite residence. To the north there is a mound with platforms, [Structure Four](chz_05_estructura_4). For Grove, the mounds with platforms on some terraces indicate the importance of Chalcatzingo as a regional center.\n\nWater also counts in this story. Arqueología Mexicana explains that, in the Morelos of those centuries, groups with a more complex social organization began to develop in places with abundant water. They also chose places where they could control springs and ravines. Chalcatzingo had a spring that supplied the settlement. Everything you see around you was part of a single place of life.\n\nA mound with platforms is an elevation made by people, with flat levels at the top. It serves to raise a building or a space above the rest. The sources consulted do not describe what stood on this mound.\n\nIf you want to feel the scale, stand in the middle of the plaza and look first to the south and then to the north. Between one and the other lies the open space of the plaza.\n\nNow think about the sculptures. The monuments of the terraces are not like those of the hill. Grove explains that in the settlement, images related to the political power of elite individuals predominate, rather than ritual or mythological scenes. In addition, many of those monuments were mutilated, decapitated, or buried. Those of the hill, with sacred themes, were not.\n\nOne example is a statue of a seated figure whose head is missing. Eulalia Guzmán documented it in nineteen thirty-four. Today it is displayed in the National Museum of Anthropology, in Mexico City, and archaeologists know it as Monument Sixteen.\n\nAnother find speaks of the life of the elite. When excavating a house of that group, which erosion was destroying, archaeologists found burials beneath the floor. One was a stone-lined tomb, with vessels, a few badly deteriorated bones, and a stone head. The evidence indicates that it was the tomb of an elite woman. If that story interests you, continue to [the woman of Monument Twenty-one](chz_09_monumento_21_mujer).\n\nThe sources do not say what this particular plaza was used for. What they do show is the stage: house, platform, and an open space in the middle, on the main terrace of a regional center."
+    },
+    "retos_observacion": {
+      "hash": "d742fc79a5517158",
+      "texto": [
+        "Estimate by eye how many people would fit in this plaza",
+        "Look north for the mound with platforms",
+        "Look south, where the elite residence stood"
+      ]
+    },
+    "especificaciones": {
+      "hash": "28d83bab6439f142",
+      "texto": {
+        "Terrace": "the main one of the settlement",
+        "Plaza": "about a hectare, with no monumental art",
+        "To the south": "elite residence",
+        "To the north": "mound with platforms",
+        "Origin of the terraces": "around eight hundred years before Christ"
+      }
+    },
+    "faq_mito": {
+      "hash": "96a96aceeb58d1d4",
+      "texto": {
+        "pregunta": "Myth: An empty plaza has nothing to tell.",
+        "respuesta": "Reality: The absence of sculptures here already says something: the monuments of power stood among the houses and platforms, and those with sacred themes were on the hill."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chz_01_dos_cerros_un_valle",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0069201942dc0aed",
+      "texto": "Dwa wzgórza i dolina"
+    },
+    "frase_gancho": {
+      "hash": "7439d4b5c78b500d",
+      "texto": "Dwa wzgórza, źródło i najstarsze rzeźby w kamieniu, jakie znamy na Wyżynie Centralnej."
+    },
+    "puente_narrativo": {
+      "hash": "e96f221c4a1d3bc1",
+      "texto": "Idź dalej swoją trasą: rzeźbione kamienie tego miejsca mają jeszcze wiele do opowiedzenia."
+    },
+    "guion_corto": {
+      "hash": "405ee442b0dd221f",
+      "texto": "W tysiąc dziewięćset trzydziestym czwartym roku Eulalia Guzmán, kierowniczka archeologii w Muzeum Narodowym, odbyła długą i trudną podróż do tej wsi na wschodzie stanu Morelos. Ostrzeżono ją, że ulewne deszcze wywołały osunięcie ziemi i odsłoniły kamienie z reliefami. Było ich niewiele, ale bardzo starannie wykonanych, w stylu odmiennym od wszystkiego, co znano w środkowym Meksyku. Przed sobą masz dwa wzgórza: Chalcatzingo, zwane też wzgórzem Kamieniołomu, i Delgado. U ich stóp żył lud, który rzeźbił w kamieniu jeszcze przed naszą erą. Osadę zaopatrywało źródło. Te wzgórza, ta woda i te kamienie są nicią przewodnią całej trasy."
+    },
+    "guion_largo": {
+      "hash": "97bd57ac7a9f2d49",
+      "texto": "Chalcatzingo to nazwa pochodzenia nahuatl. INAH proponuje trzy możliwe znaczenia: najcenniejsze miejsce Chalców, czczone miejsce świętej wody oraz miejsce drogocennych jadeitów. Wszystkie trzy mówią o czymś, co miało wielką wartość.\n\nZwróć uwagę na krajobraz. Przed sobą masz dwa wzgórza. Jedno to Chalcatzingo, zwane też wzgórzem Kamieniołomu, które David Grove opisuje jako najbardziej wyrazisty element tego krajobrazu. Drugie to Delgado. Źródło zaopatrywało osadę, która rozciągała się u ich stóp. Woda, ziemia i skała: wszystko, co miało znaczenie, było tutaj.\n\nŚwiat dowiedział się o tym miejscu dzięki burzy. W tysiąc dziewięćset trzydziestym czwartym roku Eulalia Guzmán, kierowniczka archeologii w Muzeum Narodowym, wyruszyła w długą i uciążliwą podróż do małej wsi Chalcatzingo. Ostrzeżono ją, że ulewne deszcze wywołały osunięcie ziemi na zboczach i odsłoniły kamienie z reliefami. To, co zobaczyła, to niewiele kamieni, ale bardzo starannie wykonanych, w stylu odmiennym od wszystkich dotąd znanych w środkowym Meksyku. Jeszcze w tym samym roku opublikowała bogato ilustrowany raport. Po raz pierwszy zgłoszono wtedy istnienie stanowiska.\n\nPotem przyszli inni. W tysiąc dziewięćset sześćdziesiątym szóstym roku Carlo Gay udokumentował reliefy, ołtarze i malowidło naskalne. W tysiąc dziewięćset sześćdziesiątym siódmym roku Carmen Cook de Leonard przedstawiła kolejne reliefy i rzeźby. W latach od tysiąc dziewięćset siedemdziesiątego drugiego do tysiąc dziewięćset siedemdziesiątego szóstego Grove, Jorge Angulo i Raúl Arana prowadzili rozległe wykopaliska. W tysiąc dziewięćset siedemdziesiątym drugim roku odkopano już dwanaście reliefów. W trakcie tego projektu odnaleziono osiemnaście kolejnych. Dziś udokumentowano ponad czterdzieści monumentów.\n\nMonumenty te są dwóch rodzajów. Jedne to płaskorzeźby wykute w skale wzgórza lub w wielkich głazach u jego podnóża. Inne to mniejsze posągi i stele, które można było przenosić, ustawione na tarasach osady. Tematy zmieniają się zależnie od miejsca: na tarasach dominują obrazy władzy politycznej, a na wzgórzu obrazy mitu i rytuału. Prawie wszystkie wyrzeźbiono mniej więcej od siedmiuset do pięciuset lat przed Chrystusem. To najstarsze rzeźby w kamieniu, jakie znamy na Wyżynie Centralnej Meksyku.\n\nCzy byli to Olmekowie? Przez dziesięciolecia o tym dyskutowano. Grove uważa, że nie. Twierdzi, że mieszkańcy Chalcatzingo nie byli ani Olmekami, ani zwykłymi naśladowcami mieszkańców La Venta. Ich ceramika i figurki pochodzą z Wyżyny Centralnej, a nie z wybrzeża Zatoki Meksykańskiej. Według niego był to kosmopolityczny i niezależny ośrodek regionalny. Inni badacze mówią o wpływie olmeckim, a spór wciąż trwa.\n\nTa trasa prowadzi przez muzeum, potem przez tarasy, na których mieszkali ludzie, i wspina się na zbocze, gdzie znajduje się najsłynniejsza część stanowiska. Tam zaczyna się opowieść o kamieniach. Na otwarcie drogi wejdź obejrzeć [Monument dziewiąty](chz_02_museo_portal_inframundo), kamień, który odbył daleką podróż i wrócił."
+    },
+    "retos_observacion": {
+      "hash": "989424e5047fea19",
+      "texto": [
+        "Znajdź oba wzgórza i zdecyduj, które z nich to Chalcatzingo",
+        "Wyobraź sobie źródło, które dawało wodę osadzie",
+        "Spójrz na zbocze wzgórza i poszukaj miejsca, gdzie skała jest odsłonięta"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3d1f3c009c40ed8",
+      "texto": {
+        "Położenie": "wschodnia część stanu Morelos",
+        "Wzgórza": "Chalcatzingo, zwane też wzgórzem Kamieniołomu, oraz Delgado",
+        "Udokumentowane monumenty": "ponad czterdzieści",
+        "Epoka monumentów": "głównie od siedmiuset do pięciuset lat przed Chrystusem",
+        "Pierwszy opublikowany raport": "Eulalia Guzmán, tysiąc dziewięćset trzydziesty czwarty rok"
+      }
+    },
+    "faq_mito": {
+      "hash": "1b73037ebdcfb166",
+      "texto": {
+        "pregunta": "Mit: Chalcatzingo to stanowisko olmeckie.",
+        "respuesta": "Rzeczywistość: To kwestia sporna. David Grove twierdzi, że jego mieszkańcy nie byli ani Olmekami, ani naśladowcami z La Venta; INAH mówi o wpływie olmeckim."
+      }
+    }
+  }
+}

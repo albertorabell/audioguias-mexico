@@ -1,0 +1,55 @@
+{
+  "id": "chz_01_dos_cerros_un_valle",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0069201942dc0aed",
+      "texto": "Due colli e una valle"
+    },
+    "frase_gancho": {
+      "hash": "7439d4b5c78b500d",
+      "texto": "Due colli, una sorgente e le sculture in pietra più antiche che si conoscano nell’Altopiano Centrale."
+    },
+    "puente_narrativo": {
+      "hash": "e96f221c4a1d3bc1",
+      "texto": "Prosegui il tuo percorso: le pietre scolpite di questo luogo hanno ancora molto da raccontare."
+    },
+    "guion_corto": {
+      "hash": "405ee442b0dd221f",
+      "texto": "Nel millenovecentotrentaquattro Eulalia Guzmán, direttrice di Archeologia del Museo Nazionale, intraprese un viaggio lungo e difficile fino a questo paese dell’oriente del Morelos. Le avevano riferito che piogge torrenziali avevano provocato una frana, lasciando allo scoperto alcune pietre con rilievi. Erano poche, ma molto elaborate, di uno stile diverso da tutto ciò che si conosceva nel Messico centrale. Davanti a te ci sono due colli: il Chalcatzingo, detto anche della Cantera, e il Delgado. Ai loro piedi visse un popolo che scolpiva la pietra già prima di Cristo. Una sorgente riforniva l’insediamento. Quei colli, quell’acqua e quelle pietre sono il filo di tutto il percorso."
+    },
+    "guion_largo": {
+      "hash": "97bd57ac7a9f2d49",
+      "texto": "Chalcatzingo è un nome di origine nahuatl. L’INAH propone tre possibili significati: il luogo più prezioso dei chalca, il venerato luogo dell’acqua sacra e quello delle giade preziose. Tutti e tre parlano di qualcosa che valeva moltissimo.\n\nOsserva il paesaggio. Davanti a te ci sono due colli. Uno è il Chalcatzingo, chiamato anche Cerro de la Cantera, che David Grove descrive come l’elemento più notevole del paesaggio. L’altro è il Delgado. Una sorgente riforniva l’insediamento che si estendeva ai loro piedi. Acqua, terra e roccia: tutto ciò che contava era qui.\n\nIl mondo lo seppe grazie a un temporale. Nel millenovecentotrentaquattro Eulalia Guzmán, direttrice di Archeologia del Museo Nazionale, intraprese un viaggio lungo e faticoso fino al piccolo paese di Chalcatzingo. Le avevano riferito che piogge torrenziali avevano provocato una frana sui pendii, lasciando allo scoperto alcune pietre con rilievi. Ciò che vide erano poche pietre, ma molto elaborate, di uno stile diverso da tutti quelli conosciuti fino ad allora nel Messico centrale. Pubblicò una relazione molto ben illustrata quello stesso anno. Fu la prima volta che il sito venne segnalato.\n\nDopo di lei ne vennero altri. Nel millenovecentosessantasei Carlo Gay registrò i rilievi, gli altari e la pittura rupestre. Nel millenovecentosessantasette Carmen Cook de Leonard fece conoscere altri rilievi e sculture. Tra il millenovecentosettantadue e il millenovecentosettantasei Grove, Jorge Angulo e Raúl Arana condussero scavi estesi. Nel millenovecentosettantadue erano già stati scavati dodici rilievi. Durante quel progetto ne comparvero altri diciotto. Oggi sono stati documentati più di quaranta monumenti.\n\nQuesti monumenti sono di due tipi. Alcuni sono bassorilievi scolpiti nella roccia del colle o in grandi massi alla sua base. Altri sono statue e stele più piccole, che si potevano spostare, collocate sulle terrazze del villaggio. I temi cambiano a seconda del luogo: sulle terrazze dominano le immagini del potere politico, e sul colle quelle del mito e del rituale. Quasi tutti furono scolpiti tra i settecento e i cinquecento anni prima di Cristo circa. Sono le sculture in pietra più antiche che si conoscano nell’Altopiano Centrale del Messico.\n\nErano olmechi? Per decenni se ne è discusso. Grove conclude di no. Dice che gli abitanti di Chalcatzingo non furono olmechi né semplici imitatori di quelli di La Venta. La loro ceramica e le loro figurine sono dell’Altopiano Centrale, non della costa del Golfo. Per lui fu un centro regionale cosmopolita e autonomo. Altri specialisti parlano di influenza olmeca, e il dibattito resta aperto.\n\nQuesto percorso passa per il museo, prosegue per le terrazze dove viveva la gente e sale sul pendio, dove si trova la parte più conosciuta. Lì comincia la storia delle pietre. Per aprire la strada, entra a vedere [il Monumento nove](chz_02_museo_portal_inframundo), una pietra che viaggiò molto lontano e tornò."
+    },
+    "retos_observacion": {
+      "hash": "989424e5047fea19",
+      "texto": [
+        "Cerca i due colli e decidi quale sia il Chalcatzingo",
+        "Immagina la sorgente che dava acqua al villaggio",
+        "Guarda il pendio del colle e cerca dove la roccia è a vista"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3d1f3c009c40ed8",
+      "texto": {
+        "Ubicazione": "oriente dello stato del Morelos",
+        "Colli": "Chalcatzingo, chiamato anche della Cantera, e Delgado",
+        "Monumenti documentati": "più di quaranta",
+        "Epoca dei monumenti": "soprattutto tra settecento e cinquecento anni prima di Cristo",
+        "Prima relazione pubblicata": "Eulalia Guzmán, millenovecentotrentaquattro"
+      }
+    },
+    "faq_mito": {
+      "hash": "1b73037ebdcfb166",
+      "texto": {
+        "pregunta": "Mito: Chalcatzingo è un sito olmeco.",
+        "respuesta": "Realtà: È un dibattito. David Grove sostiene che i suoi abitanti non furono olmechi né imitatori di La Venta; l’INAH parla di influenza olmeca."
+      }
+    }
+  }
+}

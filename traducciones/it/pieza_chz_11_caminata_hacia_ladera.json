@@ -1,0 +1,45 @@
+{
+  "id": "chz_11_caminata_hacia_ladera",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e01e803c97074608",
+      "texto": "Passeggiata: dalle terrazze al pendio del colle"
+    },
+    "frase_gancho": {
+      "hash": "78c18e40fab05397",
+      "texto": "Un breve tragitto da ascoltare mentre ti avvicini alla roccia."
+    },
+    "puente_narrativo": {
+      "hash": "5f6039159f27e8f1",
+      "texto": "Sei arrivato al pendio del Cerro Chalcatzingo."
+    },
+    "guion_corto": {
+      "hash": "9cfa15b427cf68d5",
+      "texto": "Qui il paesaggio cambia. Lascia le terrazze e avvicinati alla roccia del colle. Finora hai visto monumenti tra case e piattaforme, con temi di potere. Sul pendio, secondo David Grove, i grandi rilievi furono scolpiti sulla roccia stessa o su massi alla sua base, e parlano di mitologia e di rito. Questi rilievi sono distanziati di vari metri e non si vedono tutti insieme. Per vederli bisogna camminare, e forse così si faceva anche in antico, in processione. Quando il sentiero arriverà ai massi, sarai già nel prossimo audio."
+    },
+    "guion_largo": {
+      "hash": "5b81f724da1ec7c2",
+      "texto": "Questa è una passeggiata. Non serve fermarsi. Lascia le terrazze e avvicinati al colle mentre l’audio ti accompagna.\n\nFin qui hai visto monumenti tra le case e le piattaforme del villaggio. Il loro tema, dice Grove, è soprattutto il potere politico di persone dell’élite. Molti sono stati ritrovati mutilati, decapitati o sepolti.\n\nSul pendio tutto cambia. I rilievi sono scolpiti direttamente nella roccia del colle o in grandi massi alla sua base. Illustrano temi di mitologia e di rituale religioso. I rilievi dei pendii non furono mutilati come quelli del villaggio.\n\nC’è ancora qualcosa che rende speciale questo tratto. I rilievi sono distanziati di vari metri e non si vedono tutti insieme. Per vederli bisogna percorrere il pendio, e forse così si faceva anche in passato, camminando in processione.\n\nQuando arriverai ai massi della base, sarai già nel prossimo audio."
+    },
+    "retos_observacion": {
+      "hash": "720fde95d273785f",
+      "texto": [
+        "Guarda la roccia del colle mentre ti avvicini",
+        "Cerca grandi massi alla base",
+        "Cammina lentamente, come in una processione"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e3ad1addced00f30",
+      "texto": {
+        "Tipo": "passeggiata, senza sosta fissa",
+        "Tema": "dal villaggio ai rilievi del colle"
+      }
+    }
+  }
+}

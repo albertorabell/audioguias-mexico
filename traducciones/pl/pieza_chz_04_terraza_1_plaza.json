@@ -1,0 +1,55 @@
+{
+  "id": "chz_04_terraza_1_plaza",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "eb8b7e357480fe74",
+      "texto": "Taras 1 i wielki plac"
+    },
+    "frase_gancho": {
+      "hash": "0cea1c5507f7e92e",
+      "texto": "Główny taras osady: szeroki plac między domem elity a wielką platformą."
+    },
+    "puente_narrativo": {
+      "hash": "89faa625aed52d28",
+      "texto": "Idź dalej swoją trasą: na skraju tego placu wznosi się platforma o długości około siedemdziesięciu metrów."
+    },
+    "guion_corto": {
+      "hash": "72acf12159dca813",
+      "texto": "Około hektara placu i ani jednej monumentalnej rzeźby. Stoisz na Tarasie pierwszym, głównym tarasie dawnej osady. Według Davida Grove'a około osiemset lat przed Chrystusem ziemia osunięta ze wzgórza została przekształcona w wielkie tarasy, na których mieszkano. Na południe od tej przestrzeni stała rezydencja rodziny z elity. Na północy wznosi się kopiec z platformami. Pomiędzy nimi rozciąga się otwarta przestrzeń, stworzona do wspólnego przebywania. Rzeźby mówiące o władzy politycznej odnaleziono w innych częściach osady, a wiele z nich było okaleczonych lub zakopanych. Taki plac pozwala zgromadzić wielu ludzi. Według Grove'a te kopce świadczą o znaczeniu Chalcatzingo jako ośrodka regionalnego."
+    },
+    "guion_largo": {
+      "hash": "edc5f702b73fb6bb",
+      "texto": "Plac to pusta przestrzeń stworzona celowo. Na Tarasie pierwszym ma ona około hektara. Według Grove'a i według INAH nie ma tu sztuki monumentalnej. Cały ciężar tego miejsca spoczywa na tym, co je otacza.\n\nNajpierw tarasy. Wykopaliska Projektu Archeologicznego Chalcatzingo wykazały, że ziemia, która w sposób naturalny osunęła się z podnóża wzgórza, została około osiemset lat przed Chrystusem przekształcona w wielkie tarasy mieszkalne. Ten jest główny. Innymi słowy, osada nie rozrosła się przypadkiem: ktoś postanowił wyrównać zbocze i uporządkować na nim życie.\n\nNa południe od placu stała rezydencja elity. Na północy znajduje się kopiec z platformami, [Budowla czwarta](chz_05_estructura_4). Według Grove'a kopce z platformami na niektórych tarasach świadczą o znaczeniu Chalcatzingo jako ośrodka regionalnego.\n\nW tej historii liczy się także woda. Arqueología Mexicana wyjaśnia, że w Morelos tamtych wieków grupy o bardziej złożonej organizacji społecznej zaczęły się rozwijać w miejscach z obfitością wody. Wybierały też miejsca, w których mogły kontrolować źródła i wąwozy. Chalcatzingo miało źródło, które zaopatrywało osadę. Wszystko, co widzisz wokół siebie, było częścią jednego miejsca życia.\n\nKopiec z platformami to wzniesienie zbudowane przez ludzi, z płaskimi poziomami na szczycie. Służy do podniesienia budowli lub przestrzeni ponad resztę. Wykorzystane źródła nie opisują, co znajdowało się na tym kopcu.\n\nJeśli chcesz poczuć skalę, stań pośrodku placu i spójrz najpierw na południe, a potem na północ. Między jednym a drugim rozciąga się otwarta przestrzeń placu.\n\nA teraz pomyśl o rzeźbach. Monumenty z tarasów nie przypominają tych ze wzgórza. Grove wyjaśnia, że w osadzie przeważają obrazy związane z władzą polityczną osób z elity, a nie sceny rytualne czy mitologiczne. Ponadto wiele z tych monumentów okaleczono, pozbawiono głów lub zakopano. Tych ze wzgórza, o tematyce świętej, nie.\n\nPrzykładem jest posąg siedzącej postaci, której zabrakło głowy. Eulalia Guzmán udokumentowała go w tysiąc dziewięćset trzydziestym czwartym roku. Dziś jest wystawiany w Narodowym Muzeum Antropologii w Meksyku, a archeolodzy znają go jako Monument szesnasty.\n\nInne odkrycie mówi o życiu elity. Podczas wykopalisk w domu tej grupy, który niszczyła erozja, archeolodzy znaleźli pochówki pod podłogą. Jeden z nich to grób wyłożony kamieniem, z naczyniami, kilkoma bardzo zniszczonymi kośćmi i kamienną głową. Dane wskazują, że był to grób kobiety z elity. Jeśli ta historia cię interesuje, idź dalej do [kobiety z Monumentu dwudziestego pierwszego](chz_09_monumento_21_mujer).\n\nŹródła nie mówią, do czego konkretnie służył ten plac. Pokazują natomiast scenerię: dom, platformę i otwartą przestrzeń pośrodku, na głównym tarasie ośrodka regionalnego."
+    },
+    "retos_observacion": {
+      "hash": "d742fc79a5517158",
+      "texto": [
+        "Oszacuj na oko, ilu ludzi zmieściłoby się na tym placu",
+        "Poszukaj na północy kopca z platformami",
+        "Spójrz na południe, gdzie stała rezydencja elity"
+      ]
+    },
+    "especificaciones": {
+      "hash": "28d83bab6439f142",
+      "texto": {
+        "Taras": "główny w osadzie",
+        "Plac": "około hektara, bez sztuki monumentalnej",
+        "Na południu": "rezydencja elity",
+        "Na północy": "kopiec z platformami",
+        "Początek tarasów": "około osiemset lat przed Chrystusem"
+      }
+    },
+    "faq_mito": {
+      "hash": "96a96aceeb58d1d4",
+      "texto": {
+        "pregunta": "Mit: Pusty plac nie ma nic do opowiedzenia.",
+        "respuesta": "Rzeczywistość: Brak rzeźb w tym miejscu już coś mówi: monumenty władzy stały wśród domów i platform, a te o tematyce świętej na wzgórzu."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chz_01_dos_cerros_un_valle",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0069201942dc0aed",
+      "texto": "Dois morros e um vale"
+    },
+    "frase_gancho": {
+      "hash": "7439d4b5c78b500d",
+      "texto": "Dois morros, uma nascente e as esculturas de pedra mais antigas que se conhecem no Altiplano Central."
+    },
+    "puente_narrativo": {
+      "hash": "e96f221c4a1d3bc1",
+      "texto": "Siga o seu percurso: as pedras entalhadas deste lugar ainda têm muito a contar."
+    },
+    "guion_corto": {
+      "hash": "405ee442b0dd221f",
+      "texto": "Em mil novecentos e trinta e quatro, Eulalia Guzmán, diretora de Arqueologia do Museu Nacional, fez uma viagem longa e difícil até este povoado do leste de Morelos. Haviam avisado a ela que chuvas torrenciais provocaram um deslizamento e deixaram à mostra algumas pedras com relevos. Eram poucas, mas muito elaboradas, de um estilo diferente de tudo o que se conhecia no Centro do México. À sua frente há dois morros: o Chalcatzingo, que também se chama da Cantera, e o Delgado. Ao pé deles viveu um povo que entalhava a pedra desde antes de Cristo. Uma nascente abastecia o povoado. Esses morros, essa água e essas pedras são o fio de todo o percurso."
+    },
+    "guion_largo": {
+      "hash": "97bd57ac7a9f2d49",
+      "texto": "Chalcatzingo é um nome de origem náuatle. O INAH propõe três significados possíveis: o lugar mais precioso dos chalcas, o venerado lugar de água sagrada e o dos jades preciosos. Os três falam de algo que tinha muito valor.\n\nRepare na paisagem. À sua frente há dois morros. Um é o Chalcatzingo, também chamado de Morro da Cantera, que David Grove descreve como o traço mais notável da paisagem. O outro é o Delgado. Uma nascente abastecia o povoado que se estendia a seus pés. Água, terra e rocha: tudo o que importava estava aqui.\n\nO mundo soube dele por causa de uma tempestade. Em mil novecentos e trinta e quatro, Eulalia Guzmán, diretora de Arqueologia do Museu Nacional, empreendeu uma viagem longa e árdua até o povoadozinho de Chalcatzingo. Haviam avisado a ela que chuvas torrenciais provocaram um deslizamento nas encostas e deixaram à mostra algumas pedras com relevos. O que ela viu eram poucas pedras, mas muito elaboradas, de um estilo diferente de todos os que se conheciam até então no Centro do México. Publicou um relatório muito bem ilustrado nesse mesmo ano. Foi a primeira vez que o sítio foi registrado.\n\nDepois chegaram outros. Em mil novecentos e sessenta e seis, Carlo Gay registrou os relevos, os altares e a pintura rupestre. Em mil novecentos e sessenta e sete, Carmen Cook de Leonard divulgou mais relevos e esculturas. Entre mil novecentos e setenta e dois e mil novecentos e setenta e seis, Grove, Jorge Angulo e Raúl Arana escavaram de forma extensiva. Em mil novecentos e setenta e dois já havia doze relevos escavados. Durante esse projeto apareceram mais dezoito. Hoje foram documentados mais de quarenta monumentos.\n\nEsses monumentos são de dois tipos. Uns são baixos-relevos entalhados na rocha do morro ou em grandes penhascos de sua base. Outros são estátuas e estelas menores, que podiam ser movidas, colocadas nos terraços do povoado. Os temas mudam conforme o lugar: nos terraços dominam as imagens de poder político e, no morro, as de mito e ritual. Quase todos foram esculpidos por volta de setecentos a quinhentos anos antes de Cristo. São as esculturas de pedra mais antigas que se conhecem no Altiplano Central do México.\n\nEram olmecas? Durante décadas se discutiu. Grove conclui que não. Diz que os habitantes de Chalcatzingo não foram olmecas nem simples imitadores dos de La Venta. Sua cerâmica e suas figurinhas são do Altiplano Central, não da costa do Golfo. Para ele, foi um centro regional cosmopolita e autônomo. Outros especialistas falam de influência olmeca, e o debate continua aberto.\n\nEste percurso passa pelo museu, segue pelos terraços onde as pessoas viviam e sobe até a encosta, onde está a parte mais conhecida. Ali começa a história das pedras. Para abrir o caminho, entre para ver [o Monumento nove](chz_02_museo_portal_inframundo), uma pedra que viajou muito longe e voltou."
+    },
+    "retos_observacion": {
+      "hash": "989424e5047fea19",
+      "texto": [
+        "Procure os dois morros e decida qual deles é o Chalcatzingo",
+        "Imagine a nascente que dava água ao povoado",
+        "Olhe a encosta do morro e procure onde a rocha fica à vista"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3d1f3c009c40ed8",
+      "texto": {
+        "Localização": "leste do estado de Morelos",
+        "Morros": "Chalcatzingo, também chamado da Cantera, e Delgado",
+        "Monumentos documentados": "mais de quarenta",
+        "Época dos monumentos": "principalmente entre setecentos e quinhentos anos antes de Cristo",
+        "Primeiro relatório publicado": "Eulalia Guzmán, mil novecentos e trinta e quatro"
+      }
+    },
+    "faq_mito": {
+      "hash": "1b73037ebdcfb166",
+      "texto": {
+        "pregunta": "Mito: Chalcatzingo é um sítio olmeca.",
+        "respuesta": "Realidade: É um debate. David Grove sustenta que seus habitantes não foram olmecas nem imitadores de La Venta; o INAH fala de influência olmeca."
+      }
+    }
+  }
+}
