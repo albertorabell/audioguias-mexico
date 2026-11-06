@@ -1,0 +1,54 @@
+{
+  "id": "mna_s12_mapa_lenguas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "97f3f1598e3ede65",
+      "texto": "Grande murale e mappa etnolinguistica del Messico"
+    },
+    "frase_gancho": {
+      "hash": "93b79ac4d2c66bf7",
+      "texto": "Una mappa in cui le lingue del Messico sono ancora vive."
+    },
+    "puente_narrativo": {
+      "hash": "e35eec2715acb07a",
+      "texto": "Passiamo dalle parole ai luoghi in cui si parlano. Cerca una casa con pareti di pali e fango, con il tetto di paglia, e un focolare con tre pietre al centro."
+    },
+    "guion_corto": {
+      "hash": "5c1ea5e24ef11fd1",
+      "texto": "Questa grande mappa mostra dove vivono oggi i popoli indigeni del Messico e quale lingua parla ciascuno. In totale sono sessantotto popoli, con le loro lingue, raggruppati in undici famiglie linguistiche. Più di sette milioni di persone parlano una lingua indigena. Osserva come si distribuiscono sul territorio: ci sono lingue del deserto, della sierra, della foresta e della costa, e il sud, soprattutto Oaxaca, è pieno di colori. La cartografia etnografica di questa sala, avviata dal pittore Luis Covarrubias per l'inaugurazione del millenovecentosessantaquattro e oggi accompagnata da supporti audiovisivi aggiornati, mostra questa vitalità. Qui non c'è un solo Messico: ce ne sono molti, e tutti si parlano."
+    },
+    "guion_largo": {
+      "hash": "bdfa05056d394d5f",
+      "texto": "Al piano terra quasi tutto ciò che hai visto era al passato. Qui sali, e il museo cambia tempo verbale. Le sale di sopra furono allestite negli anni sessanta, dopo spedizioni in tutto il paese per conoscere i popoli indigeni, raccogliere i loro oggetti e, in alcuni casi, invitare le loro stesse comunità a costruire le proprie case dentro il museo. L'idea era mostrare la gente di oggi, non un passato da cartolina.\n\nE la gente di oggi parla molto. Sessantotto popoli, con sessantotto lingue, raggruppate in undici famiglie linguistiche e in più di trecentosessanta varianti. Non sono dialetti di una stessa lingua: sono idiomi diversi tra loro quanto lo spagnolo e l'ungherese, che non hanno alcuna parentela. Il nahuatl e il maya, per esempio, provengono da famiglie che non si assomigliano affatto. È una delle maggiori diversità di lingue delle Americhe.\n\nCerca sulla mappa i popoli che già conosci. I nahua, discendenti dei mexica, formano il gruppo più numeroso. I maya vivono ancora nella penisola dello Yucatán e nel Chiapas, e le loro lingue sommano più di due milioni di parlanti. Gli zapotechi e i mixtechi vivono a Oaxaca, dove hai visto Monte Albán. I purépecha, nel Michoacán. E gli uastechi, che parlano una lingua del ceppo maya, chiamata teenek, vivono ancora sulla costa del Golfo, lontano dai loro parenti del sud.\n\nMolte parole che usi ogni giorno vengono da queste lingue. Cioccolato, pomodoro, avocado, coyote e tiza sono parole nahuatl. «Cuate», che usiamo per dire «amico», viene da una parola nahuatl che significa «gemello». E anche la parola «México» è nahuatl; secondo una spiegazione molto diffusa, significa «nell'ombelico della luna», anche se gli specialisti ne discutono ancora l'origine esatta.\n\nNon tutto è festa: molte lingue hanno sempre meno parlanti, perché per generazioni si è insegnato che parlarle era un ostacolo. Alcune sono sul punto di scomparire. Oggi molte comunità le insegnano nelle scuole e le usano alla radio e sui social. Le Nazioni Unite hanno dichiarato il periodo dal duemilaventidue al duemilatrentadue Decennio Internazionale delle Lingue Indigene.\n\nUn altro dato da guardare con calma. La mappa fu dipinta negli anni sessanta, ed è stata aggiornata, ma qualsiasi mappa delle lingue resta incompleta: la gente si trasferisce, migra verso le città, viaggia. Ci sono parlanti di mixteco a Città del Messico e parlanti di zapoteco in California. Le lingue non restano più dove sono nate.\n\nPer questo questa mappa non è un pezzo da museo nel senso di quelli del piano di sotto. Cambia, come cambiano coloro che la abitano. Nelle prossime sale vedrai come ogni popolo, con la sua lingua, il suo cibo, i suoi abiti e le sue feste, costruisce un modo proprio di essere messicano. Quante di queste lingue hai sentito parlare, almeno una volta?"
+    },
+    "retos_observacion": {
+      "hash": "c5198251c44fabb5",
+      "texto": [
+        "Cerca l'area in cui si parla nahuatl, la lingua dei mexica",
+        "Trova la penisola dello Yucatán, dove vivono i popoli maya",
+        "Osserva il sud: quanti colori diversi vedi a Oaxaca?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f1755217096522cc",
+      "texto": {
+        "Popolo indigeno": "Plurinazionale (68 raggruppamenti etnolinguistici e 11 famiglie linguistiche)",
+        "Regione": "Territorio della Repubblica Messicana",
+        "Autore storico e museografia": "Cartografia originale di Luis Covarrubias (1964) e infografica interattiva aggiornata (INAH/INALI)",
+        "Sala": "Popoli indigeni"
+      }
+    },
+    "faq_mito": {
+      "hash": "253d75a8d4059edf",
+      "texto": {
+        "pregunta": "Mito: le lingue indigene sono semplici dialetti di una stessa lingua.",
+        "respuesta": "Realtà: sono idiomi diversi, di famiglie che non hanno parentela tra loro. In Messico si parlano sessantotto lingue indigene, con più di trecento varianti."
+      }
+    }
+  }
+}

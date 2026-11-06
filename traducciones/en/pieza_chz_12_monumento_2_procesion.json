@@ -1,0 +1,55 @@
+{
+  "id": "chz_12_monumento_2_procesion",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c2ed59e83caa55a5",
+      "texto": "Monument 2: the procession"
+    },
+    "frase_gancho": {
+      "hash": "b094063ac296664b",
+      "texto": "Three people in procession, with staffs and masks of supernatural felines."
+    },
+    "puente_narrativo": {
+      "hash": "1ef1c3b1580926d3",
+      "texto": "Continue along your route: the rock of the hill holds more scenes of myth and ritual."
+    },
+    "guion_corto": {
+      "hash": "637b83aa55e7ad3a",
+      "texto": "Three people advance in a line across the rock. This is Monument Two, and David Grove describes it as a procession: the three figures march, carry staffs and wear masks of various supernatural felines. This is not a scene of political power, like those of the terraces. It belongs to the reliefs of the hill, whose themes concern mythology and ritual. Some descriptions add a fourth, seated figure, so look closely and count how many you see. By the time this relief had been excavated, in nineteen seventy-two, very little was still known about the people who carved it. Today we know they lived on the terraces below, among houses and platforms."
+    },
+    "guion_largo": {
+      "hash": "45cfad9a1e8b1eb9",
+      "texto": "A line of people walking together. That is the image of Monument Two, one of the reliefs on the slope of Cerro Chalcatzingo.\n\nGrove describes it like this: three people marching in procession, brandishing staffs and wearing masks of various supernatural felines. They are not three felines. They are three people who dress up as them, or who are shown with their features.\n\nThis relief belongs to the group with ritual themes. It recalls what you saw on the terraces. There, according to Grove, images of the political power of elite individuals dominate. On the hill, by contrast, mythology and religious ritual prevail. The difference between the two zones is one of the keys to the site.\n\nSupernatural felines appear again. On other boulders at the base, Grove says, almost all the supernatural animals that dominate people are felines. Further on you will meet [those reliefs](chz_13_seres_que_dominan). Here, the felines do not dominate: they show off on the masks of those who march.\n\nThis monument had already been excavated when Grove's great project began. By nineteen seventy-two, twelve reliefs had been excavated, among them Monuments One through Eleven and Sixteen. Even so, very little was known about the site. The underlying question was who had made them and why. The excavations of the terraces answered where those people lived.\n\nThere is one detail to verify with your own eyes. Some descriptions of the relief mention a fourth, seated figure, in addition to the three people in procession. Grove speaks of three. If you look at the relief, count the figures and decide.\n\nThe idea of a procession connects with the way this place is visited. The reliefs stand several meters apart and cannot be seen all together. To see them you have to walk among them, and perhaps that is how it was done in ancient times. When you go from one relief to another, you repeat that gesture on a small scale.\n\nThere is another way to read the scene. Some more recent descriptions speak of a dance linked to fertility. Grove, on the other hand, speaks of a procession with staffs and masks. Both readings start from the same image: people advancing together.\n\nDescriptions of a relief change depending on who looks at it and when. That is why it is best to take what the sources say as a guide and compare it with what you see. Notice which way the figures are heading, what they hold in their hands, and what features their masks have.\n\nThe rock on which the relief is carved is a natural boulder at the base of the hill. Grove explains that the great reliefs of that zone are carved on scattered natural boulders, and not on built walls.\n\nArqueología Mexicana cites a widespread idea: the mountain is the place where ancestors and supernatural beings dwell. A hill like this one, with scenes of myth and ritual on its rock, fits that idea."
+    },
+    "retos_observacion": {
+      "hash": "c097de05e2cbc14e",
+      "texto": [
+        "Count the figures advancing",
+        "Look for the staffs they carry in their hands",
+        "Notice the masks: they are of various felines"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6684987d0d7d9167",
+      "texto": {
+        "Theme": "ritual procession",
+        "Figures": "three people, according to Grove",
+        "Objects": "staffs",
+        "Costumes": "masks of various supernatural felines",
+        "Location": "rock at the base of the hill"
+      }
+    },
+    "faq_mito": {
+      "hash": "2df10dd54f305151",
+      "texto": {
+        "pregunta": "Myth: They are three felines walking.",
+        "respuesta": "Reality: They are people marching with staffs and masks of supernatural felines."
+      }
+    }
+  }
+}

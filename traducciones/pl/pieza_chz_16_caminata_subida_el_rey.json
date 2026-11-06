@@ -1,0 +1,45 @@
+{
+  "id": "chz_16_caminata_subida_el_rey",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e0fd8081a233fb44",
+      "texto": "Spacer: podejście do El Rey"
+    },
+    "frase_gancho": {
+      "hash": "0b4389cf20a171db",
+      "texto": "Krótka droga do słuchania w trakcie wchodzenia."
+    },
+    "puente_narrativo": {
+      "hash": "8270b2cfaca66a36",
+      "texto": "Docierasz do El Rey."
+    },
+    "guion_corto": {
+      "hash": "d403d03e6e88337f",
+      "texto": "Teraz wejdź zboczem w górę. Wysoko na wzgórzu znajduje się relief, który Eulalia Guzmán zbadała jako pierwsza, w tysiąc dziewięćset trzydziestym czwartym roku, kiedy deszcze odsłoniły go. Idąc, pamiętaj, że reliefy tutaj dzieli kilka metrów i nie widać ich wszystkich naraz. Trzeba je obejść. Jest tu też strumień, który spływa po zboczu z wodą deszczową, blisko najwyżej położonych reliefów. Kiedy dojdziesz do sceny z osobą siedzącą w jaskini, będziesz już w następnym nagraniu."
+    },
+    "guion_largo": {
+      "hash": "e9b48292f89db7ae",
+      "texto": "To jest spacer. Nie musisz się zatrzymywać. Wchodź spokojnie zboczem, a nagranie będzie ci towarzyszyć.\n\nWysoko na wzgórzu znajduje się relief, który Eulalia Guzmán zbadała jako pierwsza, w tysiąc dziewięćset trzydziestym czwartym roku. Ulewne deszcze spowodowały osuwisko i odsłoniły go. Dziś znamy go jako Monument jeden, El Rey.\n\nIdąc w górę, miej w pamięci, że reliefy tutaj dzieli kilka metrów. Żeby je zobaczyć, trzeba przejść zboczem, i być może tak robiono to w starożytności.\n\nBlisko najwyżej położonych reliefów płynie strumień, który niesie wodę deszczową w dół zbocza. Ta woda i te kamienie mają wspólny temat, jak zobaczysz.\n\nKiedy dojdziesz do sceny z osobą siedzącą w jaskini, będziesz już w następnym nagraniu."
+    },
+    "retos_observacion": {
+      "hash": "84918765bf95284a",
+      "texto": [
+        "Wchodź powoli i patrz na skałę wzgórza",
+        "Poszukaj strumienia, który spływa po zboczu",
+        "Zatrzymaj się, kiedy zobaczysz scenę z jaskinią"
+      ]
+    },
+    "especificaciones": {
+      "hash": "68ee0ea1c8f2c1b2",
+      "texto": {
+        "Rodzaj": "spacer, bez stałego przystanku",
+        "Temat": "podejście do El Rey"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s19_solar_maya",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1bb414022a10bbae",
+      "texto": "Ricostruzione del Solar e della Casa Tradizionale Maya"
+    },
+    "frase_gancho": {
+      "hash": "ebb21d14f1f4808b",
+      "texto": "Una casa di palma e un orto in cui sta tutto il mondo maya."
+    },
+    "puente_narrativo": {
+      "hash": "c33a3ba88d5bf821",
+      "texto": "Dalla casa e dal suo solar passiamo a una pittura murale. Cerca il murale firmato da Rafael Coronel, il cui titolo parla del mondo spirituale dei Maya della penisola dello Yucatán."
+    },
+    "guion_corto": {
+      "hash": "2dce2db588495f2c",
+      "texto": "Questa è una casa maya dello Yucatán, ricostruita a grandezza naturale. Osserva la sua forma: pianta ovale, con gli angoli arrotondati, pareti di pertiche e fango, e un tetto di palma molto alto che lascia circolare l’aria e mantiene fresco l’interno. Dentro ci sono amache, un comal, un metate e un piccolo altare di famiglia. Ma la casa non si capisce senza il solar, il terreno che la circonda: lì crescono alberi da frutto, ortaggi e piante medicinali, ci sono alveari di un’ape senza pungiglione, e tutto è recintato da un muro basso di pietra chiamato albarrada. Per la famiglia maya, casa e solar formano una sola unità: lì si vive, si mangia, si cura e si prega."
+    },
+    "guion_largo": {
+      "hash": "815101fea7291755",
+      "texto": "Questa casa non è un modellino: secondo il racconto, fu costruita nel museo da costruttori maya giunti dallo Yucatán, con i materiali e le tecniche di sempre, quando furono allestite le sale di etnografia all’inizio degli anni sessanta. Per questo, entrando, senti quasi l’odore della paglia secca e del legno. È una casa fatta da chi sa come si vive al suo interno.\n\nLa forma ovale ha una ragione pratica. Senza angoli, il vento aggira la casa invece di spingerla, e si dice che resista meglio agli uragani della penisola. Il tetto di palma si mantiene in buono stato grazie al fumo del focolare, che tiene lontani gli insetti. E il calore sfugge dall’alto, così all’interno fa fresco. È un esempio di architettura che si adatta al clima senza bisogno di apparecchi.\n\nHa anche un significato. I quattro pali principali sostengono il tetto, e si è interpretato che ricordino i quattro bacab, gli esseri che, secondo il mito maya, sostenevano i quattro angoli del cielo. Forse ricordi l’idea dei quattro punti cardinali del fiore del quechquémitl huasteco: qui compare di nuovo, ora in forma di casa. Vivere al suo interno significa vivere dentro un piccolo universo ordinato.\n\nGuarda l’amaca. La parola viene dal taíno, la lingua delle isole dei Caraibi, ed è una delle tante che lo spagnolo ha preso dall’America. Dormirci sopra tiene lontani dal suolo, dall’umidità e dagli scorpioni, e di giorno si raccoglie per lasciare libero lo spazio. La casa maya cambia uso con le ore: di notte è camera da letto, e di giorno è cucina, laboratorio e luogo di visita.\n\nUsciamo nel solar. È la dispensa e la farmacia della famiglia. Ci sono alberi da frutto, ortaggi ed erbe curative, e tra queste la chaya, una foglia verde che si cucina come gli spinaci. Ci sono anche galline e maiali, un pozzo e muri di pietra a secco, le albarradas, che segnano i confini e proteggono dal vento. Tutto viene sfruttato, e ciò che avanza torna alla terra.\n\nE ci sono le api. I Maya allevano da secoli un’ape senza pungiglione, che nella loro lingua si chiama Xunaan Kab, «la signora ape». Vive in tronchi cavi, e il suo miele, scarso e dal sapore intenso, si usa come alimento e come medicina. Oggi ci sono famiglie che continuano a prendersene cura perché non si perda, e con essa custodiscono anche un modo di convivere con la boscaglia.\n\nSi racconta che nel solar e nella milpa vivano gli aluxes, esseri piccoli che proteggono il campo, ai quali a volte si lascia una ciotola di atole per tenerli contenti. E dietro a tutto c’è la milpa, il campo di mais, fagioli e zucca che hai visto nella prima sala del piano di sopra. Senza di essa, la casa e il solar non si reggerebbero.\n\nQuando la pioggia tarda, si celebra il Cha Chaak, una cerimonia per chiederla. Si svolge nei campi, con un altare di rami, pani di mais e bevande rituali, ed è diretta da uno specialista che prega in lingua maya. Il dio a cui ci si rivolge è Chaac, lo stesso della [maschera di Kabah](mna_s09_mascaron_chaac) che hai visto al piano di sotto, parente di [Cocijo](mna_s07_urna_cocijo) e di Tláloc. È la prova più chiara che il mondo maya non è rimasto nelle pietre: continua a chiedere acqua, con rispetto, perché la milpa cresca."
+    },
+    "retos_observacion": {
+      "hash": "60c78f055882c290",
+      "texto": [
+        "Osserva la forma ovale della casa e il suo tetto di palma",
+        "Cerca l’amaca, il comal e il metate dentro la casa",
+        "Guarda il muro basso di pietra che recinge il solar"
+      ]
+    },
+    "especificaciones": {
+      "hash": "14b4e176c85d1b73",
+      "texto": {
+        "Popolo": "Maya Yucateco",
+        "Regione": "Penisola dello Yucatán (Campeche, Yucatán e Quintana Roo)",
+        "Tecnica/Materiale": "Architettura vernacolare (legno duro, bajareque, palma di huano, henequén)",
+        "Funzione": "Ricostruzione dell’abitazione tradizionale e dello spazio biculturale del solar familiare"
+      }
+    },
+    "faq_mito": {
+      "hash": "751e19273568d57c",
+      "texto": {
+        "pregunta": "Mito: la casa maya è un rifugio primitivo.",
+        "respuesta": "Realtà: la sua forma ovale, il suo tetto alto e il suo solar con l’orto sono pensati per il caldo, il vento e la vita di un’intera famiglia."
+      }
+    }
+  }
+}

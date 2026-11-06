@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_cripta_pakal",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "730dfe8e3fb73576",
+      "texto": "Cripta e Sarcofago di Pakal (ricostruzione)"
+    },
+    "frase_gancho": {
+      "hash": "2133d447b64bc0bf",
+      "texto": "La tomba di un re, ricreata a grandezza naturale sotto una luce rossa."
+    },
+    "puente_narrativo": {
+      "hash": "30bd9a1a6f4a2b66",
+      "texto": "Sotto quel sarcofago apparve un altro volto, fatto di calce e non di pietra verde. Cerca una testa di stucco, dal profilo allungato, con tre boccioli di fiore nell’acconciatura."
+    },
+    "guion_corto": {
+      "hash": "d9d796afb01aadb4",
+      "texto": "Ti trovi davanti a una tomba, ma non è quella vera. È una ricostruzione a grandezza naturale della camera funeraria di Pakal, nel Tempio delle Iscrizioni di Palenque, il luogo in cui fu ritrovata la [maschera](mna_s09_mascara_pakal) che hai appena visto. Una luce rossa cade sulla lastra scolpita e sul sarcofago di pietra. Sulla lastra, il re appare nel momento di morire: scende lungo il tronco di un albero sacro verso le fauci del Mostro della Terra, l’ingresso al mondo sotterraneo. Si interpreta come il passaggio che precede la rinascita. Sulle pareti ci sono figure di stucco: sono i Nove Signori della Notte. Pakal fu sepolto nell’anno 683, e il suo scheletro era ricoperto di cinabro, un pigmento rosso."
+    },
+    "guion_largo": {
+      "hash": "27f736700e5bbe32",
+      "texto": "[La maschera di giada](mna_s09_mascara_pakal) non è apparsa in una teca. È apparsa in un luogo, e questo è quel luogo, ricostruito nelle sue dimensioni reali. Ciò che hai davanti è una ricostruzione: la cripta vera si trova ancora a Palenque, a più di venti metri di profondità, nel cuore del Tempio delle Iscrizioni, e oggi non è più permesso scendere fino a lei. Qui hai l’unico modo di affacciarti senza viaggiare in Chiapas.\n\nPensa a ciò che fecero i costruttori. Eressero una piramide di nove livelli e, al suo interno, lasciarono una scala nascosta che scende fino alla camera del re. Si pensa che Pakal facesse preparare questa tomba quando era ancora in vita, e che suo figlio e successore, Kan Bahlam, terminasse la piramide che la ricopre. Il re progettò il proprio viaggio, e la sua famiglia lo chiuse con tonnellate di pietra.\n\nGuarda la grande lastra che copre il sarcofago. Pesa diverse tonnellate, e il suo rilievo si legge su tre livelli. In basso, il re cade verso le fauci aperte del Mostro della Terra, la porta del mondo sotterraneo. Al centro cresce un albero sacro, a forma di croce, che unisce i mondi. E in alto, posato sulla chioma, c’è un uccello del cielo. Pakal non è disteso: sta scendendo, e l’immagine si interpreta come l’inizio della sua rinascita.\n\nQuesta scena è così famosa che ha dato origine a una curiosa teoria: c’è chi ha creduto di vedervi un astronauta che manovra il suo razzo. Non lo è. Quella che sembra un’astronave è il corpo del re sopra le fauci della terra, e quelli che sembrano tubi sono parte dell’albero e del mostro. Non ci sono astronauti, ma un’idea maya molto bella: un re che muore per rinascere, come il seme del mais che viene interrato e torna a germogliare.\n\nOsserva anche i fianchi del sarcofago originale. Lì fu scolpita una fila di personaggi che si ritengono antenati del re, e da ciascuno spunta un albero carico di frutti. Pakal non arrivava solo nell’altro mondo: lo accoglieva il suo lignaggio.\n\nOra guarda le pareti, dove ci sono figure di stucco. Sono nove signori in piedi, i Nove Signori della Notte, che secondo quanto si pensa vegliavano sul sonno del re. Il numero nove non è casuale: nove erano i livelli della piramide che ricopre la tomba e, nella tradizione maya, nove i piani del mondo sotterraneo. Pakal scendeva lungo una piramide che ripeteva, in pietra, il cammino che lo aspettava.\n\nC’è ancora un dettaglio. Dalla tomba originale esce un tubo di pietra che sale accanto alla scala fino al tempio. Si pensa che servisse a far sì che lo spirito del re potesse comunicare con il mondo dei vivi. Una tomba sigillata, ma con un filo verso l’alto.\n\nE poi c’è il colore. Lo scheletro di Pakal era ricoperto di cinabro, un pigmento rosso che i maya associavano al sangue e all’alba. La luce rossa di questa sala ti ricorda quel colore e ti aiuta a immaginare la camera chiusa, per più di milleduecento anni, fino a quando, nel 1952, l’archeologo Alberto Ruz Lhuillier aprì la porta.\n\nPrima di proseguire, un’altra sorpresa di quella tomba. Sotto il sarcofago, tra vasi di ceramica, Ruz trovò [due teste di stucco](mna_s09_cabeza_pakal). Una di esse la conoscerai adesso."
+    },
+    "retos_observacion": {
+      "hash": "dc81d267036164d3",
+      "texto": [
+        "Cerca sulla lastra il re che cade verso le fauci del Mostro della Terra",
+        "Osserva le figure di stucco sulle pareti: sono i Nove Signori della Notte",
+        "Guarda come cambia l’aspetto della pietra sotto la luce rossa"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e8fc8aaa81a9b96a",
+      "texto": {
+        "Cultura": "Maya, Palenque",
+        "Periodo": "Originale del Classico recente (600-900 d.C.); ricostruzione museografica",
+        "Materiale": "Ricostruzione a scala reale di una camera di pietra calcarea con lastra e sarcofago",
+        "Provenienza": "Tempio delle Iscrizioni, Palenque, Chiapas",
+        "Dimensioni": "Scala 1:1"
+      }
+    },
+    "faq_mito": {
+      "hash": "6d4f1f4df549aed2",
+      "texto": {
+        "pregunta": "Mito: La tomba di Pakal che vedi qui è quella originale, portata da Palenque.",
+        "respuesta": "Realtà: È una ricostruzione a grandezza naturale. La vera cripta si trova ancora all’interno del Tempio delle Iscrizioni, a Palenque."
+      }
+    }
+  }
+}

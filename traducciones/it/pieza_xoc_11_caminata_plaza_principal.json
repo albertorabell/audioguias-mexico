@@ -1,0 +1,54 @@
+{
+  "id": "xoc_11_caminata_plaza_principal",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1879863762ac4b65",
+      "texto": "Cammino: verso la Plaza Principal"
+    },
+    "frase_gancho": {
+      "hash": "8e9e2edf5e168fda",
+      "texto": "Un percorso in salita attraverso una città pensata per essere difesa."
+    },
+    "puente_narrativo": {
+      "hash": "e10bd2bfa52eaab2",
+      "texto": "Continua il tuo percorso: quando arriverai in cima, la città cambierà scala."
+    },
+    "guion_corto": {
+      "hash": "5c70785ee1b71a54",
+      "texto": "Ora si sale. Questo cammino porta dal Palazzo alla Plaza Principal. Secondo l’INAH, la piazza si trova su un rialzo artificiale e vi si accede attraverso due portici difesi. La guida dell’INAH aggiunge che è la parte meglio conservata della città e anche quella di più difficile accesso. Medina Romero ricorda che nel sito ci sono strade lastricate lunghe fino a centosettantacinque metri. Mentre cammini, non c’è bisogno di cercare nulla di preciso. Fai attenzione a come cambia il terreno sotto i tuoi piedi. Pensa a cosa significa arrivare in un luogo che fu pensato per essere difeso. Quando sarai in cima, parleremo di ciò che c’è nella piazza."
+    },
+    "guion_largo": {
+      "hash": "efde4016d0cc3ec8",
+      "texto": "Ora si sale. Questo cammino porta dal Palazzo alla Plaza Principal.\n\nPer capire il percorso, aiuta ricordare come è organizzata la città. L’UNESCO distingue tre livelli: uno basso, uno intermedio e uno alto. Tu vieni da quello intermedio e ti dirigi verso il più alto.\n\nSecondo l’INAH, la Plaza Principal si trova su un rialzo artificiale. Vi si accede attraverso due portici difesi. Cioè, non era un luogo in cui si entrasse senza troppe formalità.\n\nLa guida dell’INAH dice che è la parte meglio conservata della città e quella di più difficile accesso. Forse queste due cose vanno insieme.\n\nMedina Romero segnala che il sito ha strade lastricate lunghe fino a centosettantacinque metri. Menziona anche che a sud dell’Acropoli c’è un muro di quattro metri con bastioni e fossati.\n\nMentre sali, smetti di cercare monumenti e osserva il terreno. Una collina modificata con terrazze e muri si percepisce in modo diverso da una piazza aperta.\n\nL’UNESCO considera Xochicalco un esempio supremo di città fortificata dell’Epiclassico. Lo sentirai nel corpo prima di vederlo con gli occhi.\n\nQuando sarai in cima, respira. Quello che segue è la parte più famosa del sito."
+    },
+    "retos_observacion": {
+      "hash": "1116641122750212",
+      "texto": [
+        "Fai attenzione a come cambia il terreno sotto i tuoi piedi",
+        "Conta quante volte cambia il livello del cammino",
+        "Cerca i portici da cui si entra nella piazza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c2d65caad70383d0",
+      "texto": {
+        "Plaza Principal": "su un rialzo artificiale",
+        "Accessi": "due portici difesi",
+        "Strade lastricate": "fino a centosettantacinque metri, secondo Medina Romero",
+        "Livelli della città": "tre, secondo l’UNESCO"
+      }
+    },
+    "faq_mito": {
+      "hash": "5407af077888d91a",
+      "texto": {
+        "pregunta": "Mito: Nella piazza più importante si entrava liberamente.",
+        "respuesta": "Realtà: Secondo l’INAH, vi si accede attraverso due portici difesi."
+      }
+    }
+  }
+}

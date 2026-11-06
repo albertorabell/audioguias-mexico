@@ -1,0 +1,45 @@
+{
+  "id": "chz_11_caminata_hacia_ladera",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e01e803c97074608",
+      "texto": "Marche : des terrasses au flanc de la colline"
+    },
+    "frase_gancho": {
+      "hash": "78c18e40fab05397",
+      "texto": "Un court trajet à écouter en vous approchant de la roche."
+    },
+    "puente_narrativo": {
+      "hash": "5f6039159f27e8f1",
+      "texto": "Vous voici au flanc du Cerro Chalcatzingo."
+    },
+    "guion_corto": {
+      "hash": "9cfa15b427cf68d5",
+      "texto": "Ici, le paysage change. Quittez les terrasses et approchez-vous de la roche de la colline. Jusqu’à présent, vous avez vu des monuments parmi les maisons et les plates-formes, aux thèmes de pouvoir. Sur le flanc, selon David Grove, les grands reliefs ont été taillés dans la roche même ou dans des blocs rocheux à sa base, et ils parlent de mythologie et de rite. Ces reliefs sont séparés de plusieurs mètres et ne se voient pas tous ensemble. Pour les voir, il faut marcher, et c’est peut-être ainsi que l’on faisait autrefois, en procession. Quand le sentier atteindra les blocs rocheux, vous serez déjà dans l’audio suivant."
+    },
+    "guion_largo": {
+      "hash": "5b81f724da1ec7c2",
+      "texto": "Ceci est une marche. Inutile de vous arrêter. Quittez les terrasses et approchez-vous de la colline pendant que l’audio vous accompagne.\n\nJusqu’ici, vous avez vu des monuments parmi les maisons et les plates-formes du village. Leur thème, dit Grove, est surtout le pouvoir politique de personnes de l’élite. Beaucoup ont été retrouvés mutilés, décapités ou enterrés.\n\nSur le flanc, tout change. Les reliefs sont taillés directement dans la roche de la colline ou dans de grands blocs rocheux de sa base. Ils illustrent des thèmes de mythologie et de rituel religieux. Les reliefs du flanc n’ont pas été mutilés comme ceux du village.\n\nIl y a autre chose qui rend ce tronçon particulier. Les reliefs sont séparés de plusieurs mètres et ne se voient pas tous ensemble. Pour les voir, il faut parcourir le flanc, et c’est peut-être ainsi que l’on faisait autrefois, en marchant en procession.\n\nQuand vous arriverez aux blocs rocheux de la base, vous serez déjà dans l’audio suivant."
+    },
+    "retos_observacion": {
+      "hash": "720fde95d273785f",
+      "texto": [
+        "Regardez la roche de la colline en vous approchant",
+        "Cherchez de grands blocs rocheux à la base",
+        "Marchez lentement, comme dans une procession"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e3ad1addced00f30",
+      "texto": {
+        "Type": "marche, sans arrêt fixe",
+        "Thème": "du village aux reliefs de la colline"
+      }
+    }
+  }
+}

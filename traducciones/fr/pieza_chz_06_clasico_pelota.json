@@ -1,0 +1,54 @@
+{
+  "id": "chz_06_clasico_pelota",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6b61672ffa834cb7",
+      "texto": "Plateformes et jeu de balle du Classique"
+    },
+    "frase_gancho": {
+      "hash": "f978942d7617359d",
+      "texto": "Des édifices du Classique : ils sont arrivés bien après les reliefs de la colline."
+    },
+    "puente_narrativo": {
+      "hash": "2ee64caedd3feff5",
+      "texto": "Poursuivez votre parcours : nous revenons maintenant à l’époque des reliefs, dans une grande cour enfoncée."
+    },
+    "guion_corto": {
+      "hash": "2c16ce7a430ff54f",
+      "texto": "Jusqu’ici, presque tout ce que vous avez vu appartient au Préclassique moyen. Ces plateformes et ce jeu de balle sont d’une autre époque. Au Classique, de nombreux siècles après les reliefs de la colline, le lieu a été de nouveau occupé et de nouveaux édifices se sont élevés. L’INAH a reconstruit une plateforme du Classique récent. Le jeu de balle, un terrain pour un jeu sacré pratiqué dans toute la Mésoamérique, n’a pas encore de date précise dans les sources que nous avons consultées. Ce qui compte, c’est l’idée : Chalcatzingo n’est pas un seul moment. C’est un lieu que les gens ont habité de nouveau pendant de nombreux siècles. Chaque époque a laissé des traces, et les anciennes n’ont pas disparu à l’arrivée des nouvelles."
+    },
+    "guion_largo": {
+      "hash": "2d854bf1f58317f1",
+      "texto": "Si vous avez suivi le parcours, vous avez déjà vu le premier Chalcatzingo. Cet arrêt vous conduit vers un autre : celui qui s’est relevé de nombreux siècles plus tard.\n\nD’abord, l’ordre du temps. L’INAH situe l’histoire de la zone entre mille cinq cents et trois cent cinquante ans avant notre ère. Grove et d’autres chercheurs la divisent en phases. L’Amate va de mille cinq cents à mille cent ans avant notre ère. La Barranca, de mille cent à sept cents. Et la Cantera, de sept cents à cinq cents. Ce sont des dates au radiocarbone non calibrées ; considérez-les donc comme approximatives.\n\nLa phase Cantera est celle qui compte pour les monuments. Presque tous les reliefs et les stèles ont été sculptés pendant ces deux cents ans, entre sept cents et cinq cents ans avant notre ère environ.\n\nLes plateformes et le jeu de balle que vous voyez ici appartiennent à une autre période : le Classique. Les sources consultées parlent d’une occupation du Classique à Chalcatzingo et d’une plateforme du Classique récent reconstruite par l’INAH. Elles ne donnent pas de date précise pour le jeu de balle. Elles n’attribuent pas non plus ces ouvrages à une autre cité. Un blog de voyage mentionne Teotihuacán, mais rien ne l’étaye.\n\nPour situer le Classique au Morelos, Arqueología Mexicana le place entre cent ans avant notre ère et six cent cinquante après. Cette même revue raconte que, durant cette période, les relations des peuples de terre chaude avec l’État teotihuacan se voient clairement dans un autre site, Zoquipa-Tlachichila. Cela ne signifie pas que ces édifices soient de Teotihuacán. Cela montre seulement que le Morelos était relié au Centre du Mexique.\n\nVint ensuite l’Épiclassique, entre six cent cinquante et huit cents après notre ère. C’est l’époque où fut fondée et se développa Xochicalco, une autre cité du Morelos.\n\nL’INAH a reconstruit une plateforme du Classique récent. Reconstruire signifie relever des murs à partir de ce qui a été retrouvé. C’est pourquoi ce que vous voyez dans une construction reconstruite est en partie d’origine et en partie restitué.\n\nQuand un lieu est occupé plusieurs fois, les archéologues doivent séparer les couches, comme on lit les pages d’un livre de bas en haut. Les plus profondes sont les plus anciennes.\n\nDans beaucoup de sites mésoaméricains, le terrain est un espace long, bordé de deux structures parallèles. Les sources consultées ne décrivent pas la forme de celui-ci ; observez-la donc vous-même.\n\nLe jeu de balle s’est pratiqué dans une grande partie de la Mésoamérique pendant des siècles. On y jouait avec une balle de caoutchouc, sur un terrain délimité par des structures. Avoir un terrain ici montre que le lieu continuait d’être important pour ses habitants.\n\nPensez au contraste. Les sculptures de la colline ont environ deux mille cinq cents ans ou davantage. Ces constructions sont arrivées quand ces pierres étaient déjà là depuis très longtemps. Ceux qui ont vécu ici au Classique marchaient parmi des reliefs antiques.\n\nC’est une bonne raison de regarder le site par couches. Chaque époque a laissé ses traces, et les plus anciennes n’ont pas disparu à l’arrivée des nouvelles."
+    },
+    "retos_observacion": {
+      "hash": "f4ca682934e13e54",
+      "texto": [
+        "Comparez la forme de ces plateformes avec les terrasses que vous avez vues plus tôt",
+        "Cherchez le terrain du jeu de balle et son orientation",
+        "Imaginez le site avec ses maisons, ses places et ses terrains de nouveau occupés"
+      ]
+    },
+    "especificaciones": {
+      "hash": "68a1b5a08ebc06b4",
+      "texto": {
+        "Époque": "Classique, de nombreux siècles après les reliefs",
+        "Édifices": "plateformes et jeu de balle",
+        "Intervention": "l’INAH a reconstruit une plateforme du Classique récent",
+        "Date exacte du jeu de balle": "non confirmée"
+      }
+    },
+    "faq_mito": {
+      "hash": "4b8e0d549e6afc9c",
+      "texto": {
+        "pregunta": "Mythe : Le jeu de balle et la pyramide ont été construits par Teotihuacán.",
+        "respuesta": "Réalité : Les sources consultées ne parlent que d’une occupation du Classique ; elles n’attribuent pas l’ouvrage à Teotihuacán."
+      }
+    }
+  }
+}

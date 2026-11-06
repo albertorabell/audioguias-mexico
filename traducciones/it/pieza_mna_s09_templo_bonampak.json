@@ -1,0 +1,58 @@
+{
+  "id": "mna_s09_templo_bonampak",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Lacandone\" para \"Lacandón / Lacandones\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "75c499a708488961",
+      "texto": "Replica del Tempio delle Pitture di Bonampak"
+    },
+    "frase_gancho": {
+      "hash": "f6384b0de01ca966",
+      "texto": "Tre stanze dipinte che raccontano una festa, una battaglia e un trionfo."
+    },
+    "puente_narrativo": {
+      "hash": "d8a34d37e83e129e",
+      "texto": "Dai murales passiamo a una facciata di pietra. Cerca una porta incorniciata da grandi mosaici, che sembra la bocca aperta di un volto mostruoso."
+    },
+    "guion_corto": {
+      "hash": "7f2b39ee6018ae57",
+      "texto": "Questo tempio è una replica del Tempio delle Pitture di Bonampak, nella foresta del Chiapas. All’interno ci sono copie dei murales che i maya dipinsero lì intorno all’anno settecentonovanta. Sono tre stanze, e si è interpretato che ciascuna racconti una parte di una stessa storia: una cerimonia con musicisti e nobili, una battaglia con cattura di prigionieri e, alla fine, la festa del trionfo, con danze e offerte di sangue. Fai attenzione ai colori, soprattutto al blu maya, così vivo che sembra dipinto da poco. Le copie che vedi sono opera della pittrice Rina Lazo. Gli originali sono ancora nella foresta, e per questo questa replica ci permette di affacciarci su di essi."
+    },
+    "guion_largo": {
+      "hash": "0d24c1a7a7e7df73",
+      "texto": "I maya dipingevano quasi tutto, ma quasi tutto è andato perduto: l’umidità della foresta si è portata via i colori. Bonampak è la grande eccezione. I suoi murales si conservarono così bene che, quando furono resi noti nel 1946, sembravano di un altro mondo: scene con decine di personaggi, abiti, strumenti e un blu che aveva resistito più di milleduecento anni. Il nome, Bonampak, significa qualcosa come «muri dipinti», e glielo diede la gente moderna, non i maya.\n\nQuello che vedi qui è una riproduzione. Gli originali sono ancora nella foresta del Chiapas, relativamente vicino a Yaxchilán, la città dell’[architrave](mna_s09_dintel26_yaxchilan) che hai visto poco fa. Non possono viaggiare, perché sono dipinti sui muri di un edificio che non si può spostare. Per questo il museo ha costruito un tempio e lo ha riempito di copie, perché tu senta com’è entrare in quelle stanze.\n\nOgni stanza è un capitolo. Nella prima, secondo l’interpretazione, si presenta alla corte un bambino, l’erede; ci sono musicisti con tamburi, sonagli e trombe, e nobili vestiti con pelli di giaguaro. Nella seconda c’è una battaglia, con guerrieri che attaccano e prigionieri catturati, alcuni con le mani sanguinanti. Nella terza si celebra il trionfo, con una danza di personaggi dagli enormi copricapi e una cerimonia in cui i nobili offrono il proprio sangue.\n\nI murales hanno inoltre testi con geroglifici, scritti accanto alle figure, che dicono chi è chi e, a volte, quando avvenne ciascuna scena. Per questo sono stati così studiati: non sono un racconto immaginario, ma un avvenimento di un regno con un nome proprio. È, ancora una volta, la scrittura maya al servizio della storia, come nell’Architrave ventisei di Yaxchilán.\n\nIl blu maya merita una riga a parte. Si fabbricava con l’indaco, una pianta, e con un minerale argilloso, e la miscela veniva riscaldata. Il risultato è un pigmento che resiste al sole, all’umidità e perfino agli acidi. Oggi gli scienziati lo studiano perché, mille anni dopo, è ancora blu.\n\nLe copie sono opera di una pittrice, Rina Lazo, e anche questa è una storia. Lazo nacque in Guatemala e si formò in Messico con Diego Rivera. Si racconta che trascorse un lungo periodo nella foresta per copiare i murales originali, e che quel lavoro la legò per sempre a questo mondo. In questa stessa sala c’è anche un suo dipinto, «[Con passione per i maya](mna_s09_mural_rina_lazo)».\n\nQueste pitture hanno cambiato l’immagine che si aveva dei maya. Per decenni, molti li immaginarono come un popolo pacifico di astronomi e sacerdoti. Bonampak mostrò qualcosa di più completo: guerra, prigionieri e sacrifici, ma anche musica, danza e festa. Erano persone intere, che pregavano, combattevano, ballavano e festeggiavano.\n\nRicorda la [testa di stucco di Pakal](mna_s09_cabeza_pakal) e il [fregio di Los Placeres](mna_s09_friso_placeres): sotto la polvere e i secoli, tutto questo fu dipinto di rosso, blu e giallo. Bonampak è il punto più vicino a cui possiamo arrivare per vedere quel colore originale. Entra con calma e percorri le scene come se sfogliassi le pagine di un libro. Più avanti, con i lacandoni, scoprirai come vennero alla luce del mondo per la prima volta."
+    },
+    "retos_observacion": {
+      "hash": "a509be4e32da0047",
+      "texto": [
+        "Cerca il blu maya nelle pitture",
+        "Fai attenzione ai geroglifici che accompagnano i personaggi",
+        "Osserva i copricapi e le pelli di giaguaro dei personaggi"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ba945b7ecbc4fc8",
+      "texto": {
+        "Cultura": "Maya",
+        "Periodo": "Classico recente (murales originali, intorno al 790 d.C.)",
+        "Material": "Replica del tempio con copie dei murales",
+        "Procedencia": "Bonampak, Chiapas (l’originale)"
+      }
+    },
+    "faq_mito": {
+      "hash": "37f55d311664383b",
+      "texto": {
+        "pregunta": "Mito: I maya furono un popolo pacifico, di astronomi e sacerdoti.",
+        "respuesta": "Realidad: I murales di Bonampak mostrano battaglie, prigionieri e sacrifici, insieme a musica e festa: una società complessa, con la guerra e con la celebrazione."
+      }
+    }
+  }
+}

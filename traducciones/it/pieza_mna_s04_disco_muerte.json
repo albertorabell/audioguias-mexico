@@ -1,0 +1,57 @@
+{
+  "id": "mna_s04_disco_muerte",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d564e0fcdec1e69f",
+      "texto": "Disco della Morte"
+    },
+    "frase_gancho": {
+      "hash": "f102be8246fea795",
+      "texto": "Un teschio con raggi rossi che rappresenta il Sole quando muore."
+    },
+    "puente_narrativo": {
+      "hash": "f98a4dc292ac6e70",
+      "texto": "Dal Sole che si spegne passiamo al fuoco che non deve spegnersi. Avvicinati all’anziano di pietra che porta un braciere sulla testa: il Vecchio Dio, che hai già conosciuto in argilla."
+    },
+    "guion_corto": {
+      "hash": "6ebfe55ee23b1399",
+      "texto": "Davanti a te c’è un disco di andesite alto più di un metro, con resti di pittura rossa. Al centro, un teschio umano con la bocca aperta e la lingua fuori; intorno, un’aureola pieghettata come carta o come raggi di sole. Fu trovato nel 1963 a sud della Piramide del Sole, a Teotihuacán, ma secondo il cartello del museo non lo fecero i teotihuacani: lo fecero i Mexica, secoli dopo. È legato al Sole quando tramonta a occidente: la Terra lo inghiotte per illuminare il mondo dei morti, e poi lo lascia rinascere a oriente. Un’immagine fredda e insieme luminosa."
+    },
+    "guion_largo": {
+      "hash": "66e59e6f5dbfb1d3",
+      "texto": "Gli archeologi lo trovarono nel 1963, a sud della Piramide del Sole, a Teotihuacán. È fatto di andesite, una pietra vulcanica, e conserva ancora resti di pittura rossa. Ecco una sorpresa: sebbene sia stato trovato in una città teotihuacana e si trovi in questa sala, il museo spiega che non lo fecero i teotihuacani, ma i Mexica, tra gli anni 1200 e 1521. Teotihuacán era abbandonata da secoli quando loro arrivarono, e la consideravano un luogo sacro. Forse il disco faceva parte di un’offerta che lasciarono lì.\n\nNota che non è un teschio «triste». Ha la bocca aperta, i denti in vista e una lingua che esce verso l’esterno, come se stesse parlando, o cantando, o divorando. L’aureola che lo circonda è fatta di scanalature inclinate, ed è stata paragonata a carta piegata, a un ventaglio di piume e a raggi di sole. Per questo si collega alla morte del Sole: un teschio che allo stesso tempo spaventa e illumina.\n\nPer i Mexica, il Sole moriva ogni giorno. Al calar della sera scendeva nel mondo dei morti, e la mattina seguente doveva rinascere. Raccontavano che il Sole sorgesse accompagnato da guerrieri morti in combattimento e si congedasse accompagnato da donne morte dando alla luce. Quest’idea spiega perché un teschio possa essere, allo stesso tempo, un Sole.\n\nC’è un dettaglio che si ripete: la lingua. Nella Sala Mexica, la [Pietra del Sole](mna_s06_piedra_sol) ha al centro un volto la cui lingua è un coltello di selce, simbolo del sacrificio. Poiché entrambi sono opera mexica, è logico che condividano questa immagine. Quando vedrai quel volto, ricordati di questo.\n\nNon si sa con certezza a cosa servisse questo disco. Poteva far parte di un altare o di un’offerta davanti alla piramide. Il fatto che sia stato trovato lì fa pensare a un rituale solare, ma è un’ipotesi. Le sue dimensioni, di più di un metro, indicano che si vedeva bene da una certa distanza, e la pittura rossa lo rendeva ancora più vistoso.\n\nLa Piramide del Sole è una delle più grandi delle Americhe, e sotto di essa c’è un tunnel che termina in una camera a forma di grotta e che, secondo vari archeologi, potrebbe essere ciò che rese sacro il luogo. Molte culture mesoamericane videro nelle grotte l’ingresso del mondo sotterraneo e l’origine dei popoli. Un sole che muore davanti a una piramide costruita su una grotta: l’immagine è circolare.\n\nPer questo conviene guardare questo disco come un orologio: un sole che si nasconde e ritorna, una volta e ancora una volta, mentre la città si innalza, si trasforma e, a suo tempo, si spegne anch’essa."
+    },
+    "retos_observacion": {
+      "hash": "bdd0b60100cc4dda",
+      "texto": [
+        "Guarda il teschio e la lingua che esce dalla bocca",
+        "Cerca i resti di pittura rossa sulla pietra",
+        "Osserva i raggi dell’aureola: sembrano carta piegata o luce di sole?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7964f865a2113538",
+      "texto": {
+        "Cultura": "Mexica",
+        "Periodo": "Postclassico recente (1200-1521 d.C.)",
+        "Materiale": "Andesite e pigmento rosso",
+        "Provenienza": "Teotihuacán, Stato del Messico (a sud della Piramide del Sole)",
+        "Misure": "1,26 m di altezza x 1,02 m di larghezza x 0,25 m di spessore",
+        "Ritrovamento": "Trovato nel 1963 a sud della Piramide del Sole",
+        "Inventario": "09.0-02570"
+      }
+    },
+    "faq_mito": {
+      "hash": "f45334ffb3665ef5",
+      "texto": {
+        "pregunta": "Mito: È un disco teotihuacano perché è stato trovato a Teotihuacán.",
+        "respuesta": "Realtà: Fu trovato lì, ma il museo lo attribuisce ai Mexica, che giunsero alle rovine secoli dopo l’abbandono della città."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chz_02_museo_portal_inframundo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1c18f947e71940bd",
+      "texto": "Muzeum na stanowisku: Monument 9, Wrota do podziemi"
+    },
+    "frase_gancho": {
+      "hash": "0be9cc8a0e431aae",
+      "texto": "Jednotonowy relief, który wrócił do Chalcatzingo po dziesięcioleciach spędzonych poza krajem."
+    },
+    "puente_narrativo": {
+      "hash": "393fb08f4ff5d5b1",
+      "texto": "Idź dalej swoją trasą: teraz wychodzimy zobaczyć, gdzie mieszkał lud, który wyrzeźbił ten kamień."
+    },
+    "guion_corto": {
+      "hash": "91e6bf2354ce6683",
+      "texto": "Ten kamień waży około tony i przez dziesięciolecia przebywał poza Chalcatzingo. To Monument dziewiąty, zwany Wrotami do podziemi. Ma metr osiemdziesiąt na metr pięćdziesiąt i około dwóch tysięcy pięciuset lat. Przedstawia otwartą paszczę o czterech płatach, z bromeliami w kącikach ust. W mezoamerykańskim pojmowaniu góry jaskinia jest wejściem do siedziby przodków i istot nadprzyrodzonych. Ten obraz dobrze pasuje do wzgórza ze źródłami. Kamień opuścił stanowisko między końcem lat pięćdziesiątych a latami sześćdziesiątymi. Wrócił w lutym dwa tysiące dwudziestego piątego roku i dziś jest pokazywany w tym muzeum."
+    },
+    "guion_largo": {
+      "hash": "960f5d666cf5baa4",
+      "texto": "Są kamienie, które podróżują. Monument dziewiąty z Chalcatzingo opuścił to miejsce ponad pół wieku temu, a wrócił w dwa tysiące dwudziestym piątym roku. Znany jest jako Wrota do podziemi.\n\nTo relief o wymiarach metr osiemdziesiąt na metr pięćdziesiąt, ważący około tony. Szacuje się, że wyrzeźbiono go między ośmiuset a czterystu laty przed Chrystusem. Przedstawia otwartą paszczę o czterech płatach. W kącikach ust widać rośliny zwane bromeliami. Żeby ująć to w perspektywie: pochodzi z tego samego wielkiego okresu co reliefy na wzgórzu, najstarsze na Wyżynie Centralnej.\n\nPłaskorzeźba to obraz, który tylko nieznacznie wystaje z powierzchni kamienia, jakby się z niej wyłaniał. Prawie wszystkie reliefy Chalcatzingo są tego rodzaju. Te na wzgórzu pozostają w swojej skale. Ten natomiast jest oddzielnym blokiem, który mógł opuścić stanowisko, i dlatego przeżył historię, jakiej reliefy ze wzgórza nie przeżyły.\n\nJeśli zastanawiasz się, skąd nazwa Wrota do podziemi, jest to nazwa współczesna, nadana przez INAH. Dawni rzeźbiarze nie zostawili tytułu. Nie zostawili też zapisu, co dla nich oznaczała otwarta paszcza, więc każda interpretacja pozostaje interpretacją.\n\nW tej historii jest pewien ludzki szczegół. David Grove, który przez dziesięciolecia badał Chalcatzingo, zmarł w dwa tysiące dwudziestym trzecim roku. Nie dożył powrotu kamienia.\n\nPaszcza nie jest ozdobą. Arqueología Mexicana przytacza myśl bardzo rozpowszechnioną w Mezoameryce. Góra jest miejscem, gdzie mieszkają przodkowie i istoty nadprzyrodzone. Jaskinia jest wejściem do tej siedziby. Kamienna paszcza otwarta we wzgórzu ze źródłami pasuje do tej idei.\n\nNie wiadomo na pewno, gdzie pierwotnie stał. David Grove, który badał stanowisko przez dziesięciolecia, uważał, że prawdopodobnie wznosił się na wielkiej platformie, którą dziś nazywamy [Budowlą czwartą](chz_05_estructura_4). INAH w dwa tysiące dwudziestym piątym roku sugeruje, że mógł należeć do programu rzeźbiarskiego wzgórza. Obie hipotezy pozostają na stole.\n\nJego opuszczenie kraju też ma różne wersje. Według komunikatu INAH z dwa tysiące dwudziestego piątego roku kamień pękł na dwadzieścia pięć części pod koniec lat pięćdziesiątych. Inne źródła umieszczają go poza stanowiskiem gdzieś w latach sześćdziesiątych. W tysiąc dziewięćset sześćdziesiątym ósmym roku Grove opublikował go już jako obiekt, który nie znajdował się na swoim miejscu. Trafił do muzeum w stanie Nowy Jork.\n\nPowrót zajął lata. Między dwa tysiące dwudziestym trzecim a dwa tysiące dwudziestym piątym rokiem kamień spędził dwadzieścia jeden miesięcy w Pałacu Corteza w Cuernavace. Wrócił do Chalcatzingo w lutym dwa tysiące dwudziestego piątego roku i jest pokazywany od osiemnastego dnia tego miesiąca.\n\nKiedy obiekt wraca na swoje miejsce, zmienia się sposób zwiedzania stanowiska. Możesz obejrzeć kamień, a wychodząc, spojrzeć na wzgórze, które miał przed oczami ten, kto go rzeźbił. Dalej zobaczysz inne sceny z jaskiniami. W [Królu](chz_17_monumento_1_el_rey) postać siedzi w otworze w kształcie litery C. Na [Monumencie trzynastym](chz_15_monumento_13) inna postać znajduje się w paszczy ziemi."
+    },
+    "retos_observacion": {
+      "hash": "08d9c879b156d3fe",
+      "texto": [
+        "Policz płaty paszczy",
+        "Poszukaj bromelii w kącikach ust",
+        "Wyobraź sobie ten kamień ustawiony pionowo, pod gołym niebem, dwa tysiące pięćset lat temu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07cbc3ba6d49842d",
+      "texto": {
+        "Wymiary": "metr osiemdziesiąt na metr pięćdziesiąt",
+        "Waga": "około tony",
+        "Wiek": "około dwóch tysięcy pięciuset lat",
+        "Powrót": "luty dwa tysiące dwudziestego piątego roku",
+        "Motywy": "paszcza o czterech płatach i bromelie"
+      }
+    },
+    "faq_mito": {
+      "hash": "423bde38afa2c06d",
+      "texto": {
+        "pregunta": "Mit: Ten kamień to replika.",
+        "respuesta": "Rzeczywistość: Według INAH to oryginalny monolit, który wrócił do Chalcatzingo w dwa tysiące dwudziestym piątym roku."
+      }
+    }
+  }
+}

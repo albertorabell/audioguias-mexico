@@ -1,0 +1,55 @@
+{
+  "id": "chz_02_museo_portal_inframundo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1c18f947e71940bd",
+      "texto": "Museu de sítio: o Monumento 9, Portal para o submundo"
+    },
+    "frase_gancho": {
+      "hash": "0be9cc8a0e431aae",
+      "texto": "Um relevo de uma tonelada que voltou a Chalcatzingo depois de décadas fora do país."
+    },
+    "puente_narrativo": {
+      "hash": "393fb08f4ff5d5b1",
+      "texto": "Siga o seu percurso: agora vamos sair para ver onde vivia o povo que entalhou esta pedra."
+    },
+    "guion_corto": {
+      "hash": "91e6bf2354ce6683",
+      "texto": "Esta pedra pesa cerca de uma tonelada e esteve fora de Chalcatzingo durante décadas. É o Monumento nove, chamado Portal para o submundo. Mede um metro e oitenta por um metro e cinquenta e tem uns dois mil e quinhentos anos. Mostra uma boca aberta de quatro lóbulos, com bromélias nos cantos. Na ideia mesoamericana da montanha, a caverna é a entrada para a morada dos ancestrais e dos seres sobrenaturais. Essa imagem combina bem com um morro com nascentes. A pedra saiu do sítio entre o fim dos anos cinquenta e os anos sessenta. Voltou em fevereiro de dois mil e vinte e cinco e hoje está exposta neste museu."
+    },
+    "guion_largo": {
+      "hash": "960f5d666cf5baa4",
+      "texto": "Há pedras que viajam. O Monumento nove de Chalcatzingo saiu daqui há mais de meio século e voltou em dois mil e vinte e cinco. É conhecido como Portal para o submundo.\n\nÉ um relevo que mede um metro e oitenta por um metro e cinquenta e pesa cerca de uma tonelada. Calcula-se que foi entalhado entre oitocentos e quatrocentos anos antes de Cristo. Representa uma boca aberta de quatro lóbulos. Nos cantos da boca há umas plantas chamadas bromélias. Para situá-lo, ele pertence ao mesmo grande período dos relevos do morro, os mais antigos do Altiplano Central.\n\nUm baixo-relevo é uma imagem que sobressai pouco da superfície da pedra, como se emergisse dela. Quase todos os relevos de Chalcatzingo são desse tipo. Os do morro continuam em sua rocha. Este, ao contrário, é um bloco independente que pôde sair do sítio, e por isso viveu uma história que os relevos do morro não viveram.\n\nSe você se pergunta por que se chama Portal para o submundo, é um nome moderno dado pelo INAH. Os escultores antigos não deixaram um título. Tampouco deixaram escrito o que a boca aberta significava para eles, de modo que qualquer leitura é uma interpretação.\n\nHá um detalhe humano nesta história. David Grove, que dedicou décadas a estudar Chalcatzingo, morreu em dois mil e vinte e três. Não chegou a ver a pedra voltar.\n\nA boca não é um enfeite. A Arqueologia Mexicana registra uma ideia muito difundida na Mesoamérica. A montanha é o lugar onde habitam os ancestrais e os seres sobrenaturais. A caverna é o acesso a essa morada. Uma boca de pedra aberta em um morro com nascentes combina com essa ideia.\n\nNão se sabe com certeza onde ele esteve originalmente. David Grove, que estudou o sítio durante décadas, pensava que provavelmente foi erguido sobre a grande plataforma que hoje chamamos de [Estrutura quatro](chz_05_estructura_4). O INAH, em dois mil e vinte e cinco, sugere que pode ter feito parte do programa escultórico do morro. As duas ideias continuam sobre a mesa.\n\nSua saída do país também tem versões diferentes. Segundo um boletim do INAH de dois mil e vinte e cinco, a pedra se fragmentou em vinte e cinco partes no fim dos anos cinquenta. Outras fontes a situam fora do sítio em algum momento dos anos sessenta. Em mil novecentos e sessenta e oito, Grove já a publicou como uma peça que não estava em seu lugar. Acabou em um museu do estado de Nova York.\n\nVoltar levou anos. Entre dois mil e vinte e três e dois mil e vinte e cinco, a peça passou vinte e um meses no Palácio de Cortés, em Cuernavaca. Voltou a Chalcatzingo em fevereiro de dois mil e vinte e cinco e está exposta desde o dia dezoito desse mês.\n\nQuando uma peça volta ao seu lugar, muda a maneira de visitar o sítio. Você pode olhar a pedra e, ao sair, olhar o morro que ficava diante de quem a entalhou. Mais adiante você verá outras cenas com cavernas. Em [O Rei](chz_17_monumento_1_el_rey), um personagem está sentado dentro de uma boca em forma de C. No [Monumento treze](chz_15_monumento_13), outro personagem está na boca da terra."
+    },
+    "retos_observacion": {
+      "hash": "08d9c879b156d3fe",
+      "texto": [
+        "Conte os lóbulos da boca",
+        "Procure as bromélias nos cantos da boca",
+        "Imagine esta pedra em pé, ao ar livre, há dois mil e quinhentos anos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07cbc3ba6d49842d",
+      "texto": {
+        "Medidas": "um metro e oitenta por um metro e cinquenta",
+        "Peso": "cerca de uma tonelada",
+        "Idade": "uns dois mil e quinhentos anos",
+        "Retorno": "fevereiro de dois mil e vinte e cinco",
+        "Motivos": "boca de quatro lóbulos e bromélias"
+      }
+    },
+    "faq_mito": {
+      "hash": "423bde38afa2c06d",
+      "texto": {
+        "pregunta": "Mito: Esta pedra é uma réplica.",
+        "respuesta": "Realidade: Segundo o INAH, é o monólito original, que voltou a Chalcatzingo em dois mil e vinte e cinco."
+      }
+    }
+  }
+}

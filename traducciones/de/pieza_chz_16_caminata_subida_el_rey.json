@@ -1,0 +1,45 @@
+{
+  "id": "chz_16_caminata_subida_el_rey",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e0fd8081a233fb44",
+      "texto": "Spaziergang: der Aufstieg zu El Rey"
+    },
+    "frase_gancho": {
+      "hash": "0b4389cf20a171db",
+      "texto": "Ein kurzer Weg zum Zuhören, während du hinaufsteigst."
+    },
+    "puente_narrativo": {
+      "hash": "8270b2cfaca66a36",
+      "texto": "Du bist bei El Rey angekommen."
+    },
+    "guion_corto": {
+      "hash": "d403d03e6e88337f",
+      "texto": "Steig nun den Hang hinauf. Hoch oben auf dem Berg liegt das Relief, das Eulalia Guzmán als erstes untersuchte, im Jahr neunzehnhundertvierunddreißig, als der Regen es freigelegt hatte. Denk beim Gehen daran, dass die Reliefs hier mehrere Meter voneinander entfernt liegen und nicht alle zugleich zu sehen sind. Man muss sie ablaufen. Es gibt auch einen Bach, der das Regenwasser den Hang hinunterführt, nahe bei den höchstgelegenen Reliefs. Wenn du eine Szene mit einer Person erreichst, die in einer Höhle sitzt, bist du schon beim nächsten Audio."
+    },
+    "guion_largo": {
+      "hash": "e9b48292f89db7ae",
+      "texto": "Das hier ist ein Spaziergang. Du musst nicht stehen bleiben. Steig in Ruhe den Hang hinauf, während dich das Audio begleitet.\n\nHoch oben auf dem Berg liegt das Relief, das Eulalia Guzmán als erstes untersuchte, im Jahr neunzehnhundertvierunddreißig. Sintflutartige Regenfälle hatten einen Erdrutsch ausgelöst und es freigelegt. Heute kennen wir es als Monument eins, El Rey.\n\nWährend du hinaufgehst, bedenke, dass die Reliefs hier mehrere Meter voneinander entfernt liegen. Um sie zu sehen, musst du den Hang ablaufen, und vielleicht tat man das in der Antike genauso.\n\nNahe bei den höchstgelegenen Reliefs fließt ein Bach, der das Regenwasser den Hang hinunterträgt. Dieses Wasser und diese Steine haben ein gemeinsames Thema, wie du sehen wirst.\n\nWenn du eine Szene mit einer Person erreichst, die in einer Höhle sitzt, bist du schon beim nächsten Audio."
+    },
+    "retos_observacion": {
+      "hash": "84918765bf95284a",
+      "texto": [
+        "Steig langsam hinauf und betrachte den Fels des Berges",
+        "Suche den Bach, der den Hang hinunterfließt",
+        "Bleib stehen, wenn du eine Szene mit einer Höhle siehst"
+      ]
+    },
+    "especificaciones": {
+      "hash": "68ee0ea1c8f2c1b2",
+      "texto": {
+        "Art": "Spaziergang, ohne feste Station",
+        "Thema": "der Aufstieg zu El Rey"
+      }
+    }
+  }
+}

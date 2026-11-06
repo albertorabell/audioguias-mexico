@@ -1,0 +1,49 @@
+{
+  "id": "xoc_32_museo_arquitectura_vasijas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0eb2cca2b06c3ea4",
+      "texto": "Gli edifici dall’interno: rilievi, vasi e plastici"
+    },
+    "frase_gancho": {
+      "hash": "ffeaaf45f1536480",
+      "texto": "Pezzi che decorarono la città e oggetti che mostrano come si viveva."
+    },
+    "guion_corto": {
+      "hash": "55b4c0e059d36ca6",
+      "texto": "Questa sala mostra com’era la città dall’interno. L’edificio fu progettato dall’architetto Rolando Dada y Lemus e inaugurato nel millenovecentonovantasei. Ha sei sale con temi come l’architettura, la vita quotidiana, lo scambio e la religione. Secondo l’INAH, ci sono sezioni di architettura che espongono pezzi scultorei che decorarono gli edifici. La decorazione è ricca e varia, ed è associata soprattutto alla fertilità. Un’altra fonte menziona vasi elaborati e plastici di piramidi, alcuni con pigmenti rossi. Insieme danno un’idea di come appariva questa città: edifici decorati, oggetti d’uso quotidiano e persone che li facevano. Mentre percorri la sala, immagina quei pezzi tornare sui loro muri. Prima di uscire, cerca quello che più ti fa immaginare il colore che ebbe Xochicalco. Con questo termina il tuo percorso nel museo."
+    },
+    "guion_largo": {
+      "hash": "378e56b38acaca06",
+      "texto": "Finora hai visto la città dall’esterno. Questa sala te la mostra dall’interno. Il museo fu progettato dall’architetto Rolando Dada y Lemus. Fu terminato nel millenovecentonovantaquattro e inaugurato nell’aprile del millenovecentonovantasei. Secondo il libro dell’INAH di Alvarado León, fu il primo museo autosostenibile costruito al mondo. Ogni sala ha una cupola con specchi che distribuisce la luce del giorno, e i pannelli solari coprono i giorni nuvolosi. L’acqua piovana viene raccolta per i servizi, e i muri doppi ventilano l’edificio. All’esterno, l’architetto lo rese discreto perché non facesse concorrenza alla zona archeologica. Ha sei sale, e la sua forma esagonale permette di vederne tre da uno stesso punto. Espone più di novecento pezzi. I nomi delle sale danno un’idea del percorso. Sono I Doni della Terra, Uomini Guerrieri e Uomini Sacerdoti, Xochicalco Rifugio di Uomini, Mani Creatrici, I Rituali del Gioco, e Spazi Quotidiani e Tempi di Convivenza.\n\nSecondo l’INAH, la sala espone sezioni di architettura con pezzi scultorei che decorarono gli edifici della città. La decorazione è ricca e varia, ed è associata soprattutto alla fertilità.\n\nUn’altra fonte menziona che il museo ha anche vasi elaborati e plastici di piramidi, e che alcuni pezzi conservano pigmenti rossi.\n\nPensa a ciò che hai visto all’esterno: muri, terrazze e rilievi in pietra nuda. Qui puoi immaginare com’erano prima. Una fonte racconta che i rilievi della Piramide dei Serpenti Piumati furono dipinti di rosso, verde, giallo, azzurro, nero e bianco.\n\nI vasi, invece, parlano delle persone. In una delle case scavate da Webb e Hirth rimasero più di cento vasi quando la città fu abbandonata. Sono gli oggetti di tutti i giorni.\n\nPrima di uscire, cerca il pezzo che più ti fa immaginare il colore che ebbe Xochicalco. Con questo termina il tuo percorso nel museo."
+    },
+    "retos_observacion": {
+      "hash": "04e800ae8a4f5f61",
+      "texto": [
+        "Cerca un pezzo con tracce di colore",
+        "Confronta i plastici con la piramide che hai visto all’esterno",
+        "Guarda i vasi e pensa a chi li usava"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f9d79a5ae02287d7",
+      "texto": {
+        "Sala": "pezzi scultorei che decorarono gli edifici, associati soprattutto alla fertilità, secondo l’INAH",
+        "Altri pezzi": "vasi elaborati e plastici di piramidi, secondo Mesoweb",
+        "Pigmenti": "alcuni pezzi conservano il rosso"
+      }
+    },
+    "faq_mito": {
+      "hash": "2be0fbaab1971676",
+      "texto": {
+        "pregunta": "Mito: Tutto ciò che si vede a Xochicalco si trova nella sua posizione originale.",
+        "respuesta": "Realtà: Molti pezzi scolpiti sono esposti nel museo, e altri si trovano nel Museo Nazionale di Antropologia."
+      }
+    }
+  }
+}

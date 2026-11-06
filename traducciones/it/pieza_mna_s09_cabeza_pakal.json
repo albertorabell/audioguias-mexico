@@ -1,0 +1,60 @@
+{
+  "id": "mna_s09_cabeza_pakal",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "75a3c8a77276cf2f",
+      "texto": "Testa di Pakal in stucco"
+    },
+    "frase_gancho": {
+      "hash": "81e17739786c9ebf",
+      "texto": "Un giovane di stucco con tre fiori tra i capelli, ritrovato accanto a Pakal."
+    },
+    "puente_narrativo": {
+      "hash": "138cb59094e97945",
+      "texto": "Dalla tomba del padre passiamo alla pietra del figlio. Cerca un grande pannello di pietra calcarea in cui uno stesso re compare due volte, da bambino e da adulto, ai lati di una croce sacra."
+    },
+    "guion_corto": {
+      "hash": "5c44931fd0ee19e9",
+      "texto": "Questa testa è modellata in stucco, un impasto di calce, polvere di pietra calcarea e acqua che si lavorava come argilla e si induriva come pietra. Fu trovata nella [tomba di Pakal](mna_s09_cripta_pakal), a Palenque, sotto il sarcofago. Rappresenta un giovane dal viso affilato, occhi a mandorla e labbra carnose. Osserva il profilo: il naso prosegue quasi dritto fino alla fronte, risultato di una deformazione cranica ottenuta fin dall’infanzia. I capelli si dividono in ciocche, e sulla fronte porta tre boccioli di fiore, un simbolo legato al mais e alla vegetazione. Si pensa che sia stata staccata di proposito da una scultura intera e collocata come offerta. Nessuno sa con certezza chi rappresenti."
+    },
+    "guion_largo": {
+      "hash": "5a490b546f3214e6",
+      "texto": "Questa testa ha qualcosa che la colloca tra i ritratti più delicati dell’arte maya: la serenità. E allo stesso tempo qualcosa di inquietante: è tagliata. Non è un busto, ma ciò che resta di una figura intera, a cui hanno tolto la testa.\n\nPer capirlo, bisogna immaginare com’era Palenque. I suoi templi e i suoi palazzi non avevano il colore della pietra che vedi oggi nelle fotografie. Erano ricoperti di stucco modellato e dipinto di rosso, azzurro, giallo, con figure di dèi e di re a grandezza naturale. Gli scultori di Palenque erano famosi per il loro stucco: morbido, fluido e realistico. Questa testa, in effetti, apparteneva a una di quelle figure.\n\nPerché tagliarla? Gli archeologi che la trovarono pensarono che fosse stato fatto di proposito. Si pensa che, alla morte del re, si «uccidesse» un’immagine perché lo accompagnasse, come si seppellivano le persone a lui vicine o gli oggetti che aveva usato. Ricorda San Lorenzo, nella Sala del Golfo, dove i monumenti olmechi furono mutilati e sepolti: in Mesoamerica un’immagine era qualcosa di vivo, e distruggerla era anche un modo di offrirla.\n\nImmagina il momento del ritrovamento. Quando Ruz sollevò le lastre del pavimento della cripta, sotto l’enorme sarcofago, trovò un deposito di vasi di ceramica e, tra di essi, due teste di stucco. Su di esse gravavano diverse tonnellate di pietra e più di milleduecento anni. Qualcuno aveva collocato quelle teste con cura, come chi lascia un regalo ai piedi di un letto.\n\nOra osserva il profilo. La fronte fugge all’indietro in una linea quasi continua con il naso. Non è un tratto naturale: si otteneva fin da neonati, legando la testa tra due tavolette, l’usanza che hai visto nella sala di introduzione e nei volti dell’[Offerta 4](mna_s08_ofrenda4_laventa). C’è chi pensa che quel profilo ricordasse la forma di una pannocchia di mais tenero, e che per questo fosse simbolo di bellezza e di nobiltà. [Pakal](mna_s09_mascara_pakal), nella sua maschera di giada, ha lo stesso profilo.\n\nAnche i tre boccioli dell’acconciatura parlano. I fiori, per i maya, erano sinonimo di bellezza, di sacralità e di germoglio del mais. Il fatto che siano tre, sulla fronte, di lato e dietro, suggerisce una corona di vegetazione che circonda la testa. Si è proposto che sia il dio del mais giovane, oppure un principe che si identifica con lui. Non c’è modo di saperlo con certezza.\n\nUna ultima curiosità su questa tomba: da essa sale fino al tempio un tubo di pietra, che attraversa la scalinata. Si pensa che servisse a far sì che lo spirito del re continuasse a comunicare con il mondo di sopra. Una tomba con una linea diretta con i vivi.\n\nQuindi guarda di nuovo questo giovane: i suoi occhi a mandorla, la sua bocca socchiusa. Per quanto sia un pezzo «decapitato», nulla nel suo volto sembra triste. Sembra che aspetti. Quando la vedrai nella teca, mettiti di profilo: è il modo migliore per capire l’ideale di bellezza della nobiltà maya."
+    },
+    "retos_observacion": {
+      "hash": "c44c534e1226df81",
+      "texto": [
+        "Osserva il profilo: come prosegue il naso fino alla fronte?",
+        "Cerca i tre boccioli di fiore nell’acconciatura",
+        "Guarda le ciocche dei capelli: come sono tagliate?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1a0b4183dfbf5219",
+      "texto": {
+        "Cultura": "Maya",
+        "Periodo": "Classico recente (600-900 d.C.)",
+        "Materiale": "Stucco",
+        "Provenienza": "Palenque, Chiapas (Tempio delle Iscrizioni)",
+        "Dimensioni": "0.413 m di altezza x 0.202 m di larghezza",
+        "Ritrovamento": "1952, da Alberto Ruz Lhuillier, sotto il sarcofago di Pakal, nella camera funeraria del Tempio delle Iscrizioni"
+      }
+    },
+    "faq_mito": {
+      "hash": "a05fac64a03d78b6",
+      "texto": {
+        "pregunta": "Mito: I maya facevano le loro sculture solo in pietra e senza colore.",
+        "respuesta": "Realtà: Molte venivano modellate in stucco e dipinte con colori vivaci; con i secoli, la pittura è andata perduta."
+      }
+    }
+  }
+}

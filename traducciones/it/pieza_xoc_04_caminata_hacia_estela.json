@@ -1,0 +1,45 @@
+{
+  "id": "xoc_04_caminata_hacia_estela",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc9339435def9ede",
+      "texto": "Camminata: verso la Piazza della Stele"
+    },
+    "frase_gancho": {
+      "hash": "0b4389cf20a171db",
+      "texto": "Un breve tragitto da ascoltare mentre sali."
+    },
+    "puente_narrativo": {
+      "hash": "e1bc41dd1e4b1aa2",
+      "texto": "Sei arrivato alla Piazza della Stele dei Due Glifi."
+    },
+    "guion_corto": {
+      "hash": "5dbc30445fd16020",
+      "texto": "Segui le indicazioni verso la Piazza della Stele dei Due Glifi. Mentre cammini, guarda le terrazze e i muri di pietra che ti circondano. Kenneth Hirth racconta che la gente viveva su grandi terrazze e piattaforme dei pendii, e che le case si estendevano verso il fondo della valle. Le strade rialzate pavimentate collegavano i settori della città. Non erano ornamenti: portavano persone, merci e notizie da un quartiere all’altro. Se il cammino sale, pensa che chi viveva qui lo saliva ogni giorno. Quando arrivi a una piazza ampia, con una stele al centro, sei già dove dovevi essere."
+    },
+    "guion_largo": {
+      "hash": "52fb60cfc7ea80ec",
+      "texto": "Questa è una camminata. Non serve fermarsi. Segui le indicazioni verso la Piazza della Stele dei Due Glifi e lascia che l’audio ti accompagni.\n\nMentre avanzi, guarda le terrazze e i muri di pietra che ti circondano. Kenneth Hirth spiega che la gente viveva su grandi terrazze e piattaforme dei pendii, e che le case si estendevano verso il fondo della valle. Ciò che vedi come paesaggio fu un quartiere.\n\nLe strade rialzate pavimentate collegavano i settori della città. Non erano un ornamento. Portavano persone, merci e notizie da un quartiere all’altro.\n\nSe il cammino sale, pensa che chi viveva qui lo saliva ogni giorno, con un carico o senza. In una città di colli, camminare faceva parte del lavoro.\n\nQuando arrivi a una piazza ampia, con una stele al centro, sei già nell’audio successivo."
+    },
+    "retos_observacion": {
+      "hash": "91f8e944fdb03547",
+      "texto": [
+        "Osserva i muri che sostengono le terrazze",
+        "Cerca quante direzioni ha il cammino",
+        "Cammina lentamente e guarda il paesaggio"
+      ]
+    },
+    "especificaciones": {
+      "hash": "da789b4af3f8c1ed",
+      "texto": {
+        "Tipo": "camminata, senza tappa fissa",
+        "Tema": "terrazze, strade rialzate e quartieri della città"
+      }
+    }
+  }
+}

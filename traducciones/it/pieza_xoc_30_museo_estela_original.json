@@ -1,0 +1,54 @@
+{
+  "id": "xoc_30_museo_estela_original",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2318589a1e1f2bff",
+      "texto": "La Stele dei Due Glifi, l’originale"
+    },
+    "frase_gancho": {
+      "hash": "f94c204101cb844a",
+      "texto": "Il pezzo centrale del museo: due segni del calendario incisi nella pietra."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "Continua nel museo: la sala successiva mostra altri pezzi del sito."
+    },
+    "guion_corto": {
+      "hash": "3fe3fc2ad6bca9b3",
+      "texto": "Questo è il pezzo centrale del museo: la Stele dei Due Glifi originale. Secondo l’INAH, è un monolito inciso con due glifi del calendario, probabilmente legati a un fatto importante della storia di Xochicalco. Uno è un anno, dieci canna, e l’altro un giorno, nove occhio di rettile. La stele che hai visto nella piazza è una replica. Medina Romero propone che la data corrisponda all’inaugurazione della Piramide dei Serpenti Piumati. È una proposta, non un dato certo. Osserva i glifi: sono segni del tempo posti nella pietra perché un’intera città ricordasse un giorno."
+    },
+    "guion_largo": {
+      "hash": "e7c003a06489c07a",
+      "texto": "Ecco il pezzo che hai visto nella piazza, ma questo è l’originale.\n\nSecondo l’INAH, la Stele dei Due Glifi è il centro di una sala del museo. È un monolito inciso con due glifi del calendario, probabilmente legati a un fatto importante della storia di Xochicalco.\n\nUno dei glifi è un anno, dieci canna. L’altro è un giorno, nove occhio di rettile. La guida dell’INAH racconta che questa fu una delle quattro stele trovate nel sito. Quella che hai visto nella [Plaza de la Estela](xoc_05_plaza_estela_dos_glifos) è una replica.\n\nMedina Romero propone che quella data corrisponda all’inaugurazione della Piramide dei Serpenti Piumati. È una proposta, non un dato certo. Quello che puoi vedere con sicurezza è ciò che è inciso: due segni che servirono a fissare un momento.\n\nOsserva l’intaglio. Una stele è una pietra alta con rilievi, pensata per essere vista da molte persone. Qualcuno decise che quel giorno meritava di restare nella pietra."
+    },
+    "retos_observacion": {
+      "hash": "9850c246456eb565",
+      "texto": [
+        "Cerca i due glifi sulla stele",
+        "Confronta con la replica che hai visto nella piazza",
+        "Pensa quale giorno della tua vita metteresti nella pietra"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d870fcd1d47e4b64",
+      "texto": {
+        "Pezzo": "monolito con due glifi del calendario",
+        "Glifi": "anno dieci canna e giorno nove occhio di rettile",
+        "Ubicazione": "Museo di Sito di Xochicalco, secondo l’INAH",
+        "Stele trovate nel sito": "quattro, secondo la guida dell’INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee4187cc7ac9d4d9",
+      "texto": {
+        "pregunta": "Mito: La stele della piazza è l’originale.",
+        "respuesta": "Realtà: Quella della piazza è una replica. L’originale si trova nel Museo di Sito."
+      }
+    }
+  }
+}

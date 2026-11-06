@@ -1,0 +1,22 @@
+{
+  "id": "tmc-04-museo",
+  "tipo": "sala",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "bdbf70e509d37de2",
+      "texto": "Il Museo del Templo Mayor"
+    },
+    "frase_gancho": {
+      "hash": "2eba85b9ca40aced",
+      "texto": "Ciò che è stato trovato sotto il suolo della città."
+    },
+    "introduccion_narrativa": {
+      "hash": "59d39bb743f29257",
+      "texto": "Entri nel Museo del Templo Mayor, che custodisce ciò che è emerso dagli scavi a partire dal millenovecentosettantotto. Sono nove tappe nelle sue otto sale, disposte attorno alle due cappelle del tempio. Vedrai il Tlaltecuhtli, gli antecedenti di Tenochtitlan, le offerte, il tributo, la sala di Huitzilopochtli con la Coyolxauhqui, la sala di Tláloc, la natura e la conquista. I numeri delle sale e l’ordine possono cambiare con i lavori di rinnovamento del museo."
+    }
+  }
+}

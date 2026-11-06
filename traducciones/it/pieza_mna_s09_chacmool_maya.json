@@ -1,0 +1,56 @@
+{
+  "id": "mna_s09_chacmool_maya",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cdc1f808fa47a780",
+      "texto": "Chac Mool di Chichén Itzá"
+    },
+    "frase_gancho": {
+      "hash": "ecc995f3bb7d77d6",
+      "texto": "Un uomo sdraiato, con la testa girata, che porta le offerte agli dèi."
+    },
+    "puente_narrativo": {
+      "hash": "ecc000e1c39e8ddf",
+      "texto": "Dal Chac Mool passiamo all’architettura. Esci nel giardino della sala e cerca un tempio che custodisce le copie di alcune pitture famose, quelle che i maya realizzarono nella selva del Chiapas."
+    },
+    "guion_corto": {
+      "hash": "aba540b879cfafd8",
+      "texto": "Questa scultura di pietra calcarea è alta più di un metro e lunga quasi un metro e mezzo. Viene da Chichén Itzá, nello Yucatán, e fu realizzata tra l’anno novecento e il milleduecento. È un Chac Mool: un uomo sdraiato sulla schiena, con le ginocchia piegate e la testa girata verso di te. Sul ventre sostiene un recipiente rotondo per le offerte: copal, cibo, forse cuori. Osserva i dettagli: grandi orecchini quadrati, un pettorale a forma di farfalla, sandali con il paratallone. Ha il volto ovale e un’espressione neutra, difficile da leggere. Non è un dio né un re: si pensa che sia un messaggero tra gli uomini e gli dèi."
+    },
+    "guion_largo": {
+      "hash": "4cc90744153d484f",
+      "texto": "Nella Sala tolteca ti ho lasciato una domanda: chi influenzò chi, Tula su Chichén Itzá, o Chichén Itzá su Tula? Ecco qui l’altro lato. Questo Chac Mool vive nel mondo maya, a più di mille chilometri da Tula, ed è molto simile a quello tolteco. Come se la domanda non avesse una risposta semplice.\n\nQuello che sappiamo è che, intorno all’anno novecento, Chichén Itzá era una città enorme, con edifici che mescolavano elementi maya e del Messico centrale. Lì c’è il Tempio dei Guerrieri, con le sue colonne di guerrieri quasi identiche a quelle di Tula. E all’ingresso o in cima a diversi templi, un Chac Mool. Alcuni pensano che siano arrivati i toltechi; altri, che sia stato uno scambio tra due mondi potenti; altri ancora, che Chichén fosse persino anteriore a Tula. Gli specialisti continuano a discutere, e forse più di una teoria ha ragione.\n\nPensa a ciò che faceva. Quella testa girata di scatto da un lato sembra aver appena sentito il tuo passo. Stava all’ingresso di un tempio, per vigilare e accogliere chi arrivava. E nel recipiente sul ventre si lasciavano copal, piume, giada, cibo e, forse, i cuori dei sacrifici. La figura era un intermediario: colui che portava i doni degli uomini fino agli dèi. Ogni offerta passava per le sue mani. È un gesto di servizio: non è il dio che riceve, ma chi consegna, e per questo il suo corpo è sempre in tensione.\n\nSul nome conosci già la storia: glielo diede Augustus Le Plongeon nell’Ottocento, credendo che fosse il ritratto di un re. Non lo era, e non sappiamo come lo chiamassero. Ma il nome è rimasto e oggi serve per tutte le sculture di questo tipo, da Tula fino allo Yucatán.\n\nE ce n’è anche più a ovest. Nella sala dell’Occidente vedrai un altro Chac Mool, quello dei purépecha, fatto di pietra vulcanica in quella che oggi è il Michoacán. È una delle immagini più viaggiatrici del Messico antico: da Tula allo Yucatán, dallo Yucatán al Templo Mayor, da lì al Michoacán. Un modo di stare sdraiati che tutti capirono.\n\nChichén Itzá significa più o meno «alla bocca del pozzo degli itzá». Il pozzo è un cenote sacro, nel quale si gettavano offerte. Lì sono stati recuperati oggetti di giada, oro, copal e altri tesori. È un indizio di quanto valesse l’acqua, e di quanto le si chiedesse.\n\nCon questo pezzo si chiude il percorso nella Sala Maya, che era iniziato con [Pakal](mna_s09_mascara_pakal) nell’anno 683. Tra lui e questo Chac Mool passarono tra i due e i cinque secoli, e molti cambiamenti. Intorno all’anno novecento, diverse grandi città del sud maya furono abbandonate. Ma il mondo maya continuò, al nord, con Chichén Itzá e poi Mayapán. E continua oggi, con milioni di persone che parlano lingue maya. Non è un mistero scomparso: è una cultura che continua."
+    },
+    "retos_observacion": {
+      "hash": "c16972348e907dee",
+      "texto": [
+        "Osserva la testa: verso dove guarda?",
+        "Guarda il recipiente che sostiene sul ventre",
+        "Confronta la sua posa con quella del Chac Mool della Sala Tolteco"
+      ]
+    },
+    "especificaciones": {
+      "hash": "64e9fb5693638f2b",
+      "texto": {
+        "Cultura": "Maya",
+        "Periodo": "Postclassico antico",
+        "Materiale": "Pietra calcarea",
+        "Provenienza": "Chichén Itzá, Yucatán",
+        "Dimensioni": "1.10 m di altezza x 1.48 m di larghezza",
+        "Ritrovamento": "XIX secolo, da Augustus Le Plongeon, nella Piattaforma di Venere di Chichén Itzá"
+      }
+    },
+    "faq_mito": {
+      "hash": "16a968d291d57d38",
+      "texto": {
+        "pregunta": "Mito: I maya scomparvero misteriosamente dopo l’anno novecento.",
+        "respuesta": "Realtà: Molte città del sud furono abbandonate, ma il mondo maya continuò al nord. Oggi milioni di persone parlano lingue maya."
+      }
+    }
+  }
+}

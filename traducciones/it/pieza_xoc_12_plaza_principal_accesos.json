@@ -1,0 +1,54 @@
+{
+  "id": "xoc_12_plaza_principal_accesos",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "590916867dd76c70",
+      "texto": "La Plaza Principal"
+    },
+    "frase_gancho": {
+      "hash": "787d3d0fabd17aa4",
+      "texto": "La parte meglio protetta della città, dove si concentrava il potere."
+    },
+    "puente_narrativo": {
+      "hash": "0b62f0a1180a75e2",
+      "texto": "Continua il tuo percorso: ciò che segue si trova in questa stessa piazza o molto vicino."
+    },
+    "guion_corto": {
+      "hash": "f6ac845f5a845dff",
+      "texto": "Sei arrivato nella parte che proteggevano di più. Secondo l’INAH, la Plaza Principal si trova su un rialzo artificiale e vi si entra attraverso due portici difesi. La guida la descrive come la zona meglio conservata e di più difficile accesso di Xochicalco. Qui si trovano il Tempio dei Serpenti Piumati, una Piramide Gemella e strutture amministrative. C’è anche il Tempio delle Stele, che custodiva tre stele oggi nel Museo Nazionale di Antropologia. A ovest si trova l’Acropoli, dove viveva il governante. Tutto indica che qui si concentrava il potere, e che questo nucleo cerimoniale sarebbe bruciato alla fine della città. Guardati intorno e individua l’edificio con i serpenti sulle pareti."
+    },
+    "guion_largo": {
+      "hash": "357c95846ca66cd5",
+      "texto": "Sei arrivato nella parte che proteggevano di più.\n\nImmagina il percorso di un visitatore dell’epoca. Ha superato accessi difesi, è salito lungo le terrazze e si è lasciato alle spalle il mercato e le botteghe. Ora entra da uno dei due portici difesi che, secondo l’INAH, danno accesso a questa piazza. Si trova su un rialzo artificiale: anche l’altezza è un messaggio.\n\nLa guida dell’INAH descrive la Plaza Principal come la zona meglio conservata e di più difficile accesso di Xochicalco. Qui si riuniscono vari edifici. Il più conosciuto è il Tempio dei Serpenti Piumati. C’è anche una Piramide Gemella e ci sono strutture amministrative. Nella Piramide Gemella furono recuperate circa quattrocento pietre con resti di pittura murale, secondo uno studio di González Crespo e della sua équipe.\n\nC’è anche il Tempio delle Stele. Secondo Medina Romero, custodiva tre stele che oggi si trovano nel Museo Nazionale di Antropologia, a Città del Messico. César Sáenz le scavò nel millenovecentosessantuno. Erano frammentate, e Sáenz concluse che furono gli stessi abitanti di Xochicalco a distruggerle di proposito prima di abbandonare la città. Secondo Andrews e Glascock, in questo centro del potere vivevano circa mille persone: sacerdoti, l’élite del palazzo, burocrati e servitori. Una stele è una pietra alta con rilievi. Hirth racconta che ciascuna nomina un governante: sette Occhio di Rettile, sette Pioggia e quattro Movimento. Sono i primi nomi di re scritti nel Messico centrale e i primi testi lunghi dell’Altopiano. Alcune impronte di piedi incise indicano in quale ordine leggerle. Un’altra fonte le descrive con una maschera di giaguaro e serpente, bande celesti e un’immagine di Tláloc.\n\nA ovest si trova l’Acropoli. Secondo Hirth, lì sorgeva il palazzo del governante e il centro amministrativo della città. Hirth descrive anche una piazza cerimoniale a est dell’Acropoli.\n\nL’osservatorio, una grotta sotto le piattaforme di questa zona, ha una sua tappa. Oggi non si può entrare.\n\nTutto indica che qui si concentrava il potere. E anche, secondo Webb e Hirth, è il nucleo cerimoniale che sarebbe bruciato alla fine della città. Tieni a mente questa idea: più avanti ci torneremo.\n\nUna fonte indica che l’accesso alla piazza potrebbe essere limitato. Verifica una volta arrivato quali parti puoi percorrere. Prima di proseguire, prenditi un momento e guardati intorno, con il collo rivolto verso l’alto e senza fretta."
+    },
+    "retos_observacion": {
+      "hash": "f9522d040428af12",
+      "texto": [
+        "Individua l’edificio con i serpenti sulle pareti",
+        "Cerca l’Acropoli, a ovest",
+        "Osserva i portici da cui si entra"
+      ]
+    },
+    "especificaciones": {
+      "hash": "300b98ed915506ac",
+      "texto": {
+        "Accesso": "due portici difesi",
+        "Stato": "la parte meglio conservata della città",
+        "Edifici": "Tempio dei Serpenti Piumati, Piramide Gemella, Tempio delle Stele, strutture amministrative e Acropoli",
+        "Stele del tempio": "tre, oggi nel Museo Nazionale di Antropologia"
+      }
+    },
+    "faq_mito": {
+      "hash": "08703b1657dfc0c2",
+      "texto": {
+        "pregunta": "Mito: Le stele sono ancora nel Tempio delle Stele.",
+        "respuesta": "Realtà: Le tre stele del tempio si trovano oggi nel Museo Nazionale di Antropologia."
+      }
+    }
+  }
+}

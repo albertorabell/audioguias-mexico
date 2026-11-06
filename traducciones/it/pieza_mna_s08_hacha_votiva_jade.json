@@ -1,0 +1,62 @@
+{
+  "id": "mna_s08_hacha_votiva_jade",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "148db46b88168d5e",
+      "texto": "Ascia votiva olmeca di giada (tipo Kunz)"
+    },
+    "frase_gancho": {
+      "hash": "652993826bc8c31c",
+      "texto": "Un’ascia di giada che non tagliò mai nulla: il volto di un giaguaro soprannaturale."
+    },
+    "puente_narrativo": {
+      "hash": "a26ea061c3857301",
+      "texto": "Dalla giada, il materiale olmeco per eccellenza, passiamo alla gomma, il suo altro tesoro. Cerca una cintura di pietra a forma di U con un rospo sul davanti: è un’immagine del gioco della palla."
+    },
+    "guion_corto": {
+      "hash": "7f7f4f2e4d36ed99",
+      "texto": "Quest’ascia di giada, alta circa ventotto centimetri, non fu fatta per tagliare il legno. È un’ascia votiva: un oggetto di offerta e di prestigio. Nella parte alta ha il volto di un essere soprannaturale che unisce tratti umani e di giaguaro: occhi a mandorla, sopracciglia come fiamme e una bocca aperta con gli angoli rivolti verso il basso. La cosa più caratteristica è l’incavo a forma di V sulla sommità della testa, che si collega al germoglio del mais. Il corpo si restringe verso il basso, fino a formare un filo simmetrico. Gli Olmechi apprezzavano la giada più di qualsiasi altro materiale: aveva il colore dell’acqua, del mais giovane, della vita. Questo tipo di asce è noto come «tipo Kunz»."
+    },
+    "guion_largo": {
+      "hash": "8df381bba2da1b30",
+      "texto": "Un’ascia che non taglia. Sembra una contraddizione, ma è un indizio: per gli Olmechi, ciò che contava in questo oggetto non era il filo, ma la forma e il materiale. È un’ascia trasformata in insegna e in offerta. Per questo si chiama votiva: veniva offerta agli dei, oppure esibita come segno di rango. Ne hai già viste sei, disposte in fila, nell’[Offerta 4](mna_s08_ofrenda4_laventa) di La Venta.\n\nLa giada è durissima e non si lavora con il metallo: si leviga con sabbia, acqua e pazienza, per settimane. Per questo un’ascia di giada era un tesoro: in ognuna ci sono settimane di lavoro, come nella [coppa di cristallo di rocca](mna_s07_copa_cristal_roca) di Oaxaca. Inoltre la giada doveva arrivare da lontano. Si pensa che buona parte della giada olmeca provenisse dal Guatemala, a centinaia di chilometri, lungo rotte commerciali.\n\nGuarda il volto, in alto. Non è del tutto umano né del tutto animale. Ha gli occhi allungati, come socchiusi; le sopracciglia, che sembrano fiamme; e la bocca aperta, con gli angoli abbassati, la bocca che già conosci dai bambini olmechi. Gli specialisti lo descrivono come un essere soprannaturale con tratti di giaguaro. Sopra la fronte, la testa si divide in un incavo a forma di V. È stato interpretato come il punto da cui sgorga la pianta del mais dalla testa del dio, oppure come la fenditura di una montagna sacra.\n\nPer gli Olmechi, l’ascia di pietra levigata era lo strumento che apriva la selva per seminare. Per questo divenne un simbolo di agricoltura e di fertilità. Alcuni studiosi la collegano anche al fulmine, che ferisce la terra perché sgorghi l’acqua, la stessa idea che secoli dopo sarebbe stata incarnata da [Cocijo](mna_s07_urna_cocijo). Un’ascia, un fulmine e un germoglio di mais: tre idee in un solo oggetto.\n\nÈ curioso quello che accadde poi con queste asce. Duemila anni dopo, i Mexica trovavano oggetti olmechi, di quella cultura ormai lontanissima nel tempo, e li conservavano, come reliquie, nelle offerte del Templo Mayor. Sono stati rinvenuti lì pezzi olmechi sepolti. Cioè, i Mexica trattavano già questa cultura come un’antichità venerabile, proprio come fai tu adesso.\n\nIl nome «tipo Kunz» deriva da un’ascia simile, famosa, che nel 1890 acquistò il gemmologo George F. Kunz, e che oggi si conserva a New York, nel Museo di Storia Naturale. È un altro pezzo messicano che vive lontano da casa, come il Copricapo di Vienna. Gli specialisti chiamano «tipo Kunz» quelle che le somigliano: una forma elegante e simmetrica, con una figura nella parte alta.\n\nPensa all’insieme: un’ascia che non taglia, un giaguaro che non ruggisce, un germoglio di mais che non cresce mai. Tutto in questo pezzo è fatto per dire qualcosa di più di ciò che si vede. E forse questa è l’eredità olmeca più duratura: l’idea che gli oggetti possano essere simboli potenti quanto la selva stessa."
+    },
+    "retos_observacion": {
+      "hash": "c643e18534cca7da",
+      "texto": [
+        "Cerca l’incavo a forma di V sulla sommità della testa",
+        "Osserva le sopracciglia come fiamme e la bocca aperta",
+        "Nota come l’ascia si restringe verso il basso, fino a formare un filo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "21e8fb3064ff9170",
+      "texto": {
+        "Cultura": "Olmeca",
+        "Periodo": "Preclassico medio",
+        "Materiale": "Giadeite (verde scuro, con incisioni)",
+        "Provenienza": "Costa del Golfo, Messico",
+        "Misure": "0,29 m di altezza x 0,135 m di larghezza x 0,03 m di spessore"
+      }
+    },
+    "faq_mito": {
+      "hash": "0aa828d9530299b1",
+      "texto": {
+        "pregunta": "Mito: Le asce olmeche di giada erano strumenti da lavoro.",
+        "respuesta": "Realtà: Erano insegne e offerte. La giada valeva più come simbolo che come strumento, e queste asce non erano pensate per tagliare."
+      }
+    }
+  }
+}

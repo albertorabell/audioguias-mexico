@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_piedra_arzobispado",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4a54ed08e0272ffa",
+      "texto": "Pietra dell’Ex Arcivescovado"
+    },
+    "frase_gancho": {
+      "hash": "c284fe419ae715d3",
+      "texto": "Un cilindro di pietra che ha dormito per quasi cinquecento anni sotto il centro della città."
+    },
+    "puente_narrativo": {
+      "hash": "7576a0617769d562",
+      "texto": "Dal cilindro dei prigionieri passiamo a un altro recipiente per le offerte, questa volta a forma di animale. Cammina verso il giaguaro di pietra che segue: sulla sua schiena c’è una cavità fatta per ricevere cuori."
+    },
+    "guion_corto": {
+      "hash": "ed48957fc0baee37",
+      "texto": "Undici scene di conquista girano intorno a questo cilindro di pietra. In tutte si ripete la stessa immagine: un sovrano, con le insegne di un dio, afferra per i capelli un guerriero vinto, e accanto a ogni vinto compare il glifo del suo popolo. È la Pietra dell’Ex Arcivescovado, un’opera mexica scoperta nel 1988, durante alcuni lavori in via Moneda, nel centro di Città del Messico. Alcuni specialisti la mettono in relazione con Motecuhzoma Ilhuicamina, il tlatoani che governò prima di Tízoc. Sulla faccia superiore c’è un disco solare con un volto al centro. Si pensa che servisse per combattimenti rituali e per ricevere offerte di sangue e di cuori."
+    },
+    "guion_largo": {
+      "hash": "124b068dc4a791ad",
+      "texto": "A volte l’archeologia non comincia con una spedizione, ma con uno scavo di fondazione. Nel 1988, durante i lavori di fondazione di un vecchio edificio di via Moneda, nel Centro Storico di Città del Messico, gli operai si imbatterono in una grande pietra rotonda. Era al suo posto, a poca distanza dal Templo Mayor, nel luogo in cui i mexica l’avevano collocata quasi cinquecento anni prima.\n\nL’edificio era l’antico Palazzo dell’Arcivescovado, ed è per questo che il pezzo porta questo nome, anche se non ha nulla di coloniale. Il suo terreno faceva parte del Recinto Sacro di Tenochtitlan, il cuore cerimoniale della capitale mexica. Per secoli la città moderna è cresciuta sopra un monumento che nessuno sapeva fosse lì.\n\nÈ un cilindro largo e basso, di basalto, di oltre due metri di diametro. Se cammini intorno, vedrai undici scene quasi identiche, separate da una barra che ripete lo stesso motivo. In ognuna, un sovrano afferra per i capelli un guerriero vinto. Prendere qualcuno per i capelli era il gesto della vittoria totale. Accanto a ogni prigioniero c’è un glifo, il nome del suo popolo; secondo alcuni studi, tra questi compaiono popoli della valle del Messico come Chalco o Xochimilco.\n\nIl sovrano indossa le insegne di un dio. Gli studi iconografici identificano i suoi paramenti con quelli di Xiuhtecuhtli, il dio del fuoco; altri specialisti lo leggono come Tezcatlipoca. Non importa tanto quale: il re non si presenta come un uomo qualunque, ma come un dio che sottomette i suoi nemici.\n\nE chi è il re? Alcuni ricercatori credono che sia Motecuhzoma Ilhuicamina, il quinto tlatoani, che governò dal 1440 al 1469. Se è così, questa pietra è anteriore a quella di Tízoc, quella che hai appena visto. Le due condividono la stessa idea: un elenco di vittorie che era anche una tavola per le offerte.\n\nSe potessi affacciarti sulla faccia superiore, vedresti un disco solare. Nella cavità centrale c’è un volto umano, quello del Sole, e intorno ci sono bordi con i simboli del sacrificio: teschi, ossa incrociate, cuori, mani e coltelli. Si pensa che la pietra servisse come temalácatl, una piattaforma per il combattimento rituale, e come cuauhxicalli, un recipiente per i cuori e il sangue offerti al Sole.\n\nQuesti riti sono legati a Tlacaxipehualiztli, la festa di primavera dedicata a [Xipe Tótec](mna_s04_xipe_totec), il dio della pelle che hai visto nella sala di Teotihuacán. In nahuatl, il nome della festa significa più o meno «lo scuoiamento di persone». È una parola dura, e conviene capirla nel suo contesto: per i mexica, quella festa faceva parte del rinnovamento della terra.\n\nC’è una curiosa coincidenza. La [Pietra di Tízoc](mna_s06_tizoc) apparve nel 1791, durante dei lavori nella Plaza Mayor; quella dell’Arcivescovado, nel 1988, anch’essa durante dei lavori, a pochi isolati di distanza. Quasi duecento anni separano i due ritrovamenti, e in entrambi i casi la città moderna inciampò nel passato mentre scavava.\n\nQuando ti allontani, pensa a questo: sotto le strade su cui cammini ci sono ancora altri pezzi in attesa. La città, oggi, li cerca ancora."
+    },
+    "retos_observacion": {
+      "hash": "9b03c3251789471f",
+      "texto": [
+        "Conta le scene di conquista che circondano il cilindro",
+        "Cerca il sovrano che afferra un guerriero per i capelli",
+        "Guarda i bordi: ci sono teschi, cuori, mani e coltelli"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9db9be30d0a4084e",
+      "texto": {
+        "Cultura": "Mexica",
+        "Periodo": "Postclassico recente (intorno al 1440-1469 d.C., regno di Motecuhzoma Ilhuicamina)",
+        "Materiale": "Basalto scolpito ad alto rilievo (11 scene di conquista)",
+        "Provenienza": "Antico Palazzo dell’Arcivescovado, via Moneda 4, Centro Storico, Città del Messico (rinvenuta nel 1988)",
+        "Misure": "72 cm di altezza x 224 cm di diametro"
+      }
+    },
+    "faq_mito": {
+      "hash": "463f7db54f9b057c",
+      "texto": {
+        "pregunta": "Mito: La Pietra dell’Ex Arcivescovado è un altro calendario azteco, come la Pietra del Sole.",
+        "respuesta": "Realtà: Non è un calendario. È un monumento di conquista: le sue undici scene mostrano le vittorie di un sovrano mexica."
+      }
+    }
+  }
+}

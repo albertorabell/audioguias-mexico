@@ -1,0 +1,56 @@
+{
+  "id": "mna_s09_mascara_pakal",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1282acad5f76e33c",
+      "texto": "Maschera di Pakal"
+    },
+    "frase_gancho": {
+      "hash": "dcd7014cca809c97",
+      "texto": "Un re ricoperto di giada per rinascere come il dio del mais."
+    },
+    "puente_narrativo": {
+      "hash": "b56ddb831027a898",
+      "texto": "Questa maschera non è apparsa in una vetrina, ma in una camera segreta. Cerca la ricostruzione a grandezza naturale di quella tomba: un sarcofago di pietra sotto una luce rossa."
+    },
+    "guion_corto": {
+      "hash": "4d5c8b5c64539294",
+      "texto": "Questa maschera di giada copriva il volto di Pakal, il re più famoso di Palenque, morto nell’anno 683. Misura circa venticinque centimetri di altezza ed è formata da centinaia di tessere di giada, intagliate una per una e incastrate come in un mosaico. Gli occhi sono di conchiglia bianca con pupille di ossidiana, ed è per questo che lo sguardo sembra vivo. Guarda la bocca socchiusa: i denti superiori formano il segno ik, il simbolo del vento e del respiro. Il naso lungo, che segue la linea della fronte, era l’ideale di bellezza della nobiltà maya. Per i Maya, la giada era acqua, mais tenero e vita. Ricoprire il re con essa significava trasformarlo nel dio del mais, perché rinascesse."
+    },
+    "guion_largo": {
+      "hash": "dec61b0a22f0a144",
+      "texto": "Immagina una porta che nessuno apre per più di milleduecento anni. Quando finalmente si aprì, nel 1952, dentro tutto era al suo posto: un enorme sarcofago, uno scheletro coperto di polvere rossa e, sul suo volto, questa maschera.\n\nL’archeologo Alberto Ruz Lhuillier esplorava da anni il Tempio delle Iscrizioni, a Palenque, nel Chiapas. Si racconta che avesse notato qualcosa di strano nel pavimento del tempio: una lastra con dei fori chiusi da tappi di pietra. Sotto c’era una scala riempita di detriti. Ci mise quattro anni a svuotarla. Il 15 giugno 1952 arrivò finalmente alla cripta, e lì c’era Pakal. Raccontano che, entrando, le pareti della camera brillassero, ricoperte da uno strato di cristalli di calcio formatosi nei secoli.\n\nChi fu? Pakal, il cui nome significa «scudo», salì al trono di Palenque quando era un bambino di dodici anni e governò per più di sessanta. Morì ormai molto anziano, intorno agli ottant’anni, un’età notevole per la sua epoca. Sotto il suo governo, Palenque si riempì di templi, palazzi e iscrizioni. Per seppellirlo, la sua famiglia ricoprì il suo corpo di cinabro, una polvere rossa che per i Maya evocava il sangue e l’alba, e lo circondò di collane, bracciali, orecchini e anelli di giada.\n\nOggi sappiamo che questa maschera non è un ritratto fedele dell’anziano. Si pensa che idealizzi il re: lo mostra eternamente giovane, come il dio del mais, che muore e rinasce a ogni raccolto. Pakal non andava nell’oltretomba come un semplice mortale, ma come un seme che sarebbe germogliato di nuovo. È la stessa idea della [maschera di Teotihuacán](mna_s04_mascara_serpentina) che hai visto prima, portata all’estremo.\n\nI suoi primi anni al potere non li visse da solo: la storia maya ricorda sua madre, la signora Sak Kuk, come colei che gli trasmise il diritto di governare. E la giada, inoltre, veniva da lontano. Si ritiene che gran parte arrivasse dalla valle del Motagua, in Guatemala, a centinaia di chilometri da Palenque. Ricorda la giada del [dio pipistrello](mna_s07_mascara_murcielago) di Oaxaca: qui diventa un volto intero. La giada non si lavorava con utensili di metallo, che i Maya non avevano: si consumava con sabbia, acqua e molta pazienza, e ogni tessera della maschera è il risultato di ore di lavoro. Centinaia di tessere, intagliate una per una, furono il dono più prezioso che un re potesse ricevere. La maschera fu restaurata all’inizio di questo secolo: fu rimontata con l’aiuto dei documenti realizzati nel 1952.\n\nPer vedere il luogo dove fu trovata non hai bisogno di andare a Palenque. A pochi passi, la sala riproduce a grandezza naturale la camera funeraria, con il suo sarcofago sotto una luce rossa. Lì capirai meglio perché un re si congedò dal mondo ricoperto di giada, di cinabro e di dèi.\n\nGuarda questa maschera un’ultima volta. Un re che governò per più di sessant’anni volle assicurarsi che il suo sguardo restasse vivo. Più di milletrecento anni dopo, ci è riuscito."
+    },
+    "retos_observacion": {
+      "hash": "68ccf6c7f5527e0b",
+      "texto": [
+        "Guarda gli occhi: di quali materiali sono fatti?",
+        "Cerca la bocca socchiusa e i denti superiori",
+        "Osserva il naso lungo che segue la linea della fronte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fd9208c63a337c39",
+      "texto": {
+        "Cultura": "Maya",
+        "Periodo": "Classico recente (600-900 d.C.)",
+        "Material": "Giada (giadeite), conchiglia e ossidiana",
+        "Procedencia": "Palenque, Chiapas (Tempio delle Iscrizioni)",
+        "Medidas": "0,245 m di altezza x 0,185 m di larghezza x 0,11 m di spessore",
+        "Hallazgo": "15 giugno 1952, ad opera di Alberto Ruz Lhuillier, nella cripta del Tempio delle Iscrizioni"
+      }
+    },
+    "faq_mito": {
+      "hash": "872aaaa8685ca08b",
+      "texto": {
+        "pregunta": "Mito: Sul coperchio del sarcofago di Pakal viaggia un astronauta nella sua navicella.",
+        "respuesta": "Realtà: È il re che cade nell’oltretomba, con l’albero del mondo che cresce dietro di lui: un’immagine di morte e rinascita."
+      }
+    }
+  }
+}

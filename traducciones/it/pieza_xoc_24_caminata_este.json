@@ -1,0 +1,53 @@
+{
+  "id": "xoc_24_caminata_este",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bed06095b55b4554",
+      "texto": "Camminata: verso il complesso est"
+    },
+    "frase_gancho": {
+      "hash": "e42e817f8f630cb7",
+      "texto": "Un tragitto verso la rampa, il cortile incassato e i tre templi."
+    },
+    "puente_narrativo": {
+      "hash": "19d88a5c8fc91082",
+      "texto": "Continua il tuo percorso: prosegui verso la zona orientale della città."
+    },
+    "guion_corto": {
+      "hash": "6a73044044c7c784",
+      "texto": "Questa camminata ti porta al complesso est, la parte orientale della città. Secondo INAH Lugares, lì ci sono un edificio rettangolare con un cortile incassato, un cortile con tre piattaforme piramidali e un campo del gioco della palla. C’è anche la Rampa degli Animali. La guida dell’INAH parla di tre templi, della rampa e del Tempio degli Architetti. Mentre cammini, osserva come cambia il paesaggio. Secondo INAH Lugares, la città occupò sei colli bassi, con terrazze e muri di contenimento. Pensa che ogni tragitto sale, scende e gira attorno a quei colli. Quello che segue sono diverse tappe in quella zona."
+    },
+    "guion_largo": {
+      "hash": "72ea43f860e389de",
+      "texto": "Questa camminata ti porta al complesso est, la parte orientale della città.\n\nSecondo INAH Lugares, lì ci sono un edificio rettangolare con un cortile incassato, un cortile con tre piattaforme piramidali e un campo del gioco della palla. C’è anche la Rampa degli Animali, che si collega a quel campo.\n\nLa guida dell’INAH parla di tre templi, della rampa e del Tempio degli Architetti, chiamato anche Cortile Incassato. Cioè, si tratta di un complesso con vari edifici raggruppati.\n\nMentre cammini, osserva come cambia il paesaggio. Secondo INAH Lugares, la città occupò sei colli bassi, con terrazze e muri di contenimento. Ciò significa che ogni tragitto sale, scende e gira attorno ai colli. Un muro di contenimento è quello che sostiene la terra di una terrazza perché non scivoli.\n\nL’UNESCO considera che Xochicalco ebbe tre livelli: uno basso, uno intermedio e uno alto. Secondo Hirth, la città crebbe molto rapidamente verso l’anno seicento e ricollocò tra diecimila e quindicimila persone.\n\nLe prossime tappe si svolgono in quella zona. Non c’è bisogno di avere fretta."
+    },
+    "retos_observacion": {
+      "hash": "8a81f85c8ad2a18f",
+      "texto": [
+        "Osserva come cambia il paesaggio",
+        "Conta quanti colli riesci a vedere",
+        "Ascolta mentre cammini, senza guardare lo schermo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d0541de5c6f85f7",
+      "texto": {
+        "Destinazione": "complesso est",
+        "Spazi": "edificio rettangolare con cortile incassato, cortile con tre piattaforme piramidali, campo e rampa, secondo INAH Lugares",
+        "Colli occupati": "sei, secondo INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7957f59da6106b7",
+      "texto": {
+        "pregunta": "Mito: Xochicalco occupa un solo colle.",
+        "respuesta": "Realtà: Secondo INAH Lugares, occupò sei colli bassi, con terrazze e muri."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s14_troje_purepecha",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2292e610323104bd",
+      "texto": "La Troje tradizionale purépecha"
+    },
+    "frase_gancho": {
+      "hash": "ce708ef46cc163d1",
+      "texto": "Una casa di pino che si monta come un puzzle, senza un solo chiodo."
+    },
+    "puente_narrativo": {
+      "hash": "ad03b32e0c2e8ec8",
+      "texto": "Dalla casa passiamo alla festa. Cerca una maschera di legno dipinta di rosa, con un sorriso quasi senza denti, rughe marcate e una chioma bianca."
+    },
+    "guion_corto": {
+      "hash": "95ab4131033baa25",
+      "texto": "Questa casa di legno è una troje, l’abitazione tradizionale della sierra purépecha, nel Michoacán. È fatta con spessi tavoloni di pino, uniti con incastri di legno, senza un solo chiodo. Ha un tetto alto, a quattro falde, fatto di assicelle chiamate tejamanil. Nota che ha due livelli. Al piano terra c’è la stanza principale, dove si vive, si dorme e si tiene l’altare di famiglia. In alto, nel soppalco, si conservano le pannocchie del raccolto, asciutte e protette dall’umidità. La troje è casa e granaio insieme, e mostra come il bosco di pini diventi la dimora di un’intera famiglia."
+    },
+    "guion_largo": {
+      "hash": "b7d887b73a2cad0e",
+      "texto": "Se nella prima sala del piano di sopra hai visto una casa di canne e fango, qui trovi l’altra grande soluzione: la casa di legno. Ogni regione usa ciò che le offre il suo paesaggio. Nella sierra del Michoacán ciò che abbonda sono i pini, e i purépecha hanno imparato a lavorarli con una notevole abilità. La troje è il risultato.\n\nBisogna guardarla con calma. I tavoloni si tagliano a mano e si uniscono con tacche e tenoni: ogni pezzo s’incastra in un altro, come in un puzzle di legno, e il peso della struttura tiene tutto al suo posto. Non serve nemmeno un chiodo. Questa tecnica permette di smontare una troje e di rimontarla in un altro luogo, ed è la ragione per cui questa ha potuto essere installata dentro il museo. Molte troje sono ancora in piedi dopo decenni, perché il legno di pino, ben tagliato e ben curato, resiste.\n\nSi dice che la troje di questa sala sia stata montata qui con carpentieri della stessa regione, come altre case del piano superiore. Questa fu l’idea del museo negli anni sessanta: che non fossero copie fatte da altri, ma case costruite da chi sa come si fanno. Così, il legno che vedi conserva la mano dei suoi costruttori.\n\nLa parola «troje» significa, in spagnolo, granaio, e dice già a che cosa serviva la parte di sopra. Molte troje hanno inoltre un portico sul davanti, con travi e colonne di legno intagliato, dove si lavora, si chiacchiera e si fanno seccare i semi.\n\nNota che ha due livelli. Sotto si vive, e sopra, nel soppalco, si conserva il mais. In alcune regioni del centro il mais si conserva nei cuescomates di fango; qui si conserva nel legno, e in alto, dove l’aria circola e l’umidità non arriva. Ogni regione ha il suo modo di proteggere lo stesso tesoro.\n\nSe potessi entrare, vedresti anche l’altare di famiglia: immagini di santi, fiori, candele. Per molte famiglie purépecha la casa è anche un piccolo tempio. Lì nascono i figli e lì si veglia sui morti, e lo spazio custodisce questa continuità di vite, così come il focolare custodiva quella della casa di bajareque.\n\nLa regione dove si trova questa troje è un luogo di vulcani. Nel millenovecentoquarantatré, in un campo di mais della sierra, vicino al paese di Angahuan, nacque all’improvviso un vulcano, il Paricutín. Crebbe per nove anni e seppellì interi paesi sotto la lava e la cenere. La sua cenere arrivò a cadere perfino a Città del Messico. Del paese di San Juan Parangaricutiro rimase solo la torre della chiesa. La gente della zona lo vide nascere e lo racconta ancora.\n\nE qui il legno continua a essere una specialità. A Paracho, un paese dell’altopiano, si fanno chitarre da secoli, e le sue botteghe sono famose nel mondo. È come se il pino della sierra avesse trovato molti modi di trasformarsi in arte: una casa, uno strumento, una maschera. Nel prossimo pezzo ne vedrai un altro."
+    },
+    "retos_observacion": {
+      "hash": "1e4b30e8e317cad5",
+      "texto": [
+        "Cerca le giunzioni di legno agli angoli: vedi qualche chiodo?",
+        "Trova il soppalco dove si conservava il mais",
+        "Osserva il tetto di assicelle a quattro falde"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0fc53bbc6f3c097f",
+      "texto": {
+        "Popolo indigeno": "Purépecha (P'urhépecha)",
+        "Regione": "Altopiano Purépecha e Sierra del Michoacán",
+        "Tecnica/Materiale": "Legno di pino assemblato a incastro con tenone e mortasa, tejamanil e base di pietra",
+        "Funzione": "Abitazione tradizionale, granaio sacro, altare di famiglia e spazio rituale"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e4df01437fa2195",
+      "texto": {
+        "pregunta": "Mito: Le case tradizionali indigene erano tutte di fango e paglia.",
+        "respuesta": "Realtà: Ogni regione usa ciò che ha. Nella sierra purépecha si costruiscono con tavoloni di pino, assemblati senza chiodi, e su due livelli: casa al piano terra, granaio in alto."
+      }
+    }
+  }
+}

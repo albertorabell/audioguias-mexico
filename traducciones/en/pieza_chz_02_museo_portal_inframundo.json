@@ -1,0 +1,55 @@
+{
+  "id": "chz_02_museo_portal_inframundo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1c18f947e71940bd",
+      "texto": "Site Museum: Monument 9, Portal to the Underworld"
+    },
+    "frase_gancho": {
+      "hash": "0be9cc8a0e431aae",
+      "texto": "A one-ton relief that returned to Chalcatzingo after decades abroad."
+    },
+    "puente_narrativo": {
+      "hash": "393fb08f4ff5d5b1",
+      "texto": "Follow your route: now we step outside to see where the people who carved this stone lived."
+    },
+    "guion_corto": {
+      "hash": "91e6bf2354ce6683",
+      "texto": "This stone weighs nearly a ton and was away from Chalcatzingo for decades. It is Monument Nine, called the Portal to the Underworld. It measures one meter eighty by one meter fifty and is about two thousand five hundred years old. It shows an open maw with four lobes, with bromeliads at the corners of the mouth. In the Mesoamerican idea of the mountain, the cave is the entrance to the dwelling of the ancestors and of supernatural beings. That image fits well on a hill with springs. The stone left the site between the late fifties and the sixties. It returned in February of two thousand twenty-five and is now displayed in this museum."
+    },
+    "guion_largo": {
+      "hash": "960f5d666cf5baa4",
+      "texto": "Some stones travel. Monument Nine of Chalcatzingo left here more than half a century ago and came back in two thousand twenty-five. It is known as the Portal to the Underworld.\n\nIt is a relief that measures one meter eighty by one meter fifty and weighs nearly a ton. It is estimated to have been carved between eight hundred and four hundred years before Christ. It represents an open maw with four lobes. At the corners of the mouth there are plants called bromeliads. To put it in perspective, it belongs to the same great period as the reliefs on the hill, the oldest in the Central Highlands.\n\nA bas-relief is an image that projects only slightly from the surface of the stone, as if emerging from it. Almost all the reliefs of Chalcatzingo are of that kind. Those on the hill are still in their rock. This one, by contrast, is an independent block that could leave the site, and that is why it lived a story that the reliefs on the hill did not.\n\nIf you wonder why it is called Portal to the Underworld, that is a modern name given to it by INAH. The ancient sculptors left no title. Nor did they leave in writing what the open mouth meant to them, so any reading is an interpretation.\n\nThere is a human detail in this story. David Grove, who devoted decades to studying Chalcatzingo, died in two thousand twenty-three. He did not live to see the stone return.\n\nThe mouth is not an ornament. Arqueología Mexicana records a widespread idea in Mesoamerica. The mountain is the place where the ancestors and supernatural beings dwell. The cave is the access to that dwelling. An open stone mouth on a hill with springs fits that idea.\n\nIt is not known with certainty where it originally stood. David Grove, who studied the site for decades, thought that it was probably raised on the great platform we now call [Structure Four](chz_05_estructura_4). INAH, in two thousand twenty-five, suggests that it may have been part of the sculptural program of the hill. Both ideas remain on the table.\n\nIts departure from the country also has different versions. According to an INAH bulletin from two thousand twenty-five, the stone was broken into twenty-five pieces in the late fifties. Other sources place it outside the site at some point in the sixties. In nineteen sixty-eight, Grove already published it as a piece that was not in its place. It ended up in a museum in the state of New York.\n\nComing back took years. Between two thousand twenty-three and two thousand twenty-five, the piece spent twenty-one months at the Palace of Cortés, in Cuernavaca. It returned to Chalcatzingo in February of two thousand twenty-five and has been on display since the eighteenth of that month.\n\nWhen a piece returns to its place, it changes the way of visiting the site. You can look at the stone and, on leaving, look at the hill that stood before the person who carved it. Further on you will see other scenes with caves. At [El Rey](chz_17_monumento_1_el_rey), a figure sits inside a C-shaped mouth. At [Monument Thirteen](chz_15_monumento_13), another figure stands at the mouth of the earth."
+    },
+    "retos_observacion": {
+      "hash": "08d9c879b156d3fe",
+      "texto": [
+        "Count the lobes of the maw",
+        "Look for the bromeliads at the corners of the mouth",
+        "Imagine this stone standing upright, in the open air, two thousand five hundred years ago"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07cbc3ba6d49842d",
+      "texto": {
+        "Dimensions": "one meter eighty by one meter fifty",
+        "Weight": "nearly a ton",
+        "Age": "about two thousand five hundred years",
+        "Return": "February of two thousand twenty-five",
+        "Motifs": "four-lobed maw and bromeliads"
+      }
+    },
+    "faq_mito": {
+      "hash": "423bde38afa2c06d",
+      "texto": {
+        "pregunta": "Myth: This stone is a replica.",
+        "respuesta": "Reality: According to INAH, it is the original monolith, which returned to Chalcatzingo in two thousand twenty-five."
+      }
+    }
+  }
+}

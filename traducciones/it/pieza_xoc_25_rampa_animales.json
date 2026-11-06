@@ -1,0 +1,52 @@
+{
+  "id": "xoc_25_rampa_animales",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3a56045fcf6104e3",
+      "texto": "La Rampa degli Animali"
+    },
+    "frase_gancho": {
+      "hash": "c0882d86c6316e79",
+      "texto": "Lastre con animali incisi, tra il reale e il mitico."
+    },
+    "puente_narrativo": {
+      "hash": "72cabd1cd78791b8",
+      "texto": "Continua il tuo percorso: prosegui verso gli spazi del complesso est."
+    },
+    "guion_corto": {
+      "hash": "c1dd49bd20b1aab1",
+      "texto": "Questa rampa è formata da lastre con animali incisi. Secondo la guida dell’INAH, ha duecentosettanta lastre. México Desconocido ne conta duecentocinquantacinque, e Medina Romero duecentosettantuno. Le cifre non coincidono, quindi diremo più di duecentocinquanta. Medina Romero dice che molte delle specie incise esistono ancora. Hirth parla di animali mitici. Una rampa è un percorso inclinato, senza gradini. Qui la pietra ha disegnato la fauna della regione. Le ossa trovate nella città dicono qualcosa di simile: giaguaro e coccodrillo nelle zone alte, cervo e cane a tutti i livelli. Cerca un animale che conosci e uno che non ti suona familiare."
+    },
+    "guion_largo": {
+      "hash": "dbab06b10933f6d1",
+      "texto": "La rampa è un percorso inclinato, senza gradini. Questa ha qualcosa di speciale: è fatta di lastre con animali incisi.\n\nSecondo la guida dell’INAH, ha duecentosettanta lastre. México Desconocido ne conta duecentocinquantacinque. Medina Romero parla di duecentosettantuno, all’interno di un totale di più di quattrocento lastre incise trovate nel sito. Le cifre non coincidono. Per questo qui diciamo: più di duecentocinquanta.\n\nMedina Romero aggiunge che molte delle specie incise esistono ancora. Cioè, chi le scolpì guardava il proprio ambiente e lo disegnava nella pietra. Kenneth Hirth parla, invece, di animali mitici. Le due descrizioni possono essere vere allo stesso tempo: una rampa con fauna reale e fauna immaginata.\n\nINAH Lugares spiega che la rampa si collega al campo del gioco della palla dell’est. Ciò suggerisce che il gioco e la rampa facessero parte dello stesso complesso.\n\nI resti di animali della città raccontano qualcosa di simile. Secondo Eduardo Corona, giaguaro, pecari, gatto selvatico e coccodrillo di fiume compaiono soprattutto nelle zone alte, quasi sempre trasformati in ornamenti od offerte. Cervo, cane e puma compaiono a tutti i livelli. Nella parte bassa ci sono pesci gatto, anatre, tartarughe e lontre.\n\nCerca un animale che conosci e uno che non ti suona familiare. Pensa che qualcuno scelse quali animali mettere e in quale ordine."
+    },
+    "retos_observacion": {
+      "hash": "17b89e4589d74581",
+      "texto": [
+        "Cerca un animale che conosci",
+        "Cercane uno che non riesci a identificare",
+        "Pensa perché qualcuno scelse di incidere animali sul pavimento di una rampa"
+      ]
+    },
+    "especificaciones": {
+      "hash": "187be9984d824804",
+      "texto": {
+        "Lastre incise": "duecentosettanta (INAH), duecentocinquantacinque (México Desconocido), duecentosettantuno su più di quattrocento (Medina Romero)",
+        "Collegamento": "con il campo est, secondo INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed6e47c9ab03776a",
+      "texto": {
+        "pregunta": "Mito: Tutti gli animali della rampa sono mitici.",
+        "respuesta": "Realtà: Medina Romero indica che molte delle specie incise esistono ancora. Hirth, invece, parla di animali mitici."
+      }
+    }
+  }
+}

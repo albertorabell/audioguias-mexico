@@ -1,0 +1,59 @@
+{
+  "id": "mna_s06_chapulin",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3e3b225252844a7b",
+      "texto": "Cavalletta di Chapultepec"
+    },
+    "frase_gancho": {
+      "hash": "65e7cebc83ef39e3",
+      "texto": "Una cavalletta di pietra rossa che dà il nome al bosco dove si trova il museo."
+    },
+    "puente_narrativo": {
+      "hash": "732f92f463fbce05",
+      "texto": "Dal bosco passiamo alla città, e dalla città alla sua piazza più affollata. Cerca un plastico con centinaia di figure di terracotta: è un giorno di mercato a Tlatelolco, la città gemella di Tenochtitlan."
+    },
+    "guion_corto": {
+      "hash": "cc1a3ad318da48b4",
+      "texto": "Questa cavalletta di pietra dà il nome al bosco dove si trova il museo. Chapultepec significa «sul colle della cavalletta», e questa scultura ne è il glifo: il nome del luogo scritto con un'immagine. È un'opera mexica del Postclassico recente, scolpita e levigata in una pietra di un rosso intenso, e fu trovata a Chapultepec. Guarda le zampe posteriori, piegate sul corpo, come se l'insetto stesse per saltare, e la superficie levigata, che brilla alla luce. Per i mexica, Chapultepec era un luogo molto importante: lì sgorgavano sorgenti che davano acqua alla città, lì scolpirono i ritratti dei loro governanti e lì vissero prima di fondare Tenochtitlan."
+    },
+    "guion_largo": {
+      "hash": "389d2db391ea4b51",
+      "texto": "Ci sono luoghi che portano il loro nome disegnato. Chapultepec è uno di questi. La parola viene dal nahuatl e si compone di tre pezzi: chapolin, la cavalletta, la locusta; tepetl, il colle; e una terminazione, c, che vuol dire «su». Insieme dicono «sul colle della cavalletta». E questa cavalletta di pietra è quella parola trasformata in scultura.\n\nGuarda come è fatta. È un pezzo piccolo, scolpito e levigato in una pietra di un rosso intenso, e lo scultore ha curato i dettagli: le zampe posteriori sono ripiegate sul corpo, pronte al salto, come se l'insetto aspettasse soltanto che tu smettessi di guardarlo. Osserva anche le ali, ripiegate sul dorso, e gli occhi, che sporgono dalla testa. I mexica osservavano con grande attenzione gli animali, e qui si vede.\n\nLa cosa più curiosa è che nessuno è sicuro di quale pietra si tratti. Alcuni la chiamano corniola, una varietà rossa di calcedonio, una pietra semipreziosa molto dura. Un viaggiatore dell'Ottocento, che la vide in una collezione privata, credette che fosse marmo rosso, e un incisore dell'epoca, che fosse una roccia silicea. Il pezzo continua a custodire questo piccolo mistero.\n\nHa avuto anche una vita propria nei secoli successivi. I documenti storici dell'Ottocento indicano che venne alla luce durante i lavori del Castello di Chapultepec e che fece parte della collezione del conte del Peñasco prima di entrare nell'antico Museo Nacional. Un archeologo contemporaneo, Leonardo López Luján, sospetta che provenga da un grande bacino d'acqua vicino al colle, noto come i Bagni di Moctezuma.\n\nPerché Chapultepec era così importante? Perché lì sgorgavano sorgenti di acqua dolce che, attraverso un acquedotto, arrivavano a Tenochtitlan, una città circondata da acqua salmastra. Sulle rocce del colle i mexica scolpirono i ritratti dei loro governanti, e una leggenda parlava di una grotta, Cincalco, la «casa del mais», che si immaginava come un ingresso al mondo dei morti. Chapultepec era al tempo stesso fonte d'acqua, luogo di re e porta su un altro mondo.\n\nFu anche un luogo della loro storia. Secondo le cronache, prima di fondare Tenochtitlan i mexica si stabilirono per un periodo a Chapultepec durante la loro migrazione. Non andò bene: i loro vicini li attaccarono ed essi dovettero fuggire, finché alla fine trovarono un'isoletta nel lago. Cioè: il bosco dove ti trovi ora fu, per loro, un luogo di speranza e di sconfitta.\n\nLe cavallette, inoltre, non erano solo un simbolo: si mangiavano anche, come oggi a Oaxaca, tostate e con il lime. E non è un caso che la parola «chapulín» sia ancora viva nello spagnolo del Messico: è una delle tante che vengono dal nahuatl, insieme a tomate, aguacate e chocolate.\n\nIl nome è così antico che gli spagnoli lo conservarono: il Castello di Chapultepec, che fu costruito secoli dopo, lo porta ancora. Quando uscirai dal museo, cammina un po' nel bosco e ascolta il suo nome. Ora sai che vuol dire «sul colle della cavalletta», e che circa cinquecento anni fa qualcuno lo scrisse nella pietra."
+    },
+    "retos_observacion": {
+      "hash": "8e0aabfc5584d43d",
+      "texto": [
+        "Cerca le zampe posteriori piegate sul corpo",
+        "Osserva il rosso intenso e la levigatezza della pietra",
+        "Pensa al nome del bosco dove si trova il museo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e86bf9addc0a3596",
+      "texto": {
+        "Cultura": "Mexica",
+        "Periodo": "Postclassico recente (1325-1521 d.C.)",
+        "Material": "Pietra vulcanica rossa e corniola scolpita e brunita",
+        "Procedencia": "Bosco di Chapultepec, Città del Messico",
+        "Medidas": "19 cm di altezza x 47 cm di lunghezza"
+      }
+    },
+    "faq_mito": {
+      "hash": "d64c811c146221fa",
+      "texto": {
+        "pregunta": "Mito: Questa scultura è solo un ornamento a forma di insetto.",
+        "respuesta": "Realtà: È il glifo di Chapultepec, il nome del luogo scritto con un'immagine. Significa «sul colle della cavalletta»."
+      }
+    }
+  }
+}

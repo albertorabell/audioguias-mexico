@@ -1,0 +1,54 @@
+{
+  "id": "xoc_03_camino_entrada",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90f92b10ca0bb62e",
+      "texto": "La strada d’ingresso"
+    },
+    "frase_gancho": {
+      "hash": "c390c1e92a49ce10",
+      "texto": "Una strada di pietra che portava già alla città quando era viva."
+    },
+    "puente_narrativo": {
+      "hash": "d86ad220eec5e1cf",
+      "texto": "Continua il tuo percorso: sai già come si difendeva la città; ora si tratta di percorrerla."
+    },
+    "guion_corto": {
+      "hash": "ac25caa0724faaeb",
+      "texto": "Secondo la guida dell’INAH, il complesso principale di accesso comprende sistemi di controllo dell’ingresso e una piazza quadrata. Comprende anche l’ultimo tratto della strada preispanica che usciva dalla città. Cioè, era già pensato per accogliere e sorvegliare chi arrivava. Una città con ingressi difesi non lasciava passare chiunque. Questa strada rialzata si collega anche al campo del gioco della palla sud, che si trova sulla terrazza più bassa. Altri autori descrivono una strada dritta sul lato sud, che sale dal fondo della valle fino alla città. Ciò che calpesti è parte di un percorso che alcuni abitanti facevano più di mille anni fa per entrare, commerciare, giocare e rendere conto."
+    },
+    "guion_largo": {
+      "hash": "a5a11f79728eec5f",
+      "texto": "Una strada è un modo di dire chi può entrare. A Xochicalco non fa eccezione.\n\nSecondo la guida ufficiale dell’INAH, il complesso principale di accesso comprende sistemi di controllo dell’ingresso e una piazza quadrata. Comprende anche l’ultimo tratto della strada preispanica che usciva dalla città.\n\nAltre fonti aggiungono che la strada di accesso era dritta e arrivava dal lato sud, dal fondo della valle. Questa strada rialzata si collega anche al campo del gioco della palla sud, il più grande della città, che si trova sulla terrazza più bassa.\n\nL’UNESCO e l’INAH menzionano che il livello basso della città era circondato da muri con ingressi difesi. Questo vuol dire che arrivare a Xochicalco non era semplicemente varcare una porta. Era passare per punti di sorveglianza.\n\nLe strade rialzate avevano un altro uso. Il direttore della zona, Medina Romero, spiega che le strade rialzate pavimentate collegavano i settori della città e arrivavano a misurare circa centosettantacinque metri. Erano la colonna vertebrale lungo cui circolava la gente.\n\nPrima di proseguire, osserva il suolo. Le strade delle città antiche venivano pavimentate con la pietra, e questo lavoro racconta una storia di organizzazione. Spostare tanta pietra richiedeva persone, tempo e qualcuno che lo ordinasse.\n\nFermati un momento e pensa a chi entrava da qui. Commercianti di altri popoli, gente che trasportava ossidiana, giocatori che venivano al campo, inviati delle comunità vicine. E anche eserciti, quando la città era ormai minacciata.\n\nOggi questa strada ti porta in un solo luogo: al cuore di una città fortificata. Ciò che segue è salire e scoprirlo."
+    },
+    "retos_observacion": {
+      "hash": "9b9ea4d4f99587ee",
+      "texto": [
+        "Guarda la strada e osserva come è costruita",
+        "Cerca i punti in cui si controllava il passaggio, se si riescono a distinguere",
+        "Pensa a chi avrebbe percorso questa strada più di mille anni fa"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f88961c233ee36a",
+      "texto": {
+        "Accesso": "complesso principale, con piazza quadrata",
+        "Strada": "ultimo tratto della strada preispanica",
+        "Strade rialzate pavimentate": "fino a circa 175 m, secondo l’INAH",
+        "Collegamento": "con il campo del gioco della palla sud"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5e937cd2bce8e3d",
+      "texto": {
+        "pregunta": "Mito: Le strade rialzate di Xochicalco sono strade moderne.",
+        "respuesta": "Realtà: L’INAH descrive strade rialzate pavimentate che già collegavano i settori della città più di mille anni fa."
+      }
+    }
+  }
+}

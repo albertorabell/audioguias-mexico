@@ -1,0 +1,45 @@
+{
+  "id": "chz_03_caminata_hacia_terrazas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9c16ba3136c5aeeb",
+      "texto": "Caminhada: rumo aos terraços do povoado"
+    },
+    "frase_gancho": {
+      "hash": "67d5b8da953bbf06",
+      "texto": "Um trajeto curto para ouvir enquanto você caminha."
+    },
+    "puente_narrativo": {
+      "hash": "482d691438b348d2",
+      "texto": "Você chegou aos terraços do povoado."
+    },
+    "guion_corto": {
+      "hash": "6d5e65a88f75117e",
+      "texto": "Saia do museu e siga a trilha rumo aos terraços do povoado. Enquanto caminha, olhe o chão: o terreno que desce do morro não é plano por acaso. Segundo David Grove, a terra deslizada da base do morro foi transformada, por volta de oitocentos anos antes de Cristo, em grandes terraços residenciais. Sobre eles se ergueram casas e plataformas. Você caminha por onde viveu a gente que entalhou as pedras que vai ver. Quando a trilha se abrir em um espaço amplo, você já terá chegado."
+    },
+    "guion_largo": {
+      "hash": "e0db33dd31390ad9",
+      "texto": "Esta é uma caminhada. Não é preciso parar. Siga a trilha rumo aos terraços do povoado e deixe o áudio acompanhar você.\n\nEnquanto avança, olhe o terreno. A terra que deslizou naturalmente da base do morro foi transformada em grandes terraços residenciais por volta de oitocentos anos antes de Cristo. É o resultado das escavações de David Grove, Jorge Angulo e Raúl Arana, entre mil novecentos e setenta e dois e mil novecentos e setenta e seis.\n\nEm alguns desses terraços há montículos com plataformas. Para Grove, essas construções mostram a importância de Chalcatzingo como centro regional.\n\nO que você vê como uma encosta suave foi um bairro. Entre as casas e as plataformas, o povo colocou estátuas e estelas. Você já vai encontrá-las."
+    },
+    "retos_observacion": {
+      "hash": "c41699394c463f3e",
+      "texto": [
+        "Repare nos degraus naturais que o terreno forma",
+        "Procure muros ou pedras alinhadas ao lado do caminho",
+        "Caminhe devagar e olhe para o morro"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3a96d9999ed04290",
+      "texto": {
+        "Tipo": "caminhada, sem parada fixa",
+        "Tema": "os terraços residenciais do povoado"
+      }
+    }
+  }
+}

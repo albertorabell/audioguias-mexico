@@ -1,0 +1,45 @@
+{
+  "id": "chz_03_caminata_hacia_terrazas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9c16ba3136c5aeeb",
+      "texto": "Spacer: ku tarasom osady"
+    },
+    "frase_gancho": {
+      "hash": "67d5b8da953bbf06",
+      "texto": "Krótka droga, której możesz słuchać w marszu."
+    },
+    "puente_narrativo": {
+      "hash": "482d691438b348d2",
+      "texto": "Docierasz na tarasy osady."
+    },
+    "guion_corto": {
+      "hash": "6d5e65a88f75117e",
+      "texto": "Wyjdź z muzeum i idź ścieżką ku tarasom osady. W marszu patrz pod nogi: teren schodzący ze wzgórza nie jest płaski przypadkiem. Według Davida Grove'a ziemia osunięta z podnóża wzgórza została około osiemset lat przed Chrystusem przekształcona w wielkie tarasy mieszkalne. Na nich wznosiły się domy i platformy. Idziesz tam, gdzie żyli ludzie, którzy wyrzeźbili kamienie, które zobaczysz. Gdy ścieżka otworzy się na szeroką przestrzeń, będziesz już na miejscu."
+    },
+    "guion_largo": {
+      "hash": "e0db33dd31390ad9",
+      "texto": "To spacer. Nie trzeba się zatrzymywać. Idź ścieżką ku tarasom osady i pozwól, by audio ci towarzyszyło.\n\nW marszu patrz na teren. Ziemia, która w sposób naturalny osunęła się z podnóża wzgórza, została około osiemset lat przed Chrystusem przekształcona w wielkie tarasy mieszkalne. To wynik wykopalisk Davida Grove'a, Jorgego Angula i Raúla Arany, prowadzonych od tysiąc dziewięćset siedemdziesiątego drugiego do tysiąc dziewięćset siedemdziesiątego szóstego roku.\n\nNa niektórych z tych tarasów stoją kopce z platformami. Według Grove'a te budowle świadczą o znaczeniu Chalcatzingo jako ośrodka regionalnego.\n\nTo, co widzisz jako łagodne zbocze, było dzielnicą. Między domami i platformami lud ustawiał posągi i stele. Wkrótce je znajdziesz."
+    },
+    "retos_observacion": {
+      "hash": "c41699394c463f3e",
+      "texto": [
+        "Zwróć uwagę na naturalne stopnie, które tworzy teren",
+        "Poszukaj murów lub równo ułożonych kamieni przy drodze",
+        "Idź powoli i patrz w stronę wzgórza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3a96d9999ed04290",
+      "texto": {
+        "Rodzaj": "spacer, bez stałego przystanku",
+        "Temat": "mieszkalne tarasy osady"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "chz_06_clasico_pelota",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6b61672ffa834cb7",
+      "texto": "Classic Period Platforms and Ballcourt"
+    },
+    "frase_gancho": {
+      "hash": "f978942d7617359d",
+      "texto": "Classic period buildings: they arrived long after the reliefs on the hill."
+    },
+    "puente_narrativo": {
+      "hash": "2ee64caedd3feff5",
+      "texto": "Follow your route: now we return to the age of the reliefs, in a great sunken patio."
+    },
+    "guion_corto": {
+      "hash": "2c16ce7a430ff54f",
+      "texto": "Up to here, almost everything you have seen belongs to the Middle Preclassic. These platforms and the ballcourt are from another era. In the Classic, many centuries after the reliefs on the hill, the place was occupied again and new buildings were raised. INAH reconstructed a Late Classic platform. The ballcourt, a court for a sacred game played throughout Mesoamerica, still has no precise date in the sources we consulted. What matters is the idea: Chalcatzingo is not a single moment. It is a place that people returned to inhabit over many centuries. Each era left its traces, and the old ones did not vanish when the new ones arrived."
+    },
+    "guion_largo": {
+      "hash": "2d854bf1f58317f1",
+      "texto": "If you have followed the tour, you have already seen the first Chalcatzingo. This stop takes you to another one: the one that rose again many centuries later.\n\nFirst, the order of time. INAH places the history of the area between fifteen hundred and three hundred fifty years before Christ. Grove and other researchers divide it into phases. The Amate runs from fifteen hundred to eleven hundred years before Christ. The Barranca, from eleven hundred to seven hundred. And the Cantera, from seven hundred to five hundred. These are uncalibrated radiocarbon dates, so treat them as approximate.\n\nThe Cantera phase is the one that matters for the monuments. Almost all the reliefs and stelae were sculpted in those two hundred years, around seven hundred to five hundred years before Christ.\n\nThe platforms and the ballcourt you see here are from another period: the Classic. The sources consulted speak of a Classic occupation at Chalcatzingo and of a Late Classic platform reconstructed by INAH. They give no precise date for the ballcourt. Nor do they attribute these works to any other city. A travel blog mentions Teotihuacán, but there is no support for that.\n\nTo place the Classic in Morelos, Arqueología Mexicana situates it between one hundred years before Christ and six hundred fifty after. That same magazine recounts that, in that period, the relations of the hot-country peoples with the Teotihuacan state are clearly seen at another site, Zoquipa-Tlachichila. That does not mean these buildings are from Teotihuacán. It only shows that Morelos was connected with Central Mexico.\n\nAfterward came the Epiclassic, between six hundred fifty and eight hundred after Christ. It was the time when Xochicalco, another city of Morelos, was founded and developed.\n\nINAH reconstructed a Late Classic platform. To reconstruct means to raise walls again from what was found. That is why what you see in a reconstructed building is partly original and partly restored.\n\nWhen a place is occupied several times, archaeologists have to separate layers, like someone reading the pages of a book from the bottom up. The deepest ones are the oldest.\n\nAt many Mesoamerican sites the court is a long space, flanked by two parallel structures. The sources consulted do not describe the shape of this one, so take a look at it yourself.\n\nThe ballgame was played across much of Mesoamerica for centuries. It was played with a rubber ball on a court bounded by structures. Having a court here shows that the place remained important to its inhabitants.\n\nThink about the contrast. The sculptures on the hill are about two thousand five hundred years old or more. These constructions arrived when those stones had already been in their place for a very long time. Those who lived here in the Classic walked among extremely ancient reliefs.\n\nThat is a good reason to look at the site in layers. Each era left its traces, and the old ones did not vanish when the new ones arrived."
+    },
+    "retos_observacion": {
+      "hash": "f4ca682934e13e54",
+      "texto": [
+        "Compare the shape of these platforms with the terraces you saw earlier",
+        "Look for the ballcourt and its orientation",
+        "Imagine the site with houses, plazas, and courts occupied once again"
+      ]
+    },
+    "especificaciones": {
+      "hash": "68a1b5a08ebc06b4",
+      "texto": {
+        "Period": "Classic, many centuries after the reliefs",
+        "Buildings": "platforms and ballcourt",
+        "Intervention": "INAH reconstructed a Late Classic platform",
+        "Exact date of the ballcourt": "unconfirmed"
+      }
+    },
+    "faq_mito": {
+      "hash": "4b8e0d549e6afc9c",
+      "texto": {
+        "pregunta": "Myth: The ballcourt and the pyramid were built by Teotihuacán.",
+        "respuesta": "Reality: The sources consulted speak only of a Classic occupation; they do not attribute the work to Teotihuacán."
+      }
+    }
+  }
+}

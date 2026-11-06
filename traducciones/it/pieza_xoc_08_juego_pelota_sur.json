@@ -1,0 +1,55 @@
+{
+  "id": "xoc_08_juego_pelota_sur",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "36a3b24f383aff15",
+      "texto": "Il campo del gioco della palla sud"
+    },
+    "frase_gancho": {
+      "hash": "f515948db790b743",
+      "texto": "Il campo più grande della città, con un’ara che oggi vive in un altro museo."
+    },
+    "puente_narrativo": {
+      "hash": "f1240afc029a50a9",
+      "texto": "Continua il tuo percorso: a pochi passi c’è un altro spazio che racconta come si misurava il tempo in città."
+    },
+    "guion_corto": {
+      "hash": "3976c02952663bbe",
+      "texto": "A forma di lettera I maiuscola, questo è il campo del gioco della palla più grande di Xochicalco. Si trova sulla terrazza più bassa e conserva ancora due dei suoi segnapunti. In questo luogo fu trovata una scultura a forma di ara, che oggi è esposta al Museo Nazionale di Antropologia. Medina Romero, direttore della zona, spiega che Xochicalco ebbe tre campi e che questo, il più grande e il più facile da raggiungere, poteva servire la popolazione in generale. Il gioco della palla era uno sport, ma anche un rituale. Si giocava con una palla di gomma, e il campo, con i suoi muri inclinati, era uno spazio di regole, scommesse e cerimonia."
+    },
+    "guion_largo": {
+      "hash": "adf848bd94ba709d",
+      "texto": "Ci sono luoghi che si riconoscono dalla loro forma. Questo ha quella di una lettera I maiuscola.\n\nLa guida dell’INAH spiega che il campo del gioco della palla sud si trova sulla quinta terrazza, la più bassa, e che conserva due segnapunti al loro posto. I segnapunti erano pietre che si collocavano sulle pareti del campo. In questo campo, inoltre, fu trovata una scultura di ara. Oggi si trova al Museo Nazionale di Antropologia.\n\nMedina Romero, direttore della zona, indica che Xochicalco ebbe tre campi orientati verso tre dei quattro punti cardinali. Quello a sud è il più grande e il più facile da raggiungere, e per questo si pensa che servisse la popolazione in generale. Hirth ne conta cinque: tre sulla collina principale e due su colline vicine.\n\nIl gioco della palla si giocava con una palla solida di gomma. Secondo le descrizioni del sito, i giocatori la colpivano con i fianchi. I muri inclinati del campo aiutavano la palla a rimbalzare e a restare in gioco.\n\nIl gioco della palla era molto più di uno sport. In Mesoamerica aveva un lato rituale e un lato politico. Le partite potevano essere cerimonie, e i campi, luoghi di incontro della comunità.\n\nSe sei in piedi nel campo, osserva la forma. Immagina due squadre, una palla pesante che va e viene, e il pubblico ai lati. Il suono della gomma contro la pietra, le grida, la polvere.\n\nNon fu un edificio nascosto. Fu un campo per tutti."
+    },
+    "retos_observacion": {
+      "hash": "dcbe4b9ccafc76ad",
+      "texto": [
+        "Guarda la forma a I maiuscola del campo",
+        "Cerca i segnapunti che sono ancora al loro posto",
+        "Immagina dove stava la gente mentre si giocava"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b645859b673d00c",
+      "texto": {
+        "Forma": "lettera I maiuscola",
+        "Posizione": "quinta terrazza, la più bassa",
+        "Segnapunti": "due conservati",
+        "Pezzo trovato qui": "ara, oggi al Museo Nazionale di Antropologia",
+        "Campi della città": "tre sulla collina principale, secondo Hirth e Medina"
+      }
+    },
+    "faq_mito": {
+      "hash": "a9e6bbfb5b07592a",
+      "texto": {
+        "pregunta": "Mito: Il gioco della palla era solo uno sport.",
+        "respuesta": "Realtà: Era un gioco, ma anche un rituale e uno spazio politico per la comunità."
+      }
+    }
+  }
+}

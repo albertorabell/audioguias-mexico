@@ -1,0 +1,58 @@
+{
+  "id": "chz_07_terraza_25_patio_hundido",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "8d9ac6d7599e59e7",
+      "texto": "Terraço 25: o pátio rebaixado"
+    },
+    "frase_gancho": {
+      "hash": "80bff02497ea7764",
+      "texto": "Um pátio retangular rebaixado, com muros de pedra decorados com lajes."
+    },
+    "puente_narrativo": {
+      "hash": "a83e25f57520080f",
+      "texto": "Siga o seu percurso: no lado sul deste pátio estava colocado um altar muito particular."
+    },
+    "guion_corto": {
+      "hash": "88a7847be0e4af51",
+      "texto": "Um pátio rebaixado é um espaço retangular construído abaixo do nível do solo. Este é dos grandes. Suas paredes de pedra são decoradas com pedaços de laje inseridos em ângulo, de modo a formar um desenho como um V invertido. Esse motivo não aparece nas esculturas olmecas da costa do Golfo. Em compensação, repete-se nas fachadas de dois sítios da mesma época: Teopantecuanitlán, em Guerrero, e Zazacatla, em Morelos. É uma pista dos vínculos de Chalcatzingo com outras regiões. No lado sul deste pátio esteve colocado um altar-trono, e falaremos desse altar logo em seguida. Quem entrava descia de nível e ficava cercado de muros decorados."
+    },
+    "guion_largo": {
+      "hash": "d580c34b611b21b7",
+      "texto": "Antes do altar-trono, o cenário. Você está no Terraço vinte e cinco, onde houve um grande pátio retangular rebaixado.\n\nAs paredes desse pátio eram de pedra e estavam decoradas de uma forma muito particular. Os construtores inseriram pedaços de laje em ângulo, como cunhas. O resultado é um motivo como um V invertido, repetido ao longo do muro.\n\nGrove destaca um dado: esse motivo não aparece na escultura olmeca da costa do Golfo. Mas aparece nas fachadas arquitetônicas do Pré-clássico Médio de dois sítios: Teopantecuanitlán, em Guerrero, e Zazacatla, em Morelos. Teopantecuanitlán e Zazacatla são lugares com os quais Chalcatzingo parece ter compartilhado ideias de construção.\n\nConvém nos determos em Zazacatla. Fica no oeste de Morelos, a dezesseis quilômetros ao sul do centro de Cuernavaca. Sua estrutura mais antiga é o Edifício das Lajes, feito com lajes colocadas de modo a formar um V invertido. Em sua fachada norte tem quatro nichos, e dentro deles foram encontrados monumentos.\n\nUm artigo da Arqueologia Mexicana sobre Zazacatla propõe que esse V invertido evoca uma caverna, e que os nichos reforçam a ideia. Segundo esse artigo, o edifício seria uma projeção da montanha sagrada, e os personagens dos nichos estariam dentro da caverna, como os ancestrais.\n\nZazacatla foi ocupada por volta de mil e duzentos anos antes de Cristo e foi o centro dominante de sua região oeste entre mil e oitocentos.\n\nUma laje é uma pedra plana e fina, dessas que se desprendem em lâminas. O fato de dois sítios usarem lajes em V não prova que compartilhassem o significado. Mas mostra que o motivo circulava pela região.\n\nSegundo esse mesmo artigo, Zazacatla foi fundada sobre um afloramento baixo de rocha calcária. Nesse afloramento havia uma depressão natural de cerca de cem metros de diâmetro que, na estação das chuvas, tinha um espelho de água. O artigo a interpreta como um umbral do mundo aquático, onde habitavam os ancestrais.\n\nOs muros rebaixados e decorados criam um espaço fechado, diferente das praças abertas como o Terraço um.\n\nIsso combina com a conclusão geral de Grove. Para ele, Chalcatzingo foi um centro regional cosmopolita e autônomo, que interagiu com vários centros, próximos ou distantes. Fez isso possivelmente para facilitar a circulação de pedras verdes e de outros objetos exóticos que as elites emergentes buscavam. Na arquitetura, essa interação se nota nos muros.\n\nUm pátio rebaixado também muda a maneira de se mover. Quem entrava descia de nível e ficava cercado de paredes decoradas. Na parte sul, o altar-trono ocupava o lugar mais visível. Não sabemos que cerimônias se fizeram aqui; as fontes não dizem.\n\nSe o pátio não aparece completo, não se preocupe. O importante é a ideia: uma arquitetura pensada para receber, mostrar e ordenar as pessoas.\n\nO altar que esteve no lado sul é a nossa próxima parada: [o Monumento vinte e dois](chz_08_monumento_22_altar_trono)."
+    },
+    "retos_observacion": {
+      "hash": "894585649691e9ad",
+      "texto": [
+        "Procure pedras planas colocadas em ângulo nos muros",
+        "Imagine o pátio em um nível mais baixo que o terraço",
+        "Localize o lado sul, onde esteve o altar-trono"
+      ]
+    },
+    "especificaciones": {
+      "hash": "710228aff9401f0f",
+      "texto": {
+        "Lugar": "Terraço vinte e cinco",
+        "Forma": "pátio retangular rebaixado",
+        "Decoração": "lajes inseridas em ângulo, como um V invertido",
+        "Motivo parecido em": "Teopantecuanitlán, Guerrero, e Zazacatla, Morelos"
+      }
+    },
+    "faq_mito": {
+      "hash": "69527329674e7556",
+      "texto": {
+        "pregunta": "Mito: Toda a arte de Chalcatzingo vem da costa do Golfo.",
+        "respuesta": "Realidade: Este motivo dos muros não aparece na escultura olmeca do Golfo, mas aparece em sítios de Guerrero e Morelos."
+      }
+    }
+  }
+}

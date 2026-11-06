@@ -1,0 +1,53 @@
+{
+  "id": "mna_s01_mural_tzompantli",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "36da67c15df26ad9",
+      "texto": "Murale dello Tzompantli della Diversità Umana"
+    },
+    "frase_gancho": {
+      "hash": "b6e12565428f6f31",
+      "texto": "Crani che insegnano a leggere il corpo umano come una storia."
+    },
+    "puente_narrativo": {
+      "hash": "0db8f5c835317cd2",
+      "texto": "Ora sì, il viaggio comincia: prosegui verso la Sala 2 e guarda come arrivarono i primi abitanti delle Americhe, seguendo le tracce dei grandi animali del Pleistocene."
+    },
+    "guion_corto": {
+      "hash": "3a1fe1be5689a526",
+      "texto": "Qui ci sono dei crani, e non sono un macabro ornamento: sono un modo di leggere il corpo umano come se fosse un libro. Fai attenzione: non hanno tutti la stessa forma. Nel Messico antico, alcune comunità modellavano la testa dei neonati con tavolette e bende, per darle una forma allungata che era segno di bellezza o di appartenenza a un gruppo. Si limavano anche i denti, e a volte vi si incastonavano pietre come la giada. Ma l'importante sta in ciò che non cambia: sotto tutte queste differenze, ogni cranio appartiene alla stessa specie. Questa è la lezione di questa sala: fuori, molto diversi; dentro, quasi identici."
+    },
+    "guion_largo": {
+      "hash": "55503ac24c113538",
+      "texto": "Per capire questo angolo della sala conviene sapere che cos'è uno tzompantli. Era una struttura di legno dove i Mexica infilzavano i crani dei sacrificati, come offerta agli dèi e come monito del loro potere. Pochi anni fa, gli archeologi ne hanno scoperto uno monumentale accanto al Templo Mayor. Qui il museo si affaccia su quell'immagine con un'intenzione opposta: non onorare gli dèi con la morte, ma insegnare quanto ci somigliamo e come, nonostante questo, ogni popolo si sia inscritto nel corpo.\n\nC'è una frase che riassume l'antropologia fisica: il corpo è anche storia. Dalle ossa si può sapere se una persona era un uomo o una donna, quanti anni visse, di che cosa si nutrì, quali malattie ebbe e perfino se da bambina patì la fame, perché lo smalto dei denti conserva queste tracce. E, a volte, anche come volle mostrarsi. Quest'ultima parte è la più affascinante. In molte culture mesoamericane, soprattutto tra i Maya, ai neonati si stringeva la testa con delle tavolette nelle prime settimane, quando l'osso è ancora molle, perché la fronte si allungasse. Non era una punizione: era un ideale di bellezza, e a volte di nobiltà. Se guardi il profilo di [Pakal](mna_s09_mascara_pakal) nella Sala Maya, con il naso che sembra proseguire dritto verso la fronte, stai guardando proprio quel canone.\n\nCon i denti accadeva qualcosa di simile. C'era chi se li limava in forme decorative e chi si incastonava piccoli dischi di giada o di pirite negli incisivi. Immagina di sorridere con una pietra verde brillante: era un segno di rango e di identità. E ci sono anche crani con trapanazioni, fori aperti con strumenti di pietra; in alcuni l'osso appare cicatrizzato, il che significa che il paziente sopravvisse all'operazione.\n\nTutto questo convive con un'idea che è la colonna portante del museo. Durante l'Ottocento e buona parte del Novecento, ci fu chi classificò l'umanità in «razze» e le dispose in gerarchie, usando proprio le misure dei crani come pretesto. Oggi la scienza sa altro: la nostra specie nacque in Africa circa duecento o trecentomila anni fa, si diffuse in tutto il pianeta e acquisì differenze nel colore della pelle, nella forma dei capelli o nella statura come risposta al sole, al freddo e all'alimentazione di ogni luogo. La variazione genetica all'interno di uno stesso popolo è di solito maggiore di quella che c'è tra un popolo e l'altro. In parole semplici: siamo un'unica famiglia.\n\nPensalo come un unico filo: [Lucy](mna_s01_lucy_afarensis) è l'inizio, i [tre giovani della sepoltura](mna_s01_entierro_dolni_vestonice) che hai appena visto sono persone come te, e questi crani sono la diversità che venne dopo. Quando avrai finito qui, porta con te questo sguardo. In ogni sala vedrai corpi modellati, ornati e dipinti. Nello stile olmeco, volti di neonato. Tra i Maya, fronti allungate. A Teotihuacán, maschere di pietra. Di sopra, nelle sale di etnografia, ci sono persone vive che ancora oggi si adornano con nastri, piume e tessuti. Il corpo umano è sempre stato una tela, e a te tocca leggerla."
+    },
+    "retos_observacion": {
+      "hash": "8a06b585982f1ea3",
+      "texto": [
+        "Confronta la forma dei crani: alcuni hanno la fronte allungata per la deformazione intenzionale",
+        "Cerca i denti limati o con fori per incastonare pietre",
+        "Individua un cranio con una trapanazione cicatrizzata"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eaaa071942bde5dd",
+      "texto": {
+        "Cultura": "Mostra museografica sulla diversità biologica dell'Homo sapiens",
+        "Periodo": "Epoca contemporanea (installazione museografica permanente)",
+        "Provenienza": "Sala di Introduzione all'Antropologia, Museo Nazionale di Antropologia, Città del Messico"
+      }
+    },
+    "faq_mito": {
+      "hash": "5f7c595c5ed02c5a",
+      "texto": {
+        "pregunta": "Mito: I crani di questa sala sono trofei di guerra degli Aztechi.",
+        "respuesta": "Realtà: Sono qui per scopi scientifici, per mostrare come varia il corpo umano e quali usanze di modificazione corporea esistevano; non sono trofei."
+      }
+    }
+  }
+}

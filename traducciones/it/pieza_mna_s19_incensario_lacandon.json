@@ -1,0 +1,64 @@
+{
+  "id": "mna_s19_incensario_lacandon",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "frase_gancho": [
+      "el glosario pide \"Lacandone\" para \"Lacandón / Lacandones\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Lacandone\" para \"Lacandón / Lacandones\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Lacandone\" para \"Lacandón / Lacandones\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "7ece604c02b3dc42",
+      "texto": "Bruciaprofumi e incensiere di terracotta lacandone"
+    },
+    "frase_gancho": {
+      "hash": "444c34560d5227c4",
+      "texto": "Un volto di argilla attraverso cui i Lacandoni parlano con i loro dèi."
+    },
+    "puente_narrativo": {
+      "hash": "7cd6546e0bd2c152",
+      "texto": "Dalla foresta viaggiamo verso nord, fino alla penisola dello Yucatán. Cerca un abito bianco in tre pezzi, ricamato con grandi fiori colorati e rifinito con il pizzo."
+    },
+    "guion_corto": {
+      "hash": "68bdaf0ea74f4363",
+      "texto": "Questo recipiente di terracotta è un incensiere dei Lacandoni, che chiamano sé stessi hach winik, «gli uomini veri», e vivono nella foresta del Chiapas. È modellato a mano, senza tornio, e sul davanti porta il volto di una divinità, con sopracciglia marcate, occhi rotondi e bande dipinte di bianco e di rosso. Al suo interno si brucia il copal e si pongono offerte di cibo. Il fumo profumato sale verso il cielo e funziona come un messaggio: così i Lacandoni ringraziano per il sostentamento, chiedono salute per le loro famiglie e parlano con Hachakyum, il loro dio creatore. Per loro, un incensiere non è un semplice utensile. È una presenza che riceve l’offerta e ascolta."
+    },
+    "guion_largo": {
+      "hash": "08599aacb402f3a3",
+      "texto": "«Lacandón» è il nome che hanno dato loro gli estranei; essi si chiamano hach winik, «gli uomini veri». La loro lingua somiglia molto al maya dello Yucatán, anche se vivono a molti chilometri di distanza, nella foresta dell’est del Chiapas, una delle più grandi rimaste al Messico. Sono un popolo piccolo, di circa mille persone, distribuite in comunità come Nahá, Metzabok e Lacanjá Chansayab.\n\nPer loro, gli dèi hanno una casa propria: la casa degli dèi, una costruzione semplice di legno e palma, appartata rispetto alle abitazioni. Lì si custodiscono gli incensieri, che sono molto più che semplici recipienti. Nelle cerimonie di rinnovamento si offrono loro cibo e bevande, come a degli ospiti: pasta di mais e balché, una bevanda fermentata che si prepara con la corteccia di un albero e con il miele. Si dice che ogni incensiere prenda vita quando viene consacrato, e che con gli anni invecchi.\n\nIl copal è la voce della cerimonia. È la resina di un albero e in varie lingue maya si chiama pom. L’hai già visto nell’[oratorio otomí](mna_s15_oratorio_familiar) e nell’[altare di Xantolo](mna_s18_altar_xantolo): in tutto il Messico, il fumo del copal è un ponte verso il sacro. Tra i Maya è antichissimo, e si pensa che i templi che hai visto al piano di sotto si riempissero di questo stesso fumo più di mille anni fa.\n\nAnche i luoghi hanno qualcosa da raccontare. Yaxchilán, la città dell’[architrave](mna_s09_dintel26_yaxchilan) che hai visto nella sala maya al piano di sotto, è per i Lacandoni una dimora dei loro dèi e, secondo il racconto, per molto tempo hanno viaggiato fin lì per bruciare il copal. Da questo legame nasce un aneddoto curioso: i dipinti di Bonampak furono rivelati al mondo nel millenovecentoquarantasei, e si racconta che una guida lacandona abbia condotto fin là un fotografo statunitense.\n\nGuarda il volto con calma. Le sopracciglia spesse, gli occhi rotondi e la bocca aperta gli danno un’aria vigile, come se l’argilla guardasse chi la guarda. Se ti avvicini, noterai delle bande geometriche dipinte e l’usura lasciata dalle mani che lo hanno sorretto. Un incensiere così non si fa in fretta: richiede il suo rituale, la sua preghiera e il suo tempo.\n\nGli anziani lacandoni raccontano che finché ci saranno cerimonie e gli incensieri verranno rinnovati, il cielo resterà al suo posto, e che se il rituale venisse dimenticato il mondo potrebbe finire. È un modo molto potente di dire una cosa semplice: la tradizione sostiene l’universo. Aiuta anche a capire perché un popolo così piccolo abbia custodito con tanta cura le proprie cerimonie.\n\nOggi la foresta cambia in fretta, con strade, allevamento e turismo, e prendersi cura delle cerimonie fa parte del prendersi cura di un modo di vivere. Per questo un oggetto come questo vale tanto: non è solo un bel pezzo di terracotta, ma una testimonianza di come un popolo dialoga con il proprio mondo.\n\nDal freddo degli Altos al caldo della foresta c’è appena un giorno di cammino, ma cambiano il cappotto, il cibo e gli dèi. Ciò che resta è il gesto di ringraziare, di dare qualcosa in cambio di ciò che si riceve, con il fumo, con il cibo o con le parole."
+    },
+    "retos_observacion": {
+      "hash": "9848240008cd84cf",
+      "texto": [
+        "Cerca il volto modellato sul davanti: sopracciglia, occhi e bocca",
+        "Osserva le bande dipinte di bianco e di rosso",
+        "Immagina il fumo del copal che esce dall’apertura"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5721a975d41b0b0e",
+      "texto": {
+        "Popolo": "Lacandone (Hach Winik)",
+        "Regione": "Selva Lacandona (Nahá, Mensäbäk e Frontera Corozal, Chiapas)",
+        "Tecnica/Materiale": "Argilla modellata a mano, pittura vegetale (achiote) e resina di copal",
+        "Funzione": "Vaso sacro per la combustione rituale del copal e per il cibo offerto alle divinità"
+      }
+    },
+    "faq_mito": {
+      "hash": "19f99fd8eee844e1",
+      "texto": {
+        "pregunta": "Mito: gli antichi Maya se ne sono andati e le loro cerimonie sono andate perdute.",
+        "respuesta": "Realtà: i Lacandoni, un popolo della foresta del Chiapas, continuano a bruciare il copal in incensieri di terracotta per parlare con i loro dèi."
+      }
+    }
+  }
+}

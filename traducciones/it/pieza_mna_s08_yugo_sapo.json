@@ -1,0 +1,58 @@
+{
+  "id": "mna_s08_yugo_sapo",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Olmeco\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "d562af09f8a4e308",
+      "texto": "Giogo cerimoniale con volto di rospo"
+    },
+    "frase_gancho": {
+      "hash": "3401700be4ef23d6",
+      "texto": "Una cintura di pietra con un rospo sul davanti: il gioco che muoveva il mondo."
+    },
+    "puente_narrativo": {
+      "hash": "fb7ed889b8c9b22d",
+      "texto": "Ai gioghi si aggiungevano dei pezzi chiamati palme. Cerca quella a forma di ventaglio, con una scena di sacrificio incisa nella pietra."
+    },
+    "guion_corto": {
+      "hash": "909fc29b56dedc01",
+      "texto": "Questa cintura di pietra a forma di U, con un rospo scolpito sul davanti, è lunga circa quarantadue centimetri. È un giogo, una delle immagini più tipiche del gioco della palla. Nel campo, i giocatori colpivano la palla di gomma con l’anca, e per questo si proteggevano con cinture di cuoio, legno e stoffa. I gioghi di pietra erano repliche cerimoniali: troppo pesanti per giocare, si pensa che servissero nei rituali e che alcuni accompagnassero i defunti nella tomba. Guarda il rospo: gli occhi sporgenti, il naso con le narici aperte e le zampe piegate, come pronte a saltare, che si prolungano lungo i due bracci del giogo. Per i popoli del Golfo, il rospo rappresentava la terra umida e le prime piogge."
+    },
+    "guion_largo": {
+      "hash": "a641a8f7e556b049",
+      "texto": "Ti avevo detto che saremmo tornati al gioco della palla, ed eccolo. La [testa colossale](mna_s08_cabeza_colosal_6) portava un casco che forse apparteneva a questo mondo; gli Olmechi fabbricavano già palle di gomma circa tremilaseicento anni fa. Questo giogo viene da un’epoca successiva, ma racconta la stessa storia: il gioco che, in Mesoamerica, era molto più di un gioco.\n\nPer rendere l’idea: sono stati trovati più di mille campi, dal nord del Messico fino all’America Centrale. Non c’era città importante senza il suo. Due squadre si passavano una palla di gomma massiccia, pesante e molto rimbalzante, che poteva fare male. Non si poteva toccare con le mani né con i piedi: si colpiva con l’anca, le cosce o gli avambracci. Da qui la cintura.\n\nMa c’è un dettaglio curioso. Un giogo di pietra pesa decine di chili, e nessuno potrebbe correre indossandolo. A che cosa serviva, allora? Si pensa che fosse una versione cerimoniale, fatta di pietra per durare, della protezione leggera che si usava davvero. Un po’ come una medaglia che riproduce in metallo un oggetto quotidiano: non serve per il lavoro, ma lo celebra, e lo rende eterno.\n\nOra guarda il rospo. Con la sua pelle rugosa e il suo gracidare, compare quando arrivano le prime piogge, e per questo fu associato all’umidità della terra, alla fertilità e alla porta dell’oltretomba. Ti suona familiare? È la stessa idea di [Tlaltecuhtli](mna_s06_tlaltecuhtli), il mostro della terra della Sala Mexica, che veniva rappresentato con tratti di rospo, accovacciato e con le zampe piegate. Qui, quell’animale è il guardiano del gioco.\n\nE il fatto è che il gioco non era solo sport: era un modo di parlare con il cosmo. Il Popol Vuh, il libro sacro dei Maya quiché, racconta che i gemelli Hunahpú e Xbalanqué scesero nell’oltretomba per giocare a palla contro i signori della morte, e che da quella partita dipendeva il loro destino. Molti specialisti vedono nel gioco un’immagine della lotta tra la luce e l’oscurità, il giorno e la notte. Ogni volta che la palla andava da una parte all’altra, il Sole sembrava andare e venire con lei.\n\nUna delle città che più si dedicò a questo culto fu El Tajín, nello stesso Veracruz. Ha almeno diciassette campi, e la sua famosa Piramide delle Nicchie vanta trecentosessantacinque vani, tanti quanti i giorni dell’anno. Il gioco, il calendario e la pioggia compaiono insieme dappertutto.\n\nUn dettaglio che raccontano le cronache: quando gli spagnoli arrivarono, rimasero affascinati dalla palla. Non avevano mai visto un materiale così elastico, e non capivano come qualcosa potesse rimbalzare in quel modo. Si racconta che Hernán Cortés portò in Spagna, nel 1528, un gruppo di giocatori messicani perché si esibissero davanti all’imperatore Carlo Quinto. Immagina la scena: la palla che rimbalza, in una corte europea, come se fosse magia.\n\nE la cosa più sorprendente è che il gioco non è morto. Nel Sinaloa, ancora oggi, si gioca l’ulama, una versione che discende da quella tradizione: una pesante palla di gomma che si colpisce con l’anca. Se un giorno viaggerai nel Sinaloa, potrai vederlo giocare: è uno dei pochissimi giochi di quel mondo che sono ancora vivi."
+    },
+    "retos_observacion": {
+      "hash": "f20206616421c9be",
+      "texto": [
+        "Cerca la testa del rospo, sul davanti, con gli occhi sporgenti",
+        "Segui le zampe piegate del rospo lungo i due bracci del giogo",
+        "Immagina questa cintura sulla tua anca: quanto pensi che pesi?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0a1b6562549d19fa",
+      "texto": {
+        "Cultura": "Veracruz centrale / El Tajín",
+        "Periodo": "Classico",
+        "Materiale": "Pietra compatta levigata (diorite)",
+        "Provenienza": "Regione centrale del Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "18585d42be9a8dff",
+      "texto": {
+        "pregunta": "Mito: I giocatori indossavano questi gioghi di pietra per giocare.",
+        "respuesta": "Realtà: Erano repliche cerimoniali in pietra, troppo pesanti per giocare. Nel campo si usavano protezioni leggere di cuoio, legno e stoffa."
+      }
+    }
+  }
+}

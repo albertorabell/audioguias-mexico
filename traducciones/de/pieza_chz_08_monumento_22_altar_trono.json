@@ -1,0 +1,65 @@
+{
+  "id": "chz_08_monumento_22_altar_trono",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Olmeken\" para \"Olmeca / Olmecas\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Olmeken\" para \"Olmeca / Olmecas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Olmeken\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3f812ecad1f013f4",
+      "texto": "Monument 22: der Altar-Thron"
+    },
+    "frase_gancho": {
+      "hash": "d22080535f535dad",
+      "texto": "Ein Altar-Thron aus Stein: der einzige bekannte außerhalb der Golfküste."
+    },
+    "puente_narrativo": {
+      "hash": "b23a733965b12781",
+      "texto": "Folge deiner Route: Die Kunst dieses Ortes mischt Ideen aus vielen Gegenden."
+    },
+    "guion_corto": {
+      "hash": "1eb28aa8b3fefec8",
+      "texto": "Altar-Throne sind ein Monumenttyp der olmekischen Zentren San Lorenzo und La Venta an der Golfküste. Das Monument zweiundzwanzig von Chalcatzingo ist der einzige, der weit von dieser Gegend entfernt gefunden wurde. Es war die rechteckige Deckplatte eines tischförmigen Altar-Throns, aufgestellt auf der Südseite des großen versenkten Hofes. Aber es ist keine Kopie. Die vom Golf wurden aus massiven Blöcken gehauen, dieses hier wurde aus vielen großen Platten zusammengesetzt. Es fehlen die große Nische und die sitzende Gestalt der Altäre vom Golf. An der Vorderseite trägt es nur die länglichen Augen einer übernatürlichen Schlange. Ein möglicher Zwilling befindet sich hundertachtzig Kilometer weiter südlich, in einer Höhle in Guerrero."
+    },
+    "guion_largo": {
+      "hash": "1476b621ae6b2cd8",
+      "texto": "Ein Steinthron, der eigentlich nicht hier sein dürfte. So sehen es die Fachleute, denn Altar-Throne sind eine wichtige Kategorie von Monumenten der olmekischen Zentren San Lorenzo und La Venta an der Golfküste. Das Monument zweiundzwanzig ist der einzige Altar-Thron, der weit von jener Gegend entfernt gefunden wurde.\n\nEs war die rechteckige Deckplatte eines tischförmigen Altar-Throns. Er stand auf der Südseite des großen rechteckigen versenkten Hofes, den du gerade kennengelernt hast.\n\nGrove hebt hervor, dass es seinen Gegenstücken am Golf ähnelt, aber auch bedeutende Unterschiede aufweist. Die Altar-Throne des Golfs wurden aus massiven Steinblöcken gearbeitet. Dieser wurde aus vielen großen Platten zusammengefügt. Die Quellen stimmen nicht darin überein, aus wie vielen, deshalb nennen wir keine Zahl.\n\nAußerdem fehlen ihm zwei Dinge, die die olmekischen Altäre kennzeichnen: die große Nische und die sitzende Gestalt in der Mitte. Die Vorderseite trägt nur die länglichen Augen einer übernatürlichen Schlange. Es ist ein einfacheres Design mit einem einzigen Bild.\n\nJetzt kommt das Merkwürdigste. Hundertachtzig Kilometer südlich, in der Höhle von Oxtotitlán in Guerrero, gibt es ein vielfarbiges Wandbild, hoch oben im Fels über dem Eingang. Es zeigt eine Gestalt mit aufwendigem Schmuck, die auf dem Kopf eines übernatürlichen Wesens sitzt. Ihr Bein hängt achtlos über dem Gesicht des Wesens, als säße sie auf einem Altar-Thron oder einer Bank.\n\nDas Gesicht dieses Wesens ähnelt auf überraschende Weise dem Gesicht des Monuments zweiundzwanzig. Es hat dieselben länglichen Augen. Und die Maße sind fast identisch: vier Meter vierzig Länge bei einem Meter Höhe. Grove schreibt, dass diese Ähnlichkeit vielleicht kein Zufall ist. Deshalb nennt er das Wandbild einen möglichen Zwilling des Altars.\n\nWas diese Übereinstimmung bedeutet, ist eine offene Frage. Was sie zeigt, ist, dass die Menschen, die diesen Stein schufen, Ideen von fernen Orten kannten und sie auf ihre Weise neu deuteten. Grove beschreibt die Gesamtheit der Monumente von Chalcatzingo als vielfältig und eklektisch. Die Bildhauer experimentierten mit unterschiedlichen Stilen und Techniken.\n\nNoch etwas ist wissenswert. Die Fachleute streiten noch darüber, was der Ausdruck olmekischer Stil bedeutet. Arqueología Mexicana hält fest, dass von olmekischem Stil, olmekischer Tradition und olmekischer Kultur gesprochen wurde und dass diese Begriffe weiter diskutiert werden. Im Kern ist der Altar-Thron von Chalcatzingo Teil dieser Diskussion.\n\nDieses Monument kam bei den Grabungen des Archäologischen Projekts Chalcatzingo zum Vorschein, und Grove zählt es zu seinen überraschendsten Entdeckungen. Eine Altardeckplatte gleicht keinem Relief im Fels. Deshalb sticht sie unter allem hervor, was das Projekt fand.\n\nWenn dir der Altar schlicht vorkommt, sieh ihn dir mit diesem Gedanken noch einmal an. Er ist kein olmekischer Thron aus zweiter Hand. Er ist eine lokale Antwort auf eine Idee, die gereist ist. In einem anderen Teil der Siedlung gibt es ein noch ungewöhnlicheres Bild: [die Frau des Monuments einundzwanzig](chz_09_monumento_21_mujer)."
+    },
+    "retos_observacion": {
+      "hash": "1a5b10f7315d70a8",
+      "texto": [
+        "Suche die länglichen Augen der Schlange auf der Oberfläche",
+        "Achte darauf, dass er aus Teilen besteht, nicht aus einem Block",
+        "Stell dir den Altar auf der Südseite des versenkten Hofes vor"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f781d626e94376b7",
+      "texto": {
+        "Art": "Deckplatte eines tischförmigen Altar-Throns",
+        "Ursprünglicher Standort": "Südseite eines großen versenkten Hofes",
+        "Material": "Steinplatten, kein massiver Block",
+        "Bild der Vorderseite": "längliche Augen einer übernatürlichen Schlange",
+        "Möglicher Zwilling": "Wandbild von Oxtotitlán, Guerrero, hundertachtzig Kilometer südlich"
+      }
+    },
+    "faq_mito": {
+      "hash": "10dc68e7fe067a0b",
+      "texto": {
+        "pregunta": "Mythos: Es ist ein olmekischer Altar, der von der Golfküste hergebracht wurde.",
+        "respuesta": "Realität: Er wurde hier aus Platten gefertigt, ohne die Nische und die zentrale Gestalt der Altäre vom Golf; es ist der einzige bekannte Altar-Thron außerhalb dieser Gegend."
+      }
+    }
+  }
+}

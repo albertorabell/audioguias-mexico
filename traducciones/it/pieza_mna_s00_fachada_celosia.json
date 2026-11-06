@@ -1,0 +1,58 @@
+{
+  "id": "mna_s00_fachada_celosia",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Las Monjas\" para \"Las Monjas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "4e53380570ef2405",
+      "texto": "Facciata di Marmo e Grata Esterna"
+    },
+    "frase_gancho": {
+      "hash": "109c1e7ee616752f",
+      "texto": "Un edificio che racconta già la sua storia prima che tu entri."
+    },
+    "puente_narrativo": {
+      "hash": "93b38e23b5702ea6",
+      "texto": "Varca la soglia. Nel vestibolo, di fronte a te, un murale di oltre dodici metri ti anticipa, con due animali, ciò che troverai nelle sale."
+    },
+    "guion_corto": {
+      "hash": "920582da5cfd0191",
+      "texto": "Prima di entrare, fermati a guardare la facciata. All’esterno ti accoglie una sobria facciata di marmo di Santo Tomás con lo Stemma Nazionale scolpito in rilievo da José Chávez Morado; e attraversando verso il Patio Centrale, il secondo piano delle sale appare avvolto da una grande rete geometrica di alluminio: la grata che disegnò Manuel Felguérez, ispirata alle greche di Uxmal. La sua trama ripete una forma geometrica che ricorda il corpo ondulato di un serpente, e la luce del Bosco di Chapultepec l’attraversa e disegna ombre che si muovono durante il giorno. Il presidente Adolfo López Mateos inaugurò questo edificio il 17 settembre 1964, e il suo architetto, Pedro Ramírez Vázquez, aveva una meta: che il museo sembrasse già un pezzo in più della collezione, un edificio della metà del Novecento che si ispira a disegni di più di mille anni fa."
+    },
+    "guion_largo": {
+      "hash": "c4d33dfc02e05e33",
+      "texto": "Immagina un museo che fosse solo un magazzino di antichità. Ramírez Vázquez pensò il contrario: un edificio che si sentisse come una città antica, con piazze, patii e un grande spazio centrale, come a Uxmal o a Teotihuacán. Per questo, da fuori, il museo non ti chiede permesso: ti accoglie con la sua scala, con il silenzio e con una domanda di fondo, quella di cosa significhi essere di questo paese.\n\nL’opera fu una corsa. Il presidente López Mateos commissionò il nuovo museo nel 1963, per portare le collezioni fuori dal vecchio edificio della calle de Moneda, nel Centro, e tutto doveva essere pronto in meno di due anni. Muratori, scalpellini, scultori e artisti lavorarono allo stesso tempo, e il risultato fu aperto al pubblico nel settembre del 1964, diciannove mesi dopo l’inizio.\n\nIl suo architetto, tra l’altro, è una figura immensa nella storia recente del Messico. Pedro Ramírez Vázquez progettò anche la nuova Basilica di Guadalupe, partecipò al progetto dello Stadio Azteca e presiedette il comitato organizzatore dei Giochi Olimpici del 1968. Ma nessuna di quelle opere aveva il compito di questo museo: dare una casa degna alla memoria di un intero paese.\n\nOra osserva la grata, perché è il pezzo più ingegnoso della facciata. Manuel Felguérez, scultore e pittore di Zacatecas e pioniere dell’arte astratta in Messico, si ispirò allo stile Puuc di Uxmal, e in particolare ai fregi del Quadrilatero delle Monache, dove i maya composero enormi mosaici di pietra con forme geometriche. Felguérez prese quell’idea e la riscrisse in alluminio. È un’intesa tra due mondi: la tecnica industriale del Novecento vestita con il linguaggio di pietra di più di mille anni fa.\n\nLa grata non è solo bella; lavora. Funziona da parasole: filtra il sole e protegge dal calore le sale del piano di sopra, dove vivono le collezioni dei popoli indigeni di oggi. Sotto, il passato archeologico; sopra, il presente vivo; e tra i due, una rete che unisce i due tempi. Oggi questo edificio è uno dei musei più visitati dell’America Latina, e quasi tutti i suoi visitatori passano sotto quella trama senza notarla. Tu, ormai, sì.\n\nE lo Stemma Nazionale all’ingresso non è lì per caso. È l’immagine che nasce dalla fondazione di Tenochtitlan, l’aquila su un nopal che divora un serpente. Quando arriverai alla Sala Mexica, troverai quella stessa scena scolpita nella pietra, sul retro del [Teocalli della Guerra Sacra](mna_s06_teocalli_guerra_sagrada), con un dettaglio sorprendente: dal suo becco non esce un serpente, ma un simbolo di guerra.\n\nUn ultimo dato per quando uscirai: questa terra ha una memoria propria, e il museo sorge dentro il bosco di Chapultepec, uno dei grandi parchi della città. Chapultepec significa «sul colle della cavalletta», ed è stato un luogo sacro e una fonte d’acqua per i mexica. Il museo ha voluto restare proprio lì."
+    },
+    "retos_observacion": {
+      "hash": "b3739a9175af99b1",
+      "texto": [
+        "Cerca nella grata i moduli che si ripetono: sembrano il corpo di un serpente",
+        "Trova lo Stemma Nazionale in rilievo sopra l’ingresso",
+        "Nota come cambiano le ombre dell’alluminio sul patio secondo l’ora del giorno"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d5adf63881477cc4",
+      "texto": {
+        "Cultura": "Architettura moderna messicana: Pedro Ramírez Vázquez (progetto architettonico), Manuel Felguérez (grata di alluminio del Patio Centrale) e José Chávez Morado (Stemma Nazionale in marmo sulla facciata principale)",
+        "Periodo": "Inaugurato il 17 settembre 1964",
+        "Materiale": "Marmo di Santo Tomás, vetro e grata di alluminio anodizzato",
+        "Provenienza": "Bosco di Chapultepec, Città del Messico"
+      }
+    },
+    "faq_mito": {
+      "hash": "d0e5078b56fd3e42",
+      "texto": {
+        "pregunta": "Mito: La grata del museo è solo un ornamento moderno senza relazione con il Messico antico.",
+        "respuesta": "Realtà: Si ispira ai muri di pietra di Uxmal e, inoltre, serve da parasole per le sale del piano di sopra."
+      }
+    }
+  }
+}

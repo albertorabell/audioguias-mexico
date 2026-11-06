@@ -1,0 +1,54 @@
+{
+  "id": "chz_07_terraza_25_patio_hundido",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8d9ac6d7599e59e7",
+      "texto": "Terrasse 25 : la cour enfoncée"
+    },
+    "frase_gancho": {
+      "hash": "80bff02497ea7764",
+      "texto": "Une cour rectangulaire enfoncée, aux murs de pierre ornés de dalles."
+    },
+    "puente_narrativo": {
+      "hash": "a83e25f57520080f",
+      "texto": "Poursuivez votre parcours : du côté sud de cette cour se trouvait un autel très particulier."
+    },
+    "guion_corto": {
+      "hash": "88a7847be0e4af51",
+      "texto": "Une cour enfoncée est un espace rectangulaire construit en dessous du niveau du sol. Celle-ci est parmi les grandes. Ses parois de pierre sont ornées de morceaux de dalles insérés en biais, de façon à former un dessin en V renversé. Ce motif n’apparaît pas dans les sculptures olmèques de la côte du Golfe. En revanche, il se répète sur les façades de deux sites de la même époque : Teopantecuanitlán, dans le Guerrero, et Zazacatla, dans le Morelos. C’est un indice des liens de Chalcatzingo avec d’autres régions. Du côté sud de cette cour se trouvait un autel-trône, et nous en parlerons tout de suite. Celui qui entrait descendait d’un niveau et se retrouvait entouré de murs décorés."
+    },
+    "guion_largo": {
+      "hash": "d580c34b611b21b7",
+      "texto": "Avant l’autel-trône, le décor. Vous êtes sur la Terrasse vingt-cinq, où se trouvait une grande cour rectangulaire enfoncée.\n\nLes parois de cette cour étaient en pierre et ornées d’une façon très particulière. Les constructeurs insérèrent des morceaux de dalles en biais, comme des coins. Le résultat est un motif en V renversé, répété tout le long du mur.\n\nGrove souligne un fait : ce motif n’apparaît pas dans la sculpture olmèque de la côte du Golfe. Mais on le voit sur les façades architecturales du Préclassique moyen de deux sites : Teopantecuanitlán, dans le Guerrero, et Zazacatla, dans le Morelos. Teopantecuanitlán et Zazacatla sont des lieux avec lesquels Chalcatzingo semble avoir partagé des idées de construction.\n\nIl convient de s’arrêter sur Zazacatla. Le site se trouve dans l’ouest du Morelos, à seize kilomètres au sud du centre de Cuernavaca. Sa structure la plus ancienne est l’Édifice des Dalles, fait de dalles disposées de façon à former un V renversé. Sur sa façade nord, il a quatre niches, et à l’intérieur on a trouvé des monuments.\n\nUn article d’Arqueología Mexicana sur Zazacatla propose que ce V renversé évoque une grotte, et que les niches renforcent cette idée. Selon cet article, l’édifice serait une projection de la montagne sacrée, et les personnages des niches se trouveraient à l’intérieur de la grotte, comme les ancêtres.\n\nZazacatla fut occupée vers mille deux cents ans avant notre ère et fut le centre dominant de sa région occidentale entre mille et huit cents.\n\nUne dalle est une pierre plate et mince, de celles qui se détachent en feuillets. Que deux sites emploient des dalles en V ne prouve pas qu’ils partageaient la même signification. Mais cela montre que le motif circulait dans la région.\n\nSelon ce même article, Zazacatla fut fondée sur un affleurement bas de roche calcaire. Dans cet affleurement se trouvait un affaissement naturel d’environ cent mètres de diamètre qui, en saison des pluies, contenait un miroir d’eau. L’article l’interprète comme un seuil du monde aquatique, où habitaient les ancêtres.\n\nLes murs enfoncés et décorés créent un espace clos, différent des places ouvertes comme la Terrasse un.\n\nCela s’accorde avec la conclusion générale de Grove. Pour lui, Chalcatzingo fut un centre régional cosmopolite et autonome, qui interagit avec plusieurs centres, proches ou lointains. Il le fit possiblement pour faciliter la circulation des pierres vertes et d’autres objets exotiques que recherchaient les élites émergentes. En architecture, cette interaction se remarque dans les murs.\n\nUne cour enfoncée change aussi la façon de se déplacer. Celui qui entrait descendait d’un niveau et se retrouvait entouré de parois décorées. Dans la partie sud, l’autel-trône occupait la place la plus visible. Nous ne savons pas quelles cérémonies se sont tenues ici ; les sources ne le disent pas.\n\nSi la cour ne se voit pas en entier, ne vous inquiétez pas. L’important est l’idée : une architecture pensée pour recevoir, montrer et ordonner les gens.\n\nL’autel qui se trouvait du côté sud est notre prochain arrêt : [le Monument vingt-deux](chz_08_monumento_22_altar_trono)."
+    },
+    "retos_observacion": {
+      "hash": "894585649691e9ad",
+      "texto": [
+        "Cherchez des pierres plates placées en biais dans les murs",
+        "Imaginez la cour à un niveau plus bas que la terrasse",
+        "Repérez le côté sud, où se trouvait l’autel-trône"
+      ]
+    },
+    "especificaciones": {
+      "hash": "710228aff9401f0f",
+      "texto": {
+        "Lieu": "Terrasse vingt-cinq",
+        "Forme": "cour rectangulaire enfoncée",
+        "Décoration": "dalles insérées en biais, en V renversé",
+        "Motif semblable à": "Teopantecuanitlán, Guerrero, et Zazacatla, Morelos"
+      }
+    },
+    "faq_mito": {
+      "hash": "69527329674e7556",
+      "texto": {
+        "pregunta": "Mythe : Tout l’art de Chalcatzingo vient de la côte du Golfe.",
+        "respuesta": "Réalité : Ce motif des murs n’apparaît pas dans la sculpture olmèque du Golfe, mais on le trouve dans des sites du Guerrero et du Morelos."
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "mna_s17_traje_tehuana",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Zapoteco\" para \"Zapoteca / Zapotecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "61eebf67f33ef45c",
+      "texto": "Abito di gala e Resplandor della Tehuana"
+    },
+    "frase_gancho": {
+      "hash": "7c30bdea2773630b",
+      "texto": "Fiori di seta su velluto e un pizzo che illumina il volto."
+    },
+    "puente_narrativo": {
+      "hash": "28b7cc6a417e1ead",
+      "texto": "Dai fiori dell’Istmo passiamo al rosso della sierra. Cerca un huipil lungo, di un rosso intenso, con fasce di disegni geometrici tessuti e nappe colorate."
+    },
+    "guion_corto": {
+      "hash": "d98862041377642c",
+      "texto": "Questo è l’abito di gala delle donne zapoteche dell’Istmo di Tehuantepec, a Oaxaca. Consiste in un huipil corto e in un’ampia gonna di velluto, o di tessuto satinato, coperti da enormi fiori ricamati a mano con filo di seta: rose, tulipani e viole del pensiero. La gonna termina con un volant di pizzo inamidato. Per le feste più importanti, le donne indossano il resplandor, un copricapo di pizzo bianco che circonda il volto come un’aureola. Completano l’abito collane di monete d’oro e gioielli in filigrana. È un abito di molto lavoro e di molto orgoglio. Nell’Istmo, le donne hanno fama di essere forti, di essere padrone del commercio e della festa."
+    },
+    "guion_largo": {
+      "hash": "fa420fc3b301bbfe",
+      "texto": "Pochi abiti al mondo attirano tanto l’attenzione come questo. Fiori enormi su velluto scuro, collane d’oro, un pizzo bianco che incornicia il volto come un’aureola. È l’abito di gala della tehuana, la donna zapoteca dell’Istmo di Tehuantepec, ed è diventato uno dei simboli più riconoscibili del Messico.\n\nPrima di tutto il contesto. Gli zapotechi dell’Istmo chiamano sé stessi binnizá, che significa «gente delle nuvole». E gli zapotechi della valle, quelli di Monte Albán, adoravano [Cocijo](mna_s07_urna_cocijo), il dio della pioggia, come hai visto nella sala di Oaxaca al piano di sotto. Una gente delle nuvole, un dio della pioggia: l’acqua è sempre stata al centro del loro modo di vedere il mondo.\n\nOra il ricamo. I fiori dell’abito si ricamano a mano, con la seta, su velluto o su raso. Sono rose, tulipani e viole del pensiero, fiori che arrivarono in Messico con gli spagnoli e che qui sono diventati parte di una tradizione propria. Si pensa che il gusto per questi fiori ricamati si sia consolidato a partire dal diciannovesimo secolo, quando i tessuti europei si unirono al talento locale. Il risultato è enorme: ogni fiore può misurare decine di centimetri.\n\nUna leggenda racconta che il resplandor sia nato dal pizzo di un abito da battesimo, arrivato per mare, che una donna si mise sulla testa. Che sia vera o no, la storia mostra come l’Istmo faccia suo tutto ciò che arriva. Quando a una festa suona La Sandunga, la celebre canzone dell’Istmo, le donne la ballano con questo abito.\n\nPoi, il resplandor. È un copricapo di pizzo bianco inamidato che si porta attorno al viso, come una cornice o un sole. Si usa nelle feste più importanti, come le velas, che sono grandi celebrazioni comunitarie dell’Istmo con musica, danza e cibo. Immagina decine di donne con il resplandor che ballano insieme: deve sembrare un campo di soli.\n\nAnche i gioielli raccontano. Le collane di monete d’oro, chiamate ahogadores, e le catene di filigrana sono un’eredità di famiglia. Nell’Istmo, l’oro è una forma di risparmio e di orgoglio. Una donna che sfoggia i suoi gioielli mostra la sua fortuna e quella della sua stirpe.\n\nLa tehuana ha fama di essere indipendente. È nota per gestire il commercio, i mercati e l’economia della casa, e per avere un posto molto forte all’interno della famiglia. Quest’immagine di donna sicura di sé è diventata famosa in tutto il paese. Frida Kahlo, che ammirava quella forza, adottò l’abito da tehuana come parte della sua immagine, e lo portò in ritratti e fotografie che hanno fatto il giro del mondo.\n\nA Juchitán e in altri paesi dell’Istmo, le muxes, persone la cui identità di genere ha un posto riconosciuto nella cultura zapoteca, indossano anch’esse questo abito e sono parte delle velas.\n\nQuando guardi l’abito, non pensare a un costume. Pensa a ore di ricamo, a una tradizione di generazioni e a un modo di dire «io sono qui». L’Istmo di Tehuantepec è un luogo di venti, di caldo, di musica e di feste, e questo abito è il suo modo di mostrarlo."
+    },
+    "retos_observacion": {
+      "hash": "66648c2efd5306a0",
+      "texto": [
+        "Cerca i fiori ricamati: quanti colori diversi hanno?",
+        "Osserva il pizzo bianco che forma il resplandor attorno al volto",
+        "Fai attenzione ai gioielli d’oro e al volant della gonna"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7a464828bf1c9298",
+      "texto": {
+        "Popolo": "Zapoteco (Binnizá)",
+        "Regione": "Istmo di Tehuantepec, Oaxaca",
+        "Tecnica/Materiale": "Velluto ricamato a mano con seta, pizzo plissettato, amido e oreficeria in oro",
+        "Funzione": "Abbigliamento di gala per le Velas patronali, le mayordomías e le celebrazioni identitarie"
+      }
+    },
+    "faq_mito": {
+      "hash": "65b8f47dd401bff1",
+      "texto": {
+        "pregunta": "Mito: L’abito da tehuana è un costume da festa che ormai nessuno usa.",
+        "respuesta": "Realtà: È un abito di gala che molte donne dell’Istmo continuano a usare nelle velas e in altre feste. Ogni ricamo è un lavoro manuale di molte ore."
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "sala-05-los-toltecas-y-su-epoca",
+  "tipo": "sala",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-04",
+  "avisos": {
+    "nombre_oficial": [
+      "el glosario pide \"Tolteco\" para \"Tolteca / Toltecas\" y no aparece"
+    ],
+    "introduccion_narrativa": [
+      "el glosario pide \"Muro dei Serpenti\" para \"Muro de Serpientes\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "0340ee1278b070e6",
+      "texto": "I Toltechi e la loro epoca"
+    },
+    "frase_gancho": {
+      "hash": "7a82c65ae56983ad",
+      "texto": "Dopo la città degli dèi arriva quella dei guerrieri."
+    },
+    "introduccion_narrativa": {
+      "hash": "e2811fb2b8404915",
+      "texto": "Quando Teotihuacán si spense, la valle si riempì di città che volevano prendere il suo posto. Questa sala comincia in quei secoli di assestamento, tra gli anni settecento e novecento, con le tracce di luoghi come Xochicalco, Cacaxtla e Teotenango, e arriva a Tula, la capitale dei Toltechi, che dominò il centro del Messico fino a circa millecentocinquanta. Per i mexica, i Toltechi furono i saggi e gli artisti per eccellenza: la parola «tolteco» arrivò a significare artigiano. Qui vedrai guerrieri giganti che sorreggevano un tetto, un muro di serpenti, animali che marciano come un esercito e la leggenda di un re-sacerdote, Quetzalcóatl, che perse la sua città e si trasformò in stella."
+    }
+  }
+}

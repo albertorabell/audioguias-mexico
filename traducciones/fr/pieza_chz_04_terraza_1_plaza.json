@@ -1,0 +1,55 @@
+{
+  "id": "chz_04_terraza_1_plaza",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-05",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "eb8b7e357480fe74",
+      "texto": "Terrasse 1 et la grande place"
+    },
+    "frase_gancho": {
+      "hash": "0cea1c5507f7e92e",
+      "texto": "La terrasse principale du village : une vaste place entre une demeure d’élite et une grande plateforme."
+    },
+    "puente_narrativo": {
+      "hash": "89faa625aed52d28",
+      "texto": "Poursuivez votre parcours : au bord de cette place se dresse une plateforme d’environ soixante-dix mètres."
+    },
+    "guion_corto": {
+      "hash": "72acf12159dca813",
+      "texto": "Près d’un hectare de place et aucune sculpture monumentale. Vous voici sur la Terrasse un, la principale de l’ancien village. Selon David Grove, vers huit cents ans avant notre ère, la terre glissée depuis la colline a été transformée en grandes terrasses où l’on vivait. Au sud de cet espace se trouvait la résidence d’une famille d’élite. Au nord s’élève un tertre à plateformes. Entre les deux s’étend un espace ouvert, fait pour se retrouver ensemble. Les sculptures qui parlent de pouvoir politique sont apparues ailleurs dans le village, et beaucoup étaient mutilées ou enterrées. Une place comme celle-ci permet de rassembler beaucoup de monde. Pour Grove, ces tertres montrent l’importance de Chalcatzingo comme centre régional."
+    },
+    "guion_largo": {
+      "hash": "edc5f702b73fb6bb",
+      "texto": "Une place est un espace vide fait exprès. Sur la Terrasse un, cet espace mesure près d’un hectare. Selon Grove et selon l’INAH, il n’a pas d’art monumental. Tout le poids du lieu tient à ce qui l’entoure.\n\nD’abord, les terrasses. Les fouilles du Projet archéologique de Chalcatzingo ont montré que la terre glissée naturellement depuis la base de la colline a été transformée en grandes terrasses résidentielles vers huit cents ans avant notre ère. Celle-ci est la principale. Autrement dit, le village n’a pas grandi par hasard : quelqu’un a décidé d’aplanir le versant et d’y organiser la vie.\n\nAu sud de la place se trouvait une résidence d’élite. Au nord, il y a un tertre à plateformes, la [Structure quatre](chz_05_estructura_4). Pour Grove, les tertres à plateformes de certaines terrasses indiquent l’importance de Chalcatzingo comme centre régional.\n\nL’eau compte aussi dans cette histoire. Arqueología Mexicana explique que, dans le Morelos de ces siècles, les groupes dotés d’une organisation sociale plus complexe ont commencé à se développer dans des lieux où l’eau abondait. Ils ont aussi choisi des endroits où ils pouvaient contrôler des sources et des ravins. Chalcatzingo avait une source qui alimentait l’établissement. Tout ce que vous voyez autour de vous faisait partie d’un même lieu de vie.\n\nUn tertre à plateformes est une élévation faite par les hommes, avec des niveaux plats à son sommet. Il sert à élever un édifice ou un espace au-dessus du reste. Les sources consultées ne décrivent pas ce qu’il y avait sur ce tertre.\n\nSi vous voulez sentir l’échelle, placez-vous au milieu de la place et regardez d’abord vers le sud, puis vers le nord. Entre l’un et l’autre s’étend l’espace ouvert de la place.\n\nPensez maintenant aux sculptures. Les monuments des terrasses ne ressemblent pas à ceux de la colline. Grove explique que dans le village prédominent les images liées au pouvoir politique des personnes de l’élite, plutôt que les scènes rituelles ou mythologiques. De plus, beaucoup de ces monuments ont été mutilés, décapités ou enterrés. Ceux de la colline, aux thèmes sacrés, ne l’ont pas été.\n\nUn exemple est une statue d’un personnage assis, dont la tête manquait. Eulalia Guzmán l’a documentée en mille neuf cent trente-quatre. Elle est aujourd’hui exposée au Musée national d’anthropologie, à Mexico, et les archéologues la connaissent sous le nom de Monument seize.\n\nUne autre découverte parle de la vie de l’élite. En fouillant une maison de ce groupe, que l’érosion était en train de détruire, les archéologues ont trouvé des sépultures sous le sol. L’une était une tombe revêtue de pierre, avec des vases, quelques ossements très abîmés et une tête de pierre. Les données indiquent qu’il s’agissait de la tombe d’une femme de l’élite. Si cette histoire vous intéresse, poursuivez jusqu’à [la femme du Monument vingt et un](chz_09_monumento_21_mujer).\n\nLes sources ne disent pas à quoi servait cette place en particulier. Ce qu’elles montrent, c’est la scène : maison, plateforme et espace ouvert au milieu, sur la terrasse principale d’un centre régional."
+    },
+    "retos_observacion": {
+      "hash": "d742fc79a5517158",
+      "texto": [
+        "Estimez à l’œil combien de personnes tiendraient sur cette place",
+        "Cherchez vers le nord le tertre à plateformes",
+        "Regardez vers le sud, là où se trouvait la résidence d’élite"
+      ]
+    },
+    "especificaciones": {
+      "hash": "28d83bab6439f142",
+      "texto": {
+        "Terrasse": "la principale du village",
+        "Place": "près d’un hectare, sans art monumental",
+        "Au sud": "résidence d’élite",
+        "Au nord": "tertre à plateformes",
+        "Origine des terrasses": "vers huit cents ans avant notre ère"
+      }
+    },
+    "faq_mito": {
+      "hash": "96a96aceeb58d1d4",
+      "texto": {
+        "pregunta": "Mythe : Une place vide n’a rien à raconter.",
+        "respuesta": "Réalité : L’absence de sculptures ici en dit déjà long : les monuments de pouvoir se trouvaient parmi les maisons et les plateformes, et ceux au thème sacré, sur la colline."
+      }
+    }
+  }
+}
