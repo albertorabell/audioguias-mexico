@@ -34,7 +34,7 @@ jobs:
           VOCES: ${{ inputs.voces || 'Charon,Orus,Fenrir' }}
           GENERAR: ${{ github.event_name == 'push' || inputs.generar }}
         run: |
-          args=("--voces=$VOCES")
+          args=("--voces=Fenrir")
           if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
           node scripts/probar-google-tts.mjs "${args[@]}" 2>&1 | tee google.log
           if [ "$GENERAR" = "true" ]; then node scripts/probar-google-glosario.mjs 2>&1 | tee -a google.log; fi
