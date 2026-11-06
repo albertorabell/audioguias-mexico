@@ -69,7 +69,7 @@ export const IT_GROUPS: Record<string, any> = {
     langSelectAria: 'Selettore della lingua',
     themeToMuseumTitle: 'Passa alla Modalità Museo (sale)',
     themeToSunTitle: 'Passa alla Modalità Sole (all’aperto)',
-    heroTitle: 'Il tuo curatore personale da tasca',
+    heroTitle: "La tua guida audio per scoprire il Messico",
     comingSoon: 'Prossimamente',
     explore: 'Esplora',
     siteSoonToast: (name: string) => `Prossimamente: ${name} è in fase di sviluppo.`,
@@ -321,7 +321,8 @@ export const IT_GROUPS: Record<string, any> = {
     },
     floors: { aria: 'Piano', PB: 'Piano terra', PBsub: 'Archeologia', PA: 'Piano superiore', PAsub: 'Etnografia' },
     home: {
-      subtitle: 'Un’audioguida che ti prende per mano. Scegli un luogo, segui la mappa e ascolta la storia di ogni tappa proprio dove ti trovi.',
+      subtitle: "Musei, zone archeologiche e altri luoghi turistici, raccontati da una voce che ti accompagna mentre cammini.",
+      introSteps: [{ title: "Scegli il tuo luogo", text: "Un museo, delle piramidi, un centro storico… decidi tu dove andare." }, { title: "Segui la mappa", text: "Ti prendiamo per mano, tappa dopo tappa, nell’ordine in cui si percorre." }, { title: "Premi «play»", text: "Una voce ti racconta la storia proprio davanti a ciò che stai guardando. Preferisci leggere? Puoi anche farlo." }, { title: "Niente rete, nessun problema", text: "Scarica il percorso prima di arrivare e funziona senza internet." }],
       venuesAria: 'Musei',
       venueStats: (r: number, w: number) => `${rooms(r)} e ${w} ${w === 1 ? 'opera spiegata' : 'opere spiegate'}`,
       enter: 'Entra nel museo',

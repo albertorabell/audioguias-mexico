@@ -69,7 +69,7 @@ export const PT_GROUPS: Record<string, any> = {
     langSelectAria: 'Seletor de idioma',
     themeToMuseumTitle: 'Mudar para o Modo Museu (salas)',
     themeToSunTitle: 'Mudar para o Modo Sol (área externa)',
-    heroTitle: 'Seu curador pessoal no bolso',
+    heroTitle: "Seu guia em áudio para conhecer o México",
     comingSoon: 'Em breve',
     explore: 'Explorar',
     siteSoonToast: (name: string) => `Em breve: ${name} está em desenvolvimento.`,
@@ -321,7 +321,8 @@ export const PT_GROUPS: Record<string, any> = {
     },
     floors: { aria: 'Andar', PB: 'Térreo', PBsub: 'Arqueologia', PA: 'Andar superior', PAsub: 'Etnografia' },
     home: {
-      subtitle: 'Um audioguia que leva você pela mão. Escolha um lugar, siga o mapa e ouça a história de cada parada bem onde você está.',
+      subtitle: "Museus, zonas arqueológicas e outros pontos turísticos, contados por uma voz que acompanha você enquanto caminha.",
+      introSteps: [{ title: "Escolha seu lugar", text: "Um museu, umas pirâmides, um centro histórico… você decide aonde ir." }, { title: "Siga o mapa", text: "Levamos você pela mão, parada por parada, na ordem do percurso." }, { title: "Aperte o play", text: "Uma voz conta a história bem na frente do que você está vendo. Prefere ler? Também pode." }, { title: "Sem sinal, sem problema", text: "Baixe o roteiro antes de chegar e ele funciona sem internet." }],
       venuesAria: 'Museus',
       venueStats: (r: number, w: number) => `${rooms(r)} e ${w} ${w === 1 ? 'obra explicada' : 'obras explicadas'}`,
       enter: 'Entrar no museu',
