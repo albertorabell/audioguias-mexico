@@ -9760,6 +9760,24 @@
           "provider": "azure"
         }
       },
+      "chz_01_dos_cerros_un_valle": {
+        "corto": {
+          "hash": "47df1e0d2ffda088",
+          "file": "en/chz_01_dos_cerros_un_valle_corto.mp3",
+          "remote": false,
+          "seconds": 41,
+          "bytes": 163776,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "2b8cd9d820db59a1",
+          "file": "en/chz_01_dos_cerros_un_valle_largo.mp3",
+          "remote": false,
+          "seconds": 179,
+          "bytes": 717120,
+          "provider": "google"
+        }
+      },
       "cue_00_por_que_cuernavaca": {
         "corto": {
           "hash": "4140418fac11ba67",
@@ -25478,6 +25496,24 @@
           "provider": "azure"
         }
       },
+      "chz_01_dos_cerros_un_valle": {
+        "corto": {
+          "hash": "363367280099ba49",
+          "file": "fr/chz_01_dos_cerros_un_valle_corto.mp3",
+          "remote": false,
+          "seconds": 39,
+          "bytes": 154464,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "7ce078e6a92a3ed9",
+          "file": "fr/chz_01_dos_cerros_un_valle_largo.mp3",
+          "remote": false,
+          "seconds": 167,
+          "bytes": 667584,
+          "provider": "google"
+        }
+      },
       "cue_00_por_que_cuernavaca": {
         "corto": {
           "hash": "f9b6dba90d522722",
@@ -40852,6 +40888,24 @@
           "seconds": 168,
           "bytes": 1008720,
           "provider": "azure"
+        }
+      },
+      "chz_01_dos_cerros_un_valle": {
+        "corto": {
+          "hash": "af46b50bcc106089",
+          "file": "pl/chz_01_dos_cerros_un_valle_corto.mp3",
+          "remote": false,
+          "seconds": 41,
+          "bytes": 165024,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "abc634bb7015b311",
+          "file": "pl/chz_01_dos_cerros_un_valle_largo.mp3",
+          "remote": false,
+          "seconds": 188,
+          "bytes": 750528,
+          "provider": "google"
         }
       },
       "cue_00_por_que_cuernavaca": {
