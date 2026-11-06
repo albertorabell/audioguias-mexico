@@ -20,7 +20,9 @@ export type AnalyticsEvent =
   | 'install'
   | 'offline_download'
   | 'screen_view'
-  | 'audio_stop';
+  | 'audio_stop'
+  | 'util_si'
+  | 'util_no';
 
 /**
  * De dónde llegó la persona, en una categoría muy general (nunca la dirección completa ni ningún código).
@@ -65,6 +67,11 @@ let currentSite = '';
 /** Sitio que se está viendo. Se agrega solo a cada evento para saber qué sitios se usan; no identifica a nadie. */
 export function setAnalyticsSite(siteId: string | null | undefined): void {
   currentSite = siteId ? siteId.toLowerCase() : '';
+}
+
+/** Sitio que se está viendo (para el formulario de contacto). */
+export function getAnalyticsSite(): string {
+  return currentSite;
 }
 
 export interface AnalyticsFields {

@@ -9,6 +9,8 @@
 //   POST /evento      la app cuenta (sin datos personales) qué se usa: obra vista, audio, pantalla del pase...
 //   POST /recorrido    al cerrar la app, el resumen anónimo de la visita (pantallas, audios, duración); sin identificador
 //   GET  /recorridos   resumen de esas visitas (solo con la clave STATS_KEY); se borran a los 60 días
+//   POST /contacto     mensaje o reporte de error del formulario de la app; se guarda 90 días y avisa por correo
+//   GET  /mensajes     esos mensajes (solo con la clave STATS_KEY)
 //   GET  /estadisticas  resumen de esos conteos (solo con la clave STATS_KEY)
 //   GET  /config     precios y forma de acceso (del sitio pedido con ?site=, o los de Stripe si no hay tabla) y reglas del pase
 //   POST /admin/codigos  el robot de GitHub publica los códigos de acceso (hoja CODIGOS); solo con la clave CODES_KEY
@@ -26,8 +28,8 @@ import { COMBO, coverageOf, coversSite, getPrecios, siteForPiece } from './preci
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'; // sin 0, O, 1, I, L para que no se confundan al dictarlo
 const SESSION_RE = /^cs_(test|live)_[A-Za-z0-9]{10,200}$/;
 const DEVICE_RE = /^[A-Za-z0-9_-]{6,64}$/;
-const AUDIO_RE = /^\/audio\/(libre|pago)\/(es|en|fr|pl|ru|ja)\/([A-Za-z0-9_-]+)_(corto|largo)\.mp3$/;
-const TEXT_RE = /^\/texto\/(es|en|fr|pl|ru|ja)\.json$/;
+const AUDIO_RE = /^\/audio\/(libre|pago)\/(es|en|fr|pl|de|pt|it|ru|ja)\/([A-Za-z0-9_-]+)_(corto|largo)\.mp3$/;
+const TEXT_RE = /^\/texto\/(es|en|fr|pl|de|pt|it|ru|ja)\.json$/;
 const STRIPE_LOCALES = { es: 'es-419', en: 'en', fr: 'fr', pl: 'pl', ru: 'ru', ja: 'ja' };
 
 /** "ES", "es-MX" o "en-US" → "es" / "en". Cualquier otra cosa (incluido "constructor") → "es". */
@@ -261,7 +263,7 @@ async function handleStripeWebhook(request, env, cfg, cors) {
 const EVENTS = new Set([
   'app_open', 'piece_view', 'audio_play', 'audio_end', 'paywall_open', 'checkout_start', 'lang_change',
   'route_start', 'tour_done', 'install', 'offline_download', 'search', 'purchase', 'refund', 'code_redeem',
-  'screen_view', 'visit_country', 'audio_stop',
+  'screen_view', 'visit_country', 'audio_stop', 'util_si', 'util_no',
 ]);
 const PIECE_RE = /^[a-z0-9_]{3,60}$/;
 const DAILY_KEY_LIMIT = 3000;
@@ -361,6 +363,97 @@ async function handleVisits(request, env, url, cors) {
     for (const [k, n] of Object.entries(JSON.parse(raw).c)) total[k] = (total[k] || 0) + n;
   }
   return json({ dias: days, zona: 'UTC', conteos: total }, 200, cors);
+}
+
+
+// ---------------------------------------------------------------------------
+// Formulario de contacto y reporte de errores. Guarda el mensaje 90 días (para leerlo en el panel) y, si está
+// configurado el envío de correo de Cloudflare, avisa a la dirección de CONTACT_TO. Si el correo falla, el mensaje
+// queda guardado igual. Sin cuenta, sin IP: el límite es por día y total (no por persona).
+// ---------------------------------------------------------------------------
+const CONTACT_TTL = 90 * 86400;
+const CONTACT_DAILY_MAX = 60;
+const EMAIL_RE = /^[^\s@<>"]{1,64}@[^\s@<>"]{1,200}\.[^\s@<>"]{2,20}$/;
+
+function b64Utf8(text) {
+  const bytes = new TextEncoder().encode(text);
+  let bin = '';
+  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return btoa(bin);
+}
+
+async function sendContactMail(env, subject, text, replyTo) {
+  if (!env.CONTACTO_MAIL || !env.CONTACT_TO) return;
+  const { EmailMessage } = await import('cloudflare:email');
+  const from = env.CONTACT_FROM || 'formulario@xolotli.com';
+  const body = b64Utf8(text).replace(/.{1,76}/g, '$&\r\n').trimEnd();
+  const raw = [
+    `From: Xolotli <${from}>`,
+    `To: ${env.CONTACT_TO}`,
+    ...(replyTo ? [`Reply-To: ${replyTo}`] : []),
+    `Subject: =?UTF-8?B?${b64Utf8(subject)}?=`,
+    `Date: ${new Date().toUTCString()}`,
+    `Message-ID: <${crypto.randomUUID()}@xolotli.com>`,
+    'MIME-Version: 1.0',
+    'Content-Type: text/plain; charset=UTF-8',
+    'Content-Transfer-Encoding: base64',
+    '',
+    body,
+  ].join('\r\n');
+  await env.CONTACTO_MAIL.send(new EmailMessage(from, env.CONTACT_TO, raw));
+}
+
+async function handleContact(request, env, cfg, cors) {
+  if (!cors['Access-Control-Allow-Origin']) return json({ error: 'origin_not_allowed' }, 403);
+  const b = await readJson(request);
+  if (!b || typeof b !== 'object') return json({ error: 'bad_request' }, 400, cors);
+  // Campo trampa: las personas no lo ven ni lo llenan; si trae algo, es un programa. Se responde "bien" sin guardar.
+  if (typeof b.web === 'string' && b.web.trim()) return new Response(null, { status: 204, headers: cors });
+  const clean = (v, max) => String(v ?? '').replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, '').trim().slice(0, max);
+  const message = clean(b.m, 2000);
+  if (message.length < 3) return json({ error: 'bad_request' }, 400, cors);
+  const reply = clean(b.c, 120);
+  if (reply && !EMAIL_RE.test(reply)) return json({ error: 'bad_email' }, 400, cors);
+  const kind = b.t === 'error' ? 'error' : 'mensaje';
+  const piece = clean(b.p, 80);
+  const site = siteKey(b.s);
+  const lang = /^[a-z]{2}$/.test(String(b.l || '')) ? b.l : '';
+  const day = new Date().toISOString().slice(0, 10);
+  try {
+    const capKey = `ct:cap:${day}`;
+    const n = parseInt((await env.PASES.get(capKey)) || '0', 10) || 0;
+    if (n >= CONTACT_DAILY_MAX) return json({ error: 'busy' }, 429, cors);
+    await env.PASES.put(capKey, String(n + 1), { expirationTtl: 2 * 86400 });
+    const rec = { t: kind, m: message, ...(reply ? { c: reply } : {}), ...(piece ? { p: piece } : {}), ...(site ? { s: site } : {}), ...(lang ? { l: lang } : {}), at: new Date().toISOString() };
+    await env.PASES.put(`ct:m:${Date.now()}-${crypto.randomUUID().slice(0, 8)}`, JSON.stringify(rec), { expirationTtl: CONTACT_TTL });
+    try {
+      const where = [site && `sitio: ${site}`, piece && `parada: ${piece}`, lang && `idioma: ${lang}`].filter(Boolean).join(' · ');
+      await sendContactMail(env, `[Xolotli] ${kind === 'error' ? 'Reporte de error' : 'Mensaje'}${piece ? ` (${piece})` : ''}`, `${message}\n\n---\n${where || 'sin detalles'}\n${reply ? `Responder a: ${reply}` : 'Sin correo de respuesta'}\n`, reply);
+    } catch (e) {
+      console.error('contacto_correo', e && e.message);
+    }
+  } catch (e) {
+    console.error('contacto', e && e.message);
+    return json({ error: 'server' }, 500, cors);
+  }
+  return new Response(null, { status: 204, headers: cors });
+}
+
+async function handleMessages(request, env, url, cors) {
+  const auth = request.headers.get('Authorization') || '';
+  if (!env.STATS_KEY || !timingSafeEqual(auth, `Bearer ${env.STATS_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
+  const out = [];
+  let cursor;
+  do {
+    const page = await env.PASES.list({ prefix: 'ct:m:', cursor, limit: 200 });
+    for (const k of page.keys) {
+      const raw = await env.PASES.get(k.name);
+      if (raw) out.push({ id: k.name.slice(5), ...JSON.parse(raw) });
+    }
+    cursor = page.list_complete ? undefined : page.cursor;
+  } while (cursor && out.length < 300);
+  out.sort((a, b) => (a.at < b.at ? 1 : -1));
+  return json({ total: out.length, mensajes: out }, 200, cors);
 }
 
 async function handleStats(request, env, url, cors) {
@@ -820,6 +913,7 @@ export default {
       if (request.method === 'POST' && origin && !cors['Access-Control-Allow-Origin']) return json({ error: 'origin_not_allowed' }, 403);
 
       if (url.pathname === '/estadisticas' && request.method === 'GET') return handleStats(request, env, url, cors);
+      if (url.pathname === '/mensajes' && request.method === 'GET') return handleMessages(request, env, url, cors);
       if (url.pathname === '/recorridos' && request.method === 'GET') return handleVisits(request, env, url, cors);
       if (url.pathname === '/health') return json({ ok: true }, 200, cors);
       if (url.pathname === '/config' && request.method === 'GET') return handleConfig(env, cfg, cors, url);
@@ -828,6 +922,7 @@ export default {
       if (url.pathname.startsWith('/audio/') && (request.method === 'GET' || request.method === 'HEAD')) return handleAudio(request, env, cfg, cors, url);
       if (request.method === 'POST' && url.pathname === '/stripe-webhook') return handleStripeWebhook(request, env, cfg, cors);
       if (request.method === 'POST' && url.pathname === '/evento') return handleEvent(request, env, cfg, cors);
+      if (request.method === 'POST' && url.pathname === '/contacto') return handleContact(request, env, cfg, cors);
       if (request.method === 'POST' && url.pathname === '/recorrido') return handleVisit(request, env, cfg, cors);
       if (request.method === 'POST') {
         if (!env.TOKEN_SECRET || !env.STRIPE_SECRET_KEY) return json({ error: 'not_configured' }, 503, cors);

@@ -112,6 +112,10 @@
     <h3>Sitios que visitan en una misma visita</h3>
     <div class="card" id="vsites"></div>
 
+    <h2>Mensajes y reportes de error</h2>
+    <p class="sub">Lo que la gente escribe en «Contacto» y «Reportar un error». Se borra solo a los 90 días. Si dejó correo, aparece para que le respondas.</p>
+    <div class="card" id="msgs"></div>
+
     <p class="note">«Visitas» son aperturas de la app, no personas: quien vuelve cuenta otra vez. Los días van en hora UTC. Las cifras son aproximadas (dos eventos exactamente simultáneos pueden contarse como uno).</p>
   </section>
 </main>
@@ -123,7 +127,7 @@
     set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
     del: function (k) { try { localStorage.removeItem(k); } catch (e) {} }
   };
-  var data = null, visits = null;
+  var data = null, visits = null, messages = null;
 
   $('api').value = store.get('panel_api');
   $('key').value = store.get('panel_key');
@@ -151,6 +155,11 @@
       var vr = await fetch(api + '/recorridos?dias=' + Math.min(Number(days), 60), { headers: { Authorization: 'Bearer ' + key } });
       if (vr.ok) visits = (await vr.json()).conteos || {};
     } catch (e) { /* el servidor aún no tiene recorridos: la sección queda vacía */ }
+    messages = null;
+    try {
+      var mr = await fetch(api + '/mensajes', { headers: { Authorization: 'Bearer ' + key } });
+      if (mr.ok) messages = (await mr.json()).mensajes || [];
+    } catch (e) { /* el servidor aún no tiene el formulario: la sección queda vacía */ }
     store.set('panel_api', api);
     store.set('panel_key', key);
     $('login').hidden = true;
@@ -236,7 +245,7 @@
 
     // Piezas más escuchadas
     var pcs = {};
-    rs.forEach(function (r) { if (r.p && (r.e === 'audio_play' || r.e === 'audio_end' || r.e === 'piece_view' || r.e === 'audio_stop')) { var o = pcs[r.p] || (pcs[r.p] = { play: 0, end: 0, view: 0, stop: 0, stopFar: 0 }); if (r.e === 'audio_play') o.play += r.n; else if (r.e === 'audio_end') o.end += r.n; else if (r.e === 'audio_stop') { o.stop += r.n; if (r.k === '75' || r.k === '100') o.stopFar += r.n; } else o.view += r.n; } });
+    rs.forEach(function (r) { if (r.p && (r.e === 'audio_play' || r.e === 'audio_end' || r.e === 'piece_view' || r.e === 'audio_stop' || r.e === 'util_si' || r.e === 'util_no')) { var o = pcs[r.p] || (pcs[r.p] = { play: 0, end: 0, view: 0, stop: 0, stopFar: 0, si: 0, no: 0 }); if (r.e === 'util_si') o.si += r.n; else if (r.e === 'util_no') o.no += r.n; else if (r.e === 'audio_play') o.play += r.n; else if (r.e === 'audio_end') o.end += r.n; else if (r.e === 'audio_stop') { o.stop += r.n; if (r.k === '75' || r.k === '100') o.stopFar += r.n; } else o.view += r.n; } });
     var list = Object.keys(pcs).sort(function (a, b) { return pcs[b].play - pcs[a].play || pcs[b].view - pcs[a].view; }).slice(0, 12);
     var pbox = $('pieces'); pbox.innerHTML = '';
     var pm = list.length ? Math.max(pcs[list[0]].play, 1) : 1;
@@ -244,7 +253,7 @@
       var r = el('div', undefined, 'hbar');
       r.appendChild(el('span', p));
       var tr = el('div', undefined, 'track'), f = el('div', undefined, 'fill'); f.style.width = (pcs[p].play / pm) * 100 + '%'; tr.appendChild(f); r.appendChild(tr);
-      r.appendChild(el('span', pcs[p].play + ' · ' + pcs[p].view + ' vistas' + (pcs[p].stop ? ' · ' + pct(pcs[p].stopFar, pcs[p].stop) + ' llegan al 75 %' : ''), 'n'));
+      r.appendChild(el('span', pcs[p].play + ' · ' + pcs[p].view + ' vistas' + (pcs[p].stop ? ' · ' + pct(pcs[p].stopFar, pcs[p].stop) + ' llegan al 75 %' : '') + (pcs[p].si || pcs[p].no ? ' · 👍 ' + pcs[p].si + ' · 👎 ' + pcs[p].no : ''), 'n'));
       r.lastChild.title = 'Audios iniciados · veces que se abrió la ficha · de quienes dejaron el audio, cuántos pasaron del 75 %. Terminados: ' + pcs[p].end;
       pbox.appendChild(r);
     });
@@ -291,8 +300,22 @@
 
     // Recorridos (resumen anónimo de cada visita)
     renderVisits();
+    renderMessages();
   }
 
+  function renderMessages() {
+    var box = $('msgs'); box.innerHTML = '';
+    if (!messages || !messages.length) { box.appendChild(el('p', messages ? 'Todavía no hay mensajes.' : 'Sin datos: el servidor aún no tiene el formulario.', 'sub')); return; }
+    messages.forEach(function (m) {
+      var c = el('div', undefined, 'msg');
+      var head = (m.t === 'error' ? 'Error' : 'Mensaje') + ' · ' + new Date(m.at).toLocaleString('es-MX') + (m.s ? ' · ' + m.s : '') + (m.p ? ' · ' + m.p : '') + (m.l ? ' · ' + m.l : '');
+      c.appendChild(el('strong', head));
+      c.appendChild(el('p', m.m));
+      if (m.c) c.appendChild(el('p', 'Responder a: ' + m.c, 'sub'));
+      c.style.cssText = 'border-bottom:1px solid var(--line);padding:10px 0;white-space:pre-wrap';
+      box.appendChild(c);
+    });
+  }
   function renderVisits() {
     var v = visits, total = v ? (v.visitas || 0) : 0;
     var scr = { inicio: 'Inicio', salas: 'Salas', recorridos: 'Recorridos', mapa: 'Mapa', buscar: 'Buscar', sala: 'Sala', ficha: 'Ficha', asistente: 'Asistente', fin_recorrido: 'Fin del recorrido', pase: 'Pantalla del pase' };

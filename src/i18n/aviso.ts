@@ -38,7 +38,7 @@ const es: AvisoText = {
   privacyIntro: 'Audioguía Xolo no usa cookies, no te pide crear una cuenta y no te sigue. Esto es lo único que medimos y por qué.',
   privacyBlocks: [
     ['Qué contamos', 'Conteos anónimos para mejorar la app: qué pantallas se abren, qué audios se escuchan y hasta dónde, en qué idioma, desde qué país y de qué tipo de enlace llegaste (buscador, QR, redes). El país lo deduce el servidor sin guardar tu dirección IP. Al cerrar la app se envía un resumen de la visita, por ejemplo «inicio, sala, ficha; 2 audios; 6 minutos». Ese resumen no lleva número de usuario ni nada que te identifique, y se borra a los 60 días.'],
-    ['Qué no hacemos', 'No guardamos tu IP, tu nombre, tu correo ni tu ubicación: el mapa usa el GPS solo dentro de tu teléfono y nunca lo envía. No usamos cookies, no te seguimos entre visitas ni entre sitios web, y no vendemos ni compartimos datos con anunciantes.'],
+    ['Qué no hacemos', 'No guardamos tu IP, tu nombre ni tu ubicación: el mapa usa el GPS solo dentro de tu teléfono y nunca lo envía. No usamos cookies, no te seguimos entre visitas ni entre sitios web, y no vendemos ni compartimos datos con anunciantes.'],
     ['Lo que guarda tu teléfono', 'Solo lo necesario para que la app funcione: tu idioma y tema, los audios que descargas para oírlos sin internet y, si compras un pase, un código de la compra y un código técnico de tu teléfono para reconocer el pase en hasta 2 teléfonos. No sirven para rastrearte.'],
     ['Pagos', 'Los pagos los procesa Stripe. Nosotros no vemos ni guardamos los datos de tu tarjeta.'],
     ['Tus derechos', 'Como no guardamos datos que te identifiquen, no hay un perfil tuyo que consultar o borrar. Si tienes dudas o quieres que revisemos algo de tu compra, escríbenos desde «Contacto».'],
@@ -68,7 +68,7 @@ const en: AvisoText = {
   privacyIntro: 'Audioguía Xolo uses no cookies, asks you for no account and does not follow you around. This is all we measure, and why.',
   privacyBlocks: [
     ['What we count', 'Anonymous counts to improve the app: which screens are opened, which audios are played and how far, in which language, from which country and what kind of link brought you here (search engine, QR code, social media). The server works out the country without storing your IP address. When you close the app, a summary of the visit is sent, for example “home, room, stop; 2 audios; 6 minutes”. It carries no user number or anything that identifies you, and it is deleted after 60 days.'],
-    ['What we do not do', 'We do not store your IP address, name, email or location: the map uses GPS only inside your phone and never sends it. We use no cookies, we do not follow you across visits or websites, and we do not sell or share data with advertisers.'],
+    ['What we do not do', 'We do not store your IP address, name or location: the map uses GPS only inside your phone and never sends it. We use no cookies, we do not follow you across visits or websites, and we do not sell or share data with advertisers.'],
     ['What your phone keeps', 'Only what the app needs to work: your language and theme, the audios you download to hear offline and, if you buy a pass, a purchase code and a technical code for your phone so the pass is recognised on up to 2 phones. They cannot be used to track you.'],
     ['Payments', 'Payments are processed by Stripe. We never see or store your card details.'],
     ['Your rights', 'Because we hold no data that identifies you, there is no profile of you to access or delete. If you have questions or want us to look into a purchase, write to us through “Contact”.'],
@@ -98,7 +98,7 @@ const fr: AvisoText = {
   privacyIntro: "Audioguía Xolo n'utilise pas de cookies, ne demande pas de compte et ne vous suit pas. Voici ce que nous mesurons, et pourquoi.",
   privacyBlocks: [
     ['Ce que nous comptons', "Des comptages anonymes pour améliorer l'appli : quels écrans sont ouverts, quels audios sont écoutés et jusqu'où, dans quelle langue, depuis quel pays et par quel type de lien vous êtes arrivé (moteur de recherche, QR code, réseaux sociaux). Le serveur déduit le pays sans enregistrer votre adresse IP. À la fermeture de l'appli, un résumé de la visite est envoyé, par exemple « accueil, salle, fiche ; 2 audios ; 6 minutes ». Il ne contient aucun numéro d'utilisateur ni rien qui vous identifie, et il est supprimé après 60 jours."],
-    ['Ce que nous ne faisons pas', "Nous n'enregistrons ni votre adresse IP, ni votre nom, ni votre e-mail, ni votre position : la carte utilise le GPS uniquement dans votre téléphone et ne l'envoie jamais. Pas de cookies, pas de suivi entre les visites ou entre les sites, et nous ne vendons ni ne partageons de données avec des annonceurs."],
+    ['Ce que nous ne faisons pas', "Nous n'enregistrons ni votre adresse IP, ni votre nom, ni votre position : la carte utilise le GPS uniquement dans votre téléphone et ne l'envoie jamais. Pas de cookies, pas de suivi entre les visites ou entre les sites, et nous ne vendons ni ne partageons de données avec des annonceurs."],
     ['Ce que garde votre téléphone', "Seulement ce qui est nécessaire au fonctionnement : votre langue et votre thème, les audios téléchargés pour l'écoute hors ligne et, si vous achetez un pass, un code d'achat et un code technique de votre téléphone pour reconnaître le pass sur 2 téléphones au maximum. Ils ne servent pas à vous suivre."],
     ['Paiements', 'Les paiements sont traités par Stripe. Nous ne voyons ni ne conservons les données de votre carte.'],
     ['Vos droits', "Comme nous ne conservons aucune donnée qui vous identifie, il n'existe aucun profil à consulter ou à supprimer. Pour toute question ou pour faire examiner un achat, écrivez-nous via « Contact »."],
@@ -128,7 +128,7 @@ const pl: AvisoText = {
   privacyIntro: 'Audioguía Xolo nie używa plików cookie, nie wymaga konta i cię nie śledzi. Oto wszystko, co mierzymy, i dlaczego.',
   privacyBlocks: [
     ['Co liczymy', 'Anonimowe liczniki, które pomagają ulepszać aplikację: jakie ekrany są otwierane, jakie nagrania są odtwarzane i do którego momentu, w jakim języku, z jakiego kraju i jakim rodzajem linku tu trafiłeś (wyszukiwarka, kod QR, media społecznościowe). Kraj ustala serwer, bez zapisywania twojego adresu IP. Po zamknięciu aplikacji wysyłane jest podsumowanie wizyty, np. „start, sala, karta; 2 nagrania; 6 minut”. Nie zawiera numeru użytkownika ani niczego, co cię identyfikuje, i jest usuwane po 60 dniach.'],
-    ['Czego nie robimy', 'Nie zapisujemy adresu IP, imienia, e-maila ani lokalizacji: mapa używa GPS tylko w twoim telefonie i nigdy go nie wysyła. Nie używamy plików cookie, nie śledzimy cię między wizytami ani stronami i nie sprzedajemy ani nie udostępniamy danych reklamodawcom.'],
+    ['Czego nie robimy', 'Nie zapisujemy adresu IP, imienia ani lokalizacji: mapa używa GPS tylko w twoim telefonie i nigdy go nie wysyła. Nie używamy plików cookie, nie śledzimy cię między wizytami ani stronami i nie sprzedajemy ani nie udostępniamy danych reklamodawcom.'],
     ['Co zapamiętuje telefon', 'Tylko to, co potrzebne do działania aplikacji: język i motyw, nagrania pobrane do słuchania offline oraz, jeśli kupisz karnet, kod zakupu i techniczny kod telefonu, aby rozpoznać karnet na maksymalnie 2 telefonach. Nie służą do śledzenia.'],
     ['Płatności', 'Płatności obsługuje Stripe. Nie widzimy ani nie przechowujemy danych twojej karty.'],
     ['Twoje prawa', 'Ponieważ nie przechowujemy danych, które cię identyfikują, nie ma twojego profilu do wglądu ani usunięcia. W razie pytań lub sprawy dotyczącej zakupu napisz do nas przez „Kontakt”.'],
@@ -158,7 +158,7 @@ const de: AvisoText = {
   privacyIntro: 'Audioguía Xolo verwendet keine Cookies, verlangt kein Konto und verfolgt dich nicht. Das ist alles, was wir messen, und warum.',
   privacyBlocks: [
     ['Was wir zählen', 'Anonyme Zählungen zur Verbesserung der App: welche Bildschirme geöffnet werden, welche Audios abgespielt werden und wie weit, in welcher Sprache, aus welchem Land und über welche Art von Link du gekommen bist (Suchmaschine, QR-Code, soziale Netzwerke). Das Land ermittelt der Server, ohne deine IP-Adresse zu speichern. Beim Schließen der App wird eine Zusammenfassung des Besuchs gesendet, z. B. „Start, Raum, Station; 2 Audios; 6 Minuten“. Sie enthält keine Nutzernummer und nichts, was dich identifiziert, und wird nach 60 Tagen gelöscht.'],
-    ['Was wir nicht tun', 'Wir speichern weder deine IP-Adresse noch Namen, E-Mail oder Standort: Die Karte nutzt GPS nur auf deinem Telefon und sendet es nie. Wir verwenden keine Cookies, verfolgen dich nicht über Besuche oder Websites hinweg und verkaufen oder teilen keine Daten mit Werbetreibenden.'],
+    ['Was wir nicht tun', 'Wir speichern weder deine IP-Adresse noch Namen oder Standort: Die Karte nutzt GPS nur auf deinem Telefon und sendet es nie. Wir verwenden keine Cookies, verfolgen dich nicht über Besuche oder Websites hinweg und verkaufen oder teilen keine Daten mit Werbetreibenden.'],
     ['Was dein Telefon speichert', 'Nur, was die App zum Funktionieren braucht: Sprache und Design, heruntergeladene Audios für den Offline-Betrieb und, wenn du einen Pass kaufst, ein Kaufcode und ein technischer Code deines Telefons, damit der Pass auf bis zu 2 Telefonen erkannt wird. Sie dienen nicht der Verfolgung.'],
     ['Zahlungen', 'Zahlungen werden von Stripe abgewickelt. Wir sehen und speichern keine Kartendaten.'],
     ['Deine Rechte', 'Da wir keine Daten speichern, die dich identifizieren, gibt es kein Profil von dir zum Einsehen oder Löschen. Bei Fragen oder zu einem Kauf schreibe uns über „Kontakt“.'],
@@ -188,7 +188,7 @@ const pt: AvisoText = {
   privacyIntro: 'O Audioguía Xolo não usa cookies, não pede cadastro e não segue você. Isto é tudo o que medimos e por quê.',
   privacyBlocks: [
     ['O que contamos', 'Contagens anônimas para melhorar o app: quais telas são abertas, quais áudios são ouvidos e até onde, em que idioma, de que país e por que tipo de link você chegou (buscador, QR code, redes sociais). O servidor deduz o país sem guardar seu endereço IP. Ao fechar o app, é enviado um resumo da visita, por exemplo “início, sala, ficha; 2 áudios; 6 minutos”. Ele não leva número de usuário nem nada que identifique você e é apagado após 60 dias.'],
-    ['O que não fazemos', 'Não guardamos seu IP, nome, e-mail nem localização: o mapa usa o GPS só dentro do seu celular e nunca o envia. Não usamos cookies, não seguimos você entre visitas ou sites e não vendemos nem compartilhamos dados com anunciantes.'],
+    ['O que não fazemos', 'Não guardamos seu IP, nome nem localização: o mapa usa o GPS só dentro do seu celular e nunca o envia. Não usamos cookies, não seguimos você entre visitas ou sites e não vendemos nem compartilhamos dados com anunciantes.'],
     ['O que seu celular guarda', 'Apenas o necessário para o app funcionar: idioma e tema, os áudios que você baixa para ouvir sem internet e, se comprar um passe, um código da compra e um código técnico do seu celular para reconhecer o passe em até 2 celulares. Eles não servem para rastrear você.'],
     ['Pagamentos', 'Os pagamentos são processados pelo Stripe. Nós não vemos nem guardamos os dados do seu cartão.'],
     ['Seus direitos', 'Como não guardamos dados que identifiquem você, não existe um perfil seu para consultar ou apagar. Em caso de dúvida ou sobre uma compra, escreva para nós em “Contato”.'],
@@ -206,7 +206,37 @@ const pt: AvisoText = {
   shareText: 'Audioguía Xolo: seu audioguia de bolso para museus e zonas arqueológicas do México.',
 };
 
-const TEXTS: Partial<Record<SupportedLanguage, AvisoText>> = { es, en, fr, pl, de, pt };
+const it: AvisoText = {
+  privacy: 'Privacy',
+  about: 'Chi siamo',
+  contact: 'Contatto',
+  share: 'Condividi l’app',
+  shared: 'Link copiato',
+  close: 'Chiudi',
+  tagline: 'Audioguía Xolo · Il cammino della storia',
+  privacyTitle: 'Informativa sulla privacy',
+  privacyIntro: 'Audioguía Xolo non usa cookie, non ti chiede di creare un account e non ti segue. Questo è tutto ciò che misuriamo e perché.',
+  privacyBlocks: [
+    ['Cosa contiamo', 'Conteggi anonimi per migliorare l’app: quali schermate si aprono, quali audio si ascoltano e fino a che punto, in quale lingua, da quale paese e da che tipo di link sei arrivato (motore di ricerca, QR, social). Il paese lo deduce il server senza salvare il tuo indirizzo IP. Alla chiusura dell’app viene inviato un riepilogo della visita, per esempio «inizio, sala, scheda; 2 audio; 6 minuti». Quel riepilogo non contiene alcun numero utente né nulla che ti identifichi, e viene cancellato dopo 60 giorni.'],
+    ['Cosa non facciamo', 'Non salviamo il tuo IP, il tuo nome né la tua posizione: la mappa usa il GPS solo dentro il tuo telefono e non lo invia mai. Non usiamo cookie, non ti seguiamo tra una visita e l’altra né tra siti web, e non vendiamo né condividiamo dati con gli inserzionisti.'],
+    ['Cosa conserva il tuo telefono', 'Solo ciò che serve al funzionamento dell’app: la lingua e il tema, gli audio che scarichi per ascoltarli senza internet e, se acquisti un pass, un codice dell’acquisto e un codice tecnico del telefono per riconoscere il pass su un massimo di 2 telefoni. Non servono a rintracciarti.'],
+    ['Pagamenti', 'I pagamenti sono elaborati da Stripe. Noi non vediamo né conserviamo i dati della tua carta.'],
+    ['I tuoi diritti', 'Poiché non conserviamo dati che ti identifichino, non esiste un tuo profilo da consultare o cancellare. Se hai dubbi o vuoi che controlliamo un acquisto, scrivici da «Contatto».'],
+  ],
+  privacyUpdated: 'Ultimo aggiornamento: novembre 2026.',
+  aboutTitle: 'Chi siamo',
+  aboutBody: [
+    'Audioguía Xolo è un’audioguida tascabile per musei, zone archeologiche e centri storici del Messico, realizzata a Città del Messico.',
+    'Ogni tappa ha un audio breve e uno completo da ascoltare proprio dove ti trovi, e tutto funziona senza internet una volta scaricato.',
+    'Xolo, il cane xoloitzcuintle del logo, è il tuo compagno di cammino.',
+  ],
+  contactTitle: 'Contatto',
+  contactBody: 'Un dubbio, un dato da correggere o un’idea per migliorare l’app? Scrivici e raccontaci quale sito e quale tappa hai visto, e con quale telefono.',
+  contactCta: 'Scrivi un’e-mail',
+  shareText: 'Audioguía Xolo: la tua audioguida tascabile per i musei e le zone archeologiche del Messico.',
+};
 
-/** Idiomas sin texto propio (por ejemplo italiano, mientras no se publique) usan inglés. */
+const TEXTS: Partial<Record<SupportedLanguage, AvisoText>> = { es, en, fr, pl, de, pt, it };
+
+/** Idiomas sin texto propio usan inglés. */
 export const avisoText = (lang: SupportedLanguage): AvisoText => TEXTS[lang] ?? en;

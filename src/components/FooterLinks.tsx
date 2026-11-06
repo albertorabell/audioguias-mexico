@@ -2,7 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { X } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
 import { avisoText } from '../i18n/aviso';
-import { CONTACT_EMAIL } from '../config/contacto';
+import { contactoText } from '../i18n/contacto';
+import { ContactForm } from './ContactForm';
 
 type Panel = 'privacy' | 'about' | 'contact' | null;
 
@@ -13,6 +14,7 @@ type Panel = 'privacy' | 'about' | 'contact' | null;
 export const FooterLinks: React.FC = () => {
   const { currentLanguage } = useLanguage();
   const t = avisoText(currentLanguage);
+  const tc = contactoText(currentLanguage);
   const [open, setOpen] = useState<Panel>(null);
   const [copied, setCopied] = useState(false);
   const closeRef = useRef<HTMLButtonElement>(null);
@@ -50,7 +52,7 @@ export const FooterLinks: React.FC = () => {
       <nav className="flex flex-wrap justify-center gap-x-1 gap-y-0">
         <button type="button" className={link} onClick={() => setOpen('privacy')}>{t.privacy}</button>
         <button type="button" className={link} onClick={() => setOpen('about')}>{t.about}</button>
-        {CONTACT_EMAIL && <button type="button" className={link} onClick={() => setOpen('contact')}>{t.contact}</button>}
+        <button type="button" className={link} onClick={() => setOpen('contact')}>{t.contact}</button>
         <button type="button" className={link} onClick={share}>{copied ? t.shared : t.share}</button>
       </nav>
       <p className="mt-2 text-center text-cap text-ink-3">{t.tagline}</p>
@@ -75,7 +77,7 @@ export const FooterLinks: React.FC = () => {
             {open === 'privacy' && (
               <div className="mt-2 space-y-4">
                 <p className="text-ui leading-relaxed text-ink-2">{t.privacyIntro}</p>
-                {t.privacyBlocks.map(([h, body]) => (
+                {[...t.privacyBlocks, tc.privacy].map(([h, body]) => (
                   <section key={h}>
                     <h4 className="text-ui font-bold text-ink">{h}</h4>
                     <p className="mt-1 text-ui leading-relaxed text-ink-2">{body}</p>
@@ -96,8 +98,7 @@ export const FooterLinks: React.FC = () => {
             {open === 'contact' && (
               <div className="mt-2">
                 <p className="text-ui leading-relaxed text-ink-2">{t.contactBody}</p>
-                <a href={`mailto:${CONTACT_EMAIL}`} className="btn-primary w-full mt-4">{t.contactCta}</a>
-                <p className="mt-2 text-center text-cap text-ink-3 select-all">{CONTACT_EMAIL}</p>
+                <ContactForm kind="mensaje" />
               </div>
             )}
           </div>

@@ -15,6 +15,7 @@ import { PieceDock } from './PieceDock';
 import { PieceTour, pieceTourSeen } from './PieceTour';
 import { LinkedText } from './LinkedText';
 import { PiecePeek } from './PiecePeek';
+import { PieceFeedback } from './PieceFeedback';
 import { track, noteAudio, setAudioProbe } from '../utils/analytics';
 
 setAudioProbe(() => ttsPlayer.getState().isPlaying);
@@ -571,6 +572,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             </dl>
           </section>
         )}
+
+        <PieceFeedback pieceId={pieceId} pieceTitle={titulo} />
 
         {next && onNext && (
           <section className="px-5 mt-12" aria-label={u.piece.nextAria}>
