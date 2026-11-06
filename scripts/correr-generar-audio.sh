@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Arma las opciones de scripts/generar-audio.mjs a partir de variables de entorno.
 # Lo usa el botón de GitHub "Generar audios MP3" y también la revisión automática (con la voz de prueba).
-# Variables: IDIOMAS (es,en) · PIEZAS (gratis|premium|todas) · PROVEEDOR (azure|openai|prueba)
+# Variables: IDIOMAS (es,en) · PIEZAS (gratis|premium|todas) · PROVEEDOR (azure|google|openai|prueba)
 #            LIMITE (número o vacío) · GENERAR (true = generar de verdad) · FORZAR (true = regenerar todo)
 #            SITIO (mna|teotihuacan|todos)
 #            REUBICAR (true = solo mover en R2 entre libre/ y pago/ lo que cambió de tipo)
