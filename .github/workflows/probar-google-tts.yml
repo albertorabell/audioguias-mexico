@@ -5,7 +5,7 @@ name: Probar voces de Google (botón manual)
 on:
   push:
     branches: ['feature/prueba-voz-google']
-    paths: ['.github/workflows/probar-google-tts.yml', 'scripts/probar-google-tts.mjs']
+    paths: ['.github/workflows/probar-google-tts.yml', 'scripts/probar-google-tts.mjs', 'scripts/probar-google-glosario.mjs']
   workflow_dispatch:
     inputs:
       voces:
@@ -37,6 +37,7 @@ jobs:
           args=("--voces=$VOCES")
           if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
           node scripts/probar-google-tts.mjs "${args[@]}" 2>&1 | tee google.log
+          if [ "$GENERAR" = "true" ]; then node scripts/probar-google-glosario.mjs 2>&1 | tee -a google.log; fi
           { echo '## Resultado'; echo '```'; cat google.log; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v7
         if: ${{ github.event_name == 'push' || inputs.generar }}
@@ -49,10 +50,12 @@ jobs:
         if: ${{ github.event_name == 'push' }}
         run: |
           mkdir -p public/muestras-google
+          mkdir -p public/muestras-google/glosario
           cp muestras-google/*.mp3 public/muestras-google/
+          cp muestras-google/glosario/*.mp3 public/muestras-google/glosario/ 2>/dev/null || true
           {
             echo '<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Muestras Google</title><body style="font-family:sans-serif;max-width:640px;margin:1rem auto;padding:0 1rem"><h1>Muestras Google Chirp 3 HD</h1>'
-            for f in public/muestras-google/*.mp3; do n=$(basename "$f"); echo "<p><b>${n%.mp3}</b><br><audio controls preload=none src=\"$n\" style=\"width:100%\"></audio></p>"; done
+            for f in public/muestras-google/*.mp3 public/muestras-google/glosario/*.mp3; do n=${f#public/muestras-google/}; echo "<p><b>${n%.mp3}</b><br><audio controls preload=none src=\"$n\" style=\"width:100%\"></audio></p>"; done
           } > public/muestras-google/index.html
           git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
           git add public/muestras-google
