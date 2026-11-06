@@ -3,6 +3,9 @@ name: Probar voces de Google (botón manual)
 # Sin marcar "generar" solo lista las voces Chirp 3 HD por idioma (gratis, no genera audio).
 # Con "generar" crea unas muestras MP3 cortas y las deja como archivo descargable (artifact).
 on:
+  push:
+    branches: ['feature/prueba-voz-google']
+    paths: ['.github/workflows/probar-google-tts.yml', 'scripts/probar-google-tts.mjs']
   workflow_dispatch:
     inputs:
       voces:
@@ -28,15 +31,15 @@ jobs:
       - name: Listar voces / generar muestras
         env:
           GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
-          VOCES: ${{ inputs.voces }}
-          GENERAR: ${{ inputs.generar }}
+          VOCES: ${{ inputs.voces || 'Charon,Orus,Fenrir' }}
+          GENERAR: ${{ github.event_name == 'push' || inputs.generar }}
         run: |
           args=("--voces=$VOCES")
           if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
           node scripts/probar-google-tts.mjs "${args[@]}" 2>&1 | tee google.log
           { echo '## Resultado'; echo '```'; cat google.log; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v7
-        if: ${{ inputs.generar }}
+        if: ${{ github.event_name == 'push' || inputs.generar }}
         with:
           name: muestras-google
           path: muestras-google/
