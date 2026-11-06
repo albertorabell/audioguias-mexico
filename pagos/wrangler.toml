@@ -28,7 +28,13 @@ id = "2a15cc7724a04b42b185a68b7bf799a5"
 binding = "AUDIO"
 bucket_name = "audioguias-audio"
 
+# Aviso por correo del formulario de contacto (Cloudflare Email Routing). Necesita que el correo esté activado en el dominio y que
+# la dirección de destino (secreto CONTACT_TO) esté verificada. Si algo falla, el mensaje igual queda guardado y se lee en el panel.
+[[send_email]]
+name = "CONTACTO_MAIL"
+
 # Los secretos NO se escriben aquí. Se guardan con:
 #   npx wrangler secret put STRIPE_SECRET_KEY
 #   npx wrangler secret put TOKEN_SECRET
+#   npx wrangler secret put CONTACT_TO     (opcional: correo al que llegan los avisos del formulario)
 #   npx wrangler secret put CODES_KEY      (opcional: clave con la que GitHub publica los códigos de acceso de la hoja CODIGOS)

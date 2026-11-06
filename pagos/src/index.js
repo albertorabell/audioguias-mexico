@@ -7,6 +7,10 @@
 //   POST /status     revisa si una clave sigue vigente
 //   POST /stripe-webhook  Stripe avisa de reembolsos y disputas: el pase se cancela solo
 //   POST /evento      la app cuenta (sin datos personales) qué se usa: obra vista, audio, pantalla del pase...
+//   POST /recorrido    al cerrar la app, el resumen anónimo de la visita (pantallas, audios, duración); sin identificador
+//   GET  /recorridos   resumen de esas visitas (solo con la clave STATS_KEY); se borran a los 60 días
+//   POST /contacto     mensaje o reporte de error del formulario de la app; se guarda 90 días y avisa por correo
+//   GET  /mensajes     esos mensajes (solo con la clave STATS_KEY)
 //   GET  /estadisticas  resumen de esos conteos (solo con la clave STATS_KEY)
 //   GET  /config     precios y forma de acceso (del sitio pedido con ?site=, o los de Stripe si no hay tabla) y reglas del pase
 //   POST /admin/codigos  el robot de GitHub publica los códigos de acceso (hoja CODIGOS); solo con la clave CODES_KEY
@@ -24,8 +28,8 @@ import { COMBO, coverageOf, coversSite, getPrecios, siteForPiece } from './preci
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'; // sin 0, O, 1, I, L para que no se confundan al dictarlo
 const SESSION_RE = /^cs_(test|live)_[A-Za-z0-9]{10,200}$/;
 const DEVICE_RE = /^[A-Za-z0-9_-]{6,64}$/;
-const AUDIO_RE = /^\/audio\/(libre|pago)\/(es|en|fr|pl|ru|ja)\/([A-Za-z0-9_-]+)_(corto|largo)\.mp3$/;
-const TEXT_RE = /^\/texto\/(es|en|fr|pl|ru|ja)\.json$/;
+const AUDIO_RE = /^\/audio\/(libre|pago)\/(es|en|fr|pl|de|pt|it|ru|ja)\/([A-Za-z0-9_-]+)_(corto|largo)\.mp3$/;
+const TEXT_RE = /^\/texto\/(es|en|fr|pl|de|pt|it|ru|ja)\.json$/;
 const STRIPE_LOCALES = { es: 'es-419', en: 'en', fr: 'fr', pl: 'pl', ru: 'ru', ja: 'ja' };
 
 /** "ES", "es-MX" o "en-US" → "es" / "en". Cualquier otra cosa (incluido "constructor") → "es". */
@@ -259,7 +263,7 @@ async function handleStripeWebhook(request, env, cfg, cors) {
 const EVENTS = new Set([
   'app_open', 'piece_view', 'audio_play', 'audio_end', 'paywall_open', 'checkout_start', 'lang_change',
   'route_start', 'tour_done', 'install', 'offline_download', 'search', 'purchase', 'refund', 'code_redeem',
-  'screen_view', 'visit_country',
+  'screen_view', 'visit_country', 'audio_stop', 'util_si', 'util_no',
 ]);
 const PIECE_RE = /^[a-z0-9_]{3,60}$/;
 const DAILY_KEY_LIMIT = 3000;
@@ -302,6 +306,154 @@ async function handleEvent(request, env, cfg, cors) {
     if (/^[A-Z]{2}$/.test(country)) await countEvent(env, 'visit_country', { k: country });
   }
   return new Response(null, { status: 204, headers: cors });
+}
+
+// ---------------------------------------------------------------------------
+// Recorridos anónimos. La app manda UN resumen al cerrarse ("inicio > sala > ficha, 3 audios, 6 minutos").
+// No lleva ningún identificador, y aquí tampoco se guarda uno ni la IP: solo se suman contadores por día,
+// así que no se puede reconstruir la visita de una persona. Esos contadores se borran solos a los 60 días.
+// ---------------------------------------------------------------------------
+const SCREENS = new Set(['inicio', 'salas', 'recorridos', 'mapa', 'buscar', 'sala', 'ficha', 'asistente', 'fin_recorrido', 'pase']);
+const VISIT_TTL = 60 * 86400;
+const visitDayKey = (d = new Date()) => `rc:${d.toISOString().slice(0, 10)}`;
+const bucket = (n, cuts) => { for (const c of cuts) if (n <= c) return String(c); return `${cuts[cuts.length - 1]}+`; };
+
+async function handleVisit(request, env, cfg, cors) {
+  if (!cors['Access-Control-Allow-Origin']) return json({ error: 'origin_not_allowed' }, 403);
+  const b = await readJson(request);
+  if (!b || !Array.isArray(b.p) || b.p.length < 1 || b.p.length > 8 || !b.p.every((x) => SCREENS.has(x))) return json({ error: 'bad_request' }, 400, cors);
+  const num = (v, max) => (Number.isInteger(v) && v >= 0 ? Math.min(v, max) : 0);
+  const book = await loadBook(env, cfg);
+  const sites = [...new Set((Array.isArray(b.s) ? b.s : []).map(siteKey).filter((x) => x && book.ids.has(x)))].slice(0, 4);
+  const keys = [
+    `ruta|${b.p.join('>')}`,
+    `entrada|${b.p[0]}`,
+    `salida|${b.p[b.p.length - 1]}`,
+    `pantallas|${bucket(num(b.n, 99), [1, 2, 3, 5, 8, 12, 20])}`,
+    `audios|${bucket(num(b.a, 99), [0, 1, 2, 3, 5, 10])}`,
+    `minutos|${bucket(Math.round(num(b.d, 100000) / 60), [1, 3, 5, 10, 20, 40])}`,
+    ...sites.map((x) => `sitio|${x}`),
+    ...(num(b.a, 99) > 0 ? [`escucha|${bucket(num(b.c, 100), [25, 50, 75, 100])}`] : []),
+    ...(b.w === true ? ['vio_pase'] : []),
+  ];
+  try {
+    const dk = visitDayKey();
+    const raw = await env.PASES.get(dk);
+    const day = raw ? JSON.parse(raw) : { c: {} };
+    day.c.visitas = (day.c.visitas || 0) + 1;
+    for (const k of keys) {
+      if (!(k in day.c) && Object.keys(day.c).length >= DAILY_KEY_LIMIT) day.c._descartados = (day.c._descartados || 0) + 1;
+      else day.c[k] = (day.c[k] || 0) + 1;
+    }
+    await env.PASES.put(dk, JSON.stringify(day), { expirationTtl: VISIT_TTL });
+  } catch (e) {
+    console.error('recorrido', e && e.message);
+  }
+  return new Response(null, { status: 204, headers: cors });
+}
+
+async function handleVisits(request, env, url, cors) {
+  const auth = request.headers.get('Authorization') || '';
+  if (!env.STATS_KEY || !timingSafeEqual(auth, `Bearer ${env.STATS_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
+  const days = Math.min(Math.max(parseInt(url.searchParams.get('dias') || '30', 10) || 30, 1), 60);
+  const total = {};
+  for (let i = 0; i < days; i++) {
+    const raw = await env.PASES.get(visitDayKey(new Date(Date.now() - i * 86400_000)));
+    if (!raw) continue;
+    for (const [k, n] of Object.entries(JSON.parse(raw).c)) total[k] = (total[k] || 0) + n;
+  }
+  return json({ dias: days, zona: 'UTC', conteos: total }, 200, cors);
+}
+
+
+// ---------------------------------------------------------------------------
+// Formulario de contacto y reporte de errores. Guarda el mensaje 90 días (para leerlo en el panel) y, si está
+// configurado el envío de correo de Cloudflare, avisa a la dirección de CONTACT_TO. Si el correo falla, el mensaje
+// queda guardado igual. Sin cuenta, sin IP: el límite es por día y total (no por persona).
+// ---------------------------------------------------------------------------
+const CONTACT_TTL = 90 * 86400;
+const CONTACT_DAILY_MAX = 60;
+const EMAIL_RE = /^[^\s@<>"]{1,64}@[^\s@<>"]{1,200}\.[^\s@<>"]{2,20}$/;
+
+function b64Utf8(text) {
+  const bytes = new TextEncoder().encode(text);
+  let bin = '';
+  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return btoa(bin);
+}
+
+async function sendContactMail(env, subject, text, replyTo) {
+  if (!env.CONTACTO_MAIL || !env.CONTACT_TO) return;
+  const { EmailMessage } = await import('cloudflare:email');
+  const from = env.CONTACT_FROM || 'formulario@xolotli.com';
+  const body = b64Utf8(text).replace(/.{1,76}/g, '$&\r\n').trimEnd();
+  const raw = [
+    `From: Xolotli <${from}>`,
+    `To: ${env.CONTACT_TO}`,
+    ...(replyTo ? [`Reply-To: ${replyTo}`] : []),
+    `Subject: =?UTF-8?B?${b64Utf8(subject)}?=`,
+    `Date: ${new Date().toUTCString()}`,
+    `Message-ID: <${crypto.randomUUID()}@xolotli.com>`,
+    'MIME-Version: 1.0',
+    'Content-Type: text/plain; charset=UTF-8',
+    'Content-Transfer-Encoding: base64',
+    '',
+    body,
+  ].join('\r\n');
+  await env.CONTACTO_MAIL.send(new EmailMessage(from, env.CONTACT_TO, raw));
+}
+
+async function handleContact(request, env, cfg, cors) {
+  if (!cors['Access-Control-Allow-Origin']) return json({ error: 'origin_not_allowed' }, 403);
+  const b = await readJson(request);
+  if (!b || typeof b !== 'object') return json({ error: 'bad_request' }, 400, cors);
+  // Campo trampa: las personas no lo ven ni lo llenan; si trae algo, es un programa. Se responde "bien" sin guardar.
+  if (typeof b.web === 'string' && b.web.trim()) return new Response(null, { status: 204, headers: cors });
+  const clean = (v, max) => String(v ?? '').replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, '').trim().slice(0, max);
+  const message = clean(b.m, 2000);
+  if (message.length < 3) return json({ error: 'bad_request' }, 400, cors);
+  const reply = clean(b.c, 120);
+  if (reply && !EMAIL_RE.test(reply)) return json({ error: 'bad_email' }, 400, cors);
+  const kind = b.t === 'error' ? 'error' : 'mensaje';
+  const piece = clean(b.p, 80);
+  const site = siteKey(b.s);
+  const lang = /^[a-z]{2}$/.test(String(b.l || '')) ? b.l : '';
+  const day = new Date().toISOString().slice(0, 10);
+  try {
+    const capKey = `ct:cap:${day}`;
+    const n = parseInt((await env.PASES.get(capKey)) || '0', 10) || 0;
+    if (n >= CONTACT_DAILY_MAX) return json({ error: 'busy' }, 429, cors);
+    await env.PASES.put(capKey, String(n + 1), { expirationTtl: 2 * 86400 });
+    const rec = { t: kind, m: message, ...(reply ? { c: reply } : {}), ...(piece ? { p: piece } : {}), ...(site ? { s: site } : {}), ...(lang ? { l: lang } : {}), at: new Date().toISOString() };
+    await env.PASES.put(`ct:m:${Date.now()}-${crypto.randomUUID().slice(0, 8)}`, JSON.stringify(rec), { expirationTtl: CONTACT_TTL });
+    try {
+      const where = [site && `sitio: ${site}`, piece && `parada: ${piece}`, lang && `idioma: ${lang}`].filter(Boolean).join(' · ');
+      await sendContactMail(env, `[Xolotli] ${kind === 'error' ? 'Reporte de error' : 'Mensaje'}${piece ? ` (${piece})` : ''}`, `${message}\n\n---\n${where || 'sin detalles'}\n${reply ? `Responder a: ${reply}` : 'Sin correo de respuesta'}\n`, reply);
+    } catch (e) {
+      console.error('contacto_correo', e && e.message);
+    }
+  } catch (e) {
+    console.error('contacto', e && e.message);
+    return json({ error: 'server' }, 500, cors);
+  }
+  return new Response(null, { status: 204, headers: cors });
+}
+
+async function handleMessages(request, env, url, cors) {
+  const auth = request.headers.get('Authorization') || '';
+  if (!env.STATS_KEY || !timingSafeEqual(auth, `Bearer ${env.STATS_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
+  const out = [];
+  let cursor;
+  do {
+    const page = await env.PASES.list({ prefix: 'ct:m:', cursor, limit: 200 });
+    for (const k of page.keys) {
+      const raw = await env.PASES.get(k.name);
+      if (raw) out.push({ id: k.name.slice(5), ...JSON.parse(raw) });
+    }
+    cursor = page.list_complete ? undefined : page.cursor;
+  } while (cursor && out.length < 300);
+  out.sort((a, b) => (a.at < b.at ? 1 : -1));
+  return json({ total: out.length, mensajes: out }, 200, cors);
 }
 
 async function handleStats(request, env, url, cors) {
@@ -761,6 +913,8 @@ export default {
       if (request.method === 'POST' && origin && !cors['Access-Control-Allow-Origin']) return json({ error: 'origin_not_allowed' }, 403);
 
       if (url.pathname === '/estadisticas' && request.method === 'GET') return handleStats(request, env, url, cors);
+      if (url.pathname === '/mensajes' && request.method === 'GET') return handleMessages(request, env, url, cors);
+      if (url.pathname === '/recorridos' && request.method === 'GET') return handleVisits(request, env, url, cors);
       if (url.pathname === '/health') return json({ ok: true }, 200, cors);
       if (url.pathname === '/config' && request.method === 'GET') return handleConfig(env, cfg, cors, url);
       if (url.pathname === '/admin/codigos' && request.method === 'POST') return handleAdminCodes(request, env, cors);
@@ -768,6 +922,8 @@ export default {
       if (url.pathname.startsWith('/audio/') && (request.method === 'GET' || request.method === 'HEAD')) return handleAudio(request, env, cfg, cors, url);
       if (request.method === 'POST' && url.pathname === '/stripe-webhook') return handleStripeWebhook(request, env, cfg, cors);
       if (request.method === 'POST' && url.pathname === '/evento') return handleEvent(request, env, cfg, cors);
+      if (request.method === 'POST' && url.pathname === '/contacto') return handleContact(request, env, cfg, cors);
+      if (request.method === 'POST' && url.pathname === '/recorrido') return handleVisit(request, env, cfg, cors);
       if (request.method === 'POST') {
         if (!env.TOKEN_SECRET || !env.STRIPE_SECRET_KEY) return json({ error: 'not_configured' }, 503, cors);
         if (url.pathname === '/checkout') return handleCheckout(request, env, cfg, cors);

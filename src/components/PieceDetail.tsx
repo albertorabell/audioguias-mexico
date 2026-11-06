@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { AlertCircle, Check, ChevronRight, CircleHelp, Lock, Maximize2, Search, X, AudioLines, Smartphone, Flag, Footprints } from 'lucide-react';
 import { Piece, PieceData, SpecItem, PieceSpecsObject } from '../types';
 import { PieceImage } from './PieceImage';
@@ -15,7 +15,10 @@ import { PieceDock } from './PieceDock';
 import { PieceTour, pieceTourSeen } from './PieceTour';
 import { LinkedText } from './LinkedText';
 import { PiecePeek } from './PiecePeek';
-import { track } from '../utils/analytics';
+import { PieceFeedback } from './PieceFeedback';
+import { track, noteAudio, setAudioProbe } from '../utils/analytics';
+
+setAudioProbe(() => ttsPlayer.getState().isPlaying);
 
 export interface NextInfo {
   kind: 'piece' | 'room' | 'finish';
@@ -191,12 +194,23 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     track('piece_view', { p: pieceId, l: currentLanguage });
     return () => {
       ttsPlayer.stop();
+      // Cuánto alcanzó a sonar el audio de esta ficha (por tramos de 25 %), sin guardar nada del teléfono
+      const h = heard.current;
+      if (h.started) {
+        const q = h.max >= 0.97 ? 100 : h.max >= 0.75 ? 75 : h.max >= 0.5 ? 50 : 25;
+        track('audio_stop', { p: pieceId, l: currentLanguage, k: String(q) });
+        noteAudio(h.max);
+      }
+      heard.current = { started: false, max: 0 };
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pieceId]);
 
+  // Lo más lejos que llegó el audio de esta ficha (0 a 1); solo vive en memoria
+  const heard = useRef({ started: false, max: 0 });
   const isThis = !finished && tts.pieceId === pieceId && (tts.isPlaying || tts.isPaused);
   const isPlaying = isThis && tts.isPlaying;
+  if (isThis && tts.duration > 0) heard.current.max = Math.max(heard.current.max, tts.currentTime / tts.duration);
   const started = isThis;
   const timeLabel = started ? `${fmtClock(tts.currentTime)} / ${fmtClock(tts.duration)}` : durationLabel(seconds[mode]);
 
@@ -236,9 +250,11 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     const onEnd = () => {
       if (!ttsPlayer.getState().errorMessage) {
         setFinished(true);
+        heard.current.max = 1;
         track('audio_end', { p: pieceId, l: currentLanguage, m: mode === 'expres' ? 'corto' : 'largo' });
       }
     };
+    heard.current.started = true;
     track('audio_play', { p: pieceId, l: currentLanguage, m: mode === 'expres' ? 'corto' : 'largo', k: audio[mode]?.url ? 'mp3' : 'voz' });
     ttsPlayer.play(mode === 'expres' ? guionCorto : guionLargo, titulo, onEnd, {
       roomName: contextTitle,
@@ -556,6 +572,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             </dl>
           </section>
         )}
+
+        <PieceFeedback pieceId={pieceId} pieceTitle={titulo} />
 
         {next && onNext && (
           <section className="px-5 mt-12" aria-label={u.piece.nextAria}>

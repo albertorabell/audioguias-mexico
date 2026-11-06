@@ -30,7 +30,7 @@ import { useLanguage } from './utils/LanguageContext';
 import { isActiveLanguage } from './i18n/languages';
 import { localizeSite, localizeRoute } from './i18n/content';
 import { getRoomLabel } from './utils/roomLabel';
-import { track, setAnalyticsSite, trafficSource } from './utils/analytics';
+import { track, setAnalyticsSite, trafficSource, noteScreen, notePaywall } from './utils/analytics';
 import { cachedPremiumText, clearPremiumText, loadPremiumText, mergePremiumText, PremiumTextMap } from './utils/premiumText';
 
 /** Con qué se navega dentro de la ficha de una pieza (anterior / siguiente): una sala o un recorrido. */
@@ -74,6 +74,7 @@ export default function App() {
   const screenName = screen.kind === 'tab' ? screen.tab : screen.kind === 'home' ? 'inicio' : screen.kind === 'room' ? 'sala' : screen.kind === 'piece' ? 'ficha' : screen.kind === 'wizard' ? 'asistente' : 'fin_recorrido';
   useEffect(() => {
     track('screen_view', { k: screenName });
+    noteScreen(screenName);
   }, [screenName]);
   const scrollMemo = useRef<number[]>([]);
   const prevDepth = useRef(1);
@@ -199,6 +200,7 @@ export default function App() {
   const [paywallOpen, setPaywallOpen] = useState(false);
   const openPaywall = useCallback(() => {
     track('paywall_open');
+    notePaywall();
     setPaywallOpen(true);
   }, []);
   const closePaywall = useCallback(() => setPaywallOpen(false), []);

@@ -13,6 +13,7 @@ class FakeKV {
   constructor() { this.m = new Map(); }
   async get(k) { return this.m.has(k) ? this.m.get(k) : null; }
   async put(k, v, opts) { this.m.set(k, v); this.lastTtl = opts?.expirationTtl; }
+  async list({ prefix = '' } = {}) { return { keys: [...this.m.keys()].filter((k) => k.startsWith(prefix)).map((name) => ({ name })), list_complete: true }; }
 }
 
 // ---- R2 simulado (con soporte de Range) ----
@@ -534,6 +535,64 @@ test('/evento: cuenta pantallas, origen y país (el país lo pone el servidor, n
   assert.equal(hoy['visit_country|||||JP'], 1);
   assert.equal(Object.keys(hoy).filter((k) => k.startsWith('visit_country')).length, 1);
   assert.ok(!JSON.stringify(conteos).includes('127.0.0.1'));
+});
+
+test('/recorrido: suma el resumen anónimo de una visita, caduca a los 60 días y no admite basura', async () => {
+  env.STATS_KEY = 'k';
+  const rc = (body) => call('/recorrido', { body, origin: ORIGIN });
+  assert.equal((await rc({ p: ['inicio', 'sala', 'ficha'], n: 3, a: 2, c: 80, d: 400, s: ['MNA', 'inventado'], w: true })).status, 204);
+  assert.equal((await rc({ p: ['inicio'], n: 1, a: 0, d: 20 })).status, 204);
+  assert.equal((await rc({ p: ['inicio', 'cualquier_cosa'] })).status, 400); // solo pantallas conocidas
+  assert.equal((await rc({ p: [] })).status, 400);
+  assert.equal((await call('/recorrido', { body: { p: ['inicio'] }, origin: 'https://otro.example' })).status, 403);
+  assert.equal(env.PASES.lastTtl, 60 * 86400);
+  const r = await call('/recorridos', { method: 'GET', origin: null, headers: { Authorization: 'Bearer k' } });
+  const { conteos } = await r.json();
+  assert.equal(conteos.visitas, 2);
+  assert.equal(conteos['ruta|inicio>sala>ficha'], 1);
+  assert.equal(conteos['salida|ficha'], 1);
+  assert.equal(conteos['audios|0'], 1);
+  assert.equal(conteos['audios|2'], 1);
+  assert.equal(conteos['minutos|10'], 1);
+  assert.equal(conteos['escucha|100'], 1);
+  assert.equal(conteos['sitio|mna'], 1);
+  assert.equal(conteos.vio_pase, 1);
+  assert.equal(Object.keys(conteos).some((k) => k.startsWith('sitio|inventado')), false);
+  assert.equal((await call('/recorridos', { method: 'GET', origin: null })).status, 401);
+});
+
+test('/contacto: guarda el mensaje 90 días, no admite basura ni bots y lo lee solo quien tiene la clave', async () => {
+  env.STATS_KEY = 'k';
+  const ct = (body, origin = ORIGIN) => call('/contacto', { body, origin });
+  assert.equal((await ct({ t: 'error', m: 'La parada suena cortada', p: 'mna_001', s: 'MNA', l: 'fr', c: 'ana@example.com' })).status, 204);
+  assert.equal(env.PASES.lastTtl, 90 * 86400);
+  assert.equal((await ct({ m: 'Hola, ¿hay descuento para grupos?' })).status, 204);
+  assert.equal((await ct({ m: 'x' })).status, 400); // muy corto
+  assert.equal((await ct({ m: 'hola mundo', c: 'no-es-correo' })).status, 400);
+  assert.equal((await ct({ m: 'compra ya', web: 'http://spam' })).status, 204); // campo trampa: se ignora
+  assert.equal((await ct({ m: 'hola' }, 'https://otro.example')).status, 403);
+  const r = await call('/mensajes', { method: 'GET', origin: null, headers: { Authorization: 'Bearer k' } });
+  const { total, mensajes } = await r.json();
+  assert.equal(total, 2);
+  const err = mensajes.find((x) => x.t === 'error');
+  assert.equal(err.p, 'mna_001');
+  assert.equal(err.s, 'mna');
+  assert.equal(err.l, 'fr');
+  assert.equal(err.c, 'ana@example.com');
+  assert.ok(![...env.PASES.m.keys()].some((k) => k.startsWith('ct:m:') && !env.PASES.m.get(k).includes('"at"')));
+  assert.equal((await call('/mensajes', { method: 'GET', origin: null })).status, 401);
+  // tope por día
+  for (let i = 0; i < 70; i++) await ct({ m: `mensaje número ${i}` });
+  assert.equal((await ct({ m: 'uno más' })).status, 429);
+});
+
+test('/audio y /texto aceptan alemán, portugués e italiano', async () => {
+  env.AUDIO = new FakeR2({ 'libre/de/p00_corto.mp3': Buffer.from('DE'), 'libre/pt/p00_corto.mp3': Buffer.from('PT'), 'libre/it/p00_corto.mp3': Buffer.from('IT') });
+  for (const l of ['de', 'pt', 'it']) {
+    const r = await call(`/audio/libre/${l}/p00_corto.mp3`, { method: 'GET', origin: ORIGIN });
+    assert.equal(r.status, 200, l);
+    assert.equal(await r.text(), l.toUpperCase());
+  }
 });
 
 test('una compra nueva se cuenta una sola vez (aunque se canjee otra vez)', async () => {
