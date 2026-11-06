@@ -1,0 +1,19 @@
+name: Diagnóstico de acceso (temporal)
+on:
+  push:
+    branches: ['feature/diag-acceso']
+permissions:
+  contents: read
+jobs:
+  diag:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: |
+          W=https://audioguias-pagos.albertorabell.workers.dev
+          for o in https://xolotli.com https://www.xolotli.com; do
+            echo "== /config Origin=$o"; curl -s -m 20 -i -H "Origin: $o" $W/config | head -25
+          done
+          echo "== /config?site=chichen_itza"; curl -s -m 20 -H "Origin: https://xolotli.com" "$W/config?site=chichen_itza" | head -c 600; echo
+          echo "== sitio"; curl -s -m 20 -o /dev/null -w "%{http_code} %{url_effective}\n" -L https://xolotli.com/
+          echo "== www"; curl -s -m 20 -o /dev/null -w "%{http_code} %{url_effective}\n" -L https://www.xolotli.com/
+          echo "== audio pago"; curl -s -m 20 -i -H "Origin: https://xolotli.com" "$W/audio/chichen_itza/chi_16_templo_guerreros_corto.mp3?lang=es" | head -12
