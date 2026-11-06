@@ -36,7 +36,8 @@ export const ui = defineGroup(
       PAsub: 'Etnografía',
     },
     home: {
-      subtitle: 'Una audioguía que te lleva de la mano. Elige un sitio, sigue el mapa y escucha la historia de cada parada justo donde estás.',
+      subtitle: "Museos, zonas arqueológicas y otros sitios turísticos, contados por una voz que te acompaña mientras caminas.",
+      introSteps: [{ title: "Elige tu sitio", text: "Un museo, unas pirámides, un centro histórico… tú decides a dónde ir." }, { title: "Sigue el mapa", text: "Te llevamos de la mano, parada por parada, en el orden en que se recorre." }, { title: "Presiona «play»", text: "Una voz te cuenta la historia justo frente a lo que estás viendo. Si prefieres leer, también puedes." }, { title: "Sin señal, sin problema", text: "Descarga el recorrido antes de llegar y funciona sin internet." }],
       venuesAria: 'Museos',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'sala', 'salas')} y ${plural(works, 'obra', 'obras')} explicadas`,
       enter: 'Entrar al museo',
@@ -233,7 +234,8 @@ export const ui = defineGroup(
       PAsub: 'Ethnography',
     },
     home: {
-      subtitle: 'An audio guide that takes you by the hand. Pick a site, follow the map and hear the story of every stop right where you stand.',
+      subtitle: "Museums, archaeological sites and other tourist spots, told by a voice that walks with you.",
+      introSteps: [{ title: "Pick your site", text: "A museum, a pyramid, a historic centre… you decide where to go." }, { title: "Follow the map", text: "We take you by the hand, stop by stop, in the order you would walk it." }, { title: "Press play", text: "A voice tells you the story right in front of what you are looking at. Prefer to read? You can do that too." }, { title: "No signal, no problem", text: "Download the tour before you arrive and it works without internet." }],
       venuesAria: 'Museums',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'room', 'rooms')} and ${plural(works, 'work', 'works')} explained`,
       enter: 'Enter the museum',
@@ -428,7 +430,8 @@ export const ui = defineGroup(
       PAsub: 'Ethnographie',
     },
     home: {
-      subtitle: 'Un audioguide qui vous prend par la main. Choisissez un site, suivez la carte et écoutez l’histoire de chaque étape là où vous êtes.',
+      subtitle: "Musées, sites archéologiques et autres lieux touristiques, racontés par une voix qui vous accompagne pendant que vous marchez.",
+      introSteps: [{ title: "Choisissez votre site", text: "Un musée, des pyramides, un centre historique… vous décidez où aller." }, { title: "Suivez la carte", text: "Nous vous guidons pas à pas, étape par étape, dans l’ordre de la visite." }, { title: "Appuyez sur « lecture »", text: "Une voix vous raconte l’histoire juste devant ce que vous voyez. Vous préférez lire ? C’est possible aussi." }, { title: "Pas de réseau, pas de souci", text: "Téléchargez le parcours avant d’arriver : il fonctionne sans internet." }],
       venuesAria: 'Musées',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'salle', 'salles')} et ${plural(works, 'œuvre expliquée', 'œuvres expliquées')}`,
       enter: 'Entrer dans le musée',

@@ -69,7 +69,7 @@ export const DE_GROUPS: Record<string, any> = {
     langSelectAria: 'Sprachauswahl',
     themeToMuseumTitle: 'Zum Museumsmodus wechseln (Säle)',
     themeToSunTitle: 'Zum Sonnenmodus wechseln (draußen)',
-    heroTitle: 'Dein persönlicher Kurator für die Hosentasche',
+    heroTitle: "Dein Audioguide zum Entdecken von Mexiko",
     comingSoon: 'Demnächst',
     explore: 'Entdecken',
     siteSoonToast: (name: string) => `Demnächst: ${name} ist noch in Arbeit.`,
@@ -321,7 +321,8 @@ export const DE_GROUPS: Record<string, any> = {
     },
     floors: { aria: 'Etage', PB: 'Erdgeschoss', PBsub: 'Archäologie', PA: 'Obergeschoss', PAsub: 'Ethnografie' },
     home: {
-      subtitle: 'Ein Audioguide, der dich an die Hand nimmt. Such dir einen Ort aus, folge der Karte und höre die Geschichte jeder Station genau dort, wo du stehst.',
+      subtitle: "Museen, archäologische Stätten und andere Sehenswürdigkeiten, erzählt von einer Stimme, die dich beim Gehen begleitet.",
+      introSteps: [{ title: "Wähle deinen Ort", text: "Ein Museum, Pyramiden, ein historisches Zentrum … du entscheidest, wohin es geht." }, { title: "Folge der Karte", text: "Wir nehmen dich an die Hand, Station für Station, in der Reihenfolge des Rundgangs." }, { title: "Drück auf „Play“", text: "Eine Stimme erzählt dir die Geschichte genau vor dem, was du siehst. Lieber lesen? Das geht auch." }, { title: "Kein Netz, kein Problem", text: "Lade die Tour vor der Ankunft herunter, dann funktioniert sie ohne Internet." }],
       venuesAria: 'Museen',
       venueStats: (r: number, w: number) => `${rooms(r)} und ${w} ${w === 1 ? 'erklärtes Werk' : 'erklärte Werke'}`,
       enter: 'Museum betreten',

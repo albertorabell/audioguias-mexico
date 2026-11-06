@@ -65,6 +65,10 @@ export const PL_GROUPS: Record<string, any> = {
     langSelectAria: 'Wybór języka',
     themeToMuseumTitle: 'Przełącz na tryb Muzeum',
     themeToSunTitle: 'Przełącz na tryb Słońce',
+    heroTitle: "Twój przewodnik audio po Meksyku",
+    comingSoon: 'Wkrótce',
+    explore: 'Odkrywaj',
+    siteSoonToast: (name: string) => `Wkrótce: ${name} jest jeszcze w przygotowaniu.`,
   },
   search: {
     placeholder: 'Szukaj dzieła lub sali (np. Słońce, Mexica, Pakal)…',
@@ -272,7 +276,8 @@ export const PL_GROUPS: Record<string, any> = {
     pass: { buy: 'Karnet', active: 'Karnet aktywny', activeTitle: 'Twój karnet jest aktywny', free: 'Wolny dostęp', freeTitle: 'Trwają testy: cała zawartość jest otwarta' },
     floors: { aria: 'Piętro', PB: 'Parter', PBsub: 'Archeologia', PA: 'Piętro', PAsub: 'Etnografia' },
     home: {
-      subtitle: 'Audioprzewodnik, który weźmie cię za rękę. Wybierz miejsce, podążaj za mapą i słuchaj historii każdego przystanku dokładnie tam, gdzie stoisz.',
+      subtitle: "Muzea, strefy archeologiczne i inne atrakcje turystyczne, opowiedziane przez głos, który towarzyszy ci w spacerze.",
+      introSteps: [{ title: "Wybierz miejsce", text: "Muzeum, piramidy, historyczne centrum… ty decydujesz, dokąd idziesz." }, { title: "Podążaj za mapą", text: "Prowadzimy cię za rękę, przystanek po przystanku, w kolejności zwiedzania." }, { title: "Naciśnij „play”", text: "Głos opowiada historię dokładnie przed tym, co widzisz. Wolisz czytać? Też możesz." }, { title: "Bez zasięgu, bez problemu", text: "Pobierz trasę przed przyjazdem, a będzie działać bez internetu." }],
       venuesAria: 'Muzea',
       venueStats: (r: number, w: number) => `${rooms(r)} i ${w} ${n(w, 'objaśnione dzieło', 'objaśnione dzieła', 'objaśnionych dzieł')}`,
       enter: 'Wejdź do muzeum',

@@ -22,14 +22,14 @@ test('cobro apagado: la ventana dice que estará disponible pronto, sin botón d
 test('cobro apagado: un enlace de regreso de Stripe no rompe la app', async ({ page }) => {
   await aislar(page);
   await page.goto('/?pago=ok&session_id=cs_test_a1b2c3d4e5f6g7h8i9');
-  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
 });
 
 // Versión compilada con VITE_PUBLISHED_LANGUAGES=es (un solo idioma): no aparece el selector.
 test('un solo idioma: no aparece el selector de idioma y la app está en español', async ({ page }) => {
   await aislar(page);
   await page.goto('/');
-  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
   await expect(page.locator('#btn-language-selector')).toHaveCount(0);
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
 });
@@ -38,7 +38,7 @@ test('un solo idioma: un idioma guardado en una visita anterior (inglés) se ign
   await aislar(page);
   await page.addInitScript(() => localStorage.setItem('audioguias_lang', 'en'));
   await page.goto('/');
-  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
 });
 
@@ -66,7 +66,7 @@ test('instalar: «No mostrar más» oculta la tarjeta y se acuerda al recargar',
   await page.locator('#btn-install-card-dismiss').click();
   await expect(page.locator('#install-card')).toHaveCount(0);
   await page.reload();
-  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
   await expect(page.locator('#install-card')).toHaveCount(0);
 });
 
@@ -77,7 +77,7 @@ test('instalar: si la app ya está instalada no se muestra la tarjeta', async ({
     window.matchMedia = (q) => (String(q).includes('display-mode: standalone') ? { ...original(q), matches: true } : original(q));
   });
   await page.goto('/');
-  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
   await expect(page.locator('#install-card')).toHaveCount(0);
 });
 

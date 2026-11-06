@@ -71,8 +71,19 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
             <img src={getAssetUrl('logo-xolo-oscuro.svg')} alt="xolo — El camino de la historia" width={757} height={324} className="w-full h-auto hidden dark:block" draggable={false} />
           </div>
           <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{t.heroTitle}</h1>
-          <p className="mt-3 text-[1.0625rem] leading-relaxed text-ink-2 max-w-[38ch]">{u.subtitle}</p>
-          <ul className="mt-4 flex flex-wrap gap-1.5" aria-label={u.passBadgeTitle(PASS_HOURS, PASS_MAX_DEVICES)}>
+          <p className="mt-3 text-[1.0625rem] leading-relaxed text-ink-2 max-w-[42ch]">{u.subtitle}</p>
+          <ol className="mt-6 space-y-4" aria-label={u.introSteps.map((x) => x.title).join(', ')}>
+            {u.introSteps.map((step, i) => (
+              <li key={step.title} className="flex gap-4">
+                <span className="font-serif text-[1.375rem] leading-none text-jade-ink w-5 shrink-0 pt-0.5">{i + 1}</span>
+                <p className="text-[1rem] leading-relaxed text-ink-2">
+                  <span className="block font-semibold text-ink">{step.title}</span>
+                  {step.text}
+                </p>
+              </li>
+            ))}
+          </ol>
+          <ul className="mt-5 flex flex-wrap gap-1.5" aria-label={u.passBadgeTitle(PASS_HOURS, PASS_MAX_DEVICES)}>
             {u.valueChips(PASS_HOURS, PASS_MAX_DEVICES).map((chip) => (
               <li key={chip} className="rounded-full border border-line bg-surface px-2.5 py-1 text-[0.8125rem] leading-tight font-semibold text-ink-2">{chip}</li>
             ))}
@@ -159,19 +170,8 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
           </section>
         )}
 
-        <section className="mt-12" aria-labelledby="how-title">
-          <h2 id="how-title" className="font-serif text-h3 font-medium">
-            {u.howTitle}
-          </h2>
-          <ol className="mt-4 space-y-4">
-            {u.howSteps(stats?.free || 0, PASS_HOURS, PASS_MAX_DEVICES).map((step, i) => (
-              <li key={i} className="flex gap-4">
-                <span className="font-serif text-[1.375rem] leading-none text-jade-ink w-5 shrink-0 pt-0.5">{i + 1}</span>
-                <p className="text-[1rem] leading-relaxed text-ink-2">{step}</p>
-              </li>
-            ))}
-          </ol>
-          <div className="mt-6 rounded-2xl border border-jade/40 bg-jade/10 p-4">
+        <section className="mt-12">
+          <div className="rounded-2xl border border-jade/40 bg-jade/10 p-4">
             <p className="font-serif text-[1.0625rem] font-medium text-ink">{u.passBadgeTitle(PASS_HOURS, PASS_MAX_DEVICES)}</p>
             <p className="mt-1 text-ui leading-relaxed text-ink-2">{u.passBadgeText}</p>
           </div>

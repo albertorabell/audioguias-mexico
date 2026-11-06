@@ -143,43 +143,43 @@ test('guía de la obra: la primera vez señala escuchar, versión corta/completa
 
 test('idioma: pasa a inglés, se queda al recargar y vuelve a español', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
   await expect(page.locator('#btn-language-selector')).toHaveText(/\bes\s*$/i);
 
   await elegirIdioma(page, 'English');
-  await expect(page.getByText('Your personal pocket curator')).toBeVisible();
+  await expect(page.getByText('Your audio guide to discovering Mexico')).toBeVisible();
   await expect(page.locator('#btn-language-selector')).toHaveText(/\ben\s*$/i);
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
   // El nombre del museo también cambia de idioma
   await expect(page.getByText('National Museum of Anthropology').first()).toBeVisible();
 
   await page.reload();
-  await expect(page.getByText('Your personal pocket curator')).toBeVisible();
+  await expect(page.getByText('Your audio guide to discovering Mexico')).toBeVisible();
 
   await elegirIdioma(page, 'Español');
-  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
 });
 
 test('idioma: pasa a francés (interfaz completa en francés), se queda al recargar y vuelve a español', async ({ page }) => {
   await page.goto('/');
   await elegirIdioma(page, 'Français');
-  await expect(page.getByText('Votre conservateur personnel de poche')).toBeVisible();
+  await expect(page.getByText('Votre guide audio pour découvrir le Mexique')).toBeVisible();
   await expect(page.locator('#btn-language-selector')).toHaveText(/\bfr\s*$/i);
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
   await page.reload();
-  await expect(page.getByText('Votre conservateur personnel de poche')).toBeVisible();
+  await expect(page.getByText('Votre guide audio pour découvrir le Mexique')).toBeVisible();
   await elegirIdioma(page, 'Español');
-  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
 });
 
 test('idioma: pasa a polaco (interfaz en polaco) y vuelve a español', async ({ page }) => {
   await page.goto('/');
   await elegirIdioma(page, 'Polski');
-  await expect(page.getByText('Audioprzewodnik, który weźmie cię za rękę')).toBeVisible();
+  await expect(page.getByText('Twój przewodnik audio po Meksyku')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang', 'pl');
   await elegirIdioma(page, 'Español');
-  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
 });
 
 test('idioma: una pieza sin traducción se muestra y se lee en español, y avisa', async ({ page }) => {
@@ -530,7 +530,7 @@ test('atrás: después de cambiar de pestaña desde una pieza, un solo "atrás" 
   await page.locator('#btn-nav-quick-search').click();
   await expect(page.locator('#input-search-pieces')).toBeVisible();
   await page.goBack();
-  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
 });
 
 test('atrás: cierra la ventana del pase y la foto ampliada sin salir de la pieza', async ({ page }) => {
