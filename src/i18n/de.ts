@@ -321,7 +321,7 @@ export const DE_GROUPS: Record<string, any> = {
     },
     floors: { aria: 'Etage', PB: 'Erdgeschoss', PBsub: 'Archäologie', PA: 'Obergeschoss', PAsub: 'Ethnografie' },
     home: {
-      subtitle: 'Höre die Geschichte jedes Werks, Tempels oder Denkmals genau dort, wo du stehst.',
+      subtitle: 'Ein Audioguide, der dich an die Hand nimmt. Such dir einen Ort aus, folge der Karte und höre die Geschichte jeder Station genau dort, wo du stehst.',
       venuesAria: 'Museen',
       venueStats: (r: number, w: number) => `${rooms(r)} und ${w} ${w === 1 ? 'erklärtes Werk' : 'erklärte Werke'}`,
       enter: 'Museum betreten',

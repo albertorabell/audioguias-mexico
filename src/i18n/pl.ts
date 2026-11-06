@@ -272,7 +272,7 @@ export const PL_GROUPS: Record<string, any> = {
     pass: { buy: 'Karnet', active: 'Karnet aktywny', activeTitle: 'Twój karnet jest aktywny', free: 'Wolny dostęp', freeTitle: 'Trwają testy: cała zawartość jest otwarta' },
     floors: { aria: 'Piętro', PB: 'Parter', PBsub: 'Archeologia', PA: 'Piętro', PAsub: 'Etnografia' },
     home: {
-      subtitle: 'Posłuchaj historii każdego dzieła, świątyni czy zabytku dokładnie tam, gdzie stoisz.',
+      subtitle: 'Audioprzewodnik, który weźmie cię za rękę. Wybierz miejsce, podążaj za mapą i słuchaj historii każdego przystanku dokładnie tam, gdzie stoisz.',
       venuesAria: 'Muzea',
       venueStats: (r: number, w: number) => `${rooms(r)} i ${w} ${n(w, 'objaśnione dzieło', 'objaśnione dzieła', 'objaśnionych dzieł')}`,
       enter: 'Wejdź do muzeum',

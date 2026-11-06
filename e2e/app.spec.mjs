@@ -176,7 +176,7 @@ test('idioma: pasa a francés (interfaz completa en francés), se queda al recar
 test('idioma: pasa a polaco (interfaz en polaco) y vuelve a español', async ({ page }) => {
   await page.goto('/');
   await elegirIdioma(page, 'Polski');
-  await expect(page.getByText('Posłuchaj historii każdego dzieła')).toBeVisible();
+  await expect(page.getByText('Audioprzewodnik, który weźmie cię za rękę')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang', 'pl');
   await elegirIdioma(page, 'Español');
   await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
