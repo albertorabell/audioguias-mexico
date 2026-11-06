@@ -14,7 +14,7 @@
 //   --piezas id1,id2        solo esas piezas
 //   --limite N              genera como máximo N audios en esta corrida
 //   --forzar                regenera aunque el texto no haya cambiado
-//   --proveedor azure|openai|prueba   (por defecto azure)
+//   --proveedor azure|google|openai|prueba   (por defecto azure)
 //   --sitio <id de CONTROL>|todos   solo las piezas de ese sitio (por defecto todos)
 //   --reubicar              solo mueve archivos de lugar si una pieza pasó de gratis a pago (o al revés); no genera
 //
@@ -30,6 +30,7 @@ import path from 'node:path';
 import { fixVoiceName, MODES, AUDIO_LANGS, planAudio, splitText, mp3Duration, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
 import { GENERATED_DIR, relocateInR2, wranglerR2, r2Key } from './r2-lib.mjs';
 import { loadPronunciations, toSsmlInner, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
+import { loadGoogleIpa, toGoogleSsml } from './google-ipa-lib.mjs';
 import { readFullPieces } from './privado-lib.mjs';
 
 const ROOT = process.cwd();
@@ -60,7 +61,7 @@ export function parseArgs(argv) {
   for (const l of out.lang) if (!AUDIO_LANGS.includes(l)) throw new Error(`Idioma no válido: ${l}. Usa: ${AUDIO_LANGS.join(', ')}`);
   for (const m of out.modo) if (!MODES.includes(m)) throw new Error(`Modo no válido: ${m}. Usa: ${MODES.join(', ')}`);
   if (!['todas', 'gratis', 'premium'].includes(out.solo)) throw new Error('--solo debe ser gratis o premium');
-  if (!['azure', 'openai', 'prueba'].includes(out.proveedor)) throw new Error('--proveedor debe ser azure, openai o prueba');
+  if (!['azure', 'google', 'openai', 'prueba'].includes(out.proveedor)) throw new Error('--proveedor debe ser azure, google, openai o prueba');
   if (!/^[a-z0-9_-]+$/.test(String(out.sitio))) throw new Error('--sitio debe ser el id de un sitio de CONTROL (por ejemplo mna) o todos');
   if (out.limite !== null && (!Number.isFinite(out.limite) || out.limite < 1)) throw new Error('--limite debe ser un número mayor que 0');
   return out;
@@ -84,6 +85,10 @@ const AZURE_DEFAULT_VOICES = {
   ja: SINGLE_VOICE,
 };
 const AZURE_LOCALES = { es: 'es-MX', en: 'en-US', fr: 'fr-FR', pl: 'pl-PL', de: 'de-DE', pt: 'pt-BR', it: 'it-IT', ru: 'ru-RU', ja: 'ja-JP' };
+
+const GOOGLE_LOCALES = { es: 'es-US', en: 'en-US', fr: 'fr-FR', pl: 'pl-PL', de: 'de-DE', pt: 'pt-BR', it: 'it-IT', ru: 'ru-RU', ja: 'ja-JP' };
+const GOOGLE_IPA_FILE_PATH = 'glosario/pronunciacion-google.csv';
+let GOOGLE_IPA = null;
 
 const xmlEscape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
@@ -159,6 +164,47 @@ export const PROVIDERS = {
         },
         'Azure'
       );
+    },
+  },
+
+  google: {
+    label: 'Google Cloud Text-to-Speech (Chirp 3 HD)',
+    maxChars: 1800, // el límite de Google es de 5000 bytes por petición y las etiquetas de fonética ocupan lugar
+    check() {
+      if (!process.env.GOOGLE_TTS_API_KEY) throw new Error('Falta la clave de Google. Define GOOGLE_TTS_API_KEY (secreto de GitHub).');
+    },
+    voiceName(lang) {
+      const loc = GOOGLE_LOCALES[lang];
+      return `${loc}-Chirp3-HD-${process.env.GOOGLE_VOICE || 'Fenrir'}`;
+    },
+    async synth(text, { lang }) {
+      const loc = GOOGLE_LOCALES[lang];
+      if (!loc) throw Object.assign(new Error(`Google no tiene configurado el idioma ${lang}`), { fatal: true });
+      const body = (ssml) => JSON.stringify({
+        input: { ssml },
+        voice: { languageCode: loc, name: this.voiceName(lang) },
+        audioConfig: { audioEncoding: 'MP3', sampleRateHertz: 24000, ...(process.env.GOOGLE_RATE ? { speakingRate: Number(process.env.GOOGLE_RATE) } : {}) },
+      });
+      const call = async (ssml) => {
+        const res = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${process.env.GOOGLE_TTS_API_KEY}`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: body(ssml) });
+        if (!res.ok) {
+          const t = (await res.text().catch(() => '')).slice(0, 300);
+          const err = new Error(`Google: respuesta ${res.status} ${t}`);
+          err.fatal = [401, 403, 404].includes(res.status);
+          err.badRequest = res.status === 400;
+          throw err;
+        }
+        return Buffer.from((await res.json()).audioContent, 'base64');
+      };
+      if (!GOOGLE_IPA) GOOGLE_IPA = loadGoogleIpa(path.resolve(GOOGLE_IPA_FILE_PATH));
+      try {
+        return await call(toGoogleSsml(text, GOOGLE_IPA));
+      } catch (e) {
+        // Si Google rechaza alguna fonética, se lee el trozo sin ellas (y se avisa) en vez de perder el audio
+        if (!e.badRequest) throw e;
+        console.warn(`\n   ⚠ Google rechazó la fonética de un trozo (${e.message.slice(0, 160)}); se lee sin fonética.`);
+        return await call(toGoogleSsml(text, GOOGLE_IPA, { plain: true }));
+      }
     },
   },
 
