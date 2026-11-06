@@ -164,11 +164,11 @@ test('idioma: pasa a inglés, se queda al recargar y vuelve a español', async (
 test('idioma: pasa a francés (interfaz completa en francés), se queda al recargar y vuelve a español', async ({ page }) => {
   await page.goto('/');
   await elegirIdioma(page, 'Français');
-  await expect(page.getByText('Votre conservateur personnel de poche')).toBeVisible();
+  await expect(page.getByText('Votre guide audio pour découvrir le Mexique')).toBeVisible();
   await expect(page.locator('#btn-language-selector')).toHaveText(/\bfr\s*$/i);
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
   await page.reload();
-  await expect(page.getByText('Votre conservateur personnel de poche')).toBeVisible();
+  await expect(page.getByText('Votre guide audio pour découvrir le Mexique')).toBeVisible();
   await elegirIdioma(page, 'Español');
   await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
 });
