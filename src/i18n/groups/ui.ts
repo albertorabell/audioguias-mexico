@@ -36,7 +36,7 @@ export const ui = defineGroup(
       PAsub: 'Etnografía',
     },
     home: {
-      subtitle: 'Escucha la historia de cada obra, templo o monumento justo donde estás.',
+      subtitle: 'Una audioguía que te lleva de la mano. Elige un sitio, sigue el mapa y escucha la historia de cada parada justo donde estás.',
       venuesAria: 'Museos',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'sala', 'salas')} y ${plural(works, 'obra', 'obras')} explicadas`,
       enter: 'Entrar al museo',
@@ -233,7 +233,7 @@ export const ui = defineGroup(
       PAsub: 'Ethnography',
     },
     home: {
-      subtitle: 'Hear the story of every work, temple or monument right where you stand.',
+      subtitle: 'An audio guide that takes you by the hand. Pick a site, follow the map and hear the story of every stop right where you stand.',
       venuesAria: 'Museums',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'room', 'rooms')} and ${plural(works, 'work', 'works')} explained`,
       enter: 'Enter the museum',
@@ -428,7 +428,7 @@ export const ui = defineGroup(
       PAsub: 'Ethnographie',
     },
     home: {
-      subtitle: 'Écoutez l’histoire de chaque œuvre, temple ou monument, là où vous vous trouvez.',
+      subtitle: 'Un audioguide qui vous prend par la main. Choisissez un site, suivez la carte et écoutez l’histoire de chaque étape là où vous êtes.',
       venuesAria: 'Musées',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'salle', 'salles')} et ${plural(works, 'œuvre expliquée', 'œuvres expliquées')}`,
       enter: 'Entrer dans le musée',

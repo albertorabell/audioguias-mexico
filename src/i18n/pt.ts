@@ -321,7 +321,7 @@ export const PT_GROUPS: Record<string, any> = {
     },
     floors: { aria: 'Andar', PB: 'Térreo', PBsub: 'Arqueologia', PA: 'Andar superior', PAsub: 'Etnografia' },
     home: {
-      subtitle: 'Ouça a história de cada obra, templo ou monumento bem onde você está.',
+      subtitle: 'Um audioguia que leva você pela mão. Escolha um lugar, siga o mapa e ouça a história de cada parada bem onde você está.',
       venuesAria: 'Museus',
       venueStats: (r: number, w: number) => `${rooms(r)} e ${w} ${w === 1 ? 'obra explicada' : 'obras explicadas'}`,
       enter: 'Entrar no museu',

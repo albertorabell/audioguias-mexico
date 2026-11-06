@@ -71,7 +71,7 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
             <img src={getAssetUrl('logo-xolo-oscuro.svg')} alt="xolo — El camino de la historia" width={757} height={324} className="w-full h-auto hidden dark:block" draggable={false} />
           </div>
           <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{t.heroTitle}</h1>
-          <p className="mt-3 text-[1.0625rem] leading-relaxed text-ink-2 max-w-[34ch]">{u.subtitle}</p>
+          <p className="mt-3 text-[1.0625rem] leading-relaxed text-ink-2 max-w-[38ch]">{u.subtitle}</p>
           <ul className="mt-4 flex flex-wrap gap-1.5" aria-label={u.passBadgeTitle(PASS_HOURS, PASS_MAX_DEVICES)}>
             {u.valueChips(PASS_HOURS, PASS_MAX_DEVICES).map((chip) => (
               <li key={chip} className="rounded-full border border-line bg-surface px-2.5 py-1 text-[0.8125rem] leading-tight font-semibold text-ink-2">{chip}</li>
