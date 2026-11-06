@@ -788,6 +788,20 @@ class TTSPlayer {
     }
   }
 
+  /** Va a un segundo exacto del audio. Solo con el MP3 (la voz del teléfono no permite saltar). */
+  public seekTo(seconds: number): void {
+    if (!this.playing || !this.isHtmlAudio || !this.htmlAudio) return;
+    const total = this.estimatedDuration || this.htmlAudio.duration || 0;
+    const t = Math.max(0, Math.min(total, seconds));
+    try {
+      this.htmlAudio.currentTime = t;
+    } catch {
+      return;
+    }
+    this.currentTime = t;
+    this.notify();
+  }
+
   public setPlaybackRate(rate: number): void {
     this.playbackRate = Math.max(0.5, Math.min(2.0, rate));
     try {

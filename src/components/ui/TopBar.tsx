@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ChevronLeft } from 'lucide-react';
 import { useStrings } from '../../utils/LanguageContext';
+import { ThemeButton } from './HeaderControls';
 
 interface TopBarProps {
   /** Si existe, se muestra la flecha para regresar. */
@@ -75,7 +76,10 @@ export const TopBar: React.FC<TopBarProps> = ({ onBack, backLabel, eyebrow, titl
           titleBlock && <div className="min-w-0 flex-1 px-1">{titleBlock}</div>
         )}
         {!titleBlock && <div className="flex-1" />}
-        {right && <div className="flex items-center gap-1 shrink-0 pr-1">{right}</div>}
+        <div className="flex items-center gap-1 shrink-0 pr-1">
+          {right}
+          <ThemeButton />
+        </div>
       </div>
     </header>
   );

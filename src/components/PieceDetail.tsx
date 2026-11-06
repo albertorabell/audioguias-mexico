@@ -330,7 +330,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         onTitleClick={onContextClick}
         right={
           <>
-            <button type="button" id="btn-piece-help" onClick={() => setTourOpen(true)} aria-label={strings.intro.pieceOpenLabel} className="btn-icon text-ink-2 max-[339px]:hidden">
+            <button type="button" id="btn-piece-help" onClick={() => setTourOpen(true)} aria-label={strings.intro.pieceOpenLabel} className="btn-icon text-ink-2 max-[399px]:hidden">
               <CircleHelp className="w-5 h-5" strokeWidth={1.9} />
             </button>
             <button type="button" id="btn-nav-quick-search" onClick={onOpenSearch} aria-label={strings.chrome.nav.searchAria} className="btn-icon text-ink-2">
@@ -646,6 +646,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         nextLabel={next?.kind === 'finish' ? u.piece.finish : u.piece.next}
         speed={tts.playbackRate}
         onSpeed={(r) => ttsPlayer.setPlaybackRate(r)}
+        seek={isThis && tts.isHtmlAudio ? { current: tts.currentTime, duration: tts.duration, onSeek: (sec) => ttsPlayer.seekTo(sec), onSkip: (d) => ttsPlayer.skip(d) } : undefined}
       />
 
       <PieceTour open={tourOpen} onClose={() => setTourOpen(false)} />
