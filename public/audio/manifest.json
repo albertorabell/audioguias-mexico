@@ -2072,6 +2072,348 @@
           "provider": "azure"
         }
       },
+      "chz_01_dos_cerros_un_valle": {
+        "corto": {
+          "hash": "f7c7c4b895be251f",
+          "file": "de/chz_01_dos_cerros_un_valle_corto.mp3",
+          "remote": false,
+          "seconds": 44,
+          "bytes": 175584,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "78191ca22dc71dbe",
+          "file": "de/chz_01_dos_cerros_un_valle_largo.mp3",
+          "remote": false,
+          "seconds": 200,
+          "bytes": 800544,
+          "provider": "google"
+        }
+      },
+      "chz_02_museo_portal_inframundo": {
+        "corto": {
+          "hash": "04325c4642d35531",
+          "file": "de/chz_02_museo_portal_inframundo_corto.mp3",
+          "remote": false,
+          "seconds": 39,
+          "bytes": 156672,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "5ca62142d3889e11",
+          "file": "de/chz_02_museo_portal_inframundo_largo.mp3",
+          "remote": false,
+          "seconds": 190,
+          "bytes": 759360,
+          "provider": "google"
+        }
+      },
+      "chz_03_caminata_hacia_terrazas": {
+        "corto": {
+          "hash": "069c091aaf27aea8",
+          "file": "de/chz_03_caminata_hacia_terrazas_corto.mp3",
+          "remote": true,
+          "seconds": 28,
+          "bytes": 112512,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "b472cf2455729b77",
+          "file": "de/chz_03_caminata_hacia_terrazas_largo.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 178656,
+          "provider": "google"
+        }
+      },
+      "chz_04_terraza_1_plaza": {
+        "corto": {
+          "hash": "5de8fba85b2ef577",
+          "file": "de/chz_04_terraza_1_plaza_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 167424,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "03050f64a476944e",
+          "file": "de/chz_04_terraza_1_plaza_largo.mp3",
+          "remote": true,
+          "seconds": 175,
+          "bytes": 700704,
+          "provider": "google"
+        }
+      },
+      "chz_05_estructura_4": {
+        "corto": {
+          "hash": "76e813e6508b7de8",
+          "file": "de/chz_05_estructura_4_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 160512,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "860e6733be9444da",
+          "file": "de/chz_05_estructura_4_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 723456,
+          "provider": "google"
+        }
+      },
+      "chz_06_clasico_pelota": {
+        "corto": {
+          "hash": "4a370ae2ad398643",
+          "file": "de/chz_06_clasico_pelota_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 168192,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "42abf131e2589aad",
+          "file": "de/chz_06_clasico_pelota_largo.mp3",
+          "remote": true,
+          "seconds": 188,
+          "bytes": 751584,
+          "provider": "google"
+        }
+      },
+      "chz_07_terraza_25_patio_hundido": {
+        "corto": {
+          "hash": "58cb0435ba71cd0d",
+          "file": "de/chz_07_terraza_25_patio_hundido_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 158304,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "a52080b5a5d8248e",
+          "file": "de/chz_07_terraza_25_patio_hundido_largo.mp3",
+          "remote": true,
+          "seconds": 185,
+          "bytes": 740928,
+          "provider": "google"
+        }
+      },
+      "chz_08_monumento_22_altar_trono": {
+        "corto": {
+          "hash": "6a36787fd1abfc9f",
+          "file": "de/chz_08_monumento_22_altar_trono_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 176736,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "fa86f4fd893623ff",
+          "file": "de/chz_08_monumento_22_altar_trono_largo.mp3",
+          "remote": true,
+          "seconds": 184,
+          "bytes": 734400,
+          "provider": "google"
+        }
+      },
+      "chz_09_monumento_21_mujer": {
+        "corto": {
+          "hash": "0f9056f09ee0b829",
+          "file": "de/chz_09_monumento_21_mujer_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 158016,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "eaf35d58db41a9df",
+          "file": "de/chz_09_monumento_21_mujer_largo.mp3",
+          "remote": true,
+          "seconds": 176,
+          "bytes": 702912,
+          "provider": "google"
+        }
+      },
+      "chz_10_altares_y_estelas": {
+        "corto": {
+          "hash": "8b25fd06ecaef271",
+          "file": "de/chz_10_altares_y_estelas_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 174816,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "9f50f8b2bb34bd1e",
+          "file": "de/chz_10_altares_y_estelas_largo.mp3",
+          "remote": true,
+          "seconds": 191,
+          "bytes": 763008,
+          "provider": "google"
+        }
+      },
+      "chz_11_caminata_hacia_ladera": {
+        "corto": {
+          "hash": "d19ce1b4a17f732f",
+          "file": "de/chz_11_caminata_hacia_ladera_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 136992,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "38b46a45dfa7e7b9",
+          "file": "de/chz_11_caminata_hacia_ladera_largo.mp3",
+          "remote": true,
+          "seconds": 59,
+          "bytes": 234432,
+          "provider": "google"
+        }
+      },
+      "chz_12_monumento_2_procesion": {
+        "corto": {
+          "hash": "95177235c8c5b0c4",
+          "file": "de/chz_12_monumento_2_procesion_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 162624,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "06821f1c5bb4a9d8",
+          "file": "de/chz_12_monumento_2_procesion_largo.mp3",
+          "remote": true,
+          "seconds": 188,
+          "bytes": 750048,
+          "provider": "google"
+        }
+      },
+      "chz_13_seres_que_dominan": {
+        "corto": {
+          "hash": "8113662bb7f9354e",
+          "file": "de/chz_13_seres_que_dominan_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 159744,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "64259b628a47cf07",
+          "file": "de/chz_13_seres_que_dominan_largo.mp3",
+          "remote": true,
+          "seconds": 185,
+          "bytes": 738048,
+          "provider": "google"
+        }
+      },
+      "chz_14_triada_felinos": {
+        "corto": {
+          "hash": "3c6d0663d5fe8a9f",
+          "file": "de/chz_14_triada_felinos_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 163872,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "308502819c36141a",
+          "file": "de/chz_14_triada_felinos_largo.mp3",
+          "remote": true,
+          "seconds": 200,
+          "bytes": 798240,
+          "provider": "google"
+        }
+      },
+      "chz_15_monumento_13": {
+        "corto": {
+          "hash": "5912d0ce20bc845b",
+          "file": "de/chz_15_monumento_13_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 151392,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "cb9ee043a1f6e8c7",
+          "file": "de/chz_15_monumento_13_largo.mp3",
+          "remote": true,
+          "seconds": 171,
+          "bytes": 684960,
+          "provider": "google"
+        }
+      },
+      "chz_16_caminata_subida_el_rey": {
+        "corto": {
+          "hash": "9cb20fe33afdd12b",
+          "file": "de/chz_16_caminata_subida_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 126432,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "c750d64572e258e3",
+          "file": "de/chz_16_caminata_subida_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 196224,
+          "provider": "google"
+        }
+      },
+      "chz_17_monumento_1_el_rey": {
+        "corto": {
+          "hash": "6f42b6965a342718",
+          "file": "de/chz_17_monumento_1_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 168384,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "dced20763ae0c53b",
+          "file": "de/chz_17_monumento_1_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 170,
+          "bytes": 681984,
+          "provider": "google"
+        }
+      },
+      "chz_18_animalitos_lluvia_calabaza": {
+        "corto": {
+          "hash": "a467555ed52bf83d",
+          "file": "de/chz_18_animalitos_lluvia_calabaza_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 169632,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "3ce386980fc3d56e",
+          "file": "de/chz_18_animalitos_lluvia_calabaza_largo.mp3",
+          "remote": true,
+          "seconds": 174,
+          "bytes": 696096,
+          "provider": "google"
+        }
+      },
+      "chz_19_mirador_valle_popocatepetl": {
+        "corto": {
+          "hash": "89341dd27a246632",
+          "file": "de/chz_19_mirador_valle_popocatepetl_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 187776,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "3fc47a52014cfe6d",
+          "file": "de/chz_19_mirador_valle_popocatepetl_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 745536,
+          "provider": "google"
+        }
+      },
       "cue_00_por_que_cuernavaca": {
         "corto": {
           "hash": "279bbd2632c113fd",
@@ -9775,6 +10117,330 @@
           "remote": false,
           "seconds": 179,
           "bytes": 717120,
+          "provider": "google"
+        }
+      },
+      "chz_02_museo_portal_inframundo": {
+        "corto": {
+          "hash": "0d0054de3ab54ae7",
+          "file": "en/chz_02_museo_portal_inframundo_corto.mp3",
+          "remote": false,
+          "seconds": 38,
+          "bytes": 150816,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "c8656d2eb7333ffe",
+          "file": "en/chz_02_museo_portal_inframundo_largo.mp3",
+          "remote": false,
+          "seconds": 191,
+          "bytes": 765408,
+          "provider": "google"
+        }
+      },
+      "chz_03_caminata_hacia_terrazas": {
+        "corto": {
+          "hash": "e86195fe9607af7c",
+          "file": "en/chz_03_caminata_hacia_terrazas_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 122976,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "f2f3808e61dc8377",
+          "file": "en/chz_03_caminata_hacia_terrazas_largo.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 184224,
+          "provider": "google"
+        }
+      },
+      "chz_04_terraza_1_plaza": {
+        "corto": {
+          "hash": "1e2de99c4fa25ec0",
+          "file": "en/chz_04_terraza_1_plaza_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 189984,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "16fcfd0a89b615f0",
+          "file": "en/chz_04_terraza_1_plaza_largo.mp3",
+          "remote": true,
+          "seconds": 178,
+          "bytes": 710400,
+          "provider": "google"
+        }
+      },
+      "chz_05_estructura_4": {
+        "corto": {
+          "hash": "da0c283494e3882d",
+          "file": "en/chz_05_estructura_4_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 166272,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "da3934a4d7e3062f",
+          "file": "en/chz_05_estructura_4_largo.mp3",
+          "remote": true,
+          "seconds": 184,
+          "bytes": 735456,
+          "provider": "google"
+        }
+      },
+      "chz_06_clasico_pelota": {
+        "corto": {
+          "hash": "10785ca01c81adb2",
+          "file": "en/chz_06_clasico_pelota_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 182016,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "f40e2946a64d082a",
+          "file": "en/chz_06_clasico_pelota_largo.mp3",
+          "remote": true,
+          "seconds": 185,
+          "bytes": 740256,
+          "provider": "google"
+        }
+      },
+      "chz_07_terraza_25_patio_hundido": {
+        "corto": {
+          "hash": "32f4472fe49ce56f",
+          "file": "en/chz_07_terraza_25_patio_hundido_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 176352,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "52978f3095e3cab9",
+          "file": "en/chz_07_terraza_25_patio_hundido_largo.mp3",
+          "remote": true,
+          "seconds": 191,
+          "bytes": 764064,
+          "provider": "google"
+        }
+      },
+      "chz_08_monumento_22_altar_trono": {
+        "corto": {
+          "hash": "13e494a0f5a964f7",
+          "file": "en/chz_08_monumento_22_altar_trono_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 167136,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "e4090dceb41dddd8",
+          "file": "en/chz_08_monumento_22_altar_trono_largo.mp3",
+          "remote": true,
+          "seconds": 183,
+          "bytes": 732288,
+          "provider": "google"
+        }
+      },
+      "chz_09_monumento_21_mujer": {
+        "corto": {
+          "hash": "be7cf26c48653133",
+          "file": "en/chz_09_monumento_21_mujer_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 150912,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "67ff353aa07e3595",
+          "file": "en/chz_09_monumento_21_mujer_largo.mp3",
+          "remote": true,
+          "seconds": 166,
+          "bytes": 665568,
+          "provider": "google"
+        }
+      },
+      "chz_10_altares_y_estelas": {
+        "corto": {
+          "hash": "60a28ea6e36fb8a0",
+          "file": "en/chz_10_altares_y_estelas_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 169344,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "cdbb0a7444648120",
+          "file": "en/chz_10_altares_y_estelas_largo.mp3",
+          "remote": true,
+          "seconds": 193,
+          "bytes": 770880,
+          "provider": "google"
+        }
+      },
+      "chz_11_caminata_hacia_ladera": {
+        "corto": {
+          "hash": "740f8b8b52b1cd29",
+          "file": "en/chz_11_caminata_hacia_ladera_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 159264,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "cb467d6ca5dadeff",
+          "file": "en/chz_11_caminata_hacia_ladera_largo.mp3",
+          "remote": true,
+          "seconds": 57,
+          "bytes": 229344,
+          "provider": "google"
+        }
+      },
+      "chz_12_monumento_2_procesion": {
+        "corto": {
+          "hash": "387f8c6bb662c05c",
+          "file": "en/chz_12_monumento_2_procesion_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 163392,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "fe4a49a146ca7008",
+          "file": "en/chz_12_monumento_2_procesion_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 742944,
+          "provider": "google"
+        }
+      },
+      "chz_13_seres_que_dominan": {
+        "corto": {
+          "hash": "79b3a5f1e65a9d47",
+          "file": "en/chz_13_seres_que_dominan_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 160704,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "49dd7cc2bb0666eb",
+          "file": "en/chz_13_seres_que_dominan_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 708864,
+          "provider": "google"
+        }
+      },
+      "chz_14_triada_felinos": {
+        "corto": {
+          "hash": "5b5147ed3751ea3a",
+          "file": "en/chz_14_triada_felinos_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 163872,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "6d7dd21934b74897",
+          "file": "en/chz_14_triada_felinos_largo.mp3",
+          "remote": true,
+          "seconds": 196,
+          "bytes": 784608,
+          "provider": "google"
+        }
+      },
+      "chz_15_monumento_13": {
+        "corto": {
+          "hash": "11f1b243d6e90f93",
+          "file": "en/chz_15_monumento_13_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 152544,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "dd1ee771b782acf9",
+          "file": "en/chz_15_monumento_13_largo.mp3",
+          "remote": true,
+          "seconds": 170,
+          "bytes": 679296,
+          "provider": "google"
+        }
+      },
+      "chz_16_caminata_subida_el_rey": {
+        "corto": {
+          "hash": "b84e86aef4fa4a6d",
+          "file": "en/chz_16_caminata_subida_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 119424,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "cbf01720d58c5019",
+          "file": "en/chz_16_caminata_subida_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 175104,
+          "provider": "google"
+        }
+      },
+      "chz_17_monumento_1_el_rey": {
+        "corto": {
+          "hash": "ca51c1bef47250f8",
+          "file": "en/chz_17_monumento_1_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 178464,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "062da115d85beee2",
+          "file": "en/chz_17_monumento_1_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 715008,
+          "provider": "google"
+        }
+      },
+      "chz_18_animalitos_lluvia_calabaza": {
+        "corto": {
+          "hash": "13e73612cecc9805",
+          "file": "en/chz_18_animalitos_lluvia_calabaza_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 161472,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "6541bcd891fcb665",
+          "file": "en/chz_18_animalitos_lluvia_calabaza_largo.mp3",
+          "remote": true,
+          "seconds": 175,
+          "bytes": 699072,
+          "provider": "google"
+        }
+      },
+      "chz_19_mirador_valle_popocatepetl": {
+        "corto": {
+          "hash": "36a9b46093d5461f",
+          "file": "en/chz_19_mirador_valle_popocatepetl_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 188256,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "3bd5361060171564",
+          "file": "en/chz_19_mirador_valle_popocatepetl_largo.mp3",
+          "remote": true,
+          "seconds": 197,
+          "bytes": 786336,
           "provider": "google"
         }
       },
@@ -25514,6 +26180,330 @@
           "provider": "google"
         }
       },
+      "chz_02_museo_portal_inframundo": {
+        "corto": {
+          "hash": "233757345f73a3c1",
+          "file": "fr/chz_02_museo_portal_inframundo_corto.mp3",
+          "remote": false,
+          "seconds": 34,
+          "bytes": 136512,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "94af523371e89a88",
+          "file": "fr/chz_02_museo_portal_inframundo_largo.mp3",
+          "remote": false,
+          "seconds": 165,
+          "bytes": 659232,
+          "provider": "google"
+        }
+      },
+      "chz_03_caminata_hacia_terrazas": {
+        "corto": {
+          "hash": "a2c6f6ca53386a61",
+          "file": "fr/chz_03_caminata_hacia_terrazas_corto.mp3",
+          "remote": true,
+          "seconds": 28,
+          "bytes": 110016,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "3847b6035b6005e9",
+          "file": "fr/chz_03_caminata_hacia_terrazas_largo.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 172992,
+          "provider": "google"
+        }
+      },
+      "chz_04_terraza_1_plaza": {
+        "corto": {
+          "hash": "fd8bb446ad19cf50",
+          "file": "fr/chz_04_terraza_1_plaza_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 162912,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "c71286ad21492b62",
+          "file": "fr/chz_04_terraza_1_plaza_largo.mp3",
+          "remote": true,
+          "seconds": 161,
+          "bytes": 643488,
+          "provider": "google"
+        }
+      },
+      "chz_05_estructura_4": {
+        "corto": {
+          "hash": "992408cf3e159a26",
+          "file": "fr/chz_05_estructura_4_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 159264,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "273ae912cd660165",
+          "file": "fr/chz_05_estructura_4_largo.mp3",
+          "remote": true,
+          "seconds": 171,
+          "bytes": 683328,
+          "provider": "google"
+        }
+      },
+      "chz_06_clasico_pelota": {
+        "corto": {
+          "hash": "d5520a4fbcf7522b",
+          "file": "fr/chz_06_clasico_pelota_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 150144,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "66d6bba87fc77cd9",
+          "file": "fr/chz_06_clasico_pelota_largo.mp3",
+          "remote": true,
+          "seconds": 165,
+          "bytes": 660096,
+          "provider": "google"
+        }
+      },
+      "chz_07_terraza_25_patio_hundido": {
+        "corto": {
+          "hash": "bb98749ff122cb8c",
+          "file": "fr/chz_07_terraza_25_patio_hundido_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 145824,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "79e38fe336f47e37",
+          "file": "fr/chz_07_terraza_25_patio_hundido_largo.mp3",
+          "remote": true,
+          "seconds": 166,
+          "bytes": 665856,
+          "provider": "google"
+        }
+      },
+      "chz_08_monumento_22_altar_trono": {
+        "corto": {
+          "hash": "820bc31e7521c0b9",
+          "file": "fr/chz_08_monumento_22_altar_trono_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 148512,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "2bd59cf3f60d5ba2",
+          "file": "fr/chz_08_monumento_22_altar_trono_largo.mp3",
+          "remote": true,
+          "seconds": 165,
+          "bytes": 661152,
+          "provider": "google"
+        }
+      },
+      "chz_09_monumento_21_mujer": {
+        "corto": {
+          "hash": "665867b81c6e17a0",
+          "file": "fr/chz_09_monumento_21_mujer_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 141984,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "44f0ae91722c7db0",
+          "file": "fr/chz_09_monumento_21_mujer_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 652416,
+          "provider": "google"
+        }
+      },
+      "chz_10_altares_y_estelas": {
+        "corto": {
+          "hash": "0acbf9c9e950160b",
+          "file": "fr/chz_10_altares_y_estelas_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 146976,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "8b5eb0d840542e73",
+          "file": "fr/chz_10_altares_y_estelas_largo.mp3",
+          "remote": true,
+          "seconds": 173,
+          "bytes": 691392,
+          "provider": "google"
+        }
+      },
+      "chz_11_caminata_hacia_ladera": {
+        "corto": {
+          "hash": "a3f6bc4e39a8585c",
+          "file": "fr/chz_11_caminata_hacia_ladera_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 138432,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "28450ee267d6d5c7",
+          "file": "fr/chz_11_caminata_hacia_ladera_largo.mp3",
+          "remote": true,
+          "seconds": 52,
+          "bytes": 209664,
+          "provider": "google"
+        }
+      },
+      "chz_12_monumento_2_procesion": {
+        "corto": {
+          "hash": "f2be00adf4981a41",
+          "file": "fr/chz_12_monumento_2_procesion_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 149664,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "3afa4a8b9dc232df",
+          "file": "fr/chz_12_monumento_2_procesion_largo.mp3",
+          "remote": true,
+          "seconds": 156,
+          "bytes": 625632,
+          "provider": "google"
+        }
+      },
+      "chz_13_seres_que_dominan": {
+        "corto": {
+          "hash": "0795f04ed7c3c114",
+          "file": "fr/chz_13_seres_que_dominan_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 152256,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "0df3aafadc3d4b5a",
+          "file": "fr/chz_13_seres_que_dominan_largo.mp3",
+          "remote": true,
+          "seconds": 156,
+          "bytes": 625248,
+          "provider": "google"
+        }
+      },
+      "chz_14_triada_felinos": {
+        "corto": {
+          "hash": "1dcde31e8dd80f67",
+          "file": "fr/chz_14_triada_felinos_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 158016,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "5394388fc084b896",
+          "file": "fr/chz_14_triada_felinos_largo.mp3",
+          "remote": true,
+          "seconds": 171,
+          "bytes": 685248,
+          "provider": "google"
+        }
+      },
+      "chz_15_monumento_13": {
+        "corto": {
+          "hash": "82d771f7a1c56ab9",
+          "file": "fr/chz_15_monumento_13_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 138144,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "2d4b33c811c5a0bc",
+          "file": "fr/chz_15_monumento_13_largo.mp3",
+          "remote": true,
+          "seconds": 157,
+          "bytes": 629856,
+          "provider": "google"
+        }
+      },
+      "chz_16_caminata_subida_el_rey": {
+        "corto": {
+          "hash": "17a6cd545e8e4cc3",
+          "file": "fr/chz_16_caminata_subida_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 108576,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "b4c57a115ce246ec",
+          "file": "fr/chz_16_caminata_subida_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 177696,
+          "provider": "google"
+        }
+      },
+      "chz_17_monumento_1_el_rey": {
+        "corto": {
+          "hash": "8b6bffed7d22e7fb",
+          "file": "fr/chz_17_monumento_1_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 135936,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "5327c4db295a6a08",
+          "file": "fr/chz_17_monumento_1_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 653280,
+          "provider": "google"
+        }
+      },
+      "chz_18_animalitos_lluvia_calabaza": {
+        "corto": {
+          "hash": "fa1062f70dd34e59",
+          "file": "fr/chz_18_animalitos_lluvia_calabaza_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 160896,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "d0f16cbb488348e5",
+          "file": "fr/chz_18_animalitos_lluvia_calabaza_largo.mp3",
+          "remote": true,
+          "seconds": 161,
+          "bytes": 645216,
+          "provider": "google"
+        }
+      },
+      "chz_19_mirador_valle_popocatepetl": {
+        "corto": {
+          "hash": "a47670aba3b8c431",
+          "file": "fr/chz_19_mirador_valle_popocatepetl_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 165216,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "06f28831e9399ebb",
+          "file": "fr/chz_19_mirador_valle_popocatepetl_largo.mp3",
+          "remote": true,
+          "seconds": 182,
+          "bytes": 726048,
+          "provider": "google"
+        }
+      },
       "cue_00_por_que_cuernavaca": {
         "corto": {
           "hash": "f9b6dba90d522722",
@@ -33200,6 +34190,348 @@
           "seconds": 159,
           "bytes": 952416,
           "provider": "azure"
+        }
+      },
+      "chz_01_dos_cerros_un_valle": {
+        "corto": {
+          "hash": "50eb1039b96b7213",
+          "file": "it/chz_01_dos_cerros_un_valle_corto.mp3",
+          "remote": false,
+          "seconds": 42,
+          "bytes": 166176,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "8edd4ab67c71f6fb",
+          "file": "it/chz_01_dos_cerros_un_valle_largo.mp3",
+          "remote": false,
+          "seconds": 187,
+          "bytes": 748032,
+          "provider": "google"
+        }
+      },
+      "chz_02_museo_portal_inframundo": {
+        "corto": {
+          "hash": "1940107bd79fb9f8",
+          "file": "it/chz_02_museo_portal_inframundo_corto.mp3",
+          "remote": false,
+          "seconds": 39,
+          "bytes": 156864,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "efb06e8da1bf7b0c",
+          "file": "it/chz_02_museo_portal_inframundo_largo.mp3",
+          "remote": false,
+          "seconds": 190,
+          "bytes": 760320,
+          "provider": "google"
+        }
+      },
+      "chz_03_caminata_hacia_terrazas": {
+        "corto": {
+          "hash": "55a535a8f0019050",
+          "file": "it/chz_03_caminata_hacia_terrazas_corto.mp3",
+          "remote": true,
+          "seconds": 33,
+          "bytes": 132672,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "fd6550a1f4838dba",
+          "file": "it/chz_03_caminata_hacia_terrazas_largo.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 181056,
+          "provider": "google"
+        }
+      },
+      "chz_04_terraza_1_plaza": {
+        "corto": {
+          "hash": "d617ea97357de29c",
+          "file": "it/chz_04_terraza_1_plaza_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 181344,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "f61dc9ee87eed07a",
+          "file": "it/chz_04_terraza_1_plaza_largo.mp3",
+          "remote": true,
+          "seconds": 183,
+          "bytes": 732768,
+          "provider": "google"
+        }
+      },
+      "chz_05_estructura_4": {
+        "corto": {
+          "hash": "2b99d3a5697378fc",
+          "file": "it/chz_05_estructura_4_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 169536,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "68ce82ce86e05e6c",
+          "file": "it/chz_05_estructura_4_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 719136,
+          "provider": "google"
+        }
+      },
+      "chz_06_clasico_pelota": {
+        "corto": {
+          "hash": "eb58fb780077795d",
+          "file": "it/chz_06_clasico_pelota_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 167616,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "014bd878efb08f7b",
+          "file": "it/chz_06_clasico_pelota_largo.mp3",
+          "remote": true,
+          "seconds": 189,
+          "bytes": 756768,
+          "provider": "google"
+        }
+      },
+      "chz_07_terraza_25_patio_hundido": {
+        "corto": {
+          "hash": "b9505313d5125acd",
+          "file": "it/chz_07_terraza_25_patio_hundido_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 170784,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "7e810689908dbcee",
+          "file": "it/chz_07_terraza_25_patio_hundido_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 743808,
+          "provider": "google"
+        }
+      },
+      "chz_08_monumento_22_altar_trono": {
+        "corto": {
+          "hash": "7271fa06f90be6b7",
+          "file": "it/chz_08_monumento_22_altar_trono_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 168864,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "e4cbf0e16a0e99db",
+          "file": "it/chz_08_monumento_22_altar_trono_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 745920,
+          "provider": "google"
+        }
+      },
+      "chz_09_monumento_21_mujer": {
+        "corto": {
+          "hash": "d667ec265b38beb2",
+          "file": "it/chz_09_monumento_21_mujer_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 161376,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "38a84d1d245c2e69",
+          "file": "it/chz_09_monumento_21_mujer_largo.mp3",
+          "remote": true,
+          "seconds": 185,
+          "bytes": 739680,
+          "provider": "google"
+        }
+      },
+      "chz_10_altares_y_estelas": {
+        "corto": {
+          "hash": "1099eb922b4f0c57",
+          "file": "it/chz_10_altares_y_estelas_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 170304,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "ba5172f38c0e4eec",
+          "file": "it/chz_10_altares_y_estelas_largo.mp3",
+          "remote": true,
+          "seconds": 189,
+          "bytes": 755520,
+          "provider": "google"
+        }
+      },
+      "chz_11_caminata_hacia_ladera": {
+        "corto": {
+          "hash": "999f8972986e6973",
+          "file": "it/chz_11_caminata_hacia_ladera_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 135936,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "99f9a7016391aefe",
+          "file": "it/chz_11_caminata_hacia_ladera_largo.mp3",
+          "remote": true,
+          "seconds": 56,
+          "bytes": 223872,
+          "provider": "google"
+        }
+      },
+      "chz_12_monumento_2_procesion": {
+        "corto": {
+          "hash": "6e61e72b76b19f52",
+          "file": "it/chz_12_monumento_2_procesion_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 161664,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "1cfe991891684eaa",
+          "file": "it/chz_12_monumento_2_procesion_largo.mp3",
+          "remote": true,
+          "seconds": 178,
+          "bytes": 710880,
+          "provider": "google"
+        }
+      },
+      "chz_13_seres_que_dominan": {
+        "corto": {
+          "hash": "6e156cd57365c92e",
+          "file": "it/chz_13_seres_que_dominan_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 175104,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "43304d99ad23a974",
+          "file": "it/chz_13_seres_que_dominan_largo.mp3",
+          "remote": true,
+          "seconds": 184,
+          "bytes": 736512,
+          "provider": "google"
+        }
+      },
+      "chz_14_triada_felinos": {
+        "corto": {
+          "hash": "5e320abed96d42ae",
+          "file": "it/chz_14_triada_felinos_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 178272,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "3d5fbf407686d7f8",
+          "file": "it/chz_14_triada_felinos_largo.mp3",
+          "remote": true,
+          "seconds": 191,
+          "bytes": 765024,
+          "provider": "google"
+        }
+      },
+      "chz_15_monumento_13": {
+        "corto": {
+          "hash": "6e4c6f234bc3c46b",
+          "file": "it/chz_15_monumento_13_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 174624,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "7e06b1a00f036533",
+          "file": "it/chz_15_monumento_13_largo.mp3",
+          "remote": true,
+          "seconds": 184,
+          "bytes": 736320,
+          "provider": "google"
+        }
+      },
+      "chz_16_caminata_subida_el_rey": {
+        "corto": {
+          "hash": "49058c8f96a017a1",
+          "file": "it/chz_16_caminata_subida_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 121344,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "ee5f25e79ecfb56e",
+          "file": "it/chz_16_caminata_subida_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 190272,
+          "provider": "google"
+        }
+      },
+      "chz_17_monumento_1_el_rey": {
+        "corto": {
+          "hash": "2d78e80d93bd8939",
+          "file": "it/chz_17_monumento_1_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 162912,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "3cf4423dfcfb0edc",
+          "file": "it/chz_17_monumento_1_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 175,
+          "bytes": 701280,
+          "provider": "google"
+        }
+      },
+      "chz_18_animalitos_lluvia_calabaza": {
+        "corto": {
+          "hash": "843be79e2726f278",
+          "file": "it/chz_18_animalitos_lluvia_calabaza_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 172224,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "7533802422415147",
+          "file": "it/chz_18_animalitos_lluvia_calabaza_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 721728,
+          "provider": "google"
+        }
+      },
+      "chz_19_mirador_valle_popocatepetl": {
+        "corto": {
+          "hash": "5a27054984b16f30",
+          "file": "it/chz_19_mirador_valle_popocatepetl_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 182112,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "a24baa84a49d63cf",
+          "file": "it/chz_19_mirador_valle_popocatepetl_largo.mp3",
+          "remote": true,
+          "seconds": 201,
+          "bytes": 802368,
+          "provider": "google"
         }
       },
       "cue_00_por_que_cuernavaca": {
@@ -40908,6 +42240,330 @@
           "provider": "google"
         }
       },
+      "chz_02_museo_portal_inframundo": {
+        "corto": {
+          "hash": "162dfc96c6aad03a",
+          "file": "pl/chz_02_museo_portal_inframundo_corto.mp3",
+          "remote": false,
+          "seconds": 39,
+          "bytes": 156384,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "ff4f854e182905a0",
+          "file": "pl/chz_02_museo_portal_inframundo_largo.mp3",
+          "remote": false,
+          "seconds": 185,
+          "bytes": 740448,
+          "provider": "google"
+        }
+      },
+      "chz_03_caminata_hacia_terrazas": {
+        "corto": {
+          "hash": "181abd27b011fe61",
+          "file": "pl/chz_03_caminata_hacia_terrazas_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 120192,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "a5bae1f70111a161",
+          "file": "pl/chz_03_caminata_hacia_terrazas_largo.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 193056,
+          "provider": "google"
+        }
+      },
+      "chz_04_terraza_1_plaza": {
+        "corto": {
+          "hash": "66972354742f1d1f",
+          "file": "pl/chz_04_terraza_1_plaza_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 185376,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "7f24be333598b570",
+          "file": "pl/chz_04_terraza_1_plaza_largo.mp3",
+          "remote": true,
+          "seconds": 178,
+          "bytes": 713760,
+          "provider": "google"
+        }
+      },
+      "chz_05_estructura_4": {
+        "corto": {
+          "hash": "69ac1c0f05d5d0fb",
+          "file": "pl/chz_05_estructura_4_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 151872,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "5f4eb7f898ddcb25",
+          "file": "pl/chz_05_estructura_4_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 723456,
+          "provider": "google"
+        }
+      },
+      "chz_06_clasico_pelota": {
+        "corto": {
+          "hash": "13fff4fc4936822d",
+          "file": "pl/chz_06_clasico_pelota_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 166464,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "15e31b1abb4ace6a",
+          "file": "pl/chz_06_clasico_pelota_largo.mp3",
+          "remote": true,
+          "seconds": 192,
+          "bytes": 768768,
+          "provider": "google"
+        }
+      },
+      "chz_07_terraza_25_patio_hundido": {
+        "corto": {
+          "hash": "0b6ef5e18f6070c2",
+          "file": "pl/chz_07_terraza_25_patio_hundido_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 161184,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "9d6d0c2d5ea074d9",
+          "file": "pl/chz_07_terraza_25_patio_hundido_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 745632,
+          "provider": "google"
+        }
+      },
+      "chz_08_monumento_22_altar_trono": {
+        "corto": {
+          "hash": "80093e3a1684f6a1",
+          "file": "pl/chz_08_monumento_22_altar_trono_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 183264,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "57e489d91f274a1c",
+          "file": "pl/chz_08_monumento_22_altar_trono_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 706944,
+          "provider": "google"
+        }
+      },
+      "chz_09_monumento_21_mujer": {
+        "corto": {
+          "hash": "57012c3b62a31021",
+          "file": "pl/chz_09_monumento_21_mujer_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 149184,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "c00a20e0570cc8f0",
+          "file": "pl/chz_09_monumento_21_mujer_largo.mp3",
+          "remote": true,
+          "seconds": 171,
+          "bytes": 683328,
+          "provider": "google"
+        }
+      },
+      "chz_10_altares_y_estelas": {
+        "corto": {
+          "hash": "22aa9d88bd5974ca",
+          "file": "pl/chz_10_altares_y_estelas_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 157536,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "f5505ddd22861185",
+          "file": "pl/chz_10_altares_y_estelas_largo.mp3",
+          "remote": true,
+          "seconds": 187,
+          "bytes": 747744,
+          "provider": "google"
+        }
+      },
+      "chz_11_caminata_hacia_ladera": {
+        "corto": {
+          "hash": "32b415b3e5bc862a",
+          "file": "pl/chz_11_caminata_hacia_ladera_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 138144,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "8daed67bb1b42912",
+          "file": "pl/chz_11_caminata_hacia_ladera_largo.mp3",
+          "remote": true,
+          "seconds": 56,
+          "bytes": 224832,
+          "provider": "google"
+        }
+      },
+      "chz_12_monumento_2_procesion": {
+        "corto": {
+          "hash": "8b1c1efc141cb153",
+          "file": "pl/chz_12_monumento_2_procesion_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 155232,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "f23c75eadeca7b8e",
+          "file": "pl/chz_12_monumento_2_procesion_largo.mp3",
+          "remote": true,
+          "seconds": 176,
+          "bytes": 704160,
+          "provider": "google"
+        }
+      },
+      "chz_13_seres_que_dominan": {
+        "corto": {
+          "hash": "9dce3658bfc41086",
+          "file": "pl/chz_13_seres_que_dominan_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 160224,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "b0f40689ecfbec55",
+          "file": "pl/chz_13_seres_que_dominan_largo.mp3",
+          "remote": true,
+          "seconds": 173,
+          "bytes": 693696,
+          "provider": "google"
+        }
+      },
+      "chz_14_triada_felinos": {
+        "corto": {
+          "hash": "f7b72540e24ba42b",
+          "file": "pl/chz_14_triada_felinos_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 164736,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "b05afaf6c350662d",
+          "file": "pl/chz_14_triada_felinos_largo.mp3",
+          "remote": true,
+          "seconds": 194,
+          "bytes": 777312,
+          "provider": "google"
+        }
+      },
+      "chz_15_monumento_13": {
+        "corto": {
+          "hash": "7d191373b84ef2f9",
+          "file": "pl/chz_15_monumento_13_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 151584,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "14c54a0605daf423",
+          "file": "pl/chz_15_monumento_13_largo.mp3",
+          "remote": true,
+          "seconds": 170,
+          "bytes": 679968,
+          "provider": "google"
+        }
+      },
+      "chz_16_caminata_subida_el_rey": {
+        "corto": {
+          "hash": "31c81ae089e03440",
+          "file": "pl/chz_16_caminata_subida_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 29,
+          "bytes": 117984,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "22798010bc917a18",
+          "file": "pl/chz_16_caminata_subida_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 175104,
+          "provider": "google"
+        }
+      },
+      "chz_17_monumento_1_el_rey": {
+        "corto": {
+          "hash": "b7c790acc5f3ba8d",
+          "file": "pl/chz_17_monumento_1_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 175296,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "110d76611babd5a6",
+          "file": "pl/chz_17_monumento_1_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 174,
+          "bytes": 696768,
+          "provider": "google"
+        }
+      },
+      "chz_18_animalitos_lluvia_calabaza": {
+        "corto": {
+          "hash": "eecfbfc2d0daf669",
+          "file": "pl/chz_18_animalitos_lluvia_calabaza_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 169824,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "28b9aadcf541ab2a",
+          "file": "pl/chz_18_animalitos_lluvia_calabaza_largo.mp3",
+          "remote": true,
+          "seconds": 167,
+          "bytes": 669888,
+          "provider": "google"
+        }
+      },
+      "chz_19_mirador_valle_popocatepetl": {
+        "corto": {
+          "hash": "5ddddc5edd8e9546",
+          "file": "pl/chz_19_mirador_valle_popocatepetl_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 183264,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "15f7df99c0dd3c47",
+          "file": "pl/chz_19_mirador_valle_popocatepetl_largo.mp3",
+          "remote": true,
+          "seconds": 203,
+          "bytes": 810720,
+          "provider": "google"
+        }
+      },
       "cue_00_por_que_cuernavaca": {
         "corto": {
           "hash": "6acc76434b68fb2a",
@@ -48594,6 +50250,348 @@
           "seconds": 152,
           "bytes": 914544,
           "provider": "azure"
+        }
+      },
+      "chz_01_dos_cerros_un_valle": {
+        "corto": {
+          "hash": "d2e2a3a3ec50ffb1",
+          "file": "pt/chz_01_dos_cerros_un_valle_corto.mp3",
+          "remote": false,
+          "seconds": 43,
+          "bytes": 173376,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "12a06eea5c5848fb",
+          "file": "pt/chz_01_dos_cerros_un_valle_largo.mp3",
+          "remote": false,
+          "seconds": 191,
+          "bytes": 765216,
+          "provider": "google"
+        }
+      },
+      "chz_02_museo_portal_inframundo": {
+        "corto": {
+          "hash": "1b8bc7a5d34aced8",
+          "file": "pt/chz_02_museo_portal_inframundo_corto.mp3",
+          "remote": false,
+          "seconds": 40,
+          "bytes": 161184,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "29a2aed6b2f4f3ce",
+          "file": "pt/chz_02_museo_portal_inframundo_largo.mp3",
+          "remote": false,
+          "seconds": 197,
+          "bytes": 787968,
+          "provider": "google"
+        }
+      },
+      "chz_03_caminata_hacia_terrazas": {
+        "corto": {
+          "hash": "08c208ea6e62a26f",
+          "file": "pt/chz_03_caminata_hacia_terrazas_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 129792,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "b323fc725bd8dab8",
+          "file": "pt/chz_03_caminata_hacia_terrazas_largo.mp3",
+          "remote": true,
+          "seconds": 51,
+          "bytes": 202944,
+          "provider": "google"
+        }
+      },
+      "chz_04_terraza_1_plaza": {
+        "corto": {
+          "hash": "f2585d73f83e5d60",
+          "file": "pt/chz_04_terraza_1_plaza_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 187776,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "83dcda7ec75f4d92",
+          "file": "pt/chz_04_terraza_1_plaza_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 717408,
+          "provider": "google"
+        }
+      },
+      "chz_05_estructura_4": {
+        "corto": {
+          "hash": "73f3c3a0829503ae",
+          "file": "pt/chz_05_estructura_4_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 184416,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "9765ce44d457d230",
+          "file": "pt/chz_05_estructura_4_largo.mp3",
+          "remote": true,
+          "seconds": 185,
+          "bytes": 741984,
+          "provider": "google"
+        }
+      },
+      "chz_06_clasico_pelota": {
+        "corto": {
+          "hash": "1552a985d41d2b29",
+          "file": "pt/chz_06_clasico_pelota_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 170304,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "7f7e75d5cdfd3672",
+          "file": "pt/chz_06_clasico_pelota_largo.mp3",
+          "remote": true,
+          "seconds": 194,
+          "bytes": 775968,
+          "provider": "google"
+        }
+      },
+      "chz_07_terraza_25_patio_hundido": {
+        "corto": {
+          "hash": "2214cfd9d501b88a",
+          "file": "pt/chz_07_terraza_25_patio_hundido_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 180384,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "bf5a9ef79ecb81de",
+          "file": "pt/chz_07_terraza_25_patio_hundido_largo.mp3",
+          "remote": true,
+          "seconds": 197,
+          "bytes": 789888,
+          "provider": "google"
+        }
+      },
+      "chz_08_monumento_22_altar_trono": {
+        "corto": {
+          "hash": "df9be0cdc6b35b7a",
+          "file": "pt/chz_08_monumento_22_altar_trono_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 184224,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "a4f77b4aec1cb0a5",
+          "file": "pt/chz_08_monumento_22_altar_trono_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 743712,
+          "provider": "google"
+        }
+      },
+      "chz_09_monumento_21_mujer": {
+        "corto": {
+          "hash": "b257b15f8c859a03",
+          "file": "pt/chz_09_monumento_21_mujer_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 153504,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "d150eab23801224c",
+          "file": "pt/chz_09_monumento_21_mujer_largo.mp3",
+          "remote": true,
+          "seconds": 185,
+          "bytes": 739296,
+          "provider": "google"
+        }
+      },
+      "chz_10_altares_y_estelas": {
+        "corto": {
+          "hash": "f4256d55b167479a",
+          "file": "pt/chz_10_altares_y_estelas_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 177216,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "9c2588ad8580d95a",
+          "file": "pt/chz_10_altares_y_estelas_largo.mp3",
+          "remote": true,
+          "seconds": 198,
+          "bytes": 793728,
+          "provider": "google"
+        }
+      },
+      "chz_11_caminata_hacia_ladera": {
+        "corto": {
+          "hash": "e82d9e79b6a34e4c",
+          "file": "pt/chz_11_caminata_hacia_ladera_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 136032,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "5d237e6f3e8b8105",
+          "file": "pt/chz_11_caminata_hacia_ladera_largo.mp3",
+          "remote": true,
+          "seconds": 58,
+          "bytes": 230976,
+          "provider": "google"
+        }
+      },
+      "chz_12_monumento_2_procesion": {
+        "corto": {
+          "hash": "2482bc6b1d8835f4",
+          "file": "pt/chz_12_monumento_2_procesion_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 166176,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "3b3337a1f1c6f718",
+          "file": "pt/chz_12_monumento_2_procesion_largo.mp3",
+          "remote": true,
+          "seconds": 192,
+          "bytes": 768672,
+          "provider": "google"
+        }
+      },
+      "chz_13_seres_que_dominan": {
+        "corto": {
+          "hash": "0b4b9e7ea7f8152b",
+          "file": "pt/chz_13_seres_que_dominan_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 170016,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "a2dff870679fbdfa",
+          "file": "pt/chz_13_seres_que_dominan_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 725760,
+          "provider": "google"
+        }
+      },
+      "chz_14_triada_felinos": {
+        "corto": {
+          "hash": "f4dc9267bd608bd3",
+          "file": "pt/chz_14_triada_felinos_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 182976,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "239307dcda47f04f",
+          "file": "pt/chz_14_triada_felinos_largo.mp3",
+          "remote": true,
+          "seconds": 198,
+          "bytes": 792480,
+          "provider": "google"
+        }
+      },
+      "chz_15_monumento_13": {
+        "corto": {
+          "hash": "85e8ca188719e7a0",
+          "file": "pt/chz_15_monumento_13_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 161664,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "29ef7d09d5c218a1",
+          "file": "pt/chz_15_monumento_13_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 719616,
+          "provider": "google"
+        }
+      },
+      "chz_16_caminata_subida_el_rey": {
+        "corto": {
+          "hash": "2c86b2fc00e8f62a",
+          "file": "pt/chz_16_caminata_subida_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 126624,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "19cd5bd0ed15f424",
+          "file": "pt/chz_16_caminata_subida_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 50,
+          "bytes": 198816,
+          "provider": "google"
+        }
+      },
+      "chz_17_monumento_1_el_rey": {
+        "corto": {
+          "hash": "56f4de5db8c23d65",
+          "file": "pt/chz_17_monumento_1_el_rey_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 167616,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "083398c3bcff1754",
+          "file": "pt/chz_17_monumento_1_el_rey_largo.mp3",
+          "remote": true,
+          "seconds": 178,
+          "bytes": 712416,
+          "provider": "google"
+        }
+      },
+      "chz_18_animalitos_lluvia_calabaza": {
+        "corto": {
+          "hash": "8a87702459753ea7",
+          "file": "pt/chz_18_animalitos_lluvia_calabaza_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 180192,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "1c6c435b612eefb3",
+          "file": "pt/chz_18_animalitos_lluvia_calabaza_largo.mp3",
+          "remote": true,
+          "seconds": 194,
+          "bytes": 774240,
+          "provider": "google"
+        }
+      },
+      "chz_19_mirador_valle_popocatepetl": {
+        "corto": {
+          "hash": "847b6424ffd079fe",
+          "file": "pt/chz_19_mirador_valle_popocatepetl_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 187104,
+          "provider": "google"
+        },
+        "largo": {
+          "hash": "9b044a38d9450010",
+          "file": "pt/chz_19_mirador_valle_popocatepetl_largo.mp3",
+          "remote": true,
+          "seconds": 197,
+          "bytes": 786144,
+          "provider": "google"
         }
       },
       "cue_00_por_que_cuernavaca": {
