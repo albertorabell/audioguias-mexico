@@ -18,7 +18,7 @@ on:
         default: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   probar:
@@ -44,3 +44,16 @@ jobs:
           name: muestras-google
           path: muestras-google/
           retention-days: 7
+
+      - name: Publicar muestras en esta rama (vista previa para escuchar)
+        if: ${{ github.event_name == 'push' }}
+        run: |
+          mkdir -p public/muestras-google
+          cp muestras-google/*.mp3 public/muestras-google/
+          {
+            echo '<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Muestras Google</title><body style="font-family:sans-serif;max-width:640px;margin:1rem auto;padding:0 1rem"><h1>Muestras Google Chirp 3 HD</h1>'
+            for f in public/muestras-google/*.mp3; do n=$(basename "$f"); echo "<p><b>${n%.mp3}</b><br><audio controls preload=none src=\"$n\" style=\"width:100%\"></audio></p>"; done
+          } > public/muestras-google/index.html
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git add public/muestras-google
+          git commit -m "Muestras de voz Google (automático)" && git push || true
