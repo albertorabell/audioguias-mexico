@@ -101,7 +101,7 @@ async function main() {
       if (exactas) for (const q of qs) { const t = q.replace(/_/g, ' '); if (!vistos.has(t)) { vistos.add(t); titulos.push(t); } }
       else for (const q of qs) for (const t of await buscarTitulos(q)) if (!vistos.has(t)) { vistos.add(t); titulos.push(t); }
       const conCat = qs.some((q) => /^(Category|Search):/i.test(q));
-      let lista = buenas(await infos(titulos), exactas ? Math.max(max, titulos.length) : (conCat ? Math.max(max, 90) : max), exactas, conCat ? 400 : 1200);
+      let lista = buenas(await infos(titulos), exactas ? Math.max(max, titulos.length) : (conCat ? (qs.some((q) => /^Category:/i.test(q)) ? 90 : 14) : max), exactas, conCat ? 600 : 1200);
       if (exactas) lista = titulos.map((t) => lista.find((x) => x.titulo.replace(/_/g, ' ') === t)).filter(Boolean).concat(lista.filter((x) => !titulos.includes(x.titulo)));
       manifiesto[id] = lista;
       if (!lista.length) { console.log(`::warning::${id}: sin candidatas con licencia abierta y 1200 px o más (${titulos.length} resultados)`); continue; }
