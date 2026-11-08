@@ -1,3 +1,4 @@
+/** Red de seguridad: si algo falla al dibujar la app, muestra un mensaje en el idioma actual en lugar de una pantalla en blanco. */
 import React, { ReactNode } from 'react';
 import { AlertTriangle, Home } from 'lucide-react';
 import { getStrings } from '../i18n';

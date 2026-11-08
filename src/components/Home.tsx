@@ -1,3 +1,4 @@
+/** Pantalla principal: lista de sitios disponibles (museos y zonas arqueológicas) con sus cifras, pase combinado, instalación de la app y pie de página. */
 import React, { useState } from 'react';
 import { MapPin } from 'lucide-react';
 import { SiteSummary, PieceData } from '../types';

@@ -1,3 +1,4 @@
+/** Indicación de cómo caminar de la parada actual a la siguiente, con enlace al mapa del teléfono. */
 import React, { useMemo } from 'react';
 import { Footprints } from 'lucide-react';
 import { Room } from '../types';

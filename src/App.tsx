@@ -1,3 +1,4 @@
+/** Pantalla raíz de la app. Decide qué se ve: lista de sitios (Home), un sitio con sus pestañas (Museo, Recorridos, Mapa, Buscar), la ficha de una pieza, el recorrido en curso, el pase de pago y los avisos. Lee los datos de public/data y los textos de la interfaz con useStrings. */
 import { PlanGuide } from './components/PlanGuide';
 import { computePlan } from './config/mnaGeo';
 import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';

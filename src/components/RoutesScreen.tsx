@@ -1,3 +1,4 @@
+/** Pestaña «Recorridos»: recorrido en curso, recorridos sugeridos y «Armar a tu medida». */
 import React, { useMemo } from 'react';
 import { Check, ChevronRight, SlidersHorizontal } from 'lucide-react';
 import { SiteRoute, PieceData, Room } from '../types';

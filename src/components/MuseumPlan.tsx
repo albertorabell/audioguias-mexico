@@ -1,3 +1,4 @@
+/** Plano interactivo del museo (zoom, ubicación y salas por piso) con las piezas ubicadas sobre el dibujo. */
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Plus, Minus, LocateFixed, Maximize2, ChevronRight, Lock } from 'lucide-react';
 import { Room, PieceData } from '../types';
