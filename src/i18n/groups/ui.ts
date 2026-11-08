@@ -583,7 +583,7 @@ export const ui = defineGroup(
       howTo: 'Itinéraire',
       noCoords: 'Certaines étapes n’ont pas encore de position sur la carte.',
       attribution: 'Données cartographiques : © contributeurs OpenStreetMap',
-      patio: 'Patio central',
+      patio: 'Cour centrale',
       patioBelow: 'Patio (en bas)',
       umbrella: 'Le Parapluie',
       entrance: 'Entrée',

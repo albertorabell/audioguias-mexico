@@ -106,7 +106,7 @@ export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, 
     const east = pick(zoneMap.east);
     const south = pick(zoneMap.south);
     const rows = Math.max(center.length, 1);
-    const label = (l?: ZoneMap['top_label']) => (l ? l[currentLanguage as 'es' | 'en' | 'fr' | 'pl'] || l.es || '' : '');
+    const label = (l?: ZoneMap['top_label']) => (l ? l[currentLanguage as 'es' | 'en' | 'fr' | 'pl' | 'de' | 'pt' | 'it'] || l.es || '' : '');
     // Cada lado reparte las filas de la columna central entre sus zonas
     const side = (list: Room[], col: number) =>
       list.map((r, i) => {

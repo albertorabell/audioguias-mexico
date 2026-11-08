@@ -86,7 +86,7 @@ test('texto privado: el paquete con pase conserva los enlaces', () => {
 });
 
 test('traducción: las instrucciones piden conservar los enlaces y las palabras nahuas/mayas, en todos los idiomas', () => {
-  for (const lang of ['en', 'fr', 'pl']) {
+  for (const lang of ['en', 'fr', 'pl', 'de', 'pt', 'it']) {
     const p = buildSystemPrompt(lang);
     assert.match(p, /\[visible text\]\(piece_id\)/, lang);
     assert.match(p, /character by character/, lang);

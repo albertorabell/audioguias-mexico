@@ -267,8 +267,8 @@ export interface ZoneMap {
   east: string[];
   /** Fila de abajo, de izquierda a derecha. */
   south: string[];
-  top_label?: Partial<Record<'es' | 'en' | 'fr' | 'pl', string>>;
-  bottom_label?: Partial<Record<'es' | 'en' | 'fr' | 'pl', string>>;
+  top_label?: Partial<Record<'es' | 'en' | 'fr' | 'pl' | 'de' | 'pt' | 'it', string>>;
+  bottom_label?: Partial<Record<'es' | 'en' | 'fr' | 'pl' | 'de' | 'pt' | 'it', string>>;
 }
 
 export interface VisualChallengeItem {

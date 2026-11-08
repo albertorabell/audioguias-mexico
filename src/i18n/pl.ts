@@ -23,6 +23,8 @@ export const PL_GROUPS: Record<string, any> = {
     premium: 'Premium',
     museumName: 'Narodowe Muzeum Antropologii',
     roomWord: 'Sala',
+    editorialBadge: 'Treści redakcyjne Audioguía Xolo',
+    languageNames: { es: 'hiszpański', en: 'angielski', fr: 'francuski', pl: 'polski', de: 'niemiecki', pt: 'portugalski', it: 'włoski', ru: 'rosyjski', ja: 'japoński' },
   },
   chrome: {
     nav: {
@@ -31,6 +33,19 @@ export const PL_GROUPS: Record<string, any> = {
       museumName: 'NARODOWE MUZEUM ANTROPOLOGII',
       searchAria: 'Szukaj dzieła',
       pass: 'Karnet',
+    },
+    bottomNav: {
+      prev: 'Poprzednie',
+      stopOf: (n: number, total: number) => `PRZYSTANEK ${n} Z ${total}`,
+      lastStop: '🏁 Ostatni przystanek trasy',
+      next: (title: string) => `Dalej: ${title}`,
+      finish: 'Zakończ',
+    },
+    dock: {
+      rooms: 'Sale',
+      route: 'Moja trasa',
+      map: 'Plan',
+      search: 'Szukaj',
     },
     offline: { banner: 'Brak internetu: używam zapisanych danych' },
     pwa: {
@@ -55,6 +70,7 @@ export const PL_GROUPS: Record<string, any> = {
       desktopStep1: 'Poszukaj ikony instalacji w pasku adresu albo otwórz menu ⋮ i wybierz „Zainstaluj…”.',
       afterInstall: 'Po instalacji zawsze otwieraj aplikację z jej ikony. Aby słuchać bez internetu, wejdź do muzeum i na karcie Muzeum dotknij „Pobierz”, zanim dotrzesz do sal.',
       close: 'Zamknij',
+      understood: 'Rozumiem',
     },
     theme: {
       sun: 'Tryb Słońce',
@@ -82,6 +98,8 @@ export const PL_GROUPS: Record<string, any> = {
   },
   piece: {
     defaultTitle: 'Dzieło z muzeum',
+    stopOf: (n: number, total: number) => `Przystanek ${n} z ${total}`,
+    worksCount: (c: number) => works(c),
     closeNotice: 'Zamknij komunikat',
     zoomAria: 'Powiększ zdjęcie',
     photoBy: 'Zdjęcie:',
@@ -96,6 +114,7 @@ export const PL_GROUPS: Record<string, any> = {
   },
   player: {
     mediaTitleFallback: 'Audioprzewodnik',
+    defaultPieceSummary: 'Kluczowe dzieło z kolekcji narodowej.',
     scriptOnlySpanish: 'To dzieło nie ma jeszcze tekstu w tym języku. Tekst jest wyświetlany i czytany po hiszpańsku.',
   },
   errors: {
@@ -177,6 +196,8 @@ export const PL_GROUPS: Record<string, any> = {
     repeat: 'Powtórz tę trasę',
   },
   paywall: {
+    signOutTitle: 'Wyloguj się z karnetu, aby przetestować blokadę',
+    debugSimulate: 'Włącz karnet testowy (72 h do prób)',
     badge: 'Karnet zwiedzającego',
     closeAria: 'Zamknij',
     activeTitle: 'Karnet aktywny dla tego miejsca',
@@ -254,6 +275,7 @@ export const PL_GROUPS: Record<string, any> = {
   },
   media: {
     defaultAlt: 'Dzieło z Narodowego Muzeum Antropologii',
+    fallbackAria: (title: string) => `Zastępcza grafika dla: ${title}`,
     photoSoon: 'Zdjęcie wkrótce',
     zoomClose: 'Zamknij powiększenie',
     zoomPending: 'Zdjęcie obiektu jest w opracowaniu (wkrótce)',
@@ -272,7 +294,7 @@ export const PL_GROUPS: Record<string, any> = {
     minutes: (m: number) => `${m} min`,
     worksCount: works,
     roomsCount: rooms,
-    tabs: { aria: 'Sekcje muzeum', museum: 'Muzeum', routes: 'Trasy', map: 'Mapa', search: 'Szukaj' },
+    tabs: { aria: 'Sekcje muzeum', museum: 'Muzeum', routes: 'Trasy', map: 'Plan', search: 'Szukaj' },
     pass: { buy: 'Karnet', active: 'Karnet aktywny', activeTitle: 'Twój karnet jest aktywny', free: 'Wolny dostęp', freeTitle: 'Trwają testy: cała zawartość jest otwarta' },
     floors: { aria: 'Piętro', PB: 'Parter', PBsub: 'Archeologia', PA: 'Piętro', PAsub: 'Etnografia' },
     home: {
@@ -472,5 +494,33 @@ export const PL_GROUPS: Record<string, any> = {
     ],
     configureRoute: 'Ułóż trasę teraz',
     explore: 'Zwiedzam sam',
+  },
+  room: {
+    backToExplorer: 'Wróć do przeglądu',
+    startTour: 'Rozpocznij trasę po tej sali',
+    stopIntro: 'Zatrzymaj wstęp',
+    listenIntro: 'Posłuchaj wstępu',
+  },
+  map: {
+    closeAria: 'Zamknij plan',
+    zoomIn: 'Przybliż plan',
+    zoomOut: 'Oddal plan',
+    center: 'Wyśrodkuj plan',
+    completed: 'Ukończono ✓',
+    umbrella: 'PARASOL',
+    title: (siteName: string) => `Plan • ${siteName}`,
+    subtitle: (routeName: string) => `${routeName} • Dotknij dowolnej sali, aby zobaczyć jej dzieła`,
+  },
+  app: {
+    sitesLoadError: 'Nie udało się załadować miejsc. Sprawdź połączenie.',
+    siteLoadError: 'Nie udało się załadować trasy tego miejsca.',
+    defaultRouteName: 'Trasa po muzeum',
+    dismissAria: 'Zamknij komunikat',
+    backToRooms: 'Wróć do sal',
+    pieceNotFound: 'Nie znaleziono informacji o tym dziele.',
+  },
+  routes: {
+    curatedName: (duration: string) => `Trasa wybrana · ${duration}`,
+    curatedDescription: (rooms: number) => `Trasa od parteru po piętro, przez ${rooms} ${n(rooms, 'salę', 'sale', 'sal')}. Obejmuje Kamień Słońca.`,
   },
 };
