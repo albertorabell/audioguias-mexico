@@ -1,0 +1,81 @@
+name: Publicar el servidor de cobro de PRUEBAS (Cloudflare)
+
+# Se corre a mano: pestaña Actions > "Publicar el servidor de cobro de PRUEBAS" > Run workflow.
+# Publica un servidor de cobro APARTE (audioguias-pagos-pruebas) que sí pide pase y cobra con Stripe en modo de PRUEBA.
+# NO toca el servidor real ni su modo gratis. Se niega a trabajar si la clave de Stripe no es de pruebas (sk_test_...).
+# Guía completa: docs/PRUEBAS_DE_COBRO.md
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-24.04
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      STRIPE_SECRET_KEY_PRUEBAS: ${{ secrets.STRIPE_SECRET_KEY_PRUEBAS }}
+      TOKEN_SECRET_PRUEBAS: ${{ secrets.TOKEN_SECRET_PRUEBAS }}
+      STRIPE_WEBHOOK_SECRET_PRUEBAS: ${{ secrets.STRIPE_WEBHOOK_SECRET_PRUEBAS }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pruebas del servidor de cobro
+        run: node --test pagos/test/worker.test.mjs
+
+      - name: Revisar que estén los datos necesarios (y que la clave de Stripe sea de PRUEBAS)
+        run: |
+          faltan=""
+          for v in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID STRIPE_SECRET_KEY_PRUEBAS TOKEN_SECRET_PRUEBAS; do
+            if [ -z "${!v}" ]; then faltan="$faltan $v"; fi
+          done
+          if [ -n "$faltan" ]; then
+            echo "::error::Faltan estos secretos en GitHub (Settings > Secrets and variables > Actions):$faltan"; exit 1
+          fi
+          case "$STRIPE_SECRET_KEY_PRUEBAS" in
+            sk_test_*|rk_test_*) ;;
+            *) echo "::error::STRIPE_SECRET_KEY_PRUEBAS no parece una clave de PRUEBAS (debe empezar con sk_test_). Por seguridad no se publica."; exit 1 ;;
+          esac
+          if [ "${#TOKEN_SECRET_PRUEBAS}" -lt 32 ]; then
+            echo "::error::TOKEN_SECRET_PRUEBAS es muy corto: usa al menos 32 caracteres al azar."; exit 1
+          fi
+
+      - name: Crear (o encontrar) el KV de pruebas y anotar su id
+        run: |
+          api="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/storage/kv/namespaces"
+          titulo="audioguias-pases-pruebas"
+          id=$(curl -sS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$api?per_page=100" | jq -r --arg t "$titulo" '.result[]? | select(.title==$t) | .id' | head -1)
+          if [ -z "$id" ]; then
+            id=$(curl -sS -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" --data "{\"title\":\"$titulo\"}" "$api" | jq -r '.result.id // empty')
+          fi
+          if [ -z "$id" ]; then
+            echo "::error::No se pudo crear ni encontrar el KV de pruebas. Corre «Revisar permisos de Cloudflare»: la llave necesita permiso de KV."; exit 1
+          fi
+          sed -i "s/PENDIENTE_KV_PRUEBAS/$id/" pagos/wrangler.toml
+          echo "KV de pruebas listo."
+
+      - name: Publicar en Cloudflare (entorno pruebas)
+        working-directory: pagos
+        run: |
+          set -o pipefail
+          npx --yes wrangler@4 deploy --env pruebas | tee ../despliegue.log
+          url=$(grep -Eo 'https://[A-Za-z0-9.-]+\.workers\.dev' ../despliegue.log | tail -1 || true)
+          echo "Dirección del servidor de pruebas: $url" >> "$GITHUB_STEP_SUMMARY"
+          echo "Copia esa dirección (sin diagonal al final) en GitHub > Settings > Secrets and variables > Actions > Variables, con el nombre PAGOS_API_URL_PRUEBAS." >> "$GITHUB_STEP_SUMMARY"
+          echo "::notice title=Servidor de pruebas::$url"
+
+      - name: Guardar las claves secretas del entorno de pruebas
+        working-directory: pagos
+        run: |
+          printf '%s' "$STRIPE_SECRET_KEY_PRUEBAS" | npx --yes wrangler@4 secret put STRIPE_SECRET_KEY --env pruebas
+          printf '%s' "$TOKEN_SECRET_PRUEBAS" | npx --yes wrangler@4 secret put TOKEN_SECRET --env pruebas
+          if [ -n "$STRIPE_WEBHOOK_SECRET_PRUEBAS" ]; then
+            printf '%s' "$STRIPE_WEBHOOK_SECRET_PRUEBAS" | npx --yes wrangler@4 secret put STRIPE_WEBHOOK_SECRET --env pruebas
+          else
+            echo "::notice::No hay STRIPE_WEBHOOK_SECRET_PRUEBAS: los reembolsos no cancelarán el pase en pruebas (se puede agregar después)."
+          fi
