@@ -26,6 +26,8 @@ Cómo está armado:
 
 ## Qué probar (lista de verificación)
 
+**Ya probado antes (solo con el MNA, cuando era el único sitio):** pagar con la tarjeta de prueba y entrar al sitio. Lo que sigue es repetirlo con lo que se agregó después: varios sitios con precios distintos, pases combinados, textos de pago desde el servidor, códigos, límite de dispositivos y reembolsos. Se marca con ★ lo más importante de repetir.
+
 Tarjetas de prueba de Stripe (cualquier fecha futura y cualquier CVC):
 - `4242 4242 4242 4242`: pago exitoso.
 - `4000 0000 0000 0002`: tarjeta rechazada.
@@ -34,13 +36,16 @@ Tarjetas de prueba de Stripe (cualquier fecha futura y cualquier CVC):
 | Prueba | Resultado esperado |
 |---|---|
 | Abrir un sitio de pago en la dirección de prueba | Se ve el candado y el botón de comprar (no entra gratis) |
+| ★ Pagar un sitio que NO sea el MNA (por ejemplo Teotihuacán o Cuernavaca) | Cobra el precio de ese sitio y desbloquea solo ese sitio |
+| ★ Pagar un pase combinado | Desbloquea todos los sitios incluidos y ninguno más |
 | Pagar con la tarjeta exitosa | Regresa a la app, se desbloquea el sitio, aparece el código `XXXX-XXXX` |
 | Cancelar en la página de Stripe | Regresa a la app sin pase y con aviso |
 | Tarjeta rechazada | Stripe muestra el error; la app no desbloquea nada |
-| Usar el código en otro navegador | Se activa; un tercer dispositivo es rechazado (límite de 2) |
+| ★ Usar el código en otro navegador | Se activa; un tercer dispositivo es rechazado (límite de 2) |
+| ★ Textos de pago antes y después de pagar (guion largo, retos, ficha) | Antes solo el adelanto; después todo |
 | Cambiar de idioma tras pagar | Textos y audios de pago siguen disponibles |
 | Sin internet tras pagar y descargar el recorrido | Funciona sin conexión |
-| Reembolsar el pago en Stripe (si hay webhook) | El pase deja de servir |
+| ★ Reembolsar el pago en Stripe (si hay webhook) | El pase deja de servir |
 | Código de acceso de la hoja CODIGOS | Entra sin pagar (publicar códigos antes) |
 
 Registrar lo que falle en el documento del proyecto.
