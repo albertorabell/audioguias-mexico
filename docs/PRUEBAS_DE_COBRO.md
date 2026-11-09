@@ -16,8 +16,8 @@ Cómo está armado:
 
 1. **Stripe, modo de prueba.** En el panel de Stripe activa el **modo de prueba** (o un "sandbox") y copia la **clave secreta** (empieza con `sk_test_`). Los nombres de los menús cambian: si no la encuentras, pide ayuda con una captura. Revisa también que exista un producto con precio en modo de prueba (el `price_` de `wrangler.toml`).
 2. **Secretos en GitHub** (*Settings → Secrets and variables → Actions → New repository secret*):
-   - `STRIPE_SECRET_KEY_PRUEBAS`: la clave `sk_test_...`.
-   - `TOKEN_SECRET_PRUEBAS`: texto al azar de 32 o más caracteres (distinto del real).
+   - `STRIPE_SECRET_KEY_PRUEBAS`: la clave `sk_test_...`. **Opcional si `STRIPE_SECRET_KEY` ya es de pruebas:** el botón la usa en su lugar, pero se niega si no empieza con `sk_test_`. Cuando `STRIPE_SECRET_KEY` pase a ser la clave real (`sk_live_`), crea este secreto aparte.
+   - `TOKEN_SECRET_PRUEBAS`: texto al azar de 32 o más caracteres. **Siempre distinto del `TOKEN_SECRET` real**: si fueran iguales, un pase de prueba abriría también el servidor real cuando empiece a cobrar.
    - Opcional, para probar reembolsos: `STRIPE_WEBHOOK_SECRET_PRUEBAS` (ver paso 6).
 3. **Publicar el servidor de pruebas:** *Actions → Publicar el servidor de cobro de PRUEBAS → Run workflow*. Al terminar, el resumen de la corrida muestra su dirección (termina en `.workers.dev`).
 4. **Guardar esa dirección** como *variable* (pestaña *Variables*, no *Secrets*): nombre `PAGOS_API_URL_PRUEBAS`, valor la dirección sin diagonal final.
