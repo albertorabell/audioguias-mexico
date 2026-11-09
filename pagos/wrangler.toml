@@ -38,3 +38,40 @@ name = "CONTACTO_MAIL"
 #   npx wrangler secret put TOKEN_SECRET
 #   npx wrangler secret put CONTACT_TO     (opcional: correo al que llegan los avisos del formulario)
 #   npx wrangler secret put CODES_KEY      (opcional: clave con la que GitHub publica los códigos de acceso de la hoja CODIGOS)
+
+# ---------------------------------------------------------------------------------------------------------------------
+# ENTORNO DE PRUEBAS DE COBRO ("pruebas"): un servidor APARTE que sí pide pase y cobra con Stripe en modo de PRUEBA.
+# Sirve para probar el cobro completo sin tocar el servidor real (que sigue en modo gratis para quienes están probando la app).
+# Se publica con el botón «Publicar el servidor de cobro de PRUEBAS» y solo lo usa la rama de prueba feature/pagos-prueba.
+# Usa sus propios secretos (STRIPE_SECRET_KEY_PRUEBAS, TOKEN_SECRET_PRUEBAS) y su propio KV, para no mezclar pases con los reales.
+# Guía completa: docs/PRUEBAS_DE_COBRO.md
+# (En Wrangler los valores de cada entorno NO se heredan: por eso se repiten aquí.)
+# ---------------------------------------------------------------------------------------------------------------------
+[env.pruebas]
+name = "audioguias-pagos-pruebas"
+
+[env.pruebas.vars]
+# Solo la dirección de prueba de la rama feature/pagos-prueba (Cloudflare cambia la diagonal de la rama por un guion).
+ALLOWED_ORIGINS = "https://feature-pagos-prueba.audioguias.pages.dev"
+SITE_IDS = "mna,teotihuacan,chapultepec,centro_historico,chichen_itza,templo_mayor_catedral"
+PRECIOS_URL = "https://xolotli.com/data/precios.json"
+PASS_HOURS = "72"
+MAX_DEVICES = "2"
+# Aquí SÍ se pide pase: es la razón de existir de este entorno.
+ACCESO_LIBRE = "0"
+# El price_ de Stripe en modo de prueba (el mismo que usa hoy el servidor real mientras Stripe esté en pruebas).
+STRIPE_PRICE_ID_MXN = "price_1UNkSRPWcFq3JIhnDC2ZhLZJ"
+STRIPE_PRICE_ID_USD = ""
+
+[[env.pruebas.kv_namespaces]]
+binding = "PASES"
+# El botón de publicar crea este KV (se llama "audioguias-pases-pruebas") y pone aquí su id al publicar.
+id = "PENDIENTE_KV_PRUEBAS"
+
+# Solo lee los MP3 ya existentes; no escribe nada nuevo
+[[env.pruebas.r2_buckets]]
+binding = "AUDIO"
+bucket_name = "audioguias-audio"
+
+[[env.pruebas.send_email]]
+name = "CONTACTO_MAIL"

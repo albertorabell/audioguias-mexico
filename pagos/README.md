@@ -25,6 +25,10 @@ Este archivo es la referencia técnica.
 - CORS: solo `ALLOWED_ORIGINS`. La dirección de regreso (`returnUrl`) debe pertenecer a un origen permitido.
 - Sin `STRIPE_SECRET_KEY` o `TOKEN_SECRET`, todo responde 503 (no rompe nada).
 
+## Entorno de pruebas
+
+Existe un segundo servidor, `audioguias-pagos-pruebas` (sección `[env.pruebas]` de `wrangler.toml`), que sí pide pase y usa Stripe en modo de prueba. Ver `docs/PRUEBAS_DE_COBRO.md`.
+
 ## Configuración (`wrangler.toml`)
 
 Variables: `ALLOWED_ORIGINS`, `SITE_IDS`, `PASS_HOURS`, `MAX_DEVICES`, `SESSION_MAX_DAYS` (opcional, 30), `STRIPE_PRICE_ID_MXN`, `STRIPE_PRICE_ID_USD` (opcional).
@@ -41,9 +45,9 @@ Prueban con Stripe, KV y R2 simulados: checkout, canje, límite de dispositivos,
 
 ## Limitaciones conocidas
 
-- Los reembolsos en Stripe **no** revocan el pase (se puede agregar con un webhook de `charge.refunded`).
+- Los reembolsos totales y las disputas **sí** cancelan el pase, pero solo si existe el webhook `POST /stripe-webhook` configurado en Stripe y el secreto `STRIPE_WEBHOOK_SECRET`. Un reembolso parcial no lo cancela.
 - KV es eventualmente consistente (un código nuevo puede tardar hasta ~1 min en verse en otra región).
 - El límite de 2 dispositivos es de cortesía: KV no es atómico, así que quien lance muchas solicitudes **al mismo tiempo** con identificadores distintos podría activar más. Para blindarlo haría falta un Durable Object por pase.
 - No hay límite de solicitudes por IP. Si algún día hay abuso, se agrega una regla de *Rate limiting* en Cloudflare para `POST /redeem`, `/code` y `/checkout`.
 - Los MP3 se guardan en R2 como `libre/<idioma>/<pieza>_<modo>.mp3` o `pago/<idioma>/<pieza>_<modo>.mp3` (sin el sitio). Antes de agregar un **segundo museo** con audios de pago hay que incluir el sitio en la ruta y comprobar que el `site` del token coincida.
-- El candado protege los **MP3** de pago. Los **textos** de las piezas de pago siguen en el JSON público del sitio.
+- El candado protege los **MP3** y los **textos** de pago (`GET /texto/<idioma>.json`, guardados en R2 y entregados solo con pase). El JSON público trae solo el adelanto.

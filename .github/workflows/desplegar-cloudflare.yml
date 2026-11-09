@@ -4,6 +4,8 @@ name: Publicar la app en Cloudflare Pages
 #  - Cambios en main, o el botón «Run workflow» sobre main  →  se publica xolotli.com.
 #  - Cambios en una rama feature/**, o el botón sobre esa rama  →  una dirección de PRUEBA (https://<rama>.audioguias.pages.dev) que no toca xolotli.com
 #    y lleva la marca «noindex» para que Google no la guarde.
+#  - La rama feature/pagos-prueba usa el servidor de cobro de PRUEBAS (variable PAGOS_API_URL_PRUEBAS), que sí pide pase.
+#    Si esa variable no existe, usa el servidor normal. Ver docs/PRUEBAS_DE_COBRO.md.
 # Ya no se reconstruye solo cada 6 horas: cuando cambies un Sheet (textos, precios, códigos), aprieta el botón sobre main.
 # Con "conectar_dominio" = si, también conecta xolotli.com.
 on:
@@ -38,7 +40,7 @@ jobs:
       - name: Compilar proyecto con Vite
         run: npm run build
         env:
-          VITE_PAYMENTS_API_URL: ${{ vars.PAGOS_API_URL }}
+          VITE_PAYMENTS_API_URL: ${{ (github.ref_name == 'feature/pagos-prueba' && vars.PAGOS_API_URL_PRUEBAS) || vars.PAGOS_API_URL }}
           SYNC_PREVIEW: '1'
       - name: Crear el proyecto en Cloudflare Pages (si no existe)
         continue-on-error: true
