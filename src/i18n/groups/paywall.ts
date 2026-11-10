@@ -14,6 +14,8 @@ export const paywall = defineGroup(
     codeHint: (max: number) => `Escríbelo en el otro dispositivo. El pase funciona hasta en ${max} dispositivos.`,
     copy: 'Copiar',
     copied: '¡Copiado!',
+    share: 'Compartir',
+    shareText: (site: string, code: string) => `Mi código de Audioguía Xolo para ${site}: ${code}. Escríbelo en xolotli.com para entrar.`,
     offerTitle: (hours: number) => `Acceso total ${hours} horas`,
     priceNote: 'Pago único • Sin suscripción',
     combo: {
@@ -93,6 +95,8 @@ export const paywall = defineGroup(
     codeHint: (max: number) => `Type it on the other device. The pass works on up to ${max} devices.`,
     copy: 'Copy',
     copied: 'Copied!',
+    share: 'Share',
+    shareText: (site: string, code: string) => `My Audioguía Xolo code for ${site}: ${code}. Enter it at xolotli.com to get in.`,
     offerTitle: (hours: number) => `Full access for ${hours} hours`,
     priceNote: 'One-time payment • No subscription',
     combo: {
@@ -172,6 +176,8 @@ export const paywall = defineGroup(
     codeHint: (max: number) => `Saisissez-le sur l’autre appareil. Le pass fonctionne sur ${max} appareils au maximum.`,
     copy: 'Copier',
     copied: 'Copié !',
+    share: 'Partager',
+    shareText: (site: string, code: string) => `Mon code Audioguía Xolo pour ${site} : ${code}. Saisis-le sur xolotli.com pour entrer.`,
     offerTitle: (hours: number) => `Accès total ${hours} heures`,
     priceNote: 'Paiement unique • Sans abonnement',
     combo: {

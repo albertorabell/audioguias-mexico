@@ -233,6 +233,8 @@ export const IT_GROUPS: Record<string, any> = {
     codeHint: (max: number) => `Inseriscilo sull’altro dispositivo. Il pass funziona su un massimo di ${max} dispositivi.`,
     copy: 'Copia',
     copied: 'Copiato!',
+    share: 'Condividi',
+    shareText: (site: string, code: string) => `Il mio codice Audioguía Xolo per ${site}: ${code}. Inseriscilo su xolotli.com per entrare.`,
     offerTitle: (h: number) => `Accesso completo per ${h} ore`,
     priceNote: 'Pagamento unico • Nessun abbonamento',
     combo: {

@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { X, Sparkles, CheckCircle, Shield, WifiOff, Clock, ExternalLink, RefreshCw, LogOut, KeyRound, Copy, Lock, Tag } from 'lucide-react';
+import { X, Sparkles, CheckCircle, Shield, WifiOff, Clock, ExternalLink, RefreshCw, LogOut, KeyRound, Copy, Lock, Tag, Share2 } from 'lucide-react';
 import { formatRemainingHours } from '../utils/license';
 import { useLanguage } from '../utils/LanguageContext';
 import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
@@ -240,6 +240,18 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     }
   };
 
+  // El botón nativo de compartir existe en celulares y algunos navegadores de escritorio; si no, solo se ofrece copiar
+  const canShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
+  const handleShare = async () => {
+    if (!passCode) return;
+    try {
+      await navigator.share({ title: siteName, text: t.shareText(siteName, passCode) });
+      track('pass_code_shared');
+    } catch {
+      /* la persona cerró el menú de compartir: no pasa nada */
+    }
+  };
+
   const remaining = passExpiresAt ? formatRemainingHours(passExpiresAt) : '';
 
   return (
@@ -305,6 +317,12 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                     <Copy className="w-3.5 h-3.5" />
                     <span>{copied ? t.copied : t.copy}</span>
                   </button>
+                  {canShare && (
+                    <button id="btn-share-code" type="button" onClick={handleShare} className="min-h-10 inline-flex items-center gap-1.5 px-3 rounded-full text-cap font-semibold border border-line-strong cursor-pointer">
+                      <Share2 className="w-3.5 h-3.5" />
+                      <span>{t.share}</span>
+                    </button>
+                  )}
                 </div>
                 <p className="text-cap mt-2 text-ink-3">{t.codeHint(maxDevices)}</p>
               </div>
