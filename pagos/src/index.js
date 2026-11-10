@@ -264,6 +264,7 @@ const EVENTS = new Set([
   'app_open', 'piece_view', 'audio_play', 'audio_end', 'paywall_open', 'checkout_start', 'lang_change',
   'route_start', 'tour_done', 'install', 'offline_download', 'search', 'purchase', 'refund', 'code_redeem',
   'screen_view', 'visit_country', 'audio_stop', 'util_si', 'util_no',
+  'pass_code_shared', 'sample_play',
 ]);
 const PIECE_RE = /^[a-z0-9_]{3,60}$/;
 const DAILY_KEY_LIMIT = 3000;

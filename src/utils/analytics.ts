@@ -22,7 +22,9 @@ export type AnalyticsEvent =
   | 'screen_view'
   | 'audio_stop'
   | 'util_si'
-  | 'util_no';
+  | 'util_no'
+  | 'pass_code_shared'
+  | 'sample_play';
 
 /**
  * De dónde llegó la persona, en una categoría muy general (nunca la dirección completa ni ningún código).

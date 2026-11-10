@@ -207,6 +207,8 @@ export const PL_GROUPS: Record<string, any> = {
     codeHint: (m: number) => `Wpisz go na drugim urządzeniu. Karnet działa na maksymalnie ${m} urządzeniach.`,
     copy: 'Kopiuj',
     copied: 'Skopiowano!',
+    share: 'Udostępnij',
+    shareText: (site: string, code: string) => `Mój kod Audioguía Xolo dla ${site}: ${code}. Wpisz go na xolotli.com, aby wejść.`,
     offerTitle: (h: number) => `Pełny dostęp na ${h} godz.`,
     priceNote: 'Jednorazowa płatność • bez subskrypcji',
     combo: {
