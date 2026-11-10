@@ -122,7 +122,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   next,
   arrival,
   renderGuide,
-  siblings = [],
+  siblings = [] as PieceData[],
   onSelectSibling,
   resolvePiece,
   onOpenLinkedPiece,

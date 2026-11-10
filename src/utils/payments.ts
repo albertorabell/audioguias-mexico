@@ -27,7 +27,7 @@ export type PaymentErrorCode =
   | 'unknown';
 
 // Sin "strict" en tsconfig, TypeScript no distingue uniones por `ok`; por eso es un solo tipo con campos opcionales.
-export type PaymentResult<T> = { ok: boolean; data?: T; error?: PaymentErrorCode };
+export type PaymentResult<T> = { ok: true; data: T; error?: undefined } | { ok: false; data?: undefined; error: PaymentErrorCode };
 
 const KNOWN: PaymentErrorCode[] = [
   'not_paid', 'session_not_found', 'device_limit', 'expired', 'code_not_found', 'promo_invalid', 'promo_not_for_site', 'not_for_sale', 'code_expired', 'code_exhausted', 'bad_request', 'bad_session',
