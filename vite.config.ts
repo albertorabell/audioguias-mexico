@@ -52,8 +52,9 @@ export default defineConfig(() => {
         },
         workbox: {
           globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff,woff2,pmtiles,pbf}'],
-          // El tablero de uso (panel.html) es solo para el dueño: no se guarda en el teléfono de los visitantes
-          globIgnores: ['panel.html'],
+          // El tablero de uso (panel.html) es solo para el dueño: no se guarda en el teléfono de los visitantes.
+          // data/pieces.json y data/rooms.json son copias de data/mna/ que usan los scripts, no la app: no se guardan dos veces.
+          globIgnores: ['panel.html', 'data/pieces.json', 'data/rooms.json'],
           // Las páginas de guía (/guias/...) son páginas completas para Google: la app no debe reemplazarlas por su pantalla de inicio
           navigateFallbackDenylist: [/^\/panel\.html/, /^\/sitemap\.xml/, /^\/robots\.txt/, /^\/guias\//, /^\/en\/guides\//, /^\/fr\/guides\//, /^\/pl\/przewodniki\//, /^\/de\/fuehrer\//, /^\/pt\/guias\//, /^\/it\/guide\//],
           // pieces.json crece con cada idioma traducido (más de 2 MB con inglés, francés y polaco).

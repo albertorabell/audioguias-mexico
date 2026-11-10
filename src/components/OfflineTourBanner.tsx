@@ -55,8 +55,6 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
   const urls = useMemo(() => {
     const list: string[] = [
       getAssetUrl('data/sites.json'),
-      getAssetUrl('data/pieces.json'),
-      getAssetUrl('data/rooms.json'),
       getAssetUrl('data/mna/site.json'),
       getAssetUrl('data/mna/pieces.json'),
       getAssetUrl('data/mna/rooms.json'),
