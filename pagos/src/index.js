@@ -683,9 +683,24 @@ async function redeemAccessCode(env, cfg, book, rawCode, siteId, deviceId) {
   return { pass, sessionId };
 }
 
+// Freno a quien prueba códigos al azar: máximo 15 intentos fallidos por hora desde la misma conexión
+const CODE_FAIL_LIMIT = 15;
+const failKey = (request) => `rl:${request.headers.get('CF-Connecting-IP') || 'x'}:${Math.floor(Date.now() / 3600000)}`;
+async function codeFails(env, request) {
+  return Number((await env.PASES.get(failKey(request))) || 0);
+}
+async function noteCodeFail(env, request) {
+  try {
+    await env.PASES.put(failKey(request), String((await codeFails(env, request)) + 1), { expirationTtl: 3700 });
+  } catch {
+    /* sin contador: no se bloquea a nadie por un fallo del almacén */
+  }
+}
+
 async function handleCode(request, env, cfg, cors) {
   const body = await readJson(request);
   if (!body) return json({ error: 'bad_request' }, 400, cors);
+  if ((await codeFails(env, request)) >= CODE_FAIL_LIMIT) return json({ error: 'too_many_attempts' }, 429, cors);
   const { code, deviceId } = body;
   const siteId = siteKey(body.siteId);
   if (!DEVICE_RE.test(String(deviceId || ''))) return json({ error: 'bad_request' }, 400, cors);
@@ -695,12 +710,21 @@ async function handleCode(request, env, cfg, cors) {
   const book = await loadBook(env, cfg);
   let sessionId = norm.length === 8 ? await env.PASES.get(codeKey(code)) : null;
   let pass = sessionId ? await loadPass(env, sessionId) : null;
-  if (pass && siteId && !covers(book, pass.site, siteId)) return json({ error: 'code_not_found' }, 404, cors);
+  if (pass && siteId && !covers(book, pass.site, siteId)) {
+    await noteCodeFail(env, request);
+    return json({ error: 'code_not_found' }, 404, cors);
+  }
   if (!pass) {
     // No es el código de un pase comprado: puede ser un código de acceso
     const r = await redeemAccessCode(env, cfg, book, code, siteId, deviceId);
-    if (!r) return json({ error: 'code_not_found' }, 404, cors);
-    if (r.error) return json({ error: r.error }, r.status, cors);
+    if (!r) {
+      await noteCodeFail(env, request);
+      return json({ error: 'code_not_found' }, 404, cors);
+    }
+    if (r.error) {
+      if (r.status === 404) await noteCodeFail(env, request);
+      return json({ error: r.error }, r.status, cors);
+    }
     ({ pass, sessionId } = r);
   }
   const r = await grantAccess(env, cfg, book, sessionId, pass, deviceId);
