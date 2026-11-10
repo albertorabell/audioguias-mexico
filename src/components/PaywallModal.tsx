@@ -1,5 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { X, Sparkles, CheckCircle, Shield, WifiOff, Clock, ExternalLink, RefreshCw, LogOut, KeyRound, Copy, Lock, Tag, Share2 } from 'lucide-react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { X, Sparkles, CheckCircle, Shield, WifiOff, Clock, ExternalLink, RefreshCw, LogOut, KeyRound, Copy, Lock, Tag, Share2, Play, Square } from 'lucide-react';
 import { formatRemainingHours } from '../utils/license';
 import { useLanguage } from '../utils/LanguageContext';
 import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
@@ -7,6 +7,7 @@ import { PAYMENTS_ENABLED } from '../config/payments';
 import { fetchPricing, PricingInfo, redeemCode, startCheckout, PaymentErrorCode, previewPromo, getSavedPromo, savePromo, clearSavedPromo } from '../utils/payments';
 import { SPEECH_LOCALE } from '../i18n/languages';
 import { track } from '../utils/analytics';
+import { ttsPlayer } from '../utils/ttsPlayer';
 
 interface PaywallModalProps {
   isOpen: boolean;
@@ -31,6 +32,8 @@ interface PaywallModalProps {
   /** Pase de prueba (solo con ?debug=1 y sin pagos reales, o en desarrollo). */
   onSimulatePurchase: () => void;
   onRevokePass: () => void;
+  /** Un audio gratis del sitio para escuchar antes de comprar (si el sitio tiene alguno). */
+  sample?: { url: string; title: string } | null;
 }
 
 const money = (amount: number, currency: string, locale: string) => {
@@ -57,6 +60,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   onPassChanged,
   onSimulatePurchase,
   onRevokePass,
+  sample,
 }) => {
   const { strings, currentLanguage } = useLanguage();
   const t = strings.paywall;
@@ -67,6 +71,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const [showCode, setShowCode] = useState(false);
   const [codeInput, setCodeInput] = useState('');
   const [copied, setCopied] = useState(false);
+  const [samplePlaying, setSamplePlaying] = useState(false);
+  const sampleRef = useRef<HTMLAudioElement | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
   // Código de descuento: lo que se escribe, el que ya se revisó y se aplicó, y si se está revisando
   const [showPromo, setShowPromo] = useState(false);
@@ -136,6 +142,37 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
       setPromoInput(saved);
       void applyPromo(saved);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isOpen]);
+
+  const stopSample = () => {
+    try {
+      sampleRef.current?.pause();
+    } catch {
+      /* nada que detener */
+    }
+    sampleRef.current = null;
+    setSamplePlaying(false);
+  };
+  const toggleSample = () => {
+    if (samplePlaying || !sample) return stopSample();
+    try {
+      ttsPlayer.stop(); // si la guía estaba sonando, se calla para no encimar las voces
+      const a = new Audio(sample.url);
+      a.onended = () => stopSample();
+      a.onerror = () => stopSample();
+      sampleRef.current = a;
+      setSamplePlaying(true);
+      track('sample_play');
+      void a.play().catch(() => stopSample());
+    } catch {
+      stopSample();
+    }
+  };
+  // La muestra se corta al cerrar la ventana o al irse de la pantalla
+  useEffect(() => {
+    if (!isOpen) stopSample();
+    return () => stopSample();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isOpen]);
 
@@ -355,6 +392,19 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             )}
             <p className="text-cap text-ink-3 mt-1">{t.priceNote}</p>
           </div>
+        )}
+
+        {!hasPass && !codeOnly && sample && (
+          <button
+            id="btn-sample-audio"
+            type="button"
+            onClick={toggleSample}
+            aria-pressed={samplePlaying}
+            className="mt-3 w-full min-h-12 px-4 rounded-full border border-line-strong text-ui font-semibold inline-flex items-center justify-center gap-2 cursor-pointer"
+          >
+            {samplePlaying ? <Square className="w-4 h-4" /> : <Play className="w-4 h-4" />}
+            <span className="truncate">{samplePlaying ? t.sampleStop : t.sampleListen}</span>
+          </button>
         )}
 
         <ul className="mt-4 space-y-3">
