@@ -24,7 +24,8 @@ export type AnalyticsEvent =
   | 'util_si'
   | 'util_no'
   | 'pass_code_shared'
-  | 'sample_play';
+  | 'sample_play'
+  | 'app_error';
 
 /**
  * De dónde llegó la persona, en una categoría muy general (nunca la dirección completa ni ningún código).

@@ -2,6 +2,7 @@ import React, { ReactNode } from 'react';
 import { AlertTriangle, Home } from 'lucide-react';
 import { getStrings } from '../i18n';
 import { getCurrentLanguage } from '../i18n/runtime';
+import { track } from '../utils/analytics';
 
 interface ErrorBoundaryProps {
   children: ReactNode;
@@ -26,6 +27,7 @@ export class ErrorBoundary extends (React.Component as any) {
 
   public componentDidCatch(error: Error, errorInfo: any) {
     console.error('ErrorBoundary caught an error:', error, errorInfo);
+    track('app_error'); // solo un conteo anónimo: sin mensaje, sin pila, sin datos de la persona
   }
 
   public handleGoHome = () => {

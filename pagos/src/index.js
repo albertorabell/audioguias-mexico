@@ -264,7 +264,7 @@ const EVENTS = new Set([
   'app_open', 'piece_view', 'audio_play', 'audio_end', 'paywall_open', 'checkout_start', 'lang_change',
   'route_start', 'tour_done', 'install', 'offline_download', 'search', 'purchase', 'refund', 'code_redeem',
   'screen_view', 'visit_country', 'audio_stop', 'util_si', 'util_no',
-  'pass_code_shared', 'sample_play',
+  'pass_code_shared', 'sample_play', 'app_error',
 ]);
 const PIECE_RE = /^[a-z0-9_]{3,60}$/;
 const DAILY_KEY_LIMIT = 3000;
@@ -763,7 +763,10 @@ async function handleAdminCodes(request, env, cors) {
     const prev = JSON.parse((await env.PASES.get(key)) || 'null');
     const num = (v) => (Number.isFinite(Number(v)) && Number(v) > 0 ? Math.floor(Number(v)) : 0);
     const expiresAt = c.expires ? Date.parse(`${String(c.expires).slice(0, 10)}T23:59:59-06:00`) : 0;
-    await env.PASES.put(key, JSON.stringify({ site, hours: Math.min(num(c.hours), 24 * 30) || 0, maxUses: num(c.uses), expiresAt: Number.isFinite(expiresAt) ? expiresAt : 0, uses: prev?.uses || 0 }));
+    const vence = Number.isFinite(expiresAt) ? expiresAt : 0;
+    // Un código con fecha de vencimiento se borra solo del almacén una semana después de vencer (KV pide al menos 60 s)
+    const ttl = vence ? Math.max(60, Math.ceil((vence - Date.now()) / 1000) + 7 * 86400) : 0;
+    await env.PASES.put(key, JSON.stringify({ site, hours: Math.min(num(c.hours), 24 * 30) || 0, maxUses: num(c.uses), expiresAt: vence, uses: prev?.uses || 0 }), ttl ? { expirationTtl: ttl } : undefined);
     result.saved++;
   }
   return json(result, 200, cors);

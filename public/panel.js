@@ -85,7 +85,10 @@
       ['Entraron con código', sum(rs, 'code_redeem')],
       ['Reembolsos', sum(rs, 'refund')],
       ['Audios iniciados', sum(rs, 'audio_play')],
-      ['App instalada', sum(rs, 'install')]
+      ['App instalada', sum(rs, 'install')],
+      ['Escucharon la muestra', sum(rs, 'sample_play')],
+      ['Compartieron su código', sum(rs, 'pass_code_shared')],
+      ['Errores de la app', sum(rs, 'app_error')]
     ];
     $('tiles').innerHTML = '';
     tiles.forEach(function (t) { var d = el('div', undefined, 'card tile'); d.appendChild(el('b', fmt(t[1]))); d.appendChild(el('span', t[0])); $('tiles').appendChild(d); });

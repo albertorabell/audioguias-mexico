@@ -234,6 +234,19 @@ test('/code: tras 15 intentos fallidos desde la misma conexión responde 429', a
   assert.equal((await call('/code', { body: { code: 'ZZZZ9999', deviceId: DEV1 } })).status, 429);
 });
 
+test('/admin/codigos: un código con vencimiento se guarda con TTL y uno sin fecha no lo lleva', async () => {
+  env.CODES_KEY = 'clave-admin-de-prueba';
+  const auth = { Authorization: 'Bearer clave-admin-de-prueba' };
+  const futuro = new Date(Date.now() + 10 * 86400000).toISOString().slice(0, 10);
+  let r = await call('/admin/codigos', { headers: auth, body: { codes: [{ code: 'HOTEL1234', site: 'mna', expires: futuro }] } });
+  assert.equal((await r.json()).saved, 1);
+  assert.ok(env.PASES.lastTtl > 7 * 86400, 'lleva TTL de al menos una semana');
+  env.PASES.lastTtl = undefined;
+  r = await call('/admin/codigos', { headers: auth, body: { codes: [{ code: 'SINFECHA99', site: 'mna' }] } });
+  assert.equal((await r.json()).saved, 1);
+  assert.equal(env.PASES.lastTtl, undefined);
+});
+
 test('/code: código inexistente o mal formado', async () => {
   assert.equal((await call('/code', { body: { code: 'AAAA-BBBB', deviceId: DEV1 } })).status, 404);
   assert.equal((await call('/code', { body: { code: '123', deviceId: DEV1 } })).status, 400);
