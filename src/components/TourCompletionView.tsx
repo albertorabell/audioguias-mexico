@@ -20,7 +20,7 @@ export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
   routeName,
   totalStops,
   estimatedMinutes,
-  stops = [],
+  stops = [] as RouteStop[],
   onExploreRooms,
   onChooseRoute,
   onGoHome,
