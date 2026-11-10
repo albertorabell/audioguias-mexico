@@ -57,6 +57,9 @@ type Screen =
 const stopId = (s: { piece_id?: string; id?: string; poi_id?: string; file?: string }) => s.piece_id || s.id || s.poi_id || s.file || '';
 const roomNumber = (r: Room) => parseInt(String(r.numero_oficial ?? r.room_id.match(/\d+/)?.[0] ?? '0'), 10) || 0;
 
+const EMPTY_ROOMS: Room[] = [];
+const EMPTY_PIECES: PieceData[] = [];
+
 export default function App() {
   const { strings: t, currentLanguage, localizePiece, localizeRoom, setSiteKind, setSiteName, setLanguage } = useLanguage();
   const u = t.ui;
@@ -212,8 +215,6 @@ export default function App() {
   const [rawSites, setSites] = useState<SiteSummary[]>([]);
   const [selectedSite, setSelectedSite] = useState<SiteSummary | null>(null);
   const [rawManifest, setManifest] = useState<SiteManifest | null>(null);
-  const [rawRooms, setRooms] = useState<Room[]>([]);
-  const [rawPieces, setPieces] = useState<PieceData[]>([]);
   /** Salas y piezas del sitio abierto cuando no es el MNA (Teotihuacán las carga al entrar). Con el MNA queda en null. */
   const [siteData, setSiteData] = useState<{ siteId: string; rooms: Room[]; pieces: PieceData[] } | null>(null);
   const [isLoadingSites, setIsLoadingSites] = useState(true);
@@ -231,8 +232,8 @@ export default function App() {
   const selectingRef = useRef(false);
 
   const sites = useMemo(() => rawSites.map((s) => localizeSite(s, currentLanguage)), [rawSites, currentLanguage]);
-  const activeRawRooms = siteData && siteData.siteId === selectedSite?.id ? siteData.rooms : rawRooms;
-  const activeRawPieces = siteData && siteData.siteId === selectedSite?.id ? siteData.pieces : rawPieces;
+  const activeRawRooms = siteData && siteData.siteId === selectedSite?.id ? siteData.rooms : EMPTY_ROOMS;
+  const activeRawPieces = siteData && siteData.siteId === selectedSite?.id ? siteData.pieces : EMPTY_PIECES;
   const rooms = useMemo(() => activeRawRooms.map((r) => localizeRoom(r)), [activeRawRooms, localizeRoom]);
   // Los textos de pago llegan aparte, solo con pase (ver utils/premiumText.ts)
   const [privateText, setPrivateText] = useState<PremiumTextMap | null>(null);
@@ -269,24 +270,6 @@ export default function App() {
         setErrorMessage(t.app.sitesLoadError);
       } finally {
         setIsLoadingSites(false);
-      }
-    })();
-  }, []);
-
-  useEffect(() => {
-    (async () => {
-      try {
-        const [roomsRes, piecesRes] = await Promise.all([fetch(getAssetUrl('data/rooms.json')), fetch(getAssetUrl('data/pieces.json'))]);
-        if (roomsRes.ok) {
-          const list: Room[] = await roomsRes.json();
-          setRooms([...list].sort((a, b) => roomNumber(a) - roomNumber(b)));
-        }
-        if (piecesRes.ok) {
-          const list: PieceData[] = await piecesRes.json();
-          setPieces(list.map((p) => normalizePiece(p)));
-        }
-      } catch (err) {
-        console.warn('Could not load rooms.json or pieces.json:', err);
       }
     })();
   }, []);
@@ -714,10 +697,12 @@ export default function App() {
 
   // ---------- Pantallas ----------
   /** Foto de la tarjeta del museo en el inicio (siempre del MNA, aunque se haya abierto otro sitio). */
+  // La portada sale de sites.json (cover_piece_id): el inicio ya no descarga las piezas del museo, se cargan al entrar.
   const homeCover = useMemo(() => {
-    const p = rawPieces.find((x) => x.piece_id === 'mna_s06_piedra_sol') || rawPieces[0];
-    return p ? localizePiece(p) : null;
-  }, [rawPieces, localizePiece]);
+    const main = rawSites.find((s) => s.status !== 'coming_soon');
+    const id = main?.cover_piece_id;
+    return id ? ({ piece_id: id, image_filename: main?.cover_image || `${id}.webp` } as PieceData) : null;
+  }, [rawSites]);
   const isZones = manifest?.layout === 'zones';
   // En Teotihuacán la interfaz habla de zonas y paradas; en el inicio y en el museo, de salas y obras
   const siteWords = isZones && screen.kind !== 'home';
@@ -742,7 +727,7 @@ export default function App() {
         sites={sites}
         onSelectSite={handleSelectSite}
         isLoading={isLoadingSites}
-        stats={{ rooms: rawRooms.length || mna?.total_stops || 0, works: rawPieces.length || mna?.highlights_count || 0, free: rawPieces.filter((p) => p.is_free).length }}
+        stats={{ rooms: mna?.total_stops || 0, works: mna?.highlights_count || 0, free: 0 }}
         coverPiece={homeCover}
       />
     );

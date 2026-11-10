@@ -4,6 +4,8 @@
   "pass_price_mxn": 99,
   "pass_price_usd": 5.99,
   "floorplan_url": "data/mna/mna-map.svg",
+  "rooms_path": "data/mna/rooms.json",
+  "pieces_path": "data/mna/pieces.json",
   "rooms": [
     {
       "room_id": "sala-mexica",
