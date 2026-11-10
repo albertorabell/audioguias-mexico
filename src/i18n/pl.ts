@@ -209,6 +209,8 @@ export const PL_GROUPS: Record<string, any> = {
     copied: 'Skopiowano!',
     share: 'Udostępnij',
     shareText: (site: string, code: string) => `Mój kod Audioguía Xolo dla ${site}: ${code}. Wpisz go na xolotli.com, aby wejść.`,
+    sampleListen: "Posłuchaj darmowej próbki",
+    sampleStop: "Zatrzymaj próbkę",
     offerTitle: (h: number) => `Pełny dostęp na ${h} godz.`,
     priceNote: 'Jednorazowa płatność • bez subskrypcji',
     combo: {

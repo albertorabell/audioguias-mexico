@@ -16,6 +16,8 @@ export const paywall = defineGroup(
     copied: '¡Copiado!',
     share: 'Compartir',
     shareText: (site: string, code: string) => `Mi código de Audioguía Xolo para ${site}: ${code}. Escríbelo en xolotli.com para entrar.`,
+    sampleListen: "Escuchar una muestra gratis",
+    sampleStop: "Detener la muestra",
     offerTitle: (hours: number) => `Acceso total ${hours} horas`,
     priceNote: 'Pago único • Sin suscripción',
     combo: {
@@ -97,6 +99,8 @@ export const paywall = defineGroup(
     copied: 'Copied!',
     share: 'Share',
     shareText: (site: string, code: string) => `My Audioguía Xolo code for ${site}: ${code}. Enter it at xolotli.com to get in.`,
+    sampleListen: "Listen to a free sample",
+    sampleStop: "Stop the sample",
     offerTitle: (hours: number) => `Full access for ${hours} hours`,
     priceNote: 'One-time payment • No subscription',
     combo: {
@@ -178,6 +182,8 @@ export const paywall = defineGroup(
     copied: 'Copié !',
     share: 'Partager',
     shareText: (site: string, code: string) => `Mon code Audioguía Xolo pour ${site} : ${code}. Saisis-le sur xolotli.com pour entrer.`,
+    sampleListen: "Écouter un extrait gratuit",
+    sampleStop: "Arrêter l'extrait",
     offerTitle: (hours: number) => `Accès total ${hours} heures`,
     priceNote: 'Paiement unique • Sans abonnement',
     combo: {

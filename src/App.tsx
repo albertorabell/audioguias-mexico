@@ -32,6 +32,7 @@ import { localizeSite, localizeRoute } from './i18n/content';
 import { getRoomLabel } from './utils/roomLabel';
 import { track, setAnalyticsSite, trafficSource, noteScreen, notePaywall } from './utils/analytics';
 import { cachedPremiumText, clearPremiumText, loadPremiumText, mergePremiumText, PremiumTextMap } from './utils/premiumText';
+import { resolvePieceAudio } from './utils/audioSource';
 
 /** Con qué se navega dentro de la ficha de una pieza (anterior / siguiente): una sala o un recorrido. */
 interface PieceNav {
@@ -680,6 +681,16 @@ export default function App() {
     return null;
   }, [activeTour, lastNav, currentPiece, currentRoom, pieceById, openTourStop, showPiece, u]);
 
+  // Muestra gratis para la ventana de pago: el guion corto de la primera parada gratis que tenga MP3 en este idioma
+  const paywallSample = useMemo(() => {
+    if (!selectedSite) return null;
+    for (const p of pieces) {
+      if (!p.is_free) continue;
+      const a = resolvePieceAudio(p, currentLanguage, 'expres', selectedSite.id);
+      if (a && !a.premium) return { url: a.url, title: p.title || p.piece_id || '' };
+    }
+    return null;
+  }, [pieces, currentLanguage, selectedSite]);
   const offlineAudioPieces = useMemo(() => (hasPass ? pieces : pieces.filter((p) => p.is_free)), [pieces, hasPass]);
 
   const activeTab: DockTab | null = useMemo(() => {
@@ -955,6 +966,7 @@ export default function App() {
               onPassChanged={() => setCurrentLicense(getSiteLicense(selectedSite.id))}
               onSimulatePurchase={handleSimulatePurchase}
               onRevokePass={handleRevokePass}
+              sample={paywallSample}
             />
           )}
         </div>
