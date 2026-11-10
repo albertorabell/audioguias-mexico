@@ -223,6 +223,17 @@ test('si el cliente pide un sitio distinto al del pago, se rechaza', async () =>
   assert.equal((await call('/code', { body: { code: a.code, deviceId: DEV2, siteId: 'mna' } })).status, 200);
 });
 
+test('token: sin clave secreta configurada nada es válido (ni siquiera uno firmado con "undefined")', async () => {
+  const t = await signToken({ site: 'mna', dev: 'x', exp: Date.now() + 1000 }, 'undefined');
+  assert.equal(await verifyToken(t, undefined), null);
+  assert.equal(await verifyToken(t, ''), null);
+});
+
+test('/code: tras 15 intentos fallidos desde la misma conexión responde 429', async () => {
+  for (let i = 0; i < 15; i++) assert.equal((await call('/code', { body: { code: 'ZZZZ' + (1000 + i), deviceId: DEV1 } })).status, 404);
+  assert.equal((await call('/code', { body: { code: 'ZZZZ9999', deviceId: DEV1 } })).status, 429);
+});
+
 test('/code: código inexistente o mal formado', async () => {
   assert.equal((await call('/code', { body: { code: 'AAAA-BBBB', deviceId: DEV1 } })).status, 404);
   assert.equal((await call('/code', { body: { code: '123', deviceId: DEV1 } })).status, 400);

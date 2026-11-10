@@ -24,6 +24,7 @@ export async function signToken(payload, secret) {
 
 /** Devuelve el contenido si la firma es válida y no ha vencido; si no, null. */
 export async function verifyToken(token, secret, now = Date.now()) {
+  if (!secret || typeof secret !== 'string') return null; // sin clave configurada, nada se da por válido
   if (typeof token !== 'string' || token.length > 2000) return null;
   const parts = token.split('.');
   if (parts.length !== 2) return null;
