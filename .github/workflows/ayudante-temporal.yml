@@ -20,5 +20,7 @@ jobs:
       - name: Devolver resultados a la rama
         run: |
           git config user.name "ayudante-ci"; git config user.email "ayudante-ci@users.noreply.github.com"
-          git add -A -f .ci-salida package-lock.json 2>/dev/null || true
+          git add -f .ci-salida
+          [ -f package-lock.json ] && git add -f package-lock.json || true
+          [ -f bun.lock ] || git add -u || true
           git diff --cached --quiet || (git commit -qm "ci: salida del ayudante [skip ci]" && git push)

@@ -1,1 +1,1 @@
-echo hola desde CI; node -v
+echo hola desde CI; node -v; npm -v
