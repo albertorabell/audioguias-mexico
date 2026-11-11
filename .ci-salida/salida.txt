@@ -1,0 +1,59 @@
+[36mvite v6.4.6 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 1771 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mregisterSW.js                [39m[1m[2m  0.14 kB[22m[1m[22m
+[2mdist/[22m[32mmanifest.webmanifest         [39m[1m[2m  0.56 kB[22m[1m[22m
+[2mdist/[22m[32mindex.html                   [39m[1m[2m  3.00 kB[22m[1m[22m[2m │ gzip:   1.10 kB[22m
+[2mdist/[22m[2massets/[22m[35mindex-Bd0-9DCn.css    [39m[1m[2m 54.06 kB[22m[1m[22m[2m │ gzip:  10.67 kB[22m
+[2mdist/[22m[2massets/[22m[35mLiveMap-PhPnDjd-.css  [39m[1m[2m 65.47 kB[22m[1m[22m[2m │ gzip:   9.22 kB[22m
+[2mdist/[22m[2massets/[22m[36mindex-BKbKYIKS.js     [39m[1m[33m690.81 kB[39m[22m[2m │ gzip: 216.00 kB[22m
+[2mdist/[22m[2massets/[22m[36mLiveMap-DKdupnyx.js   [39m[1m[33m869.68 kB[39m[22m[2m │ gzip: 235.95 kB[22m
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32m✓ built in 5.91s[39m
+
+[36mPWA v1.3.0[39m
+mode      [35mgenerateSW[39m
+precache  [32m64 entries[39m [2m(12869.48 KiB)[22m
+files generated
+  [2mdist/sw.js[22m
+  [2mdist/workbox-43f5d7fa.js[22m
+---
+JS/CSS (bytes, gzip):
+869675 234778 assets/LiveMap-DKdupnyx.js
+690812 215096 assets/index-BKbKYIKS.js
+65465 9307 assets/LiveMap-PhPnDjd-.css
+54056 10647 assets/index-Bd0-9DCn.css
+--- datos
+257591 data/pieces.json
+257591 data/mna/pieces.json
+115491 data/mna/site.json
+115491 data/mna/mna.json
+34135 data/sites.json
+23698 data/rooms.json
+23698 data/mna/rooms.json
+7294 data/chapultepec/chapultepec.json
+5257 data/chapultepec/alcazar/habitacion-carlota.json
+4811 data/chapultepec/alcazar/carruaje-juarez.json
+3697 data/chapultepec/alcazar/mural-siqueiros.json
+3096 data/chapultepec/alcazar/carruaje-maximiliano.json
+--- total dist (sin audio/imagenes):
+109732	.
+96384	images
+888	data
+1652	assets
+--- precache entries:
+0
+-rw-r--r-- 1 runner runner 7191 Nov 11 05:13 sw.js
+2532131 ./maps/chapultepec.pmtiles
+3147254 ./maps/centro_historico.pmtiles
+553718 ./maps/chichen_itza.pmtiles
+1052657 ./maps/teotihuacan.pmtiles
+1024730
+1016788
+1005292
