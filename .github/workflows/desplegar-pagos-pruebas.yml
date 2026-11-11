@@ -2,6 +2,7 @@ name: Publicar el servidor de cobro de PRUEBAS (Cloudflare)
 
 # Se corre a mano: pestaña Actions > "Publicar el servidor de cobro de PRUEBAS" > Run workflow.
 # Publica un servidor de cobro APARTE (audioguias-pagos-pruebas) que sí pide pase y cobra con Stripe en modo de PRUEBA.
+# Usa STRIPE_SECRET_KEY_PRUEBAS o, si no existe, STRIPE_SECRET_KEY (solo si es de pruebas). TOKEN_SECRET_PRUEBAS es obligatorio y distinto del real.
 # NO toca el servidor real ni su modo gratis. Se niega a trabajar si la clave de Stripe no es de pruebas (sk_test_...).
 # Guía completa: docs/PRUEBAS_DE_COBRO.md
 on:
@@ -16,7 +17,8 @@ jobs:
     env:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      STRIPE_SECRET_KEY_PRUEBAS: ${{ secrets.STRIPE_SECRET_KEY_PRUEBAS }}
+      # Si no existe STRIPE_SECRET_KEY_PRUEBAS se usa STRIPE_SECRET_KEY, pero SOLO si es de pruebas (sk_test_...): abajo se revisa.
+      STRIPE_SECRET_KEY_PRUEBAS: ${{ secrets.STRIPE_SECRET_KEY_PRUEBAS || secrets.STRIPE_SECRET_KEY }}
       TOKEN_SECRET_PRUEBAS: ${{ secrets.TOKEN_SECRET_PRUEBAS }}
       STRIPE_WEBHOOK_SECRET_PRUEBAS: ${{ secrets.STRIPE_WEBHOOK_SECRET_PRUEBAS }}
     steps:
