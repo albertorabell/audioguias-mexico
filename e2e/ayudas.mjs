@@ -35,8 +35,32 @@ const CORS = {
   'access-control-allow-methods': 'GET,POST,OPTIONS',
 };
 
+// La política de seguridad (CSP) que publica public/_headers. En las pruebas se aplica EN SERIO a cada página de la app
+// (aunque en producción esté en modo solo-reporte) y cualquier aviso de la consola la hace fallar: así se ve si algo de la app la rompería.
+const CSP = (fs.readFileSync(new URL('../public/_headers', import.meta.url), 'utf-8').match(/Content-Security-Policy(?:-Report-Only)?:\s*(.+)/) || [])[1]?.trim();
+
+/** Falla la prueba si la CSP bloqueó o habría bloqueado algo. Se llama en afterEach. */
+export async function sinAvisosCsp(page) {
+  const avisos = page.__avisosCsp || [];
+  expect(avisos, 'La política de seguridad (CSP) bloquearía esto:\n' + avisos.join('\n')).toEqual([]);
+}
+
 /** Bloquea todo internet menos la app local, el servidor de cobro simulado y la página de Stripe simulada. */
 export async function aislar(page) {
+  page.__avisosCsp = [];
+  page.on('console', (m) => {
+    if (/Content Security Policy|Refused to (load|execute|connect|apply|create)/i.test(m.text())) page.__avisosCsp.push(m.text().slice(0, 300));
+  });
+  if (CSP) {
+    await page.route(
+      (url) => url.hostname === 'localhost',
+      async (route) => {
+        if (route.request().resourceType() !== 'document') return route.fallback();
+        const response = await route.fetch();
+        await route.fulfill({ response, headers: { ...response.headers(), 'content-security-policy': CSP } });
+      }
+    );
+  }
   // Las guías de la app se abren solas la primera vez; las pruebas las dan por vistas (salvo las que la prueban a ella)
   await page.addInitScript(() => {
     try {
