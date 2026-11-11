@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 20
       - name: Instalar paquetes
-        run: npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
       - name: Pruebas de los scripts (sincronizador y MP3)
         run: node scripts/ci-run.mjs pruebas-scripts -- node --test scripts/tests/*.test.mjs
       - name: Pruebas del servidor de cobro (Worker)

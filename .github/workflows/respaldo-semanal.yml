@@ -44,7 +44,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install
+      - run: npm ci
       - name: Leer los datos actuales (Sheets de la carpeta + traducciones guardadas)
         run: node scripts/sync-sheets.js
       - name: Respaldar

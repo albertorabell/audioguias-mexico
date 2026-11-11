@@ -1,0 +1,1 @@
+npm install --package-lock-only --no-audit --no-fund 2>&1 | tail -2; npm ci --no-audit --no-fund 2>&1 | tail -1; echo "--- tsc strict"; npx tsc --noEmit --pretty false 2>&1 | head -30; echo "tsc exit done"; git diff --stat package.json | tail -1
