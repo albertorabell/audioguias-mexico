@@ -10,7 +10,7 @@ function conteos(dias) {
   const out = {};
   for (let i = 0; i < dias; i++) {
     const d = new Date(Date.now() - i * 86400_000).toISOString().slice(0, 10);
-    out[d] = { 'app_open|mna||es||directo': 30 + (dias - i), 'visitor_new|mna||||': 10 + Math.floor((dias - i) / 3), 'paywall_open|mna|||||': 5, 'purchase|mna||||mxn': i % 5 === 0 ? 1 : 0 };
+    out[d] = { 'app_open|mna||es||directo': 30 + (dias - i), 'visitor_new|mna||||': 10 + Math.floor((dias - i) / 3), 'paywall_open|mna|||||': 5, 'purchase|mna||||mxn': i % 5 === 0 ? 1 : 0, 'audio_play|mna|mna_s06|es|corto|': 12 };
   }
   return out;
 }
