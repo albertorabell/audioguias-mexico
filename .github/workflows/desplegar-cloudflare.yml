@@ -38,7 +38,10 @@ jobs:
       - name: Instalar paquetes
         run: npm ci
       - name: Compilar proyecto con Vite
-        run: npm run build
+        # ci-run deja el registro como anotaciones legibles. Si falla, se reintenta una vez tras 60 s: la causa habitual es el límite
+        # de lecturas por minuto de Google Sheets cuando otra revisión corre al mismo tiempo.
+        run: |
+          node scripts/ci-run.mjs build -- npm run build || { echo "::warning::La compilación falló; se reintenta en 60 s"; sleep 60; node scripts/ci-run.mjs build-reintento -- npm run build; }
         env:
           VITE_PAYMENTS_API_URL: ${{ (github.ref_name == 'feature/pagos-prueba' && vars.PAGOS_API_URL_PRUEBAS) || vars.PAGOS_API_URL }}
           SYNC_PREVIEW: '1'
