@@ -1,8 +1,12 @@
 // Pruebas de la app con el cobro APAGADO (no existe la dirección del servidor de cobro): nada debe romperse.
 import { test, expect } from '@playwright/test';
-import { FREE, aislar, abrirPieza } from './ayudas.mjs';
+import { FREE, aislar, sinAvisosCsp, abrirPieza } from './ayudas.mjs';
 
 test.use({ baseURL: 'http://localhost:4174' });
+
+test.afterEach(async ({ page }) => {
+  await sinAvisosCsp(page);
+});
 
 test('cobro apagado: la ventana dice que estará disponible pronto, sin botón de pagar ni llamadas', async ({ page }) => {
   const llamadas = [];

@@ -1,9 +1,13 @@
 // Pruebas de la app con el cobro ENCENDIDO (servidor de cobro simulado en https://pagos.test).
 import { test, expect } from '@playwright/test';
-import { FREE, PREMIUM, SESSION, TOKEN, FRASE_SECRETA, ENLACE_A, ENLACE_ROTO, aislar, simularCobro, simularAudio, sinVoces, conVozFalsa, conEnlaces, elegirIdioma, abrirPieza } from './ayudas.mjs';
+import { FREE, PREMIUM, SESSION, TOKEN, FRASE_SECRETA, ENLACE_A, ENLACE_ROTO, aislar, sinAvisosCsp, simularCobro, simularAudio, sinVoces, conVozFalsa, conEnlaces, elegirIdioma, abrirPieza } from './ayudas.mjs';
 
 test.beforeEach(async ({ page }) => {
   await aislar(page);
+});
+
+test.afterEach(async ({ page }) => {
+  await sinAvisosCsp(page);
 });
 
 // ───────────────────────── Guías con flechas ─────────────────────────
