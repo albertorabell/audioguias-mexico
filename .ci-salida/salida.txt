@@ -1,3 +1,14 @@
-hola desde CI
-v20.20.2
-10.8.2
+
+up to date in 11s
+-rw-r--r-- 1 runner runner 258966 Nov 11 05:04 package-lock.json
+
+added 408 packages in 5s
+--- tsc base
+--- tsc strict
+2171
+   1651 error TS7026
+    228 error TS7031
+    207 error TS7006
+     80 error TS7016
+      4 error TS7053
+      1 error TS2345
