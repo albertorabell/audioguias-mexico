@@ -1,0 +1,15 @@
+src/App.tsx(901,6): error TS2786: 'ErrorBoundary' cannot be used as a JSX component.
+  Its type 'typeof ErrorBoundary' is not a valid JSX element type.
+    Type 'typeof ErrorBoundary' is not assignable to type 'new (props: any, context: any) => Component<any, any, any>'.
+      Type 'ErrorBoundary' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate
+src/components/MapScreen.tsx(113,12): error TS2786: 'ErrorBoundary' cannot be used as a JSX component.
+  Its type 'typeof ErrorBoundary' is not a valid JSX element type.
+    Type 'typeof ErrorBoundary' is not assignable to type 'new (props: any, context: any) => Component<any, any, any>'.
+      Type 'ErrorBoundary' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate
+src/components/RouteWizard.tsx(58,79): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/components/RouteWizard.tsx(181,55): error TS2345: Argument of type '(prev: string[]) => (string | undefined)[]' is not assignable to parameter of type 'SetStateAction<string[]>'.
+  Type '(prev: string[]) => (string | undefined)[]' is not assignable to type '(prevState: string[]) => string[]'.
+    Type '(string | undefined)[]' is not assignable to type 'string[]'.
+      Type 'string | undefined' is not assignable to type 'string'.
+        Type 'undefined' is not assignable to type 'string'.

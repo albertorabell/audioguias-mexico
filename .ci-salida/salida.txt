@@ -1,34 +1,23 @@
-      1 modules/react-dom/client.js' implicitly has an 'any' type.
-     41 modules/react/index.js' implicitly has an 'any' type.
-     38 modules/react/jsx-runtime.js' implicitly has an 'any' type.
----
-     79   Try `npm i --save-dev @types/react` if it exists or add a new declaration 
-     52 src/components/MuseumScreen.tsx
-     34 src/components/MuseumPlan.tsx
-     29 src/components/SitePlanView.tsx
-     28 src/components/MapScreen.tsx
-     27 src/components/PaywallModal.tsx
-     26 src/components/PieceDetail.tsx
-     26 src/App.tsx
-     18 src/components/RoutesScreen.tsx
-     16 src/components/PieceDock.tsx
-     15 src/components/RouteWizard.tsx
-     14 src/components/SearchScreen.tsx
-     13 src/components/RoomView.tsx
-     13 src/components/Home.tsx
-     12 src/components/PieceImage.tsx
-     12 src/components/ImageZoomModal.tsx
-     11 src/components/LiveMap.tsx
-     11 src/components/FloorPlan.tsx
-      8 src/components/ui/TopBar.tsx
-      8 src/components/PlanGuide.tsx
-      8 src/components/PiecePeek.tsx
-      8 src/components/ContactForm.tsx
-      8 src/components/CoachTour.tsx
-      7 src/components/TourCompletionView.tsx
-      6 src/utils/LanguageContext.tsx
-      5 src/components/ui/HeaderControls.tsx
-      5 src/components/LinkedText.tsx
-      4 src/components/OfflineTourBanner.tsx
-      3 src/components/ui/TabBar.tsx
-      3 src/components/PieceFeedback.tsx
+
+added 411 packages in 5s
+--- no estricto (hoy)
+4
+src/App.tsx(901,6): error TS2786: 'ErrorBoundary' cannot be used as a JSX component.
+  Its type 'typeof ErrorBoundary' is not a valid JSX element type.
+    Type 'typeof ErrorBoundary' is not assignable to type 'new (props: any, context: any) => Component<any, any, any>'.
+      Type 'ErrorBoundary' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate
+src/components/MapScreen.tsx(113,12): error TS2786: 'ErrorBoundary' cannot be used as a JSX component.
+  Its type 'typeof ErrorBoundary' is not a valid JSX element type.
+    Type 'typeof ErrorBoundary' is not assignable to type 'new (props: any, context: any) => Component<any, any, any>'.
+      Type 'ErrorBoundary' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate
+src/components/RouteWizard.tsx(58,79): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/components/RouteWizard.tsx(181,55): error TS2345: Argument of type '(prev: string[]) => (string | undefined)[]' is not assignable to parameter of type 'SetStateAction<string[]>'.
+  Type '(prev: string[]) => (string | undefined)[]' is not assignable to type '(prevState: string[]) => string[]'.
+    Type '(string | undefined)[]' is not assignable to type 'string[]'.
+      Type 'string | undefined' is not assignable to type 'string'.
+        Type 'undefined' is not assignable to type 'string'.
+--- strict
+4
+      2 error TS2786
+      2 error TS2345
