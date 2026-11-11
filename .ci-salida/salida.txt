@@ -1,14 +1,34 @@
-
-up to date in 11s
--rw-r--r-- 1 runner runner 258966 Nov 11 05:04 package-lock.json
-
-added 408 packages in 5s
---- tsc base
---- tsc strict
-2171
-   1651 error TS7026
-    228 error TS7031
-    207 error TS7006
-     80 error TS7016
-      4 error TS7053
-      1 error TS2345
+      1 modules/react-dom/client.js' implicitly has an 'any' type.
+     41 modules/react/index.js' implicitly has an 'any' type.
+     38 modules/react/jsx-runtime.js' implicitly has an 'any' type.
+---
+     79   Try `npm i --save-dev @types/react` if it exists or add a new declaration 
+     52 src/components/MuseumScreen.tsx
+     34 src/components/MuseumPlan.tsx
+     29 src/components/SitePlanView.tsx
+     28 src/components/MapScreen.tsx
+     27 src/components/PaywallModal.tsx
+     26 src/components/PieceDetail.tsx
+     26 src/App.tsx
+     18 src/components/RoutesScreen.tsx
+     16 src/components/PieceDock.tsx
+     15 src/components/RouteWizard.tsx
+     14 src/components/SearchScreen.tsx
+     13 src/components/RoomView.tsx
+     13 src/components/Home.tsx
+     12 src/components/PieceImage.tsx
+     12 src/components/ImageZoomModal.tsx
+     11 src/components/LiveMap.tsx
+     11 src/components/FloorPlan.tsx
+      8 src/components/ui/TopBar.tsx
+      8 src/components/PlanGuide.tsx
+      8 src/components/PiecePeek.tsx
+      8 src/components/ContactForm.tsx
+      8 src/components/CoachTour.tsx
+      7 src/components/TourCompletionView.tsx
+      6 src/utils/LanguageContext.tsx
+      5 src/components/ui/HeaderControls.tsx
+      5 src/components/LinkedText.tsx
+      4 src/components/OfflineTourBanner.tsx
+      3 src/components/ui/TabBar.tsx
+      3 src/components/PieceFeedback.tsx
