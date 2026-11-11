@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: 20
       - name: Instalar paquetes
-        run: npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
       - name: Compilar (con datos al día y el selector de idioma visible)
         env:
           VITE_PAYMENTS_API_URL: https://pagos.test

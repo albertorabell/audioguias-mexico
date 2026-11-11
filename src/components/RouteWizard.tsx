@@ -55,7 +55,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({ manifest, rooms = [], 
     return out;
   }, [pieces, rooms, roomIds, pace, t.timeOptions]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const stops = useMemo(() => projected.stops.filter((s) => !removed.includes(s.poi_id || s.id)), [projected, removed]);
+  const stops = useMemo(() => projected.stops.filter((s) => !removed.includes(s.poi_id || s.id || '')), [projected, removed]);
   const routeMinutes = useMemo(() => calculateRouteTimeMinutes(stops, pace === 'expert', rooms), [stops, pace, rooms]);
   const roomCount = useMemo(() => new Set(stops.map((s) => s.room_id || s.room_zone)).size, [stops]);
 
@@ -178,7 +178,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({ manifest, rooms = [], 
                           <button
                             type="button"
                             aria-label={t.remove(stop.title)}
-                            onClick={() => setRemoved((prev) => [...prev, stop.poi_id || stop.id])}
+                            onClick={() => setRemoved((prev) => [...prev, stop.poi_id || stop.id || ''])}
                             className="w-10 h-10 shrink-0 rounded-full flex items-center justify-center text-ink-3 cursor-pointer active:bg-raised"
                           >
                             <X className="w-4 h-4" strokeWidth={2} />
