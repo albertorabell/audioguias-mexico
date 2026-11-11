@@ -1,0 +1,24 @@
+# TEMPORAL (rama feature/ci-*, nunca va a main): corre comandos en GitHub, donde sí hay npm, y devuelve la salida en .ci-salida/
+name: Ayudante temporal (rama de trabajo)
+on:
+  push:
+    branches: ['feature/ci-**']
+permissions:
+  contents: write
+jobs:
+  ayudante:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Ejecutar .ci-comando.sh
+        run: |
+          mkdir -p .ci-salida
+          if [ -f .ci-comando.sh ]; then bash .ci-comando.sh > .ci-salida/salida.txt 2>&1 || echo "EXIT $?" >> .ci-salida/salida.txt; fi
+      - name: Devolver resultados a la rama
+        run: |
+          git config user.name "ayudante-ci"; git config user.email "ayudante-ci@users.noreply.github.com"
+          git add -A -f .ci-salida package-lock.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -qm "ci: salida del ayudante [skip ci]" && git push)
