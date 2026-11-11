@@ -1,1 +1,1 @@
-echo hola desde CI; node -v; npm -v
+npm install --package-lock-only --no-audit --no-fund 2>&1 | tail -3; ls -la package-lock.json; npm ci --no-audit --no-fund 2>&1 | tail -2; echo "--- tsc base"; npx tsc --noEmit 2>&1 | tail -3; echo "--- tsc strict"; npx tsc --noEmit --strict 2>&1 | grep -c "error TS"; npx tsc --noEmit --strict 2>&1 | grep -o "error TS[0-9]*" | sort | uniq -c | sort -rn | head -15
