@@ -31,6 +31,8 @@ jobs:
         run: node scripts/ci-run.mjs tsc -- npx tsc --noEmit --pretty false
       - name: Compilar (vite build, con los datos ya guardados)
         run: node scripts/ci-run.mjs build -- npx vite build
+      - name: Presupuesto de rendimiento (peso de la app, los datos y las fotos)
+        run: node scripts/ci-run.mjs presupuesto -- node scripts/presupuesto.mjs dist
       - name: Compilar las dos versiones para las pruebas de navegador (cobro encendido y apagado)
         run: |
           # Versión de ensayo: cobro encendido (servidor simulado) y con inglés y francés visibles para probar el selector.

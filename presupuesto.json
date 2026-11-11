@@ -1,0 +1,10 @@
+{
+  "_nota": "Topes de peso de la app compilada (dist/). Se revisan en cada rama con scripts/presupuesto.mjs. Si algo legítimo los supera, sube el tope aquí a propósito (en el mismo PR) y explica por qué.",
+  "js_principal_gzip_kb": 300,
+  "js_mapa_gzip_kb": 320,
+  "css_gzip_kb": 40,
+  "cualquier_js_gzip_kb": 330,
+  "archivo_de_datos_kb": 3072,
+  "foto_kb": 1536,
+  "guardado_sin_internet_mb": 16
+}
