@@ -264,30 +264,77 @@ const EVENTS = new Set([
   'app_open', 'piece_view', 'audio_play', 'audio_end', 'paywall_open', 'checkout_start', 'lang_change',
   'route_start', 'tour_done', 'install', 'offline_download', 'search', 'purchase', 'refund', 'code_redeem',
   'screen_view', 'visit_country', 'audio_stop', 'util_si', 'util_no',
-  'pass_code_shared', 'sample_play', 'app_error',
+  'pass_code_shared', 'sample_play', 'app_error', 'visitor_new',
 ]);
 const PIECE_RE = /^[a-z0-9_]{3,60}$/;
 const DAILY_KEY_LIMIT = 3000;
 
-const dayKey = (d = new Date()) => `ev:${d.toISOString().slice(0, 10)}`;
 
-/** Suma 1 a un contador del día. Es un conteo aproximado: dos visitas exactamente simultáneas pueden contarse como una. */
+/**
+ * Suma 1 a un contador del día.
+ * Con el Durable Object CONTADOR el conteo es EXACTO: todas las sumas pasan una por una por el mismo objeto, así que no se pierde ninguna en un pico de visitas.
+ * Sin ese objeto (o si falla) se usa el respaldo en KV, que es aproximado: dos sumas exactamente simultáneas pueden contarse como una.
+ */
 async function countEvent(env, name, f = {}) {
   if (!EVENTS.has(name)) return;
   const field = (v, re) => (typeof v === 'string' && re.test(v) ? v : '');
   const key = [name, field(f.s, /^[a-z0-9_-]{1,40}$/i).toLowerCase(), field(f.p, PIECE_RE), field(f.l, /^[a-z]{2}$/), field(f.m, /^(corto|largo)$/), field(f.k, /^[a-z0-9_-]{1,20}$/i)].join('|');
-  try {
-    const dk = dayKey();
-    const raw = await env.PASES.get(dk);
-    const day = raw ? JSON.parse(raw) : { c: {} };
-    if (!(key in day.c) && Object.keys(day.c).length >= DAILY_KEY_LIMIT) {
-      day.c['_descartados'] = (day.c['_descartados'] || 0) + 1;
-    } else {
-      day.c[key] = (day.c[key] || 0) + 1;
+  const day = new Date().toISOString().slice(0, 10);
+  if (env.CONTADOR) {
+    try {
+      const res = await contador(env).fetch('https://contador/sumar', { method: 'POST', body: JSON.stringify({ day, key }) });
+      if (res.ok) return;
+    } catch (e) {
+      console.error('contador', e && e.message);
     }
-    await env.PASES.put(dk, JSON.stringify(day), { expirationTtl: 400 * 86400 });
+  }
+  try {
+    const dk = `ev:${day}`;
+    const raw = await env.PASES.get(dk);
+    const doc = raw ? JSON.parse(raw) : { c: {} };
+    sumarEnDia(doc, key);
+    await env.PASES.put(dk, JSON.stringify(doc), { expirationTtl: 400 * 86400 });
   } catch (e) {
     console.error('evento', e && e.message);
+  }
+}
+
+const contador = (env) => env.CONTADOR.get(env.CONTADOR.idFromName('global'));
+
+/** Suma 1 a una clave del documento de un día; pasado el límite de claves distintas, cuenta en «_descartados». */
+function sumarEnDia(doc, key) {
+  if (!(key in doc.c) && Object.keys(doc.c).length >= DAILY_KEY_LIMIT) doc.c['_descartados'] = (doc.c['_descartados'] || 0) + 1;
+  else doc.c[key] = (doc.c[key] || 0) + 1;
+}
+
+/**
+ * Durable Object con los contadores por día (clave "d:AAAA-MM-DD"). Un solo objeto atiende las sumas de una en una
+ * (Cloudflare no deja entrar otra petición mientras lee y escribe), por eso no se pierde ningún conteo.
+ */
+export class Contador {
+  constructor(state) {
+    this.state = state;
+  }
+  async fetch(request) {
+    const url = new URL(request.url);
+    const body = request.method === 'POST' ? await request.json().catch(() => null) : null;
+    if (url.pathname === '/sumar' && body && /^\d{4}-\d{2}-\d{2}$/.test(body.day) && typeof body.key === 'string' && body.key.length < 200) {
+      const k = `d:${body.day}`;
+      const doc = (await this.state.storage.get(k)) || { c: {} };
+      sumarEnDia(doc, body.key);
+      await this.state.storage.put(k, doc);
+      return new Response('ok');
+    }
+    if (url.pathname === '/leer' && body && /^\d{4}-\d{2}-\d{2}$/.test(body.desde) && /^\d{4}-\d{2}-\d{2}$/.test(body.hasta)) {
+      const out = {};
+      const todos = await this.state.storage.list({ prefix: 'd:' });
+      for (const [k, v] of todos) {
+        const day = k.slice(2);
+        if (day >= body.desde && day <= body.hasta) out[day] = v.c;
+      }
+      return new Response(JSON.stringify(out), { headers: { 'Content-Type': 'application/json' } });
+    }
+    return new Response('not_found', { status: 404 });
   }
 }
 
@@ -460,14 +507,35 @@ async function handleMessages(request, env, url, cors) {
 async function handleStats(request, env, url, cors) {
   const auth = request.headers.get('Authorization') || '';
   if (!env.STATS_KEY || !timingSafeEqual(auth, `Bearer ${env.STATS_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
-  const days = Math.min(Math.max(parseInt(url.searchParams.get('dias') || '30', 10) || 30, 1), 90);
+  const days = Math.min(Math.max(parseInt(url.searchParams.get('dias') || '30', 10) || 30, 1), 400);
+  const fechas = [];
+  for (let i = 0; i < days; i++) fechas.push(new Date(Date.now() - i * 86400_000).toISOString().slice(0, 10));
   const out = {};
-  for (let i = 0; i < days; i++) {
-    const d = new Date(Date.now() - i * 86400_000);
-    const raw = await env.PASES.get(dayKey(d));
-    if (raw) out[dayKey(d).slice(3)] = JSON.parse(raw).c;
+  // Lo contado con el Durable Object (exacto): todos los días de una sola vez
+  let exactos = {};
+  if (env.CONTADOR) {
+    try {
+      const res = await contador(env).fetch('https://contador/leer', { method: 'POST', body: JSON.stringify({ desde: fechas[fechas.length - 1], hasta: fechas[0] }) });
+      if (res.ok) exactos = await res.json();
+    } catch (e) {
+      console.error('contador', e && e.message);
+    }
   }
-  return json({ dias: days, zona: 'UTC', conteos: out }, 200, cors);
+  const dias = Object.keys(exactos).sort();
+  const primerExacto = dias[0] || '';
+  for (const [d, c] of Object.entries(exactos)) out[d] = { ...c };
+  // Lo contado antes con KV (aproximado): los días anteriores al Durable Object y el día del cambio, que tiene de los dos
+  const pendientes = fechas.filter((d) => !(d in exactos) || d === primerExacto);
+  for (let i = 0; i < pendientes.length; i += 25) {
+    const lote = await Promise.all(pendientes.slice(i, i + 25).map(async (d) => [d, await env.PASES.get(`ev:${d}`)]));
+    for (const [d, raw] of lote) {
+      if (!raw) continue;
+      const c = JSON.parse(raw).c;
+      const destino = out[d] || (out[d] = {});
+      for (const [k, n] of Object.entries(c)) destino[k] = (destino[k] || 0) + n;
+    }
+  }
+  return json({ dias: days, zona: 'UTC', exacto: !!env.CONTADOR, conteos: out }, 200, cors);
 }
 
 // ---------------------------------------------------------------------------

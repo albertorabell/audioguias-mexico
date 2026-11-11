@@ -145,6 +145,15 @@ export default function App() {
     // Un QR o enlace con ?c=CODIGO deja guardado el código de descuento para cuando se abra la ventana de pago
     capturePromoFromUrl();
     track('app_open', { l: currentLanguage, k: trafficSource() });
+    // Visitante nuevo: solo una marca en este navegador (sin identificador); permite ver cuántas personas llegan por primera vez
+    try {
+      if (!localStorage.getItem('audioguias_visto')) {
+        localStorage.setItem('audioguias_visto', '1');
+        track('visitor_new', { l: currentLanguage });
+      }
+    } catch {
+      /* sin almacenamiento: no se cuenta como nuevo */
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

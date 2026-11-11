@@ -1,7 +1,7 @@
 // Pruebas del servidor de pagos con Stripe, KV y R2 simulados.  Correr:  node --test test/worker.test.mjs
 import { test, beforeEach } from 'node:test';
 import assert from 'node:assert/strict';
-import worker from '../src/index.js';
+import worker, { Contador } from '../src/index.js';
 import { signToken, verifyToken } from '../src/token.js';
 
 const ORIGIN = 'https://albertorabell.github.io';
@@ -542,6 +542,74 @@ test('/evento: cuenta lo permitido, rechaza lo raro y /estadisticas pide la clav
   assert.equal(hoy['audio_play||mna_s06_piedra_sol|fr|largo|mp3'], 1);
   // sin dato personal alguno: solo contadores
   assert.ok(!JSON.stringify(conteos).includes('dev_'));
+});
+
+// ---- Durable Object simulado: atiende las peticiones de una en una, como el real ----
+class FakeContadorNS {
+  constructor() {
+    this.datos = new Map();
+    this.cola = Promise.resolve();
+    this.falla = false;
+    const storage = {
+      get: async (k) => (this.datos.has(k) ? structuredClone(this.datos.get(k)) : undefined),
+      put: async (k, v) => { await Promise.resolve(); this.datos.set(k, structuredClone(v)); },
+      list: async ({ prefix = '' } = {}) => new Map([...this.datos].filter(([k]) => k.startsWith(prefix)).map(([k, v]) => [k, structuredClone(v)])),
+    };
+    this.obj = new Contador({ storage });
+  }
+  idFromName(n) { return n; }
+  get() {
+    return {
+      fetch: (url, init) => {
+        if (this.falla) return Promise.reject(new Error('DO caído'));
+        const run = this.cola.then(() => this.obj.fetch(new Request(url, init)));
+        this.cola = run.catch(() => {});
+        return run;
+      },
+    };
+  }
+}
+const statsGet = (dias = 7) => call(`/estadisticas?dias=${dias}`, { method: 'GET', origin: null, headers: { Authorization: 'Bearer k-stats' } });
+const hoy = () => new Date().toISOString().slice(0, 10);
+
+test('contadores exactos: 60 aperturas simultáneas con el Durable Object se cuentan las 60', async () => {
+  env.STATS_KEY = 'k-stats';
+  env.CONTADOR = new FakeContadorNS();
+  await Promise.all(Array.from({ length: 60 }, () => call('/evento', { body: { e: 'app_open', l: 'es', k: 'directo' }, origin: ORIGIN })));
+  const r = await (await statsGet()).json();
+  assert.equal(r.exacto, true);
+  assert.equal(r.conteos[hoy()]['app_open|||es||directo'], 60);
+  assert.equal(env.PASES.m.has(`ev:${hoy()}`), false, 'no se escribió el respaldo en KV');
+});
+
+test('contadores exactos: los días contados antes con KV se suman, también el día del cambio', async () => {
+  env.STATS_KEY = 'k-stats';
+  const ayer = new Date(Date.now() - 86400_000).toISOString().slice(0, 10);
+  await env.PASES.put(`ev:${ayer}`, JSON.stringify({ c: { 'app_open|||||': 7 } }));
+  await env.PASES.put(`ev:${hoy()}`, JSON.stringify({ c: { 'app_open|||||': 5 } }));
+  env.CONTADOR = new FakeContadorNS();
+  await call('/evento', { body: { e: 'app_open' }, origin: ORIGIN });
+  await call('/evento', { body: { e: 'app_open' }, origin: ORIGIN });
+  const c = (await (await statsGet()).json()).conteos;
+  assert.equal(c[ayer]['app_open|||||'], 7);
+  assert.equal(c[hoy()]['app_open|||||'], 7); // 5 de KV + 2 del Durable Object
+});
+
+test('contadores exactos: si el Durable Object falla, se cuenta en KV y no se pierde el evento', async () => {
+  env.STATS_KEY = 'k-stats';
+  env.CONTADOR = new FakeContadorNS();
+  env.CONTADOR.falla = true;
+  assert.equal((await call('/evento', { body: { e: 'app_open' }, origin: ORIGIN })).status, 204);
+  assert.equal(JSON.parse(env.PASES.m.get(`ev:${hoy()}`)).c['app_open|||||'], 1);
+});
+
+test('/estadisticas: acepta hasta 400 días y el evento visitor_new se cuenta', async () => {
+  env.STATS_KEY = 'k-stats';
+  assert.equal((await call('/evento', { body: { e: 'visitor_new', l: 'es' }, origin: ORIGIN })).status, 204);
+  const r = await (await statsGet(400)).json();
+  assert.equal(r.dias, 400);
+  assert.equal(r.exacto, false);
+  assert.equal(r.conteos[hoy()]['visitor_new|||es||'], 1);
 });
 
 test('/evento: cuenta pantallas, origen y país (el país lo pone el servidor, no la app)', async () => {

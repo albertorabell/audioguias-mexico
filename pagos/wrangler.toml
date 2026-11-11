@@ -23,6 +23,15 @@ STRIPE_PRICE_ID_USD = ""
 binding = "PASES"
 id = "2a15cc7724a04b42b185a68b7bf799a5"
 
+# Contadores de uso EXACTOS (un Durable Object que suma de una en una). Si este bloque falta, el servidor usa KV y los conteos son aproximados.
+[[durable_objects.bindings]]
+name = "CONTADOR"
+class_name = "Contador"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Contador"]
+
 # Aquí viven los MP3 de las piezas de pago
 [[r2_buckets]]
 binding = "AUDIO"

@@ -5,7 +5,7 @@
     set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
     del: function (k) { try { localStorage.removeItem(k); } catch (e) {} }
   };
-  var data = null, visits = null, messages = null;
+  var data = null, visits = null, messages = null, exact = false;
 
   $('api').value = store.get('panel_api');
   $('key').value = store.get('panel_key');
@@ -21,13 +21,16 @@
     $('loginErr').hidden = true;
     var res;
     try {
-      res = await fetch(api + '/estadisticas?dias=' + days, { headers: { Authorization: 'Bearer ' + key } });
+      // Se piden el doble de días (hasta 400) para poder comparar con el periodo anterior
+      res = await fetch(api + '/estadisticas?dias=' + Math.min(Number(days) * 2, 400), { headers: { Authorization: 'Bearer ' + key } });
     } catch (e) {
       return fail('No se pudo conectar con el servidor. Revisa la dirección.');
     }
     if (res.status === 401) return fail('La clave no es correcta.');
     if (!res.ok) return fail('El servidor respondió ' + res.status + '.');
-    data = (await res.json()).conteos || {};
+    var body = await res.json();
+    data = body.conteos || {};
+    exact = !!body.exacto;
     visits = null;
     try {
       var vr = await fetch(api + '/recorridos?dias=' + Math.min(Number(days), 60), { headers: { Authorization: 'Bearer ' + key } });
@@ -48,10 +51,17 @@
 
   function fail(msg) { $('loginErr').textContent = msg; $('loginErr').hidden = false; $('login').hidden = false; $('view').hidden = true; }
 
+  function isoDay(d) { return d.toISOString().slice(0, 10); }
+  function shiftDay(iso, n) { var d = new Date(iso + 'T00:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return isoDay(d); }
+  // Primer día del periodo actual y del anterior (en UTC, como las cuentas del servidor)
+  function periodStart() { return shiftDay(isoDay(new Date()), -(Number($('days').value) - 1)); }
+
   // Cada clave: evento|sitio|obra|idioma|modo|tipo
-  function rows() {
+  function rows(prev) {
     var out = [];
+    var start = periodStart(), prevStart = shiftDay(start, -Number($('days').value));
     Object.keys(data).sort().forEach(function (day) {
+      if (prev ? (day >= start || day < prevStart) : day < start) return;
       Object.keys(data[day]).forEach(function (k) {
         if (k === '_descartados') return;
         var p = k.split('|');
@@ -79,6 +89,7 @@
 
     var tiles = [
       ['Aperturas de la app', sum(rs, 'app_open')],
+      ['Visitantes nuevos', sum(rs, 'visitor_new')],
       ['Vieron el pase', sum(rs, 'paywall_open')],
       ['Iniciaron el pago', sum(rs, 'checkout_start')],
       ['Compras', sum(rs, 'purchase')],
@@ -91,19 +102,22 @@
       ['Errores de la app', sum(rs, 'app_error')]
     ];
     $('tiles').innerHTML = '';
-    tiles.forEach(function (t) { var d = el('div', undefined, 'card tile'); d.appendChild(el('b', fmt(t[1]))); d.appendChild(el('span', t[0])); $('tiles').appendChild(d); });
-
-    // Por día
-    var days = {};
-    rs.forEach(function (r) { var d = days[r.day] || (days[r.day] = { v: 0, c: 0 }); if (r.e === 'app_open') d.v += r.n; if (r.e === 'purchase') d.c += r.n; });
-    var keys = Object.keys(days).sort(), max = 1;
-    keys.forEach(function (k) { max = Math.max(max, days[k].v, days[k].c * 5); });
-    var box = $('daily'); box.innerHTML = '';
-    keys.forEach(function (k) {
-      var v = el('div'); v.style.height = Math.max(2, (days[k].v / max) * 100) + '%'; v.title = k + ': ' + days[k].v + ' aperturas';
-      box.appendChild(v);
+    var before = site ? rows(true).filter(function (r) { return r.s === site; }) : rows(true);
+    var evOf = { 'Aperturas de la app': 'app_open', 'Visitantes nuevos': 'visitor_new', 'Vieron el pase': 'paywall_open', 'Iniciaron el pago': 'checkout_start', 'Compras': 'purchase', 'Entraron con código': 'code_redeem', 'Reembolsos': 'refund', 'Audios iniciados': 'audio_play', 'App instalada': 'install', 'Escucharon la muestra': 'sample_play', 'Compartieron su código': 'pass_code_shared', 'Errores de la app': 'app_error' };
+    tiles.forEach(function (t) {
+      var d = el('div', undefined, 'card tile'); d.appendChild(el('b', fmt(t[1]))); d.appendChild(el('span', t[0]));
+      var prevN = Number($('days').value) * 2 <= 400 ? sum(before, evOf[t[0]]) : 0; // con periodos largos no hay datos del anterior completos
+      if (prevN > 0) {
+        var change = Math.round(((t[1] - prevN) / prevN) * 100);
+        var c = el('small', (change > 0 ? '▲ +' : change < 0 ? '▼ ' : '= ') + change + ' % vs periodo anterior', change > 0 ? 'up' : change < 0 ? 'down' : '');
+        c.title = 'Periodo anterior: ' + fmt(prevN);
+        d.appendChild(c);
+      }
+      $('tiles').appendChild(d);
     });
-    if (!keys.length) box.appendChild(el('span', 'Todavía no hay datos en este periodo.'));
+
+    // Visitantes que van llegando (gráficas)
+    renderCharts(rs);
 
     // Embudo por sitio (siempre muestra todos los sitios; el filtro de arriba no aplica)
     var by = {};
@@ -184,6 +198,94 @@
     renderMessages();
   }
 
+
+  // ───────────── Gráficas (SVG sin librerías) ─────────────
+  var SVGNS = 'http://www.w3.org/2000/svg';
+  function sv(tag, attrs, text) { var e = document.createElementNS(SVGNS, tag); Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); }); if (text !== undefined) e.textContent = text; return e; }
+  function niceMax(v) { if (v <= 5) return 5; var p = Math.pow(10, Math.floor(Math.log10(v))), f = v / p; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * p; }
+  function mondayOf(iso) { var d = new Date(iso + 'T00:00:00Z'), w = (d.getUTCDay() + 6) % 7; d.setUTCDate(d.getUTCDate() - w); return isoDay(d); }
+  function bucketOf(iso, gran) { return gran === 'week' ? mondayOf(iso) : gran === 'month' ? iso.slice(0, 7) : iso; }
+  function labelOf(b, gran) {
+    if (gran === 'month') { var m = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']; return m[Number(b.slice(5, 7)) - 1] + ' ' + b.slice(2, 4); }
+    var d = b.slice(8, 10), mm = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'][Number(b.slice(5, 7)) - 1];
+    return (gran === 'week' ? 'sem. ' : '') + Number(d) + ' ' + mm;
+  }
+
+  /** Cubetas (día, semana o mes) del periodo actual, sin huecos, con la suma de cada serie. */
+  function buckets(rs, gran, defs) {
+    var start = periodStart(), end = isoDay(new Date()), order = [], seen = {};
+    for (var d = start; d <= end; d = shiftDay(d, 1)) { var b = bucketOf(d, gran); if (!seen[b]) { seen[b] = {}; order.push(b); defs.forEach(function (x) { seen[b][x.id] = 0; }); } }
+    rs.forEach(function (r) { var b = bucketOf(r.day, gran); defs.forEach(function (x) { if (seen[b] && x.match(r)) seen[b][x.id] += r.n; }); });
+    return { keys: order, vals: seen };
+  }
+
+  /** Dibuja líneas o barras. series: [{name, cls, values}], labels: texto del eje X. */
+  function drawChart(box, labels, series, opts) {
+    box.innerHTML = '';
+    opts = opts || {};
+    var any = series.some(function (s) { return s.values.some(function (v) { return v > 0; }); });
+    if (!labels.length || !any) { box.appendChild(el('p', 'Todavía no hay datos en este periodo.', 'sub')); return; }
+    var W = 640, H = 230, L = 44, R = 12, T = 12, B = 28, iw = W - L - R, ih = H - T - B, n = labels.length;
+    var max = niceMax(Math.max.apply(null, series.map(function (s) { return Math.max.apply(null, s.values); })));
+    var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'chart', role: 'img', 'aria-label': opts.title || 'Gráfica' });
+    var xAt = function (i) { return L + (n === 1 ? iw / 2 : (i / (n - 1)) * iw); };
+    var yAt = function (v) { return T + ih - (v / max) * ih; };
+    for (var t = 0; t <= 4; t++) {
+      var v = (max / 4) * t, y = yAt(v);
+      svg.appendChild(sv('line', { x1: L, x2: W - R, y1: y, y2: y, class: 'grid' }));
+      svg.appendChild(sv('text', { x: L - 6, y: y + 4, class: 'tick', 'text-anchor': 'end' }, fmt(Math.round(v * 10) / 10)));
+    }
+    var every = Math.max(1, Math.ceil(n / 7));
+    labels.forEach(function (lb, i) { if (i % every === 0 || i === n - 1) { if (i === n - 1 && (n - 1) % every !== 0 && n > 1 && (n - 1 - Math.floor((n - 1) / every) * every) < every / 2) return; svg.appendChild(sv('text', { x: xAt(i), y: H - 8, class: 'tick', 'text-anchor': i === 0 ? 'start' : i === n - 1 ? 'end' : 'middle' }, lb)); } });
+    series.forEach(function (s) {
+      if (opts.bars) {
+        var bw = Math.max(2, (iw / n) * 0.7);
+        s.values.forEach(function (v, i) { if (v > 0) svg.appendChild(sv('rect', { x: xAt(i) - bw / 2, y: yAt(v), width: bw, height: T + ih - yAt(v), class: 'bar ' + s.cls })); });
+      } else {
+        var pts = s.values.map(function (v, i) { return xAt(i) + ',' + yAt(v); });
+        if (s.area) svg.appendChild(sv('polygon', { points: xAt(0) + ',' + (T + ih) + ' ' + pts.join(' ') + ' ' + xAt(n - 1) + ',' + (T + ih), class: 'area ' + s.cls }));
+        svg.appendChild(sv('polyline', { points: pts.join(' '), class: 'line ' + s.cls }));
+        if (n <= 40) s.values.forEach(function (v, i) { svg.appendChild(sv('circle', { cx: xAt(i), cy: yAt(v), r: 2.5, class: 'dot ' + s.cls })); });
+      }
+    });
+    // Zonas sensibles: al pasar el cursor (o tocar) sale el detalle de ese día, semana o mes
+    labels.forEach(function (lb, i) {
+      var w = iw / n, zone = sv('rect', { x: xAt(i) - w / 2, y: T, width: w, height: ih, class: 'hit' });
+      zone.appendChild(sv('title', {}, lb + '\n' + series.map(function (s) { return s.name + ': ' + fmt(s.values[i]); }).join('\n')));
+      svg.appendChild(zone);
+    });
+    box.appendChild(svg);
+    var lg = el('div', undefined, 'legend');
+    series.forEach(function (s) { var sp = el('span'); var i = el('i'); i.className = 'sw ' + s.cls; sp.appendChild(i); sp.appendChild(document.createTextNode(s.name)); lg.appendChild(sp); });
+    box.appendChild(lg);
+  }
+
+  function renderCharts(rs) {
+    var gran = $('gran').value;
+    var defs = [
+      { id: 'open', match: function (r) { return r.e === 'app_open'; } },
+      { id: 'new', match: function (r) { return r.e === 'visitor_new'; } },
+      { id: 'buy', match: function (r) { return r.e === 'purchase' || r.e === 'code_redeem'; } },
+      { id: 'pay', match: function (r) { return r.e === 'paywall_open'; } },
+      { id: 'audio', match: function (r) { return r.e === 'audio_play'; } }
+    ];
+    var b = buckets(rs, gran, defs), labels = b.keys.map(function (k) { return labelOf(k, gran); });
+    var col = function (id) { return b.keys.map(function (k) { return b.vals[k][id]; }); };
+    var open = col('open'), nuevos = col('new');
+    drawChart($('chVisitas'), labels, [
+      { name: 'Aperturas de la app', cls: 's1', values: open, area: true },
+      { name: 'Visitantes nuevos', cls: 's2', values: nuevos }
+    ], { title: 'Aperturas y visitantes nuevos' });
+    var acc = 0, acumulado = nuevos.map(function (v) { acc += v; return acc; });
+    drawChart($('chNuevos'), labels, [{ name: 'Visitantes nuevos acumulados en este periodo', cls: 's2', values: acumulado, area: true }], { title: 'Visitantes nuevos acumulados' });
+    drawChart($('chEmbudo'), labels, [
+      { name: 'Vieron el pase', cls: 's3', values: col('pay') },
+      { name: 'Compras y códigos', cls: 's4', values: col('buy') }
+    ], { title: 'Pase visto y compras', bars: false });
+    drawChart($('chAudios'), labels, [{ name: 'Audios iniciados', cls: 's1', values: col('audio') }], { title: 'Audios iniciados', bars: true });
+    $('exactNote').textContent = exact ? 'Los conteos de esta versión son exactos (se cuentan uno por uno en el servidor).' : 'Los conteos de esta versión son aproximados: en un pico de visitas, dos eventos exactamente simultáneos pueden contarse como uno.';
+  }
+
   function renderMessages() {
     var box = $('msgs'); box.innerHTML = '';
     if (!messages || !messages.length) { box.appendChild(el('p', messages ? 'Todavía no hay mensajes.' : 'Sin datos: el servidor aún no tiene el formulario.', 'sub')); return; }
@@ -246,6 +348,7 @@
   $('loginForm').addEventListener('submit', function (e) { e.preventDefault(); load(); });
   $('days').addEventListener('change', load);
   $('site').addEventListener('change', render);
+  $('gran').addEventListener('change', render);
   $('logout').addEventListener('click', function () { store.del('panel_key'); $('key').value = ''; $('view').hidden = true; $('login').hidden = false; });
   if ($('api').value && $('key').value) load();
 })();

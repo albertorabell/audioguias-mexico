@@ -6,8 +6,8 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Uso de la app</title>
 <style>
-  :root { --bg:#f7f5f0; --card:#fff; --ink:#1d2421; --ink2:#5b6560; --line:#dcd8cf; --bar:#1f6f5c; --bar2:#c28a2c; --bad:#b3402a; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#161a18; --card:#1f2522; --ink:#eceae4; --ink2:#a3aca7; --line:#343c38; --bar:#4fb59a; --bar2:#e0ac4d; --bad:#e8826c; } }
+  :root { --bg:#f7f5f0; --card:#fff; --ink:#1d2421; --ink2:#5b6560; --line:#dcd8cf; --bar:#1f6f5c; --bar2:#c28a2c; --bar3:#3a5fa8; --bad:#b3402a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161a18; --card:#1f2522; --ink:#eceae4; --ink2:#a3aca7; --line:#343c38; --bar:#4fb59a; --bar2:#e0ac4d; --bar3:#7aa2e8; --bad:#e8826c; } }
   * { box-sizing: border-box; }
   body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui, sans-serif; }
   main { max-width:960px; margin:0 auto; padding:20px 16px 56px; }
@@ -40,6 +40,19 @@
   .hbar .n { text-align:right; font-variant-numeric:tabular-nums; }
   .err { color:var(--bad); font-weight:600; }
   .note { color:var(--ink2); font-size:.85rem; margin-top:28px; }
+  .tile small { display:block; margin-top:2px; font-size:.75rem; color:var(--ink2); }
+  .tile small.up { color:var(--bar); } .tile small.down { color:var(--bad); }
+  svg.chart { width:100%; height:auto; display:block; }
+  svg.chart .grid { stroke:var(--line); stroke-width:1; }
+  svg.chart .tick { fill:var(--ink2); font-size:11px; font-family:inherit; }
+  svg.chart .line { fill:none; stroke-width:2.2; stroke-linejoin:round; }
+  svg.chart .area { opacity:.14; stroke:none; }
+  svg.chart .hit { fill:transparent; }
+  svg.chart .hit:hover { fill:var(--ink); fill-opacity:.06; }
+  .s1 { stroke:var(--bar); fill:var(--bar); } .s2 { stroke:var(--bar2); fill:var(--bar2); } .s3 { stroke:var(--bar3); fill:var(--bar3); } .s4 { stroke:var(--bad); fill:var(--bad); }
+  svg.chart .line.s1, svg.chart .line.s2, svg.chart .line.s3, svg.chart .line.s4 { fill:none; }
+  .legend .sw { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:6px; }
+  .legend .sw.s1 { background:var(--bar); } .legend .sw.s2 { background:var(--bar2); } .legend .sw.s3 { background:var(--bar3); } .legend .sw.s4 { background:var(--bad); }
   [hidden] { display:none !important; }
 </style>
 </head>
@@ -65,7 +78,10 @@
   <section id="view" hidden>
     <div class="row">
       <label style="display:flex;align-items:center;gap:8px">Periodo
-        <select id="days"><option value="7">7 días</option><option value="30" selected>30 días</option><option value="90">90 días</option></select>
+        <select id="days"><option value="7">7 días</option><option value="30" selected>30 días</option><option value="90">90 días</option><option value="180">6 meses</option><option value="365">1 año</option></select>
+      </label>
+      <label style="display:flex;align-items:center;gap:8px">Agrupar por
+        <select id="gran"><option value="day">Día</option><option value="week">Semana</option><option value="month">Mes</option></select>
       </label>
       <label style="display:flex;align-items:center;gap:8px">Sitio
         <select id="site"><option value="">Todos</option></select>
@@ -74,9 +90,15 @@
     </div>
     <div class="tiles" id="tiles"></div>
 
-    <h2>Visitas y compras por día</h2>
-    <div class="card"><div class="bars" id="daily"></div>
-      <div class="legend"><span><i style="background:var(--bar)"></i>Aperturas de la app</span><span><i style="background:var(--bar2)"></i>Compras</span></div></div>
+    <h2>Visitantes que van llegando</h2>
+    <p class="sub">«Visitantes nuevos» son personas que abren la app por primera vez en ese navegador (si borran los datos del navegador, cuentan otra vez). Pasa el cursor sobre la gráfica para ver el número exacto.</p>
+    <div class="card" id="chVisitas"></div>
+    <h3>Crecimiento: visitantes nuevos acumulados</h3>
+    <div class="card" id="chNuevos"></div>
+    <h3>Pase visto y compras</h3>
+    <div class="card" id="chEmbudo"></div>
+    <h3>Audios iniciados</h3>
+    <div class="card" id="chAudios"></div>
 
     <h2>Del primer vistazo al pago, por sitio</h2>
     <div class="card scroll"><table id="funnel"></table></div>
@@ -116,7 +138,7 @@
     <p class="sub">Lo que la gente escribe en «Contacto» y «Reportar un error». Se borra solo a los 90 días. Si dejó correo, aparece para que le respondas.</p>
     <div class="card" id="msgs"></div>
 
-    <p class="note">«Visitas» son aperturas de la app, no personas: quien vuelve cuenta otra vez. Los días van en hora UTC. Las cifras son aproximadas (dos eventos exactamente simultáneos pueden contarse como uno).</p>
+    <p class="note">«Visitas» son aperturas de la app, no personas: quien vuelve cuenta otra vez. Los días van en hora UTC. <span id="exactNote"></span></p>
   </section>
 </main>
 <script src="/panel.js"></script>
