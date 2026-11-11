@@ -1,3 +1,4 @@
+/** Punto de entrada: monta los proveedores de tema e idioma, activa la protección anti-copia y dibuja <App />. */
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';

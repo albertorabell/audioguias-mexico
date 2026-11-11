@@ -1,3 +1,4 @@
+/** Guía de bienvenida de la ficha de una pieza (se muestra una sola vez por dispositivo). */
 import React from 'react';
 import { useStrings } from '../utils/LanguageContext';
 import { CoachTour, CoachStep } from './CoachTour';

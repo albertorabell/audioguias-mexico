@@ -1,3 +1,4 @@
+/** Final de cada parada: «¿Te gustó?» (conteo anónimo) y «Reportar un error» (abre el formulario de contacto). */
 import React, { useEffect, useRef, useState } from 'react';
 import { ThumbsDown, ThumbsUp, Flag, X } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';

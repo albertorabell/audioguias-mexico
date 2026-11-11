@@ -1,3 +1,4 @@
+/** Pestaña «Mapa»: plano del sitio y, si el sitio tiene mapa real, MapLibre (se descarga solo al abrirlo). */
 import React, { Suspense, lazy, useMemo, useState } from 'react';
 import { MapPin } from 'lucide-react';
 import { Room, PieceData, ZoneMap, LiveMapConfig } from '../types';
