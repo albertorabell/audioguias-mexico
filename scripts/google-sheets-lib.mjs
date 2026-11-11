@@ -36,7 +36,8 @@ async function pedirToken(scope) {
 
 async function api(url, scope) {
   let ultimo;
-  for (let intento = 1; intento <= 3; intento++) {
+  let espera = 0;
+  for (let intento = 1; intento <= 5; intento++) {
     try {
       const token = await pedirToken(scope);
       const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` }, signal: AbortSignal.timeout(60000) });
@@ -45,11 +46,14 @@ async function api(url, scope) {
       const err = new Error(`HTTP ${res.status}: ${txt.slice(0, 300)}`);
       if (res.status < 500 && res.status !== 429) throw Object.assign(err, { fatal: true });
       ultimo = err;
+      // Google limita las lecturas por minuto (429): esperar un rato largo, no unos segundos, porque dos revisiones a la vez agotan la cuota
+      if (res.status === 429) espera = 20000 * intento;
     } catch (e) {
       if (e.fatal) throw e;
       ultimo = e;
     }
-    if (intento < 3) await new Promise((r) => setTimeout(r, 2000 * intento));
+    if (intento < 5) await new Promise((r) => setTimeout(r, espera || 2000 * intento));
+    espera = 0;
   }
   throw ultimo;
 }
