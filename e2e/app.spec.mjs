@@ -654,7 +654,8 @@ test('textos de pago: sin internet, con pase, se usa la copia guardada en el tel
   await page.route('https://pagos.test/texto/**', (route) => route.abort());
   await page.reload();
   await abrirPieza(page, FREE.title);
-  await page.locator('#btn-mode-full').click();
+  // la versión completa quedó guardada como preferencia: ya se abre en ella y la fila ofrece volver a lo esencial
+  await expect(page.locator('#btn-mode-short')).toBeVisible();
   await expect(page.getByText(FRASE_SECRETA, { exact: false })).toBeVisible();
 });
 
