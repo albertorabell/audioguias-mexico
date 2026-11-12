@@ -35,6 +35,7 @@ import { LanguageMenu, PassButton } from './ui/HeaderControls';
 import { PieceImage } from './PieceImage';
 import { OfflineTourBanner } from './OfflineTourBanner';
 import { IntroTour } from './IntroTour';
+import { RoutePreviewSheet } from './RoutePreviewSheet';
 
 export interface ContinueInfo {
   eyebrow: string;
@@ -163,6 +164,8 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   const u = strings.ui;
   const m = u.museum;
   const [introOpen, setIntroOpen] = useState<boolean>(false);
+  /** La ruta cuya hoja de vista previa está abierta: el primer toque solo la muestra, no la arranca. */
+  const [previewRoute, setPreviewRoute] = useState<SiteRoute | null>(null);
   // La presentación larga muestra el primer párrafo; el resto se abre con «Seguir leyendo»
   const [introMore, setIntroMore] = useState<boolean>(false);
   const [openTopics, setOpenTopics] = useState<Set<number>>(() => new Set());
@@ -291,7 +294,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             </p>
             {mainRoute && !continueInfo && (
               <div className="mt-6">
-                <button type="button" id="btn-start-tour" onClick={() => onStartRoute(mainRoute)} className="btn-primary w-full">
+                <button type="button" id="btn-start-tour" onClick={() => setPreviewRoute(mainRoute)} className="btn-primary w-full">
                   {m.startTour}
                 </button>
                 <p className="mt-2 text-cap text-ink-3 text-center text-pretty">
@@ -409,19 +412,40 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 <ChevronRight className="w-4 h-4 -rotate-90" aria-hidden="true" />
               </button>
             )}
-            <ul className="mt-4 border-t border-line">
-              {m.passItems(u.worksCount(pieces.length), PASS_MAX_DEVICES).map((item, i) => {
-                const Icon = PASS_ICONS[i] || Info;
-                return (
-                  <li key={i} className="flex items-start gap-3.5 py-4 border-b border-line">
-                    <Icon className="w-5 h-5 mt-0.5 text-jade-ink shrink-0" strokeWidth={1.9} aria-hidden="true" />
-                    <div className="min-w-0">
-                      <p className="text-[1.0625rem] font-bold leading-snug text-ink">{item.title}</p>
-                      <p className="mt-0.5 text-ui leading-[1.5] text-ink-2 text-pretty">{item.desc}</p>
-                    </div>
-                  </li>
-                );
-              })}
+            {/* Cuadrícula de celdas iguales: con un número impar de rutas, «Armar la mía» ocupa la celda libre */}
+            <ul className="mt-4 grid grid-cols-2 gap-3">
+              {shelf.map((route, i) => (
+                <li key={route.id} className="flex">
+                  <button
+                    type="button"
+                    id={i === 0 ? 'first-route-card' : undefined}
+                    onClick={() => setPreviewRoute(route)}
+                    className="w-full min-h-[10.5rem] flex flex-col items-start gap-2 rounded-2xl border border-line bg-paper p-4 text-left cursor-pointer row-press"
+                  >
+                    <span className="font-serif text-[1.75rem] leading-none tabular-nums text-ink whitespace-nowrap">
+                      {formatRouteDurationShort(minutesOf(route))}
+                    </span>
+                    <span className="text-cap text-ink-3">{u.worksCount(route.stops.length)}</span>
+                    <span className="mt-auto text-[1rem] font-bold leading-snug text-ink text-pretty line-clamp-4">{route.name}</span>
+                  </button>
+                </li>
+              ))}
+              {onOpenWizard && (
+                <li className={`flex ${shelf.length % 2 === 0 ? 'col-span-2' : ''}`}>
+                  <button
+                    type="button"
+                    id="btn-open-wizard"
+                    onClick={onOpenWizard}
+                    className={`w-full ${shelf.length % 2 === 0 ? 'min-h-[4.5rem] flex-row items-center' : 'min-h-[10.5rem] flex-col items-start'} flex gap-2 rounded-2xl border border-dashed border-jade-ink/40 p-4 text-left cursor-pointer row-press`}
+                  >
+                    <SlidersHorizontal className="w-6 h-6 text-jade-ink shrink-0" strokeWidth={1.8} />
+                    <span className={shelf.length % 2 === 0 ? 'min-w-0 flex-1' : 'mt-auto'}>
+                      <span className="block text-[1rem] font-bold leading-snug text-ink">{m.buildOwn}</span>
+                      <span className="mt-0.5 block text-cap text-ink-3">{m.buildOwnSub}</span>
+                    </span>
+                  </button>
+                </li>
+              )}
             </ul>
             <h3 className="mt-6 text-ui font-bold text-ink-2">{m.passHowTitle}</h3>
             <ol className="mt-2 space-y-2.5">
@@ -495,6 +519,19 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
               </button>
             )}
           </section>
+        )}
+
+        {previewRoute && (
+          <RoutePreviewSheet
+            route={previewRoute}
+            closingTime={manifest?.closing_time}
+            onStart={(r) => {
+              setPreviewRoute(null);
+              onStartRoute(r);
+            }}
+            onSeeStops={onOpenRoutes ? () => { setPreviewRoute(null); onOpenRoutes(); } : undefined}
+            onClose={() => setPreviewRoute(null)}
+          />
         )}
 
         {/* Antes de ir: temas que se abren uno por uno */}

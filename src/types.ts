@@ -228,6 +228,8 @@ export interface SiteManifest {
   live_map?: LiveMapConfig;
   /** «Antes de ir»: cómo llegar, horarios, qué llevar… (pestaña ANTES_DE_IR del Sheet del sitio). */
   before_visit?: BeforeVisitItem[];
+  /** Hora de cierre del sitio («17:00»), para avisar si la ruta no alcanza. Confirmar siempre en el sitio oficial. */
+  closing_time?: string;
 }
 
 /** Un tema de «Antes de ir». `topic` elige el ícono; el texto admite párrafos (línea en blanco) y listas (líneas con «- »). */
