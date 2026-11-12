@@ -143,6 +143,24 @@ test('guía de la obra: la primera vez señala escuchar, versión corta/completa
   await expect(tour).toHaveCount(0);
 });
 
+test('obra: empieza en la versión corta y una fila debajo del texto invita a la completa (y permite volver)', async ({ page }) => {
+  await simularCobro(page);
+  await simularAudio(page, { privado: true, gratisPublico: true });
+  await sinVoces(page);
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  const mas = page.locator('#btn-mode-full');
+  await expect(mas).toBeVisible();
+  await expect(mas).toContainText('Hay más sobre esta obra');
+  await expect(mas).toContainText(/\+\d+\s*(min|s)/);
+  await expect(page.locator('#version-switch')).toHaveCount(0); // ya no hay interruptor de dos botones
+  await mas.click();
+  const menos = page.locator('#btn-mode-short');
+  await expect(menos).toContainText('Ver solo lo esencial');
+  await menos.click();
+  await expect(page.locator('#btn-mode-full')).toBeVisible();
+});
+
 // ───────────────────────── Idioma ─────────────────────────
 
 test('idioma: pasa a inglés, se queda al recargar y vuelve a español', async ({ page }) => {
@@ -636,7 +654,8 @@ test('textos de pago: sin internet, con pase, se usa la copia guardada en el tel
   await page.route('https://pagos.test/texto/**', (route) => route.abort());
   await page.reload();
   await abrirPieza(page, FREE.title);
-  await page.locator('#btn-mode-full').click();
+  // la versión completa quedó guardada como preferencia: ya se abre en ella y la fila ofrece volver a lo esencial
+  await expect(page.locator('#btn-mode-short')).toBeVisible();
   await expect(page.getByText(FRASE_SECRETA, { exact: false })).toBeVisible();
 });
 
