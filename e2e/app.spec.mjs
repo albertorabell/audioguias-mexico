@@ -770,6 +770,9 @@ test('inicio del sitio: el botón principal "Empezar recorrido" arranca el recor
   await page.locator('#btn-other-tour').click();
   await expect(page.locator('#first-route-card')).toBeVisible();
   await boton.click();
+  // el primer toque abre la hoja de vista previa; solo «Empezar ruta» arranca
+  await expect(page.locator('#route-preview')).toBeVisible();
+  await page.locator('#btn-preview-start').click();
   await expect(boton).toBeHidden(); // salió de la portada: está dentro de la primera parada
   await page.goBack();
   // con un recorrido empezado, la portada ofrece seguirlo en lugar de empezar otro
