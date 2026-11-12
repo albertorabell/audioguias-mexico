@@ -412,6 +412,42 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 <ChevronRight className="w-4 h-4 -rotate-90" aria-hidden="true" />
               </button>
             )}
+            <ul className="mt-4 border-t border-line">
+              {m.passItems(u.worksCount(pieces.length), PASS_MAX_DEVICES).map((item, i) => {
+                const Icon = PASS_ICONS[i] || Info;
+                return (
+                  <li key={i} className="flex items-start gap-3.5 py-4 border-b border-line">
+                    <Icon className="w-5 h-5 mt-0.5 text-jade-ink shrink-0" strokeWidth={1.9} aria-hidden="true" />
+                    <div className="min-w-0">
+                      <p className="text-[1.0625rem] font-bold leading-snug text-ink">{item.title}</p>
+                      <p className="mt-0.5 text-ui leading-[1.5] text-ink-2 text-pretty">{item.desc}</p>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+            <h3 className="mt-6 text-ui font-bold text-ink-2">{m.passHowTitle}</h3>
+            <ol className="mt-2 space-y-2.5">
+              {m.passHow.map((step, i) => (
+                <li key={i} className="flex gap-3.5">
+                  <span className="font-serif text-[1.25rem] leading-none text-jade-ink w-4 shrink-0 pt-0.5">{i + 1}</span>
+                  <p className="text-ui leading-[1.5] text-ink-2 text-pretty">{step}</p>
+                </li>
+              ))}
+            </ol>
+            <button type="button" id="btn-pass-unlock" onClick={onOpenPaywall} className="btn-primary w-full mt-5">
+              {m.passCta(price)}
+            </button>
+          </section>
+        )}
+
+        {/* Recorridos: una lista de horario, con la duración a la izquierda */}
+        {shelf.length > 0 && (
+          <section id="time-chooser" className="mt-10 px-5 scroll-mt-20" aria-labelledby="routes-title">
+            <h2 id="routes-title" className="font-serif text-[1.625rem] leading-tight font-medium">
+              {m.routesTitle}
+            </h2>
+            <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.routesSub}</p>
             {/* Cuadrícula de celdas iguales: con un número impar de rutas, «Armar la mía» ocupa la celda libre */}
             <ul className="mt-4 grid grid-cols-2 gap-3">
               {shelf.map((route, i) => (
@@ -443,66 +479,6 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                       <span className="block text-[1rem] font-bold leading-snug text-ink">{m.buildOwn}</span>
                       <span className="mt-0.5 block text-cap text-ink-3">{m.buildOwnSub}</span>
                     </span>
-                  </button>
-                </li>
-              )}
-            </ul>
-            <h3 className="mt-6 text-ui font-bold text-ink-2">{m.passHowTitle}</h3>
-            <ol className="mt-2 space-y-2.5">
-              {m.passHow.map((step, i) => (
-                <li key={i} className="flex gap-3.5">
-                  <span className="font-serif text-[1.25rem] leading-none text-jade-ink w-4 shrink-0 pt-0.5">{i + 1}</span>
-                  <p className="text-ui leading-[1.5] text-ink-2 text-pretty">{step}</p>
-                </li>
-              ))}
-            </ol>
-            <button type="button" id="btn-pass-unlock" onClick={onOpenPaywall} className="btn-primary w-full mt-5">
-              {m.passCta(price)}
-            </button>
-          </section>
-        )}
-
-        {/* Recorridos: una lista de horario, con la duración a la izquierda */}
-        {shelf.length > 0 && (
-          <section id="time-chooser" className="mt-10 px-5 scroll-mt-20" aria-labelledby="routes-title">
-            <h2 id="routes-title" className="font-serif text-[1.625rem] leading-tight font-medium">
-              {m.routesTitle}
-            </h2>
-            <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.routesSub}</p>
-            <ul className="mt-4 border-t border-line">
-              {shelf.map((route, i) => (
-                <li key={route.id} className="border-b border-line">
-                  <button
-                    type="button"
-                    id={i === 0 ? 'first-route-card' : undefined}
-                    onClick={() => onStartRoute(route)}
-                    className="w-full flex items-start gap-4 py-4 text-left cursor-pointer row-press"
-                  >
-                    <span className="w-[4.75rem] shrink-0 pt-0.5">
-                      <span className="block font-serif text-[1.375rem] leading-none tabular-nums text-ink whitespace-nowrap">
-                        {formatRouteDurationShort(minutesOf(route))}
-                      </span>
-                      <span className="block mt-1.5 text-cap text-ink-3">{u.worksCount(route.stops.length)}</span>
-                    </span>
-                    <span className="min-w-0 flex-1">
-                      <span className="block text-[1.0625rem] font-bold leading-snug text-ink">{route.name}</span>
-                      {route.description && <span className="mt-1 text-cap leading-[1.45] text-ink-3 line-clamp-2">{route.description}</span>}
-                    </span>
-                    <ChevronRight className="w-5 h-5 text-ink-3 shrink-0 self-center" aria-hidden="true" />
-                  </button>
-                </li>
-              ))}
-              {onOpenWizard && (
-                <li className="border-b border-line">
-                  <button type="button" id="btn-open-wizard" onClick={onOpenWizard} className="w-full flex items-center gap-4 py-4 text-left cursor-pointer row-press">
-                    <span className="w-[4.75rem] shrink-0">
-                      <SlidersHorizontal className="w-6 h-6 text-jade-ink" strokeWidth={1.8} />
-                    </span>
-                    <span className="min-w-0 flex-1">
-                      <span className="block text-[1.0625rem] font-bold leading-snug text-ink">{m.buildOwn}</span>
-                      <span className="mt-0.5 block text-cap text-ink-3">{m.buildOwnSub}</span>
-                    </span>
-                    <ChevronRight className="w-5 h-5 text-ink-3 shrink-0" aria-hidden="true" />
                   </button>
                 </li>
               )}
