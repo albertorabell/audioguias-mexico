@@ -170,8 +170,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   };
   const durationLabel = (s: number) => (s < 60 ? u.seconds(s) : u.minutes(Math.max(1, Math.round(s / 60))));
   const sameText = guionLargo.trim() === guionCorto.trim();
-  // «Hay más»: solo si la versión larga existe, es otra y el texto ya está disponible
-  const canExpand = !sameText && !textMissing;
+  // «Hay más»: solo si la versión larga existe y es otra (la misma condición que tenía el interruptor)
+  const canExpand = !sameText;
   const extraLabel = durationLabel(Math.max(30, seconds.inmersion - seconds.expres));
   // Los enlaces solo se ofrecen cuando el texto completo está aquí (con pase) y la pieza enlazada existe
   const linksOn = !textMissing && !!resolvePiece;
