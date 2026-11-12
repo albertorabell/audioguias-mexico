@@ -21,7 +21,7 @@ function markPieceTourSeen(): void {
 }
 
 /** Qué botón señala cada paso de `intro.piece` (mismo orden). */
-const PIECE_TARGETS = ['#btn-master-play-piece', '#version-switch', '#piece-text', '#btn-piece-next-stop, #btn-piece-finish-stop', '#btn-nav-back', '#btn-nav-quick-search'];
+const PIECE_TARGETS = ['#btn-master-play-piece', '#btn-mode-full, #btn-mode-short', '#piece-text', '#btn-piece-next-stop, #btn-piece-finish-stop', '#btn-nav-back', '#btn-nav-quick-search'];
 
 /** Guía de la ficha de una obra: escuchar, versión corta/completa, leer, siguiente, regresar y buscar. */
 export const PieceTour: React.FC<{ open: boolean; onClose: () => void }> = ({ open, onClose }) => {

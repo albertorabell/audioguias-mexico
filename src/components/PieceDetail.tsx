@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { AlertCircle, Check, ChevronRight, CircleHelp, Lock, Maximize2, Search, X, AudioLines, Smartphone, Flag, Footprints } from 'lucide-react';
+import { AlertCircle, Check, ChevronDown, ChevronRight, CircleHelp, Lock, Maximize2, Search, X, AudioLines, Smartphone, Flag, Footprints } from 'lucide-react';
 import { Piece, PieceData, SpecItem, PieceSpecsObject } from '../types';
 import { PieceImage } from './PieceImage';
 import { ImageZoomModal } from './ImageZoomModal';
@@ -170,6 +170,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   };
   const durationLabel = (s: number) => (s < 60 ? u.seconds(s) : u.minutes(Math.max(1, Math.round(s / 60))));
   const sameText = guionLargo.trim() === guionCorto.trim();
+  // «Hay más»: solo si la versión larga existe, es otra y el texto ya está disponible
+  const canExpand = !sameText && !textMissing;
+  const extraLabel = durationLabel(Math.max(30, seconds.inmersion - seconds.expres));
   // Los enlaces solo se ofrecen cuando el texto completo está aquí (con pase) y la pieza enlazada existe
   const linksOn = !textMissing && !!resolvePiece;
   const canOpenLink = (id: string) => id !== pieceId && !!resolvePiece?.(id);
@@ -224,6 +227,21 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
       /* sin almacenamiento */
     }
   };
+
+  // «Escuchar la versión completa» al terminar la corta: cambia de versión y arranca sola
+  const playAfterMode = useRef(false);
+  const playFull = () => {
+    playAfterMode.current = true;
+    setFinished(false);
+    setMode('inmersion');
+  };
+  useEffect(() => {
+    if (playAfterMode.current && mode === 'inmersion') {
+      playAfterMode.current = false;
+      togglePlay();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mode]);
 
   const togglePlay = () => {
     if (locked) {
@@ -423,37 +441,49 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
 
         {/* Versión: lo que se lee es lo que se escucha */}
         <section className="px-5 mt-6" aria-label={u.piece.versionAria}>
-          {!sameText && (
-            <div id="version-switch" role="radiogroup" aria-label={u.piece.versionAria} className="grid grid-cols-2 p-1 rounded-2xl bg-surface border border-line">
-              {(['expres', 'inmersion'] as Mode[]).map((m) => {
-                const on = mode === m;
-                return (
-                  <button
-                    key={m}
-                    type="button"
-                    role="radio"
-                    aria-checked={on}
-                    id={m === 'expres' ? 'btn-mode-short' : 'btn-mode-full'}
-                    onClick={() => setMode(m)}
-                    className={`min-h-12 rounded-xl px-3 cursor-pointer transition-colors ${on ? 'bg-raised text-ink shadow-sm' : 'text-ink-3'}`}
-                  >
-                    <span className="block text-ui font-bold leading-tight">{m === 'expres' ? u.piece.short : u.piece.full}</span>
-                    <span className="block text-[12px] leading-tight mt-0.5 tabular-nums">{durationLabel(seconds[m])}</span>
-                  </button>
-                );
-              })}
-            </div>
-          )}
-          <p className="mt-2.5 text-cap text-ink-3 flex items-center gap-1.5">
+          <p className="mt-3 text-cap text-ink-3 flex items-center gap-1.5">
             {hasAudioFile ? <AudioLines className="w-4 h-4 text-jade-ink" /> : <Smartphone className="w-4 h-4" />}
             {hasAudioFile ? tp.realAudio : tp.voiceIn(strings.common.languageNames[readLang])}
           </p>
+          {finished && mode === 'expres' && canExpand && (
+            <div id="finished-more" className="mt-4 rounded-2xl bg-jade/15 border border-jade/50 p-4">
+              <p className="text-[1.0625rem] font-bold leading-snug text-ink">{u.piece.moreAfterTitle}</p>
+              <button type="button" id="btn-finished-full" onClick={playFull} className="btn-primary w-full mt-3">
+                {u.piece.moreAfterButton(extraLabel)}
+              </button>
+              {onNext && (
+                <button
+                  type="button"
+                  id="btn-finished-next"
+                  onClick={onNext}
+                  className="mt-1 w-full min-h-11 inline-flex items-center justify-center text-ui font-semibold text-jade-ink cursor-pointer rounded-full active:bg-raised"
+                >
+                  {u.piece.moreAfterNext}
+                </button>
+              )}
+            </div>
+          )}
         </section>
 
         <section id="piece-text" className="px-5 mt-5">
           <p className="font-serif text-read text-ink whitespace-pre-line text-pretty">
             <LinkedText text={mode === 'expres' ? guionCorto : guionLargo} canOpen={canOpenLink} onOpen={linksOn ? setPeekId : undefined} />
           </p>
+          {canExpand && (
+            <button
+              type="button"
+              id={mode === 'expres' ? 'btn-mode-full' : 'btn-mode-short'}
+              aria-expanded={mode === 'inmersion'}
+              onClick={() => setMode(mode === 'expres' ? 'inmersion' : 'expres')}
+              className="mt-4 w-full min-h-12 px-4 rounded-2xl border border-line bg-surface flex items-center justify-between gap-3 text-left cursor-pointer active:bg-raised"
+            >
+              <span className="min-w-0">
+                <span className="block text-ui font-bold leading-tight text-ink">{mode === 'expres' ? u.piece.moreTitle : u.piece.lessTitle}</span>
+                <span className="block text-cap leading-tight mt-0.5 text-ink-3 tabular-nums">{mode === 'expres' ? u.piece.moreSub(extraLabel) : u.piece.lessSub}</span>
+              </span>
+              <ChevronDown className={`w-5 h-5 text-jade-ink shrink-0 transition-transform ${mode === 'inmersion' ? 'rotate-180' : ''}`} aria-hidden="true" />
+            </button>
+          )}
           {textMissing && !hasPass && (
             <div id="texto-con-pase" className="mt-5 rounded-2xl bg-surface border border-line p-4">
               <p className="flex items-center gap-2 text-ui font-bold text-ink">
