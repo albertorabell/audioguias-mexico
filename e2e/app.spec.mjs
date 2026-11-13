@@ -753,21 +753,26 @@ test('velocidad de la voz: 0.75×, 1×, 1.5× y 2×; se aplica al MP3, se marca 
   });
   await page.goto('/');
   await abrirPieza(page, FREE.title);
-  // Un solo botón que rota 0.75× → 1× → 1.5× → 2×
+  // Un botón con la velocidad actual; al tocarlo se despliegan las cuatro y se elige una
   const vel = page.locator('#speed-control #btn-speed');
-  await expect(vel).toHaveText('1×'); // por defecto
+  await expect(vel).toContainText('1×'); // por defecto
   await vel.click();
-  await expect(vel).toHaveText('1.5×');
+  await expect(page.locator('#speed-control [role=menuitemradio]')).toHaveText(['0.75×', '1×', '1.5×', '2×']);
+  await expect(page.locator('#btn-speed-1')).toHaveAttribute('aria-checked', 'true');
+  await page.locator('#btn-speed-1_5').click();
+  await expect(page.locator('#speed-control [role=menu]')).toHaveCount(0); // se cierra al elegir
+  await expect(vel).toContainText('1.5×');
   await page.locator('#btn-master-play-piece').click();
   await expect.poll(() => page.evaluate(() => window.__rates.length)).toBeGreaterThan(0);
   expect(await page.evaluate(() => window.__rates[0])).toBe(1.5);
   // Cambiarla con el audio sonando
   await vel.click();
-  await expect(vel).toHaveText('2×');
+  await page.locator('#btn-speed-2').click();
+  await expect(vel).toContainText('2×');
   // Se recuerda al recargar
   await page.reload();
   await abrirPieza(page, FREE.title);
-  await expect(page.locator('#speed-control #btn-speed')).toHaveText('2×');
+  await expect(page.locator('#speed-control #btn-speed')).toContainText('2×');
   expect(await page.evaluate(() => localStorage.getItem('audioguias_velocidad'))).toBe('2');
 });
 

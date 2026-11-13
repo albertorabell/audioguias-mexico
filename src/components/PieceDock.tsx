@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight, Lock, Pause, Play, Flag, RotateCcw, RotateCw } from 'lucide-react';
+import React, { useEffect, useRef, useState } from 'react';
+import { Check, ChevronLeft, ChevronRight, ChevronUp, Lock, Pause, Play, Flag, RotateCcw, RotateCw } from 'lucide-react';
 import { useLanguage, useStrings } from '../utils/LanguageContext';
 import { reproductorText } from '../i18n/reproductor';
 import { PLAYBACK_RATES } from '../utils/ttsPlayer';
@@ -76,6 +76,22 @@ export const PieceDock: React.FC<PieceDockProps> = ({
   const rt = reproductorText(currentLanguage);
   // Mientras el dedo arrastra la barra se muestra ese valor; el audio salta al soltar
   const [drag, setDrag] = useState<number | null>(null);
+  // Menú de velocidades: se abre al tocar el botón y se cierra al elegir, al tocar fuera o con Escape
+  const [speedOpen, setSpeedOpen] = useState(false);
+  const speedRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!speedOpen) return;
+    const onDown = (e: Event) => {
+      if (speedRef.current && !speedRef.current.contains(e.target as Node)) setSpeedOpen(false);
+    };
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setSpeedOpen(false);
+    document.addEventListener('pointerdown', onDown);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('pointerdown', onDown);
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [speedOpen]);
   const fmt = (n: number) => `${Math.floor(n / 60)}:${String(Math.floor(n % 60)).padStart(2, '0')}`;
   const showSeek = !locked && started && !!seek && seek.duration > 0;
   const pct = Math.max(0, Math.min(100, progress * 100));
@@ -113,20 +129,50 @@ export const PieceDock: React.FC<PieceDockProps> = ({
             <span className="flex-1" />
           )}
           {onSpeed && (
-            <span id="speed-control" className="shrink-0">
+            <div id="speed-control" ref={speedRef} className="relative shrink-0">
               <button
                 id="btn-speed"
                 type="button"
-                onClick={() => {
-                  const i = PLAYBACK_RATES.findIndex((r) => Math.abs(speed - r) < 0.001);
-                  onSpeed(PLAYBACK_RATES[(i + 1) % PLAYBACK_RATES.length]);
-                }}
+                onClick={() => setSpeedOpen((v) => !v)}
+                aria-haspopup="menu"
+                aria-expanded={speedOpen}
                 aria-label={`${u.speedAria}: ${rateLabel(speed)}`}
-                className="h-11 min-w-[3.5rem] px-2 rounded-full bg-raised border border-line text-cap font-bold tabular-nums text-ink-2 cursor-pointer active:scale-95 transition-transform"
+                className="h-11 min-w-[3.5rem] px-2.5 rounded-full bg-raised border border-line text-cap font-bold tabular-nums text-ink inline-flex items-center justify-center gap-1 cursor-pointer active:scale-95 transition-transform"
               >
                 {rateLabel(speed)}
+                <ChevronUp className={`w-3.5 h-3.5 text-ink-3 transition-transform ${speedOpen ? 'rotate-180' : ''}`} aria-hidden="true" />
               </button>
-            </span>
+              {speedOpen && (
+                <div
+                  role="menu"
+                  aria-label={u.speedAria}
+                  className="absolute right-0 bottom-full mb-2 w-32 p-1.5 rounded-2xl bg-raised border-2 border-line-strong shadow-[0_12px_40px_rgba(0,0,0,0.45)] animate-fadeIn"
+                >
+                  {PLAYBACK_RATES.map((r) => {
+                    const on = Math.abs(speed - r) < 0.001;
+                    return (
+                      <button
+                        key={r}
+                        id={`btn-speed-${String(r).replace('.', '_')}`}
+                        type="button"
+                        role="menuitemradio"
+                        aria-checked={on}
+                        onClick={() => {
+                          onSpeed(r);
+                          setSpeedOpen(false);
+                        }}
+                        className={`w-full h-11 px-3 rounded-xl flex items-center justify-between text-ui tabular-nums cursor-pointer ${
+                          on ? 'bg-jade text-on-jade font-bold' : 'text-ink font-semibold active:bg-surface'
+                        }`}
+                      >
+                        {rateLabel(r)}
+                        {on && <Check className="w-4 h-4" aria-hidden="true" />}
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
           )}
         </div>
       )}
