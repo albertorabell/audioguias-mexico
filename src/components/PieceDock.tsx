@@ -30,6 +30,16 @@ interface PieceDockProps {
   speed?: number;
   onSpeed?: (rate: number) => void;
   /** Barra para moverse dentro del audio (solo con el MP3; la voz del teléfono no permite saltar). Sin esto no aparece. */
+  /** Versión corta o completa: siempre a la vista, junto al botón de escuchar. Sin esto (la obra tiene un solo texto) no aparece. */
+  version?: {
+    mode: 'expres' | 'inmersion';
+    shortLabel: string;
+    fullLabel: string;
+    shortTime: string;
+    fullTime: string;
+    aria: string;
+    onChange: (m: 'expres' | 'inmersion') => void;
+  };
   seek?: {
     current: number;
     duration: number;
@@ -58,6 +68,7 @@ export const PieceDock: React.FC<PieceDockProps> = ({
   nextLabel,
   speed = 1,
   onSpeed,
+  version,
   seek,
 }) => {
   const u = useStrings().ui.piece;
@@ -74,31 +85,49 @@ export const PieceDock: React.FC<PieceDockProps> = ({
       id="piece-dock"
       className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[var(--app-w)] z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line"
     >
-      {onSpeed && (
-        <div
-          id="speed-control"
-          role="group"
-          aria-label={u.speedAria}
-          className="max-w-[var(--app-w)] mx-auto px-3 pt-2 flex items-center justify-center gap-1.5"
-        >
-          {PLAYBACK_RATES.map((r) => {
-            const on = Math.abs(speed - r) < 0.001;
-            return (
+      {(version || onSpeed) && (
+        <div className="max-w-[var(--app-w)] mx-auto px-3 pt-2 flex items-center gap-2">
+          {version ? (
+            <div id="version-switch" role="radiogroup" aria-label={version.aria} className="flex-1 min-w-0 grid grid-cols-2 p-1 rounded-full bg-surface border border-line">
+              {(['expres', 'inmersion'] as const).map((m) => {
+                const on = version.mode === m;
+                return (
+                  <button
+                    key={m}
+                    type="button"
+                    role="radio"
+                    aria-checked={on}
+                    id={m === 'expres' ? 'btn-mode-short' : 'btn-mode-full'}
+                    onClick={() => version.onChange(m)}
+                    className={`h-9 px-2 rounded-full cursor-pointer transition-colors truncate text-cap ${
+                      on ? 'bg-jade text-on-jade font-bold shadow-sm' : 'text-ink-2 font-semibold active:bg-raised'
+                    }`}
+                  >
+                    {m === 'expres' ? version.shortLabel : version.fullLabel}
+                    <span className={`tabular-nums ${on ? 'opacity-90' : 'text-ink-3'}`}> · {m === 'expres' ? version.shortTime : version.fullTime}</span>
+                  </button>
+                );
+              })}
+            </div>
+          ) : (
+            <span className="flex-1" />
+          )}
+          {onSpeed && (
+            <span id="speed-control" className="shrink-0">
               <button
-                key={r}
-                id={`btn-speed-${String(r).replace('.', '_')}`}
+                id="btn-speed"
                 type="button"
-                onClick={() => onSpeed(r)}
-                aria-pressed={on}
-                aria-label={`${u.speedAria}: ${rateLabel(r)}`}
-                className={`h-7 min-w-[3.25rem] px-2 rounded-full text-cap font-bold tabular-nums transition-colors ${
-                  on ? 'bg-jade text-on-jade' : 'bg-raised text-ink-2 border border-line'
-                }`}
+                onClick={() => {
+                  const i = PLAYBACK_RATES.findIndex((r) => Math.abs(speed - r) < 0.001);
+                  onSpeed(PLAYBACK_RATES[(i + 1) % PLAYBACK_RATES.length]);
+                }}
+                aria-label={`${u.speedAria}: ${rateLabel(speed)}`}
+                className="h-11 min-w-[3.5rem] px-2 rounded-full bg-raised border border-line text-cap font-bold tabular-nums text-ink-2 cursor-pointer active:scale-95 transition-transform"
               >
-                {rateLabel(r)}
+                {rateLabel(speed)}
               </button>
-            );
-          })}
+            </span>
+          )}
         </div>
       )}
       {showSeek && seek && (

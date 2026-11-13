@@ -248,6 +248,8 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   const showPass = !hasPass && site.access !== 'code' && site.access !== 'free';
   const price = passPrice(site, currentLanguage, SPEECH_LOCALE[currentLanguage]);
 
+  const jumpTo = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const chip = 'shrink-0 h-10 px-3.5 rounded-full border border-line bg-surface inline-flex items-center gap-1.5 text-ui font-semibold text-ink cursor-pointer active:bg-raised whitespace-nowrap';
   const scrollToBefore = () => document.getElementById('before-visit')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
   return (
@@ -300,14 +302,6 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 <p className="mt-2 text-cap text-ink-3 text-center text-pretty">
                   {mainRoute.name} · {inlineDuration(minutesOf(mainRoute))}
                 </p>
-                <button
-                  type="button"
-                  id="btn-other-tour"
-                  onClick={() => document.getElementById('time-chooser')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-                  className="mt-1 w-full min-h-11 inline-flex items-center justify-center text-ui font-semibold text-jade-ink cursor-pointer rounded-full active:bg-raised"
-                >
-                  {m.otherTour}
-                </button>
               </div>
             )}
             {freePieces.length > 0 && onOpenPiece && !continueInfo && (
@@ -320,17 +314,31 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 {u.home.tryFree}
               </button>
             )}
-            {before.length > 0 && (
-              <button
-                type="button"
-                id="btn-before-link"
-                onClick={scrollToBefore}
-                className="mt-3 -ml-1 min-h-10 px-1 inline-flex items-center gap-1.5 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg text-left"
-              >
-                <Info className="w-4 h-4 shrink-0" strokeWidth={2} />
-                {m.beforeLink}
+            {/* Atajos: la portada es larga; estos botones llevan directo a cada parte */}
+            <nav id="site-shortcuts" aria-label={m.shortcutsAria} className="mt-5 -mx-5 px-5 flex gap-2 overflow-x-auto [scrollbar-width:none]">
+              {shelf.length > 0 && (
+                <button type="button" id="btn-other-tour" onClick={() => jumpTo('time-chooser')} className={chip}>
+                  <RouteIcon className="w-4 h-4 shrink-0" strokeWidth={2} />
+                  {m.routesTitle}
+                </button>
+              )}
+              <button type="button" id="btn-jump-rooms" onClick={() => jumpTo('rooms-section')} className={chip}>
+                <MapPin className="w-4 h-4 shrink-0" strokeWidth={2} />
+                {m.rooms}
               </button>
-            )}
+              {onOpenMap && (
+                <button type="button" id="btn-jump-map" onClick={onOpenMap} className={chip}>
+                  <MapIcon className="w-4 h-4 shrink-0" strokeWidth={2} />
+                  {u.tabs.map}
+                </button>
+              )}
+              {before.length > 0 && (
+                <button type="button" id="btn-before-link" onClick={scrollToBefore} className={chip}>
+                  <Info className="w-4 h-4 shrink-0" strokeWidth={2} />
+                  {m.beforeTitle}
+                </button>
+              )}
+            </nav>
           </div>
         </header>
 
@@ -352,6 +360,62 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
               </span>
               <ChevronRight className="w-5 h-5 text-jade-ink shrink-0" />
             </button>
+          </section>
+        )}
+
+        {/* Recorridos: una lista de horario, con la duración a la izquierda */}
+        {shelf.length > 0 && (
+          <section id="time-chooser" className="mt-10 px-5 scroll-mt-20" aria-labelledby="routes-title">
+            <h2 id="routes-title" className="font-serif text-[1.625rem] leading-tight font-medium">
+              {m.routesTitle}
+            </h2>
+            <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.routesSub}</p>
+            {/* Cuadrícula de celdas iguales: con un número impar de rutas, «Armar la mía» ocupa la celda libre */}
+            <ul className="mt-4 grid grid-cols-2 gap-3">
+              {shelf.map((route, i) => (
+                <li key={route.id} className="flex">
+                  <button
+                    type="button"
+                    id={i === 0 ? 'first-route-card' : undefined}
+                    onClick={() => setPreviewRoute(route)}
+                    className="w-full min-h-[10.5rem] flex flex-col items-start gap-2 rounded-2xl border border-line bg-paper p-4 text-left cursor-pointer row-press"
+                  >
+                    <span className="font-serif text-[1.75rem] leading-none tabular-nums text-ink whitespace-nowrap">
+                      {formatRouteDurationShort(minutesOf(route))}
+                    </span>
+                    <span className="text-cap text-ink-3">{u.worksCount(route.stops.length)}</span>
+                    <span className="mt-auto text-[1rem] font-bold leading-snug text-ink text-pretty line-clamp-4">{route.name}</span>
+                  </button>
+                </li>
+              ))}
+              {onOpenWizard && (
+                <li className={`flex ${shelf.length % 2 === 0 ? 'col-span-2' : ''}`}>
+                  <button
+                    type="button"
+                    id="btn-open-wizard"
+                    onClick={onOpenWizard}
+                    className={`w-full ${shelf.length % 2 === 0 ? 'min-h-[4.5rem] flex-row items-center' : 'min-h-[10.5rem] flex-col items-start'} flex gap-2 rounded-2xl border border-dashed border-jade-ink/40 p-4 text-left cursor-pointer row-press`}
+                  >
+                    <SlidersHorizontal className="w-6 h-6 text-jade-ink shrink-0" strokeWidth={1.8} />
+                    <span className={shelf.length % 2 === 0 ? 'min-w-0 flex-1' : 'mt-auto'}>
+                      <span className="block text-[1rem] font-bold leading-snug text-ink">{m.buildOwn}</span>
+                      <span className="mt-0.5 block text-cap text-ink-3">{m.buildOwnSub}</span>
+                    </span>
+                  </button>
+                </li>
+              )}
+            </ul>
+            {onOpenRoutes && routes.length > shelf.length && (
+              <button
+                type="button"
+                id="btn-all-routes"
+                onClick={onOpenRoutes}
+                className="mt-2 -ml-1 h-11 px-1 inline-flex items-center gap-1 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg"
+              >
+                {routes.some((r) => r.group === 'tema') ? m.allRoutes(routes.length) : m.allRoutesPlain(routes.length)}
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            )}
           </section>
         )}
 
@@ -441,62 +505,6 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
           </section>
         )}
 
-        {/* Recorridos: una lista de horario, con la duración a la izquierda */}
-        {shelf.length > 0 && (
-          <section id="time-chooser" className="mt-10 px-5 scroll-mt-20" aria-labelledby="routes-title">
-            <h2 id="routes-title" className="font-serif text-[1.625rem] leading-tight font-medium">
-              {m.routesTitle}
-            </h2>
-            <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.routesSub}</p>
-            {/* Cuadrícula de celdas iguales: con un número impar de rutas, «Armar la mía» ocupa la celda libre */}
-            <ul className="mt-4 grid grid-cols-2 gap-3">
-              {shelf.map((route, i) => (
-                <li key={route.id} className="flex">
-                  <button
-                    type="button"
-                    id={i === 0 ? 'first-route-card' : undefined}
-                    onClick={() => setPreviewRoute(route)}
-                    className="w-full min-h-[10.5rem] flex flex-col items-start gap-2 rounded-2xl border border-line bg-paper p-4 text-left cursor-pointer row-press"
-                  >
-                    <span className="font-serif text-[1.75rem] leading-none tabular-nums text-ink whitespace-nowrap">
-                      {formatRouteDurationShort(minutesOf(route))}
-                    </span>
-                    <span className="text-cap text-ink-3">{u.worksCount(route.stops.length)}</span>
-                    <span className="mt-auto text-[1rem] font-bold leading-snug text-ink text-pretty line-clamp-4">{route.name}</span>
-                  </button>
-                </li>
-              ))}
-              {onOpenWizard && (
-                <li className={`flex ${shelf.length % 2 === 0 ? 'col-span-2' : ''}`}>
-                  <button
-                    type="button"
-                    id="btn-open-wizard"
-                    onClick={onOpenWizard}
-                    className={`w-full ${shelf.length % 2 === 0 ? 'min-h-[4.5rem] flex-row items-center' : 'min-h-[10.5rem] flex-col items-start'} flex gap-2 rounded-2xl border border-dashed border-jade-ink/40 p-4 text-left cursor-pointer row-press`}
-                  >
-                    <SlidersHorizontal className="w-6 h-6 text-jade-ink shrink-0" strokeWidth={1.8} />
-                    <span className={shelf.length % 2 === 0 ? 'min-w-0 flex-1' : 'mt-auto'}>
-                      <span className="block text-[1rem] font-bold leading-snug text-ink">{m.buildOwn}</span>
-                      <span className="mt-0.5 block text-cap text-ink-3">{m.buildOwnSub}</span>
-                    </span>
-                  </button>
-                </li>
-              )}
-            </ul>
-            {onOpenRoutes && routes.length > shelf.length && (
-              <button
-                type="button"
-                id="btn-all-routes"
-                onClick={onOpenRoutes}
-                className="mt-2 -ml-1 h-11 px-1 inline-flex items-center gap-1 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg"
-              >
-                {routes.some((r) => r.group === 'tema') ? m.allRoutes(routes.length) : m.allRoutesPlain(routes.length)}
-                <ChevronRight className="w-4 h-4" />
-              </button>
-            )}
-          </section>
-        )}
-
         {previewRoute && (
           <RoutePreviewSheet
             route={previewRoute}
@@ -558,7 +566,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
         )}
 
         {/* Salas o zonas: lista sencilla con su número */}
-        <section className="mt-12" aria-labelledby="rooms-title">
+        <section id="rooms-section" className="mt-12 scroll-mt-20" aria-labelledby="rooms-title">
           <div className="px-5 flex items-baseline justify-between gap-3">
             <h2 id="rooms-title" className="font-serif text-[1.625rem] leading-tight font-medium">
               {m.rooms}
