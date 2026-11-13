@@ -195,11 +195,8 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   );
   const routes = useMemo(() => (manifest?.routes || []).filter((r) => r.stops?.length), [manifest]);
 
-  /** Los recorridos del inicio: los de «según tu tiempo» (o todos si el sitio no los agrupa), del más corto al más largo. */
-  const shelf = useMemo(() => {
-    const byTime = routes.filter((r) => !r.group || r.group === 'tiempo');
-    return [...(byTime.length ? byTime : routes)].sort((a, b) => minutesOf(a) - minutesOf(b)).slice(0, 6);
-  }, [routes]);
+  /** Los recorridos del inicio: todos los del sitio (son de 2 a 6), del más corto al más largo, sin importar su grupo. */
+  const shelf = useMemo(() => [...routes].sort((a, b) => minutesOf(a) - minutesOf(b)).slice(0, 6), [routes]);
 
   /** El recorrido del botón «Empezar recorrido»: el que el Sheet marca como principal, o el más corto. */
   const mainRoute = useMemo(() => routes.find((r) => r.principal) || shelf[0], [routes, shelf]);
