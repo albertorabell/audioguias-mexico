@@ -143,22 +143,24 @@ test('guía de la obra: la primera vez señala escuchar, versión corta/completa
   await expect(tour).toHaveCount(0);
 });
 
-test('obra: empieza en la versión corta y una fila debajo del texto invita a la completa (y permite volver)', async ({ page }) => {
+test('obra: corta o completa se elige en la barra de abajo, siempre a la vista; el enlace del texto también lleva a la completa', async ({ page }) => {
   await simularCobro(page);
   await simularAudio(page, { privado: true, gratisPublico: true });
   await sinVoces(page);
   await page.goto('/');
   await abrirPieza(page, FREE.title);
-  const mas = page.locator('#btn-mode-full');
-  await expect(mas).toBeVisible();
-  await expect(mas).toContainText('Hay más sobre esta obra');
-  await expect(mas).toContainText(/\+\d+\s*(min|s)/);
-  await expect(page.locator('#version-switch')).toHaveCount(0); // ya no hay interruptor de dos botones
-  await mas.click();
-  const menos = page.locator('#btn-mode-short');
-  await expect(menos).toContainText('Ver solo lo esencial');
-  await menos.click();
-  await expect(page.locator('#btn-mode-full')).toBeVisible();
+  const corta = page.locator('#piece-dock #btn-mode-short');
+  const completa = page.locator('#piece-dock #btn-mode-full');
+  await expect(corta).toHaveAttribute('aria-checked', 'true'); // empieza en la corta
+  await expect(completa).toContainText(/Completa · \d+\s*(min|s)/);
+  await completa.click();
+  await expect(completa).toHaveAttribute('aria-checked', 'true');
+  await expect(page.locator('#btn-text-more')).toHaveCount(0);
+  await corta.click();
+  await expect(corta).toHaveAttribute('aria-checked', 'true');
+  // al final del texto corto, un enlace lleva a la completa
+  await page.locator('#btn-text-more').click();
+  await expect(completa).toHaveAttribute('aria-checked', 'true');
 });
 
 // ───────────────────────── Idioma ─────────────────────────
@@ -654,8 +656,8 @@ test('textos de pago: sin internet, con pase, se usa la copia guardada en el tel
   await page.route('https://pagos.test/texto/**', (route) => route.abort());
   await page.reload();
   await abrirPieza(page, FREE.title);
-  // la versión completa quedó guardada como preferencia: ya se abre en ella y la fila ofrece volver a lo esencial
-  await expect(page.locator('#btn-mode-short')).toBeVisible();
+  // la versión completa quedó guardada como preferencia: ya se abre en ella
+  await expect(page.locator('#btn-mode-full')).toHaveAttribute('aria-checked', 'true');
   await expect(page.getByText(FRASE_SECRETA, { exact: false })).toBeVisible();
 });
 
@@ -751,23 +753,26 @@ test('velocidad de la voz: 0.75×, 1×, 1.5× y 2×; se aplica al MP3, se marca 
   });
   await page.goto('/');
   await abrirPieza(page, FREE.title);
-  const control = page.locator('#speed-control');
-  await expect(control.getByRole('button')).toHaveText(['0.75×', '1×', '1.5×', '2×']);
-  // Por defecto: 1×
-  await expect(page.locator('#btn-speed-1')).toHaveAttribute('aria-pressed', 'true');
+  // Un botón con la velocidad actual; al tocarlo se despliegan las cuatro y se elige una
+  const vel = page.locator('#speed-control #btn-speed');
+  await expect(vel).toContainText('1×'); // por defecto
+  await vel.click();
+  await expect(page.locator('#speed-control [role=menuitemradio]')).toHaveText(['0.75×', '1×', '1.5×', '2×']);
+  await expect(page.locator('#btn-speed-1')).toHaveAttribute('aria-checked', 'true');
   await page.locator('#btn-speed-1_5').click();
-  await expect(page.locator('#btn-speed-1_5')).toHaveAttribute('aria-pressed', 'true');
-  await expect(page.locator('#btn-speed-1')).toHaveAttribute('aria-pressed', 'false');
+  await expect(page.locator('#speed-control [role=menu]')).toHaveCount(0); // se cierra al elegir
+  await expect(vel).toContainText('1.5×');
   await page.locator('#btn-master-play-piece').click();
   await expect.poll(() => page.evaluate(() => window.__rates.length)).toBeGreaterThan(0);
   expect(await page.evaluate(() => window.__rates[0])).toBe(1.5);
   // Cambiarla con el audio sonando
+  await vel.click();
   await page.locator('#btn-speed-2').click();
-  await expect(page.locator('#btn-speed-2')).toHaveAttribute('aria-pressed', 'true');
+  await expect(vel).toContainText('2×');
   // Se recuerda al recargar
   await page.reload();
   await abrirPieza(page, FREE.title);
-  await expect(page.locator('#btn-speed-2')).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.locator('#speed-control #btn-speed')).toContainText('2×');
   expect(await page.evaluate(() => localStorage.getItem('audioguias_velocidad'))).toBe('2');
 });
 
@@ -791,6 +796,9 @@ test('inicio del sitio: el botón principal "Empezar recorrido" arranca el recor
   await boton.click();
   // el primer toque abre la hoja de vista previa; solo «Empezar ruta» arranca
   await expect(page.locator('#route-preview')).toBeVisible();
+  // la hoja tiene fondo propio (no transparente): se debe poder leer sobre la portada
+  const fondo = await page.locator('#route-preview').evaluate((el) => getComputedStyle(el).backgroundColor);
+  expect(fondo).not.toMatch(/rgba\(.*,\s*0\)$/);
   await page.locator('#btn-preview-start').click();
   await expect(boton).toBeHidden(); // salió de la portada: está dentro de la primera parada
   await page.goBack();

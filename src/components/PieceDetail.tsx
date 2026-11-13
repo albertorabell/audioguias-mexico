@@ -217,9 +217,14 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const started = isThis;
   const timeLabel = started ? `${fmtClock(tts.currentTime)} / ${fmtClock(tts.duration)}` : durationLabel(seconds[mode]);
 
+  // Tras cambiar de versión, el audio de la nueva arranca solo
+  const playAfterMode = useRef(false);
   const setMode = (m: Mode) => {
     if (m === mode) return;
+    // Si estaba sonando, la otra versión arranca sola: cambiar de versión no debe dejar a la persona en silencio
+    if (isPlaying) playAfterMode.current = true;
     if (isThis) ttsPlayer.stop();
+    setFinished(false);
     setModeState(m);
     try {
       localStorage.setItem(MODE_KEY, m);
@@ -229,26 +234,26 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   };
 
   // «Escuchar la versión completa» al terminar la corta: cambia de versión y arranca sola
-  const playAfterMode = useRef(false);
   const playFull = () => {
     playAfterMode.current = true;
     setFinished(false);
     setMode('inmersion');
   };
   useEffect(() => {
-    if (playAfterMode.current && mode === 'inmersion') {
+    if (playAfterMode.current) {
       playAfterMode.current = false;
-      togglePlay();
+      togglePlay(true);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode]);
 
-  const togglePlay = () => {
+  /** `fresh` = arrancar desde el principio aunque el estado del audio anterior aún no se haya limpiado (cambio de versión). */
+  const togglePlay = (fresh = false) => {
     if (locked) {
       onOpenPaywall();
       return;
     }
-    if (isPlaying) {
+    if (!fresh && isPlaying) {
       ttsPlayer.pause();
       return;
     }
@@ -257,7 +262,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
       setErrorMessage(textState === 'loading' ? u.piece.textLoading : u.piece.textError);
       return;
     }
-    if (isThis && tts.isPaused) {
+    if (!fresh && isThis && tts.isPaused) {
       ttsPlayer.resume();
       return;
     }
@@ -342,6 +347,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     <div className="min-h-dvh bg-bg text-ink pb-dock">
       <TopBar
         id="museum-top-header"
+        hideTheme
         onBack={onBack}
         eyebrow={positionLabel}
         title={contextTitle}
@@ -469,19 +475,15 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
           <p className="font-serif text-read text-ink whitespace-pre-line text-pretty">
             <LinkedText text={mode === 'expres' ? guionCorto : guionLargo} canOpen={canOpenLink} onOpen={linksOn ? setPeekId : undefined} />
           </p>
-          {canExpand && (
+          {canExpand && mode === 'expres' && (
             <button
               type="button"
-              id={mode === 'expres' ? 'btn-mode-full' : 'btn-mode-short'}
-              aria-expanded={mode === 'inmersion'}
-              onClick={() => setMode(mode === 'expres' ? 'inmersion' : 'expres')}
-              className="mt-4 w-full min-h-12 px-4 rounded-2xl border border-line bg-surface flex items-center justify-between gap-3 text-left cursor-pointer active:bg-raised"
+              id="btn-text-more"
+              onClick={() => setMode('inmersion')}
+              className="mt-2 -ml-1 min-h-11 px-1 inline-flex items-center gap-1 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg text-left"
             >
-              <span className="min-w-0">
-                <span className="block text-ui font-bold leading-tight text-ink">{mode === 'expres' ? u.piece.moreTitle : u.piece.lessTitle}</span>
-                <span className="block text-cap leading-tight mt-0.5 text-ink-3 tabular-nums">{mode === 'expres' ? u.piece.moreSub(extraLabel) : u.piece.lessSub}</span>
-              </span>
-              <ChevronDown className={`w-5 h-5 text-jade-ink shrink-0 transition-transform ${mode === 'inmersion' ? 'rotate-180' : ''}`} aria-hidden="true" />
+              {u.piece.moreSub(extraLabel)}
+              <ChevronDown className="w-4 h-4 shrink-0" aria-hidden="true" />
             </button>
           )}
           {textMissing && !hasPass && (
@@ -666,7 +668,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         timeLabel={timeLabel}
         started={started}
         locked={locked}
-        onTogglePlay={togglePlay}
+        onTogglePlay={() => togglePlay()}
         onPrev={onPrev}
         onNext={onNext}
         prevDisabled={!onPrev}
@@ -676,6 +678,19 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         nextLabel={next?.kind === 'finish' ? u.piece.finish : u.piece.next}
         speed={tts.playbackRate}
         onSpeed={(r) => ttsPlayer.setPlaybackRate(r)}
+        version={
+          canExpand
+            ? {
+                mode,
+                shortLabel: u.piece.short,
+                fullLabel: u.piece.full,
+                shortTime: durationLabel(seconds.expres),
+                fullTime: durationLabel(seconds.inmersion),
+                aria: u.piece.versionAria,
+                onChange: setMode,
+              }
+            : undefined
+        }
         seek={isThis && tts.isHtmlAudio ? { current: tts.currentTime, duration: tts.duration, onSeek: (sec) => ttsPlayer.seekTo(sec), onSkip: (d) => ttsPlayer.skip(d) } : undefined}
       />
 

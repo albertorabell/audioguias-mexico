@@ -44,7 +44,7 @@ export const RoutePreviewSheet: React.FC<RoutePreviewSheetProps> = ({ route, clo
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center" role="dialog" aria-modal="true" aria-labelledby="route-preview-title">
       <button type="button" aria-label={m.previewClose} className="absolute inset-0 bg-black/40" onClick={onClose} />
-      <div id="route-preview" className="relative w-full max-w-xl rounded-t-3xl bg-paper px-5 pb-6 pt-5 shadow-xl max-h-[85vh] overflow-y-auto">
+      <div id="route-preview" className="relative w-full max-w-xl rounded-t-3xl bg-surface border-t-2 border-x-2 border-line-strong px-5 pb-6 pt-5 shadow-[0_-12px_40px_rgba(0,0,0,0.45)] max-h-[85vh] overflow-y-auto">
         <button type="button" onClick={onClose} aria-label={m.previewClose} className="absolute right-3 top-3 h-11 w-11 inline-flex items-center justify-center rounded-full active:bg-raised cursor-pointer">
           <X className="w-5 h-5" />
         </button>

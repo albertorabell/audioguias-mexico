@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ChevronLeft } from 'lucide-react';
+import { ChevronDown, ChevronLeft } from 'lucide-react';
 import { useStrings } from '../../utils/LanguageContext';
 import { ThemeButton } from './HeaderControls';
 
@@ -19,6 +19,8 @@ interface TopBarProps {
   id?: string;
   /** El título aparece solo después de bajar esta cantidad de píxeles (cuando la página ya lo muestra en grande). */
   revealAfter?: number;
+  /** Sin el botón de tema (la ficha de la obra ya tiene bastantes botones arriba). */
+  hideTheme?: boolean;
 }
 
 /** true cuando la página bajó más de `px` píxeles. */
@@ -37,7 +39,7 @@ export function useScrolledPast(px: number): boolean {
  * Barra superior fija. Respeta la muesca del iPhone (pt-safe) y deja el título siempre a la vista
  * para que la persona sepa dónde está.
  */
-export const TopBar: React.FC<TopBarProps> = ({ onBack, backLabel, eyebrow, title, right, onTitleClick, id, revealAfter }) => {
+export const TopBar: React.FC<TopBarProps> = ({ onBack, backLabel, eyebrow, title, right, onTitleClick, id, revealAfter, hideTheme }) => {
   const t = useStrings().chrome.nav;
   const scrolled = useScrolledPast(4);
   const scrolledPast = useScrolledPast(revealAfter ?? 0);
@@ -69,8 +71,10 @@ export const TopBar: React.FC<TopBarProps> = ({ onBack, backLabel, eyebrow, titl
           </button>
         )}
         {onTitleClick && titleBlock ? (
-          <button type="button" onClick={onTitleClick} className="min-w-0 flex-1 text-left px-1 py-1 rounded-lg cursor-pointer active:bg-raised">
+          <button type="button" onClick={onTitleClick} className="min-w-0 flex-1 flex items-center gap-1 text-left px-1 py-1 rounded-lg cursor-pointer active:bg-raised">
             {titleBlock}
+            {/* La flechita avisa que el título se puede tocar (abre la sala o la lista de paradas) */}
+            <ChevronDown className="w-4 h-4 text-ink-3 shrink-0" aria-hidden="true" />
           </button>
         ) : (
           titleBlock && <div className="min-w-0 flex-1 px-1">{titleBlock}</div>
@@ -78,7 +82,7 @@ export const TopBar: React.FC<TopBarProps> = ({ onBack, backLabel, eyebrow, titl
         {!titleBlock && <div className="flex-1" />}
         <div className="flex items-center gap-1 shrink-0 pr-1">
           {right}
-          <ThemeButton />
+          {!hideTheme && <ThemeButton />}
         </div>
       </div>
     </header>

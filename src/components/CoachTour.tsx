@@ -167,15 +167,15 @@ export const CoachTour: React.FC<CoachTourProps> = ({ open, steps, onClose, last
 
       <div
         ref={cardRef}
-        className="absolute rounded-3xl bg-surface text-ink border border-line shadow-2xl p-5 animate-fadeIn"
+        className="absolute rounded-3xl bg-raised text-ink border-2 border-line-strong shadow-[0_12px_40px_rgba(0,0,0,0.55)] p-5 animate-fadeIn"
         style={cardStyle}
         aria-live="polite"
       >
         {showArrow && (
           <span
             aria-hidden="true"
-            className="absolute w-4 h-4 rotate-45 bg-surface border-line"
-            style={{ left: arrowX - 8, ...(side === 'below' ? { top: -8, borderLeftWidth: 1, borderTopWidth: 1 } : { bottom: -8, borderRightWidth: 1, borderBottomWidth: 1 }) }}
+            className="absolute w-4 h-4 rotate-45 bg-raised border-line-strong"
+            style={{ left: arrowX - 8, ...(side === 'below' ? { top: -8, borderLeftWidth: 2, borderTopWidth: 2 } : { bottom: -8, borderRightWidth: 2, borderBottomWidth: 2 }) }}
           />
         )}
         <div className="flex items-center justify-between -mt-1">
@@ -190,7 +190,7 @@ export const CoachTour: React.FC<CoachTourProps> = ({ open, steps, onClose, last
         <h3 className="mt-1 font-serif text-h3 font-medium text-balance" data-testid="intro-title">
           {step.title}
         </h3>
-        <p className="mt-2 text-[1.125rem] leading-relaxed text-ink-2">{step.text}</p>
+        <p className="mt-2 text-[1.125rem] leading-relaxed text-ink">{step.text}</p>
 
         <div className="mt-4">
           {last && lastActions ? (
