@@ -378,7 +378,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                     type="button"
                     id={i === 0 ? 'first-route-card' : undefined}
                     onClick={() => setPreviewRoute(route)}
-                    className="w-full min-h-[10.5rem] flex flex-col items-start gap-2 rounded-2xl border border-line bg-paper p-4 text-left cursor-pointer row-press"
+                    className="w-full min-h-[10.5rem] flex flex-col items-start gap-2 rounded-2xl border border-line bg-surface p-4 text-left cursor-pointer row-press"
                   >
                     <span className="font-serif text-[1.75rem] leading-none tabular-nums text-ink whitespace-nowrap">
                       {formatRouteDurationShort(minutesOf(route))}

@@ -423,6 +423,8 @@ class TTSPlayer {
       audioUrl?: string;
       /** Idioma del texto que se lee (decide la voz del teléfono). Por defecto español. */
       lang?: SupportedLanguage;
+      /** Uso interno: pide el MP3 sin CORS (si el servidor de audio no reconoce el origen de la página, el audio igual suena). */
+      noCors?: boolean;
     }
   ): void {
     // Los enlaces entre piezas ([texto](piece_id)) nunca se leen en voz alta: solo el texto visible
@@ -455,7 +457,8 @@ class TTSPlayer {
       try {
         const audio = new Audio();
         // Los audios de pago vienen de otro dominio (el servidor de audio): se piden con CORS para que el modo sin conexión pueda guardarlos
-        if (/^https?:\/\//i.test(rawAudioUrl) && typeof location !== 'undefined' && !rawAudioUrl.startsWith(location.origin)) {
+        // Si el servidor no reconoce el origen de la página (una dirección de prueba, por ejemplo), se reintenta sin CORS: el audio suena igual
+        if (!meta?.noCors && /^https?:\/\//i.test(rawAudioUrl) && typeof location !== 'undefined' && !rawAudioUrl.startsWith(location.origin)) {
           audio.crossOrigin = 'anonymous';
         }
         audio.src = rawAudioUrl;
@@ -495,6 +498,12 @@ class TTSPlayer {
         const fallBackToSpeech = () => {
           if (fellBack || this.htmlAudio !== audio) return;
           fellBack = true;
+          if (audio.crossOrigin && !meta?.noCors) {
+            // Antes de rendirse a la voz del teléfono: el mismo MP3, sin CORS
+            this.cleanupHtmlAudio();
+            this.play(text, title, onEnd, { ...meta, noCors: true });
+            return;
+          }
           console.warn('HTML5 Audio falló al cargar MP3, activando síntesis de voz');
           this.cleanupHtmlAudio();
           this.playSpeechSynthesis(text, title, onEnd, meta);

@@ -796,6 +796,9 @@ test('inicio del sitio: el botón principal "Empezar recorrido" arranca el recor
   await boton.click();
   // el primer toque abre la hoja de vista previa; solo «Empezar ruta» arranca
   await expect(page.locator('#route-preview')).toBeVisible();
+  // la hoja tiene fondo propio (no transparente): se debe poder leer sobre la portada
+  const fondo = await page.locator('#route-preview').evaluate((el) => getComputedStyle(el).backgroundColor);
+  expect(fondo).not.toMatch(/rgba\(.*,\s*0\)$/);
   await page.locator('#btn-preview-start').click();
   await expect(boton).toBeHidden(); // salió de la portada: está dentro de la primera parada
   await page.goBack();
