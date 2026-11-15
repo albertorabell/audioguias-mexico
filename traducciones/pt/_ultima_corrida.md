@@ -2,1526 +2,1016 @@
 
 Español arriba, traducción abajo. Los avisos son revisiones automáticas, no errores.
 
-## Pieza: xoc_01_que_fue_xochicalco
+## Pieza: bas_01_calzada_misterios
 
 ### titulo
 
-**ES:** Qué fue Xochicalco
+**ES:** La Calzada de los Misterios
 
-**PT:** O que foi Xochicalco
+**PT:** A Calçada dos Mistérios
 
 ### frase_gancho
 
-**ES:** Una ciudad construida en lo alto, en un mundo que se había quedado sin centro.
+**ES:** Un camino mexica que se volvió ruta de peregrinos.
 
-**PT:** Uma cidade construída no alto, em um mundo que havia ficado sem centro.
+**PT:** Um caminho mexica que se tornou rota de peregrinos.
 
 ### puente_narrativo
 
-**ES:** Comienza tu recorrido: lo que sigue explica por qué esta ciudad está en un cerro.
+**ES:** Empiezas por donde empezaron muchos peregrinos: el camino que sube al Tepeyac.
 
-**PT:** Comece o seu percurso: o que vem a seguir explica por que esta cidade está em um morro.
+**PT:** Você começa por onde muitos peregrinos começaram: o caminho que sobe ao Tepeyac.
 
 ### guion_corto
 
-**ES:** Antes de dar un paso, imagina el mundo que rodea este cerro. Teotihuacán, la gran ciudad del centro de México, había caído. También Palenque y Tikal, en el mundo maya. Según la UNESCO, las sociedades que vinieron después se volvieron más militaristas y levantaron sus ciudades en lugares altos y fáciles de defender. Xochicalco es uno de los mejores ejemplos que se conservan, hecho de terrazas, muros de contención y rampas. Kenneth Hirth calcula que llegó a reunir entre diez mil y quince mil personas. Su nombre se suele traducir como lugar de la casa de las flores. Una ciudad con nombre suave, hecha para defenderse. Esa tensión te va a acompañar en todo el recorrido.
+**ES:** Esta calzada es mucho más antigua que la Basílica. Los mexicas la trazaron para unir Tenochtitlan con el cerro del Tepeyac, y desde entonces ha sido camino de quienes llegan a este lugar. En mil seiscientos setenta y cinco comenzó la construcción de quince monumentos, uno por cada misterio del rosario, la oración con la que los católicos meditan la vida de Jesús y de la Virgen María. Los proyectó el arquitecto Cristóbal de Medina Vargas. Se conservan ocho originales y siete se repusieron en mil novecientos noventa y nueve. Es parte de la ruta con la que durante siglos se llegó al Tepeyac desde la ciudad. Todavía hoy, muchos peregrinos recorren este camino a pie, en silencio o rezando.
 
-**PT:** Antes de dar um passo, imagine o mundo que cerca este morro. Teotihuacán, a grande cidade do centro do México, havia caído. Palenque e Tikal, no mundo maia, também. Segundo a UNESCO, as sociedades que vieram depois tornaram-se mais militaristas e ergueram suas cidades em lugares altos e fáceis de defender. Xochicalco é um dos melhores exemplos que se conservam, feito de terraços, muros de contenção e rampas. Kenneth Hirth calcula que ela chegou a reunir entre dez mil e quinze mil pessoas. Seu nome costuma ser traduzido como lugar da casa das flores. Uma cidade com nome suave, feita para se defender. Essa tensão vai acompanhar você por todo o percurso.
+**PT:** Esta calçada é muito mais antiga que a Basílica. Os mexicas a traçaram para unir Tenochtitlan ao morro do Tepeyac, e desde então ela é o caminho de quem chega a este lugar. Em mil seiscentos e setenta e cinco começou a construção de quinze monumentos, um para cada mistério do rosário, a oração com a qual os católicos meditam sobre a vida de Jesus e da Virgem Maria. Quem os projetou foi o arquiteto Cristóbal de Medina Vargas. Oito originais se conservam e sete foram repostos em mil novecentos e noventa e nove. Ela faz parte da rota pela qual, durante séculos, se chegou ao Tepeyac a partir da cidade. Ainda hoje, muitos peregrinos percorrem este caminho a pé, em silêncio ou rezando.
 
 ### guion_largo
 
-**ES:** Antes de dar un paso, imagina el mundo que rodea este cerro. Teotihuacán, la gran ciudad del centro de México, había caído. También habían caído Palenque y Tikal, en el mundo maya. /  / La UNESCO explica lo que vino después. Las sociedades de ese tiempo se volvieron más militaristas, y sus ciudades solían levantarse en lugares altos y fáciles de defender. Xochicalco es un ejemplo muy bien conservado de ese tipo de ciudad, hecha de terrazas, muros de contención y rampas. /  / Según el INAH, se fundó en la segunda mitad del siglo siete. Ocupó seis cerros bajos y los transformó con terrazas y muros. Kenneth Hirth sostiene que la ciudad creció muy rápido y reubicó a entre diez mil y quince mil personas. /  / Era una ciudad de mezclas. Sus relieves combinan diseños del centro de México con figuras de estilo maya. Una fuente describe ese tiempo como una época de eclecticismo cultural, cuando las culturas se cruzaban y se influían unas a otras. /  / También era una ciudad de rivalidades. Medina Romero, director del sitio, cuenta que Xochicalco compitió con otras ciudades de su época, como Teotenango, Cacaxtla, El Tajín y La Quemada. Se fundó hacia el año seiscientos setenta y se abandonó hacia el mil sesenta y cinco, según Alvarado León. /  / En este recorrido vas a subir por tres niveles. El bajo, con accesos defendidos. El intermedio, donde estaban el mercado, los talleres y las casas. Y el alto, donde se concentraba el poder. En el camino verás cómo se medía el tiempo con el cielo, qué decía la escritura de la ciudad y cómo terminó todo, de golpe, entre incendios. /  / Xochicalco se suele traducir como lugar de la casa de las flores. Una ciudad con un nombre tan suave, hecha para defenderse. Esa tensión te va a acompañar de principio a fin.
+**ES:** Estás en una de las calles más antiguas de la Ciudad de México. Antes de que existiera la Basílica, antes de la llegada de los españoles, los mexicas construyeron esta calzada para unir Tenochtitlan con la sierra de Guadalupe y con el cerro del Tepeyac. Así lo recoge la ficha del Instituto Nacional de Antropología e Historia sobre el monumento. /  / Durante la época virreinal siguió siendo el camino principal hacia el santuario. Durante mucho tiempo esta calle también se llamó Calzada de Guadalupe. Hoy ese nombre lo lleva otra calle paralela, cuya construcción comenzó en mil setecientos ochenta y seis. Después de la gran inundación de mil seiscientos cuatro, la calzada fue reparada para que se pudiera seguir usando. Por aquí llegaban los peregrinos desde la ciudad, y por aquí han seguido llegando. /  / En la década de mil seiscientos setenta se decidió dar forma permanente a las paradas que los caminantes hacían en el trayecto. El arquitecto Cristóbal de Medina Vargas propuso levantar quince monumentos, uno por cada misterio del rosario. Las obras comenzaron en mil seiscientos setenta y cinco, y el primero, el de la Encarnación, quedó terminado en mil seiscientos setenta y seis. /  / El rosario es una oración católica. Quien lo reza repite oraciones mientras piensa en momentos de la vida de Jesús y de la Virgen María. Esos momentos se llaman misterios y se agrupan en tres series de cinco. Los gozosos recuerdan, por ejemplo, la anunciación y el nacimiento de Jesús. Los dolorosos recuerdan su pasión. Los gloriosos recuerdan la resurrección y la gloria de María. Quince monumentos, entonces, formaban un camino de oración para quien iba caminando hacia el santuario. /  / El Monumento a los Peregrinos marca el inicio tradicional de la calzada, y desde ahí se cuentan los quince misterios hacia el norte. Los monumentos son obras barrocas, parecidas a estelas, con escenas y figuras en la parte alta. En los siglos siguientes sufrieron cambios y pérdidas. En el siglo diecinueve, las obras del ferrocarril dañaron varios de ellos. A finales del siglo veinte solo se conservaban ocho de los quince originales. /  / En mil novecientos noventa y nueve se restauró la calzada y se repusieron siete monumentos. Hoy hay quince, ocho originales y siete repuestos, repartidos entre las alcaldías Cuauhtémoc y Gustavo A. Madero. Si recorres esta calle, verás que cada uno se identifica con su misterio. /  / Esta parada es gratuita y puedes escucharla en cualquiera de los monumentos. Si caminas hacia el norte, llegarás a la Villa de Guadalupe. Muchas personas hacen el trayecto completo a pie, algunas rezando el rosario, otras en silencio, y otras simplemente caminando y mirando. Todas son bienvenidas. En las fechas de peregrinación, esta calzada se llena de gente que viene de lejos. /  / Para quien viene a rezar, es un camino de fe. Para quien viene a conocer, es una calle con más de cinco siglos de historia que todavía cumple la función con la que se hizo, llevar a la gente hasta el Tepeyac.
 
-**PT:** Antes de dar um passo, imagine o mundo que cerca este morro. Teotihuacán, a grande cidade do centro do México, havia caído. Palenque e Tikal, no mundo maia, também haviam caído. /  / A UNESCO explica o que veio depois. As sociedades daquele tempo tornaram-se mais militaristas, e suas cidades costumavam ser erguidas em lugares altos e fáceis de defender. Xochicalco é um exemplo muito bem conservado desse tipo de cidade, feita de terraços, muros de contenção e rampas. /  / Segundo o INAH, ela foi fundada na segunda metade do século sete. Ocupou seis morros baixos e os transformou com terraços e muros. Kenneth Hirth sustenta que a cidade cresceu muito rápido e reassentou entre dez mil e quinze mil pessoas. /  / Era uma cidade de misturas. Seus relevos combinam desenhos do centro do México com figuras de estilo maia. Uma fonte descreve esse tempo como uma época de ecletismo cultural, quando as culturas se cruzavam e influenciavam umas às outras. /  / Também era uma cidade de rivalidades. Medina Romero, diretor do sítio, conta que Xochicalco competiu com outras cidades de sua época, como Teotenango, Cacaxtla, El Tajín e La Quemada. Foi fundada por volta do ano seiscentos e setenta e abandonada por volta do ano mil e sessenta e cinco, segundo Alvarado León. /  / Neste percurso você vai subir por três níveis. O baixo, com acessos defendidos. O intermediário, onde ficavam o mercado, as oficinas e as casas. E o alto, onde se concentrava o poder. No caminho você verá como o tempo era medido com o céu, o que dizia a escrita da cidade e como tudo terminou, de repente, entre incêndios. /  / Xochicalco costuma ser traduzido como lugar da casa das flores. Uma cidade com um nome tão suave, feita para se defender. Essa tensão vai acompanhar você do início ao fim.
+**PT:** Você está em uma das ruas mais antigas da Cidade do México. Antes que existisse a Basílica, antes da chegada dos espanhóis, os mexicas construíram esta calçada para unir Tenochtitlan à serra de Guadalupe e ao morro do Tepeyac. É o que registra a ficha do Instituto Nacional de Antropologia e História (INAH) sobre o monumento. /  / Durante a época vice-reinal, ela continuou sendo o caminho principal até o santuário. Por muito tempo, esta rua também se chamou Calçada de Guadalupe. Hoje esse nome pertence a outra rua paralela, cuja construção começou em mil setecentos e oitenta e seis. Depois da grande inundação de mil seiscentos e quatro, a calçada foi reparada para que pudesse continuar sendo usada. Por aqui chegavam os peregrinos vindos da cidade, e por aqui continuaram chegando. /  / Na década de mil seiscentos e setenta, decidiu-se dar forma permanente às paradas que os caminhantes faziam no trajeto. O arquiteto Cristóbal de Medina Vargas propôs erguer quinze monumentos, um para cada mistério do rosário. As obras começaram em mil seiscentos e setenta e cinco, e o primeiro, o da Encarnação, ficou pronto em mil seiscentos e setenta e seis. /  / O rosário é uma oração católica. Quem o reza repete orações enquanto pensa em momentos da vida de Jesus e da Virgem Maria. Esses momentos se chamam mistérios e se agrupam em três séries de cinco. Os gozosos lembram, por exemplo, a anunciação e o nascimento de Jesus. Os dolorosos lembram a sua paixão. Os gloriosos lembram a ressurreição e a glória de Maria. Quinze monumentos, portanto, formavam um caminho de oração para quem ia caminhando até o santuário. /  / O Monumento aos Peregrinos marca o início tradicional da calçada, e a partir dali se contam os quinze mistérios rumo ao norte. Os monumentos são obras barrocas, parecidas com estelas, com cenas e figuras na parte alta. Nos séculos seguintes, sofreram mudanças e perdas. No século dezenove, as obras da ferrovia danificaram vários deles. No final do século vinte, apenas oito dos quinze originais se conservavam. /  / Em mil novecentos e noventa e nove, a calçada foi restaurada e sete monumentos foram repostos. Hoje há quinze, oito originais e sete repostos, distribuídos entre as alcaldias Cuauhtémoc e Gustavo A. Madero. Se você percorrer esta rua, verá que cada um se identifica com o seu mistério. /  / Esta parada é gratuita e você pode ouvi-la em qualquer um dos monumentos. Se caminhar rumo ao norte, chegará à Vila de Guadalupe. Muitas pessoas fazem o trajeto completo a pé, algumas rezando o rosário, outras em silêncio, e outras simplesmente caminhando e olhando. Todas são bem-vindas. Nas datas de peregrinação, esta calçada se enche de gente que vem de longe. /  / Para quem vem rezar, é um caminho de fé. Para quem vem conhecer, é uma rua com mais de cinco séculos de história que ainda cumpre a função para a qual foi feita: levar as pessoas até o Tepeyac.
 
 ### retos_observacion
 
-**ES:** Busca desde dónde estás los cerros que la ciudad ocupó / Fíjate cómo el terreno sube en terrazas / Imagina cómo sería llegar a pie hasta aquí hace mil doscientos años
+**ES:** Busca los monumentos de los misterios a lo largo de la calzada / Fíjate en los peregrinos que llegan a pie / Mira hacia el cerro y ubica la Basílica
 
-**PT:** Procure, de onde você está, os morros que a cidade ocupou / Repare como o terreno sobe em terraços / Imagine como seria chegar a pé até aqui há mil e duzentos anos
+**PT:** Procure os monumentos dos mistérios ao longo da calçada / Observe os peregrinos que chegam a pé / Olhe para o morro e localize a Basílica
 
 ### especificaciones
 
-**ES:** Periodo: Epiclásico, entre los años seiscientos cincuenta y novecientos, según la UNESCO / Fundación: segunda mitad del siglo siete, según el INAH / Población: entre diez mil y quince mil personas, según Hirth / Niveles de la ciudad: tres / Superficie protegida: unas setecientas siete hectáreas
+**ES:** Origen: calzada mexica / Monumentos: quince, uno por misterio del rosario / Proyecto: Cristóbal de Medina Vargas, desde 1675 / Originales conservados: ocho / Repuestos en 1999: siete
 
-**PT:** Período: Epiclássico, entre os anos seiscentos e cinquenta e novecentos, segundo a UNESCO / Fundação: segunda metade do século sete, segundo o INAH / População: entre dez mil e quinze mil pessoas, segundo Hirth / Níveis da cidade: três / Superfície protegida: cerca de setecentos e sete hectares
+**PT:** Origem: calçada mexica / Monumentos: quinze, um para cada mistério do rosário / Projeto: Cristóbal de Medina Vargas, desde 1675 / Originais conservados: oito / Repostos em 1999: sete
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Xochicalco es una pirámide aislada. / respuesta: Realidad: Es una ciudad completa, de terrazas, plazas, talleres y casas, que ocupó seis cerros bajos.
+**ES:** pregunta: Mito: La Calzada de los Misterios se hizo para la Basílica actual. / respuesta: Realidad: Los mexicas ya habían trazado una calzada hacia el Tepeyac. Los quince monumentos de los misterios se empezaron a construir en mil seiscientos setenta y cinco; hoy ocho son originales y siete se repusieron en mil novecientos noventa y nueve.
 
-**PT:** pregunta: Mito: Xochicalco é uma pirâmide isolada. / respuesta: Realidade: É uma cidade completa, de terraços, praças, oficinas e casas, que ocupou seis morros baixos.
+**PT:** pregunta: Mito: A Calçada dos Mistérios foi feita para a Basílica atual. / respuesta: Realidade: Os mexicas já haviam traçado uma calçada até o Tepeyac. Os quinze monumentos dos mistérios começaram a ser construídos em mil seiscentos e setenta e cinco; hoje oito são originais e sete foram repostos em mil novecentos e noventa e nove.
 
-## Pieza: xoc_02_ciudad_en_cerros
+## Pieza: bas_02_atrio_americas
 
 ### titulo
 
-**ES:** Una ciudad en los cerros
+**ES:** El atrio y la Plaza de las Américas
 
-**PT:** Uma cidade nos morros
+**PT:** O átrio e a Plaza de las Américas
 
 ### frase_gancho
 
-**ES:** Terrazas, muros y fosos para sostener y defender una ciudad entera.
+**ES:** El gran espacio abierto donde se reúnen los peregrinos.
 
-**PT:** Terraços, muros e fossos para sustentar e defender uma cidade inteira.
+**PT:** O grande espaço aberto onde se reúnem os peregrinos.
 
 ### puente_narrativo
 
-**ES:** Sigue tu ruta: el camino de entrada te dice cómo se controlaba el paso a esta ciudad.
+**ES:** Del acceso pasas al atrio, el espacio que recibe a los peregrinos frente a la Nueva Basílica.
 
-**PT:** Siga o seu roteiro: o caminho de entrada mostra como se controlava a passagem para esta cidade.
+**PT:** Do acesso você passa ao átrio, o espaço que recebe os peregrinos diante da Nova Basílica.
 
 ### guion_corto
 
-**ES:** La ciudad de Xochicalco no está sobre un solo cerro. Los arqueólogos hablan de tres cerros modificados y unidos con terrazas, y de otros seis más bajos alrededor donde también vivió gente. Para convertir esas laderas en una ciudad hubo que cortar la roca, rellenar huecos y levantar muros de contención. Los espacios abiertos se conectaban con escaleras, terrazas y rampas a lo largo de un eje de norte a sur. La UNESCO distingue tres niveles: abajo, una zona residencial rodeada de muros; en medio, el mercado y la cancha más grande; arriba, los templos alrededor de la Plaza Principal. Ese orden no es casual. Quien subía iba pasando de la vida diaria al poder y a lo sagrado.
+**ES:** Estás en el atrio, el gran espacio abierto frente a la Nueva Basílica. Aquí se reúnen cada año millones de peregrinos, y de manera especial el doce de diciembre, día de Nuestra Señora de Guadalupe. En este espacio se levanta el carillón, terminado en mil novecientos noventa y uno. Tiene cuarenta y ocho campanas de bronce, mide veintitrés metros y cuenta con cuatro relojes: civil, astroplano, solar y mexica. Al frente, figuras animadas de San Juan Diego, fray Juan de Zumárraga y Juan Bernardino cuentan la historia de las apariciones, según la tradición guadalupana. Cuando hay misa al aire libre o una peregrinación, este espacio se llena de gente. Si vienes en esos días, avanza con calma.
 
-**PT:** A cidade de Xochicalco não está sobre um único morro. Os arqueólogos falam de três morros modificados e unidos por terraços, e de outros seis mais baixos ao redor, onde também viveu gente. Para transformar essas encostas em uma cidade, foi preciso cortar a rocha, aterrar vazios e erguer muros de contenção. Os espaços abertos se conectavam por escadas, terraços e rampas ao longo de um eixo de norte a sul. A UNESCO distingue três níveis: embaixo, uma zona residencial cercada por muros; no meio, o mercado e a maior quadra; no alto, os templos ao redor da Praça Principal. Essa ordem não é casual. Quem subia ia passando da vida diária ao poder e ao sagrado.
+**PT:** Você está no átrio, o grande espaço aberto diante da Nova Basílica. Aqui se reúnem todos os anos milhões de peregrinos, e de maneira especial no dia doze de dezembro, dia de Nossa Senhora de Guadalupe. Neste espaço se ergue o carrilhão, concluído em mil novecentos e noventa e um. Tem quarenta e oito sinos de bronze, mede vinte e três metros e conta com quatro relógios: civil, astroplano, solar e mexica. Na frente, figuras animadas de São Juan Diego, frei Juan de Zumárraga e Juan Bernardino contam a história das aparições, segundo a tradição guadalupana. Quando há missa ao ar livre ou uma peregrinação, este espaço se enche de gente. Se você vier nesses dias, avance com calma.
 
 ### guion_largo
 
-**ES:** Mira la ciudad como un conjunto de escalones. Xochicalco se levantó en una región de acceso difícil, sobre una serie de cerros naturales, y esa fue parte de su defensa. /  / Según el INAH, la ciudad se fundó en la segunda mitad del siglo siete sobre varios cerros. Hubo ocupación también en seis cerros más bajos del entorno. Kenneth Hirth explica que el núcleo estaba formado por tres cerros modificados y conectados con terrazas. /  / Para lograrlo se hizo una gran obra de ingeniería. Un estudio de conservación describe que el cerro fue remodelado cortando y rellenando. Las terrazas y los muros de contención crearon espacios planos para plazas y casas. Escaleras, rampas y terrazas los unen a lo largo de un eje principal de norte a sur. /  / La UNESCO divide la ciudad en tres niveles. En el nivel bajo había zona residencial, rodeada por muros con entradas defendidas. En el nivel intermedio estaban un conjunto de mercado y la cancha de juego de pelota más grande. En el nivel alto se agrupan los templos alrededor de la Plaza Principal. /  / La defensa también estaba escrita en el paisaje. El director de la zona, Medina Romero, menciona una muralla de cuatro metros de altura, con bastiones y fosos, en el lado sur. Otras descripciones hablan de rampas, fosos, bastiones y fuertes. Una ciudad así no se pensaba para pasear. Se pensaba para resistir. /  / Un dato antiguo: Antonio Alzate, que visitó el sitio en mil setecientos setenta y siete, calculó el cerro principal en unos ciento siete metros de altura. Medición de hace más de dos siglos, pero muestra cuánto lo impresionó la mole. /  / La mayor parte de las casas de las laderas sigue sin excavar. Eso significa que lo que ves es solo una parte de la ciudad. Debajo de muchas terrazas puede haber más historia. /  / Mientras caminas, fíjate en dos cosas: los muros que sostienen el terreno y la manera en que las escaleras van uniendo un nivel con otro. Eso es Xochicalco: una ciudad que se construyó con las manos, piedra sobre piedra, sobre unos cerros difíciles.
+**ES:** Este es el atrio de las Américas, la gran explanada que se abre frente a la Nueva Basílica. Es el lugar donde llegan los peregrinos antes de entrar al templo, y también el espacio donde se reúnen cuando el templo no alcanza para todos. /  / Los cálculos de cuántas personas visitan el conjunto cada año van de ocho a veinte millones, según quién los haga. Cualquiera que sea la cifra exacta, son millones. La fiesta principal es el doce de diciembre, cuando la Iglesia celebra a Nuestra Señora de Guadalupe. Ese día, y en los que lo rodean, llegan peregrinaciones de todo el país y de otros países. Muchas vienen caminando desde hace días. Algunas personas cruzan esta explanada de rodillas, como una promesa que hicieron. La Nueva Basílica se diseñó para recibir a unas diez mil personas adentro, y en el exterior caben decenas de miles más. /  / Aquí mismo se levanta el carillón, una torre de veintitrés metros terminada en mil novecientos noventa y uno. Tiene cuarenta y ocho campanas de bronce. Fue impulsado por fray Gabriel Chávez de la Mora, el monje benedictino que también colaboró en el proyecto de la Nueva Basílica. /  / El carillón tiene cuatro relojes. Uno es civil y marca la hora que usamos todos los días. Uno es astroplano. Uno es solar. Y el cuarto es un reloj mexica, que recuerda otra forma de medir el tiempo, la de los pueblos que habitaban este valle antes de la llegada de los españoles. /  / Al frente de la torre hay un ciclorama con figuras animadas. Representan a San Juan Diego, a fray Juan de Zumárraga, primer obispo de México, y a Juan Bernardino, el tío de Juan Diego. Sus movimientos cuentan la historia de las apariciones tal como la transmite la tradición guadalupana. Según esa tradición, en diciembre de mil quinientos treinta y uno la Virgen María se apareció a Juan Diego en este cerro y le pidió que se levantara aquí un templo. /  / En dos mil once se abrió además la Plaza Mariana, junto a este espacio, con el Museo Guadalupano, una obra de la Fundación Carlos Slim. /  / Desde aquí puedes ver la Nueva Basílica, de planta circular, inaugurada en mil novecientos setenta y seis. A un lado, entre los edificios del conjunto, está la Antigua Basílica, del siglo dieciocho. Y detrás de todo se levanta el cerro del Tepeyac. /  / El atrio es también un lugar de convivencia. Llegan familias, grupos que traen imágenes de la Virgen y personas que vienen solas. Algunos descansan después de un largo camino, otros se toman fotografías, otros esperan para entrar al templo. Este es un lugar de reunión. Para muchas personas es un lugar de oración, de despedida o de agradecimiento. Si hay una misa o un rezo en curso, puedes recorrerlo con calma, hablando en voz baja y sin interrumpir.
 
-**PT:** Olhe a cidade como um conjunto de degraus. Xochicalco foi erguida em uma região de acesso difícil, sobre uma série de morros naturais, e isso foi parte de sua defesa. /  / Segundo o INAH, a cidade foi fundada na segunda metade do século sete sobre vários morros. Também houve ocupação em seis morros mais baixos do entorno. Kenneth Hirth explica que o núcleo era formado por três morros modificados e conectados por terraços. /  / Para isso, foi feita uma grande obra de engenharia. Um estudo de conservação descreve que o morro foi remodelado com cortes e aterros. Os terraços e os muros de contenção criaram espaços planos para praças e casas. Escadas, rampas e terraços os unem ao longo de um eixo principal de norte a sul. /  / A UNESCO divide a cidade em três níveis. No nível baixo havia uma zona residencial, cercada por muros com entradas defendidas. No nível intermediário ficavam um conjunto de mercado e a maior quadra de jogo de bola. No nível alto, os templos se agrupam ao redor da Praça Principal. /  / A defesa também estava escrita na paisagem. O diretor da zona arqueológica, Medina Romero, menciona uma muralha de quatro metros de altura, com bastiões e fossos, no lado sul. Outras descrições falam de rampas, fossos, bastiões e fortes. Uma cidade assim não era pensada para passear. Era pensada para resistir. /  / Um dado antigo: Antonio Alzate, que visitou o sítio em mil setecentos e setenta e sete, calculou o morro principal em cerca de cento e sete metros de altura. É uma medição de mais de dois séculos atrás, mas mostra o quanto a imensidão da montanha o impressionou. /  / A maior parte das casas das encostas continua sem ser escavada. Isso significa que o que você vê é apenas uma parte da cidade. Sob muitos terraços pode haver mais história. /  / Enquanto caminha, repare em duas coisas: os muros que sustentam o terreno e o modo como as escadas vão unindo um nível ao outro. Isso é Xochicalco: uma cidade construída com as mãos, pedra sobre pedra, sobre uns morros difíceis.
+**PT:** Este é o átrio das Américas, a grande esplanada que se abre diante da Nova Basílica. É o lugar aonde chegam os peregrinos antes de entrar no templo, e também o espaço onde se reúnem quando o templo não comporta todos. /  / Os cálculos de quantas pessoas visitam o conjunto a cada ano vão de oito a vinte milhões, dependendo de quem os faça. Seja qual for a cifra exata, são milhões. A festa principal é o dia doze de dezembro, quando a Igreja celebra Nossa Senhora de Guadalupe. Nesse dia, e nos que o cercam, chegam peregrinações de todo o país e de outros países. Muitas vêm caminhando há dias. Algumas pessoas atravessam esta esplanada de joelhos, como uma promessa que fizeram. A Nova Basílica foi projetada para receber cerca de dez mil pessoas no interior, e do lado de fora cabem dezenas de milhares a mais. /  / Aqui mesmo se ergue o carrilhão, uma torre de vinte e três metros concluída em mil novecentos e noventa e um. Tem quarenta e oito sinos de bronze. Foi impulsionado por frei Gabriel Chávez de la Mora, o monge beneditino que também colaborou no projeto da Nova Basílica. /  / O carrilhão tem quatro relógios. Um é civil e marca a hora que usamos todos os dias. Um é astroplano. Um é solar. E o quarto é um relógio mexica, que lembra outra forma de medir o tempo, a dos povos que habitavam este vale antes da chegada dos espanhóis. /  / Na frente da torre há um ciclorama com figuras animadas. Elas representam São Juan Diego, frei Juan de Zumárraga, primeiro bispo do México, e Juan Bernardino, o tio de Juan Diego. Seus movimentos contam a história das aparições tal como a transmite a tradição guadalupana. Segundo essa tradição, em dezembro de mil quinhentos e trinta e um a Virgem Maria apareceu a Juan Diego neste morro e lhe pediu que se erguesse aqui um templo. /  / Em dois mil e onze foi aberta também a Plaza Mariana, ao lado deste espaço, com o Museu Guadalupano, uma obra da Fundação Carlos Slim. /  / Daqui você pode ver a Nova Basílica, de planta circular, inaugurada em mil novecentos e setenta e seis. De um lado, entre os edifícios do conjunto, está a Antiga Basílica, do século dezoito. E atrás de tudo se ergue o morro do Tepeyac. /  / O átrio é também um lugar de convivência. Chegam famílias, grupos que trazem imagens da Virgem e pessoas que vêm sozinhas. Alguns descansam depois de um longo caminho, outros tiram fotografias, outros esperam para entrar no templo. Este é um lugar de encontro. Para muitas pessoas é um lugar de oração, de despedida ou de agradecimento. Se houver uma missa ou uma reza em andamento, você pode percorrê-lo com calma, falando em voz baixa e sem interromper.
 
 ### retos_observacion
 
-**ES:** Busca un muro de contención y fíjate cómo sostiene la ladera / Cuenta cuántos niveles distingues desde donde estás / Piensa en quién subía y quién se quedaba abajo
+**ES:** Cuenta las campanas del carillón si lo oyes tocar / Busca los cuatro relojes / Observa las figuras animadas al pie del carillón
 
-**PT:** Procure um muro de contenção e observe como ele sustenta a encosta / Conte quantos níveis você distingue de onde está / Pense em quem subia e em quem ficava embaixo
+**PT:** Conte os sinos do carrilhão se você o ouvir tocar / Procure os quatro relógios / Observe as figuras animadas ao pé do carrilhão
 
 ### especificaciones
 
-**ES:** Ubicación: sobre una serie de cerros naturales / Cerros del núcleo: tres modificados, según Hirth / Niveles: bajo, intermedio y alto, según la UNESCO / Muralla sur: cuatro metros de altura, con bastiones y fosos / Superficie protegida: 707 ha
+**ES:** Carillón: terminado en 1991 / Campanas: cuarenta y ocho, de bronce / Altura: 23 m / Relojes: cuatro (civil, astroplano, solar y mexica)
 
-**PT:** Localização: sobre uma série de morros naturais / Morros do núcleo: três modificados, segundo Hirth / Níveis: baixo, intermediário e alto, segundo a UNESCO / Muralha sul: quatro metros de altura, com bastiões e fossos / Superfície protegida: 707 ha
+**PT:** Carrilhão: concluído em 1991 / Sinos: quarenta e oito, de bronze / Altura: 23 m / Relógios: quatro (civil, astroplano, solar e mexica)
 
-### faq_mito
-
-**ES:** pregunta: Mito: Xochicalco se construyó en un solo cerro. / respuesta: Realidad: Se levantó sobre varios cerros modificados y unidos con terrazas, y también hubo gente viviendo en cerros más bajos de alrededor.
-
-**PT:** pregunta: Mito: Xochicalco foi construída em um único morro. / respuesta: Realidade: Ela foi erguida sobre vários morros modificados e unidos por terraços, e também havia gente vivendo em morros mais baixos ao redor.
-
-## Pieza: xoc_03_camino_entrada
+## Pieza: bas_03_tepeyac_prehispanico
 
 ### titulo
 
-**ES:** El camino de entrada
+**ES:** El Tepeyac antes del santuario
 
-**PT:** O caminho de entrada
+**PT:** O Tepeyac antes do santuário
 
 ### frase_gancho
 
-**ES:** Un camino de piedra que ya llevaba a la ciudad cuando estaba viva.
+**ES:** Un cerro de visita desde mucho antes de la Basílica.
 
-**PT:** Um caminho de pedra que já levava à cidade quando ela estava viva.
+**PT:** Um cerro visitado desde muito antes da Basílica.
 
 ### puente_narrativo
 
-**ES:** Sigue tu ruta: ya sabes cómo se defendía la ciudad; ahora se trata de recorrerla.
+**ES:** Desde la plaza, mira hacia el cerro y piensa en lo que había antes de las construcciones.
 
-**PT:** Siga seu percurso: você já sabe como a cidade se defendia; agora é hora de percorrê-la.
+**PT:** Da praça, olhe para o cerro e pense no que havia antes das construções.
 
 ### guion_corto
 
-**ES:** Según la guía del INAH, el conjunto principal de acceso incluye sistemas de control de entrada y una plaza cuadrada. Incluye también el último tramo del camino prehispánico que salía de la ciudad. Es decir, ya estaba pensado para recibir y vigilar a quien llegaba. Una ciudad con entradas defendidas no dejaba pasar a cualquiera. Esa calzada también conecta con la cancha de pelota sur, que está en la terraza más baja. Otros autores describen un camino recto por el lado sur, que sube desde el fondo del valle hasta la ciudad. Lo que pisas es parte de una ruta que unos habitantes recorrían hace más de mil años para entrar, comerciar, jugar y rendir cuentas.
+**ES:** Antes de que existiera aquí un santuario cristiano, este cerro ya era un lugar de visita. Los mexicas lo unieron con Tenochtitlan por una calzada. El fraile franciscano Bernardino de Sahagún escribió hacia mil quinientos setenta y seis que a este sitio acudía mucha gente a honrar a Tonantzin, un nombre náhuatl que significa nuestra madre. A Sahagún le preocupaba el sentido que tenía esa devoción. Los historiadores siguen estudiando cómo se relacionan ambas tradiciones, y no todos coinciden. El cerro, hoy rodeado de ciudad, queda al norte de lo que fue la capital mexica. Para los fieles, el Tepeyac es sobre todo el lugar donde la Virgen María se apareció a San Juan Diego.
 
-**PT:** Segundo o guia do INAH, o conjunto principal de acesso inclui sistemas de controle de entrada e uma praça quadrada. Inclui também o último trecho do caminho pré-hispânico que saía da cidade. Ou seja, já era pensado para receber e vigiar quem chegava. Uma cidade com entradas defendidas não deixava passar qualquer um. Essa calçada também se conecta com a quadra de jogo de bola sul, que fica no terraço mais baixo. Outros autores descrevem um caminho reto pelo lado sul, que sobe desde o fundo do vale até a cidade. O que você pisa é parte de uma rota que alguns habitantes percorriam há mais de mil anos para entrar, comerciar, jogar e prestar contas.
+**PT:** Antes de existir aqui um santuário cristão, este cerro já era um lugar de visita. Os mexicas o ligaram a Tenochtitlan por uma calçada. O frei franciscano Bernardino de Sahagún escreveu por volta de mil quinhentos e setenta e seis que a este lugar acorria muita gente para honrar Tonantzin, um nome náuatle que significa nossa mãe. A Sahagún preocupava o sentido dessa devoção. Os historiadores continuam estudando como essas duas tradições se relacionam, e nem todos concordam. O cerro, hoje cercado pela cidade, fica ao norte do que foi a capital mexica. Para os fiéis, o Tepeyac é sobretudo o lugar onde a Virgem Maria apareceu a São Juan Diego.
 
 ### guion_largo
 
-**ES:** Un camino es una forma de decir quién puede entrar. En Xochicalco no es la excepción. /  / Según la guía oficial del INAH, el conjunto principal de acceso incluye sistemas de control de entrada y una plaza cuadrada. Incluye también el último tramo del camino prehispánico que salía de la ciudad. /  / Otras fuentes agregan que el camino de acceso era recto y llegaba por el lado sur, desde el fondo del valle. Esa calzada también conecta con la cancha de pelota sur, la más grande de la ciudad, que está en la terraza más baja. /  / La UNESCO y el INAH mencionan que el nivel bajo de la ciudad estaba rodeado por muros con entradas defendidas. Eso quiere decir que llegar a Xochicalco no era simplemente cruzar una puerta. Era pasar por puntos de vigilancia. /  / Las calzadas tenían otro uso. El director de la zona, Medina Romero, explica que las calzadas pavimentadas conectaban sectores de la ciudad y llegaban a medir unos ciento setenta y cinco metros. Eran la columna vertebral por donde circulaba la gente. /  / Antes de seguir, fíjate en el piso. Los caminos de las ciudades antiguas se pavimentaban con piedra, y ese trabajo cuenta una historia de organización. Mover tanta piedra requería gente, tiempo y alguien que lo mandara. /  / Detente un momento y piensa en quién entraba por aquí. Comerciantes de otros pueblos, gente que cargaba obsidiana, jugadores que venían a la cancha, enviados de comunidades vecinas. Y también ejercitos, cuando la ciudad ya estaba amenazada. /  / Hoy este camino te lleva a un solo lugar: al corazón de una ciudad fortificada. Lo que sigue es subir y descubrirlo.
+**ES:** El cerro del Tepeyac está en el extremo norte del antiguo valle de México, al pie de la sierra de Guadalupe. El cerro es parte de la sierra de Guadalupe. Hoy lo rodea la ciudad, pero en el siglo dieciséis era un lugar alejado de Tenochtitlan, al que se llegaba por una calzada. Esa calzada es la que hoy conocemos como Calzada de los Misterios. /  / Que los mexicas hayan construido un camino hasta este cerro dice algo: era un sitio al que se iba. En la tradición mesoamericana los cerros tenían con frecuencia un significado religioso, y el Tepeyac no era una excepción entre los cerros del valle. Hoy sabemos poco de lo que se hacía aquí, y lo poco que sabemos llega por otras vías. /  / La más conocida es la del fraile franciscano Bernardino de Sahagún. Hacia mil quinientos setenta y seis, en su obra sobre las cosas de la Nueva España, escribió que en el Tepeyac había un lugar donde se honraba a la diosa Tonantzin, y que hasta allí acudía gente de lugares lejanos. Tonantzin es un nombre náhuatl que significa nuestra madre. Sahagún cuenta que esa devoción lo inquietaba, porque el mismo nombre podía entenderse de dos maneras, y le preocupaba a quién estaban honrando quienes subían. /  / Esta es una información que viene de un solo autor, escrita varias décadas después de la conquista. Por eso los historiadores la leen con cuidado, y cada generación de estudiosos ha vuelto sobre ella para revisar lo que se sabe. Algunos piensan que muestra una continuidad entre el lugar de culto antiguo y el santuario cristiano. Otros piensan que la relación entre ambos es más difícil de probar. En el cerro se han hecho hallazgos arqueológicos, pero su interpretación también se discute. /  / Lo que sí se puede decir con seguridad es esto. El Tepeyac fue, desde antes de la conquista, un sitio con significado religioso para quienes vivían en el valle. Y fue, desde el siglo dieciséis, el lugar donde se construyó el santuario de la Virgen de Guadalupe. /  / Para los fieles, ese santuario nace de un acontecimiento. Según la tradición guadalupana, en diciembre de mil quinientos treinta y uno la Virgen María se apareció aquí a Juan Diego, un indígena, y le habló en su lengua. La Iglesia reconoce el culto a Nuestra Señora de Guadalupe y en dos mil dos canonizó a San Juan Diego en esta misma Basílica. Quienes viven la fe desde esa tradición no ven en el cerro un lugar que fue de otros, sino el lugar al que la Virgen vino a encontrarse con su pueblo. /  / Esta parada no resuelve la discusión de los historiadores. Solo te da los datos: un camino antiguo, un cerro con culto, la preocupación de un fraile y una tradición que ha reunido a millones de personas durante casi cinco siglos.
 
-**PT:** Um caminho é uma forma de dizer quem pode entrar. Em Xochicalco não é diferente. /  / Segundo o guia oficial do INAH, o conjunto principal de acesso inclui sistemas de controle de entrada e uma praça quadrada. Inclui também o último trecho do caminho pré-hispânico que saía da cidade. /  / Outras fontes acrescentam que o caminho de acesso era reto e chegava pelo lado sul, desde o fundo do vale. Essa calçada também se conecta com a quadra de jogo de bola sul, a maior da cidade, que fica no terraço mais baixo. /  / A UNESCO e o INAH mencionam que o nível baixo da cidade era cercado por muros com entradas defendidas. Isso quer dizer que chegar a Xochicalco não era simplesmente cruzar uma porta. Era passar por pontos de vigilância. /  / As calçadas tinham outro uso. O diretor da zona, Medina Romero, explica que as calçadas pavimentadas conectavam setores da cidade e chegavam a medir cerca de cento e setenta e cinco metros. Eram a coluna vertebral por onde circulava a gente. /  / Antes de seguir, repare no piso. Os caminhos das cidades antigas eram pavimentados com pedra, e esse trabalho conta uma história de organização. Mover tanta pedra exigia gente, tempo e alguém que o ordenasse. /  / Pare um momento e pense em quem entrava por aqui. Comerciantes de outros povos, gente que carregava obsidiana, jogadores que vinham à quadra, enviados de comunidades vizinhas. E também exércitos, quando a cidade já estava ameaçada. /  / Hoje este caminho leva você a um só lugar: ao coração de uma cidade fortificada. O que vem a seguir é subir e descobri-lo.
+**PT:** O cerro do Tepeyac fica no extremo norte do antigo vale do México, ao pé da serra de Guadalupe. O cerro faz parte da serra de Guadalupe. Hoje a cidade o rodeia, mas no século dezesseis era um lugar afastado de Tenochtitlan, ao qual se chegava por uma calçada. Essa calçada é a que hoje conhecemos como Calçada dos Mistérios. /  / O fato de os mexicas terem construído um caminho até este cerro diz algo: era um lugar aonde se ia. Na tradição mesoamericana, os cerros costumavam ter um significado religioso, e o Tepeyac não era exceção entre os cerros do vale. Hoje sabemos pouco do que se fazia aqui, e o pouco que sabemos chega por outras vias. /  / A mais conhecida é a do frei franciscano Bernardino de Sahagún. Por volta de mil quinhentos e setenta e seis, em sua obra sobre as coisas da Nova Espanha, ele escreveu que no Tepeyac havia um lugar onde se honrava a deusa Tonantzin, e que até ali acorria gente de lugares distantes. Tonantzin é um nome náuatle que significa nossa mãe. Sahagún conta que essa devoção o inquietava, porque o mesmo nome podia ser entendido de duas maneiras, e o preocupava a quem estavam honrando aqueles que subiam. /  / Esta é uma informação que vem de um único autor, escrita várias décadas depois da conquista. Por isso os historiadores a leem com cuidado, e cada geração de estudiosos voltou a ela para revisar o que se sabe. Alguns pensam que ela mostra uma continuidade entre o antigo lugar de culto e o santuário cristão. Outros pensam que a relação entre os dois é mais difícil de provar. No cerro foram feitos achados arqueológicos, mas sua interpretação também é discutida. /  / O que se pode dizer com segurança é isto. O Tepeyac foi, desde antes da conquista, um lugar com significado religioso para quem vivia no vale. E foi, desde o século dezesseis, o lugar onde se construiu o santuário da Virgem de Guadalupe. /  / Para os fiéis, esse santuário nasce de um acontecimento. Segundo a tradição guadalupana, em dezembro de mil quinhentos e trinta e um a Virgem Maria apareceu aqui a Juan Diego, um indígena, e falou com ele em sua língua. A Igreja reconhece o culto a Nossa Senhora de Guadalupe e, em dois mil e dois, canonizou São Juan Diego nesta mesma Basílica. Quem vive a fé a partir dessa tradição não vê no cerro um lugar que foi de outros, mas o lugar aonde a Virgem veio encontrar-se com seu povo. /  / Esta parada não resolve a discussão dos historiadores. Apenas lhe dá os dados: um caminho antigo, um cerro com culto, a preocupação de um frei e uma tradição que reuniu milhões de pessoas durante quase cinco séculos.
 
 ### retos_observacion
 
-**ES:** Mira el camino y fíjate cómo está construido / Busca los puntos donde se controlaba el paso, si se alcanzan a distinguir / Piensa en quién habría cruzado este camino hace más de mil años
+**ES:** Mira el cerro desde la plaza / Ubica el norte: la capital mexica quedaba al sur / Compara el cerro con la ciudad que lo rodea hoy
 
-**PT:** Olhe o caminho e repare em como ele foi construído / Procure os pontos onde se controlava a passagem, se for possível distingui-los / Pense em quem teria cruzado este caminho há mais de mil anos
+**PT:** Olhe o cerro da praça / Localize o norte: a capital mexica ficava ao sul / Compare o cerro com a cidade que o rodeia hoje
 
 ### especificaciones
 
-**ES:** Acceso: conjunto principal, con plaza cuadrada / Camino: último tramo del camino prehispánico / Calzadas pavimentadas: hasta unos 175 m, según el INAH / Conexión: con la cancha de pelota sur
+**ES:** Fuente principal: Bernardino de Sahagún, hacia 1576 / Nombre náhuatl: Tonantzin, nuestra madre
 
-**PT:** Acesso: conjunto principal, com praça quadrada / Caminho: último trecho do caminho pré-hispânico / Calçadas pavimentadas: até cerca de 175 m, segundo o INAH / Conexão: com a quadra de jogo de bola sul
+**PT:** Fonte principal: Bernardino de Sahagún, por volta de 1576 / Nome náuatle: Tonantzin, nossa mãe
 
-### faq_mito
-
-**ES:** pregunta: Mito: Las calzadas de Xochicalco son caminos modernos. / respuesta: Realidad: El INAH describe calzadas pavimentadas que ya conectaban sectores de la ciudad hace más de mil años.
-
-**PT:** pregunta: Mito: As calçadas de Xochicalco são caminhos modernos. / respuesta: Realidade: O INAH descreve calçadas pavimentadas que já conectavam setores da cidade há mais de mil anos.
-
-## Pieza: xoc_04_caminata_hacia_estela
+## Pieza: bas_04_origen_culto_nican
 
 ### titulo
 
-**ES:** Caminata: hacia la Plaza de la Estela
+**ES:** El origen del culto y el Nican mopohua
 
-**PT:** Caminhada: rumo à Praça da Estela
+**PT:** A origem do culto e o Nican mopohua
 
 ### frase_gancho
 
-**ES:** Un trayecto corto para escuchar mientras subes.
+**ES:** La memoria de la fe y los documentos, contados por separado.
 
-**PT:** Um trajeto curto para ouvir enquanto você sobe.
+**PT:** A memória da fé e os documentos, contados separadamente.
 
 ### puente_narrativo
 
-**ES:** Llegaste a la Plaza de la Estela de los Dos Glifos.
+**ES:** Sigues en el mismo lugar, ahora para ver cómo se cuentan los orígenes del santuario.
 
-**PT:** Você chegou à Praça da Estela dos Dois Glifos.
+**PT:** Você continua no mesmo lugar, agora para ver como se contam as origens do santuário.
 
 ### guion_corto
 
-**ES:** Sigue las señales hacia la Plaza de la Estela de los Dos Glifos. Mientras caminas, mira las terrazas y los muros de piedra que te rodean. Kenneth Hirth cuenta que la gente vivía en grandes terrazas y plataformas de las laderas, y que las casas se extendían hacia el fondo del valle. Las calzadas pavimentadas conectaban los sectores de la ciudad. No eran adornos: llevaban gente, mercancías y noticias de un barrio a otro. Si el camino sube, piensa en que quien vivía aquí lo subía a diario. Cuando llegues a una plaza amplia, con una estela al centro, ya estás donde tenía que ser.
+**ES:** La tradición guadalupana cuenta que en diciembre de mil quinientos treinta y uno la Virgen María se apareció a San Juan Diego en este cerro. Esa es la memoria de la fe, y es el origen del santuario. Los documentos conservados muestran otra parte de la historia. Un texto de mil quinientos cincuenta y cuatro ya menciona una ermita en el Tepeyac. En mil seiscientos cuarenta y ocho se imprimió el primer relato extenso en español, y en mil seiscientos cuarenta y nueve el Nican mopohua, en náhuatl. Los historiadores discuten cuándo se escribió este último. Ambas cosas, la memoria y los documentos, forman esta historia. El santuario nace de la primera y se documenta en la segunda.
 
-**PT:** Siga as placas em direção à Praça da Estela dos Dois Glifos. Enquanto caminha, olhe as terraços e os muros de pedra que o rodeiam. Kenneth Hirth conta que as pessoas viviam em grandes terraços e plataformas nas encostas, e que as casas se estendiam até o fundo do vale. As calçadas pavimentadas conectavam os setores da cidade. Não eram enfeites: levavam gente, mercadorias e notícias de um bairro a outro. Se o caminho subir, pense que quem vivia aqui o subia todos os dias. Quando você chegar a uma praça ampla, com uma estela no centro, já estará onde precisava estar.
+**PT:** A tradição guadalupana conta que, em dezembro de mil quinhentos e trinta e um, a Virgem Maria apareceu a São Juan Diego neste morro. Essa é a memória da fé, e é a origem do santuário. Os documentos conservados mostram outra parte da história. Um texto de mil quinhentos e cinquenta e quatro já menciona uma ermida no Tepeyac. Em mil seiscentos e quarenta e oito foi impresso o primeiro relato extenso em espanhol, e em mil seiscentos e quarenta e nove o Nican mopohua, em náuatle. Os historiadores discutem quando este último foi escrito. As duas coisas, a memória e os documentos, formam esta história. O santuário nasce da primeira e é documentado na segunda.
 
 ### guion_largo
 
-**ES:** Esta es una caminata. No hace falta detenerse. Sigue las señales hacia la Plaza de la Estela de los Dos Glifos y deja que el audio te acompañe. /  / Mientras avanzas, mira las terrazas y los muros de piedra que te rodean. Kenneth Hirth explica que la gente vivía en grandes terrazas y plataformas de las laderas, y que las casas se extendían hacia el fondo del valle. Lo que ves como paisaje fue un barrio. /  / Las calzadas pavimentadas conectaban los sectores de la ciudad. No eran un adorno. Llevaban gente, mercancías y noticias de un barrio a otro. /  / Si el camino sube, piensa en que quien vivía aquí lo subía a diario, con carga o sin ella. En una ciudad de cerros, caminar era parte del trabajo. /  / Cuando llegues a una plaza amplia, con una estela al centro, ya estás en el siguiente audio.
+**ES:** La historia del santuario se puede contar de dos maneras, y las dos son parte de lo que ves aquí. /  / La primera es la de la tradición guadalupana. Según ella, en diciembre de mil quinientos treinta y uno la Virgen María se apareció varias veces a un indígena llamado Juan Diego, en este cerro. Le pidió que fuera con el obispo, fray Juan de Zumárraga, y le dijera que quería un templo en este lugar. Como señal, la imagen de la Virgen quedó en la tilma de Juan Diego. Esa es la memoria de la fe, y por ella existe este santuario. La Iglesia reconoce el culto. San Juan Diego fue beatificado el seis de mayo de mil novecientos noventa y canonizado el treinta y uno de julio de dos mil dos, en esta Basílica. /  / La segunda es la que cuentan los documentos. El primero que se conserva con una mención de la ermita del Tepeyac es de mil quinientos cincuenta y cuatro, del humanista Francisco Cervantes de Salazar. En mil quinientos cincuenta y seis, el arzobispo Alonso de Montúfar abrió una información sobre el culto. En ella hubo dos sermones, el de Montúfar y el del provincial franciscano Francisco de Bustamante, que opinaban distinto sobre la devoción. Los dos expresaron opiniones distintas sobre la devoción. /  / Los textos que cuentan con detalle las apariciones son del siglo diecisiete. En mil seiscientos cuarenta y ocho, el sacerdote Miguel Sánchez publicó en español un libro sobre la imagen. En mil seiscientos cuarenta y nueve, Luis Lasso de la Vega, vicario de este santuario, imprimió una obra en náhuatl que incluye el Nican mopohua, el relato de las apariciones que se conoce hasta hoy. Las primeras palabras del texto dan su nombre. /  / Desde hace décadas, los historiadores discuten cuándo y quién escribió el Nican mopohua. Unos lo sitúan en el siglo dieciséis, a veces con Antonio Valeriano como autor. Otros lo sitúan a inicios del diecisiete. Esa discusión sigue abierta. Tampoco se conserva un documento de la primera mitad del siglo dieciséis que hable de Juan Diego, aunque la tradición oral lo ha mantenido vivo. Todo esto es lo que se sabe hoy. /  / El culto creció con el tiempo. En mil setecientos treinta y siete la Ciudad de México juró a la Virgen de Guadalupe como patrona, en mil setecientos cuarenta y seis lo fue de toda la Nueva España, y el papa Benedicto catorce lo confirmó en mil setecientos cincuenta y cuatro. /  / Quienes viven la fe desde esta tradición ven en ella un acontecimiento. Quienes estudian los documentos ven un proceso histórico. Ambas miradas conviven en este lugar, y ambas explican por qué el Tepeyac se volvió un centro de peregrinación para millones de personas. /  / Si miras hacia el cerro, verás las capillas que se fueron levantando a lo largo de los siglos. Las siguientes paradas te llevarán a conocerlas.
 
-**PT:** Esta é uma caminhada. Não é preciso parar. Siga as placas em direção à Praça da Estela dos Dois Glifos e deixe que o áudio o acompanhe. /  / Enquanto avança, olhe os terraços e os muros de pedra que o rodeiam. Kenneth Hirth explica que as pessoas viviam em grandes terraços e plataformas nas encostas, e que as casas se estendiam até o fundo do vale. O que você vê como paisagem foi um bairro. /  / As calçadas pavimentadas conectavam os setores da cidade. Não eram um enfeite. Levavam gente, mercadorias e notícias de um bairro a outro. /  / Se o caminho subir, pense que quem vivia aqui o subia todos os dias, com carga ou sem ela. Em uma cidade de morros, caminhar era parte do trabalho. /  / Quando você chegar a uma praça ampla, com uma estela no centro, já estará no próximo áudio.
+**PT:** A história do santuário pode ser contada de duas maneiras, e as duas fazem parte do que você vê aqui. /  / A primeira é a da tradição guadalupana. Segundo ela, em dezembro de mil quinhentos e trinta e um a Virgem Maria apareceu várias vezes a um indígena chamado Juan Diego, neste morro. Pediu que ele fosse ao bispo, frei Juan de Zumárraga, e lhe dissesse que queria um templo neste lugar. Como sinal, a imagem da Virgem ficou na tilma de Juan Diego. Essa é a memória da fé, e é por ela que existe este santuário. A Igreja reconhece o culto. São Juan Diego foi beatificado em seis de maio de mil novecentos e noventa e canonizado em trinta e um de julho de dois mil e dois, nesta Basílica. /  / A segunda é a que os documentos contam. O primeiro que se conserva com uma menção à ermida do Tepeyac é de mil quinhentos e cinquenta e quatro, do humanista Francisco Cervantes de Salazar. Em mil quinhentos e cinquenta e seis, o arcebispo Alonso de Montúfar abriu um inquérito sobre o culto. Nele houve dois sermões, o de Montúfar e o do provincial franciscano Francisco de Bustamante, que tinham opiniões diferentes sobre a devoção. Os dois expressaram opiniões diferentes sobre a devoção. /  / Os textos que contam as aparições em detalhe são do século dezessete. Em mil seiscentos e quarenta e oito, o sacerdote Miguel Sánchez publicou em espanhol um livro sobre a imagem. Em mil seiscentos e quarenta e nove, Luis Lasso de la Vega, vigário deste santuário, imprimiu uma obra em náuatle que inclui o Nican mopohua, o relato das aparições que se conhece até hoje. As primeiras palavras do texto lhe dão o nome. /  / Há décadas, os historiadores discutem quando e por quem o Nican mopohua foi escrito. Alguns o situam no século dezesseis, às vezes com Antonio Valeriano como autor. Outros o situam no início do século dezessete. Essa discussão continua aberta. Também não se conserva nenhum documento da primeira metade do século dezesseis que fale de Juan Diego, embora a tradição oral o tenha mantido vivo. Tudo isso é o que se sabe hoje. /  / O culto cresceu com o tempo. Em mil setecentos e trinta e sete, a Cidade do México jurou a Virgem de Guadalupe como padroeira; em mil setecentos e quarenta e seis ela o foi de toda a Nova Espanha, e o papa Bento catorze o confirmou em mil setecentos e cinquenta e quatro. /  / Quem vive a fé a partir dessa tradição vê nela um acontecimento. Quem estuda os documentos vê um processo histórico. Os dois olhares convivem neste lugar, e ambos explicam por que o Tepeyac se tornou um centro de peregrinação para milhões de pessoas. /  / Se você olhar para o morro, verá as capelas que foram sendo erguidas ao longo dos séculos. As próximas paradas levarão você a conhecê-las.
 
 ### retos_observacion
 
-**ES:** Fíjate en los muros que sostienen las terrazas / Busca cuántas direcciones tiene el camino / Camina despacio y mira el paisaje
+**ES:** Mira el cerro y ubica la capilla de la cima / Busca las figuras animadas de San Juan Diego y fray Juan de Zumárraga / Piensa en los años 1531, 1554 y 1648
 
-**PT:** Repare nos muros que sustentam os terraços / Procure quantas direções o caminho tem / Caminhe devagar e olhe a paisagem
+**PT:** Olhe para o morro e localize a capela do topo / Procure as figuras animadas de São Juan Diego e de frei Juan de Zumárraga / Pense nos anos 1531, 1554 e 1648
 
 ### especificaciones
 
-**ES:** Tipo: caminata, sin parada fija / Tema: terrazas, calzadas y barrios de la ciudad
+**ES:** Aparición según la tradición: diciembre de 1531 / Primera mención de una ermita: 1554 / Relato impreso en español: 1648 / Nican mopohua, en náhuatl: 1649
 
-**PT:** Tipo: caminhada, sem parada fixa / Tema: terraços, calçadas e bairros da cidade
+**PT:** Aparição segundo a tradição: dezembro de 1531 / Primeira menção a uma ermida: 1554 / Relato impresso em espanhol: 1648 / Nican mopohua, em náuatle: 1649
 
-## Pieza: xoc_05_plaza_estela_dos_glifos
+## Pieza: bas_11_nueva_arquitectura
 
 ### titulo
 
-**ES:** Plaza de la Estela de los Dos Glifos
+**ES:** La Nueva Basílica
 
-**PT:** Praça da Estela dos Dois Glifos
+**PT:** A Nova Basílica
 
 ### frase_gancho
 
-**ES:** Una plaza abierta donde se miraba salir el Sol en equinoccios y solsticios.
+**ES:** Un templo circular pensado para que todos vean la imagen.
 
-**PT:** Uma praça aberta onde se via o Sol nascer nos equinócios e nos solstícios.
+**PT:** Um templo circular pensado para que todos vejam a imagem.
 
 ### puente_narrativo
 
-**ES:** Continúa tu ruta: lo que sigue es parte de la ciudad que vivía del comercio y del trabajo.
+**ES:** Cruzas el atrio y llegas a la fachada de la Nueva Basílica.
 
-**PT:** Continue seu percurso: o que vem a seguir faz parte da cidade que vivia do comércio e do trabalho.
+**PT:** Você atravessa o átrio e chega à fachada da Nova Basílica.
 
 ### guion_corto
 
-**ES:** Imagina esta plaza al amanecer, llena de gente. Es un espacio público amplio, rodeado por las bases C y D y por la Gran Pirámide al norte. Aquí estuvo una estela con dos glifos. Uno es un año, diez caña, y el otro un día, nueve ojo de reptil. Lo que ves en esta plaza es una réplica; la original fue una de las cuatro estelas halladas en el sitio. El INAH explica que la plaza se usaba para observar la salida del Sol en los equinoccios y en los solsticios. También forma parte del conjunto del mercado. Es decir, en el mismo lugar se comerciaba, se celebraba y se medía el tiempo. Hay quien dice que la plaza tiene buena acústica; si hablas fuerte, comprobarás que el sonido rebota.
+**ES:** Estás frente a la Nueva Basílica de Guadalupe. Se levantó entre mil novecientos setenta y cuatro y mil novecientos setenta y seis. La Antigua Basílica se hundía y ya no alcanzaba para recibir a tantos peregrinos. Su planta es circular, de más de cien metros de diámetro. Fue pensada para que unas diez mil personas puedan ver la imagen de la Virgen desde cualquier lugar del interior. El proyecto lo firmaron los arquitectos Pedro Ramírez Vázquez y José Luis Benlliure, junto con fray Gabriel Chávez de la Mora. Su techo es colgante, sostenido desde un solo punto, como una gran tienda de campaña. Y para soportar su peso en un suelo blando, se hincaron cientos de pilotes de control.
 
-**PT:** Imagine esta praça ao amanhecer, cheia de gente. É um espaço público amplo, cercado pelas bases C e D e pela Grande Pirâmide ao norte. Aqui havia uma estela com dois glifos. Um é um ano, dez cana, e o outro um dia, nove olho de réptil. O que você vê nesta praça é uma réplica; a original foi uma das quatro estelas encontradas no sítio. O INAH explica que a praça era usada para observar o nascer do Sol nos equinócios e nos solstícios. Ela também faz parte do conjunto do mercado. Ou seja, no mesmo lugar se comerciava, se celebrava e se media o tempo. Há quem diga que a praça tem boa acústica; se você falar alto, vai comprovar que o som ecoa.
+**PT:** Você está diante da Nova Basílica de Guadalupe. Ela foi erguida entre mil novecentos e setenta e quatro e mil novecentos e setenta e seis. A Antiga Basílica estava afundando e já não comportava tantos peregrinos. Sua planta é circular, com mais de cem metros de diâmetro. Foi pensada para que cerca de dez mil pessoas possam ver a imagem da Virgem de qualquer ponto do interior. O projeto foi assinado pelos arquitetos Pedro Ramírez Vázquez e José Luis Benlliure, junto com frei Gabriel Chávez de la Mora. Seu teto é suspenso, sustentado a partir de um único ponto, como uma grande tenda de acampamento. E, para suportar seu peso em um solo mole, foram cravadas centenas de estacas de controle.
 
 ### guion_largo
 
-**ES:** Imagina esta plaza al amanecer, con gente de pie y mirando hacia el este. Eso es lo que sugiere el INAH: la plaza se usaba para observar la salida del Sol en los equinoccios y en los solsticios. /  / Es un espacio público grande, limitado por tres lados. Al oeste está la Base D. Al este, la Base C. Y al norte se levanta la Gran Pirámide, de la que hablaremos pronto. Según el INAH, esta plaza es parte del conjunto del mercado de la ciudad. /  / Por eso se llama Plaza de la Estela de los Dos Glifos. Una estela es una piedra alta con relieves. En este caso llevaba dos glifos, es decir, dos signos de escritura. Uno es un año y el otro, un día. Se lee como año diez caña, día nueve ojo de reptil. /  / Lo que ves aquí es una réplica. La estela original fue una de las cuatro halladas en el sitio, según la guía del INAH. El director de la zona, Medina Romero, relaciona esa fecha con la pirámide: propone que el año diez y el día nueve ojo de reptil corresponden a su inauguración. Es una propuesta, no un dato cerrado. /  / La fecha también aparece en la escritura de la ciudad. Los especialistas Christophe Helmke y Jesper Nielsen destacan un nueve caña en la Pirámide de las Serpientes Emplumadas, y lo vinculan con una ceremonia del fuego nuevo. Todavía hay mucho por descifrar en esta escritura. /  / Un detalle más: Medina menciona que esta plaza tiene buena acústica. Si hablas en voz alta, notarás cómo el sonido llena el espacio. Imagina un anuncio importante dicho aquí, ante la ciudad reunida. /  / Antes de irte, ubícate respecto al Sol. Mira hacia donde sale. Un lugar así sirve para vivir el calendario con el cuerpo: esperar, mirar y saber qué día es. /  / Andrews y Glascock añaden otro dato: en esta plaza aparecieron muchas puntas de proyectil, y proponen que aquí se reunía a guerreros armados para actividades militares. La plaza reune cosas que en nuestra vida están separadas: mercado, ceremonia, calendario y armas. En Xochicalco, todo compartía el mismo suelo.
+**ES:** Estás frente a la Nueva Basílica de Guadalupe, y vale la pena mirarla un momento antes de entrar. /  / Durante doscientos sesenta y siete años la imagen de la Virgen estuvo en la Antigua Basílica, de mil setecientos nueve a mil novecientos setenta y seis. Es el templo que está a un lado de este. El suelo de esta zona es blando, de antiguo lago, y aquel edificio se fue hundiendo. Además, cada año llegaban más peregrinos y el templo ya no alcanzaba. Hacía falta otro lugar. /  / Los primeros anteproyectos del arquitecto José Luis Benlliure pensaban en construir en lo alto del cerro. Al final se eligió este terreno, al pie del Tepeyac. El proyecto lo firmaron Pedro Ramírez Vázquez y Benlliure, con fray Gabriel Chávez de la Mora. Colaboraron también Alejandro Schoenhofer y Javier García Lascuráin. La estructura estuvo a cargo de Óscar de Buen, y la acústica, de Eduardo Saad. El encargo lo dio el abad Guillermo Schulenburg. /  / La primera piedra se colocó el doce de diciembre de mil novecientos setenta y cuatro. El templo se dedicó el doce de octubre de mil novecientos setenta y seis, y ese día se trasladó la imagen. Fueron unos veintidós meses de obra, un plazo muy corto para un edificio de este tamaño. Las primeras Mañanitas en el nuevo templo se cantaron el doce de diciembre de ese mismo año. /  / Fíjate en su forma. La planta es un círculo de más de cien metros de diámetro. Esa decisión tiene una razón sencilla. Quien entra, sin importar dónde se siente, puede ver la imagen. Por dentro caben unas diez mil personas, y en la plaza, muchas más. /  / El techo es colgante y se sostiene desde un solo punto, como el mástil de una tienda. Por dentro está forrado de madera, y la luz viene de lámparas de forma hexagonal. /  / En su momento, algunas personas dijeron que el edificio parecía más una carpa o un estadio que una iglesia. Martha Fernández, investigadora de la UNAM, propone leer esa forma de otra manera. Para ella, la tienda recuerda la del pueblo de Israel en el desierto. Era el lugar donde, según la Biblia, Dios acompañaba a su pueblo en el camino. Es una interpretación académica. También ayuda a entender por qué esta forma encaja con un lugar al que la gente llega caminando, desde lejos. /  / Queda el problema del suelo. Para que el edificio no se hundiera como el anterior, se hincaron trescientos cuarenta y cuatro pilotes de control. Con ellos se puede ajustar el nivel de la construcción con el paso de los años. /  / Mira también la escala. Desde la plaza, la Basílica se ve completa a menos de doscientos metros, y su punta no parece tan alta como es. El edificio se pensó para recibir a multitudes enteras, sobre todo en la fiesta del doce de diciembre, cuando la plaza se llena de peregrinos. /  / Cuando entres, notarás que el espacio es amplio y abierto. Muchas personas llegan aquí a rezar, a pedir o a dar gracias, y hay misa durante gran parte del día. Si solo vienes a mirar, haz tu recorrido con calma y en silencio. Más adelante, sobre el altar, está la imagen de la Virgen de Guadalupe.
 
-**PT:** Imagine esta praça ao amanhecer, com gente de pé olhando para o leste. É isso que o INAH sugere: a praça era usada para observar o nascer do Sol nos equinócios e nos solstícios. /  / É um espaço público grande, limitado por três lados. A oeste fica a Base D. A leste, a Base C. E ao norte se ergue a Grande Pirâmide, da qual falaremos em breve. Segundo o INAH, esta praça faz parte do conjunto do mercado da cidade. /  / Por isso se chama Praça da Estela dos Dois Glifos. Uma estela é uma pedra alta com relevos. Neste caso, ela trazia dois glifos, ou seja, dois signos de escrita. Um é um ano e o outro, um dia. Lê-se como ano dez cana, dia nove olho de réptil. /  / O que você vê aqui é uma réplica. A estela original foi uma das quatro encontradas no sítio, segundo o guia do INAH. O diretor da zona, Medina Romero, relaciona essa data com a pirâmide: propõe que o ano dez e o dia nove olho de réptil correspondem à sua inauguração. É uma proposta, não um dado definitivo. /  / A data também aparece na escrita da cidade. Os especialistas Christophe Helmke e Jesper Nielsen destacam um nove cana na Pirâmide das Serpentes Emplumadas e o associam a uma cerimônia do Fogo Novo. Ainda há muito por decifrar nesta escrita. /  / Um detalhe a mais: Medina menciona que esta praça tem boa acústica. Se você falar em voz alta, vai notar como o som preenche o espaço. Imagine um anúncio importante feito aqui, diante da cidade reunida. /  / Antes de ir embora, oriente-se em relação ao Sol. Olhe para onde ele nasce. Um lugar assim serve para viver o calendário com o corpo: esperar, olhar e saber que dia é. /  / Andrews e Glascock acrescentam outro dado: nesta praça apareceram muitas pontas de projétil, e eles propõem que aqui se reuniam guerreiros armados para atividades militares. A praça reúne coisas que em nossa vida estão separadas: mercado, cerimônia, calendário e armas. Em Xochicalco, tudo compartilhava o mesmo chão.
+**PT:** Você está diante da Nova Basílica de Guadalupe, e vale a pena olhá-la por um momento antes de entrar. /  / Durante duzentos e sessenta e sete anos, a imagem da Virgem esteve na Antiga Basílica, de mil setecentos e nove a mil novecentos e setenta e seis. É o templo que fica ao lado deste. O solo desta região é mole, de antigo lago, e aquele edifício foi afundando. Além disso, a cada ano chegavam mais peregrinos e o templo já não comportava todos. Era preciso outro lugar. /  / Os primeiros anteprojetos do arquiteto José Luis Benlliure pensavam em construir no alto do morro. No fim, escolheu-se este terreno, ao pé do Tepeyac. O projeto foi assinado por Pedro Ramírez Vázquez e Benlliure, com frei Gabriel Chávez de la Mora. Colaboraram também Alejandro Schoenhofer e Javier García Lascuráin. A estrutura ficou a cargo de Óscar de Buen, e a acústica, de Eduardo Saad. A encomenda foi feita pelo abade Guillermo Schulenburg. /  / A pedra fundamental foi colocada em doze de dezembro de mil novecentos e setenta e quatro. O templo foi dedicado em doze de outubro de mil novecentos e setenta e seis, e nesse dia a imagem foi transferida. Foram cerca de vinte e dois meses de obra, um prazo muito curto para um edifício deste tamanho. As primeiras Mañanitas no novo templo foram cantadas em doze de dezembro daquele mesmo ano. /  / Repare na sua forma. A planta é um círculo com mais de cem metros de diâmetro. Essa decisão tem uma razão simples. Quem entra, não importa onde se sente, pode ver a imagem. No interior cabem cerca de dez mil pessoas, e na praça, muitas mais. /  / O teto é suspenso e se sustenta a partir de um único ponto, como o mastro de uma tenda. Por dentro é forrado de madeira, e a luz vem de lâmpadas de forma hexagonal. /  / Na época, algumas pessoas disseram que o edifício parecia mais um circo ou um estádio do que uma igreja. Martha Fernández, pesquisadora da UNAM, propõe ler essa forma de outro modo. Para ela, a tenda lembra a do povo de Israel no deserto. Era o lugar onde, segundo a Bíblia, Deus acompanhava seu povo no caminho. É uma interpretação acadêmica. Também ajuda a entender por que essa forma combina com um lugar ao qual as pessoas chegam caminhando, de longe. /  / Resta o problema do solo. Para que o edifício não afundasse como o anterior, foram cravadas trezentas e quarenta e quatro estacas de controle. Com elas é possível ajustar o nível da construção ao longo dos anos. /  / Observe também a escala. Da praça, a Basílica se vê inteira a menos de duzentos metros, e sua ponta não parece tão alta quanto é. O edifício foi pensado para receber multidões inteiras, sobretudo na festa de doze de dezembro, quando a praça se enche de peregrinos. /  / Quando você entrar, vai notar que o espaço é amplo e aberto. Muitas pessoas vêm aqui para rezar, pedir ou agradecer, e há missa durante grande parte do dia. Se você vem apenas para olhar, faça seu percurso com calma e em silêncio. Mais adiante, sobre o altar, está a imagem da Virgem de Guadalupe.
 
 ### retos_observacion
 
-**ES:** Mira hacia donde sale el Sol y piensa en lo que se podía anunciar desde aquí / Busca las bases C y D y la Gran Pirámide que limitan la plaza / Habla en voz alta y escucha cómo suena el espacio
+**ES:** Cuenta cuántos accesos ves en la fachada / Busca la forma circular del edificio al rodearlo / Mira el techo al entrar
 
-**PT:** Olhe para onde o Sol nasce e pense no que se podia anunciar daqui / Procure as bases C e D e a Grande Pirâmide que delimitam a praça / Fale em voz alta e escute como o espaço soa
+**PT:** Conte quantos acessos você vê na fachada / Procure a forma circular do edifício ao contorná-lo / Olhe o teto ao entrar
 
 ### especificaciones
 
-**ES:** Estela: réplica; la original fue una de cuatro halladas / Glifos: año diez caña y día nueve ojo de reptil / Límites: Base D al oeste, Base C al este, Gran Pirámide al norte / Uso: observar el Sol en equinoccios y solsticios
+**ES:** Obra: 1974 a 1976 / Arquitectos: Pedro Ramírez Vázquez y José Luis Benlliure / Planta: circular, más de 100 m de diámetro / Visibilidad: unas 10,000 personas / Techo: colgante, sostenido desde un punto
 
-**PT:** Estela: réplica; a original foi uma de quatro encontradas / Glifos: ano dez cana e dia nove olho de réptil / Límites: Base D a oeste, Base C a leste, Grande Pirâmide ao norte / Uso: observar o Sol nos equinócios e nos solstícios
+**PT:** Obra: 1974 a 1976 / Arquitetos: Pedro Ramírez Vázquez e José Luis Benlliure / Planta: circular, mais de 100 m de diâmetro / Visibilidade: cerca de 10 000 pessoas / Teto: suspenso, sustentado a partir de um ponto
 
 ### faq_mito
 
-**ES:** pregunta: Mito: La estela que ves es la original. / respuesta: Realidad: Es una réplica. La original está resguardada y se cuenta como una de las cuatro estelas halladas.
+**ES:** pregunta: Mito: La Antigua Basílica se abandonó cuando se construyó la Nueva. / respuesta: Realidad: La Antigua hoy está dedicada a Cristo Rey y sigue en uso.
 
-**PT:** pregunta: Mito: A estela que você vê é a original. / respuesta: Realidade: É uma réplica. A original está sob guarda e é contada como uma das quatro estelas encontradas.
+**PT:** pregunta: Mito: A Antiga Basílica foi abandonada quando a Nova foi construída. / respuesta: Realidade: A Antiga hoje é dedicada a Cristo Rei e continua em uso.
 
-## Pieza: xoc_06_mercado_obsidiana
+## Pieza: bas_12_cristo_atentado
 
 ### titulo
 
-**ES:** El mercado y los talleres de obsidiana
+**ES:** El Santo Cristo del Atentado
 
-**PT:** O mercado e as oficinas de obsidiana
+**PT:** O Santo Cristo do Atentado
 
 ### frase_gancho
 
-**ES:** Una ciudad que vivía de fabricar, vender y llevar mercancías lejos.
+**ES:** Un crucifijo torcido que recuerda el atentado de 1921.
 
-**PT:** Uma cidade que vivia de fabricar, vender e levar mercadorias para longe.
+**PT:** Um crucifixo torcido que recorda o atentado de 1921.
 
 ### puente_narrativo
 
-**ES:** Sigue tu ruta: ahora conviene mirar uno de los edificios más grandes de la ciudad.
+**ES:** Dentro del templo, busca la vitrina donde se guarda el crucifijo.
 
-**PT:** Siga o seu percurso: agora vale a pena olhar para um dos maiores edifícios da cidade.
+**PT:** Dentro do templo, procure a vitrine onde o crucifixo é guardado.
 
 ### guion_corto
 
-**ES:** ¿Cuánta gente vive de lo que vende? En Xochicalco, mucha. Los arqueólogos excavaron cinco talleres de navajillas de obsidiana: cuatro dentro de casas y uno en una zona de mercado, donde los artesanos vendían lo que hacían. La obsidiana es un vidrio volcánico que se rompe en filos muy agudos, y con ella se hacían navajas y herramientas. La materia prima venía de muy lejos, de yacimientos de Michoacán e Hidalgo a más de doscientos kilómetros. Así que esta ciudad no era solo un centro de poder. Era un lugar de oficios y de comercio, conectado con rutas que cruzaban Mesoamérica. La riqueza de Xochicalco no estaba solo en sus templos. Estaba en las manos que fabricaban y vendían.
+**ES:** Dentro de esta Basílica se conserva una cruz torcida, el Santo Cristo del Atentado. El catorce de noviembre de mil novecientos veintiuno, hacia las diez y media de la mañana, estalló una bomba de dinamita en la Antigua Basílica. Un hombre desconocido la había dejado oculta entre unas flores, al pie del altar mayor. El altar de mármol quedó muy dañado, y este crucifijo de metal, que estaba en el altar, se dobló. El relato que se conserva cuenta que el cristal que protegía la imagen de la Virgen no se rompió. Los fieles lo consideran un milagro. Hoy el crucifijo se guarda en una vitrina, junto a un pergamino que narra lo ocurrido.
 
-**PT:** Quantas pessoas vivem do que vendem? Em Xochicalco, muitas. Os arqueólogos escavaram cinco oficinas de lâminas de obsidiana: quatro dentro de casas e uma em uma área de mercado, onde os artesãos vendiam o que faziam. A obsidiana é um vidro vulcânico que se quebra em gumes muito afiados, e com ela se faziam lâminas e ferramentas. A matéria-prima vinha de muito longe, de jazidas de Michoacán e Hidalgo a mais de duzentos quilômetros. Assim, esta cidade não era apenas um centro de poder. Era um lugar de ofícios e de comércio, conectado com rotas que cruzavam a Mesoamérica. A riqueza de Xochicalco não estava apenas em seus templos. Estava nas mãos que fabricavam e vendiam.
+**PT:** Dentro desta Basílica se conserva uma cruz torcida, o Santo Cristo do Atentado. No dia catorze de novembro de mil novecentos e vinte e um, por volta das dez e meia da manhã, explodiu uma bomba de dinamite na Antiga Basílica. Um homem desconhecido a havia deixado escondida entre algumas flores, ao pé do altar-mor. O altar de mármore ficou muito danificado, e este crucifixo de metal, que estava no altar, entortou. O relato que se conserva conta que o vidro que protegia a imagem da Virgem não se quebrou. Os fiéis consideram isso um milagre. Hoje o crucifixo fica guardado em uma vitrine, junto a um pergaminho que narra o ocorrido.
 
 ### guion_largo
 
-**ES:** Cuando se piensa en una ciudad antigua se imaginan templos, pero también había mercados. Y Xochicalco tuvo uno. /  / La obsidiana es un vidrio volcánico negro que se rompe en bordes muy filosos. Con ella se hacían navajas, cuchillos y puntas. Aquí no la sacaban del cerro. Los análisis químicos de las piezas muestran que casi toda venía de dos yacimientos: Ucareo, en Michoacán, y Zacualtipán, en Hidalgo. Los dos están a más de doscientos kilómetros de esta plaza. /  / Un proyecto dirigido por Kenneth Hirth excavó cinco talleres de navajillas en zonas comunes de la ciudad. Cuatro eran casas, donde la familia vivía y trabajaba en el mismo espacio. El quinto era una zona de mercado, donde los artesanos vendían lo que hacían. Según Andrews y Glascock, esos talleres fabricaron la mayoría de las navajillas que se usaban en la ciudad y en sus alrededores. /  / El proceso tenía un detalle curioso. A los talleres no llegaba la piedra en bruto. Llegaban núcleos pequeños, ya trabajados a medias, y Hirth propone que los traían comerciantes que andaban de pueblo en pueblo recorriendo largas distancias. En la casa, el artesano sacaba las navajillas una a una. Cuando el núcleo perdía la superficie para golpear, la renovaba y seguía. /  / Hay otro dato que sorprende. Los arqueólogos compararon esas navajillas con las que aparecieron en los edificios de la élite, y son iguales en técnica y en forma. Andrews y Glascock concluyen que los gobernantes no controlaban directamente este oficio. Es probable que compraran sus navajas en el mercado central, como todos los demás. /  / Ahora imagina esta plaza un día de mercado. Gente que llega de otros pueblos, comerciantes que ofrecen sus productos, artesanos que muestran navajas recién hechas. El ruido de la plaza, mezclado con el eco que ya notaste. /  / Una ciudad fortificada no vivía solo de la guerra. Vivía del intercambio. Y ese intercambio también ayuda a entender por qué su arte mezcla estilos de tantas regiones.
+**ES:** Dentro de esta Basílica, en una vitrina, se conserva una cruz torcida. Se le conoce como el Santo Cristo del Atentado. Para entender por qué importa, hay que regresar a una mañana de mil novecientos veintiuno. /  / En aquellos años la imagen de la Virgen de Guadalupe estaba en la Antigua Basílica, el templo que está a un lado de este. Todavía faltaban más de cincuenta años para que se construyera la Basílica donde estás ahora. La Antigua Basílica era un templo muy querido. En mil ochocientos noventa y cinco la imagen había sido coronada allí, y en mil novecientos cuatro el templo fue elevado a basílica menor. El altar mayor era de mármol. Sobre el altar había un crucifijo de metal, delante de la imagen. /  / El lunes catorce de noviembre, al terminar la misa de la mañana, un hombre se acercó al altar. Llevaba un arreglo de flores y lo dejó a sus pies. Dentro de las flores iba escondida una bomba de dinamita. Hacia las diez y media de la mañana estalló. /  / La explosión dañó el altar de mármol. El crucifijo, que estaba delante de la imagen, quedó doblado. Al día siguiente, el periódico El Gran Diario de México publicó en su primera plana imágenes del altar destrozado y de la cruz torcida. Esas fotografías forman parte del registro histórico de lo ocurrido. /  / Ahora viene lo que cuenta el relato que se conserva en la Basílica. Dice que el cristal que cubría la imagen de la Virgen ni siquiera se estrelló. Para los fieles, ese hecho es un milagro. En su manera de contarlo, el Hijo protegió a la Madre. Por eso veneran de forma especial al crucifijo que recibió la fuerza de la explosión. Es una lectura de fe, y así la conserva la comunidad guadalupana. /  / Hoy el crucifijo se exhibe en esta Basílica, dentro de una vitrina. Lo acompaña un pergamino que explica los hechos, junto con las fotografías que se tomaron después del atentado. Con el paso del tiempo, el recuerdo de aquel día se volvió parte de la memoria del santuario. /  / En dos mil veintiuno se cumplieron cien años del atentado. Con ese motivo, la Basílica abrió un Año Santo con indulgencia plenaria. Fue una manera de recordar el hecho dentro de la vida de la Iglesia. La indulgencia plenaria es, para los católicos, la remisión de la pena temporal por pecados ya perdonados, con condiciones que fija la propia Iglesia. /  / Quienes se acercan a esta vitrina suelen hacerlo en silencio. Algunas personas se detienen a orar. Otras le piden favores a este Cristo, y otras solo miran la forma retorcida del metal. Cada quien lo vive a su manera. /  / Si vas a mirar la vitrina, hazlo sin interrumpir a quienes están rezando. Es una pieza que sigue siendo objeto de devoción activa, además de un testimonio de la historia de este lugar.
 
-**PT:** Quando se pensa em uma cidade antiga, imaginam-se templos, mas também havia mercados. E Xochicalco teve um. /  / A obsidiana é um vidro vulcânico negro que se quebra em bordas muito afiadas. Com ela se faziam lâminas, facas e pontas. Aqui não a extraíam do morro. As análises químicas das peças mostram que quase toda vinha de duas jazidas: Ucareo, em Michoacán, e Zacualtipán, em Hidalgo. As duas ficam a mais de duzentos quilômetros desta praça. /  / Um projeto dirigido por Kenneth Hirth escavou cinco oficinas de lâminas em áreas comuns da cidade. Quatro eram casas, onde a família vivia e trabalhava no mesmo espaço. A quinta era uma área de mercado, onde os artesãos vendiam o que faziam. Segundo Andrews e Glascock, essas oficinas fabricaram a maioria das lâminas que eram usadas na cidade e em seus arredores. /  / O processo tinha um detalhe curioso. Às oficinas não chegava a pedra bruta. Chegavam núcleos pequenos, já trabalhados pela metade, e Hirth propõe que eram trazidos por comerciantes que andavam de povoado em povoado, percorrendo longas distâncias. Em casa, o artesão tirava as lâminas uma a uma. Quando o núcleo perdia a superfície para golpear, ele a renovava e seguia em frente. /  / Há outro dado que surpreende. Os arqueólogos compararam essas lâminas com as que apareceram nos edifícios da elite, e são iguais em técnica e em forma. Andrews e Glascock concluem que os governantes não controlavam diretamente esse ofício. É provável que comprassem suas lâminas no mercado central, como todos os demais. /  / Agora imagine esta praça em um dia de mercado. Gente que chega de outros povoados, comerciantes que oferecem seus produtos, artesãos que mostram lâminas recém-feitas. O barulho da praça, misturado com o eco que você já notou. /  / Uma cidade fortificada não vivia apenas da guerra. Vivia do intercâmbio. E esse intercâmbio também ajuda a entender por que sua arte mistura estilos de tantas regiões.
+**PT:** Dentro desta Basílica, em uma vitrine, se conserva uma cruz torcida. Ela é conhecida como o Santo Cristo do Atentado. Para entender por que ela importa, é preciso voltar a uma manhã de mil novecentos e vinte e um. /  / Naqueles anos, a imagem da Virgem de Guadalupe ficava na Antiga Basílica, o templo que está ao lado deste. Ainda faltavam mais de cinquenta anos para que fosse construída a Basílica onde você está agora. A Antiga Basílica era um templo muito querido. Em mil oitocentos e noventa e cinco a imagem havia sido coroada ali, e em mil novecentos e quatro o templo foi elevado a basílica menor. O altar-mor era de mármore. Sobre o altar havia um crucifixo de metal, diante da imagem. /  / Na segunda-feira, catorze de novembro, ao terminar a missa da manhã, um homem se aproximou do altar. Levava um arranjo de flores e o deixou aos pés dele. Dentro das flores ia escondida uma bomba de dinamite. Por volta das dez e meia da manhã, ela explodiu. /  / A explosão danificou o altar de mármore. O crucifixo, que estava diante da imagem, ficou entortado. No dia seguinte, o jornal El Gran Diario de México publicou na primeira página imagens do altar destroçado e da cruz torcida. Essas fotografias fazem parte do registro histórico do ocorrido. /  / Agora vem o que conta o relato conservado na Basílica. Ele diz que o vidro que cobria a imagem da Virgem nem sequer trincou. Para os fiéis, esse fato é um milagre. Na maneira deles de contar, o Filho protegeu a Mãe. Por isso veneram de forma especial o crucifixo que recebeu a força da explosão. É uma leitura de fé, e assim a conserva a comunidade guadalupana. /  / Hoje o crucifixo é exibido nesta Basílica, dentro de uma vitrine. Acompanha-o um pergaminho que explica os fatos, junto com as fotografias que foram tiradas depois do atentado. Com o passar do tempo, a lembrança daquele dia se tornou parte da memória do santuário. /  / Em dois mil e vinte e um completaram-se cem anos do atentado. Por esse motivo, a Basílica abriu um Ano Santo com indulgência plenária. Foi uma maneira de recordar o fato dentro da vida da Igreja. A indulgência plenária é, para os católicos, a remissão da pena temporal por pecados já perdoados, com condições que a própria Igreja estabelece. /  / Quem se aproxima desta vitrine costuma fazê-lo em silêncio. Algumas pessoas se detêm para orar. Outras pedem favores a este Cristo, e outras apenas olham a forma retorcida do metal. Cada um vive isso à sua maneira. /  / Se for olhar a vitrine, faça-o sem interromper quem está rezando. É uma peça que continua sendo objeto de devoção ativa, além de um testemunho da história deste lugar.
 
 ### retos_observacion
 
-**ES:** Imagina los puestos de venta en esta plaza / Busca el pequeño altar, si se distingue / Piensa en qué objetos de obsidiana usarías tú todos los días
+**ES:** Busca la vitrina del crucifijo / Observa la forma en que se dobló el metal / Lee el pergamino junto a la vitrina si está visible
 
-**PT:** Imagine as barracas de venda nesta praça / Procure o pequeno altar, se for possível distingui-lo / Pense em quais objetos de obsidiana você usaria todos os dias
+**PT:** Procure a vitrine do crucifixo / Observe a forma como o metal entortou / Leia o pergaminho ao lado da vitrine, se estiver visível
 
 ### especificaciones
 
-**ES:** Material: obsidiana, vidrio volcánico / Producto: navajillas y herramientas / Origen: Ucareo, Michoacán, y Zacualtipán, Hidalgo, a más de doscientos kilómetros / Talleres excavados: cinco, cuatro en casas y uno en zona de mercado / Fuente: Andrews y Glascock, Arqueología 61
+**ES:** Fecha: 14 de noviembre de 1921 / Hora aproximada: 10:30 de la mañana / Objeto: crucifijo de metal / Lugar del hecho: Antigua Basílica
 
-**PT:** Material: obsidiana, vidro vulcânico / Produto: lâminas e ferramentas / Origem: Ucareo, Michoacán, e Zacualtipán, Hidalgo, a mais de duzentos quilômetros / Oficinas escavadas: cinco, quatro em casas e uma em área de mercado / Fonte: Andrews e Glascock, Arqueología 61
+**PT:** Data: 14 de novembro de 1921 / Hora aproximada: 10h30 da manhã / Objeto: crucifixo de metal / Local do fato: Antiga Basílica
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Xochicalco solo era una ciudad ceremonial. / respuesta: Realidad: También era un centro de comercio y de talleres, con casas que eran a la vez vivienda y lugar de trabajo.
+**ES:** pregunta: Mito: La bomba de mil novecientos veintiuno destruyó el altar y todo lo que había cerca. / respuesta: Realidad: Dañó mucho el altar de mármol y dobló el crucifijo de metal. El relato conservado cuenta que el cristal que protegía la imagen no se rompió.
 
-**PT:** pregunta: Mito: Xochicalco era apenas uma cidade cerimonial. / respuesta: Realidade: Também era um centro de comércio e de oficinas, com casas que eram ao mesmo tempo moradia e local de trabalho.
+**PT:** pregunta: Mito: A bomba de mil novecentos e vinte e um destruiu o altar e tudo o que havia por perto. / respuesta: Realidade: Ela danificou muito o altar de mármore e entortou o crucifixo de metal. O relato conservado conta que o vidro que protegia a imagem não se quebrou.
 
-## Pieza: xoc_07_gran_piramide
+## Pieza: bas_13_tilma_banda
 
 ### titulo
 
-**ES:** La Gran Pirámide
+**ES:** La tilma y la banda móvil
 
-**PT:** A Grande Pirâmide
+**PT:** A tilma e a esteira rolante
 
 ### frase_gancho
 
-**ES:** Un edificio de tres cuerpos sobre uno de cuatro, quizá dedicado a Tláloc.
+**ES:** Desde aquí se ve la imagen, sin detenerse.
 
-**PT:** Um edifício de três corpos sobre um de quatro, talvez dedicado a Tláloc.
+**PT:** Daqui você vê a imagem, sem parar.
 
 ### puente_narrativo
 
-**ES:** Sigue tu ruta: lo que viene cuenta qué se jugaba en esta ciudad.
+**ES:** Avanza hacia el altar mayor, donde se encuentra la imagen.
 
-**PT:** Siga seu percurso: o que vem a seguir conta o que estava em jogo nesta cidade.
+**PT:** Avance até o altar-mor, onde está a imagem.
 
 ### guion_corto
 
-**ES:** Si la Pirámide de las Serpientes Emplumadas es la más famosa, la Gran Pirámide domina la plaza de abajo. Está al norte de la Plaza de la Estela y, según la guía del INAH, tiene una base de tres cuerpos que sostiene una estructura de cuatro. Hay quien piensa que estuvo dedicada a Tláloc, dios de la lluvia. Kenneth Hirth explica que en la plaza central, al pie de este edificio, se reunían dignatarios de comunidades cercanas para ceremonias públicas. Fue el escenario de encuentros entre los que gobernaban. Una ciudad que dependía de la lluvia y de alianzas con sus vecinos necesitaba un lugar así: grande, visible y conocido por todos.
+**ES:** Frente a ti, sobre el altar mayor, está la imagen de Nuestra Señora de Guadalupe, en la tilma que la tradición atribuye a Juan Diego. Es una tela de fibra de maguey. Para que todas las personas puedan verla sin detenerse, hay una banda móvil que pasa por debajo. La imagen llegó a esta Basílica el doce de octubre de mil novecientos setenta y seis. Antes estuvo en la Antigua Basílica desde mil setecientos nueve. La tradición guadalupana cuenta que la imagen quedó en la tilma en mil quinientos treinta y uno. Los documentos más antiguos que hablan de una imagen de la Virgen venerada en el Tepeyac son de mil quinientos cincuenta y seis.
 
-**PT:** Se a Pirâmide das Serpentes Emplumadas é a mais famosa, a Grande Pirâmide domina a praça de baixo. Fica ao norte da Praça da Estela e, segundo o guia do INAH, tem uma base de três corpos que sustenta uma estrutura de quatro. Há quem pense que foi dedicada a Tláloc, deus da chuva. Kenneth Hirth explica que, na praça central, ao pé deste edifício, reuniam-se dignitários de comunidades próximas para cerimônias públicas. Foi o cenário de encontros entre os que governavam. Uma cidade que dependia da chuva e de alianças com seus vizinhos precisava de um lugar assim: grande, visível e conhecido por todos.
+**PT:** À sua frente, sobre o altar-mor, está a imagem de Nossa Senhora de Guadalupe, na tilma que a tradição atribui a Juan Diego. É um tecido de fibra de agave. Para que todas as pessoas possam vê-la sem parar, há uma esteira rolante que passa por baixo. A imagem chegou a esta Basílica no dia doze de outubro de mil novecentos e setenta e seis. Antes, esteve na Antiga Basílica desde mil setecentos e nove. A tradição guadalupana conta que a imagem ficou na tilma em mil quinhentos e trinta e um. Os documentos mais antigos que falam de uma imagem da Virgem venerada no Tepeyac são de mil quinhentos e cinquenta e seis.
 
 ### guion_largo
 
-**ES:** Hay edificios que se ven desde lejos porque quieren verse. La Gran Pirámide es uno de ellos. /  / La guía del INAH la ubica al norte de la Plaza de la Estela de los Dos Glifos. Explica que tiene una base de tres cuerpos que sostiene una estructura de cuatro. Es una pirámide escalonada, con terrazas que van subiendo. /  / Alvarado León la describe como dedicada a la deidad de las tormentas y como la segunda estructura de mayor volumen de la ciudad. Medina Romero la asocia al culto a Tláloc, el dios de la lluvia. La guía del INAH dice que posiblemente estuvo dedicada a él. La palabra importante es posiblemente. No hay una inscripción que lo confirme. /  / Kenneth Hirth aporta otra idea. En la plaza central, al pie de la Gran Pirámide, se reunían dignatarios de comunidades cercanas para participar en ceremonias públicas. En otras palabras, no era solo un templo. Era un escenario político. /  / Piensa en lo que eso significa. Una ciudad que dominaba una región necesitaba aliados y necesitaba mostrar poder. Convocar a los jefes vecinos a un gran edificio, al pie de una pirámide dedicada a un dios de la lluvia, ayudaba a sellar acuerdos y a recordar quién mandaba. /  / En una tierra de cultivos de temporal, la lluvia era vida. Pedirla y agradecerla era una forma de política. /  / Andrews y Glascock cuentan que en la cima apareció un atado de ofrenda con diez grandes piezas de obsidiana de formas especiales. Cerca estaba un gran cuchillo que pudo usarse en rituales de sacrificio. Si te acercas, fíjate en las escaleras y en los cuerpos que se van acortando hacia arriba. Es un recurso que da sensación de altura y de peso. La arquitectura también habla. /  / También hay una pregunta abierta. La Gran Pirámide se excavó y se consolidó, pero es mucho menos conocida que la Pirámide de las Serpientes Emplumadas. Quizá no tiene relieves tan famosos. Pero fue la que primero recibió a quien llegaba a la plaza de abajo, antes de subir a [la Plaza Principal](xoc_12_plaza_principal_accesos).
+**ES:** Frente a ti, sobre el altar mayor, está la imagen de Nuestra Señora de Guadalupe. Para muchas personas, que llegan caminando desde lejos, este es el punto central de la visita. /  / Para que miles de personas puedan verla cada día, bajo el altar hay una banda móvil. Avanza despacio y lleva a cada visitante unos instantes frente a la imagen, sin que nadie tenga que detenerse. La Arquidiócesis ha informado que en la fiesta del doce de diciembre pasan por esa banda más de quince mil personas cada hora. /  / La imagen está en una tilma, una capa de tela de fibra de maguey. Según la tradición guadalupana, el doce de diciembre de mil quinientos treinta y uno, Juan Diego la presentó al obispo fray Juan de Zumárraga. Cuenta esa tradición que en ella quedó la imagen de la Virgen. Así lo viven los fieles. /  / Veamos ahora lo que registran los documentos. La ermita del Tepeyac aparece mencionada por escrito en mil quinientos cincuenta y cuatro. En mil quinientos cincuenta y seis, un expediente del arzobispo Alonso de Montúfar habla de la devoción a una imagen de la Virgen. Esa imagen estaba en la ermita. Los textos que narran las apariciones se publicaron en mil seiscientos cuarenta y ocho y mil seiscientos cuarenta y nueve. Desde entonces, la historia se ha estudiado desde la fe y desde la investigación histórica. /  / Con el paso de los siglos, la devoción creció. Entre mil seiscientos veintinueve y mil seiscientos treinta y cuatro hubo una inundación. La imagen estuvo en la Catedral de México y volvió al Tepeyac el quince de mayo de mil seiscientos treinta y cuatro. En mil setecientos treinta y siete, la Ciudad de México la juró patrona. En mil setecientos cuarenta y seis, su patronazgo se extendió a toda la Nueva España. En mil setecientos cincuenta y cuatro, el papa Benedicto catorce aprobó una misa y una fiesta propias para el doce de diciembre. /  / En mil setecientos cincuenta y uno, el pintor Miguel Cabrera examinó la imagen, y años después publicó un estudio sobre ella. El doce de octubre de mil ochocientos noventa y cinco, la imagen recibió la coronación pontificia en la Antigua Basílica. La autorizó el papa León trece. /  / El doce de octubre de mil novecientos setenta y seis fue trasladada a este templo. Ese mismo año, el doce de diciembre, se cantaron aquí las primeras Mañanitas. Cada año, a la medianoche de esa fecha, muchas personas se reúnen para cantarlas. /  / El treinta y uno de julio de dos mil dos, en esta misma Basílica, el papa Juan Pablo segundo proclamó santo a Juan Diego. Antes, en mil novecientos noventa, lo había declarado beato. /  / Muchas personas pasan por aquí en silencio, otras rezan y otras solo observan. Todas comparten el mismo espacio, y cada una lo vive a su manera.
 
-**PT:** Há edifícios que se veem de longe porque querem ser vistos. A Grande Pirâmide é um deles. /  / O guia do INAH a situa ao norte da Praça da Estela dos Dois Glifos. Explica que ela tem uma base de três corpos que sustenta uma estrutura de quatro. É uma pirâmide escalonada, com terraços que vão subindo. /  / Alvarado León a descreve como dedicada à divindade das tempestades e como a segunda estrutura de maior volume da cidade. Medina Romero a associa ao culto a Tláloc, o deus da chuva. O guia do INAH diz que possivelmente foi dedicada a ele. A palavra importante é possivelmente. Não há uma inscrição que o confirme. /  / Kenneth Hirth traz outra ideia. Na praça central, ao pé da Grande Pirâmide, reuniam-se dignitários de comunidades próximas para participar de cerimônias públicas. Em outras palavras, não era apenas um templo. Era um cenário político. /  / Pense no que isso significa. Uma cidade que dominava uma região precisava de aliados e precisava mostrar poder. Convocar os chefes vizinhos a um grande edifício, ao pé de uma pirâmide dedicada a um deus da chuva, ajudava a selar acordos e a lembrar quem mandava. /  / Numa terra de cultivos de sequeiro, a chuva era vida. Pedi-la e agradecê-la era uma forma de política. /  / Andrews e Glascock contam que no topo apareceu um pacote de oferenda com dez grandes peças de obsidiana de formas especiais. Perto estava uma grande faca que pode ter sido usada em rituais de sacrifício. Se você se aproximar, observe as escadas e os corpos que vão encurtando para cima. É um recurso que dá sensação de altura e de peso. A arquitetura também fala. /  / Há também uma pergunta em aberto. A Grande Pirâmide foi escavada e consolidada, mas é muito menos conhecida que a Pirâmide das Serpentes Emplumadas. Talvez não tenha relevos tão famosos. Mas foi a primeira a receber quem chegava à praça de baixo, antes de subir para [a Praça Principal](xoc_12_plaza_principal_accesos).
+**PT:** À sua frente, sobre o altar-mor, está a imagem de Nossa Senhora de Guadalupe. Para muitas pessoas, que chegam caminhando de longe, este é o ponto central da visita. /  / Para que milhares de pessoas possam vê-la a cada dia, sob o altar há uma esteira rolante. Ela avança devagar e leva cada visitante por alguns instantes diante da imagem, sem que ninguém precise parar. A Arquidiocese informou que, na festa do dia doze de dezembro, passam por essa esteira mais de quinze mil pessoas por hora. /  / A imagem está em uma tilma, uma capa de tecido de fibra de agave. Segundo a tradição guadalupana, no dia doze de dezembro de mil quinhentos e trinta e um, Juan Diego a apresentou ao bispo frei Juan de Zumárraga. Essa tradição conta que nela ficou a imagem da Virgem. É assim que os fiéis vivem essa história. /  / Vejamos agora o que registram os documentos. A ermida do Tepeyac aparece mencionada por escrito em mil quinhentos e cinquenta e quatro. Em mil quinhentos e cinquenta e seis, um processo do arcebispo Alonso de Montúfar fala da devoção a uma imagem da Virgem. Essa imagem estava na ermida. Os textos que narram as aparições foram publicados em mil seiscentos e quarenta e oito e mil seiscentos e quarenta e nove. Desde então, a história tem sido estudada a partir da fé e a partir da pesquisa histórica. /  / Com o passar dos séculos, a devoção cresceu. Entre mil seiscentos e vinte e nove e mil seiscentos e trinta e quatro houve uma inundação. A imagem esteve na Catedral do México e voltou ao Tepeyac no dia quinze de maio de mil seiscentos e trinta e quatro. Em mil setecentos e trinta e sete, a Cidade do México a jurou como padroeira. Em mil setecentos e quarenta e seis, seu padroado se estendeu a toda a Nova Espanha. Em mil setecentos e cinquenta e quatro, o papa Bento catorze aprovou uma missa e uma festa próprias para o dia doze de dezembro. /  / Em mil setecentos e cinquenta e um, o pintor Miguel Cabrera examinou a imagem e, anos depois, publicou um estudo sobre ela. No dia doze de outubro de mil oitocentos e noventa e cinco, a imagem recebeu a coroação pontifícia na Antiga Basílica. Quem a autorizou foi o papa Leão treze. /  / No dia doze de outubro de mil novecentos e setenta e seis, ela foi transferida para este templo. Naquele mesmo ano, no dia doze de dezembro, cantaram-se aqui as primeiras Mañanitas. Todos os anos, à meia-noite dessa data, muitas pessoas se reúnem para cantá-las. /  / No dia trinta e um de julho de dois mil e dois, nesta mesma Basílica, o papa João Paulo segundo proclamou santo Juan Diego. Antes, em mil novecentos e noventa, o havia declarado beato. /  / Muitas pessoas passam por aqui em silêncio, outras rezam e outras apenas observam. Todas compartilham o mesmo espaço, e cada uma o vive à sua maneira.
 
 ### retos_observacion
 
-**ES:** Cuenta los cuerpos de la base y los de la estructura de arriba / Mira cómo se ve desde la Plaza de la Estela / Imagina a los dignatarios de otros pueblos reunidos al pie del edificio
+**ES:** Ubica el altar mayor / Observa la banda móvil bajo la imagen / Avanza sin detenerte, como lo hacen los peregrinos
 
-**PT:** Conte os corpos da base e os da estrutura de cima / Veja como ela aparece a partir da Praça da Estela / Imagine os dignitários de outros povos reunidos ao pé do edifício
+**PT:** Localize o altar-mor / Observe a esteira rolante sob a imagem / Avance sem parar, como fazem os peregrinos
 
 ### especificaciones
 
-**ES:** Ubicación: al norte de la Plaza de la Estela / Estructura: base de tres cuerpos y estructura de cuatro / Posible dedicación: Tláloc, dios de la lluvia / Uso: ceremonias públicas con dignatarios de otras comunidades, según Hirth
+**ES:** Soporte: tela de fibra de maguey / Llegada a esta Basílica: 12 de octubre de 1976 / Antes: Antigua Basílica, desde 1709 / Sistema: banda móvil
 
-**PT:** Localização: ao norte da Praça da Estela / Estrutura: base de três corpos e estrutura de quatro / Possível dedicação: Tláloc, deus da chuva / Uso: cerimônias públicas com dignitários de outras comunidades, segundo Hirth
+**PT:** Suporte: tecido de fibra de agave / Chegada a esta Basílica: 12 de outubro de 1976 / Antes: Antiga Basílica, desde 1709 / Sistema: esteira rolante
 
-### faq_mito
-
-**ES:** pregunta: Mito: La Gran Pirámide es la Pirámide de las Serpientes Emplumadas. / respuesta: Realidad: Son dos edificios distintos. La de las Serpientes está en la Plaza Principal; la Gran Pirámide, en el nivel intermedio.
-
-**PT:** pregunta: Mito: A Grande Pirâmide é a Pirâmide das Serpentes Emplumadas. / respuesta: Realidade: São dois edifícios distintos. A das Serpentes fica na Praça Principal; a Grande Pirâmide, no nível intermediário.
-
-## Pieza: xoc_08_juego_pelota_sur
+## Pieza: bas_19_imagen_guadalupana
 
 ### titulo
 
-**ES:** El juego de pelota sur
+**ES:** La imagen de Nuestra Señora de Guadalupe
 
-**PT:** O jogo de bola sul
+**PT:** A imagem de Nossa Senhora de Guadalupe
 
 ### frase_gancho
 
-**ES:** La cancha más grande de la ciudad, con una guacamaya que hoy vive en otro museo.
+**ES:** Qué se ve en la imagen y qué significa para los fieles.
 
-**PT:** A maior quadra da cidade, com uma arara que hoje vive em outro museu.
+**PT:** O que se vê na imagem e o que ela significa para os fiéis.
 
 ### puente_narrativo
 
-**ES:** Continúa tu ruta: a unos pasos hay otro espacio que cuenta cómo se medía el tiempo en la ciudad.
+**ES:** Detente un momento en el lugar desde donde mejor se ve la imagen.
 
-**PT:** Siga seu percurso: a poucos passos há outro espaço que conta como o tempo era medido na cidade.
+**PT:** Pare por um momento no lugar de onde a imagem pode ser vista melhor.
 
 ### guion_corto
 
-**ES:** Con forma de letra I mayúscula, esta es la cancha de juego de pelota más grande de Xochicalco. Se encuentra en la terraza más baja y todavía conserva dos de sus marcadores. En este lugar se halló una escultura con forma de guacamaya, que hoy se exhibe en el Museo Nacional de Antropología. Medina Romero, director de la zona, explica que Xochicalco tuvo tres canchas y que esta, la más grande y fácil de alcanzar, pudo servir a la población en general. El juego de pelota era un deporte, pero también un ritual. Se jugaba con una pelota de hule, y el campo, con sus muros inclinados, era un espacio de reglas, apuestas y ceremonia.
+**ES:** La imagen de Nuestra Señora de Guadalupe representa a la Virgen María de pie, con las manos juntas y la cabeza ligeramente inclinada. Tiene la piel morena y un manto de color verde azulado con estrellas. La rodean rayos de sol, y bajo sus pies hay una luna y un ángel. Para los católicos, es la madre de Jesús, y por eso muchas personas la llaman la Virgen Morena o la Morenita del Tepeyac. La Iglesia enseña que honrar una imagen no es adorarla, porque el honor se dirige a la persona representada. Para millones de personas, esta imagen es una madre que acompaña, escucha y protege.
 
-**PT:** Com a forma de um I maiúsculo, esta é a maior quadra de jogo de bola de Xochicalco. Fica no terraço mais baixo e ainda conserva dois de seus marcadores. Neste lugar foi encontrada uma escultura em forma de arara, que hoje está exposta no Museu Nacional de Antropologia. Medina Romero, diretor da zona arqueológica, explica que Xochicalco teve três quadras e que esta, a maior e a mais fácil de alcançar, pôde servir à população em geral. O jogo de bola era um esporte, mas também um ritual. Jogava-se com uma bola de borracha, e o campo, com seus muros inclinados, era um espaço de regras, apostas e cerimônia.
+**PT:** A imagem de Nossa Senhora de Guadalupe representa a Virgem Maria de pé, com as mãos juntas e a cabeça ligeiramente inclinada. Ela tem a pele morena e um manto de cor verde-azulada com estrelas. Raios de sol a rodeiam, e sob seus pés há uma lua e um anjo. Para os católicos, ela é a mãe de Jesus, e por isso muitas pessoas a chamam de Virgem Morena ou Morenita do Tepeyac. A Igreja ensina que honrar uma imagem não é adorá-la, porque a honra se dirige à pessoa representada. Para milhões de pessoas, esta imagem é uma mãe que acompanha, escuta e protege.
 
 ### guion_largo
 
-**ES:** Hay lugares que se reconocen por su forma. Este tiene la de una letra I mayúscula. /  / La guía del INAH explica que el juego de pelota sur está en la quinta terraza, la más baja, y que conserva dos marcadores en su sitio. Los marcadores eran piedras que se colocaban en las paredes de la cancha. En esta cancha, además, se halló una escultura de guacamaya. Hoy se encuentra en el Museo Nacional de Antropología. /  / Medina Romero, director de la zona, indica que Xochicalco tuvo tres canchas orientadas hacia tres de los cuatro puntos cardinales. La del sur es la más grande y la de más fácil acceso, y por eso se piensa que servía a la población en general. Hirth cuenta cinco: tres en el cerro principal y dos más en cerros vecinos. /  / El juego de pelota se jugaba con una pelota sólida de hule. Según las descripciones del sitio, los jugadores la golpeaban con las caderas. Los muros inclinados de la cancha ayudaban a que la pelota rebotara y siguiera en juego. /  / El juego de pelota era mucho más que un deporte. En Mesoamérica tenía un lado ritual y un lado político. Los partidos podían ser ceremonias, y las canchas, lugares de encuentro de la comunidad. /  / Si estás de pie en la cancha, fíjate en la forma. Imagina dos equipos, una pelota pesada que va y viene, y público en los costados. El sonido del hule contra la piedra, los gritos, el polvo. /  / No fue un edificio escondido. Fue una cancha para todos.
+**ES:** Si ya pasaste frente a la imagen, esta parada es para mirarla con más calma y respeto. Y si todavía no, te servirá para saber qué buscar. /  / Lo primero que se ve es a la Virgen de pie, con las manos juntas y la cabeza ligeramente inclinada. Su rostro es sereno y de piel morena. Lleva una túnica rosada con adornos y un manto de color verde azulado, cubierto de estrellas. Alrededor de ella hay rayos dorados, como si la rodeara la luz del sol. A sus pies hay una luna y, debajo, un ángel que la sostiene. A la altura de la cintura lleva una cinta oscura. /  / Desde hace siglos, la tradición católica lee estos elementos como signos. Muchos fieles ven en la cinta oscura una señal de que la Virgen espera un hijo, Jesús. Los rayos de sol la envuelven como una luz. Las manos juntas y la mirada baja hablan de oración. Para otros, su rostro moreno habla de un encuentro entre pueblos. El papa Juan Pablo segundo la llamó la Virgen mestiza del Tepeyac. Son lecturas de fe. Cada una es una manera de mirar la imagen, no una definición oficial. /  / La Iglesia católica enseña que honrar una imagen no es adorarla. El honor se dirige a la persona representada, que aquí es María, la madre de Jesús, a quien los católicos reconocen como Hijo de Dios. Cuando Juan Pablo segundo canonizó a Juan Diego en esta Basílica, dijo que la Virgen se manifestó como la Madre del verdadero Dios. Y la describió como una madre amorosa y compasiva que guía hasta ese Dios. Esa es la idea central de la devoción guadalupana. /  / Con el tiempo, los papas le han dado distintos títulos a Nuestra Señora de Guadalupe. En mil novecientos diez, Pío diez la nombró patrona de la América Latina. En mil novecientos cuarenta y cinco, Pío doce la llamó Emperatriz de las Américas. Y en mil novecientos noventa y nueve, Juan Pablo segundo dispuso que el doce de diciembre se celebre su fiesta en todo el continente. /  / La imagen también se ha estudiado como obra. En mil setecientos cincuenta y uno, el pintor Miguel Cabrera y otros seis pintores la examinaron de cerca. Querían describir sus materiales y su técnica. Cabrera publicó después un libro en el que sostuvo que la imagen era prodigiosa. Desde entonces, muchos artistas han hecho copias a lo largo de los siglos. /  / Circulan además muchas otras lecturas de la imagen, por ejemplo sobre las estrellas del manto o los ojos. Aquí nos quedamos con lo que se puede ver a simple vista y con lo que enseña la Iglesia. /  / Para millones de personas, esta imagen no es solo una obra para mirar. Es una madre. Hay quien viene a dar gracias, quien viene a pedir y quien viene a estar en silencio frente a ella. Si no compartes esa fe, puedes acompañar con respeto. Si la compartes, puedes quedarte el tiempo que necesites.
 
-**PT:** Há lugares que se reconhecem pela forma. Este tem a de um I maiúsculo. /  / O guia do INAH explica que o jogo de bola sul fica no quinto terraço, o mais baixo, e que conserva dois marcadores em seu lugar. Os marcadores eram pedras colocadas nas paredes da quadra. Nesta quadra, além disso, foi encontrada uma escultura de arara. Hoje ela está no Museu Nacional de Antropologia. /  / Medina Romero, diretor da zona arqueológica, indica que Xochicalco teve três quadras orientadas para três dos quatro pontos cardeais. A do sul é a maior e a de acesso mais fácil, e por isso se pensa que servia à população em geral. Hirth conta cinco: três no cerro principal e duas em cerros vizinhos. /  / O jogo de bola era jogado com uma bola maciça de borracha. Segundo as descrições do sítio, os jogadores a golpeavam com os quadris. Os muros inclinados da quadra ajudavam a bola a quicar e a continuar em jogo. /  / O jogo de bola era muito mais que um esporte. Na Mesoamérica, tinha um lado ritual e um lado político. As partidas podiam ser cerimônias, e as quadras, lugares de encontro da comunidade. /  / Se você está de pé na quadra, repare na forma. Imagine duas equipes, uma bola pesada que vai e vem, e o público nas laterais. O som da borracha contra a pedra, os gritos, a poeira. /  / Não foi um edifício escondido. Foi uma quadra para todos.
+**PT:** Se você já passou diante da imagem, esta parada é para olhá-la com mais calma e respeito. E se ainda não passou, ela vai ajudar você a saber o que procurar. /  / A primeira coisa que se vê é a Virgem de pé, com as mãos juntas e a cabeça ligeiramente inclinada. Seu rosto é sereno e de pele morena. Ela veste uma túnica rosada com adornos e um manto de cor verde-azulada, coberto de estrelas. Ao redor dela há raios dourados, como se a luz do sol a rodeasse. A seus pés há uma lua e, embaixo, um anjo que a sustenta. Na altura da cintura, ela usa uma faixa escura. /  / Há séculos, a tradição católica lê esses elementos como sinais. Muitos fiéis veem na faixa escura um sinal de que a Virgem espera um filho, Jesus. Os raios de sol a envolvem como uma luz. As mãos juntas e o olhar baixo falam de oração. Para outros, seu rosto moreno fala de um encontro entre povos. O papa João Paulo segundo a chamou de Virgem mestiça do Tepeyac. São leituras de fé. Cada uma é uma maneira de olhar a imagem, não uma definição oficial. /  / A Igreja católica ensina que honrar uma imagem não é adorá-la. A honra se dirige à pessoa representada, que aqui é Maria, a mãe de Jesus, a quem os católicos reconhecem como Filho de Deus. Quando João Paulo segundo canonizou Juan Diego nesta Basílica, disse que a Virgem se manifestou como a Mãe do verdadeiro Deus. E a descreveu como uma mãe amorosa e compassiva que guia até esse Deus. Essa é a ideia central da devoção guadalupana. /  / Com o tempo, os papas deram diferentes títulos a Nossa Senhora de Guadalupe. Em mil novecentos e dez, Pio dez a nomeou padroeira da América Latina. Em mil novecentos e quarenta e cinco, Pio doze a chamou de Imperatriz das Américas. E em mil novecentos e noventa e nove, João Paulo segundo determinou que o doze de dezembro fosse celebrada a sua festa em todo o continente. /  / A imagem também foi estudada como obra. Em mil setecentos e cinquenta e um, o pintor Miguel Cabrera e outros seis pintores a examinaram de perto. Queriam descrever seus materiais e sua técnica. Cabrera publicou depois um livro no qual sustentou que a imagem era prodigiosa. Desde então, muitos artistas fizeram cópias ao longo dos séculos. /  / Circulam, além disso, muitas outras leituras da imagem, por exemplo sobre as estrelas do manto ou os olhos. Aqui ficamos com o que se pode ver a olho nu e com o que a Igreja ensina. /  / Para milhões de pessoas, esta imagem não é só uma obra para ser contemplada. É uma mãe. Há quem venha agradecer, quem venha pedir e quem venha ficar em silêncio diante dela. Se você não compartilha essa fé, pode acompanhar com respeito. Se a compartilha, pode ficar o tempo que precisar.
 
 ### retos_observacion
 
-**ES:** Mira la forma de I mayúscula de la cancha / Busca los marcadores que todavía están en su lugar / Imagina dónde estaba la gente mientras se jugaba
+**ES:** Busca el manto verde azulado con estrellas / Mira los rayos que rodean a la Virgen / Fíjate en la luna y el ángel a sus pies
 
-**PT:** Observe a forma de I maiúsculo da quadra / Procure os marcadores que ainda estão em seu lugar / Imagine onde as pessoas ficavam enquanto o jogo acontecia
+**PT:** Procure o manto verde-azulado com estrelas / Olhe os raios que rodeiam a Virgem / Repare na lua e no anjo a seus pés
 
 ### especificaciones
 
-**ES:** Forma: letra I mayúscula / Ubicación: quinta terraza, la más baja / Marcadores: dos conservados / Pieza hallada aquí: guacamaya, hoy en el Museo Nacional de Antropología / Canchas de la ciudad: tres en el cerro principal, según Hirth y Medina
+**ES:** Elementos: manto verde azulado con estrellas, rayos de sol, luna y ángel / Nombres: Virgen Morena, Morenita del Tepeyac
 
-**PT:** Forma: I maiúsculo / Localização: quinto terraço, o mais baixo / Marcadores: dois conservados / Peça encontrada aqui: arara, hoje no Museu Nacional de Antropologia / Quadras da cidade: três no cerro principal, segundo Hirth e Medina
+**PT:** Elementos: manto verde-azulado com estrelas, raios de sol, lua e anjo / Nomes: Virgem Morena, Morenita do Tepeyac
 
-### faq_mito
-
-**ES:** pregunta: Mito: El juego de pelota era solo un deporte. / respuesta: Realidad: Era un juego, pero también un ritual y un espacio político para la comunidad.
-
-**PT:** pregunta: Mito: O jogo de bola era apenas um esporte. / respuesta: Realidade: Era um jogo, mas também um ritual e um espaço político para a comunidade.
-
-## Pieza: xoc_09_calzada_altares
+## Pieza: bas_06_antigua_fachada
 
 ### titulo
 
-**ES:** La calzada de los veintiún altares
+**ES:** La Antigua Basílica: fachada
 
-**PT:** A calçada dos vinte e um altares
+**PT:** A Antiga Basílica: fachada
 
 ### frase_gancho
 
-**ES:** Una fila de altares que parece un calendario puesto en el suelo.
+**ES:** Un templo barroco que se hundió y se salvó.
 
-**PT:** Uma fila de altares que parece um calendário posto no chão.
+**PT:** Um templo barroco que afundou e foi salvo.
 
 ### puente_narrativo
 
-**ES:** Continúa tu ruta: lo que sigue muestra cómo se vivía y se trabajaba en la ciudad.
+**ES:** Sales de la Nueva Basílica y caminas hacia la Antigua, a pocos metros.
 
-**PT:** Continue seu percurso: o que vem a seguir mostra como se vivia e se trabalhava na cidade.
+**PT:** Você sai da Nova Basílica e caminha até a Antiga, a poucos metros.
 
 ### guion_corto
 
-**ES:** Una calzada es un camino ancho y elevado. Esta tiene a sus lados veintiún altares. Según el INAH, representan los meses del año ceremonial y, en un caso, los días. El México Desconocido describe veinte altares redondos y uno cuadrado, y sugiere que servían para contar el calendario de doscientos sesenta días. Cuéntalos mientras avanzas. Los dos relatos coinciden en que los altares tenían que ver con el calendario. Caminar entre ellos era recorrer ese calendario paso a paso. Es una propuesta de los especialistas, no un hecho cerrado, y por eso vale la pena verlos con tus propios ojos. Aquí, el tiempo no solo se miraba. Se caminaba.
+**ES:** Frente a ti está la Antigua Basílica, hoy Templo Expiatorio a Cristo Rey. Se comenzó el veinticinco de marzo de mil seiscientos noventa y cinco y se terminó en abril de mil setecientos nueve, con el arquitecto Pedro de Arrieta. Tiene tres naves, una cúpula octagonal con farol de talavera y cuatro torres octagonales, una en cada esquina. La imagen de Nuestra Señora de Guadalupe se veneró aquí desde mil setecientos nueve hasta mil novecientos setenta y seis, con algunas salidas temporales. La fachada tiene forma de biombo. Una interpretación sostiene que las cuatro torres evocan el Templo de Salomón. El terreno se hundió de forma desigual, y por eso el templo estuvo cerrado durante décadas.
 
-**PT:** Uma calçada é um caminho largo e elevado. Esta tem, em seus lados, vinte e um altares. Segundo o INAH, eles representam os meses do ano cerimonial e, em um caso, os dias. O México Desconocido descreve vinte altares redondos e um quadrado, e sugere que serviam para contar o calendário de duzentos e sessenta dias. Conte-os enquanto avança. Os dois relatos coincidem em que os altares tinham a ver com o calendário. Caminhar entre eles era percorrer esse calendário passo a passo. É uma proposta dos especialistas, não um fato encerrado, e por isso vale a pena vê-los com seus próprios olhos. Aqui, o tempo não só se olhava. Caminhava-se por ele.
+**PT:** Diante de você está a Antiga Basílica, hoje Templo Expiatório a Cristo Rei. Sua construção começou em vinte e cinco de março de mil seiscentos e noventa e cinco e terminou em abril de mil setecentos e nove, sob a direção do arquiteto Pedro de Arrieta. Ela tem três naves, uma cúpula octogonal com lanternim de talavera e quatro torres octogonais, uma em cada canto. A imagem de Nossa Senhora de Guadalupe foi venerada aqui de mil setecentos e nove até mil novecentos e setenta e seis, com algumas saídas temporárias. A fachada tem forma de biombo. Uma interpretação sustenta que as quatro torres evocam o Templo de Salomão. O terreno afundou de forma desigual, e por isso o templo ficou fechado durante décadas.
 
 ### guion_largo
 
-**ES:** Cuenta con la mirada. A lo largo de esta calzada hay una fila de altares, veintiuno en total, según el INAH. /  / Una calzada es un camino ancho y elevado, hecho para caminar con orden. Esta forma parte del nivel intermedio de la ciudad, y a sus lados se alinean los altares. /  / El INAH explica que representan los meses del año ceremonial y que, en un caso, representan días. Es decir, cada altar ocupa un lugar dentro de un calendario. /  / El México Desconocido da más detalle. Habla de veinte altares redondos y uno cuadrado, en el sector que llama La Malinche, y dice que quizá servían para calcular el calendario de doscientos sesenta días. Ese calendario ritual se usó en toda Mesoamérica. /  / Cómo se usaban lo proponen los especialistas, pero no es un hecho cerrado. Lo que sí sabemos es que su número y su disposición en fila invitan a pensar en cuentas y ciclos. /  / Quizá la gente recorría la calzada en una ceremonia, deteniéndose en cada altar. Es una posibilidad, no un hecho comprobado. /  / Si caminas entre ellos, hazlo despacio. Cada paso te acerca al siguiente altar y te recuerda que en Xochicalco el tiempo tenía forma y lugar, y se podía pisar. /  / La ciudad no solo medía el tiempo mirando el cielo. También lo medía con piedras puestas en el suelo.
+**ES:** La Antigua Basílica es el segundo gran santuario que se levantó en este lugar. Antes hubo una ermita pequeña y, desde mil seiscientos veintidós, un templo de piedra. En mil seiscientos noventa y cinco, el arzobispo Juan de Aguiar y Seijas decidió construir uno nuevo, y el templo anterior se derribó. /  / La primera piedra de aquel templo se había colocado en mil seiscientos nueve, y se dedicó en noviembre de mil seiscientos veintidós. En mil seiscientos veintinueve, por una inundación de la ciudad, la imagen se llevó a la Catedral. Regresó el quince de mayo de mil seiscientos treinta y cuatro. /  / Las obras comenzaron el veinticinco de marzo de mil seiscientos noventa y cinco. Primero trabajó el arquitecto José Durán. A su muerte, en mil setecientos siete, siguió Pedro de Arrieta, uno de los grandes arquitectos del barroco novohispano. El templo fue bendecido el veintisiete de abril de mil setecientos nueve, y la imagen de Nuestra Señora de Guadalupe fue llevada en procesión el treinta de abril. La cartela de la fachada da el primero de mayo, y las fuentes citan ambas fechas. /  / Mira el edificio. Tiene planta basilical de tres naves y una cúpula octagonal rematada por un farol cubierto de talavera amarilla y azul. En cada esquina hay una torre octagonal, cuatro en total. La fachada tiene forma de biombo, es decir, está plegada en planos como esas piezas de madera que se usan para dividir un espacio, y está adornada con medias columnas corintias. Una interpretación sostiene que las cuatro torres evocan el Templo de Salomón, un tema que ha estudiado la historiadora del arte Martha Fernández. /  / La Antigua Basílica fue colegiata, es decir, tuvo un cabildo de sacerdotes propio, desde mil setecientos cincuenta. En mil ochocientos noventa y cinco, el doce de octubre, aquí se coronó la imagen con autorización del papa León trece. En mil novecientos cuatro, el veinticuatro de mayo, recibió el título de basílica menor, un honor que el papa concede a templos importantes por su historia y su lugar en la vida de la Iglesia. /  / Con el tiempo, el subsuelo cedió y el edificio se hundió de manera desigual. En mil novecientos setenta y seis, cuando se inauguró la Nueva Basílica, la imagen se trasladó y este templo se cerró. En mil novecientos setenta y nueve el Instituto Nacional de Antropología e Historia y el Episcopado promovieron su consolidación. /  / Después de décadas de trabajos, el templo volvió a abrirse al culto con el nombre de Templo Expiatorio a Cristo Rey. Si rodeas el edificio, podrás ver que la parte trasera, el ábside, quedó separada del resto por varios metros, un recuerdo visible del hundimiento. /  / Para quienes visitan el santuario, este edificio es el lugar donde la imagen estuvo durante la mayor parte de su historia moderna. Para quienes se interesan por el arte, es una de las obras mayores de Pedro de Arrieta. Y para todos es un ejemplo de cómo una ciudad construida sobre un lago cuida sus monumentos.
 
-**PT:** Conte com o olhar. Ao longo desta calçada há uma fila de altares, vinte e um no total, segundo o INAH. /  / Uma calçada é um caminho largo e elevado, feito para caminhar com ordem. Esta faz parte do nível intermediário da cidade, e em seus lados se alinham os altares. /  / O INAH explica que eles representam os meses do ano cerimonial e que, em um caso, representam dias. Ou seja, cada altar ocupa um lugar dentro de um calendário. /  / O México Desconocido dá mais detalhes. Fala de vinte altares redondos e um quadrado, no setor que chama de La Malinche, e diz que talvez servissem para calcular o calendário de duzentos e sessenta dias. Esse calendário ritual foi usado em toda a Mesoamérica. /  / Como eram usados é uma proposta dos especialistas, mas não é um fato encerrado. O que sabemos é que seu número e sua disposição em fila convidam a pensar em contagens e ciclos. /  / Talvez as pessoas percorressem a calçada em uma cerimônia, detendo-se em cada altar. É uma possibilidade, não um fato comprovado. /  / Se você caminhar entre eles, faça isso devagar. Cada passo o aproxima do altar seguinte e lembra que, em Xochicalco, o tempo tinha forma e lugar, e podia ser pisado. /  / A cidade não media o tempo só olhando para o céu. Também o media com pedras postas no chão.
+**PT:** A Antiga Basílica é o segundo grande santuário que se levantou neste lugar. Antes houve uma pequena ermida e, desde mil seiscentos e vinte e dois, um templo de pedra. Em mil seiscentos e noventa e cinco, o arcebispo Juan de Aguiar y Seijas decidiu construir um novo, e o templo anterior foi demolido. /  / A pedra fundamental daquele templo havia sido colocada em mil seiscentos e nove, e ele foi dedicado em novembro de mil seiscentos e vinte e dois. Em mil seiscentos e vinte e nove, por causa de uma inundação da cidade, a imagem foi levada para a Catedral. Ela voltou em quinze de maio de mil seiscentos e trinta e quatro. /  / As obras começaram em vinte e cinco de março de mil seiscentos e noventa e cinco. Primeiro trabalhou o arquiteto José Durán. Com a morte dele, em mil setecentos e sete, seguiu Pedro de Arrieta, um dos grandes arquitetos do barroco da Nova Espanha. O templo foi benzido em vinte e sete de abril de mil setecentos e nove, e a imagem de Nossa Senhora de Guadalupe foi levada em procissão em trinta de abril. A cartela da fachada indica o primeiro de maio, e as fontes citam ambas as datas. /  / Observe o edifício. Ele tem planta basilical de três naves e uma cúpula octogonal arrematada por um lanternim coberto de talavera amarela e azul. Em cada canto há uma torre octogonal, quatro no total. A fachada tem forma de biombo, ou seja, é dobrada em planos como aquelas peças de madeira usadas para dividir um espaço, e é adornada com meias-colunas coríntias. Uma interpretação sustenta que as quatro torres evocam o Templo de Salomão, um tema que a historiadora da arte Martha Fernández estudou. /  / A Antiga Basílica foi colegiada, ou seja, teve um cabido próprio de sacerdotes, desde mil setecentos e cinquenta. Em mil oitocentos e noventa e cinco, em doze de outubro, a imagem foi coroada aqui com autorização do papa Leão treze. Em mil novecentos e quatro, em vinte e quatro de maio, o templo recebeu o título de basílica menor, uma honra que o papa concede a templos importantes por sua história e seu lugar na vida da Igreja. /  / Com o tempo, o subsolo cedeu e o edifício afundou de maneira desigual. Em mil novecentos e setenta e seis, quando a Nova Basílica foi inaugurada, a imagem foi transferida e este templo foi fechado. Em mil novecentos e setenta e nove, o Instituto Nacional de Antropologia e História (INAH) e o Episcopado promoveram sua consolidação. /  / Depois de décadas de trabalhos, o templo voltou a ser aberto ao culto com o nome de Templo Expiatório a Cristo Rei. Se você contornar o edifício, poderá ver que a parte traseira, a abside, ficou separada do restante por vários metros, uma lembrança visível do afundamento. /  / Para quem visita o santuário, este edifício é o lugar onde a imagem esteve durante a maior parte de sua história moderna. Para quem se interessa por arte, é uma das obras maiores de Pedro de Arrieta. E para todos é um exemplo de como uma cidade construída sobre um lago cuida de seus monumentos.
 
 ### retos_observacion
 
-**ES:** Cuenta los altares mientras caminas / Camina despacio entre ellos / Imagina qué día o mes representaría cada uno
+**ES:** Cuenta las cuatro torres / Mira la cúpula con farol de talavera / Observa si el edificio se ve inclinado
 
-**PT:** Conte os altares enquanto caminha / Caminhe devagar entre eles / Imagine que dia ou mês cada um representaria
+**PT:** Conte as quatro torres / Olhe a cúpula com lanternim de talavera / Observe se o edifício parece inclinado
 
 ### especificaciones
 
-**ES:** Cantidad: veintiún altares, según el INAH / Formas: veinte redondos y uno cuadrado, según México Desconocido / Posible uso: contar el calendario ritual de doscientos sesenta días / Ubicación: nivel intermedio de la ciudad
+**ES:** Obra: 25 de marzo de 1695 a abril de 1709 / Arquitecto: Pedro de Arrieta / Planta: tres naves / Cúpula: octagonal con farol de talavera / Torres: cuatro, octagonales
 
-**PT:** Cantidad: vinte e um altares, segundo o INAH / Formas: vinte redondos e um quadrado, segundo o México Desconocido / Posible uso: contar o calendário ritual de duzentos e sessenta dias / Ubicación: nível intermediário da cidade
+**PT:** Obra: 25 de março de 1695 a abril de 1709 / Arquitecto: Pedro de Arrieta / Planta: três naves / Cúpula: octogonal com lanternim de talavera / Torres: quatro, octogonais
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Se sabe exactamente cómo se usaban los altares. / respuesta: Realidad: No. Los especialistas proponen que representan meses y días del calendario, pero no hay un texto que explique su uso.
+**ES:** pregunta: Mito: La Antigua Basílica se cerró por la bomba de mil novecientos veintiuno. / respuesta: Realidad: La bomba dañó el altar, pero el templo se cerró al culto después del traslado de la imagen en mil novecientos setenta y seis, tras años de hundimiento desigual del terreno.
 
-**PT:** pregunta: Mito: Sabe-se exatamente como os altares eram usados. / respuesta: Realidade: Não. Os especialistas propõem que representam meses e dias do calendário, mas não há um texto que explique seu uso.
+**PT:** pregunta: Mito: A Antiga Basílica foi fechada por causa da bomba de mil novecentos e vinte e um. / respuesta: Realidade: A bomba danificou o altar, mas o templo foi fechado ao culto depois da transferência da imagem em mil novecentos e setenta e seis, após anos de afundamento desigual do terreno.
 
-## Pieza: xoc_10_palacio
+## Pieza: bas_07_antigua_interior
 
 ### titulo
 
-**ES:** El Palacio
+**ES:** La Antigua Basílica: interior
 
-**PT:** O Palácio
+**PT:** A Antiga Basílica: interior
 
 ### frase_gancho
 
-**ES:** Cuartos, cocinas, talleres y bodegas alrededor de patios.
+**ES:** Donde estuvo la imagen durante casi trescientos años.
 
-**PT:** Quartos, cozinhas, oficinas e depósitos ao redor de pátios.
+**PT:** Onde esteve a imagem durante quase trezentos anos.
 
 ### puente_narrativo
 
-**ES:** Sigue tu ruta: ahora la ciudad se vuelve más alta y más cerrada.
+**ES:** Entras al templo, hoy dedicado a Cristo Rey.
 
-**PT:** Siga o seu roteiro: agora a cidade fica mais alta e mais fechada.
+**PT:** Você entra no templo, hoje dedicado a Cristo Rei.
 
 ### guion_corto
 
-**ES:** Un palacio no es solo lujo. Según el INAH, este conjunto del nivel intermedio reúne cuartos, cocinas, talleres, bodegas y un temazcal, todo alrededor de patios. Un temazcal es un baño de vapor para el cuerpo y para ceremonias. Medina Romero añade que este palacio y el conjunto de La Malinche forman un complejo residencial al sur de la ciudad. Fíjate en la mezcla: cocinar, guardar, trabajar y descansar compartían el mismo espacio. La palabra palacio es una etiqueta de los arqueólogos, no una descripción de lujo. Para ver dónde vivía el gobernante, según Hirth, tendrás que subir hasta la Acrópolis. Aquí, mira los patios y piensa en cuántas personas podían moverse entre ellos en un día normal.
+**ES:** En el interior de esta iglesia estuvo la imagen de Nuestra Señora de Guadalupe desde mil setecientos nueve. En mil setecientos treinta y siete la Ciudad de México juró a la Virgen de Guadalupe como patrona. Aquí se coronó la imagen el doce de octubre de mil ochocientos noventa y cinco, con autorización del papa León trece. En mil novecientos veintiuno una bomba estalló al pie del altar mayor. Y en mil novecientos setenta y seis la imagen fue trasladada a la Nueva Basílica. Hoy el templo está dedicado a Cristo Rey y sigue en uso. Quien entra lo hace como a un templo vivo, con calma.
 
-**PT:** Um palácio não é só luxo. Segundo o INAH, este conjunto do nível intermediário reúne quartos, cozinhas, oficinas, depósitos e um temazcal, tudo ao redor de pátios. Um temazcal é um banho de vapor para o corpo e para cerimônias. Medina Romero acrescenta que este palácio e o conjunto de La Malinche formam um complexo residencial ao sul da cidade. Repare na mistura: cozinhar, guardar, trabalhar e descansar compartilhavam o mesmo espaço. A palavra palácio é um rótulo dos arqueólogos, não uma descrição de luxo. Para ver onde vivia o governante, segundo Hirth, você terá de subir até a Acrópole. Aqui, olhe os pátios e pense em quantas pessoas podiam circular entre eles num dia comum.
+**PT:** No interior desta igreja esteve a imagem de Nossa Senhora de Guadalupe desde mil setecentos e nove. Em mil setecentos e trinta e sete, a Cidade do México jurou a Virgem de Guadalupe como padroeira. Aqui a imagem foi coroada em doze de outubro de mil oitocentos e noventa e cinco, com autorização do papa Leão treze. Em mil novecentos e vinte e um, uma bomba explodiu ao pé do altar-mor. E em mil novecentos e setenta e seis a imagem foi transferida para a Nova Basílica. Hoje o templo é dedicado a Cristo Rei e continua em uso. Quem entra o faz como em um templo vivo, com calma.
 
 ### guion_largo
 
-**ES:** Un palacio no siempre es un lugar de lujo. En Xochicalco, el que el INAH llama el Palacio tiene un aire más práctico. /  / Según el INAH, el Palacio se encuentra en el nivel intermedio de la ciudad. Es un conjunto de cuartos, cocinas, talleres, bodegas y un temazcal, organizado alrededor de patios. /  / Un temazcal es un baño de vapor. Se usaba para limpiar el cuerpo y también en ceremonias. Según Andrews y Glascock, hubo temazcales en la Acrópolis y en el sector norte. Por eso lo verás también en [el conjunto norte](xoc_20_agua_ritual_norte). /  / Medina Romero menciona que este palacio y el conjunto de La Malinche forman un complejo residencial al sur de la ciudad. /  / Piensa en esa mezcla de espacios. Cocinar, guardar, trabajar y descansar estaban juntos, alrededor de un mismo patio. Es más bien un conjunto donde se vivía, se cocinaba y se trabajaba. /  / Esto no quiere decir que fuera un palacio como el de un rey europeo. La palabra palacio es una etiqueta de los arqueólogos. Lo que muestran los restos son habitaciones, patios y áreas de trabajo. /  / Para entender dónde vivían los gobernantes, hay que subir a [la Acrópolis](xoc_17_acropolis). Allí estuvo, según Hirth, el palacio del gobernante y el centro administrativo de la ciudad. /  / Por ahora, recorre los patios con la mirada y busca cuántos cuartos se abren hacia cada uno.
+**ES:** Entras a un templo que, durante más de dos siglos y medio, fue el centro del culto guadalupano. La imagen de Nuestra Señora de Guadalupe se veneró aquí desde su dedicación, en mil setecientos nueve, hasta mil novecientos setenta y seis, con algunas salidas temporales. En mil setecientos cinco se había contratado con el escultor Manuel de Nava el retablo mayor, por dieciséis mil pesos, para que la imagen tuviera un altar a su altura. /  / Por eso aquí ocurrieron muchos momentos de la historia del culto. En mil setecientos treinta y siete, la Ciudad de México juró a la Virgen de Guadalupe como su patrona. En mil setecientos cuarenta y seis lo fue de la Nueva España, y en mil setecientos cincuenta y cuatro el papa Benedicto catorce confirmó el patronazgo y concedió una misa propia para el doce de diciembre. /  / La colegiata se formalizó en mil setecientos cuarenta y nueve, y en mil setecientos cincuenta se reunió su primer cabildo, el grupo de sacerdotes que atendía el santuario. /  / En mil ochocientos ochenta y ocho, por las obras que dirigieron Juan Agea y Emilio Dondé, la imagen salió de aquí y se veneró en el templo de las Capuchinas. Regresó el treinta de septiembre de mil ochocientos noventa y cinco, doce días antes de la coronación. /  / Aquí también se celebró la coronación de la imagen, el doce de octubre de mil ochocientos noventa y cinco, con autorización del papa León trece. La corona fue entregada por el abad José Antonio Plancarte. Presidió el arzobispo Próspero María Alarcón. /  / En mil novecientos veintiuno ocurrió un hecho que se recuerda hasta hoy. El catorce de noviembre, hacia las diez y media de la mañana, una bomba de dinamita oculta en un arreglo de flores estalló al pie del altar. La imagen no sufrió daño. El crucifijo que estaba en el altar quedó retorcido, y hoy se conserva en la Nueva Basílica. Lo verás en otra parada. /  / El templo se cerró en mil novecientos setenta y seis por el hundimiento del terreno. Después de las obras de consolidación, volvió a abrirse al culto como Templo Expiatorio a Cristo Rey. Es, entonces, un edificio con dos vidas: la de santuario de la imagen, durante siglos, y la de templo dedicado a Cristo, desde hace unas décadas. /  / Antes de entrar, conviene saber que es un lugar de culto activo. Puede haber misas o personas rezando. Conviene hablar en voz baja y fotografiar con discreción. Si hay una ceremonia en curso, puedes esperar o volver más tarde. /  / Mientras caminas por las naves, piensa en cuántas personas se detuvieron en este mismo suelo. Peregrinos de la Ciudad de México y de lugares lejanos, durante dos siglos y medio, pasaron por este espacio para ver la imagen. Esa es la historia que guardan estos muros, más allá de su arquitectura.
 
-**PT:** Um palácio nem sempre é um lugar de luxo. Em Xochicalco, o que o INAH chama de Palácio tem um ar mais prático. /  / Segundo o INAH, o Palácio fica no nível intermediário da cidade. É um conjunto de quartos, cozinhas, oficinas, depósitos e um temazcal, organizado ao redor de pátios. /  / Um temazcal é um banho de vapor. Era usado para limpar o corpo e também em cerimônias. Segundo Andrews e Glascock, houve temazcales na Acrópole e no setor norte. Por isso você também o verá no [conjunto norte](xoc_20_agua_ritual_norte). /  / Medina Romero menciona que este palácio e o conjunto de La Malinche formam um complexo residencial ao sul da cidade. /  / Pense nessa mistura de espaços. Cozinhar, guardar, trabalhar e descansar aconteciam juntos, ao redor de um mesmo pátio. É, antes, um conjunto onde se vivia, se cozinhava e se trabalhava. /  / Isso não quer dizer que fosse um palácio como o de um rei europeu. A palavra palácio é um rótulo dos arqueólogos. O que os vestígios mostram são aposentos, pátios e áreas de trabalho. /  / Para entender onde viviam os governantes, é preciso subir até a [Acrópole](xoc_17_acropolis). Ali esteve, segundo Hirth, o palácio do governante e o centro administrativo da cidade. /  / Por ora, percorra os pátios com o olhar e procure quantos quartos se abrem para cada um.
+**PT:** Você entra em um templo que, durante mais de dois séculos e meio, foi o centro do culto guadalupano. A imagem de Nossa Senhora de Guadalupe foi venerada aqui desde a sua dedicação, em mil setecentos e nove, até mil novecentos e setenta e seis, com algumas saídas temporárias. Em mil setecentos e cinco, havia sido contratado com o escultor Manuel de Nava o retábulo principal, por dezesseis mil pesos, para que a imagem tivesse um altar à sua altura. /  / Por isso, aqui aconteceram muitos momentos da história do culto. Em mil setecentos e trinta e sete, a Cidade do México jurou a Virgem de Guadalupe como sua padroeira. Em mil setecentos e quarenta e seis, ela o foi da Nova Espanha, e em mil setecentos e cinquenta e quatro o papa Bento catorze confirmou o padroado e concedeu uma missa própria para o doze de dezembro. /  / A colegiada foi formalizada em mil setecentos e quarenta e nove, e em mil setecentos e cinquenta reuniu-se seu primeiro cabido, o grupo de sacerdotes que cuidava do santuário. /  / Em mil oitocentos e oitenta e oito, por causa das obras dirigidas por Juan Agea e Emilio Dondé, a imagem saiu daqui e foi venerada no templo das Capuchinas. Voltou em trinta de setembro de mil oitocentos e noventa e cinco, doze dias antes da coroação. /  / Aqui também foi celebrada a coroação da imagem, em doze de outubro de mil oitocentos e noventa e cinco, com autorização do papa Leão treze. A coroa foi entregue pelo abade José Antonio Plancarte. Presidiu o arcebispo Próspero María Alarcón. /  / Em mil novecentos e vinte e um, aconteceu um fato que se recorda até hoje. Em catorze de novembro, por volta das dez e meia da manhã, uma bomba de dinamite escondida em um arranjo de flores explodiu ao pé do altar. A imagem não sofreu dano. O crucifixo que estava no altar ficou retorcido e hoje é conservado na Nova Basílica. Você o verá em outra parada. /  / O templo foi fechado em mil novecentos e setenta e seis por causa do afundamento do terreno. Depois das obras de consolidação, voltou a abrir ao culto como Templo Expiatório a Cristo Rei. É, portanto, um edifício com duas vidas: a de santuário da imagem, durante séculos, e a de templo dedicado a Cristo, há algumas décadas. /  / Antes de entrar, convém saber que é um lugar de culto ativo. Pode haver missas ou pessoas rezando. Convém falar em voz baixa e fotografar com discrição. Se houver uma cerimônia em andamento, você pode esperar ou voltar mais tarde. /  / Enquanto caminha pelas naves, pense em quantas pessoas pararam neste mesmo chão. Peregrinos da Cidade do México e de lugares distantes, durante dois séculos e meio, passaram por este espaço para ver a imagem. Essa é a história que estes muros guardam, para além de sua arquitetura.
 
 ### retos_observacion
 
-**ES:** Cuenta los patios que alcances a ver / Busca los espacios que pudieron ser cocinas o bodegas / Imagina quién trabajaba y quién dormía en cada cuarto
+**ES:** Mira hacia el altar mayor / Busca el lugar donde se coronó la imagen en 1895 / Entra en silencio, como a un templo en uso
 
-**PT:** Conte os pátios que você consegue ver / Procure os espaços que podem ter sido cozinhas ou depósitos / Imagine quem trabalhava e quem dormia em cada quarto
+**PT:** Olhe para o altar-mor / Procure o lugar onde a imagem foi coroada em 1895 / Entre em silêncio, como em um templo em uso
 
 ### especificaciones
 
-**ES:** Ubicación: nivel intermedio de la ciudad / Espacios: cuartos, cocinas, talleres, bodegas y temazcal, alrededor de patios / Complejo residencial: con La Malinche, al sur de la ciudad, según Medina Romero
+**ES:** Imagen aquí: de 1709 a 1976 / Patrona de la ciudad: 1737 / Coronación: 12 de octubre de 1895 / Bomba: 14 de noviembre de 1921 / Hoy: Templo Expiatorio a Cristo Rey
 
-**PT:** Localização: nível intermediário da cidade / Espaços: quartos, cozinhas, oficinas, depósitos e temazcal, ao redor de pátios / Complexo residencial: com La Malinche, ao sul da cidade, segundo Medina Romero
+**PT:** Imagem aqui: de 1709 a 1976 / Padroeira da cidade: 1737 / Coroação: 12 de outubro de 1895 / Bomba: 14 de novembro de 1921 / Hoje: Templo Expiatório a Cristo Rei
 
 ### faq_mito
 
-**ES:** pregunta: Mito: El Palacio era la casa del gobernante. / respuesta: Realidad: Es el nombre que dan los arqueólogos a un conjunto de cuartos, cocinas, talleres y bodegas. La residencia del gobernante se asocia con la Acrópolis.
+**ES:** pregunta: Mito: La imagen siempre ha estado en la Nueva Basílica. / respuesta: Realidad: Estuvo en la Antigua Basílica desde mil setecientos nueve hasta mil novecientos setenta y seis.
 
-**PT:** pregunta: Mito: O Palácio era a casa do governante. / respuesta: Realidade: É o nome que os arqueólogos dão a um conjunto de quartos, cozinhas, oficinas e depósitos. A residência do governante é associada à Acrópole.
+**PT:** pregunta: Mito: A imagem sempre esteve na Nova Basílica. / respuesta: Realidade: Esteve na Antiga Basílica desde mil setecentos e nove até mil novecentos e setenta e seis.
 
-## Pieza: xoc_11_caminata_plaza_principal
+## Pieza: bas_08_capuchinas
 
 ### titulo
 
-**ES:** Caminata: hacia la Plaza Principal
+**ES:** El templo y convento de las Capuchinas
 
-**PT:** Caminhada: rumo à Praça Principal
+**PT:** O templo e convento das Capuchinhas
 
 ### frase_gancho
 
-**ES:** Un trayecto de subida por una ciudad pensada para ser defendida.
+**ES:** Un convento de monjas junto al santuario.
 
-**PT:** Um trajeto de subida por uma cidade pensada para ser defendida.
+**PT:** Um convento de freiras ao lado do santuário.
 
 ### puente_narrativo
 
-**ES:** Continúa tu ruta: al llegar arriba, la ciudad cambia de escala.
+**ES:** Rodeas la Antigua Basílica y llegas al templo de las Capuchinas.
 
-**PT:** Continue seu percurso: ao chegar lá em cima, a cidade muda de escala.
+**PT:** Você contorna a Antiga Basílica e chega ao templo das Capuchinhas.
 
 ### guion_corto
 
-**ES:** Ahora toca subir. Esta caminata lleva del Palacio a la Plaza Principal. Según el INAH, la plaza está sobre un montículo artificial y se llega a ella por dos pórticos defendidos. La guía del INAH añade que es la parte mejor conservada de la ciudad y también la de más difícil acceso. Medina Romero menciona que en el sitio hay calzadas empedradas de hasta ciento setenta y cinco metros. Mientras caminas, no hace falta buscar nada concreto. Fíjate en cómo cambia el terreno bajo tus pies. Piensa en lo que significa llegar a un lugar que fue pensado para ser defendido. Cuando llegues arriba, hablaremos de lo que hay en la plaza.
+**ES:** Frente a ti está el templo y antiguo convento de las capuchinas. La primera piedra se colocó en mil setecientos ochenta y dos y la obra fue dirigida por el arquitecto Ignacio de Castera. Se inauguró en mil setecientos ochenta y siete, por iniciativa de la madre Mariana y con el apoyo de varios benefactores. Las religiosas vivieron aquí hasta que el convento fue nacionalizado y cerrado en mil ochocientos sesenta y tres. Entre mil ochocientos ochenta y ocho y mil ochocientos noventa y cinco, este templo guardó la imagen mientras se hacían obras en la Antigua Basílica. Hoy es la parroquia de Santa María de Guadalupe.
 
-**PT:** Agora é hora de subir. Esta caminhada leva do Palácio à Praça Principal. Segundo o INAH, a praça fica sobre um montículo artificial e se chega a ela por dois pórticos defendidos. O guia do INAH acrescenta que é a parte mais bem conservada da cidade e também a de acesso mais difícil. Medina Romero menciona que no sítio há calçadas empedradas de até cento e setenta e cinco metros. Enquanto você caminha, não precisa procurar nada em especial. Repare em como o terreno muda sob seus pés. Pense no que significa chegar a um lugar que foi pensado para ser defendido. Quando você chegar lá em cima, vamos falar do que há na praça.
+**PT:** Diante de você está o templo e antigo convento das capuchinhas. A pedra fundamental foi colocada em mil setecentos e oitenta e dois, e a obra foi dirigida pelo arquiteto Ignacio de Castera. Foi inaugurado em mil setecentos e oitenta e sete, por iniciativa da madre Mariana e com o apoio de vários benfeitores. As religiosas viveram aqui até que o convento foi nacionalizado e fechado em mil oitocentos e sessenta e três. Entre mil oitocentos e oitenta e oito e mil oitocentos e noventa e cinco, este templo guardou a imagem enquanto eram feitas obras na Antiga Basílica. Hoje é a paróquia de Santa María de Guadalupe.
 
 ### guion_largo
 
-**ES:** Ahora toca subir. Esta caminata lleva del Palacio a la Plaza Principal. /  / Para entender el camino, ayuda recordar cómo está organizada la ciudad. La UNESCO distingue tres niveles: uno bajo, uno intermedio y uno alto. Tú vienes del intermedio y te diriges al más alto. /  / Según el INAH, la Plaza Principal está sobre un montículo artificial. A ella se llega por dos pórticos defendidos. Es decir, no es un lugar al que se entrara sin más. /  / La guía del INAH dice que es la parte mejor conservada de la ciudad y la de más difícil acceso. Esas dos cosas quizá van juntas. /  / Medina Romero señala que el sitio tiene calzadas empedradas de hasta ciento setenta y cinco metros de largo. También menciona que al sur de la Acrópolis hay un muro de cuatro metros con bastiones y fosos. /  / Mientras subes, deja de buscar monumentos y fíjate en el terreno. Un cerro modificado con terrazas y muros se siente distinto de una plaza abierta. /  / La UNESCO considera a Xochicalco un ejemplo supremo de ciudad fortificada del Epiclásico. Lo vas a sentir en el cuerpo antes de verlo con los ojos. /  / Cuando llegues arriba, respira. Lo que sigue es la parte más famosa del sitio.
+**ES:** Este templo y el convento que lo acompaña se levantaron a finales del siglo dieciocho para una comunidad de religiosas capuchinas. Las capuchinas son monjas de clausura, de la familia franciscana, que viven dedicadas a la oración. /  / La obra se hizo a iniciativa de la madre Mariana, fundadora de la comunidad. Su nombre completo aparece de dos maneras en las fuentes, y por eso aquí la llamamos así. La primera piedra se colocó en mil setecientos ochenta y dos. El arquitecto Ignacio de Castera, uno de los constructores activos en la Ciudad de México en esos años, dirigió la construcción, que se inauguró en mil setecientos ochenta y siete. Entre quienes apoyaron el proyecto con recursos están Luis de Torres, Manuel de la Borda y el conde de Regla. /  / El convento fue pensado para mujeres de vida contemplativa. Vivían aquí en clausura, con la oración como centro de sus días. En una comunidad de clausura, las religiosas no salen del convento y reciben a poca gente. Su vida se reparte entre la oración, el trabajo y el silencio. Esa vida continuó hasta mil ochocientos sesenta y tres, cuando el gobierno nacionalizó los bienes de la Iglesia, en el contexto de las leyes de Reforma, y el convento se cerró. Fue una medida que afectó a muchos conventos del país, y las religiosas tuvieron que dejar el edificio. /  / Fue también en este templo donde se resguardó la imagen de Nuestra Señora de Guadalupe. Entre el veintitrés de febrero de mil ochocientos ochenta y ocho y el treinta de septiembre de mil ochocientos noventa y cinco, mientras se hacían obras en la Antigua Basílica, la imagen se veneró en este lugar. Después regresó al santuario. /  / El terreno bajo el conjunto es blando, como el de toda esta zona, y el edificio ha sufrido hundimientos. Entre mil novecientos setenta y seis y mil novecientos ochenta y dos se colocaron pilotes de control para estabilizarlo. El hundimiento, sin embargo, continúa. /  / En el mismo conjunto se encuentra la Capilla de Juramentos, que también atiende esta parroquia. Hoy el templo es la Parroquia de Santa María de Guadalupe. Es una iglesia en uso, con misas y servicios para la comunidad. En su altar principal hay una Sagrada Familia pintada en un círculo, y en el edificio vecino, que fue el convento, se encuentra el Museo de la Basílica. /  / Es parte de la historia del lugar que no siempre se ve: la de las personas que, durante más de setenta años, vivieron aquí dedicadas a la oración, a pocos pasos del santuario de la Virgen.
 
-**PT:** Agora é hora de subir. Esta caminhada leva do Palácio à Praça Principal. /  / Para entender o caminho, ajuda lembrar como a cidade está organizada. A UNESCO distingue três níveis: um baixo, um intermediário e um alto. Você vem do intermediário e se dirige ao mais alto. /  / Segundo o INAH, a Praça Principal fica sobre um montículo artificial. Chega-se a ela por dois pórticos defendidos. Ou seja, não é um lugar onde se entrava sem mais nem menos. /  / O guia do INAH diz que é a parte mais bem conservada da cidade e a de acesso mais difícil. Talvez essas duas coisas andem juntas. /  / Medina Romero assinala que o sítio tem calçadas empedradas de até cento e setenta e cinco metros de comprimento. Também menciona que, ao sul da Acrópole, há um muro de quatro metros com bastiões e fossos. /  / Enquanto sobe, deixe de procurar monumentos e repare no terreno. Um morro modificado com terraços e muros se sente diferente de uma praça aberta. /  / A UNESCO considera Xochicalco um exemplo supremo de cidade fortificada do Epiclássico. Você vai sentir isso no corpo antes de ver com os olhos. /  / Quando chegar lá em cima, respire. O que vem a seguir é a parte mais famosa do sítio.
+**PT:** Este templo e o convento que o acompanha foram erguidos no final do século dezoito para uma comunidade de religiosas capuchinhas. As capuchinhas são freiras de clausura, da família franciscana, que vivem dedicadas à oração. /  / A obra foi feita por iniciativa da madre Mariana, fundadora da comunidade. Seu nome completo aparece de duas maneiras nas fontes, e por isso aqui a chamamos assim. A pedra fundamental foi colocada em mil setecentos e oitenta e dois. O arquiteto Ignacio de Castera, um dos construtores ativos na Cidade do México naqueles anos, dirigiu a construção, que foi inaugurada em mil setecentos e oitenta e sete. Entre os que apoiaram o projeto com recursos estão Luis de Torres, Manuel de la Borda e o conde de Regla. /  / O convento foi pensado para mulheres de vida contemplativa. Elas viviam aqui em clausura, com a oração como centro de seus dias. Em uma comunidade de clausura, as religiosas não saem do convento e recebem pouca gente. Sua vida se divide entre a oração, o trabalho e o silêncio. Essa vida continuou até mil oitocentos e sessenta e três, quando o governo nacionalizou os bens da Igreja, no contexto das leis da Reforma, e o convento foi fechado. Foi uma medida que afetou muitos conventos do país, e as religiosas tiveram que deixar o edifício. /  / Foi também neste templo que se guardou a imagem de Nossa Senhora de Guadalupe. Entre vinte e três de fevereiro de mil oitocentos e oitenta e oito e trinta de setembro de mil oitocentos e noventa e cinco, enquanto eram feitas obras na Antiga Basílica, a imagem foi venerada neste lugar. Depois voltou ao santuário. /  / O terreno sob o conjunto é mole, como o de toda esta região, e o edifício sofreu afundamentos. Entre mil novecentos e setenta e seis e mil novecentos e oitenta e dois, foram colocadas estacas de controle para estabilizá-lo. O afundamento, porém, continua. /  / No mesmo conjunto fica a Capela dos Juramentos, que esta paróquia também atende. Hoje o templo é a Paróquia de Santa María de Guadalupe. É uma igreja em uso, com missas e serviços para a comunidade. Em seu altar principal há uma Sagrada Família pintada em um círculo, e no edifício vizinho, que foi o convento, fica o Museu da Basílica. /  / É parte da história do lugar que nem sempre se vê: a das pessoas que, durante mais de setenta anos, viveram aqui dedicadas à oração, a poucos passos do santuário da Virgem.
 
 ### retos_observacion
 
-**ES:** Fíjate en cómo cambia el terreno bajo tus pies / Cuenta las veces que cambia el nivel del camino / Busca los pórticos por donde se entra a la plaza
+**ES:** Busca la fachada y su puerta / Observa el edificio del convento junto al templo / Fíjate en la placa si hay una
 
-**PT:** Repare em como o terreno muda sob seus pés / Conte quantas vezes muda o nível do caminho / Procure os pórticos por onde se entra na praça
+**PT:** Procure a fachada e sua porta / Observe o edifício do convento ao lado do templo / Repare na placa, se houver uma
 
 ### especificaciones
 
-**ES:** Plaza Principal: sobre un montículo artificial / Accesos: dos pórticos defendidos / Calzadas empedradas: hasta ciento setenta y cinco metros, según Medina Romero / Niveles de la ciudad: tres, según la UNESCO
+**ES:** Primera piedra: 1782 / Arquitecto: Ignacio de Castera / Inauguración: 1787 / Convento cerrado: 1863 / Imagen aquí: 1888 a 1895
 
-**PT:** Praça Principal: sobre um montículo artificial / Acessos: dois pórticos defendidos / Calçadas empedradas: até cento e setenta e cinco metros, segundo Medina Romero / Níveis da cidade: três, segundo a UNESCO
+**PT:** Pedra fundamental: 1782 / Arquiteto: Ignacio de Castera / Inauguração: 1787 / Convento fechado: 1863 / Imagem aqui: 1888 a 1895
 
 ### faq_mito
 
-**ES:** pregunta: Mito: A la plaza más importante se entraba libremente. / respuesta: Realidad: Según el INAH, se llega a ella por dos pórticos defendidos.
+**ES:** pregunta: Mito: El templo de las Capuchinas siempre fue parroquia. / respuesta: Realidad: Fue convento de religiosas hasta que se nacionalizó y cerró en mil ochocientos sesenta y tres. Hoy es la parroquia de Santa María de Guadalupe.
 
-**PT:** pregunta: Mito: A praça mais importante era de entrada livre. / respuesta: Realidade: Segundo o INAH, chega-se a ela por dois pórticos defendidos.
+**PT:** pregunta: Mito: O templo das Capuchinhas sempre foi paróquia. / respuesta: Realidade: Foi convento de religiosas até ser nacionalizado e fechado em mil oitocentos e sessenta e três. Hoje é a paróquia de Santa María de Guadalupe.
 
-## Pieza: xoc_12_plaza_principal_accesos
+## Pieza: bas_09_museo_basilica
 
 ### titulo
 
-**ES:** La Plaza Principal
+**ES:** El Museo de la Basílica de Guadalupe
 
-**PT:** A Praça Principal
+**PT:** O Museu da Basílica de Guadalupe
 
 ### frase_gancho
 
-**ES:** La parte mejor protegida de la ciudad, donde se concentraba el poder.
+**ES:** Arte sacro y la memoria de la devoción en el antiguo convento.
 
-**PT:** A parte mais bem protegida da cidade, onde o poder se concentrava.
+**PT:** Arte sacra e a memória da devoção no antigo convento.
 
 ### puente_narrativo
 
-**ES:** Continúa tu ruta: lo que sigue está en esta misma plaza o muy cerca de ella.
+**ES:** Sigues hacia el museo, en el antiguo convento.
 
-**PT:** Continue seu percurso: o que vem a seguir está nesta mesma praça ou muito perto dela.
+**PT:** Você segue para o museu, no antigo convento.
 
 ### guion_corto
 
-**ES:** Has llegado a la parte que más protegieron. Según el INAH, la Plaza Principal está sobre un montículo artificial y se entra por dos pórticos defendidos. La guía la describe como la zona mejor conservada y de más difícil acceso de Xochicalco. Aquí están el Templo de las Serpientes Emplumadas, una Pirámide Gemela y estructuras administrativas. También el Templo de las Estelas, que guardaba tres estelas hoy en el Museo Nacional de Antropología. Al oeste está la Acrópolis, donde vivía el gobernante. Todo apunta a que aquí se concentraba el poder, y a que este núcleo ceremonial ardería al final de la ciudad. Mira alrededor y localiza el edificio con serpientes en sus muros.
+**ES:** Estás en el Museo de la Basílica de Guadalupe, abierto el doce de octubre de mil novecientos cuarenta y uno. Ocupa el antiguo convento, detrás de la Antigua Basílica. Tiene unas dieciséis salas y más de cuatro mil piezas de arte asiático, europeo y novohispano, de los siglos quince al veinte. Hay obras de pintores como Cristóbal de Villalpando, José de Ibarra y Miguel Cabrera. Se le considera uno de los museos más antiguos de México. Aquí se reúne arte sacro y también la memoria de la devoción: ofrendas y objetos que los fieles dejaron a lo largo de los siglos. Los horarios y el costo de entrada pueden cambiar.
 
-**PT:** Você chegou à parte que mais protegeram. Segundo o INAH, a Praça Principal fica sobre um montículo artificial e se entra por dois pórticos defendidos. O guia a descreve como a zona mais bem conservada e de acesso mais difícil de Xochicalco. Aqui estão o Templo das Serpentes Emplumadas, uma Pirâmide Gêmea e estruturas administrativas. Também o Templo das Estelas, que guardava três estelas hoje no Museu Nacional de Antropologia. A oeste fica a Acrópole, onde vivia o governante. Tudo indica que aqui o poder se concentrava, e que este núcleo cerimonial arderia no fim da cidade. Olhe ao redor e localize o edifício com serpentes em seus muros.
+**PT:** Você está no Museu da Basílica de Guadalupe, aberto em doze de outubro de mil novecentos e quarenta e um. Ele ocupa o antigo convento, atrás da Antiga Basílica. Tem cerca de dezesseis salas e mais de quatro mil peças de arte asiática, europeia e novo-hispânica, dos séculos quinze ao vinte. Há obras de pintores como Cristóbal de Villalpando, José de Ibarra e Miguel Cabrera. É considerado um dos museus mais antigos do México. Aqui se reúne arte sacra e também a memória da devoção: oferendas e objetos que os fiéis deixaram ao longo dos séculos. Os horários e o preço da entrada podem mudar.
 
 ### guion_largo
 
-**ES:** Has llegado a la parte que más protegieron. /  / Imagina el recorrido de un visitante de la época. Ha pasado accesos defendidos, ha subido por terrazas y ha dejado atrás el mercado y los talleres. Ahora entra por uno de los dos pórticos defendidos que, según el INAH, dan acceso a esta plaza. Está sobre un montículo artificial: la altura también es un mensaje. /  / La guía del INAH describe la Plaza Principal como la zona mejor conservada y de más difícil acceso de Xochicalco. Aquí se reúnen varios edificios. El más conocido es el Templo de las Serpientes Emplumadas. Hay también una Pirámide Gemela y estructuras administrativas. En la Pirámide Gemela se recuperaron unas cuatrocientas piedras con restos de pintura mural, según un estudio de González Crespo y su equipo. /  / También está el Templo de las Estelas. Según Medina Romero, guardaba tres estelas que hoy se encuentran en el Museo Nacional de Antropología, en la Ciudad de México. César Sáenz las excavó en mil novecientos sesenta y uno. Estaban fragmentadas, y Sáenz concluyó que los propios xochicalcas las destruyeron a propósito antes de abandonar la ciudad. Según Andrews y Glascock, en este centro del poder vivían unas mil personas: sacerdotes, la élite del palacio, burócratas y sirvientes. Una estela es una piedra alta con relieves. Hirth cuenta que cada una nombra a un gobernante: siete Ojo de Reptil, siete Lluvia y cuatro Movimiento. Son los primeros nombres de reyes escritos en el centro de México y los primeros textos largos del Altiplano. Unas huellas de pies grabadas indican en qué orden leerlas. Otra fuente las describe con una máscara de jaguar y serpiente, bandas celestes y una imagen de Tláloc. /  / Al oeste queda la Acrópolis. Según Hirth, allí estuvo el palacio del gobernante y el centro administrativo de la ciudad. Hirth también describe una plaza ceremonial al este de la Acrópolis. /  / El observatorio, una cueva bajo las plataformas de esta zona, tiene su propia parada. Hoy no se puede entrar. /  / Todo apunta a que aquí se concentraba el poder. Y también, según Webb y Hirth, es el núcleo ceremonial que ardería al final de la ciudad. Guarda esa idea: más adelante volveremos a ella. /  / Una fuente indica que el acceso a la plaza puede estar restringido. Confirma al llegar qué partes puedes recorrer. Antes de seguir, tómate un momento y mira alrededor, con el cuello hacia arriba y sin prisa.
+**ES:** El Museo de la Basílica de Guadalupe abrió sus puertas el doce de octubre de mil novecientos cuarenta y uno. Se le considera uno de los museos más antiguos de México. Ocupa el antiguo convento de las capuchinas, detrás de la Antigua Basílica. /  / Su colección es amplia. Tiene unas dieciséis salas y más de cuatro mil piezas. Hay arte asiático, europeo y novohispano, de los siglos quince al veinte. Entre los autores que se citan están Matías de Arteaga y Alfaro, Cristóbal de Villalpando, Nicolás Rodríguez Juárez, José de Ibarra y Miguel Cabrera, nombres importantes de la pintura novohispana. El museo se presenta como el que reúne la colección más grande relacionada con la Virgen de Guadalupe. /  / Además de pintura sobre lienzo, hay escultura policromada, escultura en mármol y marfil, grabados, libros, textiles como estandartes, tapices y vestimentas litúrgicas, orfebrería y mobiliario de origen mexicano. Algunas salas se organizan por tema. Hay una Sala de Arcángeles, con pinturas de los arcángeles, y una Sala Cristológica, dedicada a Jesús. /  / Una parte importante de la colección son los exvotos, las pequeñas pinturas con las que los fieles dieron gracias, de los que hablaremos en la siguiente parada. /  / El edificio también guarda una parte de la historia. Es el antiguo convento de las capuchinas, y quedó parcialmente separado de la Antigua Basílica, una separación que se aprecia mejor desde afuera. /  / Según la dirección del museo, cuando abrió, en mil novecientos cuarenta y uno, el arte religioso no se valoraba como hoy, y su fundación fue una decisión adelantada a su tiempo. Con los años, la colección ha sido solicitada para exposiciones importantes, como las del Museo del Prado, en Madrid, y el Museo Metropolitano de Arte, en Nueva York. /  / Quienes visitan el museo lo hacen de formas distintas. Para los creyentes es una manera de conocer la devoción de generaciones anteriores. Para quienes estudian el arte, es una colección de pintura novohispana. Para los curiosos, es una ventana a cómo se vivía la fe en cada época. La directora del museo ha dicho que recorrerlo es una experiencia espiritual, independientemente de la religión que cada uno profese. /  / Los horarios, el costo de entrada y las salas abiertas pueden cambiar. Conviene confirmarlos en el sitio oficial antes de ir. Es un museo, pero también forma parte de un recinto de culto, así que se espera un trato respetuoso. /  / Si tienes poco tiempo, elige una sala y mira con calma una sola obra. Una pintura bien vista dice más que muchas vistas de prisa.
 
-**PT:** Você chegou à parte que mais protegeram. /  / Imagine o percurso de um visitante da época. Ele passou por acessos defendidos, subiu por terraços e deixou para trás o mercado e as oficinas. Agora entra por um dos dois pórticos defendidos que, segundo o INAH, dão acesso a esta praça. Ela fica sobre um montículo artificial: a altura também é uma mensagem. /  / O guia do INAH descreve a Praça Principal como a zona mais bem conservada e de acesso mais difícil de Xochicalco. Aqui se reúnem vários edifícios. O mais conhecido é o Templo das Serpentes Emplumadas. Há também uma Pirâmide Gêmea e estruturas administrativas. Na Pirâmide Gêmea foram recuperadas cerca de quatrocentas pedras com restos de pintura mural, segundo um estudo de González Crespo e sua equipe. /  / Também está aqui o Templo das Estelas. Segundo Medina Romero, ele guardava três estelas que hoje se encontram no Museu Nacional de Antropologia, na Cidade do México. César Sáenz as escavou em mil novecentos e sessenta e um. Estavam fragmentadas, e Sáenz concluiu que os próprios xochicalcas as destruíram de propósito antes de abandonar a cidade. Segundo Andrews e Glascock, neste centro do poder viviam cerca de mil pessoas: sacerdotes, a elite do palácio, burocratas e serviçais. Uma estela é uma pedra alta com relevos. Hirth conta que cada uma nomeia um governante: sete Olho de Réptil, sete Chuva e quatro Movimento. São os primeiros nomes de reis escritos no centro do México e os primeiros textos longos do Altiplano. Umas pegadas gravadas indicam em que ordem lê-las. Outra fonte as descreve com uma máscara de jaguar e serpente, faixas celestes e uma imagem de Tláloc. /  / A oeste fica a Acrópole. Segundo Hirth, ali estiveram o palácio do governante e o centro administrativo da cidade. Hirth também descreve uma praça cerimonial a leste da Acrópole. /  / O observatório, uma caverna sob as plataformas desta zona, tem sua própria parada. Hoje não é possível entrar. /  / Tudo indica que aqui o poder se concentrava. E também, segundo Webb e Hirth, este é o núcleo cerimonial que arderia no fim da cidade. Guarde essa ideia: mais adiante voltaremos a ela. /  / Uma fonte indica que o acesso à praça pode estar restrito. Confirme ao chegar quais partes você pode percorrer. Antes de seguir, reserve um momento e olhe ao redor, com o pescoço voltado para cima e sem pressa.
+**PT:** O Museu da Basílica de Guadalupe abriu suas portas em doze de outubro de mil novecentos e quarenta e um. É considerado um dos museus mais antigos do México. Ocupa o antigo convento das capuchinhas, atrás da Antiga Basílica. /  / Sua coleção é ampla. Tem cerca de dezesseis salas e mais de quatro mil peças. Há arte asiática, europeia e novo-hispânica, dos séculos quinze ao vinte. Entre os autores citados estão Matías de Arteaga y Alfaro, Cristóbal de Villalpando, Nicolás Rodríguez Juárez, José de Ibarra e Miguel Cabrera, nomes importantes da pintura novo-hispânica. O museu se apresenta como aquele que reúne a maior coleção relacionada à Virgem de Guadalupe. /  / Além de pintura sobre tela, há escultura policromada, escultura em mármore e marfim, gravuras, livros, têxteis como estandartes, tapeçarias e vestimentas litúrgicas, ourivesaria e mobiliário de origem mexicana. Algumas salas são organizadas por tema. Há uma Sala de Arcanjos, com pinturas dos arcanjos, e uma Sala Cristológica, dedicada a Jesus. /  / Uma parte importante da coleção são os ex-votos, as pequenas pinturas com as quais os fiéis agradeceram, e sobre os quais falaremos na próxima parada. /  / O edifício também guarda uma parte da história. É o antigo convento das capuchinhas, e ficou parcialmente separado da Antiga Basílica, uma separação que se percebe melhor do lado de fora. /  / Segundo a direção do museu, quando abriu, em mil novecentos e quarenta e um, a arte religiosa não era valorizada como hoje, e sua fundação foi uma decisão à frente de seu tempo. Com os anos, a coleção tem sido solicitada para exposições importantes, como as do Museu do Prado, em Madri, e do Museu Metropolitano de Arte, em Nova York. /  / Quem visita o museu o faz de formas distintas. Para os crentes, é uma maneira de conhecer a devoção de gerações anteriores. Para quem estuda arte, é uma coleção de pintura novo-hispânica. Para os curiosos, é uma janela para como se vivia a fé em cada época. A diretora do museu já disse que percorrê-lo é uma experiência espiritual, independentemente da religião que cada um professe. /  / Os horários, o preço da entrada e as salas abertas podem mudar. Convém confirmá-los no site oficial antes de ir. É um museu, mas também faz parte de um recinto de culto, então espera-se um trato respeitoso. /  / Se você tem pouco tempo, escolha uma sala e olhe com calma uma única obra. Uma pintura bem observada diz mais do que muitas vistas às pressas.
 
 ### retos_observacion
 
-**ES:** Localiza el edificio con serpientes en sus muros / Busca la Acrópolis, al oeste / Fíjate en los pórticos por donde se entra
+**ES:** Busca una obra de Villalpando, Ibarra o Cabrera / Observa los objetos que dejaron los fieles / Fíjate en el edificio del antiguo convento
 
-**PT:** Localize o edifício com serpentes em seus muros / Procure a Acrópole, a oeste / Observe os pórticos por onde se entra
+**PT:** Procure uma obra de Villalpando, Ibarra ou Cabrera / Observe os objetos que os fiéis deixaram / Repare no edifício do antigo convento
 
 ### especificaciones
 
-**ES:** Acceso: dos pórticos defendidos / Estado: la parte mejor conservada de la ciudad / Edificios: Templo de las Serpientes Emplumadas, Pirámide Gemela, Templo de las Estelas, estructuras administrativas y Acrópolis / Estelas del templo: tres, hoy en el Museo Nacional de Antropología
+**ES:** Apertura: 12 de octubre de 1941 / Salas: unas 16 / Piezas: más de 4,000 / Épocas: siglos XV al XX / Pintores: Villalpando, Ibarra, Cabrera
 
-**PT:** Acesso: dois pórticos defendidos / Estado: a parte mais bem conservada da cidade / Edifícios: Templo das Serpentes Emplumadas, Pirâmide Gêmea, Templo das Estelas, estruturas administrativas e Acrópole / Estelas do templo: três, hoje no Museu Nacional de Antropologia
+**PT:** Abertura: 12 de outubro de 1941 / Salas: cerca de 16 / Peças: mais de 4 000 / Épocas: séculos XV ao XX / Pintores: Villalpando, Ibarra, Cabrera
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Las estelas siguen en el Templo de las Estelas. / respuesta: Realidad: Las tres estelas del templo están hoy en el Museo Nacional de Antropología.
+**ES:** pregunta: Mito: El Museo de la Basílica es reciente. / respuesta: Realidad: Se abrió el doce de octubre de mil novecientos cuarenta y uno, y se le considera uno de los museos más antiguos de México.
 
-**PT:** pregunta: Mito: As estelas continuam no Templo das Estelas. / respuesta: Realidade: As três estelas do templo estão hoje no Museu Nacional de Antropologia.
+**PT:** pregunta: Mito: O Museu da Basílica é recente. / respuesta: Realidade: Foi aberto em doze de outubro de mil novecentos e quarenta e um, e é considerado um dos museus mais antigos do México.
 
-## Pieza: xoc_13_serpientes_emplumadas_1
+## Pieza: bas_10_exvotos
 
 ### titulo
 
-**ES:** La Pirámide de las Serpientes Emplumadas
+**ES:** Los exvotos
 
-**PT:** A Pirâmide das Serpentes Emplumadas
+**PT:** Os ex-votos
 
 ### frase_gancho
 
-**ES:** Ocho serpientes y figuras sentadas en un edificio hecho para ser leído.
+**ES:** Pinturas pequeñas que dicen gracias.
 
-**PT:** Oito serpentes e figuras sentadas em um edifício feito para ser lido.
+**PT:** Pequenas pinturas que dizem obrigado.
 
 ### puente_narrativo
 
-**ES:** Continúa tu ruta: lo que sigue también está ligado al cielo y al tiempo.
+**ES:** Dentro del museo, busca la sala de los exvotos.
 
-**PT:** Continue seu percurso: o que vem a seguir também está ligado ao céu e ao tempo.
+**PT:** Dentro do museu, procure a sala dos ex-votos.
 
 ### guion_corto
 
-**ES:** Este es el edificio que da fama a Xochicalco. Según la guía del INAH, tiene dos cuerpos y ocho serpientes emplumadas, con caracoles y cuentas en el relieve. El INAH describe además figuras sentadas entre las serpientes, que pueden ser sacerdotes, gobernantes o astrónomos, y una cornisa de caracoles. En los muros superiores aparecen figuras de guerreros. Kenneth Hirth señala que algunas figuras tienen estilo maya. Piensa en el relieve como en una página, no solo como adorno. Hirth cree que el nombre de la ciudad alude a esta decoración. Xochicalco se suele traducir como lugar de la casa de las flores. La interpretación completa sigue en debate. Tómate tu tiempo para mirarlo con calma.
+**ES:** Un exvoto es una pequeña pintura con la que una persona da gracias por un favor que atribuye a la intercesión de la Virgen o de un santo. Suele mostrar la escena del peligro, la imagen a la que se encomendó, y un texto escrito a mano que cuenta lo ocurrido. Este museo conserva más de dos mil, casi todos de los siglos diecinueve y veinte, y se presenta como la colección más grande de exvotos guadalupanos. Hablan de enfermedades, accidentes, viajes y guerras. Muchos incluyen nombre y fecha. Conviene acercarse para leer los textos con calma. Son documentos de fe y también de la vida cotidiana de su tiempo.
 
-**PT:** Este é o edifício que deu fama a Xochicalco. Segundo o guia do INAH, ele tem dois corpos e oito serpentes emplumadas, com caracóis e contas no relevo. O INAH descreve ainda figuras sentadas entre as serpentes, que podem ser sacerdotes, governantes ou astrônomos, e uma cornija de caracóis. Nos muros superiores aparecem figuras de guerreiros. Kenneth Hirth observa que algumas figuras têm estilo maia. Pense no relevo como uma página, não apenas como um enfeite. Hirth acredita que o nome da cidade alude a essa decoração. Xochicalco costuma ser traduzido como lugar da casa das flores. A interpretação completa continua em debate. Reserve um tempo para observá-lo com calma.
+**PT:** Um ex-voto é uma pequena pintura com a qual uma pessoa agradece por um favor que atribui à intercessão da Virgem ou de um santo. Costuma mostrar a cena do perigo, a imagem a quem a pessoa se encomendou e um texto escrito à mão que conta o ocorrido. Este museu conserva mais de dois mil, quase todos dos séculos dezenove e vinte, e se apresenta como a maior coleção de ex-votos guadalupanos. Falam de doenças, acidentes, viagens e guerras. Muitos incluem nome e data. Vale a pena se aproximar para ler os textos com calma. São documentos de fé e também da vida cotidiana de seu tempo.
 
 ### guion_largo
 
-**ES:** Antes de que te cuente nada, mira. Este edificio está hecho para ser leído. /  / Es la Pirámide de las Serpientes Emplumadas. Según la guía del INAH, tiene dos cuerpos y ocho serpientes emplumadas, acompañadas de caracoles y cuentas. Medina Romero, director del sitio, precisa que son dos serpientes por cada una de las cuatro fachadas. /  / Entre las serpientes hay figuras sentadas. Según el INAH, pueden representar sacerdotes, gobernantes o astrónomos. Arriba corre una cornisa de caracoles y, en los muros superiores, aparecen figuras de guerreros. /  / Kenneth Hirth señala que algunas de esas figuras tienen estilo maya. Los epigrafistas Nielsen y Helmke añaden que las serpientes parecen moverse en el agua, por las conchas que las rodean. Las figuras sentadas podrían ser autoridades que ellas transportan. La enciclopedia World History añade que en el friso superior hay parejas de figuras con atuendo maya, separadas por signos del calendario. /  / La misma enciclopedia cuenta que el relieve estuvo pintado de rojo, verde, amarillo, azul, negro y blanco. Hoy lo ves en piedra. Conviene imaginarlo con color. /  / El nombre de la ciudad parece venir de esta decoración, según Hirth. Xochicalco se suele traducir como lugar de la casa de las flores. /  / Una advertencia: este edificio fue reconstruido. Según el INAH, la primera excavación científica fue la de Batres, en mil novecientos nueve. Medina Romero menciona que los dueños de una hacienda azucarera cercana destruyeron buena parte de la base de la pirámide. Lo que ves incluye restauraciones, y algunos estudios han criticado la que se hizo en aquella época. /  / Aun así, el mensaje sigue ahí. Una serpiente emplumada rodea un edificio y, entre sus ondas, hay personas sentadas. El poder, la religión y el cielo se mezclan en un mismo relieve. /  / Mira despacio, una figura a la vez.
+**ES:** En latín, ex voto alude al cumplimiento de una promesa, y un exvoto es el objeto con el que se cumple. Alguien pide un favor, a Dios, a la Virgen o a un santo, y cuando lo recibe, lo agradece con un objeto. En el catolicismo mexicano, ese objeto suele ser una pintura pequeña. /  / Según la especialista del museo Nydia Mirna Rodríguez Alatorre, los exvotos no son exclusivos del cristianismo. Existen en muchas culturas y desde la antigüedad. La costumbre de ofrecer una pintura de agradecimiento viene de Italia, del siglo quince, y se extendió después a otros países. /  / En México la práctica se volvió muy popular en los siglos diecinueve y veinte, y llenó las paredes de santuarios en todo el país. El Museo de la Basílica conserva más de dos mil exvotos, casi todos de esos siglos, y se presenta como la colección más grande de exvotos guadalupanos. /  / Un exvoto tiene normalmente tres partes. Arriba suele aparecer la imagen a la que se encomendó la persona, en este caso Nuestra Señora de Guadalupe o algún santo. Abajo, la escena de la desgracia: una enfermedad, un accidente, una caída. Y en la parte inferior, un texto escrito a mano en el que la persona cuenta qué pasó y da las gracias. Muchos están escritos por gente con poca escuela, y ese lenguaje directo es parte de su valor. /  / No todos los exvotos son pinturas. Ya en el siglo diecisiete, el jesuita Francisco de Florencia registró en este santuario ofrendas de plata con forma de cabezas, ojos, corazones, brazos, piernas y manos, que los fieles dejaban como agradecimiento. Esa es otra manera, más antigua, de dar las gracias. /  / Los temas dicen mucho de su época. Hay enfermedades, accidentes y migraciones. En los años de las guerras civiles del siglo diecinueve y de la Revolución, aparecieron además las levas, el reclutamiento forzado de jóvenes, y la angustia de las madres cuyos hijos se iban a la guerra. /  / El exvoto expresa una relación directa de la persona con Dios, sin intermediarios, y al mismo tiempo se hace público en un santuario, para que otros lo vean. Muchos incluyen el nombre de quien lo ofreció y una fecha, y eso permite situarlos en el tiempo. /  / Para quien lo ofreció, el exvoto es un acto de agradecimiento y de fe. Para quien lo mira hoy, es también un documento histórico. Desde finales del siglo veinte, los exvotos empezaron a valorarse como fuentes sobre cómo vivían, vestían, rezaban y se enfermaban las personas de cada época. /  / Aquí no se pide al visitante que crea o que deje de creer. Se le invita a mirar con atención lo que otros escribieron en su momento más difícil, y a leer sus palabras con el respeto que merece cualquier agradecimiento.
 
-**PT:** Antes que eu lhe conte qualquer coisa, olhe. Este edifício foi feito para ser lido. /  / É a Pirâmide das Serpentes Emplumadas. Segundo o guia do INAH, ela tem dois corpos e oito serpentes emplumadas, acompanhadas de caracóis e contas. Medina Romero, diretor do sítio, esclarece que são duas serpentes em cada uma das quatro fachadas. /  / Entre as serpentes há figuras sentadas. Segundo o INAH, elas podem representar sacerdotes, governantes ou astrônomos. No alto corre uma cornija de caracóis e, nos muros superiores, aparecem figuras de guerreiros. /  / Kenneth Hirth observa que algumas dessas figuras têm estilo maia. Os epigrafistas Nielsen e Helmke acrescentam que as serpentes parecem se mover na água, por causa das conchas que as rodeiam. As figuras sentadas poderiam ser autoridades transportadas por elas. A enciclopédia World History acrescenta que, no friso superior, há pares de figuras com trajes maias, separados por signos do calendário. /  / A mesma enciclopédia conta que o relevo foi pintado de vermelho, verde, amarelo, azul, preto e branco. Hoje você o vê em pedra. Vale a pena imaginá-lo com cor. /  / O nome da cidade parece vir dessa decoração, segundo Hirth. Xochicalco costuma ser traduzido como lugar da casa das flores. /  / Um aviso: este edifício foi reconstruído. Segundo o INAH, a primeira escavação científica foi a de Batres, em mil novecentos e nove. Medina Romero menciona que os donos de uma fazenda açucareira próxima destruíram boa parte da base da pirâmide. O que você vê inclui restaurações, e alguns estudos criticaram a que foi feita naquela época. /  / Mesmo assim, a mensagem continua ali. Uma serpente emplumada envolve um edifício e, entre suas ondas, há pessoas sentadas. O poder, a religião e o céu se misturam em um mesmo relevo. /  / Olhe devagar, uma figura de cada vez.
+**PT:** Em latim, ex voto alude ao cumprimento de uma promessa, e um ex-voto é o objeto com o qual essa promessa se cumpre. Alguém pede um favor a Deus, à Virgem ou a um santo e, quando o recebe, agradece com um objeto. No catolicismo mexicano, esse objeto costuma ser uma pintura pequena. /  / Segundo a especialista do museu Nydia Mirna Rodríguez Alatorre, os ex-votos não são exclusivos do cristianismo. Existem em muitas culturas e desde a antiguidade. O costume de oferecer uma pintura de agradecimento vem da Itália, do século quinze, e depois se estendeu a outros países. /  / No México, a prática se tornou muito popular nos séculos dezenove e vinte e encheu as paredes de santuários em todo o país. O Museu da Basílica conserva mais de dois mil ex-votos, quase todos desses séculos, e se apresenta como a maior coleção de ex-votos guadalupanos. /  / Um ex-voto normalmente tem três partes. Em cima costuma aparecer a imagem a quem a pessoa se encomendou, neste caso Nossa Senhora de Guadalupe ou algum santo. Embaixo, a cena da desgraça: uma doença, um acidente, uma queda. E na parte inferior, um texto escrito à mão no qual a pessoa conta o que aconteceu e agradece. Muitos foram escritos por gente com pouca escolaridade, e essa linguagem direta faz parte do seu valor. /  / Nem todos os ex-votos são pinturas. Já no século dezessete, o jesuíta Francisco de Florencia registrou neste santuário oferendas de prata em forma de cabeças, olhos, corações, braços, pernas e mãos, que os fiéis deixavam como agradecimento. Essa é outra maneira, mais antiga, de agradecer. /  / Os temas dizem muito sobre a sua época. Há doenças, acidentes e migrações. Nos anos das guerras civis do século dezenove e da Revolução, apareceram também as levas, o recrutamento forçado de jovens, e a angústia das mães cujos filhos partiam para a guerra. /  / O ex-voto expressa uma relação direta da pessoa com Deus, sem intermediários, e ao mesmo tempo se torna público em um santuário, para que outros o vejam. Muitos incluem o nome de quem o ofereceu e uma data, e isso permite situá-los no tempo. /  / Para quem o ofereceu, o ex-voto é um ato de agradecimento e de fé. Para quem o olha hoje, é também um documento histórico. Desde o final do século vinte, os ex-votos passaram a ser valorizados como fontes sobre como viviam, se vestiam, rezavam e adoeciam as pessoas de cada época. /  / Aqui não se pede ao visitante que acredite ou deixe de acreditar. Convida-se você a olhar com atenção o que outros escreveram em seu momento mais difícil, e a ler suas palavras com o respeito que merece qualquer agradecimento.
 
 ### retos_observacion
 
-**ES:** Cuenta las serpientes que alcances a ver / Busca las figuras sentadas entre ellas / Imagina el relieve pintado de rojo, verde, amarillo, azul, negro y blanco
+**ES:** Lee uno de los textos escritos a mano / Busca la imagen a la que se encomienda la persona / Fíjate en la fecha de uno de los exvotos
 
-**PT:** Conte as serpentes que conseguir ver / Procure as figuras sentadas entre elas / Imagine o relevo pintado de vermelho, verde, amarelo, azul, preto e branco
+**PT:** Leia um dos textos escritos à mão / Procure a imagem a quem a pessoa se encomenda / Repare na data de um dos ex-votos
 
 ### especificaciones
 
-**ES:** Cuerpos: dos / Serpientes emplumadas: ocho, según el INAH y Medina Romero / Primera excavación científica: Batres, mil novecientos nueve, según el INAH / Colores originales: rojo, verde, amarillo, azul, negro y blanco, según World History
+**ES:** Piezas: más de 2,000 / Épocas: sobre todo siglos XIX y XX / Partes: escena, imagen y texto manuscrito
 
-**PT:** Corpos: dois / Serpentes emplumadas: oito, segundo o INAH e Medina Romero / Primeira escavação científica: Batres, mil novecentos e nove, segundo o INAH / Cores originais: vermelho, verde, amarelo, azul, preto e branco, segundo a World History
+**PT:** Peças: mais de 2 000 / Épocas: principalmente séculos XIX e XX / Partes: cena, imagem e texto manuscrito
 
 ### faq_mito
 
-**ES:** pregunta: Mito: La pirámide conserva todo su color original. / respuesta: Realidad: Hoy se ve en piedra. Una fuente indica que el relieve estuvo pintado en varios colores.
+**ES:** pregunta: Mito: Los exvotos son dibujos sin valor histórico. / respuesta: Realidad: Son documentos de la vida cotidiana de su tiempo, con escena, texto escrito a mano y, muchas veces, nombre y fecha.
 
-**PT:** pregunta: Mito: A pirâmide conserva toda a sua cor original. / respuesta: Realidade: Hoje ela é vista em pedra. Uma fonte indica que o relevo foi pintado em várias cores.
+**PT:** pregunta: Mito: Os ex-votos são desenhos sem valor histórico. / respuesta: Realidade: São documentos da vida cotidiana de seu tempo, com cena, texto escrito à mão e, muitas vezes, nome e data.
 
-## Pieza: xoc_14_serpientes_emplumadas_2
+## Pieza: bas_05_parroquia_indios
 
 ### titulo
 
-**ES:** El calendario y el eclipse
+**ES:** La Parroquia de Indios
 
-**PT:** O calendário e o eclipse
+**PT:** A Paróquia de Índios
 
 ### frase_gancho
 
-**ES:** Un relieve que quizá registra un eclipse y la corrección de un calendario.
+**ES:** El edificio más antiguo que se conserva del conjunto.
 
-**PT:** Um relevo que talvez registre um eclipse e a correção de um calendário.
+**PT:** O edifício mais antigo que se conserva do conjunto.
 
 ### puente_narrativo
 
-**ES:** Sigue tu ruta: la escritura de la ciudad tiene más que decir sobre estas fechas.
+**ES:** Bajas hacia la Parroquia de Indios, una capilla pequeña y tranquila.
 
-**PT:** Siga sua rota: a escrita da cidade tem mais a dizer sobre estas datas.
+**PT:** Você desce até a Paróquia de Índios, uma capela pequena e tranquila.
 
 ### guion_corto
 
-**ES:** Esta pirámide también puede leerse como un registro del cielo. Según la guía del INAH, en la fachada oeste hay una imagen relacionada con el ajuste del calendario, junto al nombre y rango de un gobernante. Otro relieve muestra una mandíbula a punto de tragar un círculo dividido en cuatro. Medina Romero lo interpreta como la Luna cubriendo al Sol. Propone un eclipse en el año setecientos cuarenta y tres, aunque hay quien lo fecha en setecientos noventa. Florescano, en cambio, ve una escena de conquista. Nada de esto está cerrado. Lo seguro es que el edificio guarda fechas y signos de tiempo. Mira los relieves y decide qué ves tú, sabiendo que los especialistas aún discuten.
+**ES:** Este es el edificio más antiguo que se conserva en todo el conjunto. Lo construyó hacia mil seiscientos cuarenta y nueve Luis Lasso de la Vega, vicario de Guadalupe. Se le llama de Indios porque en mil seiscientos setenta y nueve se estableció aquí una cofradía de indígenas. Según la tradición, en este lugar vivió San Juan Diego sus últimos años y estuvo la primera ermita. La imagen de Nuestra Señora de Guadalupe se veneró en esta capilla de mil seiscientos noventa y cinco a mil setecientos nueve, mientras se construía la Antigua Basílica. Es un espacio pequeño y tranquilo, al que muchos peregrinos entran en silencio.
 
-**PT:** Esta pirâmide também pode ser lida como um registro do céu. Segundo o guia do INAH, na fachada oeste há uma imagem relacionada ao ajuste do calendário, junto ao nome e à posição de um governante. Outro relevo mostra uma mandíbula prestes a engolir um círculo dividido em quatro. Medina Romero o interpreta como a Lua cobrindo o Sol. Ele propõe um eclipse no ano setecentos e quarenta e três, embora haja quem o date em setecentos e noventa. Florescano, por outro lado, vê uma cena de conquista. Nada disso está encerrado. O certo é que o edifício guarda datas e signos do tempo. Olhe os relevos e decida o que você vê, sabendo que os especialistas ainda discutem.
+**PT:** Este é o edifício mais antigo que se conserva em todo o conjunto. Foi construído por volta de mil seiscentos e quarenta e nove por Luis Lasso de la Vega, vigário de Guadalupe. É chamado de Índios porque, em mil seiscentos e setenta e nove, se estabeleceu aqui uma irmandade de indígenas. Segundo a tradição, foi neste lugar que São Juan Diego viveu seus últimos anos e que esteve a primeira ermida. A imagem de Nossa Senhora de Guadalupe foi venerada nesta capela de mil seiscentos e noventa e cinco a mil setecentos e nove, enquanto se construía a Antiga Basílica. É um espaço pequeno e tranquilo, onde muitos peregrinos entram em silêncio.
 
 ### guion_largo
 
-**ES:** Un edificio puede contar un hecho del cielo. Eso proponen algunos especialistas sobre esta pirámide. /  / La fachada oeste, según la guía del INAH, tiene una imagen relacionada con el ajuste del calendario y también el nombre y el rango de un gobernante. Medina Romero ubica la corrección calendárica en el panel noroeste, con una fecha acompañada de dos manos. /  / Hirth también menciona un posible ajuste entre dos sistemas de calendario. Uno cuenta doscientos sesenta días y el otro, trescientos sesenta y cinco. Como no coinciden, cada cierto tiempo había que corregirlos. /  / Hay además un relieve con una mandíbula a punto de tragar un círculo dividido en cuatro. Según la guía del INAH, aparece una referencia a un eclipse de Sol en el año setecientos cuarenta y tres. Medina Romero lo lee como la Luna tapando al Sol. Esa lectura es una interpretación. /  / Las fechas propuestas no coinciden. Medina Romero menciona el veinticinco de julio de setecientos cuarenta y tres, con un eclipse parcial. La UNAM propone el dieciséis de julio de setecientos noventa, más cercano a uno total. La guía del INAH habla de un eclipse total. Otras notas del INAH señalan discrepancias internas, y Florescano propone que el relieve narra una conquista, no un eclipse. /  / Helmke y Nielsen explican que el signo nueve ojo de reptil aparece dos veces en los lados norte, este y sur. Ellos lo leen como nueve caña, y está coronado por braseros encendidos. Podría referirse a rituales de fuego nuevo. En la fachada oeste hay además un año nueve casa. Estas lecturas son preliminares, porque la escritura de Xochicalco todavía no se descifra. /  / Durante décadas se leyó que los tableros eran una lista de pueblos que pagaban tributo a Xochicalco, desde Coyoacán hasta Iguala, según Hirth. Nielsen y Helmke proponen otra lectura. Los tableros de arriba muestran una fila de figuras sentadas con el mismo tocado y el mismo título, que ellos comparan con el de devorador de corazones de Cacaxtla. Podrían ser personas de alto rango. /  / Lo importante es lo que sí sabemos. Los constructores de esta ciudad dejaron en su edificio más cuidado signos que tienen que ver con el cielo y con el tiempo. Qué dicen exactamente y qué fecha marcan sigue en discusión.
+**ES:** Esta pequeña iglesia es la construcción más antigua que se conserva en todo el conjunto de la Basílica. Fue levantada hacia mil seiscientos cuarenta y nueve por deseo de Luis Lasso de la Vega, vicario de Guadalupe. Es el mismo sacerdote que, ese año, dio a la imprenta el Huei tlamahuiçoltica, el libro que incluye el Nican mopohua, el relato de las apariciones escrito en náhuatl. /  / La palabra indios era la que se usaba entonces para los pueblos originarios. Hoy se dice indígenas, y el nombre histórico del templo se conserva por tradición. /  / Se le conoce como la Parroquia de Indios porque, según el sitio oficial del santuario, en mil seiscientos setenta y nueve se estableció aquí una cofradía de indígenas. Una cofradía es una asociación de fieles que se reúne en torno a una devoción. Durante la época virreinal, este fue un espacio muy ligado a la población indígena que llegaba al Tepeyac. /  / La tradición guadalupana sitúa aquí el primer templo. Según ella, después de las apariciones, fray Juan de Zumárraga pidió que se levantara una ermita en el lugar que Juan Diego indicó. Las fuentes discuten la fecha, que se suele dar como mil quinientos treinta y uno o mil quinientos treinta y tres. El arzobispo Alonso de Montúfar la amplió en mil quinientos cincuenta y seis. La tradición del lugar sostiene que dentro de esta iglesia se conserva un muro de aquella primera ermita. /  / También cuenta la tradición que San Juan Diego vivió junto a la ermita hasta su muerte, en mil quinientos cuarenta y ocho, cuidándola y recibiendo a los peregrinos. Una cruz en el exterior marca el sitio donde, según se cree, estuvo su casa. Los fieles consideran este uno de los lugares más cercanos a su memoria. /  / Esta iglesia tuvo además un papel importante en la historia de la imagen. En mil seiscientos noventa y cinco se decidió construir un templo nuevo, la Antigua Basílica, y el santuario anterior fue derribado. La imagen de Nuestra Señora de Guadalupe pasó entonces a esta capilla, donde permaneció hasta que, en abril de mil setecientos nueve, fue llevada en procesión al nuevo templo. Fueron catorce años de espera para quienes la veneraban. /  / Hoy la Antigua Parroquia de Indios depende de la Parroquia de Santa María de Guadalupe, la de las Capuchinas, que está casi enfrente. Es un templo en uso, con misas y momentos de oración. Lo que se ve es una iglesia pequeña del siglo diecisiete. Lo que se cuenta, la tradición, es lo que la hace especial para los fieles, y esta parada te da las dos cosas por separado. /  / Quienes entran lo hacen con calma. Algunos se detienen frente al altar y otros simplemente se sientan un momento. No hay mucho que hacer aquí más que estar. Es un buen sitio para pensar en la distancia entre la ermita pequeña de los primeros tiempos y la gran explanada que dejaste atrás.
 
-**PT:** Um edifício pode contar um fato do céu. É o que alguns especialistas propõem sobre esta pirâmide. /  / A fachada oeste, segundo o guia do INAH, tem uma imagem relacionada ao ajuste do calendário e também o nome e a posição de um governante. Medina Romero situa a correção calendárica no painel noroeste, com uma data acompanhada de duas mãos. /  / Hirth também menciona um possível ajuste entre dois sistemas de calendário. Um conta duzentos e sessenta dias e o outro, trezentos e sessenta e cinco. Como não coincidem, de tempos em tempos era preciso corrigi-los. /  / Há ainda um relevo com uma mandíbula prestes a engolir um círculo dividido em quatro. Segundo o guia do INAH, aparece uma referência a um eclipse do Sol no ano setecentos e quarenta e três. Medina Romero o lê como a Lua tapando o Sol. Essa leitura é uma interpretação. /  / As datas propostas não coincidem. Medina Romero menciona o vinte e cinco de julho de setecentos e quarenta e três, com um eclipse parcial. A UNAM propõe o dezesseis de julho de setecentos e noventa, mais próximo de um eclipse total. O guia do INAH fala de um eclipse total. Outras notas do INAH apontam discrepâncias internas, e Florescano propõe que o relevo narra uma conquista, não um eclipse. /  / Helmke e Nielsen explicam que o signo nove olho de réptil aparece duas vezes nos lados norte, leste e sul. Eles o leem como nove cana, e ele está coroado por braseiros acesos. Poderia se referir a rituais de fogo novo. Na fachada oeste há ainda um ano nove casa. Essas leituras são preliminares, porque a escrita de Xochicalco ainda não foi decifrada. /  / Durante décadas, leu-se que os painéis eram uma lista de povos que pagavam tributo a Xochicalco, de Coyoacán até Iguala, segundo Hirth. Nielsen e Helmke propõem outra leitura. Os painéis de cima mostram uma fileira de figuras sentadas com o mesmo toucado e o mesmo título, que eles comparam com o de devorador de corações de Cacaxtla. Poderiam ser pessoas de alta posição. /  / O importante é o que sabemos. Os construtores desta cidade deixaram, no edifício mais cuidado, signos que têm a ver com o céu e com o tempo. O que dizem exatamente e que data marcam continua em discussão.
+**PT:** Esta pequena igreja é a construção mais antiga que se conserva em todo o conjunto da Basílica. Foi erguida por volta de mil seiscentos e quarenta e nove, por vontade de Luis Lasso de la Vega, vigário de Guadalupe. É o mesmo sacerdote que, naquele ano, mandou imprimir o Huei tlamahuiçoltica, o livro que inclui o Nican mopohua, o relato das aparições escrito em náuatle. /  / A palavra índios era a que se usava então para os povos originários. Hoje se diz indígenas, e o nome histórico do templo se conserva por tradição. /  / Ela é conhecida como a Paróquia de Índios porque, segundo o site oficial do santuário, em mil seiscentos e setenta e nove se estabeleceu aqui uma irmandade de indígenas. Uma irmandade é uma associação de fiéis que se reúne em torno de uma devoção. Durante a época vice-reinal, este foi um espaço muito ligado à população indígena que chegava ao Tepeyac. /  / A tradição guadalupana situa aqui o primeiro templo. Segundo ela, depois das aparições, frei Juan de Zumárraga pediu que se erguesse uma ermida no lugar que Juan Diego indicou. As fontes discutem a data, que costuma ser apontada como mil quinhentos e trinta e um ou mil quinhentos e trinta e três. O arcebispo Alonso de Montúfar a ampliou em mil quinhentos e cinquenta e seis. A tradição do lugar sustenta que, dentro desta igreja, se conserva um muro daquela primeira ermida. /  / A tradição conta também que São Juan Diego viveu junto à ermida até sua morte, em mil quinhentos e quarenta e oito, cuidando dela e recebendo os peregrinos. Uma cruz no exterior marca o local onde, segundo se acredita, ficava a sua casa. Os fiéis consideram este um dos lugares mais próximos de sua memória. /  / Esta igreja teve ainda um papel importante na história da imagem. Em mil seiscentos e noventa e cinco, decidiu-se construir um novo templo, a Antiga Basílica, e o santuário anterior foi demolido. A imagem de Nossa Senhora de Guadalupe passou então para esta capela, onde permaneceu até que, em abril de mil setecentos e nove, foi levada em procissão ao novo templo. Foram catorze anos de espera para quem a venerava. /  / Hoje a Antiga Paróquia de Índios depende da Paróquia de Santa Maria de Guadalupe, a das Capuchinhas, que fica quase em frente. É um templo em uso, com missas e momentos de oração. O que se vê é uma igreja pequena do século dezessete. O que se conta, a tradição, é o que a torna especial para os fiéis, e esta parada oferece a você as duas coisas separadamente. /  / Quem entra o faz com calma. Alguns se detêm diante do altar e outros simplesmente se sentam por um momento. Não há muito o que fazer aqui além de estar. É um bom lugar para pensar na distância entre a pequena ermida dos primeiros tempos e a grande esplanada que você deixou para trás.
 
 ### retos_observacion
 
-**ES:** Busca en la fachada oeste la imagen del ajuste del calendario / Identifica la mandíbula y el círculo dividido en cuatro / Decide si ves un eclipse o una escena de conquista
+**ES:** Mira la fachada sencilla / Busca el cerro detrás de la capilla / Entra en silencio si está abierta
 
-**PT:** Procure na fachada oeste a imagem do ajuste do calendário / Identifique a mandíbula e o círculo dividido em quatro / Decida se você vê um eclipse ou uma cena de conquista
+**PT:** Observe a fachada simples / Procure o morro atrás da capela / Entre em silêncio, se estiver aberta
 
 ### especificaciones
 
-**ES:** Fachada oeste: ajuste del calendario y nombre y rango del gobernante, según el INAH / Eclipse propuesto: veinticinco de julio de setecientos cuarenta y tres / Alternativa de la UNAM: dieciséis de julio de setecientos noventa / Lectura alternativa: escena de conquista, según Florescano
+**ES:** Construcción: hacia 1649 / Promotor: Luis Lasso de la Vega / Cofradía de indígenas: 1679 / Imagen venerada aquí: 1695 a 1709
 
-**PT:** Fachada oeste: ajuste do calendário e nome e posição do governante, segundo o INAH / Eclipse proposto: vinte e cinco de julho de setecentos e quarenta e três / Alternativa da UNAM: dezesseis de julho de setecentos e noventa / Leitura alternativa: cena de conquista, segundo Florescano
+**PT:** Construção: por volta de 1649 / Promotor: Luis Lasso de la Vega / Irmandade de indígenas: 1679 / Imagem venerada aqui: 1695 a 1709
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Se sabe con certeza que el relieve muestra un eclipse. / respuesta: Realidad: Es una interpretación. Otros especialistas proponen una escena de conquista y las fechas propuestas no coinciden.
+**ES:** pregunta: Mito: La Antigua Basílica es el edificio más antiguo del conjunto. / respuesta: Realidad: El más antiguo que se conserva es la Parroquia de Indios, de hacia mil seiscientos cuarenta y nueve. La Antigua Basílica se terminó en mil setecientos nueve.
 
-**PT:** pregunta: Mito: Sabe-se com certeza que o relevo mostra um eclipse. / respuesta: Realidade: É uma interpretação. Outros especialistas propõem uma cena de conquista, e as datas propostas não coincidem.
+**PT:** pregunta: Mito: A Antiga Basílica é o edifício mais antigo do conjunto. / respuesta: Realidade: O mais antigo que se conserva é a Paróquia de Índios, de por volta de mil seiscentos e quarenta e nove. A Antiga Basílica foi concluída em mil setecentos e nove.
 
-## Pieza: xoc_15_escritura
+## Pieza: bas_14_pocito_exterior
 
 ### titulo
 
-**ES:** La escritura de Xochicalco
+**ES:** La Capilla del Pocito: exterior
 
-**PT:** A escrita de Xochicalco
+**PT:** A Capela do Pocito: exterior
 
 ### frase_gancho
 
-**ES:** Signos puestos en fila que todavía nadie lee por completo.
+**ES:** Una joya del barroco, junto a un manantial.
 
-**PT:** Signos dispostos em fila que ainda ninguém lê por completo.
+**PT:** Uma joia do barroco, junto a uma nascente.
 
 ### puente_narrativo
 
-**ES:** Continúa tu ruta: sigue conociendo los espacios de la Plaza Principal.
+**ES:** Subes a la Capilla del Pocito, al pie del cerro.
 
-**PT:** Continue seu percurso: siga conhecendo os espaços da Praça Principal.
+**PT:** Você sobe até a Capela do Pocito, ao pé do morro.
 
 ### guion_corto
 
-**ES:** Xochicalco tuvo escritura, y todavía no se lee por completo. Helmke y Nielsen la ubican entre los años seiscientos ochenta y mil, en la misma época que la de Cacaxtla, Teotenango, El Cerrito y Acatlán. En la Pirámide de las Serpientes Emplumadas hay un texto lineal, es decir, signos puestos en fila. Los primeros textos del sitio se publicaron en mil ochocientos noventa, con Peñafiel. Una enciclopedia describe además una mezcla de signos de día de tipo nahua dentro de cartuchos de estilo maya, con numerales parecidos a los zapotecos. Esa mezcla muestra una ciudad abierta a muchas regiones. Ninguna lectura es definitiva. Si ves signos en el edificio, piensa que estás frente a un sistema de escritura que sigue esperando a quien lo descifre.
+**ES:** Esta es la Capilla del Pocito, que el Instituto Nacional de Antropología e Historia considera una joya del barroco latinoamericano. La proyectó Francisco Antonio Guerrero y Torres, y se construyó entre mil setecientos setenta y siete y mil setecientos noventa y uno. Su planta combina curvas y rectas, con tres cúpulas cubiertas de talavera azul y blanca sobre muros de tezontle. Se levantó junto a un manantial que la tradición guadalupana asocia con uno de los lugares de las apariciones. Según el INAH, su diseño alude al cielo, la tierra y los puntos cardinales. La capilla anterior, de mil seiscientos cuarenta y ocho, se derribó para levantar esta.
 
-**PT:** Xochicalco teve escrita, e ela ainda não é lida por completo. Helmke e Nielsen a situam entre os anos seiscentos e oitenta e mil, na mesma época que a de Cacaxtla, Teotenango, El Cerrito e Acatlán. Na Pirâmide das Serpentes Emplumadas há um texto linear, isto é, signos dispostos em fila. Os primeiros textos do sítio foram publicados em mil oitocentos e noventa, por Peñafiel. Uma enciclopédia descreve ainda uma mistura de signos de dia de tipo nahua dentro de cartuchos de estilo maia, com numerais parecidos com os dos zapotecas. Essa mistura mostra uma cidade aberta a muitas regiões. Nenhuma leitura é definitiva. Se você vir signos no edifício, pense que está diante de um sistema de escrita que continua esperando por quem o decifre.
+**PT:** Esta é a Capela do Pocito, que o Instituto Nacional de Antropologia e História (INAH) considera uma joia do barroco latino-americano. Foi projetada por Francisco Antonio Guerrero y Torres e construída entre mil setecentos e setenta e sete e mil setecentos e noventa e um. Sua planta combina curvas e retas, com três cúpulas revestidas de talavera azul e branca sobre muros de tezontle. Foi erguida junto a uma nascente que a tradição guadalupana associa a um dos lugares das aparições. Segundo o INAH, seu desenho alude ao céu, à terra e aos pontos cardeais. A capela anterior, de mil seiscentos e quarenta e oito, foi demolida para dar lugar a esta.
 
 ### guion_largo
 
-**ES:** La escritura no es exclusiva de una sola cultura. En Xochicalco también se escribió. /  / Helmke y Nielsen, que han estudiado estos signos, ubican la escritura jeroglífica de la ciudad entre los años seiscientos ochenta y mil. Era la época del Epiclásico, y otras ciudades del centro de México también escribían: Cacaxtla, Teotenango, El Cerrito y Acatlán. /  / En la Pirámide de las Serpientes Emplumadas hay un texto lineal, es decir, signos puestos en una fila. Entre ellos aparece la fecha nueve caña, que esos especialistas relacionan con la conmemoración de una ceremonia de fuego nuevo. /  / Los primeros textos de Xochicalco se publicaron en mil ochocientos noventa, con Peñafiel. Más tarde trabajaron en ellos Caso y Berlo. Aún así, la escritura no está descifrada. /  / La enciclopedia World History describe algo curioso. Dice que los signos de día son de tipo nahua, que están dentro de cartuchos de estilo maya y que los números se parecen a los zapotecos. Es una descripción de una sola fuente, pero encaja con lo que se sabe de la ciudad: un lugar abierto a muchas regiones. Hay otra pista: Sáenz halló en una cámara de ofrendas una lápida con dos glifos nahuas y dos zapotecos. /  / Por eso esta escritura es difícil de leer. No pertenece por completo a ninguna tradición conocida. Mezcla recursos de varias, y quienes la hicieron parecían estar creando un lenguaje visual propio para una ciudad de gente diversa. /  / Una escritura no descifrada no es una escritura muda. Se pueden reconocer fechas y algunos signos. Lo que falta es la sintaxis, es decir, cómo se ordenan los signos para formar frases. /  / Si miras el edificio, busca las hileras de signos. Quizá sea lo más cercano que tenemos a una voz de esta ciudad.
+**ES:** Estás frente a la Capilla del Pocito. Es una de las obras más singulares de la arquitectura virreinal, y el Instituto Nacional de Antropología e Historia la considera una joya del barroco latinoamericano. /  / Su historia comienza con el agua. En la falda oriental del Tepeyac había un pequeño manantial, de agua salobre, es decir, con sabor a sal. La tradición guadalupana asocia ese lugar con uno de los sitios de las apariciones, según lo recogió en el siglo diecisiete el jesuita Francisco de Florencia. Alrededor del manantial se levantó, entre mil seiscientos cuarenta y ocho y mil seiscientos cuarenta y nueve, una primera capilla de forma octagonal, por iniciativa de Luis Lasso de la Vega, el mismo vicario que mandó construir la Parroquia de Indios. Esa capilla se derribó hacia mil setecientos setenta y ocho, para construir la actual. /  / El autor de la capilla es Francisco Antonio Guerrero y Torres, nacido en la Villa de Guadalupe y maestro mayor de la ciudad, es decir, el arquitecto principal de las obras públicas. Las fuentes señalan que donó su proyecto y su trabajo. Las obras duraron de mil setecientos setenta y siete a mil setecientos noventa y uno, y el virrey Antonio María de Bucareli aportó ciento cincuenta pesos mensuales para sostenerlas. /  / Mira la forma del edificio. No es un rectángulo ni un círculo, sino una planta de líneas curvas y rectas que se combinan. Hay tres grandes volúmenes cubiertos por cúpulas, y se cruzan en parte. Las cúpulas y las linternas llevan azulejos de talavera, azules y blancos. Los muros son de tezontle, la piedra volcánica rojiza que se usó en muchos edificios de la ciudad, con detalles de cantera. /  / Los estudiosos señalan que Guerrero y Torres se inspiró en un templo romano antiguo, cuyo dibujo había publicado el arquitecto italiano Sebastiano Serlio en su tratado. En mil setecientos setenta y nueve, el Consejo de Indias cuestionó el estilo barroco del proyecto. Aun así, la obra se terminó. /  / El Instituto Nacional de Antropología e Historia ha explicado que el diseño tiene un significado simbólico. Según su estudio, alude al cielo, a la tierra y a los puntos cardinales. Es una lectura que la investigadora de la Universidad Nacional Autónoma de México Martha Fernández también ha desarrollado en un artículo de dos mil veintidós. /  / El edificio ha cambiado con los siglos. El terreno es blando, como en todo este valle. En mil novecientos cincuenta y nueve se hizo un trabajo para renivelar la capilla, a cargo del ingeniero Manuel González Flores. En dos mil veinticuatro, el Instituto presentó un diagnóstico de su estado de conservación, con grietas en muros y cúpula central, y piezas faltantes en el recubrimiento de tezontle. Es un monumento que sigue necesitando cuidados. /  / Para quienes vienen a rezar, este es el lugar asociado con el pozo del Tepeyac. Para quienes buscan arquitectura, es una de las obras más originales de su tiempo. Para casi todos, es difícil no detenerse a mirarla.
 
-**PT:** A escrita não é exclusiva de uma única cultura. Em Xochicalco também se escreveu. /  / Helmke e Nielsen, que estudaram esses signos, situam a escrita hieroglífica da cidade entre os anos seiscentos e oitenta e mil. Era a época do Epiclássico, e outras cidades do centro do México também escreviam: Cacaxtla, Teotenango, El Cerrito e Acatlán. /  / Na Pirâmide das Serpentes Emplumadas há um texto linear, isto é, signos dispostos em uma fila. Entre eles aparece a data nove cana, que esses especialistas relacionam com a comemoração de uma cerimônia do fogo novo. /  / Os primeiros textos de Xochicalco foram publicados em mil oitocentos e noventa, por Peñafiel. Mais tarde, Caso e Berlo trabalharam neles. Mesmo assim, a escrita não está decifrada. /  / A enciclopédia World History descreve algo curioso. Diz que os signos de dia são de tipo nahua, que estão dentro de cartuchos de estilo maia e que os números se parecem com os dos zapotecas. É a descrição de uma única fonte, mas combina com o que se sabe da cidade: um lugar aberto a muitas regiões. Há outra pista: Sáenz encontrou, em uma câmara de oferendas, uma lápide com dois glifos nahuas e dois zapotecas. /  / Por isso essa escrita é difícil de ler. Ela não pertence por completo a nenhuma tradição conhecida. Mistura recursos de várias, e quem a criou parecia estar construindo uma linguagem visual própria para uma cidade de gente diversa. /  / Uma escrita não decifrada não é uma escrita muda. É possível reconhecer datas e alguns signos. O que falta é a sintaxe, isto é, como os signos se ordenam para formar frases. /  / Se você olhar para o edifício, procure as fileiras de signos. Talvez seja o que temos de mais próximo de uma voz desta cidade.
+**PT:** Você está diante da Capela do Pocito. É uma das obras mais singulares da arquitetura vice-reinal, e o Instituto Nacional de Antropologia e História (INAH) a considera uma joia do barroco latino-americano. /  / Sua história começa com a água. Na encosta oriental do Tepeyac havia uma pequena nascente, de água salobra, ou seja, com sabor de sal. A tradição guadalupana associa esse lugar a um dos locais das aparições, conforme registrou no século dezessete o jesuíta Francisco de Florencia. Ao redor da nascente foi erguida, entre mil seiscentos e quarenta e oito e mil seiscentos e quarenta e nove, uma primeira capela de forma octogonal, por iniciativa de Luis Lasso de la Vega, o mesmo vigário que mandou construir a Paróquia de Índios. Essa capela foi demolida por volta de mil setecentos e setenta e oito, para construir a atual. /  / O autor da capela é Francisco Antonio Guerrero y Torres, nascido na Villa de Guadalupe e mestre maior da cidade, ou seja, o arquiteto principal das obras públicas. As fontes indicam que ele doou seu projeto e seu trabalho. As obras duraram de mil setecentos e setenta e sete a mil setecentos e noventa e um, e o vice-rei Antonio María de Bucareli contribuiu com cento e cinquenta pesos mensais para sustentá-las. /  / Olhe a forma do edifício. Não é um retângulo nem um círculo, mas uma planta de linhas curvas e retas que se combinam. Há três grandes volumes cobertos por cúpulas, e eles se cruzam em parte. As cúpulas e as lanternas são revestidas de azulejos de talavera, azuis e brancos. Os muros são de tezontle, a pedra vulcânica avermelhada que foi usada em muitos edifícios da cidade, com detalhes de cantaria. /  / Os estudiosos apontam que Guerrero y Torres se inspirou em um antigo templo romano, cujo desenho havia sido publicado pelo arquiteto italiano Sebastiano Serlio em seu tratado. Em mil setecentos e setenta e nove, o Conselho das Índias questionou o estilo barroco do projeto. Mesmo assim, a obra foi concluída. /  / O Instituto Nacional de Antropologia e História explicou que o desenho tem um significado simbólico. Segundo seu estudo, ele alude ao céu, à terra e aos pontos cardeais. É uma leitura que a pesquisadora da Universidade Nacional Autônoma do México Martha Fernández também desenvolveu em um artigo de dois mil e vinte e dois. /  / O edifício mudou com os séculos. O terreno é mole, como em todo este vale. Em mil novecentos e cinquenta e nove foi feito um trabalho para renivelar a capela, a cargo do engenheiro Manuel González Flores. Em dois mil e vinte e quatro, o Instituto apresentou um diagnóstico de seu estado de conservação, com rachaduras nos muros e na cúpula central, e peças faltantes no revestimento de tezontle. É um monumento que continua precisando de cuidados. /  / Para quem vem rezar, este é o lugar associado ao poço do Tepeyac. Para quem busca arquitetura, é uma das obras mais originais de seu tempo. Para quase todos, é difícil não parar para contemplá-la.
 
 ### retos_observacion
 
-**ES:** Busca signos puestos en fila en el edificio / Compara su estilo con las figuras mayas / Pregunta a tu guía qué signos son fechas
+**ES:** Cuenta las tres cúpulas / Observa el contraste del tezontle con la talavera / Busca la forma de curvas y rectas de la planta
 
-**PT:** Procure signos dispostos em fila no edifício / Compare seu estilo com as figuras maias / Pergunte ao seu guia quais signos são datas
-
-> Aviso: el glosario pide "Maia" para "Mayas" y no aparece
+**PT:** Conte as três cúpulas / Observe o contraste do tezontle com a talavera / Procure a forma de curvas e retas da planta
 
 ### especificaciones
 
-**ES:** Periodo de la escritura epiclásica: entre seiscientos ochenta y mil / Primeros textos publicados: mil ochocientos noventa, Peñafiel / Estado: sin descifrar por completo
+**ES:** Proyecto: Francisco Antonio Guerrero y Torres / Obra: 1777 a 1791 / Cúpulas: tres, de talavera azul y blanca / Muros: tezontle / Capilla anterior: 1648
 
-**PT:** Período da escrita epiclássica: entre seiscentos e oitenta e mil / Primeiros textos publicados: mil oitocentos e noventa, Peñafiel / Estado: não totalmente decifrada
+**PT:** Projeto: Francisco Antonio Guerrero y Torres / Obra: 1777 a 1791 / Cúpulas: três, de talavera azul e branca / Muros: tezontle / Capela anterior: 1648
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Los glifos de Xochicalco ya se leen como un texto corrido. / respuesta: Realidad: Se identifican fechas y algunos signos, pero la escritura no está descifrada.
+**ES:** pregunta: Mito: La capilla actual del Pocito es del siglo diecisiete. / respuesta: Realidad: La capilla anterior era de mil seiscientos cuarenta y ocho; la actual se construyó entre mil setecientos setenta y siete y mil setecientos noventa y uno.
 
-**PT:** pregunta: Mito: Os glifos de Xochicalco já são lidos como um texto corrido. / respuesta: Realidade: Identificam-se datas e alguns signos, mas a escrita não está decifrada.
+**PT:** pregunta: Mito: A atual Capela do Pocito é do século dezessete. / respuesta: Realidade: A capela anterior era de mil seiscentos e quarenta e oito; a atual foi construída entre mil setecentos e setenta e sete e mil setecentos e noventa e um.
 
-## Pieza: xoc_17_acropolis
+## Pieza: bas_15_pocito_interior
 
 ### titulo
 
-**ES:** La Acrópolis
+**ES:** La Capilla del Pocito: interior
 
-**PT:** A Acrópole
+**PT:** A Capela do Pocito: interior
 
 ### frase_gancho
 
-**ES:** El punto más alto, donde vivió y administró la élite.
+**ES:** Tres espacios enlazados y un pozo.
 
-**PT:** O ponto mais alto, onde a elite vivia e administrava.
+**PT:** Três espaços ligados entre si e um poço.
 
 ### puente_narrativo
 
-**ES:** Continúa tu ruta: lo que sigue tiene que ver con el poder y con el cielo.
+**ES:** Entras a la capilla, donde puede haber personas rezando.
 
-**PT:** Continue seu percurso: o que vem a seguir tem a ver com o poder e com o céu.
+**PT:** Você entra na capela, onde pode haver pessoas rezando.
 
 ### guion_corto
 
-**ES:** Estás en el punto donde, según varias fuentes, vivía y gobernaba la élite de Xochicalco. El INAH explica que la Acrópolis está sobre una plataforma de seis metros, al oeste de la Plaza Principal. Tiene edificios alrededor de un patio central. Kenneth Hirth la describe como el palacio del gobernante y centro administrativo de la ciudad. Medina Romero la ubica en el punto más alto del sitio y menciona un templo-palacio, talleres, almacenes y oficinas. Al sur la rodea un muro de cuatro metros con bastiones y fosos. Piensa en cómo se ve la ciudad desde aquí. La Plaza Principal queda a tus pies, hacia el este. Ver y ser visto eran formas de poder.
+**ES:** Dentro de la capilla hay tres espacios que se enlazan. Primero un vestíbulo circular, donde todavía se conserva el brocal del pozo. Después, la sala de oración, con el altar de madera dorada. Y al fondo, una sacristía octagonal. En los muros hay cuatro pinturas de las apariciones, atribuidas a Miguel Cabrera, uno de los grandes pintores de la Nueva España. El púlpito tiene como soporte una figura de un indígena, que recuerda a San Juan Diego. Para los fieles, el pozo está ligado a la memoria de las apariciones. Es un lugar para entrar con calma. Puede haber personas rezando, y los horarios pueden cambiar.
 
-**PT:** Você está no ponto onde, segundo várias fontes, vivia e governava a elite de Xochicalco. O INAH explica que a Acrópole fica sobre uma plataforma de seis metros, a oeste da Plaza Principal. Ela tem edifícios ao redor de um pátio central. Kenneth Hirth a descreve como o palácio do governante e centro administrativo da cidade. Medina Romero a situa no ponto mais alto do sítio e menciona um templo-palácio, oficinas, depósitos e escritórios. Ao sul, ela é cercada por um muro de quatro metros com bastiões e fossos. Pense em como a cidade se vê daqui. A Plaza Principal fica a seus pés, a leste. Ver e ser visto eram formas de poder.
+**PT:** Dentro da capela há três espaços que se conectam. Primeiro, um vestíbulo circular, onde ainda se conserva o brocal do poço. Depois, a sala de oração, com o altar de madeira dourada. E, ao fundo, uma sacristia octogonal. Nas paredes há quatro pinturas das aparições, atribuídas a Miguel Cabrera, um dos grandes pintores da Nova Espanha. O púlpito tem como suporte a figura de um indígena, que lembra São Juan Diego. Para os fiéis, o poço está ligado à memória das aparições. É um lugar para entrar com calma. Pode haver pessoas rezando, e os horários podem mudar.
 
 ### guion_largo
 
-**ES:** Subir cambia la perspectiva. Esta es la Acrópolis. /  / Según el INAH, la Acrópolis se levanta sobre una plataforma de seis metros, al oeste de la Plaza Principal. Tiene varios edificios dispuestos alrededor de un patio central. Esa forma se parece a la del Palacio. /  / Kenneth Hirth la describe como el palacio del gobernante y el centro administrativo de Xochicalco. Medina Romero va en la misma dirección: dice que es el punto más alto del sitio y que ahí había un templo-palacio, talleres, almacenes y áreas de administración. /  / La guía del INAH la menciona entre las construcciones de la Plaza Principal y la señala como la residencia de los gobernantes. Andrews y Glascock añaden que la Acrópolis tenía el palacio principal, cuatro grandes espacios de almacenamiento y un temazcal. Es una de las dos zonas donde más armas aparecieron, lo que sugiere que la seguridad de la élite era una prioridad. /  / Alvarado León la describe como el complejo de mayor volumen de la ciudad. Lucet añade algo poco común en Mesoamérica: a su estructura más alta le añadieron un segundo piso. Al sur, la Acrópolis está defendida por un muro de cuatro metros con bastiones y fosos, según Medina Romero. Un bastión es una parte del muro que sobresale para vigilar y defender. Un foso es una zanja. Esto significa que el lugar donde vivían los gobernantes también era de los mejor protegidos. /  / Ahora piensa en la vista. Desde un lugar alto se ve quién llega y quién sube. La Plaza Principal queda a tus pies, hacia el este. /  / Lo que sabemos con seguridad es modesto: una plataforma, varios edificios y una ciudad defendida. Lo demás se completa con imaginación y con cuidado.
+**ES:** Pocito es un diminutivo de pozo, es decir, un pozo pequeño, y de ahí viene el nombre de la capilla. Al entrar, lo primero que se encuentra es el vestíbulo, que es circular. Allí sigue el brocal del pozo, el borde de piedra que rodea la boca del manantial. La capilla se levantó para proteger ese lugar, y ese es el centro del edificio. /  / Para los fieles, el pozo está ligado a la memoria de las apariciones. La tradición guadalupana, según la recogió Francisco de Florencia en el siglo diecisiete, lo asocia con uno de los sitios del Tepeyac donde la Virgen María se manifestó a San Juan Diego. Durante siglos, un hombre llamado el beato de Nuestra Señora de Guadalupe, nombrado por el cabildo, tuvo a su cargo el cuidado del pozo, hasta que en mil setecientos setenta y ocho se decidió levantar la capilla actual. /  / Después del vestíbulo se pasa a la sala de oración, que es el espacio principal. Allí está el altar, de madera cubierta con oro. En la pared se encuentran cuatro retablos con escenas de las apariciones, pintados, según la tradición del lugar, por Miguel Cabrera. Cabrera nació en mil seiscientos noventa y cinco y murió en mil setecientos sesenta y ocho, y fue uno de los pintores más importantes de la Nueva España. Un estudio de dos mil veintidós cita además una copia de la imagen de Nuestra Señora de Guadalupe hecha por Cabrera en mil setecientos cincuenta y tres. /  / También hay un púlpito, el lugar elevado desde donde se predica. En lugar de columna, el púlpito se apoya en la figura de un indígena, que representa a Juan Diego. Es un detalle fácil de pasar por alto, y dice cómo se quiso recordar al mensajero de la Virgen en este espacio. /  / El tercer espacio es la sacristía, de planta octagonal, donde se guardan los objetos del culto. /  / La planta del interior es tan compleja como la del exterior. El vestíbulo circular, la sala de oración y la sacristía octagonal forman un conjunto de planos curvos y rectos. Los estudiosos lo consideran una de las expresiones más audaces del barroco mexicano. /  / La capilla es un lugar de culto activo y pertenece a la Parroquia de Santa María de Guadalupe, la de las Capuchinas. Puede haber personas rezando. Conviene entrar con calma, hablar en voz baja y fotografiar con discreción. Los horarios de apertura pueden cambiar, y lo mejor es confirmarlos en el sitio oficial. /  / Si logras entrar, empieza por el vestíbulo y recuerda que el pozo está en el origen de todo el edificio. Después recorre la sala con calma, y mira los cuadros uno por uno. Cada uno cuenta, a su manera, un momento de la historia que la tradición guadalupana ha transmitido durante siglos.
 
-**PT:** Subir muda a perspectiva. Esta é a Acrópole. /  / Segundo o INAH, a Acrópole se ergue sobre uma plataforma de seis metros, a oeste da Plaza Principal. Ela tem vários edifícios dispostos ao redor de um pátio central. Essa forma se parece com a do Palácio. /  / Kenneth Hirth a descreve como o palácio do governante e o centro administrativo de Xochicalco. Medina Romero segue na mesma direção: diz que é o ponto mais alto do sítio e que ali havia um templo-palácio, oficinas, depósitos e áreas de administração. /  / O guia do INAH a menciona entre as construções da Plaza Principal e a aponta como a residência dos governantes. Andrews e Glascock acrescentam que a Acrópole tinha o palácio principal, quatro grandes espaços de armazenamento e um temazcal. É uma das duas zonas onde mais armas apareceram, o que sugere que a segurança da elite era uma prioridade. /  / Alvarado León a descreve como o complexo de maior volume da cidade. Lucet acrescenta algo pouco comum na Mesoamérica: à sua estrutura mais alta foi acrescentado um segundo andar. Ao sul, a Acrópole é defendida por um muro de quatro metros com bastiões e fossos, segundo Medina Romero. Um bastião é uma parte do muro que se projeta para vigiar e defender. Um fosso é uma vala. Isso significa que o lugar onde viviam os governantes também era um dos mais bem protegidos. /  / Agora pense na vista. De um lugar alto se vê quem chega e quem sobe. A Plaza Principal fica a seus pés, a leste. /  / O que sabemos com certeza é modesto: uma plataforma, vários edifícios e uma cidade defendida. O resto se completa com imaginação e com cuidado.
+**PT:** Pocito é um diminutivo de poço, ou seja, um poço pequeno, e daí vem o nome da capela. Ao entrar, a primeira coisa que se encontra é o vestíbulo, que é circular. Ali permanece o brocal do poço, a borda de pedra que rodeia a boca da nascente. A capela foi erguida para proteger esse lugar, e ele é o centro do edifício. /  / Para os fiéis, o poço está ligado à memória das aparições. A tradição guadalupana, segundo a registrou Francisco de Florencia no século dezessete, o associa a um dos locais do Tepeyac onde a Virgem Maria se manifestou a São Juan Diego. Durante séculos, um homem chamado o beato de Nossa Senhora de Guadalupe, nomeado pelo conselho da cidade, ficou encarregado do cuidado do poço, até que em mil setecentos e setenta e oito se decidiu erguer a atual capela. /  / Depois do vestíbulo passa-se à sala de oração, que é o espaço principal. Ali está o altar, de madeira coberta de ouro. Na parede há quatro retábulos com cenas das aparições, pintados, segundo a tradição do lugar, por Miguel Cabrera. Cabrera nasceu em mil seiscentos e noventa e cinco e morreu em mil setecentos e sessenta e oito, e foi um dos pintores mais importantes da Nova Espanha. Um estudo de dois mil e vinte e dois cita ainda uma cópia da imagem de Nossa Senhora de Guadalupe feita por Cabrera em mil setecentos e cinquenta e três. /  / Também há um púlpito, o lugar elevado de onde se prega. No lugar de uma coluna, o púlpito se apoia na figura de um indígena, que representa Juan Diego. É um detalhe fácil de passar despercebido, e mostra como se quis lembrar o mensageiro da Virgem neste espaço. /  / O terceiro espaço é a sacristia, de planta octogonal, onde se guardam os objetos do culto. /  / A planta do interior é tão complexa quanto a do exterior. O vestíbulo circular, a sala de oração e a sacristia octogonal formam um conjunto de planos curvos e retos. Os estudiosos o consideram uma das expressões mais audaciosas do barroco mexicano. /  / A capela é um lugar de culto ativo e pertence à Paróquia de Santa Maria de Guadalupe, a das Capuchinhas. Pode haver pessoas rezando. Convém entrar com calma, falar em voz baixa e fotografar com discrição. Os horários de abertura podem mudar, e o melhor é confirmá-los no site oficial. /  / Se você conseguir entrar, comece pelo vestíbulo e lembre-se de que o poço está na origem de todo o edifício. Depois percorra a sala com calma e olhe os quadros um por um. Cada um conta, à sua maneira, um momento da história que a tradição guadalupana transmite há séculos.
 
 ### retos_observacion
 
-**ES:** Mira hacia el este y localiza la Plaza Principal / Busca el patio central / Imagina a quién veía llegar quien vivía aquí
+**ES:** Busca el brocal del pozo / Mira las cuatro pinturas de las apariciones / Observa el púlpito con la figura de un indígena
 
-**PT:** Olhe para o leste e localize a Plaza Principal / Procure o pátio central / Imagine quem via chegar aquele que vivia aqui
+**PT:** Procure o brocal do poço / Olhe as quatro pinturas das aparições / Observe o púlpito com a figura de um indígena
 
 ### especificaciones
 
-**ES:** Altura de la plataforma: seis metros, según el INAH / Ubicación: al oeste de la Plaza Principal / Uso: palacio del gobernante y centro administrativo, según Hirth / Defensa: muro de cuatro metros con bastiones y fosos al sur, según Medina Romero
+**ES:** Espacios: vestíbulo circular, sala de oración, sacristía octagonal / Pinturas: cuatro, atribuidas a Miguel Cabrera / Altar: madera dorada
 
-**PT:** Altura da plataforma: seis metros, segundo o INAH / Localização: a oeste da Plaza Principal / Uso: palácio do governante e centro administrativo, segundo Hirth / Defesa: muro de quatro metros com bastiões e fossos ao sul, segundo Medina Romero
+**PT:** Espaços: vestíbulo circular, sala de oração, sacristia octogonal / Pinturas: quatro, atribuídas a Miguel Cabrera / Altar: madeira dourada
 
-### faq_mito
-
-**ES:** pregunta: Mito: La Acrópolis era un templo. / respuesta: Realidad: Las fuentes la describen como residencia y centro administrativo de los gobernantes, con talleres y almacenes.
-
-**PT:** pregunta: Mito: A Acrópole era um templo. / respuesta: Realidade: As fontes a descrevem como residência e centro administrativo dos governantes, com oficinas e depósitos.
-
-## Pieza: xoc_18_observatorio
+## Pieza: bas_16_vela_y_jardines
 
 ### titulo
 
-**ES:** El tiro de luz: el observatorio
+**ES:** El Jardín del Tepeyac y La Ofrenda
 
-**PT:** O tiro de luz: o observatório
+**PT:** O Jardim do Tepeyac e A Oferenda
 
 ### frase_gancho
 
-**ES:** Una cueva en la montaña por donde el Sol entra en días precisos del año.
+**ES:** Cascadas, fuentes y un grupo de bronce.
 
-**PT:** Uma caverna na montanha por onde o Sol entra em dias precisos do ano.
+**PT:** Cascatas, fontes e um grupo de bronze.
 
 ### puente_narrativo
 
-**ES:** Sigue tu ruta: lo que viene también tiene que ver con el cielo, el agua o el tiempo.
+**ES:** Del Pocito subes por los jardines, en la ladera oriental del cerro.
 
-**PT:** Siga seu roteiro: o que vem a seguir também tem a ver com o céu, a água ou o tempo.
+**PT:** Do Pocito você sobe pelos jardins, na encosta oriental do morro.
 
 ### guion_corto
 
-**ES:** Debajo de esta zona hay una cueva convertida en observatorio. Según el INAH, primero fue cantera y después se aprovechó el hueco. Tiene un tiro por donde baja un rayo de Sol de finales de abril a mediados de agosto, unos ciento cinco días. El Sol pasa por el cenit el catorce de mayo. Medina Romero propone que el resto de los doscientos sesenta días se relaciona con el calendario ritual. Hoy no se puede entrar, y reportes de junio de dos mil veintiséis lo confirman. Pero puedes imaginarlo: una ciudad que dejaba entrar el Sol en la montaña para medir el tiempo. Confirma en la entrada si algo cambió.
+**ES:** Estás en la ladera oriental del Tepeyac, en el Jardín del Tepeyac. Cascadas, fuentes y vegetación sirven de fondo a La Ofrenda, un grupo de dieciséis figuras de bronce dispuestas en actitud de adoración ante la Virgen de Guadalupe. La Basílica encargó la obra en mil novecientos ochenta y dos al artista Aurelio Mendoza. Según la tradición, algunas de estas áreas recuerdan la segunda y la tercera apariciones. Más arriba verás la Vela del Marino y la escalinata oriente, que una placa atribuye a Guerrero y Torres. Es un espacio tranquilo, salvo en las grandes fiestas. La subida hasta la capilla de la cima es de unos cien metros.
 
-**PT:** Debaixo desta área há uma caverna transformada em observatório. Segundo o INAH, primeiro foi pedreira e depois o vazio foi aproveitado. Tem um tiro por onde desce um raio de Sol do fim de abril a meados de agosto, uns cento e cinco dias. O Sol passa pelo zênite no catorze de maio. Medina Romero propõe que o restante dos duzentos e sessenta dias se relaciona com o calendário ritual. Hoje não é possível entrar, e relatos de junho de dois mil e vinte e seis confirmam isso. Mas você pode imaginar: uma cidade que deixava o Sol entrar na montanha para medir o tempo. Confirme na entrada se algo mudou.
+**PT:** Você está na encosta oriental do Tepeyac, no Jardim do Tepeyac. Cascatas, fontes e vegetação servem de cenário para A Oferenda, um grupo de dezesseis figuras de bronze dispostas em atitude de adoração diante da Virgem de Guadalupe. A Basílica encomendou a obra em mil novecentos e oitenta e dois ao artista Aurelio Mendoza. Segundo a tradição, algumas dessas áreas lembram a segunda e a terceira aparições. Mais acima você verá a Vela del Marino e a escadaria oriental, que uma placa atribui a Guerrero y Torres. É um espaço tranquilo, exceto nas grandes festas. A subida até a capela do topo é de cerca de cem metros.
 
 ### guion_largo
 
-**ES:** Debajo de esta parte del cerro hay un hueco. No lo vas a ver desde aquí, pero está. /  / Según el INAH, las cuevas bajo la plataforma norte se usaron primero como cantera. De ahí salió piedra para construir. Después, alguien aprovechó ese vacío y lo convirtió en observatorio. /  / La cueva tiene un tiro, una chimenea inclinada que sube hasta la superficie. Una fuente le da ocho metros y setenta centímetros de altura y un remate hexagonal, y dice que el interior se cubrió de estuco pintado de negro, amarillo y rojo. /  / Lo extraordinario pasa con el Sol. Morante, Garza y Valencia lo midieron durante años. Los rayos directos entran desde finales de abril hasta mediados de agosto, hacia el mediodía. El Sol pasa por el cenit el catorce de mayo. Según El Tlacuache, ese día el Sol se proyecta en el piso durante unos cuarenta y cinco minutos. La entrada de luz se reparte de forma simétrica alrededor del solsticio de verano: cincuenta y dos días antes, el día del solsticio y cincuenta y dos después. /  / Rubén Morante López, que ha estudiado el sitio unos treinta años, explica que el movimiento del Sol se seguía en dos lugares. Uno era el cenit, desde esta cueva. El otro era el horizonte, con el Popocatépetl y el Cerro Jumil como referencias. Sumados, esos días dan ciento cinco, justo lo que falta a doscientos sesenta para llegar a trescientos sesenta y cinco. Para Morante, Garza y Valencia, los dos calendarios mesoamericanos quedan señalados en un mismo lugar. /  / Durante un tiempo se creyó que esta cueva era una cantera más, como otras ocho que hay alrededor del cerro. Pero su bóveda y su tiro hexagonal, con una inclinación calculada con precisión, llevaron a pensar que se usó para contar el tiempo. Según Alvarado León, casi todos los estudios coinciden en algo. La cueva servía para observar dos veces al año el paso del Sol por el cenit, y para medir el año tropical o marcar el inicio del verano. Para qué servía se discute. Medina Romero propone que los otros doscientos sesenta días se relacionan con el calendario ritual. Una nota del INAH dice que ayudaba a corregir el calendario. CyArk lo ve como una forma de seguir el recorrido del Sol hacia el Trópico de Cáncer. /  / Los xochicalcas no entraban por donde se entra hoy, sino por una cueva a pocos metros del Juego de Pelota Norte. Dentro había una sala de veintiocho por diez metros, con tres pilares tallados en la roca. Al fondo está un recinto oval de seis metros, la Cámara de los Astrónomos, de donde sale un segundo tiro. En sectores cercanos aparecieron discos de cerámica de cincuenta y cuatro centímetros, con orificios. Puestos en el brocal del tiro, dejan pasar la luz en pequeños círculos que se mueven por el piso. /  / Hoy no puedes entrar. El observatorio está cerrado al público, y reportes de junio de dos mil veintiséis lo confirman. Confirma en la entrada si algo cambió. /  / Pero la idea se puede imaginar sin bajar. Una ciudad que, para medir el tiempo, no solo miraba el cielo. Lo dejaba entrar en la montaña.
+**ES:** Este es el Jardín del Tepeyac, a veces llamado Jardín Sagrado. Se encuentra en la ladera oriental del cerro, y es el camino que muchos visitantes toman para subir a la capilla de la cima o para bajar de ella. /  / El jardín tiene cascadas, fuentes y vegetación abundante. Según la tradición guadalupana, algunas de estas áreas recuerdan la segunda y la tercera apariciones de la Virgen María a San Juan Diego, en diciembre de mil quinientos treinta y uno. La jardinería se diseñó para servir de escenario a un conjunto escultórico llamado La Ofrenda. /  / La Ofrenda consta de dieciséis figuras de bronce fundido, dispuestas en actitud de adoración ante la Virgen de Guadalupe. La Basílica encargó la obra en mil novecientos ochenta y dos. Fue elegido el artista Aurelio G. D. Mendoza, que entonces tenía ochenta y dos años y era conocido sobre todo por su trabajo escénico. Las figuras están dispuestas en el paisaje del jardín, y se pueden ver desde distintos lugares. /  / Aquí también se encuentra la Vela del Marino. Es una estructura de piedra que una placa colocada en mil novecientos setenta atribuye, junto con la fachada de la Capilla del Cerrito y la primera escalinata oriente, al arquitecto Francisco Guerrero y Torres, el mismo del Pocito. Según la tradición que recoge la Basílica, la Vela recuerda la promesa de unos marineros que se salvaron de un peligro en el mar y que, para cumplirla, llevaron hasta aquí un mástil, y lo dejaron fijado en piedra. Es una forma de dar las gracias parecida a la de los exvotos que viste en el museo. /  / La subida desde la parte de atrás de la Antigua Basílica hasta la capilla de la cima es de unos cien metros. Hay escalones y tramos en pendiente, y conviene ir con calma. Si usas el camino del jardín, lo harás entre árboles, agua y bronces. /  / Este espacio es, según el portal de turismo de la Ciudad de México, uno de los rincones más tranquilos del conjunto, salvo en los días de fiesta, cuando se llena de peregrinos. Es un lugar para quienes quieren ir despacio, para quienes buscan un momento de silencio y para quienes simplemente quieren descansar un rato entre el ruido de la explanada y la cima. /  / Al subir, la ciudad se va abriendo a tu alrededor. El Tepeyac es una elevación pequeña, pero desde ella se aprecia la extensión del valle. /  / Es un espacio abierto a personas de cualquier creencia, donde se ve a familias que pasean y a personas que se sientan un rato. Conviene mantener la voz baja y el paso tranquilo. /  / Hay quienes suben rezando, y quienes suben para ver el paisaje. En el jardín caben las dos formas de hacerlo. Si te encuentras con personas en oración, pasa sin interrumpir y sin hacer ruido.
 
-**PT:** Debaixo desta parte do morro há um vazio. Você não vai vê-lo daqui, mas ele existe. /  / Segundo o INAH, as cavernas sob a plataforma norte foram usadas primeiro como pedreira. De lá saiu pedra para construir. Depois, alguém aproveitou esse vazio e o transformou em observatório. /  / A caverna tem um tiro, uma chaminé inclinada que sobe até a superfície. Uma fonte lhe atribui oito metros e setenta centímetros de altura e um remate hexagonal, e diz que o interior foi coberto de estuque pintado de preto, amarelo e vermelho. /  / O extraordinário acontece com o Sol. Morante, Garza e Valencia o mediram durante anos. Os raios diretos entram do fim de abril até meados de agosto, perto do meio-dia. O Sol passa pelo zênite no catorze de maio. Segundo El Tlacuache, nesse dia o Sol se projeta no piso por uns quarenta e cinco minutos. A entrada de luz se distribui de forma simétrica em torno do solstício de verão: cinquenta e dois dias antes, o dia do solstício e cinquenta e dois depois. /  / Rubén Morante López, que estuda o sítio há uns trinta anos, explica que o movimento do Sol era acompanhado em dois lugares. Um era o zênite, a partir desta caverna. O outro era o horizonte, com o Popocatépetl e o Cerro Jumil como referências. Somados, esses dias dão cento e cinco, justamente o que falta a duzentos e sessenta para chegar a trezentos e sessenta e cinco. Para Morante, Garza e Valencia, os dois calendários mesoamericanos ficam assinalados em um mesmo lugar. /  / Durante um tempo se acreditou que esta caverna era só mais uma pedreira, como outras oito que existem ao redor do morro. Mas sua abóbada e seu tiro hexagonal, com uma inclinação calculada com precisão, levaram a pensar que foi usada para contar o tempo. Segundo Alvarado León, quase todos os estudos coincidem em algo. A caverna servia para observar duas vezes por ano a passagem do Sol pelo zênite, e para medir o ano tropical ou marcar o início do verão. Para que servia é motivo de debate. Medina Romero propõe que os outros duzentos e sessenta dias se relacionam com o calendário ritual. Uma nota do INAH diz que ajudava a corrigir o calendário. A CyArk o vê como uma forma de acompanhar o percurso do Sol em direção ao Trópico de Câncer. /  / Os xochicalcas não entravam por onde se entra hoje, mas por uma caverna a poucos metros do Jogo de Bola Norte. Lá dentro havia uma sala de vinte e oito por dez metros, com três pilares talhados na rocha. Ao fundo fica um recinto oval de seis metros, a Câmara dos Astrônomos, de onde sai um segundo tiro. Em setores próximos apareceram discos de cerâmica de cinquenta e quatro centímetros, com orifícios. Colocados na borda do tiro, deixam passar a luz em pequenos círculos que se movem pelo piso. /  / Hoje você não pode entrar. O observatório está fechado ao público, e relatos de junho de dois mil e vinte e seis confirmam isso. Confirme na entrada se algo mudou. /  / Mas a ideia pode ser imaginada sem descer. Uma cidade que, para medir o tempo, não só olhava o céu. Ela o deixava entrar na montanha.
+**PT:** Este é o Jardim do Tepeyac, às vezes chamado de Jardim Sagrado. Fica na encosta oriental do morro e é o caminho que muitos visitantes tomam para subir à capela do topo ou para descer dela. /  / O jardim tem cascatas, fontes e vegetação abundante. Segundo a tradição guadalupana, algumas dessas áreas lembram a segunda e a terceira aparições da Virgem Maria a São Juan Diego, em dezembro de mil quinhentos e trinta e um. A jardinagem foi projetada para servir de cenário a um conjunto escultórico chamado A Oferenda. /  / A Oferenda é composta de dezesseis figuras de bronze fundido, dispostas em atitude de adoração diante da Virgem de Guadalupe. A Basílica encomendou a obra em mil novecentos e oitenta e dois. Foi escolhido o artista Aurelio G. D. Mendoza, que na época tinha oitenta e dois anos e era conhecido sobretudo por seu trabalho cênico. As figuras estão dispostas na paisagem do jardim e podem ser vistas de diferentes lugares. /  / Aqui também fica a Vela del Marino. É uma estrutura de pedra que uma placa colocada em mil novecentos e setenta atribui, junto com a fachada da Capela do Cerrito e a primeira escadaria oriental, ao arquiteto Francisco Guerrero y Torres, o mesmo do Pocito. Segundo a tradição que a Basílica recolhe, a Vela lembra a promessa de uns marinheiros que se salvaram de um perigo no mar e que, para cumpri-la, levaram até aqui um mastro e o deixaram fixado na pedra. É uma forma de agradecer parecida com a dos ex-votos que você viu no museu. /  / A subida desde a parte de trás da Antiga Basílica até a capela do topo é de cerca de cem metros. Há degraus e trechos em declive, e convém ir com calma. Se você usar o caminho do jardim, passará entre árvores, água e bronzes. /  / Este espaço é, segundo o portal de turismo da Cidade do México, um dos cantos mais tranquilos do conjunto, exceto nos dias de festa, quando se enche de peregrinos. É um lugar para quem quer ir devagar, para quem busca um momento de silêncio e para quem simplesmente quer descansar um pouco entre o barulho da esplanada e o topo. /  / Ao subir, a cidade vai se abrindo ao seu redor. O Tepeyac é uma elevação pequena, mas dele se aprecia a extensão do vale. /  / É um espaço aberto a pessoas de qualquer crença, onde se veem famílias passeando e pessoas que se sentam um pouco. Convém manter a voz baixa e o passo tranquilo. /  / Há quem suba rezando e quem suba para ver a paisagem. No jardim cabem as duas formas de fazê-lo. Se você encontrar pessoas em oração, passe sem interromper e sem fazer barulho.
 
 ### retos_observacion
 
-**ES:** Mira el terreno donde se ubica el observatorio / Imagina un rayo de Sol cayendo en una cueva oscura / Pregunta en la entrada si el observatorio sigue cerrado
+**ES:** Cuenta las figuras de bronce de La Ofrenda / Busca las cascadas y fuentes / Mira la Vela del Marino más arriba
 
-**PT:** Olhe o terreno onde fica o observatório / Imagine um raio de Sol caindo em uma caverna escura / Pergunte na entrada se o observatório continua fechado
+**PT:** Conte as figuras de bronze de A Oferenda / Procure as cascatas e fontes / Olhe a Vela del Marino mais acima
 
 ### especificaciones
 
-**ES:** Tipo: cueva excavada en la base de una estructura piramidal / Luz del Sol: del treinta de abril al trece de agosto, unos ciento cinco días, según el INAH / Máximo: catorce o quince de mayo / Estado: cerrado al público, según Diario de Morelos, junio de dos mil veintiséis
+**ES:** Escultura: La Ofrenda, dieciséis figuras de bronce / Encargo: 1982 / Artista: Aurelio Mendoza / Subida a la capilla: unos 100 m
 
-**PT:** Tipo: caverna escavada na base de uma estrutura piramidal / Luz do Sol: de trinta de abril a treze de agosto, uns cento e cinco dias, segundo o INAH / Máximo: catorze ou quinze de maio / Estado: fechado ao público, segundo o Diario de Morelos, junho de dois mil e vinte e seis
+**PT:** Escultura: A Oferenda, dezesseis figuras de bronze / Encomenda: 1982 / Artista: Aurelio Mendoza / Subida até a capela: cerca de 100 m
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Puedes entrar al observatorio y ver el rayo de Sol. / respuesta: Realidad: Está cerrado al público desde hace años. Confirma el estado actual en la entrada.
+**ES:** pregunta: Mito: La Ofrenda es una obra de la época virreinal. / respuesta: Realidad: La Basílica encargó este grupo de bronce en mil novecientos ochenta y dos.
 
-**PT:** pregunta: Mito: Você pode entrar no observatório e ver o raio de Sol. / respuesta: Realidade: Está fechado ao público há anos. Confirme a situação atual na entrada.
+**PT:** pregunta: Mito: A Oferenda é uma obra da época vice-reinal. / respuesta: Realidade: A Basílica encomendou este grupo de bronze em mil novecentos e oitenta e dois.
 
-## Pieza: xoc_19_caminata_norte
+## Pieza: bas_17_cerrito
 
 ### titulo
 
-**ES:** Caminata: hacia el conjunto norte
+**ES:** La Capilla del Cerrito
 
-**PT:** Caminhada: rumo ao conjunto norte
+**PT:** A Capela do Cerrito
 
 ### frase_gancho
 
-**ES:** Un trayecto corto hacia la cisterna, el altar policromado y el temazcal.
+**ES:** La cima del Tepeyac, con vista a la ciudad.
 
-**PT:** Um trajeto curto até a cisterna, o altar policromado e o temazcal.
+**PT:** O topo do Tepeyac, com vista para a cidade.
 
 ### puente_narrativo
 
-**ES:** Continúa tu ruta: sigue avanzando por la ciudad.
+**ES:** Subes los últimos metros hasta la cima del cerro.
 
-**PT:** Continue o seu percurso: siga avançando pela cidade.
+**PT:** Você sobe os últimos metros até o topo do morro.
 
 ### guion_corto
 
-**ES:** Ahora te alejas de la plaza hacia el norte. Esta caminata lleva al conjunto norte, donde el INAH ubica una cisterna, un altar policromado y un temazcal. El INAH menciona una cisterna al norte de la plaza, parte del sistema de agua. Mientras caminas, piensa en una pregunta sencilla: de dónde sacaba agua una ciudad construida sobre un cerro. Un temazcal es un baño de vapor. El del conjunto norte tuvo, según el INAH, un fin ceremonial. La cisterna recogía agua de lluvia, según México Desconocido, y tenía drenaje. No hace falta apurarse. Fíjate en el terreno: el agua siempre baja. Lo que sigue explica esas obras con más detalle.
+**ES:** Llegaste a la cima del Tepeyac, a la Capilla del Cerrito. Según la tradición guadalupana, en este lugar San Juan Diego encontró las rosas que llevó al obispo como señal. Cristóbal de Aguirre y su esposa Teresa mandaron levantar aquí una pequeña ermita, en mil seiscientos sesenta o mil seiscientos sesenta y seis, según la fuente. La capilla actual, dedicada a San Miguel Arcángel, es del siglo dieciocho, con una fachada barroca de tezontle sin torres. Dentro hay frescos del muralista Fernando Leal que narran las apariciones. Desde la terraza se ve la ciudad. También se le llama Capilla de las Rosas, y sus horarios pueden cambiar.
 
-**PT:** Agora você se afasta da praça em direção ao norte. Esta caminhada leva ao conjunto norte, onde o INAH situa uma cisterna, um altar policromado e um temazcal. O INAH menciona uma cisterna ao norte da praça, parte do sistema de água. Enquanto caminha, pense numa pergunta simples: de onde tirava água uma cidade construída sobre um morro. Um temazcal é um banho de vapor. O do conjunto norte teve, segundo o INAH, uma finalidade cerimonial. A cisterna recolhia água da chuva, segundo o México Desconocido, e tinha drenagem. Não é preciso ter pressa. Observe o terreno: a água sempre desce. O que vem a seguir explica essas obras com mais detalhes.
+**PT:** Você chegou ao topo do Tepeyac, à Capela do Cerrito. Segundo a tradição guadalupana, neste lugar São Juan Diego encontrou as rosas que levou ao bispo como sinal. Cristóbal de Aguirre e sua esposa Teresa mandaram erguer aqui uma pequena ermida, em mil seiscentos e sessenta ou mil seiscentos e sessenta e seis, segundo a fonte. A capela atual, dedicada a São Miguel Arcanjo, é do século dezoito, com uma fachada barroca de tezontle sem torres. Lá dentro há afrescos do muralista Fernando Leal que narram as aparições. Da varanda se vê a cidade. Ela também é chamada de Capela das Rosas, e seus horários podem mudar.
 
 ### guion_largo
 
-**ES:** Ahora te alejas de la plaza hacia el norte. /  / Esta caminata lleva al conjunto norte. Según el INAH, allí se encuentran una cisterna, un salón con un altar policromado y un temazcal. /  / El observatorio que dejas atrás está, según el INAH, en cuevas bajo la plataforma norte. Primero fueron cantera y después observatorio. Es decir, esta parte de la ciudad estaba cavada por dentro y construida por fuera. /  / El INAH menciona una cisterna al norte de la plaza, parte del sistema de agua. México Desconocido la describe como una cisterna de agua de lluvia con drenaje. /  / Mientras caminas, piensa en una pregunta sencilla: de dónde sacaba agua una ciudad construida sobre un cerro. La respuesta está en las obras que casi no se ven. /  / Un temazcal es un baño de vapor. Según la guía del INAH, el del conjunto norte tuvo un fin ceremonial. Otras fuentes lo ubican en otros conjuntos, y todavía no hay acuerdo sobre su lugar exacto. /  / No hace falta apurarse. Las caminatas están pensadas para escuchar mientras avanzas, sin mirar la pantalla. La siguiente parada te cuenta más sobre el agua.
+**ES:** Estás en la cima del cerro del Tepeyac, frente a la Capilla del Cerrito, que también se llama Capilla de las Rosas o Capilla del Cerrito de los Ángeles. /  / Según la tradición guadalupana, en este lugar San Juan Diego cortó las rosas que llevó en su tilma al obispo fray Juan de Zumárraga, como señal que le pedía la Virgen María. Por eso se le recuerda como la capilla de las rosas. Es, para muchos fieles, el sitio más ligado a las apariciones de todo el conjunto. /  / La primera ermita en este lugar la mandaron construir Cristóbal de Aguirre y su esposa Teresa, para recordar las tres apariciones que ocurrieron en el cerro. Una placa en el sitio da la fecha de mil seiscientos sesenta. Otras fuentes dicen mil seiscientos sesenta y seis, y aquí se citan ambas. Se dedicó a San Miguel Arcángel, a quien la tradición cristiana reconoce como jefe de los ángeles, y cuyo nombre se interpreta como quién como Dios. La Iglesia lo presenta como defensor y protector, con la idea de que desde las alturas cuidara el santuario del pie del cerro. /  / Esa ermita antigua fue reemplazada. A mediados del siglo dieciocho se solicitó permiso para construir una nueva. La primera ermita se derribó en mil setecientos cuarenta y ocho, y hacia mil setecientos cincuenta y seis se celebró la primera misa en la capilla actual. La fachada, de estilo barroco, está hecha de tezontle rojo y no tiene torres. /  / La placa de la capilla atribuye su fachada, y también la Vela del Marino y la escalinata oriente, al arquitecto Francisco Guerrero y Torres, el mismo que proyectó la Capilla del Pocito. /  / La capilla fue reconstruida entre mil novecientos cuarenta y cinco y mil novecientos cincuenta. En esa etapa se añadió una pequeña plaza con cuatro esculturas de los arcángeles Miguel, Rafael, Gabriel y Uriel. En mil ochocientos noventa y cinco se habían colocado cuatro ángeles de mármol, obra del escultor Ernesto Tamariz, y una cruz de apóstol, en el año de la coronación pontificia de la imagen. /  / Dentro, el interior está decorado con frescos del pintor Fernando Leal, uno de los artistas del movimiento muralista mexicano. Sus pinturas representan momentos de las apariciones, tal como los narra la tradición, y son una manera de contar la historia a quienes visitan la capilla. /  / A la capilla se sube por una escalinata empinada y sinuosa, y conviene tomarla con calma. Desde la terraza se ve la ciudad. El cerro, que en el siglo dieciséis estaba apartado de la ciudad, hoy se encuentra rodeado de calles y edificios. /  / Este es un templo pequeño y muy visitado. Cuando hay oración o misa, se recomienda esperar afuera o entrar sin hacer ruido. Los horarios pueden cambiar, por lo que conviene confirmarlos en el sitio oficial.
 
-**PT:** Agora você se afasta da praça em direção ao norte. /  / Esta caminhada leva ao conjunto norte. Segundo o INAH, ali se encontram uma cisterna, um salão com um altar policromado e um temazcal. /  / O observatório que você deixa para trás está, segundo o INAH, em cavernas sob a plataforma norte. Primeiro foram pedreira e depois observatório. Ou seja, esta parte da cidade era escavada por dentro e construída por fora. /  / O INAH menciona uma cisterna ao norte da praça, parte do sistema de água. O México Desconocido a descreve como uma cisterna de água da chuva com drenagem. /  / Enquanto caminha, pense numa pergunta simples: de onde tirava água uma cidade construída sobre um morro. A resposta está nas obras que quase não se veem. /  / Um temazcal é um banho de vapor. Segundo o guia do INAH, o do conjunto norte teve uma finalidade cerimonial. Outras fontes o situam em outros conjuntos, e ainda não há consenso sobre o seu lugar exato. /  / Não é preciso ter pressa. As caminhadas foram pensadas para serem ouvidas enquanto você avança, sem olhar para a tela. A próxima parada conta mais sobre a água.
+**PT:** Você está no topo do morro do Tepeyac, diante da Capela do Cerrito, que também se chama Capela das Rosas ou Capela do Cerrito dos Anjos. /  / Segundo a tradição guadalupana, neste lugar São Juan Diego colheu as rosas que levou em sua tilma ao bispo frei Juan de Zumárraga, como o sinal que a Virgem Maria lhe pedia. Por isso ela é lembrada como a capela das rosas. É, para muitos fiéis, o lugar mais ligado às aparições de todo o conjunto. /  / A primeira ermida neste lugar foi mandada construir por Cristóbal de Aguirre e sua esposa Teresa, para recordar as três aparições que aconteceram no morro. Uma placa no local indica a data de mil seiscentos e sessenta. Outras fontes dizem mil seiscentos e sessenta e seis, e aqui as duas são citadas. Foi dedicada a São Miguel Arcanjo, a quem a tradição cristã reconhece como chefe dos anjos, e cujo nome se interpreta como quem como Deus. A Igreja o apresenta como defensor e protetor, com a ideia de que, das alturas, ele cuidasse do santuário ao pé do morro. /  / Essa antiga ermida foi substituída. Em meados do século dezoito, solicitou-se permissão para construir uma nova. A primeira ermida foi demolida em mil setecentos e quarenta e oito, e por volta de mil setecentos e cinquenta e seis foi celebrada a primeira missa na capela atual. A fachada, de estilo barroco, é feita de tezontle vermelho e não tem torres. /  / A placa da capela atribui sua fachada, e também a Vela do Marinheiro e a escadaria leste, ao arquiteto Francisco Guerrero y Torres, o mesmo que projetou a Capela do Pocito. /  / A capela foi reconstruída entre mil novecentos e quarenta e cinco e mil novecentos e cinquenta. Nessa etapa, foi acrescentada uma pequena praça com quatro esculturas dos arcanjos Miguel, Rafael, Gabriel e Uriel. Em mil oitocentos e noventa e cinco haviam sido colocados quatro anjos de mármore, obra do escultor Ernesto Tamariz, e uma cruz de apóstolo, no ano da coroação pontifícia da imagem. /  / Lá dentro, o interior é decorado com afrescos do pintor Fernando Leal, um dos artistas do movimento muralista mexicano. Suas pinturas representam momentos das aparições, tal como a tradição os narra, e são uma maneira de contar a história a quem visita a capela. /  / Sobe-se à capela por uma escadaria íngreme e sinuosa, e convém subir com calma. Da varanda se vê a cidade. O morro, que no século dezesseis ficava afastado da cidade, hoje está cercado de ruas e edifícios. /  / Este é um templo pequeno e muito visitado. Quando há oração ou missa, recomenda-se esperar do lado de fora ou entrar sem fazer barulho. Os horários podem mudar, por isso convém confirmá-los no site oficial.
 
 ### retos_observacion
 
-**ES:** Fíjate en hacia dónde baja el terreno / Busca la cisterna antes de llegar / Escucha mientras caminas, sin mirar la pantalla
+**ES:** Mira la fachada de tezontle sin torres / Busca la terraza y la vista a la ciudad / Observa los frescos de Fernando Leal dentro de la capilla
 
-**PT:** Observe para onde o terreno desce / Procure a cisterna antes de chegar / Escute enquanto caminha, sem olhar para a tela
+**PT:** Olhe a fachada de tezontle sem torres / Procure a varanda e a vista para a cidade / Observe os afrescos de Fernando Leal dentro da capela
 
 ### especificaciones
 
-**ES:** Destino: conjunto norte / Espacios: cisterna, altar policromado y temazcal, según el INAH / Observatorio: en cuevas bajo la plataforma norte, según el INAH
+**ES:** Ermita: 1660 o 1666, según la fuente / Promotores: Cristóbal de Aguirre y Teresa / Capilla actual: siglo XVIII, dedicada a San Miguel Arcángel / Frescos: Fernando Leal
 
-**PT:** Destino: conjunto norte / Espacios: cisterna, altar policromado e temazcal, segundo o INAH / Observatorio: em cavernas sob a plataforma norte, segundo o INAH
+**PT:** Ermida: 1660 ou 1666, segundo a fonte / Promotores: Cristóbal de Aguirre e Teresa / Capela atual: século XVIII, dedicada a São Miguel Arcanjo / Afrescos: Fernando Leal
 
 ### faq_mito
 
-**ES:** pregunta: Mito: El observatorio está en la cima de la pirámide. / respuesta: Realidad: Es una cueva excavada en la base; el tiro de luz sale arriba.
+**ES:** pregunta: Mito: La capilla de la cima es la original. / respuesta: Realidad: La primera ermita es de mil seiscientos sesenta o mil seiscientos sesenta y seis, según la fuente; la capilla actual es del siglo dieciocho.
 
-**PT:** pregunta: Mito: O observatório fica no alto da pirâmide. / respuesta: Realidade: É uma caverna escavada na base; o poço de luz se abre no alto.
+**PT:** pregunta: Mito: A capela do topo é a original. / respuesta: Realidade: A primeira ermida é de mil seiscentos e sessenta ou mil seiscentos e sessenta e seis, segundo a fonte; a capela atual é do século dezoito.
 
-## Pieza: xoc_20_agua_ritual_norte
+## Pieza: bas_18_panteon_tepeyac
 
 ### titulo
 
-**ES:** Agua, vapor y color: el conjunto norte
+**ES:** El Panteón del Tepeyac
 
-**PT:** Água, vapor e cor: o conjunto norte
+**PT:** O Panteão do Tepeyac
 
 ### frase_gancho
 
-**ES:** Donde una ciudad en lo alto resolvía el agua, el cuerpo y el rito.
+**ES:** Un cementerio en la ladera, con personajes de la historia de México.
 
-**PT:** Onde uma cidade no alto de um morro resolvia a água, o corpo e o rito.
+**PT:** Um cemitério na encosta, com personagens da história do México.
 
 ### puente_narrativo
 
-**ES:** Continúa tu ruta: lo que sigue muestra otros espacios de la ciudad.
+**ES:** Al lado de la capilla está el panteón, donde terminas el recorrido.
 
-**PT:** Continue seu percurso: o que vem a seguir mostra outros espaços da cidade.
-
-### guion_corto
-
-**ES:** Una ciudad de entre diez mil y quince mil personas, en lo alto de un cerro, tenía que resolver el agua. Según el INAH, al norte de la plaza hay una cisterna, parte del sistema de agua. México Desconocido la describe como una cisterna de agua de lluvia, con drenaje. La guía del INAH incluye aquí un temazcal, un baño de vapor con fin ceremonial, y el Salón del Altar Policromado, que ayuda a entender cómo se construían los techos. Policromado quiere decir pintado de varios colores. Según Andrews y Glascock, hubo temazcales en la Acrópolis y en este sector norte. Confirma con el personal del sitio cuál es cuál. Aquí se vivía, se trabajaba y se rezaba.
-
-**PT:** Uma cidade de entre dez mil e quinze mil pessoas, no alto de um morro, tinha que resolver a questão da água. Segundo o INAH, ao norte da praça há uma cisterna, parte do sistema de água. O México Desconocido a descreve como uma cisterna de água da chuva, com drenagem. O guia do INAH inclui aqui um temazcal, um banho de vapor com finalidade cerimonial, e o Salão do Altar Policromado, que ajuda a entender como eram construídos os tetos. Policromado quer dizer pintado de várias cores. Segundo Andrews e Glascock, houve temazcais na Acrópole e neste setor norte. Confirme com a equipe do sítio qual é qual. Aqui se vivia, se trabalhava e se rezava.
-
-### guion_largo
-
-**ES:** Una ciudad en lo alto se enfrenta a un problema que no se ve en las fotos: el agua. /  / Según Hirth, en Xochicalco llegaron a vivir entre diez mil y quince mil personas. Todas necesitaban beber, cocinar y trabajar. El INAH menciona una cisterna al norte de la plaza, parte del sistema de agua de la ciudad. México Desconocido la describe como una cisterna de agua de lluvia, con drenaje. Es decir, había una forma de recoger la lluvia y de dar salida al exceso. /  / Muy cerca, según la guía del INAH, estaba el temazcal. Un temazcal es un baño de vapor. La guía dice que tuvo un fin ceremonial, es decir, que servía para limpiar el cuerpo y también para ceremonias. Según Andrews y Glascock, hubo temazcales en dos lugares. Uno estaba en la Acrópolis y otro en este sector norte, junto a la cancha de juego de pelota. En ese mismo sector mencionan una presa grande. Si ves un cuarto pequeño con bancas pegadas a las paredes, puede ser él. /  / El tercer espacio es el Salón del Altar Policromado. Policromado quiere decir pintado de varios colores. Según la guía del INAH, este salón ayuda a entender cómo se construían los techos de la ciudad. Una fuente cuenta que los relieves de la Pirámide de las Serpientes Emplumadas estuvieron pintados de rojo, verde, amarillo, azul, negro y blanco. Imagina también color aquí. /  / Agua, vapor y color. Tres cosas que en nuestra vida están separadas y que aquí compartían un mismo rincón de la ciudad. /  / Cuando recorras este conjunto, no busques grandes monumentos. Busca los rastros de la vida diaria: dónde se guardaba el agua, dónde se limpiaba el cuerpo y dónde se rezaba.
-
-**PT:** Uma cidade no alto enfrenta um problema que não aparece nas fotos: a água. /  / Segundo Hirth, em Xochicalco chegaram a viver entre dez mil e quinze mil pessoas. Todas precisavam beber, cozinhar e trabalhar. O INAH menciona uma cisterna ao norte da praça, parte do sistema de água da cidade. O México Desconocido a descreve como uma cisterna de água da chuva, com drenagem. Ou seja, havia uma forma de recolher a chuva e de dar saída ao excesso. /  / Muito perto, segundo o guia do INAH, ficava o temazcal. Um temazcal é um banho de vapor. O guia diz que teve uma finalidade cerimonial, ou seja, que servia para limpar o corpo e também para cerimônias. Segundo Andrews e Glascock, houve temazcais em dois lugares. Um ficava na Acrópole e o outro neste setor norte, junto à quadra do jogo de bola. Nesse mesmo setor mencionam uma represa grande. Se você vir um cômodo pequeno com bancos encostados nas paredes, pode ser ele. /  / O terceiro espaço é o Salão do Altar Policromado. Policromado quer dizer pintado de várias cores. Segundo o guia do INAH, este salão ajuda a entender como eram construídos os tetos da cidade. Uma fonte conta que os relevos da Pirâmide das Serpentes Emplumadas foram pintados de vermelho, verde, amarelo, azul, preto e branco. Imagine cor aqui também. /  / Água, vapor e cor. Três coisas que, na nossa vida, estão separadas e que aqui compartilhavam um mesmo canto da cidade. /  / Quando você percorrer este conjunto, não procure grandes monumentos. Procure os vestígios da vida diária: onde se guardava a água, onde se limpava o corpo e onde se rezava.
-
-### retos_observacion
-
-**ES:** Busca la cisterna y fíjate hacia dónde baja el terreno / Busca un cuarto pequeño con bancas pegadas a las paredes / Imagina color en las paredes del salón
-
-**PT:** Procure a cisterna e observe para onde o terreno desce / Procure um cômodo pequeno com bancos encostados nas paredes / Imagine cor nas paredes do salão
-
-### especificaciones
-
-**ES:** Cisterna: al norte de la plaza, de agua de lluvia y con drenaje / Temazcal: baño de vapor con fin ceremonial, según la guía del INAH / Salón del Altar Policromado: ayuda a entender cómo se construían los techos / Temazcales: uno en la Acrópolis y otro en el sector norte, junto a la cancha, según Andrews y Glascock
-
-**PT:** Cisterna: ao norte da praça, de água da chuva e com drenagem / Temazcal: banho de vapor com finalidade cerimonial, segundo o guia do INAH / Salão do Altar Policromado: ajuda a entender como eram construídos os tetos / Temazcais: um na Acrópole e outro no setor norte, junto à quadra, segundo Andrews e Glascock
-
-### faq_mito
-
-**ES:** pregunta: Mito: Un temazcal era solo un baño. / respuesta: Realidad: Según la guía del INAH, el de Xochicalco tuvo un fin ceremonial.
-
-**PT:** pregunta: Mito: Um temazcal era apenas um banho. / respuesta: Realidade: Segundo o guia do INAH, o de Xochicalco teve uma finalidade cerimonial.
-
-## Pieza: xoc_23_otras_canchas
-
-### titulo
-
-**ES:** Las otras dos canchas de juego de pelota
-
-**PT:** As outras duas quadras de jogo de bola
-
-### frase_gancho
-
-**ES:** Una cancha con los marcadores caídos y otra cuyos marcadores hoy están en el museo.
-
-**PT:** Uma quadra com os marcadores caídos e outra cujos marcadores hoje estão no museu.
-
-### puente_narrativo
-
-**ES:** Continúa tu ruta: sigue recorriendo la ciudad.
-
-**PT:** Continue seu percurso: siga explorando a cidade.
+**PT:** Ao lado da capela fica o panteão, onde você termina o percurso.
 
 ### guion_corto
 
-**ES:** Ya conoces la cancha sur, la más grande y fácil de alcanzar. Las otras dos cuentan otra historia. Según la guía del INAH, la cancha norte tiene las estructuras laterales más altas, y sus marcadores cayeron al pasillo central. La cancha este, conectada con la Rampa de los Animales, tiene marcadores con bajorrelieve que hoy se exhiben en el Museo de Sitio. Un marcador es una piedra tallada que se colocaba en el muro de la cancha. Medina Romero explica que las tres canchas miran hacia tres de los cuatro puntos cardinales. Compáralas: cada una tiene su propia altura, su propio estado y su propio destino.
+**ES:** El Panteón del Tepeyac está junto a la Capilla del Cerrito. Hay sepulturas en este cerro desde antes de mil setecientos dieciséis. Una tradición lo remonta a mil seiscientos sesenta, pero los estudios documentan las primeras tumbas a inicios del siglo dieciocho. Con la Ley de Cementerios de mil ochocientos cincuenta y nueve, se volvió un panteón oficial, en mil ochocientos setenta y uno. Aquí descansan personajes de la historia de México, como Antonio López de Santa Anna, el pintor José María Velasco y el poeta Xavier Villaurrutia, y también muchos arquitectos. Muchas familias eligieron sepultar aquí a los suyos, cerca del santuario. Hay un museo de sitio que cuenta la historia del cerro.
 
-**PT:** Você já conhece a quadra sul, a maior e a mais fácil de alcançar. As outras duas contam outra história. Segundo o guia do INAH, a quadra norte tem as estruturas laterais mais altas, e seus marcadores caíram no corredor central. A quadra leste, conectada à Rampa dos Animais, tem marcadores com baixo-relevo que hoje estão expostos no Museu de Sítio. Um marcador é uma pedra entalhada que era colocada no muro da quadra. Medina Romero explica que as três quadras olham para três dos quatro pontos cardeais. Compare-as: cada uma tem sua própria altura, seu próprio estado e seu próprio destino.
-
-### guion_largo
-
-**ES:** Ya conoces la cancha sur, la más grande y la más fácil de alcanzar. Las otras dos cuentan historias distintas. /  / Según la guía del INAH, la cancha norte está en la tercera terraza y tiene las estructuras laterales más altas de las tres. Sus marcadores, que eran piedras talladas colocadas en el muro, cayeron al pasillo central. /  / La cancha este, según la misma guía, también está en la tercera terraza. Sus marcadores tienen bajorrelieve, es decir, figuras talladas que sobresalen poco de la piedra, y hoy se exhiben en el Museo de Sitio. Según el INAH, la Rampa de los Animales se conecta con esta cancha. Eso sugiere que el juego y la rampa formaban parte del mismo conjunto. /  / Medina Romero explica que el cerro principal tuvo tres canchas, orientadas hacia tres de los cuatro puntos cardinales. La del sur era la más grande y fácil de alcanzar. Hirth cuenta cinco: tres en el cerro y dos más en cerros vecinos. /  / Según Andrews y Glascock, el sector de la cancha norte era un espacio muy restringido a la élite gobernante. La cancha este, en cambio, tiene una escalera prominente orientada al este, lo que sugiere un acceso más público. Tres canchas en un mismo cerro hablan de lo importante que era el juego para la gente de Xochicalco, como lo fue en muchas ciudades de Mesoamérica. /  / Si estás de pie en una de ellas, fíjate en la altura de las estructuras laterales y compárala con lo que viste en la cancha sur. Cada una tiene su propia altura, su propio estado y su propio destino.
-
-**PT:** Você já conhece a quadra sul, a maior e a mais fácil de alcançar. As outras duas contam histórias diferentes. /  / Segundo o guia do INAH, a quadra norte fica no terceiro terraço e tem as estruturas laterais mais altas das três. Seus marcadores, que eram pedras entalhadas colocadas no muro, caíram no corredor central. /  / A quadra leste, segundo o mesmo guia, também fica no terceiro terraço. Seus marcadores têm baixo-relevo, ou seja, figuras entalhadas que se projetam pouco da pedra, e hoje estão expostos no Museu de Sítio. Segundo o INAH, a Rampa dos Animais se conecta a esta quadra. Isso sugere que o jogo e a rampa faziam parte do mesmo conjunto. /  / Medina Romero explica que o morro principal teve três quadras, orientadas para três dos quatro pontos cardeais. A do sul era a maior e a mais fácil de alcançar. Hirth conta cinco: três no morro e duas em morros vizinhos. /  / Segundo Andrews e Glascock, o setor da quadra norte era um espaço muito restrito à elite governante. A quadra leste, por outro lado, tem uma escadaria proeminente voltada para o leste, o que sugere um acesso mais público. Três quadras em um mesmo morro falam de como o jogo era importante para o povo de Xochicalco, como foi em muitas cidades da Mesoamérica. /  / Se você estiver de pé em uma delas, observe a altura das estruturas laterais e compare-a com o que viu na quadra sul. Cada uma tem sua própria altura, seu próprio estado e seu próprio destino.
-
-### retos_observacion
-
-**ES:** Compara la altura de los muros con la cancha sur / Busca los marcadores caídos en el pasillo / Pregunta en el museo por los marcadores de bajorrelieve
-
-**PT:** Compare a altura dos muros com a da quadra sul / Procure os marcadores caídos no corredor / Pergunte no museu pelos marcadores de baixo-relevo
-
-### especificaciones
-
-**ES:** Cancha norte: tercera terraza, estructuras laterales más altas, marcadores caídos / Cancha este: tercera terraza, marcadores con bajorrelieve en el Museo de Sitio / Orientación: hacia tres de los cuatro puntos cardinales, según Medina Romero
-
-**PT:** Quadra norte: terceiro terraço, estruturas laterais mais altas, marcadores caídos / Quadra leste: terceiro terraço, marcadores com baixo-relevo no Museu de Sítio / Orientação: para três dos quatro pontos cardeais, segundo Medina Romero
-
-### faq_mito
-
-**ES:** pregunta: Mito: Todas las canchas de Xochicalco son iguales. / respuesta: Realidad: Cada una tiene distinta altura, estado de conservación y destino de sus piezas.
-
-**PT:** pregunta: Mito: Todas as quadras de Xochicalco são iguais. / respuesta: Realidade: Cada uma tem altura, estado de conservação e destino das peças diferentes.
-
-## Pieza: xoc_24_caminata_este
-
-### titulo
-
-**ES:** Caminata: hacia el conjunto este
-
-**PT:** Caminhada: rumo ao conjunto leste
-
-### frase_gancho
-
-**ES:** Un trayecto hacia la rampa, el patio hundido y los tres templos.
-
-**PT:** Um trajeto até a rampa, o pátio afundado e os três templos.
-
-### puente_narrativo
-
-**ES:** Continúa tu ruta: sigue hacia la zona oriental de la ciudad.
-
-**PT:** Continue seu roteiro: siga para a zona oriental da cidade.
-
-### guion_corto
-
-**ES:** Esta caminata te lleva al conjunto este, la parte oriental de la ciudad. Según el INAH Lugares, ahí hay un edificio rectangular con un patio hundido, un patio con tres plataformas piramidales y una cancha de juego de pelota. También está la Rampa de los Animales. La guía del INAH habla de tres templos, la rampa y el Templo de los Arquitectos. Mientras caminas, fíjate en cómo cambia el paisaje. Según el INAH Lugares, la ciudad ocupó seis cerros bajos, con terrazas y muros de contención. Piensa que cada trayecto sube, baja y rodea esos cerros. Lo que sigue son varias paradas en esa zona.
-
-**PT:** Esta caminhada leva você ao conjunto leste, a parte oriental da cidade. Segundo o INAH Lugares, ali há um edifício retangular com um pátio afundado, um pátio com três plataformas piramidais e uma quadra de jogo de bola. Também está lá a Rampa dos Animais. O guia do INAH fala de três templos, da rampa e do Templo dos Arquitetos. Enquanto caminha, repare em como a paisagem muda. Segundo o INAH Lugares, a cidade ocupou seis morros baixos, com terraços e muros de contenção. Pense que cada trajeto sobe, desce e contorna esses morros. O que vem a seguir são várias paradas nessa zona.
+**PT:** O Panteão do Tepeyac fica junto à Capela do Cerrito. Há sepulturas neste morro desde antes de mil setecentos e dezesseis. Uma tradição o remonta a mil seiscentos e sessenta, mas os estudos documentam os primeiros túmulos no início do século dezoito. Com a Lei dos Cemitérios de mil oitocentos e cinquenta e nove, tornou-se um panteão oficial, em mil oitocentos e setenta e um. Aqui descansam personagens da história do México, como Antonio López de Santa Anna, o pintor José María Velasco e o poeta Xavier Villaurrutia, e também muitos arquitetos. Muitas famílias escolheram sepultar aqui os seus, perto do santuário. Há um museu de sítio que conta a história do morro.
 
 ### guion_largo
 
-**ES:** Esta caminata te lleva al conjunto este, la parte oriental de la ciudad. /  / Según el INAH Lugares, ahí hay un edificio rectangular con un patio hundido, un patio con tres plataformas piramidales y una cancha de juego de pelota. También está la Rampa de los Animales, que conecta con esa cancha. /  / La guía del INAH habla de tres templos, de la rampa y del Templo de los Arquitectos, también llamado Patio Hundido. Es decir, se trata de un conjunto con varios edificios agrupados. /  / Mientras caminas, fíjate en cómo cambia el paisaje. Según el INAH Lugares, la ciudad ocupó seis cerros bajos, con terrazas y muros de contención. Eso significa que cada trayecto sube, baja y rodea los cerros. Un muro de contención es el que sostiene la tierra de una terraza para que no se deslice. /  / La UNESCO considera que Xochicalco tuvo tres niveles: uno bajo, uno intermedio y uno alto. Según Hirth, la ciudad creció muy rápido hacia el año seiscientos y reubicó a entre diez mil y quince mil personas. /  / Las siguientes paradas ocurren en esa zona. No hace falta apurarse.
+**ES:** Al lado de la Capilla del Cerrito se extiende el Panteón del Tepeyac, uno de los cementerios más antiguos que siguen en uso en la Ciudad de México. Es un lugar de memoria, y como tal conviene mirarlo con respeto. /  / Los primeros entierros se hicieron en torno a la capilla antes de mil setecientos dieciséis. Una tradición atribuye su fundación al año de mil seiscientos sesenta, y la relaciona incluso con San Juan Diego, pero los estudiosos, como el historiador de la arquitectura Hugo Arciniega, documentan las primeras sepulturas a principios del siglo dieciocho. Muchas familias de la ciudad quisieron enterrar aquí a los suyos, cerca del lugar donde la tradición guadalupana sitúa las apariciones. /  / En mil ochocientos cincuenta y nueve, el treinta y uno de julio, la Ley de Cementerios dispuso que los entierros pasaran a manos del Estado. Después de esa ley, el Tepeyac se convirtió en panteón oficial, en mil ochocientos setenta y uno. La fecha de mil novecientos diez que aparece en una inscripción no es la de su inauguración. /  / Los monumentos del Panteón se agrupan por clases, por tamaños y por ubicación, empezando por la entrada principal, según el estudio de la arquitecta Silvia Segarra Lagunes sobre su paisaje, su historia y su restauración. El Panteón es conocido como el cementerio de los arquitectos, porque Arciniega lo llamó así en un estudio, al encontrar aquí a muchos de los constructores de la ciudad. Tiene también monumentos funerarios de gran valor artístico. Entre ellos se destaca la escultura del Ángel del Silencio. /  / Aquí descansan personajes que forman parte de la historia del país. Está Antonio López de Santa Anna, que fue presidente de México en varias ocasiones, y que murió el veintiuno de junio de mil ochocientos setenta y seis. También está sepultada su esposa, Dolores Tosta. Está el pintor José María Velasco, conocido por sus paisajes del Valle de México. Está el poeta Xavier Villaurrutia. Y está Delfina Ortega Díaz, primera esposa del presidente Porfirio Díaz. /  / La investigadora Ethel Herrera Moreno ha catalogado los monumentos funerarios de este panteón que representan a la Virgen de Guadalupe. Esa devoción, que también se expresa en los sepulcros, es parte de lo que se ve en estas tumbas. /  / El Panteón tiene además un museo de sitio con dos salas. Una cuenta la historia del cerro desde la época prehispánica, y otra, la historia del cementerio. Ni el panteón ni el museo están abiertos como el resto del conjunto. Para visitarlos se pide una cita previa, y es mejor confirmar las condiciones en el sitio oficial. /  / Si no puedes entrar, esta parada se escucha igual desde el mirador de la capilla. Y si entras, recuerda que es un cementerio donde hay familias que visitan a sus muertos: se camina en silencio, sin apresurarse.
 
-**PT:** Esta caminhada leva você ao conjunto leste, a parte oriental da cidade. /  / Segundo o INAH Lugares, ali há um edifício retangular com um pátio afundado, um pátio com três plataformas piramidais e uma quadra de jogo de bola. Também está lá a Rampa dos Animais, que se conecta com essa quadra. /  / O guia do INAH fala de três templos, da rampa e do Templo dos Arquitetos, também chamado de Pátio Afundado. Ou seja, trata-se de um conjunto com vários edifícios agrupados. /  / Enquanto caminha, repare em como a paisagem muda. Segundo o INAH Lugares, a cidade ocupou seis morros baixos, com terraços e muros de contenção. Isso significa que cada trajeto sobe, desce e contorna os morros. Um muro de contenção é aquele que sustenta a terra de um terraço para que ela não deslize. /  / A UNESCO considera que Xochicalco teve três níveis: um baixo, um intermediário e um alto. Segundo Hirth, a cidade cresceu muito rápido por volta do ano seiscentos e realocou entre dez mil e quinze mil pessoas. /  / As próximas paradas acontecem nessa zona. Não é preciso ter pressa.
-
-### retos_observacion
-
-**ES:** Fíjate en cómo cambia el paisaje / Cuenta cuántos cerros alcanzas a ver / Escucha mientras caminas, sin mirar la pantalla
-
-**PT:** Repare em como a paisagem muda / Conte quantos morros você consegue ver / Escute enquanto caminha, sem olhar para a tela
-
-### especificaciones
-
-**ES:** Destino: conjunto este / Espacios: edificio rectangular con patio hundido, patio con tres plataformas piramidales, cancha y rampa, según el INAH Lugares / Cerros ocupados: seis, según el INAH Lugares
-
-**PT:** Destino: conjunto leste / Espacios: edifício retangular com pátio afundado, pátio com três plataformas piramidais, quadra e rampa, segundo o INAH Lugares / Cerros ocupados: seis, segundo o INAH Lugares
-
-### faq_mito
-
-**ES:** pregunta: Mito: Xochicalco ocupa un solo cerro. / respuesta: Realidad: Según el INAH Lugares, ocupó seis cerros bajos, con terrazas y muros.
-
-**PT:** pregunta: Mito: Xochicalco ocupa um único morro. / respuesta: Realidade: Segundo o INAH Lugares, ocupou seis morros baixos, com terraços e muros.
-
-## Pieza: xoc_25_rampa_animales
-
-### titulo
-
-**ES:** La Rampa de los Animales
-
-**PT:** A Rampa dos Animais
-
-### frase_gancho
-
-**ES:** Losas con animales grabados, entre lo real y lo mítico.
-
-**PT:** Lajes com animais gravados, entre o real e o mítico.
-
-### puente_narrativo
-
-**ES:** Continúa tu ruta: sigue hacia los espacios del conjunto este.
-
-**PT:** Continue seu percurso: siga para os espaços do conjunto leste.
-
-### guion_corto
-
-**ES:** Esta rampa está formada por losas con animales grabados. Según la guía del INAH, tiene doscientas setenta losas. México Desconocido cuenta doscientas cincuenta y cinco, y Medina Romero doscientas setenta y una. Las cifras no coinciden, así que diremos más de doscientas cincuenta. Medina Romero dice que muchas de las especies grabadas todavía existen. Hirth habla de animales míticos. Una rampa es un camino inclinado, sin escalones. Aquí la piedra dibujó la fauna de la región. Los huesos hallados en la ciudad dicen algo parecido: jaguar y cocodrilo en las zonas altas, venado y perro en todos los niveles. Busca un animal que conozcas y otro que no te suene.
-
-**PT:** Esta rampa é formada por lajes com animais gravados. Segundo o guia do INAH, ela tem duzentas e setenta lajes. A México Desconocido conta duzentas e cinquenta e cinco, e Medina Romero, duzentas e setenta e uma. Os números não coincidem, então diremos mais de duzentas e cinquenta. Medina Romero diz que muitas das espécies gravadas ainda existem. Hirth fala de animais míticos. Uma rampa é um caminho inclinado, sem degraus. Aqui a pedra desenhou a fauna da região. Os ossos encontrados na cidade dizem algo parecido: jaguar e crocodilo nas áreas altas, veado e cachorro em todos os níveis. Procure um animal que você conheça e outro que não lhe soe familiar.
-
-### guion_largo
-
-**ES:** La rampa es un camino inclinado, sin escalones. Esta tiene algo especial: está hecha de losas con animales grabados. /  / Según la guía del INAH, tiene doscientas setenta losas. México Desconocido cuenta doscientas cincuenta y cinco. Medina Romero habla de doscientas setenta y una, dentro de un total de más de cuatrocientas losas grabadas halladas en el sitio. Las cifras no coinciden. Por eso aquí decimos: más de doscientas cincuenta. /  / Medina Romero añade que muchas de las especies grabadas todavía existen. Es decir, quienes las tallaron miraban su entorno y lo dibujaban en piedra. Kenneth Hirth habla, en cambio, de animales míticos. Las dos descripciones pueden ser ciertas a la vez: una rampa con fauna real y fauna imaginada. /  / El INAH Lugares explica que la rampa conecta con la cancha de juego de pelota del este. Eso sugiere que el juego y la rampa formaban parte del mismo conjunto. /  / Los restos de animales de la ciudad cuentan algo parecido. Según Eduardo Corona, jaguar, jabalí, gato montés y cocodrilo de río aparecen sobre todo en las zonas altas, casi siempre convertidos en adornos u ofrendas. Venado, perro y puma aparecen en todos los niveles. En la parte baja hay bagres, patos, tortugas y nutrias. /  / Busca un animal que conozcas y otro que no te suene. Piensa que alguien eligió qué animales poner y en qué orden.
-
-**PT:** A rampa é um caminho inclinado, sem degraus. Esta tem algo especial: é feita de lajes com animais gravados. /  / Segundo o guia do INAH, ela tem duzentas e setenta lajes. A México Desconocido conta duzentas e cinquenta e cinco. Medina Romero fala de duzentas e setenta e uma, dentro de um total de mais de quatrocentas lajes gravadas encontradas no sítio. Os números não coincidem. Por isso, aqui dizemos: mais de duzentas e cinquenta. /  / Medina Romero acrescenta que muitas das espécies gravadas ainda existem. Ou seja, quem as entalhou olhava para o seu entorno e o desenhava na pedra. Kenneth Hirth fala, por outro lado, de animais míticos. As duas descrições podem ser verdadeiras ao mesmo tempo: uma rampa com fauna real e fauna imaginada. /  / O INAH Lugares explica que a rampa se conecta com a quadra de jogo de bola do leste. Isso sugere que o jogo e a rampa faziam parte do mesmo conjunto. /  / Os restos de animais da cidade contam algo parecido. Segundo Eduardo Corona, jaguar, javali, gato-do-mato e crocodilo de rio aparecem sobretudo nas áreas altas, quase sempre transformados em adornos ou oferendas. Veado, cachorro e puma aparecem em todos os níveis. Na parte baixa há bagres, patos, tartarugas e lontras. /  / Procure um animal que você conheça e outro que não lhe soe familiar. Pense que alguém escolheu quais animais colocar e em que ordem.
+**PT:** Ao lado da Capela do Cerrito estende-se o Panteão do Tepeyac, um dos cemitérios mais antigos ainda em uso na Cidade do México. É um lugar de memória, e como tal convém olhá-lo com respeito. /  / Os primeiros enterros foram feitos em torno da capela antes de mil setecentos e dezesseis. Uma tradição atribui sua fundação ao ano de mil seiscentos e sessenta, e chega a relacioná-la com São Juan Diego, mas os estudiosos, como o historiador da arquitetura Hugo Arciniega, documentam as primeiras sepulturas no início do século dezoito. Muitas famílias da cidade quiseram enterrar aqui os seus, perto do lugar onde a tradição guadalupana situa as aparições. /  / Em mil oitocentos e cinquenta e nove, no dia trinta e um de julho, a Lei dos Cemitérios determinou que os enterros passassem para as mãos do Estado. Depois dessa lei, o Tepeyac tornou-se panteão oficial, em mil oitocentos e setenta e um. A data de mil novecentos e dez que aparece em uma inscrição não é a de sua inauguração. /  / Os monumentos do Panteão se agrupam por classes, por tamanhos e por localização, começando pela entrada principal, segundo o estudo da arquiteta Silvia Segarra Lagunes sobre sua paisagem, sua história e sua restauração. O Panteão é conhecido como o cemitério dos arquitetos, porque Arciniega o chamou assim em um estudo, ao encontrar aqui muitos dos construtores da cidade. Tem também monumentos funerários de grande valor artístico. Entre eles se destaca a escultura do Anjo do Silêncio. /  / Aqui descansam personagens que fazem parte da história do país. Está Antonio López de Santa Anna, que foi presidente do México em várias ocasiões, e que morreu em vinte e um de junho de mil oitocentos e setenta e seis. Também está sepultada sua esposa, Dolores Tosta. Está o pintor José María Velasco, conhecido por suas paisagens do Vale do México. Está o poeta Xavier Villaurrutia. E está Delfina Ortega Díaz, primeira esposa do presidente Porfirio Díaz. /  / A pesquisadora Ethel Herrera Moreno catalogou os monumentos funerários deste panteão que representam a Virgem de Guadalupe. Essa devoção, que também se expressa nos sepulcros, é parte do que se vê nestes túmulos. /  / O Panteão tem ainda um museu de sítio com duas salas. Uma conta a história do morro desde a época pré-hispânica, e a outra, a história do cemitério. Nem o panteão nem o museu estão abertos como o resto do conjunto. Para visitá-los, pede-se um agendamento prévio, e é melhor confirmar as condições no site oficial. /  / Se você não puder entrar, esta parada se escuta igualmente do mirante da capela. E se entrar, lembre-se de que é um cemitério onde há famílias que visitam seus mortos: caminha-se em silêncio, sem pressa.
 
 ### retos_observacion
 
-**ES:** Busca un animal que conozcas / Busca uno que no puedas identificar / Piensa por qué alguien eligió grabar animales en el piso de una rampa
+**ES:** Busca las tumbas de personajes conocidos / Observa los mausoleos de arquitectos / Pregunta por el museo de sitio
 
-**PT:** Procure um animal que você conheça / Procure um que você não consiga identificar / Pense por que alguém escolheu gravar animais no piso de uma rampa
-
-### especificaciones
-
-**ES:** Losas grabadas: doscientas setenta (INAH), doscientas cincuenta y cinco (México Desconocido), doscientas setenta y una de más de cuatrocientas (Medina Romero) / Conexión: con la cancha este, según el INAH Lugares
-
-**PT:** Lajes gravadas: duzentas e setenta (INAH), duzentas e cinquenta e cinco (México Desconocido), duzentas e setenta e uma de mais de quatrocentas (Medina Romero) / Conexão: com a quadra leste, segundo o INAH Lugares
-
-### faq_mito
-
-**ES:** pregunta: Mito: Todos los animales de la rampa son míticos. / respuesta: Realidad: Medina Romero indica que muchas de las especies grabadas todavía existen. Hirth, en cambio, habla de animales míticos.
-
-**PT:** pregunta: Mito: Todos os animais da rampa são míticos. / respuesta: Realidade: Medina Romero indica que muitas das espécies gravadas ainda existem. Hirth, por outro lado, fala de animais míticos.
-
-## Pieza: xoc_26_templo_arquitectos
-
-### titulo
-
-**ES:** El Templo de los Arquitectos
-
-**PT:** O Templo dos Arquitetos
-
-### frase_gancho
-
-**ES:** Un patio donde aparecieron herramientas de obra.
-
-**PT:** Um pátio onde apareceram ferramentas de obra.
-
-### puente_narrativo
-
-**ES:** Sigue tu ruta: continúa por los espacios de trabajo y poder de la ciudad.
-
-**PT:** Siga seu roteiro: continue pelos espaços de trabalho e poder da cidade.
-
-### guion_corto
-
-**ES:** Este edificio se llama Templo de los Arquitectos, también Patio Hundido. Según la guía del INAH, ahí aparecieron herramientas de construcción: plomadas, mezcladores y pulidores. Una plomada es un hilo con un peso que sirve para comprobar que una pared está vertical. Un pulidor alisa la superficie de la piedra. El INAH Lugares describe en el conjunto este un edificio rectangular con patio hundido, que puede ser este mismo. Los nombres modernos dicen más de quienes los pusieron que de quienes construyeron. Aun así, ver aquí herramientas de obra recuerda que alguien tuvo que medir, nivelar y pulir cada piedra. Es un buen lugar para pensar en los oficios.
-
-**PT:** Este edifício se chama Templo dos Arquitetos, também Pátio Rebaixado. Segundo o guia do INAH, ali apareceram ferramentas de construção: prumos, misturadores e polidores. Um prumo é um fio com um peso que serve para verificar se uma parede está na vertical. Um polidor alisa a superfície da pedra. O INAH Lugares descreve, no conjunto leste, um edifício retangular com pátio rebaixado, que pode ser este mesmo. Os nomes modernos dizem mais sobre quem os deu do que sobre quem construiu. Ainda assim, ver aqui ferramentas de obra lembra que alguém teve de medir, nivelar e polir cada pedra. É um bom lugar para pensar nos ofícios.
-
-### guion_largo
-
-**ES:** El nombre suena a título, pero viene de lo que se encontró aquí. /  / Se llama Templo de los Arquitectos, y también Patio Hundido. Según la guía del INAH, en este lugar aparecieron herramientas de construcción: plomadas, mezcladores y pulidores. /  / Una plomada es un hilo con un peso en la punta. Sirve para comprobar que un muro está derecho. Un pulidor es una piedra con la que se alisa la superficie de otra. /  / El INAH Lugares menciona, en el conjunto este, un edificio rectangular con un patio hundido. Puede ser el mismo. /  / Los nombres modernos dicen más de quienes los pusieron que de quienes construyeron. Nadie sabe cómo se llamaba este edificio en la ciudad. Lo que sí sabemos es lo que sugiere el hallazgo: aquí se guardaron o se usaron herramientas de obra. /  / Piensa en el trabajo detrás de una ciudad como esta. Alguien tuvo que medir, nivelar, cortar y pulir cada piedra, y trazar terrazas sobre un cerro. /  / Cuando mires el patio hundido, imagina esas herramientas sobre el piso. Es una forma de ver a los constructores, y no solo a los gobernantes.
-
-**PT:** O nome soa como um título, mas vem do que foi encontrado aqui. /  / Chama-se Templo dos Arquitetos, e também Pátio Rebaixado. Segundo o guia do INAH, neste lugar apareceram ferramentas de construção: prumos, misturadores e polidores. /  / Um prumo é um fio com um peso na ponta. Serve para verificar se um muro está reto. Um polidor é uma pedra com a qual se alisa a superfície de outra. /  / O INAH Lugares menciona, no conjunto leste, um edifício retangular com um pátio rebaixado. Pode ser o mesmo. /  / Os nomes modernos dizem mais sobre quem os deu do que sobre quem construiu. Ninguém sabe como este edifício se chamava na cidade. O que sabemos é o que o achado sugere: aqui foram guardadas ou usadas ferramentas de obra. /  / Pense no trabalho por trás de uma cidade como esta. Alguém teve de medir, nivelar, cortar e polir cada pedra, e traçar terraços sobre um morro. /  / Quando olhar para o pátio rebaixado, imagine essas ferramentas sobre o piso. É uma maneira de enxergar os construtores, e não só os governantes.
-
-### retos_observacion
-
-**ES:** Busca el patio hundido / Imagina dónde estarían las herramientas / Piensa cuántas personas harían falta para levantar un edificio así
-
-**PT:** Procure o pátio rebaixado / Imagine onde estariam as ferramentas / Pense em quantas pessoas seriam necessárias para erguer um edifício assim
+**PT:** Procure os túmulos de personagens conhecidos / Observe os mausoléus de arquitetos / Pergunte pelo museu de sítio
 
 ### especificaciones
 
-**ES:** Nombres: Templo de los Arquitectos y Patio Hundido / Hallazgo: plomadas, mezcladores y pulidores, según la guía del INAH / Ubicación: conjunto este
+**ES:** Sepulturas: antes de 1716 / Panteón oficial: 1871 / Sepultados: Antonio López de Santa Anna, José María Velasco, Xavier Villaurrutia
 
-**PT:** Nomes: Templo dos Arquitetos e Pátio Rebaixado / Achado: prumos, misturadores e polidores, segundo o guia do INAH / Localização: conjunto leste
-
-### faq_mito
-
-**ES:** pregunta: Mito: Un templo siempre es un lugar solo para dioses. / respuesta: Realidad: El nombre moderno viene de las herramientas de obra halladas, no de una función religiosa comprobada.
-
-**PT:** pregunta: Mito: Um templo é sempre um lugar exclusivo para os deuses. / respuesta: Realidade: O nome moderno vem das ferramentas de obra encontradas, não de uma função religiosa comprovada.
-
-## Pieza: xoc_28_alzate_exploradores
-
-### titulo
-
-**ES:** Los primeros ojos: Alzate y los exploradores
-
-**PT:** Os primeiros olhos: Alzate e os exploradores
-
-### frase_gancho
-
-**ES:** Un sabio del siglo dieciocho que dibujó lo que otros no se atrevieron a ver.
-
-**PT:** Um sábio do século dezoito que desenhou o que outros não se atreveram a ver.
-
-### puente_narrativo
-
-**ES:** Sigue tu ruta: ahora conviene cerrar el recorrido con lo que pasó con la ciudad.
-
-**PT:** Siga seu roteiro: agora convém encerrar o percurso com o que aconteceu com a cidade.
-
-### guion_corto
-
-**ES:** Hay una razón por la que conocemos tan bien este edificio: alguien lo dibujó hace más de doscientos años. José Antonio Alzate visitó Xochicalco en mil setecientos setenta y siete. Volvió en mil setecientos ochenta y cuatro con un dibujante, Arana, para medir el edificio de las serpientes. Según López Luján, un árbol de guaje había dañado la fachada. Publicó su descripción en mil setecientos noventa y uno. Mucho después, Peñafiel publicó los primeros textos del sitio, en mil ochocientos noventa. Batres hizo la primera excavación científica en mil novecientos nueve. Cada visita dejó una imagen distinta de la ciudad. Hoy lo ves gracias a esas miradas.
-
-**PT:** Há uma razão pela qual conhecemos tão bem este edifício: alguém o desenhou há mais de duzentos anos. José Antonio Alzate visitou Xochicalco em mil setecentos e setenta e sete. Voltou em mil setecentos e oitenta e quatro com um desenhista, Arana, para medir o edifício das serpentes. Segundo López Luján, uma árvore de guaje havia danificado a fachada. Publicou sua descrição em mil setecentos e noventa e um. Muito depois, Peñafiel publicou os primeiros textos do sítio, em mil oitocentos e noventa. Batres fez a primeira escavação científica em mil novecentos e nove. Cada visita deixou uma imagem diferente da cidade. Hoje você a vê graças a esses olhares.
-
-### guion_largo
-
-**ES:** Sabemos de Xochicalco gracias, en parte, a un hombre curioso del siglo dieciocho. /  / José Antonio Alzate visitó el sitio en mil setecientos setenta y siete. Según López Luján, el doce de noviembre caminó seis kilómetros desde Tetlama con el alcalde y otros dos hombres. En la cima midió la altura del cerro con un barómetro. Le llamaron la atención las losas del edificio de las serpientes, y pensó que, sin animales de carga, los xochicalcas debieron saber mucho de mecánica. El alcalde se negó a entrar en un pasadizo subterráneo y contó que allí vio una vez a un anciano que desapareció, mientras temblaba el cerro. Alzate dejó un manuscrito de la visita. /  / Volvió en mil setecientos ochenta y cuatro, esta vez con un dibujante llamado Arana, que midió el edificio de las serpientes. Un árbol de guaje había dañado la fachada. Le contaron que aún quedaban restos de cuatro calzadas que llegaban al edificio desde los cuatro rumbos. El grabador Agüera y Bustamante preparó las imágenes. Alzate publicó su descripción en mil setecientos noventa y uno, en la Gaceta de Literatura de México, según El Tlacuache. /  / Sahagún ya mencionaba el lugar a mediados del siglo dieciséis, según Medina Romero. Humboldt nunca lo visitó. Peñafiel publicó los primeros textos en mil ochocientos noventa, y Batres hizo la primera excavación científica en mil novecientos nueve. /  / Medina Romero cuenta también que los dueños de una hacienda azucarera cercana destruyeron buena parte de la base de la pirámide. /  / Lo que ves hoy es resultado de muchas miradas. Algunas dibujaron, otras midieron, otras excavaron y otras destruyeron. Ninguna dejó el sitio igual. /  / Cuando mires la fachada, piensa que alguien la dibujó con un árbol creciendo encima, hace más de dos siglos.
-
-**PT:** Sabemos de Xochicalco graças, em parte, a um homem curioso do século dezoito. /  / José Antonio Alzate visitou o sítio em mil setecentos e setenta e sete. Segundo López Luján, no dia doze de novembro ele caminhou seis quilômetros desde Tetlama com o prefeito e outros dois homens. No topo, mediu a altura do morro com um barômetro. As lajes do edifício das serpentes lhe chamaram a atenção, e ele pensou que, sem animais de carga, os xochicalcas deviam saber muito de mecânica. O prefeito se recusou a entrar em uma passagem subterrânea e contou que ali viu uma vez um ancião que desapareceu, enquanto o morro tremia. Alzate deixou um manuscrito da visita. /  / Voltou em mil setecentos e oitenta e quatro, desta vez com um desenhista chamado Arana, que mediu o edifício das serpentes. Uma árvore de guaje havia danificado a fachada. Contaram-lhe que ainda restavam vestígios de quatro calçadas que chegavam ao edifício vindas dos quatro rumos. O gravador Agüera y Bustamante preparou as imagens. Alzate publicou sua descrição em mil setecentos e noventa e um, na Gaceta de Literatura de México, segundo El Tlacuache. /  / Sahagún já mencionava o lugar em meados do século dezesseis, segundo Medina Romero. Humboldt nunca o visitou. Peñafiel publicou os primeiros textos em mil oitocentos e noventa, e Batres fez a primeira escavação científica em mil novecentos e nove. /  / Medina Romero conta também que os donos de uma fazenda açucareira próxima destruíram boa parte da base da pirâmide. /  / O que você vê hoje é resultado de muitos olhares. Alguns desenharam, outros mediram, outros escavaram e outros destruíram. Nenhum deixou o sítio igual. /  / Quando olhar a fachada, pense que alguém a desenhou com uma árvore crescendo em cima, há mais de dois séculos.
-
-### retos_observacion
-
-**ES:** Imagina la fachada con un árbol creciendo encima / Piensa qué habrías dibujado tú / Busca dónde estaría el pasadizo subterráneo que Alzate no pudo recorrer
-
-**PT:** Imagine a fachada com uma árvore crescendo em cima / Pense no que você teria desenhado / Procure onde estaria a passagem subterrânea que Alzate não pôde percorrer
-
-### especificaciones
-
-**ES:** Primera visita de Alzate: mil setecientos setenta y siete / Segunda visita, con el dibujante Arana: mil setecientos ochenta y cuatro / Publicación de Alzate: mil setecientos noventa y uno / Primeros textos publicados por Peñafiel: mil ochocientos noventa / Primera excavación científica, Batres: mil novecientos nueve, según el INAH
-
-**PT:** Primeira visita de Alzate: mil setecentos e setenta e sete / Segunda visita, com o desenhista Arana: mil setecentos e oitenta e quatro / Publicação de Alzate: mil setecentos e noventa e um / Primeiros textos publicados por Peñafiel: mil oitocentos e noventa / Primeira escavação científica, Batres: mil novecentos e nove, segundo o INAH
+**PT:** Sepulturas: antes de 1716 / Panteão oficial: 1871 / Sepultados: Antonio López de Santa Anna, José María Velasco, Xavier Villaurrutia
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Xochicalco se conoce desde hace pocas décadas. / respuesta: Realidad: Alzate lo describió en el siglo dieciocho y Sahagún ya lo mencionaba en el dieciseis.
+**ES:** pregunta: Mito: El panteón está documentado desde mil seiscientos sesenta. / respuesta: Realidad: Una tradición lo remonta a esa fecha, pero los estudios documentan las primeras tumbas a inicios del siglo dieciocho. Es panteón oficial desde mil ochocientos setenta y uno.
 
-**PT:** pregunta: Mito: Xochicalco é conhecido há apenas algumas décadas. / respuesta: Realidade: Alzate o descreveu no século dezoito e Sahagún já o mencionava no dezesseis.
+**PT:** pregunta: Mito: O panteão está documentado desde mil seiscentos e sessenta. / respuesta: Realidade: Uma tradição o remonta a essa data, mas os estudos documentam os primeiros túmulos no início do século dezoito. É panteão oficial desde mil oitocentos e setenta e um.
 
-## Pieza: xoc_29_fin_ciudad
-
-### titulo
-
-**ES:** El final de la ciudad
-
-**PT:** O fim da cidade
-
-### frase_gancho
-
-**ES:** Una ciudad que dominó estos cerros durante siglos y cayó de golpe.
-
-**PT:** Uma cidade que dominou estes morros durante séculos e caiu de repente.
-
-### guion_corto
-
-**ES:** Durante siglos, Xochicalco dominó estos cerros. Después, en muy poco tiempo, todo terminó. Webb y Hirth encontraron huellas de incendio en el núcleo ceremonial, edificios y esculturas destruidos y cuerpos desmembrados sobre los pisos. Las casas, en cambio, quedaron con vasijas todavía útiles, como si sus dueños hubieran salido de prisa. Los especialistas debaten por qué: una revuelta interna, la ruptura de la alianza entre ciudades o una conquista externa. Hoy la ciudad es Patrimonio de la Humanidad desde mil novecientos noventa y nueve. Antes de irte, mira el cerro una última vez. Lo que ves es una ciudad detenida en el momento de su caída.
-
-**PT:** Durante séculos, Xochicalco dominou estes morros. Depois, em muito pouco tempo, tudo terminou. Webb e Hirth encontraram vestígios de incêndio no núcleo cerimonial, edifícios e esculturas destruídos e corpos desmembrados sobre os pisos. As casas, por outro lado, ficaram com vasilhas ainda utilizáveis, como se seus donos tivessem saído às pressas. Os especialistas debatem o motivo: uma revolta interna, a ruptura da aliança entre cidades ou uma conquista externa. Hoje a cidade é Patrimônio da Humanidade desde mil novecentos e noventa e nove. Antes de ir embora, olhe o morro uma última vez. O que você vê é uma cidade suspensa no momento de sua queda.
-
-### guion_largo
-
-**ES:** Durante siglos, Xochicalco dominó estos cerros. Después, en muy poco tiempo, todo terminó. /  / La ciudad se fundó hacia el año seiscientos setenta, en un cerro que nunca antes había sido habitado. Según Alvarado León, el abandono llegó hacia el año mil sesenta y cinco, unos cuatrocientos años después. Según el INAH, fue saqueada y abandonada de forma abrupta. La fecha se discute: Webb y Hirth la sitúan antes, hacia el año novecientos. /  / Los edificios ardieron. Webb y Hirth describen incendios en el núcleo ceremonial, edificios y esculturas destruidos y cuerpos desmembrados sobre los pisos. No fue un abandono silencioso. /  / Pero las casas cuentan otra cosa. En tres viviendas con talleres excavadas en mil novecientos noventa y tres, y en particular en una, quedaron más de cien vasijas y más de setenta herramientas de piedra molida. Quienes vivían ahí se fueron de prisa y dejaron objetos que aún servían. /  / Por qué ocurrió es algo en lo que no hay acuerdo. Alvarado León, con Norberto González y Silvia Garza, plantea que hacia el año novecientos el poder pasó a dos dirigentes, por la presión social y la escasez de recursos. Hacia el mil sesenta y cinco, una revuelta nacida en el centro del poder habría traído el saqueo y el incendio de los edificios y los símbolos de la élite. Después apareció cerámica de Tula y de los matlatzincas, propia de esa época. Salvo unas construcciones modestas y muy posteriores, nadie volvió a ocupar la ciudad. Hirth plantea la ruptura de la confederación que sostenía a la ciudad o una conquista desde fuera. Otras fuentes hablan de un levantamiento contra la élite. Una leyenda cuenta que el señor de Xochicalco exigía cada año a un noble como tributo, hasta que el joven rey de Tepoztlán, Tepoztécatl, lo mató. Hirth ve ahí la memoria del fin de la ciudad. Son hipótesis, no hechos. /  / Pasaron varios siglos antes de que otros pueblos se asentaran en la región. Una fuente cuenta que los tlahuicas llegaron hacia el año mil doscientos. /  / Hoy el sitio está protegido. Fue decretado zona de monumentos arqueológicos en mil novecientos noventa y cuatro, y la UNESCO lo declaró Patrimonio de la Humanidad en mil novecientos noventa y nueve. La zona abarca unas setecientas siete hectáreas. /  / Antes de irte, mira el cerro una última vez. Una ciudad que duró siglos dejó piedras que siguen contando cómo se organizó el poder, cómo se midió el tiempo y cómo se vivió en lo alto. Lo que ves es una ciudad detenida en el momento de su caída.
-
-**PT:** Durante séculos, Xochicalco dominou estes morros. Depois, em muito pouco tempo, tudo terminou. /  / A cidade foi fundada por volta do ano seiscentos e setenta, em um morro que nunca antes havia sido habitado. Segundo Alvarado León, o abandono veio por volta do ano mil e sessenta e cinco, uns quatrocentos anos depois. Segundo o INAH, ela foi saqueada e abandonada de forma abrupta. A data é discutida: Webb e Hirth a situam antes, por volta do ano novecentos. /  / Os edifícios arderam. Webb e Hirth descrevem incêndios no núcleo cerimonial, edifícios e esculturas destruídos e corpos desmembrados sobre os pisos. Não foi um abandono silencioso. /  / Mas as casas contam outra coisa. Em três moradias com oficinas escavadas em mil novecentos e noventa e três, e em particular em uma delas, ficaram mais de cem vasilhas e mais de setenta ferramentas de pedra para moer. Quem vivia ali foi embora às pressas e deixou objetos que ainda serviam. /  / Por que isso aconteceu é algo sobre o qual não há consenso. Alvarado León, com Norberto González e Silvia Garza, propõe que por volta do ano novecentos o poder passou para dois dirigentes, por causa da pressão social e da escassez de recursos. Por volta do ano mil e sessenta e cinco, uma revolta nascida no centro do poder teria trazido o saque e o incêndio dos edifícios e dos símbolos da elite. Depois apareceu cerâmica de Tula e dos matlatzincas, própria dessa época. Exceto por algumas construções modestas e muito posteriores, ninguém voltou a ocupar a cidade. Hirth propõe a ruptura da confederação que sustentava a cidade ou uma conquista vinda de fora. Outras fontes falam de um levante contra a elite. Uma lenda conta que o senhor de Xochicalco exigia a cada ano um nobre como tributo, até que o jovem rei de Tepoztlán, Tepoztécatl, o matou. Hirth vê aí a memória do fim da cidade. São hipóteses, não fatos. /  / Passaram-se vários séculos até que outros povos se estabelecessem na região. Uma fonte conta que os tlahuicas chegaram por volta do ano mil e duzentos. /  / Hoje o sítio está protegido. Foi decretado zona de monumentos arqueológicos em mil novecentos e noventa e quatro, e a UNESCO o declarou Patrimônio da Humanidade em mil novecentos e noventa e nove. A zona abrange cerca de setecentos e sete hectares. /  / Antes de ir embora, olhe o morro uma última vez. Uma cidade que durou séculos deixou pedras que continuam contando como o poder se organizava, como o tempo era medido e como se vivia no alto. O que você vê é uma cidade suspensa no momento de sua queda.
-
-### retos_observacion
-
-**ES:** Mira el cerro por última vez / Piensa en qué objetos dejarías tú si te fueras de prisa / Busca las huellas de fuego, si se alcanzan a ver
-
-**PT:** Olhe o morro pela última vez / Pense em quais objetos você deixaria se saísse às pressas / Procure os vestígios de fogo, se der para ver
-
-### especificaciones
-
-**ES:** Fundación: hacia el año seiscientos setenta / Abandono: hacia el mil sesenta y cinco, según Alvarado León; Webb y Hirth lo ponen hacia el novecientos / Decreto: mil novecientos noventa y cuatro / Patrimonio de la Humanidad: mil novecientos noventa y nueve / Superficie: unas setecientas siete hectáreas
-
-**PT:** Fundação: por volta do ano seiscentos e setenta / Abandono: por volta do mil e sessenta e cinco, segundo Alvarado León; Webb e Hirth o situam por volta do novecentos / Decreto: mil novecentos e noventa e quatro / Patrimônio da Humanidade: mil novecentos e noventa e nove / Superfície: cerca de setecentos e sete hectares
-
-### faq_mito
-
-**ES:** pregunta: Mito: Xochicalco fue abandonada poco a poco. / respuesta: Realidad: Las huellas de incendio y las casas con objetos dejados sugieren una salida abrupta. Las causas se siguen discutiendo.
-
-**PT:** pregunta: Mito: Xochicalco foi abandonada aos poucos. / respuesta: Realidade: Os vestígios de incêndio e as casas com objetos deixados sugerem uma saída abrupta. As causas continuam sendo discutidas.
-
-## Pieza: xoc_30_museo_estela_original
-
-### titulo
-
-**ES:** La Estela de los Dos Glifos, la original
-
-**PT:** A Estela dos Dois Glifos, a original
-
-### frase_gancho
-
-**ES:** La pieza central del museo: dos signos de calendario grabados en piedra.
-
-**PT:** A peça central do museu: dois signos de calendário gravados em pedra.
-
-### puente_narrativo
-
-**ES:** Continúa en el museo: la siguiente sala muestra otras piezas del sitio.
-
-**PT:** Continue no museu: a próxima sala mostra outras peças do sítio.
-
-### guion_corto
-
-**ES:** Esta es la pieza central del museo: la Estela de los Dos Glifos original. Según el INAH, es un monolito grabado con dos glifos de calendario, probablemente ligados a un hecho importante de la historia de Xochicalco. Uno es un año, diez caña, y el otro un día, nueve ojo de reptil. La estela que viste en la plaza es una réplica. Medina Romero propone que la fecha corresponde a la inauguración de la Pirámide de las Serpientes Emplumadas. Es una propuesta, no un dato cerrado. Fíjate en los glifos: son signos de tiempo puestos en piedra para que una ciudad entera recordara un día.
-
-**PT:** Esta é a peça central do museu: a Estela dos Dois Glifos original. Segundo o INAH, é um monólito gravado com dois glifos de calendário, provavelmente ligados a um fato importante da história de Xochicalco. Um é um ano, dez cana, e o outro um dia, nove olho de réptil. A estela que você viu na praça é uma réplica. Medina Romero propõe que a data corresponde à inauguração da Pirâmide das Serpentes Emplumadas. É uma proposta, não um dado definitivo. Repare nos glifos: são signos de tempo postos em pedra para que uma cidade inteira se lembrasse de um dia.
-
-### guion_largo
-
-**ES:** Aquí está la pieza que viste en la plaza, pero esta es la original. /  / Según el INAH, la Estela de los Dos Glifos es el centro de una sala del museo. Es un monolito grabado con dos glifos de calendario, probablemente ligados a un hecho importante de la historia de Xochicalco. /  / Uno de los glifos es un año, diez caña. El otro es un día, nueve ojo de reptil. La guía del INAH cuenta que esta fue una de cuatro estelas halladas en el sitio. La que viste en la [Plaza de la Estela](xoc_05_plaza_estela_dos_glifos) es una réplica. /  / Medina Romero propone que esa fecha corresponde a la inauguración de la Pirámide de las Serpientes Emplumadas. Es una propuesta, no un dato cerrado. Lo que sí puedes ver es lo que está grabado: dos signos que sirvieron para fijar un momento. /  / Fíjate en el tallado. Una estela es una piedra alta con relieves, pensada para ser vista por mucha gente. Alguien decidió que ese día merecía quedar en piedra.
-
-**PT:** Aqui está a peça que você viu na praça, mas esta é a original. /  / Segundo o INAH, a Estela dos Dois Glifos é o centro de uma sala do museu. É um monólito gravado com dois glifos de calendário, provavelmente ligados a um fato importante da história de Xochicalco. /  / Um dos glifos é um ano, dez cana. O outro é um dia, nove olho de réptil. O guia do INAH conta que esta foi uma de quatro estelas encontradas no sítio. A que você viu na [Praça da Estela](xoc_05_plaza_estela_dos_glifos) é uma réplica. /  / Medina Romero propõe que essa data corresponde à inauguração da Pirâmide das Serpentes Emplumadas. É uma proposta, não um dado definitivo. O que você pode ver é o que está gravado: dois signos que serviram para fixar um momento. /  / Repare na talha. Uma estela é uma pedra alta com relevos, pensada para ser vista por muita gente. Alguém decidiu que esse dia merecia ficar na pedra.
-
-### retos_observacion
-
-**ES:** Busca los dos glifos en la estela / Compara con la réplica que viste en la plaza / Piensa qué día de tu vida pondrías en piedra
-
-**PT:** Procure os dois glifos na estela / Compare com a réplica que você viu na praça / Pense em qual dia da sua vida você poria na pedra
-
-### especificaciones
-
-**ES:** Pieza: monolito con dos glifos de calendario / Glifos: año diez caña y día nueve ojo de reptil / Ubicación: Museo de Sitio de Xochicalco, según el INAH / Estelas halladas en el sitio: cuatro, según la guía del INAH
-
-**PT:** Peça: monólito com dois glifos de calendário / Glifos: ano dez cana e dia nove olho de réptil / Localização: Museu de Sítio de Xochicalco, segundo o INAH / Estelas encontradas no sítio: quatro, segundo o guia do INAH
-
-### faq_mito
-
-**ES:** pregunta: Mito: La estela de la plaza es la original. / respuesta: Realidad: La de la plaza es una réplica. La original está en el Museo de Sitio.
-
-**PT:** pregunta: Mito: A estela da praça é a original. / respuesta: Realidade: A da praça é uma réplica. A original está no Museu de Sítio.
-
-## Pieza: xoc_31_museo_marcadores_pelota
-
-### titulo
-
-**ES:** Los marcadores del juego de pelota
-
-**PT:** Os marcadores do jogo de bola
-
-### frase_gancho
-
-**ES:** Piedras talladas que estaban en una cancha y hoy se ven de cerca.
-
-**PT:** Pedras entalhadas que ficavam em uma quadra e hoje podem ser vistas de perto.
-
-### puente_narrativo
-
-**ES:** Continúa en el museo: la siguiente sala muestra otras piezas del sitio.
-
-**PT:** A visita continua no museu: a próxima sala mostra outras peças do sítio.
-
-### guion_corto
-
-**ES:** Los marcadores de la cancha este están aquí. Según la guía del INAH, tienen bajorrelieve y se exhiben en el Museo de Sitio. Un marcador era una piedra tallada que se colocaba en el muro de la cancha del juego de pelota. Otra fuente cuenta que algunas piezas del museo conservan pigmentos rojos. Recuerda que la escultura de guacamaya de la cancha sur está en el Museo Nacional de Antropología, no aquí. Fíjate qué tan profundo es el tallado y si queda algo de color. Sin el museo, estas piedras serían solo un dato en una guía; aquí puedes verlas de cerca y entender por qué las canchas importaban tanto.
-
-**PT:** Os marcadores da quadra leste estão aqui. Segundo o guia do INAH, eles têm baixo-relevo e são exibidos no Museu de Sítio. Um marcador era uma pedra entalhada que se colocava no muro da quadra do jogo de bola. Outra fonte conta que algumas peças do museu conservam pigmentos vermelhos. Lembre-se de que a escultura de arara da quadra sul está no Museu Nacional de Antropologia, não aqui. Observe a profundidade do entalhe e se ainda resta alguma cor. Sem o museu, estas pedras seriam apenas uma informação em um guia; aqui você pode vê-las de perto e entender por que as quadras eram tão importantes.
-
-### guion_largo
-
-**ES:** Estas piedras estuvieron en una cancha. /  / Según la guía del INAH, los marcadores de la cancha este tienen bajorrelieve y se exhiben en el Museo de Sitio. Un bajorrelieve es una figura tallada que sobresale poco de la piedra. Un marcador era una piedra que se colocaba en el muro de la cancha del juego de pelota. /  / Otra fuente cuenta que el museo exhibe marcadores de juego de pelota tallados, uno de ellos entre sus piezas, y que algunas piezas conservan pigmentos rojos. /  / Hay un detalle que conviene tener claro. La guacamaya que se halló en la cancha sur no está aquí. Según la guía del INAH, hoy está en el Museo Nacional de Antropología. /  / Compara estas piezas con lo que viste en las canchas. La cancha sur conserva dos marcadores en su sitio, la norte los tiene caídos y los de la este están aquí. Tres canchas, tres destinos. /  / Fíjate qué tan profundo es el tallado y si queda algo de color. Es la mejor forma de acercarte a lo que se jugaba allá afuera.
-
-**PT:** Estas pedras estiveram em uma quadra. /  / Segundo o guia do INAH, os marcadores da quadra leste têm baixo-relevo e são exibidos no Museu de Sítio. Um baixo-relevo é uma figura entalhada que se projeta pouco da pedra. Um marcador era uma pedra que se colocava no muro da quadra do jogo de bola. /  / Outra fonte conta que o museu exibe marcadores de jogo de bola entalhados, um deles entre suas peças, e que algumas peças conservam pigmentos vermelhos. /  / Há um detalhe que convém deixar claro. A arara que foi encontrada na quadra sul não está aqui. Segundo o guia do INAH, hoje ela está no Museu Nacional de Antropologia. /  / Compare estas peças com o que você viu nas quadras. A quadra sul conserva dois marcadores em seu lugar, a norte os tem caídos e os da leste estão aqui. Três quadras, três destinos. /  / Observe a profundidade do entalhe e se ainda resta alguma cor. É a melhor forma de se aproximar do que se jogava lá fora.
-
-### retos_observacion
-
-**ES:** Mira el tallado de cerca / Busca restos de color rojo / Compara con la cancha que viste afuera
-
-**PT:** Olhe o entalhe de perto / Procure restos de cor vermelha / Compare com a quadra que você viu lá fora
-
-### especificaciones
-
-**ES:** Pieza: marcadores de la cancha este, con bajorrelieve / Ubicación: Museo de Sitio, según la guía del INAH / Guacamaya de la cancha sur: Museo Nacional de Antropología
-
-**PT:** Peça: marcadores da quadra leste, com baixo-relevo / Localização: Museu de Sítio, segundo o guia do INAH / Arara da quadra sul: Museu Nacional de Antropologia
-
-### faq_mito
-
-**ES:** pregunta: Mito: Todas las piezas de las canchas están en el museo del sitio. / respuesta: Realidad: La guacamaya de la cancha sur está en el Museo Nacional de Antropología, y dos marcadores siguen en la cancha sur.
-
-**PT:** pregunta: Mito: Todas as peças das quadras estão no museu do sítio. / respuesta: Realidade: A arara da quadra sul está no Museu Nacional de Antropologia, e dois marcadores continuam na quadra sul.
-
-## Pieza: xoc_32_museo_arquitectura_vasijas
-
-### titulo
-
-**ES:** Los edificios por dentro: relieves, vasijas y maquetas
-
-**PT:** Os edifícios por dentro: relevos, vasilhas e maquetes
-
-### frase_gancho
-
-**ES:** Piezas que decoraron la ciudad y objetos que muestran cómo se vivía.
-
-**PT:** Peças que decoraram a cidade e objetos que mostram como se vivia.
-
-### guion_corto
-
-**ES:** Esta sala muestra cómo era la ciudad por dentro. El edificio lo diseñó el arquitecto Rolando Dada y Lemus, y se inauguró en mil novecientos noventa y seis. Tiene seis salas con temas como la arquitectura, la vida cotidiana, el intercambio y la religión. Según el INAH, hay cortes de arquitectura que exhiben piezas esculturales que decoraron los edificios. La decoración es rica y variada, y está asociada sobre todo con la fertilidad. Otra fuente menciona vasijas elaboradas y maquetas de pirámides, algunas con pigmentos rojos. Juntas dan una idea de cómo se veía esta ciudad: edificios decorados, objetos de uso diario y gente que los hacía. Mientras recorres la sala, imagina esas piezas de vuelta en sus muros. Antes de salir, busca la que más te haga imaginar el color que tuvo Xochicalco. Con eso termina tu recorrido por el museo.
-
-**PT:** Esta sala mostra como era a cidade por dentro. O edifício foi projetado pelo arquiteto Rolando Dada y Lemus e inaugurado em mil novecentos e noventa e seis. Tem seis salas, com temas como a arquitetura, a vida cotidiana, a troca e a religião. Segundo o INAH, há cortes de arquitetura que exibem peças escultóricas que decoraram os edifícios. A decoração é rica e variada, e está associada sobretudo à fertilidade. Outra fonte menciona vasilhas elaboradas e maquetes de pirâmides, algumas com pigmentos vermelhos. Juntas, dão uma ideia de como era esta cidade: edifícios decorados, objetos de uso diário e as pessoas que os faziam. Enquanto percorre a sala, imagine essas peças de volta aos seus muros. Antes de sair, procure aquela que mais faça você imaginar a cor que Xochicalco teve. Com isso termina o seu percurso pelo museu.
-
-### guion_largo
-
-**ES:** Hasta ahora viste la ciudad desde afuera. Esta sala te la muestra por dentro. El museo lo diseñó el arquitecto Rolando Dada y Lemus. Lo terminaron en mil novecientos noventa y cuatro y lo inauguraron en abril de mil novecientos noventa y seis. Según el libro del INAH de Alvarado León, fue el primer museo autosustentable que se construyó en el mundo. Cada sala tiene un domo con espejos que reparte la luz del día, y las celdas solares cubren los días nublados. El agua de lluvia se guarda para los servicios, y los muros dobles ventilan el edificio. Por fuera, el arquitecto lo hizo discreto para que no compitiera con la zona arqueológica. Tiene seis salas, y su forma hexagonal permite ver tres desde un mismo punto. Exhibe más de novecientas piezas. Los nombres de las salas dan idea del recorrido. Son Los Dones de la Tierra, Hombres Guerreros y Hombres Sacerdotes, Xochicalco Resguardo de Hombres, Manos Creadoras, Los Rituales del Juego, y Espacios Cotidianos y Tiempos de Convivencia. /  / Según el INAH, la sala exhibe cortes de arquitectura con piezas esculturales que decoraron los edificios de la ciudad. La decoración es rica y variada, y está asociada sobre todo con la fertilidad. /  / Otra fuente menciona que el museo también tiene vasijas elaboradas y maquetas de pirámides, y que algunas piezas conservan pigmentos rojos. /  / Piensa en lo que has visto afuera: muros, terrazas y relieves en piedra desnuda. Aquí puedes imaginar cómo eran antes. Una fuente cuenta que los relieves de la Pirámide de las Serpientes Emplumadas estuvieron pintados de rojo, verde, amarillo, azul, negro y blanco. /  / Las vasijas, por su parte, hablan de la gente. En una de las casas excavadas por Webb y Hirth quedaron más de cien vasijas cuando la ciudad se abandonó. Son los objetos de todos los días. /  / Antes de salir, busca la pieza que más te haga imaginar el color que tuvo Xochicalco. Con eso termina tu recorrido por el museo.
-
-**PT:** Até agora você viu a cidade por fora. Esta sala mostra a cidade por dentro. O museu foi projetado pelo arquiteto Rolando Dada y Lemus. Foi concluído em mil novecentos e noventa e quatro e inaugurado em abril de mil novecentos e noventa e seis. Segundo o livro do INAH de Alvarado León, foi o primeiro museu autossustentável construído no mundo. Cada sala tem uma cúpula com espelhos que distribui a luz do dia, e as células solares cobrem os dias nublados. A água da chuva é guardada para os serviços, e as paredes duplas ventilam o edifício. Por fora, o arquiteto o fez discreto para que não competisse com a zona arqueológica. Tem seis salas, e sua forma hexagonal permite ver três delas de um mesmo ponto. Exibe mais de novecentas peças. Os nomes das salas dão uma ideia do percurso. São Los Dones de la Tierra, Hombres Guerreros y Hombres Sacerdotes, Xochicalco Resguardo de Hombres, Manos Creadoras, Los Rituales del Juego, e Espacios Cotidianos y Tiempos de Convivencia. /  / Segundo o INAH, a sala exibe cortes de arquitetura com peças escultóricas que decoraram os edifícios da cidade. A decoração é rica e variada, e está associada sobretudo à fertilidade. /  / Outra fonte menciona que o museu também tem vasilhas elaboradas e maquetes de pirâmides, e que algumas peças conservam pigmentos vermelhos. /  / Pense no que você viu lá fora: muros, terraços e relevos em pedra nua. Aqui você pode imaginar como eram antes. Uma fonte conta que os relevos da Pirâmide das Serpentes Emplumadas foram pintados de vermelho, verde, amarelo, azul, preto e branco. /  / As vasilhas, por sua vez, falam das pessoas. Em uma das casas escavadas por Webb e Hirth ficaram mais de cem vasilhas quando a cidade foi abandonada. São os objetos de todos os dias. /  / Antes de sair, procure a peça que mais faça você imaginar a cor que Xochicalco teve. Com isso termina o seu percurso pelo museu.
-
-### retos_observacion
-
-**ES:** Busca una pieza con restos de color / Compara las maquetas con la pirámide que viste afuera / Mira las vasijas y piensa quién las usaba
-
-**PT:** Procure uma peça com restos de cor / Compare as maquetes com a pirâmide que você viu lá fora / Olhe as vasilhas e pense em quem as usava
-
-### especificaciones
-
-**ES:** Sala: piezas esculturales que decoraron los edificios, asociadas sobre todo con la fertilidad, según el INAH / Otras piezas: vasijas elaboradas y maquetas de pirámides, según Mesoweb / Pigmentos: algunas piezas conservan rojo
-
-**PT:** Sala: peças escultóricas que decoraram os edifícios, associadas sobretudo à fertilidade, segundo o INAH / Outras peças: vasilhas elaboradas e maquetes de pirâmides, segundo a Mesoweb / Pigmentos: algumas peças conservam vermelho
-
-### faq_mito
-
-**ES:** pregunta: Mito: Todo lo que se ve en Xochicalco está en su sitio original. / respuesta: Realidad: Muchas piezas esculpidas se exhiben en el museo, y otras están en el Museo Nacional de Antropología.
-
-**PT:** pregunta: Mito: Tudo o que se vê em Xochicalco está em seu lugar original. / respuesta: Realidade: Muitas peças esculpidas estão expostas no museu, e outras estão no Museu Nacional de Antropologia.
-
-## Sala: xoc-01-llegada
+## Sala: bas-a-acceso-y-origen
 
 ### nombre_oficial
 
-**ES:** Llegada y primera mirada
+**ES:** Acceso y origen
 
-**PT:** Chegada e primeiro olhar
+**PT:** Acesso e origem
 
 ### frase_gancho
 
-**ES:** Una ciudad levantada sobre cerros, con un camino de piedra que sigue entrando por el mismo lugar.
+**ES:** Del camino mexica al atrio de la Basílica.
 
-**PT:** Uma cidade erguida sobre colinas, com um caminho de pedra que continua entrando pelo mesmo lugar.
+**PT:** Do caminho mexica ao átrio da Basílica.
 
 ### introduccion_narrativa
 
-**ES:** Empiezas en la entrada de la zona arqueológica de Xochicalco, en Morelos. Esta ciudad nació en el Epiclásico, cuando cayeron los grandes centros del periodo anterior. Antes de subir, conviene entender qué clase de ciudad es y por qué se construyó donde está.
+**ES:** Aquí empieza el recorrido: la calzada que llevaba al Tepeyac, el atrio donde se reúnen los peregrinos y la historia del lugar antes y después del santuario.
 
-**PT:** Você começa na entrada da zona arqueológica de Xochicalco, em Morelos. Esta cidade nasceu no Epiclássico, quando caíram os grandes centros do período anterior. Antes de subir, convém entender que tipo de cidade ela é e por que foi construída onde está.
+**PT:** Aqui começa o percurso: a calçada que levava ao Tepeyac, o átrio onde os peregrinos se reúnem e a história do lugar antes e depois do santuário.
 
-## Sala: xoc-02-ciudad-intermedia
+## Sala: bas-c-nueva-basilica
 
 ### nombre_oficial
 
-**ES:** Plaza de la Estela y conjunto sur
+**ES:** La Nueva Basílica y la imagen
 
-**PT:** Praça da Estela e conjunto sul
+**PT:** A Nova Basílica e a imagem
 
 ### frase_gancho
 
-**ES:** El mercado, la cancha más grande y una calzada de altares que parecen contar los días.
+**ES:** El templo circular donde hoy se venera la imagen.
 
-**PT:** O mercado, a maior quadra e uma calçada de altares que parecem contar os dias.
+**PT:** O templo circular onde hoje se venera a imagem.
 
 ### introduccion_narrativa
 
-**ES:** En el nivel intermedio estaban la plaza del mercado, la cancha de juego de pelota más grande y los espacios donde vivía gente importante. Aquí se ve cómo funcionaba la ciudad antes de llegar a los templos de arriba.
+**ES:** Dentro de la Nueva Basílica están el Santo Cristo del Atentado, la imagen de Nuestra Señora de Guadalupe y la banda móvil que permite verla sin detenerse.
 
-**PT:** No nível intermediário ficavam a praça do mercado, a maior quadra de jogo de bola e os espaços onde viviam pessoas importantes. Aqui você vê como a cidade funcionava antes de chegar aos templos lá em cima.
+**PT:** Dentro da Nova Basílica estão o Santo Cristo do Atentado, a imagem de Nossa Senhora de Guadalupe e a esteira rolante que permite vê-la sem parar.
 
-## Sala: xoc-03-plaza-principal
+## Sala: bas-b-antigua-y-museo
 
 ### nombre_oficial
 
-**ES:** Plaza Principal
+**ES:** La Antigua Basílica y el museo
 
-**PT:** Praça Principal
+**PT:** A Antiga Basílica e o museu
 
 ### frase_gancho
 
-**ES:** La plaza donde se levanta la Pirámide de las Serpientes Emplumadas, con su calendario en piedra.
+**ES:** Los templos y el museo donde se guarda la memoria del santuario.
 
-**PT:** A praça onde se ergue a Pirâmide das Serpentes Emplumadas, com seu calendário em pedra.
+**PT:** Os templos e o museu onde se guarda a memória do santuário.
 
 ### introduccion_narrativa
 
-**ES:** La Plaza Principal está en lo más alto, sobre un gran montículo artificial y con entradas defendidas. Ahí están la Pirámide de las Serpientes Emplumadas, otros templos, la Acrópolis y la cueva del observatorio, hoy cerrada al público.
+**ES:** La Antigua Basílica, el templo de las Capuchinas, el Museo de la Basílica y la Parroquia de Indios cuentan trescientos años de historia del santuario.
 
-**PT:** A Praça Principal fica no ponto mais alto, sobre um grande monte artificial e com entradas defendidas. Ali estão a Pirâmide das Serpentes Emplumadas, outros templos, a Acrópole e a caverna do observatório, hoje fechada ao público.
+**PT:** A Antiga Basílica, o templo das Capuchinhas, o Museu da Basílica e a Paróquia de Índios contam trezentos anos de história do santuário.
 
-## Sala: xoc-04-conjunto-norte
+## Sala: bas-d-pocito
 
 ### nombre_oficial
 
-**ES:** Conjunto Norte
+**ES:** La Capilla del Pocito
 
-**PT:** Conjunto Norte
+**PT:** A Capela do Pocito
 
 ### frase_gancho
 
-**ES:** Cisterna, temazcal y un salón con altar pintado: la parte de la ciudad que cuenta cómo se vivía.
+**ES:** Una joya del barroco junto a un manantial.
 
-**PT:** Cisterna, temazcal e um salão com altar pintado: a parte da cidade que conta como se vivia.
+**PT:** Uma joia do barroco junto a uma nascente.
 
 ### introduccion_narrativa
 
-**ES:** Al norte de la Plaza Principal queda un conjunto con la cisterna que recogía agua de lluvia, un salón con altar pintado y un baño de vapor. Es una parte para entender la vida cotidiana y los rituales.
+**ES:** Una capilla del siglo dieciocho, con tres cúpulas de talavera, construida junto a un pozo que la tradición guadalupana asocia con las apariciones.
 
-**PT:** Ao norte da Praça Principal fica um conjunto com a cisterna que recolhia água da chuva, um salão com altar pintado e um banho de vapor. É uma parte para entender a vida cotidiana e os rituais.
+**PT:** Uma capela do século dezoito, com três cúpulas de talavera, construída junto a um poço que a tradição guadalupana associa às aparições.
 
-## Sala: xoc-05-conjunto-este
+## Sala: bas-e-cerro
 
 ### nombre_oficial
 
-**ES:** Conjunto Este
+**ES:** El cerro del Tepeyac
 
-**PT:** Conjunto Leste
-
-### frase_gancho
-
-**ES:** Una rampa de piedra con cientos de animales grabados y un templo donde se encontraron herramientas.
-
-**PT:** Uma rampa de pedra com centenas de animais gravados e um templo onde foram encontradas ferramentas.
-
-### introduccion_narrativa
-
-**ES:** Al este de la plaza hay una rampa pavimentada con losas grabadas con animales, un templo donde aparecieron herramientas de construcción y otra cancha de pelota. Es un buen lugar para detenerse en los detalles.
-
-**PT:** A leste da praça há uma rampa pavimentada com lajes gravadas com animais, um templo onde apareceram ferramentas de construção e outra quadra de jogo de bola. É um bom lugar para se deter nos detalhes.
-
-## Sala: xoc-06-cierre
-
-### nombre_oficial
-
-**ES:** Historia y final de la ciudad
-
-**PT:** História e fim da cidade
+**PT:** O cerro do Tepeyac
 
 ### frase_gancho
 
-**ES:** Cómo se redescubrió Xochicalco y qué pasó cuando la ciudad fue quemada y abandonada.
+**ES:** Jardines, la Capilla del Cerrito y el Panteón.
 
-**PT:** Como Xochicalco foi redescoberta e o que aconteceu quando a cidade foi incendiada e abandonada.
-
-### introduccion_narrativa
-
-**ES:** Cierras el recorrido con dos preguntas. Quién redescubrió la ciudad para el mundo moderno y qué le pasó a Xochicalco hacia el año novecientos.
-
-**PT:** Você encerra o percurso com duas perguntas. Quem redescobriu a cidade para o mundo moderno e o que aconteceu com Xochicalco por volta do ano novecentos.
-
-## Sala: xoc-07-museo-sitio
-
-### nombre_oficial
-
-**ES:** Museo de Sitio
-
-**PT:** Museu de Sítio
-
-### frase_gancho
-
-**ES:** Las piezas originales que ya no están en la zona.
-
-**PT:** As peças originais que já não estão na zona.
+**PT:** Jardins, a Capela do Cerrito e o Panteão.
 
 ### introduccion_narrativa
 
-**ES:** El Museo de Sitio reúne piezas encontradas en las excavaciones, entre ellas la Estela de los Dos Glifos original. Se visita aparte, al terminar el recorrido, y sus tres paradas forman parte de la ruta completa.
+**ES:** La subida por el cerro: los jardines con La Ofrenda, la capilla de la cima con vista a la ciudad y el panteón donde descansan personajes de la historia de México.
 
-**PT:** O Museu de Sítio reúne peças encontradas nas escavações, entre elas a Estela dos Dois Glifos original. Ele é visitado à parte, ao final do percurso, e suas três paradas fazem parte da rota completa.
+**PT:** A subida pelo cerro: os jardins com A Oferenda, a capela do alto com vista para a cidade e o panteão onde repousam personagens da história do México.

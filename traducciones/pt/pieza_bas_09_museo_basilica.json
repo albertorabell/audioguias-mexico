@@ -1,0 +1,55 @@
+{
+  "id": "bas_09_museo_basilica",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8f53edf3c8475513",
+      "texto": "O Museu da Basílica de Guadalupe"
+    },
+    "frase_gancho": {
+      "hash": "1f9d89cbb51b5773",
+      "texto": "Arte sacra e a memória da devoção no antigo convento."
+    },
+    "puente_narrativo": {
+      "hash": "955d94e8c3020ad2",
+      "texto": "Você segue para o museu, no antigo convento."
+    },
+    "guion_corto": {
+      "hash": "e7258066a6048b56",
+      "texto": "Você está no Museu da Basílica de Guadalupe, aberto em doze de outubro de mil novecentos e quarenta e um. Ele ocupa o antigo convento, atrás da Antiga Basílica. Tem cerca de dezesseis salas e mais de quatro mil peças de arte asiática, europeia e novo-hispânica, dos séculos quinze ao vinte. Há obras de pintores como Cristóbal de Villalpando, José de Ibarra e Miguel Cabrera. É considerado um dos museus mais antigos do México. Aqui se reúne arte sacra e também a memória da devoção: oferendas e objetos que os fiéis deixaram ao longo dos séculos. Os horários e o preço da entrada podem mudar."
+    },
+    "guion_largo": {
+      "hash": "6f19f391b0542aa5",
+      "texto": "O Museu da Basílica de Guadalupe abriu suas portas em doze de outubro de mil novecentos e quarenta e um. É considerado um dos museus mais antigos do México. Ocupa o antigo convento das capuchinhas, atrás da Antiga Basílica.\n\nSua coleção é ampla. Tem cerca de dezesseis salas e mais de quatro mil peças. Há arte asiática, europeia e novo-hispânica, dos séculos quinze ao vinte. Entre os autores citados estão Matías de Arteaga y Alfaro, Cristóbal de Villalpando, Nicolás Rodríguez Juárez, José de Ibarra e Miguel Cabrera, nomes importantes da pintura novo-hispânica. O museu se apresenta como aquele que reúne a maior coleção relacionada à Virgem de Guadalupe.\n\nAlém de pintura sobre tela, há escultura policromada, escultura em mármore e marfim, gravuras, livros, têxteis como estandartes, tapeçarias e vestimentas litúrgicas, ourivesaria e mobiliário de origem mexicana. Algumas salas são organizadas por tema. Há uma Sala de Arcanjos, com pinturas dos arcanjos, e uma Sala Cristológica, dedicada a Jesus.\n\nUma parte importante da coleção são os ex-votos, as pequenas pinturas com as quais os fiéis agradeceram, e sobre os quais falaremos na próxima parada.\n\nO edifício também guarda uma parte da história. É o antigo convento das capuchinhas, e ficou parcialmente separado da Antiga Basílica, uma separação que se percebe melhor do lado de fora.\n\nSegundo a direção do museu, quando abriu, em mil novecentos e quarenta e um, a arte religiosa não era valorizada como hoje, e sua fundação foi uma decisão à frente de seu tempo. Com os anos, a coleção tem sido solicitada para exposições importantes, como as do Museu do Prado, em Madri, e do Museu Metropolitano de Arte, em Nova York.\n\nQuem visita o museu o faz de formas distintas. Para os crentes, é uma maneira de conhecer a devoção de gerações anteriores. Para quem estuda arte, é uma coleção de pintura novo-hispânica. Para os curiosos, é uma janela para como se vivia a fé em cada época. A diretora do museu já disse que percorrê-lo é uma experiência espiritual, independentemente da religião que cada um professe.\n\nOs horários, o preço da entrada e as salas abertas podem mudar. Convém confirmá-los no site oficial antes de ir. É um museu, mas também faz parte de um recinto de culto, então espera-se um trato respeitoso.\n\nSe você tem pouco tempo, escolha uma sala e olhe com calma uma única obra. Uma pintura bem observada diz mais do que muitas vistas às pressas."
+    },
+    "retos_observacion": {
+      "hash": "7f97d36c306962b3",
+      "texto": [
+        "Procure uma obra de Villalpando, Ibarra ou Cabrera",
+        "Observe os objetos que os fiéis deixaram",
+        "Repare no edifício do antigo convento"
+      ]
+    },
+    "especificaciones": {
+      "hash": "823a01f3b8b7ee2e",
+      "texto": {
+        "Abertura": "12 de outubro de 1941",
+        "Salas": "cerca de 16",
+        "Peças": "mais de 4 000",
+        "Épocas": "séculos XV ao XX",
+        "Pintores": "Villalpando, Ibarra, Cabrera"
+      }
+    },
+    "faq_mito": {
+      "hash": "393c5d6014d2c3d7",
+      "texto": {
+        "pregunta": "Mito: O Museu da Basílica é recente.",
+        "respuesta": "Realidade: Foi aberto em doze de outubro de mil novecentos e quarenta e um, e é considerado um dos museus mais antigos do México."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bas_06_antigua_fachada",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ba359c19f0c3af0c",
+      "texto": "A Antiga Basílica: fachada"
+    },
+    "frase_gancho": {
+      "hash": "c2bab9efbcd3c2e4",
+      "texto": "Um templo barroco que afundou e foi salvo."
+    },
+    "puente_narrativo": {
+      "hash": "d60264595a444c00",
+      "texto": "Você sai da Nova Basílica e caminha até a Antiga, a poucos metros."
+    },
+    "guion_corto": {
+      "hash": "aa3defcd2018ce1a",
+      "texto": "Diante de você está a Antiga Basílica, hoje Templo Expiatório a Cristo Rei. Sua construção começou em vinte e cinco de março de mil seiscentos e noventa e cinco e terminou em abril de mil setecentos e nove, sob a direção do arquiteto Pedro de Arrieta. Ela tem três naves, uma cúpula octogonal com lanternim de talavera e quatro torres octogonais, uma em cada canto. A imagem de Nossa Senhora de Guadalupe foi venerada aqui de mil setecentos e nove até mil novecentos e setenta e seis, com algumas saídas temporárias. A fachada tem forma de biombo. Uma interpretação sustenta que as quatro torres evocam o Templo de Salomão. O terreno afundou de forma desigual, e por isso o templo ficou fechado durante décadas."
+    },
+    "guion_largo": {
+      "hash": "c8e7055562279483",
+      "texto": "A Antiga Basílica é o segundo grande santuário que se levantou neste lugar. Antes houve uma pequena ermida e, desde mil seiscentos e vinte e dois, um templo de pedra. Em mil seiscentos e noventa e cinco, o arcebispo Juan de Aguiar y Seijas decidiu construir um novo, e o templo anterior foi demolido.\n\nA pedra fundamental daquele templo havia sido colocada em mil seiscentos e nove, e ele foi dedicado em novembro de mil seiscentos e vinte e dois. Em mil seiscentos e vinte e nove, por causa de uma inundação da cidade, a imagem foi levada para a Catedral. Ela voltou em quinze de maio de mil seiscentos e trinta e quatro.\n\nAs obras começaram em vinte e cinco de março de mil seiscentos e noventa e cinco. Primeiro trabalhou o arquiteto José Durán. Com a morte dele, em mil setecentos e sete, seguiu Pedro de Arrieta, um dos grandes arquitetos do barroco da Nova Espanha. O templo foi benzido em vinte e sete de abril de mil setecentos e nove, e a imagem de Nossa Senhora de Guadalupe foi levada em procissão em trinta de abril. A cartela da fachada indica o primeiro de maio, e as fontes citam ambas as datas.\n\nObserve o edifício. Ele tem planta basilical de três naves e uma cúpula octogonal arrematada por um lanternim coberto de talavera amarela e azul. Em cada canto há uma torre octogonal, quatro no total. A fachada tem forma de biombo, ou seja, é dobrada em planos como aquelas peças de madeira usadas para dividir um espaço, e é adornada com meias-colunas coríntias. Uma interpretação sustenta que as quatro torres evocam o Templo de Salomão, um tema que a historiadora da arte Martha Fernández estudou.\n\nA Antiga Basílica foi colegiada, ou seja, teve um cabido próprio de sacerdotes, desde mil setecentos e cinquenta. Em mil oitocentos e noventa e cinco, em doze de outubro, a imagem foi coroada aqui com autorização do papa Leão treze. Em mil novecentos e quatro, em vinte e quatro de maio, o templo recebeu o título de basílica menor, uma honra que o papa concede a templos importantes por sua história e seu lugar na vida da Igreja.\n\nCom o tempo, o subsolo cedeu e o edifício afundou de maneira desigual. Em mil novecentos e setenta e seis, quando a Nova Basílica foi inaugurada, a imagem foi transferida e este templo foi fechado. Em mil novecentos e setenta e nove, o Instituto Nacional de Antropologia e História (INAH) e o Episcopado promoveram sua consolidação.\n\nDepois de décadas de trabalhos, o templo voltou a ser aberto ao culto com o nome de Templo Expiatório a Cristo Rei. Se você contornar o edifício, poderá ver que a parte traseira, a abside, ficou separada do restante por vários metros, uma lembrança visível do afundamento.\n\nPara quem visita o santuário, este edifício é o lugar onde a imagem esteve durante a maior parte de sua história moderna. Para quem se interessa por arte, é uma das obras maiores de Pedro de Arrieta. E para todos é um exemplo de como uma cidade construída sobre um lago cuida de seus monumentos."
+    },
+    "retos_observacion": {
+      "hash": "8f6be73c981cc78d",
+      "texto": [
+        "Conte as quatro torres",
+        "Olhe a cúpula com lanternim de talavera",
+        "Observe se o edifício parece inclinado"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ee07d9adceab824d",
+      "texto": {
+        "Obra": "25 de março de 1695 a abril de 1709",
+        "Arquitecto": "Pedro de Arrieta",
+        "Planta": "três naves",
+        "Cúpula": "octogonal com lanternim de talavera",
+        "Torres": "quatro, octogonais"
+      }
+    },
+    "faq_mito": {
+      "hash": "c3f23e64f0180f13",
+      "texto": {
+        "pregunta": "Mito: A Antiga Basílica foi fechada por causa da bomba de mil novecentos e vinte e um.",
+        "respuesta": "Realidade: A bomba danificou o altar, mas o templo foi fechado ao culto depois da transferência da imagem em mil novecentos e setenta e seis, após anos de afundamento desigual do terreno."
+      }
+    }
+  }
+}

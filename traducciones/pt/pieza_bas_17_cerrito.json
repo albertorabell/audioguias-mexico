@@ -1,0 +1,54 @@
+{
+  "id": "bas_17_cerrito",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d406831019995b44",
+      "texto": "A Capela do Cerrito"
+    },
+    "frase_gancho": {
+      "hash": "8413c2bebbe53379",
+      "texto": "O topo do Tepeyac, com vista para a cidade."
+    },
+    "puente_narrativo": {
+      "hash": "0dc1d8afafdc934f",
+      "texto": "Você sobe os últimos metros até o topo do morro."
+    },
+    "guion_corto": {
+      "hash": "4ea6a86d9b1065b2",
+      "texto": "Você chegou ao topo do Tepeyac, à Capela do Cerrito. Segundo a tradição guadalupana, neste lugar São Juan Diego encontrou as rosas que levou ao bispo como sinal. Cristóbal de Aguirre e sua esposa Teresa mandaram erguer aqui uma pequena ermida, em mil seiscentos e sessenta ou mil seiscentos e sessenta e seis, segundo a fonte. A capela atual, dedicada a São Miguel Arcanjo, é do século dezoito, com uma fachada barroca de tezontle sem torres. Lá dentro há afrescos do muralista Fernando Leal que narram as aparições. Da varanda se vê a cidade. Ela também é chamada de Capela das Rosas, e seus horários podem mudar."
+    },
+    "guion_largo": {
+      "hash": "e9bca9178b58c498",
+      "texto": "Você está no topo do morro do Tepeyac, diante da Capela do Cerrito, que também se chama Capela das Rosas ou Capela do Cerrito dos Anjos.\n\nSegundo a tradição guadalupana, neste lugar São Juan Diego colheu as rosas que levou em sua tilma ao bispo frei Juan de Zumárraga, como o sinal que a Virgem Maria lhe pedia. Por isso ela é lembrada como a capela das rosas. É, para muitos fiéis, o lugar mais ligado às aparições de todo o conjunto.\n\nA primeira ermida neste lugar foi mandada construir por Cristóbal de Aguirre e sua esposa Teresa, para recordar as três aparições que aconteceram no morro. Uma placa no local indica a data de mil seiscentos e sessenta. Outras fontes dizem mil seiscentos e sessenta e seis, e aqui as duas são citadas. Foi dedicada a São Miguel Arcanjo, a quem a tradição cristã reconhece como chefe dos anjos, e cujo nome se interpreta como quem como Deus. A Igreja o apresenta como defensor e protetor, com a ideia de que, das alturas, ele cuidasse do santuário ao pé do morro.\n\nEssa antiga ermida foi substituída. Em meados do século dezoito, solicitou-se permissão para construir uma nova. A primeira ermida foi demolida em mil setecentos e quarenta e oito, e por volta de mil setecentos e cinquenta e seis foi celebrada a primeira missa na capela atual. A fachada, de estilo barroco, é feita de tezontle vermelho e não tem torres.\n\nA placa da capela atribui sua fachada, e também a Vela do Marinheiro e a escadaria leste, ao arquiteto Francisco Guerrero y Torres, o mesmo que projetou a Capela do Pocito.\n\nA capela foi reconstruída entre mil novecentos e quarenta e cinco e mil novecentos e cinquenta. Nessa etapa, foi acrescentada uma pequena praça com quatro esculturas dos arcanjos Miguel, Rafael, Gabriel e Uriel. Em mil oitocentos e noventa e cinco haviam sido colocados quatro anjos de mármore, obra do escultor Ernesto Tamariz, e uma cruz de apóstolo, no ano da coroação pontifícia da imagem.\n\nLá dentro, o interior é decorado com afrescos do pintor Fernando Leal, um dos artistas do movimento muralista mexicano. Suas pinturas representam momentos das aparições, tal como a tradição os narra, e são uma maneira de contar a história a quem visita a capela.\n\nSobe-se à capela por uma escadaria íngreme e sinuosa, e convém subir com calma. Da varanda se vê a cidade. O morro, que no século dezesseis ficava afastado da cidade, hoje está cercado de ruas e edifícios.\n\nEste é um templo pequeno e muito visitado. Quando há oração ou missa, recomenda-se esperar do lado de fora ou entrar sem fazer barulho. Os horários podem mudar, por isso convém confirmá-los no site oficial."
+    },
+    "retos_observacion": {
+      "hash": "18597ab37d7225c8",
+      "texto": [
+        "Olhe a fachada de tezontle sem torres",
+        "Procure a varanda e a vista para a cidade",
+        "Observe os afrescos de Fernando Leal dentro da capela"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3d6ebf0963fff18",
+      "texto": {
+        "Ermida": "1660 ou 1666, segundo a fonte",
+        "Promotores": "Cristóbal de Aguirre e Teresa",
+        "Capela atual": "século XVIII, dedicada a São Miguel Arcanjo",
+        "Afrescos": "Fernando Leal"
+      }
+    },
+    "faq_mito": {
+      "hash": "001efa0cfdf1e4a7",
+      "texto": {
+        "pregunta": "Mito: A capela do topo é a original.",
+        "respuesta": "Realidade: A primeira ermida é de mil seiscentos e sessenta ou mil seiscentos e sessenta e seis, segundo a fonte; a capela atual é do século dezoito."
+      }
+    }
+  }
+}

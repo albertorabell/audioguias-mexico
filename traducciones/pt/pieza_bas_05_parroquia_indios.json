@@ -1,0 +1,54 @@
+{
+  "id": "bas_05_parroquia_indios",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "345cf9b598580178",
+      "texto": "A Paróquia de Índios"
+    },
+    "frase_gancho": {
+      "hash": "ebe7c4d3988cad57",
+      "texto": "O edifício mais antigo que se conserva do conjunto."
+    },
+    "puente_narrativo": {
+      "hash": "398b1205f5b73106",
+      "texto": "Você desce até a Paróquia de Índios, uma capela pequena e tranquila."
+    },
+    "guion_corto": {
+      "hash": "4ed837fbf6a1d15f",
+      "texto": "Este é o edifício mais antigo que se conserva em todo o conjunto. Foi construído por volta de mil seiscentos e quarenta e nove por Luis Lasso de la Vega, vigário de Guadalupe. É chamado de Índios porque, em mil seiscentos e setenta e nove, se estabeleceu aqui uma irmandade de indígenas. Segundo a tradição, foi neste lugar que São Juan Diego viveu seus últimos anos e que esteve a primeira ermida. A imagem de Nossa Senhora de Guadalupe foi venerada nesta capela de mil seiscentos e noventa e cinco a mil setecentos e nove, enquanto se construía a Antiga Basílica. É um espaço pequeno e tranquilo, onde muitos peregrinos entram em silêncio."
+    },
+    "guion_largo": {
+      "hash": "b186b91c6e1ff85a",
+      "texto": "Esta pequena igreja é a construção mais antiga que se conserva em todo o conjunto da Basílica. Foi erguida por volta de mil seiscentos e quarenta e nove, por vontade de Luis Lasso de la Vega, vigário de Guadalupe. É o mesmo sacerdote que, naquele ano, mandou imprimir o Huei tlamahuiçoltica, o livro que inclui o Nican mopohua, o relato das aparições escrito em náuatle.\n\nA palavra índios era a que se usava então para os povos originários. Hoje se diz indígenas, e o nome histórico do templo se conserva por tradição.\n\nEla é conhecida como a Paróquia de Índios porque, segundo o site oficial do santuário, em mil seiscentos e setenta e nove se estabeleceu aqui uma irmandade de indígenas. Uma irmandade é uma associação de fiéis que se reúne em torno de uma devoção. Durante a época vice-reinal, este foi um espaço muito ligado à população indígena que chegava ao Tepeyac.\n\nA tradição guadalupana situa aqui o primeiro templo. Segundo ela, depois das aparições, frei Juan de Zumárraga pediu que se erguesse uma ermida no lugar que Juan Diego indicou. As fontes discutem a data, que costuma ser apontada como mil quinhentos e trinta e um ou mil quinhentos e trinta e três. O arcebispo Alonso de Montúfar a ampliou em mil quinhentos e cinquenta e seis. A tradição do lugar sustenta que, dentro desta igreja, se conserva um muro daquela primeira ermida.\n\nA tradição conta também que São Juan Diego viveu junto à ermida até sua morte, em mil quinhentos e quarenta e oito, cuidando dela e recebendo os peregrinos. Uma cruz no exterior marca o local onde, segundo se acredita, ficava a sua casa. Os fiéis consideram este um dos lugares mais próximos de sua memória.\n\nEsta igreja teve ainda um papel importante na história da imagem. Em mil seiscentos e noventa e cinco, decidiu-se construir um novo templo, a Antiga Basílica, e o santuário anterior foi demolido. A imagem de Nossa Senhora de Guadalupe passou então para esta capela, onde permaneceu até que, em abril de mil setecentos e nove, foi levada em procissão ao novo templo. Foram catorze anos de espera para quem a venerava.\n\nHoje a Antiga Paróquia de Índios depende da Paróquia de Santa Maria de Guadalupe, a das Capuchinhas, que fica quase em frente. É um templo em uso, com missas e momentos de oração. O que se vê é uma igreja pequena do século dezessete. O que se conta, a tradição, é o que a torna especial para os fiéis, e esta parada oferece a você as duas coisas separadamente.\n\nQuem entra o faz com calma. Alguns se detêm diante do altar e outros simplesmente se sentam por um momento. Não há muito o que fazer aqui além de estar. É um bom lugar para pensar na distância entre a pequena ermida dos primeiros tempos e a grande esplanada que você deixou para trás."
+    },
+    "retos_observacion": {
+      "hash": "6155dbdc9e52be40",
+      "texto": [
+        "Observe a fachada simples",
+        "Procure o morro atrás da capela",
+        "Entre em silêncio, se estiver aberta"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b6c64c032160b862",
+      "texto": {
+        "Construção": "por volta de 1649",
+        "Promotor": "Luis Lasso de la Vega",
+        "Irmandade de indígenas": "1679",
+        "Imagem venerada aqui": "1695 a 1709"
+      }
+    },
+    "faq_mito": {
+      "hash": "304fe08f0d8959b8",
+      "texto": {
+        "pregunta": "Mito: A Antiga Basílica é o edifício mais antigo do conjunto.",
+        "respuesta": "Realidade: O mais antigo que se conserva é a Paróquia de Índios, de por volta de mil seiscentos e quarenta e nove. A Antiga Basílica foi concluída em mil setecentos e nove."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bas_08_capuchinas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2cf501b057bd87ae",
+      "texto": "O templo e convento das Capuchinhas"
+    },
+    "frase_gancho": {
+      "hash": "4d5c6f413d7c286c",
+      "texto": "Um convento de freiras ao lado do santuário."
+    },
+    "puente_narrativo": {
+      "hash": "fe40216e6339b812",
+      "texto": "Você contorna a Antiga Basílica e chega ao templo das Capuchinhas."
+    },
+    "guion_corto": {
+      "hash": "c47a30b6cdd31092",
+      "texto": "Diante de você está o templo e antigo convento das capuchinhas. A pedra fundamental foi colocada em mil setecentos e oitenta e dois, e a obra foi dirigida pelo arquiteto Ignacio de Castera. Foi inaugurado em mil setecentos e oitenta e sete, por iniciativa da madre Mariana e com o apoio de vários benfeitores. As religiosas viveram aqui até que o convento foi nacionalizado e fechado em mil oitocentos e sessenta e três. Entre mil oitocentos e oitenta e oito e mil oitocentos e noventa e cinco, este templo guardou a imagem enquanto eram feitas obras na Antiga Basílica. Hoje é a paróquia de Santa María de Guadalupe."
+    },
+    "guion_largo": {
+      "hash": "5d4d6714188925fb",
+      "texto": "Este templo e o convento que o acompanha foram erguidos no final do século dezoito para uma comunidade de religiosas capuchinhas. As capuchinhas são freiras de clausura, da família franciscana, que vivem dedicadas à oração.\n\nA obra foi feita por iniciativa da madre Mariana, fundadora da comunidade. Seu nome completo aparece de duas maneiras nas fontes, e por isso aqui a chamamos assim. A pedra fundamental foi colocada em mil setecentos e oitenta e dois. O arquiteto Ignacio de Castera, um dos construtores ativos na Cidade do México naqueles anos, dirigiu a construção, que foi inaugurada em mil setecentos e oitenta e sete. Entre os que apoiaram o projeto com recursos estão Luis de Torres, Manuel de la Borda e o conde de Regla.\n\nO convento foi pensado para mulheres de vida contemplativa. Elas viviam aqui em clausura, com a oração como centro de seus dias. Em uma comunidade de clausura, as religiosas não saem do convento e recebem pouca gente. Sua vida se divide entre a oração, o trabalho e o silêncio. Essa vida continuou até mil oitocentos e sessenta e três, quando o governo nacionalizou os bens da Igreja, no contexto das leis da Reforma, e o convento foi fechado. Foi uma medida que afetou muitos conventos do país, e as religiosas tiveram que deixar o edifício.\n\nFoi também neste templo que se guardou a imagem de Nossa Senhora de Guadalupe. Entre vinte e três de fevereiro de mil oitocentos e oitenta e oito e trinta de setembro de mil oitocentos e noventa e cinco, enquanto eram feitas obras na Antiga Basílica, a imagem foi venerada neste lugar. Depois voltou ao santuário.\n\nO terreno sob o conjunto é mole, como o de toda esta região, e o edifício sofreu afundamentos. Entre mil novecentos e setenta e seis e mil novecentos e oitenta e dois, foram colocadas estacas de controle para estabilizá-lo. O afundamento, porém, continua.\n\nNo mesmo conjunto fica a Capela dos Juramentos, que esta paróquia também atende. Hoje o templo é a Paróquia de Santa María de Guadalupe. É uma igreja em uso, com missas e serviços para a comunidade. Em seu altar principal há uma Sagrada Família pintada em um círculo, e no edifício vizinho, que foi o convento, fica o Museu da Basílica.\n\nÉ parte da história do lugar que nem sempre se vê: a das pessoas que, durante mais de setenta anos, viveram aqui dedicadas à oração, a poucos passos do santuário da Virgem."
+    },
+    "retos_observacion": {
+      "hash": "6f1eceb9f079bbb9",
+      "texto": [
+        "Procure a fachada e sua porta",
+        "Observe o edifício do convento ao lado do templo",
+        "Repare na placa, se houver uma"
+      ]
+    },
+    "especificaciones": {
+      "hash": "16e5d0bf32d3599c",
+      "texto": {
+        "Pedra fundamental": "1782",
+        "Arquiteto": "Ignacio de Castera",
+        "Inauguração": "1787",
+        "Convento fechado": "1863",
+        "Imagem aqui": "1888 a 1895"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e1aaca2ce4f9d8f",
+      "texto": {
+        "pregunta": "Mito: O templo das Capuchinhas sempre foi paróquia.",
+        "respuesta": "Realidade: Foi convento de religiosas até ser nacionalizado e fechado em mil oitocentos e sessenta e três. Hoje é a paróquia de Santa María de Guadalupe."
+      }
+    }
+  }
+}

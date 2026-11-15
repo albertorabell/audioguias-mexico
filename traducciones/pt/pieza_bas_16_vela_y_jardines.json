@@ -1,0 +1,54 @@
+{
+  "id": "bas_16_vela_y_jardines",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "de932cef8ed90b5d",
+      "texto": "O Jardim do Tepeyac e A Oferenda"
+    },
+    "frase_gancho": {
+      "hash": "f9c437d9d685d764",
+      "texto": "Cascatas, fontes e um grupo de bronze."
+    },
+    "puente_narrativo": {
+      "hash": "214d1c6f45f6812e",
+      "texto": "Do Pocito você sobe pelos jardins, na encosta oriental do morro."
+    },
+    "guion_corto": {
+      "hash": "87cd47b1ab3ad7eb",
+      "texto": "Você está na encosta oriental do Tepeyac, no Jardim do Tepeyac. Cascatas, fontes e vegetação servem de cenário para A Oferenda, um grupo de dezesseis figuras de bronze dispostas em atitude de adoração diante da Virgem de Guadalupe. A Basílica encomendou a obra em mil novecentos e oitenta e dois ao artista Aurelio Mendoza. Segundo a tradição, algumas dessas áreas lembram a segunda e a terceira aparições. Mais acima você verá a Vela del Marino e a escadaria oriental, que uma placa atribui a Guerrero y Torres. É um espaço tranquilo, exceto nas grandes festas. A subida até a capela do topo é de cerca de cem metros."
+    },
+    "guion_largo": {
+      "hash": "b212d0e5bcfcde54",
+      "texto": "Este é o Jardim do Tepeyac, às vezes chamado de Jardim Sagrado. Fica na encosta oriental do morro e é o caminho que muitos visitantes tomam para subir à capela do topo ou para descer dela.\n\nO jardim tem cascatas, fontes e vegetação abundante. Segundo a tradição guadalupana, algumas dessas áreas lembram a segunda e a terceira aparições da Virgem Maria a São Juan Diego, em dezembro de mil quinhentos e trinta e um. A jardinagem foi projetada para servir de cenário a um conjunto escultórico chamado A Oferenda.\n\nA Oferenda é composta de dezesseis figuras de bronze fundido, dispostas em atitude de adoração diante da Virgem de Guadalupe. A Basílica encomendou a obra em mil novecentos e oitenta e dois. Foi escolhido o artista Aurelio G. D. Mendoza, que na época tinha oitenta e dois anos e era conhecido sobretudo por seu trabalho cênico. As figuras estão dispostas na paisagem do jardim e podem ser vistas de diferentes lugares.\n\nAqui também fica a Vela del Marino. É uma estrutura de pedra que uma placa colocada em mil novecentos e setenta atribui, junto com a fachada da Capela do Cerrito e a primeira escadaria oriental, ao arquiteto Francisco Guerrero y Torres, o mesmo do Pocito. Segundo a tradição que a Basílica recolhe, a Vela lembra a promessa de uns marinheiros que se salvaram de um perigo no mar e que, para cumpri-la, levaram até aqui um mastro e o deixaram fixado na pedra. É uma forma de agradecer parecida com a dos ex-votos que você viu no museu.\n\nA subida desde a parte de trás da Antiga Basílica até a capela do topo é de cerca de cem metros. Há degraus e trechos em declive, e convém ir com calma. Se você usar o caminho do jardim, passará entre árvores, água e bronzes.\n\nEste espaço é, segundo o portal de turismo da Cidade do México, um dos cantos mais tranquilos do conjunto, exceto nos dias de festa, quando se enche de peregrinos. É um lugar para quem quer ir devagar, para quem busca um momento de silêncio e para quem simplesmente quer descansar um pouco entre o barulho da esplanada e o topo.\n\nAo subir, a cidade vai se abrindo ao seu redor. O Tepeyac é uma elevação pequena, mas dele se aprecia a extensão do vale.\n\nÉ um espaço aberto a pessoas de qualquer crença, onde se veem famílias passeando e pessoas que se sentam um pouco. Convém manter a voz baixa e o passo tranquilo.\n\nHá quem suba rezando e quem suba para ver a paisagem. No jardim cabem as duas formas de fazê-lo. Se você encontrar pessoas em oração, passe sem interromper e sem fazer barulho."
+    },
+    "retos_observacion": {
+      "hash": "29dcf1f5fafdb469",
+      "texto": [
+        "Conte as figuras de bronze de A Oferenda",
+        "Procure as cascatas e fontes",
+        "Olhe a Vela del Marino mais acima"
+      ]
+    },
+    "especificaciones": {
+      "hash": "116ff4a5357055a8",
+      "texto": {
+        "Escultura": "A Oferenda, dezesseis figuras de bronze",
+        "Encomenda": "1982",
+        "Artista": "Aurelio Mendoza",
+        "Subida até a capela": "cerca de 100 m"
+      }
+    },
+    "faq_mito": {
+      "hash": "02e92a86fc4f1e71",
+      "texto": {
+        "pregunta": "Mito: A Oferenda é uma obra da época vice-reinal.",
+        "respuesta": "Realidade: A Basílica encomendou este grupo de bronze em mil novecentos e oitenta e dois."
+      }
+    }
+  }
+}

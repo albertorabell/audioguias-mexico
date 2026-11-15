@@ -1,0 +1,45 @@
+{
+  "id": "bas_03_tepeyac_prehispanico",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0e8c809acb502526",
+      "texto": "O Tepeyac antes do santuário"
+    },
+    "frase_gancho": {
+      "hash": "79f23eb3a65e55c8",
+      "texto": "Um cerro visitado desde muito antes da Basílica."
+    },
+    "puente_narrativo": {
+      "hash": "b60863c0e81522de",
+      "texto": "Da praça, olhe para o cerro e pense no que havia antes das construções."
+    },
+    "guion_corto": {
+      "hash": "24413fbd3f7c3b97",
+      "texto": "Antes de existir aqui um santuário cristão, este cerro já era um lugar de visita. Os mexicas o ligaram a Tenochtitlan por uma calçada. O frei franciscano Bernardino de Sahagún escreveu por volta de mil quinhentos e setenta e seis que a este lugar acorria muita gente para honrar Tonantzin, um nome náuatle que significa nossa mãe. A Sahagún preocupava o sentido dessa devoção. Os historiadores continuam estudando como essas duas tradições se relacionam, e nem todos concordam. O cerro, hoje cercado pela cidade, fica ao norte do que foi a capital mexica. Para os fiéis, o Tepeyac é sobretudo o lugar onde a Virgem Maria apareceu a São Juan Diego."
+    },
+    "guion_largo": {
+      "hash": "4d0b8825c7c5898c",
+      "texto": "O cerro do Tepeyac fica no extremo norte do antigo vale do México, ao pé da serra de Guadalupe. O cerro faz parte da serra de Guadalupe. Hoje a cidade o rodeia, mas no século dezesseis era um lugar afastado de Tenochtitlan, ao qual se chegava por uma calçada. Essa calçada é a que hoje conhecemos como Calçada dos Mistérios.\n\nO fato de os mexicas terem construído um caminho até este cerro diz algo: era um lugar aonde se ia. Na tradição mesoamericana, os cerros costumavam ter um significado religioso, e o Tepeyac não era exceção entre os cerros do vale. Hoje sabemos pouco do que se fazia aqui, e o pouco que sabemos chega por outras vias.\n\nA mais conhecida é a do frei franciscano Bernardino de Sahagún. Por volta de mil quinhentos e setenta e seis, em sua obra sobre as coisas da Nova Espanha, ele escreveu que no Tepeyac havia um lugar onde se honrava a deusa Tonantzin, e que até ali acorria gente de lugares distantes. Tonantzin é um nome náuatle que significa nossa mãe. Sahagún conta que essa devoção o inquietava, porque o mesmo nome podia ser entendido de duas maneiras, e o preocupava a quem estavam honrando aqueles que subiam.\n\nEsta é uma informação que vem de um único autor, escrita várias décadas depois da conquista. Por isso os historiadores a leem com cuidado, e cada geração de estudiosos voltou a ela para revisar o que se sabe. Alguns pensam que ela mostra uma continuidade entre o antigo lugar de culto e o santuário cristão. Outros pensam que a relação entre os dois é mais difícil de provar. No cerro foram feitos achados arqueológicos, mas sua interpretação também é discutida.\n\nO que se pode dizer com segurança é isto. O Tepeyac foi, desde antes da conquista, um lugar com significado religioso para quem vivia no vale. E foi, desde o século dezesseis, o lugar onde se construiu o santuário da Virgem de Guadalupe.\n\nPara os fiéis, esse santuário nasce de um acontecimento. Segundo a tradição guadalupana, em dezembro de mil quinhentos e trinta e um a Virgem Maria apareceu aqui a Juan Diego, um indígena, e falou com ele em sua língua. A Igreja reconhece o culto a Nossa Senhora de Guadalupe e, em dois mil e dois, canonizou São Juan Diego nesta mesma Basílica. Quem vive a fé a partir dessa tradição não vê no cerro um lugar que foi de outros, mas o lugar aonde a Virgem veio encontrar-se com seu povo.\n\nEsta parada não resolve a discussão dos historiadores. Apenas lhe dá os dados: um caminho antigo, um cerro com culto, a preocupação de um frei e uma tradição que reuniu milhões de pessoas durante quase cinco séculos."
+    },
+    "retos_observacion": {
+      "hash": "7b95a44449b68db6",
+      "texto": [
+        "Olhe o cerro da praça",
+        "Localize o norte: a capital mexica ficava ao sul",
+        "Compare o cerro com a cidade que o rodeia hoje"
+      ]
+    },
+    "especificaciones": {
+      "hash": "62c42cb6f136ab9c",
+      "texto": {
+        "Fonte principal": "Bernardino de Sahagún, por volta de 1576",
+        "Nome náuatle": "Tonantzin, nossa mãe"
+      }
+    }
+  }
+}

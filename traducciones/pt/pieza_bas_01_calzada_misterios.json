@@ -1,0 +1,55 @@
+{
+  "id": "bas_01_calzada_misterios",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "52078cacc20d929a",
+      "texto": "A Calçada dos Mistérios"
+    },
+    "frase_gancho": {
+      "hash": "9dd703844d5a3a6c",
+      "texto": "Um caminho mexica que se tornou rota de peregrinos."
+    },
+    "puente_narrativo": {
+      "hash": "56864a3a8c4c3421",
+      "texto": "Você começa por onde muitos peregrinos começaram: o caminho que sobe ao Tepeyac."
+    },
+    "guion_corto": {
+      "hash": "49cde3e071cbeabb",
+      "texto": "Esta calçada é muito mais antiga que a Basílica. Os mexicas a traçaram para unir Tenochtitlan ao morro do Tepeyac, e desde então ela é o caminho de quem chega a este lugar. Em mil seiscentos e setenta e cinco começou a construção de quinze monumentos, um para cada mistério do rosário, a oração com a qual os católicos meditam sobre a vida de Jesus e da Virgem Maria. Quem os projetou foi o arquiteto Cristóbal de Medina Vargas. Oito originais se conservam e sete foram repostos em mil novecentos e noventa e nove. Ela faz parte da rota pela qual, durante séculos, se chegou ao Tepeyac a partir da cidade. Ainda hoje, muitos peregrinos percorrem este caminho a pé, em silêncio ou rezando."
+    },
+    "guion_largo": {
+      "hash": "cc9eda013c507bf4",
+      "texto": "Você está em uma das ruas mais antigas da Cidade do México. Antes que existisse a Basílica, antes da chegada dos espanhóis, os mexicas construíram esta calçada para unir Tenochtitlan à serra de Guadalupe e ao morro do Tepeyac. É o que registra a ficha do Instituto Nacional de Antropologia e História (INAH) sobre o monumento.\n\nDurante a época vice-reinal, ela continuou sendo o caminho principal até o santuário. Por muito tempo, esta rua também se chamou Calçada de Guadalupe. Hoje esse nome pertence a outra rua paralela, cuja construção começou em mil setecentos e oitenta e seis. Depois da grande inundação de mil seiscentos e quatro, a calçada foi reparada para que pudesse continuar sendo usada. Por aqui chegavam os peregrinos vindos da cidade, e por aqui continuaram chegando.\n\nNa década de mil seiscentos e setenta, decidiu-se dar forma permanente às paradas que os caminhantes faziam no trajeto. O arquiteto Cristóbal de Medina Vargas propôs erguer quinze monumentos, um para cada mistério do rosário. As obras começaram em mil seiscentos e setenta e cinco, e o primeiro, o da Encarnação, ficou pronto em mil seiscentos e setenta e seis.\n\nO rosário é uma oração católica. Quem o reza repete orações enquanto pensa em momentos da vida de Jesus e da Virgem Maria. Esses momentos se chamam mistérios e se agrupam em três séries de cinco. Os gozosos lembram, por exemplo, a anunciação e o nascimento de Jesus. Os dolorosos lembram a sua paixão. Os gloriosos lembram a ressurreição e a glória de Maria. Quinze monumentos, portanto, formavam um caminho de oração para quem ia caminhando até o santuário.\n\nO Monumento aos Peregrinos marca o início tradicional da calçada, e a partir dali se contam os quinze mistérios rumo ao norte. Os monumentos são obras barrocas, parecidas com estelas, com cenas e figuras na parte alta. Nos séculos seguintes, sofreram mudanças e perdas. No século dezenove, as obras da ferrovia danificaram vários deles. No final do século vinte, apenas oito dos quinze originais se conservavam.\n\nEm mil novecentos e noventa e nove, a calçada foi restaurada e sete monumentos foram repostos. Hoje há quinze, oito originais e sete repostos, distribuídos entre as alcaldias Cuauhtémoc e Gustavo A. Madero. Se você percorrer esta rua, verá que cada um se identifica com o seu mistério.\n\nEsta parada é gratuita e você pode ouvi-la em qualquer um dos monumentos. Se caminhar rumo ao norte, chegará à Vila de Guadalupe. Muitas pessoas fazem o trajeto completo a pé, algumas rezando o rosário, outras em silêncio, e outras simplesmente caminhando e olhando. Todas são bem-vindas. Nas datas de peregrinação, esta calçada se enche de gente que vem de longe.\n\nPara quem vem rezar, é um caminho de fé. Para quem vem conhecer, é uma rua com mais de cinco séculos de história que ainda cumpre a função para a qual foi feita: levar as pessoas até o Tepeyac."
+    },
+    "retos_observacion": {
+      "hash": "4ac89ee8aad46418",
+      "texto": [
+        "Procure os monumentos dos mistérios ao longo da calçada",
+        "Observe os peregrinos que chegam a pé",
+        "Olhe para o morro e localize a Basílica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "104ff548294aac0c",
+      "texto": {
+        "Origem": "calçada mexica",
+        "Monumentos": "quinze, um para cada mistério do rosário",
+        "Projeto": "Cristóbal de Medina Vargas, desde 1675",
+        "Originais conservados": "oito",
+        "Repostos em 1999": "sete"
+      }
+    },
+    "faq_mito": {
+      "hash": "06d8e7c9b0b7c9dc",
+      "texto": {
+        "pregunta": "Mito: A Calçada dos Mistérios foi feita para a Basílica atual.",
+        "respuesta": "Realidade: Os mexicas já haviam traçado uma calçada até o Tepeyac. Os quinze monumentos dos mistérios começaram a ser construídos em mil seiscentos e setenta e cinco; hoje oito são originais e sete foram repostos em mil novecentos e noventa e nove."
+      }
+    }
+  }
+}

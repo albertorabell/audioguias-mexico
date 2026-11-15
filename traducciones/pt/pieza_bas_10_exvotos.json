@@ -1,0 +1,53 @@
+{
+  "id": "bas_10_exvotos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7430e21dcc21c2dd",
+      "texto": "Os ex-votos"
+    },
+    "frase_gancho": {
+      "hash": "8611143009a36065",
+      "texto": "Pequenas pinturas que dizem obrigado."
+    },
+    "puente_narrativo": {
+      "hash": "a4c439673c18f133",
+      "texto": "Dentro do museu, procure a sala dos ex-votos."
+    },
+    "guion_corto": {
+      "hash": "c6cefe479961f9f7",
+      "texto": "Um ex-voto é uma pequena pintura com a qual uma pessoa agradece por um favor que atribui à intercessão da Virgem ou de um santo. Costuma mostrar a cena do perigo, a imagem a quem a pessoa se encomendou e um texto escrito à mão que conta o ocorrido. Este museu conserva mais de dois mil, quase todos dos séculos dezenove e vinte, e se apresenta como a maior coleção de ex-votos guadalupanos. Falam de doenças, acidentes, viagens e guerras. Muitos incluem nome e data. Vale a pena se aproximar para ler os textos com calma. São documentos de fé e também da vida cotidiana de seu tempo."
+    },
+    "guion_largo": {
+      "hash": "b32460df59152f63",
+      "texto": "Em latim, ex voto alude ao cumprimento de uma promessa, e um ex-voto é o objeto com o qual essa promessa se cumpre. Alguém pede um favor a Deus, à Virgem ou a um santo e, quando o recebe, agradece com um objeto. No catolicismo mexicano, esse objeto costuma ser uma pintura pequena.\n\nSegundo a especialista do museu Nydia Mirna Rodríguez Alatorre, os ex-votos não são exclusivos do cristianismo. Existem em muitas culturas e desde a antiguidade. O costume de oferecer uma pintura de agradecimento vem da Itália, do século quinze, e depois se estendeu a outros países.\n\nNo México, a prática se tornou muito popular nos séculos dezenove e vinte e encheu as paredes de santuários em todo o país. O Museu da Basílica conserva mais de dois mil ex-votos, quase todos desses séculos, e se apresenta como a maior coleção de ex-votos guadalupanos.\n\nUm ex-voto normalmente tem três partes. Em cima costuma aparecer a imagem a quem a pessoa se encomendou, neste caso Nossa Senhora de Guadalupe ou algum santo. Embaixo, a cena da desgraça: uma doença, um acidente, uma queda. E na parte inferior, um texto escrito à mão no qual a pessoa conta o que aconteceu e agradece. Muitos foram escritos por gente com pouca escolaridade, e essa linguagem direta faz parte do seu valor.\n\nNem todos os ex-votos são pinturas. Já no século dezessete, o jesuíta Francisco de Florencia registrou neste santuário oferendas de prata em forma de cabeças, olhos, corações, braços, pernas e mãos, que os fiéis deixavam como agradecimento. Essa é outra maneira, mais antiga, de agradecer.\n\nOs temas dizem muito sobre a sua época. Há doenças, acidentes e migrações. Nos anos das guerras civis do século dezenove e da Revolução, apareceram também as levas, o recrutamento forçado de jovens, e a angústia das mães cujos filhos partiam para a guerra.\n\nO ex-voto expressa uma relação direta da pessoa com Deus, sem intermediários, e ao mesmo tempo se torna público em um santuário, para que outros o vejam. Muitos incluem o nome de quem o ofereceu e uma data, e isso permite situá-los no tempo.\n\nPara quem o ofereceu, o ex-voto é um ato de agradecimento e de fé. Para quem o olha hoje, é também um documento histórico. Desde o final do século vinte, os ex-votos passaram a ser valorizados como fontes sobre como viviam, se vestiam, rezavam e adoeciam as pessoas de cada época.\n\nAqui não se pede ao visitante que acredite ou deixe de acreditar. Convida-se você a olhar com atenção o que outros escreveram em seu momento mais difícil, e a ler suas palavras com o respeito que merece qualquer agradecimento."
+    },
+    "retos_observacion": {
+      "hash": "d80b19dbac01d4f3",
+      "texto": [
+        "Leia um dos textos escritos à mão",
+        "Procure a imagem a quem a pessoa se encomenda",
+        "Repare na data de um dos ex-votos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eab9149d314df35f",
+      "texto": {
+        "Peças": "mais de 2 000",
+        "Épocas": "principalmente séculos XIX e XX",
+        "Partes": "cena, imagem e texto manuscrito"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2be7587a3893cc2",
+      "texto": {
+        "pregunta": "Mito: Os ex-votos são desenhos sem valor histórico.",
+        "respuesta": "Realidade: São documentos da vida cotidiana de seu tempo, com cena, texto escrito à mão e, muitas vezes, nome e data."
+      }
+    }
+  }
+}

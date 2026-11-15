@@ -1,0 +1,53 @@
+{
+  "id": "bas_18_panteon_tepeyac",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d67a981b3438aa1a",
+      "texto": "O Panteão do Tepeyac"
+    },
+    "frase_gancho": {
+      "hash": "b80d94d03bffe3ae",
+      "texto": "Um cemitério na encosta, com personagens da história do México."
+    },
+    "puente_narrativo": {
+      "hash": "8cbf205367e41a5e",
+      "texto": "Ao lado da capela fica o panteão, onde você termina o percurso."
+    },
+    "guion_corto": {
+      "hash": "6d6446ebd1dac0c2",
+      "texto": "O Panteão do Tepeyac fica junto à Capela do Cerrito. Há sepulturas neste morro desde antes de mil setecentos e dezesseis. Uma tradição o remonta a mil seiscentos e sessenta, mas os estudos documentam os primeiros túmulos no início do século dezoito. Com a Lei dos Cemitérios de mil oitocentos e cinquenta e nove, tornou-se um panteão oficial, em mil oitocentos e setenta e um. Aqui descansam personagens da história do México, como Antonio López de Santa Anna, o pintor José María Velasco e o poeta Xavier Villaurrutia, e também muitos arquitetos. Muitas famílias escolheram sepultar aqui os seus, perto do santuário. Há um museu de sítio que conta a história do morro."
+    },
+    "guion_largo": {
+      "hash": "e1f9796ac60dd429",
+      "texto": "Ao lado da Capela do Cerrito estende-se o Panteão do Tepeyac, um dos cemitérios mais antigos ainda em uso na Cidade do México. É um lugar de memória, e como tal convém olhá-lo com respeito.\n\nOs primeiros enterros foram feitos em torno da capela antes de mil setecentos e dezesseis. Uma tradição atribui sua fundação ao ano de mil seiscentos e sessenta, e chega a relacioná-la com São Juan Diego, mas os estudiosos, como o historiador da arquitetura Hugo Arciniega, documentam as primeiras sepulturas no início do século dezoito. Muitas famílias da cidade quiseram enterrar aqui os seus, perto do lugar onde a tradição guadalupana situa as aparições.\n\nEm mil oitocentos e cinquenta e nove, no dia trinta e um de julho, a Lei dos Cemitérios determinou que os enterros passassem para as mãos do Estado. Depois dessa lei, o Tepeyac tornou-se panteão oficial, em mil oitocentos e setenta e um. A data de mil novecentos e dez que aparece em uma inscrição não é a de sua inauguração.\n\nOs monumentos do Panteão se agrupam por classes, por tamanhos e por localização, começando pela entrada principal, segundo o estudo da arquiteta Silvia Segarra Lagunes sobre sua paisagem, sua história e sua restauração. O Panteão é conhecido como o cemitério dos arquitetos, porque Arciniega o chamou assim em um estudo, ao encontrar aqui muitos dos construtores da cidade. Tem também monumentos funerários de grande valor artístico. Entre eles se destaca a escultura do Anjo do Silêncio.\n\nAqui descansam personagens que fazem parte da história do país. Está Antonio López de Santa Anna, que foi presidente do México em várias ocasiões, e que morreu em vinte e um de junho de mil oitocentos e setenta e seis. Também está sepultada sua esposa, Dolores Tosta. Está o pintor José María Velasco, conhecido por suas paisagens do Vale do México. Está o poeta Xavier Villaurrutia. E está Delfina Ortega Díaz, primeira esposa do presidente Porfirio Díaz.\n\nA pesquisadora Ethel Herrera Moreno catalogou os monumentos funerários deste panteão que representam a Virgem de Guadalupe. Essa devoção, que também se expressa nos sepulcros, é parte do que se vê nestes túmulos.\n\nO Panteão tem ainda um museu de sítio com duas salas. Uma conta a história do morro desde a época pré-hispânica, e a outra, a história do cemitério. Nem o panteão nem o museu estão abertos como o resto do conjunto. Para visitá-los, pede-se um agendamento prévio, e é melhor confirmar as condições no site oficial.\n\nSe você não puder entrar, esta parada se escuta igualmente do mirante da capela. E se entrar, lembre-se de que é um cemitério onde há famílias que visitam seus mortos: caminha-se em silêncio, sem pressa."
+    },
+    "retos_observacion": {
+      "hash": "96d210c7924eb1a7",
+      "texto": [
+        "Procure os túmulos de personagens conhecidos",
+        "Observe os mausoléus de arquitetos",
+        "Pergunte pelo museu de sítio"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e09c267116c503c0",
+      "texto": {
+        "Sepulturas": "antes de 1716",
+        "Panteão oficial": "1871",
+        "Sepultados": "Antonio López de Santa Anna, José María Velasco, Xavier Villaurrutia"
+      }
+    },
+    "faq_mito": {
+      "hash": "1823517dcf05a11b",
+      "texto": {
+        "pregunta": "Mito: O panteão está documentado desde mil seiscentos e sessenta.",
+        "respuesta": "Realidade: Uma tradição o remonta a essa data, mas os estudos documentam os primeiros túmulos no início do século dezoito. É panteão oficial desde mil oitocentos e setenta e um."
+      }
+    }
+  }
+}

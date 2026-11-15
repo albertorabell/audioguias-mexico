@@ -1,0 +1,55 @@
+{
+  "id": "bas_14_pocito_exterior",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9418f0b11ddcb2ce",
+      "texto": "A Capela do Pocito: exterior"
+    },
+    "frase_gancho": {
+      "hash": "b5228cf4ecf50e07",
+      "texto": "Uma joia do barroco, junto a uma nascente."
+    },
+    "puente_narrativo": {
+      "hash": "d477dd715c1ffc09",
+      "texto": "Você sobe até a Capela do Pocito, ao pé do morro."
+    },
+    "guion_corto": {
+      "hash": "c0722fd98d6bf3f5",
+      "texto": "Esta é a Capela do Pocito, que o Instituto Nacional de Antropologia e História (INAH) considera uma joia do barroco latino-americano. Foi projetada por Francisco Antonio Guerrero y Torres e construída entre mil setecentos e setenta e sete e mil setecentos e noventa e um. Sua planta combina curvas e retas, com três cúpulas revestidas de talavera azul e branca sobre muros de tezontle. Foi erguida junto a uma nascente que a tradição guadalupana associa a um dos lugares das aparições. Segundo o INAH, seu desenho alude ao céu, à terra e aos pontos cardeais. A capela anterior, de mil seiscentos e quarenta e oito, foi demolida para dar lugar a esta."
+    },
+    "guion_largo": {
+      "hash": "f64cd7dd634e4361",
+      "texto": "Você está diante da Capela do Pocito. É uma das obras mais singulares da arquitetura vice-reinal, e o Instituto Nacional de Antropologia e História (INAH) a considera uma joia do barroco latino-americano.\n\nSua história começa com a água. Na encosta oriental do Tepeyac havia uma pequena nascente, de água salobra, ou seja, com sabor de sal. A tradição guadalupana associa esse lugar a um dos locais das aparições, conforme registrou no século dezessete o jesuíta Francisco de Florencia. Ao redor da nascente foi erguida, entre mil seiscentos e quarenta e oito e mil seiscentos e quarenta e nove, uma primeira capela de forma octogonal, por iniciativa de Luis Lasso de la Vega, o mesmo vigário que mandou construir a Paróquia de Índios. Essa capela foi demolida por volta de mil setecentos e setenta e oito, para construir a atual.\n\nO autor da capela é Francisco Antonio Guerrero y Torres, nascido na Villa de Guadalupe e mestre maior da cidade, ou seja, o arquiteto principal das obras públicas. As fontes indicam que ele doou seu projeto e seu trabalho. As obras duraram de mil setecentos e setenta e sete a mil setecentos e noventa e um, e o vice-rei Antonio María de Bucareli contribuiu com cento e cinquenta pesos mensais para sustentá-las.\n\nOlhe a forma do edifício. Não é um retângulo nem um círculo, mas uma planta de linhas curvas e retas que se combinam. Há três grandes volumes cobertos por cúpulas, e eles se cruzam em parte. As cúpulas e as lanternas são revestidas de azulejos de talavera, azuis e brancos. Os muros são de tezontle, a pedra vulcânica avermelhada que foi usada em muitos edifícios da cidade, com detalhes de cantaria.\n\nOs estudiosos apontam que Guerrero y Torres se inspirou em um antigo templo romano, cujo desenho havia sido publicado pelo arquiteto italiano Sebastiano Serlio em seu tratado. Em mil setecentos e setenta e nove, o Conselho das Índias questionou o estilo barroco do projeto. Mesmo assim, a obra foi concluída.\n\nO Instituto Nacional de Antropologia e História explicou que o desenho tem um significado simbólico. Segundo seu estudo, ele alude ao céu, à terra e aos pontos cardeais. É uma leitura que a pesquisadora da Universidade Nacional Autônoma do México Martha Fernández também desenvolveu em um artigo de dois mil e vinte e dois.\n\nO edifício mudou com os séculos. O terreno é mole, como em todo este vale. Em mil novecentos e cinquenta e nove foi feito um trabalho para renivelar a capela, a cargo do engenheiro Manuel González Flores. Em dois mil e vinte e quatro, o Instituto apresentou um diagnóstico de seu estado de conservação, com rachaduras nos muros e na cúpula central, e peças faltantes no revestimento de tezontle. É um monumento que continua precisando de cuidados.\n\nPara quem vem rezar, este é o lugar associado ao poço do Tepeyac. Para quem busca arquitetura, é uma das obras mais originais de seu tempo. Para quase todos, é difícil não parar para contemplá-la."
+    },
+    "retos_observacion": {
+      "hash": "85748d5f83e14d3d",
+      "texto": [
+        "Conte as três cúpulas",
+        "Observe o contraste do tezontle com a talavera",
+        "Procure a forma de curvas e retas da planta"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5a4190216fc88c72",
+      "texto": {
+        "Projeto": "Francisco Antonio Guerrero y Torres",
+        "Obra": "1777 a 1791",
+        "Cúpulas": "três, de talavera azul e branca",
+        "Muros": "tezontle",
+        "Capela anterior": "1648"
+      }
+    },
+    "faq_mito": {
+      "hash": "628d14f314812e13",
+      "texto": {
+        "pregunta": "Mito: A atual Capela do Pocito é do século dezessete.",
+        "respuesta": "Realidade: A capela anterior era de mil seiscentos e quarenta e oito; a atual foi construída entre mil setecentos e setenta e sete e mil setecentos e noventa e um."
+      }
+    }
+  }
+}

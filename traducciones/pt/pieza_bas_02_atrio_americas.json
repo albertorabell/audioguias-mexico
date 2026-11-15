@@ -1,0 +1,47 @@
+{
+  "id": "bas_02_atrio_americas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "272974ef7408828e",
+      "texto": "O átrio e a Plaza de las Américas"
+    },
+    "frase_gancho": {
+      "hash": "9751d74a84d85b40",
+      "texto": "O grande espaço aberto onde se reúnem os peregrinos."
+    },
+    "puente_narrativo": {
+      "hash": "c3d5b0f460725e72",
+      "texto": "Do acesso você passa ao átrio, o espaço que recebe os peregrinos diante da Nova Basílica."
+    },
+    "guion_corto": {
+      "hash": "f7f8c5104853a993",
+      "texto": "Você está no átrio, o grande espaço aberto diante da Nova Basílica. Aqui se reúnem todos os anos milhões de peregrinos, e de maneira especial no dia doze de dezembro, dia de Nossa Senhora de Guadalupe. Neste espaço se ergue o carrilhão, concluído em mil novecentos e noventa e um. Tem quarenta e oito sinos de bronze, mede vinte e três metros e conta com quatro relógios: civil, astroplano, solar e mexica. Na frente, figuras animadas de São Juan Diego, frei Juan de Zumárraga e Juan Bernardino contam a história das aparições, segundo a tradição guadalupana. Quando há missa ao ar livre ou uma peregrinação, este espaço se enche de gente. Se você vier nesses dias, avance com calma."
+    },
+    "guion_largo": {
+      "hash": "185c03ba02f6f111",
+      "texto": "Este é o átrio das Américas, a grande esplanada que se abre diante da Nova Basílica. É o lugar aonde chegam os peregrinos antes de entrar no templo, e também o espaço onde se reúnem quando o templo não comporta todos.\n\nOs cálculos de quantas pessoas visitam o conjunto a cada ano vão de oito a vinte milhões, dependendo de quem os faça. Seja qual for a cifra exata, são milhões. A festa principal é o dia doze de dezembro, quando a Igreja celebra Nossa Senhora de Guadalupe. Nesse dia, e nos que o cercam, chegam peregrinações de todo o país e de outros países. Muitas vêm caminhando há dias. Algumas pessoas atravessam esta esplanada de joelhos, como uma promessa que fizeram. A Nova Basílica foi projetada para receber cerca de dez mil pessoas no interior, e do lado de fora cabem dezenas de milhares a mais.\n\nAqui mesmo se ergue o carrilhão, uma torre de vinte e três metros concluída em mil novecentos e noventa e um. Tem quarenta e oito sinos de bronze. Foi impulsionado por frei Gabriel Chávez de la Mora, o monge beneditino que também colaborou no projeto da Nova Basílica.\n\nO carrilhão tem quatro relógios. Um é civil e marca a hora que usamos todos os dias. Um é astroplano. Um é solar. E o quarto é um relógio mexica, que lembra outra forma de medir o tempo, a dos povos que habitavam este vale antes da chegada dos espanhóis.\n\nNa frente da torre há um ciclorama com figuras animadas. Elas representam São Juan Diego, frei Juan de Zumárraga, primeiro bispo do México, e Juan Bernardino, o tio de Juan Diego. Seus movimentos contam a história das aparições tal como a transmite a tradição guadalupana. Segundo essa tradição, em dezembro de mil quinhentos e trinta e um a Virgem Maria apareceu a Juan Diego neste morro e lhe pediu que se erguesse aqui um templo.\n\nEm dois mil e onze foi aberta também a Plaza Mariana, ao lado deste espaço, com o Museu Guadalupano, uma obra da Fundação Carlos Slim.\n\nDaqui você pode ver a Nova Basílica, de planta circular, inaugurada em mil novecentos e setenta e seis. De um lado, entre os edifícios do conjunto, está a Antiga Basílica, do século dezoito. E atrás de tudo se ergue o morro do Tepeyac.\n\nO átrio é também um lugar de convivência. Chegam famílias, grupos que trazem imagens da Virgem e pessoas que vêm sozinhas. Alguns descansam depois de um longo caminho, outros tiram fotografias, outros esperam para entrar no templo. Este é um lugar de encontro. Para muitas pessoas é um lugar de oração, de despedida ou de agradecimento. Se houver uma missa ou uma reza em andamento, você pode percorrê-lo com calma, falando em voz baixa e sem interromper."
+    },
+    "retos_observacion": {
+      "hash": "8e2d869d55db9de5",
+      "texto": [
+        "Conte os sinos do carrilhão se você o ouvir tocar",
+        "Procure os quatro relógios",
+        "Observe as figuras animadas ao pé do carrilhão"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de38a84f8de00f57",
+      "texto": {
+        "Carrilhão": "concluído em 1991",
+        "Sinos": "quarenta e oito, de bronze",
+        "Altura": "23 m",
+        "Relógios": "quatro (civil, astroplano, solar e mexica)"
+      }
+    }
+  }
+}

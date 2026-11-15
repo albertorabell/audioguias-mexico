@@ -1,0 +1,54 @@
+{
+  "id": "bas_12_cristo_atentado",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "801feedc00e2dc7b",
+      "texto": "O Santo Cristo do Atentado"
+    },
+    "frase_gancho": {
+      "hash": "336c35abff7707c6",
+      "texto": "Um crucifixo torcido que recorda o atentado de 1921."
+    },
+    "puente_narrativo": {
+      "hash": "e4dbd2ba8e875bff",
+      "texto": "Dentro do templo, procure a vitrine onde o crucifixo é guardado."
+    },
+    "guion_corto": {
+      "hash": "b20ea1b039171f09",
+      "texto": "Dentro desta Basílica se conserva uma cruz torcida, o Santo Cristo do Atentado. No dia catorze de novembro de mil novecentos e vinte e um, por volta das dez e meia da manhã, explodiu uma bomba de dinamite na Antiga Basílica. Um homem desconhecido a havia deixado escondida entre algumas flores, ao pé do altar-mor. O altar de mármore ficou muito danificado, e este crucifixo de metal, que estava no altar, entortou. O relato que se conserva conta que o vidro que protegia a imagem da Virgem não se quebrou. Os fiéis consideram isso um milagre. Hoje o crucifixo fica guardado em uma vitrine, junto a um pergaminho que narra o ocorrido."
+    },
+    "guion_largo": {
+      "hash": "ec6f3fef4ba0c22d",
+      "texto": "Dentro desta Basílica, em uma vitrine, se conserva uma cruz torcida. Ela é conhecida como o Santo Cristo do Atentado. Para entender por que ela importa, é preciso voltar a uma manhã de mil novecentos e vinte e um.\n\nNaqueles anos, a imagem da Virgem de Guadalupe ficava na Antiga Basílica, o templo que está ao lado deste. Ainda faltavam mais de cinquenta anos para que fosse construída a Basílica onde você está agora. A Antiga Basílica era um templo muito querido. Em mil oitocentos e noventa e cinco a imagem havia sido coroada ali, e em mil novecentos e quatro o templo foi elevado a basílica menor. O altar-mor era de mármore. Sobre o altar havia um crucifixo de metal, diante da imagem.\n\nNa segunda-feira, catorze de novembro, ao terminar a missa da manhã, um homem se aproximou do altar. Levava um arranjo de flores e o deixou aos pés dele. Dentro das flores ia escondida uma bomba de dinamite. Por volta das dez e meia da manhã, ela explodiu.\n\nA explosão danificou o altar de mármore. O crucifixo, que estava diante da imagem, ficou entortado. No dia seguinte, o jornal El Gran Diario de México publicou na primeira página imagens do altar destroçado e da cruz torcida. Essas fotografias fazem parte do registro histórico do ocorrido.\n\nAgora vem o que conta o relato conservado na Basílica. Ele diz que o vidro que cobria a imagem da Virgem nem sequer trincou. Para os fiéis, esse fato é um milagre. Na maneira deles de contar, o Filho protegeu a Mãe. Por isso veneram de forma especial o crucifixo que recebeu a força da explosão. É uma leitura de fé, e assim a conserva a comunidade guadalupana.\n\nHoje o crucifixo é exibido nesta Basílica, dentro de uma vitrine. Acompanha-o um pergaminho que explica os fatos, junto com as fotografias que foram tiradas depois do atentado. Com o passar do tempo, a lembrança daquele dia se tornou parte da memória do santuário.\n\nEm dois mil e vinte e um completaram-se cem anos do atentado. Por esse motivo, a Basílica abriu um Ano Santo com indulgência plenária. Foi uma maneira de recordar o fato dentro da vida da Igreja. A indulgência plenária é, para os católicos, a remissão da pena temporal por pecados já perdoados, com condições que a própria Igreja estabelece.\n\nQuem se aproxima desta vitrine costuma fazê-lo em silêncio. Algumas pessoas se detêm para orar. Outras pedem favores a este Cristo, e outras apenas olham a forma retorcida do metal. Cada um vive isso à sua maneira.\n\nSe for olhar a vitrine, faça-o sem interromper quem está rezando. É uma peça que continua sendo objeto de devoção ativa, além de um testemunho da história deste lugar."
+    },
+    "retos_observacion": {
+      "hash": "e13fbf4f5b450249",
+      "texto": [
+        "Procure a vitrine do crucifixo",
+        "Observe a forma como o metal entortou",
+        "Leia o pergaminho ao lado da vitrine, se estiver visível"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1d4deb1d651e1cb3",
+      "texto": {
+        "Data": "14 de novembro de 1921",
+        "Hora aproximada": "10h30 da manhã",
+        "Objeto": "crucifixo de metal",
+        "Local do fato": "Antiga Basílica"
+      }
+    },
+    "faq_mito": {
+      "hash": "312001e345e0336e",
+      "texto": {
+        "pregunta": "Mito: A bomba de mil novecentos e vinte e um destruiu o altar e tudo o que havia por perto.",
+        "respuesta": "Realidade: Ela danificou muito o altar de mármore e entortou o crucifixo de metal. O relato conservado conta que o vidro que protegia a imagem não se quebrou."
+      }
+    }
+  }
+}

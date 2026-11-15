@@ -1,0 +1,55 @@
+{
+  "id": "bas_11_nueva_arquitectura",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "45188bf7e430ac0d",
+      "texto": "A Nova Basílica"
+    },
+    "frase_gancho": {
+      "hash": "27d2fc999c9aa254",
+      "texto": "Um templo circular pensado para que todos vejam a imagem."
+    },
+    "puente_narrativo": {
+      "hash": "a19522d478faf873",
+      "texto": "Você atravessa o átrio e chega à fachada da Nova Basílica."
+    },
+    "guion_corto": {
+      "hash": "ba7505dc33c9400b",
+      "texto": "Você está diante da Nova Basílica de Guadalupe. Ela foi erguida entre mil novecentos e setenta e quatro e mil novecentos e setenta e seis. A Antiga Basílica estava afundando e já não comportava tantos peregrinos. Sua planta é circular, com mais de cem metros de diâmetro. Foi pensada para que cerca de dez mil pessoas possam ver a imagem da Virgem de qualquer ponto do interior. O projeto foi assinado pelos arquitetos Pedro Ramírez Vázquez e José Luis Benlliure, junto com frei Gabriel Chávez de la Mora. Seu teto é suspenso, sustentado a partir de um único ponto, como uma grande tenda de acampamento. E, para suportar seu peso em um solo mole, foram cravadas centenas de estacas de controle."
+    },
+    "guion_largo": {
+      "hash": "c52e79c258438c3c",
+      "texto": "Você está diante da Nova Basílica de Guadalupe, e vale a pena olhá-la por um momento antes de entrar.\n\nDurante duzentos e sessenta e sete anos, a imagem da Virgem esteve na Antiga Basílica, de mil setecentos e nove a mil novecentos e setenta e seis. É o templo que fica ao lado deste. O solo desta região é mole, de antigo lago, e aquele edifício foi afundando. Além disso, a cada ano chegavam mais peregrinos e o templo já não comportava todos. Era preciso outro lugar.\n\nOs primeiros anteprojetos do arquiteto José Luis Benlliure pensavam em construir no alto do morro. No fim, escolheu-se este terreno, ao pé do Tepeyac. O projeto foi assinado por Pedro Ramírez Vázquez e Benlliure, com frei Gabriel Chávez de la Mora. Colaboraram também Alejandro Schoenhofer e Javier García Lascuráin. A estrutura ficou a cargo de Óscar de Buen, e a acústica, de Eduardo Saad. A encomenda foi feita pelo abade Guillermo Schulenburg.\n\nA pedra fundamental foi colocada em doze de dezembro de mil novecentos e setenta e quatro. O templo foi dedicado em doze de outubro de mil novecentos e setenta e seis, e nesse dia a imagem foi transferida. Foram cerca de vinte e dois meses de obra, um prazo muito curto para um edifício deste tamanho. As primeiras Mañanitas no novo templo foram cantadas em doze de dezembro daquele mesmo ano.\n\nRepare na sua forma. A planta é um círculo com mais de cem metros de diâmetro. Essa decisão tem uma razão simples. Quem entra, não importa onde se sente, pode ver a imagem. No interior cabem cerca de dez mil pessoas, e na praça, muitas mais.\n\nO teto é suspenso e se sustenta a partir de um único ponto, como o mastro de uma tenda. Por dentro é forrado de madeira, e a luz vem de lâmpadas de forma hexagonal.\n\nNa época, algumas pessoas disseram que o edifício parecia mais um circo ou um estádio do que uma igreja. Martha Fernández, pesquisadora da UNAM, propõe ler essa forma de outro modo. Para ela, a tenda lembra a do povo de Israel no deserto. Era o lugar onde, segundo a Bíblia, Deus acompanhava seu povo no caminho. É uma interpretação acadêmica. Também ajuda a entender por que essa forma combina com um lugar ao qual as pessoas chegam caminhando, de longe.\n\nResta o problema do solo. Para que o edifício não afundasse como o anterior, foram cravadas trezentas e quarenta e quatro estacas de controle. Com elas é possível ajustar o nível da construção ao longo dos anos.\n\nObserve também a escala. Da praça, a Basílica se vê inteira a menos de duzentos metros, e sua ponta não parece tão alta quanto é. O edifício foi pensado para receber multidões inteiras, sobretudo na festa de doze de dezembro, quando a praça se enche de peregrinos.\n\nQuando você entrar, vai notar que o espaço é amplo e aberto. Muitas pessoas vêm aqui para rezar, pedir ou agradecer, e há missa durante grande parte do dia. Se você vem apenas para olhar, faça seu percurso com calma e em silêncio. Mais adiante, sobre o altar, está a imagem da Virgem de Guadalupe."
+    },
+    "retos_observacion": {
+      "hash": "5563b7d1d68ddf8f",
+      "texto": [
+        "Conte quantos acessos você vê na fachada",
+        "Procure a forma circular do edifício ao contorná-lo",
+        "Olhe o teto ao entrar"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2ddfd777475ef74a",
+      "texto": {
+        "Obra": "1974 a 1976",
+        "Arquitetos": "Pedro Ramírez Vázquez e José Luis Benlliure",
+        "Planta": "circular, mais de 100 m de diâmetro",
+        "Visibilidade": "cerca de 10 000 pessoas",
+        "Teto": "suspenso, sustentado a partir de um ponto"
+      }
+    },
+    "faq_mito": {
+      "hash": "1540808b34dac40b",
+      "texto": {
+        "pregunta": "Mito: A Antiga Basílica foi abandonada quando a Nova foi construída.",
+        "respuesta": "Realidade: A Antiga hoje é dedicada a Cristo Rei e continua em uso."
+      }
+    }
+  }
+}
