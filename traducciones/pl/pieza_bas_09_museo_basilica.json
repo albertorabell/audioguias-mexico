@@ -1,0 +1,55 @@
+{
+  "id": "bas_09_museo_basilica",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8f53edf3c8475513",
+      "texto": "Muzeum Bazyliki Guadalupe"
+    },
+    "frase_gancho": {
+      "hash": "1f9d89cbb51b5773",
+      "texto": "Sztuka sakralna i pamięć o pobożności w dawnym klasztorze."
+    },
+    "puente_narrativo": {
+      "hash": "955d94e8c3020ad2",
+      "texto": "Idziesz do muzeum w dawnym klasztorze."
+    },
+    "guion_corto": {
+      "hash": "e7258066a6048b56",
+      "texto": "Jesteś w Muzeum Bazyliki Guadalupe, otwartym dwunastego października tysiąc dziewięćset czterdziestego pierwszego roku. Mieści się w dawnym klasztorze, za Starą Bazyliką. Ma około szesnastu sal i ponad cztery tysiące dzieł sztuki azjatyckiej, europejskiej i nowohiszpańskiej, z wieków od piętnastego do dwudziestego. Są tu prace takich malarzy jak Cristóbal de Villalpando, José de Ibarra i Miguel Cabrera. Uważa się je za jedno z najstarszych muzeów w Meksyku. Zebrano tu sztukę sakralną, a także pamięć o pobożności: dary i przedmioty, które wierni zostawiali na przestrzeni wieków. Godziny otwarcia i cena biletu mogą się zmienić."
+    },
+    "guion_largo": {
+      "hash": "6f19f391b0542aa5",
+      "texto": "Muzeum Bazyliki Guadalupe otworzyło swoje podwoje dwunastego października tysiąc dziewięćset czterdziestego pierwszego roku. Uważa się je za jedno z najstarszych muzeów w Meksyku. Mieści się w dawnym klasztorze kapucynek, za Starą Bazyliką.\n\nJego kolekcja jest bogata. Ma około szesnastu sal i ponad cztery tysiące dzieł. Znajdziesz tu sztukę azjatycką, europejską i nowohiszpańską, z wieków od piętnastego do dwudziestego. Wśród wymienianych autorów są Matías de Arteaga y Alfaro, Cristóbal de Villalpando, Nicolás Rodríguez Juárez, José de Ibarra i Miguel Cabrera, ważne nazwiska malarstwa nowohiszpańskiego. Muzeum przedstawia się jako to, które gromadzi największą kolekcję związaną z Matką Boską z Guadalupe.\n\nOprócz malarstwa na płótnie są tu rzeźby polichromowane, rzeźby w marmurze i kości słoniowej, grafiki, książki, tkaniny, takie jak sztandary, arrasy i szaty liturgiczne, złotnictwo oraz meble meksykańskiego pochodzenia. Niektóre sale są uporządkowane tematycznie. Jest Sala Archaniołów, z obrazami archaniołów, i Sala Chrystologiczna, poświęcona Jezusowi.\n\nWażną częścią kolekcji są wota, małe obrazy, którymi wierni dziękowali za otrzymane łaski. Opowiemy o nich na następnym przystanku.\n\nBudynek również przechowuje część historii. To dawny klasztor kapucynek, częściowo oddzielony od Starej Bazyliki, a to rozdzielenie lepiej widać z zewnątrz.\n\nWedług dyrekcji muzeum, kiedy otwarto je w tysiąc dziewięćset czterdziestym pierwszym roku, sztuka religijna nie była ceniona tak jak dziś, a jego założenie było decyzją wyprzedzającą swoje czasy. Z biegiem lat kolekcję zapraszano na ważne wystawy, takie jak te w Muzeum Prado w Madrycie i w Metropolitan Museum of Art w Nowym Jorku.\n\nOsoby odwiedzające muzeum robią to na różne sposoby. Dla wierzących jest to sposób, by poznać pobożność minionych pokoleń. Dla tych, którzy studiują sztukę, to kolekcja malarstwa nowohiszpańskiego. Dla ciekawskich to okno na to, jak przeżywano wiarę w każdej epoce. Dyrektorka muzeum powiedziała, że zwiedzanie go jest przeżyciem duchowym, niezależnie od religii, jaką każdy wyznaje.\n\nGodziny otwarcia, cena biletu i otwarte sale mogą się zmienić. Warto sprawdzić je na oficjalnej stronie przed wizytą. To muzeum, ale także część miejsca kultu, dlatego oczekuje się pełnego szacunku zachowania.\n\nJeśli masz mało czasu, wybierz jedną salę i spokojnie przyjrzyj się tylko jednemu dziełu. Dobrze obejrzany obraz mówi więcej niż wiele obrazów oglądanych w pośpiechu."
+    },
+    "retos_observacion": {
+      "hash": "7f97d36c306962b3",
+      "texto": [
+        "Poszukaj dzieła Villalpanda, Ibarry lub Cabrery",
+        "Przyjrzyj się przedmiotom, które zostawili wierni",
+        "Zwróć uwagę na budynek dawnego klasztoru"
+      ]
+    },
+    "especificaciones": {
+      "hash": "823a01f3b8b7ee2e",
+      "texto": {
+        "Otwarcie": "12 października 1941",
+        "Sale": "około 16",
+        "Eksponaty": "ponad 4 000",
+        "Epoki": "od XV do XX wieku",
+        "Malarze": "Villalpando, Ibarra, Cabrera"
+      }
+    },
+    "faq_mito": {
+      "hash": "393c5d6014d2c3d7",
+      "texto": {
+        "pregunta": "Mit: Muzeum Bazyliki jest niedawne.",
+        "respuesta": "Rzeczywistość: Otwarto je dwunastego października tysiąc dziewięćset czterdziestego pierwszego roku i uważa się je za jedno z najstarszych muzeów w Meksyku."
+      }
+    }
+  }
+}

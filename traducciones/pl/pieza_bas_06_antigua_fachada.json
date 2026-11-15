@@ -1,0 +1,55 @@
+{
+  "id": "bas_06_antigua_fachada",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ba359c19f0c3af0c",
+      "texto": "Stara Bazylika: fasada"
+    },
+    "frase_gancho": {
+      "hash": "c2bab9efbcd3c2e4",
+      "texto": "Barokowa świątynia, która się zapadła i została uratowana."
+    },
+    "puente_narrativo": {
+      "hash": "d60264595a444c00",
+      "texto": "Wychodzisz z Nowej Bazyliki i idziesz w stronę Starej, oddalonej o kilka metrów."
+    },
+    "guion_corto": {
+      "hash": "aa3defcd2018ce1a",
+      "texto": "Przed tobą stoi Stara Bazylika, dziś Świątynia Ekspiacyjna Chrystusa Króla. Budowę rozpoczęto dwudziestego piątego marca tysiąc sześćset dziewięćdziesiątego piątego roku, a zakończono w kwietniu tysiąc siedemset dziewiątego roku, pod kierunkiem architekta Pedra de Arrieta. Świątynia ma trzy nawy, ośmioboczną kopułę z latarnią z ceramiki talavera i cztery ośmioboczne wieże, po jednej w każdym narożniku. Obraz Matki Bożej z Guadalupe otaczano tu czcią od tysiąc siedemset dziewiątego roku do tysiąc dziewięćset siedemdziesiątego szóstego, z kilkoma czasowymi przenosinami. Fasada ma kształt parawanu. Według jednej z interpretacji cztery wieże przywołują Świątynię Salomona. Teren osiadał nierównomiernie i dlatego świątynia przez dziesięciolecia była zamknięta."
+    },
+    "guion_largo": {
+      "hash": "c8e7055562279483",
+      "texto": "Stara Bazylika to drugie wielkie sanktuarium, które wzniesiono w tym miejscu. Wcześniej stała tu niewielka kapliczka, a od roku tysiąc sześćset dwudziestego drugiego kamienna świątynia. W roku tysiąc sześćset dziewięćdziesiątym piątym arcybiskup Juan de Aguiar y Seijas zdecydował o budowie nowej, a poprzednią świątynię zburzono.\n\nPierwszy kamień tamtej świątyni położono w roku tysiąc sześćset dziewiątym, a poświęcono ją w listopadzie tysiąc sześćset dwudziestego drugiego roku. W roku tysiąc sześćset dwudziestym dziewiątym, z powodu powodzi w mieście, obraz przeniesiono do Katedry. Wrócił piętnastego maja tysiąc sześćset trzydziestego czwartego roku.\n\nPrace rozpoczęły się dwudziestego piątego marca tysiąc sześćset dziewięćdziesiątego piątego roku. Najpierw pracował architekt José Durán. Po jego śmierci, w roku tysiąc siedemset siódmym, dzieło przejął Pedro de Arrieta, jeden z wielkich architektów baroku nowohiszpańskiego. Świątynię pobłogosławiono dwudziestego siódmego kwietnia tysiąc siedemset dziewiątego roku, a obraz Matki Bożej z Guadalupe przeniesiono w procesji trzydziestego kwietnia. Kartusz na fasadzie podaje datę pierwszego maja, a źródła przytaczają obie daty.\n\nSpójrz na budynek. Ma plan bazylikowy z trzema nawami oraz ośmioboczną kopułę zwieńczoną latarnią pokrytą żółtą i niebieską ceramiką talavera. W każdym narożniku stoi ośmioboczna wieża, razem cztery. Fasada ma kształt parawanu, to znaczy jest złożona w płaszczyzny jak te drewniane przedmioty, których używa się do podziału przestrzeni, i zdobią ją półkolumny korynckie. Według jednej z interpretacji cztery wieże przywołują Świątynię Salomona, a temat ten badała historyczka sztuki Martha Fernández.\n\nStara Bazylika była kolegiatą, to znaczy miała własną kapitułę kapłanów, od roku tysiąc siedemset pięćdziesiątego. W roku tysiąc osiemset dziewięćdziesiątym piątym, dwunastego października, ukoronowano tu obraz za zgodą papieża Leona trzynastego. W roku tysiąc dziewięćset czwartym, dwudziestego czwartego maja, świątynia otrzymała tytuł bazyliki mniejszej, zaszczyt, który papież nadaje ważnym świątyniom ze względu na ich historię i miejsce w życiu Kościoła.\n\nZ czasem grunt ustąpił, a budynek zapadł się nierównomiernie. W roku tysiąc dziewięćset siedemdziesiątym szóstym, kiedy otwarto Nową Bazylikę, obraz przeniesiono, a ta świątynia została zamknięta. W roku tysiąc dziewięćset siedemdziesiątym dziewiątym Narodowy Instytut Antropologii i Historii (INAH) oraz Episkopat zainicjowały jej konsolidację.\n\nPo dziesięcioleciach prac świątynię ponownie otwarto dla kultu pod nazwą Świątynia Ekspiacyjna Chrystusa Króla. Jeśli obejdziesz budynek dookoła, zobaczysz, że tylna część, apsyda, została oddzielona od reszty o kilka metrów, co jest widocznym śladem zapadania się gruntu.\n\nDla tych, którzy odwiedzają sanktuarium, ten budynek jest miejscem, w którym obraz przebywał przez większą część swojej nowożytnej historii. Dla tych, których interesuje sztuka, jest jednym z najważniejszych dzieł Pedra de Arrieta. A dla wszystkich jest przykładem tego, jak miasto zbudowane na jeziorze dba o swoje zabytki."
+    },
+    "retos_observacion": {
+      "hash": "8f6be73c981cc78d",
+      "texto": [
+        "Policz cztery wieże",
+        "Spójrz na kopułę z latarnią z ceramiki talavera",
+        "Sprawdź, czy budynek wydaje się przechylony"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ee07d9adceab824d",
+      "texto": {
+        "Budowa": "od 25 marca 1695 do kwietnia 1709",
+        "Architekt": "Pedro de Arrieta",
+        "Plan": "trzy nawy",
+        "Kopuła": "ośmioboczna, z latarnią z ceramiki talavera",
+        "Wieże": "cztery, ośmioboczne"
+      }
+    },
+    "faq_mito": {
+      "hash": "c3f23e64f0180f13",
+      "texto": {
+        "pregunta": "Mit: Stara Bazylika została zamknięta z powodu bomby z roku tysiąc dziewięćset dwudziestego pierwszego.",
+        "respuesta": "Rzeczywistość: Bomba uszkodziła ołtarz, ale świątynię zamknięto dla kultu po przeniesieniu obrazu w roku tysiąc dziewięćset siedemdziesiątym szóstym, po latach nierównomiernego osiadania gruntu."
+      }
+    }
+  }
+}

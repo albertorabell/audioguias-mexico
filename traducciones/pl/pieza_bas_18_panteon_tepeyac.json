@@ -1,0 +1,53 @@
+{
+  "id": "bas_18_panteon_tepeyac",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d67a981b3438aa1a",
+      "texto": "Panteon Tepeyac"
+    },
+    "frase_gancho": {
+      "hash": "b80d94d03bffe3ae",
+      "texto": "Cmentarz na zboczu, z postaciami z historii Meksyku."
+    },
+    "puente_narrativo": {
+      "hash": "8cbf205367e41a5e",
+      "texto": "Obok kaplicy znajduje się panteon, w którym kończysz zwiedzanie."
+    },
+    "guion_corto": {
+      "hash": "6d6446ebd1dac0c2",
+      "texto": "Panteon Tepeyac leży tuż obok Kaplicy na Wzgórzku. Na tym wzgórzu chowano zmarłych już przed rokiem tysiąc siedemset szesnastym. Pewna tradycja sięga roku tysiąc sześćset sześćdziesiątego, ale badania dokumentują pierwsze groby na początku osiemnastego wieku. Wraz z Ustawą o Cmentarzach z roku tysiąc osiemset pięćdziesiątego dziewiątego stał się w roku tysiąc osiemset siedemdziesiątym pierwszym oficjalnym panteonem. Spoczywają tu postaci z historii Meksyku, takie jak Antonio López de Santa Anna, malarz José María Velasco i poeta Xavier Villaurrutia, a także wielu architektów. Wiele rodzin wybierało to miejsce na pochówek swoich bliskich, blisko sanktuarium. Jest tu muzeum miejsca, które opowiada historię wzgórza."
+    },
+    "guion_largo": {
+      "hash": "e1f9796ac60dd429",
+      "texto": "Obok Kaplicy na Wzgórzku rozciąga się Panteon Tepeyac, jeden z najstarszych cmentarzy wciąż używanych w Mieście Meksyk. To miejsce pamięci i jako takie warto je oglądać z szacunkiem.\n\nPierwsze pochówki odbywały się wokół kaplicy przed rokiem tysiąc siedemset szesnastym. Pewna tradycja przypisuje jego założenie rokowi tysiąc sześćset sześćdziesiątemu i wiąże je nawet ze świętym Juanem Diego, ale badacze, tacy jak historyk architektury Hugo Arciniega, dokumentują pierwsze groby na początku osiemnastego wieku. Wiele rodzin z miasta chciało chować tu swoich bliskich, blisko miejsca, w którym tradycja gwadalupeńska umieszcza objawienia.\n\nW roku tysiąc osiemset pięćdziesiątym dziewiątym, trzydziestego pierwszego lipca, Ustawa o Cmentarzach zadecydowała, że pochówki przejdą w ręce państwa. Po tej ustawie Tepeyac stał się oficjalnym panteonem w roku tysiąc osiemset siedemdziesiątym pierwszym. Data tysiąc dziewięćset dziesiątego roku, która widnieje na pewnym napisie, nie jest datą jego otwarcia.\n\nPomniki Panteonu są pogrupowane według klas, rozmiarów i położenia, zaczynając od wejścia głównego, jak wynika z badań architektki Silvii Segarry Lagunes o jego krajobrazie, historii i renowacji. Panteon znany jest jako cmentarz architektów, ponieważ Arciniega nazwał go tak w jednym ze swoich badań, gdy odkrył tu wielu budowniczych miasta. Znajdują się tu także pomniki nagrobne o wielkiej wartości artystycznej. Wśród nich wyróżnia się rzeźba Anioła Ciszy.\n\nSpoczywają tu postaci, które są częścią historii kraju. Jest Antonio López de Santa Anna, który kilkakrotnie był prezydentem Meksyku i zmarł dwudziestego pierwszego czerwca tysiąc osiemset siedemdziesiątego szóstego roku. Pochowana jest także jego żona, Dolores Tosta. Jest malarz José María Velasco, znany z pejzaży Doliny Meksyku. Jest poeta Xavier Villaurrutia. I jest Delfina Ortega Díaz, pierwsza żona prezydenta Porfirio Díaza.\n\nBadaczka Ethel Herrera Moreno skatalogowała pomniki nagrobne tego panteonu, które przedstawiają Matkę Bożą z Guadalupe. Ta pobożność, wyrażana także na grobowcach, jest częścią tego, co widać na tych nagrobkach.\n\nPanteon ma ponadto muzeum miejsca z dwiema salami. Jedna opowiada historię wzgórza od czasów prehiszpańskich, a druga historię cmentarza. Ani panteon, ani muzeum nie są otwarte tak jak reszta kompleksu. Aby je zwiedzić, trzeba wcześniej umówić wizytę, a warunki najlepiej potwierdzić na oficjalnej stronie.\n\nJeśli nie możesz wejść, ten przystanek brzmi tak samo z punktu widokowego przy kaplicy. A jeśli wejdziesz, pamiętaj, że to cmentarz, na którym rodziny odwiedzają swoich zmarłych: idzie się w ciszy, bez pośpiechu."
+    },
+    "retos_observacion": {
+      "hash": "96d210c7924eb1a7",
+      "texto": [
+        "Poszukaj grobów znanych postaci",
+        "Przyjrzyj się mauzoleom architektów",
+        "Zapytaj o muzeum miejsca"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e09c267116c503c0",
+      "texto": {
+        "Pochówki": "przed 1716",
+        "Oficjalny panteon": "1871",
+        "Pochowani": "Antonio López de Santa Anna, José María Velasco, Xavier Villaurrutia"
+      }
+    },
+    "faq_mito": {
+      "hash": "1823517dcf05a11b",
+      "texto": {
+        "pregunta": "Mit: Panteon jest udokumentowany od roku tysiąc sześćset sześćdziesiątego.",
+        "respuesta": "Rzeczywistość: Pewna tradycja sięga tej daty, ale badania dokumentują pierwsze groby na początku osiemnastego wieku. Jest oficjalnym panteonem od roku tysiąc osiemset siedemdziesiątego pierwszego."
+      }
+    }
+  }
+}

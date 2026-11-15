@@ -1,0 +1,45 @@
+{
+  "id": "bas_03_tepeyac_prehispanico",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0e8c809acb502526",
+      "texto": "Tepeyac przed sanktuarium"
+    },
+    "frase_gancho": {
+      "hash": "79f23eb3a65e55c8",
+      "texto": "Wzgórze odwiedzane na długo przed Bazyliką."
+    },
+    "puente_narrativo": {
+      "hash": "b60863c0e81522de",
+      "texto": "Spójrz z placu na wzgórze i pomyśl o tym, co było tu, zanim stanęły budowle."
+    },
+    "guion_corto": {
+      "hash": "24413fbd3f7c3b97",
+      "texto": "Zanim stanęło tu chrześcijańskie sanktuarium, to wzgórze było już miejscem, do którego się przychodziło. Mexica połączyli je z Tenochtitlan groblą. Franciszkanin Bernardino de Sahagún napisał około roku tysiąc pięćset siedemdziesiątego szóstego, że przychodziło tu wielu ludzi, by oddać cześć Tonantzin, imieniu w języku nahuatl, które znaczy nasza matka. Sahagúna niepokoiło, jakie znaczenie miała ta pobożność. Historycy wciąż badają, jak łączą się obie tradycje, i nie wszyscy są zgodni. Wzgórze, dziś otoczone miastem, leży na północ od dawnej stolicy Mexica. Dla wiernych Tepeyac jest przede wszystkim miejscem, w którym Maryja Dziewica objawiła się świętemu Juanowi Diego."
+    },
+    "guion_largo": {
+      "hash": "4d0b8825c7c5898c",
+      "texto": "Wzgórze Tepeyac leży na północnym krańcu dawnej Doliny Meksyku, u stóp pasma górskiego Guadalupe. Wzgórze jest częścią tego pasma. Dziś otacza je miasto, ale w szesnastym wieku było to miejsce oddalone od Tenochtitlan, do którego docierało się groblą. Ta grobla to dzisiejsza Aleja Tajemnic.\n\nTo, że Mexica zbudowali drogę na to wzgórze, coś mówi: było to miejsce, do którego się chodziło. W tradycji mezoamerykańskiej wzgórza miały często znaczenie religijne, a Tepeyac nie był wyjątkiem wśród wzgórz doliny. Dziś wiemy niewiele o tym, co się tu działo, a to niewiele dociera do nas innymi drogami.\n\nNajbardziej znana jest relacja franciszkanina Bernardina de Sahagúna. Około roku tysiąc pięćset siedemdziesiątego szóstego, w swoim dziele o sprawach Nowej Hiszpanii, napisał, że na Tepeyac było miejsce, gdzie czczono boginię Tonantzin, i że przybywali tam ludzie z odległych stron. Tonantzin to imię w języku nahuatl, które znaczy nasza matka. Sahagún opowiada, że ta pobożność go niepokoiła, ponieważ to samo imię można było rozumieć na dwa sposoby, i martwiło go, kogo czczą ci, którzy wchodzą na wzgórze.\n\nTa informacja pochodzi od jednego autora i została spisana kilkadziesiąt lat po podboju. Dlatego historycy czytają ją ostrożnie, a każde pokolenie badaczy wracało do niej, by sprawdzić to, co wiadomo. Niektórzy uważają, że świadczy ona o ciągłości między dawnym miejscem kultu a chrześcijańskim sanktuarium. Inni sądzą, że związek między nimi trudniej udowodnić. Na wzgórzu dokonano odkryć archeologicznych, ale ich interpretacja również budzi spory.\n\nTo, co można powiedzieć z pewnością, jest następujące. Tepeyac był, jeszcze przed podbojem, miejscem o znaczeniu religijnym dla mieszkańców doliny. A od szesnastego wieku był miejscem, w którym zbudowano sanktuarium Matki Bożej z Guadalupe.\n\nDla wiernych to sanktuarium narodziło się z pewnego wydarzenia. Według tradycji guadalupeńskiej w grudniu tysiąc pięćset trzydziestego pierwszego roku Maryja Dziewica objawiła się tutaj Juanowi Diego, człowiekowi tubylczego pochodzenia, i przemówiła do niego w jego języku. Kościół uznaje kult Matki Bożej z Guadalupe, a w dwa tysiące drugim roku kanonizował świętego Juana Diego w tej właśnie Bazylice. Ci, którzy przeżywają wiarę w tej tradycji, nie widzą we wzgórzu miejsca, które należało do innych, lecz miejsce, do którego Dziewica przyszła spotkać się ze swoim ludem.\n\nTen przystanek nie rozstrzyga sporu historyków. Podaje ci tylko fakty: dawną drogę, wzgórze z kultem, niepokój jednego zakonnika i tradycję, która przez prawie pięć wieków zgromadziła miliony ludzi."
+    },
+    "retos_observacion": {
+      "hash": "7b95a44449b68db6",
+      "texto": [
+        "Spójrz na wzgórze z placu",
+        "Wskaż północ: stolica Mexica leżała na południu",
+        "Porównaj wzgórze z miastem, które dziś je otacza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "62c42cb6f136ab9c",
+      "texto": {
+        "Główne źródło": "Bernardino de Sahagún, około 1576",
+        "Nazwa w języku nahuatl": "Tonantzin, nasza matka"
+      }
+    }
+  }
+}

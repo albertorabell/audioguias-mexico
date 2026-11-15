@@ -1,0 +1,47 @@
+{
+  "id": "bas_02_atrio_americas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "272974ef7408828e",
+      "texto": "Atrium i Plac Ameryk"
+    },
+    "frase_gancho": {
+      "hash": "9751d74a84d85b40",
+      "texto": "Wielka otwarta przestrzeń, na której gromadzą się pielgrzymi."
+    },
+    "puente_narrativo": {
+      "hash": "c3d5b0f460725e72",
+      "texto": "Od wejścia przechodzisz na atrium, przestrzeń, która wita pielgrzymów przed Nową Bazyliką."
+    },
+    "guion_corto": {
+      "hash": "f7f8c5104853a993",
+      "texto": "Jesteś na atrium, wielkiej otwartej przestrzeni przed Nową Bazyliką. Co roku gromadzą się tu miliony pielgrzymów, a szczególnie dwunastego grudnia, w dniu Matki Bożej z Guadalupe. Na tej przestrzeni wznosi się carillon, ukończony w tysiąc dziewięćset dziewięćdziesiątym pierwszym roku. Ma czterdzieści osiem dzwonów z brązu, mierzy dwadzieścia trzy metry i ma cztery zegary: cywilny, astroplan, słoneczny i Mexica. Z przodu animowane figury świętego Juana Diego, brata Juana de Zumárragi i Juana Bernardina opowiadają historię objawień, zgodnie z tradycją guadalupańską. Kiedy odbywa się msza pod gołym niebem albo pielgrzymka, to miejsce wypełnia się ludźmi. Jeśli przyjdziesz w takie dni, idź powoli."
+    },
+    "guion_largo": {
+      "hash": "185c03ba02f6f111",
+      "texto": "To atrium Ameryk, wielka esplanada otwierająca się przed Nową Bazyliką. Tu docierają pielgrzymi, zanim wejdą do świątyni, i tu też się gromadzą, gdy świątynia nie pomieści wszystkich.\n\nSzacunki, ilu ludzi odwiedza ten zespół każdego roku, wahają się od ośmiu do dwudziestu milionów, zależnie od tego, kto je sporządza. Jakakolwiek jest dokładna liczba, to miliony. Główne święto przypada dwunastego grudnia, kiedy Kościół obchodzi uroczystość Matki Bożej z Guadalupe. W tym dniu i w dniach go otaczających przybywają pielgrzymki z całego kraju i z innych krajów. Wiele z nich idzie pieszo od kilku dni. Niektórzy przemierzają tę esplanadę na kolanach, spełniając złożoną obietnicę. Nowa Bazylika została zaprojektowana tak, by pomieścić w środku około dziesięciu tysięcy osób, a na zewnątrz zmieszczą się jeszcze dziesiątki tysięcy.\n\nWłaśnie tutaj wznosi się carillon, wieża o wysokości dwudziestu trzech metrów, ukończona w tysiąc dziewięćset dziewięćdziesiątym pierwszym roku. Ma czterdzieści osiem dzwonów z brązu. Jego powstanie wsparł brat Gabriel Chávez de la Mora, mnich benedyktyński, który współpracował także przy projekcie Nowej Bazyliki.\n\nCarillon ma cztery zegary. Jeden jest cywilny i wskazuje godzinę, której używamy na co dzień. Jeden jest astroplanem. Jeden jest słoneczny. A czwarty to zegar Mexica, który przypomina inny sposób mierzenia czasu, sposób ludów zamieszkujących tę dolinę przed przybyciem Hiszpanów.\n\nPrzed wieżą znajduje się cyklorama z animowanymi figurami. Przedstawiają świętego Juana Diego, brata Juana de Zumárragę, pierwszego biskupa Meksyku, oraz Juana Bernardina, wuja Juana Diego. Ich ruchy opowiadają historię objawień tak, jak przekazuje ją tradycja guadalupańska. Według tej tradycji w grudniu tysiąc pięćset trzydziestego pierwszego roku Najświętsza Maryja Panna ukazała się Juanowi Diego na tym wzgórzu i poprosiła, by wzniesiono tu świątynię.\n\nW dwa tysiące jedenastym roku otwarto ponadto Plac Maryjny, obok tej przestrzeni, z Muzeum Guadalupańskim, dziełem Fundacji Carlosa Slima.\n\nStąd widzisz Nową Bazylikę, zbudowaną na planie koła, otwartą w tysiąc dziewięćset siedemdziesiątym szóstym roku. Z boku, między budynkami zespołu, stoi Stara Bazylika z osiemnastego wieku. A za tym wszystkim wznosi się wzgórze Tepeyac.\n\nAtrium to także miejsce spotkań. Przychodzą rodziny, grupy niosące wizerunki Matki Bożej i osoby, które przybywają samotnie. Jedni odpoczywają po długiej drodze, inni robią sobie zdjęcia, jeszcze inni czekają na wejście do świątyni. To miejsce zgromadzeń. Dla wielu osób jest miejscem modlitwy, pożegnania albo wdzięczności. Jeśli trwa msza lub modlitwa, możesz spacerować po nim spokojnie, mówiąc cicho i nie przeszkadzając."
+    },
+    "retos_observacion": {
+      "hash": "8e2d869d55db9de5",
+      "texto": [
+        "Policz dzwony carillonu, jeśli usłyszysz, jak gra",
+        "Poszukaj czterech zegarów",
+        "Przyjrzyj się animowanym figurom u podnóża carillonu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de38a84f8de00f57",
+      "texto": {
+        "Carillon": "ukończony w 1991",
+        "Dzwony": "czterdzieści osiem, z brązu",
+        "Wysokość": "23 m",
+        "Zegary": "cztery (cywilny, astroplan, słoneczny i Mexica)"
+      }
+    }
+  }
+}

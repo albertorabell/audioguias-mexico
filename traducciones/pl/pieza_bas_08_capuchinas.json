@@ -1,0 +1,55 @@
+{
+  "id": "bas_08_capuchinas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2cf501b057bd87ae",
+      "texto": "Świątynia i klasztor kapucynek"
+    },
+    "frase_gancho": {
+      "hash": "4d5c6f413d7c286c",
+      "texto": "Klasztor sióstr tuż obok sanktuarium."
+    },
+    "puente_narrativo": {
+      "hash": "fe40216e6339b812",
+      "texto": "Obchodzisz Starą Bazylikę i docierasz do świątyni kapucynek."
+    },
+    "guion_corto": {
+      "hash": "c47a30b6cdd31092",
+      "texto": "Przed tobą stoi świątynia i dawny klasztor kapucynek. Kamień węgielny położono w tysiąc siedemset osiemdziesiątym drugim roku, a budowę prowadził architekt Ignacio de Castera. Otwarto ją w tysiąc siedemset osiemdziesiątym siódmym roku, z inicjatywy matki Mariany i przy wsparciu kilku dobroczyńców. Siostry mieszkały tu aż do czasu, gdy klasztor został znacjonalizowany i zamknięty w tysiąc osiemset sześćdziesiątym trzecim roku. Między tysiąc osiemset osiemdziesiątym ósmym a tysiąc osiemset dziewięćdziesiątym piątym rokiem ta świątynia przechowywała obraz, gdy w Starej Bazylice trwały prace. Dziś jest parafią Santa María de Guadalupe."
+    },
+    "guion_largo": {
+      "hash": "5d4d6714188925fb",
+      "texto": "Ta świątynia i przylegający do niej klasztor powstały pod koniec XVIII wieku dla wspólnoty sióstr kapucynek. Kapucynki to mniszki klauzurowe z rodziny franciszkańskiej, które żyją oddane modlitwie.\n\nBudowę podjęto z inicjatywy matki Mariany, założycielki wspólnoty. Jej pełne imię występuje w źródłach w dwóch wersjach, dlatego tutaj nazywamy ją właśnie tak. Kamień węgielny położono w tysiąc siedemset osiemdziesiątym drugim roku. Architekt Ignacio de Castera, jeden z budowniczych działających w tamtych latach w Mieście Meksyk, kierował budową, którą otwarto w tysiąc siedemset osiemdziesiątym siódmym roku. Wśród osób, które wsparły projekt pieniędzmi, są Luis de Torres, Manuel de la Borda i hrabia de Regla.\n\nKlasztor pomyślano dla kobiet wiodących życie kontemplacyjne. Mieszkały tu w klauzurze, a modlitwa stanowiła centrum ich dni. We wspólnocie klauzurowej siostry nie opuszczają klasztoru i przyjmują niewiele osób. Ich życie dzieli się między modlitwę, pracę i milczenie. Takie życie trwało do tysiąc osiemset sześćdziesiątego trzeciego roku, kiedy rząd znacjonalizował dobra Kościoła w kontekście ustaw Reformy, a klasztor zamknięto. Był to środek, który dotknął wiele klasztorów w kraju, a siostry musiały opuścić budynek.\n\nWłaśnie w tej świątyni przechowywano też obraz Matki Bożej z Guadalupe. Od dwudziestego trzeciego lutego tysiąc osiemset osiemdziesiątego ósmego roku do trzydziestego września tysiąc osiemset dziewięćdziesiątego piątego roku, gdy w Starej Bazylice trwały prace, obraz czczono w tym miejscu. Później wrócił do sanktuarium.\n\nGrunt pod zespołem budynków jest miękki, jak w całej tej okolicy, i budowla ulegała osiadaniu. Między tysiąc dziewięćset siedemdziesiątym szóstym a tysiąc dziewięćset osiemdziesiątym drugim rokiem umieszczono pale kontrolne, aby ją ustabilizować. Osiadanie jednak trwa nadal.\n\nW tym samym zespole znajduje się Kaplica Przysiąg, którą także opiekuje się ta parafia. Dziś świątynia jest parafią Santa María de Guadalupe. To kościół, w którym odprawia się msze i odbywają się nabożeństwa dla wspólnoty. Na jego głównym ołtarzu znajduje się Święta Rodzina namalowana w okręgu, a w sąsiednim budynku, który był klasztorem, mieści się Muzeum Bazyliki.\n\nTo część historii tego miejsca, której nie zawsze widać: historia osób, które przez ponad siedemdziesiąt lat żyły tu oddane modlitwie, kilka kroków od sanktuarium Dziewicy."
+    },
+    "retos_observacion": {
+      "hash": "6f1eceb9f079bbb9",
+      "texto": [
+        "Znajdź fasadę i jej drzwi",
+        "Przyjrzyj się budynkowi klasztoru obok świątyni",
+        "Zwróć uwagę na tablicę, jeśli jakaś jest"
+      ]
+    },
+    "especificaciones": {
+      "hash": "16e5d0bf32d3599c",
+      "texto": {
+        "Kamień węgielny": "1782",
+        "Architekt": "Ignacio de Castera",
+        "Otwarcie": "1787",
+        "Zamknięcie klasztoru": "1863",
+        "Obraz tutaj": "1888–1895"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e1aaca2ce4f9d8f",
+      "texto": {
+        "pregunta": "Mit: Świątynia kapucynek zawsze była parafią.",
+        "respuesta": "Rzeczywistość: Był to klasztor sióstr, dopóki nie został znacjonalizowany i zamknięty w tysiąc osiemset sześćdziesiątym trzecim roku. Dziś jest parafią Santa María de Guadalupe."
+      }
+    }
+  }
+}

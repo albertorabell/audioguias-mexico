@@ -1,0 +1,54 @@
+{
+  "id": "bas_12_cristo_atentado",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "801feedc00e2dc7b",
+      "texto": "Święty Chrystus Zamachu"
+    },
+    "frase_gancho": {
+      "hash": "336c35abff7707c6",
+      "texto": "Wykrzywiony krucyfiks, który przypomina zamach z 1921 roku."
+    },
+    "puente_narrativo": {
+      "hash": "e4dbd2ba8e875bff",
+      "texto": "Wewnątrz świątyni poszukaj gabloty, w której przechowuje się krucyfiks."
+    },
+    "guion_corto": {
+      "hash": "b20ea1b039171f09",
+      "texto": "W tej Bazylice przechowuje się wykrzywiony krzyż, Świętego Chrystusa Zamachu. Czternastego listopada tysiąc dziewięćset dwudziestego pierwszego roku, około wpół do jedenastej rano, w Starej Bazylice wybuchła bomba dynamitowa. Nieznany mężczyzna zostawił ją ukrytą wśród kwiatów u stóp ołtarza głównego. Marmurowy ołtarz został poważnie uszkodzony, a ten metalowy krucyfiks, który na nim stał, wygiął się. Zachowana relacja mówi, że szyba chroniąca wizerunek Matki Bożej nie pękła. Wierni uważają to za cud. Dziś krucyfiks znajduje się w gablocie, obok pergaminu opowiadającego o tamtych wydarzeniach."
+    },
+    "guion_largo": {
+      "hash": "ec6f3fef4ba0c22d",
+      "texto": "W tej Bazylice, w gablocie, przechowuje się wykrzywiony krzyż. Znany jest jako Święty Chrystus Zamachu. Aby zrozumieć, dlaczego jest ważny, trzeba cofnąć się do pewnego poranka w tysiąc dziewięćset dwudziestym pierwszym roku.\n\nW tamtych latach wizerunek Matki Bożej z Guadalupe znajdował się w Starej Bazylice, świątyni stojącej obok tej. Do budowy Bazyliki, w której teraz jesteś, brakowało jeszcze ponad pięćdziesięciu lat. Stara Bazylika była świątynią bardzo ukochaną. W tysiąc osiemset dziewięćdziesiątym piątym roku wizerunek został tam ukoronowany, a w tysiąc dziewięćset czwartym roku świątynia została podniesiona do godności bazyliki mniejszej. Ołtarz główny był z marmuru. Na ołtarzu, przed wizerunkiem, stał metalowy krucyfiks.\n\nW poniedziałek, czternastego listopada, po zakończeniu porannej mszy, do ołtarza podszedł mężczyzna. Niósł wiązankę kwiatów i zostawił ją u jego stóp. Wśród kwiatów ukryta była bomba dynamitowa. Około wpół do jedenastej rano wybuchła.\n\nWybuch uszkodził marmurowy ołtarz. Krucyfiks, który stał przed wizerunkiem, został wygięty. Następnego dnia gazeta „El Gran Diario de México” opublikowała na pierwszej stronie zdjęcia zniszczonego ołtarza i wykrzywionego krzyża. Te fotografie są częścią historycznego zapisu tamtych wydarzeń.\n\nTeraz przechodzimy do tego, co mówi relacja przechowywana w Bazylice. Głosi ona, że szyba osłaniająca wizerunek Matki Bożej nawet nie pękła. Dla wiernych to zdarzenie jest cudem. W ich opowieści Syn ochronił Matkę. Dlatego w szczególny sposób czczą krucyfiks, który przyjął siłę eksplozji. To odczytanie płynące z wiary i tak zachowuje je wspólnota gwadalupiańska.\n\nDziś krucyfiks jest wystawiony w tej Bazylice, w gablocie. Towarzyszy mu pergamin wyjaśniający wydarzenia, a także fotografie wykonane po zamachu. Z biegiem czasu pamięć o tamtym dniu stała się częścią pamięci sanktuarium.\n\nW dwa tysiące dwudziestym pierwszym roku minęło sto lat od zamachu. Z tej okazji Bazylika otworzyła Rok Święty z odpustem zupełnym. Był to sposób, by przypomnieć to wydarzenie w życiu Kościoła. Odpust zupełny jest dla katolików darowaniem kary doczesnej za grzechy już przebaczone, na warunkach określanych przez sam Kościół.\n\nOsoby, które podchodzą do tej gabloty, zwykle robią to w ciszy. Niektórzy zatrzymują się, by się pomodlić. Inni proszą tego Chrystusa o łaski, a jeszcze inni po prostu patrzą na powykręcany kształt metalu. Każdy przeżywa to na swój sposób.\n\nJeśli zechcesz obejrzeć gablotę, zrób to, nie przeszkadzając tym, którzy się modlą. To przedmiot, który wciąż jest przedmiotem żywego kultu, a zarazem świadectwem historii tego miejsca."
+    },
+    "retos_observacion": {
+      "hash": "e13fbf4f5b450249",
+      "texto": [
+        "Poszukaj gabloty z krucyfiksem",
+        "Zwróć uwagę, w jaki sposób wygiął się metal",
+        "Przeczytaj pergamin obok gabloty, jeśli jest widoczny"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1d4deb1d651e1cb3",
+      "texto": {
+        "Data": "14 listopada 1921",
+        "Przybliżona godzina": "10:30 rano",
+        "Przedmiot": "metalowy krucyfiks",
+        "Miejsce zdarzenia": "Stara Bazylika"
+      }
+    },
+    "faq_mito": {
+      "hash": "312001e345e0336e",
+      "texto": {
+        "pregunta": "Mit: Bomba z tysiąc dziewięćset dwudziestego pierwszego roku zniszczyła ołtarz i wszystko, co było w pobliżu.",
+        "respuesta": "Rzeczywistość: Poważnie uszkodziła marmurowy ołtarz i wygięła metalowy krucyfiks. Zachowana relacja mówi, że szyba chroniąca wizerunek nie pękła."
+      }
+    }
+  }
+}

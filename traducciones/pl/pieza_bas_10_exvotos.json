@@ -1,0 +1,53 @@
+{
+  "id": "bas_10_exvotos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7430e21dcc21c2dd",
+      "texto": "Wota"
+    },
+    "frase_gancho": {
+      "hash": "8611143009a36065",
+      "texto": "Małe obrazy, które mówią dziękuję."
+    },
+    "puente_narrativo": {
+      "hash": "a4c439673c18f133",
+      "texto": "Wewnątrz muzeum poszukaj sali z wotami."
+    },
+    "guion_corto": {
+      "hash": "c6cefe479961f9f7",
+      "texto": "Wotum to mały obraz, którym ktoś dziękuje za łaskę, jaką przypisuje wstawiennictwu Matki Bożej lub świętego. Zwykle pokazuje scenę niebezpieczeństwa, wizerunek, któremu ta osoba się powierzyła, oraz ręcznie pisany tekst opowiadający o tym, co się stało. To muzeum przechowuje ponad dwa tysiące wot, prawie wszystkie z dziewiętnastego i dwudziestego wieku, i przedstawia się jako największa kolekcja wot guadalupejskich. Mówią o chorobach, wypadkach, podróżach i wojnach. Wiele z nich zawiera imię i datę. Warto podejść bliżej i spokojnie przeczytać teksty. To dokumenty wiary, a także codziennego życia swojej epoki."
+    },
+    "guion_largo": {
+      "hash": "b32460df59152f63",
+      "texto": "Po łacinie ex voto odnosi się do spełnienia obietnicy, a wotum jest przedmiotem, którym się ją spełnia. Ktoś prosi o łaskę Boga, Matkę Bożą lub świętego, a gdy ją otrzyma, dziękuje przedmiotem. W meksykańskim katolicyzmie ten przedmiot to zwykle mały obraz.\n\nWedług specjalistki muzeum, Nydii Mirny Rodríguez Alatorre, wota nie są wyłączną cechą chrześcijaństwa. Istnieją w wielu kulturach i od starożytności. Zwyczaj ofiarowywania obrazu z podziękowaniem pochodzi z Włoch, z piętnastego wieku, a później rozprzestrzenił się na inne kraje.\n\nW Meksyku ta praktyka stała się bardzo popularna w dziewiętnastym i dwudziestym wieku i wypełniła ściany sanktuariów w całym kraju. Muzeum Bazyliki przechowuje ponad dwa tysiące wot, prawie wszystkie z tych wieków, i przedstawia się jako największa kolekcja wot guadalupejskich.\n\nWotum ma zazwyczaj trzy części. U góry zwykle pojawia się wizerunek, któremu osoba się powierzyła, w tym przypadku Matka Boża z Guadalupe lub któryś ze świętych. Niżej znajduje się scena nieszczęścia: choroba, wypadek, upadek. A w dolnej części jest ręcznie pisany tekst, w którym osoba opowiada, co się wydarzyło, i dziękuje. Wiele z nich napisali ludzie, którzy niewiele chodzili do szkoły, a ten bezpośredni język jest częścią ich wartości.\n\nNie wszystkie wota są obrazami. Już w siedemnastym wieku jezuita Francisco de Florencia odnotował w tym sanktuarium srebrne dary w kształcie głów, oczu, serc, ramion, nóg i dłoni, które wierni zostawiali w podziękowaniu. To inny, starszy sposób dziękowania.\n\nTematy wiele mówią o swojej epoce. Są choroby, wypadki i migracje. W latach wojen domowych dziewiętnastego wieku i Rewolucji pojawiła się także branka, czyli przymusowy werbunek młodych ludzi, oraz lęk matek, których synowie szli na wojnę.\n\nWotum wyraża bezpośrednią relację człowieka z Bogiem, bez pośredników, a jednocześnie zostaje upublicznione w sanktuarium, aby inni mogli je zobaczyć. Wiele z nich zawiera imię osoby, która je ofiarowała, oraz datę, a to pozwala umieścić je w czasie.\n\nDla tego, kto je ofiarował, wotum jest aktem wdzięczności i wiary. Dla tego, kto patrzy na nie dzisiaj, jest także dokumentem historycznym. Od końca dwudziestego wieku zaczęto cenić wota jako źródła wiedzy o tym, jak ludzie z każdej epoki żyli, ubierali się, modlili i chorowali.\n\nTutaj nikt nie prosi zwiedzającego, aby uwierzył lub przestał wierzyć. Zachęca się go, by uważnie spojrzał na to, co inni napisali w swojej najtrudniejszej chwili, i by przeczytał ich słowa z szacunkiem, na jaki zasługuje każde podziękowanie."
+    },
+    "retos_observacion": {
+      "hash": "d80b19dbac01d4f3",
+      "texto": [
+        "Przeczytaj jeden z ręcznie pisanych tekstów",
+        "Znajdź wizerunek, któremu powierzyła się dana osoba",
+        "Zwróć uwagę na datę jednego z wot"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eab9149d314df35f",
+      "texto": {
+        "Eksponaty": "ponad 2 000",
+        "Epoki": "głównie XIX i XX wiek",
+        "Części": "scena, wizerunek i tekst pisany ręcznie"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2be7587a3893cc2",
+      "texto": {
+        "pregunta": "Mit: Wota to rysunki bez wartości historycznej.",
+        "respuesta": "Rzeczywistość: To dokumenty codziennego życia swojej epoki, ze sceną, ręcznie pisanym tekstem i często z imieniem oraz datą."
+      }
+    }
+  }
+}

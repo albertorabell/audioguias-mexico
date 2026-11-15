@@ -1,0 +1,46 @@
+{
+  "id": "bas_15_pocito_interior",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "313cec151e7c53d3",
+      "texto": "Kaplica Pocito: wnętrze"
+    },
+    "frase_gancho": {
+      "hash": "403a622af6b8d28c",
+      "texto": "Trzy połączone przestrzenie i studnia."
+    },
+    "puente_narrativo": {
+      "hash": "b6946908638991b7",
+      "texto": "Wchodzisz do kaplicy, w której mogą się modlić ludzie."
+    },
+    "guion_corto": {
+      "hash": "0bb907ed3e70128a",
+      "texto": "Wewnątrz kaplicy znajdują się trzy połączone ze sobą przestrzenie. Najpierw okrągły przedsionek, w którym wciąż zachowała się cembrowina studni. Potem sala modlitewna z ołtarzem ze złoconego drewna. A w głębi ośmioboczna zakrystia. Na ścianach wiszą cztery obrazy przedstawiające objawienia, przypisywane Miguelowi Cabrerze, jednemu z wielkich malarzy Nowej Hiszpanii. Podporą ambony jest postać Indianina, która przypomina świętego Juana Diego. Dla wiernych studnia wiąże się z pamięcią o objawieniach. To miejsce, do którego wchodzi się ze spokojem. Mogą się tu modlić ludzie, a godziny otwarcia mogą się zmieniać."
+    },
+    "guion_largo": {
+      "hash": "0c90c6a84e9ea872",
+      "texto": "Pocito to zdrobnienie hiszpańskiego słowa oznaczającego studnię, czyli mała studnia, i stąd właśnie wzięła się nazwa kaplicy. Zaraz po wejściu spotykasz przedsionek, który ma kształt koła. Nadal stoi tam cembrowina studni, kamienny brzeg otaczający wylot źródła. Kaplicę wzniesiono, aby chronić to miejsce, i to ono jest środkiem budynku.\n\nDla wiernych studnia wiąże się z pamięcią o objawieniach. Tradycja guadalupańska, w takiej postaci, w jakiej spisał ją Francisco de Florencia w siedemnastym wieku, łączy ją z jednym z miejsc na Tepeyac, w którym Maryja Panna objawiła się świętemu Juanowi Diego. Przez wieki opiekę nad studnią sprawował człowiek zwany pobożnym sługą Matki Bożej z Guadalupe, wyznaczany przez radę miejską, aż w tysiąc siedemset siedemdziesiątym ósmym roku postanowiono wznieść obecną kaplicę.\n\nZa przedsionkiem przechodzi się do sali modlitewnej, która jest główną przestrzenią. Stoi tam ołtarz z drewna pokrytego złotem. Na ścianie znajdują się cztery obrazy ze scenami objawień, namalowane, według miejscowej tradycji, przez Miguela Cabrerę. Cabrera urodził się w tysiąc sześćset dziewięćdziesiątym piątym roku, zmarł w tysiąc siedemset sześćdziesiątym ósmym i był jednym z najważniejszych malarzy Nowej Hiszpanii. Badanie z roku dwa tysiące dwudziestego drugiego przywołuje ponadto kopię wizerunku Matki Bożej z Guadalupe, wykonaną przez Cabrerę w tysiąc siedemset pięćdziesiątym trzecim roku.\n\nJest tu także ambona, czyli wyniesione miejsce, z którego wygłasza się kazania. Zamiast kolumny ambona wspiera się na postaci Indianina, który przedstawia Juana Diego. To szczegół łatwy do przeoczenia, a mówi o tym, jak w tej przestrzeni chciano upamiętnić posłańca Maryi Panny.\n\nTrzecią przestrzenią jest zakrystia o ośmiobocznym rzucie, w której przechowuje się przedmioty kultu.\n\nRzut wnętrza jest równie złożony jak rzut zewnętrzny. Okrągły przedsionek, sala modlitewna i ośmioboczna zakrystia tworzą zespół płaszczyzn krzywych i prostych. Badacze uważają go za jeden z najśmielszych wyrazów meksykańskiego baroku.\n\nKaplica jest miejscem czynnego kultu i należy do parafii Santa María de Guadalupe, zwanej parafią Kapucynek. Mogą się tu modlić ludzie. Warto wejść ze spokojem, mówić cicho i fotografować dyskretnie. Godziny otwarcia mogą się zmieniać, a najlepiej sprawdzić je na oficjalnej stronie.\n\nJeśli uda ci się wejść, zacznij od przedsionka i pamiętaj, że studnia leży u początków całego budynku. Potem spokojnie przejdź przez salę i oglądaj obrazy jeden po drugim. Każdy opowiada na swój sposób o chwili z historii, którą tradycja guadalupańska przekazuje od wieków."
+    },
+    "retos_observacion": {
+      "hash": "f6085b63cb4beca3",
+      "texto": [
+        "Poszukaj cembrowiny studni",
+        "Spójrz na cztery obrazy przedstawiające objawienia",
+        "Przyjrzyj się ambonie z postacią Indianina"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d1d88e7e5583047",
+      "texto": {
+        "Przestrzenie": "okrągły przedsionek, sala modlitewna, ośmioboczna zakrystia",
+        "Obrazy": "cztery, przypisywane Miguelowi Cabrerze",
+        "Ołtarz": "złocone drewno"
+      }
+    }
+  }
+}

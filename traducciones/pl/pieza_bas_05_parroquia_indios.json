@@ -1,0 +1,54 @@
+{
+  "id": "bas_05_parroquia_indios",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "345cf9b598580178",
+      "texto": "Parafia Indian"
+    },
+    "frase_gancho": {
+      "hash": "ebe7c4d3988cad57",
+      "texto": "Najstarszy zachowany budynek całego kompleksu."
+    },
+    "puente_narrativo": {
+      "hash": "398b1205f5b73106",
+      "texto": "Schodzisz ku Parafii Indian, niewielkiej i spokojnej kaplicy."
+    },
+    "guion_corto": {
+      "hash": "4ed837fbf6a1d15f",
+      "texto": "To najstarszy budynek, który zachował się w całym kompleksie. Wzniósł go około roku tysiąc sześćset czterdziestego dziewiątego Luis Lasso de la Vega, wikariusz Guadalupe. Nazywa się go kaplicą Indian, ponieważ w roku tysiąc sześćset siedemdziesiątym dziewiątym powstało tu bractwo ludności rdzennej. Według tradycji w tym miejscu święty Juan Diego spędził ostatnie lata życia i stała tu pierwsza pustelnia. Wizerunek Matki Bożej z Guadalupe czczono w tej kaplicy od roku tysiąc sześćset dziewięćdziesiątego piątego do tysiąc siedemset dziewiątego, gdy budowano Starą Bazylikę. To mała, spokojna przestrzeń, do której wielu pielgrzymów wchodzi w milczeniu."
+    },
+    "guion_largo": {
+      "hash": "b186b91c6e1ff85a",
+      "texto": "Ten niewielki kościół to najstarsza budowla, jaka zachowała się w całym kompleksie Bazyliki. Został wzniesiony około roku tysiąc sześćset czterdziestego dziewiątego z woli Luisa Lasso de la Vega, wikariusza Guadalupe. To ten sam kapłan, który w tym samym roku oddał do druku Huei tlamahuiçoltica, księgę zawierającą Nican mopohua, opowieść o objawieniach spisaną w języku nahuatl.\n\nSłowo „indianie” było wówczas używane na określenie ludów pierwotnych. Dziś mówi się „ludność rdzenna”, a historyczna nazwa świątyni przetrwała z tradycji.\n\nNazywa się ją Parafią Indian, ponieważ według oficjalnej strony sanktuarium w roku tysiąc sześćset siedemdziesiątym dziewiątym powstało tu bractwo ludności rdzennej. Bractwo to stowarzyszenie wiernych, którzy gromadzą się wokół określonego nabożeństwa. W czasach wicekrólestwa było to miejsce silnie związane z ludnością rdzenną przybywającą na Tepeyac.\n\nTradycja guadalupańska umieszcza tutaj pierwszą świątynię. Według niej po objawieniach brat Juan de Zumárraga polecił zbudować pustelnię w miejscu wskazanym przez Juana Diego. Źródła spierają się co do daty, którą zwykle podaje się jako tysiąc pięćset trzydziesty pierwszy albo tysiąc pięćset trzydziesty trzeci rok. Arcybiskup Alonso de Montúfar rozbudował ją w roku tysiąc pięćset pięćdziesiątym szóstym. Miejscowa tradycja głosi, że wewnątrz tego kościoła zachował się mur owej pierwszej pustelni.\n\nTradycja mówi także, że święty Juan Diego mieszkał obok pustelni aż do śmierci w roku tysiąc pięćset czterdziestym ósmym, opiekując się nią i przyjmując pielgrzymów. Krzyż na zewnątrz wyznacza miejsce, w którym według wierzeń stał jego dom. Wierni uważają to miejsce za jedno z najbliższych jego pamięci.\n\nKościół ten odegrał też ważną rolę w historii wizerunku. W roku tysiąc sześćset dziewięćdziesiątym piątym postanowiono zbudować nową świątynię, Starą Bazylikę, a wcześniejsze sanktuarium zostało rozebrane. Wizerunek Matki Bożej z Guadalupe trafił wtedy do tej kaplicy, gdzie pozostał aż do kwietnia tysiąc siedemset dziewiątego roku, kiedy w procesji zaniesiono go do nowej świątyni. Dla tych, którzy go czcili, było to czternaście lat oczekiwania.\n\nDziś Dawna Parafia Indian podlega Parafii Najświętszej Maryi Panny z Guadalupe, zwanej parafią Kapucynek, która znajduje się niemal naprzeciwko. To świątynia, w której nadal odprawia się nabożeństwa, są msze i chwile modlitwy. To, co widać, to mały kościół z siedemnastego wieku. To, co się opowiada, czyli tradycja, sprawia, że jest on wyjątkowy dla wiernych, a ten przystanek podaje ci obie te rzeczy osobno.\n\nWchodzący robią to spokojnie. Jedni zatrzymują się przed ołtarzem, inni po prostu siadają na chwilę. Nie ma tu wiele do zrobienia poza tym, by po prostu być. To dobre miejsce, by pomyśleć o dystansie między małą pustelnią z pierwszych czasów a wielkim placem, który zostawiłeś za sobą."
+    },
+    "retos_observacion": {
+      "hash": "6155dbdc9e52be40",
+      "texto": [
+        "Spójrz na skromną fasadę",
+        "Poszukaj wzgórza za kaplicą",
+        "Wejdź w milczeniu, jeśli jest otwarta"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b6c64c032160b862",
+      "texto": {
+        "Budowa": "około 1649",
+        "Inicjator": "Luis Lasso de la Vega",
+        "Bractwo ludności rdzennej": "1679",
+        "Wizerunek czczony tutaj": "od 1695 do 1709"
+      }
+    },
+    "faq_mito": {
+      "hash": "304fe08f0d8959b8",
+      "texto": {
+        "pregunta": "Mit: Stara Bazylika jest najstarszym budynkiem kompleksu.",
+        "respuesta": "Rzeczywistość: Najstarszą zachowaną budowlą jest Parafia Indian, pochodząca z około roku tysiąc sześćset czterdziestego dziewiątego. Stara Bazylika została ukończona w roku tysiąc siedemset dziewiątym."
+      }
+    }
+  }
+}
