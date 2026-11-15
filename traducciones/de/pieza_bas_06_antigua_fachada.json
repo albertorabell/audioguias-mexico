@@ -1,0 +1,59 @@
+{
+  "id": "bas_06_antigua_fachada",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Nationales Institut für Anthropologie und Geschichte\" para \"Instituto Nacional de Antropología e Historia\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "ba359c19f0c3af0c",
+      "texto": "Die Alte Basilika: Fassade"
+    },
+    "frase_gancho": {
+      "hash": "c2bab9efbcd3c2e4",
+      "texto": "Ein barocker Tempel, der versank und gerettet wurde."
+    },
+    "puente_narrativo": {
+      "hash": "d60264595a444c00",
+      "texto": "Du verlässt die Neue Basilika und gehst zur Alten, nur wenige Meter entfernt."
+    },
+    "guion_corto": {
+      "hash": "aa3defcd2018ce1a",
+      "texto": "Vor dir steht die Alte Basilika, heute der Sühnetempel für Christus König. Der Bau begann am fünfundzwanzigsten März sechzehnhundertfünfundneunzig und wurde im April siebzehnhundertneun unter dem Architekten Pedro de Arrieta vollendet. Sie hat drei Schiffe, eine achteckige Kuppel mit einer Laterne aus Talavera-Keramik und vier achteckige Türme, einen an jeder Ecke. Das Bild Unserer Lieben Frau von Guadalupe wurde hier von siebzehnhundertneun bis neunzehnhundertsechsundsiebzig verehrt, mit einigen vorübergehenden Auszügen. Die Fassade hat die Form eines Paravents. Einer Deutung zufolge erinnern die vier Türme an den Tempel Salomos. Der Boden sank ungleichmäßig ab, und deshalb war der Tempel jahrzehntelang geschlossen."
+    },
+    "guion_largo": {
+      "hash": "c8e7055562279483",
+      "texto": "Die Alte Basilika ist das zweite große Heiligtum, das an diesem Ort errichtet wurde. Zuvor gab es eine kleine Einsiedelei und, seit sechzehnhundertzweiundzwanzig, einen Steintempel. Im Jahr sechzehnhundertfünfundneunzig beschloss der Erzbischof Juan de Aguiar y Seijas, einen neuen zu bauen, und der frühere Tempel wurde abgerissen.\n\nDer Grundstein jenes Tempels war sechzehnhundertneun gelegt worden, und er wurde im November sechzehnhundertzweiundzwanzig geweiht. Im Jahr sechzehnhundertneunundzwanzig wurde das Bild wegen einer Überschwemmung der Stadt in die Kathedrale gebracht. Am fünfzehnten Mai sechzehnhundertvierunddreißig kehrte es zurück.\n\nDie Bauarbeiten begannen am fünfundzwanzigsten März sechzehnhundertfünfundneunzig. Zuerst arbeitete der Architekt José Durán. Nach seinem Tod im Jahr siebzehnhundertsieben folgte ihm Pedro de Arrieta, einer der großen Architekten des neuspanischen Barock. Der Tempel wurde am siebenundzwanzigsten April siebzehnhundertneun gesegnet, und das Bild Unserer Lieben Frau von Guadalupe wurde am dreißigsten April in einer Prozession dorthin überführt. Die Inschriftentafel an der Fassade nennt den ersten Mai, und die Quellen führen beide Daten an.\n\nSieh dir das Gebäude an. Es hat einen basilikalen Grundriss mit drei Schiffen und eine achteckige Kuppel, gekrönt von einer Laterne, die mit gelber und blauer Talavera-Keramik verkleidet ist. An jeder Ecke steht ein achteckiger Turm, insgesamt vier. Die Fassade hat die Form eines Paravents, das heißt, sie ist in Flächen gefaltet wie jene Holzwände, mit denen man einen Raum unterteilt, und sie ist mit korinthischen Halbsäulen geschmückt. Einer Deutung zufolge erinnern die vier Türme an den Tempel Salomos, ein Thema, das die Kunsthistorikerin Martha Fernández erforscht hat.\n\nDie Alte Basilika war seit siebzehnhundertfünfzig eine Stiftskirche, das heißt, sie hatte ein eigenes Kapitel von Priestern. Im Jahr achtzehnhundertfünfundneunzig, am zwölften Oktober, wurde hier das Bild mit Genehmigung von Papst Leo dem Dreizehnten gekrönt. Im Jahr neunzehnhundertvier, am vierundzwanzigsten Mai, erhielt sie den Titel einer Basilica minor, eine Ehre, die der Papst wichtigen Kirchen wegen ihrer Geschichte und ihres Platzes im Leben der Kirche verleiht.\n\nMit der Zeit gab der Untergrund nach, und das Gebäude sank ungleichmäßig ab. Im Jahr neunzehnhundertsechsundsiebzig, als die Neue Basilika eingeweiht wurde, wurde das Bild überführt, und dieser Tempel wurde geschlossen. Im Jahr neunzehnhundertneunundsiebzig förderten das Nationale Institut für Anthropologie und Geschichte (INAH) und das Episkopat seine Sicherung.\n\nNach Jahrzehnten der Arbeiten wurde der Tempel wieder für den Gottesdienst geöffnet, unter dem Namen Sühnetempel für Christus König. Wenn du das Gebäude umrundest, kannst du sehen, dass der hintere Teil, die Apsis, um mehrere Meter vom Rest getrennt ist, eine sichtbare Erinnerung an das Absinken.\n\nFür diejenigen, die das Heiligtum besuchen, ist dieses Gebäude der Ort, an dem das Bild den größten Teil seiner neueren Geschichte verbrachte. Für diejenigen, die sich für Kunst interessieren, ist es eines der Hauptwerke von Pedro de Arrieta. Und für alle ist es ein Beispiel dafür, wie eine auf einem See erbaute Stadt ihre Denkmäler pflegt."
+    },
+    "retos_observacion": {
+      "hash": "8f6be73c981cc78d",
+      "texto": [
+        "Zähle die vier Türme",
+        "Sieh dir die Kuppel mit der Laterne aus Talavera-Keramik an",
+        "Beobachte, ob das Gebäude schief aussieht"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ee07d9adceab824d",
+      "texto": {
+        "Bau": "25. März 1695 bis April 1709",
+        "Architekt": "Pedro de Arrieta",
+        "Grundriss": "drei Schiffe",
+        "Kuppel": "achteckig mit Laterne aus Talavera-Keramik",
+        "Türme": "vier, achteckig"
+      }
+    },
+    "faq_mito": {
+      "hash": "c3f23e64f0180f13",
+      "texto": {
+        "pregunta": "Mythos: Die Alte Basilika wurde wegen der Bombe von neunzehnhunderteinundzwanzig geschlossen.",
+        "respuesta": "Realität: Die Bombe beschädigte den Altar, doch der Tempel wurde erst nach der Überführung des Bildes im Jahr neunzehnhundertsechsundsiebzig für den Gottesdienst geschlossen, nach Jahren ungleichmäßigen Absinkens des Bodens."
+      }
+    }
+  }
+}

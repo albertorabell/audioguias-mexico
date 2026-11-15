@@ -1,0 +1,47 @@
+{
+  "id": "bas_02_atrio_americas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "272974ef7408828e",
+      "texto": "Der Vorhof und der Platz der Amerikas"
+    },
+    "frase_gancho": {
+      "hash": "9751d74a84d85b40",
+      "texto": "Der große offene Raum, in dem sich die Pilger versammeln."
+    },
+    "puente_narrativo": {
+      "hash": "c3d5b0f460725e72",
+      "texto": "Vom Zugang gelangst du in den Vorhof, den Raum, der die Pilger vor der Neuen Basilika empfängt."
+    },
+    "guion_corto": {
+      "hash": "f7f8c5104853a993",
+      "texto": "Du stehst im Vorhof, dem großen offenen Raum vor der Neuen Basilika. Hier versammeln sich jedes Jahr Millionen von Pilgern, besonders am zwölften Dezember, dem Tag der Jungfrau von Guadalupe. Auf diesem Platz erhebt sich das Glockenspiel, fertiggestellt im Jahr neunzehnhunderteinundneunzig. Es hat achtundvierzig Bronzeglocken, ist dreiundzwanzig Meter hoch und besitzt vier Uhren: eine zivile Uhr, eine Astroplan-Uhr, eine Sonnenuhr und eine Mexica-Uhr. Auf der Vorderseite erzählen bewegliche Figuren des heiligen Juan Diego, von Bruder Juan de Zumárraga und von Juan Bernardino die Geschichte der Erscheinungen, so wie es die Guadalupe-Tradition überliefert. Wenn eine Messe unter freiem Himmel oder eine Wallfahrt stattfindet, füllt sich dieser Platz mit Menschen. Wenn du an solchen Tagen kommst, geh in Ruhe weiter."
+    },
+    "guion_largo": {
+      "hash": "185c03ba02f6f111",
+      "texto": "Dies ist der Vorhof der Amerikas, die große Esplanade, die sich vor der Neuen Basilika öffnet. Hier kommen die Pilger an, bevor sie das Gotteshaus betreten, und hier versammeln sie sich auch, wenn der Platz im Gotteshaus nicht für alle reicht.\n\nDie Schätzungen, wie viele Menschen den Komplex jedes Jahr besuchen, reichen von acht bis zwanzig Millionen, je nachdem, wer sie anstellt. Wie hoch die genaue Zahl auch sein mag: Es sind Millionen. Das Hauptfest ist der zwölfte Dezember, an dem die Kirche Unsere Liebe Frau von Guadalupe feiert. An diesem Tag und an den Tagen davor und danach kommen Wallfahrten aus dem ganzen Land und aus anderen Ländern. Viele sind schon seit Tagen zu Fuß unterwegs. Manche Menschen überqueren diese Esplanade auf Knien, als Erfüllung eines Versprechens. Die Neue Basilika wurde so entworfen, dass sie im Inneren etwa zehntausend Menschen aufnehmen kann, und im Freien haben weitere Zehntausende Platz.\n\nHier steht auch das Glockenspiel, ein dreiundzwanzig Meter hoher Turm, fertiggestellt im Jahr neunzehnhunderteinundneunzig. Es hat achtundvierzig Bronzeglocken. Angestoßen wurde es von Bruder Gabriel Chávez de la Mora, dem Benediktinermönch, der auch am Projekt der Neuen Basilika mitgewirkt hat.\n\nDas Glockenspiel hat vier Uhren. Eine ist eine zivile Uhr und zeigt die Zeit an, die wir alle im Alltag benutzen. Eine ist eine Astroplan-Uhr. Eine ist eine Sonnenuhr. Und die vierte ist eine Mexica-Uhr, die an eine andere Art erinnert, die Zeit zu messen, die der Völker, die dieses Tal bewohnten, bevor die Spanier kamen.\n\nVor dem Turm befindet sich ein Zyklorama mit beweglichen Figuren. Sie stellen den heiligen Juan Diego dar, Bruder Juan de Zumárraga, den ersten Bischof von Mexiko, und Juan Bernardino, den Onkel von Juan Diego. Ihre Bewegungen erzählen die Geschichte der Erscheinungen, so wie die Guadalupe-Tradition sie überliefert. Nach dieser Tradition erschien die Jungfrau Maria im Dezember des Jahres fünfzehnhunderteinunddreißig Juan Diego auf diesem Hügel und bat ihn, hier einen Tempel zu errichten.\n\nIm Jahr zweitausendelf wurde neben diesem Platz außerdem der Marianische Platz eröffnet, mit dem Guadalupe-Museum, einem Werk der Carlos-Slim-Stiftung.\n\nVon hier aus siehst du die Neue Basilika mit ihrem kreisförmigen Grundriss, eingeweiht im Jahr neunzehnhundertsechsundsiebzig. Seitlich, zwischen den Gebäuden des Komplexes, steht die Alte Basilika aus dem achtzehnten Jahrhundert. Und hinter allem erhebt sich der Hügel Tepeyac.\n\nDer Vorhof ist auch ein Ort des Zusammenseins. Es kommen Familien, Gruppen, die Bilder der Jungfrau mit sich tragen, und Menschen, die allein unterwegs sind. Manche ruhen sich nach einem langen Weg aus, andere machen Fotos, wieder andere warten darauf, das Gotteshaus zu betreten. Dies ist ein Ort der Begegnung. Für viele Menschen ist er ein Ort des Gebets, des Abschieds oder des Dankes. Wenn gerade eine Messe oder ein Gebet im Gange ist, kannst du ihn in Ruhe durchqueren, leise sprechen und nichts stören."
+    },
+    "retos_observacion": {
+      "hash": "8e2d869d55db9de5",
+      "texto": [
+        "Zähle die Glocken des Glockenspiels, wenn du es läuten hörst",
+        "Such die vier Uhren",
+        "Beobachte die beweglichen Figuren am Fuß des Glockenspiels"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de38a84f8de00f57",
+      "texto": {
+        "Glockenspiel": "fertiggestellt 1991",
+        "Glocken": "achtundvierzig, aus Bronze",
+        "Höhe": "23 m",
+        "Uhren": "vier (zivil, Astroplan, Sonnenuhr und Mexica)"
+      }
+    }
+  }
+}

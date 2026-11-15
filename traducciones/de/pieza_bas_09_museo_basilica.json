@@ -1,0 +1,55 @@
+{
+  "id": "bas_09_museo_basilica",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8f53edf3c8475513",
+      "texto": "Das Museum der Basilika von Guadalupe"
+    },
+    "frase_gancho": {
+      "hash": "1f9d89cbb51b5773",
+      "texto": "Sakrale Kunst und die Erinnerung an die Frömmigkeit im ehemaligen Kloster."
+    },
+    "puente_narrativo": {
+      "hash": "955d94e8c3020ad2",
+      "texto": "Du gehst weiter zum Museum im ehemaligen Kloster."
+    },
+    "guion_corto": {
+      "hash": "e7258066a6048b56",
+      "texto": "Du befindest dich im Museum der Basilika von Guadalupe, das am zwölften Oktober neunzehnhunderteinundvierzig eröffnet wurde. Es nimmt das ehemalige Kloster hinter der Alten Basilika ein. Es hat etwa sechzehn Säle und mehr als viertausend Stücke asiatischer, europäischer und neuspanischer Kunst, vom fünfzehnten bis zum zwanzigsten Jahrhundert. Es gibt Werke von Malern wie Cristóbal de Villalpando, José de Ibarra und Miguel Cabrera. Es gilt als eines der ältesten Museen Mexikos. Hier kommt sakrale Kunst zusammen, aber auch die Erinnerung an die Frömmigkeit: Opfergaben und Gegenstände, die die Gläubigen im Lauf der Jahrhunderte hinterlassen haben. Die Öffnungszeiten und der Eintrittspreis können sich ändern."
+    },
+    "guion_largo": {
+      "hash": "6f19f391b0542aa5",
+      "texto": "Das Museum der Basilika von Guadalupe öffnete seine Türen am zwölften Oktober neunzehnhunderteinundvierzig. Es gilt als eines der ältesten Museen Mexikos. Es befindet sich im ehemaligen Kapuzinerinnenkloster hinter der Alten Basilika.\n\nSeine Sammlung ist umfangreich. Es hat etwa sechzehn Säle und mehr als viertausend Stücke. Es gibt asiatische, europäische und neuspanische Kunst, vom fünfzehnten bis zum zwanzigsten Jahrhundert. Zu den Künstlern, die genannt werden, zählen Matías de Arteaga y Alfaro, Cristóbal de Villalpando, Nicolás Rodríguez Juárez, José de Ibarra und Miguel Cabrera, bedeutende Namen der neuspanischen Malerei. Das Museum versteht sich als dasjenige, das die größte Sammlung zur Jungfrau von Guadalupe vereint.\n\nNeben der Malerei auf Leinwand gibt es polychrome Skulpturen, Skulpturen aus Marmor und Elfenbein, Druckgrafiken, Bücher, Textilien wie Standarten, Wandteppiche und liturgische Gewänder, Goldschmiedekunst und Möbel mexikanischer Herkunft. Einige Säle sind nach Themen geordnet. Es gibt einen Saal der Erzengel mit Gemälden der Erzengel und einen Christologischen Saal, der Jesus gewidmet ist.\n\nEin wichtiger Teil der Sammlung sind die Exvotos, die kleinen Gemälde, mit denen die Gläubigen ihren Dank ausdrückten und von denen wir an der nächsten Station sprechen werden.\n\nAuch das Gebäude bewahrt ein Stück Geschichte. Es ist das ehemalige Kapuzinerinnenkloster und wurde teilweise von der Alten Basilika getrennt, eine Trennung, die man von außen besser erkennt.\n\nNach Angaben der Museumsleitung wurde religiöse Kunst, als das Museum neunzehnhunderteinundvierzig eröffnete, nicht so geschätzt wie heute, und seine Gründung war eine Entscheidung, die ihrer Zeit voraus war. Im Lauf der Jahre wurde die Sammlung für bedeutende Ausstellungen angefragt, etwa im Museo del Prado in Madrid und im Metropolitan Museum of Art in New York.\n\nDie Menschen, die das Museum besuchen, tun dies auf unterschiedliche Weise. Für Gläubige ist es eine Möglichkeit, die Frömmigkeit früherer Generationen kennenzulernen. Für diejenigen, die Kunst studieren, ist es eine Sammlung neuspanischer Malerei. Für Neugierige ist es ein Fenster dazu, wie der Glaube in jeder Epoche gelebt wurde. Die Direktorin des Museums hat gesagt, ein Rundgang sei eine spirituelle Erfahrung, unabhängig von der Religion, zu der sich jeder bekennt.\n\nDie Öffnungszeiten, der Eintrittspreis und die geöffneten Säle können sich ändern. Es empfiehlt sich, sie vor dem Besuch auf der offiziellen Website zu prüfen. Es ist ein Museum, aber auch Teil einer Kultstätte, daher wird ein respektvoller Umgang erwartet.\n\nWenn du wenig Zeit hast, such dir einen Saal aus und betrachte in Ruhe ein einziges Werk. Ein gut betrachtetes Gemälde sagt mehr als viele eilig überflogene."
+    },
+    "retos_observacion": {
+      "hash": "7f97d36c306962b3",
+      "texto": [
+        "Such ein Werk von Villalpando, Ibarra oder Cabrera",
+        "Betrachte die Gegenstände, die die Gläubigen hinterlassen haben",
+        "Achte auf das Gebäude des ehemaligen Klosters"
+      ]
+    },
+    "especificaciones": {
+      "hash": "823a01f3b8b7ee2e",
+      "texto": {
+        "Eröffnung": "12. Oktober 1941",
+        "Säle": "etwa 16",
+        "Stücke": "mehr als 4 000",
+        "Epochen": "15. bis 20. Jahrhundert",
+        "Maler": "Villalpando, Ibarra, Cabrera"
+      }
+    },
+    "faq_mito": {
+      "hash": "393c5d6014d2c3d7",
+      "texto": {
+        "pregunta": "Mythos: Das Museum der Basilika ist neu.",
+        "respuesta": "Realität: Es wurde am zwölften Oktober neunzehnhunderteinundvierzig eröffnet und gilt als eines der ältesten Museen Mexikos."
+      }
+    }
+  }
+}

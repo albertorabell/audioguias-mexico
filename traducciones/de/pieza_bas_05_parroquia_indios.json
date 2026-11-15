@@ -1,0 +1,54 @@
+{
+  "id": "bas_05_parroquia_indios",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "345cf9b598580178",
+      "texto": "Die Pfarrkirche der Indios"
+    },
+    "frase_gancho": {
+      "hash": "ebe7c4d3988cad57",
+      "texto": "Das älteste erhaltene Gebäude des Ensembles."
+    },
+    "puente_narrativo": {
+      "hash": "398b1205f5b73106",
+      "texto": "Du gehst hinunter zur Pfarrkirche der Indios, einer kleinen, ruhigen Kapelle."
+    },
+    "guion_corto": {
+      "hash": "4ed837fbf6a1d15f",
+      "texto": "Dies ist das älteste erhaltene Gebäude im gesamten Ensemble. Gebaut hat es um sechzehnhundertneunundvierzig Luis Lasso de la Vega, der Vikar von Guadalupe. Sie heißt Pfarrkirche der Indios, weil sich hier im Jahr sechzehnhundertneunundsiebzig eine Bruderschaft von Indigenen gründete. Der Überlieferung nach verbrachte der heilige Juan Diego an diesem Ort seine letzten Lebensjahre, und hier stand auch die erste Einsiedelei. Das Bildnis Unserer Lieben Frau von Guadalupe wurde in dieser Kapelle von sechzehnhundertfünfundneunzig bis siebzehnhundertneun verehrt, während die Alte Basilika gebaut wurde. Es ist ein kleiner, ruhiger Raum, den viele Pilger schweigend betreten."
+    },
+    "guion_largo": {
+      "hash": "b186b91c6e1ff85a",
+      "texto": "Diese kleine Kirche ist das älteste erhaltene Bauwerk im gesamten Ensemble der Basilika. Sie wurde um sechzehnhundertneunundvierzig auf Wunsch von Luis Lasso de la Vega errichtet, dem Vikar von Guadalupe. Es ist derselbe Priester, der in jenem Jahr das Huei tlamahuiçoltica in den Druck gab, das Buch, das den Nican mopohua enthält, den auf Nahuatl verfassten Bericht von den Erscheinungen.\n\nDas Wort Indios war damals die gebräuchliche Bezeichnung für die Urbevölkerung. Heute sagt man Indigene, und der historische Name der Kirche wird aus Tradition beibehalten.\n\nPfarrkirche der Indios nennt man sie, weil sich hier, laut der offiziellen Website des Heiligtums, im Jahr sechzehnhundertneunundsiebzig eine Bruderschaft von Indigenen gründete. Eine Bruderschaft ist ein Zusammenschluss von Gläubigen, die sich um eine bestimmte Andacht versammeln. In der Vizekönigszeit war dies ein Ort, der eng mit der indigenen Bevölkerung verbunden war, die zum Tepeyac kam.\n\nDie Guadalupe-Tradition verortet hier die erste Kirche. Ihr zufolge bat Ordensbruder Juan de Zumárraga nach den Erscheinungen darum, an dem Ort, den Juan Diego bezeichnet hatte, eine Einsiedelei zu errichten. Die Quellen streiten über das Datum, das meist mit fünfzehnhunderteinunddreißig oder fünfzehnhundertdreiunddreißig angegeben wird. Erzbischof Alonso de Montúfar erweiterte sie fünfzehnhundertsechsundfünfzig. Die Überlieferung des Ortes besagt, dass sich in dieser Kirche eine Mauer jener ersten Einsiedelei erhalten hat.\n\nDie Überlieferung erzählt auch, dass der heilige Juan Diego bis zu seinem Tod im Jahr fünfzehnhundertachtundvierzig neben der Einsiedelei lebte, sie pflegte und die Pilger empfing. Ein Kreuz im Außenbereich markiert die Stelle, an der sich seinem Glauben nach sein Haus befand. Für die Gläubigen ist dies einer der Orte, die seinem Andenken am nächsten sind.\n\nDiese Kirche spielte außerdem eine wichtige Rolle in der Geschichte des Bildnisses. Im Jahr sechzehnhundertfünfundneunzig wurde beschlossen, ein neues Gotteshaus zu bauen, die Alte Basilika, und das frühere Heiligtum wurde abgerissen. Das Bildnis Unserer Lieben Frau von Guadalupe kam daraufhin in diese Kapelle, wo es blieb, bis es im April siebzehnhundertneun in einer Prozession in die neue Kirche getragen wurde. Für alle, die es verehrten, waren es vierzehn Jahre des Wartens.\n\nHeute gehört die Alte Pfarrkirche der Indios zur Pfarrei Santa María de Guadalupe, der der Kapuzinerinnen, die fast gegenüber liegt. Es ist eine Kirche, die noch genutzt wird, mit Messen und Zeiten des Gebets. Was man sieht, ist eine kleine Kirche aus dem siebzehnten Jahrhundert. Was erzählt wird, die Überlieferung, macht sie für die Gläubigen besonders, und diese Station gibt dir beides getrennt mit.\n\nWer hereinkommt, tut es in Ruhe. Manche bleiben vor dem Altar stehen, andere setzen sich einfach einen Moment. Man hat hier nicht viel zu tun, außer da zu sein. Es ist ein guter Ort, um über den Abstand nachzudenken zwischen der kleinen Einsiedelei der ersten Zeit und dem großen Vorplatz, den du hinter dir gelassen hast."
+    },
+    "retos_observacion": {
+      "hash": "6155dbdc9e52be40",
+      "texto": [
+        "Sieh dir die schlichte Fassade an",
+        "Suche den Hügel hinter der Kapelle",
+        "Tritt leise ein, wenn sie geöffnet ist"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b6c64c032160b862",
+      "texto": {
+        "Bau": "um 1649",
+        "Bauherr": "Luis Lasso de la Vega",
+        "Bruderschaft der Indigenen": "1679",
+        "Hier verehrtes Bildnis": "1695 bis 1709"
+      }
+    },
+    "faq_mito": {
+      "hash": "304fe08f0d8959b8",
+      "texto": {
+        "pregunta": "Mythos: Die Alte Basilika ist das älteste Gebäude des Ensembles.",
+        "respuesta": "Realität: Das älteste erhaltene Gebäude ist die Pfarrkirche der Indios, die um sechzehnhundertneunundvierzig entstand. Die Alte Basilika wurde siebzehnhundertneun fertiggestellt."
+      }
+    }
+  }
+}

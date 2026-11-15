@@ -1,0 +1,53 @@
+{
+  "id": "bas_10_exvotos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7430e21dcc21c2dd",
+      "texto": "Die Votivbilder"
+    },
+    "frase_gancho": {
+      "hash": "8611143009a36065",
+      "texto": "Kleine Gemälde, die Danke sagen."
+    },
+    "puente_narrativo": {
+      "hash": "a4c439673c18f133",
+      "texto": "Suche im Museum den Saal der Votivbilder."
+    },
+    "guion_corto": {
+      "hash": "c6cefe479961f9f7",
+      "texto": "Ein Votivbild ist ein kleines Gemälde, mit dem sich ein Mensch für einen Gefallen bedankt, den er der Fürsprache der Jungfrau oder eines Heiligen zuschreibt. Meist zeigt es die Gefahrenszene, das Bild, dem sich die Person anvertraut hat, und einen handgeschriebenen Text, der das Geschehene erzählt. Dieses Museum bewahrt mehr als zweitausend davon auf, fast alle aus dem neunzehnten und zwanzigsten Jahrhundert, und gilt als die größte Sammlung von Guadalupe-Votivbildern. Sie erzählen von Krankheiten, Unfällen, Reisen und Kriegen. Viele enthalten einen Namen und ein Datum. Es lohnt sich, nah heranzutreten und die Texte in Ruhe zu lesen. Sie sind Zeugnisse des Glaubens und zugleich des Alltagslebens ihrer Zeit."
+    },
+    "guion_largo": {
+      "hash": "b32460df59152f63",
+      "texto": "Im Lateinischen verweist ex voto auf die Erfüllung eines Versprechens, und eine Votivgabe ist der Gegenstand, mit dem man es erfüllt. Jemand bittet Gott, die Jungfrau oder einen Heiligen um einen Gefallen, und wenn die Bitte erhört wird, bedankt er sich mit einem Gegenstand. Im mexikanischen Katholizismus ist dieser Gegenstand meist ein kleines Gemälde.\n\nNach Angaben der Museumsexpertin Nydia Mirna Rodríguez Alatorre sind Votivbilder nicht dem Christentum vorbehalten. Es gibt sie in vielen Kulturen und seit der Antike. Der Brauch, ein Dankesgemälde darzubringen, stammt aus Italien, aus dem fünfzehnten Jahrhundert, und verbreitete sich später in andere Länder.\n\nIn Mexiko wurde die Praxis im neunzehnten und zwanzigsten Jahrhundert sehr beliebt und füllte die Wände der Wallfahrtsorte im ganzen Land. Das Museum der Basilika bewahrt mehr als zweitausend Votivbilder auf, fast alle aus diesen Jahrhunderten, und gilt als die größte Sammlung von Guadalupe-Votivbildern.\n\nEin Votivbild hat normalerweise drei Teile. Oben erscheint meist das Bild, dem sich die Person anvertraut hat, in diesem Fall Unsere Liebe Frau von Guadalupe oder ein Heiliger. Darunter die Szene des Unglücks: eine Krankheit, ein Unfall, ein Sturz. Und im unteren Teil ein handgeschriebener Text, in dem die Person erzählt, was geschehen ist, und Dank sagt. Viele stammen von Menschen mit geringer Schulbildung, und gerade diese direkte Sprache macht einen Teil ihres Werts aus.\n\nNicht alle Votivgaben sind Gemälde. Schon im siebzehnten Jahrhundert verzeichnete der Jesuit Francisco de Florencia in diesem Heiligtum Opfergaben aus Silber in Form von Köpfen, Augen, Herzen, Armen, Beinen und Händen, die die Gläubigen aus Dankbarkeit hinterließen. Das ist eine andere, ältere Art, Danke zu sagen.\n\nDie Themen verraten viel über ihre Zeit. Es gibt Krankheiten, Unfälle und Migration. In den Jahren der Bürgerkriege des neunzehnten Jahrhunderts und der Revolution kamen außerdem die Zwangsrekrutierungen hinzu, die gewaltsame Aushebung junger Männer, und die Angst der Mütter, deren Söhne in den Krieg zogen.\n\nDas Votivbild drückt eine direkte Beziehung des Menschen zu Gott aus, ohne Vermittler, und wird zugleich in einem Heiligtum öffentlich gemacht, damit andere es sehen. Viele enthalten den Namen dessen, der es dargebracht hat, und ein Datum, und das erlaubt es, sie zeitlich einzuordnen.\n\nFür den, der es dargebracht hat, ist das Votivbild ein Akt der Dankbarkeit und des Glaubens. Für den, der es heute betrachtet, ist es auch ein historisches Dokument. Seit dem Ende des zwanzigsten Jahrhunderts werden Votivbilder zunehmend als Quellen dafür geschätzt, wie die Menschen jeder Epoche lebten, sich kleideten, beteten und erkrankten.\n\nHier wird vom Besucher nicht verlangt, zu glauben oder nicht zu glauben. Er ist eingeladen, aufmerksam zu betrachten, was andere in ihrem schwersten Moment geschrieben haben, und ihre Worte mit dem Respekt zu lesen, den jede Danksagung verdient."
+    },
+    "retos_observacion": {
+      "hash": "d80b19dbac01d4f3",
+      "texto": [
+        "Lies einen der handgeschriebenen Texte",
+        "Suche das Bild, dem sich die Person anvertraut",
+        "Achte auf das Datum eines der Votivbilder"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eab9149d314df35f",
+      "texto": {
+        "Stücke": "mehr als 2 000",
+        "Epochen": "vor allem 19. und 20. Jahrhundert",
+        "Bestandteile": "Szene, Bild und handgeschriebener Text"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2be7587a3893cc2",
+      "texto": {
+        "pregunta": "Mythos: Votivbilder sind Zeichnungen ohne historischen Wert.",
+        "respuesta": "Realität: Sie sind Dokumente des Alltagslebens ihrer Zeit, mit Szene, handgeschriebenem Text und oft Namen und Datum."
+      }
+    }
+  }
+}

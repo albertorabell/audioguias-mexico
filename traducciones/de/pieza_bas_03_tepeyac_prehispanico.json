@@ -1,0 +1,49 @@
+{
+  "id": "bas_03_tepeyac_prehispanico",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Neuspanien\" para \"Nueva España\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "0e8c809acb502526",
+      "texto": "Der Tepeyac vor dem Heiligtum"
+    },
+    "frase_gancho": {
+      "hash": "79f23eb3a65e55c8",
+      "texto": "Ein Hügel, der schon lange vor der Basilika Ziel von Besuchern war."
+    },
+    "puente_narrativo": {
+      "hash": "b60863c0e81522de",
+      "texto": "Blick von der Plaza hinauf zum Hügel und denk darüber nach, was dort war, bevor die Bauten entstanden."
+    },
+    "guion_corto": {
+      "hash": "24413fbd3f7c3b97",
+      "texto": "Bevor hier ein christliches Heiligtum stand, war dieser Hügel bereits ein Ort, den Menschen aufsuchten. Die Mexica verbanden ihn über einen Dammweg mit Tenochtitlan. Der Franziskanerpater Bernardino de Sahagún schrieb um 1576, dass viele Menschen zu diesem Ort kamen, um Tonantzin zu ehren, ein Nahuatl-Name, der „unsere Mutter“ bedeutet. Sahagún beunruhigte, welchen Sinn diese Verehrung hatte. Historiker erforschen weiterhin, wie beide Traditionen zusammenhängen, und nicht alle sind sich einig. Der Hügel, heute von der Stadt umgeben, liegt nördlich dessen, was die Hauptstadt der Mexica war. Für die Gläubigen ist der Tepeyac vor allem der Ort, an dem die Jungfrau Maria dem heiligen Juan Diego erschien."
+    },
+    "guion_largo": {
+      "hash": "4d0b8825c7c5898c",
+      "texto": "Der Hügel Tepeyac liegt am nördlichen Rand des antiken Tals von México, am Fuß der Sierra de Guadalupe. Der Hügel gehört zur Sierra de Guadalupe. Heute ist er von der Stadt umgeben, doch im sechzehnten Jahrhundert war er ein abgelegener Ort fern von Tenochtitlan, den man über einen Dammweg erreichte. Dieser Dammweg ist der, den wir heute als Calzada de los Misterios kennen.\n\nDass die Mexica eine Straße bis zu diesem Hügel gebaut haben, sagt etwas aus: Es war ein Ort, zu dem man ging. In der mesoamerikanischen Tradition hatten Hügel häufig eine religiöse Bedeutung, und der Tepeyac war unter den Hügeln des Tals keine Ausnahme. Heute wissen wir wenig darüber, was hier geschah, und das Wenige, das wir wissen, erreicht uns auf anderen Wegen.\n\nDer bekannteste ist der des Franziskanerpaters Bernardino de Sahagún. Um 1576 schrieb er in seinem Werk über die Dinge Neuspaniens, dass es auf dem Tepeyac einen Ort gab, an dem die Göttin Tonantzin verehrt wurde, und dass Menschen aus fernen Gegenden bis dorthin kamen. Tonantzin ist ein Nahuatl-Name, der „unsere Mutter“ bedeutet. Sahagún berichtet, dass ihn diese Verehrung beunruhigte, weil derselbe Name auf zwei Arten verstanden werden konnte, und dass ihn die Frage umtrieb, wen diejenigen, die hinaufstiegen, eigentlich ehrten.\n\nDiese Information stammt von nur einem Autor und wurde mehrere Jahrzehnte nach der Eroberung niedergeschrieben. Deshalb lesen Historiker sie sorgfältig, und jede Generation von Gelehrten ist auf sie zurückgekommen, um das bisherige Wissen zu überprüfen. Manche meinen, sie zeige eine Kontinuität zwischen der alten Kultstätte und dem christlichen Heiligtum. Andere meinen, dass die Beziehung zwischen beiden schwerer zu belegen ist. Auf dem Hügel wurden archäologische Funde gemacht, aber auch ihre Deutung ist umstritten.\n\nWas sich dagegen mit Sicherheit sagen lässt, ist Folgendes. Der Tepeyac war schon vor der Eroberung ein Ort mit religiöser Bedeutung für die Menschen, die im Tal lebten. Und er wurde seit dem sechzehnten Jahrhundert zu dem Ort, an dem das Heiligtum der Jungfrau von Guadalupe errichtet wurde.\n\nFür die Gläubigen geht dieses Heiligtum auf ein Ereignis zurück. Nach der guadalupanischen Überlieferung erschien die Jungfrau Maria hier im Dezember 1531 Juan Diego, einem Indigenen, und sprach in seiner Sprache zu ihm. Die Kirche erkennt die Verehrung Unserer Lieben Frau von Guadalupe an und sprach im Jahr zweitausendzwei in dieser Basilika den heiligen Juan Diego heilig. Wer den Glauben aus dieser Tradition lebt, sieht im Hügel nicht einen Ort, der einmal anderen gehörte, sondern den Ort, an dem die Jungfrau ihrem Volk begegnen wollte.\n\nDiese Station löst den Streit der Historiker nicht. Sie gibt dir nur die Fakten: einen alten Weg, einen Hügel mit Kult, die Sorge eines Paters und eine Tradition, die über fast fünf Jahrhunderte Millionen von Menschen versammelt hat."
+    },
+    "retos_observacion": {
+      "hash": "7b95a44449b68db6",
+      "texto": [
+        "Betrachte den Hügel von der Plaza aus",
+        "Finde den Norden: Die Hauptstadt der Mexica lag im Süden",
+        "Vergleiche den Hügel mit der Stadt, die ihn heute umgibt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "62c42cb6f136ab9c",
+      "texto": {
+        "Hauptquelle": "Bernardino de Sahagún, um 1576",
+        "Nahuatl-Name": "Tonantzin, unsere Mutter"
+      }
+    }
+  }
+}

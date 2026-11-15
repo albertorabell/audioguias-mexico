@@ -1,0 +1,59 @@
+{
+  "id": "bas_01_calzada_misterios",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Nationales Institut für Anthropologie und Geschichte\" para \"Instituto Nacional de Antropología e Historia\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "52078cacc20d929a",
+      "texto": "Die Dammstraße der Geheimnisse"
+    },
+    "frase_gancho": {
+      "hash": "9dd703844d5a3a6c",
+      "texto": "Ein Weg der Mexica, der zur Pilgerroute wurde."
+    },
+    "puente_narrativo": {
+      "hash": "56864a3a8c4c3421",
+      "texto": "Du beginnst dort, wo viele Pilger begonnen haben: auf dem Weg, der hinauf zum Tepeyac führt."
+    },
+    "guion_corto": {
+      "hash": "49cde3e071cbeabb",
+      "texto": "Diese Dammstraße ist viel älter als die Basilika. Die Mexica legten sie an, um Tenochtitlan mit dem Hügel Tepeyac zu verbinden, und seitdem ist sie der Weg derer, die an diesen Ort kommen. Im Jahr sechzehnhundertfünfundsiebzig begann der Bau von fünfzehn Denkmälern, eines für jedes Geheimnis des Rosenkranzes, des Gebets, mit dem Katholiken über das Leben Jesu und der Jungfrau Maria meditieren. Entworfen hat sie der Architekt Cristóbal de Medina Vargas. Acht Originale sind erhalten, und sieben wurden im Jahr neunzehnhundertneunundneunzig ersetzt. Die Straße ist Teil der Route, auf der man jahrhundertelang von der Stadt aus zum Tepeyac gelangte. Noch heute gehen viele Pilger diesen Weg zu Fuß, schweigend oder betend."
+    },
+    "guion_largo": {
+      "hash": "cc9eda013c507bf4",
+      "texto": "Du stehst in einer der ältesten Straßen von Mexiko-Stadt. Noch bevor es die Basilika gab, vor der Ankunft der Spanier, bauten die Mexica diese Dammstraße, um Tenochtitlan mit dem Gebirgszug von Guadalupe und mit dem Hügel Tepeyac zu verbinden. So hält es das Informationsblatt des Nationalen Instituts für Anthropologie und Geschichte (INAH) zu diesem Denkmal fest.\n\nIn der Vizekönigszeit blieb sie der Hauptweg zum Heiligtum. Lange Zeit hieß diese Straße auch Dammstraße von Guadalupe. Heute trägt eine andere, parallel verlaufende Straße diesen Namen, deren Bau im Jahr siebzehnhundertsechsundachtzig begann. Nach der großen Überschwemmung von sechzehnhundertvier wurde die Dammstraße instand gesetzt, damit man sie weiter benutzen konnte. Hier kamen die Pilger aus der Stadt an, und hier kommen sie weiterhin an.\n\nIn den sechzehnhundertsiebziger Jahren beschloss man, den Rastplätzen der Wanderer auf ihrem Weg eine dauerhafte Gestalt zu geben. Der Architekt Cristóbal de Medina Vargas schlug vor, fünfzehn Denkmäler zu errichten, eines für jedes Geheimnis des Rosenkranzes. Die Arbeiten begannen im Jahr sechzehnhundertfünfundsiebzig, und das erste, das der Menschwerdung, wurde sechzehnhundertsechsundsiebzig fertiggestellt.\n\nDer Rosenkranz ist ein katholisches Gebet. Wer ihn betet, wiederholt Gebete und denkt dabei an Momente aus dem Leben Jesu und der Jungfrau Maria. Diese Momente heißen Geheimnisse und sind in drei Reihen zu je fünf gegliedert. Die freudenreichen erinnern zum Beispiel an die Verkündigung und die Geburt Jesu. Die schmerzhaften erinnern an seine Passion. Die glorreichen erinnern an die Auferstehung und die Herrlichkeit Marias. Fünfzehn Denkmäler bildeten also einen Gebetsweg für jeden, der zum Heiligtum ging.\n\nDas Denkmal der Pilger markiert den traditionellen Beginn der Dammstraße, und von dort aus zählt man die fünfzehn Geheimnisse nach Norden. Die Denkmäler sind barocke Werke, ähnlich wie Stelen, mit Szenen und Figuren im oberen Teil. In den folgenden Jahrhunderten erlitten sie Veränderungen und Verluste. Im neunzehnten Jahrhundert beschädigten die Eisenbahnarbeiten mehrere von ihnen. Ende des zwanzigsten Jahrhunderts waren von den fünfzehn Originalen nur noch acht erhalten.\n\nIm Jahr neunzehnhundertneunundneunzig wurde die Dammstraße restauriert, und sieben Denkmäler wurden ersetzt. Heute gibt es fünfzehn, acht Originale und sieben Ersatzbauten, verteilt auf die Stadtbezirke Cuauhtémoc und Gustavo A. Madero. Wenn du diese Straße entlanggehst, wirst du sehen, dass sich jedes Denkmal einem Geheimnis zuordnen lässt.\n\nDieser Halt ist kostenlos, und du kannst ihn an jedem der Denkmäler anhören. Wenn du nach Norden gehst, erreichst du Guadalupe. Viele Menschen legen den ganzen Weg zu Fuß zurück, manche beten dabei den Rosenkranz, andere schweigen, und wieder andere gehen einfach und schauen. Alle sind willkommen. In den Wallfahrtszeiten füllt sich diese Dammstraße mit Menschen, die von weither kommen.\n\nFür den, der zum Beten kommt, ist sie ein Weg des Glaubens. Für den, der kommt, um sie kennenzulernen, ist sie eine Straße mit mehr als fünf Jahrhunderten Geschichte, die noch immer die Aufgabe erfüllt, für die sie gebaut wurde: die Menschen zum Tepeyac zu führen."
+    },
+    "retos_observacion": {
+      "hash": "4ac89ee8aad46418",
+      "texto": [
+        "Suche entlang der Dammstraße die Denkmäler der Geheimnisse",
+        "Achte auf die Pilger, die zu Fuß ankommen",
+        "Blicke zum Hügel hinauf und finde die Basilika"
+      ]
+    },
+    "especificaciones": {
+      "hash": "104ff548294aac0c",
+      "texto": {
+        "Ursprung": "Dammstraße der Mexica",
+        "Denkmäler": "fünfzehn, eines für jedes Geheimnis des Rosenkranzes",
+        "Projekt": "Cristóbal de Medina Vargas, ab 1675",
+        "Erhaltene Originale": "acht",
+        "1999 ersetzt": "sieben"
+      }
+    },
+    "faq_mito": {
+      "hash": "06d8e7c9b0b7c9dc",
+      "texto": {
+        "pregunta": "Mythos: Die Dammstraße der Geheimnisse wurde für die heutige Basilika gebaut.",
+        "respuesta": "Realität: Die Mexica hatten bereits eine Dammstraße zum Tepeyac angelegt. Mit dem Bau der fünfzehn Denkmäler der Geheimnisse begann man im Jahr sechzehnhundertfünfundsiebzig; heute sind acht davon Originale, und sieben wurden im Jahr neunzehnhundertneunundneunzig ersetzt."
+      }
+    }
+  }
+}

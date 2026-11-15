@@ -1,0 +1,54 @@
+{
+  "id": "bas_12_cristo_atentado",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "801feedc00e2dc7b",
+      "texto": "Der Heilige Christus des Attentats"
+    },
+    "frase_gancho": {
+      "hash": "336c35abff7707c6",
+      "texto": "Ein verbogenes Kruzifix, das an das Attentat von 1921 erinnert."
+    },
+    "puente_narrativo": {
+      "hash": "e4dbd2ba8e875bff",
+      "texto": "Suche in der Kirche die Vitrine, in der das Kruzifix aufbewahrt wird."
+    },
+    "guion_corto": {
+      "hash": "b20ea1b039171f09",
+      "texto": "In dieser Basilika wird ein verbogenes Kreuz aufbewahrt, der Heilige Christus des Attentats. Am vierzehnten November neunzehnhunderteinundzwanzig, gegen halb elf Uhr morgens, explodierte in der Alten Basilika eine Dynamitbombe. Ein unbekannter Mann hatte sie zwischen Blumen versteckt am Fuß des Hauptaltars zurückgelassen. Der Marmoraltar wurde schwer beschädigt, und dieses Metallkruzifix, das auf dem Altar stand, verbog sich. Der überlieferte Bericht erzählt, dass das Glas, das das Bild der Jungfrau schützte, nicht zerbrach. Die Gläubigen halten das für ein Wunder. Heute wird das Kruzifix in einer Vitrine aufbewahrt, neben einem Pergament, das das Geschehene erzählt."
+    },
+    "guion_largo": {
+      "hash": "ec6f3fef4ba0c22d",
+      "texto": "In dieser Basilika wird in einer Vitrine ein verbogenes Kreuz aufbewahrt. Es ist als der Heilige Christus des Attentats bekannt. Um zu verstehen, warum es so wichtig ist, müssen wir zu einem Morgen im Jahr neunzehnhunderteinundzwanzig zurückkehren.\n\nIn jenen Jahren befand sich das Bild der Jungfrau von Guadalupe in der Alten Basilika, der Kirche neben dieser. Es dauerte noch mehr als fünfzig Jahre, bis die Basilika gebaut wurde, in der du jetzt stehst. Die Alte Basilika war eine sehr geliebte Kirche. Im Jahr achtzehnhundertfünfundneunzig war das Bild dort gekrönt worden, und im Jahr neunzehnhundertvier wurde die Kirche zur Basilica minor erhoben. Der Hauptaltar war aus Marmor. Auf dem Altar stand vor dem Bild ein Metallkruzifix.\n\nAm Montag, dem vierzehnten November, trat nach dem Ende der Frühmesse ein Mann an den Altar. Er trug ein Blumengesteck und stellte es zu Füßen des Altars ab. In den Blumen war eine Dynamitbombe versteckt. Gegen halb elf Uhr morgens explodierte sie.\n\nDie Explosion beschädigte den Marmoraltar. Das Kruzifix, das vor dem Bild stand, wurde verbogen. Am nächsten Tag veröffentlichte die Zeitung El Gran Diario de México auf ihrer Titelseite Bilder des zerstörten Altars und des verbogenen Kreuzes. Diese Fotografien gehören zur historischen Dokumentation des Geschehens.\n\nNun kommt das, was der in der Basilika überlieferte Bericht erzählt. Er sagt, dass das Glas, das das Bild der Jungfrau bedeckte, nicht einmal einen Sprung bekam. Für die Gläubigen ist diese Tatsache ein Wunder. Nach ihrer Erzählung hat der Sohn die Mutter beschützt. Deshalb verehren sie das Kruzifix, das die Wucht der Explosion aufgenommen hat, auf besondere Weise. Es ist eine Deutung des Glaubens, und so bewahrt die Gemeinschaft der Guadalupe-Verehrer sie.\n\nHeute wird das Kruzifix in dieser Basilika in einer Vitrine gezeigt. Dazu gehört ein Pergament, das die Ereignisse erklärt, außerdem die Fotografien, die nach dem Attentat aufgenommen wurden. Mit der Zeit wurde die Erinnerung an jenen Tag Teil des Gedächtnisses dieses Heiligtums.\n\nIm Jahr zweitausendeinundzwanzig jährte sich das Attentat zum hundertsten Mal. Aus diesem Anlass eröffnete die Basilika ein Heiliges Jahr mit vollkommenem Ablass. Es war eine Möglichkeit, an das Ereignis im Leben der Kirche zu erinnern. Der vollkommene Ablass ist für Katholiken der Erlass der zeitlichen Strafe für bereits vergebene Sünden, unter Bedingungen, die die Kirche selbst festlegt.\n\nWer sich dieser Vitrine nähert, tut dies meist in Stille. Manche Menschen bleiben stehen, um zu beten. Andere bitten diesen Christus um Gnaden, und wieder andere betrachten nur die verdrehte Form des Metalls. Jeder erlebt es auf seine eigene Weise.\n\nWenn du dir die Vitrine ansehen möchtest, tu es, ohne die Betenden zu stören. Es ist ein Stück, das weiterhin Gegenstand lebendiger Verehrung ist, und zugleich ein Zeugnis der Geschichte dieses Ortes."
+    },
+    "retos_observacion": {
+      "hash": "e13fbf4f5b450249",
+      "texto": [
+        "Suche die Vitrine mit dem Kruzifix",
+        "Beobachte, wie sich das Metall verbogen hat",
+        "Lies das Pergament neben der Vitrine, wenn es sichtbar ist"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1d4deb1d651e1cb3",
+      "texto": {
+        "Datum": "14. November 1921",
+        "Ungefähre Uhrzeit": "10:30 Uhr morgens",
+        "Objekt": "Metallkruzifix",
+        "Ort des Geschehens": "Alte Basilika"
+      }
+    },
+    "faq_mito": {
+      "hash": "312001e345e0336e",
+      "texto": {
+        "pregunta": "Mythos: Die Bombe von neunzehnhunderteinundzwanzig zerstörte den Altar und alles, was sich in der Nähe befand.",
+        "respuesta": "Realität: Sie beschädigte den Marmoraltar schwer und verbog das Metallkruzifix. Der überlieferte Bericht erzählt, dass das Glas, das das Bild schützte, nicht zerbrach."
+      }
+    }
+  }
+}

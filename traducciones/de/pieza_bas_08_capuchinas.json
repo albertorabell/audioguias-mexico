@@ -1,0 +1,55 @@
+{
+  "id": "bas_08_capuchinas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2cf501b057bd87ae",
+      "texto": "Die Kirche und das Kloster der Kapuzinerinnen"
+    },
+    "frase_gancho": {
+      "hash": "4d5c6f413d7c286c",
+      "texto": "Ein Nonnenkloster neben dem Heiligtum."
+    },
+    "puente_narrativo": {
+      "hash": "fe40216e6339b812",
+      "texto": "Du gehst um die Alte Basilika herum und erreichst die Kirche der Kapuzinerinnen."
+    },
+    "guion_corto": {
+      "hash": "c47a30b6cdd31092",
+      "texto": "Vor dir liegt die Kirche mit dem ehemaligen Kloster der Kapuzinerinnen. Der Grundstein wurde im Jahr siebzehnhundertzweiundachtzig gelegt, und die Bauarbeiten leitete der Architekt Ignacio de Castera. Eingeweiht wurde sie siebzehnhundertsiebenundachtzig, auf Initiative von Mutter Mariana und mit der Unterstützung mehrerer Förderer. Die Ordensfrauen lebten hier, bis das Kloster im Jahr achtzehnhundertdreiundsechzig verstaatlicht und geschlossen wurde. Zwischen achtzehnhundertachtundachtzig und achtzehnhundertfünfundneunzig bewahrte diese Kirche das Bildnis auf, während an der Alten Basilika gebaut wurde. Heute ist sie die Pfarrkirche Santa María de Guadalupe."
+    },
+    "guion_largo": {
+      "hash": "5d4d6714188925fb",
+      "texto": "Diese Kirche und das angrenzende Kloster wurden Ende des achtzehnten Jahrhunderts für eine Gemeinschaft von Kapuzinerinnen errichtet. Die Kapuzinerinnen sind Nonnen in strenger Klausur, gehören zur franziskanischen Familie und leben dem Gebet gewidmet.\n\nDer Bau entstand auf Initiative von Mutter Mariana, der Gründerin der Gemeinschaft. Ihr vollständiger Name erscheint in den Quellen in zwei Varianten, und deshalb nennen wir sie hier so. Der Grundstein wurde siebzehnhundertzweiundachtzig gelegt. Der Architekt Ignacio de Castera, einer der in jenen Jahren in Mexiko-Stadt tätigen Baumeister, leitete die Konstruktion, die siebzehnhundertsiebenundachtzig eingeweiht wurde. Zu denen, die das Vorhaben mit Mitteln unterstützten, gehören Luis de Torres, Manuel de la Borda und der Graf von Regla.\n\nDas Kloster war für Frauen mit einem beschaulichen Leben gedacht. Sie lebten hier in Klausur, mit dem Gebet als Mittelpunkt ihrer Tage. In einer Klausurgemeinschaft verlassen die Ordensfrauen das Kloster nicht und empfangen nur wenige Menschen. Ihr Leben teilt sich auf zwischen Gebet, Arbeit und Schweigen. Dieses Leben ging bis achtzehnhundertdreiundsechzig weiter, als die Regierung im Zusammenhang mit den Reformgesetzen das Kirchenvermögen verstaatlichte und das Kloster geschlossen wurde. Diese Maßnahme betraf viele Klöster des Landes, und die Ordensfrauen mussten das Gebäude verlassen.\n\nAuch in dieser Kirche wurde das Bildnis der Nuestra Señora de Guadalupe aufbewahrt. Zwischen dem dreiundzwanzigsten Februar achtzehnhundertachtundachtzig und dem dreißigsten September achtzehnhundertfünfundneunzig, während an der Alten Basilika gebaut wurde, wurde das Bildnis an diesem Ort verehrt. Danach kehrte es zum Heiligtum zurück.\n\nDer Boden unter dem Gebäudekomplex ist weich, wie in dieser ganzen Gegend, und das Gebäude hat Absenkungen erlitten. Zwischen neunzehnhundertsechsundsiebzig und neunzehnhundertzweiundachtzig wurden Kontrollpfähle gesetzt, um es zu stabilisieren. Die Absenkung hält jedoch an.\n\nIm selben Komplex befindet sich die Capilla de Juramentos, die ebenfalls von dieser Pfarrei betreut wird. Heute ist die Kirche die Pfarrkirche Santa María de Guadalupe. Sie ist eine Kirche in Gebrauch, mit Messen und Angeboten für die Gemeinde. Auf ihrem Hauptaltar befindet sich eine Heilige Familie, in einen Kreis gemalt, und im Nachbargebäude, dem ehemaligen Kloster, befindet sich das Museo de la Basílica.\n\nEs ist ein Teil der Geschichte des Ortes, den man nicht immer sieht: die Geschichte der Menschen, die hier mehr als siebzig Jahre lang dem Gebet gewidmet lebten, nur wenige Schritte vom Heiligtum der Jungfrau entfernt."
+    },
+    "retos_observacion": {
+      "hash": "6f1eceb9f079bbb9",
+      "texto": [
+        "Suche die Fassade und ihr Portal",
+        "Betrachte das Klostergebäude neben der Kirche",
+        "Achte auf die Gedenktafel, falls es eine gibt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "16e5d0bf32d3599c",
+      "texto": {
+        "Grundstein": "1782",
+        "Architekt": "Ignacio de Castera",
+        "Einweihung": "1787",
+        "Kloster geschlossen": "1863",
+        "Bildnis hier": "1888 bis 1895"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e1aaca2ce4f9d8f",
+      "texto": {
+        "pregunta": "Mythos: Die Kirche der Kapuzinerinnen war immer eine Pfarrkirche.",
+        "respuesta": "Realität: Sie war ein Kloster von Ordensfrauen, bis es im Jahr achtzehnhundertdreiundsechzig verstaatlicht und geschlossen wurde. Heute ist sie die Pfarrkirche Santa María de Guadalupe."
+      }
+    }
+  }
+}

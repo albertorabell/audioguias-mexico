@@ -1,0 +1,55 @@
+{
+  "id": "bas_11_nueva_arquitectura",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "45188bf7e430ac0d",
+      "texto": "Die Neue Basilika"
+    },
+    "frase_gancho": {
+      "hash": "27d2fc999c9aa254",
+      "texto": "Ein runder Tempel, gebaut, damit alle das Bild sehen können."
+    },
+    "puente_narrativo": {
+      "hash": "a19522d478faf873",
+      "texto": "Du überquerst das Atrium und erreichst die Fassade der Neuen Basilika."
+    },
+    "guion_corto": {
+      "hash": "ba7505dc33c9400b",
+      "texto": "Du stehst vor der Neuen Basilika von Guadalupe. Sie wurde zwischen neunzehnhundertvierundsiebzig und neunzehnhundertsechsundsiebzig errichtet. Die Alte Basilika sackte ab und bot nicht mehr genug Platz für so viele Pilger. Ihr Grundriss ist kreisrund, mit mehr als hundert Metern Durchmesser. Sie wurde so entworfen, dass etwa zehntausend Menschen von jedem Platz im Innenraum aus das Bild der Jungfrau sehen können. Den Entwurf zeichneten die Architekten Pedro Ramírez Vázquez und José Luis Benlliure gemeinsam mit Pater Gabriel Chávez de la Mora. Ihr Dach ist eine Hängekonstruktion, die von einem einzigen Punkt aus getragen wird, wie ein großes Zelt. Und damit der weiche Boden ihr Gewicht tragen kann, wurden Hunderte von Kontrollpfählen eingerammt."
+    },
+    "guion_largo": {
+      "hash": "c52e79c258438c3c",
+      "texto": "Du stehst vor der Neuen Basilika von Guadalupe, und es lohnt sich, sie einen Moment zu betrachten, bevor du hineingehst.\n\nZweihundertsiebenundsechzig Jahre lang befand sich das Bild der Jungfrau in der Alten Basilika, von siebzehnhundertneun bis neunzehnhundertsechsundsiebzig. Das ist die Kirche gleich neben dieser. Der Boden in dieser Gegend ist weich, ein ehemaliger Seegrund, und jenes Gebäude sackte nach und nach ab. Außerdem kamen jedes Jahr mehr Pilger, und die Kirche reichte nicht mehr aus. Es brauchte einen anderen Ort.\n\nDie ersten Vorentwürfe des Architekten José Luis Benlliure sahen vor, oben auf dem Hügel zu bauen. Am Ende wurde dieses Gelände am Fuß des Tepeyac gewählt. Den Entwurf zeichneten Pedro Ramírez Vázquez und Benlliure, zusammen mit Pater Gabriel Chávez de la Mora. Mitgewirkt haben außerdem Alejandro Schoenhofer und Javier García Lascuráin. Für die Tragwerksplanung war Óscar de Buen zuständig, für die Akustik Eduardo Saad. Den Auftrag erteilte Abt Guillermo Schulenburg.\n\nDer Grundstein wurde am zwölften Dezember neunzehnhundertvierundsiebzig gelegt. Die Kirche wurde am zwölften Oktober neunzehnhundertsechsundsiebzig geweiht, und an diesem Tag wurde das Bild überführt. Die Bauzeit betrug etwa zweiundzwanzig Monate, eine sehr kurze Frist für ein Gebäude dieser Größe. Die ersten Morgenständchen in der neuen Kirche wurden am zwölften Dezember desselben Jahres gesungen.\n\nAchte auf ihre Form. Der Grundriss ist ein Kreis mit mehr als hundert Metern Durchmesser. Dafür gibt es einen einfachen Grund. Wer eintritt, kann das Bild sehen, ganz gleich, wo er sitzt. Im Inneren finden etwa zehntausend Menschen Platz, auf dem Vorplatz noch viel mehr.\n\nDas Dach ist eine Hängekonstruktion und wird von einem einzigen Punkt aus getragen, wie der Mast eines Zeltes. Innen ist es mit Holz verkleidet, und das Licht kommt von sechseckigen Lampen.\n\nZur Zeit der Errichtung sagten manche, das Gebäude sehe eher wie ein Zirkuszelt oder ein Stadion aus als wie eine Kirche. Martha Fernández, Forscherin der UNAM, schlägt vor, diese Form anders zu lesen. Für sie erinnert das Zelt an das Zelt des Volkes Israel in der Wüste. Es war der Ort, an dem Gott nach der Bibel sein Volk auf dem Weg begleitete. Das ist eine wissenschaftliche Deutung. Sie hilft auch zu verstehen, warum diese Form zu einem Ort passt, zu dem die Menschen zu Fuß kommen, aus der Ferne.\n\nBleibt das Problem des Bodens. Damit das Gebäude nicht wie das frühere absackte, wurden dreihundertvierundvierzig Kontrollpfähle eingerammt. Mit ihnen lässt sich das Niveau des Baus im Lauf der Jahre nachjustieren.\n\nSieh dir auch die Größenverhältnisse an. Vom Platz aus sieht man die Basilika schon aus weniger als zweihundert Metern vollständig, und ihre Spitze wirkt nicht so hoch, wie sie ist. Das Gebäude wurde dafür gebaut, ganze Menschenmengen zu empfangen, vor allem beim Fest am zwölften Dezember, wenn sich der Platz mit Pilgern füllt.\n\nWenn du eintrittst, wirst du merken, dass der Raum weit und offen ist. Viele Menschen kommen hierher, um zu beten, um zu bitten oder um zu danken, und es gibt den größten Teil des Tages über Messen. Wenn du nur zum Schauen kommst, geh deinen Rundgang in Ruhe und still. Weiter vorn, über dem Altar, befindet sich das Bild der Jungfrau von Guadalupe."
+    },
+    "retos_observacion": {
+      "hash": "5563b7d1d68ddf8f",
+      "texto": [
+        "Zähle, wie viele Eingänge du an der Fassade siehst",
+        "Suche die runde Form des Gebäudes, wenn du es umrundest",
+        "Sieh dir beim Eintreten das Dach an"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2ddfd777475ef74a",
+      "texto": {
+        "Bauzeit": "1974 bis 1976",
+        "Architekten": "Pedro Ramírez Vázquez und José Luis Benlliure",
+        "Grundriss": "kreisrund, mehr als 100 m Durchmesser",
+        "Sichtbarkeit": "etwa 10 000 Personen",
+        "Dach": "Hängekonstruktion, von einem Punkt aus getragen"
+      }
+    },
+    "faq_mito": {
+      "hash": "1540808b34dac40b",
+      "texto": {
+        "pregunta": "Mythos: Die Alte Basilika wurde aufgegeben, als die Neue gebaut wurde.",
+        "respuesta": "Realität: Die Alte ist heute dem Christkönig geweiht und wird weiterhin genutzt."
+      }
+    }
+  }
+}

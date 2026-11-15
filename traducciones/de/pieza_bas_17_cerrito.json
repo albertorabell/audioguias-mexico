@@ -1,0 +1,54 @@
+{
+  "id": "bas_17_cerrito",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d406831019995b44",
+      "texto": "Die Kapelle des Kleinen Hügels"
+    },
+    "frase_gancho": {
+      "hash": "8413c2bebbe53379",
+      "texto": "Der Gipfel des Tepeyac, mit Blick auf die Stadt."
+    },
+    "puente_narrativo": {
+      "hash": "0dc1d8afafdc934f",
+      "texto": "Du steigst die letzten Meter bis zum Gipfel des Hügels hinauf."
+    },
+    "guion_corto": {
+      "hash": "4ea6a86d9b1065b2",
+      "texto": "Du bist auf dem Gipfel des Tepeyac angekommen, an der Kapelle des Kleinen Hügels. Der Guadalupe-Tradition zufolge fand San Juan Diego an diesem Ort die Rosen, die er dem Bischof als Zeichen brachte. Cristóbal de Aguirre und seine Frau Teresa ließen hier eine kleine Einsiedlerkapelle errichten, je nach Quelle sechzehnhundertsechzig oder sechzehnhundertsechsundsechzig. Die heutige Kapelle, dem Erzengel Michael geweiht, stammt aus dem achtzehnten Jahrhundert und hat eine barocke Fassade aus Tezontle ohne Türme. Im Inneren finden sich Fresken des Muralisten Fernando Leal, die die Erscheinungen erzählen. Von der Terrasse aus sieht man die Stadt. Sie wird auch Rosenkapelle genannt, und ihre Öffnungszeiten können sich ändern."
+    },
+    "guion_largo": {
+      "hash": "e9bca9178b58c498",
+      "texto": "Du stehst auf dem Gipfel des Hügels Tepeyac, vor der Kapelle des Kleinen Hügels, die auch Rosenkapelle oder Kapelle des Hügels der Engel genannt wird.\n\nDer Guadalupe-Tradition zufolge pflückte San Juan Diego an diesem Ort die Rosen, die er in seiner Tilma zu Bischof Bruder Juan de Zumárraga brachte, als das Zeichen, um das ihn die Jungfrau Maria gebeten hatte. Deshalb erinnert man sich an sie als die Kapelle der Rosen. Für viele Gläubige ist sie der Ort der gesamten Anlage, der am engsten mit den Erscheinungen verbunden ist.\n\nDie erste Einsiedlerkapelle an dieser Stelle ließen Cristóbal de Aguirre und seine Frau Teresa errichten, um an die drei Erscheinungen auf dem Hügel zu erinnern. Eine Tafel vor Ort nennt das Jahr sechzehnhundertsechzig. Andere Quellen sagen sechzehnhundertsechsundsechzig, und hier werden beide genannt. Sie wurde dem Erzengel Michael geweiht, den die christliche Tradition als Anführer der Engel anerkennt und dessen Name als „wer ist wie Gott“ gedeutet wird. Die Kirche stellt ihn als Verteidiger und Beschützer dar, mit dem Gedanken, dass er aus der Höhe über das Heiligtum am Fuß des Hügels wachen möge.\n\nDiese alte Einsiedlerkapelle wurde ersetzt. In der Mitte des achtzehnten Jahrhunderts wurde die Erlaubnis für einen Neubau beantragt. Die erste Einsiedlerkapelle wurde siebzehnhundertachtundvierzig abgerissen, und um siebzehnhundertsechsundfünfzig wurde in der heutigen Kapelle die erste Messe gefeiert. Die Fassade im barocken Stil besteht aus rotem Tezontle und hat keine Türme.\n\nDie Tafel an der Kapelle schreibt ihre Fassade, ebenso wie die Kerze des Seemanns und die östliche Freitreppe, dem Architekten Francisco Guerrero y Torres zu, demselben, der die Brunnenkapelle entworfen hat.\n\nDie Kapelle wurde zwischen neunzehnhundertfünfundvierzig und neunzehnhundertfünfzig wiederaufgebaut. In dieser Phase kam ein kleiner Platz mit vier Skulpturen der Erzengel Michael, Raphael, Gabriel und Uriel hinzu. Im Jahr achtzehnhundertfünfundneunzig waren vier Engel aus Marmor, ein Werk des Bildhauers Ernesto Tamariz, und ein Apostelkreuz aufgestellt worden, im Jahr der päpstlichen Krönung des Bildes.\n\nIm Inneren ist der Raum mit Fresken des Malers Fernando Leal geschmückt, einem der Künstler der mexikanischen Muralismus-Bewegung. Seine Gemälde zeigen Momente der Erscheinungen, so wie die Tradition sie erzählt, und sind eine Art, den Besuchern der Kapelle die Geschichte zu erzählen.\n\nZur Kapelle führt eine steile, gewundene Freitreppe hinauf, und man nimmt sie besser in Ruhe. Von der Terrasse aus sieht man die Stadt. Der Hügel, der im sechzehnten Jahrhundert abseits der Stadt lag, ist heute von Straßen und Gebäuden umgeben.\n\nDies ist ein kleines, viel besuchtes Gotteshaus. Wenn gebetet oder eine Messe gefeiert wird, empfiehlt es sich, draußen zu warten oder leise einzutreten. Die Öffnungszeiten können sich ändern, daher ist es ratsam, sie auf der offiziellen Website zu bestätigen."
+    },
+    "retos_observacion": {
+      "hash": "18597ab37d7225c8",
+      "texto": [
+        "Schau dir die Fassade aus Tezontle ohne Türme an",
+        "Such die Terrasse und den Blick auf die Stadt",
+        "Betrachte die Fresken von Fernando Leal im Inneren der Kapelle"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3d6ebf0963fff18",
+      "texto": {
+        "Einsiedlerkapelle": "1660 oder 1666, je nach Quelle",
+        "Förderer": "Cristóbal de Aguirre und Teresa",
+        "Heutige Kapelle": "18. Jahrhundert, dem Erzengel Michael geweiht",
+        "Fresken": "Fernando Leal"
+      }
+    },
+    "faq_mito": {
+      "hash": "001efa0cfdf1e4a7",
+      "texto": {
+        "pregunta": "Mythos: Die Kapelle auf dem Gipfel ist die ursprüngliche.",
+        "respuesta": "Realität: Die erste Einsiedlerkapelle stammt je nach Quelle von sechzehnhundertsechzig oder sechzehnhundertsechsundsechzig; die heutige Kapelle stammt aus dem achtzehnten Jahrhundert."
+      }
+    }
+  }
+}

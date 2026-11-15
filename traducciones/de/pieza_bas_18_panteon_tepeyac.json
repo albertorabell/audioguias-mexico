@@ -1,0 +1,53 @@
+{
+  "id": "bas_18_panteon_tepeyac",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d67a981b3438aa1a",
+      "texto": "Der Friedhof auf dem Tepeyac"
+    },
+    "frase_gancho": {
+      "hash": "b80d94d03bffe3ae",
+      "texto": "Ein Friedhof am Hang, mit Persönlichkeiten aus der Geschichte Mexikos."
+    },
+    "puente_narrativo": {
+      "hash": "8cbf205367e41a5e",
+      "texto": "Neben der Kapelle liegt der Friedhof, an dem du deinen Rundgang beendest."
+    },
+    "guion_corto": {
+      "hash": "6d6446ebd1dac0c2",
+      "texto": "Der Friedhof auf dem Tepeyac liegt neben der Kapelle auf dem kleinen Hügel. Auf diesem Hügel gibt es Gräber schon vor siebzehnhundertsechzehn. Eine Überlieferung führt ihn auf sechzehnhundertsechzig zurück, doch die Forschung belegt die ersten Gräber erst zu Beginn des achtzehnten Jahrhunderts. Mit dem Friedhofsgesetz von achtzehnhundertneunundfünfzig wurde er achtzehnhunderteinundsiebzig zu einem offiziellen Friedhof. Hier ruhen Persönlichkeiten aus der Geschichte Mexikos, etwa Antonio López de Santa Anna, der Maler José María Velasco und der Dichter Xavier Villaurrutia, und außerdem viele Architekten. Viele Familien wählten diesen Ort, um die Ihren beizusetzen, nahe beim Heiligtum. Es gibt ein Ortsmuseum, das die Geschichte des Hügels erzählt."
+    },
+    "guion_largo": {
+      "hash": "e1f9796ac60dd429",
+      "texto": "Neben der Kapelle auf dem kleinen Hügel erstreckt sich der Friedhof auf dem Tepeyac, einer der ältesten Friedhöfe in Mexiko-Stadt, die noch genutzt werden. Es ist ein Ort der Erinnerung, und als solchen sollte man ihn mit Respekt betrachten.\n\nDie ersten Bestattungen fanden vor siebzehnhundertsechzehn rund um die Kapelle statt. Eine Überlieferung schreibt seine Gründung dem Jahr sechzehnhundertsechzig zu und bringt ihn sogar mit dem heiligen Juan Diego in Verbindung, doch Forschende wie der Architekturhistoriker Hugo Arciniega belegen die ersten Gräber erst zu Beginn des achtzehnten Jahrhunderts. Viele Familien der Stadt wollten hier die Ihren beisetzen, nahe dem Ort, an dem die Guadalupe-Tradition die Erscheinungen verortet.\n\nIm Jahr achtzehnhundertneunundfünfzig, am einunddreißigsten Juli, bestimmte das Friedhofsgesetz, dass die Bestattungen in die Hände des Staates übergehen sollten. Nach diesem Gesetz wurde der Tepeyac achtzehnhunderteinundsiebzig zum offiziellen Friedhof. Die Jahreszahl neunzehnhundertzehn, die auf einer Inschrift steht, ist nicht die seiner Einweihung.\n\nDie Monumente des Friedhofs sind nach Klassen, nach Größe und nach Lage geordnet, beginnend am Haupteingang, so die Architektin Silvia Segarra Lagunes in ihrer Studie über seine Landschaft, seine Geschichte und seine Restaurierung. Der Friedhof ist als Friedhof der Architekten bekannt, weil Arciniega ihn in einer Studie so nannte, als er hier viele der Erbauer der Stadt fand. Er besitzt außerdem Grabmäler von großem künstlerischem Wert. Unter ihnen ragt die Skulptur des Engels der Stille hervor.\n\nHier ruhen Persönlichkeiten, die Teil der Geschichte des Landes sind. Da ist Antonio López de Santa Anna, der mehrmals Präsident Mexikos war und am einundzwanzigsten Juni achtzehnhundertsechsundsiebzig starb. Auch seine Frau, Dolores Tosta, ist hier beigesetzt. Da ist der Maler José María Velasco, bekannt für seine Landschaften des Tals von Mexiko. Da ist der Dichter Xavier Villaurrutia. Und da ist Delfina Ortega Díaz, die erste Ehefrau von Präsident Porfirio Díaz.\n\nDie Forscherin Ethel Herrera Moreno hat die Grabmäler dieses Friedhofs katalogisiert, die die Jungfrau von Guadalupe darstellen. Diese Verehrung, die sich auch auf den Gräbern ausdrückt, gehört zu dem, was man an diesen Grabstätten sieht.\n\nDer Friedhof hat außerdem ein Ortsmuseum mit zwei Sälen. Einer erzählt die Geschichte des Hügels seit vorspanischer Zeit, der andere die Geschichte des Friedhofs. Weder der Friedhof noch das Museum sind wie der Rest der Anlage geöffnet. Für einen Besuch ist eine vorherige Anmeldung nötig, und am besten bestätigst du die Bedingungen auf der offiziellen Website.\n\nWenn du nicht hineinkannst, lässt sich dieser Halt genauso vom Aussichtspunkt der Kapelle aus anhören. Und wenn du hineingehst, denk daran, dass es ein Friedhof ist, auf dem Familien ihre Toten besuchen: Man geht schweigend, ohne Eile."
+    },
+    "retos_observacion": {
+      "hash": "96d210c7924eb1a7",
+      "texto": [
+        "Suche die Gräber bekannter Persönlichkeiten",
+        "Betrachte die Mausoleen der Architekten",
+        "Frage nach dem Ortsmuseum"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e09c267116c503c0",
+      "texto": {
+        "Grabstätten": "vor 1716",
+        "Offizieller Friedhof": "1871",
+        "Beigesetzte": "Antonio López de Santa Anna, José María Velasco, Xavier Villaurrutia"
+      }
+    },
+    "faq_mito": {
+      "hash": "1823517dcf05a11b",
+      "texto": {
+        "pregunta": "Mythos: Der Friedhof ist seit sechzehnhundertsechzig dokumentiert.",
+        "respuesta": "Realität: Eine Überlieferung führt ihn auf dieses Datum zurück, doch die Forschung belegt die ersten Gräber erst zu Beginn des achtzehnten Jahrhunderts. Ein offizieller Friedhof ist er seit achtzehnhunderteinundsiebzig."
+      }
+    }
+  }
+}

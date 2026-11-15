@@ -1,0 +1,53 @@
+{
+  "id": "bas_15_pocito_interior",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Neuspanien\" para \"Nueva España\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Neuspanien\" para \"Nueva España\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "313cec151e7c53d3",
+      "texto": "Die Capilla del Pocito: Innenraum"
+    },
+    "frase_gancho": {
+      "hash": "403a622af6b8d28c",
+      "texto": "Drei miteinander verbundene Räume und ein Brunnen."
+    },
+    "puente_narrativo": {
+      "hash": "b6946908638991b7",
+      "texto": "Du betrittst die Kapelle, in der vielleicht Menschen beten."
+    },
+    "guion_corto": {
+      "hash": "0bb907ed3e70128a",
+      "texto": "In der Kapelle gibt es drei miteinander verbundene Räume. Zuerst ein kreisrundes Vestibül, in dem sich noch die Brunneneinfassung erhalten hat. Dann den Betsaal mit dem Altar aus vergoldetem Holz. Und ganz hinten eine achteckige Sakristei. An den Wänden hängen vier Gemälde der Erscheinungen, die Miguel Cabrera zugeschrieben werden, einem der großen Maler Neuspaniens. Die Kanzel ruht auf einer Figur eines Indigenen, die an San Juan Diego erinnert. Für die Gläubigen ist der Brunnen mit der Erinnerung an die Erscheinungen verbunden. Es ist ein Ort, den man in Ruhe betritt. Möglicherweise beten dort Menschen, und die Öffnungszeiten können sich ändern."
+    },
+    "guion_largo": {
+      "hash": "0c90c6a84e9ea872",
+      "texto": "Pocito ist eine Verkleinerungsform von „pozo“, also „Brunnen“, das heißt ein kleiner Brunnen, und daher stammt der Name der Kapelle. Beim Eintreten findest du zuerst das Vestibül, das kreisrund ist. Dort steht noch die Brunneneinfassung, der Steinrand, der die Öffnung der Quelle umgibt. Die Kapelle wurde errichtet, um diesen Ort zu schützen, und er bildet die Mitte des Gebäudes.\n\nFür die Gläubigen ist der Brunnen mit der Erinnerung an die Erscheinungen verbunden. Die guadalupanische Überlieferung, wie Francisco de Florencia sie im siebzehnten Jahrhundert aufgezeichnet hat, bringt ihn mit einem der Orte am Tepeyac in Verbindung, an denen die Jungfrau Maria sich San Juan Diego zeigte. Jahrhundertelang hatte ein Mann, der „beato de Nuestra Señora de Guadalupe“ genannt und vom Domkapitel ernannt wurde, die Pflege des Brunnens inne, bis man im Jahr siebzehnhundertachtundsiebzig beschloss, die heutige Kapelle zu errichten.\n\nNach dem Vestibül gelangt man in den Betsaal, den Hauptraum. Dort steht der Altar aus Holz, das mit Gold überzogen ist. An der Wand befinden sich vier Retabel mit Szenen der Erscheinungen, die nach der Überlieferung des Ortes von Miguel Cabrera gemalt wurden. Cabrera wurde sechzehnhundertfünfundneunzig geboren und starb siebzehnhundertachtundsechzig, und er war einer der bedeutendsten Maler Neuspaniens. Eine Studie aus dem Jahr zweitausendzweiundzwanzig nennt außerdem eine Kopie des Bildes Unserer Lieben Frau von Guadalupe, die Cabrera siebzehnhundertdreiundfünfzig anfertigte.\n\nAuch eine Kanzel gibt es, den erhöhten Ort, von dem aus gepredigt wird. Statt auf einer Säule ruht die Kanzel auf der Figur eines Indigenen, die Juan Diego darstellt. Es ist ein Detail, das man leicht übersieht, und es zeigt, wie man in diesem Raum an den Boten der Jungfrau erinnern wollte.\n\nDer dritte Raum ist die Sakristei mit achteckigem Grundriss, in der die Gegenstände des Gottesdienstes aufbewahrt werden.\n\nDer Grundriss des Innenraums ist ebenso komplex wie der des Äußeren. Das kreisrunde Vestibül, der Betsaal und die achteckige Sakristei bilden ein Ensemble aus gekrümmten und geraden Flächen. Fachleute zählen es zu den kühnsten Ausdrucksformen des mexikanischen Barock.\n\nDie Kapelle ist ein aktiver Ort des Gottesdienstes und gehört zur Pfarrei Santa María de Guadalupe, der Pfarrei der Capuchinas. Möglicherweise beten dort Menschen. Es empfiehlt sich, in Ruhe einzutreten, leise zu sprechen und dezent zu fotografieren. Die Öffnungszeiten können sich ändern, und am besten bestätigst du sie auf der offiziellen Website.\n\nWenn du hineinkommst, beginne im Vestibül und denke daran, dass der Brunnen am Ursprung des ganzen Gebäudes steht. Geh danach in Ruhe durch den Saal und betrachte die Bilder eines nach dem anderen. Jedes erzählt auf seine Weise einen Moment der Geschichte, die die guadalupanische Überlieferung seit Jahrhunderten weitergibt."
+    },
+    "retos_observacion": {
+      "hash": "f6085b63cb4beca3",
+      "texto": [
+        "Suche die Brunneneinfassung",
+        "Betrachte die vier Gemälde der Erscheinungen",
+        "Sieh dir die Kanzel mit der Figur eines Indigenen an"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d1d88e7e5583047",
+      "texto": {
+        "Räume": "kreisrundes Vestibül, Betsaal, achteckige Sakristei",
+        "Gemälde": "vier, Miguel Cabrera zugeschrieben",
+        "Altar": "vergoldetes Holz"
+      }
+    }
+  }
+}
