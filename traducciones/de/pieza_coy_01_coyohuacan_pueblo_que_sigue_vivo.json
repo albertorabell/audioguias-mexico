@@ -1,0 +1,54 @@
+{
+  "id": "coy_01_coyohuacan_pueblo_que_sigue_vivo",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "08f7f11d7af67d0b",
+      "texto": "Coyoacán: das Dorf, das nie aufgehört hat, ein Dorf zu sein"
+    },
+    "frase_gancho": {
+      "hash": "163a3a8f7c76c6a0",
+      "texto": "Hier lebten Frida, Diego und Trotzki, und noch heute isst, plaudert und flaniert man wie in einem Dorf."
+    },
+    "puente_narrativo": {
+      "hash": "fd41d72be6c24b47",
+      "texto": "Geh zum Tor des Atriums, neben der Kirche."
+    },
+    "guion_corto": {
+      "hash": "1d5ed3fc89d2d018",
+      "texto": "Willkommen in Coyoacán. Hör einen Moment zu: Gespräche auf den Bänken, Musik in der Ferne, jemand verkauft Luftballons, jemand verkauft Eis. So klingt dieser Platz fast jeden Tag. Der Name kommt aus dem Nahuatl und bedeutet „Ort der Kojoten“. Als Tenochtitlan fiel, ließ sich Hernán Cortés hier nieder, und die erste Stadtverwaltung des Tals von Mexiko wurde gegründet. Aber berühmt machte Coyoacán erst, was Jahrhunderte später kam: Es wurde das Viertel der Maler, Schriftsteller und Exilanten. Frida Kahlo wurde nur wenige Straßen von hier geboren. Diego Rivera malte und lebte in diesen Gassen. Und der russische Revolutionär Leo Trotzki fand hier seine letzte Zuflucht. Bei diesem Besuch gehst du an Cafés, Cantinas, Kirchen und Häusern voller Geschichte vorbei. Fangen wir an."
+    },
+    "guion_largo": {
+      "hash": "b450cf12825055b9",
+      "texto": "Willkommen in Coyoacán. Bevor ich dir irgendetwas erzähle, hör zu. Auf den Bänken wird geredet, irgendwoher kommt Musik, jemand verkauft Luftballons, jemand verkauft Eis. So klingt dieser Platz fast jeden Tag, und das ist das Geheimnis von Coyoacán: Es wirkt noch immer wie ein Dorf, obwohl Mexiko-Stadt rundherum gewachsen ist.\n\nDer Name kommt aus dem Nahuatl, Coyohuacan, „Ort der Kojoten“. Vor der Ankunft der Spanier ließ sich hier etwa im Jahr dreizehnhundertzweiunddreißig eine Gruppe aus Chalco nieder. Mit der Zeit kam der Ort unter die Herrschaft der Tepaneken von Azcapotzalco und später des Dreibunds, der das Tal von Mexiko regierte. Als Hernán Cortés Tenochtitlan eroberte, war Coyoacán mit den Spaniern verbündet. Nach dem Fall der Hauptstadt der Mexica ließen sich Cortés und seine Truppen hier nieder, und die erste Stadtverwaltung des Tals von Mexiko wurde gegründet. Im Jahr fünfzehnhundertneunundzwanzig machte Cortés Coyoacán zum Hauptort seines Marquesats des Tals von Oaxaca.\n\nAber wenn du heute hier spazierst, findest du kein Museum, das im sechzehnten Jahrhundert stehen geblieben ist. Du findest das Viertel, in dem sich im zwanzigsten Jahrhundert die berühmtesten Künstler und Intellektuellen Mexikos trafen. Frida Kahlo wurde nur wenige Straßen von diesem Platz entfernt geboren und starb dort, in der Casa Azul. Diego Rivera lebte ebenfalls in diesem Haus und in diesen Straßen. Und im Jahr neunzehnhundertsiebenunddreißig kam, im Exil und von Stalin verfolgt, ein russischer Revolutionär nach Mexiko: Leo Trotzki. Er lebte in Coyoacán, zuerst in der Casa Azul und dann ein paar Straßen weiter, bis zu seinem Tod. Maler, Schriftsteller, Politiker und Leute von Welt: Coyoacán war der Ort, an dem man sein musste.\n\nDiese Mischung lebt bis heute weiter. An den Wochenenden essen Familien Eis, Musiker spielen auf dem Platz und Studenten füllen die Cafés. Es gibt Cantinas mit jahrzehntelanger Geschichte, Tostada-Stände und Churros, die man noch warm isst. Und wenige Schritte weiter stehen Kirchen aus dem sechzehnten Jahrhundert, Häuser von Vizekönigen und Kopfsteinpflastergassen.\n\nIm Jahr neunzehnhundertvierunddreißig erklärte die Regierung Coyoacán zur typischen und malerischen Zone. Im Jahr neunzehnhundertneunzig wurde das Gebiet zur Zone historischer Denkmäler erklärt. Heute bewahrt es einen Teil des Grundrisses aus dem sechzehnten Jahrhundert, mit mehr als achtzig Häuserblocks und rund fünfzig wertvollen Gebäuden aus dem sechzehnten bis neunzehnten Jahrhundert. Was du durchwanderst, sind keine Ruinen, sondern ein Dorf, das lebt.\n\nFangen wir dort an, wo alles begann: im Atrium der Kirche."
+    },
+    "retos_observacion": {
+      "hash": "06f1c60683a4ce2c",
+      "texto": [
+        "Such die Kojoten aus Bronze am Brunnen",
+        "Zähl, wie viele verschiedene Dinge gleichzeitig auf dem Platz passieren",
+        "Finde den Glockenturm der Pfarrkirche"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f07b25742574d756",
+      "texto": {
+        "Name": "aus dem Nahuatl Coyohuacan, Ort der Kojoten",
+        "Typische und malerische Zone": "neunzehnhundertvierunddreißig",
+        "Zone historischer Denkmäler": "Dekret vom Dezember neunzehnhundertneunzig",
+        "Wertvolle Gebäude": "rund fünfzig, aus dem sechzehnten bis neunzehnten Jahrhundert"
+      }
+    },
+    "faq_mito": {
+      "hash": "e58fc35c9d10cfe8",
+      "texto": {
+        "pregunta": "Mythos: Coyoacán war die Hauptstadt des Vizekönigreichs.",
+        "respuesta": "Wirklichkeit: Es war nach der Eroberung der Sitz von Cortés und einer ersten Stadtverwaltung; das Vizekönigreich wurde Jahre später gegründet, im Jahr fünfzehnhundertfünfunddreißig."
+      }
+    }
+  }
+}

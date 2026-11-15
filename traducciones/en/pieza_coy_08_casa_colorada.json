@@ -1,0 +1,54 @@
+{
+  "id": "coy_08_casa_colorada",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dfba479fa4e12890",
+      "texto": "The Casa Colorada: the house that was not the Malinche's"
+    },
+    "frase_gancho": {
+      "hash": "25f89ec761e2bcf2",
+      "texto": "It has a reputation as the Malinche's house, but it holds a different story, one closer to painting."
+    },
+    "puente_narrativo": {
+      "hash": "963133767d0111c1",
+      "texto": "Walk a few steps toward the La Conchita plaza, where the chapel is."
+    },
+    "guion_corto": {
+      "hash": "25fad29bc8418713",
+      "texto": "You are in front of the Casa Colorada, at the corner of Higuera and Vallarta. Many people call it the Malinche's house, but INAH records say otherwise: it was an obraje, a factory for spinning and weaving, called La Concepción. Its red tezontle walls gave it its name. In nineteen sixty-nine two painters bought it, Arturo García Bustos and Rina Lazo, and since then it has been an artists' home. Today it is a private house, so you admire it from outside. Look at the walls, the iron balconies and the stone gargoyles."
+    },
+    "guion_largo": {
+      "hash": "faa058bac1b5c4d5",
+      "texto": "You are at the corner of Higuera and Vallarta streets, in front of a two-story house with reddish walls. This is the Casa Colorada. Many people know it as the Malinche's house, and some say her ghost still wanders here. But the INAH record says that attribution is mistaken.\n\nWhat is known is that this place was an obraje: a workshop where people spun and wove. It was called La Concepción, like the chapel a few steps away, and it already existed in seventeen fifty-five, when it belonged to a man named Sebastián de Soto. The ground floor may be from the seventeenth century, and the rest was extended over the years.\n\nLook at the walls. They are made of stone and tezontle, the red volcanic rock used throughout the city. At some point they were painted red, and that is where the name Casa Colorada comes from. The plaster has fallen off in places and shows the different stages of construction. On the second floor there are iron balconies, and at the top, stone gargoyles to drain the rain.\n\nIn the twentieth century, the house changed hands several times. In nineteen thirty-nine an order was issued to preserve it. In nineteen fifty-seven its façade was restored. And in nineteen sixty-nine two painters bought it, Arturo García Bustos and Rina Lazo. García Bustos was one of the Fridos, Frida Kahlo's students, and Lazo was an assistant to Diego Rivera. A house said to have belonged to the Malinche ended up as the home of two artists from the circle of Frida and Diego.\n\nIt is a private house, so you cannot go in. But the façade is worth it, especially in the middle of the afternoon, when the light hits the tezontle."
+    },
+    "retos_observacion": {
+      "hash": "c52e5d6e3b3fea50",
+      "texto": [
+        "Notice the red of the walls and find where the tezontle shows",
+        "Count the iron balconies on the second floor",
+        "Look for the stone gargoyles at the top"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6893ae3ba5ca1b3d",
+      "texto": {
+        "Address": "Higuera street, corner of Vallarta",
+        "Original use": "La Concepción spinning and weaving obraje",
+        "Existing since": "at least seventeen fifty-five",
+        "Current use": "private house"
+      }
+    },
+    "faq_mito": {
+      "hash": "b613897120964857",
+      "texto": {
+        "pregunta": "Myth: This was the Malinche's house.",
+        "respuesta": "Reality: INAH considers that attribution mistaken; it was an obraje from the viceregal period."
+      }
+    }
+  }
+}

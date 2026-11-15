@@ -1,0 +1,54 @@
+{
+  "id": "coy_13_santa_catarina",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fbfde756cacd559a",
+      "texto": "Santa Catarina: der Garten, der ein Atrium war"
+    },
+    "frase_gancho": {
+      "hash": "735c183a2813d98f",
+      "texto": "Eine offene franziskanische Kapelle, ein Haus, das eine Papierfabrik war, und ein Garten mit Büste."
+    },
+    "puente_narrativo": {
+      "hash": "86019acaace61acd",
+      "texto": "Jetzt gehen wir an einen grünen Ort: die Viveros."
+    },
+    "guion_corto": {
+      "hash": "ca90b6ac200cd5e6",
+      "texto": "Du bist auf dem Platz Santa Catarina, einem ruhigen Garten mit einer Kirche aus dem sechzehnten Jahrhundert. Sie war eine offene Kapelle, in der die franziskanischen Mönche die Menschen vor der Taufe versammelten. Der Garten, den du siehst, war das Atrium, und als der Cristero-Krieg zu Ende ging, wurde die Mauer abgerissen, um daraus einen Platz zu machen. Hier steht eine Büste des Historikers Francisco Sosa. Und ein paar Schritte weiter liegt das Kulturhaus Jesús Reyes Heroles, ein Haus aus dem achtzehnten Jahrhundert, das eine Papierfabrik war und heute Workshops und Theater anbietet."
+    },
+    "guion_largo": {
+      "hash": "cc99f381b798dfbe",
+      "texto": "Du bist auf dem Platz Santa Catarina. Wenn du vom großen Platz kommst, merkst du den Unterschied: Hier ist alles ruhiger, mit Bäumen, Bänken und der Kirche im Hintergrund.\n\nSanta Catarina ist ein altes Viertel. Vor der Ankunft der Spanier gehörte dieses Gebiet zum Herrschaftsgebiet von Coyoacán. Nach der Eroberung errichteten franziskanische und dominikanische Mönche mehrere Kirchen und Kapellen in der Region. Die von Santa Catarina stammt aus dem sechzehnten Jahrhundert. Sie begann als offene Kapelle: ein Raum ohne Mauern, in dem die Mönche die Menschen unter freiem Himmel vor der Taufe versammelten. Eine ähnliche Idee hast du schon im Atrium von San Juan Bautista gesehen.\n\nDer Garten, in dem du stehst, war dieses Atrium. Eine Mauer umgab es, bis sie nach dem Cristero-Krieg abgerissen wurde, um einen eigenständigen Park zu schaffen. Im Inneren bewahrt die Kirche ein Gemälde der Jungfrau von Guadalupe aus dem siebzehnten Jahrhundert.\n\nAuf dem Platz steht eine Büste von Francisco Sosa. Ihm zu Ehren erhielt die alte Calle Real im Jahr neunzehnhunderteinundfünfzig ihren heutigen Namen.\n\nEin paar Schritte weiter, in der Nummer zweihundertzwei der Straße Francisco Sosa, liegt das Kulturhaus Jesús Reyes Heroles. Es ist ein Haus aus dem achtzehnten Jahrhundert. Sein erster Besitzer baute die Wohnung und einen Anbau, der als kleine Papierfabrik diente. Im Jahr achtzehnhunderteinundzwanzig wohnte hier die Familie Espinoza de los Monteros, und einer von ihnen half, die Unabhängigkeitserklärung des Mexikanischen Kaiserreichs zu verfassen. Im Jahr neunzehnhundertfünfundachtzig wurde das Haus gestiftet, um ein Kulturzentrum mit Garten daraus zu machen. Heute gibt es Workshops, am Wochenende Puppentheater und ein Restaurant.\n\nSanta Catarina erinnert dich daran, dass Coyoacán nicht ein einziges Zentrum ist, sondern eine Gruppe von Vierteln, jedes mit seiner Kirche und seinem Platz."
+    },
+    "retos_observacion": {
+      "hash": "7289babb45cf88d6",
+      "texto": [
+        "Such die Büste von Francisco Sosa",
+        "Stell dir die Mauer vor, die das Atrium umgab, und wo sie stand",
+        "Beobachte die Anwohner: Was tun sie auf dem Platz?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "308f349b4ebb945d",
+      "texto": {
+        "Jahrhundert der Kirche": "sechzehntes",
+        "Ursprung": "offene franziskanische Kapelle",
+        "Atrium zum Platz geworden": "nach dem Cristero-Krieg",
+        "Kulturhaus": "Francisco Sosa zweihundertzwei"
+      }
+    },
+    "faq_mito": {
+      "hash": "e3e508e98456d256",
+      "texto": {
+        "pregunta": "Mythos: Alles, was du hier siehst, stammt aus dem sechzehnten Jahrhundert.",
+        "respuesta": "Wirklichkeit: Nur der Ursprung ist aus dem sechzehnten; der Platz, die Büste und das Kulturhaus sind später."
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "coy_05_casa_de_cortes_que_no_fue",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d6ef720c94fc452b",
+      "texto": "Dom Cortésa, który nigdy nie był Cortésa"
+    },
+    "frase_gancho": {
+      "hash": "341867d6076a5ab5",
+      "texto": "Nazywa się „Dom Cortésa”, ale Cortés nigdy tu nie mieszkał."
+    },
+    "puente_narrativo": {
+      "hash": "4162e949e760d517",
+      "texto": "Przejdź kilka kroków do Narodowego Muzeum Kultur Ludowych."
+    },
+    "guion_corto": {
+      "hash": "e8460546d0a0fb05",
+      "texto": "Przed tobą siedziba władz dzielnicy, którą wielu ludzi nazywa „Domem Cortésa”. To błąd bardzo ukochany: budynek pochodzi z osiemnastego wieku, a Cortés zmarł w tysiąc pięćset czterdziestym siódmym roku. Wzniesiono go około tysiąc siedemset pięćdziesiątego piątego roku na dawnych Casas Reales, gdzie mieściło się też więzienie wioski. Od tysiąc dziewięćset dwudziestego ósmego roku są tu biura lokalnego rządu. Na gzymsie są kamienne kojoty. Krąży też legenda: że torturowano tu Cuauhtémoca. Nikt tego nie udowodnił, ale wciąż się ją opowiada."
+    },
+    "guion_largo": {
+      "hash": "57669d58e072336f",
+      "texto": "Przed tobą budynek z portykiem o kolumnach z ciosanego kamienia i prostą fasadą. To siedziba władz dzielnicy Coyoacán, a wielu ludzi nazywa ją „Domem Cortésa”. To nazwa czuła i błędna. Budynek pochodzi z osiemnastego wieku, a Hernán Cortés zmarł w tysiąc pięćset czterdziestym siódmym roku. Nigdy tu nie postawił stopy.\n\nGdzie więc był jego dom? Według INAH w dzielnicy La Conchita, kilka kroków stąd. Odwiedzimy go później.\n\nNa tym miejscu rzeczywiście stały Casas Reales: budynek, w którym rządzono wioską, z lokalnym więzieniem. Około tysiąc siedemset pięćdziesiątego piątego roku były w ruinie. Za korregidora Francisca Suescuma y Tornería architekt Bentura de Arellano wzniósł budowlę, którą widzisz dziś; inne źródła umieszczają zniszczenie już w tysiąc siedemset trzydziestym piątym roku. Pewien badacz twierdzi ponadto, że pod spodem są pozostałości prehiszpańskie.\n\nOd lat pięćdziesiątych dziewiętnastego wieku, gdy Coyoacán należało do Stanu Meksyk, mieścił się tu rząd gminy. W tysiąc dziewięćset dwudziestym ósmym roku, gdy wioska stała się delegacją Dystryktu Federalnego, nadal była jego siedzibą. Dziś to władze dzielnicy.\n\nSpójrz na gzyms: ma blanki, a niektóre niosą kojoty, zwierzę, które daje nazwę wiosce. W tysiąc ośmset dwudziestym dziewiątym roku zniszczono herb Cortésa, który był nad drzwiami. W tysiąc dziewięćset szóstym roku w sali rady umieszczono herb Coyoacán, nadany przez króla Filipa Drugiego dwudziestego czwartego lipca tysiąc pięćset sześćdziesiątego pierwszego roku, gdy nadał wiosce tytuł miasta. Dookoła ma łacińskie zdanie: „Wiara bez uczynków martwa jest”. W tym samym roku don Francisco Sosa, który był prefektem Coyoacán i od którego imienia pochodzi jedna z najsłynniejszych ulic dzielnicy, podarował maszynopisową kopię dokumentu.\n\nW środku jest malarstwo ścienne, między innymi dzieło Aurory Reyes w kaplicy, choć nie zawsze jest otwarta dla publiczności.\n\nI legenda, której nie może zabraknąć. Mówi się, że tutaj torturowano Cuauhtémoca, ostatniego tlatoani Mexików, by wyjawił, gdzie jest skarb jego ludu. To tradycja ustna. Nikt nie zdołał tego udowodnić, dlatego opowiadamy to tylko jako legendę. Ale to część tego, co ludzie opowiadają, mijając te mury."
+    },
+    "retos_observacion": {
+      "hash": "c54c7b66e6146bb2",
+      "texto": [
+        "Policz kolumny portyku",
+        "Znajdź kojota na gzymsie",
+        "Wyobraź sobie ten balkon pełen ludzi w każdy piętnasty września"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e70f43684ae0fa1d",
+      "texto": {
+        "Budowa": "osiemnasty wiek, około tysiąc siedemset pięćdziesiątego piątego",
+        "Wcześniej": "Casas Reales i więzienie wioski",
+        "Herb Coyoacán": "Filip Drugi, dwudziesty czwarty lipca tysiąc pięćset sześćdziesiąty pierwszy"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e116892d682d760",
+      "texto": {
+        "pregunta": "Mit: To był dom Hernána Cortésa.",
+        "respuesta": "Rzeczywistość: Budynek pochodzi z osiemnastego wieku; Cortés zmarł w tysiąc pięćset czterdziestym siódmym roku, a według INAH jego dom stał w La Conchita."
+      }
+    }
+  }
+}

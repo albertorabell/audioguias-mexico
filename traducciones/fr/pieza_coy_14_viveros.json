@@ -1,0 +1,54 @@
+{
+  "id": "coy_14_viveros",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f2d7bca2e576af9d",
+      "texto": "Les Viveros de Coyoacán : la forêt qu'un homme a semée"
+    },
+    "frase_gancho": {
+      "hash": "e899b47ddb9ab00c",
+      "texto": "Un parc où l'on cultive les arbres qui reboisent la ville, et où les gens courent entre eux."
+    },
+    "puente_narrativo": {
+      "hash": "eda3c651016ca3e9",
+      "texto": "Continue vers l'ouest, jusqu'au pont de Panzacola, l'ancienne entrée de Coyoacán."
+    },
+    "guion_corto": {
+      "hash": "5fc2e36951ad19ca",
+      "texto": "Respire profondément : tu es aux Viveros de Coyoacán. Ce n'est pas seulement un parc, c'est une pépinière, un lieu où l'on cultive des arbres. C'est Miguel Ángel de Quevedo, un ingénieur qui rêvait d'entourer la ville de forêts, qui l'a commencée. En dix-neuf cent un, il a donné le premier hectare. En dix-neuf cent dix-sept, le gouvernement a reconnu le projet, et en dix-neuf cent trente-huit il est devenu parc national. Aujourd'hui il produit près d'un million d'arbres par an, et sur ses sentiers courent et se promènent des milliers de personnes chaque jour."
+    },
+    "guion_largo": {
+      "hash": "5a5df8cc56ee75db",
+      "texto": "Respire profondément. Tu es aux Viveros de Coyoacán, et la première fois, cela peut te sembler seulement un parc avec beaucoup d'arbres. Mais c'est autre chose : c'est une pépinière, un lieu où l'on cultive des arbres pour les planter ailleurs.\n\nTout a commencé avec Miguel Ángel de Quevedo, un ingénieur qui savait que la ville avait besoin de forêts. Son idée était d'entourer la ville de Mexico d'une ceinture de forêts d'environ dix kilomètres. En dix-neuf cent un, il a donné le premier hectare pour la pépinière, et en dix-neuf cent dix-sept le gouvernement l'a officiellement reconnue. Au fil des ans, elle s'est agrandie jusqu'à couvrir presque quarante hectares. En dix-neuf cent trente-huit, elle a été déclarée parc national et ouverte au public.\n\nAujourd'hui, elle continue de faire ce qu'elle a toujours fait : elle produit environ un million d'arbres par an pour reboiser la ville. Et elle est aussi devenue un lieu où les gens courent, marchent et s'assoient pour lire. On estime qu'entre deux mille cinq cents et trois mille personnes la visitent chaque jour, et il y a un marché aux plantes très populaire.\n\nDans le parc, il y a des détails curieux. Il y a un puits daté de dix-neuf cent dix-huit et les ruines d'une petite chapelle. Et il y a des écureuils si habitués aux gens qu'ils s'approchent sans peur.\n\nSi Coyoacán a la réputation d'être bohème et artiste, les Viveros montrent un autre visage : celui d'un quartier qui a aussi su prendre soin de ses arbres. Promène-toi un moment, regarde vers le haut et rappelle-toi que beaucoup des arbres de cette ville sont nés ici."
+    },
+    "retos_observacion": {
+      "hash": "c0e43a13d2d21831",
+      "texto": [
+        "Lève les yeux et cherche les arbres les plus hauts",
+        "Cherche un panneau ou une zone de production de plantes",
+        "Observe qui court et qui se promène"
+      ]
+    },
+    "especificaciones": {
+      "hash": "022cca2c8c5fe723",
+      "texto": {
+        "Fondateur": "Miguel Ángel de Quevedo",
+        "Premier don": "un hectare, dix-neuf cent un",
+        "Parc national": "dix-neuf cent trente-huit",
+        "Production": "environ un million d'arbres par an"
+      }
+    },
+    "faq_mito": {
+      "hash": "26cf0425760d7b72",
+      "texto": {
+        "pregunta": "Mythe : Les Viveros sont une forêt naturelle.",
+        "respuesta": "Réalité : C'est une pépinière créée par Miguel Ángel de Quevedo pour produire des arbres de reboisement."
+      }
+    }
+  }
+}

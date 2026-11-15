@@ -1,0 +1,54 @@
+{
+  "id": "coy_07_museo_culturas_populares",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cf093f209ff389f8",
+      "texto": "Nationalmuseum der Volkskulturen"
+    },
+    "frase_gancho": {
+      "hash": "018b5262fbf63251",
+      "texto": "Ein Museum, das erzählt, wie man in Mexiko lebt, isst, tanzt und betet."
+    },
+    "puente_narrativo": {
+      "hash": "1abd6396a0e81a27",
+      "texto": "Geh die Straße Higuera entlang zum Viertel La Conchita, wo die Casa Colorada steht."
+    },
+    "guion_corto": {
+      "hash": "1617d4d19741038f",
+      "texto": "Dieses Museum wurde am vierundzwanzigsten September neunzehnhundertzweiundachtzig auf Initiative des Anthropologen Guillermo Bonfil Batalla eröffnet. Seine Idee war einfach und neu: ein Museum für die Volkskultur, die in den Dörfern, in den Vierteln und bei den Festen entsteht. Es hat keine feste Sammlung: Die Ausstellungen wechseln, und es gibt auch Werkstätten und Konzerte. Es belegt drei verschiedene Gebäude, ein Haus aus der Zeit von Porfirio Díaz mit Turmchen, eine Villa vom Anfang des zwanzigsten Jahrhunderts und einen modernen Bau aus den achtziger Jahren, die im Lauf der Jahre zusammengefügt wurden."
+    },
+    "guion_largo": {
+      "hash": "028cff65910b74b3",
+      "texto": "Du stehst vor dem Nationalmuseum der Volkskulturen an der Avenida Hidalgo. Es wurde am vierundzwanzigsten September neunzehnhundertzweiundachtzig eröffnet. Angestoßen hat es der Anthropologe Guillermo Bonfil Batalla, der eine klare Idee hatte: In Mexiko wurde viel die Kultur der großen Denkmäler und großen Werke gefeiert, aber fast nie die, die man jeden Tag lebt. Die im Essen steckt, im Kunsthandwerk, in den Festen des Dorfes, in der Art zu beten und zu tanzen.\n\nDeshalb funktioniert dieses Museum anders. Es hat keine feste Sammlung, die sich immer wiederholt. Seine Ausstellungen wechseln: Sie drehen sich um traditionelle Feste, Volkskunst, die Arbeit von Schöpfern vom Land und aus der Stadt. Es gibt auch Werkstätten, Kurse und Konzerte.\n\nDas Museum belegt drei Gebäude, die im Lauf der Jahre dazukamen. Eines ist die Casa del Torreón, ein Bau aus der Zeit von Porfirio Díaz mit einem Turmchen, inspiriert von deutschen Eisenbauten vom Ende des neunzehnten Jahrhunderts. Dort hatten die unbeschuhten Karmelitinnen eine Kapelle, die heute ein Saal namens „Altos Capilla“ ist. Ein anderes ist die Quinta Margarita, ein Haus, das ein Herr Henderson auf dem Gelände des alten Zollamts von Coyoacán bauen ließ. Und das dritte ist ein Gebäude von neunzehnhundertzweiundachtzig und dreiundachtzig vom Architekten Santiago de la Torre.\n\nDiese Mischung der Epochen ist sehr Coyoacán: ein einziger Ort mit einem Haus von vor mehr als einem Jahrhundert, einer in einen Saal verwandelten Kapelle und einem Bau aus den Achtzigern. Und es ist eine gute Erinnerung daran, dass das Viertel nicht nur aus Klöstern und kolonialen Plätzen besteht. Es ist auch ein Ort, an dem man die Kultur von heute weiter denkt, feiert und erschafft."
+    },
+    "retos_observacion": {
+      "hash": "e01779439c686664",
+      "texto": [
+        "Such das Turmchen aus der Zeit von Porfirio Díaz",
+        "Zähl, wie viele verschiedene Gebäude im selben Häuserblock stehen",
+        "Sieh nach, welches Fest am Eingang angekündigt wird"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bc143153653c3b5e",
+      "texto": {
+        "Eröffnung": "vierundzwanzigster September neunzehnhundertzweiundachtzig",
+        "Gründer": "Guillermo Bonfil Batalla",
+        "Gebäude": "drei",
+        "Adresse": "Avenida Hidalgo, Ecke Allende"
+      }
+    },
+    "faq_mito": {
+      "hash": "6bdbe1b96399d1a0",
+      "texto": {
+        "pregunta": "Mythos: Das Wandbild von La Rosita, ein paar Schritte entfernt, gehört zu diesem Museum.",
+        "respuesta": "Wirklichkeit: Nein; es gehörte zur Pulquería La Rosita, und wir besuchen es später."
+      }
+    }
+  }
+}

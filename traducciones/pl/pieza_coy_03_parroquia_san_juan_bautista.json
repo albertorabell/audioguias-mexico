@@ -1,0 +1,56 @@
+{
+  "id": "coy_03_parroquia_san_juan_bautista",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ee4e9147bb5023c3",
+      "texto": "San Juan Bautista: kościół, który gromadzi wioskę"
+    },
+    "frase_gancho": {
+      "hash": "091e65ffa82c9718",
+      "texto": "Kościół, który czuwa nad placem od szesnastego wieku i wciąż jest pełen ludzi."
+    },
+    "puente_narrativo": {
+      "hash": "83d7fbae1c84498c",
+      "texto": "Wyjdź do ogrodu i idź w stronę kiosku muzycznego, w centrum placu."
+    },
+    "guion_corto": {
+      "hash": "2b52a46d489928de",
+      "texto": "To parafia San Juan Bautista. Jej historia zaczyna się w szesnastym wieku, od pierwszych mnichów: najpierw franciszkan, a w tysiąc pięćset dwudziestym dziewiątym roku dominikan, którzy założyli tu klasztor. Był to kościół i klasztor obok atrium, przez które właśnie przeszedłeś. Przez stulecia naprawiano go i poprawiano wiele razy, a trzęsienie ziemi w dwa tysiące siedemnastym roku znowu uszkodziło wieżę. Mimo to nadal robi to, co robił od początku: gromadzi wioskę. Zobacz tych, którzy wchodzą się modlić, i tych, którzy siadają tylko na chwilę w cieniu. Ten kościół nie jest zastygłym pomnikiem: to serce Coyoacán."
+    },
+    "guion_largo": {
+      "hash": "33dc0f0b20f8fc29",
+      "texto": "Jesteś w parafii San Juan Bautista. Zanim opowiem ci jej historię, zobacz, jak jest używana dziś. Ktoś wchodzi się modlić, ktoś zapala świecę, ktoś siada na chwilę na ławce, by uciec od hałasu placu. To żywy kościół i to pierwsza rzecz, jaką trzeba o nim wiedzieć.\n\nHistoria tego miejsca zna dwa zakony. Pierwszymi mnichami, którzy przybyli do Coyoacán, byli franciszkanie, pod koniec tysiąc pięćset dwudziestego czwartego lub na początku tysiąc pięćset dwudziestego piątego roku, z bratem Martínem de Valencia. W pierwszych miesiącach tysiąc pięćset dwudziestego dziewiątego roku przybyli dominikanie, Zakon Kaznodziejów, i wznieśli swój klasztor pod wezwaniem San Juan Bautista, Poprzednika, nieco na wschód od domu franciszkan. Około tysiąc pięćset trzydziestego czwartego lub trzydziestego piątego roku franciszkanie wycofali się z Coyoacán. Od dwudziestego wieku klasztor znowu jest w rękach franciszkan.\n\nBudowa trwała długo. Około tysiąc pięćset pięćdziesiątego pierwszego roku zbudowano otwartą kaplicę z portalem. W tysiąc pięćset sześćdziesiątym roku świątynia o planie bazyliki była już ukończona, pod kierunkiem brata Juana de la Cruz. Na fryzie portalu kościoła jest wyryta data: kwiecień tysiąc pięćset osiemdziesiątego drugiego roku. Ale klasztor nadal nie był ukończony w tysiąc pięćset osiemdziesiątym ósmym roku, gdy trzęsienie ziemi zwaliło dach, a jeszcze w tysiąc sześćset trzecim roku brakowało przykrycia świątyni.\n\nWieża pochodzi z osiemnastego wieku. Ma pierwszą kondygnację kwadratową i drugą ośmioboczną, a wieńczyła ją kopuła z latarnią i krzyżem. Dziewiętnastego września dwa tysiące siedemnastego roku trzęsienie ziemi uszkodziło drugą kondygnację i zwaliło kopułę, latarnię i krzyż. Dlatego między starymi kamieniami zobaczysz też nowsze naprawy. Każda z nich mówi, że ktoś zdecydował, iż warto ten kościół zachować.\n\nSpójrz, jak zbudowany jest budynek. Mury są grube, pomyślane tak, by trwały i dźwigały ciężkie dachy. Fasada jest skromna, bez ozdób bramy atrium.\n\nW szesnastym wieku takie kościoły były miejscem, gdzie gromadziła się wspólnota: obchodzono święta patrona, uczono, udzielano ślubów i żegnano ludzi. Dziś dzieje się coś podobnego. Plac na zewnątrz istnieje w dużej mierze dzięki temu kościołowi.\n\nGdy wyjdziesz, zatrzymaj się na chwilę w atrium i spójrz na plac. Tam zaczyna się inna historia: historia ogrodu, kiosku muzycznego i dwóch brązowych kojotów."
+    },
+    "retos_observacion": {
+      "hash": "fd3cc74420fe4ed4",
+      "texto": [
+        "Poszukaj dzwonnicy i zwróć uwagę na drugą, ośmioboką kondygnację",
+        "Dotknij wzrokiem grubości murów",
+        "Obserwuj, kto wchodzi, a kto tylko siada"
+      ]
+    },
+    "especificaciones": {
+      "hash": "df3f710aadf3ce82",
+      "texto": {
+        "Wezwanie": "San Juan Bautista",
+        "Klasztor założony przez dominikan": "tysiąc pięćset dwudziesty dziewiąty",
+        "Pierwsi mnisi w Coyoacán": "franciszkanie, około tysiąc pięćset dwudziestego piątego",
+        "Data na fryzie portalu": "kwiecień tysiąc pięćset osiemdziesiątego drugiego",
+        "Wieża": "osiemnasty wiek",
+        "Ostatnie zniszczenia": "trzęsienie ziemi w dwa tysiące siedemnastym"
+      }
+    },
+    "faq_mito": {
+      "hash": "9d26e6e66b1b5c87",
+      "texto": {
+        "pregunta": "Mit: San Juan Bautista zawsze był kościołem franciszkańskim.",
+        "respuesta": "Rzeczywistość: Franciszkanie przybyli pierwsi, ale klasztor założyli dominikanie w tysiąc pięćset dwudziestym dziewiątym roku; od dwudziestego wieku opiekują się nim znowu franciszkanie."
+      }
+    }
+  }
+}

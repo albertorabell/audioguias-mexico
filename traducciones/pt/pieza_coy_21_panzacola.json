@@ -1,0 +1,54 @@
+{
+  "id": "coy_21_panzacola",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9521ff7864dd651f",
+      "texto": "Panzacola: a ponte e a capela"
+    },
+    "frase_gancho": {
+      "hash": "6e655ee30ae40fd2",
+      "texto": "Uma ponte de mais de dois séculos e uma capela com lendas, na antiga entrada de Coyoacán."
+    },
+    "puente_narrativo": {
+      "hash": "f55a5b7c2829e0e3",
+      "texto": "Atravesse a ponte e siga para Chimalistac."
+    },
+    "guion_corto": {
+      "hash": "1ba7019f6e458fe1",
+      "texto": "Você está na ponte de Panzacola, também chamada ponte do Altillo. Sua construção data de mil setecentos e sessenta e três, e fazia parte do caminho real entre San Ángel e Coyoacán. É monumento histórico desde mil novecentos e trinta e dois. Ao lado está a capela de San Antonio de Padua, do século dezoito. Há lendas sobre quem a construiu: uma diz que foi Pedro de Alvarado, outra, uma família de contrabandistas. Nenhuma está comprovada. Pintores como José María Velasco a retrataram."
+    },
+    "guion_largo": {
+      "hash": "10b57898496af9d3",
+      "texto": "Você está na entrada oeste de Coyoacán, e a primeira coisa que vê é uma ponte de pedra de mais de dois séculos. Chama-se ponte de Panzacola, ou ponte do Altillo. Sua construção data de mil setecentos e sessenta e três. Cruza o rio Magdalena e era peça-chave do caminho real que ligava San Ángel a Coyoacán. É monumento histórico desde mil novecentos e trinta e dois e ainda é usada.\n\nAo lado está a capela de San Antonio de Padua, ou San Antonio Panzacola. É do início do século dezoito, com uma fachada barroca sóbria, duas torres com campanários coloridos e pilastras que sustentam o coro. Por dentro tem um retábulo dourado de madeira do século dezoito e um crucifixo de fabricação indígena.\n\nSobre sua origem contam-se duas lendas. Uma diz que mandou construí-la Pedro de Alvarado depois da Noite Triste, em mil quinhentos e vinte, embora isso não coincida com a data do edifício. Outra conta que uma família de contrabandistas, prestes a ir para a cadeia, prometeu uma igreja a Santo Antônio de Pádua se os livrasse, e a construiu quando não houve provas contra eles. Nenhuma está comprovada.\n\nHá também uma lenda sobre o nome. Segundo vários relatos, Panzacola vem dos muitos lagartos que antes viviam na zona.\n\nEsta paisagem inspirou artistas do século dezenove. Eugenio Landesio, José María Velasco e Casimiro Castro retrataram a ponte e a capela, e escritores como Manuel Payno e Salvador Novo os descreveram.\n\nA capela pertence à paróquia de San Juan Bautista e costuma abrir só durante missas e cerimônias, então o normal é vê-la de fora. Fique um momento na ponte e pense que por aqui entrava em Coyoacán quem vinha de San Ángel."
+    },
+    "retos_observacion": {
+      "hash": "ef1071e8940dc867",
+      "texto": [
+        "Procure a data ou o estilo da ponte e compare com a capela",
+        "Olhe as duas torres da capela e repare nas cores",
+        "Imagine uma carruagem de cavalos cruzando a ponte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9a08af1361ad3900",
+      "texto": {
+        "Ponte": "construção de mil setecentos e sessenta e três",
+        "Monumento histórico": "desde mil novecentos e trinta e dois",
+        "Capela": "início do século dezoito",
+        "Localização": "extremo oeste da Francisco Sosa"
+      }
+    },
+    "faq_mito": {
+      "hash": "edaa19b81d70f71c",
+      "texto": {
+        "pregunta": "Mito: Pedro de Alvarado construiu a capela.",
+        "respuesta": "Realidade: A capela é do século dezoito; a lenda de Alvarado não coincide com a data do edifício."
+      }
+    }
+  }
+}

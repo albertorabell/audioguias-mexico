@@ -1,0 +1,54 @@
+{
+  "id": "coy_21_panzacola",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9521ff7864dd651f",
+      "texto": "Panzacola: the bridge and the chapel"
+    },
+    "frase_gancho": {
+      "hash": "6e655ee30ae40fd2",
+      "texto": "A bridge more than two centuries old and a chapel with legends, at the old entrance of Coyoacán."
+    },
+    "puente_narrativo": {
+      "hash": "f55a5b7c2829e0e3",
+      "texto": "Cross the bridge and continue toward Chimalistac."
+    },
+    "guion_corto": {
+      "hash": "1ba7019f6e458fe1",
+      "texto": "You are at the Panzacola bridge, also called the Altillo bridge. It was built in seventeen sixty-three and was part of the royal road between San Ángel and Coyoacán. It has been a historic monument since nineteen thirty-two. Next to it is the chapel of San Antonio de Padua, from the eighteenth century. There are legends about who built it: one says it was Pedro de Alvarado, another, a family of smugglers. Neither is proven. Painters such as José María Velasco portrayed it."
+    },
+    "guion_largo": {
+      "hash": "10b57898496af9d3",
+      "texto": "You are at the western entrance of Coyoacán, and the first thing you see is a stone bridge more than two centuries old. It is called the Panzacola bridge, or the Altillo bridge. It was built in seventeen sixty-three. It crosses the Magdalena river and was a key piece of the royal road that connected San Ángel with Coyoacán. It has been a historic monument since nineteen thirty-two and is still in use.\n\nBeside it is the chapel of San Antonio de Padua, or San Antonio Panzacola. It dates from the early eighteenth century, with a sober Baroque façade, two towers with colorful bell towers and pilasters that hold up the choir loft. Inside it has a gilded wooden altarpiece from the eighteenth century and a crucifix of indigenous workmanship.\n\nTwo legends are told about its origin. One says that Pedro de Alvarado had it built after the Noche Triste, in fifteen twenty, although that does not match the date of the building. Another tells of a family of smugglers who, about to go to jail, promised a church to San Antonio de Padua if he freed them, and built it for him when there was no evidence against them. Neither is proven.\n\nThere is also a legend about the name. According to several accounts, Panzacola comes from the many lizards that once lived in the area.\n\nThis landscape inspired nineteenth-century artists. Eugenio Landesio, José María Velasco and Casimiro Castro portrayed the bridge and the chapel, and writers such as Manuel Payno and Salvador Novo described them.\n\nThe chapel belongs to the parish of San Juan Bautista and usually opens only during Masses and ceremonies, so it is normal to see it from outside. Stay a moment on the bridge and think that this is where those coming from San Ángel entered Coyoacán."
+    },
+    "retos_observacion": {
+      "hash": "ef1071e8940dc867",
+      "texto": [
+        "Look for the date or the style of the bridge and compare it with the chapel",
+        "Look at the chapel's two towers and notice their colors",
+        "Imagine a horse-drawn carriage crossing the bridge"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9a08af1361ad3900",
+      "texto": {
+        "Bridge": "built in seventeen sixty-three",
+        "Historic monument": "since nineteen thirty-two",
+        "Chapel": "early eighteenth century",
+        "Location": "western end of Francisco Sosa"
+      }
+    },
+    "faq_mito": {
+      "hash": "edaa19b81d70f71c",
+      "texto": {
+        "pregunta": "Myth: Pedro de Alvarado built the chapel.",
+        "respuesta": "Reality: The chapel is from the eighteenth century; the Alvarado legend does not match the date of the building."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "coy_19_anahuacalli_volcan_edificio",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9ae42a1377c03ae",
+      "texto": "Anahuacalli: l’edificio fatto di vulcano"
+    },
+    "frase_gancho": {
+      "hash": "208ec33da0a8d41a",
+      "texto": "Un museo costruito con la pietra di un vulcano, per custodire l’arte degli antichi messicani."
+    },
+    "puente_narrativo": {
+      "hash": "ff57f2c727ca0061",
+      "texto": "Entra nel museo e scendi al livello del mondo sotterraneo."
+    },
+    "guion_corto": {
+      "hash": "43914bbfc5ac38a9",
+      "texto": "Davanti a te c’è l’Anahuacalli, un edificio che sembra un tempio. Lo concepì Diego Rivera per custodire la sua collezione di arte preispanica. È fatto di pietra vulcanica dello Xitle, un vulcano che entrò in eruzione circa duemila anni fa e coprì questa regione di lava. Quella lava divenne il Pedregal. La costruzione cominciò nel millenovecentoquarantadue, ma Diego morì nel millenovecentocinquantasette senza vederla finita. Il museo fu aperto al pubblico il diciotto settembre del millenovecentosessantaquattro."
+    },
+    "guion_largo": {
+      "hash": "d9c22d0f052f6533",
+      "texto": "Davanti a te c’è un edificio che sembra uscito da un altro tempo. È l’Anahuacalli, e per capire cos’è bisogna cominciare dal suolo che calpesti.\n\nCirca duemila anni fa, il vulcano Xitle entrò in eruzione e la lava coprì buona parte del sud di quella che oggi è la Città del Messico. Quando si raffreddò, quella lava divenne una regione di pietra nera e tagliente chiamata il Pedregal. Il museo sorge proprio su quel terreno.\n\nDiego Rivera raccoglieva da molti anni figure di terracotta, vasi e sculture preispaniche, e voleva un edificio per custodirle. Lo concepì come una specie di tempio moderno. Il nome è di origine náhuatl ed è stato tradotto come casa circondata d’acqua. Volle che fosse fatto della stessa pietra del luogo. Per questo i muri sono di pietra vulcanica dello Xitle, estratta nel terreno stesso. Le finestre, invece, sono di onice ambra, che lascia passare una luce calda.\n\nLa costruzione cominciò nel millenovecentoquarantadue, a San Pablo Tepetlapa, e non finì fino al millenovecentosessantatré. Diego morì nel millenovecentocinquantasette, prima di vederla finita. La completarono sua figlia Ruth Rivera, gli architetti Juan O’Gorman e Heriberto Pagelson e la collezionista Dolores Olmedo. Il museo fu inaugurato il diciotto settembre del millenovecentosessantaquattro.\n\nAll’ingresso, guarda la facciata: grandi blocchi di pietra nera, con forme che ricordano le piramidi senza copiarne nessuna in particolare. Intorno c’è una riserva ecologica di circa ventottomila metri quadrati, con vegetazione propria del Pedregal.\n\nQuesto edificio non è la copia di nulla. È l’immagine che Diego aveva di ciò che doveva essere un museo di arte antica: fatto della terra dove sorge, e con la sensazione di entrare in un altro mondo."
+    },
+    "retos_observacion": {
+      "hash": "ff63f0bf823679b4",
+      "texto": [
+        "Tocca con lo sguardo la pietra nera e cerca la sua texture",
+        "Cerca le finestre di onice ambra e osserva che luce lasciano passare",
+        "Guarda il terreno intorno: vedi la vegetazione propria del Pedregal?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "490e3c268d46ca8d",
+      "texto": {
+        "Costruzione": "dal millenovecentoquarantadue al millenovecentosessantatré",
+        "Inaugurazione": "diciotto settembre del millenovecentosessantaquattro",
+        "Materiale": "pietra vulcanica dello Xitle",
+        "Finestre": "onice ambra",
+        "Riserva ecologica": "circa ventottomila metri quadrati"
+      }
+    },
+    "faq_mito": {
+      "hash": "59ad3c4fccade6ae",
+      "texto": {
+        "pregunta": "Mito: L’Anahuacalli è un tempio preispanico originale.",
+        "respuesta": "Realtà: È un edificio del ventesimo secolo, progettato da Diego Rivera, ispirato all’architettura preispanica."
+      }
+    }
+  }
+}

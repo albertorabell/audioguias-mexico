@@ -1,0 +1,54 @@
+{
+  "id": "coy_11_calle_francisco_sosa",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cdea082cccc2a2e1",
+      "texto": "Francisco Sosa: la strada reale di Coyoacán"
+    },
+    "frase_gancho": {
+      "hash": "c8c805c1477b744b",
+      "texto": "Una delle strade più antiche della città, che è ancora una passeggiata di palazzi, gallerie e giardini."
+    },
+    "puente_narrativo": {
+      "hash": "b6af04c37c314973",
+      "texto": "Prosegui lungo la strada fino al palazzo della Fonoteca Nazionale."
+    },
+    "guion_corto": {
+      "hash": "8b176e6bd3dfab31",
+      "texto": "Sei sulla calle Francisco Sosa, che per secoli fu la strada reale tra San Ángel e Coyoacán. Fu tracciata probabilmente nel sedicesimo secolo, e ha avuto vari nomi: calle Real de Santa Catarina, avenida Benito Juárez, e dal millenovecentocinquantuno Francisco Sosa, in onore dello storico che visse al numero trentotto. Qui sono passate carrozze, tram, scrittori. Oggi è una passeggiata tranquilla, di case con giardino, centri culturali e cappelle. Cammina piano e guarda ai lati."
+    },
+    "guion_largo": {
+      "hash": "38a57e69d218c21a",
+      "texto": "Sei sulla calle Francisco Sosa, una delle vie più antiche del sud della città. Cammina piano e osserva i muri di cinta, i portoni e i rami degli alberi che spuntano dall’alto.\n\nPer secoli, questa fu la strada reale tra San Ángel e Coyoacán. Fu tracciata probabilmente nel sedicesimo secolo. Viaggiatori, commercianti e frati passavano di qui. Con gli anni la strada ebbe nomi diversi: calle Real de Santa Catarina, avenida Benito Juárez. Nel millenovecentocinquantuno ricevette quello che porta oggi, in onore di Francisco Sosa, uno storico messicano che visse al numero trentotto. L’hai già incontrato: fu il prefetto di Coyoacán che donò al paese la copia del documento dello stemma.\n\nLa strada conserva tracce della sua storia. C’è un’antica stazione del tram, al numero duecentoquarantatré, oggi trasformata in locale commerciale. C’è una facciata con una targa dove visse trentatré anni il cronista Salvador Novo; la casa non c’è più, ma la facciata si è salvata. E ci sono case del diciottesimo secolo diventate centri culturali.\n\nIl selciato, gli alberi e i muri alti danno a Francisco Sosa l’aria di una strada di paese. Ma quei muri custodiscono giardini, e quei giardini, molta storia. Se passi accanto a un cancello aperto, sbircia i patii e le fontane.\n\nQuesta è la strada per cui un giorno arrivarono gli esuli, i pittori, i poeti. E per cui ancora oggi si cammina a piedi, con lo sguardo rivolto alle porte."
+    },
+    "retos_observacion": {
+      "hash": "4f8e3d2851053a5a",
+      "texto": [
+        "Sbircia dai cancelli e cerca un patio con fontana",
+        "Cerca la targa di Salvador Novo",
+        "Guarda il pavimento: c’è il selciato?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3acfd2699cabf9e3",
+      "texto": {
+        "Origine": "strada reale tra San Ángel e Coyoacán, probabilmente del sedicesimo secolo",
+        "Nome attuale": "millenovecentocinquantuno",
+        "Antica stazione del tram": "numero duecentoquarantatré",
+        "Casa di Francisco Sosa": "numero trentotto"
+      }
+    },
+    "faq_mito": {
+      "hash": "7e9706b11b3b2015",
+      "texto": {
+        "pregunta": "Mito: La strada si chiama Francisco Sosa da sempre.",
+        "respuesta": "Realtà: In passato si chiamò calle Real de Santa Catarina e avenida Benito Juárez; il nome attuale è del millenovecentocinquantuno."
+      }
+    }
+  }
+}

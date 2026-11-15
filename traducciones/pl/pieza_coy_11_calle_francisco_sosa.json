@@ -1,0 +1,54 @@
+{
+  "id": "coy_11_calle_francisco_sosa",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cdea082cccc2a2e1",
+      "texto": "Francisco Sosa: królewska droga Coyoacán"
+    },
+    "frase_gancho": {
+      "hash": "c8c805c1477b744b",
+      "texto": "Jedna z najstarszych ulic miasta, która wciąż jest spacerem wśród rezydencji, galerii i ogrodów."
+    },
+    "puente_narrativo": {
+      "hash": "b6af04c37c314973",
+      "texto": "Idź ulicą do rezydencji Narodowej Fonoteki."
+    },
+    "guion_corto": {
+      "hash": "8b176e6bd3dfab31",
+      "texto": "Jesteś na ulicy Francisco Sosa, która przez stulecia była drogą królewską między San Ángel a Coyoacán. Wytyczono ją prawdopodobnie w szesnastym wieku i miała kilka nazw: ulica Real de Santa Catarina, aleja Benito Juárez, a od tysiąc dziewięćset pięćdziesiątego pierwszego roku Francisco Sosa, na cześć historyka, który mieszkał pod numerem trzydzieści osiem. Jeździły tędy powozy, tramwaje, chodzili pisarze. Dziś to spokojny spacer wśród domów z ogrodami, centrów kultury i kaplic. Idź powoli i patrz na boki."
+    },
+    "guion_largo": {
+      "hash": "38a57e69d218c21a",
+      "texto": "Jesteś na ulicy Francisco Sosa, jednej z najstarszych arterii południa miasta. Idź powoli i zwróć uwagę na mury, bramy i gałęzie drzew wychylające się górą.\n\nPrzez stulecia była to droga królewska między San Ángel a Coyoacán. Wytyczono ją prawdopodobnie w szesnastym wieku. Podróżni, kupcy i mnisi przechodzili tędy. Z biegiem lat ulica miała różne nazwy: ulica Real de Santa Catarina, aleja Benito Juárez. W tysiąc dziewięćset pięćdziesiątym pierwszym roku otrzymała tę, którą nosi dziś, na cześć Francisca Sosy, meksykańskiego historyka, który mieszkał pod numerem trzydzieści osiem. Już go poznałeś: to prefekt Coyoacán, który podarował wiosce kopię dokumentu z herbem.\n\nUlica zachowuje ślady swojej historii. Jest dawna stacja tramwajowa pod numerem dwieście czterdzieści trzy, dziś przerobiona na lokal handlowy. Jest fasada z tablicą, gdzie przez trzydzieści trzy lata mieszkał kronikarz Salvador Novo; domu już nie ma, ale fasadę uratowano. I są domy z osiemnastego wieku, które stały się centrami kultury.\n\nBruk, drzewa i wysokie mury nadają Francisco Sosa wygląd wiejskiej ulicy. Ale za tymi murami kryją się ogrody, a w tych ogrodach dużo historii. Jeśli miniesz otwartą bramę, zajrzyj na dziedzińce i do fontann.\n\nTo ulica, którą pewnego dnia przybyli wygnańcy, malarze, poeci. I którą do dziś idzie się pieszo, z oczami utkwionymi w drzwiach."
+    },
+    "retos_observacion": {
+      "hash": "4f8e3d2851053a5a",
+      "texto": [
+        "Zajrzyj przez bramy i poszukaj dziedzińca z fontanną",
+        "Poszukaj tablicy Salvadora Novo",
+        "Spójrz na nawierzchnię: czy jest bruk?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3acfd2699cabf9e3",
+      "texto": {
+        "Początek": "droga królewska między San Ángel a Coyoacán, prawdopodobnie z szesnastego wieku",
+        "Obecna nazwa": "tysiąc dziewięćset pięćdziesiąty pierwszy",
+        "Dawna stacja tramwajowa": "numer dwieście czterdzieści trzy",
+        "Dom Francisca Sosy": "numer trzydzieści osiem"
+      }
+    },
+    "faq_mito": {
+      "hash": "7e9706b11b3b2015",
+      "texto": {
+        "pregunta": "Mit: Ulica od zawsze nazywa się Francisco Sosa.",
+        "respuesta": "Rzeczywistość: Wcześniej nazywała się Real de Santa Catarina i aleja Benito Juárez; obecna nazwa pochodzi z tysiąc dziewięćset pięćdziesiątego pierwszego roku."
+      }
+    }
+  }
+}

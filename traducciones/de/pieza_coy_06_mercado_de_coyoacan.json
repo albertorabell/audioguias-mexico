@@ -1,0 +1,54 @@
+{
+  "id": "coy_06_mercado_de_coyoacan",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "45c0070370c93f2a",
+      "texto": "Der Markt von Coyoacán: ein Dach wie eine Plane"
+    },
+    "frase_gancho": {
+      "hash": "05d775515f8a2df0",
+      "texto": "Ein Markt aus den fünfziger Jahren, dessen Entwurf an das Sonnendach eines Tianguis erinnert."
+    },
+    "puente_narrativo": {
+      "hash": "d07dc1de8bc60390",
+      "texto": "Geh nach Norden die Straße Allende entlang bis zur Ecke der Casa Azul."
+    },
+    "guion_corto": {
+      "hash": "53f5f6da611be632",
+      "texto": "Sieh dir das Dach dieses Marktes an: Es wirkt wie eine über den Tianguis gespannte Plane, ist aber aus Beton, sehr dünn. Er wurde am sechsten Oktober neunzehnhundertsechsundfünfzig eröffnet, und sein Entwurf wird Pedro Ramírez Vázquez und Félix Candela zugeschrieben. Vor diesem Gebäude drängten sich die Stände neben der Pfarrkirche. Heute duftet der Markt nach Obst, Eintöpfen und Tostadas. Hier isst man im Stehen, die Soße in der Hand, und versteht, warum Coyoacán nie aufgehört hat, ein Stadtviertel zu sein."
+    },
+    "guion_largo": {
+      "hash": "6da2a8a759df6368",
+      "texto": "Geh in den Markt, und bevor du irgendetwas kaufst, sieh nach oben. Das Dach wirkt wie eine über einen Tianguis gespannte Plane, ist aber aus Stahlbeton, sehr dünn, und diese Form ist kein Zufall. Der neue Bau sollte an das Sonnendach der traditionellen Tianguis erinnern.\n\nDer Markt wurde am sechsten Oktober neunzehnhundertsechsundfünfzig eröffnet, und sein Entwurf wird Pedro Ramírez Vázquez und Félix Candela zugeschrieben, mit Rafael Mijares. Candela ist berühmt für seine dünnen Betonschalen. Diese Zuschreibung bestätigen wir noch, aber sie passt zu dem Werk, das man von ihnen kennt.\n\nVor diesem Gebäude fand der Handel in Coyoacán auf der Straße statt. Um den Anfang des zwanzigsten Jahrhunderts standen die Tianguis-Stände, die die Leute die Baracken nannten, neben der Pfarrkirche. Man versuchte, sie ins Viertel La Conchita zu verlegen, und dann gab es einen ersten formellen Markt. Jede Änderung wollte ordnen, was das Dorf ohnehin tat: täglich kaufen und verkaufen.\n\nHeute ist der Markt ein Fest für die Sinne. Es gibt Stände mit Obst und Gemüse, Blumen, Kräutern, Kunsthandwerk und Essen. Ein Klassiker sind die Tostadas: mit Schweinsfuß, mit Garnelen, mit Huhn in Mole, mit Ceviche, mit Erdnuss-, Chipotle- und grüner Soße. Man isst sie im Stehen, die Soße in Reichweite, zwischen den Gesprächen von Nachbarn und neugierigen Touristen.\n\nOft heißt es, Frida und Diego hätten hier eingekauft. Das ist eine schöne Geschichte, hat aber ein Problem: Der Markt jener Zeit war ein anderer. Dieses Gebäude entstand Jahre nach der bekanntesten Zeit des Paares. Richtig ist dagegen, dass die Atmosphäre, die du siehst, die ist, die sie kannten: ein Viertel, in dem man persönlich einkauft, feilscht und plaudert.\n\nWenn du Hunger hast, ist das ein guter Moment. Wenn nicht, geh langsam durch die Gänge und beobachte. Danach gehen wir weiter nach Norden, ein paar Straßen von hier, wo die Ecke der Casa Azul liegt."
+    },
+    "retos_observacion": {
+      "hash": "3ede36b25a7c0158",
+      "texto": [
+        "Sieh dir das Dach an und entscheide, ob es nach Plane oder nach Beton aussieht",
+        "Such einen Tostada-Stand und sieh, welche Soßen er anbietet",
+        "Zähl, wie viele verschiedene Gerüche du in einem Gang unterscheiden kannst"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d21660c95132d15",
+      "texto": {
+        "Eröffnung": "sechster Oktober neunzehnhundertsechsundfünfzig",
+        "Entwurf zugeschrieben": "Pedro Ramírez Vázquez, Félix Candela und Rafael Mijares",
+        "Konstruktion": "dünne Stahlbetonschalen",
+        "Idee": "das Planendach der Tianguis"
+      }
+    },
+    "faq_mito": {
+      "hash": "da399c6434415d7b",
+      "texto": {
+        "pregunta": "Mythos: Frida und Diego kauften auf diesem Markt ein.",
+        "respuesta": "Wirklichkeit: Es ist ein oft wiederholter Mythos; der Markt ihrer Zeit war ein anderer, und dieses Gebäude stammt von neunzehnhundertsechsundfünfzig."
+      }
+    }
+  }
+}

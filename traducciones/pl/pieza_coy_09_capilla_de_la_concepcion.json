@@ -1,0 +1,54 @@
+{
+  "id": "coy_09_capilla_de_la_concepcion",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1313bc4020baba49",
+      "texto": "Kaplica Concepción: najstarsza w mieście"
+    },
+    "frase_gancho": {
+      "hash": "acee78d8545734c8",
+      "texto": "Mała kaplica, którą niektórzy uważają za pierwszy kościół chrześcijański Nowej Hiszpanii."
+    },
+    "puente_narrativo": {
+      "hash": "3203b5add340b971",
+      "texto": "Przeszedłeś już sporo: to dobry moment, by usiąść do stołu."
+    },
+    "guion_corto": {
+      "hash": "ed4b2379446d8670",
+      "texto": "Jesteś na placu La Conchita, przed kaplicą Niepokalanego Poczęcia. Uważa się ją za jedną z najstarszych kaplic w mieście, a niektóre wersje nazywają ją pierwszą zbudowaną w Nowej Hiszpanii. Świątynia, którą widzisz, pochodzi z około tysiąc siedemset pięćdziesiątego roku, z barokową fasadą. Podczas renowacji, w dwa tysiące dwunastym i dwa tysiące czternastym roku, pod posadzką odkryto prehiszpańskie pochówki, co sugeruje, że to miejsce było święte przed mnichami. Legendy wiążą ją z Malinche. Ten plac jest mały i spokojny i wciąż jest sercem swojej dzielnicy."
+    },
+    "guion_largo": {
+      "hash": "0f8587e953d19352",
+      "texto": "Jesteś na placu La Conchita, zakątku Coyoacán, który wydaje się wsią w wiosce. Przed tobą kaplica Niepokalanego Poczęcia, z otwartym atrium i barokową fasadą.\n\nOpowiada się, że tutaj stała pierwsza chrześcijańska kaplica Nowej Hiszpanii, mała świątynia z lekkich materiałów z przestronnym atrium, wzniesiona w pierwszych latach po Podboju. Ta myśl powtarza się często, ale nie ma dokumentu, który by ją potwierdzał. Pewne jest, że kościół jest tu od wieków.\n\nŚwiątynia, którą widzisz, pochodzi z około tysiąc siedemset pięćdziesiątego roku, choć pod koniec siedemnastego wieku dokonano już ważnych zmian na ruinach poprzedniej kaplicy. W środku jest ołtarz z kolumnami salomonowymi, tymi, które wyglądają na skręcone jak śruba, oraz obrazy z siedemnastego i osiemnastego wieku.\n\nGdy trzęsienia ziemi dwudziestego pierwszego wieku uszkodziły kaplicę, odnowiono ją. I podczas tych prac, w dwa tysiące dwunastym i dwa tysiące czternastym roku, wydarzyło się coś godnego uwagi. Pod posadzką odkryto co najmniej trzy prehiszpańskie pochówki i setki pochówków chrześcijańskich z okresu od szesnastego do dwudziestego wieku. Innymi słowy, mieszkańcy Coyoacán grzebią swoich zmarłych w tym samym miejscu od setek lat, przed Podbojem i po nim.\n\nDlatego legenda o Malinche ma taki urok. Mówi się, że Cortés dał jej dom, Coloradę, a ona poprosiła o ogród i kaplicę obok. To tradycja, nie udokumentowana historia, ale wyjaśnia, dlaczego tyle osób przychodzi do tej dzielnicy w poszukiwaniu Malinche. Czasem opowiada się też historie o Llorona i nieszczęśliwych weselach. To legendy i część uroku tego miejsca.\n\nUsiądź na ławce. To dobre miejsce, by posłuchać dzielnicy."
+    },
+    "retos_observacion": {
+      "hash": "4058117c48398be2",
+      "texto": [
+        "Spójrz na łuki i poszukaj skręconych kolumn ołtarza, jeśli jest otwarta",
+        "Obserwuj plac: kto z niego korzysta i po co?",
+        "Poszukaj barokowej fasady i policz jej kondygnacje"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6d1d56086a276601",
+      "texto": {
+        "Nazwa": "Niepokalane Poczęcie, La Conchita",
+        "Obecna świątynia": "około tysiąc siedemset pięćdziesiąty",
+        "Styl": "barokowy",
+        "Odkrycia": "trzy prehiszpańskie pochówki i setki chrześcijańskich, renowacja w dwa tysiące dwunastym i dwa tysiące czternastym"
+      }
+    },
+    "faq_mito": {
+      "hash": "38ef54d436b88893",
+      "texto": {
+        "pregunta": "Mit: To pierwsza chrześcijańska kaplica Nowej Hiszpanii.",
+        "respuesta": "Rzeczywistość: To bardzo powtarzana wersja, ale bez dokumentu; pewne jest, że świątynia stoi tu od wieków."
+      }
+    }
+  }
+}

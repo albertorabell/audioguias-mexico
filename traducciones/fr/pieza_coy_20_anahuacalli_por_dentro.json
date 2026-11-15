@@ -1,0 +1,54 @@
+{
+  "id": "coy_20_anahuacalli_por_dentro",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "22eff9fdab4df637",
+      "texto": "Anahuacalli : l'intérieur, de bas en haut"
+    },
+    "frase_gancho": {
+      "hash": "d85ee6e2f7d7abfb",
+      "texto": "Un parcours en trois niveaux qui va du monde souterrain au ciel."
+    },
+    "puente_narrativo": {
+      "hash": "9419d63c3bfa4da8",
+      "texto": "Le parcours s'arrête ici. Merci d'avoir marché dans Coyoacán."
+    },
+    "guion_corto": {
+      "hash": "31d95c772d73353d",
+      "texto": "L'Anahuacalli a trois niveaux que l'on parcourt comme un voyage. Le rez-de-chaussée représente le monde souterrain et il est sombre. Le niveau du milieu représente le monde terrestre et reçoit la lumière naturelle. Celui du haut s'ouvre en forme de U, vers le ciel. Il y a vingt-trois salles et des milliers de pièces préhispaniques. En dix-neuf cent quarante-trois, Frida Kahlo a écrit à un ministre pour demander de l'aide afin de terminer le musée. Aujourd'hui, c'est toujours l'un des lieux les plus spéciaux de la ville."
+    },
+    "guion_largo": {
+      "hash": "036080f1b9de20ab",
+      "texto": "Tu entres dans l'Anahuacalli et l'air change. La pierre volcanique abaisse un peu la température, la lumière devient différente et le bruit de la rue reste derrière.\n\nLe bâtiment est pensé comme un parcours de trois niveaux. Au rez-de-chaussée, qui représente le monde souterrain, la lumière est tamisée. Au niveau du milieu, qui représente le monde terrestre, la lumière naturelle pénètre. Et le niveau du haut a la forme d'un U et représente le ciel. Monter, c'est comme passer de l'obscurité à la clarté.\n\nAu total, il y a vingt-trois salles. La collection de Diego Rivera était énorme : on l'estime à des dizaines de milliers de pièces préhispaniques, bien que les chiffres varient selon qui compte. Environ deux mille sont exposées en permanence et le reste est conservé en réserve. Il y a des figurines d'argile, des vases, des sculptures et des masques de nombreuses cultures de Mésoamérique.\n\nL'idée que cette collection devienne un musée avait des alliés. En dix-neuf cent quarante-trois, Frida Kahlo a écrit une lettre à Marte R. Gómez, qui était ministre de l'Agriculture, pour demander le soutien du gouvernement afin de construire le musée. Elle proposait que Diego fasse don de sa collection et que le bâtiment devienne un musée archéologique. À ce moment-là, cela n'a pas abouti.\n\nL'exposition permanente a été conçue par le poète Carlos Pellicer, et le premier projet muséographique est de Diego, avec l'archéologue Alfonso Caso. En septembre deux mille vingt et un, de nouveaux espaces ont ouvert, conçus par l'architecte Mauricio Rocha Iturbide, dont une réserve, une bibliothèque et des patios à ciel ouvert.\n\nMonte jusqu'en haut si tu peux et prends un moment pour regarder autour de toi : ici s'arrête notre parcours à travers Coyoacán. Nous avons commencé sur une place avec un kiosque et des coyotes de bronze, nous sommes passés par des églises, des marchés, des cantinas et des maisons d'artistes, et nous avons fini dans un bâtiment fait de volcan. Merci d'avoir marché avec nous."
+    },
+    "retos_observacion": {
+      "hash": "1ed9447c81d9415a",
+      "texto": [
+        "Compare la lumière du rez-de-chaussée avec celle du deuxième niveau",
+        "Cherche une pièce en forme d'animal ou de personne",
+        "Monte au dernier niveau et regarde vers le Pedregal"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2db15b80683c4d7e",
+      "texto": {
+        "Niveaux": "trois",
+        "Salles": "vingt-trois",
+        "Pièces en exposition permanente": "environ deux mille",
+        "Nouveaux espaces": "septembre deux mille vingt et un, par Mauricio Rocha Iturbide"
+      }
+    },
+    "faq_mito": {
+      "hash": "44ff3abe14262141",
+      "texto": {
+        "pregunta": "Mythe : Toute la collection de Diego Rivera tient dans les salles.",
+        "respuesta": "Réalité : Seules environ deux mille pièces sont exposées ; le reste est conservé en réserve."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "coy_14_viveros",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f2d7bca2e576af9d",
+      "texto": "Viveros de Coyoacán: a floresta que um homem plantou"
+    },
+    "frase_gancho": {
+      "hash": "e899b47ddb9ab00c",
+      "texto": "Um parque onde se cultivam as árvores que reflorestam a cidade, e onde as pessoas correm entre elas."
+    },
+    "puente_narrativo": {
+      "hash": "eda3c651016ca3e9",
+      "texto": "Siga para o poente, até a ponte de Panzacola, a antiga entrada de Coyoacán."
+    },
+    "guion_corto": {
+      "hash": "5fc2e36951ad19ca",
+      "texto": "Respire fundo: você está nos Viveros de Coyoacán. Isto não é só um parque, é um viveiro, um lugar onde se cultivam árvores. Quem o começou foi Miguel Ángel de Quevedo, um engenheiro que sonhava em rodear a cidade de florestas. Em mil novecentos e um doou o primeiro hectare. Em mil novecentos e dezessete o governo reconheceu o projeto, e em mil novecentos e trinta e oito virou parque nacional. Hoje produz cerca de um milhão de árvores por ano, e por suas trilhas correm e passeiam milhares de pessoas todos os dias."
+    },
+    "guion_largo": {
+      "hash": "5a5df8cc56ee75db",
+      "texto": "Respire fundo. Você está nos Viveros de Coyoacán, e na primeira vez pode parecer só um parque com muitas árvores. Mas é algo mais: é um viveiro, um lugar onde se cultivam árvores para plantá-las em outro lugar.\n\nTudo começou com Miguel Ángel de Quevedo, um engenheiro que sabia que a cidade precisava de florestas. Sua ideia era rodear a Cidade do México com um cinturão de florestas de uns dez quilômetros. Em mil novecentos e um doou o primeiro hectare para o viveiro, e em mil novecentos e dezessete o governo o reconheceu oficialmente. Com os anos foi se ampliando até cobrir quase quarenta hectares. Em mil novecentos e trinta e oito foi declarado parque nacional e aberto ao público.\n\nHoje continua fazendo o que fez desde o começo: produz cerca de um milhão de árvores por ano para reflorestar a cidade. E também virou um lugar onde as pessoas correm, caminham e se sentam para ler. Calcula-se que o visitam entre duas mil e quinhentas e três mil pessoas por dia, e há um mercado de plantas muito popular.\n\nDentro do parque há detalhes curiosos. Há um poço datado de mil novecentos e dezoito e as ruínas de uma pequena capela. E há esquilos tão acostumados com as pessoas que se aproximam sem medo.\n\nSe Coyoacán tem fama de boêmio e artístico, os Viveros mostram outra face: a de um bairro que também soube cuidar de suas árvores. Passeie um pouco, olhe para cima e lembre-se de que muitas das árvores desta cidade nasceram aqui."
+    },
+    "retos_observacion": {
+      "hash": "c0e43a13d2d21831",
+      "texto": [
+        "Olhe para cima e procure as árvores mais altas",
+        "Procure uma placa ou uma área de produção de plantas",
+        "Observe quem corre e quem passeia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "022cca2c8c5fe723",
+      "texto": {
+        "Fundador": "Miguel Ángel de Quevedo",
+        "Primeira doação": "um hectare, mil novecentos e um",
+        "Parque nacional": "mil novecentos e trinta e oito",
+        "Produção": "cerca de um milhão de árvores por ano"
+      }
+    },
+    "faq_mito": {
+      "hash": "26cf0425760d7b72",
+      "texto": {
+        "pregunta": "Mito: Os Viveros são uma floresta natural.",
+        "respuesta": "Realidade: É um viveiro criado por Miguel Ángel de Quevedo para produzir árvores de reflorestamento."
+      }
+    }
+  }
+}

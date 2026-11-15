@@ -1,0 +1,54 @@
+{
+  "id": "coy_11_calle_francisco_sosa",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cdea082cccc2a2e1",
+      "texto": "Francisco Sosa: o caminho real de Coyoacán"
+    },
+    "frase_gancho": {
+      "hash": "c8c805c1477b744b",
+      "texto": "Uma das ruas mais antigas da cidade, que continua sendo um passeio de casarões, galerias e jardins."
+    },
+    "puente_narrativo": {
+      "hash": "b6af04c37c314973",
+      "texto": "Siga pela rua até o casarão da Fonoteca Nacional."
+    },
+    "guion_corto": {
+      "hash": "8b176e6bd3dfab31",
+      "texto": "Você está na rua Francisco Sosa, que por séculos foi o caminho real entre San Ángel e Coyoacán. Foi traçada provavelmente no século dezesseis, e teve vários nomes: rua Real de Santa Catarina, avenida Benito Juárez, e desde mil novecentos e cinquenta e um, Francisco Sosa, em homenagem ao historiador que viveu no número trinta e oito. Por aqui passaram carruagens, bondes, escritores. Hoje é um passeio tranquilo, de casas com jardim, centros culturais e capelas. Caminhe devagar e olhe para os lados."
+    },
+    "guion_largo": {
+      "hash": "38a57e69d218c21a",
+      "texto": "Você está na rua Francisco Sosa, uma das vias mais antigas do sul da cidade. Caminhe devagar e repare nos muros, nos portões e nos galhos das árvores que aparecem por cima.\n\nPor séculos, este foi o caminho real entre San Ángel e Coyoacán. Foi traçado provavelmente no século dezesseis. Viajantes, comerciantes e frades passavam por aqui. Com os anos, a rua teve diferentes nomes: rua Real de Santa Catarina, avenida Benito Juárez. Em mil novecentos e cinquenta e um recebeu o que leva hoje, em homenagem a Francisco Sosa, um historiador mexicano que viveu no número trinta e oito. Você já o conheceu: foi o prefeito de Coyoacán que doou ao povoado a cópia do documento do brasão.\n\nA rua conserva marcas da sua história. Há uma antiga estação de bonde, no número duzentos e quarenta e três, hoje convertida em loja. Há uma fachada com uma placa onde viveu trinta e três anos o cronista Salvador Novo; a casa já não existe, mas a fachada se salvou. E há casas do século dezoito que viraram centros culturais.\n\nO calçamento de pedra, as árvores e os muros altos dão a Francisco Sosa um ar de rua de povoado. Mas esses muros guardam jardins, e esses jardins, muita história. Se passar por um portão aberto, espie os pátios e as fontes.\n\nEsta é a rua por onde um dia chegaram os exílados, os pintores, os poetas. E por onde ainda hoje se caminha a pé, com o olhar nas portas."
+    },
+    "retos_observacion": {
+      "hash": "4f8e3d2851053a5a",
+      "texto": [
+        "Espie pelos portões e procure um pátio com fonte",
+        "Procure a placa de Salvador Novo",
+        "Olhe o chão: há calçamento de pedra?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3acfd2699cabf9e3",
+      "texto": {
+        "Origem": "caminho real entre San Ángel e Coyoacán, provavelmente do século dezesseis",
+        "Nome atual": "mil novecentos e cinquenta e um",
+        "Antiga estação de bonde": "número duzentos e quarenta e três",
+        "Casa de Francisco Sosa": "número trinta e oito"
+      }
+    },
+    "faq_mito": {
+      "hash": "7e9706b11b3b2015",
+      "texto": {
+        "pregunta": "Mito: A rua se chama Francisco Sosa desde sempre.",
+        "respuesta": "Realidade: Antes se chamou rua Real de Santa Catarina e avenida Benito Juárez; o nome atual é de mil novecentos e cinquenta e um."
+      }
+    }
+  }
+}

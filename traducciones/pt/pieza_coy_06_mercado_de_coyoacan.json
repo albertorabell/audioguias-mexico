@@ -1,0 +1,54 @@
+{
+  "id": "coy_06_mercado_de_coyoacan",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "45c0070370c93f2a",
+      "texto": "O Mercado de Coyoacán: um teto que parece lona"
+    },
+    "frase_gancho": {
+      "hash": "05d775515f8a2df0",
+      "texto": "Um mercado dos anos cinquenta com o desenho de um toldo de tianguis."
+    },
+    "puente_narrativo": {
+      "hash": "d07dc1de8bc60390",
+      "texto": "Caminhe para o norte pela rua Allende, até a esquina da Casa Azul."
+    },
+    "guion_corto": {
+      "hash": "53f5f6da611be632",
+      "texto": "Olhe o teto deste mercado: parece uma lona esticada sobre o tianguis, mas é de concreto, muito fino. Foi inaugurado em seis de outubro de mil novecentos e cinquenta e seis, e seu projeto é atribuído a Pedro Ramírez Vázquez e Félix Candela. Antes deste edifício, as barracas se amontoavam junto à paróquia. Hoje o mercado cheira a fruta, a guisados e a tostadas. Aqui se come em pé, com o molho na mão, e se entende por que Coyoacán nunca deixou de ser bairro."
+    },
+    "guion_largo": {
+      "hash": "6da2a8a759df6368",
+      "texto": "Entre no mercado e, antes de comprar qualquer coisa, levante os olhos. O teto parece uma lona esticada sobre um tianguis, mas é de concreto armado, muito fino, e essa forma não é coincidência. A ideia foi que o edifício novo lembrasse o toldo dos tianguis de sempre.\n\nO mercado foi inaugurado em seis de outubro de mil novecentos e cinquenta e seis, e seu projeto é atribuído a Pedro Ramírez Vázquez e Félix Candela, com Rafael Mijares. Candela é famoso por suas cascas finas de concreto. Essa atribuição ainda estamos confirmando, mas combina com a obra que se conhece deles.\n\nAntes deste edifício, o comércio de Coyoacán ficava na rua. No início do século vinte, as barracas de tianguis, que as pessoas chamavam de barracas mesmo, ficavam junto à paróquia. Houve uma tentativa de mudá-las para o bairro de La Conchita e depois um primeiro mercado formal. Cada mudança buscava organizar o que o povoado já fazia: comprar e vender todos os dias.\n\nHoje o mercado é uma festa para os sentidos. Há bancas de frutas e verduras, de flores, de ervas, de artesanato e de comida. Um clássico são as tostadas: de pé de porco, de camarão, de frango com mole, de ceviche, com molhos de amendoim, de chipotle e verde. Comem-se em pé, com o molho ao alcance, entre conversas de vizinhos e turistas curiosos.\n\nRepete-se muito que Frida e Diego faziam aqui suas compras. É uma história bonita, mas tem um problema: o mercado daquela época era outro. Este edifício chegou anos depois do período mais conhecido do casal. O que é verdade é que o ambiente que você vê é o que eles conheceram: um bairro onde se compra pessoalmente, se pechincha e se conversa.\n\nSe estiver com fome, este é um bom momento. Se não, caminhe devagar pelos corredores e observe. Depois seguimos para o norte, a poucas ruas daqui, onde fica a esquina da Casa Azul."
+    },
+    "retos_observacion": {
+      "hash": "3ede36b25a7c0158",
+      "texto": [
+        "Olhe o teto e decida se parece lona ou concreto",
+        "Procure uma banca de tostadas e veja que molhos oferece",
+        "Conte quantos cheiros diferentes você consegue distinguir num corredor"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d21660c95132d15",
+      "texto": {
+        "Inauguração": "seis de outubro de mil novecentos e cinquenta e seis",
+        "Projeto atribuído a": "Pedro Ramírez Vázquez, Félix Candela e Rafael Mijares",
+        "Estrutura": "cascas finas de concreto armado",
+        "Ideia": "o toldo de lona dos tianguis"
+      }
+    },
+    "faq_mito": {
+      "hash": "da399c6434415d7b",
+      "texto": {
+        "pregunta": "Mito: Frida e Diego faziam suas compras neste mercado.",
+        "respuesta": "Realidade: É um mito muito repetido; o mercado da época deles era outro, e este edifício é de mil novecentos e cinquenta e seis."
+      }
+    }
+  }
+}

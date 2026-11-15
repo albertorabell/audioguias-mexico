@@ -1,0 +1,54 @@
+{
+  "id": "coy_09_capilla_de_la_concepcion",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1313bc4020baba49",
+      "texto": "A capela da Concepción: a mais antiga da cidade"
+    },
+    "frase_gancho": {
+      "hash": "acee78d8545734c8",
+      "texto": "Uma pequena capela que alguns consideram a primeira igreja cristã da Nova Espanha."
+    },
+    "puente_narrativo": {
+      "hash": "3203b5add340b971",
+      "texto": "Você já caminhou bastante: é um bom momento para sentar à mesa."
+    },
+    "guion_corto": {
+      "hash": "ed4b2379446d8670",
+      "texto": "Você está na praça de La Conchita, diante da capela da Imaculada Conceição. É considerada uma das capelas mais antigas da cidade, e algumas versões a chamam de a primeira construída na Nova Espanha. O templo que você vê hoje é de por volta de mil setecentos e cinquenta, com fachada barroca. Quando a restauraram, em dois mil e doze e dois mil e catorze, apareceram enterramentos pré-hispânicos sob o piso, o que sugere que este lugar já era sagrado antes dos frades. Há lendas que a ligam à Malinche. Esta praça é pequena e tranquila, e continua sendo o coração do seu bairro."
+    },
+    "guion_largo": {
+      "hash": "0f8587e953d19352",
+      "texto": "Você está na praça de La Conchita, um canto de Coyoacán que parece um povoado dentro do povoado. Diante de você está a capela da Imaculada Conceição, com seu átrio aberto e sua fachada barroca.\n\nConta-se que aqui esteve a primeira capela cristã da Nova Espanha, um templo pequeno de materiais leves com um átrio amplo, erguido nos primeiros anos depois da Conquista. Essa ideia se repete muito, mas não há documento que a prove. O que é certo é que há uma igreja aqui há séculos.\n\nO templo que você vê hoje é de por volta de mil setecentos e cinquenta, embora no fim do século dezessete já tivessem sido feitas mudanças importantes sobre as ruínas da capela anterior. Por dentro tem um retábulo com colunas salomônicas, aquelas que parecem torcidas como um parafuso, e pinturas dos séculos dezessete e dezoito.\n\nQuando os tremores do século vinte e um danificaram a capela, ela foi restaurada. E durante essas obras, em dois mil e doze e dois mil e catorze, aconteceu algo notável. Sob o piso apareceram pelo menos três enterramentos pré-hispânicos e centenas de restos cristãos entre os séculos dezesseis e vinte. Em outras palavras, o povo de Coyoacán enterra seus mortos neste mesmo lugar há centenas de anos, antes e depois da Conquista.\n\nPor isso a lenda da Malinche tem tanto encanto. Diz-se que Cortés lhe deu uma casa, a Colorada, e que ela pediu um jardim e uma capela ao lado. É tradição, não história documentada, mas explica por que tanta gente vem a este bairro procurando a Malinche. Às vezes também se contam histórias da Llorona e de casamentos desafortunados. São lendas, e parte do encanto do lugar.\n\nSente-se num banco. É um bom lugar para escutar o bairro."
+    },
+    "retos_observacion": {
+      "hash": "4058117c48398be2",
+      "texto": [
+        "Olhe os arcos e procure as colunas torcidas do retábulo, se estiver aberta",
+        "Observe a praça: quem a usa e para quê?",
+        "Procure a fachada barroca e conte seus níveis"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6d1d56086a276601",
+      "texto": {
+        "Nome": "Imaculada Conceição, La Conchita",
+        "Templo atual": "por volta de mil setecentos e cinquenta",
+        "Estilo": "barroco",
+        "Achados": "três enterramentos pré-hispânicos e centenas cristãos, restauração de dois mil e doze e dois mil e catorze"
+      }
+    },
+    "faq_mito": {
+      "hash": "38ef54d436b88893",
+      "texto": {
+        "pregunta": "Mito: Esta é a primeira capela cristã da Nova Espanha.",
+        "respuesta": "Realidade: É uma versão muito repetida, mas sem documento; o certo é que há um templo aqui há séculos."
+      }
+    }
+  }
+}

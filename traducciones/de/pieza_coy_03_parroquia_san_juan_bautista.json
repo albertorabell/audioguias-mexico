@@ -1,0 +1,56 @@
+{
+  "id": "coy_03_parroquia_san_juan_bautista",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ee4e9147bb5023c3",
+      "texto": "San Juan Bautista: die Kirche, die das Dorf versammelt"
+    },
+    "frase_gancho": {
+      "hash": "091e65ffa82c9718",
+      "texto": "Die Kirche, die seit dem sechzehnten Jahrhundert über den Platz wacht und noch immer voller Menschen ist."
+    },
+    "puente_narrativo": {
+      "hash": "83d7fbae1c84498c",
+      "texto": "Geh hinaus in den Garten und lauf zum Musikpavillon in der Mitte des Platzes."
+    },
+    "guion_corto": {
+      "hash": "2b52a46d489928de",
+      "texto": "Das ist die Pfarrkirche San Juan Bautista. Ihre Geschichte beginnt im sechzehnten Jahrhundert mit den ersten Mönchen: zuerst Franziskaner und, im Jahr fünfzehnhundertneunundzwanzig, Dominikaner, die hier das Kloster gründeten. Es war Kirche und Kloster neben dem Atrium, das du eben durchquert hast. Im Lauf der Jahrhunderte wurde sie mehrfach repariert und umgestaltet, und das Erdbeben von zweitausendsiebzehn beschädigte den Turm erneut. Trotzdem tut sie weiter, was sie von Anfang an getan hat: das Dorf versammeln. Sieh dir an, wer zum Beten hineingeht und wer sich nur eine Weile in den Schatten setzt. Diese Kirche ist kein stehengebliebenes Denkmal: Sie ist das Herz von Coyoacán."
+    },
+    "guion_largo": {
+      "hash": "33dc0f0b20f8fc29",
+      "texto": "Du bist in der Pfarrkirche San Juan Bautista. Bevor ich dir ihre Geschichte erzähle, sieh dir an, wie sie heute genutzt wird. Manche gehen zum Beten hinein, manche zünden eine Kerze an, manche setzen sich eine Weile auf eine Bank, um dem Lärm des Platzes zu entkommen. Es ist eine lebendige Kirche, und das ist das Erste, was man über sie wissen muss.\n\nDie Geschichte dieses Ortes kennt zwei Orden. Die ersten Mönche, die nach Coyoacán kamen, waren Franziskaner, Ende fünfzehnhundertvierundzwanzig oder Anfang fünfzehnhundertfünfundzwanzig, mit Bruder Martín de Valencia. In den ersten Monaten des Jahres fünfzehnhundertneunundzwanzig kamen die Dominikaner, der Predigerorden, und errichteten ihr Kloster, geweiht Johannes dem Täufer, dem Vorläufer, etwas östlich vom Haus der Franziskaner. Um fünfzehnhundertvierunddreißig oder fünfunddreißig zogen sich die Franziskaner aus Coyoacán zurück. Seit dem zwanzigsten Jahrhundert ist das Kloster wieder in den Händen der Franziskaner.\n\nDer Bau dauerte lange. Um fünfzehnhunderteinundfünfzig wurde die offene Kapelle mit ihrem Portal gebaut. Im Jahr fünfzehnhundertsechzig war die Kirche mit Basilikagrundriss bereits fertig, unter der Leitung von Bruder Juan de la Cruz. Auf dem Fries des Kirchenportals ist ein Datum eingraviert: April fünfzehnhundertzweiundachtzig. Aber das Kloster war im Jahr fünfzehnhundertachtundachtzig noch nicht vollendet, als ein Beben das Dach einstürzen ließ, und noch im Jahr sechzehnhundertdrei fehlte die Eindeckung der Kirche.\n\nDer Turm stammt aus dem achtzehnten Jahrhundert. Er hat ein quadratisches erstes Geschoss und ein achteckiges zweites und war von einer Kuppel mit Laterne und Kreuz gekrönt. Am neunzehnten September zweitausendsiebzehn beschädigte das Erdbeben das zweite Geschoss und warf Kuppel, Laterne und Kreuz herunter. Deshalb siehst du zwischen alten Steinen auch jüngere Reparaturen. Jede erzählt, dass jemand entschieden hat, dass es sich lohnt, diese Kirche zu erhalten.\n\nSieh dir an, wie das Gebäude gebaut ist. Die Mauern sind dick, gedacht, um zu halten und schwere Dächer zu tragen. Die Fassade ist schlicht, ohne den Schmuck des Atriumtors.\n\nIm sechzehnten Jahrhundert waren solche Kirchen der Ort, an dem sich die Gemeinschaft versammelte: Man feierte das Fest des Heiligen, unterrichtete, traute und verabschiedete die Menschen. Heute geschieht etwas Ähnliches. Der Platz draußen existiert zu einem guten Teil wegen dieser Kirche.\n\nWenn du hinausgehst, bleib einen Moment im Atrium stehen und sieh zum Platz. Dort beginnt eine andere Geschichte: die eines Gartens, eines Musikpavillons und zweier Kojoten aus Bronze."
+    },
+    "retos_observacion": {
+      "hash": "fd3cc74420fe4ed4",
+      "texto": [
+        "Such den Glockenturm und achte auf das zweite, achteckige Geschoss",
+        "Berühre mit den Augen die Dicke der Mauern",
+        "Beobachte, wer hineingeht und wer sich nur hinsetzt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "df3f710aadf3ce82",
+      "texto": {
+        "Patrozinium": "San Juan Bautista",
+        "Kloster gegründet von den Dominikanern": "fünfzehnhundertneunundzwanzig",
+        "Erste Mönche in Coyoacán": "Franziskaner, um fünfzehnhundertfünfundzwanzig",
+        "Datum auf dem Fries des Portals": "April fünfzehnhundertzweiundachtzig",
+        "Turm": "achtzehntes Jahrhundert",
+        "Jüngste Schäden": "Erdbeben von zweitausendsiebzehn"
+      }
+    },
+    "faq_mito": {
+      "hash": "9d26e6e66b1b5c87",
+      "texto": {
+        "pregunta": "Mythos: San Juan Bautista war immer eine franziskanische Kirche.",
+        "respuesta": "Wirklichkeit: Die Franziskaner kamen zuerst, aber das Kloster gründeten die Dominikaner im Jahr fünfzehnhundertneunundzwanzig; seit dem zwanzigsten Jahrhundert betreuen es wieder die Franziskaner."
+      }
+    }
+  }
+}

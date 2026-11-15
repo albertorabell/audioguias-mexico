@@ -1,0 +1,55 @@
+{
+  "id": "coy_15_esquina_casa_azul",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "505310fa9e18692d",
+      "texto": "The corner of the Casa Azul"
+    },
+    "frase_gancho": {
+      "hash": "b9e77446900ff8c4",
+      "texto": "The cobalt-blue house where Frida Kahlo was born and died, seen from the street."
+    },
+    "puente_narrativo": {
+      "hash": "26d64baab3ee1ab5",
+      "texto": "Walk a few steps toward the corner of Aguayo and Londres."
+    },
+    "guion_corto": {
+      "hash": "3169ce7552df22dd",
+      "texto": "You are at the corner of Londres and Allende, in front of the Casa Azul. Its cobalt-blue walls give it its name. It was built in nineteen oh four, and Frida Kahlo was born in it in nineteen oh seven. She died here, upstairs, on the thirteenth of July, nineteen fifty-four. Diego Rivera also lived in this house, and the Russian exile Leon Trotsky stayed in it between nineteen thirty-seven and nineteen thirty-nine. Today it is a museum. Look at the color, the windows and the street. If you want to go inside, in this same app you have another audio guide just for the Casa Azul."
+    },
+    "guion_largo": {
+      "hash": "2d4cd20ef83a0400",
+      "texto": "You are at the corner of Londres and Allende, in the Del Carmen neighborhood, and in front of you is one of the most famous houses in Mexico: the Casa Azul. If you are seeing it for the first time, the first thing you notice is the color, an intense cobalt blue that contrasts with the green of the trees.\n\nThe house was built in nineteen oh four. At first it had French-inspired decoration; over time it was given the simpler façade you see today. Frida Kahlo was born here in nineteen oh seven. She died here, at forty-seven, on the thirteenth of July, nineteen fifty-four.\n\nBut this house was much more than a painter's home. Diego Rivera also lived here with her, and he even had a wing built facing Londres street. And in January of nineteen thirty-seven, Leon Trotsky and his wife Natalia Sedova arrived here, exiled, after Diego and Frida interceded with the government of Lázaro Cárdenas to grant them asylum. They lived in this house until April of nineteen thirty-nine, when they moved to a nearby house, on Viena street. We will see it later.\n\nAfter Frida's death, Diego donated the house to Mexico so it could become a museum. Since then, it has been one of the places that draws the most visitors in Coyoacán.\n\nFrom the street you can see the color, the windows and the movement of the corner: visitors with cameras, vendors, groups stopping to listen to their guide. That scene is also part of the house's history. If you want to know it inside, you have another audio guide in this app dedicated to the Casa Azul."
+    },
+    "retos_observacion": {
+      "hash": "008cb94fbcb531c5",
+      "texto": [
+        "Look at the blue and notice how it changes with the light",
+        "Count how many languages you hear at the corner",
+        "Look for the plaque or the name of the museum on the façade"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d85e9857a2f820a9",
+      "texto": {
+        "Address": "Londres, corner of Allende, Del Carmen neighborhood",
+        "Built": "nineteen oh four",
+        "Frida born": "nineteen oh seven",
+        "Frida died": "July thirteenth, nineteen fifty-four",
+        "Today": "museum"
+      }
+    },
+    "faq_mito": {
+      "hash": "06712eece107d652",
+      "texto": {
+        "pregunta": "Myth: The Casa Azul was always blue.",
+        "respuesta": "Reality: Today it is known for its color, but the house was built with French-inspired decoration and later given its current façade."
+      }
+    }
+  }
+}

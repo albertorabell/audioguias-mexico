@@ -1,0 +1,54 @@
+{
+  "id": "coy_17_trotsky_fortaleza",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cbd5d25a466ca617",
+      "texto": "La maison de Trotski : la forteresse"
+    },
+    "frase_gancho": {
+      "hash": "414f408d98c58117",
+      "texto": "Un exilé russe, une attaque nocturne et une maison devenue forteresse."
+    },
+    "puente_narrativo": {
+      "hash": "2dd8c6cc99ee3074",
+      "texto": "Entre dans le bureau, l'endroit où l'histoire s'est terminée."
+    },
+    "guion_corto": {
+      "hash": "981cdd413960efd7",
+      "texto": "Tu es devant la maison de Léon Trotski. Il est arrivé au Mexique en janvier dix-neuf cent trente-sept, avec l'asile du président Lázaro Cárdenas, grâce au soutien de Diego Rivera et Frida Kahlo. Il a d'abord vécu dans la Casa Azul puis, depuis avril dix-neuf cent trente-neuf, dans cette maison de la rue Vienne. Au petit matin du vingt-quatre mai dix-neuf cent quarante, un groupe armé, avec le peintre David Alfaro Siqueiros parmi ses chefs, a tiré sur la maison. Trotski a survécu. Ensuite on a élevé les hauts murs et les tours de guet que tu vois aujourd'hui."
+    },
+    "guion_largo": {
+      "hash": "98552b9dcaad4504",
+      "texto": "Tu es devant la maison de Léon Trotski, à Coyoacán. Vue de l'extérieur, elle ressemble à une forteresse, et tu vas comprendre pourquoi.\n\nTrotski fut l'un des chefs de la Révolution russe de dix-neuf cent dix-sept. Ensuite, il s'est opposé à Staline, a dû fuir et est passé par plusieurs pays. En janvier dix-neuf cent trente-sept, il est arrivé au Mexique avec son épouse, Natalia Sedova. Diego Rivera et Frida Kahlo ont convaincu le gouvernement de Lázaro Cárdenas de leur accorder l'asile politique. Ils ont vécu d'abord dans la Casa Azul, et depuis avril dix-neuf cent trente-neuf, ici, rue Vienne.\n\nEn dix-neuf cent trente-neuf, Trotski et Diego Rivera s'étaient déjà éloignés l'un de l'autre. Les raisons avancées sont des désaccords politiques et, selon certaines versions, une relation du Russe avec Frida.\n\nLa maison a cessé d'être tranquille le vingt-quatre mai dix-neuf cent quarante. Ce petit matin-là, un groupe armé, déguisé en policiers, est entré et a tiré sur la maison. On dit que parmi ses chefs se trouvait le peintre David Alfaro Siqueiros, qui travaillait avec la police secrète soviétique. Trotski a survécu, et son petit-fils, qui avait quelques années, a reçu une balle au pied. L'un des gardes du corps, un jeune Américain nommé Robert Sheldon Harte, a été enlevé et assassiné.\n\nAprès l'attaque, la maison s'est transformée. On a élevé de hauts murs et des tours de guet tout autour. C'est ce que tu vois maintenant. Une maison dans une rue tranquille de Coyoacán qui a dû se protéger comme un château.\n\nAujourd'hui la maison est un musée, ouvert depuis le vingt août dix-neuf cent quatre-vingt-dix, pour le cinquantième anniversaire de l'assassinat. L'entrée se trouve sur l'avenue Río Churubusco. Et ici, dans la rue, tu ne vois que les murs. Nous allons entrer par le bureau."
+    },
+    "retos_observacion": {
+      "hash": "b3b56ac65c89d2da",
+      "texto": [
+        "Cherche les tours de guet en haut des murs",
+        "Observe l'épaisseur des murs et comment la rue se voit de l'extérieur",
+        "Imagine le lieu à cette heure de la nuit, il y a plus de quatre-vingts ans"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e47c8d31fd2a99b7",
+      "texto": {
+        "Arrivée au Mexique": "janvier dix-neuf cent trente-sept",
+        "Déménagement dans cette maison": "avril dix-neuf cent trente-neuf",
+        "Première attaque": "vingt-quatre mai dix-neuf cent quarante",
+        "Musée": "depuis dix-neuf cent quatre-vingt-dix"
+      }
+    },
+    "faq_mito": {
+      "hash": "a1559d89ac4ebebb",
+      "texto": {
+        "pregunta": "Mythe : Trotski a vécu ici depuis son arrivée au Mexique.",
+        "respuesta": "Réalité : Il a d'abord vécu dans la Casa Azul de Coyoacán ; il a déménagé dans cette maison en avril dix-neuf cent trente-neuf."
+      }
+    }
+  }
+}

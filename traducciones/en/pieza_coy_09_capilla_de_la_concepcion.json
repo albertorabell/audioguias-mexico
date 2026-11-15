@@ -1,0 +1,54 @@
+{
+  "id": "coy_09_capilla_de_la_concepcion",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1313bc4020baba49",
+      "texto": "The Chapel of the Concepción: the oldest in the city"
+    },
+    "frase_gancho": {
+      "hash": "acee78d8545734c8",
+      "texto": "A small chapel that some consider the first Christian church of New Spain."
+    },
+    "puente_narrativo": {
+      "hash": "3203b5add340b971",
+      "texto": "You have walked a lot already: it is a good time to sit down at a table."
+    },
+    "guion_corto": {
+      "hash": "ed4b2379446d8670",
+      "texto": "You are in the La Conchita plaza, in front of the chapel of the Immaculate Conception. It is considered one of the oldest chapels in the city, and some versions call it the first one built in New Spain. The church you see today dates from around seventeen fifty, with a Baroque façade. When it was restored, in two thousand twelve and two thousand fourteen, pre-Hispanic burials appeared under the floor, which suggests this site was already sacred before the friars. There are legends linking it to the Malinche. This plaza is small and quiet, and it is still the heart of its neighborhood."
+    },
+    "guion_largo": {
+      "hash": "0f8587e953d19352",
+      "texto": "You are in the La Conchita plaza, a corner of Coyoacán that feels like a town within the town. In front of you is the chapel of the Immaculate Conception, with its open atrium and its Baroque façade.\n\nIt is said that the first Christian chapel of New Spain stood here, a small church of light materials with a wide atrium, raised in the first years after the Conquest. That idea is repeated a lot, but there is no document to prove it. What is certain is that there has been a church here for centuries.\n\nThe church you see today dates from around seventeen fifty, although by the end of the seventeenth century important changes had already been made over the ruins of the earlier chapel. Inside it has an altarpiece with Solomonic columns, the kind that look twisted like a screw, and paintings from the seventeenth and eighteenth centuries.\n\nWhen the earthquakes of the twenty-first century damaged the chapel, it was restored. And during that work, in two thousand twelve and two thousand fourteen, something remarkable happened. Under the floor appeared at least three pre-Hispanic burials, and hundreds of Christian remains from between the sixteenth and twentieth centuries. In other words, the people of Coyoacán have buried their dead in this same place for hundreds of years, before and after the Conquest.\n\nThat is why the legend of the Malinche is so appealing. It is said that Cortés gave her a house, the Colorada, and that she asked for a garden and a chapel next to it. It is tradition, not documented history, but it explains why so many people come to this neighborhood looking for the Malinche. Sometimes stories of the Llorona and of ill-fated weddings are also told. They are legends, and part of the charm of the place.\n\nSit on a bench. It is a good spot to listen to the neighborhood."
+    },
+    "retos_observacion": {
+      "hash": "4058117c48398be2",
+      "texto": [
+        "Look at the arches and find the twisted columns of the altarpiece, if it is open",
+        "Watch the plaza: who uses it and for what?",
+        "Find the Baroque façade and count its levels"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6d1d56086a276601",
+      "texto": {
+        "Name": "Immaculate Conception, La Conchita",
+        "Current church": "around seventeen fifty",
+        "Style": "Baroque",
+        "Finds": "three pre-Hispanic burials and hundreds of Christian ones, restoration of two thousand twelve and two thousand fourteen"
+      }
+    },
+    "faq_mito": {
+      "hash": "38ef54d436b88893",
+      "texto": {
+        "pregunta": "Myth: This is the first Christian chapel of New Spain.",
+        "respuesta": "Reality: It is a much-repeated version, but undocumented; what is certain is that there has been a church here for centuries."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "coy_17_trotsky_fortaleza",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cbd5d25a466ca617",
+      "texto": "La casa di Trotskij: la fortezza"
+    },
+    "frase_gancho": {
+      "hash": "414f408d98c58117",
+      "texto": "Un esule russo, un attacco notturno e una casa diventata fortezza."
+    },
+    "puente_narrativo": {
+      "hash": "2dd8c6cc99ee3074",
+      "texto": "Entra nello studio, il luogo dove la storia ebbe fine."
+    },
+    "guion_corto": {
+      "hash": "981cdd413960efd7",
+      "texto": "Sei davanti alla casa di Lev Trotskij. Arrivò in Messico nel gennaio del millenovecentotrentasette, con l’asilo del presidente Lázaro Cárdenas, grazie al sostegno di Diego Rivera e Frida Kahlo. Visse prima nella Casa Azul e, dall’aprile del millenovecentotrentanove, in questa casa sulla calle Viena. All’alba del ventiquattro maggio del millenovecentoquaranta, un gruppo armato, con il pittore David Alfaro Siqueiros tra i capi, sparò contro la casa. Trotskij sopravvisse. Poi furono innalzati i muri alti e le torri di guardia che vedi oggi."
+    },
+    "guion_largo": {
+      "hash": "98552b9dcaad4504",
+      "texto": "Sei davanti alla casa di Lev Trotskij, a Coyoacán. Se la guardi da fuori, sembra una fortezza, e ora capirai perché.\n\nTrotskij fu uno dei capi della Rivoluzione russa del millenovecentodiciassette. In seguito entrò in conflitto con Stalin, dovette fuggire e passò per vari paesi. Nel gennaio del millenovecentotrentasette arrivò in Messico con sua moglie, Natalia Sedova. Diego Rivera e Frida Kahlo convinsero il governo di Lázaro Cárdenas a concedere loro asilo politico. Vissero prima nella Casa Azul, e dall’aprile del millenovecentotrentanove, qui, sulla calle Viena.\n\nNel millenovecentotrentanove, Trotskij e Diego Rivera si erano ormai allontanati. I motivi addotti sono disaccordi politici e, secondo alcune versioni, una relazione del russo con Frida.\n\nLa casa smise di essere tranquilla il ventiquattro maggio del millenovecentoquaranta. All’alba, un gruppo armato, travestito da polizia, entrò e sparò contro la casa. Si dice che tra i suoi capi ci fosse il pittore David Alfaro Siqueiros, che lavorava con la polizia segreta sovietica. Trotskij sopravvisse, e suo nipote, che aveva pochi anni, fu colpito a un piede. Una delle guardie del corpo, un giovane statunitense di nome Robert Sheldon Harte, fu rapito e ucciso.\n\nDopo l’attacco, la casa si trasformò. Furono innalzati muri alti e torri di guardia tutto intorno. È quello che vedi ora. Una casa in una strada tranquilla di Coyoacán che dovette proteggersi come un castello.\n\nOggi la casa è un museo, aperto dal venti agosto del millenovecentonovanta, nel cinquantesimo anniversario dell’assassinio. L’ingresso è dall’avenida Río Churubusco. E qui, in strada, vedi solo i muri. Entriamo dallo studio."
+    },
+    "retos_observacion": {
+      "hash": "b3b56ac65c89d2da",
+      "texto": [
+        "Cerca le torri di guardia in cima ai muri",
+        "Osserva lo spessore dei muri di cinta e come si vede la strada da fuori",
+        "Immagina il luogo a quest’ora della notte, più di ottant’anni fa"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e47c8d31fd2a99b7",
+      "texto": {
+        "Arrivo in Messico": "gennaio del millenovecentotrentasette",
+        "Trasferimento in questa casa": "aprile del millenovecentotrentanove",
+        "Primo attacco": "ventiquattro maggio del millenovecentoquaranta",
+        "Museo": "dal millenovecentonovanta"
+      }
+    },
+    "faq_mito": {
+      "hash": "a1559d89ac4ebebb",
+      "texto": {
+        "pregunta": "Mito: Trotskij visse qui da quando arrivò in Messico.",
+        "respuesta": "Realtà: Prima visse nella Casa Azul di Coyoacán; si trasferì in questa casa nell’aprile del millenovecentotrentanove."
+      }
+    }
+  }
+}

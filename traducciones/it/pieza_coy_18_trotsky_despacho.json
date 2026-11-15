@@ -1,0 +1,54 @@
+{
+  "id": "coy_18_trotsky_despacho",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7cc0c7a52c2ecbeb",
+      "texto": "La casa di Trotskij: lo studio"
+    },
+    "frase_gancho": {
+      "hash": "47b64f6966b5bbb1",
+      "texto": "Qui ebbe fine la vita di Trotskij, e il giardino custodisce le sue ceneri."
+    },
+    "puente_narrativo": {
+      "hash": "ce36107cacc0b73f",
+      "texto": "Per chiudere il percorso, prendi un mezzo verso sud, in un luogo che sembra di un altro mondo, fatto di vulcano: l’Anahuacalli."
+    },
+    "guion_corto": {
+      "hash": "f772a396c774797f",
+      "texto": "Questo è il luogo dove terminò la vita di Lev Trotskij. Il venti agosto del millenovecentoquaranta, Ramón Mercader, un agente che si era guadagnato la sua fiducia, lo colpì alla testa con una piccozza. Trotskij morì il giorno dopo, il ventuno agosto, in un ospedale. Nel giardino c’è una stele di pietra, disegnata dall’architetto Juan O’Gorman, che custodisce le sue ceneri e quelle di sua moglie, Natalia Sedova. Sopra di essa sventola una bandiera sovietica."
+    },
+    "guion_largo": {
+      "hash": "9c59b5c8bc292a08",
+      "texto": "Siamo nello studio della casa di Trotskij, e questo è il luogo dove avvenne il suo assassinio. Procedi piano e con rispetto.\n\nDopo l’attacco del maggio del millenovecentoquaranta, Trotskij sapeva che continuavano a cercarlo. Rafforzò la casa, ci furono guardie e torri. Ma l’assassino arrivò per un’altra strada: la fiducia. Ramón Mercader, un agente al servizio di Stalin, si finse un uomo di nome Jacques Mornard e si avvicinò alle persone della cerchia di Trotskij.\n\nIl venti agosto del millenovecentoquaranta, Mercader entrò nello studio con il pretesto di far rivedere un testo a Trotskij. Lo colpì alla testa con una piccozza. Trotskij fu portato in un ospedale e morì il giorno dopo, il ventuno agosto, per la perdita di sangue e lo shock dopo l’intervento.\n\nMercader fu arrestato e passò vent’anni in prigione in Messico.\n\nNel giardino della casa c’è la tomba. È una stele di pietra, disegnata dall’architetto Juan O’Gorman, lo stesso che partecipò all’Anahuacalli. Lì ci sono le ceneri di Trotskij e di sua moglie Natalia Sedova. Sopra la stele sventola una bandiera sovietica.\n\nTrotskij visse in Messico meno di quattro anni. Ma in quel tempo la sua vita si intrecciò con quella di Diego, quella di Frida, con quella del presidente Cárdenas e con la storia mondiale. Coyoacán, il quartiere degli artisti, fu anche l’ultimo rifugio di uno degli esuli più famosi del ventesimo secolo.\n\nEsci dal giardino e magari prenditi un momento per pensarci."
+    },
+    "retos_observacion": {
+      "hash": "ec59593e7a33fd19",
+      "texto": [
+        "Cerca la stele di pietra e la bandiera",
+        "Osserva il giardino e pensa a cosa si vede dallo studio",
+        "Guarda quanti visitatori ci sono e che lingue parlano"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f81e8ee5c22323b5",
+      "texto": {
+        "Data dell’attacco": "venti agosto del millenovecentoquaranta",
+        "Morte": "ventuno agosto del millenovecentoquaranta",
+        "Monumento storico": "decreto del millenovecentottantadue",
+        "Stele": "progetto di Juan O’Gorman"
+      }
+    },
+    "faq_mito": {
+      "hash": "036440636f3b3d9c",
+      "texto": {
+        "pregunta": "Mito: Trotskij morì sul colpo.",
+        "respuesta": "Realtà: Fu ferito il venti agosto e morì il giorno dopo, il ventuno, in un ospedale."
+      }
+    }
+  }
+}

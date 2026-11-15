@@ -1,0 +1,53 @@
+{
+  "id": "coy_05_casa_de_cortes_que_no_fue",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d6ef720c94fc452b",
+      "texto": "A Casa de Cortés que nunca foi de Cortés"
+    },
+    "frase_gancho": {
+      "hash": "341867d6076a5ab5",
+      "texto": "Chama-se “Casa de Cortés”, mas Cortés nunca morou aqui."
+    },
+    "puente_narrativo": {
+      "hash": "4162e949e760d517",
+      "texto": "Caminhe alguns passos até o Museu Nacional de Culturas Populares."
+    },
+    "guion_corto": {
+      "hash": "e8460546d0a0fb05",
+      "texto": "Diante de você está a sede da subprefeitura, que muita gente chama de “a Casa de Cortés”. É um erro muito querido: o edifício é do século dezoito, e Cortés morreu em mil quinhentos e quarenta e sete. Foi erguido por volta de mil setecentos e cinquenta e cinco sobre as antigas Casas Reales, onde também ficava a cadeia do povoado. Desde mil novecentos e vinte e oito aqui funcionam os escritórios do governo local. Na cornija há coiotes de pedra. E circula uma lenda: que aqui foi torturado Cuauhtémoc. Ninguém conseguiu provar, mas continua sendo contada."
+    },
+    "guion_largo": {
+      "hash": "57669d58e072336f",
+      "texto": "Diante de você há um edifício com pórtico de colunas de cantaria e uma fachada simples. É a sede da subprefeitura de Coyoacán, e muita gente a chama de “a Casa de Cortés”. É um nome carinhoso e equivocado. O edifício é do século dezoito, e Hernán Cortés morreu em mil quinhentos e quarenta e sete. Nunca pôs os pés aqui.\n\nOnde ficava então a casa dele? Segundo o INAH, no bairro de La Conchita, a poucos passos daqui. Vamos visitá-la mais adiante.\n\nO que realmente houve neste lugar foram as Casas Reales: o edifício onde se governava o povoado, com a cadeia local. Por volta de mil setecentos e cinquenta e cinco estavam em ruínas. Sob o corregedor Francisco Suescum y Tornería, o arquiteto Bentura de Arellano ergueu a construção que você vê hoje; outras fontes situam a deterioração já em mil setecentos e trinta e cinco. Um pesquisador afirma, além disso, que embaixo há restos pré-hispânicos.\n\nDesde a década de mil oitocentos e cinquenta, quando Coyoacán pertencia ao Estado do México, aqui se instalou o governo do município. Em mil novecentos e vinte e oito, quando o povoado passou a ser uma delegação do Distrito Federal, continuou sendo sua sede. Hoje é a subprefeitura.\n\nOlhe a cornija: tem ameias, e algumas levam coiotes, o animal que dá nome ao povoado. Em mil oitocentos e vinte e nove destruíram o brasão de Cortés que ficava sobre a porta. Em mil novecentos e seis colocou-se na sala do conselho o brasão de Coyoacán, concedido pelo rei Filipe Segundo em vinte e quatro de julho de mil quinhentos e sessenta e um, quando deu ao povoado o título de vila. Em volta leva uma frase em latim: “A fé sem obras é morta”. Nesse mesmo ano, dom Francisco Sosa, que era prefeito de Coyoacán e dá nome a uma das ruas mais famosas do bairro, doou uma cópia datilografada do documento.\n\nDentro há pintura mural, entre elas uma de Aurora Reyes na capela, embora nem sempre esteja aberta ao público.\n\nE uma lenda que não pode faltar. Diz-se que aqui foi torturado Cuauhtémoc, o último tlatoani mexica, para que revelasse onde estava o tesouro do seu povo. É tradição oral. Ninguém conseguiu prová-lo, e por isso o contamos só como lenda. Mas faz parte do que as pessoas contam ao passar diante destas paredes."
+    },
+    "retos_observacion": {
+      "hash": "c54c7b66e6146bb2",
+      "texto": [
+        "Conte as colunas do pórtico",
+        "Localize um coiote na cornija",
+        "Imagine esta sacada cheia de gente a cada quinze de setembro"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e70f43684ae0fa1d",
+      "texto": {
+        "Construção": "século dezoito, por volta de mil setecentos e cinquenta e cinco",
+        "Antes": "Casas Reales e cadeia do povoado",
+        "Brasão de Coyoacán": "Filipe Segundo, vinte e quatro de julho de mil quinhentos e sessenta e um"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e116892d682d760",
+      "texto": {
+        "pregunta": "Mito: Esta foi a casa de Hernán Cortés.",
+        "respuesta": "Realidade: O edifício é do século dezoito; Cortés morreu em mil quinhentos e quarenta e sete e, segundo o INAH, sua casa ficava em La Conchita."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "coy_03_parroquia_san_juan_bautista",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ee4e9147bb5023c3",
+      "texto": "San Juan Bautista: the church that gathers the town"
+    },
+    "frase_gancho": {
+      "hash": "091e65ffa82c9718",
+      "texto": "The church that has watched over the plaza since the sixteenth century and is still full of people."
+    },
+    "puente_narrativo": {
+      "hash": "83d7fbae1c84498c",
+      "texto": "Step out into the garden and walk toward the bandstand, in the center of the plaza."
+    },
+    "guion_corto": {
+      "hash": "2b52a46d489928de",
+      "texto": "This is the parish church of San Juan Bautista. Its story begins in the sixteenth century with the first friars: Franciscans first and, in fifteen twenty-nine, Dominicans, who founded the convent here. It was church and convent beside the atrium you just crossed. Over the centuries it has been repaired and retouched several times, and the earthquake of two thousand seventeen damaged the tower again. Even so, it still does what it did from the start: it gathers the town. Notice those who come in to pray and those who simply sit for a while in the shade. This church is not a monument standing still: it is the heart of Coyoacán."
+    },
+    "guion_largo": {
+      "hash": "33dc0f0b20f8fc29",
+      "texto": "You are at the parish church of San Juan Bautista. Before I tell you its history, look at how it is used today. Some people come in to pray, some light a votive candle, some sit on a bench for a while to escape the noise of the plaza. It is a church that is still alive, and that is the first thing to know about it.\n\nThe history of this place involves two religious orders. The first friars to arrive in Coyoacán were Franciscans, at the end of fifteen twenty-four or the beginning of fifteen twenty-five, with Fray Martín de Valencia. In the first months of fifteen twenty-nine the Dominicans arrived, the Order of Preachers, and built their convent dedicated to San Juan Bautista, the Forerunner, a little east of the Franciscans' house. Around fifteen thirty-four or thirty-five the Franciscans withdrew from Coyoacán. Since the twentieth century, the convent has again been in Franciscan hands.\n\nThe construction took a long time. Around fifteen fifty-one the open chapel was built with its portal. By fifteen sixty, the basilica-plan church was already finished, under the direction of Fray Juan de la Cruz. On the frieze of the church's façade there is an engraved date: April fifteen eighty-two. But the convent was still unfinished in fifteen eighty-eight, when an earthquake brought down the roof, and even in sixteen oh three the church still needed to be covered.\n\nThe tower is from the eighteenth century. It has a square first level and an octagonal second level, and it was crowned by a dome with a lantern and cross. On the nineteenth of September, two thousand seventeen, the earthquake damaged the second level and brought down the dome, the lantern and the cross. That is why, among ancient stones, you will also see more recent repairs. Each one tells that someone decided this church was worth preserving.\n\nLook at how the building is made. The walls are thick, designed to last and to hold up heavy roofs. The façade is sober, without the ornament of the atrium gate.\n\nIn the sixteenth century, these churches were where the community came together: the saint's festivals were celebrated, people were taught, married and bid farewell. Today something similar still happens. The plaza outside exists in large part because of this church.\n\nWhen you leave, stop for a moment in the atrium and look toward the plaza. There another story begins: that of a garden, a bandstand and two bronze coyotes."
+    },
+    "retos_observacion": {
+      "hash": "fd3cc74420fe4ed4",
+      "texto": [
+        "Find the bell tower and notice the second level, the octagonal one",
+        "Take in the thickness of the walls with your eyes",
+        "Watch who comes in and who just sits"
+      ]
+    },
+    "especificaciones": {
+      "hash": "df3f710aadf3ce82",
+      "texto": {
+        "Dedication": "San Juan Bautista",
+        "Convent founded by the Dominicans": "fifteen twenty-nine",
+        "First friars in Coyoacán": "Franciscans, around fifteen twenty-five",
+        "Date on the frieze of the façade": "April fifteen eighty-two",
+        "Tower": "eighteenth century",
+        "Recent damage": "earthquake of two thousand seventeen"
+      }
+    },
+    "faq_mito": {
+      "hash": "9d26e6e66b1b5c87",
+      "texto": {
+        "pregunta": "Myth: San Juan Bautista was always a Franciscan church.",
+        "respuesta": "Reality: The Franciscans arrived first, but the convent was founded by the Dominicans in fifteen twenty-nine; Franciscans have run it again since the twentieth century."
+      }
+    }
+  }
+}

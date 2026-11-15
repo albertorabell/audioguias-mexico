@@ -1,0 +1,54 @@
+{
+  "id": "coy_04_plaza_kiosco_coyotes",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0a980b13b4d15c9b",
+      "texto": "La piazza, il chiosco e i coyote"
+    },
+    "frase_gancho": {
+      "hash": "2cac5f3f4c8484bb",
+      "texto": "Il centro del paese: un chiosco, due coyote di bronzo e vita a qualsiasi ora."
+    },
+    "puente_narrativo": {
+      "hash": "825c52b3ba9f802a",
+      "texto": "Guarda verso l’edificio con le colonne che chiude la piazza: è la sede del municipio."
+    },
+    "guion_corto": {
+      "hash": "104d5ad93890e061",
+      "texto": "Sei nel centro di Coyoacán, tra due giardini vicini: l’Hidalgo e il Centenario. Al centro c’è il chiosco, in stile francese, con struttura di ferro. Una tradizione dice che fu un dono di Porfirio Díaz per il Centenario. Di lato, la fontana dei coyote: due animali di bronzo che danno al paese il nome e il simbolo. Osserva come viene usato questo spazio. Ci sono famiglie, musicisti, venditori, gente che legge e gente che si limita a guardare. È una piazza di paese che non ha cambiato mestiere: continua a essere il luogo dove incontrarsi."
+    },
+    "guion_largo": {
+      "hash": "51b3f74a8e6322b6",
+      "texto": "Sei nel centro di Coyoacán. Se chiudi gli occhi un momento, ascolterai la piazza: passi sulle piastrelle, bambini che corrono, qualcuno che suona, il fischio di un venditore di palloncini. Questo è il cuore del paese, e funziona come da molto tempo: qui si viene per incontrarsi.\n\nSono due giardini vicini, l’Hidalgo e il Centenario, che nella pratica si sentono come un’unica piazza. Il Centenario, si dice, occupa parte dell’antico atrio della chiesa, anche se questo lo stiamo ancora verificando.\n\nAl centro c’è il chiosco. È in stile francese e ha una struttura di ferro. Una tradizione racconta che fu un dono di Porfirio Díaz in occasione del Centenario. Diverse fonti ripetono questa versione, ma nessuno ha mostrato il documento originale, quindi la raccontiamo per quello che è: una tradizione. Dicono anche che abbia una cupola di vetrate colorate e un’aquila di bronzo. Fai attenzione a questi dettagli quando ti avvicini.\n\nDi lato c’è una fontana con due coyote di bronzo. È opera dello scultore Gabriel Ponzanelli, ed è stata installata all’inizio degli anni ottanta. I coyote ricordano il nome del paese, che significa “luogo dei coyote”. In una zona che da secoli scrive la sua storia nella pietra, il bronzo è un promemoria recente di dove viene il nome.\n\nOra guarda la gente. In piazza convivono famiglie a passeggio, artisti che vendono le proprie opere, coppie sulle panchine, studenti con i libri e turisti con le macchine fotografiche. È questo che ha fatto di Coyoacán, fin dagli anni trenta, il luogo preferito di pittori e scrittori: non ha mai smesso di essere un posto dove la gente si ferma a chiacchierare.\n\nC’è una ragione per cui tutto questo funziona. Dal millenovecentotrentaquattro la zona è protetta come tipica e pittoresca. Non si tratta di farla sembrare bella, ma di continuare a usarla. Le piazze di paese muoiono quando diventano musei, e questa è ancora piena.\n\nSiediti un momento. Osserva. Poi proseguiamo, perché proprio di fronte c’è un edificio che quasi tutti chiamano “la Casa di Cortés”, e che non lo è."
+    },
+    "retos_observacion": {
+      "hash": "10ec5191cf008328",
+      "texto": [
+        "Cerca l’aquila e le vetrate del chiosco",
+        "Trova i due coyote di bronzo",
+        "Conta quante attività diverse ci sono contemporaneamente in piazza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eed5f26ed5355ede",
+      "texto": {
+        "Stile del chiosco": "francese",
+        "Struttura": "ferro",
+        "Fontana dei coyote": "bronzo, opera di Gabriel Ponzanelli",
+        "Giardini": "Hidalgo e Centenario"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e0ab291085a5c61",
+      "texto": {
+        "pregunta": "Mito: Il chiosco fu regalato nel millenovecento per il Centenario dell’Indipendenza.",
+        "respuesta": "Realtà: Il Centenario fu nel millenovecentodieci; la versione di Porfirio Díaz è una tradizione senza documento."
+      }
+    }
+  }
+}

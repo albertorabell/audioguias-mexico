@@ -1,0 +1,54 @@
+{
+  "id": "coy_17_trotsky_fortaleza",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cbd5d25a466ca617",
+      "texto": "A casa de Trotski: a fortaleza"
+    },
+    "frase_gancho": {
+      "hash": "414f408d98c58117",
+      "texto": "Um exílado russo, um ataque noturno e uma casa que virou fortaleza."
+    },
+    "puente_narrativo": {
+      "hash": "2dd8c6cc99ee3074",
+      "texto": "Entre no escritório, o lugar onde a história terminou."
+    },
+    "guion_corto": {
+      "hash": "981cdd413960efd7",
+      "texto": "Você está diante da casa de Leon Trotski. Chegou ao México em janeiro de mil novecentos e trinta e sete, com refúgio concedido pelo presidente Lázaro Cárdenas, graças ao apoio de Diego Rivera e Frida Kahlo. Viveu primeiro na Casa Azul e, desde abril de mil novecentos e trinta e nove, nesta casa da rua Viena. Na madrugada de vinte e quatro de maio de mil novecentos e quarenta, um grupo armado, com o pintor David Alfaro Siqueiros entre seus líderes, atirou contra a casa. Trotski sobreviveu. Depois foram erguidos os muros altos e as torres de vigilância que você vê hoje."
+    },
+    "guion_largo": {
+      "hash": "98552b9dcaad4504",
+      "texto": "Você está diante da casa de Leon Trotski, em Coyoacán. Vista de fora, parece uma fortaleza, e já vai entender por quê.\n\nTrotski foi um dos líderes da Revolução Russa de mil novecentos e dezessete. Depois ficou em conflito com Stalin, teve que fugir e passou por vários países. Em janeiro de mil novecentos e trinta e sete chegou ao México com sua esposa, Natalia Sedova. Diego Rivera e Frida Kahlo convenceram o governo de Lázaro Cárdenas a conceder-lhes refúgio político. Viveram primeiro na Casa Azul, e desde abril de mil novecentos e trinta e nove, aqui, na rua Viena.\n\nEm mil novecentos e trinta e nove, Trotski e Diego Rivera já tinham se afastado. Os motivos apontados são desacordos políticos e, segundo algumas versões, uma relação do russo com Frida.\n\nA casa deixou de ser tranquila em vinte e quatro de maio de mil novecentos e quarenta. Naquela madrugada, um grupo armado, disfarçado de policiais, entrou e atirou contra a casa. Diz-se que entre seus líderes estava o pintor David Alfaro Siqueiros, que trabalhava com a polícia secreta soviética. Trotski sobreviveu, e seu neto, que tinha alguns anos, levou um tiro no pé. Um dos guarda-costas, um jovem norte-americano chamado Robert Sheldon Harte, foi sequestrado e assassinado.\n\nDepois do ataque, a casa se transformou. Foram erguidos muros altos e torres de vigilância ao redor. É isso que você vê agora. Uma casa numa rua tranquila de Coyoacán que teve que se proteger como um castelo.\n\nHoje a casa é um museu, aberto desde vinte de agosto de mil novecentos e noventa, no qüinquagésimo aniversário do assassinato. A entrada fica pela avenida Río Churubusco. E aqui, na rua, você só vê os muros. Vamos entrar pelo escritório."
+    },
+    "retos_observacion": {
+      "hash": "b3b56ac65c89d2da",
+      "texto": [
+        "Procure as torres de vigilância no alto dos muros",
+        "Observe a espessura dos muros e como a rua se vê de fora",
+        "Imagine o lugar a esta hora da noite, há mais de oitenta anos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e47c8d31fd2a99b7",
+      "texto": {
+        "Chegada ao México": "janeiro de mil novecentos e trinta e sete",
+        "Mudança para esta casa": "abril de mil novecentos e trinta e nove",
+        "Primeiro ataque": "vinte e quatro de maio de mil novecentos e quarenta",
+        "Museu": "desde mil novecentos e noventa"
+      }
+    },
+    "faq_mito": {
+      "hash": "a1559d89ac4ebebb",
+      "texto": {
+        "pregunta": "Mito: Trotski viveu aqui desde que chegou ao México.",
+        "respuesta": "Realidade: Primeiro viveu na Casa Azul de Coyoacán; mudou-se para esta casa em abril de mil novecentos e trinta e nove."
+      }
+    }
+  }
+}

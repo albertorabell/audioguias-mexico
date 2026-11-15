@@ -1,0 +1,54 @@
+{
+  "id": "coy_08_casa_colorada",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dfba479fa4e12890",
+      "texto": "Casa Colorada: dom, który nie był domem Malinche"
+    },
+    "frase_gancho": {
+      "hash": "25f89ec761e2bcf2",
+      "texto": "Ma sławę domu Malinche, ale kryje inną historię, bliższą malarstwu."
+    },
+    "puente_narrativo": {
+      "hash": "963133767d0111c1",
+      "texto": "Przejdź kilka kroków do placu La Conchita, gdzie stoi kaplica."
+    },
+    "guion_corto": {
+      "hash": "25fad29bc8418713",
+      "texto": "Stoisz przed Casa Colorada, na rogu Higuera i Vallarta. Wielu ludzi nazywa ją domem Malinche, ale rejestry INAH mówią co innego: był to obraje, manufaktura przędzenia i tkania, która nazywała się La Concepción. Jej mury z czerwonego tezontle dały jej nazwę. W tysiąc dziewięćset sześćdziesiątym dziewiątym roku kupili ją dwaj malarze, Arturo García Bustos i Rina Lazo, i od tamtej pory jest domem artystów. Dziś to dom prywatny, więc podziwia się go z zewnątrz. Spójrz na mury, żelazne balkony i kamienne rzygacze."
+    },
+    "guion_largo": {
+      "hash": "faa058bac1b5c4d5",
+      "texto": "Jesteś na rogu ulic Higuera i Vallarta, przed dwupiętrowym domem o czerwonawych murach. To Casa Colorada. Wielu ludzi zna ją jako dom Malinche, a niektórzy opowiadają, że jej duch wciąż tu spaceruje. Ale karta INAH mówi, że ta atrybucja jest błędna.\n\nWiadomo natomiast, że to miejsce było obraje: pracowni, w której przedzono i tkano. Nazywało się La Concepción, tak jak kaplica kilka kroków dalej, i istniało już w tysiąc siedemset pięćdziesiątym piątym roku, gdy należało do człowieka o imieniu Sebastián de Soto. Parter może pochodzić z siedemnastego wieku, a reszta rozbudowywana była z biegiem lat.\n\nSpójrz na mury. Są z kamienia i z tezontle, czerwonego kamienia wulkanicznego, którego używano w całym mieście. W pewnym momencie pomalowano je na czerwono i stąd nazwa Casa Colorada. Tynk w niektórych miejscach odpadł i ukazuje różne etapy budowy. Na pierwszym piętrze są żelazne balkony, a wysoko kamienne rzygacze odprowadzające deszcz.\n\nW dwudziestym wieku dom kilka razy zmieniał właścicieli. W tysiąc dziewięćset trzydziestym dziewiątym roku nakazano jego ochronę. W tysiąc dziewięćset pięćdziesiątym siódmym roku odnowiono jego fasadę. A w tysiąc dziewięćset sześćdziesiątym dziewiątym roku kupili go dwaj malarze, Arturo García Bustos i Rina Lazo. García Bustos był jednym z Fridos, uczniów Fridy Kahlo, a Lazo była asystentką Diega Rivery. Dom, o którym mówi się, że należał do Malinche, stał się domem dwóch artystów z kręgu Fridy i Diega.\n\nTo dom prywatny, więc nie można wejść. Ale fasada jest warta uwagi, zwłaszcza po południu, gdy światło pada na tezontle."
+    },
+    "retos_observacion": {
+      "hash": "c52e5d6e3b3fea50",
+      "texto": [
+        "Zwróć uwagę na czerwony kolor murów i znajdź, gdzie widać tezontle",
+        "Policz żelazne balkony pierwszego piętra",
+        "Poszukaj kamiennych rzygaczy w górnej części"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6893ae3ba5ca1b3d",
+      "texto": {
+        "Adres": "ulica Higuera, róg Vallarta",
+        "Pierwotne przeznaczenie": "obraje przędzenia i tkania La Concepción",
+        "Istnieje od": "co najmniej tysiąc siedemset pięćdziesiąty piąty",
+        "Obecnie": "dom prywatny"
+      }
+    },
+    "faq_mito": {
+      "hash": "b613897120964857",
+      "texto": {
+        "pregunta": "Mit: To był dom Malinche.",
+        "respuesta": "Rzeczywistość: INAH uważa tę atrybucję za błędną; był to obraje z okresu wicekrólestwa."
+      }
+    }
+  }
+}

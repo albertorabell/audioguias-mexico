@@ -1,0 +1,53 @@
+{
+  "id": "coy_05_casa_de_cortes_que_no_fue",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d6ef720c94fc452b",
+      "texto": "Das Haus von Cortés, das nie Cortés gehörte"
+    },
+    "frase_gancho": {
+      "hash": "341867d6076a5ab5",
+      "texto": "Es heißt „Haus von Cortés“, aber Cortés hat nie hier gewohnt."
+    },
+    "puente_narrativo": {
+      "hash": "4162e949e760d517",
+      "texto": "Geh ein paar Schritte zum Nationalmuseum der Volkskulturen."
+    },
+    "guion_corto": {
+      "hash": "e8460546d0a0fb05",
+      "texto": "Vor dir steht der Sitz der Bezirksverwaltung, den viele „das Haus von Cortés“ nennen. Es ist ein sehr geliebter Irrtum: Das Gebäude stammt aus dem achtzehnten Jahrhundert, und Cortés starb im Jahr fünfzehnhundertsiebenundvierzig. Es wurde um siebzehnhundertfünfundfünfzig auf den alten Casas Reales errichtet, wo auch das Dorfgefängnis lag. Seit neunzehnhundertachtundzwanzig befinden sich hier die Büros der lokalen Regierung. Am Gesims sitzen steinerne Kojoten. Und es geht eine Legende um: dass hier Cuauhtémoc gefoltert wurde. Niemand konnte es beweisen, aber man erzählt es weiter."
+    },
+    "guion_largo": {
+      "hash": "57669d58e072336f",
+      "texto": "Vor dir steht ein Gebäude mit einem Portikus aus Natursteinkolonnen und einer schlichten Fassade. Es ist der Sitz der Bezirksverwaltung von Coyoacán, und viele nennen es „das Haus von Cortés“. Das ist ein liebevoller und falscher Name. Das Gebäude stammt aus dem achtzehnten Jahrhundert, und Hernán Cortés starb im Jahr fünfzehnhundertsiebenundvierzig. Er hat nie einen Fuß hierher gesetzt.\n\nWo stand dann sein Haus? Laut INAH im Viertel La Conchita, ein paar Schritte von hier. Wir besuchen es später.\n\nWas es an diesem Ort tatsächlich gab, waren die Casas Reales: das Gebäude, in dem das Dorf regiert wurde, mit dem lokalen Gefängnis. Um siebzehnhundertfünfundfünfzig lagen sie in Trümmern. Unter dem Corregidor Francisco Suescum y Tornería errichtete der Architekt Bentura de Arellano den Bau, den du heute siehst; andere Quellen datieren den Verfall schon auf siebzehnhundertfünfunddreißig. Ein Forscher behauptet außerdem, darunter lägen prähispanische Überreste.\n\nSeit den fünfziger Jahren des neunzehnten Jahrhunderts, als Coyoacán zum Bundesstaat Mexiko gehörte, saß hier die Regierung der Gemeinde. Im Jahr neunzehnhundertachtundzwanzig, als das Dorf zu einer Delegation des Bundesdistrikts wurde, blieb es ihr Sitz. Heute ist es die Bezirksverwaltung.\n\nSieh dir das Gesims an: Es hat Zinnen, und einige tragen Kojoten, das Tier, das dem Dorf seinen Namen gibt. Im Jahr achtzehnhundertneunundzwanzig wurde das Wappen von Cortés zerstört, das über der Tür hing. Im Jahr neunzehnhundertsechs wurde im Ratssaal das Wappen von Coyoacán angebracht, verliehen von König Philipp dem Zweiten am vierundzwanzigsten Juli fünfzehnhunderteinundsechzig, als er dem Dorf den Titel einer Stadt gab. Ringsum trägt es einen lateinischen Satz: „Der Glaube ohne die Werke ist tot.“ Im selben Jahr schenkte Don Francisco Sosa, der Präfekt von Coyoacán war und nach dem eine der berühmtesten Straßen des Viertels benannt ist, eine maschinengeschriebene Kopie des Dokuments.\n\nDrinnen gibt es Wandmalerei, darunter eine von Aurora Reyes in der Kapelle, auch wenn sie nicht immer für die Öffentlichkeit geöffnet ist.\n\nUnd eine Legende, die nicht fehlen darf. Man sagt, hier sei Cuauhtémoc, der letzte Tlatoani der Mexica, gefoltert worden, damit er verriet, wo der Schatz seines Volkes lag. Es ist mündliche Überlieferung. Niemand konnte es beweisen, und deshalb erzählen wir es nur als Legende. Aber es gehört zu dem, was die Leute erzählen, wenn sie an diesen Wänden vorbeigehen."
+    },
+    "retos_observacion": {
+      "hash": "c54c7b66e6146bb2",
+      "texto": [
+        "Zähl die Säulen des Portikus",
+        "Such einen Kojoten am Gesims",
+        "Stell dir diesen Balkon jedes Jahr am fünfzehnten September voller Menschen vor"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e70f43684ae0fa1d",
+      "texto": {
+        "Bau": "achtzehntes Jahrhundert, um siebzehnhundertfünfundfünfzig",
+        "Zuvor": "Casas Reales und Dorfgefängnis",
+        "Wappen von Coyoacán": "Philipp der Zweite, vierundzwanzigster Juli fünfzehnhunderteinundsechzig"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e116892d682d760",
+      "texto": {
+        "pregunta": "Mythos: Das war das Haus von Hernán Cortés.",
+        "respuesta": "Wirklichkeit: Das Gebäude stammt aus dem achtzehnten Jahrhundert; Cortés starb fünfzehnhundertsiebenundvierzig, und laut INAH stand sein Haus in La Conchita."
+      }
+    }
+  }
+}

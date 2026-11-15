@@ -1,0 +1,55 @@
+{
+  "id": "coy_19_anahuacalli_volcan_edificio",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9ae42a1377c03ae",
+      "texto": "Anahuacalli: the building made of volcano"
+    },
+    "frase_gancho": {
+      "hash": "208ec33da0a8d41a",
+      "texto": "A museum built from the stone of a volcano, to keep the art of the ancient Mexicans."
+    },
+    "puente_narrativo": {
+      "hash": "ff57f2c727ca0061",
+      "texto": "Go into the museum and descend to the level of the underworld."
+    },
+    "guion_corto": {
+      "hash": "43914bbfc5ac38a9",
+      "texto": "In front of you is the Anahuacalli, a building that looks like a temple. Diego Rivera conceived it to hold his collection of pre-Hispanic art. It is made of volcanic stone from the Xitle, a volcano that erupted about two thousand years ago and covered this region with lava. That lava became the Pedregal. Construction began in nineteen forty-two, but Diego died in nineteen fifty-seven without seeing it finished. The museum opened to the public on the eighteenth of September, nineteen sixty-four."
+    },
+    "guion_largo": {
+      "hash": "d9c22d0f052f6533",
+      "texto": "In front of you is a building that looks like it came from another time. It is the Anahuacalli, and to understand what it is, you have to start with the ground under your feet.\n\nAbout two thousand years ago, the Xitle volcano erupted and the lava covered a good part of the south of what is now Mexico City. When it cooled, that lava became a region of black, sharp stone called the Pedregal. The museum rises right on that terrain.\n\nDiego Rivera had been gathering clay figures, vessels and pre-Hispanic sculptures for many years, and he wanted a building to keep them. He conceived it as a kind of modern temple. The name is of Nahuatl origin and has been translated as house surrounded by water. He wanted it to be made of the same stone as the place. That is why the walls are of volcanic stone from the Xitle, extracted on the site itself. The windows, on the other hand, are amber onyx, which lets a warm light through.\n\nConstruction began in nineteen forty-two, in San Pablo Tepetlapa, and was not finished until nineteen sixty-three. Diego died in nineteen fifty-seven, before seeing it finished. His daughter Ruth Rivera, the architects Juan O'Gorman and Heriberto Pagelson and the collector Dolores Olmedo finished it. The museum was inaugurated on the eighteenth of September, nineteen sixty-four.\n\nAt the entrance, look at the façade: large blocks of black stone, with shapes that recall pyramids without copying any one in particular. Around it there is an ecological reserve of about twenty-eight thousand square meters, with vegetation native to the Pedregal.\n\nThis building is not a copy of anything. It is the image Diego had of what a museum of ancient art should be: made of the land where it stands, and with the feeling of entering another world."
+    },
+    "retos_observacion": {
+      "hash": "ff63f0bf823679b4",
+      "texto": [
+        "Touch the black stone with your eyes and look for its texture",
+        "Find the amber onyx windows and notice what light they let through",
+        "Look at the surrounding land: do you see the vegetation native to the Pedregal?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "490e3c268d46ca8d",
+      "texto": {
+        "Construction": "from nineteen forty-two to nineteen sixty-three",
+        "Inauguration": "September eighteenth, nineteen sixty-four",
+        "Material": "volcanic stone from the Xitle",
+        "Windows": "amber onyx",
+        "Ecological reserve": "about twenty-eight thousand square meters"
+      }
+    },
+    "faq_mito": {
+      "hash": "59ad3c4fccade6ae",
+      "texto": {
+        "pregunta": "Myth: The Anahuacalli is an original pre-Hispanic temple.",
+        "respuesta": "Reality: It is a twentieth-century building, designed by Diego Rivera, inspired by pre-Hispanic architecture."
+      }
+    }
+  }
+}

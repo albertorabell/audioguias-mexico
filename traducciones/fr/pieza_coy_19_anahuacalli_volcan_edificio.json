@@ -1,0 +1,55 @@
+{
+  "id": "coy_19_anahuacalli_volcan_edificio",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9ae42a1377c03ae",
+      "texto": "Anahuacalli : le bâtiment fait de volcan"
+    },
+    "frase_gancho": {
+      "hash": "208ec33da0a8d41a",
+      "texto": "Un musée construit avec la pierre d'un volcan, pour garder l'art des anciens Mexicains."
+    },
+    "puente_narrativo": {
+      "hash": "ff57f2c727ca0061",
+      "texto": "Entre dans le musée et descends au niveau du monde souterrain."
+    },
+    "guion_corto": {
+      "hash": "43914bbfc5ac38a9",
+      "texto": "Devant toi se trouve l'Anahuacalli, un bâtiment qui ressemble à un temple. Diego Rivera l'a conçu pour garder sa collection d'art préhispanique. Il est fait de pierre volcanique du Xitle, un volcan qui est entré en éruption il y a environ deux mille ans et a couvert cette région de lave. Cette lave est devenue le Pedregal. La construction a commencé en dix-neuf cent quarante-deux, mais Diego est mort en dix-neuf cent cinquante-sept sans la voir terminée. Le musée a ouvert au public le dix-huit septembre dix-neuf cent soixante-quatre."
+    },
+    "guion_largo": {
+      "hash": "d9c22d0f052f6533",
+      "texto": "Devant toi se trouve un bâtiment qui semble sorti d'un autre temps. C'est l'Anahuacalli, et pour comprendre ce que c'est, il faut commencer par le sol que tu foules.\n\nIl y a environ deux mille ans, le volcan Xitle est entré en éruption et la lave a couvert une bonne partie du sud de ce qui est aujourd'hui la ville de Mexico. En refroidissant, cette lave est devenue une région de pierre noire et tranchante appelée le Pedregal. Le musée s'élève exactement sur ce terrain.\n\nDiego Rivera rassemblait depuis de nombreuses années des figurines d'argile, des vases et des sculptures préhispaniques, et il voulait un bâtiment pour les garder. Il l'a conçu comme une sorte de temple moderne. Le nom est d'origine nahuatl et a été traduit par maison entourée d'eau. Il a voulu qu'il soit fait de la même pierre que le lieu. C'est pourquoi les murs sont en pierre volcanique du Xitle, extraite sur le terrain même. Les fenêtres, en revanche, sont en onyx ambré, qui laisse passer une lumière chaude.\n\nLa construction a commencé en dix-neuf cent quarante-deux, à San Pablo Tepetlapa, et ne s'est terminée qu'en dix-neuf cent soixante-trois. Diego est mort en dix-neuf cent cinquante-sept, avant de la voir terminée. Sa fille Ruth Rivera, les architectes Juan O'Gorman et Heriberto Pagelson et la collectionneuse Dolores Olmedo l'ont achevée. Le musée a été inauguré le dix-huit septembre dix-neuf cent soixante-quatre.\n\nÀ l'entrée, regarde la façade : de grands blocs de pierre noire, avec des formes qui rappellent les pyramides sans en copier aucune en particulier. Autour, il y a une réserve écologique d'environ vingt-huit mille mètres carrés, avec une végétation propre au Pedregal.\n\nCe bâtiment n'est la copie de rien. C'est l'image que Diego avait de ce que devait être un musée d'art ancien : fait de la terre où il se trouve, et avec la sensation d'entrer dans un autre monde."
+    },
+    "retos_observacion": {
+      "hash": "ff63f0bf823679b4",
+      "texto": [
+        "Touche du regard la pierre noire et cherche sa texture",
+        "Cherche les fenêtres d'onyx ambré et regarde quelle lumière elles laissent passer",
+        "Regarde le terrain autour : vois-tu la végétation propre au Pedregal ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "490e3c268d46ca8d",
+      "texto": {
+        "Construction": "de dix-neuf cent quarante-deux à dix-neuf cent soixante-trois",
+        "Inauguration": "dix-huit septembre dix-neuf cent soixante-quatre",
+        "Matériau": "pierre volcanique du Xitle",
+        "Fenêtres": "onyx ambré",
+        "Réserve écologique": "environ vingt-huit mille mètres carrés"
+      }
+    },
+    "faq_mito": {
+      "hash": "59ad3c4fccade6ae",
+      "texto": {
+        "pregunta": "Mythe : L'Anahuacalli est un temple préhispanique d'origine.",
+        "respuesta": "Réalité : C'est un bâtiment du vingtième siècle, conçu par Diego Rivera, inspiré de l'architecture préhispanique."
+      }
+    }
+  }
+}

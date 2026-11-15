@@ -1,0 +1,54 @@
+{
+  "id": "coy_08_casa_colorada",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dfba479fa4e12890",
+      "texto": "La Casa Colorada : la maison qui n'a pas été celle de la Malinche"
+    },
+    "frase_gancho": {
+      "hash": "25f89ec761e2bcf2",
+      "texto": "Elle a la réputation d'être la maison de la Malinche, mais elle garde une histoire différente et plus proche de la peinture."
+    },
+    "puente_narrativo": {
+      "hash": "963133767d0111c1",
+      "texto": "Marche quelques pas vers la place de La Conchita, où se trouve la chapelle."
+    },
+    "guion_corto": {
+      "hash": "25fad29bc8418713",
+      "texto": "Tu es devant la Casa Colorada, au coin de Higuera et Vallarta. Beaucoup de gens l'appellent la maison de la Malinche, mais les registres de l'INAH disent autre chose : c'était un obraje, une manufacture de filage et de tissage, qui s'appelait La Concepción. Ses murs de tezontle rouge lui ont donné son nom. En dix-neuf cent soixante-neuf, deux peintres l'ont achetée, Arturo García Bustos et Rina Lazo, et depuis elle est une maison d'artistes. Aujourd'hui c'est une maison privée, alors on l'admire de l'extérieur. Regarde les murs, les balcons de fer et les gargouilles de pierre."
+    },
+    "guion_largo": {
+      "hash": "faa058bac1b5c4d5",
+      "texto": "Tu es au coin des rues Higuera et Vallarta, devant une maison à deux étages aux murs rougeâtres. C'est la Casa Colorada. Beaucoup de gens la connaissent comme la maison de la Malinche, et certains racontent que son fantôme s'y promène encore. Mais la fiche de l'INAH dit que cette attribution est erronée.\n\nCe que l'on sait, c'est que ce lieu fut un obraje : un atelier où l'on filait et tissait. Il s'appelait La Concepción, comme la chapelle qui se trouve à quelques pas, et il existait déjà en dix-sept cent cinquante-cinq, quand il appartenait à un homme nommé Sebastián de Soto. Le rez-de-chaussée peut dater du dix-septième siècle, et le reste s'est agrandi au fil des ans.\n\nRegarde les murs. Ils sont en pierre et en tezontle, la pierre volcanique rouge utilisée dans toute la ville. À un moment, ils ont été peints en rouge, et c'est de là que vient le nom de Casa Colorada. L'enduit est tombé par endroits et laisse voir les différentes étapes de la construction. Au premier étage, il y a des balcons de fer, et en haut, des gargouilles de pierre pour évacuer la pluie.\n\nAu vingtième siècle, la maison a changé plusieurs fois de mains. En dix-neuf cent trente-neuf, on a ordonné de la conserver. En dix-neuf cent cinquante-sept, sa façade a été restaurée. Et en dix-neuf cent soixante-neuf, deux peintres l'ont achetée, Arturo García Bustos et Rina Lazo. García Bustos fut l'un des Fridos, les élèves de Frida Kahlo, et Lazo fut assistante de Diego Rivera. Une maison dont on dit qu'elle appartint à la Malinche a fini par être le foyer de deux artistes du cercle de Frida et Diego.\n\nC'est une maison privée, alors on ne peut pas y entrer. Mais la façade vaut le coup d'œil, surtout en milieu d'après-midi, quand la lumière frappe le tezontle."
+    },
+    "retos_observacion": {
+      "hash": "c52e5d6e3b3fea50",
+      "texto": [
+        "Remarque la couleur rouge des murs et cherche où l'on voit le tezontle",
+        "Compte les balcons de fer du premier étage",
+        "Cherche les gargouilles de pierre en haut"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6893ae3ba5ca1b3d",
+      "texto": {
+        "Adresse": "rue Higuera, angle Vallarta",
+        "Usage d'origine": "obraje de filage et de tissage La Concepción",
+        "Existe depuis": "au moins dix-sept cent cinquante-cinq",
+        "Usage actuel": "maison privée"
+      }
+    },
+    "faq_mito": {
+      "hash": "b613897120964857",
+      "texto": {
+        "pregunta": "Mythe : C'était la maison de la Malinche.",
+        "respuesta": "Réalité : L'INAH juge cette attribution erronée ; c'était un obraje de la période vice-royale."
+      }
+    }
+  }
+}

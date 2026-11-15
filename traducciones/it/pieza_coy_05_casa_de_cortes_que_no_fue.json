@@ -1,0 +1,53 @@
+{
+  "id": "coy_05_casa_de_cortes_que_no_fue",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d6ef720c94fc452b",
+      "texto": "La Casa di Cortés che non fu mai di Cortés"
+    },
+    "frase_gancho": {
+      "hash": "341867d6076a5ab5",
+      "texto": "Si chiama “Casa di Cortés”, ma Cortés non ci ha mai vissuto."
+    },
+    "puente_narrativo": {
+      "hash": "4162e949e760d517",
+      "texto": "Cammina qualche passo verso il Museo Nazionale delle Culture Popolari."
+    },
+    "guion_corto": {
+      "hash": "e8460546d0a0fb05",
+      "texto": "Davanti a te c’è la sede del municipio, che molta gente chiama “la Casa di Cortés”. È un errore molto amato: l’edificio è del diciottesimo secolo, e Cortés morì nel millecinquecentoquarantasette. Fu innalzato verso il millesettecentocinquantacinque sulle antiche Case Reali, dove si trovava anche la prigione del paese. Dal millenovecentoventotto qui hanno sede gli uffici del governo locale. Sulla cornice ci sono coyote di pietra. E circola una leggenda: che qui sia stato torturato Cuauhtémoc. Nessuno ha potuto provarlo, ma continua a essere raccontata."
+    },
+    "guion_largo": {
+      "hash": "57669d58e072336f",
+      "texto": "Davanti a te c’è un edificio con un portico a colonne di pietra da taglio e una facciata semplice. È la sede del municipio di Coyoacán, e molta gente la chiama “la Casa di Cortés”. È un nome affettuoso e sbagliato. L’edificio è del diciottesimo secolo, e Hernán Cortés morì nel millecinquecentoquarantasette. Non vi mise mai piede.\n\nDov’era allora la sua casa? Secondo l’INAH, nel quartiere di La Conchita, a pochi passi da qui. La visiteremo più avanti.\n\nQuello che c’era davvero in questo sito erano le Case Reali: l’edificio da cui si governava il paese, con la prigione locale. Verso il millesettecentocinquantacinque erano in rovina. Sotto il corregidor Francisco Suescum y Tornería, l’architetto Bentura de Arellano innalzò la costruzione che vedi oggi; altre fonti collocano il degrado già dal millesettecentotrentacinque. Un ricercatore afferma inoltre che sotto ci sono resti preispanici.\n\nDal decennio del milleottocentocinquanta, quando Coyoacán apparteneva allo Stato del Messico, qui si insediò il governo del comune. Nel millenovecentoventotto, quando il paese divenne una delegazione del Distretto Federale, continuò a esserne la sede. Oggi è il municipio.\n\nGuarda la cornice: ha dei merli, e alcuni portano coyote, l’animale che dà il nome al paese. Nel milleottocentoventinove distrussero lo stemma di Cortés che stava sopra la porta. Nel millenovecentosei fu collocato nella sala del consiglio lo stemma di Coyoacán, concesso dal re Filippo Secondo il ventiquattro luglio del millecinquecentosessantuno, quando diede al paese il titolo di villa. Intorno reca una frase in latino: “La fede senza le opere è morta”. Lo stesso anno, don Francisco Sosa, che era prefetto di Coyoacán e dà il nome a una delle strade più famose del quartiere, donò una copia dattiloscritta del documento.\n\nAll’interno c’è pittura murale, tra cui un’opera di Aurora Reyes nella cappella, anche se non è sempre aperta al pubblico.\n\nE una leggenda che non può mancare. Si dice che qui sia stato torturato Cuauhtémoc, l’ultimo tlatoani mexica, perché rivelasse dove si trovava il tesoro del suo popolo. È tradizione orale. Nessuno ha potuto provarlo, e per questo la raccontiamo solo come leggenda. Ma fa parte di ciò che la gente racconta passando davanti a questi muri."
+    },
+    "retos_observacion": {
+      "hash": "c54c7b66e6146bb2",
+      "texto": [
+        "Conta le colonne del portico",
+        "Individua un coyote sulla cornice",
+        "Immagina questo balcone pieno di gente ogni quindici settembre"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e70f43684ae0fa1d",
+      "texto": {
+        "Costruzione": "diciottesimo secolo, verso il millesettecentocinquantacinque",
+        "Prima": "Case Reali e prigione del paese",
+        "Stemma di Coyoacán": "Filippo Secondo, ventiquattro luglio del millecinquecentosessantuno"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e116892d682d760",
+      "texto": {
+        "pregunta": "Mito: Questa fu la casa di Hernán Cortés.",
+        "respuesta": "Realtà: L’edificio è del diciottesimo secolo; Cortés morì nel millecinquecentoquarantasette e, secondo l’INAH, la sua casa si trovava a La Conchita."
+      }
+    }
+  }
+}

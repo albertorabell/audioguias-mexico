@@ -1,0 +1,54 @@
+{
+  "id": "coy_04_plaza_kiosco_coyotes",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0a980b13b4d15c9b",
+      "texto": "A praça, o coreto e os coiotes"
+    },
+    "frase_gancho": {
+      "hash": "2cac5f3f4c8484bb",
+      "texto": "O centro do povoado: um coreto, dois coiotes de bronze e vida a qualquer hora."
+    },
+    "puente_narrativo": {
+      "hash": "825c52b3ba9f802a",
+      "texto": "Olhe para o edifício de colunas que fecha a praça: é a sede da subprefeitura."
+    },
+    "guion_corto": {
+      "hash": "104d5ad93890e061",
+      "texto": "Você está no centro de Coyoacán, entre dois jardins vizinhos: o Hidalgo e o Centenario. No meio está o coreto, de estilo francês, com estrutura de ferro. Uma tradição diz que foi presente de Porfirio Díaz por ocasião do Centenário. Ao lado, a fonte dos coiotes: dois animais de bronze que dão nome e símbolo ao povoado. Observe como este espaço é usado. Há famílias, músicos, vendedores, gente que lê e gente que só olha. É uma praça de povoado que não mudou de ofício: continua sendo o lugar para se encontrar."
+    },
+    "guion_largo": {
+      "hash": "51b3f74a8e6322b6",
+      "texto": "Você está no centro de Coyoacán. Se fechar os olhos um momento, vai ouvir a praça: passos nas lajotas, crianças correndo, alguém tocando, o apito de um vendedor de balões. Este é o coração do povoado, e funciona como há muito tempo: aqui se vem para encontrar alguém.\n\nSão dois jardins vizinhos, o Hidalgo e o Centenario, que na prática parecem uma só praça. O Centenario, diz-se, ocupa parte do antigo átrio da igreja, embora ainda estejamos confirmando isso.\n\nNo meio está o coreto. É de estilo francês e tem estrutura de ferro. Uma tradição conta que foi presente de Porfirio Díaz por ocasião do Centenário. Várias fontes repetem essa versão, mas ninguém mostrou o documento original, então contamos como o que é: uma tradição. Dizem também que tem uma cúpula de vitrais e uma águia de bronze. Repare nesses detalhes quando se aproximar.\n\nAo lado há uma fonte com dois coiotes de bronze. É obra do escultor Gabriel Ponzanelli, instalada no início dos anos oitenta. Os coiotes lembram o nome do povoado, que significa “lugar de coiotes”. Numa zona que há séculos escreve sua história na pedra, o bronze é um lembrete recente de onde vem o nome.\n\nAgora olhe as pessoas. Na praça convivem famílias que passeiam, artistas que vendem sua obra, casais nos bancos, estudantes com livros e turistas com câmeras. Foi isso que fez de Coyoacán, desde os anos trinta, o lugar preferido de pintores e escritores: nunca deixou de ser um lugar onde as pessoas param para conversar.\n\nHá uma razão para isso funcionar. Desde mil novecentos e trinta e quatro a zona é protegida como típica e pitoresca. Não se trata de parecer bonita, mas de continuar sendo usada. As praças de povoado morrem quando viram museus, e esta continua cheia.\n\nSente-se um momento. Observe. Depois seguimos, porque bem em frente há um edifício que quase todos chamam de “a Casa de Cortés”, e que não é."
+    },
+    "retos_observacion": {
+      "hash": "10ec5191cf008328",
+      "texto": [
+        "Procure a águia e os vitrais do coreto",
+        "Encontre os dois coiotes de bronze",
+        "Conte quantas atividades diferentes há na praça ao mesmo tempo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eed5f26ed5355ede",
+      "texto": {
+        "Estilo do coreto": "francês",
+        "Estrutura": "ferro",
+        "Fonte dos coiotes": "bronze, obra de Gabriel Ponzanelli",
+        "Jardins": "Hidalgo e Centenario"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e0ab291085a5c61",
+      "texto": {
+        "pregunta": "Mito: O coreto foi presenteado em mil novecentos pelo Centenário da Independência.",
+        "respuesta": "Realidade: O Centenário foi em mil novecentos e dez; a versão de Porfirio Díaz é uma tradição sem documento."
+      }
+    }
+  }
+}

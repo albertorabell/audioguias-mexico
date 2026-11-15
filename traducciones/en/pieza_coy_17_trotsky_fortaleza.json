@@ -1,0 +1,54 @@
+{
+  "id": "coy_17_trotsky_fortaleza",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cbd5d25a466ca617",
+      "texto": "Trotsky's house: the fortress"
+    },
+    "frase_gancho": {
+      "hash": "414f408d98c58117",
+      "texto": "A Russian exile, a night attack and a house that became a fortress."
+    },
+    "puente_narrativo": {
+      "hash": "2dd8c6cc99ee3074",
+      "texto": "Go into the study, the place where the story ended."
+    },
+    "guion_corto": {
+      "hash": "981cdd413960efd7",
+      "texto": "You are in front of Leon Trotsky's house. He arrived in Mexico in January of nineteen thirty-seven, with asylum from President Lázaro Cárdenas, thanks to the support of Diego Rivera and Frida Kahlo. He lived first in the Casa Azul and, from April nineteen thirty-nine, in this house on Viena street. In the early hours of the twenty-fourth of May, nineteen forty, an armed group, with the painter David Alfaro Siqueiros among its leaders, fired on the house. Trotsky survived. Afterward the high walls and watchtowers you see today were raised."
+    },
+    "guion_largo": {
+      "hash": "98552b9dcaad4504",
+      "texto": "You are in front of Leon Trotsky's house, in Coyoacán. Seen from outside, it looks like a fortress, and you are about to understand why.\n\nTrotsky was one of the leaders of the Russian Revolution of nineteen seventeen. Later he fell out with Stalin, had to flee and passed through several countries. In January of nineteen thirty-seven he arrived in Mexico with his wife, Natalia Sedova. Diego Rivera and Frida Kahlo persuaded the government of Lázaro Cárdenas to grant them political asylum. They lived first in the Casa Azul, and from April of nineteen thirty-nine, here, on Viena street.\n\nBy nineteen thirty-nine, Trotsky and Diego Rivera had already grown apart. The reasons given are political disagreements and, according to some versions, a relationship between the Russian and Frida.\n\nThe house stopped being quiet on the twenty-fourth of May, nineteen forty. That early morning, an armed group, disguised as police, entered and fired on the house. It is said that among its leaders was the painter David Alfaro Siqueiros, who worked with the Soviet secret police. Trotsky survived, and his grandson, who was a few years old, was hit by a bullet in the foot. One of the bodyguards, a young American named Robert Sheldon Harte, was kidnapped and murdered.\n\nAfter the attack, the house was transformed. High walls and watchtowers were raised around it. That is what you see now. A house on a quiet street in Coyoacán that had to protect itself like a castle.\n\nToday the house is a museum, open since the twentieth of August, nineteen ninety, on the fiftieth anniversary of the assassination. The entrance is on Río Churubusco avenue. And here, on the street, you only see the walls. We will go in through the study."
+    },
+    "retos_observacion": {
+      "hash": "b3b56ac65c89d2da",
+      "texto": [
+        "Look for the watchtowers high on the walls",
+        "Notice the thickness of the walls and how the street looks from outside",
+        "Imagine the place at this hour of the night, more than eighty years ago"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e47c8d31fd2a99b7",
+      "texto": {
+        "Arrival in Mexico": "January nineteen thirty-seven",
+        "Move to this house": "April nineteen thirty-nine",
+        "First attack": "May twenty-fourth, nineteen forty",
+        "Museum": "since nineteen ninety"
+      }
+    },
+    "faq_mito": {
+      "hash": "a1559d89ac4ebebb",
+      "texto": {
+        "pregunta": "Myth: Trotsky lived here from the moment he arrived in Mexico.",
+        "respuesta": "Reality: He first lived in the Casa Azul in Coyoacán; he moved to this house in April nineteen thirty-nine."
+      }
+    }
+  }
+}

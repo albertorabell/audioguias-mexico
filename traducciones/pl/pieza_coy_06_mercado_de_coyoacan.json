@@ -1,0 +1,54 @@
+{
+  "id": "coy_06_mercado_de_coyoacan",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "45c0070370c93f2a",
+      "texto": "Targ w Coyoacán: dach jak plandeka"
+    },
+    "frase_gancho": {
+      "hash": "05d775515f8a2df0",
+      "texto": "Targ z lat pięćdziesiątych o projekcie przypominającym markę tianguis."
+    },
+    "puente_narrativo": {
+      "hash": "d07dc1de8bc60390",
+      "texto": "Idź na północ ulicą Allende, aż do rogu Casa Azul."
+    },
+    "guion_corto": {
+      "hash": "53f5f6da611be632",
+      "texto": "Spójrz na dach tego targu: wygląda jak plandeka rozciągnięta nad tianguis, ale jest z betonu, bardzo cienkiego. Otwarto go szóstego października tysiąc dziewięćset pięćdziesiątego szóstego roku, a jego projekt przypisuje się Pedro Ramírezowi Vázquezowi i Félixowi Candeli. Przed tym budynkiem stragany tłoczyły się przy parafii. Dziś targ pachnie owocami, potrawkami i tostadami. Tu je się na stojąco, z sosem w ręku, i rozumie się, dlaczego Coyoacán nigdy nie przestało być dzielnicą."
+    },
+    "guion_largo": {
+      "hash": "6da2a8a759df6368",
+      "texto": "Wejdź na targ i zanim cokolwiek kupisz, podnieś wzrok. Dach wygląda jak plandeka rozciągnięta nad tianguis, ale jest z żelbetu, bardzo cienkiego, a ta forma nie jest przypadkiem. Chodziło o to, by nowy budynek przypominał markę odwiecznych tianguis.\n\nTarg otwarto szóstego października tysiąc dziewięćset pięćdziesiątego szóstego roku, a jego projekt przypisuje się Pedro Ramírezowi Vázquezowi i Félixowi Candeli, wraz z Rafaelem Mijaresem. Candela jest sławny ze swoich cienkich powłok betonowych. Tej atrybucji wciąż jeszcze nie potwierdziliśmy, ale pasuje do znanego dorobku tych architektów.\n\nPrzed tym budynkiem handel w Coyoacán odbywał się na ulicy. Na początku dwudziestego wieku stragany tianguis, które ludzie nazywali barakami, ustawiano przy parafii. Próbowano je przenieść do dzielnicy La Conchita, a potem powstał pierwszy formalny targ. Każda zmiana miała uporządkować to, co wioska i tak robiła: kupować i sprzedawać codziennie.\n\nDziś targ to święto dla zmysłów. Są stoiska z owocami i warzywami, kwiatami, ziołami, rzemiosłem i jedzeniem. Klasykiem są tostady: z nóżką, z krewetkami, z kurczakiem w mole, z ceviche, z sosami z orzeszków ziemnych, chipotle i zielonymi. Je się je na stojąco, z sosem pod ręką, wśród rozmów sąsiadów i ciekawskich turystów.\n\nCzęsto powtarza się, że Frida i Diego robili tu zakupy. To piękna historia, ale ma problem: targ z tamtych czasów był inny. Ten budynek powstał lata po najbardziej znanym okresie pary. Prawdą jest natomiast, że atmosfera, którą widzisz, jest taką, jaką oni znali: dzielnica, w której kupuje się osobiście, targuje i rozmawia.\n\nJeśli jesteś głodny, to dobry moment. Jeśli nie, idź powoli między alejkami i obserwuj. Potem ruszymy na północ, kilka ulic stąd, gdzie jest róg Casa Azul."
+    },
+    "retos_observacion": {
+      "hash": "3ede36b25a7c0158",
+      "texto": [
+        "Spójrz na dach i zdecyduj, czy przypomina plandekę, czy beton",
+        "Poszukaj stoiska z tostadami i zobacz, jakie sosy oferuje",
+        "Policz, ile różnych zapachów odróżnisz w jednej alejce"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d21660c95132d15",
+      "texto": {
+        "Otwarcie": "szósty października tysiąc dziewięćset pięćdziesiąty szósty",
+        "Projekt przypisywany": "Pedro Ramírez Vázquez, Félix Candela i Rafael Mijares",
+        "Konstrukcja": "cienkie powłoki z żelbetu",
+        "Pomysł": "markiza z plandeki tianguis"
+      }
+    },
+    "faq_mito": {
+      "hash": "da399c6434415d7b",
+      "texto": {
+        "pregunta": "Mit: Frida i Diego robili zakupy na tym targu.",
+        "respuesta": "Rzeczywistość: To bardzo powtarzany mit; targ z ich epoki był inny, a ten budynek pochodzi z tysiąc dziewięćset pięćdziesiątego szóstego roku."
+      }
+    }
+  }
+}

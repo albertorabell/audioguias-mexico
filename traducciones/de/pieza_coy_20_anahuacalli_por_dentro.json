@@ -1,0 +1,54 @@
+{
+  "id": "coy_20_anahuacalli_por_dentro",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "22eff9fdab4df637",
+      "texto": "Anahuacalli: innen, von unten nach oben"
+    },
+    "frase_gancho": {
+      "hash": "d85ee6e2f7d7abfb",
+      "texto": "Ein Rundgang über drei Ebenen, der von der Unterwelt zum Himmel führt."
+    },
+    "puente_narrativo": {
+      "hash": "9419d63c3bfa4da8",
+      "texto": "Hier endet die Route. Danke, dass du Coyoacán erlaufen hast."
+    },
+    "guion_corto": {
+      "hash": "31d95c772d73353d",
+      "texto": "Der Anahuacalli hat drei Ebenen, die man wie eine Reise durchschreitet. Das Erdgeschoss steht für die Unterwelt und ist dunkel. Die mittlere Ebene steht für die irdische Welt und erhält natürliches Licht. Die obere öffnet sich in U-Form zum Himmel. Es gibt dreiundzwanzig Säle und Tausende prähispanischer Stücke. Im Jahr neunzehnhundertdreiundvierzig schrieb Frida Kahlo an einen Minister, um Hilfe bei der Vollendung des Museums zu erbitten. Heute ist es weiter einer der besonderen Orte der Stadt."
+    },
+    "guion_largo": {
+      "hash": "036080f1b9de20ab",
+      "texto": "Du betrittst den Anahuacalli, und die Luft verändert sich. Der Vulkanstein senkt die Temperatur ein wenig, das Licht wird anders, und der Lärm der Straße bleibt zurück.\n\nDas Gebäude ist als Rundgang über drei Ebenen gedacht. Im Erdgeschoss, das die Unterwelt darstellt, ist das Licht dämmrig. Auf der mittleren Ebene, die die irdische Welt darstellt, fällt natürliches Licht ein. Und die obere Ebene hat U-Form und stellt den Himmel dar. Hinaufzusteigen ist, als ginge man von der Dunkelheit zur Klarheit.\n\nInsgesamt gibt es dreiundzwanzig Säle. Die Sammlung von Diego Rivera war riesig: Man schätzt sie auf Zehntausende prähispanischer Stücke, auch wenn die Zahlen je nach Zähler schwanken. Etwa zweitausend sind dauerhaft ausgestellt, der Rest lagert im Depot. Es gibt Tonfiguren, Gefäße, Skulpturen und Masken aus vielen Kulturen Mesoamerikas.\n\nDie Idee, diese Sammlung zu einem Museum zu machen, hatte Verbündete. Im Jahr neunzehnhundertdreiundvierzig schrieb Frida Kahlo einen Brief an Marte R. Gómez, den Landwirtschaftsminister, um die Unterstützung der Regierung für den Bau des Museums zu erbitten. Sie schlug vor, Diego solle seine Sammlung schenken und das Gebäude zu einem archäologischen Museum werden. Damals gelang das nicht.\n\nDie Dauerausstellung gestaltete der Dichter Carlos Pellicer, und den ersten museografischen Entwurf lieferte Diego, mit dem Archäologen Alfonso Caso. Im September zweitausendeinundzwanzig wurden neue Räume eröffnet, entworfen vom Architekten Mauricio Rocha Iturbide, darunter ein Depot, eine Bibliothek und Innenhöfe unter freiem Himmel.\n\nSteig ganz hinauf, wenn du kannst, und nimm dir einen Moment, dich umzusehen: Hier endet unsere Route durch Coyoacán. Wir haben auf einem Platz mit Musikpavillon und Bronzekojoten begonnen, sind an Kirchen, Märkten, Cantinas und Künstlerhäusern vorbeigekommen und in einem Gebäude aus Vulkan geendet. Danke, dass du mit uns gegangen bist."
+    },
+    "retos_observacion": {
+      "hash": "1ed9447c81d9415a",
+      "texto": [
+        "Vergleiche das Licht im Erdgeschoss mit dem der zweiten Ebene",
+        "Such ein Stück in Form eines Tieres oder eines Menschen",
+        "Steig zur obersten Ebene und sieh Richtung Pedregal"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2db15b80683c4d7e",
+      "texto": {
+        "Ebenen": "drei",
+        "Säle": "dreiundzwanzig",
+        "Dauerhaft ausgestellte Stücke": "etwa zweitausend",
+        "Neue Räume": "September zweitausendeinundzwanzig, von Mauricio Rocha Iturbide"
+      }
+    },
+    "faq_mito": {
+      "hash": "44ff3abe14262141",
+      "texto": {
+        "pregunta": "Mythos: Die ganze Sammlung von Diego Rivera passt in die Säle.",
+        "respuesta": "Wirklichkeit: Nur etwa zweitausend Stücke sind ausgestellt; der Rest lagert im Depot."
+      }
+    }
+  }
+}

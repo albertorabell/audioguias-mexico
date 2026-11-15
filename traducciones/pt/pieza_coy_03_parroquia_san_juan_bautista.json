@@ -1,0 +1,56 @@
+{
+  "id": "coy_03_parroquia_san_juan_bautista",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ee4e9147bb5023c3",
+      "texto": "San Juan Bautista: a igreja que reúne o povoado"
+    },
+    "frase_gancho": {
+      "hash": "091e65ffa82c9718",
+      "texto": "A igreja que vigia a praça desde o século dezesseis e continua cheia de gente."
+    },
+    "puente_narrativo": {
+      "hash": "83d7fbae1c84498c",
+      "texto": "Saia para o jardim e caminhe até o coreto, no centro da praça."
+    },
+    "guion_corto": {
+      "hash": "2b52a46d489928de",
+      "texto": "Esta é a paróquia de San Juan Bautista. Sua história começa no século dezesseis, com os primeiros frades: primeiro franciscanos e, em mil quinhentos e vinte e nove, dominicanos, que fundaram aqui o convento. Era igreja e convento junto ao átrio que você acabou de atravessar. Com os séculos, foi reparada e retocada várias vezes, e o terremoto de dois mil e dezessete danificou a torre outra vez. Mesmo assim, continua fazendo o que fez desde o começo: reunir o povoado. Repare em quem entra para rezar e em quem só se senta um pouco à sombra. Esta igreja não é um monumento parado: é o coração de Coyoacán."
+    },
+    "guion_largo": {
+      "hash": "33dc0f0b20f8fc29",
+      "texto": "Você está na paróquia de San Juan Bautista. Antes de lhe contar sua história, veja como ela é usada hoje. Há quem entre para rezar, quem acenda uma vela, quem se sente um pouco num banco para escapar do barulho da praça. É uma igreja viva, e isso é a primeira coisa que se deve saber sobre ela.\n\nA história deste lugar tem duas ordens religiosas. Os primeiros frades a chegar a Coyoacán foram franciscanos, no fim de mil quinhentos e vinte e quatro ou início de mil quinhentos e vinte e cinco, com frei Martín de Valencia. Nos primeiros meses de mil quinhentos e vinte e nove chegaram os dominicanos, a Ordem dos Pregadores, e ergueram seu convento dedicado a San Juan Bautista, o Precursor, um pouco a leste da casa dos franciscanos. Por volta de mil quinhentos e trinta e quatro ou trinta e cinco, os franciscanos se retiraram de Coyoacán. Desde o século vinte, o convento está novamente nas mãos dos franciscanos.\n\nA obra foi longa. Por volta de mil quinhentos e cinquenta e um, foi construída a capela aberta com seu portal. Em mil quinhentos e sessenta, o templo de planta de basílica já estava terminado, sob a direção de frei Juan de la Cruz. No friso do portal da igreja há uma data gravada: abril de mil quinhentos e oitenta e dois. Mas o convento ainda não estava terminado em mil quinhentos e oitenta e oito, quando um tremor derrubou o teto, e ainda em mil seiscentos e três faltava cobrir o templo.\n\nA torre é do século dezoito. Tem um primeiro corpo quadrado e um segundo octogonal, e era coroada por uma cúpula com lanterna e cruz. No dia dezenove de setembro de dois mil e dezessete, o terremoto danificou o segundo corpo e derrubou a cúpula, a lanterna e a cruz. Por isso, entre pedras antigas, você também vai ver reparos mais recentes. Cada um conta que alguém decidiu que esta igreja valia a pena ser conservada.\n\nOlhe como o edifício é feito. As paredes são grossas, pensadas para durar e sustentar tetos pesados. A fachada é sóbria, sem os enfeites do portão do átrio.\n\nNo século dezesseis, estas igrejas eram o lugar onde a comunidade se reunia: celebravam-se as festas do santo, ensinava-se, casava-se e despedia-se as pessoas. Hoje acontece algo parecido. A praça lá fora existe em boa parte por causa desta igreja.\n\nQuando sair, pare um momento no átrio e olhe para a praça. Ali começa outra história: a de um jardim, um coreto e dois coiotes de bronze."
+    },
+    "retos_observacion": {
+      "hash": "fd3cc74420fe4ed4",
+      "texto": [
+        "Procure o campanário e repare no segundo corpo, o octogonal",
+        "Toque com o olhar a espessura das paredes",
+        "Observe quem entra e quem só se senta"
+      ]
+    },
+    "especificaciones": {
+      "hash": "df3f710aadf3ce82",
+      "texto": {
+        "Dedicação": "San Juan Bautista",
+        "Convento fundado pelos dominicanos": "mil quinhentos e vinte e nove",
+        "Primeiros frades em Coyoacán": "franciscanos, por volta de mil quinhentos e vinte e cinco",
+        "Data no friso do portal": "abril de mil quinhentos e oitenta e dois",
+        "Torre": "século dezoito",
+        "Danos recentes": "terremoto de dois mil e dezessete"
+      }
+    },
+    "faq_mito": {
+      "hash": "9d26e6e66b1b5c87",
+      "texto": {
+        "pregunta": "Mito: San Juan Bautista sempre foi uma igreja franciscana.",
+        "respuesta": "Realidade: Os franciscanos chegaram primeiro, mas o convento foi fundado pelos dominicanos em mil quinhentos e vinte e nove; hoje está com os franciscanos desde o século vinte."
+      }
+    }
+  }
+}

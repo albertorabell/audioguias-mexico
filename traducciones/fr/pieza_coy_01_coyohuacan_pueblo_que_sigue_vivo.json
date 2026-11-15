@@ -1,0 +1,54 @@
+{
+  "id": "coy_01_coyohuacan_pueblo_que_sigue_vivo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "08f7f11d7af67d0b",
+      "texto": "Coyoacán : le village qui n'a jamais cessé d'être un village"
+    },
+    "frase_gancho": {
+      "hash": "163a3a8f7c76c6a0",
+      "texto": "Frida, Diego et Trotski ont vécu ici, et l'on y mange, on y bavarde et on y flâne encore comme au village."
+    },
+    "puente_narrativo": {
+      "hash": "fd41d72be6c24b47",
+      "texto": "Marche vers le portail de l'atrium, à côté de l'église."
+    },
+    "guion_corto": {
+      "hash": "1d5ed3fc89d2d018",
+      "texto": "Bienvenue à Coyoacán. Écoute un instant : des conversations sur les bancs, de la musique au loin, quelqu'un qui vend des ballons, quelqu'un qui vend des glaces. Voilà comment sonne cette place presque tous les jours. Le nom vient du nahuatl et signifie « lieu des coyotes ». Quand Tenochtitlan est tombée, Hernán Cortés s'est installé ici et la première municipalité de la vallée de Mexico y a été fondée. Mais ce qui a rendu Coyoacán célèbre est venu des siècles plus tard : le quartier est devenu celui des peintres, des écrivains et des exilés. Frida Kahlo est née à quelques rues d'où tu te trouves. Diego Rivera a peint et vécu dans ces rues. Et le révolutionnaire russe Léon Trotski a trouvé ici son dernier refuge. Pendant cette visite, tu vas marcher entre cafés, cantinas, églises et maisons chargées d'histoire. Commençons."
+    },
+    "guion_largo": {
+      "hash": "b450cf12825055b9",
+      "texto": "Bienvenue à Coyoacán. Avant que je te dise quoi que ce soit, écoute. Il y a des conversations sur les bancs, de la musique qui vient de quelque part, quelqu'un vend des ballons, quelqu'un vend des glaces. Voilà comment sonne cette place presque tous les jours, et c'est le secret de Coyoacán : cela ressemble toujours à un village, même si la ville de Mexico s'est construite tout autour.\n\nLe nom vient du nahuatl, Coyohuacan, « lieu des coyotes ». Avant l'arrivée des Espagnols, un groupe venu de Chalco s'est établi ici vers l'an treize cent trente-deux. Avec le temps, le lieu est passé sous la domination des Tépanèques d'Azcapotzalco, puis de la Triple Alliance, qui gouvernait la vallée de Mexico. Quand Hernán Cortés a conquis Tenochtitlan, Coyoacán s'était alliée aux Espagnols. Après la chute de la capitale mexica, Cortés et ses troupes se sont installés ici, et la première municipalité de la vallée de Mexico a été fondée. En quinze cent vingt-neuf, Cortés a fait de Coyoacán le chef-lieu de son marquisat de la vallée d'Oaxaca.\n\nMais si tu marches ici aujourd'hui, tu ne trouveras pas un musée figé au seizième siècle. Tu trouveras le quartier où, au vingtième siècle, se sont réunis les artistes et les intellectuels les plus célèbres du Mexique. Frida Kahlo est née et morte à quelques rues de cette place, dans la Casa Azul. Diego Rivera y a vécu aussi, et dans ces rues. Et en dix-neuf cent trente-sept est arrivé au Mexique, exilé et persécuté par Staline, un révolutionnaire russe, Léon Trotski. Il a vécu à Coyoacán, d'abord dans la Casa Azul puis à quelques rues de là, jusqu'à sa mort. Peintres, écrivains, politiciens et gens du monde : Coyoacán était l'endroit où il fallait être.\n\nCe mélange est toujours vivant. Le week-end, les familles mangent des glaces, les musiciens jouent sur la place et les étudiants remplissent les cafés. Il y a des cantinas qui ont des décennies d'histoire, des stands de tostadas, des churros que l'on mange encore chauds. Et à quelques pas, il y a des églises du seizième siècle, des maisons de vice-rois et des rues pavées.\n\nEn dix-neuf cent trente-quatre, le gouvernement a déclaré Coyoacán zone typique et pittoresque. En dix-neuf cent quatre-vingt-dix, la zone a été déclarée Zone de monuments historiques. Elle conserve aujourd'hui une partie du tracé du seizième siècle, avec plus de quatre-vingts pâtés de maisons et une cinquantaine d'édifices de valeur, du seizième au dix-neuvième siècle. Ce que tu vas parcourir, ce ne sont pas des ruines, mais un village qui reste vivant.\n\nCommençons là où tout a commencé : l'atrium de l'église."
+    },
+    "retos_observacion": {
+      "hash": "06f1c60683a4ce2c",
+      "texto": [
+        "Cherche les coyotes de bronze de la fontaine",
+        "Compte combien de choses différentes se passent en même temps sur la place",
+        "Trouve le clocher de la paroisse"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f07b25742574d756",
+      "texto": {
+        "Nom": "du nahuatl Coyohuacan, lieu des coyotes",
+        "Zone typique et pittoresque": "dix-neuf cent trente-quatre",
+        "Zone de monuments historiques": "décret de décembre dix-neuf cent quatre-vingt-dix",
+        "Édifices de valeur": "environ cinquante, du seizième au dix-neuvième siècle"
+      }
+    },
+    "faq_mito": {
+      "hash": "e58fc35c9d10cfe8",
+      "texto": {
+        "pregunta": "Mythe : Coyoacán a été la capitale de la vice-royauté.",
+        "respuesta": "Réalité : Elle a été le siège de Cortés et d'une première municipalité après la Conquête ; la vice-royauté a été créée des années plus tard, en quinze cent trente-cinq."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "coy_07_museo_culturas_populares",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cf093f209ff389f8",
+      "texto": "National Museum of Popular Cultures"
+    },
+    "frase_gancho": {
+      "hash": "018b5262fbf63251",
+      "texto": "A museum about how people live, eat, dance and pray in Mexico."
+    },
+    "puente_narrativo": {
+      "hash": "1abd6396a0e81a27",
+      "texto": "Walk along Higuera street toward the La Conchita neighborhood, where the Casa Colorada is."
+    },
+    "guion_corto": {
+      "hash": "1617d4d19741038f",
+      "texto": "This museum opened on the twenty-fourth of September, nineteen eighty-two, at the initiative of the anthropologist Guillermo Bonfil Batalla. His idea was simple and new: a museum for popular culture, the kind made in towns, in neighborhoods and at festivals. It has no fixed collection: its exhibitions change, and there are also workshops and concerts. It occupies three different buildings, a Porfirian house with a turret, a villa from the early twentieth century and a modern building from the eighties, which came together over the years."
+    },
+    "guion_largo": {
+      "hash": "028cff65910b74b3",
+      "texto": "You are in front of the National Museum of Popular Cultures, on Hidalgo avenue. It opened on the twenty-fourth of September, nineteen eighty-two. It was driven by the anthropologist Guillermo Bonfil Batalla, who had a clear idea: that in Mexico the culture of great monuments and great works was celebrated a lot, but the culture lived every day almost never was. The one found in food, in crafts, in town festivals, in ways of praying and dancing.\n\nThat is why this museum works differently. It does not have a fixed collection that is always the same. Its exhibitions change: they revolve around traditional festivals, folk art, the work of creators from the countryside and the city. There are also workshops, courses and concerts.\n\nThe museum occupies three buildings, added over the years. One is the Casa del Torreón, a building from the Porfirian era with a turret inspired by German iron buildings of the late nineteenth century. There the Discalced Carmelite nuns had a chapel, which is today a performance space called “Altos Capilla.” Another is the Quinta Margarita, a house that Mr. Henderson had built on land of the old Aduana Vieja of Coyoacán. And the third is a building from nineteen eighty-two and eighty-three, by the architect Santiago de la Torre.\n\nThis mix of eras is very Coyoacán: a single place with a house more than a century old, a chapel turned into a performance space and a building from the eighties. And it is a good reminder that the neighborhood is not only convents and colonial plazas. It is also a place where today's culture is still being thought about, celebrated and created."
+    },
+    "retos_observacion": {
+      "hash": "e01779439c686664",
+      "texto": [
+        "Look for the Porfirian turret",
+        "Count how many different buildings there are on the same block",
+        "Notice which festival they announce at the entrance"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bc143153653c3b5e",
+      "texto": {
+        "Opening": "September twenty-fourth, nineteen eighty-two",
+        "Founder": "Guillermo Bonfil Batalla",
+        "Buildings": "three",
+        "Address": "Hidalgo avenue, corner of Allende"
+      }
+    },
+    "faq_mito": {
+      "hash": "6bdbe1b96399d1a0",
+      "texto": {
+        "pregunta": "Myth: The La Rosita mural, a few steps away, is part of this museum.",
+        "respuesta": "Reality: It is not; it belongs to the La Rosita pulquería and we will visit it later."
+      }
+    }
+  }
+}
