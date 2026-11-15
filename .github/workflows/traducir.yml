@@ -82,6 +82,9 @@ jobs:
           fi
 
       - name: Traer los textos más recientes del Google Sheets
+        env:
+          # También entran los sitios aún no publicados (p. ej. la Basílica) para poder traducirlos antes de publicar
+          SYNC_PREVIEW: '1'
         run: |
           for intento in 1 2 3 4; do
             if node scripts/ci-run.mjs "sync-sheets" -- node scripts/sync-sheets.js; then exit 0; fi
