@@ -1,0 +1,46 @@
+{
+  "id": "bas_15_pocito_interior",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "313cec151e7c53d3",
+      "texto": "La chapelle du Pocito : l’intérieur"
+    },
+    "frase_gancho": {
+      "hash": "403a622af6b8d28c",
+      "texto": "Trois espaces reliés et un puits."
+    },
+    "puente_narrativo": {
+      "hash": "b6946908638991b7",
+      "texto": "Vous entrez dans la chapelle, où des personnes peuvent être en prière."
+    },
+    "guion_corto": {
+      "hash": "0bb907ed3e70128a",
+      "texto": "À l’intérieur de la chapelle, trois espaces s’enchaînent. D’abord un vestibule circulaire, où l’on conserve encore la margelle du puits. Ensuite, la salle de prière, avec l’autel en bois doré. Et au fond, une sacristie octogonale. Sur les murs, quatre peintures des apparitions, attribuées à Miguel Cabrera, l’un des grands peintres de la Nouvelle-Espagne. La chaire repose sur une figure d’autochtone, qui rappelle saint Juan Diego. Pour les fidèles, le puits est lié à la mémoire des apparitions. C’est un lieu où l’on entre avec calme. Des personnes peuvent être en prière, et les horaires peuvent changer."
+    },
+    "guion_largo": {
+      "hash": "0c90c6a84e9ea872",
+      "texto": "Pocito est un diminutif de « puits », c’est-à-dire un petit puits, et c’est de là que vient le nom de la chapelle. En entrant, on trouve d’abord le vestibule, qui est circulaire. La margelle du puits s’y trouve toujours, le bord de pierre qui entoure l’ouverture de la source. La chapelle a été élevée pour protéger ce lieu, et c’est le centre de l’édifice.\n\nPour les fidèles, le puits est lié à la mémoire des apparitions. La tradition de la Vierge de Guadalupe, telle que Francisco de Florencia l’a recueillie au dix-septième siècle, l’associe à l’un des sites du Tepeyac où la Vierge Marie se serait manifestée à saint Juan Diego. Pendant des siècles, un homme appelé le dévot de Notre-Dame de Guadalupe, nommé par le chapitre, a eu la charge du puits, jusqu’à ce que l’on décide, en mille sept cent soixante-dix-huit, de construire la chapelle actuelle.\n\nAprès le vestibule, on passe à la salle de prière, qui est l’espace principal. C’est là que se trouve l’autel, en bois recouvert d’or. Sur le mur, on voit quatre tableaux avec des scènes des apparitions, peints, selon la tradition du lieu, par Miguel Cabrera. Cabrera est né en mille six cent quatre-vingt-quinze et mort en mille sept cent soixante-huit, et il fut l’un des peintres les plus importants de la Nouvelle-Espagne. Une étude de deux mille vingt-deux cite en outre une copie de l’image de Notre-Dame de Guadalupe réalisée par Cabrera en mille sept cent cinquante-trois.\n\nIl y a aussi une chaire, le lieu surélevé d’où l’on prêche. Au lieu d’une colonne, la chaire s’appuie sur la figure d’un autochtone, qui représente Juan Diego. C’est un détail facile à manquer, et il dit comment on a voulu se souvenir du messager de la Vierge dans cet espace.\n\nLe troisième espace est la sacristie, de plan octogonal, où l’on garde les objets du culte.\n\nLe plan de l’intérieur est aussi complexe que celui de l’extérieur. Le vestibule circulaire, la salle de prière et la sacristie octogonale forment un ensemble de plans courbes et droits. Les spécialistes y voient l’une des expressions les plus audacieuses du baroque mexicain.\n\nLa chapelle est un lieu de culte actif et appartient à la paroisse Sainte-Marie de Guadalupe, celle des Capucines. Des personnes peuvent être en prière. Il convient d’entrer avec calme, de parler à voix basse et de photographier avec discrétion. Les horaires d’ouverture peuvent changer, et le mieux est de les confirmer sur le site officiel.\n\nSi vous parvenez à entrer, commencez par le vestibule et rappelez-vous que le puits est à l’origine de tout l’édifice. Ensuite, parcourez la salle avec calme, et regardez les tableaux un par un. Chacun raconte, à sa manière, un moment de l’histoire que la tradition de la Vierge de Guadalupe transmet depuis des siècles."
+    },
+    "retos_observacion": {
+      "hash": "f6085b63cb4beca3",
+      "texto": [
+        "Cherchez la margelle du puits",
+        "Regardez les quatre peintures des apparitions",
+        "Observez la chaire avec la figure d’autochtone"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d1d88e7e5583047",
+      "texto": {
+        "Espaces": "vestibule circulaire, salle de prière, sacristie octogonale",
+        "Peintures": "quatre, attribuées à Miguel Cabrera",
+        "Autel": "bois doré"
+      }
+    }
+  }
+}

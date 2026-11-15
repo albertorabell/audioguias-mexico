@@ -1,0 +1,53 @@
+{
+  "id": "bas_10_exvotos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7430e21dcc21c2dd",
+      "texto": "Les ex-voto"
+    },
+    "frase_gancho": {
+      "hash": "8611143009a36065",
+      "texto": "De petites peintures qui disent merci."
+    },
+    "puente_narrativo": {
+      "hash": "a4c439673c18f133",
+      "texto": "Dans le musée, cherchez la salle des ex-voto."
+    },
+    "guion_corto": {
+      "hash": "c6cefe479961f9f7",
+      "texto": "Un ex-voto est une petite peinture par laquelle une personne remercie pour une faveur qu’elle attribue à l’intercession de la Vierge ou d’un saint. Il montre généralement la scène du danger, l’image à laquelle la personne s’est recommandée, et un texte écrit à la main qui raconte ce qui s’est passé. Ce musée en conserve plus de deux mille, presque tous des dix-neuvième et vingtième siècles, et il se présente comme la plus grande collection d’ex-voto guadalupéens. Ils parlent de maladies, d’accidents, de voyages et de guerres. Beaucoup comportent un nom et une date. Il convient de s’approcher pour lire les textes tranquillement. Ce sont des documents de foi et aussi de la vie quotidienne de leur temps."
+    },
+    "guion_largo": {
+      "hash": "b32460df59152f63",
+      "texto": "En latin, ex voto évoque l’accomplissement d’une promesse, et un ex-voto est l’objet par lequel on l’accomplit. Quelqu’un demande une faveur, à Dieu, à la Vierge ou à un saint, et lorsqu’il l’obtient, il en remercie par un objet. Dans le catholicisme mexicain, cet objet est le plus souvent une petite peinture.\n\nSelon la spécialiste du musée Nydia Mirna Rodríguez Alatorre, les ex-voto ne sont pas propres au christianisme. Ils existent dans de nombreuses cultures et depuis l’Antiquité. La coutume d’offrir une peinture de remerciement vient d’Italie, du quinzième siècle, et s’est ensuite répandue dans d’autres pays.\n\nAu Mexique, la pratique est devenue très populaire aux dix-neuvième et vingtième siècles, et elle a rempli les murs des sanctuaires dans tout le pays. Le Musée de la Basilique conserve plus de deux mille ex-voto, presque tous de ces siècles, et il se présente comme la plus grande collection d’ex-voto guadalupéens.\n\nUn ex-voto comporte normalement trois parties. En haut apparaît généralement l’image à laquelle la personne s’est recommandée, ici Notre-Dame de Guadalupe ou un saint. En dessous, la scène du malheur : une maladie, un accident, une chute. Et en bas, un texte écrit à la main dans lequel la personne raconte ce qui s’est passé et remercie. Beaucoup sont écrits par des personnes peu scolarisées, et ce langage direct fait partie de leur valeur.\n\nTous les ex-voto ne sont pas des peintures. Dès le dix-septième siècle, le jésuite Francisco de Florencia a relevé dans ce sanctuaire des offrandes en argent en forme de têtes, d’yeux, de cœurs, de bras, de jambes et de mains, que les fidèles laissaient en signe de remerciement. C’est une autre manière, plus ancienne, de dire merci.\n\nLes thèmes en disent long sur leur époque. On y trouve des maladies, des accidents et des migrations. Pendant les années des guerres civiles du dix-neuvième siècle et de la Révolution, sont apparues en outre les levées, le recrutement forcé de jeunes, et l’angoisse des mères dont les fils partaient à la guerre.\n\nL’ex-voto exprime une relation directe de la personne avec Dieu, sans intermédiaires, et en même temps il devient public dans un sanctuaire, pour que d’autres le voient. Beaucoup comportent le nom de celui qui l’a offert et une date, ce qui permet de les situer dans le temps.\n\nPour celui qui l’a offert, l’ex-voto est un acte de remerciement et de foi. Pour celui qui le regarde aujourd’hui, c’est aussi un document historique. Depuis la fin du vingtième siècle, les ex-voto ont commencé à être appréciés comme des sources sur la manière dont les gens de chaque époque vivaient, s’habillaient, priaient et tombaient malades.\n\nIci, on ne demande pas au visiteur de croire ou de cesser de croire. On l’invite à regarder avec attention ce que d’autres ont écrit dans leur moment le plus difficile, et à lire leurs mots avec le respect que mérite tout remerciement."
+    },
+    "retos_observacion": {
+      "hash": "d80b19dbac01d4f3",
+      "texto": [
+        "Lisez l’un des textes écrits à la main",
+        "Cherchez l’image à laquelle la personne se recommande",
+        "Remarquez la date de l’un des ex-voto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eab9149d314df35f",
+      "texto": {
+        "Pièces": "plus de 2 000",
+        "Époques": "surtout les XIXe et XXe siècles",
+        "Parties": "scène, image et texte manuscrit"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2be7587a3893cc2",
+      "texto": {
+        "pregunta": "Mythe : Les ex-voto sont des dessins sans valeur historique.",
+        "respuesta": "Réalité : Ce sont des documents de la vie quotidienne de leur temps, avec une scène, un texte écrit à la main et, souvent, un nom et une date."
+      }
+    }
+  }
+}

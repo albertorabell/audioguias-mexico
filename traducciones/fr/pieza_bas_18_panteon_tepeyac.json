@@ -1,0 +1,53 @@
+{
+  "id": "bas_18_panteon_tepeyac",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d67a981b3438aa1a",
+      "texto": "Le cimetière du Tepeyac"
+    },
+    "frase_gancho": {
+      "hash": "b80d94d03bffe3ae",
+      "texto": "Un cimetière à flanc de colline, avec des personnages de l’histoire du Mexique."
+    },
+    "puente_narrativo": {
+      "hash": "8cbf205367e41a5e",
+      "texto": "Le cimetière se trouve à côté de la chapelle, là où vous terminez le parcours."
+    },
+    "guion_corto": {
+      "hash": "6d6446ebd1dac0c2",
+      "texto": "Le cimetière du Tepeyac se trouve près de la chapelle du Cerrito. Il y a des sépultures sur cette colline depuis avant mille sept cent seize. Une tradition la fait remonter à mille six cent soixante, mais les études documentent les premières tombes au début du dix-huitième siècle. Avec la Loi sur les cimetières de mille huit cent cinquante-neuf, il est devenu un cimetière officiel, en mille huit cent soixante et onze. Ici reposent des personnages de l’histoire du Mexique, comme Antonio López de Santa Anna, le peintre José María Velasco et le poète Xavier Villaurrutia, ainsi que de nombreux architectes. Beaucoup de familles ont choisi d’y enterrer les leurs, près du sanctuaire. Un musée de site raconte l’histoire de la colline."
+    },
+    "guion_largo": {
+      "hash": "e1f9796ac60dd429",
+      "texto": "À côté de la chapelle du Cerrito s’étend le cimetière du Tepeyac, l’un des plus anciens cimetières encore en usage à Mexico. C’est un lieu de mémoire, et il convient de le regarder avec respect.\n\nLes premières inhumations ont eu lieu autour de la chapelle avant mille sept cent seize. Une tradition attribue sa fondation à l’année mille six cent soixante, et la relie même à saint Juan Diego, mais les spécialistes, comme l’historien de l’architecture Hugo Arciniega, documentent les premières sépultures au début du dix-huitième siècle. Beaucoup de familles de la ville ont voulu y enterrer les leurs, près du lieu où la tradition de Guadalupe situe les apparitions.\n\nEn mille huit cent cinquante-neuf, le trente et un juillet, la Loi sur les cimetières a disposé que les inhumations passeraient aux mains de l’État. Après cette loi, le Tepeyac est devenu un cimetière officiel, en mille huit cent soixante et onze. La date de mille neuf cent dix qui apparaît sur une inscription n’est pas celle de son inauguration.\n\nLes monuments du cimetière sont regroupés par catégories, par tailles et par emplacement, en partant de l’entrée principale, selon l’étude de l’architecte Silvia Segarra Lagunes sur son paysage, son histoire et sa restauration. Le cimetière est connu comme le cimetière des architectes, parce qu’Arciniega l’a nommé ainsi dans une étude, en trouvant ici beaucoup des bâtisseurs de la ville. Il possède aussi des monuments funéraires d’une grande valeur artistique. Parmi eux se distingue la sculpture de l’Ange du Silence.\n\nIci reposent des personnages qui font partie de l’histoire du pays. Il y a Antonio López de Santa Anna, qui fut président du Mexique à plusieurs reprises, et qui mourut le vingt et un juin mille huit cent soixante-seize. Son épouse, Dolores Tosta, y est aussi enterrée. Il y a le peintre José María Velasco, connu pour ses paysages de la vallée de Mexico. Il y a le poète Xavier Villaurrutia. Et il y a Delfina Ortega Díaz, première épouse du président Porfirio Díaz.\n\nLa chercheuse Ethel Herrera Moreno a catalogué les monuments funéraires de ce cimetière qui représentent la Vierge de Guadalupe. Cette dévotion, qui s’exprime aussi sur les sépulcres, fait partie de ce que l’on voit sur ces tombes.\n\nLe cimetière possède en outre un musée de site de deux salles. L’une raconte l’histoire de la colline depuis l’époque préhispanique, et l’autre, l’histoire du cimetière. Ni le cimetière ni le musée ne sont ouverts comme le reste de l’ensemble. Pour les visiter, un rendez-vous préalable est demandé, et il vaut mieux confirmer les conditions sur le site officiel.\n\nSi vous ne pouvez pas entrer, cet arrêt s’écoute tout aussi bien depuis le belvédère de la chapelle. Et si vous entrez, souvenez-vous que c’est un cimetière où des familles viennent rendre visite à leurs morts : on y marche en silence, sans se presser."
+    },
+    "retos_observacion": {
+      "hash": "96d210c7924eb1a7",
+      "texto": [
+        "Cherchez les tombes de personnages célèbres",
+        "Observez les mausolées d’architectes",
+        "Renseignez-vous sur le musée de site"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e09c267116c503c0",
+      "texto": {
+        "Sépultures": "avant 1716",
+        "Cimetière officiel": "1871",
+        "Personnes inhumées": "Antonio López de Santa Anna, José María Velasco, Xavier Villaurrutia"
+      }
+    },
+    "faq_mito": {
+      "hash": "1823517dcf05a11b",
+      "texto": {
+        "pregunta": "Mythe : Le cimetière est documenté depuis mille six cent soixante.",
+        "respuesta": "Réalité : Une tradition le fait remonter à cette date, mais les études documentent les premières tombes au début du dix-huitième siècle. Il est cimetière officiel depuis mille huit cent soixante et onze."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bas_08_capuchinas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2cf501b057bd87ae",
+      "texto": "L’église et le couvent des Capucines"
+    },
+    "frase_gancho": {
+      "hash": "4d5c6f413d7c286c",
+      "texto": "Un couvent de religieuses près du sanctuaire."
+    },
+    "puente_narrativo": {
+      "hash": "fe40216e6339b812",
+      "texto": "Vous contournez l’ancienne basilique et vous arrivez à l’église des Capucines."
+    },
+    "guion_corto": {
+      "hash": "c47a30b6cdd31092",
+      "texto": "Devant vous se dressent l’église et l’ancien couvent des capucines. La première pierre fut posée en mille sept cent quatre-vingt-deux, et les travaux furent dirigés par l’architecte Ignacio de Castera. L’ensemble fut inauguré en mille sept cent quatre-vingt-sept, à l’initiative de mère Mariana et avec le soutien de plusieurs bienfaiteurs. Les religieuses y vécurent jusqu’à ce que le couvent soit nationalisé et fermé en mille huit cent soixante-trois. Entre mille huit cent quatre-vingt-huit et mille huit cent quatre-vingt-quinze, cette église abrita l’image pendant les travaux de l’ancienne basilique. Aujourd’hui, c’est la paroisse de Santa María de Guadalupe."
+    },
+    "guion_largo": {
+      "hash": "5d4d6714188925fb",
+      "texto": "Cette église et le couvent qui l’accompagne furent construits à la fin du dix-huitième siècle pour une communauté de religieuses capucines. Les capucines sont des moniales cloîtrées, de la famille franciscaine, qui vivent consacrées à la prière.\n\nL’ouvrage fut réalisé à l’initiative de mère Mariana, fondatrice de la communauté. Son nom complet apparaît de deux manières dans les sources, et c’est pourquoi nous l’appelons ainsi ici. La première pierre fut posée en mille sept cent quatre-vingt-deux. L’architecte Ignacio de Castera, l’un des constructeurs actifs à Mexico à cette époque, dirigea le chantier, qui fut inauguré en mille sept cent quatre-vingt-sept. Parmi ceux qui soutinrent le projet de leurs deniers figurent Luis de Torres, Manuel de la Borda et le comte de Regla.\n\nLe couvent fut conçu pour des femmes menant une vie contemplative. Elles vivaient ici cloîtrées, avec la prière au centre de leurs journées. Dans une communauté cloîtrée, les religieuses ne sortent pas du couvent et reçoivent peu de monde. Leur vie se partage entre la prière, le travail et le silence. Cette vie se poursuivit jusqu’en mille huit cent soixante-trois, quand le gouvernement nationalisa les biens de l’Église, dans le contexte des lois de Réforme, et que le couvent fut fermé. Cette mesure toucha de nombreux couvents du pays, et les religieuses durent quitter le bâtiment.\n\nC’est aussi dans cette église que fut conservée l’image de Notre-Dame de Guadalupe. Entre le vingt-trois février mille huit cent quatre-vingt-huit et le trente septembre mille huit cent quatre-vingt-quinze, pendant les travaux de l’ancienne basilique, l’image fut vénérée en ce lieu. Elle retourna ensuite au sanctuaire.\n\nLe sol sous l’ensemble est meuble, comme celui de toute cette zone, et le bâtiment a subi des affaissements. Entre mille neuf cent soixante-seize et mille neuf cent quatre-vingt-deux, des pieux de contrôle furent installés pour le stabiliser. L’affaissement, cependant, se poursuit.\n\nDans le même ensemble se trouve la chapelle des Serments, que cette paroisse dessert également. Aujourd’hui, l’église est la paroisse de Santa María de Guadalupe. C’est une église en activité, avec des messes et des services pour la communauté. Sur son autel principal se trouve une Sainte Famille peinte dans un cercle, et dans le bâtiment voisin, qui fut le couvent, se trouve le musée de la Basilique.\n\nCela fait partie de l’histoire du lieu que l’on ne voit pas toujours : celle des personnes qui, pendant plus de soixante-dix ans, ont vécu ici consacrées à la prière, à quelques pas du sanctuaire de la Vierge."
+    },
+    "retos_observacion": {
+      "hash": "6f1eceb9f079bbb9",
+      "texto": [
+        "Cherchez la façade et sa porte",
+        "Observez le bâtiment du couvent à côté de l’église",
+        "Repérez la plaque, s’il y en a une"
+      ]
+    },
+    "especificaciones": {
+      "hash": "16e5d0bf32d3599c",
+      "texto": {
+        "Première pierre": "1782",
+        "Architecte": "Ignacio de Castera",
+        "Inauguration": "1787",
+        "Fermeture du couvent": "1863",
+        "Image conservée ici": "1888 à 1895"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e1aaca2ce4f9d8f",
+      "texto": {
+        "pregunta": "Mythe : L’église des Capucines a toujours été une paroisse.",
+        "respuesta": "Réalité : Ce fut un couvent de religieuses jusqu’à sa nationalisation et sa fermeture en mille huit cent soixante-trois. Aujourd’hui, c’est la paroisse de Santa María de Guadalupe."
+      }
+    }
+  }
+}

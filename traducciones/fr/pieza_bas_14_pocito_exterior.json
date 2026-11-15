@@ -1,0 +1,55 @@
+{
+  "id": "bas_14_pocito_exterior",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9418f0b11ddcb2ce",
+      "texto": "La chapelle du Pocito : exterieur"
+    },
+    "frase_gancho": {
+      "hash": "b5228cf4ecf50e07",
+      "texto": "Un joyau du baroque, près d’une source."
+    },
+    "puente_narrativo": {
+      "hash": "d477dd715c1ffc09",
+      "texto": "Vous montez à la chapelle du Pocito, au pied de la colline."
+    },
+    "guion_corto": {
+      "hash": "c0722fd98d6bf3f5",
+      "texto": "Voici la chapelle du Pocito, que l’Institut national d’anthropologie et d’histoire (INAH) considère comme un joyau du baroque latino-américain. Elle a été conçue par Francisco Antonio Guerrero y Torres et construite entre mille sept cent soixante-dix-sept et mille sept cent quatre-vingt-onze. Son plan combine courbes et lignes droites, avec trois coupoles recouvertes de carreaux de talavera bleus et blancs, sur des murs de tezontle. Elle s’élève près d’une source que la tradition guadalupéenne associe à l’un des lieux des apparitions. Selon l’INAH, son dessin évoque le ciel, la terre et les points cardinaux. La chapelle précédente, de mille six cent quarante-huit, a été démolie pour construire celle-ci."
+    },
+    "guion_largo": {
+      "hash": "f64cd7dd634e4361",
+      "texto": "Vous êtes devant la chapelle du Pocito. C’est l’une des œuvres les plus singulières de l’architecture de l’époque vice-royale, et l’Institut national d’anthropologie et d’histoire (INAH) la considère comme un joyau du baroque latino-américain.\n\nSon histoire commence avec l’eau. Sur le flanc oriental du Tepeyac, il y avait une petite source d’eau saumâtre, c’est-à-dire au goût salé. La tradition guadalupéenne associe ce lieu à l’un des sites des apparitions, comme l’a rapporté au dix-septième siècle le jésuite Francisco de Florencia. Autour de la source, entre mille six cent quarante-huit et mille six cent quarante-neuf, on éleva une première chapelle de forme octogonale, à l’initiative de Luis Lasso de la Vega, le même vicaire qui fit construire la paroisse des Indiens. Cette chapelle fut démolie vers mille sept cent soixante-dix-huit, pour construire l’actuelle.\n\nL’auteur de la chapelle est Francisco Antonio Guerrero y Torres, né à la Villa de Guadalupe et maître d’œuvre principal de la ville, c’est-à-dire l’architecte en chef des travaux publics. Les sources indiquent qu’il fit don de son projet et de son travail. Les travaux durèrent de mille sept cent soixante-dix-sept à mille sept cent quatre-vingt-onze, et le vice-roi Antonio María de Bucareli versa cent cinquante pesos par mois pour les soutenir.\n\nRegardez la forme de l’édifice. Ce n’est ni un rectangle ni un cercle, mais un plan de lignes courbes et droites qui se combinent. Il y a trois grands volumes couverts de coupoles, qui se croisent en partie. Les coupoles et les lanternes sont ornées de carreaux de talavera, bleus et blancs. Les murs sont en tezontle, la pierre volcanique rougeâtre utilisée dans de nombreux édifices de la ville, avec des détails en pierre de carrière.\n\nLes spécialistes indiquent que Guerrero y Torres s’est inspiré d’un ancien temple romain, dont l’architecte italien Sebastiano Serlio avait publié le dessin dans son traité. En mille sept cent soixante-dix-neuf, le Conseil des Indes mit en cause le style baroque du projet. Malgré cela, l’ouvrage fut achevé.\n\nL’Institut national d’anthropologie et d’histoire a expliqué que le dessin possède une signification symbolique. Selon son étude, il évoque le ciel, la terre et les points cardinaux. C’est une lecture que la chercheuse de l’Université nationale autonome du Mexique Martha Fernández a aussi développée dans un article de deux mille vingt-deux.\n\nL’édifice a changé au fil des siècles. Le terrain est meuble, comme dans toute cette vallée. En mille neuf cent cinquante-neuf, des travaux furent réalisés pour remettre la chapelle à niveau, sous la direction de l’ingénieur Manuel González Flores. En deux mille vingt-quatre, l’Institut a présenté un diagnostic de son état de conservation, avec des fissures dans les murs et dans la coupole centrale, et des pièces manquantes dans le revêtement de tezontle. C’est un monument qui continue d’avoir besoin de soins.\n\nPour ceux qui viennent prier, c’est le lieu associé au puits du Tepeyac. Pour ceux qui cherchent de l’architecture, c’est l’une des œuvres les plus originales de son temps. Pour presque tous, il est difficile de ne pas s’arrêter pour la contempler."
+    },
+    "retos_observacion": {
+      "hash": "85748d5f83e14d3d",
+      "texto": [
+        "Comptez les trois coupoles",
+        "Observez le contraste entre le tezontle et la talavera",
+        "Cherchez la forme du plan, faite de courbes et de lignes droites"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5a4190216fc88c72",
+      "texto": {
+        "Projet": "Francisco Antonio Guerrero y Torres",
+        "Construction": "1777 à 1791",
+        "Coupoles": "trois, en talavera bleue et blanche",
+        "Murs": "tezontle",
+        "Chapelle précédente": "1648"
+      }
+    },
+    "faq_mito": {
+      "hash": "628d14f314812e13",
+      "texto": {
+        "pregunta": "Mythe : La chapelle actuelle du Pocito date du dix-septième siècle.",
+        "respuesta": "Réalité : La chapelle précédente datait de mille six cent quarante-huit ; l’actuelle a été construite entre mille sept cent soixante-dix-sept et mille sept cent quatre-vingt-onze."
+      }
+    }
+  }
+}

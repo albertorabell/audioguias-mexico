@@ -1,0 +1,22 @@
+{
+  "id": "bas-d-pocito",
+  "tipo": "sala",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "036b8511daf1f66a",
+      "texto": "La chapelle du Pocito"
+    },
+    "frase_gancho": {
+      "hash": "f76c80ca1965789a",
+      "texto": "Un joyau du baroque près d’une source."
+    },
+    "introduccion_narrativa": {
+      "hash": "d0f7280df441f7fe",
+      "texto": "Une chapelle du XVIIIe siècle, dotée de trois coupoles en talavera, construite près d’un puits que la tradition guadalupéenne associe aux apparitions."
+    }
+  }
+}

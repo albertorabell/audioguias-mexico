@@ -1,0 +1,47 @@
+{
+  "id": "bas_02_atrio_americas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "272974ef7408828e",
+      "texto": "Le parvis et la place des Amériques"
+    },
+    "frase_gancho": {
+      "hash": "9751d74a84d85b40",
+      "texto": "Le grand espace ouvert où se rassemblent les pèlerins."
+    },
+    "puente_narrativo": {
+      "hash": "c3d5b0f460725e72",
+      "texto": "De l’entrée, vous passez au parvis, l’espace qui accueille les pèlerins face à la Nouvelle Basilique."
+    },
+    "guion_corto": {
+      "hash": "f7f8c5104853a993",
+      "texto": "Vous êtes sur le parvis, le grand espace ouvert face à la Nouvelle Basilique. Chaque année, des millions de pèlerins s’y rassemblent, et tout particulièrement le douze décembre, jour de Notre-Dame de Guadalupe. C’est ici que s’élève le carillon, achevé en mille neuf cent quatre-vingt-onze. Il compte quarante-huit cloches de bronze, mesure vingt-trois mètres et possède quatre horloges : civile, astroplan, solaire et mexica. Devant lui, des figures animées de saint Juan Diego, de frère Juan de Zumárraga et de Juan Bernardino racontent l’histoire des apparitions, selon la tradition guadalupéenne. Lorsqu’il y a une messe en plein air ou un pèlerinage, cet espace se remplit de monde. Si vous venez ces jours-là, avancez avec calme."
+    },
+    "guion_largo": {
+      "hash": "185c03ba02f6f111",
+      "texto": "Voici le parvis des Amériques, la grande esplanade qui s’ouvre face à la Nouvelle Basilique. C’est le lieu où arrivent les pèlerins avant d’entrer dans le temple, et aussi l’espace où ils se rassemblent quand le temple ne suffit pas à les accueillir tous.\n\nLes estimations du nombre de personnes qui visitent l’ensemble chaque année vont de huit à vingt millions, selon qui les établit. Quel que soit le chiffre exact, ce sont des millions. La fête principale a lieu le douze décembre, lorsque l’Église célèbre Notre-Dame de Guadalupe. Ce jour-là, et les jours qui l’entourent, des pèlerinages arrivent de tout le pays et d’autres pays. Beaucoup viennent à pied depuis plusieurs jours. Certaines personnes traversent cette esplanade à genoux, en accomplissement d’une promesse. La Nouvelle Basilique a été conçue pour accueillir environ dix mille personnes à l’intérieur, et à l’extérieur, il y a de la place pour des dizaines de milliers d’autres.\n\nC’est ici même que s’élève le carillon, une tour de vingt-trois mètres achevée en mille neuf cent quatre-vingt-onze. Il compte quarante-huit cloches de bronze. Il a été promu par frère Gabriel Chávez de la Mora, le moine bénédictin qui a aussi collaboré au projet de la Nouvelle Basilique.\n\nLe carillon possède quatre horloges. L’une est civile et indique l’heure que nous utilisons tous les jours. L’une est astroplan. L’une est solaire. Et la quatrième est une horloge mexica, qui rappelle une autre façon de mesurer le temps, celle des peuples qui habitaient cette vallée avant l’arrivée des Espagnols.\n\nDevant la tour se trouve un cyclorama avec des figures animées. Elles représentent saint Juan Diego, frère Juan de Zumárraga, premier évêque de Mexico, et Juan Bernardino, l’oncle de Juan Diego. Leurs mouvements racontent l’histoire des apparitions telle que la transmet la tradition guadalupéenne. Selon cette tradition, en décembre mille cinq cent trente et un, la Vierge Marie apparut à Juan Diego sur cette colline et lui demanda que l’on y élève un temple.\n\nEn deux mille onze a en outre été ouverte la Place mariale, à côté de cet espace, avec le Musée guadalupéen, une œuvre de la Fondation Carlos Slim.\n\nD’ici, vous pouvez voir la Nouvelle Basilique, de plan circulaire, inaugurée en mille neuf cent soixante-seize. Sur un côté, parmi les bâtiments de l’ensemble, se trouve l’Ancienne Basilique, du dix-huitième siècle. Et derrière tout cela se dresse la colline du Tepeyac.\n\nLe parvis est aussi un lieu de convivialité. Des familles y viennent, des groupes qui apportent des images de la Vierge et des personnes qui viennent seules. Certains se reposent après un long chemin, d’autres se font photographier, d’autres attendent pour entrer dans le temple. C’est un lieu de rassemblement. Pour beaucoup de personnes, c’est un lieu de prière, d’adieu ou de remerciement. S’il y a une messe ou une prière en cours, vous pouvez le parcourir avec calme, en parlant à voix basse et sans interrompre."
+    },
+    "retos_observacion": {
+      "hash": "8e2d869d55db9de5",
+      "texto": [
+        "Comptez les cloches du carillon si vous l’entendez sonner",
+        "Cherchez les quatre horloges",
+        "Observez les figures animées au pied du carillon"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de38a84f8de00f57",
+      "texto": {
+        "Carillon": "achevé en 1991",
+        "Cloches": "quarante-huit, de bronze",
+        "Hauteur": "23 m",
+        "Horloges": "quatre (civile, astroplan, solaire et mexica)"
+      }
+    }
+  }
+}

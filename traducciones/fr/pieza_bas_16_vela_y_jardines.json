@@ -1,0 +1,54 @@
+{
+  "id": "bas_16_vela_y_jardines",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "de932cef8ed90b5d",
+      "texto": "Le jardin du Tepeyac et L’Offrande"
+    },
+    "frase_gancho": {
+      "hash": "f9c437d9d685d764",
+      "texto": "Cascades, fontaines et un groupe en bronze."
+    },
+    "puente_narrativo": {
+      "hash": "214d1c6f45f6812e",
+      "texto": "Du Petit Puits, vous montez par les jardins, sur le versant oriental de la colline."
+    },
+    "guion_corto": {
+      "hash": "87cd47b1ab3ad7eb",
+      "texto": "Vous êtes sur le versant oriental du Tepeyac, dans le jardin du Tepeyac. Cascades, fontaines et végétation servent d’arrière-plan à L’Offrande, un groupe de seize figures de bronze disposées en attitude d’adoration devant la Vierge de Guadalupe. La Basilique a commandé l’œuvre en mille neuf cent quatre-vingt-deux à l’artiste Aurelio Mendoza. Selon la tradition, certains de ces espaces rappellent la deuxième et la troisième apparitions. Plus haut, vous verrez la Voile du Marin et l’escalier monumental est, qu’une plaque attribue à Guerrero y Torres. C’est un lieu tranquille, sauf lors des grandes fêtes. La montée jusqu’à la chapelle du sommet est d’environ cent mètres."
+    },
+    "guion_largo": {
+      "hash": "b212d0e5bcfcde54",
+      "texto": "Voici le jardin du Tepeyac, parfois appelé Jardin sacré. Il se trouve sur le versant oriental de la colline, et c’est le chemin que beaucoup de visiteurs empruntent pour monter à la chapelle du sommet ou en redescendre.\n\nLe jardin comprend des cascades, des fontaines et une végétation abondante. Selon la tradition guadalupéenne, certains de ces espaces rappellent la deuxième et la troisième apparitions de la Vierge Marie à saint Juan Diego, en décembre mille cinq cent trente et un. L’aménagement paysager a été conçu pour servir de décor à un ensemble sculpté appelé L’Offrande.\n\nL’Offrande se compose de seize figures de bronze fondu, disposées en attitude d’adoration devant la Vierge de Guadalupe. La Basilique a commandé l’œuvre en mille neuf cent quatre-vingt-deux. L’artiste choisi fut Aurelio G. D. Mendoza, qui avait alors quatre-vingt-deux ans et était surtout connu pour son travail de scène. Les figures sont disposées dans le paysage du jardin, et on peut les voir depuis différents endroits.\n\nIci se trouve aussi la Voile du Marin. C’est une structure de pierre qu’une plaque posée en mille neuf cent soixante-dix attribue, avec la façade de la chapelle de la Petite Colline et le premier escalier monumental est, à l’architecte Francisco Guerrero y Torres, le même que celui du Petit Puits. Selon la tradition que rapporte la Basilique, la Voile rappelle la promesse de marins qui échappèrent à un danger en mer et qui, pour l’accomplir, apportèrent ici un mât et le laissèrent fixé dans la pierre. C’est une manière de rendre grâce semblable à celle des ex-voto que vous avez vus dans le musée.\n\nLa montée depuis l’arrière de l’ancienne basilique jusqu’à la chapelle du sommet est d’environ cent mètres. Il y a des marches et des passages en pente, et il vaut mieux y aller sans se presser. Si vous empruntez le chemin du jardin, vous marcherez entre les arbres, l’eau et les bronzes.\n\nCet espace est, selon le portail du tourisme de Mexico, l’un des coins les plus tranquilles de l’ensemble, sauf les jours de fête, quand il se remplit de pèlerins. C’est un lieu pour ceux qui veulent aller lentement, pour ceux qui cherchent un moment de silence et pour ceux qui veulent simplement se reposer un moment entre le bruit de l’esplanade et le sommet.\n\nEn montant, la ville s’ouvre peu à peu autour de vous. Le Tepeyac est une petite élévation, mais on y apprécie l’étendue de la vallée.\n\nC’est un espace ouvert aux personnes de toute croyance, où l’on voit des familles qui se promènent et des personnes qui s’assoient un moment. Il convient de parler à voix basse et de marcher d’un pas tranquille.\n\nCertains montent en priant, d’autres montent pour voir le paysage. Dans le jardin, les deux manières ont leur place. Si vous croisez des personnes en prière, passez sans les interrompre et sans faire de bruit."
+    },
+    "retos_observacion": {
+      "hash": "29dcf1f5fafdb469",
+      "texto": [
+        "Comptez les figures de bronze de L’Offrande",
+        "Cherchez les cascades et les fontaines",
+        "Regardez la Voile du Marin plus haut"
+      ]
+    },
+    "especificaciones": {
+      "hash": "116ff4a5357055a8",
+      "texto": {
+        "Sculpture": "L’Offrande, seize figures de bronze",
+        "Commande": "1982",
+        "Artiste": "Aurelio Mendoza",
+        "Montée à la chapelle": "environ 100 m"
+      }
+    },
+    "faq_mito": {
+      "hash": "02e92a86fc4f1e71",
+      "texto": {
+        "pregunta": "Mythe : L’Offrande est une œuvre de l’époque vice-royale.",
+        "respuesta": "Réalité : La Basilique a commandé ce groupe de bronze en mille neuf cent quatre-vingt-deux."
+      }
+    }
+  }
+}

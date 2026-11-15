@@ -1,0 +1,22 @@
+{
+  "id": "bas-c-nueva-basilica",
+  "tipo": "sala",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "60e632faa5ef0cf1",
+      "texto": "La Nouvelle Basilique et l’image"
+    },
+    "frase_gancho": {
+      "hash": "f9bfb77c625b5e5d",
+      "texto": "Le temple circulaire où l’image est aujourd’hui vénérée."
+    },
+    "introduccion_narrativa": {
+      "hash": "458b0255990b3e04",
+      "texto": "À l’intérieur de la Nouvelle Basilique se trouvent le Saint Christ de l’Attentat, l’image de Notre-Dame de Guadalupe et le tapis roulant qui permet de la voir sans s’arrêter."
+    }
+  }
+}

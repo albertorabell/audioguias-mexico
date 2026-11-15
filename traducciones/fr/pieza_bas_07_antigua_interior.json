@@ -1,0 +1,55 @@
+{
+  "id": "bas_07_antigua_interior",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b4fa6663086fd59a",
+      "texto": "L’Ancienne Basilique : intérieur"
+    },
+    "frase_gancho": {
+      "hash": "958caa3468156f4e",
+      "texto": "Là où se trouvait l’image pendant presque trois cents ans."
+    },
+    "puente_narrativo": {
+      "hash": "0a89561847e3dbef",
+      "texto": "Vous entrez dans le temple, aujourd’hui dédié au Christ Roi."
+    },
+    "guion_corto": {
+      "hash": "24b8e51a85d0a699",
+      "texto": "Dans cette église se trouvait l’image de Notre-Dame de Guadalupe depuis mille sept cent neuf. En mille sept cent trente-sept, Mexico a prêté serment à la Vierge de Guadalupe comme patronne. Ici, l’image a été couronnée le douze octobre mille huit cent quatre-vingt-quinze, avec l’autorisation du pape Léon treize. En mille neuf cent vingt et un, une bombe a explosé au pied du maître-autel. Et en mille neuf cent soixante-seize, l’image a été transférée à la Nouvelle Basilique. Aujourd’hui, le temple est dédié au Christ Roi et reste en usage. Celui qui entre le fait comme dans un temple vivant, avec calme."
+    },
+    "guion_largo": {
+      "hash": "deee74015bf9aa3d",
+      "texto": "Vous entrez dans un temple qui, pendant plus de deux siècles et demi, fut le centre du culte guadalupéen. L’image de Notre-Dame de Guadalupe y a été vénérée depuis sa dédicace, en mille sept cent neuf, jusqu’en mille neuf cent soixante-seize, avec quelques sorties temporaires. En mille sept cent cinq, on avait confié au sculpteur Manuel de Nava le retable principal, pour seize mille pesos, afin que l’image dispose d’un autel à sa hauteur.\n\nC’est pourquoi de nombreux moments de l’histoire du culte se sont déroulés ici. En mille sept cent trente-sept, Mexico a prêté serment à la Vierge de Guadalupe comme patronne. En mille sept cent quarante-six, elle l’est devenue de la Nouvelle-Espagne, et en mille sept cent cinquante-quatre, le pape Benoît quatorze a confirmé le patronage et accordé une messe propre pour le douze décembre.\n\nLa collégiale a été officialisée en mille sept cent quarante-neuf, et en mille sept cent cinquante s’est réuni son premier chapitre, le groupe de prêtres qui desservait le sanctuaire.\n\nEn mille huit cent quatre-vingt-huit, à cause des travaux dirigés par Juan Agea et Emilio Dondé, l’image a quitté ces lieux et a été vénérée dans l’église des Capucines. Elle est revenue le trente septembre mille huit cent quatre-vingt-quinze, douze jours avant le couronnement.\n\nC’est aussi ici qu’a eu lieu le couronnement de l’image, le douze octobre mille huit cent quatre-vingt-quinze, avec l’autorisation du pape Léon treize. La couronne a été remise par l’abbé José Antonio Plancarte. La cérémonie était présidée par l’archevêque Próspero María Alarcón.\n\nEn mille neuf cent vingt et un s’est produit un événement dont on se souvient encore aujourd’hui. Le quatorze novembre, vers dix heures et demie du matin, une bombe de dynamite dissimulée dans un arrangement de fleurs a explosé au pied de l’autel. L’image n’a subi aucun dommage. Le crucifix qui se trouvait sur l’autel est resté tordu, et il est conservé aujourd’hui à la Nouvelle Basilique. Vous le verrez à une autre étape.\n\nLe temple a été fermé en mille neuf cent soixante-seize à cause de l’affaissement du terrain. Après les travaux de consolidation, il a été rouvert au culte comme Temple expiatoire du Christ Roi. C’est donc un édifice qui a deux vies : celle de sanctuaire de l’image, pendant des siècles, et celle de temple dédié au Christ, depuis quelques décennies.\n\nAvant d’entrer, il convient de savoir que c’est un lieu de culte actif. Il peut y avoir des messes ou des personnes en prière. Il convient de parler à voix basse et de photographier avec discrétion. Si une cérémonie est en cours, vous pouvez attendre ou revenir plus tard.\n\nPendant que vous marchez dans les nefs, pensez à toutes les personnes qui se sont arrêtées sur ce même sol. Des pèlerins de Mexico et de lieux lointains, pendant deux siècles et demi, sont passés par cet espace pour voir l’image. Voilà l’histoire que gardent ces murs, au-delà de leur architecture."
+    },
+    "retos_observacion": {
+      "hash": "a2f8c489b97c7802",
+      "texto": [
+        "Regardez vers le maître-autel",
+        "Cherchez l’endroit où l’image a été couronnée en 1895",
+        "Entrez en silence, comme dans un temple en activité"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b54d0953a57cee5",
+      "texto": {
+        "Image ici": "de 1709 à 1976",
+        "Patronne de la ville": "1737",
+        "Couronnement": "12 octobre 1895",
+        "Bombe": "14 novembre 1921",
+        "Aujourd’hui": "Temple expiatoire du Christ Roi"
+      }
+    },
+    "faq_mito": {
+      "hash": "4d533725aefcc649",
+      "texto": {
+        "pregunta": "Mythe : L’image a toujours été dans la Nouvelle Basilique.",
+        "respuesta": "Réalité : Elle se trouvait dans l’Ancienne Basilique de mille sept cent neuf à mille neuf cent soixante-seize."
+      }
+    }
+  }
+}

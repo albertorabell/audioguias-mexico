@@ -1,0 +1,55 @@
+{
+  "id": "bas_11_nueva_arquitectura",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "45188bf7e430ac0d",
+      "texto": "La Nouvelle Basilique"
+    },
+    "frase_gancho": {
+      "hash": "27d2fc999c9aa254",
+      "texto": "Un temple circulaire conçu pour que tout le monde voie l’image."
+    },
+    "puente_narrativo": {
+      "hash": "a19522d478faf873",
+      "texto": "Vous traversez le parvis et arrivez à la façade de la Nouvelle Basilique."
+    },
+    "guion_corto": {
+      "hash": "ba7505dc33c9400b",
+      "texto": "Vous êtes devant la Nouvelle Basilique de Guadalupe. Elle a été construite entre mille neuf cent soixante-quatorze et mille neuf cent soixante-seize. L’Ancienne Basilique s’enfonçait et ne suffisait plus à accueillir autant de pèlerins. Son plan est circulaire, de plus de cent mètres de diamètre. Elle a été conçue pour qu’environ dix mille personnes puissent voir l’image de la Vierge depuis n’importe quel endroit de l’intérieur. Le projet a été signé par les architectes Pedro Ramírez Vázquez et José Luis Benlliure, avec frère Gabriel Chávez de la Mora. Son toit est suspendu, soutenu depuis un seul point, comme une grande tente. Et pour supporter son poids sur un sol meuble, des centaines de pieux de contrôle ont été enfoncés."
+    },
+    "guion_largo": {
+      "hash": "c52e79c258438c3c",
+      "texto": "Vous êtes devant la Nouvelle Basilique de Guadalupe, et elle mérite qu’on la regarde un instant avant d’entrer.\n\nPendant deux cent soixante-sept ans, l’image de la Vierge est restée dans l’Ancienne Basilique, de mille sept cent neuf à mille neuf cent soixante-seize. C’est le temple qui se trouve à côté de celui-ci. Le sol de cette zone est meuble, c’est un ancien lac, et cet édifice s’est peu à peu enfoncé. De plus, chaque année, les pèlerins étaient plus nombreux et le temple ne suffisait plus. Il fallait un autre lieu.\n\nLes premiers avant-projets de l’architecte José Luis Benlliure envisageaient de construire en haut de la colline. Finalement, on a choisi ce terrain, au pied du Tepeyac. Le projet a été signé par Pedro Ramírez Vázquez et Benlliure, avec frère Gabriel Chávez de la Mora. Alejandro Schoenhofer et Javier García Lascuráin ont également collaboré. La structure a été confiée à Óscar de Buen, et l’acoustique à Eduardo Saad. La commande venait de l’abbé Guillermo Schulenburg.\n\nLa première pierre a été posée le douze décembre mille neuf cent soixante-quatorze. Le temple a été consacré le douze octobre mille neuf cent soixante-seize, et ce jour-là l’image y a été transférée. Les travaux ont duré environ vingt-deux mois, un délai très court pour un édifice de cette taille. Les premières aubades dans le nouveau temple ont été chantées le douze décembre de cette même année.\n\nRegardez sa forme. Le plan est un cercle de plus de cent mètres de diamètre. Ce choix a une raison simple. Celui qui entre, où qu’il s’asseye, peut voir l’image. À l’intérieur, il y a de la place pour environ dix mille personnes, et sur la place, pour beaucoup plus.\n\nLe toit est suspendu et se soutient depuis un seul point, comme le mât d’une tente. À l’intérieur, il est revêtu de bois, et la lumière vient de lampes de forme hexagonale.\n\nÀ l’époque, certaines personnes ont dit que l’édifice ressemblait plus à un chapiteau ou à un stade qu’à une église. Martha Fernández, chercheuse de l’UNAM, propose de lire cette forme autrement. Pour elle, la tente rappelle celle du peuple d’Israël dans le désert. C’était le lieu où, selon la Bible, Dieu accompagnait son peuple sur le chemin. C’est une interprétation académique. Elle aide aussi à comprendre pourquoi cette forme convient à un lieu où l’on arrive à pied, de loin.\n\nIl reste le problème du sol. Pour que l’édifice ne s’enfonce pas comme le précédent, trois cent quarante-quatre pieux de contrôle ont été enfoncés. Grâce à eux, on peut ajuster le niveau de la construction au fil des années.\n\nRegardez aussi l’échelle. Depuis la place, la Basilique se voit en entier à moins de deux cents mètres, et sa pointe ne paraît pas aussi haute qu’elle l’est. L’édifice a été conçu pour accueillir des multitudes entières, surtout lors de la fête du douze décembre, quand la place se remplit de pèlerins.\n\nQuand vous entrerez, vous remarquerez que l’espace est vaste et ouvert. Beaucoup de personnes viennent ici pour prier, pour demander ou pour rendre grâce, et il y a une messe pendant une grande partie de la journée. Si vous venez seulement pour regarder, faites votre visite avec calme et en silence. Plus loin, au-dessus de l’autel, se trouve l’image de la Vierge de Guadalupe."
+    },
+    "retos_observacion": {
+      "hash": "5563b7d1d68ddf8f",
+      "texto": [
+        "Comptez combien d’accès vous voyez sur la façade",
+        "Repérez la forme circulaire de l’édifice en en faisant le tour",
+        "Regardez le toit en entrant"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2ddfd777475ef74a",
+      "texto": {
+        "Travaux": "1974 à 1976",
+        "Architectes": "Pedro Ramírez Vázquez et José Luis Benlliure",
+        "Plan": "circulaire, plus de 100 m de diamètre",
+        "Visibilité": "environ 10 000 personnes",
+        "Toit": "suspendu, soutenu depuis un point"
+      }
+    },
+    "faq_mito": {
+      "hash": "1540808b34dac40b",
+      "texto": {
+        "pregunta": "Mythe : L’Ancienne Basilique a été abandonnée quand la Nouvelle a été construite.",
+        "respuesta": "Réalité : L’Ancienne est aujourd’hui dédiée au Christ Roi et reste en usage."
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bas-e-cerro",
+  "tipo": "sala",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "0c47852c9343300f",
+      "texto": "La colline du Tepeyac"
+    },
+    "frase_gancho": {
+      "hash": "fc2f6de00e7e0e06",
+      "texto": "Jardins, chapelle du Cerrito et panthéon."
+    },
+    "introduccion_narrativa": {
+      "hash": "d8b6ad659f277fc4",
+      "texto": "La montée de la colline : les jardins avec L’Ofrenda, la chapelle du sommet avec sa vue sur la ville, et le cimetière où reposent des figures de l’histoire du Mexique."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "bas_17_cerrito",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d406831019995b44",
+      "texto": "La chapelle du Cerrito"
+    },
+    "frase_gancho": {
+      "hash": "8413c2bebbe53379",
+      "texto": "Le sommet du Tepeyac, avec vue sur la ville."
+    },
+    "puente_narrativo": {
+      "hash": "0dc1d8afafdc934f",
+      "texto": "Vous montez les derniers mètres jusqu’au sommet de la colline."
+    },
+    "guion_corto": {
+      "hash": "4ea6a86d9b1065b2",
+      "texto": "Vous voici au sommet du Tepeyac, à la chapelle du Cerrito. Selon la tradition guadalupéenne, c’est en ce lieu que saint Juan Diego trouva les roses qu’il apporta à l’évêque comme signe. Cristóbal de Aguirre et son épouse Teresa firent élever ici un petit ermitage, en mille six cent soixante ou en mille six cent soixante-six, selon la source. La chapelle actuelle, dédiée à saint Michel Archange, date du dix-huitième siècle, avec une façade baroque en tezontle, sans tours. À l’intérieur, des fresques du muraliste Fernando Leal racontent les apparitions. Depuis la terrasse, on découvre la ville. On l’appelle aussi la chapelle des Roses, et ses horaires peuvent changer."
+    },
+    "guion_largo": {
+      "hash": "e9bca9178b58c498",
+      "texto": "Vous êtes au sommet de la colline du Tepeyac, devant la chapelle du Cerrito, qui s’appelle aussi chapelle des Roses ou chapelle du Petit Mont des Anges.\n\nSelon la tradition guadalupéenne, c’est en ce lieu que saint Juan Diego cueillit les roses qu’il apporta dans sa tilma à l’évêque frère Juan de Zumárraga, comme le signe que lui demandait la Vierge Marie. C’est pourquoi on s’en souvient comme de la chapelle des roses. Pour beaucoup de fidèles, c’est le site le plus lié aux apparitions de tout l’ensemble.\n\nLe premier ermitage de ce lieu fut commandé par Cristóbal de Aguirre et son épouse Teresa, pour commémorer les trois apparitions survenues sur la colline. Une plaque sur le site donne la date de mille six cent soixante. D’autres sources disent mille six cent soixante-six, et les deux sont citées ici. Il fut dédié à saint Michel Archange, que la tradition chrétienne reconnaît comme le chef des anges, et dont le nom s’interprète comme « qui est comme Dieu ». L’Église le présente comme un défenseur et un protecteur, avec l’idée que, depuis les hauteurs, il veille sur le sanctuaire du pied de la colline.\n\nCet ancien ermitage fut remplacé. Au milieu du dix-huitième siècle, on demanda l’autorisation d’en construire un nouveau. Le premier ermitage fut démoli en mille sept cent quarante-huit, et vers mille sept cent cinquante-six, la première messe fut célébrée dans la chapelle actuelle. La façade, de style baroque, est faite de tezontle rouge et n’a pas de tours.\n\nLa plaque de la chapelle attribue sa façade, ainsi que la Vela del Marino et l’escalier monumental est, à l’architecte Francisco Guerrero y Torres, celui-là même qui conçut la chapelle du Pocito.\n\nLa chapelle fut reconstruite entre mille neuf cent quarante-cinq et mille neuf cent cinquante. À cette étape, on ajouta une petite place ornée de quatre sculptures des archanges Michel, Raphaël, Gabriel et Uriel. En mille huit cent quatre-vingt-quinze, on avait installé quatre anges de marbre, œuvre du sculpteur Ernesto Tamariz, ainsi qu’une croix d’apôtre, l’année du couronnement pontifical de l’image.\n\nÀ l’intérieur, le décor est constitué de fresques du peintre Fernando Leal, l’un des artistes du mouvement muraliste mexicain. Ses peintures représentent des moments des apparitions, tels que les raconte la tradition, et sont une manière de transmettre cette histoire à ceux qui visitent la chapelle.\n\nOn accède à la chapelle par un escalier raide et sinueux, qu’il vaut mieux gravir sans se presser. Depuis la terrasse, on découvre la ville. La colline, qui au seizième siècle était à l’écart de la ville, se trouve aujourd’hui entourée de rues et d’immeubles.\n\nC’est un petit temple, très fréquenté. Lorsqu’il y a une prière ou une messe, il est recommandé d’attendre dehors ou d’entrer sans faire de bruit. Les horaires peuvent changer, il est donc préférable de les confirmer sur le site officiel."
+    },
+    "retos_observacion": {
+      "hash": "18597ab37d7225c8",
+      "texto": [
+        "Regardez la façade en tezontle sans tours",
+        "Cherchez la terrasse et la vue sur la ville",
+        "Observez les fresques de Fernando Leal à l’intérieur de la chapelle"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3d6ebf0963fff18",
+      "texto": {
+        "Ermitage": "1660 ou 1666, selon la source",
+        "Commanditaires": "Cristóbal de Aguirre et Teresa",
+        "Chapelle actuelle": "XVIIIe siècle, dédiée à saint Michel Archange",
+        "Fresques": "Fernando Leal"
+      }
+    },
+    "faq_mito": {
+      "hash": "001efa0cfdf1e4a7",
+      "texto": {
+        "pregunta": "Mythe : La chapelle du sommet est l’originale.",
+        "respuesta": "Réalité : Le premier ermitage date de mille six cent soixante ou de mille six cent soixante-six, selon la source ; la chapelle actuelle date du dix-huitième siècle."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bas_01_calzada_misterios",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "52078cacc20d929a",
+      "texto": "La Chaussée des Mystères"
+    },
+    "frase_gancho": {
+      "hash": "9dd703844d5a3a6c",
+      "texto": "Un chemin mexica devenu route de pèlerins."
+    },
+    "puente_narrativo": {
+      "hash": "56864a3a8c4c3421",
+      "texto": "Vous commencez là où ont commencé de nombreux pèlerins : le chemin qui monte vers le Tepeyac."
+    },
+    "guion_corto": {
+      "hash": "49cde3e071cbeabb",
+      "texto": "Cette chaussée est bien plus ancienne que la Basilique. Les Mexicas l’ont tracée pour relier Tenochtitlan à la colline du Tepeyac, et depuis lors elle est le chemin de ceux qui viennent en ce lieu. En mille six cent soixante-quinze commença la construction de quinze monuments, un pour chaque mystère du rosaire, la prière par laquelle les catholiques méditent la vie de Jésus et de la Vierge Marie. Ils furent conçus par l’architecte Cristóbal de Medina Vargas. Huit originaux se sont conservés et sept ont été remplacés en mille neuf cent quatre-vingt-dix-neuf. Elle fait partie de la route par laquelle, pendant des siècles, on rejoignait le Tepeyac depuis la ville. Aujourd’hui encore, de nombreux pèlerins parcourent ce chemin à pied, en silence ou en priant."
+    },
+    "guion_largo": {
+      "hash": "cc9eda013c507bf4",
+      "texto": "Vous vous trouvez sur l’une des plus anciennes rues de Mexico. Avant que la Basilique n’existe, avant l’arrivée des Espagnols, les Mexicas ont construit cette chaussée pour relier Tenochtitlan à la sierra de Guadalupe et à la colline du Tepeyac. C’est ce que rapporte la notice de l’Institut national d’anthropologie et d’histoire (INAH) sur ce monument.\n\nPendant l’époque vice-royale, elle est restée le chemin principal vers le sanctuaire. Pendant longtemps, cette rue s’est aussi appelée Chaussée de Guadalupe. Aujourd’hui, ce nom est porté par une autre rue parallèle, dont la construction a commencé en mille sept cent quatre-vingt-six. Après la grande inondation de mille six cent quatre, la chaussée a été réparée pour que l’on puisse continuer à l’utiliser. Les pèlerins arrivaient par ici depuis la ville, et ils n’ont cessé d’arriver par ici.\n\nDans les années mille six cent soixante-dix, on décida de donner une forme permanente aux haltes que les marcheurs faisaient en chemin. L’architecte Cristóbal de Medina Vargas proposa d’ériger quinze monuments, un pour chaque mystère du rosaire. Les travaux commencèrent en mille six cent soixante-quinze, et le premier, celui de l’Incarnation, fut achevé en mille six cent soixante-seize.\n\nLe rosaire est une prière catholique. Celui qui le récite répète des prières tout en pensant à des moments de la vie de Jésus et de la Vierge Marie. Ces moments s’appellent des mystères et se regroupent en trois séries de cinq. Les mystères joyeux rappellent, par exemple, l’Annonciation et la naissance de Jésus. Les mystères douloureux rappellent sa passion. Les mystères glorieux rappellent la résurrection et la gloire de Marie. Quinze monuments formaient donc un chemin de prière pour celui qui marchait vers le sanctuaire.\n\nLe Monument aux Pèlerins marque le début traditionnel de la chaussée, et c’est à partir de là que l’on compte les quinze mystères en allant vers le nord. Les monuments sont des œuvres baroques, semblables à des stèles, avec des scènes et des figures dans leur partie haute. Au cours des siècles suivants, ils ont subi des modifications et des pertes. Au dix-neuvième siècle, les travaux du chemin de fer en ont endommagé plusieurs. À la fin du vingtième siècle, seuls huit des quinze originaux se conservaient.\n\nEn mille neuf cent quatre-vingt-dix-neuf, la chaussée a été restaurée et sept monuments ont été remplacés. Aujourd’hui, il y en a quinze, huit originaux et sept remplacés, répartis entre les arrondissements Cuauhtémoc et Gustavo A. Madero. Si vous parcourez cette rue, vous verrez que chacun s’identifie par son mystère.\n\nCet arrêt est gratuit et vous pouvez l’écouter devant n’importe lequel des monuments. Si vous marchez vers le nord, vous arriverez à la Villa de Guadalupe. Beaucoup de personnes font le trajet complet à pied, certaines en récitant le rosaire, d’autres en silence, et d’autres simplement en marchant et en regardant. Toutes sont les bienvenues. Aux dates de pèlerinage, cette chaussée se remplit de gens venus de loin.\n\nPour celui qui vient prier, c’est un chemin de foi. Pour celui qui vient découvrir, c’est une rue riche de plus de cinq siècles d’histoire, qui remplit encore la fonction pour laquelle elle a été faite : conduire les gens jusqu’au Tepeyac."
+    },
+    "retos_observacion": {
+      "hash": "4ac89ee8aad46418",
+      "texto": [
+        "Cherchez les monuments des mystères le long de la chaussée",
+        "Observez les pèlerins qui arrivent à pied",
+        "Regardez vers la colline et repérez la Basilique"
+      ]
+    },
+    "especificaciones": {
+      "hash": "104ff548294aac0c",
+      "texto": {
+        "Origine": "chaussée mexica",
+        "Monuments": "quinze, un par mystère du rosaire",
+        "Projet": "Cristóbal de Medina Vargas, à partir de 1675",
+        "Originaux conservés": "huit",
+        "Remplacés en 1999": "sept"
+      }
+    },
+    "faq_mito": {
+      "hash": "06d8e7c9b0b7c9dc",
+      "texto": {
+        "pregunta": "Mythe : La Chaussée des Mystères a été construite pour la Basilique actuelle.",
+        "respuesta": "Réalité : Les Mexicas avaient déjà tracé une chaussée vers le Tepeyac. La construction des quinze monuments des mystères a commencé en mille six cent soixante-quinze ; aujourd’hui, huit sont originaux et sept ont été remplacés en mille neuf cent quatre-vingt-dix-neuf."
+      }
+    }
+  }
+}

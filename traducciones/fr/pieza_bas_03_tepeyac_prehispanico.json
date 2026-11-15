@@ -1,0 +1,45 @@
+{
+  "id": "bas_03_tepeyac_prehispanico",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0e8c809acb502526",
+      "texto": "Le Tepeyac avant le sanctuaire"
+    },
+    "frase_gancho": {
+      "hash": "79f23eb3a65e55c8",
+      "texto": "Une colline visitée bien avant la Basilique."
+    },
+    "puente_narrativo": {
+      "hash": "b60863c0e81522de",
+      "texto": "Depuis la place, regardez vers la colline et pensez à ce qui existait avant les constructions."
+    },
+    "guion_corto": {
+      "hash": "24413fbd3f7c3b97",
+      "texto": "Avant qu’un sanctuaire chrétien ne s’élève ici, cette colline était déjà un lieu de visite. Les Mexicas la reliaient à Tenochtitlan par une chaussée. Le frère franciscain Bernardino de Sahagún a écrit vers mille cinq cent soixante-seize que de nombreuses personnes venaient en ce lieu honorer Tonantzin, un nom nahuatl qui signifie notre mère. Sahagún s’inquiétait du sens que revêtait cette dévotion. Les historiens continuent d’étudier la façon dont ces deux traditions sont liées, et tous ne sont pas du même avis. La colline, aujourd’hui entourée par la ville, se trouve au nord de ce qui fut la capitale mexica. Pour les fidèles, le Tepeyac est avant tout le lieu où la Vierge Marie est apparue à saint Juan Diego."
+    },
+    "guion_largo": {
+      "hash": "4d0b8825c7c5898c",
+      "texto": "La colline du Tepeyac se trouve à l’extrémité nord de l’ancienne vallée de Mexico, au pied de la chaîne de Guadalupe. La colline fait partie de la chaîne de Guadalupe. Aujourd’hui, la ville l’entoure, mais au seizième siècle, c’était un lieu éloigné de Tenochtitlan, auquel on accédait par une chaussée. Cette chaussée est celle que nous connaissons aujourd’hui sous le nom de chaussée des Mystères.\n\nLe fait que les Mexicas aient construit un chemin jusqu’à cette colline en dit long : c’était un lieu où l’on se rendait. Dans la tradition mésoaméricaine, les collines avaient souvent une signification religieuse, et le Tepeyac ne faisait pas exception parmi les collines de la vallée. Aujourd’hui, nous savons peu de choses sur ce qui se faisait ici, et le peu que nous savons nous parvient par d’autres voies.\n\nLa plus connue est celle du frère franciscain Bernardino de Sahagún. Vers mille cinq cent soixante-seize, dans son ouvrage sur les choses de la Nouvelle-Espagne, il a écrit qu’au Tepeyac se trouvait un lieu où l’on honorait la déesse Tonantzin, et que des gens venaient jusque-là depuis des endroits lointains. Tonantzin est un nom nahuatl qui signifie notre mère. Sahagún raconte que cette dévotion l’inquiétait, parce que le même nom pouvait se comprendre de deux manières, et qu’il se préoccupait de savoir qui honoraient ceux qui montaient.\n\nCette information provient d’un seul auteur, et elle a été écrite plusieurs décennies après la conquête. C’est pourquoi les historiens la lisent avec prudence, et chaque génération de chercheurs y est revenue pour réviser ce que l’on sait. Certains pensent qu’elle montre une continuité entre l’ancien lieu de culte et le sanctuaire chrétien. D’autres pensent que le lien entre les deux est plus difficile à prouver. Des découvertes archéologiques ont été faites sur la colline, mais leur interprétation est elle aussi discutée.\n\nVoici ce que l’on peut affirmer avec certitude. Le Tepeyac a été, dès avant la conquête, un lieu doté d’une signification religieuse pour ceux qui vivaient dans la vallée. Et il a été, à partir du seizième siècle, le lieu où fut construit le sanctuaire de la Vierge de Guadalupe.\n\nPour les fidèles, ce sanctuaire est né d’un événement. Selon la tradition de Guadalupe, en décembre mille cinq cent trente et un, la Vierge Marie est apparue ici à Juan Diego, un autochtone, et lui a parlé dans sa langue. L’Église reconnaît le culte de Notre-Dame de Guadalupe et, en deux mille deux, elle a canonisé saint Juan Diego dans cette même Basilique. Ceux qui vivent leur foi selon cette tradition ne voient pas dans la colline un lieu qui appartenait à d’autres, mais le lieu où la Vierge est venue à la rencontre de son peuple.\n\nCette étape ne tranche pas la discussion des historiens. Elle vous donne seulement les faits : un chemin ancien, une colline dotée d’un culte, l’inquiétude d’un frère et une tradition qui a rassemblé des millions de personnes pendant près de cinq siècles."
+    },
+    "retos_observacion": {
+      "hash": "7b95a44449b68db6",
+      "texto": [
+        "Regardez la colline depuis la place",
+        "Repérez le nord : la capitale mexica se trouvait au sud",
+        "Comparez la colline avec la ville qui l’entoure aujourd’hui"
+      ]
+    },
+    "especificaciones": {
+      "hash": "62c42cb6f136ab9c",
+      "texto": {
+        "Source principale": "Bernardino de Sahagún, vers 1576",
+        "Nom nahuatl": "Tonantzin, notre mère"
+      }
+    }
+  }
+}

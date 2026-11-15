@@ -1,0 +1,55 @@
+{
+  "id": "bas_09_museo_basilica",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8f53edf3c8475513",
+      "texto": "Le Musée de la Basilique de Guadalupe"
+    },
+    "frase_gancho": {
+      "hash": "1f9d89cbb51b5773",
+      "texto": "L’art sacré et la mémoire de la dévotion dans l’ancien couvent."
+    },
+    "puente_narrativo": {
+      "hash": "955d94e8c3020ad2",
+      "texto": "Vous poursuivez vers le musée, dans l’ancien couvent."
+    },
+    "guion_corto": {
+      "hash": "e7258066a6048b56",
+      "texto": "Vous êtes au Musée de la Basilique de Guadalupe, ouvert le douze octobre mil neuf cent quarante et un. Il occupe l’ancien couvent, derrière l’Ancienne Basilique. Il compte environ seize salles et plus de quatre mille pièces d’art asiatique, européen et de la Nouvelle-Espagne, du quinzième au vingtième siècle. On y trouve des œuvres de peintres comme Cristóbal de Villalpando, José de Ibarra et Miguel Cabrera. On le considère comme l’un des plus anciens musées du Mexique. Ici se côtoient l’art sacré et aussi la mémoire de la dévotion : des offrandes et des objets que les fidèles ont laissés au fil des siècles. Les horaires et le prix d’entrée peuvent changer."
+    },
+    "guion_largo": {
+      "hash": "6f19f391b0542aa5",
+      "texto": "Le Musée de la Basilique de Guadalupe a ouvert ses portes le douze octobre mil neuf cent quarante et un. On le considère comme l’un des plus anciens musées du Mexique. Il occupe l’ancien couvent des capucines, derrière l’Ancienne Basilique.\n\nSa collection est vaste. Il compte environ seize salles et plus de quatre mille pièces. On y trouve de l’art asiatique, européen et de la Nouvelle-Espagne, du quinzième au vingtième siècle. Parmi les auteurs cités figurent Matías de Arteaga y Alfaro, Cristóbal de Villalpando, Nicolás Rodríguez Juárez, José de Ibarra et Miguel Cabrera, des noms importants de la peinture de la Nouvelle-Espagne. Le musée se présente comme celui qui rassemble la plus grande collection liée à la Vierge de Guadalupe.\n\nEn plus de la peinture sur toile, il y a de la sculpture polychrome, de la sculpture en marbre et en ivoire, des gravures, des livres, des textiles comme des étendards, des tapisseries et des vêtements liturgiques, de l’orfèvrerie et du mobilier d’origine mexicaine. Certaines salles sont organisées par thème. Il y a une Salle des Archanges, avec des peintures des archanges, et une Salle Christologique, consacrée à Jésus.\n\nUne part importante de la collection est constituée des ex-voto, ces petites peintures par lesquelles les fidèles ont rendu grâce, dont nous parlerons à la prochaine étape.\n\nL’édifice conserve lui aussi une part de l’histoire. C’est l’ancien couvent des capucines, et il est resté en partie séparé de l’Ancienne Basilique, une séparation que l’on perçoit mieux de l’extérieur.\n\nSelon la direction du musée, lorsqu’il a ouvert, en mil neuf cent quarante et un, l’art religieux n’était pas apprécié comme aujourd’hui, et sa fondation a été une décision en avance sur son temps. Au fil des ans, la collection a été demandée pour de grandes expositions, comme celles du Musée du Prado, à Madrid, et du Metropolitan Museum of Art, à New York.\n\nCeux qui visitent le musée le font de façons différentes. Pour les croyants, c’est une manière de connaître la dévotion des générations passées. Pour ceux qui étudient l’art, c’est une collection de peinture de la Nouvelle-Espagne. Pour les curieux, c’est une fenêtre sur la manière dont on vivait la foi à chaque époque. La directrice du musée a dit que le parcourir est une expérience spirituelle, quelle que soit la religion que chacun professe.\n\nLes horaires, le prix d’entrée et les salles ouvertes peuvent changer. Il convient de les confirmer sur le site officiel avant de venir. C’est un musée, mais aussi une partie d’un lieu de culte, aussi un comportement respectueux est-il attendu.\n\nSi vous avez peu de temps, choisissez une salle et regardez calmement une seule œuvre. Un tableau bien regardé en dit plus que beaucoup de tableaux vus à la hâte."
+    },
+    "retos_observacion": {
+      "hash": "7f97d36c306962b3",
+      "texto": [
+        "Cherchez une œuvre de Villalpando, d’Ibarra ou de Cabrera",
+        "Observez les objets que les fidèles ont laissés",
+        "Prêtez attention au bâtiment de l’ancien couvent"
+      ]
+    },
+    "especificaciones": {
+      "hash": "823a01f3b8b7ee2e",
+      "texto": {
+        "Ouverture": "12 octobre 1941",
+        "Salles": "environ 16",
+        "Pièces": "plus de 4 000",
+        "Époques": "du XVe au XXe siècle",
+        "Peintres": "Villalpando, Ibarra, Cabrera"
+      }
+    },
+    "faq_mito": {
+      "hash": "393c5d6014d2c3d7",
+      "texto": {
+        "pregunta": "Mythe : Le Musée de la Basilique est récent.",
+        "respuesta": "Réalité : Il a ouvert le douze octobre mil neuf cent quarante et un, et on le considère comme l’un des plus anciens musées du Mexique."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bas_06_antigua_fachada",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ba359c19f0c3af0c",
+      "texto": "L’Ancienne Basilique : la façade"
+    },
+    "frase_gancho": {
+      "hash": "c2bab9efbcd3c2e4",
+      "texto": "Un temple baroque qui s’est enfoncé dans le sol et a été sauvé."
+    },
+    "puente_narrativo": {
+      "hash": "d60264595a444c00",
+      "texto": "Vous sortez de la Nouvelle Basilique et marchez vers l’Ancienne, à quelques mètres."
+    },
+    "guion_corto": {
+      "hash": "aa3defcd2018ce1a",
+      "texto": "Devant vous se dresse l’Ancienne Basilique, aujourd’hui Temple expiatoire du Christ-Roi. Sa construction a commencé le vingt-cinq mars mille six cent quatre-vingt-quinze et s’est achevée en avril mille sept cent neuf, sous la direction de l’architecte Pedro de Arrieta. Elle compte trois nefs, une coupole octogonale surmontée d’un lanternon en faïence de talavera et quatre tours octogonales, une à chaque angle. L’image de Notre-Dame de Guadalupe y a été vénérée de mille sept cent neuf à mille neuf cent soixante-seize, avec quelques sorties temporaires. La façade a la forme d’un paravent. Une interprétation soutient que les quatre tours évoquent le Temple de Salomon. Le terrain s’est enfoncé de façon inégale, et c’est pourquoi le temple est resté fermé pendant des décennies."
+    },
+    "guion_largo": {
+      "hash": "c8e7055562279483",
+      "texto": "L’Ancienne Basilique est le deuxième grand sanctuaire élevé en ce lieu. Auparavant, il y avait eu un petit ermitage et, depuis mille six cent vingt-deux, un temple de pierre. En mille six cent quatre-vingt-quinze, l’archevêque Juan de Aguiar y Seijas décida d’en construire un nouveau, et le temple précédent fut démoli.\n\nLa première pierre de ce temple avait été posée en mille six cent neuf, et il fut consacré en novembre mille six cent vingt-deux. En mille six cent vingt-neuf, à cause d’une inondation de la ville, l’image fut transportée à la cathédrale. Elle revint le quinze mai mille six cent trente-quatre.\n\nLes travaux commencèrent le vingt-cinq mars mille six cent quatre-vingt-quinze. L’architecte José Durán y travailla d’abord. À sa mort, en mille sept cent sept, Pedro de Arrieta prit la suite, l’un des grands architectes du baroque de la Nouvelle-Espagne. Le temple fut béni le vingt-sept avril mille sept cent neuf, et l’image de Notre-Dame de Guadalupe y fut portée en procession le trente avril. Le cartouche de la façade indique le premier mai, et les sources citent les deux dates.\n\nRegardez l’édifice. Il a un plan basilical à trois nefs et une coupole octogonale couronnée d’un lanternon recouvert de faïence de talavera jaune et bleue. À chaque angle se dresse une tour octogonale, soit quatre en tout. La façade a la forme d’un paravent, c’est-à-dire qu’elle est pliée en plusieurs plans, comme ces cloisons de bois que l’on utilise pour diviser un espace, et elle est ornée de demi-colonnes corinthiennes. Une interprétation soutient que les quatre tours évoquent le Temple de Salomon, un thème qu’a étudié l’historienne de l’art Martha Fernández.\n\nL’Ancienne Basilique fut collégiale, c’est-à-dire qu’elle eut son propre chapitre de prêtres, à partir de mille sept cent cinquante. En mille huit cent quatre-vingt-quinze, le douze octobre, l’image y fut couronnée avec l’autorisation du pape Léon treize. En mille neuf cent quatre, le vingt-quatre mai, elle reçut le titre de basilique mineure, un honneur que le pape accorde aux temples importants par leur histoire et leur place dans la vie de l’Église.\n\nAvec le temps, le sous-sol a cédé et l’édifice s’est enfoncé de manière inégale. En mille neuf cent soixante-seize, lorsque la Nouvelle Basilique fut inaugurée, l’image y fut transférée et ce temple fut fermé. En mille neuf cent soixante-dix-neuf, l’Institut national d’anthropologie et d’histoire (INAH) et l’épiscopat ont encouragé sa consolidation.\n\nAprès des décennies de travaux, le temple a été rouvert au culte sous le nom de Temple expiatoire du Christ-Roi. Si vous faites le tour de l’édifice, vous verrez que la partie arrière, l’abside, s’est séparée du reste de plusieurs mètres, un souvenir visible de l’affaissement.\n\nPour ceux qui visitent le sanctuaire, cet édifice est le lieu où l’image est restée durant la plus grande partie de son histoire moderne. Pour ceux qui s’intéressent à l’art, c’est l’une des œuvres majeures de Pedro de Arrieta. Et pour tous, c’est un exemple de la façon dont une ville construite sur un lac prend soin de ses monuments."
+    },
+    "retos_observacion": {
+      "hash": "8f6be73c981cc78d",
+      "texto": [
+        "Comptez les quatre tours",
+        "Regardez la coupole et son lanternon en faïence de talavera",
+        "Observez si l’édifice semble penché"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ee07d9adceab824d",
+      "texto": {
+        "Construction": "du 25 mars 1695 à avril 1709",
+        "Architecte": "Pedro de Arrieta",
+        "Plan": "trois nefs",
+        "Coupole": "octogonale, avec lanternon en faïence de talavera",
+        "Tours": "quatre, octogonales"
+      }
+    },
+    "faq_mito": {
+      "hash": "c3f23e64f0180f13",
+      "texto": {
+        "pregunta": "Mythe : L’Ancienne Basilique a été fermée à cause de la bombe de mille neuf cent vingt et un.",
+        "respuesta": "Réalité : La bombe a endommagé l’autel, mais le temple a été fermé au culte après le transfert de l’image en mille neuf cent soixante-seize, à la suite d’années d’affaissement inégal du terrain."
+      }
+    }
+  }
+}

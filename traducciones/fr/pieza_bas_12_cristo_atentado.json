@@ -1,0 +1,54 @@
+{
+  "id": "bas_12_cristo_atentado",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "801feedc00e2dc7b",
+      "texto": "Le Saint Christ de l’Attentat"
+    },
+    "frase_gancho": {
+      "hash": "336c35abff7707c6",
+      "texto": "Un crucifix tordu qui rappelle l’attentat de 1921."
+    },
+    "puente_narrativo": {
+      "hash": "e4dbd2ba8e875bff",
+      "texto": "Dans le temple, cherchez la vitrine où est conservé le crucifix."
+    },
+    "guion_corto": {
+      "hash": "b20ea1b039171f09",
+      "texto": "Dans cette basilique est conservée une croix tordue, le Saint Christ de l’Attentat. Le quatorze novembre mille neuf cent vingt et un, vers dix heures et demie du matin, une bombe de dynamite a explosé dans l’Ancienne Basilique. Un inconnu l’avait laissée cachée parmi des fleurs, au pied du maître-autel. L’autel de marbre a été très endommagé, et ce crucifix de métal, qui se trouvait sur l’autel, s’est plié. Le récit qui s’est transmis raconte que la vitre qui protégeait l’image de la Vierge ne s’est pas brisée. Les fidèles y voient un miracle. Aujourd’hui, le crucifix est conservé dans une vitrine, à côté d’un parchemin qui raconte ce qui s’est passé."
+    },
+    "guion_largo": {
+      "hash": "ec6f3fef4ba0c22d",
+      "texto": "Dans cette basilique, dans une vitrine, est conservée une croix tordue. On la connaît sous le nom de Saint Christ de l’Attentat. Pour comprendre pourquoi elle compte tant, il faut revenir à un matin de mille neuf cent vingt et un.\n\nÀ cette époque, l’image de la Vierge de Guadalupe se trouvait dans l’Ancienne Basilique, le temple qui se dresse à côté de celui-ci. Il faudrait encore attendre plus de cinquante ans avant que ne soit construite la basilique où vous vous trouvez maintenant. L’Ancienne Basilique était un temple très aimé. En mille huit cent quatre-vingt-quinze, l’image y avait été couronnée, et en mille neuf cent quatre, le temple avait été élevé au rang de basilique mineure. Le maître-autel était en marbre. Sur l’autel se trouvait un crucifix de métal, devant l’image.\n\nLe lundi quatorze novembre, à la fin de la messe du matin, un homme s’est approché de l’autel. Il portait une composition de fleurs et l’a déposée à ses pieds. Dans les fleurs était cachée une bombe de dynamite. Vers dix heures et demie du matin, elle a explosé.\n\nL’explosion a endommagé l’autel de marbre. Le crucifix, qui se trouvait devant l’image, est resté plié. Le lendemain, le journal El Gran Diario de México a publié à la une des images de l’autel détruit et de la croix tordue. Ces photographies font partie du témoignage historique de ce qui s’est passé.\n\nVient maintenant ce que raconte le récit conservé dans la basilique. Il dit que la vitre qui recouvrait l’image de la Vierge ne s’est même pas fissurée. Pour les fidèles, ce fait est un miracle. Selon leur manière de le raconter, le Fils a protégé la Mère. C’est pourquoi ils vénèrent d’une façon particulière le crucifix qui a reçu la force de l’explosion. C’est une lecture de foi, et c’est ainsi que la conserve la communauté guadalupéenne.\n\nAujourd’hui, le crucifix est exposé dans cette basilique, dans une vitrine. Il est accompagné d’un parchemin qui explique les faits, ainsi que des photographies prises après l’attentat. Avec le temps, le souvenir de ce jour est devenu une partie de la mémoire du sanctuaire.\n\nEn deux mille vingt et un, cent ans se sont écoulés depuis l’attentat. À cette occasion, la basilique a ouvert une Année sainte avec indulgence plénière. C’était une manière de rappeler ce fait au sein de la vie de l’Église. L’indulgence plénière est, pour les catholiques, la rémission de la peine temporelle due à des péchés déjà pardonnés, selon des conditions que fixe l’Église elle-même.\n\nCeux qui s’approchent de cette vitrine le font souvent en silence. Certaines personnes s’arrêtent pour prier. D’autres demandent des faveurs à ce Christ, et d’autres encore regardent simplement la forme tordue du métal. Chacun le vit à sa manière.\n\nSi vous allez regarder la vitrine, faites-le sans déranger ceux qui sont en prière. C’est une pièce qui reste un objet de dévotion bien vivant, en plus d’être un témoignage de l’histoire de ce lieu."
+    },
+    "retos_observacion": {
+      "hash": "e13fbf4f5b450249",
+      "texto": [
+        "Cherchez la vitrine du crucifix",
+        "Observez la manière dont le métal s’est plié",
+        "Lisez le parchemin à côté de la vitrine s’il est visible"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1d4deb1d651e1cb3",
+      "texto": {
+        "Date": "14 novembre 1921",
+        "Heure approximative": "10 h 30 du matin",
+        "Objet": "crucifix de métal",
+        "Lieu des faits": "Ancienne Basilique"
+      }
+    },
+    "faq_mito": {
+      "hash": "312001e345e0336e",
+      "texto": {
+        "pregunta": "Mythe : La bombe de mille neuf cent vingt et un a détruit l’autel et tout ce qui se trouvait à proximité.",
+        "respuesta": "Réalité : Elle a gravement endommagé l’autel de marbre et plié le crucifix de métal. Le récit conservé raconte que la vitre qui protégeait l’image ne s’est pas brisée."
+      }
+    }
+  }
+}

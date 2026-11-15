@@ -1,0 +1,47 @@
+{
+  "id": "bas_04_origen_culto_nican",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "25922f6567ae6c7e",
+      "texto": "L’origine du culte et le Nican mopohua"
+    },
+    "frase_gancho": {
+      "hash": "52b1b9e4973ed040",
+      "texto": "La mémoire de la foi et les documents, racontés séparément."
+    },
+    "puente_narrativo": {
+      "hash": "7f013df9718f1912",
+      "texto": "Vous êtes toujours au même endroit, cette fois pour voir comment sont racontées les origines du sanctuaire."
+    },
+    "guion_corto": {
+      "hash": "79862e6422ca68de",
+      "texto": "La tradition guadalupéenne raconte qu’en décembre mille cinq cent trente et un, la Vierge Marie est apparue à saint Juan Diego sur cette colline. C’est la mémoire de la foi, et c’est l’origine du sanctuaire. Les documents conservés montrent une autre part de l’histoire. Un texte de mille cinq cent cinquante-quatre mentionne déjà un ermitage au Tepeyac. En mille six cent quarante-huit a été imprimé le premier récit détaillé en espagnol, et en mille six cent quarante-neuf le Nican mopohua, en nahuatl. Les historiens débattent de la date à laquelle ce dernier a été écrit. La mémoire et les documents, ensemble, forment cette histoire. Le sanctuaire naît de la première et se documente dans la seconde."
+    },
+    "guion_largo": {
+      "hash": "1edf4a6ea2492f26",
+      "texto": "L’histoire du sanctuaire peut se raconter de deux manières, et toutes deux font partie de ce que vous voyez ici.\n\nLa première est celle de la tradition guadalupéenne. Selon elle, en décembre mille cinq cent trente et un, la Vierge Marie est apparue plusieurs fois à un autochtone nommé Juan Diego, sur cette colline. Elle lui a demandé d’aller voir l’évêque, frère Juan de Zumárraga, et de lui dire qu’elle voulait un temple en ce lieu. Comme signe, l’image de la Vierge est restée sur le manteau de Juan Diego. C’est la mémoire de la foi, et c’est grâce à elle que ce sanctuaire existe. L’Église reconnaît le culte. Saint Juan Diego a été béatifié le six mai mille neuf cent quatre-vingt-dix et canonisé le trente et un juillet deux mille deux, dans cette basilique.\n\nLa seconde est celle que racontent les documents. Le premier texte conservé qui mentionne l’ermitage du Tepeyac date de mille cinq cent cinquante-quatre, et il est de l’humaniste Francisco Cervantes de Salazar. En mille cinq cent cinquante-six, l’archevêque Alonso de Montúfar a ouvert une enquête sur le culte. Elle a donné lieu à deux sermons, celui de Montúfar et celui du provincial franciscain Francisco de Bustamante, qui n’avaient pas la même opinion sur la dévotion. Tous deux ont exprimé des avis différents sur la dévotion.\n\nLes textes qui racontent les apparitions en détail datent du dix-septième siècle. En mille six cent quarante-huit, le prêtre Miguel Sánchez a publié en espagnol un livre sur l’image. En mille six cent quarante-neuf, Luis Lasso de la Vega, vicaire de ce sanctuaire, a fait imprimer une œuvre en nahuatl qui comprend le Nican mopohua, le récit des apparitions que l’on connaît jusqu’à aujourd’hui. Les premiers mots du texte lui donnent son nom.\n\nDepuis des décennies, les historiens débattent de la date et de l’auteur du Nican mopohua. Les uns le situent au seizième siècle, parfois avec Antonio Valeriano comme auteur. D’autres le situent au début du dix-septième. Cette discussion reste ouverte. De même, on ne conserve aucun document de la première moitié du seizième siècle qui parle de Juan Diego, même si la tradition orale l’a gardé vivant. Voilà tout ce que l’on sait aujourd’hui.\n\nLe culte a grandi avec le temps. En mille sept cent trente-sept, Mexico a prêté serment à la Vierge de Guadalupe comme patronne ; en mille sept cent quarante-six, elle l’est devenue de toute la Nouvelle-Espagne, et le pape Benoît quatorze l’a confirmé en mille sept cent cinquante-quatre.\n\nCeux qui vivent la foi à partir de cette tradition y voient un événement. Ceux qui étudient les documents y voient un processus historique. Ces deux regards cohabitent en ce lieu, et tous deux expliquent pourquoi le Tepeyac est devenu un centre de pèlerinage pour des millions de personnes.\n\nSi vous regardez vers la colline, vous verrez les chapelles qui ont été élevées au fil des siècles. Les prochaines étapes vous mèneront à leur rencontre."
+    },
+    "retos_observacion": {
+      "hash": "e1d8c73b93a57dff",
+      "texto": [
+        "Regardez la colline et repérez la chapelle du sommet",
+        "Cherchez les figures animées de saint Juan Diego et de frère Juan de Zumárraga",
+        "Pensez aux années 1531, 1554 et 1648"
+      ]
+    },
+    "especificaciones": {
+      "hash": "360dcf0f46d65979",
+      "texto": {
+        "Apparition selon la tradition": "décembre 1531",
+        "Première mention d’un ermitage": "1554",
+        "Récit imprimé en espagnol": "1648",
+        "Nican mopohua, en nahuatl": "1649"
+      }
+    }
+  }
+}

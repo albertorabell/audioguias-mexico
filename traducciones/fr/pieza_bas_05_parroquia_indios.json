@@ -1,0 +1,54 @@
+{
+  "id": "bas_05_parroquia_indios",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "345cf9b598580178",
+      "texto": "La Paroisse des Indiens"
+    },
+    "frase_gancho": {
+      "hash": "ebe7c4d3988cad57",
+      "texto": "L’édifice le plus ancien qui se conserve de l’ensemble."
+    },
+    "puente_narrativo": {
+      "hash": "398b1205f5b73106",
+      "texto": "Vous descendez vers la Paroisse des Indiens, une petite chapelle tranquille."
+    },
+    "guion_corto": {
+      "hash": "4ed837fbf6a1d15f",
+      "texto": "C’est l’édifice le plus ancien qui se conserve dans tout l’ensemble. Il fut construit vers mille six cent quarante-neuf par Luis Lasso de la Vega, vicaire de Guadalupe. On l’appelle des Indiens parce qu’en mille six cent soixante-dix-neuf, une confrérie d’autochtones s’y est établie. Selon la tradition, c’est ici que saint Juan Diego vécut ses dernières années et que se trouvait le premier ermitage. L’image de Notre-Dame de Guadalupe fut vénérée dans cette chapelle de mille six cent quatre-vingt-quinze à mille sept cent neuf, pendant la construction de l’Ancienne Basilique. C’est un espace petit et tranquille, où de nombreux pèlerins entrent en silence."
+    },
+    "guion_largo": {
+      "hash": "b186b91c6e1ff85a",
+      "texto": "Cette petite église est la construction la plus ancienne qui se conserve dans tout l’ensemble de la Basilique. Elle fut élevée vers mille six cent quarante-neuf, à la demande de Luis Lasso de la Vega, vicaire de Guadalupe. C’est le même prêtre qui, cette année-là, fit imprimer le Huei tlamahuiçoltica, le livre qui contient le Nican mopohua, le récit des apparitions écrit en nahuatl.\n\nLe mot Indiens était celui qu’on employait alors pour désigner les peuples originaires. Aujourd’hui, on dit autochtones, et le nom historique du temple se conserve par tradition.\n\nOn la connaît sous le nom de Paroisse des Indiens parce que, selon le site officiel du sanctuaire, une confrérie d’autochtones s’y est établie en mille six cent soixante-dix-neuf. Une confrérie est une association de fidèles qui se réunit autour d’une dévotion. Durant l’époque vice-royale, ce fut un espace très lié à la population autochtone qui arrivait au Tepeyac.\n\nLa tradition guadalupéenne situe ici le premier temple. Selon elle, après les apparitions, frère Juan de Zumárraga demanda qu’on élève un ermitage à l’endroit que Juan Diego avait indiqué. Les sources discutent la date, que l’on donne habituellement comme mille cinq cent trente et un ou mille cinq cent trente-trois. L’archevêque Alonso de Montúfar l’agrandit en mille cinq cent cinquante-six. La tradition du lieu soutient qu’à l’intérieur de cette église se conserve un mur de ce premier ermitage.\n\nLa tradition raconte aussi que saint Juan Diego vécut près de l’ermitage jusqu’à sa mort, en mille cinq cent quarante-huit, s’en occupant et accueillant les pèlerins. Une croix à l’extérieur marque l’endroit où, selon la croyance, se trouvait sa maison. Les fidèles considèrent ce lieu comme l’un des plus proches de sa mémoire.\n\nCette église a en outre joué un rôle important dans l’histoire de l’image. En mille six cent quatre-vingt-quinze, on décida de construire un nouveau temple, l’Ancienne Basilique, et le sanctuaire précédent fut démoli. L’image de Notre-Dame de Guadalupe passa alors dans cette chapelle, où elle demeura jusqu’à ce que, en avril mille sept cent neuf, elle soit menée en procession jusqu’au nouveau temple. Ce furent quatorze années d’attente pour ceux qui la vénéraient.\n\nAujourd’hui, l’Ancienne Paroisse des Indiens dépend de la paroisse Sainte-Marie de Guadalupe, celle des Capucines, qui se trouve presque en face. C’est un temple en activité, avec des messes et des moments de prière. Ce que l’on voit est une petite église du dix-septième siècle. Ce que l’on raconte, la tradition, est ce qui la rend spéciale pour les fidèles, et cette étape vous offre les deux séparément.\n\nCeux qui entrent le font avec calme. Certains s’arrêtent devant l’autel et d’autres s’assoient simplement un moment. Il n’y a pas grand-chose à faire ici, sinon être là. C’est un bon endroit pour réfléchir à la distance entre le petit ermitage des premiers temps et la grande esplanade que vous avez laissée derrière vous."
+    },
+    "retos_observacion": {
+      "hash": "6155dbdc9e52be40",
+      "texto": [
+        "Regardez la façade sobre",
+        "Cherchez la colline derrière la chapelle",
+        "Entrez en silence si elle est ouverte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b6c64c032160b862",
+      "texto": {
+        "Construction": "vers 1649",
+        "Commanditaire": "Luis Lasso de la Vega",
+        "Confrérie d’autochtones": "1679",
+        "Image vénérée ici": "1695 à 1709"
+      }
+    },
+    "faq_mito": {
+      "hash": "304fe08f0d8959b8",
+      "texto": {
+        "pregunta": "Mythe : L’Ancienne Basilique est l’édifice le plus ancien de l’ensemble.",
+        "respuesta": "Réalité : Le plus ancien qui se conserve est la Paroisse des Indiens, datant d’environ mille six cent quarante-neuf. L’Ancienne Basilique fut achevée en mille sept cent neuf."
+      }
+    }
+  }
+}
