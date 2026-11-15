@@ -1,0 +1,54 @@
+{
+  "id": "coy_07_museo_culturas_populares",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cf093f209ff389f8",
+      "texto": "Musée national des cultures populaires"
+    },
+    "frase_gancho": {
+      "hash": "018b5262fbf63251",
+      "texto": "Un musée qui raconte comment on vit, on mange, on danse et on prie au Mexique."
+    },
+    "puente_narrativo": {
+      "hash": "1abd6396a0e81a27",
+      "texto": "Marche par la rue Higuera vers le quartier de La Conchita, où se trouve la Casa Colorada."
+    },
+    "guion_corto": {
+      "hash": "1617d4d19741038f",
+      "texto": "Ce musée a été inauguré le vingt-quatre septembre dix-neuf cent quatre-vingt-deux, à l'initiative de l'anthropologue Guillermo Bonfil Batalla. Son idée était simple et nouvelle : un musée pour la culture populaire, celle qui se fait dans les villages, dans les quartiers et dans les fêtes. Il n'a pas de collection fixe : ses expositions changent, et il y a aussi des ateliers et des concerts. Il occupe trois bâtiments différents, une maison de l'époque de Porfirio Díaz avec une tourelle, une villa du début du vingtième siècle et un bâtiment moderne des années quatre-vingt, réunis au fil des ans."
+    },
+    "guion_largo": {
+      "hash": "028cff65910b74b3",
+      "texto": "Tu es devant le Musée national des cultures populaires, sur l'avenue Hidalgo. Il a été inauguré le vingt-quatre septembre dix-neuf cent quatre-vingt-deux. Il a été porté par l'anthropologue Guillermo Bonfil Batalla, qui avait une idée claire : au Mexique, on célébrait beaucoup la culture des grands monuments et des grandes œuvres, mais presque jamais celle que l'on vit tous les jours. Celle qui est dans la cuisine, dans l'artisanat, dans les fêtes du village, dans les façons de prier et de danser.\n\nC'est pourquoi ce musée fonctionne différemment. Il n'a pas de collection fixe qui se répète toujours. Ses expositions changent : elles tournent autour des fêtes traditionnelles, de l'art populaire, du travail de créateurs de la campagne et de la ville. Il y a aussi des ateliers, des cours et des concerts.\n\nLe musée occupe trois bâtiments, qui se sont ajoutés au fil des ans. L'un est la Casa del Torreón, une construction de l'époque de Porfirio Díaz avec une tourelle inspirée des bâtiments de fer allemands de la fin du dix-neuvième siècle. Les carmélites déchaussées y ont eu une chapelle, qui est aujourd'hui une salle appelée « Altos Capilla ». Un autre est la Quinta Margarita, une maison que M. Henderson a fait construire sur les terrains de l'ancienne Douane Vieille de Coyoacán. Et le troisième est un bâtiment de dix-neuf cent quatre-vingt-deux et quatre-vingt-trois, de l'architecte Santiago de la Torre.\n\nCe mélange d'époques est très Coyoacán : un seul lieu avec une maison de plus d'un siècle, une chapelle transformée en salle et un bâtiment des années quatre-vingt. Et c'est un bon rappel que le quartier n'est pas seulement des couvents et des places coloniales. C'est aussi un lieu où l'on continue de penser, de célébrer et de créer la culture d'aujourd'hui."
+    },
+    "retos_observacion": {
+      "hash": "e01779439c686664",
+      "texto": [
+        "Cherche la tourelle de l'époque de Porfirio Díaz",
+        "Compte combien de bâtiments différents il y a dans le même pâté de maisons",
+        "Regarde quelle fête on annonce à l'entrée"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bc143153653c3b5e",
+      "texto": {
+        "Inauguration": "vingt-quatre septembre dix-neuf cent quatre-vingt-deux",
+        "Fondateur": "Guillermo Bonfil Batalla",
+        "Bâtiments": "trois",
+        "Adresse": "avenue Hidalgo, angle Allende"
+      }
+    },
+    "faq_mito": {
+      "hash": "6bdbe1b96399d1a0",
+      "texto": {
+        "pregunta": "Mythe : La fresque de La Rosita, à quelques pas, fait partie de ce musée.",
+        "respuesta": "Réalité : Non ; elle appartient à la pulquería La Rosita et nous la visiterons plus tard."
+      }
+    }
+  }
+}

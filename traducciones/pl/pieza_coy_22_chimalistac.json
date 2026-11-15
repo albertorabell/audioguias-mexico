@@ -1,0 +1,54 @@
+{
+  "id": "coy_22_chimalistac",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0953585deda5d0f8",
+      "texto": "Chimalistac: ukryta dzielnica"
+    },
+    "frase_gancho": {
+      "hash": "6949778f221d2e3f",
+      "texto": "Dzielnica uliczek i sadów, z nazwą w nahuatl, o krok od San Ángel."
+    },
+    "puente_narrativo": {
+      "hash": "da8e6b97c7246963",
+      "texto": "Tu kończy się dawna droga królewska. Aby iść dalej na targ i do Casa Azul, wróć ulicą Francisco Sosa lub weź krótki transport."
+    },
+    "guion_corto": {
+      "hash": "4a58dc13033725e5",
+      "texto": "Chimalistac znaczy w nahuatl miejsce białej tarczy. Przed przybyciem Hiszpanów należało do władztwa Coyoacán. Po Podboju ziemie przeszły na Juana de Guzmán Ixtolinque, rdzennego szlachcica, który podarował je karmelitom bosym. Mnisi założyli wielki sad z wodą z rzeki Magdalena, by zaopatrywać swój klasztor w San Ángel. Przez wieki dzielnica stała się strefą mieszkalną z wiejskimi domami. Malarz José María Velasco uwiecznił jej krajobrazy, a Federico Gamboa umieścił tu swoją powieść Santa. Dziś to ciche miejsce."
+    },
+    "guion_largo": {
+      "hash": "7bb218994f9e4f6b",
+      "texto": "Jeśli dotarłeś do Chimalistac, odkryłeś jeden z najspokojniejszych zakątków południa miasta. Idź powoli jego uliczkami i zwróć uwagę na mury pokryte bugenwillał.\n\nNazwa pochodzi z nahuatl i zwykle tłumaczona jest jako miejsce białej tarczy. Przed Podbojem obszar był częścią władztwa Coyoacán i łączył się z innymi miasteczkami Doliny Meksyku.\n\nPo Podboju ziemie przeszły na Juana de Guzmán Ixtolinque, rdzennego szlachcica. Podarował je karmelitom bosym. Mnisi wykorzystali wodę rzeki Magdalena, by stworzyć wielki sad zaopatrujący ich klasztor, w miejscu dzisiejszego San Ángel. Stąd nazwa Huerta del Carmen.\n\nZ biegiem lat, zwłaszcza po Prawach Reformy, ziemia stała się mieszkalna. Rodziny budowały wiejskie domy, a te domy nadal kształtują dzielnicę. Malarz José María Velasco rysował jej krajobrazy. Pisarz Federico Gamboa umieścił tu swoją powieść Santa.\n\nDziś Władze Miasta Meksyk uznają Chimalistac za dziedzictwo kulturowe, a kilka budynków jest chronionych przez INAH. Są wąskie uliczki, małe place, kaplica poświęcona San Sebastián Męczennikowi i domy z ogrodami wychylającymi się zza murów.\n\nTa dzielnica wygląda jak wioska zatrzymana w czasie i w tym przypomina Coyoacán. Gdy będziesz gotowy, wróć do centrum: targ i Casa Azul na nas czekają."
+    },
+    "retos_observacion": {
+      "hash": "b137628a0c4dabc4",
+      "texto": [
+        "Poszukaj bugenwilli zwisających z murów",
+        "Zwróć uwagę, ile wąskich uliczek widzisz",
+        "Policz, ile razy słyszysz tylko ptaki"
+      ]
+    },
+    "especificaciones": {
+      "hash": "69e881cbe20a45ec",
+      "texto": {
+        "Nazwa": "z nahuatl, miejsce białej tarczy",
+        "Dawny sad": "Huerta del Carmen",
+        "Malarz": "José María Velasco",
+        "Powieść": "Santa, Federico Gamboa"
+      }
+    },
+    "faq_mito": {
+      "hash": "150bc5a2cb8ff319",
+      "texto": {
+        "pregunta": "Mit: Chimalistac jest częścią San Ángel.",
+        "respuesta": "Rzeczywistość: To dzielnica z własną historią, która przed Podbojem należała do władztwa Coyoacán."
+      }
+    }
+  }
+}

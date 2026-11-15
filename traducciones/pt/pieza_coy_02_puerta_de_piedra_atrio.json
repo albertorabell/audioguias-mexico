@@ -1,0 +1,54 @@
+{
+  "id": "coy_02_puerta_de_piedra_atrio",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90fab8705b8ed6df",
+      "texto": "O portão de pedra do átrio"
+    },
+    "frase_gancho": {
+      "hash": "63e2df58ec89a553",
+      "texto": "Uma das entradas mais bonitas do século dezesseis, feita para o povo entrar e rezar."
+    },
+    "puente_narrativo": {
+      "hash": "fe01f4f2d3859fe8",
+      "texto": "Atravesse o átrio e entre na paróquia de San Juan Bautista."
+    },
+    "guion_corto": {
+      "hash": "b875af750f8902e3",
+      "texto": "Você está diante do portal do átrio de San Juan Bautista. Os frades o ergueram no século dezesseis, há quase quinhentos anos, para marcar a entrada do templo. Olhe as ombreiras: há anjos segurando uma coroa de flores. Em cima, um brasão cercado de flores-de-lis. Este átrio teve três arcadas; só esta, a do poente, continua no lugar. As outras duas foram movidas ou desapareceram. No terremoto de dois mil e dezessete, a parte alta se danificou, e hoje segue de pé, como está há séculos."
+    },
+    "guion_largo": {
+      "hash": "1c58a2abaa821430",
+      "texto": "Pare diante deste portão e olhe-o devagar. Não é só uma entrada. No século dezesseis, os frades o ergueram para marcar o início de algo importante: o átrio do seu templo.\n\nOs primeiros frades a chegar a Coyoacán foram franciscanos, no fim de mil quinhentos e vinte e quatro ou início de mil quinhentos e vinte e cinco. Em mil quinhentos e vinte e nove, os dominicanos fundaram aqui seu convento, dedicado a San Juan Bautista, e alguns anos depois os franciscanos partiram. Este portal é obra daquele tempo de frades que chegavam, ensinavam e construíam.\n\nUm átrio é o pátio que cerca uma igreja. Naquela época foi muito mais do que isso. Os templos eram pequenos para tanta gente, então boa parte da vida religiosa acontecia do lado de fora, a céu aberto, neste espaço. E este portão era a sua entrada.\n\nRepare nos detalhes. Nas laterais, anjos seguram uma coroa de flores. A coluna tem o fuste estriado, com um capitel que imita folhas. Em cima, um brasão cercado de flores-de-lis. E no remate, uma cruz de pedra com pequenas ameias. Este estilo, tão ornamentado, chama-se plateresco, porque sua decoração lembra o trabalho dos ourives.\n\nO átrio não teve uma só porta, mas três arcadas. Esta, a do poente, é a única que continua no lugar original. A do norte foi movida para um lado do templo, e a terceira desapareceu.\n\nEm mil novecentos e trinta e oito, este arco foi reparado. E no dia dezenove de setembro de dois mil e dezessete, o terremoto desprendeu uma parte do canto alto. Pedra que há quase cinco séculos aguenta tremores.\n\nHoje este portão cumpre outra função. É o ponto de encontro da praça: as pessoas marcam encontro aqui, sentam nos degraus para descansar, tiram a foto de lembrança. As gerações mudam, mas o portão segue sendo o lugar aonde todos chegam."
+    },
+    "retos_observacion": {
+      "hash": "dafaf8e62cbd981a",
+      "texto": [
+        "Encontre os anjos e veja o que eles seguram",
+        "Procure o brasão com as flores-de-lis",
+        "Olhe o remate: você vê a cruz e as ameias?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bdf46d950973b3ce",
+      "texto": {
+        "Século": "dezesseis",
+        "Estilo": "plateresco",
+        "Arcadas originais": "três",
+        "Reparo do arco do poente": "mil novecentos e trinta e oito"
+      }
+    },
+    "faq_mito": {
+      "hash": "b94419e76142a59c",
+      "texto": {
+        "pregunta": "Mito: Esta é a porta da igreja.",
+        "respuesta": "Realidade: É o portal do átrio; a igreja fica mais para dentro."
+      }
+    }
+  }
+}

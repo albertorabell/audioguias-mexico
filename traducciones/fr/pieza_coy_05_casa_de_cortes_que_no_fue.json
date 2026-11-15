@@ -1,0 +1,53 @@
+{
+  "id": "coy_05_casa_de_cortes_que_no_fue",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d6ef720c94fc452b",
+      "texto": "La Casa de Cortés qui n'a jamais appartenu à Cortés"
+    },
+    "frase_gancho": {
+      "hash": "341867d6076a5ab5",
+      "texto": "On l'appelle « Casa de Cortés », mais Cortés n'y a jamais vécu."
+    },
+    "puente_narrativo": {
+      "hash": "4162e949e760d517",
+      "texto": "Marche quelques pas vers le Musée national des cultures populaires."
+    },
+    "guion_corto": {
+      "hash": "e8460546d0a0fb05",
+      "texto": "Devant toi se trouve le siège de la mairie d'arrondissement, que beaucoup de gens appellent « la Casa de Cortés ». C'est une erreur très chérie : le bâtiment date du dix-huitième siècle, et Cortés est mort en quinze cent quarante-sept. Il a été élevé vers dix-sept cent cinquante-cinq sur les anciennes Casas Reales, où se trouvait aussi la prison du village. Depuis dix-neuf cent vingt-huit, les bureaux du gouvernement local sont ici. Sur la corniche, il y a des coyotes de pierre. Et une légende circule : Cuauhtémoc y aurait été torturé. Personne n'a pu le prouver, mais on continue de la raconter."
+    },
+    "guion_largo": {
+      "hash": "57669d58e072336f",
+      "texto": "Devant toi se trouve un bâtiment avec un portique à colonnes de pierre de taille et une façade simple. C'est le siège de la mairie d'arrondissement de Coyoacán, et beaucoup de gens l'appellent « la Casa de Cortés ». C'est un nom affectueux et erroné. Le bâtiment date du dix-huitième siècle, et Hernán Cortés est mort en quinze cent quarante-sept. Il n'y a jamais mis les pieds.\n\nOù se trouvait donc sa maison ? Selon l'INAH, dans le quartier de La Conchita, à quelques pas d'ici. Nous la visiterons plus tard.\n\nCe qu'il y avait bien sur ce site, ce sont les Casas Reales : le bâtiment où l'on gouvernait le village, avec la prison locale. Vers dix-sept cent cinquante-cinq, elles étaient en ruine. Sous le corregidor Francisco Suescum y Tornería, l'architecte Bentura de Arellano a élevé la construction que tu vois aujourd'hui ; d'autres sources situent la détérioration dès dix-sept cent trente-cinq. Un chercheur affirme en outre qu'il y a dessous des vestiges préhispaniques.\n\nDès les années dix-huit cent cinquante, quand Coyoacán appartenait à l'État de Mexico, le gouvernement de la municipalité s'y est installé. En dix-neuf cent vingt-huit, quand le village est devenu une délégation du District fédéral, il en est resté le siège. Aujourd'hui, c'est la mairie d'arrondissement.\n\nRegarde la corniche : elle a des créneaux, et certains portent des coyotes, l'animal qui donne son nom au village. En dix-huit cent vingt-neuf, on a détruit le blason de Cortés qui se trouvait au-dessus de la porte. En dix-neuf cent six, on a placé dans la salle du conseil le blason de Coyoacán, accordé par le roi Philippe Deux le vingt-quatre juillet quinze cent soixante et un, quand il a donné au village le titre de ville. Autour, il porte une phrase en latin : « La foi sans les œuvres est morte ». Cette même année, don Francisco Sosa, qui était préfet de Coyoacán et qui donne son nom à l'une des rues les plus célèbres du quartier, a fait don d'une copie dactylographiée du document.\n\nÀ l'intérieur, il y a de la peinture murale, dont une d'Aurora Reyes dans la chapelle, bien qu'elle ne soit pas toujours ouverte au public.\n\nEt une légende qui ne peut pas manquer. On raconte qu'ici Cuauhtémoc, le dernier tlatoani mexica, fut torturé pour qu'il révèle où se trouvait le trésor de son peuple. C'est une tradition orale. Personne n'a pu le prouver, et c'est pourquoi nous ne la racontons que comme légende. Mais cela fait partie de ce que les gens racontent en passant devant ces murs."
+    },
+    "retos_observacion": {
+      "hash": "c54c7b66e6146bb2",
+      "texto": [
+        "Compte les colonnes du portique",
+        "Repère un coyote sur la corniche",
+        "Imagine ce balcon plein de monde chaque quinze septembre"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e70f43684ae0fa1d",
+      "texto": {
+        "Construction": "dix-huitième siècle, vers dix-sept cent cinquante-cinq",
+        "Avant": "Casas Reales et prison du village",
+        "Blason de Coyoacán": "Philippe Deux, vingt-quatre juillet quinze cent soixante et un"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e116892d682d760",
+      "texto": {
+        "pregunta": "Mythe : C'était la maison de Hernán Cortés.",
+        "respuesta": "Réalité : Le bâtiment date du dix-huitième siècle ; Cortés est mort en quinze cent quarante-sept et, selon l'INAH, sa maison se trouvait à La Conchita."
+      }
+    }
+  }
+}

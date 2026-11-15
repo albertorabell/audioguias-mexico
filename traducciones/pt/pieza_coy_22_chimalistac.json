@@ -1,0 +1,54 @@
+{
+  "id": "coy_22_chimalistac",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0953585deda5d0f8",
+      "texto": "Chimalistac: o bairro escondido"
+    },
+    "frase_gancho": {
+      "hash": "6949778f221d2e3f",
+      "texto": "Um bairro de becos e pomares, com nome náhuatl, a um passo de San Ángel."
+    },
+    "puente_narrativo": {
+      "hash": "da8e6b97c7246963",
+      "texto": "Aqui termina o antigo caminho real. Para seguir até o mercado e a Casa Azul, volte pela Francisco Sosa ou pegue um transporte curto."
+    },
+    "guion_corto": {
+      "hash": "4a58dc13033725e5",
+      "texto": "Chimalistac significa em náhuatl lugar do escudo branco. Antes da chegada dos espanhóis pertenceu ao senhorio de Coyoacán. Depois da Conquista, as terras passaram a Juan de Guzmán Ixtolinque, o nobre indígena que as doou aos carmelitas descalços. Os frades fizeram um grande pomar com água do rio Magdalena para abastecer seu convento em San Ángel. Com os séculos, o bairro virou uma zona residencial de casas de campo. O pintor José María Velasco retratou suas paisagens, e Federico Gamboa situou aqui seu romance Santa. Hoje é um lugar silencioso."
+    },
+    "guion_largo": {
+      "hash": "7bb218994f9e4f6b",
+      "texto": "Se você chegou a Chimalistac, descobriu um dos cantos mais tranquilos do sul da cidade. Caminhe devagar pelos seus becos e repare nos muros cobertos de primaveras.\n\nO nome vem do náhuatl e costuma ser traduzido como lugar do escudo branco. Antes da Conquista, a zona fez parte do senhorio de Coyoacán e se ligava a outros povoados do Vale do México.\n\nDepois da Conquista, as terras passaram a Juan de Guzmán Ixtolinque, um nobre indígena. Ele as doou aos carmelitas descalços. Os frades usaram a água do rio Magdalena para criar um grande pomar que abastecia seu convento, no que hoje é San Ángel. Daí vem o nome de Huerta del Carmen.\n\nCom os anos, sobretudo depois das Leis da Reforma, a terra virou residencial. As famílias construíram casas de campo, e essas casas ainda moldam o bairro. O pintor José María Velasco desenhou suas paisagens. O escritor Federico Gamboa situou aqui seu romance Santa.\n\nHoje o Governo da Cidade do México reconhece Chimalistac como patrimônio cultural, e vários edifícios são protegidos pelo INAH. Há becos estreitos, praças pequenas, uma capela dedicada a San Sebastián Mártir e casas com jardins que espiam por cima dos muros.\n\nEste bairro parece um povoado parado no tempo, e nisso se parece com Coyoacán. Quando estiver pronto, volte ao centro: o mercado e a Casa Azul nos esperam."
+    },
+    "retos_observacion": {
+      "hash": "b137628a0c4dabc4",
+      "texto": [
+        "Procure as primaveras que pendem dos muros",
+        "Repare em quantos becos estreitos você vê",
+        "Conte quantas vezes você escuta só pássaros"
+      ]
+    },
+    "especificaciones": {
+      "hash": "69e881cbe20a45ec",
+      "texto": {
+        "Nome": "do náhuatl, lugar do escudo branco",
+        "Antigo pomar": "Huerta del Carmen",
+        "Pintor": "José María Velasco",
+        "Romance": "Santa, de Federico Gamboa"
+      }
+    },
+    "faq_mito": {
+      "hash": "150bc5a2cb8ff319",
+      "texto": {
+        "pregunta": "Mito: Chimalistac faz parte de San Ángel.",
+        "respuesta": "Realidade: É um bairro com história própria, que fazia parte do senhorio de Coyoacán antes da Conquista."
+      }
+    }
+  }
+}

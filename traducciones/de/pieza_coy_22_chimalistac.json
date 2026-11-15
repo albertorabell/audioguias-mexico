@@ -1,0 +1,54 @@
+{
+  "id": "coy_22_chimalistac",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0953585deda5d0f8",
+      "texto": "Chimalistac: das versteckte Viertel"
+    },
+    "frase_gancho": {
+      "hash": "6949778f221d2e3f",
+      "texto": "Ein Viertel aus Gassen und Obstgärten mit Nahuatl-Namen, einen Katzensprung von San Ángel."
+    },
+    "puente_narrativo": {
+      "hash": "da8e6b97c7246963",
+      "texto": "Hier endet der alte Königsweg. Um zum Markt und zur Casa Azul weiterzugehen, geh über die Francisco Sosa zurück oder nimm ein kurzes Verkehrsmittel."
+    },
+    "guion_corto": {
+      "hash": "4a58dc13033725e5",
+      "texto": "Chimalistac bedeutet auf Nahuatl Ort des weißen Schildes. Vor der Ankunft der Spanier gehörte es zum Herrschaftsgebiet von Coyoacán. Nach der Eroberung gingen die Ländereien an Juan de Guzmán Ixtolinque, den indigenen Adligen, der sie den unbeschuhten Karmelitern schenkte. Die Mönche legten mit Wasser aus dem Fluss Magdalena einen großen Obstgarten an, um ihr Kloster in San Ángel zu versorgen. Im Lauf der Jahrhunderte wurde das Viertel zu einer Wohngegend mit Landhäusern. Der Maler José María Velasco stellte seine Landschaften dar, und Federico Gamboa verlegte seinen Roman Santa hierher. Heute ist es ein stiller Ort."
+    },
+    "guion_largo": {
+      "hash": "7bb218994f9e4f6b",
+      "texto": "Wenn du bis nach Chimalistac gekommen bist, hast du einen der ruhigsten Winkel im Süden der Stadt entdeckt. Geh langsam durch seine Gassen und achte auf die Mauern voller Bougainvilleen.\n\nDer Name stammt aus dem Nahuatl und wird meist als Ort des weißen Schildes übersetzt. Vor der Eroberung war das Gebiet Teil des Herrschaftsgebiets von Coyoacán und stand mit anderen Orten des Tals von Mexiko in Verbindung.\n\nNach der Eroberung gingen die Ländereien an Juan de Guzmán Ixtolinque, einen indigenen Adligen. Er schenkte sie den unbeschuhten Karmelitern. Die Mönche nutzten das Wasser des Flusses Magdalena, um einen großen Obstgarten anzulegen, der ihr Kloster versorgte, im heutigen San Ángel. Daher kommt der Name Huerta del Carmen.\n\nMit den Jahren, vor allem nach den Reformgesetzen, wurde das Land zur Wohngegend. Familien bauten Landhäuser, und diese Häuser prägen das Viertel noch heute. Der Maler José María Velasco zeichnete seine Landschaften. Der Schriftsteller Federico Gamboa verlegte seinen Roman Santa hierher.\n\nHeute erkennt die Regierung von Mexiko-Stadt Chimalistac als Kulturerbe an, und mehrere Gebäude stehen unter dem Schutz des INAH. Es gibt enge Gassen, kleine Plätze, eine dem Märtyrer San Sebastián geweihte Kapelle und Häuser mit Gärten, die über die Mauern schauen.\n\nDieses Viertel wirkt wie ein in der Zeit stehengebliebenes Dorf, und darin gleicht es Coyoacán. Wenn du bereit bist, geh zurück ins Zentrum: Der Markt und die Casa Azul warten auf uns."
+    },
+    "retos_observacion": {
+      "hash": "b137628a0c4dabc4",
+      "texto": [
+        "Such die Bougainvilleen, die von den Mauern hängen",
+        "Achte darauf, wie viele enge Gassen du siehst",
+        "Zähl, wie oft du nur Vögel hörst"
+      ]
+    },
+    "especificaciones": {
+      "hash": "69e881cbe20a45ec",
+      "texto": {
+        "Name": "aus dem Nahuatl, Ort des weißen Schildes",
+        "Ehemaliger Obstgarten": "Huerta del Carmen",
+        "Maler": "José María Velasco",
+        "Roman": "Santa von Federico Gamboa"
+      }
+    },
+    "faq_mito": {
+      "hash": "150bc5a2cb8ff319",
+      "texto": {
+        "pregunta": "Mythos: Chimalistac ist Teil von San Ángel.",
+        "respuesta": "Wirklichkeit: Es ist ein Viertel mit eigener Geschichte, das vor der Eroberung zum Herrschaftsgebiet von Coyoacán gehörte."
+      }
+    }
+  }
+}

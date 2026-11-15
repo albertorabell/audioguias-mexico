@@ -1,0 +1,54 @@
+{
+  "id": "coy_12_casa_alvarado",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b47c07bc4f3f42c4",
+      "texto": "Casa Alvarado: das Herrenhaus, das zuhört"
+    },
+    "frase_gancho": {
+      "hash": "85acef7e93434f43",
+      "texto": "Ein Haus aus dem achtzehnten Jahrhundert mit geliehenem Namen, ein Dichter, der hier seine letzten Jahre verbrachte, und ein Garten aus Klang."
+    },
+    "puente_narrativo": {
+      "hash": "4335feb3a9596fb6",
+      "texto": "Geh weiter zum Garten und zur Kirche Santa Catarina."
+    },
+    "guion_corto": {
+      "hash": "9342920bf2b83406",
+      "texto": "Dieses Herrenhaus aus dem achtzehnten Jahrhundert heißt Casa Alvarado, aber Pedro de Alvarado hat nie hier gewohnt. Der Name könnte durch einen Irrtum geblieben sein: Angeblich schrieb ihn die Archäologin Zelia Nuttall an die Tür, die sich um neunzehnhundertzwei hier niederließ und neunzehnhundertdreiunddreißig in diesem Haus starb. Später, im Jahr neunzehnhundertsechsundneunzig, kam der Dichter Octavio Paz, der hier seine letzten zwei Jahre lebte. Heute ist es die Nationale Klangbibliothek, ein Archiv von Klängen, mit einem Garten, den man hört."
+    },
+    "guion_largo": {
+      "hash": "c9de3d7c90d94ae9",
+      "texto": "Vor dir steht ein Herrenhaus mit Arkadenhof im andalusischen Stil. Es heißt Casa Alvarado, aber da ist ein Detail: Pedro de Alvarado, der Konquistador, hat nie hier gewohnt. Das Haus stammt aus dem achtzehnten Jahrhundert und hieß ursprünglich Quinta Santa Rosalía. Man glaubt, dass den heutigen Namen Zelia Nuttall an die Tür setzte, eine amerikanische Anthropologin und Archäologin, vielleicht falsch informiert von dem, der ihr das Anwesen verkaufte. Niemand weiß es sicher.\n\nNuttall kam neunzehnhundertzwei. Sie erforschte die prähispanische Schrift Mesoamerikas, und in diesem Haus hatte sie ihr Arbeitszimmer und einen botanischen Garten. Sie starb hier am zwölften April neunzehnhundertdreiunddreißig. Danach hatte das Haus andere Besitzer, bis es neunzehnhundertsiebenundsiebzig an den Staat ging und Bibliothek, Buchhandlung und Sitz einer Enzyklopädie war.\n\nIm Jahr neunzehnhundertsechsundneunzig zerstörte ein Brand die Wohnung des Dichters Octavio Paz im Viertel Cuauhtémoc und mit ihr einen guten Teil seiner Bücher und seines Werks. Die Regierung brachte ihn in diesem Haus unter. Er lebte hier etwa zwei Jahre, bis zu seinem Tod im Jahr neunzehnhundertachtundneunzig. Man erzählt, er habe sich nie ganz zu Hause gefühlt.\n\nHeute befindet sich hier die Nationale Klangbibliothek, das Archiv, das die Klänge Mexikos bewahrt und verbreitet, darunter Interviews, Lesungen und Vorträge von Paz. Das Haus hat einen Klanggarten, entworfen mit einem mehrkanaligen Audiosystem, in dem Konzerte und experimentelle Werke gezeigt werden. Wenn keine Veranstaltung ist, erklingt eine Klangkulisse.\n\nEs ergibt Sinn, dass ein solcher Ort in Coyoacán liegt. Hier sind die Menschen schon immer gekommen, um zuzuhören."
+    },
+    "retos_observacion": {
+      "hash": "483a51ba47c5e8d8",
+      "texto": [
+        "Such den Arkadenhof",
+        "Schließ kurz die Augen und zähl, wie viele Geräusche du unterscheidest",
+        "Such die Tafel, die an Octavio Paz erinnert"
+      ]
+    },
+    "especificaciones": {
+      "hash": "88c68174b8f37f41",
+      "texto": {
+        "Jahrhundert": "achtzehntes",
+        "Ursprünglicher Name": "Quinta Santa Rosalía",
+        "Historisches Denkmal seit": "neunzehnhundertzweiunddreißig",
+        "Heute": "Nationale Klangbibliothek"
+      }
+    },
+    "faq_mito": {
+      "hash": "74ed4fbdd0c26fed",
+      "texto": {
+        "pregunta": "Mythos: Pedro de Alvarado wohnte hier.",
+        "respuesta": "Wirklichkeit: Er wohnte nicht hier; der Name könnte ein Irrtum von Zelia Nuttall oder dem Verkäufer des Hauses sein."
+      }
+    }
+  }
+}

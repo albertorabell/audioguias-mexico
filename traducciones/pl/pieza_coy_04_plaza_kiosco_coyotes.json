@@ -1,0 +1,54 @@
+{
+  "id": "coy_04_plaza_kiosco_coyotes",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0a980b13b4d15c9b",
+      "texto": "Plac, kiosk muzyczny i kojoty"
+    },
+    "frase_gancho": {
+      "hash": "2cac5f3f4c8484bb",
+      "texto": "Centrum wioski: kiosk muzyczny, dwa brązowe kojoty i życie o każdej porze."
+    },
+    "puente_narrativo": {
+      "hash": "825c52b3ba9f802a",
+      "texto": "Spójrz na budynek z kolumnami zamykający plac: to siedziba władz dzielnicy."
+    },
+    "guion_corto": {
+      "hash": "104d5ad93890e061",
+      "texto": "Jesteś w centrum Coyoacán, między dwoma sąsiadującymi ogrodami: Hidalgo i Centenario. Pośrodku stoi kiosk muzyczny w stylu francuskim, z żelazną konstrukcją. Według tradycji był darem Porfirio Díaza z okazji Stulecia. Obok fontanna kojotów: dwa brązowe zwierzęta, które dają wiosce nazwę i symbol. Zobacz, jak używana jest ta przestrzeń. Są rodziny, muzycy, sprzedawcy, ludzie czytający i ludzie, którzy tylko patrzą. To wiejski plac, który nie zmienił swojej roli: wciąż jest miejscem spotkań."
+    },
+    "guion_largo": {
+      "hash": "51b3f74a8e6322b6",
+      "texto": "Jesteś w centrum Coyoacán. Jeśli na chwilę zamkniesz oczy, usłyszysz plac: kroki po płytach, biegające dzieci, kogoś grającego, gwizdek sprzedawcy balonów. To serce wioski i działa tak samo jak dawno temu: tutaj przychodzi się, by się spotkać.\n\nSą to dwa sąsiadujące ogrody, Hidalgo i Centenario, które w praktyce wydają się jednym placem. Centenario, jak się mówi, zajmuje część dawnego atrium kościoła, choć jeszcze to potwierdzamy.\n\nPośrodku stoi kiosk muzyczny. Jest w stylu francuskim i ma żelazną konstrukcję. Tradycja mówi, że był darem Porfirio Díaza z okazji Stulecia. Wiele źródeł powtarza tę wersję, ale nikt nie pokazał oryginalnego dokumentu, więc opowiadamy to tak, jak jest: jako tradycję. Mówi się też, że ma kopułę z witraży i brązowego orła. Zwróć uwagę na te szczegóły, gdy podejdziesz bliżej.\n\nObok jest fontanna z dwoma brązowymi kojotami. To dzieło rzeźbiarza Gabriela Ponzanellego, ustawione na początku lat osiemdziesiątych. Kojoty przypominają nazwę wioski, która oznacza „miejsce kojotów”. W okolicy, która od wieków zapisuje swoją historię w kamieniu, brąz jest niedawnym przypomnieniem, skąd bierze się nazwa.\n\nTeraz popatrz na ludzi. Na placu współistnieją spacerujące rodziny, artyści sprzedający swoje prace, pary na ławkach, studenci z książkami i turyści z aparatami. To sprawiło, że Coyoacán od lat trzydziestych było ulubionym miejscem malarzy i pisarzy: nigdy nie przestało być miejscem, gdzie ludzie zatrzymują się na rozmowę.\n\nJest powód, dla którego to działa. Od tysiąc dziewięćset trzydziestego czwartego roku obszar jest chroniony jako typowy i malowniczy. Nie chodzi o to, by wyglądał ładnie, lecz by nadal był używany. Wiejskie place umierają, gdy stają się muzeami, a ten wciąż jest pełen.\n\nUsiądź na chwilę. Obserwuj. Potem pójdziemy dalej, bo dokładnie naprzeciwko stoi budynek, który prawie wszyscy nazywają „Domem Cortésa”, a którym nie jest."
+    },
+    "retos_observacion": {
+      "hash": "10ec5191cf008328",
+      "texto": [
+        "Poszukaj orła i witraży kiosku",
+        "Znajdź dwa brązowe kojoty",
+        "Policz, ile różnych zajęć dzieje się na placu jednocześnie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eed5f26ed5355ede",
+      "texto": {
+        "Styl kiosku": "francuski",
+        "Konstrukcja": "żelazo",
+        "Fontanna kojotów": "brąz, dzieło Gabriela Ponzanellego",
+        "Ogrody": "Hidalgo i Centenario"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e0ab291085a5c61",
+      "texto": {
+        "pregunta": "Mit: Kiosk podarowano w tysiąc dziewięćsetnym roku z okazji Stulecia Niepodległości.",
+        "respuesta": "Rzeczywistość: Stulecie przypadało na tysiąc dziewięćset dziesiąty rok; wersja o Porfirio Díazie to tradycja bez dokumentu."
+      }
+    }
+  }
+}

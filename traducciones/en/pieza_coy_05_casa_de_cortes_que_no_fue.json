@@ -1,0 +1,53 @@
+{
+  "id": "coy_05_casa_de_cortes_que_no_fue",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d6ef720c94fc452b",
+      "texto": "The House of Cortés that was never Cortés's"
+    },
+    "frase_gancho": {
+      "hash": "341867d6076a5ab5",
+      "texto": "It is called the “House of Cortés,” but Cortés never lived here."
+    },
+    "puente_narrativo": {
+      "hash": "4162e949e760d517",
+      "texto": "Walk a few steps toward the National Museum of Popular Cultures."
+    },
+    "guion_corto": {
+      "hash": "e8460546d0a0fb05",
+      "texto": "In front of you is the borough hall, which many people call “the House of Cortés.” It is a much-loved mistake: the building is from the eighteenth century, and Cortés died in fifteen forty-seven. It was built around seventeen fifty-five on the site of the old Royal Houses, which also held the town jail. Since nineteen twenty-eight the local government offices have been here. On the cornice there are stone coyotes. And a legend circulates: that Cuauhtémoc was tortured here. No one has been able to prove it, but it is still told."
+    },
+    "guion_largo": {
+      "hash": "57669d58e072336f",
+      "texto": "In front of you is a building with a portal of stone columns and a simple façade. It is the seat of the Coyoacán borough, and many people call it “the House of Cortés.” It is an affectionate name, and a wrong one. The building is from the eighteenth century, and Hernán Cortés died in fifteen forty-seven. He never set foot here.\n\nSo where was his house? According to INAH, in the La Conchita neighborhood, a few steps from here. We will visit it later.\n\nWhat there was on this site were the Royal Houses: the building from which the town was governed, with the local jail. Around seventeen fifty-five they were in ruins. Under the magistrate Francisco Suescum y Tornería, the architect Bentura de Arellano built the structure you see today; other sources place the deterioration as early as seventeen thirty-five. One researcher also claims there are pre-Hispanic remains underneath.\n\nFrom the eighteen fifties, when Coyoacán belonged to the State of Mexico, the municipal government was set up here. In nineteen twenty-eight, when the town became a borough of the Federal District, it remained its seat. Today it is the borough hall.\n\nLook at the cornice: it has battlements, and some carry coyotes, the animal that gives the town its name. In eighteen twenty-nine the coat of arms of Cortés that was above the door was destroyed. In nineteen oh six the coat of arms of Coyoacán was placed in the council chamber, granted by King Philip the Second on the twenty-fourth of July, fifteen sixty-one, when he gave the town the title of villa. Around it runs a phrase in Latin: “Faith without works is dead.” That same year, Don Francisco Sosa, who was prefect of Coyoacán and who gives his name to one of the most famous streets of the neighborhood, donated a typewritten copy of the document.\n\nInside there is mural painting, including one by Aurora Reyes in the chapel, although it is not always open to the public.\n\nAnd a legend that cannot be missing. It is said that Cuauhtémoc, the last Mexica tlatoani, was tortured here to make him reveal where his people's treasure was. It is oral tradition. No one has been able to prove it, and that is why we tell it only as a legend. But it is part of what people say as they pass by these walls."
+    },
+    "retos_observacion": {
+      "hash": "c54c7b66e6146bb2",
+      "texto": [
+        "Count the columns of the portal",
+        "Find a coyote on the cornice",
+        "Imagine this balcony full of people every fifteenth of September"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e70f43684ae0fa1d",
+      "texto": {
+        "Construction": "eighteenth century, around seventeen fifty-five",
+        "Before": "Royal Houses and town jail",
+        "Coat of arms of Coyoacán": "Philip the Second, July twenty-fourth, fifteen sixty-one"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e116892d682d760",
+      "texto": {
+        "pregunta": "Myth: This was the house of Hernán Cortés.",
+        "respuesta": "Reality: The building is from the eighteenth century; Cortés died in fifteen forty-seven and, according to INAH, his house was in La Conchita."
+      }
+    }
+  }
+}

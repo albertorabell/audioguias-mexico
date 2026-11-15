@@ -1,0 +1,54 @@
+{
+  "id": "coy_10_sabores_de_coyoacan",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0b8f20389468c5d6",
+      "texto": "Smaki Coyoacán: cantiny, kawa i churros"
+    },
+    "frase_gancho": {
+      "hash": "a5a04a0bf10f5f2e",
+      "texto": "Cztery nazwy, by zrozumieć Coyoacán żołądkiem: cantina, druga cantina, kawiarnia i churros."
+    },
+    "puente_narrativo": {
+      "hash": "0ed7de1c84e07224",
+      "texto": "Idź ulicą Francisco Sosa, dawną drogą królewską Coyoacán."
+    },
+    "guion_corto": {
+      "hash": "f201e7e7b505e711",
+      "texto": "Tutaj nie ma pomnika: jest stoł. Coyoacán rozumie się też, jedząc i pijąc, a cztery nazwy to opowiadają. La Guadalupana to cantina z dawnych czasów, która podobno otwarto w tysiąc dziewięćset dwudziestym ósmym roku, z przekąskami podawanymi do stolika razem z trunkiem. La Coyoacana, przy ulicy Higuera, powstała w tysiąc dziewięćset trzydziestym szóstym roku jako pulquería, a dziś ma mezcal, molcajete i mariachi na uroczystości. El Jarocho od tysiąc dziewięćset pięćdziesiątego trzeciego roku pachnie kawą z Veracruz na rogu Cuauhtémoc i Allende i prawie zawsze jest kolejka. A na zakończenie churros z El Moro, które zaczęły się w tysiąc dziewięćset trzydziestym piątym roku w Centrum, a dziś mają filię blisko placu. Wybierz jedną albo spróbuj wszystkich czterech."
+    },
+    "guion_largo": {
+      "hash": "a4905c33fdad9c51",
+      "texto": "Tutaj nie ma pomnika do oglądania. Jest stoł. Coyoacán rozumie się też żołądkiem, a cztery nazwy opowiadają to lepiej niż jakakolwiek tablica.\n\nZacznijmy od cantin. La Guadalupana to cantina z dawnych czasów. Podobno otwarto ją w tysiąc dziewięćset dwudziestym ósmym roku i zachowuje klimat innej epoki: wąskie kamienne wejście, stary bar, wyluzowana i wesoła atmosfera. Jest sławna z przekąsek podawanych do stolika razem z napojem, od jicamy z limonką i chili po nóżkę w czerwonym sosie. Odwiedzając ją, wyobraź sobie rozmowy, które przewinęły się tu przez prawie sto lat.\n\nLa Coyoacana jest przy ulicy Higuera, w dzielnicy La Conchita. Powstała w tysiąc dziewięćset trzydziestym szóstym roku jako pulquería i z czasem stała się jednym z ulubionych miejsc spotkań dzielnicy. Jej koktajl domu ma mezcal, likier z czarnej porzeczki, limonkę i żurawinę, a w kuchni są molcajete, tortas, sopes i inne przekąski. Gdy jest uroczystość, gra mariachi.\n\nPrzejdźmy do kawy. El Jarocho ma historię z dzielnicy. W tysiąc dziewięćset pięćdziesiątym trzecim roku małżeństwo Gil Romero i Bertha Paredes, które prowadziło sklep spożywczy przy ulicy Aguayo, zaczęło sprzedawać kawę z Veracruz. Gil podawał ją najpierw sąsiadom, a potem postanowił ją sprzedawać. Rodzina przeniosła się kilka przecznic dalej, by otworzyć lokal na rogu Cuauhtémoc i Allende. W tysiąc dziewięćset siedemdziesiątym roku stał się kawiarnią z czterema stolikami. Dziś są filie, prowadzone przez dzieci założycieli, ale oryginalny lokal nadal nie ma ani stołów, ani krzeseł, i zawsze stoi kolejka. Pije się na stojąco, na ulicy, gdy mija wioska.\n\nI na zakończenie churros. El Moro powstało w tysiąc dziewięćset trzydziestym piątym roku w Historycznym Centrum, tam, gdzie wtedy była San Juan de Letrán, a dziś jest Eje Central. Założycielem był Francisco Iriarte, a nazwa honoruje wytwórcę churros z jego wioski w Nawarze. W Coyoacán ma filię blisko placu i podaje gorące churros z czekoladą, cajetą lub słodzonym mlekiem skondensowanym.\n\nWspominamy te miejsca ze względu na historię, nie jako reklamę. Godziny i ceny się zmieniają, więc lepiej zapytaj przed wizytą. A jeśli możesz wybrać tylko jedno, wybierz to, w którym najbardziej chce ci się zostać na pogawędkę."
+    },
+    "retos_observacion": {
+      "hash": "e89aabefbbd69e19",
+      "texto": [
+        "Poczuj zapach kawy od rogu i poszukaj kolejki",
+        "Zobacz, jaka przekąska trafia na stołek, choć jej nie zamawiałeś",
+        "Policz, ile pokoleń jednej rodziny jest w lokalu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f3f7a57077286038",
+      "texto": {
+        "La Guadalupana": "cantina, podobno otwarta w tysiąc dziewięćset dwudziestym ósmym",
+        "La Coyoacana": "ulica Higuera, powstała jako pulquería w tysiąc dziewięćset trzydziestym szóstym",
+        "El Jarocho": "kawa z Veracruz, od tysiąc dziewięćset pięćdziesiątego trzeciego",
+        "El Moro": "churrería założona w tysiąc dziewięćset trzydziestym piątym, z filią w Coyoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "0d9601478591e111",
+      "texto": {
+        "pregunta": "Mit: El Jarocho to nowa sieć.",
+        "respuesta": "Rzeczywistość: Zaczął jako dzielnicowy sklep przy ulicy Aguayo, a oryginalny lokal otwarto w tysiąc dziewięćset pięćdziesiątym trzecim roku."
+      }
+    }
+  }
+}

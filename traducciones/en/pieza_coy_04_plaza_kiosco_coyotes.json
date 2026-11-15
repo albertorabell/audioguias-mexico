@@ -1,0 +1,54 @@
+{
+  "id": "coy_04_plaza_kiosco_coyotes",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0a980b13b4d15c9b",
+      "texto": "The plaza, the bandstand and the coyotes"
+    },
+    "frase_gancho": {
+      "hash": "2cac5f3f4c8484bb",
+      "texto": "The heart of the town: a bandstand, two bronze coyotes and life at any hour."
+    },
+    "puente_narrativo": {
+      "hash": "825c52b3ba9f802a",
+      "texto": "Look toward the building with columns that closes the plaza: it is the borough hall."
+    },
+    "guion_corto": {
+      "hash": "104d5ad93890e061",
+      "texto": "You are in the center of Coyoacán, between two neighboring gardens: the Hidalgo and the Centenario. In the middle is the bandstand, French in style, with an iron frame. One tradition says it was a gift from Porfirio Díaz for the Centennial. Beside it, the fountain of the coyotes: two bronze animals that give the town its name and its symbol. Notice how this space is used. There are families, musicians, vendors, people reading and people just watching. It is a town plaza that has not changed its trade: it is still the place to meet."
+    },
+    "guion_largo": {
+      "hash": "51b3f74a8e6322b6",
+      "texto": "You are in the center of Coyoacán. If you close your eyes for a moment, you will hear the plaza: footsteps on the paving stones, children running, someone playing music, the whistle of a balloon seller. This is the heart of the town, and it works the same as it did long ago: people come here to meet.\n\nThese are two neighboring gardens, the Hidalgo and the Centenario, which in practice feel like a single plaza. The Centenario, it is said, occupies part of the church's old atrium, although we are still confirming that.\n\nIn the middle is the bandstand. It is French in style and has an iron frame. A tradition says it was a gift from Porfirio Díaz for the Centennial. Several sources repeat that version, but no one has shown the original document, so we tell it as what it is: a tradition. They also say it has a dome of stained glass and a bronze eagle. Look for those details when you get closer.\n\nOn one side there is a fountain with two bronze coyotes. It is the work of the sculptor Gabriel Ponzanelli, and it was installed in the early nineteen eighties. The coyotes recall the name of the town, which means “place of coyotes.” In an area that has spent centuries writing its history in stone, the bronze is a recent reminder of where the name comes from.\n\nNow look at the people. In the plaza you find families strolling, artists selling their work, couples on the benches, students with books and tourists with cameras. That is what made Coyoacán, since the nineteen thirties, the favorite place of painters and writers: it never stopped being a place where people stop to talk.\n\nThere is a reason this works. Since nineteen thirty-four the area has been protected as typical and picturesque. The point is not that it looks pretty, but that it keeps being used. Town plazas die when they become museums, and this one is still full.\n\nSit down for a moment. Watch. Then we will continue, because right across from here is a building that almost everyone calls “the House of Cortés,” and it is not."
+    },
+    "retos_observacion": {
+      "hash": "10ec5191cf008328",
+      "texto": [
+        "Look for the eagle and the stained glass of the bandstand",
+        "Find the two bronze coyotes",
+        "Count how many different activities are happening in the plaza at the same time"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eed5f26ed5355ede",
+      "texto": {
+        "Bandstand style": "French",
+        "Structure": "iron",
+        "Coyote fountain": "bronze, by Gabriel Ponzanelli",
+        "Gardens": "Hidalgo and Centenario"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e0ab291085a5c61",
+      "texto": {
+        "pregunta": "Myth: The bandstand was given in nineteen hundred for the Centennial of Independence.",
+        "respuesta": "Reality: The Centennial was in nineteen ten; the Porfirio Díaz version is a tradition with no document."
+      }
+    }
+  }
+}

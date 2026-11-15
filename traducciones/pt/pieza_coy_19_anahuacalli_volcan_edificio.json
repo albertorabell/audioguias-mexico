@@ -1,0 +1,55 @@
+{
+  "id": "coy_19_anahuacalli_volcan_edificio",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9ae42a1377c03ae",
+      "texto": "Anahuacalli: o edifício feito de vulcão"
+    },
+    "frase_gancho": {
+      "hash": "208ec33da0a8d41a",
+      "texto": "Um museu construído com a pedra de um vulcão, para guardar a arte dos antigos mexicanos."
+    },
+    "puente_narrativo": {
+      "hash": "ff57f2c727ca0061",
+      "texto": "Entre no museu e desça ao nível do mundo subterrâneo."
+    },
+    "guion_corto": {
+      "hash": "43914bbfc5ac38a9",
+      "texto": "Diante de você está o Anahuacalli, um edifício que parece um templo. Foi concebido por Diego Rivera para guardar sua coleção de arte pré-hispânica. É feito de pedra vulcânica do Xitle, um vulcão que entrou em erupção há cerca de dois mil anos e cobriu esta região de lava. Essa lava virou o Pedregal. A construção começou em mil novecentos e quarenta e dois, mas Diego morreu em mil novecentos e cinquenta e sete sem vê-la terminada. O museu abriu ao público em dezoito de setembro de mil novecentos e sessenta e quatro."
+    },
+    "guion_largo": {
+      "hash": "d9c22d0f052f6533",
+      "texto": "Diante de você está um edifício que parece tirado de outro tempo. É o Anahuacalli, e para entender o que é preciso começar pelo chão que você pisa.\n\nHá cerca de dois mil anos, o vulcão Xitle entrou em erupção e a lava cobriu boa parte do sul do que hoje é a Cidade do México. Quando esfriou, essa lava virou uma região de pedra negra e afiada chamada Pedregal. O museu se ergue justamente sobre esse terreno.\n\nDiego Rivera juntava havia muitos anos figuras de barro, vasos e esculturas pré-hispânicas, e queria um edifício para guardá-las. Concebeu-o como uma espécie de templo moderno. O nome é de origem náhuatl e foi traduzido como casa cercada de água. Quis que fosse feito da mesma pedra do lugar. Por isso as paredes são de pedra vulcânica do Xitle, extraída no próprio terreno. As janelas, por outro lado, são de ônix âmbar, que deixa passar uma luz quente.\n\nA construção começou em mil novecentos e quarenta e dois, em San Pablo Tepetlapa, e só terminou em mil novecentos e sessenta e três. Diego morreu em mil novecentos e cinquenta e sete, antes de vê-la terminada. Sua filha Ruth Rivera, os arquitetos Juan O'Gorman e Heriberto Pagelson e a colecionadora Dolores Olmedo a terminaram. O museu foi inaugurado em dezoito de setembro de mil novecentos e sessenta e quatro.\n\nNa entrada, olhe a fachada: grandes blocos de pedra negra, com formas que lembram as pirâmides sem copiar nenhuma em particular. Ao redor há uma reserva ecológica de uns vinte e oito mil metros quadrados, com vegetação própria do Pedregal.\n\nEste edifício não é cópia de nada. É a imagem que Diego tinha do que devia ser um museu de arte antiga: feito da terra onde está, e com a sensação de entrar em outro mundo."
+    },
+    "retos_observacion": {
+      "hash": "ff63f0bf823679b4",
+      "texto": [
+        "Toque com o olhar a pedra negra e procure sua textura",
+        "Procure as janelas de ônix âmbar e veja que luz deixam passar",
+        "Olhe o terreno ao redor: você vê a vegetação própria do Pedregal?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "490e3c268d46ca8d",
+      "texto": {
+        "Construção": "de mil novecentos e quarenta e dois a mil novecentos e sessenta e três",
+        "Inauguração": "dezoito de setembro de mil novecentos e sessenta e quatro",
+        "Material": "pedra vulcânica do Xitle",
+        "Janelas": "ônix âmbar",
+        "Reserva ecológica": "uns vinte e oito mil metros quadrados"
+      }
+    },
+    "faq_mito": {
+      "hash": "59ad3c4fccade6ae",
+      "texto": {
+        "pregunta": "Mito: O Anahuacalli é um templo pré-hispânico original.",
+        "respuesta": "Realidade: É um edifício do século vinte, projetado por Diego Rivera, inspirado na arquitetura pré-hispânica."
+      }
+    }
+  }
+}

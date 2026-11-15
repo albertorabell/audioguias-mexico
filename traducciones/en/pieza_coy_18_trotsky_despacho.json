@@ -1,0 +1,54 @@
+{
+  "id": "coy_18_trotsky_despacho",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7cc0c7a52c2ecbeb",
+      "texto": "Trotsky's house: the study"
+    },
+    "frase_gancho": {
+      "hash": "47b64f6966b5bbb1",
+      "texto": "Trotsky's life ended here, and the garden holds his ashes."
+    },
+    "puente_narrativo": {
+      "hash": "ce36107cacc0b73f",
+      "texto": "To close the route, take transport south, to a place that seems from another world, made of volcano: the Anahuacalli."
+    },
+    "guion_corto": {
+      "hash": "f772a396c774797f",
+      "texto": "This is the place where Leon Trotsky's life ended. On the twentieth of August, nineteen forty, Ramón Mercader, an agent who had won his trust, struck him on the head with an ice axe. Trotsky died the next day, the twenty-first of August, in a hospital. In the garden there is a stone stele, designed by the architect Juan O'Gorman, that holds his ashes and those of his wife, Natalia Sedova. A Soviet flag flies above it."
+    },
+    "guion_largo": {
+      "hash": "9c59b5c8bc292a08",
+      "texto": "We are in the study of Trotsky's house, and this is the place where his assassination happened. Go slowly and with respect.\n\nAfter the attack of May nineteen forty, Trotsky knew they were still looking for him. He reinforced the house; there were guards and towers. But the assassin came by another path: trust. Ramón Mercader, an agent in Stalin's service, passed himself off as a man named Jacques Mornard and got close to the people in Trotsky's circle.\n\nOn the twentieth of August, nineteen forty, Mercader came into the study on the pretext of having Trotsky review a text. He struck him on the head with an ice axe. Trotsky was taken to a hospital and died the next day, the twenty-first of August, from blood loss and the shock after surgery.\n\nMercader was arrested and spent twenty years in prison in Mexico.\n\nIn the garden of the house is the tomb. It is a stone stele, designed by the architect Juan O'Gorman, the same one who took part in the Anahuacalli. There lie the ashes of Trotsky and of his wife Natalia Sedova. A Soviet flag flies over the stele.\n\nTrotsky lived in Mexico less than four years. But in that time his life crossed with Diego's, with Frida's, with President Cárdenas's and with world history. Coyoacán, the neighborhood of artists, was also the last refuge of one of the most famous exiles of the twentieth century.\n\nLeave through the garden and perhaps give yourself a moment to think about that."
+    },
+    "retos_observacion": {
+      "hash": "ec59593e7a33fd19",
+      "texto": [
+        "Look for the stone stele and the flag",
+        "Look at the garden and think about what can be seen from the study",
+        "See how many visitors there are and what languages they speak"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f81e8ee5c22323b5",
+      "texto": {
+        "Date of the attack": "August twentieth, nineteen forty",
+        "Death": "August twenty-first, nineteen forty",
+        "Historic monument": "decree of nineteen eighty-two",
+        "Stele": "design by Juan O'Gorman"
+      }
+    },
+    "faq_mito": {
+      "hash": "036440636f3b3d9c",
+      "texto": {
+        "pregunta": "Myth: Trotsky died instantly.",
+        "respuesta": "Reality: He was wounded on August twentieth and died the next day, the twenty-first, in a hospital."
+      }
+    }
+  }
+}

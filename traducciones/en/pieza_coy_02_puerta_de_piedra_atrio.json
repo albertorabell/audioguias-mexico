@@ -1,0 +1,54 @@
+{
+  "id": "coy_02_puerta_de_piedra_atrio",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90fab8705b8ed6df",
+      "texto": "The stone gate of the atrium"
+    },
+    "frase_gancho": {
+      "hash": "63e2df58ec89a553",
+      "texto": "One of the most beautiful entrances of the sixteenth century, built so the townspeople could come in to pray."
+    },
+    "puente_narrativo": {
+      "hash": "fe01f4f2d3859fe8",
+      "texto": "Cross the atrium and enter the parish church of San Juan Bautista."
+    },
+    "guion_corto": {
+      "hash": "b875af750f8902e3",
+      "texto": "You are standing in front of the gate of the atrium of San Juan Bautista. The friars built it in the sixteenth century, almost five hundred years ago, to mark the entrance to the church. Look at the jambs: there are angels holding a crown of flowers. Above, a coat of arms surrounded by fleurs-de-lis. This atrium once had three arches; only this one, on the west side, is still in its place. The other two were moved or disappeared. In the earthquake of two thousand seventeen the upper part was damaged, and today it still stands, as it has for centuries."
+    },
+    "guion_largo": {
+      "hash": "1c58a2abaa821430",
+      "texto": "Stand in front of this gate and look at it slowly. It is not just an entrance. In the sixteenth century, the friars raised it to mark the beginning of something important: the atrium of their church.\n\nThe first friars to arrive in Coyoacán were Franciscans, at the end of fifteen twenty-four or the beginning of fifteen twenty-five. In fifteen twenty-nine the Dominicans founded their convent here, dedicated to San Juan Bautista, and a few years later the Franciscans left. This gate is the work of that time of friars who arrived, taught and built.\n\nAn atrium is the courtyard that surrounds a church. In that era it was much more than that. Churches were small for so many people, so a large part of religious life took place outside, in the open air, in this space. And this gate was its entrance.\n\nNotice the details. On the sides there are angels holding a crown of flowers. The column has a fluted shaft, with a capital that imitates leaves. Above, a coat of arms surrounded by fleurs-de-lis. And at the top, a stone cross with small battlements. This highly ornamented style is called plateresque, because its decoration recalls the work of silversmiths.\n\nThe atrium did not have just one gate, but three arches. This one, on the west side, is the only one still in its original place. The northern one was moved to the side of the church, and the third disappeared.\n\nIn nineteen thirty-eight this arch was repaired. And on the nineteenth of September, two thousand seventeen, the earthquake knocked loose part of the upper corner. A stone that has been withstanding earthquakes for almost five centuries.\n\nToday this gate serves another function. It is the meeting point of the plaza: people arrange to meet here, sit on the steps to rest, take the souvenir photo. Generations change, but the gate remains the place everyone comes to."
+    },
+    "retos_observacion": {
+      "hash": "dafaf8e62cbd981a",
+      "texto": [
+        "Find the angels and notice what they hold",
+        "Look for the coat of arms with the fleurs-de-lis",
+        "Look at the top: can you see the cross and the battlements?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bdf46d950973b3ce",
+      "texto": {
+        "Century": "sixteenth",
+        "Style": "plateresque",
+        "Original arches": "three",
+        "Repair of the west arch": "nineteen thirty-eight"
+      }
+    },
+    "faq_mito": {
+      "hash": "b94419e76142a59c",
+      "texto": {
+        "pregunta": "Myth: This is the door of the church.",
+        "respuesta": "Reality: It is the gate of the atrium; the church is farther inside."
+      }
+    }
+  }
+}

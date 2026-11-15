@@ -1,0 +1,54 @@
+{
+  "id": "coy_20_anahuacalli_por_dentro",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "22eff9fdab4df637",
+      "texto": "Anahuacalli: w środku, od dołu do góry"
+    },
+    "frase_gancho": {
+      "hash": "d85ee6e2f7d7abfb",
+      "texto": "Wyprawa przez trzy poziomy, od podziemnego świata do nieba."
+    },
+    "puente_narrativo": {
+      "hash": "9419d63c3bfa4da8",
+      "texto": "Tutaj kończy się trasa. Dziękujemy, że przeszedłeś się po Coyoacán."
+    },
+    "guion_corto": {
+      "hash": "31d95c772d73353d",
+      "texto": "Anahuacalli ma trzy poziomy, które przechodzi się jak podróż. Parter przedstawia podziemny świat i jest ciemny. Poziom środkowy przedstawia świat ziemski i otrzymuje światło naturalne. Górny otwiera się w kształcie litery U, ku niebu. Jest dwadzieścia trzy sale i tysiące prehiszpańskich eksponatów. W tysiąc dziewięćset czterdziestym trzecim roku Frida Kahlo napisała do ministra, prosząc o pomoc w dokończeniu muzeum. Dziś nadal jest jednym z najbardziej wyjątkowych miejsc w mieście."
+    },
+    "guion_largo": {
+      "hash": "036080f1b9de20ab",
+      "texto": "Wchodzisz do Anahuacalli i powietrze się zmienia. Kamień wulkaniczny obniża nieco temperaturę, światło staje się inne, a dźwięk ulicy zostaje z tyłu.\n\nBudynek jest pomyślany jako trasa o trzech poziomach. Na parterze, który przedstawia podziemny świat, światło jest przytłumione. Na poziomie środkowym, który przedstawia świat ziemski, wpada światło naturalne. A poziom górny ma kształt litery U i przedstawia niebo. Wchodzenie w górę jest jak przejście od ciemności do jasności.\n\nW sumie jest dwadzieścia trzy sale. Kolekcja Diega Rivery była ogromna: szacuje się ją na dziesiątki tysięcy eksponatów prehiszpańskich, choć liczby różnią się w zależności od tego, kto liczy. Około dwóch tysięcy jest wystawionych na stałe, a reszta jest w magazynie. Są glinianą figurki, naczynia, rzeźby i maski z wielu kultur Mezoameryki.\n\nPomysł zamiany tej kolekcji w muzeum miał sojuszników. W tysiąc dziewięćset czterdziestym trzecim roku Frida Kahlo napisała list do Marte R. Gómeza, ministra rolnictwa, prosząc o wsparcie rządu w budowie muzeum. Zaproponowała, by Diego podarował swoją kolekcję, a budynek stał się muzeum archeologicznym. W tamtym momencie się nie udało.\n\nStałą wystawę zaprojektował poeta Carlos Pellicer, a pierwszy projekt muzealny był autorstwa Diega, z archeologiem Alfonso Caso. We wrześniu dwa tysiące dwudziestego pierwszego roku otwarto nowe przestrzenie, zaprojektowane przez architekta Mauricio Rochę Iturbide, w tym magazyn, bibliotekę i dziedzińce na wolnym powietrzu.\n\nWejdź na sam górę, jeśli możesz, i poświęć chwilę na rozejrzenie się: tutaj kończy się nasza trasa po Coyoacán. Zaczęliśmy na placu z kioskiem muzycznym i brązowymi kojotami, przeszliśmy przez kościoły, targi, cantiny i domy artystów, a skończyliśmy w budynku z wulkanu. Dziękujemy, że szedłeś z nami."
+    },
+    "retos_observacion": {
+      "hash": "1ed9447c81d9415a",
+      "texto": [
+        "Porównaj światło na parterze z światłem drugiego poziomu",
+        "Poszukaj eksponatu w kształcie zwierzęcia lub człowieka",
+        "Wejdź na ostatni poziom i spójrz w stronę Pedregal"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2db15b80683c4d7e",
+      "texto": {
+        "Poziomy": "trzy",
+        "Sale": "dwadzieścia trzy",
+        "Eksponaty na wystawie stałej": "około dwóch tysięcy",
+        "Nowe przestrzenie": "wrzesień dwa tysiące dwudziesty pierwszy, Mauricio Rocha Iturbide"
+      }
+    },
+    "faq_mito": {
+      "hash": "44ff3abe14262141",
+      "texto": {
+        "pregunta": "Mit: Cała kolekcja Diega Rivery mieści się w salach.",
+        "respuesta": "Rzeczywistość: Wystawionych jest tylko około dwóch tysięcy eksponatów; reszta jest w magazynie."
+      }
+    }
+  }
+}

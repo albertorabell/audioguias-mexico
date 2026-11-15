@@ -1,0 +1,54 @@
+{
+  "id": "coy_09_capilla_de_la_concepcion",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1313bc4020baba49",
+      "texto": "La cappella della Concepción: la più antica della città"
+    },
+    "frase_gancho": {
+      "hash": "acee78d8545734c8",
+      "texto": "Una piccola cappella che alcuni considerano la prima chiesa cristiana della Nuova Spagna."
+    },
+    "puente_narrativo": {
+      "hash": "3203b5add340b971",
+      "texto": "Hai camminato parecchio: è un buon momento per sederti a tavola."
+    },
+    "guion_corto": {
+      "hash": "ed4b2379446d8670",
+      "texto": "Sei nella piazza di La Conchita, davanti alla cappella dell’Immacolata Concezione. È considerata una delle cappelle più antiche della città, e alcune versioni la chiamano la prima costruita nella Nuova Spagna. Il tempio che vedi oggi è del 1750 circa, con facciata barocca. Quando la restaurarono, nel duemiladodici e nel duemilaquattordici, apparvero sepolture preispaniche sotto il pavimento, il che suggerisce che questo sito fosse sacro già prima dei frati. Ci sono leggende che la legano alla Malinche. Questa piazza è piccola e tranquilla, e continua a essere il cuore del suo quartiere."
+    },
+    "guion_largo": {
+      "hash": "0f8587e953d19352",
+      "texto": "Sei nella piazza di La Conchita, un angolo di Coyoacán che sembra un paese dentro il paese. Davanti a te c’è la cappella dell’Immacolata Concezione, con il suo atrio aperto e la sua facciata barocca.\n\nSi racconta che qui sorgesse la prima cappella cristiana della Nuova Spagna, un piccolo tempio di materiali leggeri con un ampio atrio, innalzato nei primi anni dopo la Conquista. Quest’idea si ripete molto, ma non c’è documento che la provi. Quello che è certo è che qui c’è una chiesa da secoli.\n\nIl tempio che vedi oggi è del millesettecentocinquanta circa, anche se alla fine del diciassettesimo secolo erano già stati fatti cambiamenti importanti sulle rovine della cappella precedente. All’interno ha un retablo con colonne tortili, quelle che sembrano ritorte come una vite, e dipinti del diciassettesimo e del diciottesimo secolo.\n\nQuando i terremoti del ventunesimo secolo danneggiarono la cappella, fu restaurata. E durante quei lavori, nel duemiladodici e nel duemilaquattordici, accadde qualcosa di notevole. Sotto il pavimento apparvero almeno tre sepolture preispaniche, e centinaia di resti cristiani tra il sedicesimo e il ventesimo secolo. In altre parole, la gente di Coyoacán ha sepolto i suoi morti in questo stesso luogo per centinaia di anni, prima e dopo la Conquista.\n\nPer questo la leggenda della Malinche ha tanto fascino. Si dice che Cortés le diede una casa, la Colorada, e che lei chiese un giardino e una cappella accanto. È tradizione, non storia documentata, ma spiega perché tanta gente viene in questo quartiere a cercare la Malinche. A volte si raccontano anche storie della Llorona e di nozze sfortunate. Sono leggende, e fanno parte del fascino del luogo.\n\nSiediti su una panchina. È un buon posto per ascoltare il quartiere."
+    },
+    "retos_observacion": {
+      "hash": "4058117c48398be2",
+      "texto": [
+        "Guarda gli archi e cerca le colonne tortili del retablo, se è aperta",
+        "Osserva la piazza: chi la usa e per cosa?",
+        "Cerca la facciata barocca e conta i suoi livelli"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6d1d56086a276601",
+      "texto": {
+        "Nome": "Immacolata Concezione, La Conchita",
+        "Tempio attuale": "verso il millesettecentocinquanta",
+        "Stile": "barocco",
+        "Ritrovamenti": "tre sepolture preispaniche e centinaia cristiane, restauro del duemiladodici e duemilaquattordici"
+      }
+    },
+    "faq_mito": {
+      "hash": "38ef54d436b88893",
+      "texto": {
+        "pregunta": "Mito: Questa è la prima cappella cristiana della Nuova Spagna.",
+        "respuesta": "Realtà: È una versione molto ripetuta, ma senza documento; ciò che è certo è che qui c’è un tempio da secoli."
+      }
+    }
+  }
+}

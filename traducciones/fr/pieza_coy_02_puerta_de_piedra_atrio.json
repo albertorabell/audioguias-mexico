@@ -1,0 +1,54 @@
+{
+  "id": "coy_02_puerta_de_piedra_atrio",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90fab8705b8ed6df",
+      "texto": "La porte de pierre de l'atrium"
+    },
+    "frase_gancho": {
+      "hash": "63e2df58ec89a553",
+      "texto": "L'une des plus belles entrées du seizième siècle, faite pour que le peuple vienne prier."
+    },
+    "puente_narrativo": {
+      "hash": "fe01f4f2d3859fe8",
+      "texto": "Traverse l'atrium et entre dans la paroisse de San Juan Bautista."
+    },
+    "guion_corto": {
+      "hash": "b875af750f8902e3",
+      "texto": "Tu es devant le portail de l'atrium de San Juan Bautista. Les frères l'ont élevé au seizième siècle, il y a presque cinq cents ans, pour marquer l'entrée du temple. Regarde les montants : des anges soutiennent une couronne de fleurs. Plus haut, un blason entouré de fleurs de lys. Cet atrium a eu trois arcades ; seule celle-ci, celle de l'ouest, est restée à sa place. Les deux autres ont été déplacées ou ont disparu. Lors du séisme de deux mille dix-sept, la partie haute a été endommagée, et aujourd'hui il tient encore debout, comme siècle après siècle."
+    },
+    "guion_largo": {
+      "hash": "1c58a2abaa821430",
+      "texto": "Arrête-toi devant cette porte et regarde-la lentement. Ce n'est pas seulement une entrée. Au seizième siècle, les frères l'ont élevée pour marquer le début de quelque chose d'important : l'atrium de leur temple.\n\nLes premiers frères arrivés à Coyoacán furent des franciscains, à la fin de quinze cent vingt-quatre ou au début de quinze cent vingt-cinq. En quinze cent vingt-neuf, les dominicains y ont fondé leur couvent, dédié à San Juan Bautista, et quelques années plus tard les franciscains sont partis. Ce portail est l'œuvre de cette époque où des frères arrivaient, enseignaient et construisaient.\n\nUn atrium est la cour qui entoure une église. À cette époque, c'était bien plus que cela. Les temples étaient trop petits pour tant de monde, alors une grande partie de la vie religieuse se déroulait dehors, à ciel ouvert, dans cet espace. Et cette porte en était l'entrée.\n\nRegarde les détails. Sur les côtés, des anges soutiennent une couronne de fleurs. La colonne a un fût cannelé, avec un chapiteau qui imite des feuilles. Plus haut, un blason entouré de fleurs de lys. Et pour couronner le tout, une croix de pierre avec de petits créneaux. Ce style très orné s'appelle plateresque, parce que sa décoration rappelle le travail des orfèvres.\n\nL'atrium n'a pas eu une seule porte, mais trois arcades. Celle-ci, celle de l'ouest, est la seule restée à son emplacement d'origine. Celle du nord a été déplacée sur un côté du temple, et la troisième a disparu.\n\nEn dix-neuf cent trente-huit, cet arc a été réparé. Et le dix-neuf septembre deux mille dix-sept, le tremblement de terre a détaché une partie de l'angle supérieur. Une pierre qui résiste aux séismes depuis presque cinq siècles.\n\nAujourd'hui, cette porte remplit une autre fonction. C'est le point de rendez-vous de la place : on s'y donne rendez-vous, on s'assoit sur les marches pour se reposer, on prend la photo souvenir. Les générations changent, mais la porte reste le lieu où tout le monde arrive."
+    },
+    "retos_observacion": {
+      "hash": "dafaf8e62cbd981a",
+      "texto": [
+        "Trouve les anges et regarde ce qu'ils soutiennent",
+        "Cherche le blason aux fleurs de lys",
+        "Regarde le couronnement : vois-tu la croix et les créneaux ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bdf46d950973b3ce",
+      "texto": {
+        "Siècle": "seizième",
+        "Style": "plateresque",
+        "Arcades d'origine": "trois",
+        "Réparation de l'arc ouest": "dix-neuf cent trente-huit"
+      }
+    },
+    "faq_mito": {
+      "hash": "b94419e76142a59c",
+      "texto": {
+        "pregunta": "Mythe : C'est la porte de l'église.",
+        "respuesta": "Réalité : C'est le portail de l'atrium ; l'église se trouve plus loin à l'intérieur."
+      }
+    }
+  }
+}

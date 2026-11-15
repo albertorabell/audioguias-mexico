@@ -1,0 +1,54 @@
+{
+  "id": "coy_09_capilla_de_la_concepcion",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1313bc4020baba49",
+      "texto": "Die Kapelle der Concepción: die älteste der Stadt"
+    },
+    "frase_gancho": {
+      "hash": "acee78d8545734c8",
+      "texto": "Eine kleine Kapelle, die manche für die erste christliche Kirche Neuspaniens halten."
+    },
+    "puente_narrativo": {
+      "hash": "3203b5add340b971",
+      "texto": "Du bist schon ein Stück gelaufen: Es ist ein guter Moment, sich an den Tisch zu setzen."
+    },
+    "guion_corto": {
+      "hash": "ed4b2379446d8670",
+      "texto": "Du bist auf dem Platz La Conchita, vor der Kapelle der Unbefleckten Empfängnis. Sie gilt als eine der ältesten Kapellen der Stadt, und manche Versionen nennen sie die erste, die in Neuspanien gebaut wurde. Der Tempel, den du heute siehst, stammt von etwa siebzehnhundertfünfzig, mit barocker Fassade. Bei der Restaurierung in den Jahren zweitausendzwölf und zweitausendvierzehn tauchten unter dem Boden prähispanische Bestattungen auf, was darauf hindeutet, dass dieser Ort schon vor den Mönchen heilig war. Legenden verbinden sie mit der Malinche. Dieser Platz ist klein und ruhig und noch immer das Herz seines Viertels."
+    },
+    "guion_largo": {
+      "hash": "0f8587e953d19352",
+      "texto": "Du bist auf dem Platz La Conchita, einem Winkel von Coyoacán, der sich wie ein Dorf im Dorf anfühlt. Vor dir steht die Kapelle der Unbefleckten Empfängnis, mit offenem Atrium und barocker Fassade.\n\nMan erzählt, hier habe die erste christliche Kapelle Neuspaniens gestanden, ein kleiner Tempel aus leichten Materialien mit einem weiten Atrium, errichtet in den ersten Jahren nach der Eroberung. Dieser Gedanke wird oft wiederholt, aber es gibt kein Dokument, das ihn belegt. Sicher ist, dass hier seit Jahrhunderten eine Kirche steht.\n\nDer Tempel, den du heute siehst, stammt von etwa siebzehnhundertfünfzig, auch wenn schon Ende des siebzehnten Jahrhunderts wichtige Änderungen auf den Ruinen der früheren Kapelle vorgenommen wurden. Innen hat er einen Altaraufsatz mit salomonischen Säulen, jenen, die wie eine Schraube gedreht aussehen, und Gemälde aus dem siebzehnten und achtzehnten Jahrhundert.\n\nAls die Beben des einundzwanzigsten Jahrhunderts die Kapelle beschädigten, wurde sie restauriert. Und bei diesen Arbeiten, in den Jahren zweitausendzwölf und zweitausendvierzehn, geschah etwas Bemerkenswertes. Unter dem Boden kamen mindestens drei prähispanische Bestattungen zum Vorschein und Hunderte christliche Überreste aus der Zeit vom sechzehnten bis zum zwanzigsten Jahrhundert. Mit anderen Worten: Die Menschen von Coyoacán begraben ihre Toten seit Hunderten von Jahren an genau diesem Ort, vor und nach der Eroberung.\n\nDeshalb hat die Legende von der Malinche so viel Reiz. Man sagt, Cortés habe ihr ein Haus gegeben, die Colorada, und sie habe daneben einen Garten und eine Kapelle verlangt. Es ist Überlieferung, keine belegte Geschichte, aber sie erklärt, warum so viele Menschen in dieses Viertel kommen, um die Malinche zu suchen. Manchmal erzählt man auch Geschichten von der Llorona und von unglücklichen Hochzeiten. Das sind Legenden und ein Teil des Zaubers dieses Ortes.\n\nSetz dich auf eine Bank. Es ist ein guter Platz, um dem Viertel zuzuhören."
+    },
+    "retos_observacion": {
+      "hash": "4058117c48398be2",
+      "texto": [
+        "Sieh dir die Bogen an und such die gedrehten Säulen des Altaraufsatzes, falls sie geöffnet ist",
+        "Beobachte den Platz: Wer nutzt ihn und wofür?",
+        "Such die barocke Fassade und zähl ihre Geschosse"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6d1d56086a276601",
+      "texto": {
+        "Name": "Unbefleckte Empfängnis, La Conchita",
+        "Heutiger Tempel": "um siebzehnhundertfünfzig",
+        "Stil": "Barock",
+        "Funde": "drei prähispanische und Hunderte christliche Bestattungen, Restaurierung in den Jahren zweitausendzwölf und zweitausendvierzehn"
+      }
+    },
+    "faq_mito": {
+      "hash": "38ef54d436b88893",
+      "texto": {
+        "pregunta": "Mythos: Das ist die erste christliche Kapelle Neuspaniens.",
+        "respuesta": "Wirklichkeit: Es ist eine oft wiederholte Version, aber ohne Dokument; sicher ist, dass hier seit Jahrhunderten ein Tempel steht."
+      }
+    }
+  }
+}

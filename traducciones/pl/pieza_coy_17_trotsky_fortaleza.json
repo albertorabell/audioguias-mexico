@@ -1,0 +1,54 @@
+{
+  "id": "coy_17_trotsky_fortaleza",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cbd5d25a466ca617",
+      "texto": "Dom Trockiego: forteca"
+    },
+    "frase_gancho": {
+      "hash": "414f408d98c58117",
+      "texto": "Rosyjski wygnaniec, nocny atak i dom, który stał się fortecą."
+    },
+    "puente_narrativo": {
+      "hash": "2dd8c6cc99ee3074",
+      "texto": "Wejdź do gabinetu, miejsca, gdzie kończy się historia."
+    },
+    "guion_corto": {
+      "hash": "981cdd413960efd7",
+      "texto": "Stoisz przed domem Lwa Trockiego. Przybył do Meksyku w styczniu tysiąc dziewięćset trzydziestego siódmego roku, z azylem od prezydenta Lázaro Cárdenasa, dzięki poparciu Diega Rivery i Fridy Kahlo. Mieszkał najpierw w Casa Azul, a od kwietnia tysiąc dziewięćset trzydziestego dziewiątego w tym domu przy ulicy Viena. O świcie dwudziestego czwartego maja tysiąc dziewięćset czterdziestego uzbrojona grupa, z malarzem Davidem Alfaro Siqueirosem wśród przywódców, ostrzelała dom. Trocki przeżył. Potem wzniesiono wysokie mury i wieże strażnicze, które widzisz dziś."
+    },
+    "guion_largo": {
+      "hash": "98552b9dcaad4504",
+      "texto": "Stoisz przed domem Lwa Trockiego w Coyoacán. Z zewnątrz wygląda jak forteca i zaraz zrozumiesz dlaczego.\n\nTrocki był jednym z przywódców rewolucji rosyjskiej w tysiąc dziewięćset siedemnastym roku. Potem pokłócił się ze Stalinem, musiał uciekać i przeszedł przez kilka krajów. W styczniu tysiąc dziewięćset trzydziestego siódmego roku przybył do Meksyku ze swoją żoną Natalią Sedową. Diego Rivera i Frida Kahlo przekonali rząd Lázaro Cárdenasa, by udzielił im azylu politycznego. Mieszkali najpierw w Casa Azul, a od kwietnia tysiąc dziewięćset trzydziestego dziewiątego tutaj, przy ulicy Viena.\n\nW tysiąc dziewięćset trzydziestym dziewiątym roku Trocki i Diego Rivera już się od siebie oddalili. Podawane powody to rozbieżności polityczne i, według niektórych wersji, związek Rosjanina z Fridą.\n\nDom przestał być spokojny dwudziestego czwartego maja tysiąc dziewięćset czterdziestego roku. O świcie uzbrojona grupa, przebrana za policjantów, weszła i ostrzelała dom. Mówi się, że wśród przywódców był malarz David Alfaro Siqueiros, który współpracował z sowiecką policją tajną. Trocki przeżył, a jego wnuk, który miał kilka lat, dostał kulę w stopę. Jeden z ochroniarzy, młody Amerykanin Robert Sheldon Harte, został porwany i zamordowany.\n\nPo ataku dom się zmienił. Dookoła wzniesiono wysokie mury i wieże strażnicze. To właśnie widzisz teraz. Dom przy spokojnej ulicy Coyoacán, który musiał się chronić jak zamek.\n\nDziś dom jest muzeum, otwartym od dwudziestego sierpnia tysiąc dziewięćset dziewięćdziesiątego roku, w pięćdziesiątą rocznicę zabójstwa. Wejście jest od alei Río Churubusco. A tutaj, na ulicy, widzisz tylko mury. Wejdziemy przez gabinet."
+    },
+    "retos_observacion": {
+      "hash": "b3b56ac65c89d2da",
+      "texto": [
+        "Poszukaj wież strażniczych na szczycie murów",
+        "Obserwuj grubość murów i to, jak ulica wygląda z zewnątrz",
+        "Wyobraź sobie to miejsce o tej porze nocy, ponad osiemdziesiąt lat temu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e47c8d31fd2a99b7",
+      "texto": {
+        "Przyjazd do Meksyku": "styczeń tysiąc dziewięćset trzydziesty siódmy",
+        "Przeprowadzka do tego domu": "kwiecień tysiąc dziewięćset trzydziesty dziewiąty",
+        "Pierwszy atak": "dwudziesty czwarty maja tysiąc dziewięćset czterdziesty",
+        "Muzeum": "od tysiąc dziewięćset dziewięćdziesiątego"
+      }
+    },
+    "faq_mito": {
+      "hash": "a1559d89ac4ebebb",
+      "texto": {
+        "pregunta": "Mit: Trocki mieszkał tutaj od przyjazdu do Meksyku.",
+        "respuesta": "Rzeczywistość: Najpierw mieszkał w Casa Azul w Coyoacán; do tego domu przeprowadził się w kwietniu tysiąc dziewięćset trzydziestego dziewiątego."
+      }
+    }
+  }
+}

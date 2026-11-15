@@ -1,0 +1,54 @@
+{
+  "id": "coy_09_capilla_de_la_concepcion",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1313bc4020baba49",
+      "texto": "La chapelle de la Concepción : la plus ancienne de la ville"
+    },
+    "frase_gancho": {
+      "hash": "acee78d8545734c8",
+      "texto": "Une petite chapelle que certains considèrent comme la première église chrétienne de la Nouvelle-Espagne."
+    },
+    "puente_narrativo": {
+      "hash": "3203b5add340b971",
+      "texto": "Tu as déjà beaucoup marché : c'est le bon moment de t'asseoir à table."
+    },
+    "guion_corto": {
+      "hash": "ed4b2379446d8670",
+      "texto": "Tu es sur la place de La Conchita, devant la chapelle de l'Immaculée Conception. On la considère comme l'une des plus anciennes chapelles de la ville, et certaines versions l'appellent la première construite en Nouvelle-Espagne. Le temple que tu vois date d'environ dix-sept cent cinquante, avec une façade baroque. Lors de sa restauration, en deux mille douze et deux mille quatorze, des sépultures préhispaniques sont apparues sous le sol, ce qui suggère que ce site était déjà sacré avant les frères. Des légendes la relient à la Malinche. Cette place est petite et tranquille, et reste le cœur de son quartier."
+    },
+    "guion_largo": {
+      "hash": "0f8587e953d19352",
+      "texto": "Tu es sur la place de La Conchita, un recoin de Coyoacán qui ressemble à un village dans le village. Devant toi se trouve la chapelle de l'Immaculée Conception, avec son atrium ouvert et sa façade baroque.\n\nOn raconte qu'ici se trouvait la première chapelle chrétienne de la Nouvelle-Espagne, un petit temple en matériaux légers avec un large atrium, élevé dans les premières années après la Conquête. Cette idée se répète beaucoup, mais aucun document ne la prouve. Ce qui est sûr, c'est qu'il y a une église ici depuis des siècles.\n\nLe temple que tu vois date d'environ dix-sept cent cinquante, bien qu'à la fin du dix-septième siècle des changements importants aient déjà été faits sur les ruines de la chapelle précédente. À l'intérieur, il y a un retable avec des colonnes salomoniques, celles qui semblent tordues comme une vis, et des peintures des dix-septième et dix-huitième siècles.\n\nQuand les séismes du vingt et unième siècle ont endommagé la chapelle, elle a été restaurée. Et pendant ces travaux, en deux mille douze et deux mille quatorze, quelque chose de remarquable s'est produit. Sous le sol sont apparues au moins trois sépultures préhispaniques, et des centaines de restes chrétiens entre le seizième et le vingtième siècle. En d'autres termes, les gens de Coyoacán enterrent leurs morts à cet endroit précis depuis des centaines d'années, avant et après la Conquête.\n\nC'est pourquoi la légende de la Malinche a tant d'attrait. On dit que Cortés lui a donné une maison, la Colorada, et qu'elle a demandé un jardin et une chapelle à côté. C'est une tradition, pas une histoire documentée, mais elle explique pourquoi tant de gens viennent dans ce quartier à la recherche de la Malinche. On raconte parfois aussi des histoires de la Llorona et de mariages malheureux. Ce sont des légendes, et elles font partie du charme du lieu.\n\nAssieds-toi sur un banc. C'est un bon endroit pour écouter le quartier."
+    },
+    "retos_observacion": {
+      "hash": "4058117c48398be2",
+      "texto": [
+        "Regarde les arcs et cherche les colonnes tordues du retable, si elle est ouverte",
+        "Observe la place : qui l'utilise et pour quoi faire ?",
+        "Cherche la façade baroque et compte ses niveaux"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6d1d56086a276601",
+      "texto": {
+        "Nom": "Immaculée Conception, La Conchita",
+        "Temple actuel": "vers dix-sept cent cinquante",
+        "Style": "baroque",
+        "Découvertes": "trois sépultures préhispaniques et des centaines de chrétiennes, restauration de deux mille douze et deux mille quatorze"
+      }
+    },
+    "faq_mito": {
+      "hash": "38ef54d436b88893",
+      "texto": {
+        "pregunta": "Mythe : C'est la première chapelle chrétienne de la Nouvelle-Espagne.",
+        "respuesta": "Réalité : C'est une version très répétée, mais sans document ; ce qui est sûr, c'est qu'il y a un temple ici depuis des siècles."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "coy_02_puerta_de_piedra_atrio",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90fab8705b8ed6df",
+      "texto": "Kamienna brama atrium"
+    },
+    "frase_gancho": {
+      "hash": "63e2df58ec89a553",
+      "texto": "Jedno z najpiękniejszych wejść z szesnastego wieku, zbudowane po to, by lud wchodził się modlić."
+    },
+    "puente_narrativo": {
+      "hash": "fe01f4f2d3859fe8",
+      "texto": "Przejdź przez atrium i wejdź do parafii San Juan Bautista."
+    },
+    "guion_corto": {
+      "hash": "b875af750f8902e3",
+      "texto": "Stoisz przed bramą atrium San Juan Bautista. Mnisi wznieśli ją w szesnastym wieku, prawie pięćset lat temu, by zaznaczyć wejście do świątyni. Spójrz na odrzwia: anioły podtrzymują wieniec z kwiatów. Wyżej tarcza otoczona lilijkami. To atrium miało trzy arkady; tylko ta, zachodnia, pozostała na swoim miejscu. Dwie pozostałe przeniesiono lub zniknęły. W trzęsieniu ziemi w dwa tysiące siedemnastym roku uszkodzona została górna część, a dziś nadal stoi, tak jak stoi od stuleci."
+    },
+    "guion_largo": {
+      "hash": "1c58a2abaa821430",
+      "texto": "Stań przed tą bramą i spójrz na nią powoli. To nie jest tylko wejście. W szesnastym wieku mnisi wznieśli ją, by zaznaczyć początek czegoś ważnego: atrium ich świątyni.\n\nPierwszymi mnichami, którzy przybyli do Coyoacán, byli franciszkanie, pod koniec tysiąc pięćset dwudziestego czwartego lub na początku tysiąc pięćset dwudziestego piątego roku. W tysiąc pięćset dwudziestym dziewiątym roku dominikanie założyli tu swój klasztor pod wezwaniem San Juan Bautista, a kilka lat później franciszkanie odeszli. Ta brama jest dziełem tamtego czasu, gdy mnisi przybywali, uczyli i budowali.\n\nAtrium to dziedziniec otaczający kościół. W owych czasach było to znacznie więcej. Świątynie były za małe dla tylu ludzi, więc duża część życia religijnego odbywała się na zewnątrz, pod gołym niebem, w tej przestrzeni. A ta brama była jej wejściem.\n\nZwróć uwagę na szczegóły. Po bokach anioły podtrzymują wieniec z kwiatów. Kolumna ma rowkowany trzon i kapitel naśladujący liście. Wyżej tarcza otoczona lilijkami. A na szczycie kamienny krzyż z niewielkimi blankami. Ten bogato zdobiony styl nazywa się platereskowy, bo jego dekoracja przypomina pracę złotników.\n\nAtrium nie miało jednej bramy, lecz trzy arkady. Ta, zachodnia, jest jedyną, która pozostała na pierwotnym miejscu. Północną przeniesiono na bok świątyni, a trzecia zniknęła.\n\nW tysiąc dziewięćset trzydziestym ósmym roku ten łuk naprawiono. A dziewiętnastego września dwa tysiące siedemnastego roku trzęsienie ziemi oderwało część górnego narożnika. Kamień, który od prawie pięciu wieków znosi wstrząsy.\n\nDziś ta brama pełni inną funkcję. Jest miejscem spotkań na placu: ludzie umawiają się tutaj, siadają na schodach, by odpocząć, robią pamiątkowe zdjęcie. Pokolenia się zmieniają, ale brama pozostaje miejscem, do którego wszyscy przychodzą."
+    },
+    "retos_observacion": {
+      "hash": "dafaf8e62cbd981a",
+      "texto": [
+        "Znajdź anioły i zobacz, co trzymają",
+        "Poszukaj tarczy z lilijkami",
+        "Spójrz na zwieńczenie: widzisz krzyż i blanki?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bdf46d950973b3ce",
+      "texto": {
+        "Wiek": "szesnasty",
+        "Styl": "platereskowy",
+        "Pierwotne arkady": "trzy",
+        "Naprawa zachodniego łuku": "tysiąc dziewięćset trzydziesty ósmy"
+      }
+    },
+    "faq_mito": {
+      "hash": "b94419e76142a59c",
+      "texto": {
+        "pregunta": "Mit: To jest brama kościoła.",
+        "respuesta": "Rzeczywistość: To brama atrium; kościół jest dalej w głąb."
+      }
+    }
+  }
+}

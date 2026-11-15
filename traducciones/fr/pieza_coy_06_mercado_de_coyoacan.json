@@ -1,0 +1,54 @@
+{
+  "id": "coy_06_mercado_de_coyoacan",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "45c0070370c93f2a",
+      "texto": "Le marché de Coyoacán : un toit qui ressemble à une bâche"
+    },
+    "frase_gancho": {
+      "hash": "05d775515f8a2df0",
+      "texto": "Un marché des années cinquante dont le design évoque l'auvent d'un tianguis."
+    },
+    "puente_narrativo": {
+      "hash": "d07dc1de8bc60390",
+      "texto": "Marche vers le nord par la rue Allende, jusqu'au coin de la Casa Azul."
+    },
+    "guion_corto": {
+      "hash": "53f5f6da611be632",
+      "texto": "Regarde le toit de ce marché : on dirait une bâche tendue sur le tianguis, mais il est en béton, très fin. Il a été inauguré le six octobre dix-neuf cent cinquante-six, et son design est attribué à Pedro Ramírez Vázquez et Félix Candela. Avant ce bâtiment, les stands s'entassaient près de la paroisse. Aujourd'hui, le marché sent le fruit, les plats mijotés et les tostadas. Ici on mange debout, la sauce à la main, et l'on comprend pourquoi Coyoacán n'a jamais cessé d'être un quartier."
+    },
+    "guion_largo": {
+      "hash": "6da2a8a759df6368",
+      "texto": "Entre dans le marché et, avant d'acheter quoi que ce soit, lève les yeux. Le toit ressemble à une bâche tendue sur un tianguis, mais il est en béton armé, très fin, et cette forme n'est pas un hasard. L'idée était que le nouveau bâtiment rappelle l'auvent des tianguis de toujours.\n\nLe marché a été inauguré le six octobre dix-neuf cent cinquante-six, et son design est attribué à Pedro Ramírez Vázquez et Félix Candela, avec Rafael Mijares. Candela est célèbre pour ses voiles minces de béton. Cette attribution, nous sommes encore en train de la confirmer, mais elle correspond à l'œuvre que l'on connaît d'eux.\n\nAvant ce bâtiment, le commerce de Coyoacán se tenait dans la rue. Vers le début du vingtième siècle, les stands du tianguis, que les gens appelaient les barracas, s'installaient près de la paroisse. On a tenté de les déplacer vers le quartier de La Conchita, puis il y a eu un premier marché formel. Chaque changement cherchait à mettre de l'ordre dans ce que le village faisait déjà : acheter et vendre chaque jour.\n\nAujourd'hui, le marché est une fête pour les sens. Il y a des stands de fruits et légumes, de fleurs, d'herbes, d'artisanat et de nourriture. Un classique, ce sont les tostadas : au pied de porc, aux crevettes, au poulet au mole, au ceviche, avec des sauces à la cacahuète, au chipotle et verte. On les mange debout, la sauce à portée de main, entre les conversations des voisins et les touristes curieux.\n\nOn répète souvent que Frida et Diego faisaient leurs courses ici. C'est une belle histoire, mais elle a un problème : le marché de cette époque était un autre. Ce bâtiment est arrivé des années après la période la plus connue du couple. Ce qui est vrai, en revanche, c'est que l'ambiance que tu vois est celle qu'ils ont connue : un quartier où l'on achète en personne, où l'on marchande et où l'on bavarde.\n\nSi tu as faim, c'est le bon moment. Sinon, marche lentement dans les allées et observe. Ensuite nous continuerons vers le nord, à quelques rues d'ici, où se trouve le coin de la Casa Azul."
+    },
+    "retos_observacion": {
+      "hash": "3ede36b25a7c0158",
+      "texto": [
+        "Regarde le toit et décide s'il ressemble à une bâche ou à du béton",
+        "Cherche un stand de tostadas et regarde quelles sauces il propose",
+        "Compte combien d'odeurs différentes tu peux distinguer dans une allée"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d21660c95132d15",
+      "texto": {
+        "Inauguration": "six octobre dix-neuf cent cinquante-six",
+        "Design attribué à": "Pedro Ramírez Vázquez, Félix Candela et Rafael Mijares",
+        "Structure": "voiles minces en béton armé",
+        "Idée": "l'auvent de bâche des tianguis"
+      }
+    },
+    "faq_mito": {
+      "hash": "da399c6434415d7b",
+      "texto": {
+        "pregunta": "Mythe : Frida et Diego faisaient leurs courses dans ce marché.",
+        "respuesta": "Réalité : C'est un mythe très répété ; le marché de leur époque était un autre, et ce bâtiment date de dix-neuf cent cinquante-six."
+      }
+    }
+  }
+}

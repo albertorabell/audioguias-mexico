@@ -1,0 +1,54 @@
+{
+  "id": "coy_01_coyohuacan_pueblo_que_sigue_vivo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "08f7f11d7af67d0b",
+      "texto": "Coyoacán: o povoado que nunca deixou de ser povoado"
+    },
+    "frase_gancho": {
+      "hash": "163a3a8f7c76c6a0",
+      "texto": "Aqui viveram Frida, Diego e Trotski, e ainda hoje se come, se conversa e se passeia como num povoado."
+    },
+    "puente_narrativo": {
+      "hash": "fd41d72be6c24b47",
+      "texto": "Caminhe até o portão do átrio, ao lado da igreja."
+    },
+    "guion_corto": {
+      "hash": "1d5ed3fc89d2d018",
+      "texto": "Bem-vindo a Coyoacán. Escute um momento: conversas nos bancos, música ao longe, alguém vendendo balões, alguém vendendo sorvete. É assim que esta praça soa quase todos os dias. O nome vem do náhuatl e significa “lugar de coiotes”. Quando Tenochtitlán caiu, Hernán Cortés se instalou aqui e foi fundada a primeira prefeitura do Vale do México. Mas o que deu fama a Coyoacán veio séculos depois: o bairro virou o lugar de pintores, escritores e exílados. Frida Kahlo nasceu a poucas quadras de onde você está. Diego Rivera pintou e viveu nestas ruas. E o revolucionário russo Leon Trotski encontrou aqui seu último refúgio. Nesta visita você vai caminhar entre cafés, cantinas, igrejas e casas cheias de história. Vamos começar."
+    },
+    "guion_largo": {
+      "hash": "b450cf12825055b9",
+      "texto": "Bem-vindo a Coyoacán. Antes que eu lhe conte qualquer coisa, escute. Há conversas nos bancos, música vinda de algum lugar, alguém vende balões, alguém vende sorvete. É assim que esta praça soa quase todos os dias, e esse é o segredo de Coyoacán: continua parecendo um povoado, embora a Cidade do México tenha crescido ao redor.\n\nO nome vem do náhuatl, Coyohuacan, “lugar de coiotes”. Antes da chegada dos espanhóis, um grupo vindo de Chalco se estabeleceu aqui por volta do ano mil trezentos e trinta e dois. Com o tempo, o lugar ficou sob o domínio dos tepanecas de Azcapotzalco e depois da Tríplice Aliança, que governava o Vale do México. Quando Hernán Cortés conquistou Tenochtitlán, Coyoacán era aliada dos espanhóis. Depois da queda da capital mexica, Cortés e suas tropas se instalaram aqui, e foi fundada a primeira prefeitura do Vale do México. Em mil quinhentos e vinte e nove, Cortés fez de Coyoacán a sede do seu Marquesado do Vale de Oaxaca.\n\nMas se você caminhar por aqui hoje, não vai encontrar um museu congelado no século dezesseis. Vai encontrar o bairro onde, no século vinte, se reuniram os artistas e intelectuais mais famosos do México. Frida Kahlo nasceu e morreu a poucas quadras desta praça, na Casa Azul. Diego Rivera viveu também naquela casa e nestas ruas. E em mil novecentos e trinta e sete chegou ao México, exílado e perseguido por Stalin, um revolucionário russo, Leon Trotski. Viveu em Coyoacán, primeiro na Casa Azul e depois a poucas quadras, até sua morte. Pintores, escritores, políticos e gente da sociedade: Coyoacán era o lugar onde era preciso estar.\n\nEssa mistura continua viva. Nos fins de semana, as famílias tomam sorvete, os músicos tocam na praça e os estudantes lotam os cafés. Há cantinas com décadas de história, barracas de tostadas, churros que se comem ainda quentes. E a poucos passos há igrejas do século dezesseis, casas de vice-reis e ruas de pedra.\n\nEm mil novecentos e trinta e quatro, o governo declarou Coyoacán zona típica e pitoresca. Em mil novecentos e noventa, a zona foi declarada Zona de Monumentos Históricos. Hoje conserva parte do traçado do século dezesseis, com mais de oitenta quarteirões e cerca de cinquenta edifícios valiosos dos séculos dezesseis ao dezenove. O que você vai percorrer não são ruínas, mas um povoado que continua vivo.\n\nVamos começar por onde tudo começou: o átrio da igreja."
+    },
+    "retos_observacion": {
+      "hash": "06f1c60683a4ce2c",
+      "texto": [
+        "Procure os coiotes de bronze da fonte",
+        "Conte quantas coisas diferentes estão acontecendo ao mesmo tempo na praça",
+        "Encontre o campanário da paróquia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f07b25742574d756",
+      "texto": {
+        "Nome": "do náhuatl Coyohuacan, lugar de coiotes",
+        "Zona típica e pitoresca": "mil novecentos e trinta e quatro",
+        "Zona de Monumentos Históricos": "decreto de dezembro de mil novecentos e noventa",
+        "Edifícios valiosos": "cerca de cinquenta, dos séculos dezesseis ao dezenove"
+      }
+    },
+    "faq_mito": {
+      "hash": "e58fc35c9d10cfe8",
+      "texto": {
+        "pregunta": "Mito: Coyoacán foi a capital do vice-reinado.",
+        "respuesta": "Realidade: Foi sede de Cortés e de uma primeira prefeitura depois da Conquista; o vice-reinado foi criado anos depois, em mil quinhentos e trinta e cinco."
+      }
+    }
+  }
+}

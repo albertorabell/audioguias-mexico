@@ -1,0 +1,54 @@
+{
+  "id": "coy_04_plaza_kiosco_coyotes",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0a980b13b4d15c9b",
+      "texto": "La place, le kiosque et les coyotes"
+    },
+    "frase_gancho": {
+      "hash": "2cac5f3f4c8484bb",
+      "texto": "Le centre du village : un kiosque, deux coyotes de bronze et de la vie à toute heure."
+    },
+    "puente_narrativo": {
+      "hash": "825c52b3ba9f802a",
+      "texto": "Regarde le bâtiment à colonnes qui ferme la place : c'est le siège de la mairie d'arrondissement."
+    },
+    "guion_corto": {
+      "hash": "104d5ad93890e061",
+      "texto": "Tu es au centre de Coyoacán, entre deux jardins voisins : le Hidalgo et le Centenario. Au milieu se trouve le kiosque, de style français, à structure de fer. Une tradition dit qu'il fut un cadeau de Porfirio Díaz pour le Centenaire. À côté, la fontaine des coyotes : deux animaux de bronze qui donnent au village son nom et son symbole. Observe comment cet espace est utilisé. Il y a des familles, des musiciens, des vendeurs, des gens qui lisent et des gens qui regardent seulement. C'est une place de village qui n'a pas changé de métier : elle reste l'endroit où l'on se retrouve."
+    },
+    "guion_largo": {
+      "hash": "51b3f74a8e6322b6",
+      "texto": "Tu es au centre de Coyoacán. Si tu fermes les yeux un instant, tu entendras la place : des pas sur les dalles, des enfants qui courent, quelqu'un qui joue de la musique, le sifflet d'un vendeur de ballons. C'est le cœur du village, et il fonctionne comme il y a longtemps : on vient ici pour se retrouver.\n\nCe sont deux jardins voisins, le Hidalgo et le Centenario, qui dans la pratique ressemblent à une seule place. Le Centenario, dit-on, occupe une partie de l'ancien atrium de l'église, bien que nous soyons encore en train de le confirmer.\n\nAu centre se trouve le kiosque. Il est de style français et a une structure de fer. Une tradition raconte qu'il fut un cadeau de Porfirio Díaz pour le Centenaire. Plusieurs sources répètent cette version, mais personne n'a montré le document d'origine, alors nous la racontons pour ce qu'elle est : une tradition. On dit aussi qu'il a une coupole de vitraux et un aigle de bronze. Repère ces détails quand tu t'approcheras.\n\nÀ côté, il y a une fontaine avec deux coyotes de bronze. C'est l'œuvre du sculpteur Gabriel Ponzanelli, installée au début des années quatre-vingt. Les coyotes rappellent le nom du village, qui signifie « lieu des coyotes ». Dans un quartier qui écrit son histoire dans la pierre depuis des siècles, le bronze est un rappel récent de l'origine du nom.\n\nMaintenant regarde les gens. Sur la place cohabitent des familles qui se promènent, des artistes qui vendent leurs œuvres, des couples sur les bancs, des étudiants avec des livres et des touristes avec des appareils photo. C'est ce qui a fait de Coyoacán, depuis les années trente, le lieu préféré des peintres et des écrivains : cela n'a jamais cessé d'être un endroit où l'on s'arrête pour bavarder.\n\nIl y a une raison pour laquelle cela marche. Depuis dix-neuf cent trente-quatre, la zone est protégée comme typique et pittoresque. Il ne s'agit pas qu'elle soit jolie, mais qu'elle continue d'être utilisée. Les places de village meurent quand elles deviennent des musées, et celle-ci reste pleine.\n\nAssieds-toi un moment. Observe. Ensuite nous continuerons, car juste en face se trouve un bâtiment que presque tout le monde appelle « la Casa de Cortés », et qui n'en est pas une."
+    },
+    "retos_observacion": {
+      "hash": "10ec5191cf008328",
+      "texto": [
+        "Cherche l'aigle et les vitraux du kiosque",
+        "Trouve les deux coyotes de bronze",
+        "Compte combien d'activités différentes ont lieu en même temps sur la place"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eed5f26ed5355ede",
+      "texto": {
+        "Style du kiosque": "français",
+        "Structure": "fer",
+        "Fontaine des coyotes": "bronze, œuvre de Gabriel Ponzanelli",
+        "Jardins": "Hidalgo et Centenario"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e0ab291085a5c61",
+      "texto": {
+        "pregunta": "Mythe : Le kiosque a été offert en dix-neuf cent pour le Centenaire de l'Indépendance.",
+        "respuesta": "Réalité : Le Centenaire a eu lieu en dix-neuf cent dix ; la version de Porfirio Díaz est une tradition sans document."
+      }
+    }
+  }
+}

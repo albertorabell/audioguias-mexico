@@ -1,0 +1,55 @@
+{
+  "id": "coy_15_esquina_casa_azul",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "505310fa9e18692d",
+      "texto": "L’angolo della Casa Azul"
+    },
+    "frase_gancho": {
+      "hash": "b9e77446900ff8c4",
+      "texto": "La casa azzurro cobalto dove nacque e morì Frida Kahlo, vista dalla strada."
+    },
+    "puente_narrativo": {
+      "hash": "26d64baab3ee1ab5",
+      "texto": "Cammina qualche passo verso l’angolo tra Aguayo e Londres."
+    },
+    "guion_corto": {
+      "hash": "3169ce7552df22dd",
+      "texto": "Sei all’angolo tra Londres e Allende, davanti alla Casa Azul. I suoi muri azzurro cobalto le danno il nome. Fu costruita nel millenovecentoquattro, e in essa nacque Frida Kahlo nel millenovecentosette. Morì qui, al piano di sopra, il tredici luglio del millenovecentocinquantaquattro. Anche Diego Rivera visse in questa casa, e vi fu ospitato l’esule russo Lev Trotskij tra il millenovecentotrentasette e il millenovecentotrentanove. Oggi è un museo. Guarda il colore, le finestre e la strada. Se vuoi entrare, in questa stessa applicazione trovi un’altra audioguida dedicata solo alla Casa Azul."
+    },
+    "guion_largo": {
+      "hash": "2d4cd20ef83a0400",
+      "texto": "Sei all’angolo tra Londres e Allende, nel quartiere del Carmen, e davanti a te c’è una delle case più famose del Messico: la Casa Azul. Se la vedi per la prima volta, la prima cosa che noti è il colore, un azzurro cobalto intenso che contrasta con il verde degli alberi.\n\nLa casa fu costruita nel millenovecentoquattro. All’inizio aveva una decorazione di ispirazione francese; col tempo le fu data la facciata più semplice che vedi oggi. Qui nacque Frida Kahlo nel millenovecentosette. Qui morì, a quarantasette anni, il tredici luglio del millenovecentocinquantaquattro.\n\nMa questa casa fu molto più della casa di una pittrice. Anche Diego Rivera visse qui con lei, e fece persino costruire un’ala che dà sulla calle Londres. E nel gennaio del millenovecentotrentasette arrivarono qui Lev Trotskij e sua moglie Natalia Sedova, esuli, dopo che Diego e Frida intercedettero presso il governo di Lázaro Cárdenas perché fosse loro concesso asilo. Vissero in questa casa fino all’aprile del millenovecentotrentanove, quando si trasferirono in una casa vicina, sulla calle Viena. Più avanti la vedremo.\n\nDopo la morte di Frida, Diego donò la casa al Messico perché diventasse un museo. Da allora è uno dei luoghi che attira più visitatori a Coyoacán.\n\nDalla strada puoi vedere il colore, le finestre e il movimento dell’angolo: visitatori con le macchine fotografiche, venditori, gruppi che si fermano ad ascoltare la loro guida. Anche questa scena fa parte della storia della casa. Se vuoi conoscerla dall’interno, hai un’altra audioguida in questa applicazione dedicata alla Casa Azul."
+    },
+    "retos_observacion": {
+      "hash": "008cb94fbcb531c5",
+      "texto": [
+        "Guarda il colore azzurro e osserva come cambia con la luce",
+        "Conta quante lingue senti all’angolo",
+        "Cerca la targa o il nome del museo sulla facciata"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d85e9857a2f820a9",
+      "texto": {
+        "Indirizzo": "Londres, angolo Allende, quartiere del Carmen",
+        "Costruzione": "millenovecentoquattro",
+        "Frida nacque": "millenovecentosette",
+        "Frida morì": "tredici luglio del millenovecentocinquantaquattro",
+        "Oggi": "museo"
+      }
+    },
+    "faq_mito": {
+      "hash": "06712eece107d652",
+      "texto": {
+        "pregunta": "Mito: La Casa Azul è sempre stata azzurra.",
+        "respuesta": "Realtà: Oggi è nota per il suo colore, ma la casa fu costruita con una decorazione di ispirazione francese e poi le fu data la facciata attuale."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "coy_08_casa_colorada",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dfba479fa4e12890",
+      "texto": "Die Casa Colorada: das Haus, das nicht der Malinche gehörte"
+    },
+    "frase_gancho": {
+      "hash": "25f89ec761e2bcf2",
+      "texto": "Es hat den Ruf, das Haus der Malinche zu sein, birgt aber eine andere Geschichte, die der Malerei näher ist."
+    },
+    "puente_narrativo": {
+      "hash": "963133767d0111c1",
+      "texto": "Geh ein paar Schritte zum Platz La Conchita, wo die Kapelle steht."
+    },
+    "guion_corto": {
+      "hash": "25fad29bc8418713",
+      "texto": "Du stehst vor der Casa Colorada, an der Ecke Higuera und Vallarta. Viele nennen sie das Haus der Malinche, aber die Unterlagen des INAH sagen etwas anderes: Es war ein Obraje, eine Manufaktur für Garn und Gewebe, die La Concepción hieß. Ihre Mauern aus rotem Tezontle gaben ihr den Namen. Im Jahr neunzehnhundertneunundsechzig kauften sie zwei Maler, Arturo García Bustos und Rina Lazo, und seither ist sie ein Künstlerhaus. Heute ist es ein Privathaus, man bewundert es also von außen. Sieh dir die Mauern, die Eisenbalkone und die steinernen Wasserspeier an."
+    },
+    "guion_largo": {
+      "hash": "faa058bac1b5c4d5",
+      "texto": "Du stehst an der Ecke der Straßen Higuera und Vallarta, vor einem zweigeschossigen Haus mit rötlichen Mauern. Das ist die Casa Colorada. Viele kennen sie als das Haus der Malinche, und manche erzählen, ihr Geist gehe hier noch um. Aber das Blatt des INAH sagt, diese Zuschreibung sei falsch.\n\nWas man weiß, ist, dass dieser Ort ein Obraje war: eine Werkstatt, in der gesponnen und gewebt wurde. Er hieß La Concepción, wie die Kapelle ein paar Schritte weiter, und bestand schon im Jahr siebzehnhundertfünfundfünfzig, als er einem Mann namens Sebastián de Soto gehörte. Das Erdgeschoss kann aus dem siebzehnten Jahrhundert stammen, der Rest wurde im Lauf der Jahre erweitert.\n\nSieh dir die Mauern an. Sie sind aus Stein und aus Tezontle, dem roten Vulkangestein, das in der ganzen Stadt verwendet wurde. Irgendwann wurden sie rot gestrichen, und daher kommt der Name Casa Colorada. Der Putz ist an einigen Stellen abgefallen und lässt die verschiedenen Bauphasen erkennen. Im ersten Obergeschoss gibt es Eisenbalkone, und oben steinerne Wasserspeier, die den Regen ableiten.\n\nIm zwanzigsten Jahrhundert wechselte das Haus mehrmals den Besitzer. Im Jahr neunzehnhundertneununddreißig wurde seine Erhaltung angeordnet. Im Jahr neunzehnhundertsiebenundfünfzig wurde seine Fassade restauriert. Und im Jahr neunzehnhundertneunundsechzig kauften es zwei Maler, Arturo García Bustos und Rina Lazo. García Bustos war einer der Fridos, der Schüler von Frida Kahlo, und Lazo war Assistentin von Diego Rivera. Ein Haus, von dem es heißt, es habe der Malinche gehört, wurde am Ende das Heim zweier Künstler aus dem Kreis von Frida und Diego.\n\nEs ist ein Privathaus, man kann also nicht hinein. Aber die Fassade lohnt sich, vor allem am späten Nachmittag, wenn das Licht auf den Tezontle fällt."
+    },
+    "retos_observacion": {
+      "hash": "c52e5d6e3b3fea50",
+      "texto": [
+        "Achte auf das Rot der Mauern und such, wo man den Tezontle sieht",
+        "Zähl die Eisenbalkone im ersten Obergeschoss",
+        "Such die steinernen Wasserspeier im oberen Teil"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6893ae3ba5ca1b3d",
+      "texto": {
+        "Adresse": "Straße Higuera, Ecke Vallarta",
+        "Ursprüngliche Nutzung": "Obraje für Garn und Gewebe La Concepción",
+        "Besteht seit": "mindestens siebzehnhundertfünfundfünfzig",
+        "Heutige Nutzung": "Privathaus"
+      }
+    },
+    "faq_mito": {
+      "hash": "b613897120964857",
+      "texto": {
+        "pregunta": "Mythos: Das war das Haus der Malinche.",
+        "respuesta": "Wirklichkeit: Das INAH hält diese Zuschreibung für falsch; es war ein Obraje aus der Vizekönigszeit."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "coy_04_plaza_kiosco_coyotes",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0a980b13b4d15c9b",
+      "texto": "Der Platz, der Musikpavillon und die Kojoten"
+    },
+    "frase_gancho": {
+      "hash": "2cac5f3f4c8484bb",
+      "texto": "Das Zentrum des Dorfes: ein Musikpavillon, zwei Bronzekojoten und Leben zu jeder Stunde."
+    },
+    "puente_narrativo": {
+      "hash": "825c52b3ba9f802a",
+      "texto": "Sieh zum Säulengebäude, das den Platz abschließt: Es ist der Sitz der Bezirksverwaltung."
+    },
+    "guion_corto": {
+      "hash": "104d5ad93890e061",
+      "texto": "Du bist im Zentrum von Coyoacán, zwischen zwei benachbarten Gärten: dem Hidalgo und dem Centenario. In der Mitte steht der Musikpavillon im französischen Stil, mit Eisengestell. Einer Überlieferung nach war er ein Geschenk von Porfirio Díaz zum Hundertjahrfest. Daneben der Kojotenbrunnen: zwei Bronzetiere, die dem Dorf Namen und Symbol geben. Sieh dir an, wie dieser Raum genutzt wird. Es gibt Familien, Musiker, Verkäufer, Leute, die lesen, und Leute, die nur schauen. Es ist ein Dorfplatz, der seine Aufgabe nicht geändert hat: Er ist weiter der Ort, an dem man sich trifft."
+    },
+    "guion_largo": {
+      "hash": "51b3f74a8e6322b6",
+      "texto": "Du bist im Zentrum von Coyoacán. Wenn du kurz die Augen schließt, hörst du den Platz: Schritte auf den Fliesen, rennende Kinder, jemand, der Musik macht, die Pfeife eines Ballonverkäufers. Das ist das Herz des Dorfes, und es funktioniert wie vor langer Zeit: Man kommt hierher, um sich zu treffen.\n\nEs sind zwei benachbarte Gärten, der Hidalgo und der Centenario, die sich in der Praxis wie ein einziger Platz anfühlen. Der Centenario nimmt, so heißt es, einen Teil des alten Kirchenatriums ein, auch wenn wir das noch bestätigen.\n\nIn der Mitte steht der Musikpavillon. Er ist im französischen Stil und hat ein Eisengestell. Einer Überlieferung nach war er ein Geschenk von Porfirio Díaz zum Hundertjahrfest. Mehrere Quellen wiederholen diese Version, aber niemand hat das Originaldokument gezeigt, also erzählen wir sie als das, was sie ist: eine Überlieferung. Man sagt auch, er habe eine Kuppel aus Buntglas und einen Bronzeadler. Achte auf diese Einzelheiten, wenn du näher kommst.\n\nDaneben steht ein Brunnen mit zwei Bronzekojoten. Er ist ein Werk des Bildhauers Gabriel Ponzanelli und wurde Anfang der achtziger Jahre aufgestellt. Die Kojoten erinnern an den Namen des Dorfes, der „Ort der Kojoten“ bedeutet. In einer Gegend, die seit Jahrhunderten ihre Geschichte in Stein schreibt, ist die Bronze eine junge Erinnerung daran, woher der Name kommt.\n\nJetzt sieh dir die Menschen an. Auf dem Platz leben Familien, die spazieren gehen, Künstler, die ihre Werke verkaufen, Paare auf den Bänken, Studenten mit Büchern und Touristen mit Kameras nebeneinander. Das hat Coyoacán seit den dreißiger Jahren zum Lieblingsort von Malern und Schriftstellern gemacht: Es war nie aufgehört, ein Ort zu sein, an dem man stehen bleibt und plaudert.\n\nDass das funktioniert, hat einen Grund. Seit neunzehnhundertvierunddreißig steht das Gebiet als typisch und malerisch unter Schutz. Es geht nicht darum, dass es hübsch aussieht, sondern dass es weiter genutzt wird. Dorfplätze sterben, wenn sie zu Museen werden, und dieser ist noch immer voll.\n\nSetz dich einen Moment. Beobachte. Danach gehen wir weiter, denn genau gegenüber steht ein Gebäude, das fast alle „das Haus von Cortés“ nennen und das es nicht ist."
+    },
+    "retos_observacion": {
+      "hash": "10ec5191cf008328",
+      "texto": [
+        "Such den Adler und die Buntglasfenster des Pavillons",
+        "Finde die beiden Bronzekojoten",
+        "Zähl, wie viele verschiedene Aktivitäten gleichzeitig auf dem Platz stattfinden"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eed5f26ed5355ede",
+      "texto": {
+        "Stil des Pavillons": "französisch",
+        "Konstruktion": "Eisen",
+        "Kojotenbrunnen": "Bronze, Werk von Gabriel Ponzanelli",
+        "Gärten": "Hidalgo und Centenario"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e0ab291085a5c61",
+      "texto": {
+        "pregunta": "Mythos: Der Pavillon wurde neunzehnhundert zum Hundertjahrfest der Unabhängigkeit geschenkt.",
+        "respuesta": "Wirklichkeit: Das Hundertjahrfest war neunzehnhundertzehn; die Version mit Porfirio Díaz ist eine Überlieferung ohne Dokument."
+      }
+    }
+  }
+}

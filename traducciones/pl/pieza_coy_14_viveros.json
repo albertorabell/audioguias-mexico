@@ -1,0 +1,54 @@
+{
+  "id": "coy_14_viveros",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f2d7bca2e576af9d",
+      "texto": "Viveros de Coyoacán: las, który zasiał jeden człowiek"
+    },
+    "frase_gancho": {
+      "hash": "e899b47ddb9ab00c",
+      "texto": "Park, w którym uprawia się drzewa zalesiające miasto i gdzie ludzie biegają wśród nich."
+    },
+    "puente_narrativo": {
+      "hash": "eda3c651016ca3e9",
+      "texto": "Idź na zachód, do mostu Panzacola, dawnego wejścia do Coyoacán."
+    },
+    "guion_corto": {
+      "hash": "5fc2e36951ad19ca",
+      "texto": "Weź głęboki oddech: jesteś w Viveros de Coyoacán. To nie tylko park, to szkółka leśna, miejsce, gdzie uprawia się drzewa. Zaczął ją Miguel Ángel de Quevedo, inżynier, który marzył o otoczeniu miasta lasami. W tysiąc dziewięćset pierwszym roku podarował pierwszy hektar. W tysiąc dziewięćset siedemnastym roku rząd uznał projekt, a w tysiąc dziewięćset trzydziestym ósmym stał się parkiem narodowym. Dziś produkuje blisko milion drzew rocznie, a jego ścieżkami biegają i spacerują tysiące ludzi każdego dnia."
+    },
+    "guion_largo": {
+      "hash": "5a5df8cc56ee75db",
+      "texto": "Weź głęboki oddech. Jesteś w Viveros de Coyoacán i za pierwszym razem może ci się wydawać po prostu parkiem z mnóstwem drzew. Ale to coś więcej: to szkółka leśna, miejsce, gdzie uprawia się drzewa, by sadzić je gdzie indziej.\n\nWszystko zaczęło się od Miguela Ángela de Quevedo, inżyniera, który wiedział, że miasto potrzebuje lasów. Jego pomysł polegał na otoczeniu miasta Meksyk pasem lasów o szerokości około dziesięciu kilometrów. W tysiąc dziewięćset pierwszym roku podarował pierwszy hektar na szkółkę, a w tysiąc dziewięćset siedemnastym rząd oficjalnie ją uznał. Z biegiem lat rozrosła się prawie do czterdziestu hektarów. W tysiąc dziewięćset trzydziestym ósmym roku uznano ją za park narodowy i otwarto dla publiczności.\n\nDziś nadal robi to, co robiła od początku: produkuje około miliona drzew rocznie, by zalesiać miasto. Stała się też miejscem, gdzie ludzie biegają, spacerują i siadają z książką. Szacuje się, że odwiedza ją od dwóch tysięcy pięciuset do trzech tysięcy osób dziennie, a jest też bardzo popularny targ roślin.\n\nW parku są ciekawe szczegóły. Jest studnia datowana na tysiąc dziewięćset osiemnasty rok i ruiny małej kaplicy. Są też wiewiórki tak przyzwyczajone do ludzi, że podchodzą bez lęku.\n\nJeśli Coyoacán słynie z bohemy i artyzmu, Viveros pokazują inne oblicze: dzielnicy, która umiała też zadbać o swoje drzewa. Przejdź się chwilę, spójrz w górę i pamiętaj, że wiele drzew tego miasta urodziło się tutaj."
+    },
+    "retos_observacion": {
+      "hash": "c0e43a13d2d21831",
+      "texto": [
+        "Spójrz w górę i poszukaj najwyższych drzew",
+        "Poszukaj tablicy lub strefy produkcji roślin",
+        "Obserwuj, kto biega, a kto spaceruje"
+      ]
+    },
+    "especificaciones": {
+      "hash": "022cca2c8c5fe723",
+      "texto": {
+        "Założyciel": "Miguel Ángel de Quevedo",
+        "Pierwsza darowizna": "jeden hektar, tysiąc dziewięćset pierwszy",
+        "Park narodowy": "tysiąc dziewięćset trzydziesty ósmy",
+        "Produkcja": "około miliona drzew rocznie"
+      }
+    },
+    "faq_mito": {
+      "hash": "26cf0425760d7b72",
+      "texto": {
+        "pregunta": "Mit: Viveros to naturalny las.",
+        "respuesta": "Rzeczywistość: To szkółka leśna stworzona przez Miguela Ángela de Quevedo, by produkować drzewa do zalesiania."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "coy_16_mural_la_rosita",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "51936378c221a185",
+      "texto": "La Rosita : la fresque qui n'est plus là"
+    },
+    "frase_gancho": {
+      "hash": "8fe70aaac6b5181a",
+      "texto": "Ici il y avait une pulquería peinte par les élèves de Frida. Aujourd'hui il n'en reste rien, seulement l'histoire."
+    },
+    "puente_narrativo": {
+      "hash": "631c25734cfc83ff",
+      "texto": "Nous continuons avec un autre refuge, celui d'un exilé : la maison de Trotski."
+    },
+    "guion_corto": {
+      "hash": "c4acb6ecdcb7078a",
+      "texto": "À ce coin, celui d'Aguayo et Londres, se trouvait la pulquería La Rosita. En dix-neuf cent quarante-trois, les élèves de Frida Kahlo, que l'on a appelés les Fridos, ont couvert ses murs de fresques. Il y avait un pique-nique, un enfant qui offre une rose à sa mère, un jaripeo et des scènes de transports. Frida a obtenu l'autorisation, et elle et Diego ont payé les frais. Le bâtiment a été démolli dans les années soixante ou soixante-dix, et aujourd'hui le terrain est privé. C'est un arrêt pour imaginer ce qui n'est plus là."
+    },
+    "guion_largo": {
+      "hash": "9b6fbd08652e1b39",
+      "texto": "Ce coin, celui d'Aguayo et Londres, a une histoire qu'on ne voit plus. Ici se trouvait une pulquería appelée La Rosita, à quelques rues de la Casa Azul.\n\nTout a commencé par une idée de Frida Kahlo. À cette époque, il existait une ancienne coutume : décorer les pulquerías de peintures. Frida a proposé à ses élèves de la faire revivre. Ses élèves étaient de jeunes peintres qui se faisaient appeler les Fridos. Ils ont choisi La Rosita, un petit local, et ont peint à l'huile les façades et les murs.\n\nLa nuit du dix-neuf juin dix-neuf cent quarante-trois, les fresques ont été inaugurées. Parmi les peintres se trouvaient Fanny Rabel, Arturo Estrada et Guillermo Monroy, entre autres. Les thèmes étaient quotidiens : un pique-nique à la campagne, un enfant qui offre une rose à sa mère, un jaripeo, l'évolution des transports. Frida a obtenu l'autorisation du gouvernement. Elle et Diego Rivera ont tout payé et n'ont même rien fait payer au propriétaire du local. Frida a dirigé le travail et obtenu les matériaux, mais ni elle ni Diego ne sont intervenus dans ce que peignaient les élèves.\n\nEn dix-neuf cent cinquante-deux, Frida a organisé une seconde série de fresques, cette fois à fresque véritable, pour la fête de Diego.\n\nLe bâtiment de La Rosita a été démolli dans les années soixante ou soixante-dix. Aujourd'hui le site est un terrain privé. C'est pourquoi nous appelons cet arrêt la fresque qui n'est plus là : il faut l'imaginer.\n\nC'est peut-être un bon moment pour regarder le coin comme le ferait un peintre. Il y a des façades, des portes, un air de quartier. Les Fridos ont eu l'idée que l'art pouvait aller dans la rue et dans les pulquerías, pas seulement dans les musées. Cette idée, même si la fresque n'est plus là, fait toujours partie de l'esprit de Coyoacán."
+    },
+    "retos_observacion": {
+      "hash": "b88bc9a2abb2bd29",
+      "texto": [
+        "Imagine une fresque complète sur les murs du coin",
+        "Cherche une façade ou un mur qui porte de la peinture aujourd'hui",
+        "Compte combien de peintres ou d'artistes tu peux trouver dans les rues proches"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1d83bfde21ad19a8",
+      "texto": {
+        "Lieu": "coin d'Aguayo et Londres",
+        "Fresque inaugurée": "dix-neuf juin dix-neuf cent quarante-trois",
+        "Technique": "huile",
+        "Bâtiment démolli": "années soixante ou soixante-dix",
+        "Aujourd'hui": "terrain privé"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e271bbe534cfdd6",
+      "texto": {
+        "pregunta": "Mythe : On peut encore voir la fresque de La Rosita à Coyoacán.",
+        "respuesta": "Réalité : Le bâtiment a été démolli ; il reste des photographies, mais pas la fresque."
+      }
+    }
+  }
+}

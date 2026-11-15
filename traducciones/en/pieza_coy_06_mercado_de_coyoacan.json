@@ -1,0 +1,54 @@
+{
+  "id": "coy_06_mercado_de_coyoacan",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "45c0070370c93f2a",
+      "texto": "The Coyoacán Market: a roof that looks like canvas"
+    },
+    "frase_gancho": {
+      "hash": "05d775515f8a2df0",
+      "texto": "A market from the nineteen fifties with the design of a street-market awning."
+    },
+    "puente_narrativo": {
+      "hash": "d07dc1de8bc60390",
+      "texto": "Walk north along Allende, to the corner of the Casa Azul."
+    },
+    "guion_corto": {
+      "hash": "53f5f6da611be632",
+      "texto": "Look at the roof of this market: it looks like a canvas stretched over a street market, but it is concrete, very thin. It opened on the sixth of October, nineteen fifty-six, and its design is attributed to Pedro Ramírez Vázquez and Félix Candela. Before this building, the stalls crowded around the parish church. Today the market smells of fruit, stews and tostadas. Here you eat standing up, with the salsa in your hand, and you understand why Coyoacán never stopped being a neighborhood."
+    },
+    "guion_largo": {
+      "hash": "6da2a8a759df6368",
+      "texto": "Walk into the market and, before buying anything, look up. The roof looks like a canvas stretched over a tianguis, but it is thin reinforced concrete, and that shape is no accident. The idea was for the new building to recall the awning of the street markets of old.\n\nThe market opened on the sixth of October, nineteen fifty-six, and its design is attributed to Pedro Ramírez Vázquez and Félix Candela, with Rafael Mijares. Candela is famous for his thin concrete shells. We are still confirming this attribution, but it fits the work they are known for.\n\nBefore this building, Coyoacán's commerce was in the street. Around the early twentieth century, the tianguis stalls, which people called the barracas, were set up next to the parish church. There was an attempt to move them to the La Conchita neighborhood and later a first formal market. Each change sought to organize what the town was already doing: buying and selling every day.\n\nToday the market is a feast for the senses. There are stalls of fruit and vegetables, flowers, herbs, crafts and food. A classic is the tostadas: topped with pig's feet, shrimp, chicken with mole, ceviche, with peanut, chipotle and green salsas. You eat them standing up, with the salsa within reach, among conversations of neighbors and curious tourists.\n\nIt is often repeated that Frida and Diego did their shopping here. It is a nice story, but it has a problem: the market of that time was a different one. This building came years after the couple's best-known era. What is true is that the atmosphere you see is the one they knew: a neighborhood where you shop in person, haggle and chat.\n\nIf you are hungry, this is a good time. If not, walk slowly through the aisles and watch. Then we continue north, a few blocks from here, to the corner of the Casa Azul."
+    },
+    "retos_observacion": {
+      "hash": "3ede36b25a7c0158",
+      "texto": [
+        "Look at the roof and decide whether it looks like canvas or concrete",
+        "Find a tostada stall and notice which salsas it offers",
+        "Count how many different smells you can pick out in one aisle"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d21660c95132d15",
+      "texto": {
+        "Opening": "October sixth, nineteen fifty-six",
+        "Design attributed to": "Pedro Ramírez Vázquez, Félix Candela and Rafael Mijares",
+        "Structure": "thin shells of reinforced concrete",
+        "Idea": "the canvas awning of the tianguis"
+      }
+    },
+    "faq_mito": {
+      "hash": "da399c6434415d7b",
+      "texto": {
+        "pregunta": "Myth: Frida and Diego did their shopping in this market.",
+        "respuesta": "Reality: It is a much-repeated myth; the market of their time was a different one, and this building dates from nineteen fifty-six."
+      }
+    }
+  }
+}

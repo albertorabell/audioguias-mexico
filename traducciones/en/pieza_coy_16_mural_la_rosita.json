@@ -1,0 +1,55 @@
+{
+  "id": "coy_16_mural_la_rosita",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "51936378c221a185",
+      "texto": "La Rosita: the mural that is no longer there"
+    },
+    "frase_gancho": {
+      "hash": "8fe70aaac6b5181a",
+      "texto": "There used to be a pulquería painted by Frida's students. Today nothing remains, only the story."
+    },
+    "puente_narrativo": {
+      "hash": "631c25734cfc83ff",
+      "texto": "We continue with another refuge, an exile's: Trotsky's house."
+    },
+    "guion_corto": {
+      "hash": "c4acb6ecdcb7078a",
+      "texto": "On this corner, at Aguayo and Londres, stood the La Rosita pulquería. In nineteen forty-three, Frida Kahlo's students, who were called the Fridos, painted its walls with murals. There was a picnic, a boy giving a rose to his mother, a rodeo and scenes of transport. Frida got the permit, and she and Diego paid the expenses. The building was demolished in the sixties or seventies, and today the lot is private. This is a stop for imagining what is no longer there."
+    },
+    "guion_largo": {
+      "hash": "9b6fbd08652e1b39",
+      "texto": "This corner, Aguayo and Londres, has a story that can no longer be seen. Here stood a pulquería called La Rosita, a few blocks from the Casa Azul.\n\nIt all began with an idea from Frida Kahlo. At that time there was an old custom: decorating pulquerías with paintings. Frida proposed to her students that they revive it. Her students were young painters who called themselves the Fridos. They chose La Rosita, a small place, and painted its façades and walls in oil.\n\nOn the night of the nineteenth of June, nineteen forty-three, the murals were inaugurated. Among the painters were Fanny Rabel, Arturo Estrada and Guillermo Monroy, among others. The themes were everyday: a picnic in the countryside, a boy giving a rose to his mother, a rodeo, the evolution of transport. Frida got the government's permission. She and Diego Rivera paid for everything and did not even charge the owner of the place. Frida directed the work and obtained the materials, but neither she nor Diego intervened in what the students painted.\n\nIn nineteen fifty-two, Frida organized a second series of murals, this time in fresco, for Diego's saint's day.\n\nThe La Rosita building was demolished in the sixties or seventies. Today the site is a private lot. That is why we call this stop the mural that is no longer there: you have to imagine it.\n\nPerhaps this is a good moment to look at the corner the way a painter would. There are façades, doors, a neighborhood air. The Fridos had the idea that art could go to the street and to the pulquerías, not only to museums. That idea, even though the mural is gone, is still part of the spirit of Coyoacán."
+    },
+    "retos_observacion": {
+      "hash": "b88bc9a2abb2bd29",
+      "texto": [
+        "Imagine a full mural across the walls of the corner",
+        "Look for a façade or wall that has paint on it today",
+        "Count how many painters or artists you can find on the nearby streets"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1d83bfde21ad19a8",
+      "texto": {
+        "Place": "corner of Aguayo and Londres",
+        "Mural inaugurated": "June nineteenth, nineteen forty-three",
+        "Technique": "oil",
+        "Building demolished": "sixties or seventies",
+        "Today": "private lot"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e271bbe534cfdd6",
+      "texto": {
+        "pregunta": "Myth: You can still see the La Rosita mural in Coyoacán.",
+        "respuesta": "Reality: The building was demolished; photographs survive, but not the mural."
+      }
+    }
+  }
+}

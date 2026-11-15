@@ -1,0 +1,54 @@
+{
+  "id": "coy_17_trotsky_fortaleza",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cbd5d25a466ca617",
+      "texto": "Das Haus von Trotzki: die Festung"
+    },
+    "frase_gancho": {
+      "hash": "414f408d98c58117",
+      "texto": "Ein russischer Exilant, ein nächtlicher Angriff und ein Haus, das zur Festung wurde."
+    },
+    "puente_narrativo": {
+      "hash": "2dd8c6cc99ee3074",
+      "texto": "Geh in das Arbeitszimmer, den Ort, an dem die Geschichte endete."
+    },
+    "guion_corto": {
+      "hash": "981cdd413960efd7",
+      "texto": "Du stehst vor dem Haus von Leo Trotzki. Er kam im Januar neunzehnhundertsiebenunddreißig nach Mexiko, mit Asyl von Präsident Lázaro Cárdenas, dank der Unterstützung von Diego Rivera und Frida Kahlo. Er lebte zuerst in der Casa Azul und seit April neunzehnhundertneununddreißig in diesem Haus in der Straße Viena. In der Morgendämmerung des vierundzwanzigsten Mai neunzehnhundertvierzig schoss eine bewaffnete Gruppe, mit dem Maler David Alfaro Siqueiros unter ihren Anführern, auf das Haus. Trotzki überlebte. Danach wurden die hohen Mauern und Wächtertürme errichtet, die du heute siehst."
+    },
+    "guion_largo": {
+      "hash": "98552b9dcaad4504",
+      "texto": "Du stehst vor dem Haus von Leo Trotzki in Coyoacán. Von außen sieht es aus wie eine Festung, und gleich wirst du verstehen, warum.\n\nTrotzki war einer der Führer der Russischen Revolution von neunzehnhundertsiebzehn. Danach geriet er mit Stalin aneinander, musste fliehen und zog durch mehrere Länder. Im Januar neunzehnhundertsiebenunddreißig kam er mit seiner Frau Natalia Sedowa nach Mexiko. Diego Rivera und Frida Kahlo überzeugten die Regierung von Lázaro Cárdenas, ihnen politisches Asyl zu geben. Sie lebten zuerst in der Casa Azul und seit April neunzehnhundertneununddreißig hier, in der Straße Viena.\n\nIm Jahr neunzehnhundertneununddreißig hatten sich Trotzki und Diego Rivera schon voneinander entfernt. Als Gründe werden politische Meinungsverschiedenheiten genannt und, nach manchen Versionen, eine Beziehung des Russen zu Frida.\n\nDas Haus wurde am vierundzwanzigsten Mai neunzehnhundertvierzig unruhig. In der Morgendämmerung drang eine bewaffnete Gruppe, als Polizisten verkleidet, ein und schoss auf das Haus. Man sagt, unter ihren Anführern sei der Maler David Alfaro Siqueiros gewesen, der mit dem sowjetischen Geheimdienst zusammenarbeitete. Trotzki überlebte, und sein Enkel, der ein paar Jahre alt war, erhielt einen Schuss in den Fuß. Einer der Leibwächter, ein junger Amerikaner namens Robert Sheldon Harte, wurde entführt und ermordet.\n\nNach dem Angriff veränderte sich das Haus. Ringsum wurden hohe Mauern und Wächtertürme errichtet. Das ist es, was du jetzt siehst. Ein Haus an einer ruhigen Straße in Coyoacán, das sich wie eine Burg schützen musste.\n\nHeute ist das Haus ein Museum, geöffnet seit dem zwanzigsten August neunzehnhundertneunzig, zum fünfzigsten Jahrestag der Ermordung. Der Eingang liegt an der Avenida Río Churubusco. Und hier auf der Straße siehst du nur die Mauern. Wir gehen durch das Arbeitszimmer hinein."
+    },
+    "retos_observacion": {
+      "hash": "b3b56ac65c89d2da",
+      "texto": [
+        "Such die Wächtertürme oben auf den Mauern",
+        "Beobachte die Dicke der Mauern und wie die Straße von außen aussieht",
+        "Stell dir den Ort zu dieser Nachtstunde vor, vor mehr als achtzig Jahren"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e47c8d31fd2a99b7",
+      "texto": {
+        "Ankunft in Mexiko": "Januar neunzehnhundertsiebenunddreißig",
+        "Umzug in dieses Haus": "April neunzehnhundertneununddreißig",
+        "Erster Angriff": "vierundzwanzigster Mai neunzehnhundertvierzig",
+        "Museum": "seit neunzehnhundertneunzig"
+      }
+    },
+    "faq_mito": {
+      "hash": "a1559d89ac4ebebb",
+      "texto": {
+        "pregunta": "Mythos: Trotzki lebte hier, seit er nach Mexiko kam.",
+        "respuesta": "Wirklichkeit: Er lebte zuerst in der Casa Azul in Coyoacán; in dieses Haus zog er im April neunzehnhundertneununddreißig um."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "coy_01_coyohuacan_pueblo_que_sigue_vivo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "08f7f11d7af67d0b",
+      "texto": "Coyoacán: wioska, która nigdy nie przestała być wioską"
+    },
+    "frase_gancho": {
+      "hash": "163a3a8f7c76c6a0",
+      "texto": "Mieszkali tu Frida, Diego i Trocki, a do dziś je się, rozmawia i spaceruje jak w wiosce."
+    },
+    "puente_narrativo": {
+      "hash": "fd41d72be6c24b47",
+      "texto": "Idź w stronę bramy atrium, obok kościoła."
+    },
+    "guion_corto": {
+      "hash": "1d5ed3fc89d2d018",
+      "texto": "Witaj w Coyoacán. Posłuchaj chwilę: rozmowy na ławkach, muzyka w oddali, ktoś sprzedaje balony, ktoś sprzedaje lody. Tak brzmi ten plac prawie każdego dnia. Nazwa pochodzi z nahuatl i oznacza „miejsce kojotów”. Kiedy upadło Tenochtitlán, Hernán Cortés osiedlił się tutaj i powstał pierwszy samorząd w Dolinie Meksyku. Ale sławę Coyoacán przyniosły dopiero wieki później: dzielnica stała się domem malarzy, pisarzy i wygnańców. Frida Kahlo urodziła się parę przecznic stąd. Diego Rivera malował i mieszkał na tych ulicach. A rosyjski rewolucjonista Lew Trocki znalazł tu swoje ostatnie schronienie. Podczas tej wizyty przejdziesz się między kawiarniami, cantinami, kościołami i domami z historią. Zaczynamy."
+    },
+    "guion_largo": {
+      "hash": "b450cf12825055b9",
+      "texto": "Witaj w Coyoacán. Zanim cokolwiek ci opowiem, posłuchaj. Są rozmowy na ławkach, skądś dochodzi muzyka, ktoś sprzedaje balony, ktoś sprzedaje lody. Tak brzmi ten plac prawie każdego dnia i na tym polega sekret Coyoacán: nadal wygląda jak wioska, choć miasto Meksyk wyrosło dookoła.\n\nNazwa pochodzi z nahuatl, Coyohuacan, „miejsce kojotów”. Przed przybyciem Hiszpanów grupa z Chalco osiedliła się tutaj około roku tysiąc trzysta trzydziestego drugiego. Z czasem miejsce znalazło się pod władzą Tepaneków z Azcapotzalco, a potem Trójprzymierza, które rządziło Doliną Meksyku. Gdy Hernán Cortés podbił Tenochtitlán, Coyoacán było sojusznikiem Hiszpanów. Po upadku stolicy Mexików Cortés i jego wojska osiedlili się tutaj i powstał pierwszy samorząd w Dolinie Meksyku. W tysiąc pięćset dwudziestym dziewiątym roku Cortés uczynił Coyoacán stolicą swojego Markizatu Doliny Oaxaca.\n\nAle jeśli przejdziesz się tu dzisiaj, nie znajdziesz muzeum zastygłego w szesnastym wieku. Znajdziesz dzielnicę, w której w dwudziestym wieku spotkali się najsławniejsi artysci i intelektualiści Meksyku. Frida Kahlo urodziła się i zmarła kilka przecznic od tego placu, w Casa Azul. Diego Rivera mieszkał w tym domu i na tych ulicach. A w tysiąc dziewięćset trzydziestym siódmym roku przybył do Meksyku, wygnany i ściganny przez Stalina, rosyjski rewolucjonista, Lew Trocki. Mieszkał w Coyoacán, najpierw w Casa Azul, a potem kilka przecznic dalej, do swojej śmierci. Malarze, pisarze, politycy i ludzie z towarzystwa: Coyoacán było miejscem, w którym trzeba było być.\n\nTa mieszanka jest wciąż żywa. W weekendy rodziny jedzą lody, muzycy grają na placu, a studenci wypełniają kawiarnie. Są cantiny z dziesięcioleciami historii, stoiska z tostadami, churros, które je się jeszcze gorące. A kilka kroków dalej stoją kościoły z szesnastego wieku, domy wicekrólów i brukowane ulice.\n\nW tysiąc dziewięćset trzydziestym czwartym roku rząd ogłosił Coyoacán strefą typową i malowniczą. W tysiąc dziewięćset dziewięćdziesiątym roku obszar uznano za Strefę Zabytków Historycznych. Dziś zachowuje część układu z szesnastego wieku, z ponad ośmiudziesięcioma kwartałami i około pięćdziesięcioma cennymi budynkami z szesnastego do dziewiętnastego wieku. To, co zwiedzisz, to nie ruiny, lecz wioska, która wciąż żyje.\n\nZacznijmy tam, gdzie wszystko się zaczęło: od atrium kościoła."
+    },
+    "retos_observacion": {
+      "hash": "06f1c60683a4ce2c",
+      "texto": [
+        "Poszukaj brązowych kojotów przy fontannie",
+        "Policz, ile różnych rzeczy dzieje się na placu jednocześnie",
+        "Znajdź dzwonnicę parafii"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f07b25742574d756",
+      "texto": {
+        "Nazwa": "z nahuatl Coyohuacan, miejsce kojotów",
+        "Strefa typowa i malownicza": "tysiąc dziewięćset trzydziesty czwarty",
+        "Strefa Zabytków Historycznych": "dekret z grudnia tysiąc dziewięćset dziewięćdziesiątego",
+        "Cenne budynki": "około pięćdziesięciu, z szesnastego do dziewiętnastego wieku"
+      }
+    },
+    "faq_mito": {
+      "hash": "e58fc35c9d10cfe8",
+      "texto": {
+        "pregunta": "Mit: Coyoacán było stolicą wicekrólestwa.",
+        "respuesta": "Rzeczywistość: Było siedzibą Cortésa i pierwszego samorządu po Podboju; wicekrólestwo utworzono kilka lat później, w tysiąc pięćset trzydziestym piątym roku."
+      }
+    }
+  }
+}

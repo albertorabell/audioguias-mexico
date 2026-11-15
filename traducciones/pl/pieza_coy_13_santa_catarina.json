@@ -1,0 +1,54 @@
+{
+  "id": "coy_13_santa_catarina",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fbfde756cacd559a",
+      "texto": "Santa Catarina: ogród, który był atrium"
+    },
+    "frase_gancho": {
+      "hash": "735c183a2813d98f",
+      "texto": "Franciszkańska kaplica otwarta, dom, który był papiernia, i ogród z popiersiem."
+    },
+    "puente_narrativo": {
+      "hash": "86019acaace61acd",
+      "texto": "Teraz idziemy w zielone miejsce: Viveros."
+    },
+    "guion_corto": {
+      "hash": "ca90b6ac200cd5e6",
+      "texto": "Jesteś na placu Santa Catarina, w spokojnym ogrodzie z kościołem z szesnastego wieku. Była to kaplica otwarta, w której mnisi franciszkanie gromadzili ludzi przed chrztem. Ogród, który widzisz, był atrium, a gdy skończyła się wojna Cristeros, zburzono mur, by zrobić z niego plac. Stoi tu popiersie historyka Francisca Sosy. A kilka kroków dalej jest Dom Kultury Jesús Reyes Heroles, dom z osiemnastego wieku, który był papiernią, a dziś oferuje warsztaty i teatr."
+    },
+    "guion_largo": {
+      "hash": "cc99f381b798dfbe",
+      "texto": "Jesteś na placu Santa Catarina. Jeśli przychodzisz z dużego placu, zauważysz różnicę: tutaj wszystko jest spokojniejsze, z drzewami, ławkami i kościołem w głębi.\n\nSanta Catarina to stara dzielnica. Przed przybyciem Hiszpanów ten obszar należał do władztwa Coyoacán. Po Podboju mnisi franciszkanie i dominikanie wznieśli w regionie kilka kościołów i kaplic. Santa Catarina pochodzi z szesnastego wieku. Zaczęła jako kaplica otwarta: przestrzeń bez murów, gdzie mnisi gromadzili ludzi pod gołym niebem, przed chrztem. Podobny pomysł widziałeś już w atrium San Juan Bautista.\n\nOgród, w którym stoisz, był tym atrium. Otaczał go mur, dopóki po wojnie Cristeros nie zburzono go, by zrobić niezależny park. W środku kościół zachowuje obraz Matki Boskiej z Guadalupe z siedemnastego wieku.\n\nNa placu stoi popiersie Francisca Sosy. To na jego cześć w tysiąc dziewięćset pięćdziesiątym pierwszym roku dawna Calle Real otrzymała obecną nazwę.\n\nKilka kroków dalej, pod numerem dwieście dwa przy Francisco Sosa, jest Dom Kultury Jesús Reyes Heroles. To dom z osiemnastego wieku. Jego pierwszy właściciel zbudował mieszkanie i dobudówkę, która działała jako mała papiernia. W tysiąc ośmset dwudziestym pierwszym roku mieszkała tu rodzina Espinoza de los Monteros, a jeden z jej członków pomagał redagować Akt Niepodległości Imperium Meksykańskiego. W tysiąc dziewięćset osiemdziesiątym piątym roku dom przekazano, by zrobić z niego centrum kultury z ogrodem. Dziś są warsztaty, teatr lalek w weekendy i restauracja.\n\nSanta Catarina przypomina, że Coyoacán to nie jedno centrum, lecz zespół dzielnic, z których każda ma swój kościół i swój plac."
+    },
+    "retos_observacion": {
+      "hash": "7289babb45cf88d6",
+      "texto": [
+        "Poszukaj popiersia Francisca Sosy",
+        "Wyobraź sobie mur, który otaczał atrium, i gdzie stał",
+        "Obserwuj mieszkańców: co robią na placu?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "308f349b4ebb945d",
+      "texto": {
+        "Wiek kościoła": "szesnasty",
+        "Początek": "franciszkańska kaplica otwarta",
+        "Atrium zamienione w plac": "po wojnie Cristeros",
+        "Dom Kultury": "Francisco Sosa dwieście dwa"
+      }
+    },
+    "faq_mito": {
+      "hash": "e3e508e98456d256",
+      "texto": {
+        "pregunta": "Mit: Wszystko, co tu widzisz, pochodzi z szesnastego wieku.",
+        "respuesta": "Rzeczywistość: Z szesnastego wieku jest tylko początek; plac, popiersie i dom kultury są późniejsze."
+      }
+    }
+  }
+}

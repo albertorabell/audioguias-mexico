@@ -1,0 +1,54 @@
+{
+  "id": "coy_02_puerta_de_piedra_atrio",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90fab8705b8ed6df",
+      "texto": "La porta di pietra dell’atrio"
+    },
+    "frase_gancho": {
+      "hash": "63e2df58ec89a553",
+      "texto": "Uno degli ingressi più belli del sedicesimo secolo, fatto perché il popolo entrasse a pregare."
+    },
+    "puente_narrativo": {
+      "hash": "fe01f4f2d3859fe8",
+      "texto": "Attraversa l’atrio ed entra nella parrocchia di San Juan Bautista."
+    },
+    "guion_corto": {
+      "hash": "b875af750f8902e3",
+      "texto": "Sei davanti al portale dell’atrio di San Juan Bautista. I frati lo innalzarono nel sedicesimo secolo, quasi cinquecento anni fa, per segnare l’ingresso al tempio. Guarda gli stipiti: ci sono angeli che sorreggono una corona di fiori. In alto, uno scudo circondato da gigli. Questo atrio ebbe tre arcate; solo questa, quella a ovest, è ancora al suo posto. Le altre due furono spostate o scomparvero. Nel terremoto del duemiladiciassette la parte alta si è danneggiata, e oggi resta in piedi, come ha fatto secolo dopo secolo."
+    },
+    "guion_largo": {
+      "hash": "1c58a2abaa821430",
+      "texto": "Fermati davanti a questa porta e guardala con calma. Non è solo un ingresso. Nel sedicesimo secolo i frati la innalzarono per segnare l’inizio di qualcosa di importante: l’atrio del loro tempio.\n\nI primi frati ad arrivare a Coyoacán furono francescani, alla fine del millecinquecentoventiquattro o all’inizio del millecinquecentoventicinque. Nel millecinquecentoventinove i domenicani fondarono qui il loro convento, dedicato a San Juan Bautista, e pochi anni dopo i francescani se ne andarono. Questo portale è opera di quel tempo di frati che arrivavano, insegnavano e costruivano.\n\nUn atrio è il cortile che circonda una chiesa. In quell’epoca era molto più di questo. I templi erano piccoli per tanta gente, così gran parte della vita religiosa si svolgeva fuori, a cielo aperto, in questo spazio. E questa porta ne era l’ingresso.\n\nOsserva i dettagli. Ai lati ci sono angeli che sorreggono una corona di fiori. La colonna ha il fusto scanalato, con un capitello che imita le foglie. In alto, uno scudo circondato da gigli. E a coronamento, una croce di pietra con piccoli merli. Questo stile, così ornato, si chiama platearesco, perché la sua decorazione ricorda il lavoro degli argentieri.\n\nL’atrio non ebbe una sola porta, ma tre arcate. Questa, quella a ovest, è l’unica ancora nella sua posizione originale. Quella a nord fu spostata su un fianco del tempio, e la terza scomparve.\n\nNel millenovecentotrentotto questo arco fu restaurato. E il diciannove settembre del duemiladiciassette il terremoto staccò una parte dell’angolo alto. Una pietra che resiste ai terremoti da quasi cinque secoli.\n\nOggi questa porta svolge un’altra funzione. È il punto d’incontro della piazza: la gente si dà appuntamento qui, si siede sui gradini a riposare, si fa la foto ricordo. Le generazioni cambiano, ma la porta resta il luogo dove tutti arrivano."
+    },
+    "retos_observacion": {
+      "hash": "dafaf8e62cbd981a",
+      "texto": [
+        "Trova gli angeli e guarda cosa sorreggono",
+        "Cerca lo scudo con i gigli",
+        "Guarda il coronamento: vedi la croce e i merli?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bdf46d950973b3ce",
+      "texto": {
+        "Secolo": "sedicesimo",
+        "Stile": "platearesco",
+        "Arcate originali": "tre",
+        "Restauro dell’arco occidentale": "millenovecentotrentotto"
+      }
+    },
+    "faq_mito": {
+      "hash": "b94419e76142a59c",
+      "texto": {
+        "pregunta": "Mito: Questa è la porta della chiesa.",
+        "respuesta": "Realtà: È il portale dell’atrio; la chiesa si trova più all’interno."
+      }
+    }
+  }
+}

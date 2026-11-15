@@ -1,0 +1,55 @@
+{
+  "id": "coy_15_esquina_casa_azul",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "505310fa9e18692d",
+      "texto": "Róg Casa Azul"
+    },
+    "frase_gancho": {
+      "hash": "b9e77446900ff8c4",
+      "texto": "Błękitny jak kobalt dom, w którym urodziła się i zmarła Frida Kahlo, widziany z ulicy."
+    },
+    "puente_narrativo": {
+      "hash": "26d64baab3ee1ab5",
+      "texto": "Przejdź kilka kroków do rogu Aguayo i Londres."
+    },
+    "guion_corto": {
+      "hash": "3169ce7552df22dd",
+      "texto": "Jesteś na rogu Londres i Allende, przed Casa Azul. Jej kobaltowoniebieskie mury dają jej nazwę. Zbudowano ją w tysiąc dziewięćset czwartym roku i w niej urodziła się Frida Kahlo w tysiąc dziewięćset siódmym. Zmarła tu, na piętrze, trzynastego lipca tysiąc dziewięćset pięćdziesiątego czwartego roku. Diego Rivera też mieszkał w tym domu, a w nim gościł rosyjski wygnaniec Lew Trocki w latach od tysiąc dziewięćset trzydziestego siódmego do tysiąc dziewięćset trzydziestego dziewiątego. Dziś to muzeum. Zobacz kolor, okna i ulicę. Jeśli chcesz wejść, w tej samej aplikacji masz inny audioprzewodnik po samej Casa Azul."
+    },
+    "guion_largo": {
+      "hash": "2d4cd20ef83a0400",
+      "texto": "Jesteś na rogu Londres i Allende, w dzielnicy del Carmen, a przed tobą stoi jeden z najsłynniejszych domów Meksyku: Casa Azul. Jeśli widzisz ją po raz pierwszy, pierwszą rzeczą, jaką zauważasz, jest kolor, intensywny kobaltowy błękit kontrastujący z zieleń drzew.\n\nDom zbudowano w tysiąc dziewięćset czwartym roku. Początkowo miał dekorację inspirowaną stylem francuskim; z czasem nadano mu prostszą fasadę, którą widzisz dziś. Tutaj urodziła się Frida Kahlo w tysiąc dziewięćset siódmym roku. Tutaj zmarła, w wieku czterdziestu siedmiu lat, trzynastego lipca tysiąc dziewięćset pięćdziesiątego czwartego roku.\n\nAle ten dom był znacznie więcej niż domem malarki. Diego Rivera też tu z nią mieszkał i kazał nawet zbudować skrzydło wychodzące na ulicę Londres. A w styczniu tysiąc dziewięćset trzydziestego siódmego roku przybyli tu Lew Trocki i jego żona Natalia Sedowa, wygnańcy, po tym jak Diego i Frida wstawili się u rządu Lázaro Cárdenasa o azyl dla nich. Mieszkali w tym domu do kwietnia tysiąc dziewięćset trzydziestego dziewiątego roku, gdy przenieśli się do pobliskiego domu przy ulicy Viena. Później go zobaczymy.\n\nPo śmierci Fridy Diego podarował dom Meksykowi, by został muzeum. Od tamtej pory to jedno z miejsc przyciągających najwięcej zwiedzających w Coyoacán.\n\nZ ulicy widzisz kolor, okna i ruch na rogu: gości z aparatami, sprzedawców, grupy zatrzymujące się, by posłuchać przewodnika. Ta scena też jest częścią historii domu. Jeśli chcesz poznać go od środka, masz w tej aplikacji inny audioprzewodnik po Casa Azul."
+    },
+    "retos_observacion": {
+      "hash": "008cb94fbcb531c5",
+      "texto": [
+        "Spójrz na błękit i zobacz, jak zmienia się ze światłem",
+        "Policz, ile języków słyszysz na rogu",
+        "Poszukaj tablicy lub nazwy muzeum na fasadzie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d85e9857a2f820a9",
+      "texto": {
+        "Adres": "Londres, róg Allende, dzielnica del Carmen",
+        "Budowa": "tysiąc dziewięćset czwarty",
+        "Frida urodziła się": "tysiąc dziewięćset siódmy",
+        "Frida zmarła": "trzynasty lipca tysiąc dziewięćset pięćdziesiąty czwarty",
+        "Dziś": "muzeum"
+      }
+    },
+    "faq_mito": {
+      "hash": "06712eece107d652",
+      "texto": {
+        "pregunta": "Mit: Casa Azul zawsze była niebieska.",
+        "respuesta": "Rzeczywistość: Dziś znana jest z koloru, ale dom zbudowano z dekoracją inspirowaną stylem francuskim, a potem nadano mu obecną fasadę."
+      }
+    }
+  }
+}

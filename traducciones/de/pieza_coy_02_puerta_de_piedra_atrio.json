@@ -1,0 +1,54 @@
+{
+  "id": "coy_02_puerta_de_piedra_atrio",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90fab8705b8ed6df",
+      "texto": "Das steinerne Tor des Atriums"
+    },
+    "frase_gancho": {
+      "hash": "63e2df58ec89a553",
+      "texto": "Einer der schönsten Eingänge des sechzehnten Jahrhunderts, gebaut, damit das Volk zum Beten eintreten konnte."
+    },
+    "puente_narrativo": {
+      "hash": "fe01f4f2d3859fe8",
+      "texto": "Geh durch das Atrium und tritt in die Pfarrkirche San Juan Bautista ein."
+    },
+    "guion_corto": {
+      "hash": "b875af750f8902e3",
+      "texto": "Du stehst vor dem Portal des Atriums von San Juan Bautista. Die Mönche errichteten es im sechzehnten Jahrhundert, vor fast fünfhundert Jahren, um den Eingang zum Tempel zu markieren. Sieh dir die Pfosten an: Engel halten einen Blumenkranz. Darüber ein Wappen, umgeben von Lilien. Dieses Atrium hatte drei Arkaden; nur diese, die westliche, steht noch an ihrem Platz. Die anderen beiden wurden versetzt oder sind verschwunden. Beim Erdbeben von zweitausendsiebzehn wurde der obere Teil beschädigt, und noch immer steht es, wie es seit Jahrhunderten steht."
+    },
+    "guion_largo": {
+      "hash": "1c58a2abaa821430",
+      "texto": "Stell dich vor dieses Tor und sieh es dir in Ruhe an. Es ist nicht nur ein Eingang. Im sechzehnten Jahrhundert errichteten die Mönche es, um den Beginn von etwas Wichtigem zu markieren: das Atrium ihres Tempels.\n\nDie ersten Mönche, die nach Coyoacán kamen, waren Franziskaner, Ende fünfzehnhundertvierundzwanzig oder Anfang fünfzehnhundertfünfundzwanzig. Im Jahr fünfzehnhundertneunundzwanzig gründeten die Dominikaner hier ihr Kloster, geweiht Johannes dem Täufer, und einige Jahre später zogen die Franziskaner ab. Dieses Portal stammt aus jener Zeit, in der Mönche kamen, lehrten und bauten.\n\nEin Atrium ist der Hof, der eine Kirche umgibt. Damals war es viel mehr als das. Die Tempel waren zu klein für so viele Menschen, also spielte sich ein großer Teil des religiösen Lebens draußen ab, unter freiem Himmel, in diesem Raum. Und dieses Tor war sein Eingang.\n\nAchte auf die Einzelheiten. An den Seiten halten Engel einen Blumenkranz. Die Säule hat einen kannelierten Schaft und ein Kapitell, das Blätter nachahmt. Darüber ein Wappen, umgeben von Lilien. Und als Abschluss ein steinernes Kreuz mit kleinen Zinnen. Dieser reich verzierte Stil heißt Platereskenstil, weil sein Schmuck an die Arbeit von Silberschmieden erinnert.\n\nDas Atrium hatte nicht nur ein Tor, sondern drei Arkaden. Diese, die westliche, ist die einzige, die noch an ihrem ursprünglichen Platz steht. Die nördliche wurde an eine Seite des Tempels versetzt, und die dritte ist verschwunden.\n\nIm Jahr neunzehnhundertachtunddreißig wurde dieser Bogen repariert. Und am neunzehnten September zweitausendsiebzehn löste das Erdbeben einen Teil der oberen Ecke. Ein Stein, der seit fast fünf Jahrhunderten Beben trotzt.\n\nHeute erfüllt dieses Tor eine andere Aufgabe. Es ist der Treffpunkt des Platzes: Man verabredet sich hier, setzt sich zum Ausruhen auf die Stufen, macht das Erinnerungsfoto. Die Generationen wechseln, aber das Tor bleibt der Ort, zu dem alle kommen."
+    },
+    "retos_observacion": {
+      "hash": "dafaf8e62cbd981a",
+      "texto": [
+        "Finde die Engel und schau, was sie halten",
+        "Such das Wappen mit den Lilien",
+        "Sieh dir den Abschluss an: Siehst du das Kreuz und die Zinnen?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bdf46d950973b3ce",
+      "texto": {
+        "Jahrhundert": "sechzehntes",
+        "Stil": "Plateresk",
+        "Ursprüngliche Arkaden": "drei",
+        "Reparatur des westlichen Bogens": "neunzehnhundertachtunddreißig"
+      }
+    },
+    "faq_mito": {
+      "hash": "b94419e76142a59c",
+      "texto": {
+        "pregunta": "Mythos: Das ist das Tor der Kirche.",
+        "respuesta": "Wirklichkeit: Es ist das Portal des Atriums; die Kirche liegt weiter drinnen."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "coy_15_esquina_casa_azul",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "505310fa9e18692d",
+      "texto": "Die Ecke der Casa Azul"
+    },
+    "frase_gancho": {
+      "hash": "b9e77446900ff8c4",
+      "texto": "Das kobaltblaue Haus, in dem Frida Kahlo geboren wurde und starb, von der Straße aus gesehen."
+    },
+    "puente_narrativo": {
+      "hash": "26d64baab3ee1ab5",
+      "texto": "Geh ein paar Schritte zur Ecke Aguayo und Londres."
+    },
+    "guion_corto": {
+      "hash": "3169ce7552df22dd",
+      "texto": "Du bist an der Ecke Londres und Allende, vor der Casa Azul. Ihre kobaltblauen Mauern geben ihr den Namen. Sie wurde neunzehnhundertvier gebaut, und in ihr wurde Frida Kahlo neunzehnhundertsieben geboren. Sie starb hier, im Obergeschoss, am dreizehnten Juli neunzehnhundertvierundfünfzig. Diego Rivera lebte ebenfalls in diesem Haus, und hier wohnte der russische Exilant Leo Trotzki zwischen neunzehnhundertsiebenunddreißig und neunzehnhundertneununddreißig. Heute ist es ein Museum. Sieh dir die Farbe, die Fenster und die Straße an. Wenn du hinein möchtest, gibt es in derselben App einen weiteren Audioguide nur für die Casa Azul."
+    },
+    "guion_largo": {
+      "hash": "2d4cd20ef83a0400",
+      "texto": "Du bist an der Ecke Londres und Allende, im Viertel del Carmen, und vor dir steht eines der berühmtesten Häuser Mexikos: die Casa Azul. Wenn du sie zum ersten Mal siehst, fällt dir zuerst die Farbe auf, ein intensives Kobaltblau, das mit dem Grün der Bäume kontrastiert.\n\nDas Haus wurde neunzehnhundertvier gebaut. Anfangs hatte es eine von Frankreich inspirierte Dekoration; mit der Zeit bekam es die schlichtere Fassade, die du heute siehst. Hier wurde Frida Kahlo neunzehnhundertsieben geboren. Hier starb sie, mit siebenundvierzig Jahren, am dreizehnten Juli neunzehnhundertvierundfünfzig.\n\nAber dieses Haus war viel mehr als das Haus einer Malerin. Diego Rivera lebte auch hier mit ihr und ließ sogar einen Flügel bauen, der zur Straße Londres hinausgeht. Und im Januar neunzehnhundertsiebenunddreißig kamen Leo Trotzki und seine Frau Natalia Sedowa hierher, im Exil, nachdem sich Diego und Frida bei der Regierung von Lázaro Cárdenas dafür eingesetzt hatten, dass man ihnen Asyl gab. Sie lebten in diesem Haus bis April neunzehnhundertneununddreißig, als sie in ein nahes Haus in der Straße Viena zogen. Das sehen wir später.\n\nNach Fridas Tod schenkte Diego das Haus Mexiko, damit es ein Museum wurde. Seitdem ist es einer der Orte, die in Coyoacán die meisten Besucher anziehen.\n\nVon der Straße aus siehst du die Farbe, die Fenster und das Treiben an der Ecke: Besucher mit Kameras, Verkäufer, Gruppen, die stehen bleiben, um ihrem Guide zuzuhören. Auch diese Szene gehört zur Geschichte des Hauses. Wenn du es von innen kennenlernen möchtest, gibt es in dieser App einen weiteren Audioguide, der der Casa Azul gewidmet ist."
+    },
+    "retos_observacion": {
+      "hash": "008cb94fbcb531c5",
+      "texto": [
+        "Sieh dir das Blau an und achte darauf, wie es sich mit dem Licht verändert",
+        "Zähl, wie viele Sprachen du an der Ecke hörst",
+        "Such die Tafel oder den Namen des Museums an der Fassade"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d85e9857a2f820a9",
+      "texto": {
+        "Adresse": "Londres, Ecke Allende, Viertel del Carmen",
+        "Bau": "neunzehnhundertvier",
+        "Frida geboren": "neunzehnhundertsieben",
+        "Frida gestorben": "dreizehnter Juli neunzehnhundertvierundfünfzig",
+        "Heute": "Museum"
+      }
+    },
+    "faq_mito": {
+      "hash": "06712eece107d652",
+      "texto": {
+        "pregunta": "Mythos: Die Casa Azul war schon immer blau.",
+        "respuesta": "Wirklichkeit: Heute ist sie für ihre Farbe bekannt, aber das Haus wurde mit einer von Frankreich inspirierten Dekoration gebaut und bekam später die heutige Fassade."
+      }
+    }
+  }
+}

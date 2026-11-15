@@ -1,0 +1,54 @@
+{
+  "id": "coy_14_viveros",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f2d7bca2e576af9d",
+      "texto": "Viveros de Coyoacán: the forest one man planted"
+    },
+    "frase_gancho": {
+      "hash": "e899b47ddb9ab00c",
+      "texto": "A park where the trees that reforest the city are grown, and where people run among them."
+    },
+    "puente_narrativo": {
+      "hash": "eda3c651016ca3e9",
+      "texto": "Continue west, to the Panzacola bridge, the old entrance to Coyoacán."
+    },
+    "guion_corto": {
+      "hash": "5fc2e36951ad19ca",
+      "texto": "Take a deep breath: you are in the Viveros de Coyoacán. This is not just a park, it is a nursery, a place where trees are grown. It was begun by Miguel Ángel de Quevedo, an engineer who dreamed of surrounding the city with forests. In nineteen oh one he donated the first hectare. In nineteen seventeen the government recognized the project, and in nineteen thirty-eight it became a national park. Today it produces about a million trees a year, and thousands of people run and stroll along its paths every day."
+    },
+    "guion_largo": {
+      "hash": "5a5df8cc56ee75db",
+      "texto": "Take a deep breath. You are in the Viveros de Coyoacán, and the first time you see it, it may look like just a park with a lot of trees. But it is something more: it is a nursery, a place where trees are grown to be planted somewhere else.\n\nIt all began with Miguel Ángel de Quevedo, an engineer who knew the city needed forests. His idea was to surround Mexico City with a belt of forests of about ten kilometers. In nineteen oh one he donated the first hectare for the nursery, and in nineteen seventeen the government officially recognized it. Over the years it expanded to cover almost forty hectares. In nineteen thirty-eight it was declared a national park and opened to the public.\n\nToday it still does what it has done from the start: it produces around a million trees a year to reforest the city. And it has also become a place where people run, walk and sit down to read. It is estimated that between two thousand five hundred and three thousand people visit it each day, and there is a very popular plant market.\n\nInside the park there are curious details. There is a well dated nineteen eighteen and the ruins of a small chapel. And there are squirrels so used to people that they approach without fear.\n\nIf Coyoacán has a reputation for being bohemian and artistic, the Viveros show another face: that of a neighborhood that also knew how to care for its trees. Stroll for a while, look up and remember that many of this city's trees were born here."
+    },
+    "retos_observacion": {
+      "hash": "c0e43a13d2d21831",
+      "texto": [
+        "Look up and find the tallest trees",
+        "Look for a sign or a plant production area",
+        "Watch who runs and who strolls"
+      ]
+    },
+    "especificaciones": {
+      "hash": "022cca2c8c5fe723",
+      "texto": {
+        "Founder": "Miguel Ángel de Quevedo",
+        "First donation": "one hectare, nineteen oh one",
+        "National park": "nineteen thirty-eight",
+        "Production": "about a million trees a year"
+      }
+    },
+    "faq_mito": {
+      "hash": "26cf0425760d7b72",
+      "texto": {
+        "pregunta": "Myth: The Viveros are a natural forest.",
+        "respuesta": "Reality: It is a nursery created by Miguel Ángel de Quevedo to produce reforestation trees."
+      }
+    }
+  }
+}

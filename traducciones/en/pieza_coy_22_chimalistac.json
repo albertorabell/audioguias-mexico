@@ -1,0 +1,54 @@
+{
+  "id": "coy_22_chimalistac",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0953585deda5d0f8",
+      "texto": "Chimalistac: the hidden neighborhood"
+    },
+    "frase_gancho": {
+      "hash": "6949778f221d2e3f",
+      "texto": "A neighborhood of alleys and orchards, with a Nahuatl name, a step from San Ángel."
+    },
+    "puente_narrativo": {
+      "hash": "da8e6b97c7246963",
+      "texto": "The old royal road ends here. To continue toward the market and the Casa Azul, go back along Francisco Sosa or take a short ride."
+    },
+    "guion_corto": {
+      "hash": "4a58dc13033725e5",
+      "texto": "Chimalistac means “place of the white shield” in Nahuatl. Before the Spaniards arrived it belonged to the lordship of Coyoacán. After the Conquest, the lands passed to Juan de Guzmán Ixtolinque, the indigenous noble who donated them to the Discalced Carmelites. The friars made a large orchard with water from the Magdalena river to supply their convent in San Ángel. Over the centuries, the neighborhood became a residential area of country houses. The painter José María Velasco portrayed its landscapes, and Federico Gamboa set his novel Santa here. Today it is a silent place."
+    },
+    "guion_largo": {
+      "hash": "7bb218994f9e4f6b",
+      "texto": "If you made it to Chimalistac, you have discovered one of the quietest corners of the south of the city. Walk slowly through its alleys and notice the walls covered in bougainvillea.\n\nThe name comes from Nahuatl and is usually translated as place of the white shield. Before the Conquest, the area was part of the lordship of Coyoacán and connected with other towns of the Valley of Mexico.\n\nAfter the Conquest, the lands passed to Juan de Guzmán Ixtolinque, an indigenous noble. He donated them to the Discalced Carmelites. The friars used the water of the Magdalena river to create a large orchard that supplied their convent, in what is now San Ángel. That is where the name Huerta del Carmen comes from.\n\nOver the years, especially after the Reform Laws, the land became residential. Families built country houses, and those houses still shape the neighborhood. The painter José María Velasco drew its landscapes. The writer Federico Gamboa set his novel Santa here.\n\nToday the Government of Mexico City recognizes Chimalistac as cultural heritage, and several buildings are protected by INAH. There are narrow alleys, small plazas, a chapel dedicated to San Sebastián Martyr and houses with gardens peeking over the walls.\n\nThis neighborhood seems like a town frozen in time, and in that it resembles Coyoacán. When you are ready, go back to the center: the market and the Casa Azul are waiting for us."
+    },
+    "retos_observacion": {
+      "hash": "b137628a0c4dabc4",
+      "texto": [
+        "Look for the bougainvillea hanging from the walls",
+        "Notice how many narrow alleys you see",
+        "Count how many times you hear only birds"
+      ]
+    },
+    "especificaciones": {
+      "hash": "69e881cbe20a45ec",
+      "texto": {
+        "Name": "from Nahuatl, place of the white shield",
+        "Former orchard": "Huerta del Carmen",
+        "Painter": "José María Velasco",
+        "Novel": "Santa, by Federico Gamboa"
+      }
+    },
+    "faq_mito": {
+      "hash": "150bc5a2cb8ff319",
+      "texto": {
+        "pregunta": "Myth: Chimalistac is part of San Ángel.",
+        "respuesta": "Reality: It is a neighborhood with its own history, which was part of the lordship of Coyoacán before the Conquest."
+      }
+    }
+  }
+}

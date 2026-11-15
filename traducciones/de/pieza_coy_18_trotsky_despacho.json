@@ -1,0 +1,54 @@
+{
+  "id": "coy_18_trotsky_despacho",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7cc0c7a52c2ecbeb",
+      "texto": "Das Haus von Trotzki: das Arbeitszimmer"
+    },
+    "frase_gancho": {
+      "hash": "47b64f6966b5bbb1",
+      "texto": "Hier endete das Leben von Trotzki, und der Garten bewahrt seine Asche."
+    },
+    "puente_narrativo": {
+      "hash": "ce36107cacc0b73f",
+      "texto": "Nimm zum Abschluss der Route ein Verkehrsmittel nach Süden, zu einem Ort, der aus einer anderen Welt scheint, aus Vulkan gemacht: dem Anahuacalli."
+    },
+    "guion_corto": {
+      "hash": "f772a396c774797f",
+      "texto": "Das ist der Ort, an dem das Leben von Leo Trotzki endete. Am zwanzigsten August neunzehnhundertvierzig schlug ihm Ramón Mercader, ein Agent, der sich sein Vertrauen erworben hatte, mit einem Eispickel auf den Kopf. Trotzki starb am nächsten Tag, dem einundzwanzigsten August, in einem Krankenhaus. Im Garten steht eine Steinstele, entworfen vom Architekten Juan O'Gorman, die seine Asche und die seiner Frau Natalia Sedowa bewahrt. Über ihr weht eine sowjetische Fahne."
+    },
+    "guion_largo": {
+      "hash": "9c59b5c8bc292a08",
+      "texto": "Wir sind im Arbeitszimmer des Hauses von Trotzki, und das ist der Ort, an dem seine Ermordung geschah. Geh langsam und mit Respekt.\n\nNach dem Angriff im Mai neunzehnhundertvierzig wusste Trotzki, dass man ihn weiter suchte. Er verstärkte das Haus, es gab Wächter und Türme. Aber der Mörder kam auf einem anderen Weg: durch Vertrauen. Ramón Mercader, ein Agent im Dienst Stalins, gab sich als ein Mann namens Jacques Mornard aus und näherte sich den Leuten aus Trotzkis Umfeld.\n\nAm zwanzigsten August neunzehnhundertvierzig betrat Mercader das Arbeitszimmer unter dem Vorwand, Trotzki solle einen Text prüfen. Er schlug ihm mit einem Eispickel auf den Kopf. Trotzki wurde in ein Krankenhaus gebracht und starb am nächsten Tag, dem einundzwanzigsten August, an Blutverlust und dem Schock nach der Operation.\n\nMercader wurde festgenommen und verbrachte zwanzig Jahre im Gefängnis in Mexiko.\n\nIm Garten des Hauses liegt das Grab. Es ist eine Steinstele, entworfen vom Architekten Juan O'Gorman, demselben, der am Anahuacalli mitwirkte. Dort ruht die Asche von Trotzki und seiner Frau Natalia Sedowa. Über der Stele weht eine sowjetische Fahne.\n\nTrotzki lebte weniger als vier Jahre in Mexiko. Aber in dieser Zeit kreuzte sich sein Leben mit dem von Diego, dem von Frida, dem von Präsident Cárdenas und mit der Weltgeschichte. Coyoacán, das Viertel der Künstler, war auch die letzte Zuflucht eines der berühmtesten Exilanten des zwanzigsten Jahrhunderts.\n\nGeh durch den Garten hinaus und gib dir vielleicht einen Moment, darüber nachzudenken."
+    },
+    "retos_observacion": {
+      "hash": "ec59593e7a33fd19",
+      "texto": [
+        "Such die Steinstele und die Fahne",
+        "Sieh dir den Garten an und denk daran, was man vom Arbeitszimmer aus sieht",
+        "Sieh, wie viele Besucher da sind und welche Sprachen sie sprechen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f81e8ee5c22323b5",
+      "texto": {
+        "Datum des Angriffs": "zwanzigster August neunzehnhundertvierzig",
+        "Tod": "einundzwanzigster August neunzehnhundertvierzig",
+        "Historisches Denkmal": "Dekret von neunzehnhundertzweiundachtzig",
+        "Stele": "Entwurf von Juan O'Gorman"
+      }
+    },
+    "faq_mito": {
+      "hash": "036440636f3b3d9c",
+      "texto": {
+        "pregunta": "Mythos: Trotzki starb sofort.",
+        "respuesta": "Wirklichkeit: Er wurde am zwanzigsten August verletzt und starb am nächsten Tag, dem einundzwanzigsten, in einem Krankenhaus."
+      }
+    }
+  }
+}

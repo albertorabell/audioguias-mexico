@@ -1,0 +1,54 @@
+{
+  "id": "coy_20_anahuacalli_por_dentro",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "22eff9fdab4df637",
+      "texto": "Anahuacalli: inside, from bottom to top"
+    },
+    "frase_gancho": {
+      "hash": "d85ee6e2f7d7abfb",
+      "texto": "A journey through three levels that go from the underworld to the sky."
+    },
+    "puente_narrativo": {
+      "hash": "9419d63c3bfa4da8",
+      "texto": "The route ends here. Thank you for walking Coyoacán."
+    },
+    "guion_corto": {
+      "hash": "31d95c772d73353d",
+      "texto": "The Anahuacalli has three levels that you walk through like a journey. The ground floor represents the underworld and is dark. The middle level represents the earthly world and receives natural light. The top one opens in a U shape, toward the sky. There are twenty-three rooms and thousands of pre-Hispanic pieces. In nineteen forty-three, Frida Kahlo wrote to a cabinet secretary to ask for help finishing the museum. Today it remains one of the most special places in the city."
+    },
+    "guion_largo": {
+      "hash": "036080f1b9de20ab",
+      "texto": "You enter the Anahuacalli and the air changes. The volcanic stone lowers the temperature a little, the light becomes different and the sound of the street stays behind.\n\nThe building is designed as a route of three levels. On the ground floor, which represents the underworld, the light is dim. On the middle level, which represents the earthly world, natural light comes in. And the top level is U-shaped and represents the sky. Going up is like passing from darkness to clarity.\n\nIn total there are twenty-three rooms. Diego Rivera's collection was enormous: it is estimated at tens of thousands of pre-Hispanic pieces, although the figures vary depending on who counts. About two thousand are on permanent display and the rest is kept in storage. There are clay figures, vessels, sculptures and masks from many Mesoamerican cultures.\n\nThe idea that this collection would become a museum had allies. In nineteen forty-three, Frida Kahlo wrote a letter to Marte R. Gómez, who was the Secretary of Agriculture, asking for government support to build the museum. She proposed that Diego donate his collection and that the building become an archaeological museum. At that time it was not achieved.\n\nThe permanent exhibition was designed by the poet Carlos Pellicer, and the first museographic design was by Diego, with the archaeologist Alfonso Caso. In September of two thousand twenty-one new spaces opened, designed by the architect Mauricio Rocha Iturbide, including a storage facility, a library and open-air courtyards.\n\nGo all the way up if you can and take a moment to look around: here our route through Coyoacán ends. We began in a plaza with a bandstand and bronze coyotes, passed through churches, markets, cantinas and artists' houses, and ended in a building made of volcano. Thank you for walking with us."
+    },
+    "retos_observacion": {
+      "hash": "1ed9447c81d9415a",
+      "texto": [
+        "Compare the light on the ground floor with that of the second level",
+        "Find a piece shaped like an animal or a person",
+        "Go up to the top level and look toward the Pedregal"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2db15b80683c4d7e",
+      "texto": {
+        "Levels": "three",
+        "Rooms": "twenty-three",
+        "Pieces on permanent display": "about two thousand",
+        "New spaces": "September two thousand twenty-one, by Mauricio Rocha Iturbide"
+      }
+    },
+    "faq_mito": {
+      "hash": "44ff3abe14262141",
+      "texto": {
+        "pregunta": "Myth: Diego Rivera's entire collection fits in the rooms.",
+        "respuesta": "Reality: Only about two thousand pieces are on display; the rest is kept in storage."
+      }
+    }
+  }
+}

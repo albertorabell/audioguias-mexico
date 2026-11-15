@@ -1,0 +1,54 @@
+{
+  "id": "coy_07_museo_culturas_populares",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cf093f209ff389f8",
+      "texto": "Narodowe Muzeum Kultur Ludowych"
+    },
+    "frase_gancho": {
+      "hash": "018b5262fbf63251",
+      "texto": "Muzeum, które opowiada, jak się w Meksyku żyje, je, tańczy i modli."
+    },
+    "puente_narrativo": {
+      "hash": "1abd6396a0e81a27",
+      "texto": "Idź ulicą Higuera do dzielnicy La Conchita, gdzie stoi Casa Colorada."
+    },
+    "guion_corto": {
+      "hash": "1617d4d19741038f",
+      "texto": "To muzeum otwarto dwudziestego czwartego września tysiąc dziewięćset osiemdziesiątego drugiego roku z inicjatywy antropologa Guillermo Bonfila Batalli. Jego pomysł był prosty i nowatorski: muzeum kultury ludowej, tej, która powstaje we wsiach, w dzielnicach i na festynach. Nie ma stałej kolekcji: wystawy się zmieniają, są też warsztaty i koncerty. Zajmuje trzy różne budynki: dom z czasów Porfirio Díaza z wieżyczką, willa z początku dwudziestego wieku i nowoczesny budynek z lat osiemdziesiątych, które z biegiem lat zostały połączone."
+    },
+    "guion_largo": {
+      "hash": "028cff65910b74b3",
+      "texto": "Stoisz przed Narodowym Muzeum Kultur Ludowych, przy alei Hidalgo. Otwarto je dwudziestego czwartego września tysiąc dziewięćset osiemdziesiątego drugiego roku. Zainicjował je antropolog Guillermo Bonfil Batalla, który miał jasną myśl: w Meksyku bardzo celebrowano kulturę wielkich pomników i wielkich dzieł, ale prawie nigdy tę, którą żyje się na co dzień. Tę, która jest w jedzeniu, w rzemiośle, w świętach wioski, w sposobach modlitwy i tańca.\n\nDlatego to muzeum działa inaczej. Nie ma stałej kolekcji, która zawsze się powtarza. Jego wystawy się zmieniają: krążą wokół tradycyjnych świąt, sztuki ludowej, pracy twórców ze wsi i z miasta. Są też warsztaty, kursy i koncerty.\n\nMuzeum zajmuje trzy budynki, które dodawano z biegiem lat. Jednym jest Casa del Torreón, budowla z epoki Porfirio Díaza z wieżyczką inspirowaną niemieckimi żelaznymi budynkami z końca dziewiętnastego wieku. Karmelitanki bose miały tam kaplicę, która jest dziś salą o nazwie „Altos Capilla”. Drugim jest Quinta Margarita, dom, który kazał zbudować pan Henderson na terenie dawnej Starej Komory Celnej Coyoacán. A trzecim jest budynek z tysiąc dziewięćset osiemdziesiątego drugiego i osiemdziesiątego trzeciego roku, architekta Santiago de la Torre.\n\nTa mieszanka epok jest bardzo w stylu Coyoacán: jedno miejsce z domem sprzed ponad stulecia, kaplicą zamienioną w salę i budynkiem z lat osiemdziesiątych. I to dobre przypomnienie, że dzielnica to nie tylko klasztory i kolonialne place. To także miejsce, gdzie nadal myśli się, celebruje i tworzy dzisiejszą kulturę."
+    },
+    "retos_observacion": {
+      "hash": "e01779439c686664",
+      "texto": [
+        "Poszukaj wieżyczki z czasów Porfirio Díaza",
+        "Policz, ile różnych budynków stoi w tym samym kwartałe",
+        "Zobacz, jakie święto ogłaszają przy wejściu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bc143153653c3b5e",
+      "texto": {
+        "Otwarcie": "dwudziesty czwarty wrzesień tysiąc dziewięćset osiemdziesiąty drugi",
+        "Założyciel": "Guillermo Bonfil Batalla",
+        "Budynki": "trzy",
+        "Adres": "aleja Hidalgo, róg Allende"
+      }
+    },
+    "faq_mito": {
+      "hash": "6bdbe1b96399d1a0",
+      "texto": {
+        "pregunta": "Mit: Mural La Rosita, kilka kroków stąd, jest częścią tego muzeum.",
+        "respuesta": "Rzeczywistość: Nie jest; należy do pulquería La Rosita i odwiedzimy go później."
+      }
+    }
+  }
+}

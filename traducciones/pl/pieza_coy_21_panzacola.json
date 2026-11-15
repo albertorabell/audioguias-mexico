@@ -1,0 +1,54 @@
+{
+  "id": "coy_21_panzacola",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9521ff7864dd651f",
+      "texto": "Panzacola: most i kaplica"
+    },
+    "frase_gancho": {
+      "hash": "6e655ee30ae40fd2",
+      "texto": "Most sprzed ponad dwóch stuleci i kaplica z legendami, przy dawnym wejściu do Coyoacán."
+    },
+    "puente_narrativo": {
+      "hash": "f55a5b7c2829e0e3",
+      "texto": "Przejdź przez most i idź dalej w stronę Chimalistac."
+    },
+    "guion_corto": {
+      "hash": "1ba7019f6e458fe1",
+      "texto": "Jesteś na moście Panzacola, zwanym też mostem Altillo. Jego budowa pochodzi z tysiąc siedemset sześćdziesiątego trzeciego roku i był częścią drogi królewskiej między San Ángel a Coyoacán. Jest zabytkiem historycznym od tysiąc dziewięćset trzydziestego drugiego roku. Obok stoi kaplica San Antonio de Padua z osiemnastego wieku. Są legendy o tym, kto ją zbudował: jedna mówi, że Pedro de Alvarado, inna, że rodzina przemytników. Żadna nie jest udowodniona. Malarze tacy jak José María Velasco ją uwiecznili."
+    },
+    "guion_largo": {
+      "hash": "10b57898496af9d3",
+      "texto": "Jesteś przy zachodnim wejściu do Coyoacán i pierwszą rzeczą, jaką widzisz, jest kamienny most sprzed ponad dwóch stuleci. Nazywa się most Panzacola, albo most Altillo. Jego budowa pochodzi z tysiąc siedemset sześćdziesiątego trzeciego roku. Przecina rzekę Magdalena i był kluczowym elementem drogi królewskiej łączącej San Ángel z Coyoacán. Jest zabytkiem historycznym od tysiąc dziewięćset trzydziestego drugiego roku i nadal służy.\n\nObok jest kaplica San Antonio de Padua, czyli San Antonio Panzacola. Pochodzi z początku osiemnastego wieku, z poważną barokową fasadą, dwiema wieżami z kolorowymi dzwonnicami i pilastrami podtrzymującymi chór. W środku ma złoconą drewnianą nastawę ołtarzową z osiemnastego wieku i krucyfiks rdzennego wykonania.\n\nO jej początkach opowiada się dwie legendy. Jedna mówi, że kazał ją zbudować Pedro de Alvarado po Smutnej Nocy, w tysiąc pięćset dwudziestym roku, choć nie zgadza się to z datą budynku. Inna opowiada, że rodzina przemytników, będąc bliska więzienia, obiecała kościół San Antonio de Padua, jeśli ich uwolni, i zbudowała mu go, gdy nie było dowodów przeciwko nim. Żadna nie jest udowodniona.\n\nJest też legenda o nazwie. Według kilku opowieści Panzacola pochodzi od licznych jaszczurek, które dawniej żyły w okolicy.\n\nTen krajobraz inspirował artystów dziewiętnastego wieku. Eugenio Landesio, José María Velasco i Casimiro Castro uwiecznili most i kaplicę, a pisarze tacy jak Manuel Payno i Salvador Novo je opisali.\n\nKaplica należy do parafii San Juan Bautista i zwykle otwiera się tylko podczas mszy i ceremonii, więc normalne jest oglądanie jej z zewnątrz. Zostań chwilę na moście i pomyśl, że tędy wjeżdżał do Coyoacán ten, kto jechał z San Ángel."
+    },
+    "retos_observacion": {
+      "hash": "ef1071e8940dc867",
+      "texto": [
+        "Poszukaj daty lub stylu mostu i porównaj z kaplicą",
+        "Spójrz na dwie wieże kaplicy i zwróć uwagę na ich kolory",
+        "Wyobraź sobie powoz konny przejeżdżający przez most"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9a08af1361ad3900",
+      "texto": {
+        "Most": "budowa tysiąc siedemset sześćdziesiąty trzeci",
+        "Zabytek historyczny": "od tysiąc dziewięćset trzydziestego drugiego",
+        "Kaplica": "początek osiemnastego wieku",
+        "Lokalizacja": "zachodni kraniec Francisco Sosa"
+      }
+    },
+    "faq_mito": {
+      "hash": "edaa19b81d70f71c",
+      "texto": {
+        "pregunta": "Mit: Pedro de Alvarado zbudował kaplicę.",
+        "respuesta": "Rzeczywistość: Kaplica pochodzi z osiemnastego wieku; legenda o Alvarado nie zgadza się z datą budynku."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "coy_13_santa_catarina",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fbfde756cacd559a",
+      "texto": "Santa Catarina: o jardim que foi átrio"
+    },
+    "frase_gancho": {
+      "hash": "735c183a2813d98f",
+      "texto": "Uma capela franciscana aberta, uma casa que foi fábrica de papel e um jardim com busto."
+    },
+    "puente_narrativo": {
+      "hash": "86019acaace61acd",
+      "texto": "Agora vamos a um lugar verde: os Viveros."
+    },
+    "guion_corto": {
+      "hash": "ca90b6ac200cd5e6",
+      "texto": "Você está na praça de Santa Catarina, um jardim tranquilo com uma igreja do século dezesseis. Foi uma capela aberta, onde os frades franciscanos reuniam as pessoas antes do batismo. O jardim que você vê foi o átrio, e quando terminou a Guerra Cristera derrubou-se o muro para transformá-lo em praça. Aqui há um busto do historiador Francisco Sosa. E a poucos passos está a Casa de Cultura Jesús Reyes Heroles, uma casa do século dezoito que foi fábrica de papel e hoje oferece oficinas e teatro."
+    },
+    "guion_largo": {
+      "hash": "cc99f381b798dfbe",
+      "texto": "Você está na praça de Santa Catarina. Se vem da praça grande, vai notar a diferença: aqui tudo é mais quieto, com árvores, bancos e a igreja ao fundo.\n\nSanta Catarina é um bairro antigo. Antes da chegada dos espanhóis, esta zona pertenceu ao senhorio de Coyoacán. Depois da Conquista, os frades franciscanos e dominicanos ergueram várias igrejas e capelas na região. A de Santa Catarina é do século dezesseis. Começou como capela aberta: um espaço sem muros onde os frades reuniam as pessoas ao ar livre, antes do batismo. Você já viu uma ideia parecida no átrio de San Juan Bautista.\n\nO jardim onde você está foi esse átrio. Um muro o cercava até que, depois da Guerra Cristera, foi derrubado para fazer um parque independente. Por dentro, a igreja conserva uma pintura da Virgem de Guadalupe do século dezessete.\n\nNa praça há um busto de Francisco Sosa. Foi em sua homenagem que, em mil novecentos e cinquenta e um, a antiga rua Real recebeu seu nome atual.\n\nA poucos passos, no número duzentos e dois da Francisco Sosa, está a Casa de Cultura Jesús Reyes Heroles. É uma casa do século dezoito. Seu primeiro dono construiu a moradia e um anexo que funcionou como uma pequena fábrica de papel. Em mil oitocentos e vinte e um viveu aqui a família Espinoza de los Monteros, e um deles ajudou a redigir a Ata da Independência do Império Mexicano. Em mil novecentos e oitenta e cinco, a casa foi doada para se tornar um centro cultural com jardim. Hoje há oficinas, teatro de fantoches nos fins de semana e um restaurante.\n\nSanta Catarina lembra que Coyoacán não é um único centro, mas um conjunto de bairros, cada um com sua igreja e sua praça."
+    },
+    "retos_observacion": {
+      "hash": "7289babb45cf88d6",
+      "texto": [
+        "Procure o busto de Francisco Sosa",
+        "Imagine o muro que cercava o átrio e onde ficava",
+        "Observe os vizinhos: o que fazem na praça?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "308f349b4ebb945d",
+      "texto": {
+        "Século da igreja": "dezesseis",
+        "Origem": "capela aberta franciscana",
+        "Átrio convertido em praça": "depois da Guerra Cristera",
+        "Casa de Cultura": "Francisco Sosa duzentos e dois"
+      }
+    },
+    "faq_mito": {
+      "hash": "e3e508e98456d256",
+      "texto": {
+        "pregunta": "Mito: Tudo o que você vê aqui é do século dezesseis.",
+        "respuesta": "Realidade: Só a origem é do dezesseis; a praça, o busto e a casa de cultura são posteriores."
+      }
+    }
+  }
+}

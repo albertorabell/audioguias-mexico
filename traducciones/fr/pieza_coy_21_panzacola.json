@@ -1,0 +1,54 @@
+{
+  "id": "coy_21_panzacola",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9521ff7864dd651f",
+      "texto": "Panzacola : le pont et la chapelle"
+    },
+    "frase_gancho": {
+      "hash": "6e655ee30ae40fd2",
+      "texto": "Un pont de plus de deux siècles et une chapelle pleine de légendes, à l'ancienne entrée de Coyoacán."
+    },
+    "puente_narrativo": {
+      "hash": "f55a5b7c2829e0e3",
+      "texto": "Traverse le pont et continue vers Chimalistac."
+    },
+    "guion_corto": {
+      "hash": "1ba7019f6e458fe1",
+      "texto": "Tu es sur le pont de Panzacola, aussi appelé pont de l'Altillo. Sa construction date de dix-sept cent soixante-trois, et il faisait partie du chemin royal entre San Ángel et Coyoacán. C'est un monument historique depuis dix-neuf cent trente-deux. À côté se trouve la chapelle de San Antonio de Padua, du dix-huitième siècle. Il y a des légendes sur celui qui l'a construite : l'une dit que c'est Pedro de Alvarado, une autre, une famille de contrebandiers. Aucune n'est prouvée. Des peintres comme José María Velasco l'ont représentée."
+    },
+    "guion_largo": {
+      "hash": "10b57898496af9d3",
+      "texto": "Tu es à l'entrée ouest de Coyoacán, et la première chose que tu vois est un pont de pierre de plus de deux siècles. Il s'appelle le pont de Panzacola, ou pont de l'Altillo. Sa construction date de dix-sept cent soixante-trois. Il traverse la rivière Magdalena et était une pièce clé du chemin royal qui reliait San Ángel à Coyoacán. C'est un monument historique depuis dix-neuf cent trente-deux et il sert encore.\n\nÀ côté se trouve la chapelle de San Antonio de Padua, ou San Antonio Panzacola. Elle date du début du dix-huitième siècle, avec une façade baroque sobre, deux tours aux clochers colorés et des pilastres qui soutiennent la tribune. À l'intérieur, elle a un retable doré en bois du dix-huitième siècle et un crucifix de facture indigène.\n\nSur son origine, on raconte deux légendes. L'une dit que Pedro de Alvarado l'a fait construire après la Noche Triste, en quinze cent vingt, bien que cela ne coïncide pas avec la date du bâtiment. L'autre raconte qu'une famille de contrebandiers, sur le point d'aller en prison, a promis une église à San Antonio de Padua s'il les libérait, et la lui a bâtie quand il n'y a pas eu de preuves contre eux. Aucune n'est prouvée.\n\nIl y a aussi une légende sur le nom. Selon plusieurs récits, Panzacola viendrait des nombreux lézards qui vivaient autrefois dans la zone.\n\nCe paysage a inspiré des artistes du dix-neuvième siècle. Eugenio Landesio, José María Velasco et Casimiro Castro ont représenté le pont et la chapelle, et des écrivains comme Manuel Payno et Salvador Novo les ont décrits.\n\nLa chapelle appartient à la paroisse de San Juan Bautista et n'ouvre généralement que pendant les messes et les cérémonies, alors il est normal de la voir de l'extérieur. Reste un moment sur le pont et pense que c'est par ici qu'entrait à Coyoacán celui qui venait de San Ángel."
+    },
+    "retos_observacion": {
+      "hash": "ef1071e8940dc867",
+      "texto": [
+        "Cherche la date ou le style du pont et compare avec la chapelle",
+        "Regarde les deux tours de la chapelle et remarque leurs couleurs",
+        "Imagine une voiture à chevaux qui traverse le pont"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9a08af1361ad3900",
+      "texto": {
+        "Pont": "construction de dix-sept cent soixante-trois",
+        "Monument historique": "depuis dix-neuf cent trente-deux",
+        "Chapelle": "début du dix-huitième siècle",
+        "Emplacement": "extrémité ouest de Francisco Sosa"
+      }
+    },
+    "faq_mito": {
+      "hash": "edaa19b81d70f71c",
+      "texto": {
+        "pregunta": "Mythe : Pedro de Alvarado a construit la chapelle.",
+        "respuesta": "Réalité : La chapelle date du dix-huitième siècle ; la légende d'Alvarado ne coïncide pas avec la date du bâtiment."
+      }
+    }
+  }
+}

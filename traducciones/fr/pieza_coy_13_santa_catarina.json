@@ -1,0 +1,54 @@
+{
+  "id": "coy_13_santa_catarina",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fbfde756cacd559a",
+      "texto": "Santa Catarina : le jardin qui fut atrium"
+    },
+    "frase_gancho": {
+      "hash": "735c183a2813d98f",
+      "texto": "Une chapelle franciscaine ouverte, une maison qui fut manufacture de papier et un jardin avec un buste."
+    },
+    "puente_narrativo": {
+      "hash": "86019acaace61acd",
+      "texto": "Maintenant, allons dans un lieu vert : les Viveros."
+    },
+    "guion_corto": {
+      "hash": "ca90b6ac200cd5e6",
+      "texto": "Tu es sur la place de Santa Catarina, un jardin tranquille avec une église du seizième siècle. Elle fut une chapelle ouverte, où les frères franciscains rassemblaient les gens avant le baptême. Le jardin que tu vois fut l'atrium, et quand la guerre des Cristeros a pris fin, on a abattu le mur pour en faire une place. Ici se trouve un buste de l'historien Francisco Sosa. Et à quelques pas se trouve la Maison de la culture Jesús Reyes Heroles, une maison du dix-huitième siècle qui fut manufacture de papier et propose aujourd'hui des ateliers et du théâtre."
+    },
+    "guion_largo": {
+      "hash": "cc99f381b798dfbe",
+      "texto": "Tu es sur la place de Santa Catarina. Si tu viens de la grande place, tu remarqueras la différence : ici tout est plus calme, avec des arbres, des bancs et l'église au fond.\n\nSanta Catarina est un quartier ancien. Avant l'arrivée des Espagnols, cette zone appartenait à la seigneurie de Coyoacán. Après la Conquête, les frères franciscains et dominicains ont élevé plusieurs églises et chapelles dans la région. Celle de Santa Catarina date du seizième siècle. Elle a commencé comme chapelle ouverte : un espace sans murs où les frères rassemblaient les gens en plein air, avant le baptême. Tu as déjà vu une idée semblable dans l'atrium de San Juan Bautista.\n\nLe jardin où tu te trouves fut cet atrium. Un mur l'entourait jusqu'à ce qu'après la guerre des Cristeros, on l'abatte pour faire un parc indépendant. À l'intérieur, l'église conserve une peinture de la Vierge de Guadalupe du dix-septième siècle.\n\nSur la place, il y a un buste de Francisco Sosa. C'est en son honneur qu'en dix-neuf cent cinquante et un, l'ancienne rue Royale a reçu son nom actuel.\n\nÀ quelques pas, au deux cent deux de la rue Francisco Sosa, se trouve la Maison de la culture Jesús Reyes Heroles. C'est une maison du dix-huitième siècle. Son premier propriétaire a construit l'habitation et une annexe qui a servi de petite manufacture de papier. En dix-huit cent vingt et un, la famille Espinoza de los Monteros y a vécu, et l'un d'eux a aidé à rédiger l'Acte d'indépendance de l'Empire mexicain. En dix-neuf cent quatre-vingt-cinq, la maison a été donnée pour en faire un centre culturel avec jardin. Aujourd'hui il y a des ateliers, du théâtre de marionnettes le week-end et un restaurant.\n\nSanta Catarina te rappelle que Coyoacán n'est pas un seul centre, mais un ensemble de quartiers, chacun avec son église et sa place."
+    },
+    "retos_observacion": {
+      "hash": "7289babb45cf88d6",
+      "texto": [
+        "Cherche le buste de Francisco Sosa",
+        "Imagine le mur qui entourait l'atrium et où il se trouvait",
+        "Observe les habitants : que font-ils sur la place ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "308f349b4ebb945d",
+      "texto": {
+        "Siècle de l'église": "seizième",
+        "Origine": "chapelle ouverte franciscaine",
+        "Atrium devenu place": "après la guerre des Cristeros",
+        "Maison de la culture": "Francisco Sosa deux cent deux"
+      }
+    },
+    "faq_mito": {
+      "hash": "e3e508e98456d256",
+      "texto": {
+        "pregunta": "Mythe : Tout ce que tu vois ici date du seizième siècle.",
+        "respuesta": "Réalité : Seule l'origine date du seizième ; la place, le buste et la maison de la culture sont postérieurs."
+      }
+    }
+  }
+}

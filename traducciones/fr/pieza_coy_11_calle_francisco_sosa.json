@@ -1,0 +1,54 @@
+{
+  "id": "coy_11_calle_francisco_sosa",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cdea082cccc2a2e1",
+      "texto": "Francisco Sosa : le chemin royal de Coyoacán"
+    },
+    "frase_gancho": {
+      "hash": "c8c805c1477b744b",
+      "texto": "L'une des plus anciennes rues de la ville, qui reste une promenade de grandes demeures, de galeries et de jardins."
+    },
+    "puente_narrativo": {
+      "hash": "b6af04c37c314973",
+      "texto": "Continue par la rue jusqu'à la grande demeure de la Phonothèque nationale."
+    },
+    "guion_corto": {
+      "hash": "8b176e6bd3dfab31",
+      "texto": "Tu es dans la rue Francisco Sosa, qui pendant des siècles fut le chemin royal entre San Ángel et Coyoacán. Elle a probablement été tracée au seizième siècle, et a eu plusieurs noms : rue Royale de Santa Catarina, avenue Benito Juárez, et depuis dix-neuf cent cinquante et un, Francisco Sosa, en l'honneur de l'historien qui a vécu au numéro trente-huit. Ici sont passés les carrosses, les tramways, les écrivains. Aujourd'hui c'est une promenade tranquille, de maisons avec jardin, de centres culturels et de chapelles. Marche lentement et regarde sur les côtés."
+    },
+    "guion_largo": {
+      "hash": "38a57e69d218c21a",
+      "texto": "Tu es dans la rue Francisco Sosa, l'une des plus anciennes voies du sud de la ville. Marche lentement et remarque les murs de clôture, les porches et les branches d'arbres qui dépassent par-dessus.\n\nPendant des siècles, ce fut le chemin royal entre San Ángel et Coyoacán. Il a probablement été tracé au seizième siècle. Les voyageurs, les marchands et les frères passaient par ici. Au fil des ans, la rue a eu différents noms : rue Royale de Santa Catarina, avenue Benito Juárez. En dix-neuf cent cinquante et un, elle a reçu celui qu'elle porte aujourd'hui, en l'honneur de Francisco Sosa, un historien mexicain qui a vécu au numéro trente-huit. Tu l'as déjà rencontré : c'est le préfet de Coyoacán qui a fait don au village de la copie du document du blason.\n\nLa rue conserve des traces de son histoire. Il y a une ancienne station de tramway, au numéro deux cent quarante-trois, aujourd'hui transformée en commerce. Il y a une façade avec une plaque où a vécu pendant trente-trois ans le chroniqueur Salvador Novo ; la maison n'est plus là, mais la façade a été sauvée. Et il y a des maisons du dix-huitième siècle devenues des centres culturels.\n\nLes pavés, les arbres et les hauts murs donnent à Francisco Sosa un air de rue de village. Mais ces murs cachent des jardins, et ces jardins, beaucoup d'histoire. Si tu passes devant une grille ouverte, jette un œil aux patios et aux fontaines.\n\nC'est la rue par laquelle un jour sont arrivés les exilés, les peintres, les poètes. Et par laquelle on marche encore aujourd'hui, le regard posé sur les portes."
+    },
+    "retos_observacion": {
+      "hash": "4f8e3d2851053a5a",
+      "texto": [
+        "Jette un œil par les grilles et cherche un patio avec fontaine",
+        "Cherche la plaque de Salvador Novo",
+        "Regarde le sol : y a-t-il des pavés ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3acfd2699cabf9e3",
+      "texto": {
+        "Origine": "chemin royal entre San Ángel et Coyoacán, probablement du seizième siècle",
+        "Nom actuel": "dix-neuf cent cinquante et un",
+        "Ancienne station de tramway": "numéro deux cent quarante-trois",
+        "Maison de Francisco Sosa": "numéro trente-huit"
+      }
+    },
+    "faq_mito": {
+      "hash": "7e9706b11b3b2015",
+      "texto": {
+        "pregunta": "Mythe : La rue s'appelle Francisco Sosa depuis toujours.",
+        "respuesta": "Réalité : Elle s'est d'abord appelée rue Royale de Santa Catarina puis avenue Benito Juárez ; le nom actuel date de dix-neuf cent cinquante et un."
+      }
+    }
+  }
+}

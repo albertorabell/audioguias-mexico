@@ -1,0 +1,54 @@
+{
+  "id": "coy_18_trotsky_despacho",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7cc0c7a52c2ecbeb",
+      "texto": "Dom Trockiego: gabinet"
+    },
+    "frase_gancho": {
+      "hash": "47b64f6966b5bbb1",
+      "texto": "Tutaj skończyło się życie Trockiego, a ogród kryje jego prochy."
+    },
+    "puente_narrativo": {
+      "hash": "ce36107cacc0b73f",
+      "texto": "Na zakończenie trasy jedź transportem na południe, do miejsca, które wygląda jak z innego świata, zrobionego z wulkanu: Anahuacalli."
+    },
+    "guion_corto": {
+      "hash": "f772a396c774797f",
+      "texto": "To miejsce, gdzie skończyło się życie Lwa Trockiego. Dwudziestego sierpnia tysiąc dziewięćset czterdziestego roku Ramón Mercader, agent, który zdobył jego zaufanie, uderzył go w głowę czekanem. Trocki zmarł następnego dnia, dwudziestego pierwszego sierpnia, w szpitalu. W ogrodzie jest kamienna stela, zaprojektowana przez architekta Juana O'Gormana, która kryje jego prochy i prochy jego żony, Natalii Sedowej. Nad nią powiewa sowiecka flaga."
+    },
+    "guion_largo": {
+      "hash": "9c59b5c8bc292a08",
+      "texto": "Jesteśmy w gabinecie domu Trockiego i to tutaj doszło do jego zabójstwa. Idź powoli i z szacunkiem.\n\nPo ataku w maju tysiąc dziewięćset czterdziestego roku Trocki wiedział, że nadal go szukają. Wzmocnił dom, byli strażnicy i wieże. Ale zabójca przyszedł inną drogą: zaufaniem. Ramón Mercader, agent w służbie Stalina, udawał człowieka o nazwisku Jacques Mornard i zbliżył się do ludzi z kręgu Trockiego.\n\nDwudziestego sierpnia tysiąc dziewięćset czterdziestego roku Mercader wszedł do gabinetu pod pretekstem, by Trocki sprawdził jego tekst. Uderzył go w głowę czekanem. Trockiego zabrano do szpitala i zmarł następnego dnia, dwudziestego pierwszego sierpnia, z utraty krwi i szoku po operacji.\n\nMercadera aresztowano i spędził dwadzieścia lat w więzieniu w Meksyku.\n\nW ogrodzie domu jest grobowiec. To kamienna stela, zaprojektowana przez architekta Juana O'Gormana, tego samego, który uczestniczył w Anahuacalli. Tam spoczywają prochy Trockiego i jego żony Natalii Sedowej. Nad stelą powiewa sowiecka flaga.\n\nTrocki mieszkał w Meksyku mniej niż cztery lata. Ale w tym czasie jego życie przecięło się z życiem Diega, Fridy, prezydenta Cárdenasa i z historią świata. Coyoacán, dzielnica artystów, było też ostatnim schronieniem jednego z najsłynniejszych wygnańców dwudziestego wieku.\n\nWyjdź przez ogród i może daj sobie chwilę, by o tym pomyśleć."
+    },
+    "retos_observacion": {
+      "hash": "ec59593e7a33fd19",
+      "texto": [
+        "Poszukaj kamiennej steli i flagi",
+        "Obserwuj ogród i pomyśl, co widać z gabinetu",
+        "Zobacz, ilu jest zwiedzających i jakimi językami mówią"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f81e8ee5c22323b5",
+      "texto": {
+        "Data ataku": "dwudziesty sierpnia tysiąc dziewięćset czterdziesty",
+        "Zgon": "dwudziesty pierwszy sierpnia tysiąc dziewięćset czterdziesty",
+        "Zabytek historyczny": "dekret z tysiąc dziewięćset osiemdziesiątego drugiego",
+        "Stela": "projekt Juana O'Gormana"
+      }
+    },
+    "faq_mito": {
+      "hash": "036440636f3b3d9c",
+      "texto": {
+        "pregunta": "Mit: Trocki zmarł natychmiast.",
+        "respuesta": "Rzeczywistość: Został ranny dwudziestego sierpnia i zmarł następnego dnia, dwudziestego pierwszego, w szpitalu."
+      }
+    }
+  }
+}

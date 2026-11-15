@@ -1,0 +1,54 @@
+{
+  "id": "coy_12_casa_alvarado",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b47c07bc4f3f42c4",
+      "texto": "Casa Alvarado: o casarão que escuta"
+    },
+    "frase_gancho": {
+      "hash": "85acef7e93434f43",
+      "texto": "Uma casa do século dezoito com nome emprestado, um poeta que viveu seus últimos anos e um jardim feito de som."
+    },
+    "puente_narrativo": {
+      "hash": "4335feb3a9596fb6",
+      "texto": "Siga para o jardim e a igreja de Santa Catarina."
+    },
+    "guion_corto": {
+      "hash": "9342920bf2b83406",
+      "texto": "Este casarão do século dezoito se chama Casa Alvarado, mas Pedro de Alvarado nunca morou aqui. O nome pode ter ficado por um erro: segundo se conta, pô-lo na porta a arqueóloga Zelia Nuttall, que se instalou aqui por volta de mil novecentos e dois e morreu nesta casa em mil novecentos e trinta e três. Depois, em mil novecentos e noventa e seis, chegou o poeta Octavio Paz, que viveu aqui seus últimos dois anos. Hoje é a Fonoteca Nacional, um arquivo de sons, com um jardim que se escuta."
+    },
+    "guion_largo": {
+      "hash": "c9de3d7c90d94ae9",
+      "texto": "Diante de você está um casarão com pátio de arcos, em estilo andaluz. Chama-se Casa Alvarado, mas há um detalhe: Pedro de Alvarado, o conquistador, nunca viveu aqui. A casa é do século dezoito e se chamou originalmente Quinta Santa Rosalía. Acredita-se que o nome atual o pôs na porta Zelia Nuttall, uma antropóloga e arqueóloga norte-americana, talvez mal informada por quem lhe vendeu a propriedade. Ninguém sabe com certeza.\n\nNuttall chegou em mil novecentos e dois. Estudava a escrita pré-hispânica da Mesoamérica, e nesta casa teve seu estúdio e um jardim botânico. Morreu aqui em doze de abril de mil novecentos e trinta e três. Depois a casa teve outros donos até que em mil novecentos e setenta e sete passou ao governo, e foi biblioteca, livraria e sede de uma enciclopédia.\n\nEm mil novecentos e noventa e seis, um incêndio destruiu o apartamento do poeta Octavio Paz, na colônia Cuauhtémoc, e com ele boa parte dos seus livros e da sua obra. O governo o instalou nesta casa. Viveu aqui uns dois anos, até sua morte em mil novecentos e noventa e oito. Contam que nunca se sentiu totalmente em casa.\n\nHoje aqui está a Fonoteca Nacional, o arquivo que guarda e difunde os sons do México, incluindo entrevistas, leituras e conferências de Paz. A casa tem um jardim sonoro, projetado com um sistema de áudio de vários canais, onde se apresentam concertos e obras experimentais. Quando não há eventos, soa um ambiente sonoro.\n\nFaz sentido que um lugar assim esteja em Coyoacán. Aqui as pessoas sempre vieram para escutar."
+    },
+    "retos_observacion": {
+      "hash": "483a51ba47c5e8d8",
+      "texto": [
+        "Procure o pátio de arcos",
+        "Feche os olhos um momento e conte quantos sons você distingue",
+        "Procure a placa que lembra Octavio Paz"
+      ]
+    },
+    "especificaciones": {
+      "hash": "88c68174b8f37f41",
+      "texto": {
+        "Século": "dezoito",
+        "Nome original": "Quinta Santa Rosalía",
+        "Monumento histórico desde": "mil novecentos e trinta e dois",
+        "Hoje": "Fonoteca Nacional"
+      }
+    },
+    "faq_mito": {
+      "hash": "74ed4fbdd0c26fed",
+      "texto": {
+        "pregunta": "Mito: Pedro de Alvarado viveu aqui.",
+        "respuesta": "Realidade: Não viveu aqui; o nome pode ter sido um erro de Zelia Nuttall ou de quem lhe vendeu a casa."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "coy_21_panzacola",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9521ff7864dd651f",
+      "texto": "Panzacola: die Brücke und die Kapelle"
+    },
+    "frase_gancho": {
+      "hash": "6e655ee30ae40fd2",
+      "texto": "Eine Brücke von vor mehr als zwei Jahrhunderten und eine Kapelle mit Legenden am alten Eingang von Coyoacán."
+    },
+    "puente_narrativo": {
+      "hash": "f55a5b7c2829e0e3",
+      "texto": "Überquere die Brücke und geh weiter nach Chimalistac."
+    },
+    "guion_corto": {
+      "hash": "1ba7019f6e458fe1",
+      "texto": "Du bist auf der Brücke von Panzacola, auch Altillo-Brücke genannt. Ihr Bau stammt von siebzehnhundertdreiundsechzig, und sie war Teil des Königswegs zwischen San Ángel und Coyoacán. Sie ist seit neunzehnhundertzweiunddreißig ein historisches Denkmal. Daneben steht die Kapelle San Antonio de Padua aus dem achtzehnten Jahrhundert. Es gibt Legenden darüber, wer sie gebaut hat: Eine sagt, es war Pedro de Alvarado, eine andere, eine Familie von Schmugglern. Keine ist belegt. Maler wie José María Velasco haben sie dargestellt."
+    },
+    "guion_largo": {
+      "hash": "10b57898496af9d3",
+      "texto": "Du bist am westlichen Eingang von Coyoacán, und das Erste, was du siehst, ist eine Steinbrücke von vor mehr als zwei Jahrhunderten. Sie heißt Brücke von Panzacola oder Altillo-Brücke. Ihr Bau stammt von siebzehnhundertdreiundsechzig. Sie überquert den Fluss Magdalena und war ein Schlüsselstück des Königswegs, der San Ángel mit Coyoacán verband. Sie ist seit neunzehnhundertzweiunddreißig ein historisches Denkmal und wird noch benutzt.\n\nDaneben steht die Kapelle San Antonio de Padua, auch San Antonio Panzacola genannt. Sie stammt vom Anfang des achtzehnten Jahrhunderts, mit einer nüchternen Barockfassade, zwei Türmen mit bunten Glockentürmchen und Pilastern, die die Empore tragen. Innen hat sie einen vergoldeten Holzaltar aus dem achtzehnten Jahrhundert und ein Kruzifix indigener Machart.\n\nÜber ihren Ursprung erzählt man zwei Legenden. Die eine sagt, Pedro de Alvarado habe sie nach der Noche Triste im Jahr fünfzehnhundertzwanzig bauen lassen, auch wenn das nicht zum Datum des Gebäudes passt. Die andere erzählt, eine Familie von Schmugglern habe, kurz vor dem Gefängnis, dem heiligen Antonius von Padua eine Kirche versprochen, wenn er sie befreie, und sie ihm gebaut, als es keine Beweise gegen sie gab. Keine ist belegt.\n\nEs gibt auch eine Legende über den Namen. Nach mehreren Berichten kommt Panzacola von den vielen Eidechsen, die früher in der Gegend lebten.\n\nDiese Landschaft inspirierte Künstler des neunzehnten Jahrhunderts. Eugenio Landesio, José María Velasco und Casimiro Castro stellten die Brücke und die Kapelle dar, und Schriftsteller wie Manuel Payno und Salvador Novo beschrieben sie.\n\nDie Kapelle gehört zur Pfarrei San Juan Bautista und öffnet meist nur während der Messen und Feiern, daher sieht man sie normalerweise von außen. Bleib einen Moment auf der Brücke und denk daran, dass hier nach Coyoacán kam, wer aus San Ángel reiste."
+    },
+    "retos_observacion": {
+      "hash": "ef1071e8940dc867",
+      "texto": [
+        "Such das Datum oder den Stil der Brücke und vergleiche mit der Kapelle",
+        "Sieh dir die beiden Türme der Kapelle an und achte auf ihre Farben",
+        "Stell dir eine Pferdekutsche vor, die über die Brücke fährt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9a08af1361ad3900",
+      "texto": {
+        "Brücke": "Bau siebzehnhundertdreiundsechzig",
+        "Historisches Denkmal": "seit neunzehnhundertzweiunddreißig",
+        "Kapelle": "Anfang des achtzehnten Jahrhunderts",
+        "Lage": "westliches Ende der Francisco Sosa"
+      }
+    },
+    "faq_mito": {
+      "hash": "edaa19b81d70f71c",
+      "texto": {
+        "pregunta": "Mythos: Pedro de Alvarado baute die Kapelle.",
+        "respuesta": "Wirklichkeit: Die Kapelle stammt aus dem achtzehnten Jahrhundert; die Alvarado-Legende passt nicht zum Datum des Gebäudes."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "coy_18_trotsky_despacho",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7cc0c7a52c2ecbeb",
+      "texto": "A casa de Trotski: o escritório"
+    },
+    "frase_gancho": {
+      "hash": "47b64f6966b5bbb1",
+      "texto": "Aqui terminou a vida de Trotski, e o jardim guarda suas cinzas."
+    },
+    "puente_narrativo": {
+      "hash": "ce36107cacc0b73f",
+      "texto": "Para fechar o percurso, pegue um transporte para o sul, até um lugar que parece de outro mundo, feito de vulcão: o Anahuacalli."
+    },
+    "guion_corto": {
+      "hash": "f772a396c774797f",
+      "texto": "Este é o lugar onde terminou a vida de Leon Trotski. Em vinte de agosto de mil novecentos e quarenta, Ramón Mercader, um agente que havia ganhado sua confiança, o atingiu na cabeça com um picador de gelo. Trotski morreu no dia seguinte, vinte e um de agosto, num hospital. No jardim há uma estèle de pedra, projetada pelo arquiteto Juan O'Gorman, que guarda suas cinzas e as de sua esposa, Natalia Sedova. Sobre ela tremula uma bandeira soviética."
+    },
+    "guion_largo": {
+      "hash": "9c59b5c8bc292a08",
+      "texto": "Estamos no escritório da casa de Trotski, e este é o lugar onde ocorreu seu assassinato. Vá devagar e com respeito.\n\nDepois do ataque de maio de mil novecentos e quarenta, Trotski sabia que ainda o procuravam. Reforçou a casa, houve guardas e torres. Mas o assassino chegou por outro caminho: a confiança. Ramón Mercader, um agente a serviço de Stalin, passou-se por um homem chamado Jacques Mornard e se aproximou das pessoas do círculo de Trotski.\n\nEm vinte de agosto de mil novecentos e quarenta, Mercader entrou no escritório sob o pretexto de que Trotski revisasse um texto. Atingiu-o na cabeça com um picador de gelo. Trotski foi levado a um hospital e morreu no dia seguinte, vinte e um de agosto, pela perda de sangue e pelo choque após a cirurgia.\n\nMercader foi preso e passou vinte anos na prisão no México.\n\nNo jardim da casa está o túmulo. É uma estèle de pedra, projetada pelo arquiteto Juan O'Gorman, o mesmo que participou do Anahuacalli. Ali estão as cinzas de Trotski e de sua esposa Natalia Sedova. Sobre a estèle tremula uma bandeira soviética.\n\nTrotski viveu no México menos de quatro anos. Mas nesse tempo sua vida se cruzou com a de Diego, com a de Frida, com a do presidente Cárdenas e com a história mundial. Coyoacán, o bairro dos artistas, foi também o último refúgio de um dos exílados mais famosos do século vinte.\n\nSaia pelo jardim e talvez dê a si mesmo um momento para pensar nisso."
+    },
+    "retos_observacion": {
+      "hash": "ec59593e7a33fd19",
+      "texto": [
+        "Procure a estèle de pedra e a bandeira",
+        "Observe o jardim e pense no que se vê do escritório",
+        "Veja quantos visitantes há e que idiomas falam"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f81e8ee5c22323b5",
+      "texto": {
+        "Data do ataque": "vinte de agosto de mil novecentos e quarenta",
+        "Falecimento": "vinte e um de agosto de mil novecentos e quarenta",
+        "Monumento histórico": "decreto de mil novecentos e oitenta e dois",
+        "Estèle": "projeto de Juan O'Gorman"
+      }
+    },
+    "faq_mito": {
+      "hash": "036440636f3b3d9c",
+      "texto": {
+        "pregunta": "Mito: Trotski morreu na hora.",
+        "respuesta": "Realidade: Foi ferido em vinte de agosto e morreu no dia seguinte, vinte e um, num hospital."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "coy_18_trotsky_despacho",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7cc0c7a52c2ecbeb",
+      "texto": "La maison de Trotski : le bureau"
+    },
+    "frase_gancho": {
+      "hash": "47b64f6966b5bbb1",
+      "texto": "Ici s'est terminée la vie de Trotski, et le jardin garde ses cendres."
+    },
+    "puente_narrativo": {
+      "hash": "ce36107cacc0b73f",
+      "texto": "Pour clore le parcours, prends un transport vers le sud, vers un lieu qui semble d'un autre monde, fait de volcan : l'Anahuacalli."
+    },
+    "guion_corto": {
+      "hash": "f772a396c774797f",
+      "texto": "C'est ici que s'est terminée la vie de Léon Trotski. Le vingt août dix-neuf cent quarante, Ramón Mercader, un agent qui avait gagné sa confiance, l'a frappé à la tête avec un piolet. Trotski est mort le lendemain, le vingt et un août, dans un hôpital. Dans le jardin se trouve une stèle de pierre, conçue par l'architecte Juan O'Gorman, qui garde ses cendres et celles de son épouse, Natalia Sedova. Un drapeau soviétique flotte au-dessus d'elle."
+    },
+    "guion_largo": {
+      "hash": "9c59b5c8bc292a08",
+      "texto": "Nous sommes dans le bureau de la maison de Trotski, et c'est ici que son assassinat a eu lieu. Avance lentement et avec respect.\n\nAprès l'attaque de mai dix-neuf cent quarante, Trotski savait qu'on le cherchait encore. Il a renforcé la maison, il y a eu des gardes et des tours. Mais l'assassin est venu par un autre chemin : la confiance. Ramón Mercader, un agent au service de Staline, s'est fait passer pour un homme nommé Jacques Mornard et s'est rapproché des gens du cercle de Trotski.\n\nLe vingt août dix-neuf cent quarante, Mercader est entré dans le bureau sous prétexte que Trotski relise un texte. Il l'a frappé à la tête avec un piolet. Trotski a été emmené à l'hôpital et est mort le lendemain, le vingt et un août, à cause de la perte de sang et du choc après la chirurgie.\n\nMercader a été arrêté et a passé vingt ans en prison au Mexique.\n\nDans le jardin de la maison se trouve la tombe. C'est une stèle de pierre, conçue par l'architecte Juan O'Gorman, celui-là même qui a participé à l'Anahuacalli. Là reposent les cendres de Trotski et de son épouse Natalia Sedova. Un drapeau soviétique flotte au-dessus de la stèle.\n\nTrotski a vécu au Mexique moins de quatre ans. Mais en ce temps-là, sa vie s'est croisée avec celle de Diego, celle de Frida, celle du président Cárdenas et avec l'histoire mondiale. Coyoacán, le quartier des artistes, fut aussi le dernier refuge de l'un des exilés les plus célèbres du vingtième siècle.\n\nSors par le jardin et prends peut-être un moment pour y penser."
+    },
+    "retos_observacion": {
+      "hash": "ec59593e7a33fd19",
+      "texto": [
+        "Cherche la stèle de pierre et le drapeau",
+        "Observe le jardin et pense à ce que l'on voit depuis le bureau",
+        "Regarde combien de visiteurs il y a et quelles langues ils parlent"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f81e8ee5c22323b5",
+      "texto": {
+        "Date de l'attaque": "vingt août dix-neuf cent quarante",
+        "Décès": "vingt et un août dix-neuf cent quarante",
+        "Monument historique": "décret de dix-neuf cent quatre-vingt-deux",
+        "Stèle": "design de Juan O'Gorman"
+      }
+    },
+    "faq_mito": {
+      "hash": "036440636f3b3d9c",
+      "texto": {
+        "pregunta": "Mythe : Trotski est mort sur le coup.",
+        "respuesta": "Réalité : Il a été blessé le vingt août et est mort le lendemain, le vingt et un, dans un hôpital."
+      }
+    }
+  }
+}

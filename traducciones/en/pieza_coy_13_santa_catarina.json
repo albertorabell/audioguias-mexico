@@ -1,0 +1,54 @@
+{
+  "id": "coy_13_santa_catarina",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fbfde756cacd559a",
+      "texto": "Santa Catarina: the garden that was an atrium"
+    },
+    "frase_gancho": {
+      "hash": "735c183a2813d98f",
+      "texto": "A Franciscan open chapel, a house that was a paper factory and a garden with a bust."
+    },
+    "puente_narrativo": {
+      "hash": "86019acaace61acd",
+      "texto": "Now we go to a green place: the Viveros."
+    },
+    "guion_corto": {
+      "hash": "ca90b6ac200cd5e6",
+      "texto": "You are in the Santa Catarina plaza, a quiet garden with a sixteenth-century church. It was an open chapel, where Franciscan friars gathered people before baptism. The garden you see was the atrium, and when the Cristero War ended the wall was torn down to turn it into a plaza. Here there is a bust of the historian Francisco Sosa. And a few steps away is the Jesús Reyes Heroles Cultural Center, an eighteenth-century house that was a paper factory and today offers workshops and theater."
+    },
+    "guion_largo": {
+      "hash": "cc99f381b798dfbe",
+      "texto": "You are in the Santa Catarina plaza. If you come from the big plaza, you will notice the difference: here everything is quieter, with trees, benches and the church at the back.\n\nSanta Catarina is an old neighborhood. Before the Spaniards arrived, this area belonged to the lordship of Coyoacán. After the Conquest, Franciscan and Dominican friars raised several churches and chapels in the region. The one of Santa Catarina is from the sixteenth century. It began as an open chapel: a space without walls where the friars gathered people in the open air, before baptism. You already saw a similar idea in the atrium of San Juan Bautista.\n\nThe garden where you are standing was that atrium. A wall surrounded it until, after the Cristero War, it was torn down to make an independent park. Inside, the church keeps a seventeenth-century painting of the Virgin of Guadalupe.\n\nIn the plaza there is a bust of Francisco Sosa. It was in his honor that, in nineteen fifty-one, the old Calle Real received its current name.\n\nA few steps away, at number two hundred two Francisco Sosa, is the Jesús Reyes Heroles Cultural Center. It is an eighteenth-century house. Its first owner built the dwelling and an annex that worked as a small paper factory. In eighteen twenty-one the Espinoza de los Monteros family lived here, and one of them helped draft the Act of Independence of the Mexican Empire. In nineteen eighty-five the house was donated to turn it into a cultural center with a garden. Today there are workshops, puppet theater on weekends and a restaurant.\n\nSanta Catarina reminds you that Coyoacán is not a single center, but a set of neighborhoods, each with its own church and plaza."
+    },
+    "retos_observacion": {
+      "hash": "7289babb45cf88d6",
+      "texto": [
+        "Find the bust of Francisco Sosa",
+        "Imagine the wall that surrounded the atrium and where it stood",
+        "Watch the neighbors: what do they do in the plaza?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "308f349b4ebb945d",
+      "texto": {
+        "Century of the church": "sixteenth",
+        "Origin": "Franciscan open chapel",
+        "Atrium turned into a plaza": "after the Cristero War",
+        "Cultural Center": "Francisco Sosa two hundred two"
+      }
+    },
+    "faq_mito": {
+      "hash": "e3e508e98456d256",
+      "texto": {
+        "pregunta": "Myth: Everything you see here is from the sixteenth century.",
+        "respuesta": "Reality: Only the origin is from the sixteenth; the plaza, the bust and the cultural center are later."
+      }
+    }
+  }
+}

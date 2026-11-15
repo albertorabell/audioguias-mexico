@@ -1,0 +1,54 @@
+{
+  "id": "coy_08_casa_colorada",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dfba479fa4e12890",
+      "texto": "La Casa Colorada: la casa che non fu della Malinche"
+    },
+    "frase_gancho": {
+      "hash": "25f89ec761e2bcf2",
+      "texto": "Ha fama di essere la casa della Malinche, ma custodisce una storia diversa e più vicina alla pittura."
+    },
+    "puente_narrativo": {
+      "hash": "963133767d0111c1",
+      "texto": "Cammina qualche passo verso la piazza di La Conchita, dove si trova la cappella."
+    },
+    "guion_corto": {
+      "hash": "25fad29bc8418713",
+      "texto": "Sei davanti alla Casa Colorada, all’angolo tra Higuera e Vallarta. Molta gente la chiama la casa della Malinche, ma i registri dell’INAH dicono altro: fu un obraje, una fabbrica di filati e tessuti, che si chiamava La Concepción. I suoi muri di tezontle rosso le diedero il nome. Nel millenovecentosessantanove la comprarono due pittori, Arturo García Bustos e Rina Lazo, e da allora è casa di artisti. Oggi è un’abitazione privata, quindi si ammira da fuori. Guarda i muri, i balconi di ferro e i doccioni di pietra."
+    },
+    "guion_largo": {
+      "hash": "faa058bac1b5c4d5",
+      "texto": "Sei all’angolo tra le calles Higuera e Vallarta, davanti a una casa di due piani con muri rossastri. È la Casa Colorada. Molta gente la conosce come la casa della Malinche, e c’è chi racconta che il suo fantasma si aggiri ancora da queste parti. Ma la scheda dell’INAH dice che questa attribuzione è errata.\n\nQuello che si sa è che questo luogo fu un obraje: un laboratorio dove si filava e si tesseva. Si chiamò La Concepción, come la cappella che si trova a pochi passi, e esisteva già nel millesettecentocinquantacinque, quando apparteneva a un uomo di nome Sebastián de Soto. Il piano terra può essere del diciassettesimo secolo, e il resto fu ampliato negli anni.\n\nGuarda i muri. Sono di pietra e di tezontle, la pietra vulcanica rossa usata in tutta la città. A un certo punto furono dipinti di rosso, e da lì viene il nome di Casa Colorada. L’intonaco è caduto in alcuni punti e lascia vedere le diverse fasi della costruzione. Al secondo piano ci sono balconi di ferro, e nella parte alta doccioni di pietra per scaricare la pioggia.\n\nNel ventesimo secolo la casa cambiò mano più volte. Nel millenovecentotrentanove si ordinò di conservarla. Nel millenovecentocinquantasette fu restaurata la facciata. E nel millenovecentosessantanove la comprarono due pittori, Arturo García Bustos e Rina Lazo. García Bustos fu uno dei Fridos, gli allievi di Frida Kahlo, e Lazo fu assistente di Diego Rivera. Una casa che si dice appartenuta alla Malinche finì per essere la dimora di due artisti della cerchia di Frida e Diego.\n\nÈ una casa privata, quindi non si può entrare. Ma la facciata merita, soprattutto a metà pomeriggio, quando la luce colpisce il tezontle."
+    },
+    "retos_observacion": {
+      "hash": "c52e5d6e3b3fea50",
+      "texto": [
+        "Osserva il colore rosso dei muri e cerca dove si vede il tezontle",
+        "Conta i balconi di ferro del secondo piano",
+        "Cerca i doccioni di pietra nella parte alta"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6893ae3ba5ca1b3d",
+      "texto": {
+        "Indirizzo": "calle Higuera, angolo Vallarta",
+        "Uso originale": "obraje di filati e tessuti La Concepción",
+        "Esiste dal": "almeno millesettecentocinquantacinque",
+        "Uso attuale": "abitazione privata"
+      }
+    },
+    "faq_mito": {
+      "hash": "b613897120964857",
+      "texto": {
+        "pregunta": "Mito: Questa fu la casa della Malinche.",
+        "respuesta": "Realtà: L’INAH considera errata questa attribuzione; fu un obraje del periodo vicereale."
+      }
+    }
+  }
+}

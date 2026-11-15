@@ -1,0 +1,55 @@
+{
+  "id": "coy_19_anahuacalli_volcan_edificio",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9ae42a1377c03ae",
+      "texto": "Anahuacalli: budynek z wulkanu"
+    },
+    "frase_gancho": {
+      "hash": "208ec33da0a8d41a",
+      "texto": "Muzeum zbudowane z kamienia wulkanu, by przechować sztukę dawnych Meksykańczyków."
+    },
+    "puente_narrativo": {
+      "hash": "ff57f2c727ca0061",
+      "texto": "Wejdź do muzeum i zejdź na poziom podziemnego świata."
+    },
+    "guion_corto": {
+      "hash": "43914bbfc5ac38a9",
+      "texto": "Przed tobą Anahuacalli, budynek przypominający świątynię. Zaprojektował go Diego Rivera, by przechować swoją kolekcję sztuki prehiszpańskiej. Zbudowany jest z kamienia wulkanicznego z Xitle, wulkanu, który wybuchł około dwóch tysięcy lat temu i pokrył ten region lawą. Ta lawa stała się Pedregal. Budowa rozpoczęła się w tysiąc dziewięćset czterdziestym drugim roku, ale Diego zmarł w tysiąc dziewięćset pięćdziesiątym siódmym, nie zobaczywszy jej ukończonej. Muzeum otwarto dla publiczności osiemnastego września tysiąc dziewięćset sześćdziesiątego czwartego roku."
+    },
+    "guion_largo": {
+      "hash": "d9c22d0f052f6533",
+      "texto": "Przed tobą budynek, który wygląda, jakby pochodził z innego czasu. To Anahuacalli i by zrozumieć, czym jest, trzeba zacząć od ziemi, po której stąpasz.\n\nOkoło dwóch tysięcy lat temu wulkan Xitle wybuchł i lawa pokryła sporą część południa dzisiejszego miasta Meksyk. Gdy ostygła, ta lawa zamieniła się w region czarnego, ostrego kamienia zwanego Pedregal. Muzeum wznosi się dokładnie na tym terenie.\n\nDiego Rivera od wielu lat zbierał gliniane figurki, naczynia i rzeźby prehiszpańskie i chciał budynku, by je przechować. Zaprojektował go jako rodzaj nowoczesnej świątyni. Nazwa pochodzi z nahuatl i tłumaczona jest jako dom otoczony wodą. Chciał, by był zbudowany z tego samego kamienia co miejsce. Dlatego ściany są z kamienia wulkanicznego z Xitle, wydobytego na samym terenie. Okna natomiast są z onyksu bursztynowego, który przepuszcza ciepłe światło.\n\nBudowa rozpoczęła się w tysiąc dziewięćset czterdziestym drugim roku, w San Pablo Tepetlapa, i zakończyła dopiero w tysiąc dziewięćset sześćdziesiątym trzecim. Diego zmarł w tysiąc dziewięćset pięćdziesiątym siódmym, zanim zobaczył ją ukończoną. Jego córka Ruth Rivera, architekci Juan O'Gorman i Heriberto Pagelson oraz kolekcjonerka Dolores Olmedo dokończyli dzieło. Muzeum otwarto osiemnastego września tysiąc dziewięćset sześćdziesiątego czwartego roku.\n\nPrzy wejściu spójrz na fasadę: wielkie bloki czarnego kamienia, o kształtach przypominających piramidy, nie kopiując żadnej konkretnej. Dookoła jest rezerwat ekologiczny o powierzchni około dwudziestu ośmiu tysięcy metrów kwadratowych, z roślinnością typową dla Pedregal.\n\nTen budynek nie jest kopią niczego. To obraz, jaki Diego miał w głowie, jakie powinno być muzeum sztuki dawnej: zrobione z ziemi, na której stoi, z wrażeniem wejścia do innego świata."
+    },
+    "retos_observacion": {
+      "hash": "ff63f0bf823679b4",
+      "texto": [
+        "Dotknij wzrokiem czarnego kamienia i poszukaj jego faktury",
+        "Poszukaj okien z onyksu bursztynowego i zobacz, jakie światło przepuszczają",
+        "Spójrz na teren wokół: widzisz roślinność typową dla Pedregal?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "490e3c268d46ca8d",
+      "texto": {
+        "Budowa": "od tysiąc dziewięćset czterdziestego drugiego do tysiąc dziewięćset sześćdziesiątego trzeciego",
+        "Otwarcie": "osiemnasty wrzesień tysiąc dziewięćset sześćdziesiąty czwarty",
+        "Materiał": "kamień wulkaniczny z Xitle",
+        "Okna": "onyks bursztynowy",
+        "Rezerwat ekologiczny": "około dwudziestu ośmiu tysięcy metrów kwadratowych"
+      }
+    },
+    "faq_mito": {
+      "hash": "59ad3c4fccade6ae",
+      "texto": {
+        "pregunta": "Mit: Anahuacalli to oryginalna prehiszpańska świątynia.",
+        "respuesta": "Rzeczywistość: To budynek z dwudziestego wieku, zaprojektowany przez Diega Rivera, inspirowany architekturą prehiszpańską."
+      }
+    }
+  }
+}

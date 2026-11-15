@@ -1,0 +1,55 @@
+{
+  "id": "coy_15_esquina_casa_azul",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "505310fa9e18692d",
+      "texto": "Le coin de la Casa Azul"
+    },
+    "frase_gancho": {
+      "hash": "b9e77446900ff8c4",
+      "texto": "La maison bleu cobalt où Frida Kahlo est née et morte, vue depuis la rue."
+    },
+    "puente_narrativo": {
+      "hash": "26d64baab3ee1ab5",
+      "texto": "Marche quelques pas vers le coin d'Aguayo et Londres."
+    },
+    "guion_corto": {
+      "hash": "3169ce7552df22dd",
+      "texto": "Tu es au coin de Londres et Allende, devant la Casa Azul. Ses murs bleu cobalt lui donnent son nom. Elle a été construite en dix-neuf cent quatre, et Frida Kahlo y est née en dix-neuf cent sept. Elle y est morte, à l'étage, le treize juillet dix-neuf cent cinquante-quatre. Diego Rivera a aussi vécu dans cette maison, et l'exilé russe Léon Trotski y a logé entre dix-neuf cent trente-sept et dix-neuf cent trente-neuf. Aujourd'hui c'est un musée. Regarde la couleur, les fenêtres et la rue. Si tu veux entrer, dans cette même application tu as un autre audioguide consacré à la seule Casa Azul."
+    },
+    "guion_largo": {
+      "hash": "2d4cd20ef83a0400",
+      "texto": "Tu es au coin de Londres et Allende, dans le quartier del Carmen, et devant toi se trouve l'une des maisons les plus célèbres du Mexique : la Casa Azul. Si tu la vois pour la première fois, la première chose que tu remarques, c'est la couleur, un bleu cobalt intense qui contraste avec le vert des arbres.\n\nLa maison a été construite en dix-neuf cent quatre. Au début, elle avait une décoration d'inspiration française ; avec le temps, on lui a donné la façade plus simple que tu vois aujourd'hui. C'est ici que Frida Kahlo est née en dix-neuf cent sept. C'est ici qu'elle est morte, à quarante-sept ans, le treize juillet dix-neuf cent cinquante-quatre.\n\nMais cette maison a été bien plus que la maison d'une peintre. Diego Rivera y a aussi vécu avec elle, et il a même fait construire une aile qui donne sur la rue de Londres. Et en janvier dix-neuf cent trente-sept sont arrivés ici Léon Trotski et son épouse Natalia Sedova, exilés, après que Diego et Frida sont intervenus auprès du gouvernement de Lázaro Cárdenas pour qu'on leur accorde l'asile. Ils ont vécu dans cette maison jusqu'en avril dix-neuf cent trente-neuf, quand ils ont déménagé dans une maison voisine, rue Vienne. Nous la verrons plus tard.\n\nAprès la mort de Frida, Diego a donné la maison au Mexique pour qu'elle devienne un musée. Depuis, c'est l'un des lieux qui attirent le plus de visiteurs à Coyoacán.\n\nDepuis la rue, tu peux voir la couleur, les fenêtres et le mouvement du coin : des visiteurs avec des appareils photo, des vendeurs, des groupes qui s'arrêtent pour écouter leur guide. Cette scène fait aussi partie de l'histoire de la maison. Si tu veux la connaître à l'intérieur, tu as un autre audioguide dans cette application consacré à la Casa Azul."
+    },
+    "retos_observacion": {
+      "hash": "008cb94fbcb531c5",
+      "texto": [
+        "Regarde le bleu et remarque comment il change avec la lumière",
+        "Compte combien de langues tu entends au coin de la rue",
+        "Cherche la plaque ou le nom du musée sur la façade"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d85e9857a2f820a9",
+      "texto": {
+        "Adresse": "Londres, angle Allende, quartier del Carmen",
+        "Construction": "dix-neuf cent quatre",
+        "Naissance de Frida": "dix-neuf cent sept",
+        "Mort de Frida": "treize juillet dix-neuf cent cinquante-quatre",
+        "Aujourd'hui": "musée"
+      }
+    },
+    "faq_mito": {
+      "hash": "06712eece107d652",
+      "texto": {
+        "pregunta": "Mythe : La Casa Azul a toujours été bleue.",
+        "respuesta": "Réalité : Aujourd'hui elle est connue pour sa couleur, mais la maison a été construite avec une décoration d'inspiration française, puis on lui a donné la façade actuelle."
+      }
+    }
+  }
+}

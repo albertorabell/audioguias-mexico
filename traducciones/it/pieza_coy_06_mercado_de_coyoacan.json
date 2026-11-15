@@ -1,0 +1,54 @@
+{
+  "id": "coy_06_mercado_de_coyoacan",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude (traducido en la hoja de Sheets)",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "45c0070370c93f2a",
+      "texto": "Il Mercato di Coyoacán: un tetto che sembra di tela"
+    },
+    "frase_gancho": {
+      "hash": "05d775515f8a2df0",
+      "texto": "Un mercato degli anni cinquanta con il disegno di un telone da tianguis."
+    },
+    "puente_narrativo": {
+      "hash": "d07dc1de8bc60390",
+      "texto": "Cammina verso nord lungo Allende, fino all’angolo della Casa Azul."
+    },
+    "guion_corto": {
+      "hash": "53f5f6da611be632",
+      "texto": "Guarda il tetto di questo mercato: sembra un telo steso sopra il tianguis, ma è di cemento, molto sottile. Fu inaugurato il sei ottobre del millenovecentocinquantasei, e il suo progetto si attribuisce a Pedro Ramírez Vázquez e Félix Candela. Prima di questo edificio, le bancarelle si affollavano accanto alla parrocchia. Oggi il mercato sa di frutta, di stufati e di tostadas. Qui si mangia in piedi, con la salsa in mano, e si capisce perché Coyoacán non ha mai smesso di essere un quartiere."
+    },
+    "guion_largo": {
+      "hash": "6da2a8a759df6368",
+      "texto": "Entra nel mercato e, prima di comprare qualsiasi cosa, alza lo sguardo. Il tetto sembra un telo steso sopra un tianguis, ma è di cemento armato, molto sottile, e quella forma non è un caso. L’idea era che il nuovo edificio ricordasse il telone dei tianguis di sempre.\n\nIl mercato fu inaugurato il sei ottobre del millenovecentocinquantasei, e il suo progetto si attribuisce a Pedro Ramírez Vázquez e Félix Candela, con Rafael Mijares. Candela è famoso per le sue sottili coperture di cemento. Questa attribuzione la stiamo ancora verificando, ma si accorda con l’opera che si conosce di loro.\n\nPrima di questo edificio, il commercio di Coyoacán stava in strada. All’inizio del ventesimo secolo, le bancarelle del tianguis, che la gente chiamava le baracche, si installavano accanto alla parrocchia. Ci fu un tentativo di spostarle nel quartiere di La Conchita e poi un primo mercato formale. Ogni cambiamento cercava di mettere ordine in ciò che il paese già faceva: comprare e vendere ogni giorno.\n\nOggi il mercato è una festa per i sensi. Ci sono banchi di frutta e verdura, di fiori, di erbe, di artigianato e di cibo. Un classico sono le tostadas: di zampa, di gambero, di pollo con mole, di ceviche, con salse di arachidi, di chipotle e verde. Si mangiano in piedi, con la salsa a portata di mano, tra le conversazioni dei vicini e dei turisti curiosi.\n\nSi ripete molto che Frida e Diego facessero qui la spesa. È una bella storia, ma ha un problema: il mercato di quell’epoca era un altro. Questo edificio arrivò anni dopo il periodo più noto della coppia. Quello che è certo è che l’atmosfera che vedi è quella che loro conobbero: un quartiere dove si compra di persona, si tratta sul prezzo e si chiacchiera.\n\nSe hai fame, questo è un buon momento. Se no, cammina piano tra i corridoi e osserva. Poi proseguiamo verso nord, a pochi isolati da qui, dove si trova l’angolo della Casa Azul."
+    },
+    "retos_observacion": {
+      "hash": "3ede36b25a7c0158",
+      "texto": [
+        "Guarda il tetto e decidi se sembra tela o cemento",
+        "Cerca un banco di tostadas e guarda quali salse offre",
+        "Conta quanti odori diversi riesci a distinguere in un corridoio"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d21660c95132d15",
+      "texto": {
+        "Inaugurazione": "sei ottobre del millenovecentocinquantasei",
+        "Progetto attribuito a": "Pedro Ramírez Vázquez, Félix Candela e Rafael Mijares",
+        "Struttura": "sottili coperture di cemento armato",
+        "Idea": "il telone dei tianguis"
+      }
+    },
+    "faq_mito": {
+      "hash": "da399c6434415d7b",
+      "texto": {
+        "pregunta": "Mito: Frida e Diego facevano la spesa in questo mercato.",
+        "respuesta": "Realtà: È un mito molto ripetuto; il mercato della loro epoca era un altro, e questo edificio è del millenovecentocinquantasei."
+      }
+    }
+  }
+}
