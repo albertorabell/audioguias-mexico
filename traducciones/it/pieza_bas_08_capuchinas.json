@@ -1,0 +1,55 @@
+{
+  "id": "bas_08_capuchinas",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2cf501b057bd87ae",
+      "texto": "Il tempio e convento delle Cappuccine"
+    },
+    "frase_gancho": {
+      "hash": "4d5c6f413d7c286c",
+      "texto": "Un convento di monache accanto al santuario."
+    },
+    "puente_narrativo": {
+      "hash": "fe40216e6339b812",
+      "texto": "Costeggi l’Antica Basilica e arrivi al tempio delle Cappuccine."
+    },
+    "guion_corto": {
+      "hash": "c47a30b6cdd31092",
+      "texto": "Davanti a te si trova il tempio, un tempo convento, delle cappuccine. La prima pietra fu posata nel millesettecentoottantadue e i lavori furono diretti dall’architetto Ignacio de Castera. Fu inaugurato nel millesettecentoottantasette, per iniziativa di madre Mariana e con il sostegno di vari benefattori. Le religiose vissero qui fino a quando il convento fu nazionalizzato e chiuso nel milleottocentosessantatré. Tra il milleottocentoottantotto e il milleottocentonovantacinque, questo tempio custodì l’immagine mentre si eseguivano dei lavori nell’Antica Basilica. Oggi è la parrocchia di Santa María de Guadalupe."
+    },
+    "guion_largo": {
+      "hash": "5d4d6714188925fb",
+      "texto": "Questo tempio e il convento che lo affianca furono costruiti alla fine del Settecento per una comunità di religiose cappuccine. Le cappuccine sono monache di clausura, della famiglia francescana, che vivono dedicate alla preghiera.\n\nL’opera nacque per iniziativa di madre Mariana, fondatrice della comunità. Il suo nome completo compare in due modi nelle fonti, e per questo qui la chiamiamo così. La prima pietra fu posata nel millesettecentoottantadue. L’architetto Ignacio de Castera, uno dei costruttori attivi a Città del Messico in quegli anni, diresse la costruzione, che fu inaugurata nel millesettecentoottantasette. Tra coloro che sostennero il progetto con risorse ci sono Luis de Torres, Manuel de la Borda e il conte di Regla.\n\nIl convento fu pensato per donne di vita contemplativa. Qui vivevano in clausura, con la preghiera al centro delle loro giornate. In una comunità di clausura, le religiose non escono dal convento e ricevono poche persone. La loro vita si divide tra preghiera, lavoro e silenzio. Quella vita continuò fino al milleottocentosessantatré, quando il governo nazionalizzò i beni della Chiesa, nel contesto delle leggi della Riforma, e il convento fu chiuso. Fu un provvedimento che colpì molti conventi del paese, e le religiose dovettero lasciare l’edificio.\n\nFu anche in questo tempio che venne custodita l’immagine di Nostra Signora di Guadalupe. Tra il ventitré febbraio del milleottocentoottantotto e il trenta settembre del milleottocentonovantacinque, mentre si eseguivano dei lavori nell’Antica Basilica, l’immagine fu venerata in questo luogo. Poi tornò al santuario.\n\nIl terreno sotto il complesso è molle, come quello di tutta questa zona, e l’edificio ha subito dei cedimenti. Tra il millenovecentosettantasei e il millenovecentoottantadue furono collocati dei pali di controllo per stabilizzarlo. Il cedimento, tuttavia, continua.\n\nNello stesso complesso si trova la Cappella dei Giuramenti, che fa capo anch’essa a questa parrocchia. Oggi il tempio è la Parrocchia di Santa María de Guadalupe. È una chiesa in uso, con messe e servizi per la comunità. Sull’altare maggiore c’è una Sacra Famiglia dipinta in un cerchio, e nell’edificio vicino, che fu il convento, si trova il Museo della Basilica.\n\nÈ parte della storia del luogo che non sempre si vede: quella delle persone che, per più di settant’anni, vissero qui dedicate alla preghiera, a pochi passi dal santuario della Vergine."
+    },
+    "retos_observacion": {
+      "hash": "6f1eceb9f079bbb9",
+      "texto": [
+        "Cerca la facciata e il suo portale",
+        "Osserva l’edificio del convento accanto al tempio",
+        "Fai attenzione alla targa, se ce n’è una"
+      ]
+    },
+    "especificaciones": {
+      "hash": "16e5d0bf32d3599c",
+      "texto": {
+        "Prima pietra": "1782",
+        "Architetto": "Ignacio de Castera",
+        "Inaugurazione": "1787",
+        "Convento chiuso": "1863",
+        "Immagine qui": "dal 1888 al 1895"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e1aaca2ce4f9d8f",
+      "texto": {
+        "pregunta": "Mito: Il tempio delle Cappuccine è sempre stato una parrocchia.",
+        "respuesta": "Realtà: Fu un convento di religiose fino a quando fu nazionalizzato e chiuso nel milleottocentosessantatré. Oggi è la parrocchia di Santa María de Guadalupe."
+      }
+    }
+  }
+}

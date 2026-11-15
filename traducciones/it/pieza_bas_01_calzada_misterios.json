@@ -1,0 +1,55 @@
+{
+  "id": "bas_01_calzada_misterios",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "52078cacc20d929a",
+      "texto": "Il Viale dei Misteri"
+    },
+    "frase_gancho": {
+      "hash": "9dd703844d5a3a6c",
+      "texto": "Una strada mexica diventata cammino di pellegrini."
+    },
+    "puente_narrativo": {
+      "hash": "56864a3a8c4c3421",
+      "texto": "Cominci da dove cominciarono molti pellegrini: la strada che sale al Tepeyac."
+    },
+    "guion_corto": {
+      "hash": "49cde3e071cbeabb",
+      "texto": "Questo viale è molto più antico della Basilica. I Mexica lo tracciarono per unire Tenochtitlan con la collina del Tepeyac, e da allora è la strada di chi arriva in questo luogo. Nel milleseicentosettantacinque iniziò la costruzione di quindici monumenti, uno per ciascun mistero del rosario, la preghiera con cui i cattolici meditano sulla vita di Gesù e della Vergine Maria. Li progettò l’architetto Cristóbal de Medina Vargas. Se ne conservano otto originali e sette furono ricostruiti nel millenovecentonovantanove. Fa parte del percorso con cui per secoli si è raggiunto il Tepeyac dalla città. Ancora oggi molti pellegrini percorrono questo cammino a piedi, in silenzio o recitando preghiere."
+    },
+    "guion_largo": {
+      "hash": "cc9eda013c507bf4",
+      "texto": "Ti trovi in una delle strade più antiche di Città del Messico. Prima che esistesse la Basilica, prima dell’arrivo degli spagnoli, i Mexica costruirono questo viale per unire Tenochtitlan con la Sierra di Guadalupe e con la collina del Tepeyac. Così lo riporta la scheda dell’Istituto Nazionale di Antropologia e Storia (INAH) sul monumento.\n\nDurante l’epoca vicereale continuò a essere la via principale verso il santuario. Per molto tempo questa strada si chiamò anche Viale di Guadalupe. Oggi quel nome appartiene a un’altra strada parallela, la cui costruzione iniziò nel millesettecentottantasei. Dopo la grande inondazione del milleseicentoquattro, il viale fu riparato perché si potesse continuare a usarlo. Da qui arrivavano i pellegrini dalla città, e da qui hanno continuato ad arrivare.\n\nNel decennio del milleseicentosettanta si decise di dare forma permanente alle soste che i viandanti facevano lungo il tragitto. L’architetto Cristóbal de Medina Vargas propose di erigere quindici monumenti, uno per ciascun mistero del rosario. I lavori iniziarono nel milleseicentosettantacinque, e il primo, quello dell’Incarnazione, fu terminato nel milleseicentosettantasei.\n\nIl rosario è una preghiera cattolica. Chi lo recita ripete delle orazioni mentre pensa a momenti della vita di Gesù e della Vergine Maria. Questi momenti si chiamano misteri e si raggruppano in tre serie di cinque. I gaudiosi ricordano, per esempio, l’annunciazione e la nascita di Gesù. I dolorosi ricordano la sua passione. I gloriosi ricordano la resurrezione e la gloria di Maria. Quindici monumenti, dunque, formavano un cammino di preghiera per chi andava a piedi verso il santuario.\n\nIl Monumento ai Pellegrini segna l’inizio tradizionale del viale, e da lì si contano i quindici misteri verso nord. I monumenti sono opere barocche, simili a stele, con scene e figure nella parte alta. Nei secoli successivi subirono cambiamenti e perdite. Nel diciannovesimo secolo, i lavori della ferrovia ne danneggiarono diversi. Alla fine del ventesimo secolo se ne conservavano solo otto dei quindici originali.\n\nNel millenovecentonovantanove il viale fu restaurato e furono ricostruiti sette monumenti. Oggi ce ne sono quindici, otto originali e sette ricostruiti, distribuiti tra i municipi Cuauhtémoc e Gustavo A. Madero. Se percorri questa strada, vedrai che ciascuno si identifica con il proprio mistero.\n\nQuesta tappa è gratuita e puoi ascoltarla presso uno qualsiasi dei monumenti. Se cammini verso nord, arriverai alla Villa di Guadalupe. Molte persone fanno il tragitto completo a piedi, alcune recitando il rosario, altre in silenzio, e altre semplicemente camminando e guardando. Tutti sono benvenuti. Nei giorni di pellegrinaggio, questo viale si riempie di gente che viene da lontano.\n\nPer chi viene a pregare, è un cammino di fede. Per chi viene a conoscere, è una strada con più di cinque secoli di storia che svolge ancora la funzione per cui fu costruita: portare la gente fino al Tepeyac."
+    },
+    "retos_observacion": {
+      "hash": "4ac89ee8aad46418",
+      "texto": [
+        "Cerca i monumenti dei misteri lungo il viale",
+        "Osserva i pellegrini che arrivano a piedi",
+        "Guarda verso la collina e individua la Basilica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "104ff548294aac0c",
+      "texto": {
+        "Origine": "viale mexica",
+        "Monumenti": "quindici, uno per ciascun mistero del rosario",
+        "Progetto": "Cristóbal de Medina Vargas, dal 1675",
+        "Originali conservati": "otto",
+        "Sostituiti nel 1999": "sette"
+      }
+    },
+    "faq_mito": {
+      "hash": "06d8e7c9b0b7c9dc",
+      "texto": {
+        "pregunta": "Mito: Il Viale dei Misteri fu costruito per la Basilica attuale.",
+        "respuesta": "Realtà: I Mexica avevano già tracciato una strada verso il Tepeyac. La costruzione dei quindici monumenti dei misteri iniziò nel milleseicentosettantacinque; oggi otto sono originali e sette furono ricostruiti nel millenovecentonovantanove."
+      }
+    }
+  }
+}

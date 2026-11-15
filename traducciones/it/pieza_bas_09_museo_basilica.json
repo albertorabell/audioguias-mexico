@@ -1,0 +1,55 @@
+{
+  "id": "bas_09_museo_basilica",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8f53edf3c8475513",
+      "texto": "Il Museo della Basilica di Guadalupe"
+    },
+    "frase_gancho": {
+      "hash": "1f9d89cbb51b5773",
+      "texto": "Arte sacra e la memoria della devozione nell’antico convento."
+    },
+    "puente_narrativo": {
+      "hash": "955d94e8c3020ad2",
+      "texto": "Prosegui verso il museo, nell’antico convento."
+    },
+    "guion_corto": {
+      "hash": "e7258066a6048b56",
+      "texto": "Sei nel Museo della Basilica di Guadalupe, aperto il dodici ottobre millenovecentoquarantuno. Occupa l’antico convento, dietro l’Antica Basilica. Ha circa sedici sale e più di quattromila opere d’arte asiatica, europea e novoispanica, dal quindicesimo al ventesimo secolo. Ci sono opere di pittori come Cristóbal de Villalpando, José de Ibarra e Miguel Cabrera. È considerato uno dei musei più antichi del Messico. Qui si riuniscono l’arte sacra e anche la memoria della devozione: offerte e oggetti che i fedeli hanno lasciato nel corso dei secoli. Gli orari e il costo del biglietto possono cambiare."
+    },
+    "guion_largo": {
+      "hash": "6f19f391b0542aa5",
+      "texto": "Il Museo della Basilica di Guadalupe ha aperto le sue porte il dodici ottobre millenovecentoquarantuno. È considerato uno dei musei più antichi del Messico. Occupa l’antico convento delle cappuccine, dietro l’Antica Basilica.\n\nLa sua collezione è ampia. Ha circa sedici sale e più di quattromila opere. C’è arte asiatica, europea e novoispanica, dal quindicesimo al ventesimo secolo. Tra gli autori citati ci sono Matías de Arteaga y Alfaro, Cristóbal de Villalpando, Nicolás Rodríguez Juárez, José de Ibarra e Miguel Cabrera, nomi importanti della pittura novoispanica. Il museo si presenta come quello che riunisce la più grande collezione legata alla Vergine di Guadalupe.\n\nOltre alla pittura su tela, ci sono sculture policrome, sculture in marmo e avorio, incisioni, libri, tessuti come stendardi, arazzi e paramenti liturgici, oreficeria e mobili di origine messicana. Alcune sale sono organizzate per tema. C’è una Sala degli Arcangeli, con dipinti degli arcangeli, e una Sala Cristologica, dedicata a Gesù.\n\nUna parte importante della collezione sono gli ex voto, i piccoli dipinti con cui i fedeli hanno reso grazie, dei quali parleremo alla prossima tappa.\n\nAnche l’edificio custodisce una parte della storia. È l’antico convento delle cappuccine, e rimase parzialmente separato dall’Antica Basilica, una separazione che si apprezza meglio dall’esterno.\n\nSecondo la direzione del museo, quando aprì, nel millenovecentoquarantuno, l’arte religiosa non era apprezzata come oggi, e la sua fondazione fu una decisione in anticipo sui tempi. Con gli anni, la collezione è stata richiesta per importanti mostre, come quelle del Museo del Prado, a Madrid, e del Metropolitan Museum of Art, a New York.\n\nChi visita il museo lo fa in modi diversi. Per i credenti è un modo di conoscere la devozione delle generazioni passate. Per chi studia l’arte, è una collezione di pittura novoispanica. Per i curiosi, è una finestra su come si viveva la fede in ogni epoca. La direttrice del museo ha detto che percorrerlo è un’esperienza spirituale, indipendentemente dalla religione che ciascuno professa.\n\nGli orari, il costo del biglietto e le sale aperte possono cambiare. Conviene confermarli sul sito ufficiale prima di andare. È un museo, ma fa anche parte di un luogo di culto, quindi ci si aspetta un comportamento rispettoso.\n\nSe hai poco tempo, scegli una sala e osserva con calma una sola opera. Un dipinto ben guardato dice più di tante occhiate frettolose."
+    },
+    "retos_observacion": {
+      "hash": "7f97d36c306962b3",
+      "texto": [
+        "Cerca un’opera di Villalpando, Ibarra o Cabrera",
+        "Osserva gli oggetti lasciati dai fedeli",
+        "Fai attenzione all’edificio dell’antico convento"
+      ]
+    },
+    "especificaciones": {
+      "hash": "823a01f3b8b7ee2e",
+      "texto": {
+        "Apertura": "12 ottobre 1941",
+        "Sale": "circa 16",
+        "Pezzi": "più di 4 000",
+        "Epoche": "dal XV al XX secolo",
+        "Pittori": "Villalpando, Ibarra, Cabrera"
+      }
+    },
+    "faq_mito": {
+      "hash": "393c5d6014d2c3d7",
+      "texto": {
+        "pregunta": "Mito: Il Museo della Basilica è recente.",
+        "respuesta": "Realtà: Ha aperto il dodici ottobre millenovecentoquarantuno ed è considerato uno dei musei più antichi del Messico."
+      }
+    }
+  }
+}

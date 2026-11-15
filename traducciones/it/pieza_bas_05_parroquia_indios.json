@@ -1,0 +1,54 @@
+{
+  "id": "bas_05_parroquia_indios",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "345cf9b598580178",
+      "texto": "La Parrocchia degli Indios"
+    },
+    "frase_gancho": {
+      "hash": "ebe7c4d3988cad57",
+      "texto": "L’edificio più antico che si conserva del complesso."
+    },
+    "puente_narrativo": {
+      "hash": "398b1205f5b73106",
+      "texto": "Scendi verso la Parrocchia degli Indios, una cappella piccola e tranquilla."
+    },
+    "guion_corto": {
+      "hash": "4ed837fbf6a1d15f",
+      "texto": "Questo è l’edificio più antico che si conserva in tutto il complesso. Fu costruito intorno al milleseicentoquarantanove da Luis Lasso de la Vega, vicario di Guadalupe. Si chiama degli Indios perché nel milleseicentosettantanove vi si stabilì una confraternita di indigeni. Secondo la tradizione, in questo luogo san Juan Diego visse i suoi ultimi anni e sorse il primo eremo. L’immagine di Nostra Signora di Guadalupe fu venerata in questa cappella dal milleseicentonovantacinque al millesettecentonove, mentre si costruiva l’Antica Basilica. È uno spazio piccolo e tranquillo, in cui molti pellegrini entrano in silenzio."
+    },
+    "guion_largo": {
+      "hash": "b186b91c6e1ff85a",
+      "texto": "Questa piccola chiesa è la costruzione più antica che si conserva in tutto il complesso della Basilica. Fu innalzata intorno al milleseicentoquarantanove per volontà di Luis Lasso de la Vega, vicario di Guadalupe. È lo stesso sacerdote che, in quell’anno, diede alle stampe l’Huei tlamahuiçoltica, il libro che include il Nican mopohua, il racconto delle apparizioni scritto in nahuatl.\n\nLa parola indios era quella che si usava allora per i popoli originari. Oggi si dice indigeni, e il nome storico del tempio si conserva per tradizione.\n\nLa chiamano Parrocchia degli Indios perché, secondo il sito ufficiale del santuario, nel milleseicentosettantanove vi si stabilì una confraternita di indigeni. Una confraternita è un’associazione di fedeli che si riunisce attorno a una devozione. Durante l’epoca vicereale, questo fu uno spazio molto legato alla popolazione indigena che arrivava al Tepeyac.\n\nLa tradizione guadalupana colloca qui il primo tempio. Secondo essa, dopo le apparizioni, fra Juan de Zumárraga chiese che si innalzasse un eremo nel luogo indicato da Juan Diego. Le fonti discutono sulla data, che di solito viene indicata come millecinquecentotrentuno o millecinquecentotrentatré. L’arcivescovo Alonso de Montúfar lo ampliò nel millecinquecentocinquantasei. La tradizione del luogo sostiene che all’interno di questa chiesa si conservi un muro di quel primo eremo.\n\nLa tradizione racconta anche che san Juan Diego visse accanto all’eremo fino alla sua morte, nel millecinquecentoquarantotto, prendendosene cura e accogliendo i pellegrini. Una croce all’esterno segna il punto in cui, si crede, sorgeva la sua casa. I fedeli considerano questo uno dei luoghi più vicini alla sua memoria.\n\nQuesta chiesa ebbe inoltre un ruolo importante nella storia dell’immagine. Nel milleseicentonovantacinque si decise di costruire un nuovo tempio, l’Antica Basilica, e il santuario precedente fu demolito. L’immagine di Nostra Signora di Guadalupe passò allora in questa cappella, dove rimase fino a quando, nell’aprile del millesettecentonove, fu portata in processione al nuovo tempio. Furono quattordici anni di attesa per coloro che la veneravano.\n\nOggi l’Antica Parrocchia degli Indios dipende dalla Parrocchia di Santa Maria di Guadalupe, quella delle Cappuccine, che si trova quasi di fronte. È un tempio in uso, con messe e momenti di preghiera. Ciò che si vede è una piccola chiesa del diciassettesimo secolo. Ciò che si racconta, la tradizione, è ciò che la rende speciale per i fedeli, e questa tappa ti offre le due cose separatamente.\n\nChi entra lo fa con calma. Alcuni si fermano davanti all’altare e altri semplicemente si siedono un momento. Qui non c’è molto da fare se non stare. È un buon posto per pensare alla distanza tra il piccolo eremo dei primi tempi e la grande spianata che ti sei lasciato alle spalle."
+    },
+    "retos_observacion": {
+      "hash": "6155dbdc9e52be40",
+      "texto": [
+        "Guarda la facciata semplice",
+        "Cerca il colle dietro la cappella",
+        "Entra in silenzio se è aperta"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b6c64c032160b862",
+      "texto": {
+        "Costruzione": "intorno al 1649",
+        "Promotore": "Luis Lasso de la Vega",
+        "Confraternita di indigeni": "1679",
+        "Immagine venerata qui": "dal 1695 al 1709"
+      }
+    },
+    "faq_mito": {
+      "hash": "304fe08f0d8959b8",
+      "texto": {
+        "pregunta": "Mito: L’Antica Basilica è l’edificio più antico del complesso.",
+        "respuesta": "Realtà: Il più antico che si conserva è la Parrocchia degli Indios, risalente a intorno al milleseicentoquarantanove. L’Antica Basilica fu terminata nel millesettecentonove."
+      }
+    }
+  }
+}

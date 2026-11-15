@@ -1,0 +1,54 @@
+{
+  "id": "bas_17_cerrito",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d406831019995b44",
+      "texto": "La Cappella del Cerrito"
+    },
+    "frase_gancho": {
+      "hash": "8413c2bebbe53379",
+      "texto": "La cima del Tepeyac, con vista sulla città."
+    },
+    "puente_narrativo": {
+      "hash": "0dc1d8afafdc934f",
+      "texto": "Sali gli ultimi metri fino alla cima del colle."
+    },
+    "guion_corto": {
+      "hash": "4ea6a86d9b1065b2",
+      "texto": "Sei arrivato in cima al Tepeyac, alla Cappella del Cerrito. Secondo la tradizione guadalupana, in questo luogo san Juan Diego trovò le rose che portò al vescovo come segno. Cristóbal de Aguirre e sua moglie Teresa fecero costruire qui un piccolo eremo, nel milleseicentosessanta o nel milleseicentosessantasei, a seconda della fonte. La cappella attuale, dedicata a san Michele Arcangelo, risale al Settecento, con una facciata barocca di tezontle senza torri. All’interno ci sono affreschi del muralista Fernando Leal che raccontano le apparizioni. Dalla terrazza si vede la città. Si chiama anche Cappella delle Rose, e i suoi orari possono cambiare."
+    },
+    "guion_largo": {
+      "hash": "e9bca9178b58c498",
+      "texto": "Ti trovi in cima al colle del Tepeyac, davanti alla Cappella del Cerrito, che si chiama anche Cappella delle Rose o Cappella del Cerrito de los Ángeles.\n\nSecondo la tradizione guadalupana, in questo luogo san Juan Diego raccolse le rose che portò nella sua tilma al vescovo fra Juan de Zumárraga, come segno che gli chiedeva la Vergine Maria. Per questo la si ricorda come la cappella delle rose. È, per molti fedeli, il luogo più legato alle apparizioni di tutto il complesso.\n\nIl primo eremo in questo luogo lo fecero costruire Cristóbal de Aguirre e sua moglie Teresa, per ricordare le tre apparizioni avvenute sul colle. Una targa sul posto indica la data del milleseicentosessanta. Altre fonti dicono milleseicentosessantasei, e qui si citano entrambe. Fu dedicato a san Michele Arcangelo, che la tradizione cristiana riconosce come capo degli angeli e il cui nome si interpreta come «chi come Dio». La Chiesa lo presenta come difensore e protettore, con l’idea che dall’alto vegliasse sul santuario ai piedi del colle.\n\nQuell’antico eremo fu sostituito. A metà del Settecento si chiese il permesso di costruirne uno nuovo. Il primo eremo fu demolito nel millesettecentoquarantotto, e verso il millesettecentocinquantasei si celebrò la prima messa nell’attuale cappella. La facciata, di stile barocco, è fatta di tezontle rosso e non ha torri.\n\nLa targa della cappella attribuisce la sua facciata, e anche la Vela del Marino e la scalinata orientale, all’architetto Francisco Guerrero y Torres, lo stesso che progettò la Cappella del Pocito.\n\nLa cappella fu ricostruita tra il millenovecentoquarantacinque e il millenovecentocinquanta. In quella fase fu aggiunta una piccola piazza con quattro sculture degli arcangeli Michele, Raffaele, Gabriele e Uriele. Nel milleottocentonovantacinque erano stati collocati quattro angeli di marmo, opera dello scultore Ernesto Tamariz, e una croce d’apostolo, nell’anno dell’incoronazione pontificia dell’immagine.\n\nAll’interno, la decorazione è fatta di affreschi del pittore Fernando Leal, uno degli artisti del movimento muralista messicano. I suoi dipinti rappresentano momenti delle apparizioni, così come li racconta la tradizione, e sono un modo di raccontare la storia a chi visita la cappella.\n\nSi sale alla cappella per una scalinata ripida e tortuosa, ed è meglio affrontarla con calma. Dalla terrazza si vede la città. Il colle, che nel Cinquecento era lontano dalla città, oggi si trova circondato da strade ed edifici.\n\nQuesto è un tempio piccolo e molto visitato. Quando c’è una preghiera o una messa, si raccomanda di aspettare fuori o di entrare senza fare rumore. Gli orari possono cambiare, per cui conviene confermarli sul sito ufficiale."
+    },
+    "retos_observacion": {
+      "hash": "18597ab37d7225c8",
+      "texto": [
+        "Guarda la facciata di tezontle senza torri",
+        "Cerca la terrazza e la vista sulla città",
+        "Osserva gli affreschi di Fernando Leal all’interno della cappella"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3d6ebf0963fff18",
+      "texto": {
+        "Eremo": "1660 o 1666, a seconda della fonte",
+        "Promotori": "Cristóbal de Aguirre e Teresa",
+        "Cappella attuale": "XVIII secolo, dedicata a san Michele Arcangelo",
+        "Affreschi": "Fernando Leal"
+      }
+    },
+    "faq_mito": {
+      "hash": "001efa0cfdf1e4a7",
+      "texto": {
+        "pregunta": "Mito: La cappella in cima è quella originale.",
+        "respuesta": "Realtà: Il primo eremo risale al milleseicentosessanta o al milleseicentosessantasei, a seconda della fonte; la cappella attuale è del Settecento."
+      }
+    }
+  }
+}

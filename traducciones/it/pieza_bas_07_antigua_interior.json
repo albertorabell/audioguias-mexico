@@ -1,0 +1,55 @@
+{
+  "id": "bas_07_antigua_interior",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b4fa6663086fd59a",
+      "texto": "L’Antica Basilica: l’interno"
+    },
+    "frase_gancho": {
+      "hash": "958caa3468156f4e",
+      "texto": "Dove si trovò l’immagine per quasi trecento anni."
+    },
+    "puente_narrativo": {
+      "hash": "0a89561847e3dbef",
+      "texto": "Entri nel tempio, oggi dedicato a Cristo Re."
+    },
+    "guion_corto": {
+      "hash": "24b8e51a85d0a699",
+      "texto": "All’interno di questa chiesa si trovava l’immagine di Nostra Signora di Guadalupe dal millesettecentonove. Nel millesettecentotrentasette la Città del Messico giurò la Vergine di Guadalupe come patrona. Qui l’immagine fu incoronata il dodici ottobre milleottocentonovantacinque, con l’autorizzazione di papa Leone tredici. Nel millenovecentoventuno una bomba esplose ai piedi dell’altare maggiore. E nel millenovecentosettantasei l’immagine fu trasferita alla Nuova Basilica. Oggi il tempio è dedicato a Cristo Re ed è ancora in uso. Chi entra lo fa come in un tempio vivo, con calma."
+    },
+    "guion_largo": {
+      "hash": "deee74015bf9aa3d",
+      "texto": "Entri in un tempio che, per più di due secoli e mezzo, fu il centro del culto guadalupano. L’immagine di Nostra Signora di Guadalupe fu venerata qui dalla sua dedicazione, nel millesettecentonove, fino al millenovecentosettantasei, con alcune uscite temporanee. Nel millesettecentocinque era stato commissionato allo scultore Manuel de Nava il retablo maggiore, per sedicimila pesos, perché l’immagine avesse un altare all’altezza.\n\nPer questo qui accaddero molti momenti della storia del culto. Nel millesettecentotrentasette la Città del Messico giurò la Vergine di Guadalupe come sua patrona. Nel millesettecentoquarantasei lo fu della Nuova Spagna, e nel millesettecentocinquantaquattro papa Benedetto quattordici confermò il patronato e concesse una messa propria per il dodici dicembre.\n\nLa collegiata fu istituita ufficialmente nel millesettecentoquarantanove, e nel millesettecentocinquanta si riunì il suo primo capitolo, il gruppo di sacerdoti che si occupava del santuario.\n\nNel milleottocentoottantotto, a causa dei lavori diretti da Juan Agea ed Emilio Dondé, l’immagine lasciò questo luogo e fu venerata nel tempio delle Cappuccine. Tornò il trenta settembre milleottocentonovantacinque, dodici giorni prima dell’incoronazione.\n\nQui si celebrò anche l’incoronazione dell’immagine, il dodici ottobre milleottocentonovantacinque, con l’autorizzazione di papa Leone tredici. La corona fu consegnata dall’abate José Antonio Plancarte. Presiedette l’arcivescovo Próspero María Alarcón.\n\nNel millenovecentoventuno accadde un fatto che si ricorda ancora oggi. Il quattordici novembre, verso le dieci e mezza del mattino, una bomba di dinamite nascosta in una composizione di fiori esplose ai piedi dell’altare. L’immagine non subì alcun danno. Il crocifisso che si trovava sull’altare rimase contorto, e oggi si conserva nella Nuova Basilica. Lo vedrai in un’altra tappa.\n\nIl tempio fu chiuso nel millenovecentosettantasei per l’affondamento del terreno. Dopo i lavori di consolidamento, fu riaperto al culto come Tempio Espiatorio a Cristo Re. È, dunque, un edificio con due vite: quella di santuario dell’immagine, per secoli, e quella di tempio dedicato a Cristo, da alcuni decenni.\n\nPrima di entrare, è bene sapere che è un luogo di culto attivo. Possono esserci messe o persone in preghiera. Conviene parlare a bassa voce e fotografare con discrezione. Se c’è una cerimonia in corso, puoi aspettare o tornare più tardi.\n\nMentre cammini tra le navate, pensa a quante persone si sono fermate proprio su questo pavimento. Pellegrini della Città del Messico e di luoghi lontani, per due secoli e mezzo, sono passati per questo spazio per vedere l’immagine. Questa è la storia che custodiscono queste mura, al di là della loro architettura."
+    },
+    "retos_observacion": {
+      "hash": "a2f8c489b97c7802",
+      "texto": [
+        "Guarda verso l’altare maggiore",
+        "Cerca il luogo dove fu incoronata l’immagine nel 1895",
+        "Entra in silenzio, come in un tempio in uso"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b54d0953a57cee5",
+      "texto": {
+        "Immagine qui": "dal 1709 al 1976",
+        "Patrona della città": "1737",
+        "Incoronazione": "12 ottobre 1895",
+        "Bomba": "14 novembre 1921",
+        "Oggi": "Tempio Espiatorio a Cristo Re"
+      }
+    },
+    "faq_mito": {
+      "hash": "4d533725aefcc649",
+      "texto": {
+        "pregunta": "Mito: L’immagine è sempre stata nella Nuova Basilica.",
+        "respuesta": "Realtà: Si trovava nell’Antica Basilica dal millesettecentonove al millenovecentosettantasei."
+      }
+    }
+  }
+}

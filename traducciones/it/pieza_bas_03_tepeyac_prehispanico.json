@@ -1,0 +1,45 @@
+{
+  "id": "bas_03_tepeyac_prehispanico",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0e8c809acb502526",
+      "texto": "Il Tepeyac prima del santuario"
+    },
+    "frase_gancho": {
+      "hash": "79f23eb3a65e55c8",
+      "texto": "Una collina meta di visite da molto prima della Basilica."
+    },
+    "puente_narrativo": {
+      "hash": "b60863c0e81522de",
+      "texto": "Dalla piazza, guarda verso la collina e pensa a ciò che c’era prima delle costruzioni."
+    },
+    "guion_corto": {
+      "hash": "24413fbd3f7c3b97",
+      "texto": "Prima che qui esistesse un santuario cristiano, questa collina era già un luogo di visita. I Mexica la collegarono a Tenochtitlan con una strada rialzata. Il frate francescano Bernardino de Sahagún scrisse intorno al millecinquecentosettantasei che in questo luogo accorreva molta gente a onorare Tonantzin, un nome nahuatl che significa nostra madre. A Sahagún preoccupava il significato che aveva quella devozione. Gli storici continuano a studiare come si rapportino le due tradizioni, e non tutti concordano. La collina, oggi circondata dalla città, si trova a nord di quella che fu la capitale mexica. Per i fedeli, il Tepeyac è soprattutto il luogo in cui la Vergine Maria apparve a San Juan Diego."
+    },
+    "guion_largo": {
+      "hash": "4d0b8825c7c5898c",
+      "texto": "La collina del Tepeyac si trova all’estremità settentrionale dell’antica valle del Messico, ai piedi della sierra di Guadalupe. La collina fa parte della sierra di Guadalupe. Oggi è circondata dalla città, ma nel Cinquecento era un luogo lontano da Tenochtitlan, al quale si arrivava percorrendo una strada rialzata. Quella strada è la stessa che oggi conosciamo come Calzada de los Misterios.\n\nIl fatto che i Mexica abbiano costruito una strada fino a questa collina dice qualcosa: era un luogo in cui si andava. Nella tradizione mesoamericana le colline avevano spesso un significato religioso, e il Tepeyac non faceva eccezione tra le colline della valle. Oggi sappiamo poco di ciò che qui si faceva, e quel poco che sappiamo ci arriva per altre vie.\n\nLa più conosciuta è quella del frate francescano Bernardino de Sahagún. Intorno al millecinquecentosettantasei, nella sua opera sulle cose della Nuova Spagna, scrisse che sul Tepeyac c’era un luogo dove si onorava la dea Tonantzin, e che fin lì accorreva gente da luoghi lontani. Tonantzin è un nome nahuatl che significa nostra madre. Sahagún racconta che quella devozione lo inquietava, perché lo stesso nome poteva essere inteso in due modi, e lo preoccupava chi stessero onorando coloro che salivano.\n\nQuesta è un’informazione che proviene da un solo autore, scritta diversi decenni dopo la conquista. Per questo gli storici la leggono con cautela, e ogni generazione di studiosi vi è tornata sopra per rivedere ciò che si sa. Alcuni pensano che mostri una continuità tra l’antico luogo di culto e il santuario cristiano. Altri pensano che il rapporto tra i due sia più difficile da dimostrare. Sulla collina sono stati fatti ritrovamenti archeologici, ma anche la loro interpretazione è discussa.\n\nCiò che si può dire con certezza è questo. Il Tepeyac fu, già prima della conquista, un luogo dal significato religioso per chi viveva nella valle. E fu, a partire dal Cinquecento, il luogo in cui venne costruito il santuario della Vergine di Guadalupe.\n\nPer i fedeli, quel santuario nasce da un avvenimento. Secondo la tradizione guadalupana, nel dicembre del millecinquecentotrentuno la Vergine Maria apparve qui a Juan Diego, un indigeno, e gli parlò nella sua lingua. La Chiesa riconosce il culto di Nostra Signora di Guadalupe e nel duemiladue canonizzò San Juan Diego in questa stessa Basilica. Chi vive la fede in questa tradizione non vede nella collina un luogo che fu di altri, ma il luogo in cui la Vergine venne a incontrare il suo popolo.\n\nQuesta tappa non risolve la discussione degli storici. Ti offre soltanto i dati: una strada antica, una collina con un culto, la preoccupazione di un frate e una tradizione che ha riunito milioni di persone per quasi cinque secoli."
+    },
+    "retos_observacion": {
+      "hash": "7b95a44449b68db6",
+      "texto": [
+        "Guarda la collina dalla piazza",
+        "Individua il nord: la capitale mexica si trovava a sud",
+        "Confronta la collina con la città che oggi la circonda"
+      ]
+    },
+    "especificaciones": {
+      "hash": "62c42cb6f136ab9c",
+      "texto": {
+        "Fonte principale": "Bernardino de Sahagún, intorno al 1576",
+        "Nome nahuatl": "Tonantzin, nostra madre"
+      }
+    }
+  }
+}

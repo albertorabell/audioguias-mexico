@@ -1,0 +1,54 @@
+{
+  "id": "bas_12_cristo_atentado",
+  "tipo": "pieza",
+  "idioma": "it",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "801feedc00e2dc7b",
+      "texto": "Il Santo Cristo dell’Attentato"
+    },
+    "frase_gancho": {
+      "hash": "336c35abff7707c6",
+      "texto": "Un crocifisso storto che ricorda l’attentato del 1921."
+    },
+    "puente_narrativo": {
+      "hash": "e4dbd2ba8e875bff",
+      "texto": "All’interno del tempio, cerca la vetrina in cui è custodito il crocifisso."
+    },
+    "guion_corto": {
+      "hash": "b20ea1b039171f09",
+      "texto": "All’interno di questa Basilica si conserva una croce storta, il Santo Cristo dell’Attentato. Il quattordici novembre del millenovecentoventuno, verso le dieci e mezza del mattino, scoppiò una bomba di dinamite nella Antigua Basílica. Un uomo sconosciuto l’aveva lasciata nascosta tra dei fiori, ai piedi dell’altare maggiore. L’altare di marmo rimase molto danneggiato, e questo crocifisso di metallo, che si trovava sull’altare, si piegò. Il racconto che si conserva narra che il vetro che proteggeva l’immagine della Vergine non si ruppe. I fedeli lo considerano un miracolo. Oggi il crocifisso è custodito in una vetrina, accanto a una pergamena che racconta l’accaduto."
+    },
+    "guion_largo": {
+      "hash": "ec6f3fef4ba0c22d",
+      "texto": "All’interno di questa Basilica, in una vetrina, si conserva una croce storta. È conosciuta come il Santo Cristo dell’Attentato. Per capire perché sia importante, bisogna tornare a una mattina del millenovecentoventuno.\n\nIn quegli anni l’immagine della Vergine di Guadalupe si trovava nella Antigua Basílica, il tempio che sorge accanto a questo. Mancavano ancora più di cinquant’anni alla costruzione della Basilica in cui ti trovi ora. La Antigua Basílica era un tempio molto amato. Nel milleottocentonovantacinque l’immagine vi era stata incoronata, e nel millenovecentoquattro il tempio era stato elevato a basilica minore. L’altare maggiore era di marmo. Sopra l’altare c’era un crocifisso di metallo, davanti all’immagine.\n\nLunedì quattordici novembre, al termine della messa del mattino, un uomo si avvicinò all’altare. Portava una composizione di fiori e la lasciò ai suoi piedi. Dentro i fiori era nascosta una bomba di dinamite. Verso le dieci e mezza del mattino esplose.\n\nL’esplosione danneggiò l’altare di marmo. Il crocifisso, che si trovava davanti all’immagine, rimase piegato. Il giorno seguente, il giornale El Gran Diario de México pubblicò in prima pagina le immagini dell’altare distrutto e della croce storta. Quelle fotografie fanno parte della documentazione storica di quanto accadde.\n\nOra viene ciò che racconta la narrazione conservata nella Basilica. Dice che il vetro che copriva l’immagine della Vergine non si incrinò nemmeno. Per i fedeli, questo fatto è un miracolo. Nel loro modo di raccontarlo, il Figlio protesse la Madre. Per questo venerano in modo speciale il crocifisso che ricevette la forza dell’esplosione. È una lettura di fede, e così la conserva la comunità guadalupana.\n\nOggi il crocifisso è esposto in questa Basilica, dentro una vetrina. Lo accompagna una pergamena che spiega i fatti, insieme alle fotografie scattate dopo l’attentato. Con il passare del tempo, il ricordo di quel giorno è diventato parte della memoria del santuario.\n\nNel duemilaventuno si sono compiuti cent’anni dall’attentato. Per l’occasione, la Basilica ha aperto un Anno Santo con indulgenza plenaria. Fu un modo di ricordare l’accaduto all’interno della vita della Chiesa. L’indulgenza plenaria è, per i cattolici, la remissione della pena temporale per peccati già perdonati, secondo condizioni stabilite dalla Chiesa stessa.\n\nChi si avvicina a questa vetrina lo fa di solito in silenzio. Alcune persone si fermano a pregare. Altre chiedono grazie a questo Cristo, e altre ancora guardano soltanto la forma contorta del metallo. Ognuno lo vive a modo suo.\n\nSe stai per guardare la vetrina, fallo senza disturbare chi sta pregando. È un’opera che continua a essere oggetto di devozione viva, oltre che una testimonianza della storia di questo luogo."
+    },
+    "retos_observacion": {
+      "hash": "e13fbf4f5b450249",
+      "texto": [
+        "Cerca la vetrina del crocifisso",
+        "Osserva il modo in cui si è piegato il metallo",
+        "Leggi la pergamena accanto alla vetrina, se è visibile"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1d4deb1d651e1cb3",
+      "texto": {
+        "Data": "14 novembre 1921",
+        "Ora approssimativa": "10:30 del mattino",
+        "Oggetto": "crocifisso di metallo",
+        "Luogo dell’accaduto": "Antigua Basílica"
+      }
+    },
+    "faq_mito": {
+      "hash": "312001e345e0336e",
+      "texto": {
+        "pregunta": "Mito: La bomba del millenovecentoventuno distrusse l’altare e tutto ciò che si trovava nelle vicinanze.",
+        "respuesta": "Realtà: Danneggiò gravemente l’altare di marmo e piegò il crocifisso di metallo. Il racconto conservato narra che il vetro che proteggeva l’immagine non si ruppe."
+      }
+    }
+  }
+}
