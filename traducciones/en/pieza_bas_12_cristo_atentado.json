@@ -1,0 +1,54 @@
+{
+  "id": "bas_12_cristo_atentado",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "801feedc00e2dc7b",
+      "texto": "The Holy Christ of the Bombing"
+    },
+    "frase_gancho": {
+      "hash": "336c35abff7707c6",
+      "texto": "A twisted crucifix that recalls the bombing of 1921."
+    },
+    "puente_narrativo": {
+      "hash": "e4dbd2ba8e875bff",
+      "texto": "Inside the church, look for the display case where the crucifix is kept."
+    },
+    "guion_corto": {
+      "hash": "b20ea1b039171f09",
+      "texto": "Inside this Basilica is kept a twisted cross, the Holy Christ of the Bombing. On the fourteenth of November, nineteen twenty-one, at about half past ten in the morning, a dynamite bomb exploded in the Old Basilica. An unknown man had left it hidden among some flowers, at the foot of the high altar. The marble altar was badly damaged, and this metal crucifix, which stood on the altar, was bent. The account that has been preserved says that the glass protecting the image of the Virgin did not break. The faithful consider it a miracle. Today the crucifix is kept in a display case, next to a parchment that tells what happened."
+    },
+    "guion_largo": {
+      "hash": "ec6f3fef4ba0c22d",
+      "texto": "Inside this Basilica, in a display case, is kept a twisted cross. It is known as the Holy Christ of the Bombing. To understand why it matters, we have to go back to a morning in nineteen twenty-one.\n\nIn those years the image of the Virgin of Guadalupe was in the Old Basilica, the church next to this one. It would still be more than fifty years before the Basilica where you are now was built. The Old Basilica was a much-loved church. In eighteen ninety-five the image had been crowned there, and in nineteen oh four the church was elevated to the rank of minor basilica. The high altar was made of marble. On the altar stood a metal crucifix, in front of the image.\n\nOn Monday, the fourteenth of November, at the end of the morning Mass, a man approached the altar. He was carrying an arrangement of flowers and left it at its foot. Hidden inside the flowers was a dynamite bomb. At about half past ten in the morning, it exploded.\n\nThe explosion damaged the marble altar. The crucifix, which stood in front of the image, was left bent. The next day, the newspaper El Gran Diario de México published images of the shattered altar and the twisted cross on its front page. Those photographs are part of the historical record of what happened.\n\nNow comes what the account preserved in the Basilica tells. It says that the glass covering the image of the Virgin did not even crack. For the faithful, this is a miracle. In their way of telling it, the Son protected the Mother. That is why they venerate in a special way the crucifix that received the force of the explosion. It is a reading of faith, and the Guadalupan community preserves it that way.\n\nToday the crucifix is displayed in this Basilica, inside a display case. Alongside it is a parchment that explains the events, together with the photographs taken after the bombing. With the passing of time, the memory of that day became part of the sanctuary’s memory.\n\nIn twenty twenty-one, one hundred years had passed since the bombing. On that occasion, the Basilica opened a Holy Year with plenary indulgence. It was a way of remembering the event within the life of the Church. For Catholics, a plenary indulgence is the remission of the temporal punishment for sins that have already been forgiven, under conditions set by the Church itself.\n\nThose who approach this display case usually do so in silence. Some people stop to pray. Others ask this Christ for favors, and others simply look at the twisted shape of the metal. Each person experiences it in their own way.\n\nIf you are going to look at the display case, do so without disturbing those who are praying. It is a piece that remains an object of active devotion, as well as a testimony to the history of this place."
+    },
+    "retos_observacion": {
+      "hash": "e13fbf4f5b450249",
+      "texto": [
+        "Find the display case with the crucifix",
+        "Observe the way the metal was bent",
+        "Read the parchment next to the display case if it is visible"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1d4deb1d651e1cb3",
+      "texto": {
+        "Date": "November 14, 1921",
+        "Approximate time": "10:30 in the morning",
+        "Object": "metal crucifix",
+        "Place of the event": "Old Basilica"
+      }
+    },
+    "faq_mito": {
+      "hash": "312001e345e0336e",
+      "texto": {
+        "pregunta": "Myth: The bomb of nineteen twenty-one destroyed the altar and everything near it.",
+        "respuesta": "Reality: It badly damaged the marble altar and bent the metal crucifix. The preserved account says that the glass protecting the image did not break."
+      }
+    }
+  }
+}

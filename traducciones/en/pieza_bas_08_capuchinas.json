@@ -1,0 +1,55 @@
+{
+  "id": "bas_08_capuchinas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2cf501b057bd87ae",
+      "texto": "The Church and Convent of the Capuchin Nuns"
+    },
+    "frase_gancho": {
+      "hash": "4d5c6f413d7c286c",
+      "texto": "A convent of nuns next to the shrine."
+    },
+    "puente_narrativo": {
+      "hash": "fe40216e6339b812",
+      "texto": "You walk around the Old Basilica and arrive at the Church of the Capuchin Nuns."
+    },
+    "guion_corto": {
+      "hash": "c47a30b6cdd31092",
+      "texto": "In front of you stands the church and former convent of the Capuchin nuns. The first stone was laid in seventeen eighty-two, and the work was directed by the architect Ignacio de Castera. It was inaugurated in seventeen eighty-seven, on the initiative of Mother Mariana and with the support of several benefactors. The nuns lived here until the convent was nationalized and closed in eighteen sixty-three. Between eighteen eighty-eight and eighteen ninety-five, this church sheltered the image while work was carried out on the Old Basilica. Today it is the parish of Santa María de Guadalupe."
+    },
+    "guion_largo": {
+      "hash": "5d4d6714188925fb",
+      "texto": "This church and the convent beside it were built in the late eighteenth century for a community of Capuchin nuns. The Capuchin nuns are cloistered nuns, of the Franciscan family, who live devoted to prayer.\n\nThe project was undertaken on the initiative of Mother Mariana, founder of the community. Her full name appears in two different ways in the sources, and that is why we call her this here. The first stone was laid in seventeen eighty-two. The architect Ignacio de Castera, one of the builders active in Mexico City in those years, directed the construction, which was inaugurated in seventeen eighty-seven. Among those who supported the project with funds were Luis de Torres, Manuel de la Borda, and the Count of Regla.\n\nThe convent was designed for women of contemplative life. They lived here in seclusion, with prayer at the center of their days. In a cloistered community, the nuns do not leave the convent and receive few visitors. Their life is divided among prayer, work, and silence. That life continued until eighteen sixty-three, when the government nationalized Church property, in the context of the Reform Laws, and the convent was closed. It was a measure that affected many convents across the country, and the nuns had to leave the building.\n\nIt was also in this church that the image of Our Lady of Guadalupe was kept safe. Between February twenty-third, eighteen eighty-eight, and September thirtieth, eighteen ninety-five, while work was carried out on the Old Basilica, the image was venerated in this place. Afterward, it returned to the shrine.\n\nThe ground beneath the complex is soft, like that of this entire area, and the building has suffered sinking. Between nineteen seventy-six and nineteen eighty-two, control piles were installed to stabilize it. The sinking, however, continues.\n\nIn the same complex stands the Chapel of Oaths, which this parish also looks after. Today the church is the Parish of Santa María de Guadalupe. It is a church in use, with Masses and services for the community. On its main altar there is a Holy Family painted in a circle, and in the neighboring building, which was the convent, is the Museum of the Basilica.\n\nIt is part of the history of the place that is not always seen: that of the people who, for more than seventy years, lived here devoted to prayer, a few steps from the shrine of the Virgin."
+    },
+    "retos_observacion": {
+      "hash": "6f1eceb9f079bbb9",
+      "texto": [
+        "Look for the façade and its door",
+        "Observe the convent building next to the church",
+        "Notice the plaque, if there is one"
+      ]
+    },
+    "especificaciones": {
+      "hash": "16e5d0bf32d3599c",
+      "texto": {
+        "First stone": "1782",
+        "Architect": "Ignacio de Castera",
+        "Inauguration": "1787",
+        "Convent closed": "1863",
+        "Image here": "1888 to 1895"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e1aaca2ce4f9d8f",
+      "texto": {
+        "pregunta": "Myth: The Church of the Capuchin Nuns was always a parish.",
+        "respuesta": "Reality: It was a convent of nuns until it was nationalized and closed in eighteen sixty-three. Today it is the parish of Santa María de Guadalupe."
+      }
+    }
+  }
+}

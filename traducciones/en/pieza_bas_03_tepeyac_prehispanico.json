@@ -1,0 +1,45 @@
+{
+  "id": "bas_03_tepeyac_prehispanico",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0e8c809acb502526",
+      "texto": "Tepeyac Before the Shrine"
+    },
+    "frase_gancho": {
+      "hash": "79f23eb3a65e55c8",
+      "texto": "A hill that drew visitors long before the Basilica."
+    },
+    "puente_narrativo": {
+      "hash": "b60863c0e81522de",
+      "texto": "From the plaza, look toward the hill and think about what was here before the buildings."
+    },
+    "guion_corto": {
+      "hash": "24413fbd3f7c3b97",
+      "texto": "Before a Christian shrine existed here, this hill was already a place people visited. The Mexica linked it to Tenochtitlan by a causeway. The Franciscan friar Bernardino de Sahagún wrote around fifteen seventy-six that many people came to this site to honor Tonantzin, a Nahuatl name that means our mother. Sahagún was troubled by the meaning of that devotion. Historians continue to study how the two traditions are related, and not all of them agree. The hill, today surrounded by the city, lies north of what was the Mexica capital. For the faithful, Tepeyac is above all the place where the Virgin Mary appeared to Saint Juan Diego."
+    },
+    "guion_largo": {
+      "hash": "4d0b8825c7c5898c",
+      "texto": "Tepeyac hill lies at the northern edge of the ancient Valley of Mexico, at the foot of the Sierra de Guadalupe. The hill is part of the Sierra de Guadalupe. Today the city surrounds it, but in the sixteenth century it was a place far from Tenochtitlan, reached by a causeway. That causeway is the one we now know as the Calzada de los Misterios.\n\nThe fact that the Mexica built a road to this hill says something: it was a place people went to. In the Mesoamerican tradition, hills often had religious meaning, and Tepeyac was no exception among the hills of the valley. Today we know little about what was done here, and what little we know comes to us through other channels.\n\nThe best known is that of the Franciscan friar Bernardino de Sahagún. Around fifteen seventy-six, in his work on the things of New Spain, he wrote that at Tepeyac there was a place where the goddess Tonantzin was honored, and that people came there from distant places. Tonantzin is a Nahuatl name that means our mother. Sahagún tells us that this devotion troubled him, because the same name could be understood in two ways, and he worried about whom those who climbed the hill were honoring.\n\nThis information comes from a single author, written several decades after the conquest. For that reason historians read it with care, and each generation of scholars has returned to it to review what is known. Some think it shows continuity between the ancient place of worship and the Christian shrine. Others think the relationship between the two is harder to prove. Archaeological finds have been made on the hill, but their interpretation is also debated.\n\nWhat can be said with certainty is this. Tepeyac was, from before the conquest, a site with religious meaning for those who lived in the valley. And it was, from the sixteenth century on, the place where the shrine of the Virgin of Guadalupe was built.\n\nFor the faithful, that shrine was born from an event. According to the Guadalupan tradition, in December of fifteen thirty-one the Virgin Mary appeared here to Juan Diego, an Indigenous man, and spoke to him in his own language. The Church recognizes the devotion to Our Lady of Guadalupe, and in two thousand two it canonized Saint Juan Diego in this very Basilica. Those who live their faith from that tradition do not see the hill as a place that once belonged to others, but as the place where the Virgin came to meet her people.\n\nThis stop does not settle the historians’ debate. It simply gives you the facts: an ancient road, a hill with worship, a friar’s concern, and a tradition that has gathered millions of people for almost five centuries."
+    },
+    "retos_observacion": {
+      "hash": "7b95a44449b68db6",
+      "texto": [
+        "Look at the hill from the plaza",
+        "Find north: the Mexica capital lay to the south",
+        "Compare the hill with the city that surrounds it today"
+      ]
+    },
+    "especificaciones": {
+      "hash": "62c42cb6f136ab9c",
+      "texto": {
+        "Main source": "Bernardino de Sahagún, around 1576",
+        "Nahuatl name": "Tonantzin, our mother"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "bas_02_atrio_americas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "272974ef7408828e",
+      "texto": "The Atrium and the Plaza de las Américas"
+    },
+    "frase_gancho": {
+      "hash": "9751d74a84d85b40",
+      "texto": "The great open space where pilgrims gather."
+    },
+    "puente_narrativo": {
+      "hash": "c3d5b0f460725e72",
+      "texto": "From the entrance you move on to the atrium, the space that welcomes pilgrims in front of the New Basilica."
+    },
+    "guion_corto": {
+      "hash": "f7f8c5104853a993",
+      "texto": "You are in the atrium, the great open space in front of the New Basilica. Millions of pilgrims gather here every year, especially on December 12, the day of Our Lady of Guadalupe. In this space stands the carillon, completed in 1991. It has forty-eight bronze bells, measures twenty-three meters, and has four clocks: civil, astroplane, solar, and Mexica. At the front, animated figures of San Juan Diego, Friar Juan de Zumárraga, and Juan Bernardino tell the story of the apparitions, according to the Guadalupan tradition. When there is an open-air Mass or a pilgrimage, this space fills with people. If you come on those days, move forward slowly."
+    },
+    "guion_largo": {
+      "hash": "185c03ba02f6f111",
+      "texto": "This is the atrium of the Americas, the great esplanade that opens in front of the New Basilica. It is the place where pilgrims arrive before entering the church, and also the space where they gather when the church cannot hold everyone.\n\nEstimates of how many people visit the complex each year range from eight to twenty million, depending on who makes them. Whatever the exact figure, it is millions. The main feast is December 12, when the Church celebrates Our Lady of Guadalupe. On that day, and on the days around it, pilgrimages arrive from all over the country and from other countries. Many come on foot, having walked for days. Some people cross this esplanade on their knees, as a promise they made. The New Basilica was designed to receive about ten thousand people inside, and outside there is room for tens of thousands more.\n\nRight here stands the carillon, a twenty-three-meter tower completed in 1991. It has forty-eight bronze bells. It was promoted by Friar Gabriel Chávez de la Mora, the Benedictine monk who also collaborated on the project of the New Basilica.\n\nThe carillon has four clocks. One is civil and shows the time we all use every day. One is astroplane. One is solar. And the fourth is a Mexica clock, which recalls another way of measuring time, that of the peoples who inhabited this valley before the arrival of the Spaniards.\n\nAt the front of the tower there is a cyclorama with animated figures. They represent San Juan Diego, Friar Juan de Zumárraga, the first bishop of Mexico, and Juan Bernardino, Juan Diego’s uncle. Their movements tell the story of the apparitions as the Guadalupan tradition has handed it down. According to that tradition, in December of 1531 the Virgin Mary appeared to Juan Diego on this hill and asked him to have a temple built here.\n\nIn 2011 the Plaza Mariana was also opened, next to this space, with the Guadalupan Museum, a work of the Carlos Slim Foundation.\n\nFrom here you can see the New Basilica, circular in plan, inaugurated in 1976. To one side, among the buildings of the complex, is the Old Basilica, from the eighteenth century. And behind it all rises the hill of Tepeyac.\n\nThe atrium is also a place of togetherness. Families arrive, groups bringing images of the Virgin, and people who come alone. Some rest after a long journey, others take photographs, others wait to enter the church. This is a meeting place. For many people it is a place of prayer, of farewell, or of gratitude. If a Mass or a prayer is under way, you can walk through it calmly, speaking in a low voice and without interrupting."
+    },
+    "retos_observacion": {
+      "hash": "8e2d869d55db9de5",
+      "texto": [
+        "Count the bells of the carillon if you hear it play",
+        "Find the four clocks",
+        "Observe the animated figures at the foot of the carillon"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de38a84f8de00f57",
+      "texto": {
+        "Carillon": "completed in 1991",
+        "Bells": "forty-eight, made of bronze",
+        "Height": "23 m",
+        "Clocks": "four (civil, astroplane, solar, and Mexica)"
+      }
+    }
+  }
+}

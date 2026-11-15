@@ -1,0 +1,55 @@
+{
+  "id": "bas_01_calzada_misterios",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "52078cacc20d929a",
+      "texto": "The Calzada de los Misterios"
+    },
+    "frase_gancho": {
+      "hash": "9dd703844d5a3a6c",
+      "texto": "A Mexica road that became a pilgrim route."
+    },
+    "puente_narrativo": {
+      "hash": "56864a3a8c4c3421",
+      "texto": "You begin where many pilgrims began: the road that climbs to Tepeyac."
+    },
+    "guion_corto": {
+      "hash": "49cde3e071cbeabb",
+      "texto": "This causeway is much older than the Basilica. The Mexica laid it out to join Tenochtitlan with Tepeyac Hill, and ever since it has been the road of those who come to this place. In sixteen seventy-five, construction began on fifteen monuments, one for each mystery of the rosary, the prayer with which Catholics meditate on the life of Jesus and the Virgin Mary. They were designed by the architect Cristóbal de Medina Vargas. Eight originals survive, and seven were replaced in nineteen ninety-nine. It is part of the route by which, for centuries, people reached Tepeyac from the city. Even today, many pilgrims walk this road on foot, in silence or in prayer."
+    },
+    "guion_largo": {
+      "hash": "cc9eda013c507bf4",
+      "texto": "You are standing on one of the oldest streets in Mexico City. Before the Basilica existed, before the Spanish arrived, the Mexica built this causeway to join Tenochtitlan with the Sierra de Guadalupe and with Tepeyac Hill. This is what the National Institute of Anthropology and History (INAH) record says about the monument.\n\nDuring the viceregal period it remained the main road to the shrine. For a long time this street was also called Calzada de Guadalupe. Today that name belongs to another, parallel street, whose construction began in seventeen eighty-six. After the great flood of sixteen oh four, the causeway was repaired so that it could continue to be used. Pilgrims came this way from the city, and they have kept on coming this way.\n\nIn the sixteen seventies, it was decided to give permanent form to the stops that walkers made along the way. The architect Cristóbal de Medina Vargas proposed building fifteen monuments, one for each mystery of the rosary. Work began in sixteen seventy-five, and the first, the Incarnation, was finished in sixteen seventy-six.\n\nThe rosary is a Catholic prayer. Whoever prays it repeats prayers while thinking about moments in the life of Jesus and the Virgin Mary. These moments are called mysteries, and they are grouped into three series of five. The joyful mysteries recall, for example, the annunciation and the birth of Jesus. The sorrowful mysteries recall his passion. The glorious mysteries recall the resurrection and the glory of Mary. Fifteen monuments, then, formed a path of prayer for those walking toward the shrine.\n\nThe Monument to the Pilgrims marks the traditional beginning of the causeway, and from there the fifteen mysteries are counted toward the north. The monuments are Baroque works, similar to stelae, with scenes and figures at the top. In the following centuries they suffered changes and losses. In the nineteenth century, railway works damaged several of them. By the end of the twentieth century, only eight of the fifteen originals survived.\n\nIn nineteen ninety-nine the causeway was restored and seven monuments were replaced. Today there are fifteen, eight originals and seven replacements, spread across the Cuauhtémoc and Gustavo A. Madero boroughs. If you walk this street, you will see that each one is identified by its mystery.\n\nThis stop is free, and you can listen to it at any of the monuments. If you walk north, you will reach the Villa de Guadalupe. Many people make the whole trip on foot, some praying the rosary, others in silence, and others simply walking and looking. Everyone is welcome. On pilgrimage dates, this causeway fills with people who come from far away.\n\nFor those who come to pray, it is a road of faith. For those who come to learn, it is a street with more than five centuries of history that still fulfills the purpose for which it was made: bringing people to Tepeyac."
+    },
+    "retos_observacion": {
+      "hash": "4ac89ee8aad46418",
+      "texto": [
+        "Look for the monuments of the mysteries along the causeway",
+        "Notice the pilgrims arriving on foot",
+        "Look toward the hill and find the Basilica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "104ff548294aac0c",
+      "texto": {
+        "Origin": "Mexica causeway",
+        "Monuments": "fifteen, one for each mystery of the rosary",
+        "Project": "Cristóbal de Medina Vargas, from 1675",
+        "Originals preserved": "eight",
+        "Replaced in 1999": "seven"
+      }
+    },
+    "faq_mito": {
+      "hash": "06d8e7c9b0b7c9dc",
+      "texto": {
+        "pregunta": "Myth: The Calzada de los Misterios was made for the current Basilica.",
+        "respuesta": "Reality: The Mexica had already laid out a causeway toward Tepeyac. Construction of the fifteen monuments of the mysteries began in sixteen seventy-five; today eight are originals and seven were replaced in nineteen ninety-nine."
+      }
+    }
+  }
+}

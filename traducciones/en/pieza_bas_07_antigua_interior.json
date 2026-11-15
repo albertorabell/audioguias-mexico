@@ -1,0 +1,55 @@
+{
+  "id": "bas_07_antigua_interior",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b4fa6663086fd59a",
+      "texto": "The Old Basilica: Interior"
+    },
+    "frase_gancho": {
+      "hash": "958caa3468156f4e",
+      "texto": "Where the image stayed for almost three hundred years."
+    },
+    "puente_narrativo": {
+      "hash": "0a89561847e3dbef",
+      "texto": "You step into the church, today dedicated to Christ the King."
+    },
+    "guion_corto": {
+      "hash": "24b8e51a85d0a699",
+      "texto": "Inside this church stood the image of Our Lady of Guadalupe from seventeen oh nine. In seventeen thirty-seven, Mexico City swore an oath to the Virgin of Guadalupe as its patron. Here the image was crowned on the twelfth of October, eighteen ninety-five, with the authorization of Pope Leo the Thirteenth. In nineteen twenty-one a bomb exploded at the foot of the main altar. And in nineteen seventy-six the image was moved to the New Basilica. Today the church is dedicated to Christ the King and is still in use. Those who enter do so as they would a living church, with calm."
+    },
+    "guion_largo": {
+      "hash": "deee74015bf9aa3d",
+      "texto": "You are entering a church that, for more than two and a half centuries, was the center of the Guadalupan cult. The image of Our Lady of Guadalupe was venerated here from its dedication, in seventeen oh nine, until nineteen seventy-six, with some temporary departures. In seventeen oh five, the main altarpiece had been commissioned from the sculptor Manuel de Nava, for sixteen thousand pesos, so that the image would have an altar worthy of it.\n\nFor that reason, many moments in the history of the devotion took place here. In seventeen thirty-seven, Mexico City swore an oath to the Virgin of Guadalupe as its patron. In seventeen forty-six she became patron of New Spain, and in seventeen fifty-four Pope Benedict the Fourteenth confirmed the patronage and granted a proper Mass for the twelfth of December.\n\nThe collegiate church was formally established in seventeen forty-nine, and in seventeen fifty its first chapter met, the group of priests who served the sanctuary.\n\nIn eighteen eighty-eight, because of the works directed by Juan Agea and Emilio Dondé, the image left here and was venerated in the church of the Capuchin nuns. It returned on the thirtieth of September, eighteen ninety-five, twelve days before the coronation.\n\nHere, too, the coronation of the image was held, on the twelfth of October, eighteen ninety-five, with the authorization of Pope Leo the Thirteenth. The crown was presented by Abbot José Antonio Plancarte. Archbishop Próspero María Alarcón presided.\n\nIn nineteen twenty-one an event occurred that is remembered to this day. On the fourteenth of November, at about ten thirty in the morning, a dynamite bomb hidden in a flower arrangement exploded at the foot of the altar. The image suffered no damage. The crucifix that stood on the altar was left twisted, and today it is kept in the New Basilica. You will see it at another stop.\n\nThe church was closed in nineteen seventy-six because the ground was sinking. After the consolidation works, it reopened for worship as the Expiatory Temple of Christ the King. It is, then, a building with two lives: that of the sanctuary of the image, for centuries, and that of a church dedicated to Christ, for the last few decades.\n\nBefore entering, you should know that this is an active place of worship. There may be Masses or people praying. Please speak in a low voice and take photographs discreetly. If a ceremony is under way, you can wait or come back later.\n\nAs you walk through the naves, think of how many people stopped on this very floor. Pilgrims from Mexico City and from distant places, over two and a half centuries, passed through this space to see the image. That is the history these walls hold, beyond their architecture."
+    },
+    "retos_observacion": {
+      "hash": "a2f8c489b97c7802",
+      "texto": [
+        "Look toward the main altar",
+        "Find the place where the image was crowned in 1895",
+        "Enter in silence, as you would a church in use"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b54d0953a57cee5",
+      "texto": {
+        "Image here": "from 1709 to 1976",
+        "Patron of the city": "1737",
+        "Coronation": "October 12, 1895",
+        "Bomb": "November 14, 1921",
+        "Today": "Expiatory Temple of Christ the King"
+      }
+    },
+    "faq_mito": {
+      "hash": "4d533725aefcc649",
+      "texto": {
+        "pregunta": "Myth: The image has always been in the New Basilica.",
+        "respuesta": "Reality: It was in the Old Basilica from seventeen oh nine until nineteen seventy-six."
+      }
+    }
+  }
+}

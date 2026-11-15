@@ -1,0 +1,54 @@
+{
+  "id": "bas_16_vela_y_jardines",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "de932cef8ed90b5d",
+      "texto": "Tepeyac Garden and La Ofrenda"
+    },
+    "frase_gancho": {
+      "hash": "f9c437d9d685d764",
+      "texto": "Waterfalls, fountains and a bronze sculptural group."
+    },
+    "puente_narrativo": {
+      "hash": "214d1c6f45f6812e",
+      "texto": "From the Pocito, you climb through the gardens on the eastern slope of the hill."
+    },
+    "guion_corto": {
+      "hash": "87cd47b1ab3ad7eb",
+      "texto": "You are on the eastern slope of Tepeyac, in the Tepeyac Garden. Waterfalls, fountains and greenery form the backdrop for La Ofrenda, a group of sixteen bronze figures arranged in an attitude of adoration before the Virgin of Guadalupe. The Basilica commissioned the work in nineteen eighty-two from the artist Aurelio Mendoza. According to tradition, some of these areas recall the second and third apparitions. Higher up you will see the Vela del Marino and the eastern staircase, which a plaque attributes to Guerrero y Torres. It is a quiet space, except during the great feast days. The climb to the chapel at the top is about one hundred meters."
+    },
+    "guion_largo": {
+      "hash": "b212d0e5bcfcde54",
+      "texto": "This is the Tepeyac Garden, sometimes called the Sacred Garden. It lies on the eastern slope of the hill, and it is the path that many visitors take to climb to the chapel at the top or to come down from it.\n\nThe garden has waterfalls, fountains and abundant greenery. According to Guadalupan tradition, some of these areas recall the second and third apparitions of the Virgin Mary to Saint Juan Diego, in December of fifteen thirty-one. The landscaping was designed to serve as a setting for a sculptural ensemble called La Ofrenda.\n\nLa Ofrenda consists of sixteen cast bronze figures, arranged in an attitude of adoration before the Virgin of Guadalupe. The Basilica commissioned the work in nineteen eighty-two. The artist chosen was Aurelio G. D. Mendoza, who was then eighty-two years old and was known above all for his work in stage design. The figures are placed within the landscape of the garden, and they can be seen from different spots.\n\nThe Vela del Marino is also found here. It is a stone structure that a plaque placed in nineteen seventy attributes, together with the facade of the Capilla del Cerrito and the first eastern staircase, to the architect Francisco Guerrero y Torres, the same one who designed the Pocito. According to the tradition recorded by the Basilica, the Vela recalls the vow of some sailors who were saved from danger at sea and who, to fulfill it, carried a mast up to this place and left it fixed in stone. It is a way of giving thanks similar to that of the votive offerings you saw in the museum.\n\nThe climb from the back of the Old Basilica to the chapel at the top is about one hundred meters. There are steps and sloping stretches, and it is best to take it slowly. If you take the garden path, you will walk among trees, water and bronzes.\n\nAccording to the Mexico City tourism portal, this space is one of the quietest corners of the complex, except on feast days, when it fills with pilgrims. It is a place for those who want to go slowly, for those who seek a moment of silence and for those who simply want to rest a while between the noise of the esplanade and the summit.\n\nAs you climb, the city gradually opens up around you. Tepeyac is a small rise, but from it you can appreciate the expanse of the valley.\n\nIt is a space open to people of any belief, where you see families strolling and people sitting for a while. It is best to keep your voice low and your pace calm.\n\nSome climb praying, and others climb to see the landscape. The garden has room for both ways of doing it. If you come across people in prayer, pass by without interrupting and without making noise."
+    },
+    "retos_observacion": {
+      "hash": "29dcf1f5fafdb469",
+      "texto": [
+        "Count the bronze figures of La Ofrenda",
+        "Look for the waterfalls and fountains",
+        "Look at the Vela del Marino higher up"
+      ]
+    },
+    "especificaciones": {
+      "hash": "116ff4a5357055a8",
+      "texto": {
+        "Sculpture": "La Ofrenda, sixteen bronze figures",
+        "Commission": "1982",
+        "Artist": "Aurelio Mendoza",
+        "Climb to the chapel": "about 100 m"
+      }
+    },
+    "faq_mito": {
+      "hash": "02e92a86fc4f1e71",
+      "texto": {
+        "pregunta": "Myth: La Ofrenda is a work from the viceregal era.",
+        "respuesta": "Reality: The Basilica commissioned this bronze group in nineteen eighty-two."
+      }
+    }
+  }
+}

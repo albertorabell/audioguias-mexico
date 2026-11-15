@@ -1,0 +1,54 @@
+{
+  "id": "bas_17_cerrito",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d406831019995b44",
+      "texto": "The Chapel of the Cerrito"
+    },
+    "frase_gancho": {
+      "hash": "8413c2bebbe53379",
+      "texto": "The summit of Tepeyac, with a view of the city."
+    },
+    "puente_narrativo": {
+      "hash": "0dc1d8afafdc934f",
+      "texto": "You climb the last few meters to the top of the hill."
+    },
+    "guion_corto": {
+      "hash": "4ea6a86d9b1065b2",
+      "texto": "You have reached the summit of Tepeyac, at the Chapel of the Cerrito. According to the Guadalupan tradition, this is where Saint Juan Diego found the roses that he carried to the bishop as a sign. Cristóbal de Aguirre and his wife Teresa had a small hermitage built here, in sixteen sixty or sixteen sixty-six, depending on the source. The current chapel, dedicated to Saint Michael the Archangel, dates from the eighteenth century, with a Baroque tezontle facade without towers. Inside are frescoes by the muralist Fernando Leal that tell the story of the apparitions. From the terrace you can see the city. It is also called the Chapel of the Roses, and its hours may change."
+    },
+    "guion_largo": {
+      "hash": "e9bca9178b58c498",
+      "texto": "You are at the summit of Tepeyac hill, in front of the Chapel of the Cerrito, which is also called the Chapel of the Roses or the Chapel of the Cerrito de los Ángeles.\n\nAccording to the Guadalupan tradition, this is where Saint Juan Diego cut the roses that he carried in his tilma to Bishop fray Juan de Zumárraga, as the sign that the Virgin Mary had asked of him. For that reason it is remembered as the chapel of the roses. For many of the faithful, it is the site most closely tied to the apparitions in the entire complex.\n\nThe first hermitage on this spot was ordered built by Cristóbal de Aguirre and his wife Teresa, to commemorate the three apparitions that took place on the hill. A plaque at the site gives the date of sixteen sixty. Other sources say sixteen sixty-six, and both are cited here. It was dedicated to Saint Michael the Archangel, whom the Christian tradition recognizes as the chief of the angels, and whose name is interpreted as “who is like God.” The Church presents him as a defender and protector, with the idea that from the heights he would watch over the sanctuary at the foot of the hill.\n\nThat old hermitage was replaced. In the middle of the eighteenth century, permission was requested to build a new one. The first hermitage was torn down in seventeen forty-eight, and around seventeen fifty-six the first Mass was celebrated in the current chapel. The facade, in the Baroque style, is made of red tezontle and has no towers.\n\nThe chapel’s plaque attributes its facade, and also the Vela del Marino and the eastern stairway, to the architect Francisco Guerrero y Torres, the same man who designed the Capilla del Pocito.\n\nThe chapel was rebuilt between nineteen forty-five and nineteen fifty. At that stage a small plaza was added with four sculptures of the archangels Michael, Raphael, Gabriel, and Uriel. In eighteen ninety-five, four marble angels, the work of the sculptor Ernesto Tamariz, and an apostle’s cross had been placed, in the year of the pontifical coronation of the image.\n\nInside, the interior is decorated with frescoes by the painter Fernando Leal, one of the artists of the Mexican muralist movement. His paintings depict moments of the apparitions, as the tradition tells them, and they are a way of telling the story to those who visit the chapel.\n\nYou reach the chapel by a steep, winding stairway, and it is best to take it slowly. From the terrace you can see the city. The hill, which in the sixteenth century stood apart from the city, is now surrounded by streets and buildings.\n\nThis is a small and much-visited church. When prayer or Mass is taking place, it is recommended to wait outside or to enter quietly. The hours may change, so it is best to confirm them on the official website."
+    },
+    "retos_observacion": {
+      "hash": "18597ab37d7225c8",
+      "texto": [
+        "Look at the tezontle facade without towers",
+        "Find the terrace and the view of the city",
+        "Observe the frescoes by Fernando Leal inside the chapel"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3d6ebf0963fff18",
+      "texto": {
+        "Hermitage": "1660 or 1666, depending on the source",
+        "Promoters": "Cristóbal de Aguirre and Teresa",
+        "Current chapel": "18th century, dedicated to Saint Michael the Archangel",
+        "Frescoes": "Fernando Leal"
+      }
+    },
+    "faq_mito": {
+      "hash": "001efa0cfdf1e4a7",
+      "texto": {
+        "pregunta": "Myth: The chapel at the summit is the original one.",
+        "respuesta": "Reality: The first hermitage dates from sixteen sixty or sixteen sixty-six, depending on the source; the current chapel is from the eighteenth century."
+      }
+    }
+  }
+}

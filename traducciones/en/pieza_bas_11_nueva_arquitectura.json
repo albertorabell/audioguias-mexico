@@ -1,0 +1,55 @@
+{
+  "id": "bas_11_nueva_arquitectura",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "45188bf7e430ac0d",
+      "texto": "The New Basilica"
+    },
+    "frase_gancho": {
+      "hash": "27d2fc999c9aa254",
+      "texto": "A circular temple designed so that everyone can see the image."
+    },
+    "puente_narrativo": {
+      "hash": "a19522d478faf873",
+      "texto": "You cross the atrium and reach the façade of the New Basilica."
+    },
+    "guion_corto": {
+      "hash": "ba7505dc33c9400b",
+      "texto": "You are standing in front of the New Basilica of Guadalupe. It was built between nineteen seventy-four and nineteen seventy-six. The Old Basilica was sinking and could no longer hold so many pilgrims. Its floor plan is circular, more than one hundred meters in diameter. It was designed so that about ten thousand people can see the image of the Virgin from anywhere inside. The project was signed by the architects Pedro Ramírez Vázquez and José Luis Benlliure, together with Friar Gabriel Chávez de la Mora. Its roof is suspended, held up from a single point, like a great tent. And to bear its weight on soft ground, hundreds of control piles were driven into the earth."
+    },
+    "guion_largo": {
+      "hash": "c52e79c258438c3c",
+      "texto": "You are standing in front of the New Basilica of Guadalupe, and it is worth looking at it for a moment before going in.\n\nFor two hundred sixty-seven years the image of the Virgin was in the Old Basilica, from seventeen oh nine to nineteen seventy-six. That is the church right next to this one. The ground in this area is soft, from an ancient lake, and that building kept sinking. Besides, more pilgrims arrived every year and the church could no longer hold them. Another place was needed.\n\nThe first preliminary designs by the architect José Luis Benlliure considered building on top of the hill. In the end this site was chosen, at the foot of the Tepeyac. The project was signed by Pedro Ramírez Vázquez and Benlliure, with Friar Gabriel Chávez de la Mora. Alejandro Schoenhofer and Javier García Lascuráin also collaborated. The structure was in the hands of Óscar de Buen, and the acoustics, of Eduardo Saad. The commission was given by Abbot Guillermo Schulenburg.\n\nThe first stone was laid on December twelfth, nineteen seventy-four. The church was dedicated on October twelfth, nineteen seventy-six, and on that day the image was transferred. It took about twenty-two months of work, a very short time for a building of this size. The first morning serenades in the new church were sung on December twelfth of that same year.\n\nNotice its shape. The floor plan is a circle more than one hundred meters in diameter. There is a simple reason for that decision. Whoever comes in, no matter where they sit, can see the image. About ten thousand people fit inside, and many more in the plaza.\n\nThe roof is suspended and held up from a single point, like the pole of a tent. Inside it is lined with wood, and the light comes from hexagonal lamps.\n\nAt the time, some people said the building looked more like a big tent or a stadium than a church. Martha Fernández, a researcher at the UNAM, proposes reading that shape in another way. For her, the tent recalls the one of the people of Israel in the desert. It was the place where, according to the Bible, God accompanied his people on their journey. It is an academic interpretation. It also helps explain why this shape suits a place that people reach on foot, from far away.\n\nThat leaves the problem of the ground. So that the building would not sink like the previous one, three hundred forty-four control piles were driven in. With them, the level of the construction can be adjusted over the years.\n\nLook at the scale, too. From the plaza, the Basilica can be seen in full from less than two hundred meters away, and its peak does not look as tall as it is. The building was designed to receive entire crowds, especially at the feast of December twelfth, when the plaza fills with pilgrims.\n\nWhen you go in, you will notice that the space is wide and open. Many people come here to pray, to ask for something, or to give thanks, and there is Mass during much of the day. If you are only coming to look, take your tour calmly and in silence. Farther ahead, above the altar, is the image of the Virgin of Guadalupe."
+    },
+    "retos_observacion": {
+      "hash": "5563b7d1d68ddf8f",
+      "texto": [
+        "Count how many entrances you see on the façade",
+        "Look for the circular shape of the building as you walk around it",
+        "Look up at the roof as you enter"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2ddfd777475ef74a",
+      "texto": {
+        "Construction": "1974 to 1976",
+        "Architects": "Pedro Ramírez Vázquez and José Luis Benlliure",
+        "Floor plan": "circular, more than 100 m in diameter",
+        "Visibility": "about 10,000 people",
+        "Roof": "suspended, held up from a single point"
+      }
+    },
+    "faq_mito": {
+      "hash": "1540808b34dac40b",
+      "texto": {
+        "pregunta": "Myth: The Old Basilica was abandoned when the New one was built.",
+        "respuesta": "Reality: The Old Basilica is now dedicated to Christ the King and is still in use."
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "bas_10_exvotos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7430e21dcc21c2dd",
+      "texto": "The Ex-Votos"
+    },
+    "frase_gancho": {
+      "hash": "8611143009a36065",
+      "texto": "Small paintings that say thank you."
+    },
+    "puente_narrativo": {
+      "hash": "a4c439673c18f133",
+      "texto": "Inside the museum, look for the Hall of the ex-votos."
+    },
+    "guion_corto": {
+      "hash": "c6cefe479961f9f7",
+      "texto": "An ex-voto is a small painting through which a person gives thanks for a favor that they attribute to the intercession of the Virgin or of a saint. It usually shows the scene of danger, the image to which the person turned for help, and a handwritten text that tells what happened. This museum holds more than two thousand, almost all of them from the nineteenth and twentieth centuries, and presents itself as the largest collection of Guadalupan ex-votos. They speak of illnesses, accidents, journeys and wars. Many include a name and a date. It is worth stepping closer to read the texts slowly. They are documents of faith and also of the everyday life of their time."
+    },
+    "guion_largo": {
+      "hash": "b32460df59152f63",
+      "texto": "In Latin, ex voto refers to the fulfillment of a promise, and an ex-voto is the object with which that promise is fulfilled. Someone asks for a favor, from God, the Virgin or a saint, and when they receive it, they give thanks with an object. In Mexican Catholicism, that object is usually a small painting.\n\nAccording to the museum specialist Nydia Mirna Rodríguez Alatorre, ex-votos are not exclusive to Christianity. They exist in many cultures and since antiquity. The custom of offering a painting of thanks comes from Italy, in the fifteenth century, and later spread to other countries.\n\nIn Mexico the practice became very popular in the nineteenth and twentieth centuries, and filled the walls of shrines throughout the country. The Museo de la Basílica holds more than two thousand ex-votos, almost all of them from those centuries, and presents itself as the largest collection of Guadalupan ex-votos.\n\nAn ex-voto normally has three parts. At the top there usually appears the image to which the person turned for help, in this case Our Lady of Guadalupe or some saint. Below, the scene of the misfortune: an illness, an accident, a fall. And at the bottom, a handwritten text in which the person tells what happened and gives thanks. Many are written by people with little schooling, and that direct language is part of their value.\n\nNot all ex-votos are paintings. As early as the seventeenth century, the Jesuit Francisco de Florencia recorded at this shrine silver offerings in the shape of heads, eyes, hearts, arms, legs and hands, which the faithful left as thanks. That is another, older way of giving thanks.\n\nThe themes say a great deal about their era. There are illnesses, accidents and migrations. In the years of the civil wars of the nineteenth century and of the Revolution, there also appeared the levas, the forced recruitment of young men, and the anguish of mothers whose sons were leaving for war.\n\nThe ex-voto expresses a direct relationship between a person and God, without intermediaries, and at the same time it is made public in a shrine, for others to see. Many include the name of the person who offered it and a date, and that makes it possible to place them in time.\n\nFor the person who offered it, the ex-voto is an act of gratitude and faith. For those who look at it today, it is also a historical document. Since the end of the twentieth century, ex-votos have come to be valued as sources on how people of each era lived, dressed, prayed and fell ill.\n\nHere, visitors are not asked to believe or to stop believing. They are invited to look closely at what others wrote in their most difficult moment, and to read their words with the respect that any expression of thanks deserves."
+    },
+    "retos_observacion": {
+      "hash": "d80b19dbac01d4f3",
+      "texto": [
+        "Read one of the handwritten texts",
+        "Find the image to which the person turns for help",
+        "Notice the date on one of the ex-votos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eab9149d314df35f",
+      "texto": {
+        "Pieces": "more than 2,000",
+        "Eras": "mostly the 19th and 20th centuries",
+        "Parts": "scene, image and handwritten text"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2be7587a3893cc2",
+      "texto": {
+        "pregunta": "Myth: Ex-votos are drawings with no historical value.",
+        "respuesta": "Reality: They are documents of the everyday life of their time, with a scene, a handwritten text and, often, a name and a date."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "bas_05_parroquia_indios",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "345cf9b598580178",
+      "texto": "The Parroquia de Indios"
+    },
+    "frase_gancho": {
+      "hash": "ebe7c4d3988cad57",
+      "texto": "The oldest surviving building in the complex."
+    },
+    "puente_narrativo": {
+      "hash": "398b1205f5b73106",
+      "texto": "You walk down to the Parroquia de Indios, a small, quiet chapel."
+    },
+    "guion_corto": {
+      "hash": "4ed837fbf6a1d15f",
+      "texto": "This is the oldest surviving building in the entire complex. It was built around sixteen forty-nine by Luis Lasso de la Vega, vicar of Guadalupe. It is called the Church of the Indians because in sixteen seventy-nine a confraternity of Indigenous people was established here. According to tradition, Saint Juan Diego spent his last years in this place, and the first hermitage stood here. The image of Our Lady of Guadalupe was venerated in this chapel from sixteen ninety-five to seventeen oh nine, while the Old Basilica was being built. It is a small, quiet space, and many pilgrims enter it in silence."
+    },
+    "guion_largo": {
+      "hash": "b186b91c6e1ff85a",
+      "texto": "This small church is the oldest surviving structure in the entire Basilica complex. It was raised around sixteen forty-nine at the wish of Luis Lasso de la Vega, vicar of Guadalupe. He is the same priest who, that year, sent to the press the Huei tlamahuiçoltica, the book that includes the Nican mopohua, the account of the apparitions written in Nahuatl.\n\nThe word indios was the one used at the time for the original peoples. Today the word is Indigenous, and the temple's historic name is kept out of tradition.\n\nIt is known as the Parroquia de Indios because, according to the sanctuary's official website, in sixteen seventy-nine a confraternity of Indigenous people was established here. A confraternity is an association of the faithful that gathers around a particular devotion. During the viceregal period, this was a space closely tied to the Indigenous population that came to Tepeyac.\n\nThe Guadalupan tradition places the first temple here. According to it, after the apparitions, Friar Juan de Zumárraga asked that a hermitage be built at the place Juan Diego indicated. Sources disagree on the date, which is usually given as fifteen thirty-one or fifteen thirty-three. Archbishop Alonso de Montúfar enlarged it in fifteen fifty-six. Local tradition holds that a wall from that first hermitage is preserved inside this church.\n\nTradition also says that Saint Juan Diego lived next to the hermitage until his death, in fifteen forty-eight, taking care of it and welcoming pilgrims. A cross outside marks the spot where, it is believed, his house stood. The faithful consider this one of the places closest to his memory.\n\nThis church also played an important role in the history of the image. In sixteen ninety-five it was decided to build a new temple, the Old Basilica, and the earlier sanctuary was torn down. The image of Our Lady of Guadalupe then moved to this chapel, where it remained until, in April of seventeen oh nine, it was carried in procession to the new temple. It was fourteen years of waiting for those who venerated it.\n\nToday the Antigua Parroquia de Indios falls under the Parish of Santa María de Guadalupe, the one known as Las Capuchinas, which is almost directly across from it. It is a temple in use, with Masses and moments of prayer. What you see is a small seventeenth-century church. What is told, the tradition, is what makes it special for the faithful, and this stop gives you both things separately.\n\nThose who enter do so calmly. Some stop in front of the altar and others simply sit for a moment. There is not much to do here except be present. It is a good place to think about the distance between the small hermitage of the early days and the great esplanade you left behind."
+    },
+    "retos_observacion": {
+      "hash": "6155dbdc9e52be40",
+      "texto": [
+        "Look at the simple façade",
+        "Find the hill behind the chapel",
+        "Enter in silence if it is open"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b6c64c032160b862",
+      "texto": {
+        "Construction": "around 1649",
+        "Sponsor": "Luis Lasso de la Vega",
+        "Confraternity of Indigenous people": "1679",
+        "Image venerated here": "1695 to 1709"
+      }
+    },
+    "faq_mito": {
+      "hash": "304fe08f0d8959b8",
+      "texto": {
+        "pregunta": "Myth: The Old Basilica is the oldest building in the complex.",
+        "respuesta": "Reality: The oldest surviving one is the Parroquia de Indios, from around sixteen forty-nine. The Old Basilica was completed in seventeen oh nine."
+      }
+    }
+  }
+}

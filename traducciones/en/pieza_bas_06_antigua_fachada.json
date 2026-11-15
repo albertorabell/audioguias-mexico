@@ -1,0 +1,55 @@
+{
+  "id": "bas_06_antigua_fachada",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ba359c19f0c3af0c",
+      "texto": "The Old Basilica: Façade"
+    },
+    "frase_gancho": {
+      "hash": "c2bab9efbcd3c2e4",
+      "texto": "A Baroque church that sank and was saved."
+    },
+    "puente_narrativo": {
+      "hash": "d60264595a444c00",
+      "texto": "You leave the New Basilica and walk toward the Old one, just a few meters away."
+    },
+    "guion_corto": {
+      "hash": "aa3defcd2018ce1a",
+      "texto": "In front of you stands the Old Basilica, today the Expiatory Temple of Christ the King. Construction began on March 25, 1695, and was completed in April 1709, under the architect Pedro de Arrieta. It has three naves, an octagonal dome with a talavera tile lantern, and four octagonal towers, one at each corner. The image of Our Lady of Guadalupe was venerated here from 1709 until 1976, with some temporary departures. The façade is shaped like a folding screen. One interpretation holds that the four towers evoke the Temple of Solomon. The ground sank unevenly, and for that reason the church stayed closed for decades."
+    },
+    "guion_largo": {
+      "hash": "c8e7055562279483",
+      "texto": "The Old Basilica is the second great sanctuary built on this site. Before it there was a small hermitage and, from 1622, a stone church. In 1695, Archbishop Juan de Aguiar y Seijas decided to build a new one, and the earlier church was demolished.\n\nThe first stone of that earlier church had been laid in 1609, and it was dedicated in November 1622. In 1629, because of a flood in the city, the image was taken to the Cathedral. It returned on May 15, 1634.\n\nWork began on March 25, 1695. The architect José Durán worked first. After his death, in 1707, Pedro de Arrieta took over, one of the great architects of New Spanish Baroque. The church was blessed on April 27, 1709, and the image of Our Lady of Guadalupe was carried in procession on April 30. The cartouche on the façade gives May 1, and the sources cite both dates.\n\nLook at the building. It has a basilica plan with three naves and an octagonal dome crowned by a lantern covered in yellow and blue talavera tile. At each corner there is an octagonal tower, four in all. The façade is shaped like a folding screen, that is, it is folded into planes like those wooden pieces used to divide a space, and it is adorned with Corinthian half-columns. One interpretation holds that the four towers evoke the Temple of Solomon, a subject studied by the art historian Martha Fernández.\n\nThe Old Basilica was a collegiate church, that is, it had its own chapter of priests, from 1750. In 1895, on October 12, the image was crowned here with the authorization of Pope Leo XIII. In 1904, on May 24, it received the title of minor basilica, an honor that the pope grants to churches that are important for their history and their place in the life of the Church.\n\nOver time, the subsoil gave way and the building sank unevenly. In 1976, when the New Basilica was inaugurated, the image was moved and this church was closed. In 1979 the National Institute of Anthropology and History (INAH) and the Episcopate promoted its consolidation.\n\nAfter decades of work, the church reopened for worship under the name Expiatory Temple of Christ the King. If you walk around the building, you will see that the rear part, the apse, ended up separated from the rest by several meters, a visible reminder of the sinking.\n\nFor those who visit the sanctuary, this building is the place where the image stayed for most of its modern history. For those interested in art, it is one of the major works of Pedro de Arrieta. And for everyone, it is an example of how a city built on a lake looks after its monuments."
+    },
+    "retos_observacion": {
+      "hash": "8f6be73c981cc78d",
+      "texto": [
+        "Count the four towers",
+        "Look at the dome with its talavera tile lantern",
+        "See whether the building looks tilted"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ee07d9adceab824d",
+      "texto": {
+        "Work": "March 25, 1695 to April 1709",
+        "Architect": "Pedro de Arrieta",
+        "Plan": "three naves",
+        "Dome": "octagonal with a talavera tile lantern",
+        "Towers": "four, octagonal"
+      }
+    },
+    "faq_mito": {
+      "hash": "c3f23e64f0180f13",
+      "texto": {
+        "pregunta": "Myth: The Old Basilica was closed because of the 1921 bomb.",
+        "respuesta": "Reality: The bomb damaged the altar, but the church was closed to worship after the image was moved in 1976, following years of uneven sinking of the ground."
+      }
+    }
+  }
+}

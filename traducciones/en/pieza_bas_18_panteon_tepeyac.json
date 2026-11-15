@@ -1,0 +1,53 @@
+{
+  "id": "bas_18_panteon_tepeyac",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d67a981b3438aa1a",
+      "texto": "The Tepeyac Cemetery"
+    },
+    "frase_gancho": {
+      "hash": "b80d94d03bffe3ae",
+      "texto": "A hillside cemetery, with figures from the history of Mexico."
+    },
+    "puente_narrativo": {
+      "hash": "8cbf205367e41a5e",
+      "texto": "Beside the chapel is the cemetery, where you end your tour."
+    },
+    "guion_corto": {
+      "hash": "6d6446ebd1dac0c2",
+      "texto": "The Tepeyac Cemetery stands next to the Chapel of the Little Hill. There have been burials on this hill since before seventeen sixteen. One tradition traces it back to sixteen sixty, but studies document the first tombs in the early eighteenth century. With the Cemetery Law of eighteen fifty-nine, it became an official cemetery, in eighteen seventy-one. Here rest figures from the history of Mexico, such as Antonio López de Santa Anna, the painter José María Velasco, and the poet Xavier Villaurrutia, and also many architects. Many families chose to bury their loved ones here, close to the sanctuary. There is a site museum that tells the story of the hill."
+    },
+    "guion_largo": {
+      "hash": "e1f9796ac60dd429",
+      "texto": "Beside the Chapel of the Little Hill stretches the Tepeyac Cemetery, one of the oldest cemeteries still in use in Mexico City. It is a place of memory, and as such it deserves to be seen with respect.\n\nThe first burials took place around the chapel before seventeen sixteen. One tradition attributes its founding to the year sixteen sixty, and even links it to Saint Juan Diego, but scholars, such as the architectural historian Hugo Arciniega, document the first graves in the early eighteenth century. Many families of the city wanted to bury their loved ones here, close to the place where the Guadalupan tradition situates the apparitions.\n\nIn eighteen fifty-nine, on July thirty-first, the Cemetery Law ordered that burials be placed in the hands of the State. After that law, Tepeyac became an official cemetery, in eighteen seventy-one. The date of nineteen ten that appears in an inscription is not that of its inauguration.\n\nThe monuments of the Cemetery are grouped by class, by size, and by location, beginning at the main entrance, according to the study by the architect Silvia Segarra Lagunes on its landscape, its history, and its restoration. The Cemetery is known as the cemetery of the architects, because Arciniega called it that in a study, after finding here many of the builders of the city. It also has funerary monuments of great artistic value. Among them, the sculpture of the Angel of Silence stands out.\n\nHere rest figures who are part of the country's history. There is Antonio López de Santa Anna, who was president of Mexico on several occasions, and who died on June twenty-first, eighteen seventy-six. His wife, Dolores Tosta, is also buried here. There is the painter José María Velasco, known for his landscapes of the Valley of Mexico. There is the poet Xavier Villaurrutia. And there is Delfina Ortega Díaz, first wife of President Porfirio Díaz.\n\nThe researcher Ethel Herrera Moreno has cataloged the funerary monuments in this cemetery that depict the Virgin of Guadalupe. That devotion, which is also expressed in the tombs, is part of what you see among these graves.\n\nThe Cemetery also has a site museum with two rooms. One tells the story of the hill from pre-Hispanic times, and the other, the story of the cemetery. Neither the cemetery nor the museum is open like the rest of the complex. A prior appointment is required to visit them, and it is best to confirm the conditions on the official website.\n\nIf you cannot go in, this stop sounds just the same from the chapel's viewpoint. And if you do go in, remember that it is a cemetery where families come to visit their dead: walk in silence, without hurrying."
+    },
+    "retos_observacion": {
+      "hash": "96d210c7924eb1a7",
+      "texto": [
+        "Look for the tombs of well-known figures",
+        "Observe the architects' mausoleums",
+        "Ask about the site museum"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e09c267116c503c0",
+      "texto": {
+        "Burials": "before 1716",
+        "Official cemetery": "1871",
+        "Buried": "Antonio López de Santa Anna, José María Velasco, Xavier Villaurrutia"
+      }
+    },
+    "faq_mito": {
+      "hash": "1823517dcf05a11b",
+      "texto": {
+        "pregunta": "Myth: The cemetery has been documented since sixteen sixty.",
+        "respuesta": "Reality: One tradition traces it back to that date, but studies document the first tombs in the early eighteenth century. It has been an official cemetery since eighteen seventy-one."
+      }
+    }
+  }
+}

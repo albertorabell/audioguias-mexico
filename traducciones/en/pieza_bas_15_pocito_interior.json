@@ -1,0 +1,46 @@
+{
+  "id": "bas_15_pocito_interior",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "313cec151e7c53d3",
+      "texto": "The Pocito Chapel: Interior"
+    },
+    "frase_gancho": {
+      "hash": "403a622af6b8d28c",
+      "texto": "Three linked spaces and a well."
+    },
+    "puente_narrativo": {
+      "hash": "b6946908638991b7",
+      "texto": "You are entering the chapel, where people may be praying."
+    },
+    "guion_corto": {
+      "hash": "0bb907ed3e70128a",
+      "texto": "Inside the chapel there are three spaces that connect to one another. First, a circular vestibule, where the wellhead of the well is still preserved. Then, the prayer hall, with the altar of gilded wood. And at the back, an octagonal sacristy. On the walls hang four paintings of the apparitions, attributed to Miguel Cabrera, one of the great painters of New Spain. The pulpit is supported by the figure of an Indigenous man, who recalls Saint Juan Diego. For the faithful, the well is tied to the memory of the apparitions. It is a place to enter calmly. People may be praying, and the hours may change."
+    },
+    "guion_largo": {
+      "hash": "0c90c6a84e9ea872",
+      "texto": "Pocito is a diminutive of the Spanish word for well, that is, a small well, and that is where the chapel gets its name. As you enter, the first thing you find is the vestibule, which is circular. There the wellhead still remains, the stone rim that surrounds the mouth of the spring. The chapel was built to protect this place, and it is the center of the building.\n\nFor the faithful, the well is tied to the memory of the apparitions. The Guadalupan tradition, as Francisco de Florencia recorded it in the seventeenth century, associates it with one of the sites at Tepeyac where the Virgin Mary appeared to Saint Juan Diego. For centuries, a man known as the lay brother of Our Lady of Guadalupe, appointed by the cabildo, was in charge of looking after the well, until in seventeen seventy-eight it was decided to build the present chapel.\n\nAfter the vestibule you pass into the prayer hall, which is the main space. There stands the altar, made of wood covered with gold. On the wall are four altarpieces with scenes of the apparitions, painted, according to the local tradition, by Miguel Cabrera. Cabrera was born in sixteen ninety-five and died in seventeen sixty-eight, and he was one of the most important painters of New Spain. A study from two thousand twenty-two also cites a copy of the image of Our Lady of Guadalupe made by Cabrera in seventeen fifty-three.\n\nThere is also a pulpit, the raised place from which a preacher speaks. Instead of a column, the pulpit rests on the figure of an Indigenous man, who represents Juan Diego. It is a detail easy to overlook, and it tells how the Virgin’s messenger was meant to be remembered in this space.\n\nThe third space is the sacristy, octagonal in plan, where the objects of worship are kept.\n\nThe plan of the interior is as complex as that of the exterior. The circular vestibule, the prayer hall and the octagonal sacristy form an ensemble of curved and straight planes. Scholars consider it one of the boldest expressions of Mexican Baroque.\n\nThe chapel is a place of active worship and belongs to the Parish of Santa María de Guadalupe, known as the Capuchinas. People may be praying. It is best to enter calmly, speak in a low voice and photograph discreetly. Opening hours may change, and it is best to confirm them on the official website.\n\nIf you manage to get in, begin at the vestibule and remember that the well is at the origin of the entire building. Then walk through the hall calmly, and look at the paintings one by one. Each one tells, in its own way, a moment of the story that the Guadalupan tradition has handed down for centuries."
+    },
+    "retos_observacion": {
+      "hash": "f6085b63cb4beca3",
+      "texto": [
+        "Find the wellhead of the well",
+        "Look at the four paintings of the apparitions",
+        "Observe the pulpit with the figure of an Indigenous man"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d1d88e7e5583047",
+      "texto": {
+        "Spaces": "circular vestibule, prayer hall, octagonal sacristy",
+        "Paintings": "four, attributed to Miguel Cabrera",
+        "Altar": "gilded wood"
+      }
+    }
+  }
+}

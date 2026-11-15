@@ -1,0 +1,55 @@
+{
+  "id": "bas_09_museo_basilica",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8f53edf3c8475513",
+      "texto": "The Museum of the Basilica of Guadalupe"
+    },
+    "frase_gancho": {
+      "hash": "1f9d89cbb51b5773",
+      "texto": "Sacred art and the memory of devotion in the former convent."
+    },
+    "puente_narrativo": {
+      "hash": "955d94e8c3020ad2",
+      "texto": "You continue on to the museum, in the former convent."
+    },
+    "guion_corto": {
+      "hash": "e7258066a6048b56",
+      "texto": "You are at the Museum of the Basilica of Guadalupe, which opened on the twelfth of October, nineteen forty-one. It occupies the former convent, behind the Old Basilica. It has about sixteen halls and more than four thousand pieces of Asian, European, and New Spanish art, from the fifteenth to the twentieth century. There are works by painters such as Cristóbal de Villalpando, José de Ibarra, and Miguel Cabrera. It is considered one of the oldest museums in Mexico. Here you find sacred art and also the memory of devotion: offerings and objects that the faithful left over the centuries. Hours and admission prices may change."
+    },
+    "guion_largo": {
+      "hash": "6f19f391b0542aa5",
+      "texto": "The Museum of the Basilica of Guadalupe opened its doors on the twelfth of October, nineteen forty-one. It is considered one of the oldest museums in Mexico. It occupies the former Capuchin convent, behind the Old Basilica.\n\nIts collection is extensive. It has about sixteen halls and more than four thousand pieces. There is Asian, European, and New Spanish art, from the fifteenth to the twentieth century. Among the artists cited are Matías de Arteaga y Alfaro, Cristóbal de Villalpando, Nicolás Rodríguez Juárez, José de Ibarra, and Miguel Cabrera, important names in New Spanish painting. The museum presents itself as home to the largest collection related to the Virgin of Guadalupe.\n\nBesides paintings on canvas, there is polychrome sculpture, sculpture in marble and ivory, engravings, books, textiles such as banners, tapestries, and liturgical vestments, metalwork, and furniture of Mexican origin. Some halls are organized by theme. There is an Archangels Hall, with paintings of the archangels, and a Christological Hall, dedicated to Jesus.\n\nAn important part of the collection is the ex-votos, the small paintings with which the faithful gave thanks, which we will talk about at the next stop.\n\nThe building also holds a part of history. It is the former Capuchin convent, and it was left partially separated from the Old Basilica, a separation that is easier to see from the outside.\n\nAccording to the museum's administration, when it opened in nineteen forty-one, religious art was not valued as it is today, and its founding was a decision ahead of its time. Over the years, the collection has been requested for major exhibitions, such as those at the Prado Museum in Madrid and the Metropolitan Museum of Art in New York.\n\nPeople visit the museum in different ways. For believers, it is a way to learn about the devotion of earlier generations. For those who study art, it is a collection of New Spanish painting. For the curious, it is a window into how faith was lived in each era. The museum's director has said that walking through it is a spiritual experience, regardless of the religion each person professes.\n\nHours, admission prices, and open halls may change. It is best to confirm them on the official website before you go. It is a museum, but it is also part of a place of worship, so respectful behavior is expected.\n\nIf you have little time, choose one hall and look calmly at a single work. One painting well seen says more than many seen in a hurry."
+    },
+    "retos_observacion": {
+      "hash": "7f97d36c306962b3",
+      "texto": [
+        "Find a work by Villalpando, Ibarra, or Cabrera",
+        "Observe the objects the faithful left behind",
+        "Take a look at the building of the former convent"
+      ]
+    },
+    "especificaciones": {
+      "hash": "823a01f3b8b7ee2e",
+      "texto": {
+        "Opening": "October 12, 1941",
+        "Halls": "about 16",
+        "Pieces": "more than 4,000",
+        "Eras": "15th to 20th centuries",
+        "Painters": "Villalpando, Ibarra, Cabrera"
+      }
+    },
+    "faq_mito": {
+      "hash": "393c5d6014d2c3d7",
+      "texto": {
+        "pregunta": "Myth: The Museum of the Basilica is recent.",
+        "respuesta": "Reality: It opened on the twelfth of October, nineteen forty-one, and is considered one of the oldest museums in Mexico."
+      }
+    }
+  }
+}

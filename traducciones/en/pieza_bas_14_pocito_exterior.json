@@ -1,0 +1,55 @@
+{
+  "id": "bas_14_pocito_exterior",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-15",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9418f0b11ddcb2ce",
+      "texto": "The Pocito Chapel: Exterior"
+    },
+    "frase_gancho": {
+      "hash": "b5228cf4ecf50e07",
+      "texto": "A Baroque jewel beside a spring."
+    },
+    "puente_narrativo": {
+      "hash": "d477dd715c1ffc09",
+      "texto": "You climb to the Pocito Chapel, at the foot of the hill."
+    },
+    "guion_corto": {
+      "hash": "c0722fd98d6bf3f5",
+      "texto": "This is the Pocito Chapel, which the National Institute of Anthropology and History (INAH) considers a jewel of Latin American Baroque. It was designed by Francisco Antonio Guerrero y Torres and built between seventeen seventy-seven and seventeen ninety-one. Its floor plan combines curves and straight lines, with three domes covered in blue and white talavera tile over walls of tezontle. It was raised beside a spring that Guadalupan tradition associates with one of the sites of the apparitions. According to INAH, its design alludes to the sky, the earth, and the cardinal directions. The earlier chapel, from sixteen forty-eight, was torn down to build this one."
+    },
+    "guion_largo": {
+      "hash": "f64cd7dd634e4361",
+      "texto": "You are standing in front of the Pocito Chapel. It is one of the most singular works of viceregal architecture, and the National Institute of Anthropology and History considers it a jewel of Latin American Baroque.\n\nIts story begins with water. On the eastern slope of the Tepeyac there was a small spring of brackish water, that is, water with a taste of salt. Guadalupan tradition associates that place with one of the sites of the apparitions, as the Jesuit Francisco de Florencia recorded in the seventeenth century. Around the spring, between sixteen forty-eight and sixteen forty-nine, a first chapel of octagonal shape was built, on the initiative of Luis Lasso de la Vega, the same vicar who ordered the construction of the Parroquia de Indios. That chapel was torn down around seventeen seventy-eight, to build the present one.\n\nThe author of the chapel is Francisco Antonio Guerrero y Torres, born in the Villa de Guadalupe and maestro mayor of the city, that is, the chief architect of public works. The sources indicate that he donated his design and his labor. The works lasted from seventeen seventy-seven to seventeen ninety-one, and the viceroy Antonio María de Bucareli contributed one hundred fifty pesos a month to sustain them.\n\nLook at the shape of the building. It is not a rectangle or a circle, but a floor plan of curved and straight lines that combine. There are three large volumes covered by domes, and they partly intersect. The domes and the lanterns are covered with blue and white talavera tiles. The walls are made of tezontle, the reddish volcanic stone used in many buildings of the city, with details in quarry stone.\n\nScholars note that Guerrero y Torres was inspired by an ancient Roman temple, whose drawing the Italian architect Sebastiano Serlio had published in his treatise. In seventeen seventy-nine, the Council of the Indies questioned the Baroque style of the design. Even so, the work was completed.\n\nThe National Institute of Anthropology and History has explained that the design has a symbolic meaning. According to its study, it alludes to the sky, the earth, and the cardinal directions. It is a reading that Martha Fernández, a researcher at the National Autonomous University of Mexico, has also developed in an article from two thousand twenty-two.\n\nThe building has changed over the centuries. The ground is soft, as it is throughout this valley. In nineteen fifty-nine, work was carried out to relevel the chapel, under the engineer Manuel González Flores. In two thousand twenty-four, the Institute presented an assessment of its state of conservation, noting cracks in the walls and the central dome, and missing pieces in the tezontle cladding. It is a monument that still needs care.\n\nFor those who come to pray, this is the place associated with the well of the Tepeyac. For those who seek architecture, it is one of the most original works of its time. For almost everyone, it is hard not to stop and gaze at it."
+    },
+    "retos_observacion": {
+      "hash": "85748d5f83e14d3d",
+      "texto": [
+        "Count the three domes",
+        "Observe the contrast between the tezontle and the talavera",
+        "Look for the shape of curves and straight lines in the floor plan"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5a4190216fc88c72",
+      "texto": {
+        "Design": "Francisco Antonio Guerrero y Torres",
+        "Construction": "1777 to 1791",
+        "Domes": "three, of blue and white talavera tile",
+        "Walls": "tezontle",
+        "Earlier chapel": "1648"
+      }
+    },
+    "faq_mito": {
+      "hash": "628d14f314812e13",
+      "texto": {
+        "pregunta": "Myth: The current Pocito Chapel dates from the seventeenth century.",
+        "respuesta": "Reality: The earlier chapel dated from sixteen forty-eight; the current one was built between seventeen seventy-seven and seventeen ninety-one."
+      }
+    }
+  }
+}
