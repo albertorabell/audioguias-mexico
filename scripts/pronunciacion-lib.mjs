@@ -66,6 +66,21 @@ export function pronunciationElement(kind, value, original, outerVoice = null) {
   return `<sub alias="${xmlEscape(value)}">${xmlEscape(original)}</sub>`;
 }
 
+/**
+ * Palabras de una sola letra que la voz (de español) lee como nombre de letra ("doble u") en vez de como palabra.
+ * Se agregan solas a la lista de cada idioma; las filas del glosario tienen prioridad.
+ */
+export const SINGLE_LETTER_WORDS = {
+  pl: [{ word: 'w', value: 'v' }, { word: 'z', value: 'z' }],
+};
+export function withBuiltins(entries, lang) {
+  const have = new Set(entries.map((e) => e.word.toLowerCase()));
+  const extra = (SINGLE_LETTER_WORDS[lang] || [])
+    .filter((x) => !have.has(x.word))
+    .map((x) => ({ lang, word: x.word, kind: 'ipa', value: x.value }));
+  return [...entries, ...extra];
+}
+
 /** Texto → contenido SSML (escapado), con las pronunciaciones aplicadas a palabras completas. Sin lista = solo escapa. */
 export function toSsmlInner(text, entries = [], outerVoice = null) {
   if (!entries.length) return xmlEscape(text);

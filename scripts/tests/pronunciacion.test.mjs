@@ -86,3 +86,12 @@ test('la lista real de francés: filas válidas, mismas reglas que inglés y sin
   assert.match(out, /<lang xml:lang="es-MX">Tláloc<\/lang>/);
   assert.match(out, /Les Mexicas vénéraient/);
 });
+
+test('polaco: "w" y "z" sueltas se leen como palabra, no como nombre de letra', async () => {
+  const { toSsmlInner, withBuiltins } = await import('../pronunciacion-lib.mjs');
+  const out = toSsmlInner('W Coyoacán z rodziną, wiek w mieście', withBuiltins([], 'pl'));
+  assert.match(out, /<phoneme alphabet="ipa" ph="v">W<\/phoneme> Coyoacán/);
+  assert.match(out, /<phoneme alphabet="ipa" ph="z">z<\/phoneme> rodziną/);
+  assert.ok(!out.includes('>wiek<'));
+  assert.equal(toSsmlInner('w domu', withBuiltins([], 'es')), 'w domu');
+});
