@@ -236,6 +236,96 @@
           "provider": "azure"
         }
       },
+      "bas_14_pocito_exterior": {
+        "corto": {
+          "hash": "6fea363a33f6c2c9",
+          "file": "de/bas_14_pocito_exterior_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 275472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "402593e7b31a33e7",
+          "file": "de/bas_14_pocito_exterior_largo.mp3",
+          "remote": true,
+          "seconds": 200,
+          "bytes": 1200528,
+          "provider": "azure"
+        }
+      },
+      "bas_15_pocito_interior": {
+        "corto": {
+          "hash": "59d7f9eb58ea7540",
+          "file": "de/bas_15_pocito_interior_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 255168,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b67586f76ec55986",
+          "file": "de/bas_15_pocito_interior_largo.mp3",
+          "remote": true,
+          "seconds": 174,
+          "bytes": 1042128,
+          "provider": "azure"
+        }
+      },
+      "bas_16_vela_y_jardines": {
+        "corto": {
+          "hash": "4b30f07dbb541ab8",
+          "file": "de/bas_16_vela_y_jardines_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 257616,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2a9fd05f92ece3c9",
+          "file": "de/bas_16_vela_y_jardines_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1014912,
+          "provider": "azure"
+        }
+      },
+      "bas_17_cerrito": {
+        "corto": {
+          "hash": "104c3a1816e25e46",
+          "file": "de/bas_17_cerrito_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 263952,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "acce0e087311f6e6",
+          "file": "de/bas_17_cerrito_largo.mp3",
+          "remote": true,
+          "seconds": 174,
+          "bytes": 1044576,
+          "provider": "azure"
+        }
+      },
+      "bas_18_panteon_tepeyac": {
+        "corto": {
+          "hash": "b61a1d85687288fd",
+          "file": "de/bas_18_panteon_tepeyac_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 274608,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f1ae9bc200b35936",
+          "file": "de/bas_18_panteon_tepeyac_largo.mp3",
+          "remote": true,
+          "seconds": 175,
+          "bytes": 1047888,
+          "provider": "azure"
+        }
+      },
       "bas_19_imagen_guadalupana": {
         "corto": {
           "hash": "a14a92fdc742c436",
@@ -8929,6 +9019,78 @@
           "remote": true,
           "seconds": 180,
           "bytes": 1081440,
+          "provider": "azure"
+        }
+      },
+      "bas_15_pocito_interior": {
+        "corto": {
+          "hash": "65ed91c80046c947",
+          "file": "en/bas_15_pocito_interior_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 235584,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f30c00fea147fc15",
+          "file": "en/bas_15_pocito_interior_largo.mp3",
+          "remote": true,
+          "seconds": 156,
+          "bytes": 937728,
+          "provider": "azure"
+        }
+      },
+      "bas_16_vela_y_jardines": {
+        "corto": {
+          "hash": "2ff9bb8b83cfc3e1",
+          "file": "en/bas_16_vela_y_jardines_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 240768,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "58cf192e56f7174a",
+          "file": "en/bas_16_vela_y_jardines_largo.mp3",
+          "remote": true,
+          "seconds": 155,
+          "bytes": 931392,
+          "provider": "azure"
+        }
+      },
+      "bas_17_cerrito": {
+        "corto": {
+          "hash": "9d2d1d2f13b0a0d9",
+          "file": "en/bas_17_cerrito_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 252000,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3756b646cdc2d79a",
+          "file": "en/bas_17_cerrito_largo.mp3",
+          "remote": true,
+          "seconds": 164,
+          "bytes": 984816,
+          "provider": "azure"
+        }
+      },
+      "bas_18_panteon_tepeyac": {
+        "corto": {
+          "hash": "88ea9057890ef161",
+          "file": "en/bas_18_panteon_tepeyac_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 249984,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "08d71f01d494fcf4",
+          "file": "en/bas_18_panteon_tepeyac_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 980496,
           "provider": "azure"
         }
       },
@@ -17628,6 +17790,78 @@
           "provider": "azure"
         }
       },
+      "bas_15_pocito_interior": {
+        "corto": {
+          "hash": "b6efac80a1cd7fd2",
+          "file": "es/bas_15_pocito_interior_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 229680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2a96b1c52266aa82",
+          "file": "es/bas_15_pocito_interior_largo.mp3",
+          "remote": true,
+          "seconds": 151,
+          "bytes": 907344,
+          "provider": "azure"
+        }
+      },
+      "bas_16_vela_y_jardines": {
+        "corto": {
+          "hash": "030c7407497061c6",
+          "file": "es/bas_16_vela_y_jardines_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 226944,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "22f233facac74988",
+          "file": "es/bas_16_vela_y_jardines_largo.mp3",
+          "remote": true,
+          "seconds": 151,
+          "bytes": 905616,
+          "provider": "azure"
+        }
+      },
+      "bas_17_cerrito": {
+        "corto": {
+          "hash": "945eb53b2451b5eb",
+          "file": "es/bas_17_cerrito_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 225216,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "709af477f301b37e",
+          "file": "es/bas_17_cerrito_largo.mp3",
+          "remote": true,
+          "seconds": 155,
+          "bytes": 931104,
+          "provider": "azure"
+        }
+      },
+      "bas_18_panteon_tepeyac": {
+        "corto": {
+          "hash": "d0041dfe4684a273",
+          "file": "es/bas_18_panteon_tepeyac_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 242352,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e996884d05ce02ca",
+          "file": "es/bas_18_panteon_tepeyac_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 955440,
+          "provider": "azure"
+        }
+      },
       "bas_19_imagen_guadalupana": {
         "corto": {
           "hash": "80f103db92ab93ab",
@@ -26306,6 +26540,96 @@
           "provider": "azure"
         }
       },
+      "bas_14_pocito_exterior": {
+        "corto": {
+          "hash": "08837c5bee5515a7",
+          "file": "fr/bas_14_pocito_exterior_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 234000,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dbc21b7c518bcdb7",
+          "file": "fr/bas_14_pocito_exterior_largo.mp3",
+          "remote": true,
+          "seconds": 171,
+          "bytes": 1028880,
+          "provider": "azure"
+        }
+      },
+      "bas_15_pocito_interior": {
+        "corto": {
+          "hash": "15610497efee09b4",
+          "file": "fr/bas_15_pocito_interior_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 226800,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b803d40cbab56c22",
+          "file": "fr/bas_15_pocito_interior_largo.mp3",
+          "remote": true,
+          "seconds": 153,
+          "bytes": 915840,
+          "provider": "azure"
+        }
+      },
+      "bas_16_vela_y_jardines": {
+        "corto": {
+          "hash": "8a8b60567e17ee54",
+          "file": "fr/bas_16_vela_y_jardines_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 229968,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "fbcff81e67fae124",
+          "file": "fr/bas_16_vela_y_jardines_largo.mp3",
+          "remote": true,
+          "seconds": 150,
+          "bytes": 898560,
+          "provider": "azure"
+        }
+      },
+      "bas_17_cerrito": {
+        "corto": {
+          "hash": "4a0848ba6c94e2b6",
+          "file": "fr/bas_17_cerrito_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 239472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "48fc8c9dca6f02eb",
+          "file": "fr/bas_17_cerrito_largo.mp3",
+          "remote": true,
+          "seconds": 157,
+          "bytes": 943632,
+          "provider": "azure"
+        }
+      },
+      "bas_18_panteon_tepeyac": {
+        "corto": {
+          "hash": "6b06316b17788ffc",
+          "file": "fr/bas_18_panteon_tepeyac_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 242064,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ea797e54388abbc4",
+          "file": "fr/bas_18_panteon_tepeyac_largo.mp3",
+          "remote": true,
+          "seconds": 157,
+          "bytes": 940752,
+          "provider": "azure"
+        }
+      },
       "bas_19_imagen_guadalupana": {
         "corto": {
           "hash": "aaa354485231339f",
@@ -34981,6 +35305,96 @@
           "remote": true,
           "seconds": 177,
           "bytes": 1063872,
+          "provider": "azure"
+        }
+      },
+      "bas_14_pocito_exterior": {
+        "corto": {
+          "hash": "21c19a0e5a401f8c",
+          "file": "it/bas_14_pocito_exterior_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 261216,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bc8272c90c90651e",
+          "file": "it/bas_14_pocito_exterior_largo.mp3",
+          "remote": true,
+          "seconds": 188,
+          "bytes": 1128528,
+          "provider": "azure"
+        }
+      },
+      "bas_15_pocito_interior": {
+        "corto": {
+          "hash": "83e0bab8eca3304e",
+          "file": "it/bas_15_pocito_interior_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 245088,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d36da992294400dd",
+          "file": "it/bas_15_pocito_interior_largo.mp3",
+          "remote": true,
+          "seconds": 165,
+          "bytes": 987408,
+          "provider": "azure"
+        }
+      },
+      "bas_16_vela_y_jardines": {
+        "corto": {
+          "hash": "82eb25fd97cbd107",
+          "file": "it/bas_16_vela_y_jardines_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 256752,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f9c5111c69a3a664",
+          "file": "it/bas_16_vela_y_jardines_largo.mp3",
+          "remote": true,
+          "seconds": 161,
+          "bytes": 965808,
+          "provider": "azure"
+        }
+      },
+      "bas_17_cerrito": {
+        "corto": {
+          "hash": "8210d88639efb753",
+          "file": "it/bas_17_cerrito_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 251280,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7553df3ac0f551d8",
+          "file": "it/bas_17_cerrito_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1011168,
+          "provider": "azure"
+        }
+      },
+      "bas_18_panteon_tepeyac": {
+        "corto": {
+          "hash": "76483d0983b373bf",
+          "file": "it/bas_18_panteon_tepeyac_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 262800,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6c962c8b875556ec",
+          "file": "it/bas_18_panteon_tepeyac_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1015776,
           "provider": "azure"
         }
       },
@@ -52427,6 +52841,96 @@
           "remote": true,
           "seconds": 170,
           "bytes": 1019232,
+          "provider": "azure"
+        }
+      },
+      "bas_14_pocito_exterior": {
+        "corto": {
+          "hash": "e623db6b4acb4eda",
+          "file": "pt/bas_14_pocito_exterior_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 245376,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "729ff001a2fa796c",
+          "file": "pt/bas_14_pocito_exterior_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 1080144,
+          "provider": "azure"
+        }
+      },
+      "bas_15_pocito_interior": {
+        "corto": {
+          "hash": "b43316c29297e62f",
+          "file": "pt/bas_15_pocito_interior_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 231120,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "65fa938cea657c1f",
+          "file": "pt/bas_15_pocito_interior_largo.mp3",
+          "remote": true,
+          "seconds": 154,
+          "bytes": 925200,
+          "provider": "azure"
+        }
+      },
+      "bas_16_vela_y_jardines": {
+        "corto": {
+          "hash": "12b75354f602b37c",
+          "file": "pt/bas_16_vela_y_jardines_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 240192,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2258e86757675fd4",
+          "file": "pt/bas_16_vela_y_jardines_largo.mp3",
+          "remote": true,
+          "seconds": 152,
+          "bytes": 912672,
+          "provider": "azure"
+        }
+      },
+      "bas_17_cerrito": {
+        "corto": {
+          "hash": "26d4062f29a32584",
+          "file": "pt/bas_17_cerrito_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 234144,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9385ce614779b687",
+          "file": "pt/bas_17_cerrito_largo.mp3",
+          "remote": true,
+          "seconds": 161,
+          "bytes": 965232,
+          "provider": "azure"
+        }
+      },
+      "bas_18_panteon_tepeyac": {
+        "corto": {
+          "hash": "7ae180cca9c9287e",
+          "file": "pt/bas_18_panteon_tepeyac_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 248400,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "00f8f71fd9f84955",
+          "file": "pt/bas_18_panteon_tepeyac_largo.mp3",
+          "remote": true,
+          "seconds": 161,
+          "bytes": 967392,
           "provider": "azure"
         }
       },
