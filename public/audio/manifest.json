@@ -2,6 +2,258 @@
   "version": 1,
   "items": {
     "de": {
+      "bas_01_calzada_misterios": {
+        "corto": {
+          "hash": "c0c46859837fa64c",
+          "file": "de/bas_01_calzada_misterios_corto.mp3",
+          "remote": false,
+          "seconds": 45,
+          "bytes": 268560,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "36775ee3cec7b1b9",
+          "file": "de/bas_01_calzada_misterios_largo.mp3",
+          "remote": false,
+          "seconds": 197,
+          "bytes": 1183680,
+          "provider": "azure"
+        }
+      },
+      "bas_02_atrio_americas": {
+        "corto": {
+          "hash": "cf9a48400b1a849e",
+          "file": "de/bas_02_atrio_americas_corto.mp3",
+          "remote": false,
+          "seconds": 49,
+          "bytes": 296784,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "078b6540f8f81c0d",
+          "file": "de/bas_02_atrio_americas_largo.mp3",
+          "remote": false,
+          "seconds": 186,
+          "bytes": 1116576,
+          "provider": "azure"
+        }
+      },
+      "bas_03_tepeyac_prehispanico": {
+        "corto": {
+          "hash": "6076e409183edecd",
+          "file": "de/bas_03_tepeyac_prehispanico_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 274320,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b14bcf3daa953103",
+          "file": "de/bas_03_tepeyac_prehispanico_largo.mp3",
+          "remote": true,
+          "seconds": 176,
+          "bytes": 1054224,
+          "provider": "azure"
+        }
+      },
+      "bas_04_origen_culto_nican": {
+        "corto": {
+          "hash": "7a435777e935648d",
+          "file": "de/bas_04_origen_culto_nican_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 282960,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "84cf37b4e2b45f12",
+          "file": "de/bas_04_origen_culto_nican_largo.mp3",
+          "remote": true,
+          "seconds": 187,
+          "bytes": 1120896,
+          "provider": "azure"
+        }
+      },
+      "bas_05_parroquia_indios": {
+        "corto": {
+          "hash": "0500b66545368c8f",
+          "file": "de/bas_05_parroquia_indios_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 242064,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5812472678e85103",
+          "file": "de/bas_05_parroquia_indios_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 1116000,
+          "provider": "azure"
+        }
+      },
+      "bas_06_antigua_fachada": {
+        "corto": {
+          "hash": "169d37f0b6b7d88e",
+          "file": "de/bas_06_antigua_fachada_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 268272,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "48c47b4a2bc44e36",
+          "file": "de/bas_06_antigua_fachada_largo.mp3",
+          "remote": true,
+          "seconds": 196,
+          "bytes": 1175040,
+          "provider": "azure"
+        }
+      },
+      "bas_07_antigua_interior": {
+        "corto": {
+          "hash": "0b4815d9a79e955e",
+          "file": "de/bas_07_antigua_interior_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 242784,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3d8233f463f19508",
+          "file": "de/bas_07_antigua_interior_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 1077264,
+          "provider": "azure"
+        }
+      },
+      "bas_08_capuchinas": {
+        "corto": {
+          "hash": "a128a8ebac1e6f55",
+          "file": "de/bas_08_capuchinas_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 238464,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "584c22274205fe2d",
+          "file": "de/bas_08_capuchinas_largo.mp3",
+          "remote": true,
+          "seconds": 158,
+          "bytes": 947088,
+          "provider": "azure"
+        }
+      },
+      "bas_09_museo_basilica": {
+        "corto": {
+          "hash": "738487f37f5d1c31",
+          "file": "de/bas_09_museo_basilica_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 265824,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "43ab2af2da6fe321",
+          "file": "de/bas_09_museo_basilica_largo.mp3",
+          "remote": true,
+          "seconds": 172,
+          "bytes": 1034352,
+          "provider": "azure"
+        }
+      },
+      "bas_10_exvotos": {
+        "corto": {
+          "hash": "b7c4b3d683060b91",
+          "file": "de/bas_10_exvotos_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 265680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2b55b3c075b79997",
+          "file": "de/bas_10_exvotos_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 1080720,
+          "provider": "azure"
+        }
+      },
+      "bas_11_nueva_arquitectura": {
+        "corto": {
+          "hash": "c5bfac2e6dff43e0",
+          "file": "de/bas_11_nueva_arquitectura_corto.mp3",
+          "remote": false,
+          "seconds": 47,
+          "bytes": 284544,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dba5a2cc43af1167",
+          "file": "de/bas_11_nueva_arquitectura_largo.mp3",
+          "remote": false,
+          "seconds": 208,
+          "bytes": 1248768,
+          "provider": "azure"
+        }
+      },
+      "bas_12_cristo_atentado": {
+        "corto": {
+          "hash": "9f3cdb0fd6b8c17f",
+          "file": "de/bas_12_cristo_atentado_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 259776,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "526688ea2c8dc38a",
+          "file": "de/bas_12_cristo_atentado_largo.mp3",
+          "remote": true,
+          "seconds": 187,
+          "bytes": 1119744,
+          "provider": "azure"
+        }
+      },
+      "bas_13_tilma_banda": {
+        "corto": {
+          "hash": "80b1356b03cdc030",
+          "file": "de/bas_13_tilma_banda_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 256896,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a7eb1f628ffd78c0",
+          "file": "de/bas_13_tilma_banda_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 1071072,
+          "provider": "azure"
+        }
+      },
+      "bas_19_imagen_guadalupana": {
+        "corto": {
+          "hash": "a14a92fdc742c436",
+          "file": "de/bas_19_imagen_guadalupana_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 230688,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a4e976d3f00efe5f",
+          "file": "de/bas_19_imagen_guadalupana_largo.mp3",
+          "remote": true,
+          "seconds": 192,
+          "bytes": 1150128,
+          "provider": "azure"
+        }
+      },
       "cdmx_01_bellas_artes": {
         "corto": {
           "hash": "e39e10be34616941",
@@ -8428,6 +8680,276 @@
       }
     },
     "en": {
+      "bas_01_calzada_misterios": {
+        "corto": {
+          "hash": "6d9e06e2c4eede9d",
+          "file": "en/bas_01_calzada_misterios_corto.mp3",
+          "remote": false,
+          "seconds": 41,
+          "bytes": 247680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "df5e1961f9a248b7",
+          "file": "en/bas_01_calzada_misterios_largo.mp3",
+          "remote": false,
+          "seconds": 179,
+          "bytes": 1075248,
+          "provider": "azure"
+        }
+      },
+      "bas_02_atrio_americas": {
+        "corto": {
+          "hash": "a238cc30b2983fa9",
+          "file": "en/bas_02_atrio_americas_corto.mp3",
+          "remote": false,
+          "seconds": 43,
+          "bytes": 258768,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b0015beb749b7e74",
+          "file": "en/bas_02_atrio_americas_largo.mp3",
+          "remote": false,
+          "seconds": 164,
+          "bytes": 986112,
+          "provider": "azure"
+        }
+      },
+      "bas_03_tepeyac_prehispanico": {
+        "corto": {
+          "hash": "21debd9f59e1dc7b",
+          "file": "en/bas_03_tepeyac_prehispanico_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 236016,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "819855656bccc698",
+          "file": "en/bas_03_tepeyac_prehispanico_largo.mp3",
+          "remote": true,
+          "seconds": 156,
+          "bytes": 935712,
+          "provider": "azure"
+        }
+      },
+      "bas_04_origen_culto_nican": {
+        "corto": {
+          "hash": "f06212b642b3082a",
+          "file": "en/bas_04_origen_culto_nican_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 246384,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a9e8d2331f89ceb1",
+          "file": "en/bas_04_origen_culto_nican_largo.mp3",
+          "remote": true,
+          "seconds": 166,
+          "bytes": 998208,
+          "provider": "azure"
+        }
+      },
+      "bas_05_parroquia_indios": {
+        "corto": {
+          "hash": "36058674c9ab80f7",
+          "file": "en/bas_05_parroquia_indios_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 224208,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a2951d23f91bc833",
+          "file": "en/bas_05_parroquia_indios_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1011024,
+          "provider": "azure"
+        }
+      },
+      "bas_06_antigua_fachada": {
+        "corto": {
+          "hash": "fa65d68dc897e482",
+          "file": "en/bas_06_antigua_fachada_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 261792,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a2ba0f775cbf236f",
+          "file": "en/bas_06_antigua_fachada_largo.mp3",
+          "remote": true,
+          "seconds": 171,
+          "bytes": 1025568,
+          "provider": "azure"
+        }
+      },
+      "bas_07_antigua_interior": {
+        "corto": {
+          "hash": "5b0dac16e30fd12a",
+          "file": "en/bas_07_antigua_interior_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 216864,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b665ca997c284818",
+          "file": "en/bas_07_antigua_interior_largo.mp3",
+          "remote": true,
+          "seconds": 164,
+          "bytes": 985392,
+          "provider": "azure"
+        }
+      },
+      "bas_08_capuchinas": {
+        "corto": {
+          "hash": "f09c7ceddb874512",
+          "file": "en/bas_08_capuchinas_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 215280,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "11d47c76f4f93f6b",
+          "file": "en/bas_08_capuchinas_largo.mp3",
+          "remote": true,
+          "seconds": 144,
+          "bytes": 863568,
+          "provider": "azure"
+        }
+      },
+      "bas_09_museo_basilica": {
+        "corto": {
+          "hash": "220d2a3e23c6277c",
+          "file": "en/bas_09_museo_basilica_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 241632,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d494ebd58ad53810",
+          "file": "en/bas_09_museo_basilica_largo.mp3",
+          "remote": true,
+          "seconds": 158,
+          "bytes": 946944,
+          "provider": "azure"
+        }
+      },
+      "bas_10_exvotos": {
+        "corto": {
+          "hash": "9fd7d3afa38f05e9",
+          "file": "en/bas_10_exvotos_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243072,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1b481c4b7f712c38",
+          "file": "en/bas_10_exvotos_largo.mp3",
+          "remote": true,
+          "seconds": 167,
+          "bytes": 1003104,
+          "provider": "azure"
+        }
+      },
+      "bas_11_nueva_arquitectura": {
+        "corto": {
+          "hash": "f9800a304a3920bd",
+          "file": "en/bas_11_nueva_arquitectura_corto.mp3",
+          "remote": false,
+          "seconds": 43,
+          "bytes": 256464,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d3721e80cb7ae553",
+          "file": "en/bas_11_nueva_arquitectura_largo.mp3",
+          "remote": false,
+          "seconds": 193,
+          "bytes": 1155168,
+          "provider": "azure"
+        }
+      },
+      "bas_12_cristo_atentado": {
+        "corto": {
+          "hash": "bd29fecce15e5225",
+          "file": "en/bas_12_cristo_atentado_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 234144,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "50f8c0ba4a2a36e7",
+          "file": "en/bas_12_cristo_atentado_largo.mp3",
+          "remote": true,
+          "seconds": 170,
+          "bytes": 1022400,
+          "provider": "azure"
+        }
+      },
+      "bas_13_tilma_banda": {
+        "corto": {
+          "hash": "c060d9da76f5d0c5",
+          "file": "en/bas_13_tilma_banda_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 224496,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "85e2e76a49d40bf2",
+          "file": "en/bas_13_tilma_banda_largo.mp3",
+          "remote": true,
+          "seconds": 166,
+          "bytes": 993600,
+          "provider": "azure"
+        }
+      },
+      "bas_14_pocito_exterior": {
+        "corto": {
+          "hash": "788d827ec84f2199",
+          "file": "en/bas_14_pocito_exterior_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 252432,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7ab03d14113960db",
+          "file": "en/bas_14_pocito_exterior_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 1081440,
+          "provider": "azure"
+        }
+      },
+      "bas_19_imagen_guadalupana": {
+        "corto": {
+          "hash": "86a66ed99a39d555",
+          "file": "en/bas_19_imagen_guadalupana_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 223344,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e37fe83a0e300d93",
+          "file": "en/bas_19_imagen_guadalupana_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1061136,
+          "provider": "azure"
+        }
+      },
       "cdmx_01_bellas_artes": {
         "corto": {
           "hash": "a539ac980b2b8b12",
@@ -16854,6 +17376,276 @@
       }
     },
     "es": {
+      "bas_01_calzada_misterios": {
+        "corto": {
+          "hash": "30aef9232e1662e7",
+          "file": "es/bas_01_calzada_misterios_corto.mp3",
+          "remote": false,
+          "seconds": 40,
+          "bytes": 239184,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4969316144d73ea5",
+          "file": "es/bas_01_calzada_misterios_largo.mp3",
+          "remote": false,
+          "seconds": 174,
+          "bytes": 1045152,
+          "provider": "azure"
+        }
+      },
+      "bas_02_atrio_americas": {
+        "corto": {
+          "hash": "208d489fa5d0d88a",
+          "file": "es/bas_02_atrio_americas_corto.mp3",
+          "remote": false,
+          "seconds": 42,
+          "bytes": 250992,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2e8bc96ee4c3791b",
+          "file": "es/bas_02_atrio_americas_largo.mp3",
+          "remote": false,
+          "seconds": 160,
+          "bytes": 959472,
+          "provider": "azure"
+        }
+      },
+      "bas_03_tepeyac_prehispanico": {
+        "corto": {
+          "hash": "962cfac5a485c1f3",
+          "file": "es/bas_03_tepeyac_prehispanico_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 235728,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a459e0ac30f912a5",
+          "file": "es/bas_03_tepeyac_prehispanico_largo.mp3",
+          "remote": true,
+          "seconds": 151,
+          "bytes": 906768,
+          "provider": "azure"
+        }
+      },
+      "bas_04_origen_culto_nican": {
+        "corto": {
+          "hash": "8c8021524ea9b9d6",
+          "file": "es/bas_04_origen_culto_nican_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 238464,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1ea038d9883e744a",
+          "file": "es/bas_04_origen_culto_nican_largo.mp3",
+          "remote": true,
+          "seconds": 158,
+          "bytes": 945792,
+          "provider": "azure"
+        }
+      },
+      "bas_05_parroquia_indios": {
+        "corto": {
+          "hash": "6d01eff5c6f57793",
+          "file": "es/bas_05_parroquia_indios_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 214848,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8097fb13c2c0468e",
+          "file": "es/bas_05_parroquia_indios_largo.mp3",
+          "remote": true,
+          "seconds": 160,
+          "bytes": 959040,
+          "provider": "azure"
+        }
+      },
+      "bas_06_antigua_fachada": {
+        "corto": {
+          "hash": "10821b1dc615f975",
+          "file": "es/bas_06_antigua_fachada_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243360,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "55a16f990c52ef43",
+          "file": "es/bas_06_antigua_fachada_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1007712,
+          "provider": "azure"
+        }
+      },
+      "bas_07_antigua_interior": {
+        "corto": {
+          "hash": "aab3799a4ae663b6",
+          "file": "es/bas_07_antigua_interior_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 204624,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f93217bcf2225b1a",
+          "file": "es/bas_07_antigua_interior_largo.mp3",
+          "remote": true,
+          "seconds": 156,
+          "bytes": 937008,
+          "provider": "azure"
+        }
+      },
+      "bas_08_capuchinas": {
+        "corto": {
+          "hash": "71dabdcdacb44844",
+          "file": "es/bas_08_capuchinas_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 210096,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f116ec59984c9e18",
+          "file": "es/bas_08_capuchinas_largo.mp3",
+          "remote": true,
+          "seconds": 143,
+          "bytes": 856512,
+          "provider": "azure"
+        }
+      },
+      "bas_09_museo_basilica": {
+        "corto": {
+          "hash": "b2a56a0592e5fb9b",
+          "file": "es/bas_09_museo_basilica_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 219168,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "97e686de7e57ffe5",
+          "file": "es/bas_09_museo_basilica_largo.mp3",
+          "remote": true,
+          "seconds": 150,
+          "bytes": 901584,
+          "provider": "azure"
+        }
+      },
+      "bas_10_exvotos": {
+        "corto": {
+          "hash": "6bf36a95998ed23c",
+          "file": "es/bas_10_exvotos_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 216864,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0763df8056aabe1d",
+          "file": "es/bas_10_exvotos_largo.mp3",
+          "remote": true,
+          "seconds": 157,
+          "bytes": 944928,
+          "provider": "azure"
+        }
+      },
+      "bas_11_nueva_arquitectura": {
+        "corto": {
+          "hash": "fb95022f22b8410c",
+          "file": "es/bas_11_nueva_arquitectura_corto.mp3",
+          "remote": false,
+          "seconds": 40,
+          "bytes": 242064,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c090a716afd3431a",
+          "file": "es/bas_11_nueva_arquitectura_largo.mp3",
+          "remote": false,
+          "seconds": 181,
+          "bytes": 1083024,
+          "provider": "azure"
+        }
+      },
+      "bas_12_cristo_atentado": {
+        "corto": {
+          "hash": "03b4ca4449aad835",
+          "file": "es/bas_12_cristo_atentado_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 226944,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5cd747fedcb0c506",
+          "file": "es/bas_12_cristo_atentado_largo.mp3",
+          "remote": true,
+          "seconds": 161,
+          "bytes": 966528,
+          "provider": "azure"
+        }
+      },
+      "bas_13_tilma_banda": {
+        "corto": {
+          "hash": "bb818ab7bc79991e",
+          "file": "es/bas_13_tilma_banda_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 218304,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6e283594a841d76f",
+          "file": "es/bas_13_tilma_banda_largo.mp3",
+          "remote": true,
+          "seconds": 160,
+          "bytes": 958176,
+          "provider": "azure"
+        }
+      },
+      "bas_14_pocito_exterior": {
+        "corto": {
+          "hash": "1384aa0d29a6a684",
+          "file": "es/bas_14_pocito_exterior_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 231120,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c2516ce5b9e85419",
+          "file": "es/bas_14_pocito_exterior_largo.mp3",
+          "remote": true,
+          "seconds": 172,
+          "bytes": 1032912,
+          "provider": "azure"
+        }
+      },
+      "bas_19_imagen_guadalupana": {
+        "corto": {
+          "hash": "80f103db92ab93ab",
+          "file": "es/bas_19_imagen_guadalupana_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 210096,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "65c4811d401a1269",
+          "file": "es/bas_19_imagen_guadalupana_largo.mp3",
+          "remote": true,
+          "seconds": 166,
+          "bytes": 997344,
+          "provider": "azure"
+        }
+      },
       "cdmx_01_bellas_artes": {
         "corto": {
           "hash": "86e969effca6b78e",
@@ -25280,6 +26072,258 @@
       }
     },
     "fr": {
+      "bas_01_calzada_misterios": {
+        "corto": {
+          "hash": "1743672cf36ff5e9",
+          "file": "fr/bas_01_calzada_misterios_corto.mp3",
+          "remote": false,
+          "seconds": 41,
+          "bytes": 246384,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9dcf9c1ba0d4fdd8",
+          "file": "fr/bas_01_calzada_misterios_largo.mp3",
+          "remote": false,
+          "seconds": 179,
+          "bytes": 1074960,
+          "provider": "azure"
+        }
+      },
+      "bas_02_atrio_americas": {
+        "corto": {
+          "hash": "80884bce72d572f0",
+          "file": "fr/bas_02_atrio_americas_corto.mp3",
+          "remote": false,
+          "seconds": 42,
+          "bytes": 254016,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ea5ac213474cc143",
+          "file": "fr/bas_02_atrio_americas_largo.mp3",
+          "remote": false,
+          "seconds": 164,
+          "bytes": 984240,
+          "provider": "azure"
+        }
+      },
+      "bas_03_tepeyac_prehispanico": {
+        "corto": {
+          "hash": "d8207fe70986cabf",
+          "file": "fr/bas_03_tepeyac_prehispanico_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 239472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8f83103a5db84dbc",
+          "file": "fr/bas_03_tepeyac_prehispanico_largo.mp3",
+          "remote": true,
+          "seconds": 156,
+          "bytes": 937440,
+          "provider": "azure"
+        }
+      },
+      "bas_04_origen_culto_nican": {
+        "corto": {
+          "hash": "8ae9d27b15477871",
+          "file": "fr/bas_04_origen_culto_nican_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 246096,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8322f363a829c6d7",
+          "file": "fr/bas_04_origen_culto_nican_largo.mp3",
+          "remote": true,
+          "seconds": 162,
+          "bytes": 974448,
+          "provider": "azure"
+        }
+      },
+      "bas_05_parroquia_indios": {
+        "corto": {
+          "hash": "a02cd593e42fcc1f",
+          "file": "fr/bas_05_parroquia_indios_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 212544,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c9f9217fbfc32439",
+          "file": "fr/bas_05_parroquia_indios_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 980640,
+          "provider": "azure"
+        }
+      },
+      "bas_06_antigua_fachada": {
+        "corto": {
+          "hash": "e5fdb89feff45bfd",
+          "file": "fr/bas_06_antigua_fachada_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 252720,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "12c914616ddf1bf7",
+          "file": "fr/bas_06_antigua_fachada_largo.mp3",
+          "remote": true,
+          "seconds": 167,
+          "bytes": 1000656,
+          "provider": "azure"
+        }
+      },
+      "bas_07_antigua_interior": {
+        "corto": {
+          "hash": "7e4288ec57fd863c",
+          "file": "fr/bas_07_antigua_interior_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 213120,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e9254a6be071972f",
+          "file": "fr/bas_07_antigua_interior_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 952848,
+          "provider": "azure"
+        }
+      },
+      "bas_08_capuchinas": {
+        "corto": {
+          "hash": "8931f3240ec5da3a",
+          "file": "fr/bas_08_capuchinas_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 211680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9ccbb9452737cd1e",
+          "file": "fr/bas_08_capuchinas_largo.mp3",
+          "remote": true,
+          "seconds": 140,
+          "bytes": 840096,
+          "provider": "azure"
+        }
+      },
+      "bas_09_museo_basilica": {
+        "corto": {
+          "hash": "cdb183be345704dd",
+          "file": "fr/bas_09_museo_basilica_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 220032,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0a4e0cca29e4f0c6",
+          "file": "fr/bas_09_museo_basilica_largo.mp3",
+          "remote": true,
+          "seconds": 154,
+          "bytes": 922320,
+          "provider": "azure"
+        }
+      },
+      "bas_10_exvotos": {
+        "corto": {
+          "hash": "9605725f1993499e",
+          "file": "fr/bas_10_exvotos_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 228816,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "95e9cd8cbe62abc2",
+          "file": "fr/bas_10_exvotos_largo.mp3",
+          "remote": true,
+          "seconds": 157,
+          "bytes": 944208,
+          "provider": "azure"
+        }
+      },
+      "bas_11_nueva_arquitectura": {
+        "corto": {
+          "hash": "9f2e88fe49928173",
+          "file": "fr/bas_11_nueva_arquitectura_corto.mp3",
+          "remote": false,
+          "seconds": 41,
+          "bytes": 248976,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "86e8a3ab03d697e8",
+          "file": "fr/bas_11_nueva_arquitectura_largo.mp3",
+          "remote": false,
+          "seconds": 186,
+          "bytes": 1118160,
+          "provider": "azure"
+        }
+      },
+      "bas_12_cristo_atentado": {
+        "corto": {
+          "hash": "902be2bd99f862ee",
+          "file": "fr/bas_12_cristo_atentado_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 222480,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3158f0279165e14f",
+          "file": "fr/bas_12_cristo_atentado_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1013760,
+          "provider": "azure"
+        }
+      },
+      "bas_13_tilma_banda": {
+        "corto": {
+          "hash": "2167ef2b9a7a60f1",
+          "file": "fr/bas_13_tilma_banda_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 220752,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2c20e84e08d1fa06",
+          "file": "fr/bas_13_tilma_banda_largo.mp3",
+          "remote": true,
+          "seconds": 158,
+          "bytes": 949536,
+          "provider": "azure"
+        }
+      },
+      "bas_19_imagen_guadalupana": {
+        "corto": {
+          "hash": "aaa354485231339f",
+          "file": "fr/bas_19_imagen_guadalupana_corto.mp3",
+          "remote": true,
+          "seconds": 33,
+          "bytes": 196128,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "85b1536df44b646e",
+          "file": "fr/bas_19_imagen_guadalupana_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1013760,
+          "provider": "azure"
+        }
+      },
       "cdmx_01_bellas_artes": {
         "corto": {
           "hash": "ad2a09b421781d2c",
@@ -33706,6 +34750,258 @@
       }
     },
     "it": {
+      "bas_01_calzada_misterios": {
+        "corto": {
+          "hash": "46a748d9f159c79b",
+          "file": "it/bas_01_calzada_misterios_corto.mp3",
+          "remote": false,
+          "seconds": 44,
+          "bytes": 265392,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a44dc690f2e08db0",
+          "file": "it/bas_01_calzada_misterios_largo.mp3",
+          "remote": false,
+          "seconds": 190,
+          "bytes": 1142784,
+          "provider": "azure"
+        }
+      },
+      "bas_02_atrio_americas": {
+        "corto": {
+          "hash": "56de5c623b8c2a67",
+          "file": "it/bas_02_atrio_americas_corto.mp3",
+          "remote": false,
+          "seconds": 45,
+          "bytes": 268272,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "75dc55ecc3849c6c",
+          "file": "it/bas_02_atrio_americas_largo.mp3",
+          "remote": false,
+          "seconds": 173,
+          "bytes": 1038960,
+          "provider": "azure"
+        }
+      },
+      "bas_03_tepeyac_prehispanico": {
+        "corto": {
+          "hash": "35f50cedf2db75fc",
+          "file": "it/bas_03_tepeyac_prehispanico_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 266688,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4b582a4bffe70bcc",
+          "file": "it/bas_03_tepeyac_prehispanico_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1009440,
+          "provider": "azure"
+        }
+      },
+      "bas_04_origen_culto_nican": {
+        "corto": {
+          "hash": "74feb7fa6b50e059",
+          "file": "it/bas_04_origen_culto_nican_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 266544,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2fe01c868a485c4e",
+          "file": "it/bas_04_origen_culto_nican_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1061712,
+          "provider": "azure"
+        }
+      },
+      "bas_05_parroquia_indios": {
+        "corto": {
+          "hash": "e8455c8d127fd184",
+          "file": "it/bas_05_parroquia_indios_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 233568,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "51c341bbf3401957",
+          "file": "it/bas_05_parroquia_indios_largo.mp3",
+          "remote": true,
+          "seconds": 175,
+          "bytes": 1048608,
+          "provider": "azure"
+        }
+      },
+      "bas_06_antigua_fachada": {
+        "corto": {
+          "hash": "02da1d3df827e4d7",
+          "file": "it/bas_06_antigua_fachada_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 268848,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dc8dbe3e066938c8",
+          "file": "it/bas_06_antigua_fachada_largo.mp3",
+          "remote": true,
+          "seconds": 185,
+          "bytes": 1108080,
+          "provider": "azure"
+        }
+      },
+      "bas_07_antigua_interior": {
+        "corto": {
+          "hash": "336411c4d6fc97f7",
+          "file": "it/bas_07_antigua_interior_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 226944,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7fc24479348d7c8a",
+          "file": "it/bas_07_antigua_interior_largo.mp3",
+          "remote": true,
+          "seconds": 172,
+          "bytes": 1032624,
+          "provider": "azure"
+        }
+      },
+      "bas_08_capuchinas": {
+        "corto": {
+          "hash": "4573aa870a1e6a2b",
+          "file": "it/bas_08_capuchinas_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 231408,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2dfb260c4d0b120f",
+          "file": "it/bas_08_capuchinas_largo.mp3",
+          "remote": true,
+          "seconds": 151,
+          "bytes": 903600,
+          "provider": "azure"
+        }
+      },
+      "bas_09_museo_basilica": {
+        "corto": {
+          "hash": "3c62c68fd070db9a",
+          "file": "it/bas_09_museo_basilica_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 238752,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "69a02e7f584b6c08",
+          "file": "it/bas_09_museo_basilica_largo.mp3",
+          "remote": true,
+          "seconds": 158,
+          "bytes": 949392,
+          "provider": "azure"
+        }
+      },
+      "bas_10_exvotos": {
+        "corto": {
+          "hash": "ef3cabda1c63708f",
+          "file": "it/bas_10_exvotos_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 236448,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cace0971e3553386",
+          "file": "it/bas_10_exvotos_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1009296,
+          "provider": "azure"
+        }
+      },
+      "bas_11_nueva_arquitectura": {
+        "corto": {
+          "hash": "fbbace8449eef3db",
+          "file": "it/bas_11_nueva_arquitectura_corto.mp3",
+          "remote": false,
+          "seconds": 45,
+          "bytes": 269712,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7466effad52eaf57",
+          "file": "it/bas_11_nueva_arquitectura_largo.mp3",
+          "remote": false,
+          "seconds": 199,
+          "bytes": 1196784,
+          "provider": "azure"
+        }
+      },
+      "bas_12_cristo_atentado": {
+        "corto": {
+          "hash": "778ad3b7d0edbb32",
+          "file": "it/bas_12_cristo_atentado_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 254448,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "012d35fd054fc5cc",
+          "file": "it/bas_12_cristo_atentado_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 1080576,
+          "provider": "azure"
+        }
+      },
+      "bas_13_tilma_banda": {
+        "corto": {
+          "hash": "1e2f4dacbfaac283",
+          "file": "it/bas_13_tilma_banda_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 238176,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "49568b6730e948e6",
+          "file": "it/bas_13_tilma_banda_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1063872,
+          "provider": "azure"
+        }
+      },
+      "bas_19_imagen_guadalupana": {
+        "corto": {
+          "hash": "25f3d611261a03c5",
+          "file": "it/bas_19_imagen_guadalupana_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 227664,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cb6b371d9d94c304",
+          "file": "it/bas_19_imagen_guadalupana_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 1087488,
+          "provider": "azure"
+        }
+      },
       "cdmx_01_bellas_artes": {
         "corto": {
           "hash": "a224ed73596ec538",
@@ -42132,6 +43428,258 @@
       }
     },
     "pl": {
+      "bas_01_calzada_misterios": {
+        "corto": {
+          "hash": "c6a7102b52dc602d",
+          "file": "pl/bas_01_calzada_misterios_corto.mp3",
+          "remote": false,
+          "seconds": 45,
+          "bytes": 271728,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "51303640839895c9",
+          "file": "pl/bas_01_calzada_misterios_largo.mp3",
+          "remote": false,
+          "seconds": 195,
+          "bytes": 1172592,
+          "provider": "azure"
+        }
+      },
+      "bas_02_atrio_americas": {
+        "corto": {
+          "hash": "9029b27bc6c86761",
+          "file": "pl/bas_02_atrio_americas_corto.mp3",
+          "remote": false,
+          "seconds": 46,
+          "bytes": 276912,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b5c33c028be01a76",
+          "file": "pl/bas_02_atrio_americas_largo.mp3",
+          "remote": false,
+          "seconds": 181,
+          "bytes": 1083168,
+          "provider": "azure"
+        }
+      },
+      "bas_03_tepeyac_prehispanico": {
+        "corto": {
+          "hash": "cbe91b3198272d18",
+          "file": "pl/bas_03_tepeyac_prehispanico_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 270720,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ab8ee40f962483f3",
+          "file": "pl/bas_03_tepeyac_prehispanico_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1015056,
+          "provider": "azure"
+        }
+      },
+      "bas_04_origen_culto_nican": {
+        "corto": {
+          "hash": "16a4428c907941b3",
+          "file": "pl/bas_04_origen_culto_nican_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 268704,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3bd26bfe3a67d5f3",
+          "file": "pl/bas_04_origen_culto_nican_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 1083456,
+          "provider": "azure"
+        }
+      },
+      "bas_05_parroquia_indios": {
+        "corto": {
+          "hash": "5969144022c9369d",
+          "file": "pl/bas_05_parroquia_indios_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 245376,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9fd888c413234e19",
+          "file": "pl/bas_05_parroquia_indios_largo.mp3",
+          "remote": true,
+          "seconds": 183,
+          "bytes": 1095840,
+          "provider": "azure"
+        }
+      },
+      "bas_06_antigua_fachada": {
+        "corto": {
+          "hash": "8431a006c764bbbc",
+          "file": "pl/bas_06_antigua_fachada_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 287136,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "fbe2c08c694fe181",
+          "file": "pl/bas_06_antigua_fachada_largo.mp3",
+          "remote": true,
+          "seconds": 195,
+          "bytes": 1170000,
+          "provider": "azure"
+        }
+      },
+      "bas_07_antigua_interior": {
+        "corto": {
+          "hash": "2899c6e1e983de65",
+          "file": "pl/bas_07_antigua_interior_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 261360,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0b81059da81090bf",
+          "file": "pl/bas_07_antigua_interior_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 1077552,
+          "provider": "azure"
+        }
+      },
+      "bas_08_capuchinas": {
+        "corto": {
+          "hash": "c652328d84528c9a",
+          "file": "pl/bas_08_capuchinas_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 241488,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bc6eb091b7ca79f3",
+          "file": "pl/bas_08_capuchinas_largo.mp3",
+          "remote": true,
+          "seconds": 154,
+          "bytes": 922176,
+          "provider": "azure"
+        }
+      },
+      "bas_09_museo_basilica": {
+        "corto": {
+          "hash": "4945cfa8daeb7a34",
+          "file": "pl/bas_09_museo_basilica_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 255888,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "48cd1ab365dc6f73",
+          "file": "pl/bas_09_museo_basilica_largo.mp3",
+          "remote": true,
+          "seconds": 165,
+          "bytes": 988416,
+          "provider": "azure"
+        }
+      },
+      "bas_10_exvotos": {
+        "corto": {
+          "hash": "d922cd3632f69c1a",
+          "file": "pl/bas_10_exvotos_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 252432,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "84479e20e42f1af5",
+          "file": "pl/bas_10_exvotos_largo.mp3",
+          "remote": true,
+          "seconds": 171,
+          "bytes": 1023120,
+          "provider": "azure"
+        }
+      },
+      "bas_11_nueva_arquitectura": {
+        "corto": {
+          "hash": "88cfacb826e9b045",
+          "file": "pl/bas_11_nueva_arquitectura_corto.mp3",
+          "remote": false,
+          "seconds": 46,
+          "bytes": 273888,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "442c2bc59f5c4fe4",
+          "file": "pl/bas_11_nueva_arquitectura_largo.mp3",
+          "remote": false,
+          "seconds": 202,
+          "bytes": 1213632,
+          "provider": "azure"
+        }
+      },
+      "bas_12_cristo_atentado": {
+        "corto": {
+          "hash": "4847e022606477ee",
+          "file": "pl/bas_12_cristo_atentado_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 242928,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f664fd1d8f95a983",
+          "file": "pl/bas_12_cristo_atentado_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1061280,
+          "provider": "azure"
+        }
+      },
+      "bas_13_tilma_banda": {
+        "corto": {
+          "hash": "a6ed11347fff9327",
+          "file": "pl/bas_13_tilma_banda_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 266256,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "705af0b1a23442a6",
+          "file": "pl/bas_13_tilma_banda_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 1084752,
+          "provider": "azure"
+        }
+      },
+      "bas_19_imagen_guadalupana": {
+        "corto": {
+          "hash": "601b1bb35702c6e8",
+          "file": "pl/bas_19_imagen_guadalupana_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 219168,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cea18fd0d26c4fe9",
+          "file": "pl/bas_19_imagen_guadalupana_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 1114416,
+          "provider": "azure"
+        }
+      },
       "cdmx_01_bellas_artes": {
         "corto": {
           "hash": "dcb67083e477be73",
@@ -50558,6 +52106,258 @@
       }
     },
     "pt": {
+      "bas_01_calzada_misterios": {
+        "corto": {
+          "hash": "05cd7d799d665d7d",
+          "file": "pt/bas_01_calzada_misterios_corto.mp3",
+          "remote": false,
+          "seconds": 42,
+          "bytes": 254448,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1168f9c9b2d55cca",
+          "file": "pt/bas_01_calzada_misterios_largo.mp3",
+          "remote": false,
+          "seconds": 182,
+          "bytes": 1089504,
+          "provider": "azure"
+        }
+      },
+      "bas_02_atrio_americas": {
+        "corto": {
+          "hash": "1b5ffe784a565e2f",
+          "file": "pt/bas_02_atrio_americas_corto.mp3",
+          "remote": false,
+          "seconds": 44,
+          "bytes": 261648,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "14c6bfa66224c83f",
+          "file": "pt/bas_02_atrio_americas_largo.mp3",
+          "remote": false,
+          "seconds": 164,
+          "bytes": 986112,
+          "provider": "azure"
+        }
+      },
+      "bas_03_tepeyac_prehispanico": {
+        "corto": {
+          "hash": "59ed1588c79abfb5",
+          "file": "pt/bas_03_tepeyac_prehispanico_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 239040,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "01c130b6001bdc66",
+          "file": "pt/bas_03_tepeyac_prehispanico_largo.mp3",
+          "remote": true,
+          "seconds": 154,
+          "bytes": 926784,
+          "provider": "azure"
+        }
+      },
+      "bas_04_origen_culto_nican": {
+        "corto": {
+          "hash": "0bc7ff2a421623e2",
+          "file": "pt/bas_04_origen_culto_nican_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9e9063cf9794209f",
+          "file": "pt/bas_04_origen_culto_nican_largo.mp3",
+          "remote": true,
+          "seconds": 164,
+          "bytes": 982800,
+          "provider": "azure"
+        }
+      },
+      "bas_05_parroquia_indios": {
+        "corto": {
+          "hash": "b4769f77b4850efd",
+          "file": "pt/bas_05_parroquia_indios_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 232272,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3b4a420a775d77e4",
+          "file": "pt/bas_05_parroquia_indios_largo.mp3",
+          "remote": true,
+          "seconds": 166,
+          "bytes": 996480,
+          "provider": "azure"
+        }
+      },
+      "bas_06_antigua_fachada": {
+        "corto": {
+          "hash": "9de40be7fac44299",
+          "file": "pt/bas_06_antigua_fachada_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 261792,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "34fc26105169d4b2",
+          "file": "pt/bas_06_antigua_fachada_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1061568,
+          "provider": "azure"
+        }
+      },
+      "bas_07_antigua_interior": {
+        "corto": {
+          "hash": "e9e392ff11129b73",
+          "file": "pt/bas_07_antigua_interior_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 215712,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ea1e591b0658d1ef",
+          "file": "pt/bas_07_antigua_interior_largo.mp3",
+          "remote": true,
+          "seconds": 165,
+          "bytes": 987840,
+          "provider": "azure"
+        }
+      },
+      "bas_08_capuchinas": {
+        "corto": {
+          "hash": "cb80c58182d1702c",
+          "file": "pt/bas_08_capuchinas_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 223776,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5a4f0cfd17e7a04d",
+          "file": "pt/bas_08_capuchinas_largo.mp3",
+          "remote": true,
+          "seconds": 146,
+          "bytes": 878688,
+          "provider": "azure"
+        }
+      },
+      "bas_09_museo_basilica": {
+        "corto": {
+          "hash": "2cf7d295f7a5c1a6",
+          "file": "pt/bas_09_museo_basilica_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 223632,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8be40efab14554fc",
+          "file": "pt/bas_09_museo_basilica_largo.mp3",
+          "remote": true,
+          "seconds": 154,
+          "bytes": 921456,
+          "provider": "azure"
+        }
+      },
+      "bas_10_exvotos": {
+        "corto": {
+          "hash": "c4530c481d610d27",
+          "file": "pt/bas_10_exvotos_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 222048,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cbfa76b50d276f7a",
+          "file": "pt/bas_10_exvotos_largo.mp3",
+          "remote": true,
+          "seconds": 162,
+          "bytes": 970704,
+          "provider": "azure"
+        }
+      },
+      "bas_11_nueva_arquitectura": {
+        "corto": {
+          "hash": "33f8e7ea4b2cd6fa",
+          "file": "pt/bas_11_nueva_arquitectura_corto.mp3",
+          "remote": false,
+          "seconds": 44,
+          "bytes": 263664,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6b745f288e27b1b4",
+          "file": "pt/bas_11_nueva_arquitectura_largo.mp3",
+          "remote": false,
+          "seconds": 191,
+          "bytes": 1145664,
+          "provider": "azure"
+        }
+      },
+      "bas_12_cristo_atentado": {
+        "corto": {
+          "hash": "d6ccdb448393c1fb",
+          "file": "pt/bas_12_cristo_atentado_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 237024,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e5a445d15aa2b37e",
+          "file": "pt/bas_12_cristo_atentado_largo.mp3",
+          "remote": true,
+          "seconds": 167,
+          "bytes": 1004688,
+          "provider": "azure"
+        }
+      },
+      "bas_13_tilma_banda": {
+        "corto": {
+          "hash": "3b68c71390b37b77",
+          "file": "pt/bas_13_tilma_banda_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 227664,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5031332f2dea9490",
+          "file": "pt/bas_13_tilma_banda_largo.mp3",
+          "remote": true,
+          "seconds": 170,
+          "bytes": 1019232,
+          "provider": "azure"
+        }
+      },
+      "bas_19_imagen_guadalupana": {
+        "corto": {
+          "hash": "b84c7e1bbdbf52d0",
+          "file": "pt/bas_19_imagen_guadalupana_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 209952,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "10902f164626efbd",
+          "file": "pt/bas_19_imagen_guadalupana_largo.mp3",
+          "remote": true,
+          "seconds": 172,
+          "bytes": 1031616,
+          "provider": "azure"
+        }
+      },
       "cdmx_01_bellas_artes": {
         "corto": {
           "hash": "5a5892e36f5e2bf0",
