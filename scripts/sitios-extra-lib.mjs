@@ -135,6 +135,12 @@ export function entradaSitio(sitio, salas, piezas, previa = {}, { preview = fals
     // Presentación larga del sitio (columna `introduccion` de CONTROL; párrafos separados por una línea en blanco)
     intro: sitio.introduccion || previa.intro || '',
     ...Object.fromEntries(['en', 'fr', 'pl', 'de', 'pt', 'it'].map((l) => [`intro_${l}`, sitio[`introduccion_${l}`] || previa[`intro_${l}`] || '']).filter(([, v]) => v)),
+    // Descripción corta, insignia y ubicación por idioma (columnas descripcion_en, insignia_en, ubicacion_en… de CONTROL)
+    ...Object.fromEntries(
+      ['en', 'fr', 'pl', 'de', 'pt', 'it', 'ja', 'zh', 'ko', 'ru'].flatMap((l) =>
+        [['description', 'descripcion'], ['badge', 'insignia'], ['location', 'ubicacion']].map(([campo, col]) => [`${campo}_${l}`, sitio[`${col}_${l}`] || previa[`${campo}_${l}`] || ''])
+      ).filter(([, v]) => v)
+    ),
     highlights_count: piezas.length,
     total_stops: salas.length,
   };
