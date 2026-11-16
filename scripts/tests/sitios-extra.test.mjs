@@ -143,3 +143,12 @@ test('columna principal de RUTAS: marca el recorrido del botón «Empezar recorr
   const r = aplicarDefiniciones([{ id: 'ruta-uno', name: 'U', stops: [1] }], leerDefinicionesRutas([['ruta', 'nombre', 'principal'], ['ruta-uno', 'U', 'TRUE']]));
   assert.equal(r.rutas[0].principal, true);
 });
+
+test('entradaSitio: descripción, insignia y ubicación por idioma salen de las columnas _xx de CONTROL', () => {
+  const sitio = { site_id: 'x', nombre: 'X', descripcion: 'Hola', descripcion_en: 'Hello', insignia: 'Santuario', insignia_pl: 'Sanktuarium', ubicacion: 'CDMX', ubicacion_fr: 'CDMX (fr)' };
+  const e = entradaSitio(sitio, [], [], {});
+  assert.equal(e.description_en, 'Hello');
+  assert.equal(e.badge_pl, 'Sanktuarium');
+  assert.equal(e.location_fr, 'CDMX (fr)');
+  assert.equal(e.description_fr, undefined);
+});
