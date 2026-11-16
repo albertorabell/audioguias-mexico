@@ -1,0 +1,60 @@
+name: Revisar el sitio publicado (botón manual)
+
+# Abre xolotli.com con un navegador real, entra a cada sitio en cada idioma y guarda capturas, textos y un reporte
+# en la rama "revision-viva". No cambia nada del sitio.
+on:
+  workflow_dispatch:
+    inputs:
+      direccion:
+        description: 'Dirección a revisar'
+        default: 'https://xolotli.com'
+      sitios:
+        description: 'Solo estos sitios (ids separados por coma, vacío = todos)'
+        default: ''
+      idiomas:
+        description: 'Idiomas'
+        default: 'es,en,fr,pl,de,pt,it'
+
+concurrency:
+  group: revisar-sitio-vivo
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  revisar:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Instalar el navegador (Playwright)
+        run: |
+          npm install --no-save --no-audit --no-fund @playwright/test@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Revisar
+        env:
+          SITIOS_SOLO: ${{ inputs.sitios }}
+          IDIOMAS: ${{ inputs.idiomas }}
+        run: node scripts/revisar-sitio-vivo.mjs revision-viva "${{ inputs.direccion }}"
+      - name: Guardar como archivo descargable
+        uses: actions/upload-artifact@v7
+        with:
+          name: revision-viva
+          path: revision-viva
+          retention-days: 7
+      - name: Guardar en la rama "revision-viva"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          mkdir ../pub && cp -r revision-viva/. ../pub/ && cd ../pub
+          git init -q -b revision-viva
+          git config user.name "revision-bot"
+          git config user.email "revision-bot@users.noreply.github.com"
+          git add -A
+          git commit -qm "Revisión del sitio publicado"
+          cabecera="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
+          git -c http.extraheader="$cabecera" push -f "https://github.com/$REPO.git" revision-viva
