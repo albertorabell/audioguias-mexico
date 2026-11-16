@@ -29,7 +29,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fixVoiceName, MODES, AUDIO_LANGS, planAudio, splitText, mp3Duration, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
 import { GENERATED_DIR, relocateInR2, wranglerR2, r2Key } from './r2-lib.mjs';
-import { loadPronunciations, toSsmlInner, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
+import { loadPronunciations, toSsmlInner, withBuiltins, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
 import { loadGoogleIpa, toGoogleSsml } from './google-ipa-lib.mjs';
 import { readFullPieces } from './privado-lib.mjs';
 
@@ -146,7 +146,7 @@ export const PROVIDERS = {
       const voice = this.voiceFor(lang);
       const rate = process.env.AZURE_RATE; // por ejemplo "-5%"
       // Lista de pronunciaciones (glosario/pronunciacion.csv): arregla palabras que la voz lee mal sin cambiar el texto
-      const spoken = toSsmlInner(text, loadPronunciations(path.resolve(PRONUNCIATION_FILE), lang), voice);
+      const spoken = toSsmlInner(text, withBuiltins(loadPronunciations(path.resolve(PRONUNCIATION_FILE), lang), lang), voice);
       const inner = rate ? `<prosody rate="${xmlEscape(rate)}">${spoken}</prosody>` : spoken;
       const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="${AZURE_LOCALES[lang]}"><voice name="${voice}">${inner}</voice></speak>`;
       return httpAudio(
