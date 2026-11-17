@@ -152,3 +152,28 @@ test('entradaSitio: descripción, insignia y ubicación por idioma salen de las 
   assert.equal(e.location_fr, 'CDMX (fr)');
   assert.equal(e.description_fr, undefined);
 });
+
+test('aplicarControlASites: nombres por idioma, tipo, región y orden desde CONTROL', async () => {
+  const { aplicarControlASites } = await import('../sitios-extra-lib.mjs');
+  const lista = [
+    { id: 'MNA', name: 'Museo', name_en: 'Viejo' },
+    { id: 'SOUMAYA', status: 'coming_soon' },
+    { id: 'BASILICA_GUADALUPE', name: 'Basílica' },
+    { id: 'XOCHICALCO', name: 'Xochicalco', name_fr: 'Ya estaba' },
+  ];
+  const ctl = [
+    { site_id: 'mna', nombre_en: 'National Museum', tipo: 'museo', region: 'cdmx', orden: '2' },
+    { site_id: 'basilica_guadalupe', nombre_en: 'Basilica of Guadalupe', nombre_pl: 'Bazylika', tipo: 'santuario', region: 'cdmx', orden: '1' },
+    { site_id: 'xochicalco', nombre_fr: '', tipo: 'castillo', orden: 'tres' },
+  ];
+  const avisos = [];
+  const out = aplicarControlASites(lista, ctl, (m) => avisos.push(m));
+  assert.deepEqual(out.map((s) => s.id), ['BASILICA_GUADALUPE', 'MNA', 'SOUMAYA', 'XOCHICALCO']);
+  assert.equal(out[1].name_en, 'National Museum');
+  assert.equal(out[0].name_pl, 'Bazylika');
+  assert.equal(out[0].site_type, 'santuario');
+  assert.equal(out[0].region, 'cdmx');
+  assert.equal(out[3].name_fr, 'Ya estaba', 'una celda vacía no borra');
+  assert.equal(out[3].site_type, undefined, 'tipo inválido no se escribe');
+  assert.equal(avisos.length, 2);
+});

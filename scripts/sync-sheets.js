@@ -24,7 +24,7 @@ import { linkIds, hasBrokenLink } from '../src/utils/pieceLinks.js';
 import { hayClave, leerPestana } from './google-sheets-lib.mjs';
 import { PAGINAS } from './seo-lib.mjs';
 import { cargarSitios, estaPublicado, CONTROL_ID as CONTROL_ID_PRECIOS } from './sitios-lib.mjs';
-import { aplicarDefiniciones, partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites, leerAntesDeIr, leerCombos, construirPrecios, aplicarPreciosASites } from './sitios-extra-lib.mjs';
+import { aplicarDefiniciones, partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites, leerAntesDeIr, leerCombos, construirPrecios, aplicarPreciosASites, aplicarControlASites } from './sitios-extra-lib.mjs';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
@@ -940,6 +940,12 @@ export async function sync() {
     write(path.join(DATA_DIR, 'precios.json'), tabla);
     const sitesPath = path.join(DATA_DIR, 'sites.json');
     if (fs.existsSync(sitesPath)) write(sitesPath, aplicarPreciosASites(JSON.parse(fs.readFileSync(sitesPath, 'utf-8')), tabla));
+    // Nombres traducidos, tipo de sitio, región y orden de la portada (columnas nombre_en…, tipo, region, orden de CONTROL)
+    if (fs.existsSync(sitesPath)) {
+      const avisosControl = [];
+      write(sitesPath, aplicarControlASites(JSON.parse(fs.readFileSync(sitesPath, 'utf-8')), sitiosCtl, (m) => avisosControl.push(m)));
+      for (const m of avisosControl) console.warn(`::warning title=CONTROL::${m}`);
+    }
     console.log(`✅ precios.json: ${Object.entries(tabla.sites).map(([id, x]) => `${id} (${x.acceso}${x.mxn ? ` $${x.mxn}` : ''})`).join(', ')}${Object.keys(tabla.combos).length ? ` · pases combinados: ${Object.entries(tabla.combos).map(([id, c]) => `${id} $${c.mxn}`).join(', ')}` : ''}.`);
   }
 

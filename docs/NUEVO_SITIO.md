@@ -34,3 +34,16 @@ Quien lo lea (persona o Claude) debe tratar lo marcado «sin verificar» como pe
 - Ficha en `public/data/<sitio>/` y entrada en `public/data/sites.json`.
 - Precio del pase (hoy: MXN 79 / USD 4.99 como valor inicial en la ficha; el real viene de Stripe).
 - Los códigos de descuento sirven en cualquier sitio; se limitan a uno con el metadato `sitios` en Stripe.
+
+## Columnas de CONTROL → SITIOS que se agregaron el 16-nov-2026
+- `nombre_en`, `nombre_fr`, `nombre_pl`, `nombre_de`, `nombre_pt`, `nombre_it`: nombre del sitio en cada idioma. La sincronización los copia a `name_<idioma>` en `sites.json` (antes solo existían para MNA, Teotihuacán y Chapultepec y la portada mostraba el nombre en español en los demás).
+- `tipo`: `museo`, `zona_arqueologica`, `recorrido_urbano` o `santuario`. Se guarda como `site_type` en `sites.json`; lo usará el aviso de descarga y la portada.
+- `region`: `cdmx`, `edomex`, `morelos`, `yucatan`… Se guarda como `region`; servirá para agrupar los sitios en la portada.
+- `orden`: número. La portada muestra los sitios de menor a mayor; los que no tienen orden van al final.
+- Una celda vacía no borra lo que ya había en `sites.json`.
+- Al agregar un sitio nuevo, llena también estas columnas.
+
+## Revisar que no se cuelen textos en español en otros idiomas
+- `npm run revisar-idiomas` revisa las traducciones del repositorio (`traducciones/`) y los datos publicados de xolotli.com, y escribe `revision-idiomas.md`. Marca dos cosas: textos que parecen español dentro de otro idioma, y campos traducibles a los que les falta un idioma (la app muestra el español).
+- También corre dentro de «Revisar el sitio publicado (botón manual)» y deja el informe en el resumen de la corrida y en la rama `revision-viva`.
+- Los títulos que son nombres propios iguales en ambos idiomas (Torre Latinoamericana, Huipil de la Malinche) pueden aparecer; se revisan a mano.

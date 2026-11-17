@@ -39,6 +39,11 @@ jobs:
           SITIOS_SOLO: ${{ inputs.sitios }}
           IDIOMAS: ${{ inputs.idiomas }}
         run: node scripts/revisar-sitio-vivo.mjs revision-viva "${{ inputs.direccion }}"
+      - name: Buscar textos en español dentro de otros idiomas
+        continue-on-error: true
+        run: |
+          node scripts/revisar-idiomas.mjs --base="${{ inputs.direccion }}" --salida=revision-viva/revision-idiomas.md
+          cat revision-viva/revision-idiomas.md >> "$GITHUB_STEP_SUMMARY"
       - name: Guardar como archivo descargable
         uses: actions/upload-artifact@v7
         with:

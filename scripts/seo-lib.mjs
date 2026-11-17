@@ -69,6 +69,16 @@ export const PAGINAS = {
     slugs: { es: 'zona-arqueologica-de-chalcatzingo', en: 'chalcatzingo-archaeological-zone', fr: 'zone-archeologique-de-chalcatzingo', pl: 'strefa-archeologiczna-chalcatzingo', de: 'archaeologische-zone-chalcatzingo', pt: 'zona-arqueologica-de-chalcatzingo', it: 'zona-archeologica-di-chalcatzingo' },
     nombres: { en: 'Chalcatzingo Archaeological Zone', fr: 'Zone archéologique de Chalcatzingo', pl: 'Strefa archeologiczna Chalcatzingo', de: 'Archäologische Zone Chalcatzingo', pt: 'Zona Arqueológica de Chalcatzingo', it: 'Zona archeologica di Chalcatzingo' },
   },
+  COYOACAN: {
+    articulo: 'el',
+    slugs: { es: 'centro-de-coyoacan', en: 'coyoacan-centre', fr: 'centre-de-coyoacan', pl: 'centrum-coyoacan', de: 'zentrum-von-coyoacan', pt: 'centro-de-coyoacan', it: 'centro-di-coyoacan' },
+    nombres: { en: 'Coyoacán Centre', fr: 'Centre de Coyoacán', pl: 'Centrum Coyoacán', de: 'Zentrum von Coyoacán', pt: 'Centro de Coyoacán', it: 'Centro di Coyoacán' },
+  },
+  BASILICA_GUADALUPE: {
+    articulo: 'la',
+    slugs: { es: 'basilica-de-guadalupe', en: 'basilica-of-guadalupe', fr: 'basilique-de-guadalupe', pl: 'bazylika-matki-bozej-z-guadalupe', de: 'basilika-von-guadalupe', pt: 'basilica-de-guadalupe', it: 'basilica-di-guadalupe' },
+    nombres: { en: 'Basilica of Guadalupe', fr: 'Basilique de Guadalupe', pl: 'Bazylika Matki Bożej z Guadalupe', de: 'Basilika von Guadalupe', pt: 'Basílica de Guadalupe', it: 'Basilica di Guadalupe' },
+  },
 };
 
 const NBSP = ' ';
