@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { Lock, Pause, Play, ChevronDown, AlertCircle, X } from 'lucide-react';
+import { Footprints, Lock, Pause, Play, ChevronDown, AlertCircle, X } from 'lucide-react';
 import { Room, PieceData } from '../types';
 import { ttsPlayer } from '../utils/ttsPlayer';
 import { PieceImage } from './PieceImage';
@@ -7,6 +7,8 @@ import { calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOp
 import { getRoomShortLabel, getRoomLabel } from '../utils/roomLabel';
 import { useLanguage } from '../utils/LanguageContext';
 import { roomScriptLanguage } from '../i18n/content';
+import { portadaTexts } from '../i18n/portada';
+import { esCaminata } from '../utils/caminata';
 import { TopBar } from './ui/TopBar';
 import { PassButton } from './ui/HeaderControls';
 
@@ -175,8 +177,28 @@ export const RoomView: React.FC<RoomViewProps> = ({
         </h2>
         <ol className="mt-3" id="room-pieces-list">
           {pieces.map((p, i) => {
+            // Las caminatas no llevan número: las paradas se numeran seguidas
+            const numero = pieces.slice(0, i + 1).filter((x) => !esCaminata(x)).length;
             const locked = !p.is_free && !hasPass;
             const here = currentPieceId === p.piece_id;
+            if (esCaminata(p)) {
+              // Las caminatas son tramos entre paradas: fila baja, sin foto, con la etiqueta «Caminata»
+              return (
+                <li key={p.piece_id}>
+                  <button
+                    type="button"
+                    onClick={() => onSelectPiece(p.piece_id)}
+                    aria-current={here ? 'true' : undefined}
+                    className={`w-full flex items-center gap-3.5 px-5 py-2 text-left cursor-pointer row-press ${here ? 'bg-surface' : ''}`}
+                  >
+                    <span className="w-6 shrink-0 flex justify-end text-ink-3"><Footprints className="w-4 h-4" strokeWidth={2} aria-hidden /></span>
+                    <span className="min-w-0 flex-1 pl-0.5 border-l-2 border-line ml-1">
+                      <span className="block pl-3 text-ui text-ink-2 leading-snug"><span className="font-semibold">{portadaTexts(currentLanguage).caminata}</span> · {p.titulo.replace(/^[^:]+:\s*/, '')}</span>
+                    </span>
+                  </button>
+                </li>
+              );
+            }
             return (
               <li key={p.piece_id}>
                 <button
@@ -186,7 +208,7 @@ export const RoomView: React.FC<RoomViewProps> = ({
                   className={`w-full flex items-center gap-3.5 px-5 py-3 text-left cursor-pointer row-press ${here ? 'bg-surface' : ''}`}
                 >
                   <span className={`w-6 shrink-0 text-right font-serif text-[1.125rem] tabular-nums ${here ? 'text-jade-ink' : 'text-ink-3'}`}>
-                    {i + 1}
+                    {numero}
                   </span>
                   <span className="w-16 h-16 rounded-xl overflow-hidden bg-raised shrink-0">
                     <PieceImage filename={p.image_filename} pieceId={p.piece_id} alt="" className="w-full h-full object-cover" />

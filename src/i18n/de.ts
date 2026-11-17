@@ -9,8 +9,8 @@ const rooms = (c: number) => p(c, 'Saal', 'Säle');
 
 export const DE_GROUPS: Record<string, any> = {
   common: {
-    appName: 'Audioguía Xolo',
-    editorialBadge: 'Redaktioneller Inhalt von Audioguía Xolo',
+    appName: 'Xolo',
+    editorialBadge: 'Redaktioneller Inhalt von Xolo',
     close: 'Schließen',
     back: 'Zurück',
     loading: 'Wird geladen …',
@@ -43,7 +43,7 @@ export const DE_GROUPS: Record<string, any> = {
       install: 'App installieren',
       understood: 'Verstanden',
       cardTitle: 'Installiere die App auf deinem Handy',
-      cardBody: 'Sie bekommt ein eigenes Symbol, startet ohne Internet, und wenn du sie versehentlich schließt, öffnest du sie von dort wieder.',
+      cardBody: 'Sie bekommt ein eigenes Symbol und startet ohne Internet, so funktioniert sie auch dort, wo es keinen Empfang gibt.',
       cardButton: 'So installierst du sie',
       cardDismiss: 'Nicht mehr anzeigen',
       guideTitle: 'App installieren',
@@ -237,7 +237,7 @@ export const DE_GROUPS: Record<string, any> = {
     shareText: (site: string, code: string) => `Mein Audioguía-Xolo-Code für ${site}: ${code}. Gib ihn auf xolotli.com ein, um Zugang zu erhalten.`,
     sampleListen: "Kostenlose Hörprobe anhören",
     sampleStop: "Hörprobe stoppen",
-    offerTitle: (h: number) => `Voller Zugang für ${h} Stunden`,
+    offerTitle: (h: number) => `Voller Zugang für ${h} Tage`,
     priceNote: 'Einmalige Zahlung • Kein Abo',
     combo: {
       includes: (names: string) => `Enthält: ${names}.`,
@@ -250,7 +250,7 @@ export const DE_GROUPS: Record<string, any> = {
       desc: 'Dieser Ort wird mit einem Code geöffnet, den du vor Ort bekommst (Hotel, Kasse oder Partner). Gib ihn unten ein.',
     },
     benefits: {
-      accessTitle: (h: number) => `${h} Stunden voller Zugang`,
+      accessTitle: (h: number) => `${h} Tage voller Zugang`,
       accessDesc: 'Nimm dir Zeit. Der Pass verlängert sich nicht von selbst.',
       guidesTitle: 'Audio und Text zu jedem Werk',
       guidesDesc: 'In kurzer und vollständiger Fassung, mit Beobachtungsaufgaben, Mythen und Datenblättern.',
@@ -311,7 +311,7 @@ export const DE_GROUPS: Record<string, any> = {
     },
     notice: {
       confirming: 'Deine Zahlung wird bestätigt …',
-      success: (h: number) => `Zahlung bestätigt! Dein ${h}-Stunden-Pass ist jetzt aktiv.`,
+      success: (h: number) => `Zahlung bestätigt! Dein ${h}-Tage-Pass ist jetzt aktiv.`,
       cancelled: 'Die Zahlung wurde abgebrochen. Es wurde nichts abgebucht.',
       codeOk: 'Pass auf diesem Gerät aktiviert.',
     },
@@ -347,11 +347,11 @@ export const DE_GROUPS: Record<string, any> = {
       howSteps: (free: number, hours: number, devices: number) => [
         'Betritt das Museum oder den Ort und wähle einen Saal oder eine Zone – oder folge einem fertigen Rundgang.',
         free > 0 ? `Höre dir an jeder Station ihre Geschichte an. ${free} Stationen sind kostenlos.` : 'Höre dir an jeder Station ihre Geschichte an.',
-        `Mit dem ${hours}-Stunden-Pass hörst du den ganzen gewählten Ort an, auf bis zu ${devices} Handys.`,
+        `Mit dem ${hours}-Tage-Pass hörst du den ganzen gewählten Ort an, auf bis zu ${devices} Handys.`,
       ],
-      passBadgeTitle: (hours: number, devices: number) => `Ein ${hours}-Stunden-Pass, ${devices} Handys`,
+      passBadgeTitle: (hours: number, devices: number) => `Ein ${hours}-Tage-Pass, ${devices} Handys`,
       passBadgeText: 'Ideal für Paare oder Freunde: Du schaltest das zweite Handy mit einem kurzen Code frei, ganz ohne Formalitäten.',
-      valueChips: (hours: number, devices: number) => ['Gratis-Stopps zum Testen', `${hours}-Stunden-Pass für ${devices} Handys`, 'Funktioniert offline'],
+      valueChips: (hours: number, devices: number) => ['Gratis-Stopps zum Testen', `${hours}-Tage-Pass für ${devices} Handys`, 'Funktioniert offline'],
       tryFree: 'Gratis-Stopp ausprobieren',
     },
     museum: {
@@ -383,7 +383,7 @@ export const DE_GROUPS: Record<string, any> = {
       freeSub: 'Ohne Registrierung und ohne Karte. Wenn dir gefällt, wie es klingt, schalte den Rest des Rundgangs frei.',
       freeUnlock: 'Alle Werke freischalten',
       passTitle: 'Das ist im Pass enthalten',
-      passLead: (h: number) => `Eine einmalige Zahlung, kein Abo. Der Pass gilt ${h} Stunden.`,
+      passLead: (h: number) => `Eine einmalige Zahlung, kein Abo. Der Pass gilt ${h} Tage.`,
       passItems: (stops: string, devices: number) => [
         { title: `${stops} mit Audio und Text`, desc: 'Höre die Geschichte direkt vor dem Werk, in kurzer oder vollständiger Fassung. Du kannst sie auch lesen.' },
         { title: 'Beobachtungsaufgaben, Mythen und Datenblätter', desc: 'Worauf du achten solltest, die Legende dahinter und die wichtigsten Daten.' },
@@ -511,14 +511,9 @@ export const DE_GROUPS: Record<string, any> = {
     done: 'Verstanden',
     stepOf: (n: number, total: number) => `${n} von ${total}`,
     museum: [
-      { title: 'Willkommen bei deinem Guide', text: 'Ich zeige dir jede Schaltfläche und erkläre, wofür sie da ist. Tippe einfach auf „Weiter“.' },
-      { title: 'Fertige Rundgänge', text: 'Hier findest du fertige Rundgänge. Tippe auf einen, und der Guide führt dich Werk für Werk. Wische zur Seite, um mehr zu sehen.' },
-      { title: 'Stelle deine eigene Route zusammen', text: 'Tippe auf diese Schaltfläche, sag uns, wie viel Zeit du hast und was dir gefällt, und wir stellen den Rundgang zusammen.' },
-      { title: 'Etage wechseln', text: 'Tippe hier, um die Säle im Erdgeschoss oder im Obergeschoss zu sehen.' },
-      { title: 'Die Säle', text: 'Jede Zeile ist ein Saal. Tippe darauf, um seine Werke in der Reihenfolge des Rundgangs zu sehen.' },
-      { title: 'Vier Schaltflächen immer unten', text: 'Museum, Rundgänge, Karte und Suchen. Tippe darauf, um jederzeit den Bereich zu wechseln.' },
-      { title: 'Ohne Internet nutzen', text: 'In den Sälen gibt es fast keinen Empfang. Tippe hier vor dem Eintreten, um alles herunterzuladen.' },
-      { title: 'Fertig!', text: 'Öffne ein beliebiges Werk, dort erkläre ich dir, wie du es anhörst. Diese Hilfe findest du immer unter „Wie funktioniert das?“.' },
+      { title: 'Hier beginnen', text: 'Tippe auf „Rundgang starten“, und der Guide führt dich Station für Station in der Reihenfolge des Rundgangs.' },
+      { title: 'Hören oder lesen', text: 'Tippe an jeder Station auf den grünen Knopf, um die Geschichte zu hören. Was du hörst, ist das, was du liest.' },
+      { title: 'Ohne Internet', text: 'Wo es kaum Empfang gibt, lade vorher alles herunter: tippe hier.' },
     ],
     piece: [
       { title: 'Tippe hier zum Anhören', text: 'Diese grüne Schaltfläche erzählt die Geschichte des Werks. Tippe erneut, um zu pausieren. Der Balken füllt sich, während es läuft.' },

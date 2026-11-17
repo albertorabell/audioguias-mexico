@@ -49,11 +49,11 @@ export const ui = defineGroup(
         free > 0
           ? `En cada parada, escucha su historia. ${free} paradas son gratis.`
           : 'En cada parada, escucha su historia.',
-        `Con el pase de ${hours} horas escuchas todo el sitio que elijas, en hasta ${devices} teléfonos.`,
+        `Con el pase de ${hours} días escuchas todo el sitio que elijas, en hasta ${devices} teléfonos.`,
       ],
-      passBadgeTitle: (hours: number, devices: number) => `Un pase de ${hours} horas, ${devices} teléfonos`,
+      passBadgeTitle: (hours: number, devices: number) => `Un pase de ${hours} días, ${devices} teléfonos`,
       passBadgeText: 'Ideal para ir en pareja o con amigos: activas el segundo teléfono con un código corto, sin trámites.',
-      valueChips: (hours: number, devices: number) => ['Paradas gratis para probar', `Pase de ${hours} h para ${devices} teléfonos`, 'Funciona sin internet'],
+      valueChips: (hours: number, devices: number) => ['Paradas gratis para probar', `Pase de ${hours} días para ${devices} teléfonos`, 'Funciona sin internet'],
       tryFree: 'Probar la parada gratis',
     },
     museum: {
@@ -93,7 +93,7 @@ export const ui = defineGroup(
       freeSub: 'Sin registro y sin tarjeta. Si te gusta cómo suena, desbloquea el resto del recorrido.',
       freeUnlock: 'Desbloquear todas las obras',
       passTitle: 'Qué incluye el pase',
-      passLead: (hours: number) => `Un solo pago, sin suscripción. El pase dura ${hours} horas.`,
+      passLead: (hours: number) => `Un solo pago, sin suscripción. El pase dura ${hours} días.`,
       passItems: (stops: string, devices: number) => [
         { title: `${stops} con audio y texto`, desc: 'Escucha la historia frente a cada una, en versión corta o completa. También puedes leerla.' },
         { title: 'Retos de observación, mitos y fichas', desc: 'Qué buscar con la mirada, la leyenda de cada una y sus datos clave.' },
@@ -260,11 +260,11 @@ export const ui = defineGroup(
       howSteps: (free: number, hours: number, devices: number) => [
         'Enter a museum or a site and pick a room or a zone, or follow a ready-made tour.',
         free > 0 ? `At each stop, listen to its story. ${free} stops are free.` : 'At each stop, listen to its story.',
-        `With the ${hours}-hour pass you can hear everything at the site you choose, on up to ${devices} phones.`,
+        `With the ${hours}-day pass you can hear everything at the site you choose, on up to ${devices} phones.`,
       ],
-      passBadgeTitle: (hours: number, devices: number) => `One ${hours}-hour pass, ${devices} phones`,
+      passBadgeTitle: (hours: number, devices: number) => `One ${hours}-day pass, ${devices} phones`,
       passBadgeText: 'Ideal for couples or friends: activate the second phone with a short code, no hassle.',
-      valueChips: (hours: number, devices: number) => ['Free stops to try', `${hours}-hour pass for ${devices} phones`, 'Works offline'],
+      valueChips: (hours: number, devices: number) => ['Free stops to try', `${hours}-day pass for ${devices} phones`, 'Works offline'],
       tryFree: 'Try the free stop',
     },
     museum: {
@@ -304,7 +304,7 @@ export const ui = defineGroup(
       freeSub: 'No sign-up and no card. If you like how it sounds, unlock the rest of the tour.',
       freeUnlock: 'Unlock every work',
       passTitle: 'What the pass includes',
-      passLead: (hours: number) => `One payment, no subscription. The pass lasts ${hours} hours.`,
+      passLead: (hours: number) => `One payment, no subscription. The pass lasts ${hours} days.`,
       passItems: (stops: string, devices: number) => [
         { title: `${stops} with audio and text`, desc: 'Listen to the story in front of each one, in a short or full version. You can read it too.' },
         { title: 'Observation challenges, myths and fact sheets', desc: 'What to look for, the legend behind each one and its key facts.' },
@@ -473,11 +473,11 @@ export const ui = defineGroup(
         free > 0
           ? `À chaque étape, écoutez son histoire. ${free} étapes sont gratuites.`
           : 'À chaque étape, écoutez son histoire.',
-        `Avec le pass de ${hours} heures, vous écoutez tout le site de votre choix, sur ${devices} téléphones maximum.`,
+        `Avec le pass de ${hours} jours, vous écoutez tout le site de votre choix, sur ${devices} téléphones maximum.`,
       ],
-      passBadgeTitle: (hours: number, devices: number) => `Un pass de ${hours} heures, ${devices} téléphones`,
+      passBadgeTitle: (hours: number, devices: number) => `Un pass de ${hours} jours, ${devices} téléphones`,
       passBadgeText: 'Idéal à deux ou entre amis : activez le second téléphone avec un court code, sans formalités.',
-      valueChips: (hours: number, devices: number) => ['Étapes gratuites à essayer', `Pass de ${hours} h pour ${devices} téléphones`, 'Fonctionne hors ligne'],
+      valueChips: (hours: number, devices: number) => ['Étapes gratuites à essayer', `Pass de ${hours} jours pour ${devices} téléphones`, 'Fonctionne hors ligne'],
       tryFree: 'Essayer l’étape gratuite',
     },
     museum: {
@@ -517,7 +517,7 @@ export const ui = defineGroup(
       freeSub: 'Sans inscription et sans carte. Si le rendu vous plaît, débloquez le reste du parcours.',
       freeUnlock: 'Débloquer toutes les œuvres',
       passTitle: 'Ce que comprend le pass',
-      passLead: (hours: number) => `Un seul paiement, sans abonnement. Le pass dure ${hours} heures.`,
+      passLead: (hours: number) => `Un seul paiement, sans abonnement. Le pass dure ${hours} jours.`,
       passItems: (stops: string, devices: number) => [
         { title: `${stops} avec audio et texte`, desc: 'Écoutez l’histoire devant chacune, en version courte ou complète. Vous pouvez aussi la lire.' },
         { title: 'Défis d’observation, mythes et fiches', desc: 'Quoi chercher du regard, la légende de chacune et ses données clés.' },

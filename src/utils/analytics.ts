@@ -106,6 +106,7 @@ let firstAudioSent = false;
 export function noteFirstAudio(): void {
   if (firstAudioSent) return;
   firstAudioSent = true;
+  try { localStorage.setItem('xolo_primer_audio', '1'); } catch { /* sin almacenamiento */ }
   const sec = typeof performance !== 'undefined' ? Math.round((performance.now() - OPENED_AT) / 1000) : 0;
   track('first_audio', { k: secondsBucket(sec) });
 }

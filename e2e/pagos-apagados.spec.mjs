@@ -26,14 +26,14 @@ test('cobro apagado: la ventana dice que estará disponible pronto, sin botón d
 test('cobro apagado: un enlace de regreso de Stripe no rompe la app', async ({ page }) => {
   await aislar(page);
   await page.goto('/?pago=ok&session_id=cs_test_a1b2c3d4e5f6g7h8i9');
-  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
+  await expect(page.getByText('Escucha la historia frente a lo que estás viendo.')).toBeVisible();
 });
 
 // Versión compilada con VITE_PUBLISHED_LANGUAGES=es (un solo idioma): no aparece el selector.
 test('un solo idioma: no aparece el selector de idioma y la app está en español', async ({ page }) => {
   await aislar(page);
   await page.goto('/');
-  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
+  await expect(page.getByText('Escucha la historia frente a lo que estás viendo.')).toBeVisible();
   await expect(page.locator('#btn-language-selector')).toHaveCount(0);
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
 });
@@ -42,7 +42,7 @@ test('un solo idioma: un idioma guardado en una visita anterior (inglés) se ign
   await aislar(page);
   await page.addInitScript(() => localStorage.setItem('audioguias_lang', 'en'));
   await page.goto('/');
-  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
+  await expect(page.getByText('Escucha la historia frente a lo que estás viendo.')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
 });
 
@@ -50,8 +50,16 @@ test('un solo idioma: un idioma guardado en una visita anterior (inglés) se ign
 const UA_IPHONE = 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1';
 const UA_ANDROID = 'Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Mobile Safari/537.36';
 
+test('instalar: antes del primer audio la tarjeta no aparece', async ({ page }) => {
+  await aislar(page);
+  await page.goto('/');
+  await expect(page.getByText('Escucha la historia frente a lo que estás viendo.')).toBeVisible();
+  await expect(page.locator('#install-card')).toHaveCount(0);
+});
+
 test('instalar: la tarjeta de la pantalla de inicio abre los pasos y se puede cerrar', async ({ page }) => {
   await aislar(page);
+  await page.addInitScript(() => localStorage.setItem('xolo_primer_audio', '1'));
   await page.goto('/');
   await expect(page.locator('#install-card')).toBeVisible();
   await page.locator('#btn-install-guide').click();
@@ -66,27 +74,30 @@ test('instalar: la tarjeta de la pantalla de inicio abre los pasos y se puede ce
 
 test('instalar: «No mostrar más» oculta la tarjeta y se acuerda al recargar', async ({ page }) => {
   await aislar(page);
+  await page.addInitScript(() => localStorage.setItem('xolo_primer_audio', '1'));
   await page.goto('/');
   await page.locator('#btn-install-card-dismiss').click();
   await expect(page.locator('#install-card')).toHaveCount(0);
   await page.reload();
-  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
+  await expect(page.getByText('Escucha la historia frente a lo que estás viendo.')).toBeVisible();
   await expect(page.locator('#install-card')).toHaveCount(0);
 });
 
 test('instalar: si la app ya está instalada no se muestra la tarjeta', async ({ page }) => {
   await aislar(page);
+  await page.addInitScript(() => localStorage.setItem('xolo_primer_audio', '1'));
   await page.addInitScript(() => {
     const original = window.matchMedia.bind(window);
     window.matchMedia = (q) => (String(q).includes('display-mode: standalone') ? { ...original(q), matches: true } : original(q));
   });
   await page.goto('/');
-  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
+  await expect(page.getByText('Escucha la historia frente a lo que estás viendo.')).toBeVisible();
   await expect(page.locator('#install-card')).toHaveCount(0);
 });
 
 test('instalar: si el navegador avisa que se puede instalar, aparece «Instalar ahora» y usa el aviso del navegador', async ({ page }) => {
   await aislar(page);
+  await page.addInitScript(() => localStorage.setItem('xolo_primer_audio', '1'));
   await page.goto('/');
   await page.evaluate(() => {
     const ev = new Event('beforeinstallprompt', { cancelable: true });
@@ -107,6 +118,7 @@ test.describe('instalar: pasos según el dispositivo', () => {
     test.use({ userAgent: UA_IPHONE });
     test('muestra primero los pasos de iPhone', async ({ page }) => {
       await aislar(page);
+  await page.addInitScript(() => localStorage.setItem('xolo_primer_audio', '1'));
       await page.goto('/');
       await page.locator('#btn-install-guide').click();
       const primero = page.locator('[data-testid^="install-"]').first();
@@ -119,6 +131,7 @@ test.describe('instalar: pasos según el dispositivo', () => {
     test.use({ userAgent: UA_ANDROID });
     test('muestra primero los pasos de Android', async ({ page }) => {
       await aislar(page);
+  await page.addInitScript(() => localStorage.setItem('xolo_primer_audio', '1'));
       await page.goto('/');
       await page.locator('#btn-install-guide').click();
       const primero = page.locator('[data-testid^="install-"]').first();

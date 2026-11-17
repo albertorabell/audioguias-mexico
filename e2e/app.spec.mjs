@@ -35,30 +35,21 @@ test('guía del museo: se abre con «¿Cómo se usa?», señala los botones real
   const intro = page.locator('#modal-intro');
   await expect(intro).toBeVisible();
   await expect(page.getByTestId('intro-step-label')).toHaveText(/^1 de \d+$/);
-  await expect(page.getByTestId('intro-title')).toHaveText('Bienvenido a tu guía');
-  // El segundo paso señala el primer recorrido: el resaltado cae sobre esa tarjeta
-  await page.locator('#btn-intro-next').click();
-  await expect(page.getByTestId('intro-title')).toHaveText('Recorridos ya armados');
+  await expect(page.getByTestId('intro-title')).toHaveText('Empieza aquí');
+  // El primer paso señala el botón «Empezar recorrido»
   await expect(async () => {
     const spot = await page.getByTestId('coach-spot').boundingBox();
-    const card = await caja(page, '#first-route-card');
-    expect(Math.abs(spot.y - (card.y - 6))).toBeLessThan(4);
-    expect(Math.abs(spot.x - (card.x - 6))).toBeLessThan(4);
-  }).toPass();
-  // Tercer paso: el botón de armar ruta
-  await page.locator('#btn-intro-next').click();
-  await expect(page.getByTestId('intro-title')).toHaveText('Arma tu propia ruta');
-  await expect(async () => {
-    const spot = await page.getByTestId('coach-spot').boundingBox();
-    const btn = await caja(page, '#btn-open-wizard');
+    const btn = await caja(page, '#btn-start-tour');
     expect(Math.abs(spot.y - (btn.y - 6))).toBeLessThan(4);
   }).toPass();
+  await page.locator('#btn-intro-next').click();
+  await expect(page.getByTestId('intro-title')).toHaveText('Escucha o lee');
   // «Anterior» regresa un paso
   await page.locator('#btn-intro-back').click();
-  await expect(page.getByTestId('intro-title')).toHaveText('Recorridos ya armados');
-  // Hasta el último paso
+  await expect(page.getByTestId('intro-title')).toHaveText('Empieza aquí');
+  // Hasta el último paso (son tres)
   while ((await page.locator('#btn-intro-next').count()) > 0) await page.locator('#btn-intro-next').click();
-  await expect(page.getByTestId('intro-title')).toHaveText('¡Listo!');
+  await expect(page.getByTestId('intro-title')).toHaveText('Úsala sin internet');
   await page.locator('#btn-intro-configure').click();
   await expect(intro).toHaveCount(0);
   await expect(page.locator('#q1-title')).toBeVisible();
@@ -96,7 +87,7 @@ test('guía del museo: ya vista, no se abre sola al volver a entrar; en inglés 
   await page.locator('#sites-grid-section [role=button]').first().click();
   await page.locator('#btn-open-intro').click();
   await expect(page.getByTestId('intro-step-label')).toHaveText(/^1 of \d+$/);
-  await expect(page.getByTestId('intro-title')).toHaveText('Welcome to your guide');
+  await expect(page.getByTestId('intro-title')).toHaveText('Start here');
 });
 
 test('guía de la obra: la primera vez señala escuchar, versión corta/completa, texto, siguiente, regresar y buscar', async ({ page }) => {
@@ -167,43 +158,43 @@ test('obra: corta o completa se elige en la barra de abajo, siempre a la vista; 
 
 test('idioma: pasa a inglés, se queda al recargar y vuelve a español', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
+  await expect(page.getByText('Escucha la historia frente a lo que estás viendo.')).toBeVisible();
   await expect(page.locator('#btn-language-selector')).toHaveText(/\bes\s*$/i);
 
   await elegirIdioma(page, 'English');
-  await expect(page.getByText('Your audio guide to discovering Mexico')).toBeVisible();
+  await expect(page.getByText('Hear the story right in front of what you are looking at.')).toBeVisible();
   await expect(page.locator('#btn-language-selector')).toHaveText(/\ben\s*$/i);
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
   // El nombre del museo también cambia de idioma
   await expect(page.getByText('National Museum of Anthropology').first()).toBeVisible();
 
   await page.reload();
-  await expect(page.getByText('Your audio guide to discovering Mexico')).toBeVisible();
+  await expect(page.getByText('Hear the story right in front of what you are looking at.')).toBeVisible();
 
   await elegirIdioma(page, 'Español');
-  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
+  await expect(page.getByText('Escucha la historia frente a lo que estás viendo.')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
 });
 
 test('idioma: pasa a francés (interfaz completa en francés), se queda al recargar y vuelve a español', async ({ page }) => {
   await page.goto('/');
   await elegirIdioma(page, 'Français');
-  await expect(page.getByText('Votre guide audio pour découvrir le Mexique')).toBeVisible();
+  await expect(page.getByText('Écoutez l’histoire juste devant ce que vous regardez.')).toBeVisible();
   await expect(page.locator('#btn-language-selector')).toHaveText(/\bfr\s*$/i);
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
   await page.reload();
-  await expect(page.getByText('Votre guide audio pour découvrir le Mexique')).toBeVisible();
+  await expect(page.getByText('Écoutez l’histoire juste devant ce que vous regardez.')).toBeVisible();
   await elegirIdioma(page, 'Español');
-  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
+  await expect(page.getByText('Escucha la historia frente a lo que estás viendo.')).toBeVisible();
 });
 
 test('idioma: pasa a polaco (interfaz en polaco) y vuelve a español', async ({ page }) => {
   await page.goto('/');
   await elegirIdioma(page, 'Polski');
-  await expect(page.getByText('Twój przewodnik audio po Meksyku')).toBeVisible();
+  await expect(page.getByText('Posłuchaj historii tuż przed tym, na co patrzysz.')).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('lang', 'pl');
   await elegirIdioma(page, 'Español');
-  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
+  await expect(page.getByText('Escucha la historia frente a lo que estás viendo.')).toBeVisible();
 });
 
 test('idioma: una pieza sin traducción se muestra y se lee en español, y avisa', async ({ page }) => {
@@ -554,7 +545,7 @@ test('atrás: después de cambiar de pestaña desde una pieza, un solo "atrás" 
   await page.locator('#btn-nav-quick-search').click();
   await expect(page.locator('#input-search-pieces')).toBeVisible();
   await page.goBack();
-  await expect(page.getByText('Tu guía en audio para conocer México')).toBeVisible();
+  await expect(page.getByText('Escucha la historia frente a lo que estás viendo.')).toBeVisible();
 });
 
 test('atrás: cierra la ventana del pase y la foto ampliada sin salir de la pieza', async ({ page }) => {

@@ -93,7 +93,7 @@ export async function simularCobro(page, opciones = {}) {
 
     switch (url.pathname) {
       case '/config':
-        if (api.libre) return json(200, { free: true, prices: {}, passHours: 72, maxDevices: 2 });
+        if (api.libre) return json(200, { free: true, prices: {}, passHours: 720, passDays: 30, maxDevices: 2 });
         return json(200, {
           prices: { mxn: { amount: 79, currency: 'mxn' }, usd: { amount: 4.99, currency: 'usd' } },
           ...(api.acceso ? { access: api.acceso } : {}),
@@ -105,7 +105,7 @@ export async function simularCobro(page, opciones = {}) {
                 ],
               }
             : {}),
-          passHours: 72,
+          passHours: 720, passDays: 30,
           maxDevices: 2,
         });
       case '/promo':

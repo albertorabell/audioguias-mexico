@@ -23,7 +23,7 @@ export const PL_GROUPS: Record<string, any> = {
     premium: 'Premium',
     museumName: 'Narodowe Muzeum Antropologii',
     roomWord: 'Sala',
-    editorialBadge: 'Treści redakcyjne Audioguía Xolo',
+    editorialBadge: 'Treści redakcyjne Xolo',
     languageNames: { es: 'hiszpański', en: 'angielski', fr: 'francuski', pl: 'polski', de: 'niemiecki', pt: 'portugalski', it: 'włoski', ru: 'rosyjski', ja: 'japoński' },
   },
   chrome: {
@@ -51,7 +51,7 @@ export const PL_GROUPS: Record<string, any> = {
     pwa: {
       install: 'Zainstaluj aplikację',
       cardTitle: 'Zainstaluj aplikację na telefonie',
-      cardBody: 'Będzie miała własną ikonę, uruchomi się bez internetu, a gdy przypadkiem ją zamkniesz, otworzysz ją stamtąd ponownie.',
+      cardBody: 'Będzie miała własną ikonę i uruchomi się bez internetu, więc w sali bez zasięgu nadal działa.',
       cardButton: 'Jak zainstalować',
       cardDismiss: 'Nie pokazuj więcej',
       guideTitle: 'Instalacja aplikacji',
@@ -208,10 +208,10 @@ export const PL_GROUPS: Record<string, any> = {
     copy: 'Kopiuj',
     copied: 'Skopiowano!',
     share: 'Udostępnij',
-    shareText: (site: string, code: string) => `Mój kod Audioguía Xolo dla ${site}: ${code}. Wpisz go na xolotli.com, aby wejść.`,
+    shareText: (site: string, code: string) => `Mój kod Xolo dla ${site}: ${code}. Wpisz go na xolotli.com, aby wejść.`,
     sampleListen: "Posłuchaj darmowej próbki",
     sampleStop: "Zatrzymaj próbkę",
-    offerTitle: (h: number) => `Pełny dostęp na ${h} godz.`,
+    offerTitle: (h: number) => `Pełny dostęp na ${h} dni`,
     priceNote: 'Jednorazowa płatność • bez subskrypcji',
     combo: {
       includes: (names: string) => `W cenie: ${names}.`,
@@ -224,7 +224,7 @@ export const PL_GROUPS: Record<string, any> = {
       desc: 'To miejsce otwiera się kodem, który dostaniesz na miejscu (hotel, kasa lub partner). Wpisz go poniżej.',
     },
     benefits: {
-      accessTitle: (h: number) => `${h} godzin pełnego dostępu`,
+      accessTitle: (h: number) => `${h} dni pełnego dostępu`,
       accessDesc: 'Zwiedzaj bez pośpiechu. Karnet nie odnawia się sam.',
       guidesTitle: 'Nagranie i tekst każdego dzieła',
       guidesDesc: 'W wersji krótkiej i pełnej, z zadaniami obserwacyjnymi, mitami i kartami informacyjnymi.',
@@ -326,11 +326,11 @@ export const PL_GROUPS: Record<string, any> = {
         free > 0
           ? `Na każdym przystanku posłuchaj jego historii. Bezpłatnych przystanków: ${free}.`
           : 'Na każdym przystanku posłuchaj jego historii.',
-        `Z ${hours}-godzinnym karnetem słuchasz wszystkiego w wybranym miejscu, na maksymalnie ${devices} telefonach.`,
+        `Z ${hours}-dniowym karnetem słuchasz wszystkiego w wybranym miejscu, na maksymalnie ${devices} telefonach.`,
       ],
-      passBadgeTitle: (hours: number, devices: number) => `Jeden ${hours}-godzinny karnet, ${devices} telefony`,
+      passBadgeTitle: (hours: number, devices: number) => `Jeden ${hours}-dniowy karnet, ${devices} telefony`,
       passBadgeText: 'Idealny dla par i przyjaciół: drugi telefon aktywujesz krótkim kodem, bez formalności.',
-      valueChips: (hours: number, devices: number) => ['Darmowe przystanki na próbę', `Karnet na ${hours} godz. na ${devices} telefony`, 'Działa bez internetu'],
+      valueChips: (hours: number, devices: number) => ['Darmowe przystanki na próbę', `Karnet na ${hours} dni na ${devices} telefony`, 'Działa bez internetu'],
       tryFree: 'Wypróbuj darmowy przystanek',
     },
     museum: {
@@ -362,7 +362,7 @@ export const PL_GROUPS: Record<string, any> = {
       freeSub: 'Bez rejestracji i bez karty. Jeśli spodoba Ci się, jak to brzmi, odblokuj resztę trasy.',
       freeUnlock: 'Odblokuj wszystkie dzieła',
       passTitle: 'Co zawiera karnet',
-      passLead: (hours: number) => `Jedna opłata, bez subskrypcji. Karnet działa ${hours} godz.`,
+      passLead: (hours: number) => `Jedna opłata, bez subskrypcji. Karnet działa ${hours} dni`,
       passItems: (stops: string, devices: number) => [
         { title: `${stops} z nagraniem i tekstem`, desc: 'Posłuchaj historii na miejscu, w wersji krótkiej lub pełnej. Możesz ją też przeczytać.' },
         { title: 'Zadania obserwacyjne, mity i karty informacyjne', desc: 'Na co zwrócić uwagę, legenda każdego z nich i najważniejsze dane.' },
@@ -490,14 +490,9 @@ export const PL_GROUPS: Record<string, any> = {
     done: 'Rozumiem',
     stepOf: (n: number, total: number) => `${n} z ${total}`,
     museum: [
-      { title: 'Witaj w przewodniku', text: 'Pokażę Ci każdy przycisk i powiem, do czego służy. Wystarczy dotykać „Dalej”.' },
-      { title: 'Gotowe trasy', text: 'Tu są gotowe trasy. Dotknij jednej, a przewodnik poprowadzi Cię dzieło po dziele. Przesuń w bok, by zobaczyć więcej.' },
-      { title: 'Ułóż własną trasę', text: 'Dotknij tego przycisku, powiedz, ile masz czasu i co lubisz, a ułożymy trasę.' },
-      { title: 'Zmień piętro', text: 'Dotknij tutaj, aby zobaczyć sale na parterze albo na piętrze.' },
-      { title: 'Sale', text: 'Każdy wiersz to sala. Dotknij go, aby zobaczyć dzieła w kolejności zwiedzania.' },
-      { title: 'Cztery przyciski zawsze na dole', text: 'Muzeum, Trasy, Plan i Szukaj. Dotknij ich, aby w każdej chwili zmienić sekcję.' },
-      { title: 'Bez internetu', text: 'W salach prawie nie ma zasięgu. Zanim wejdziesz, dotknij tutaj, aby pobrać wszystko.' },
-      { title: 'Gotowe!', text: 'Otwórz dowolne dzieło, a pokażę Ci, jak go słuchać. Ta pomoc jest zawsze pod „Jak to działa?”.' },
+      { title: 'Zacznij tutaj', text: 'Dotknij „Zacznij trasę”, a przewodnik poprowadzi cię przystanek po przystanku, w kolejności zwiedzania.' },
+      { title: 'Słuchaj albo czytaj', text: 'Na każdym przystanku dotknij zielonego przycisku, aby usłyszeć historię. To, co słyszysz, jest tym, co czytasz.' },
+      { title: 'Bez internetu', text: 'Tam, gdzie prawie nie ma zasięgu, pobierz wszystko przed wejściem: dotknij tutaj.' },
     ],
     piece: [
       { title: 'Dotknij, aby słuchać', text: 'Ten zielony przycisk opowiada historię dzieła. Dotknij go ponownie, aby wstrzymać. Pasek wypełnia się podczas odtwarzania.' },

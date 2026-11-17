@@ -26,7 +26,7 @@ import {
 } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, Room, PieceData, BeforeVisitItem } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
-import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
+import { PASS_DAYS, PASS_MAX_DEVICES } from '../config/pass';
 import { SPEECH_LOCALE } from '../i18n/languages';
 import { getRoomShortLabel } from '../utils/roomLabel';
 import { calculateRouteTimeMinutes, formatRouteDuration, formatRouteDurationShort } from '../utils/routeOptimizer';
@@ -35,6 +35,7 @@ import { TopBar } from './ui/TopBar';
 import { LanguageMenu, PassButton } from './ui/HeaderControls';
 import { PieceImage } from './PieceImage';
 import { OfflineTourBanner } from './OfflineTourBanner';
+import { portadaTexts } from '../i18n/portada';
 import { IntroTour } from './IntroTour';
 import { RoutePreviewSheet } from './RoutePreviewSheet';
 
@@ -198,6 +199,14 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   /** El recorrido del botón «Empezar recorrido»: el que el Sheet marca como principal, o el más corto. */
   const mainRoute = useMemo(() => routes.find((r) => r.principal) || shelf[0], [routes, shelf]);
 
+  // Descarga sin internet: por defecto solo la ruta recomendada (menos datos); un botón permite bajar todo el sitio
+  const [descargaTodo, setDescargaTodo] = useState(false);
+  const pt = portadaTexts(currentLanguage);
+  const abierto = site.site_type === 'zona_arqueologica' || site.site_type === 'recorrido_urbano' || site.site_type === 'santuario';
+  const idsRuta = useMemo(() => new Set((mainRoute?.stops || []).map((st) => String(st.piece_id || st.id || st.poi_id || ''))), [mainRoute]);
+  const piezasRuta = useMemo(() => pieces.filter((p) => idsRuta.has(p.piece_id)), [pieces, idsRuta]);
+  const bajaTodo = descargaTodo || piezasRuta.length === 0;
+
   const range = useMemo(() => {
     const all = routes.map(minutesOf).filter((x) => x > 0);
     return all.length ? { min: Math.min(...all), max: Math.max(...all) } : null;
@@ -270,7 +279,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 filename={coverPiece.image_filename}
                 pieceId={coverPiece.piece_id}
                 alt=""
-                className="block w-full aspect-[3/2] max-h-[22rem] object-cover"
+                className="block w-full aspect-[16/9] max-h-[14rem] object-cover"
               />
             </div>
           )}
@@ -283,13 +292,8 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 {site.badge}
               </p>
             )}
-            {lead && <p className="mt-5 font-serif text-[1.1875rem] leading-[1.5] text-ink-2 text-pretty">{lead}</p>}
-            <p id="site-facts" className="mt-4 text-ui text-ink-2">
-              {m.facts(u.worksCount(pieces.length), u.roomsCount(rooms.length))}
-              {range && ` ${range.min === range.max ? m.routeOne(inlineDuration(range.min)) : m.routeRange(inlineDuration(range.min), inlineDuration(range.max))}`}
-            </p>
             {mainRoute && !continueInfo && (
-              <div className="mt-6">
+              <div className="mt-5">
                 <button type="button" id="btn-start-tour" onClick={() => setPreviewRoute(mainRoute)} className="btn-primary w-full">
                   {m.startTour}
                 </button>
@@ -308,6 +312,11 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 {u.home.tryFree}
               </button>
             )}
+            {lead && <p className="mt-6 font-serif text-[1.1875rem] leading-[1.5] text-ink-2 text-pretty">{lead}</p>}
+            <p id="site-facts" className="mt-4 text-ui text-ink-2">
+              {m.facts(u.worksCount(pieces.length), u.roomsCount(rooms.length))}
+              {range && ` ${range.min === range.max ? m.routeOne(inlineDuration(range.min)) : m.routeRange(inlineDuration(range.min), inlineDuration(range.max))}`}
+            </p>
             {/* Atajos: la portada es larga; estos botones llevan directo a cada parte */}
             <nav id="site-shortcuts" aria-label={m.shortcutsAria} className="mt-5 -mx-5 px-5 flex gap-2 overflow-x-auto [scrollbar-width:none]">
               {shelf.length > 0 && (
@@ -458,7 +467,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             <h2 id="pass-title" className="font-serif text-[1.625rem] leading-tight font-medium">
               {m.passTitle}
             </h2>
-            <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.passLead(PASS_HOURS)}</p>
+            <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.passLead(PASS_DAYS)}</p>
             {freePieces.length > 0 && (
               <button
                 type="button"
@@ -631,7 +640,18 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
         )}
 
         <section className="px-5 mt-12">
-          <OfflineTourBanner pieces={pieces} audioPieces={audioPieces} />
+          <OfflineTourBanner
+            key={bajaTodo ? 'todo' : 'ruta'}
+            pieces={bajaTodo ? pieces : piezasRuta}
+            audioPieces={bajaTodo ? audioPieces : audioPieces.filter((p) => idsRuta.has(p.piece_id))}
+            routeTitle={bajaTodo ? undefined : mainRoute?.name}
+            notCachedText={abierto ? pt.descargaAbierto : undefined}
+          />
+          {mainRoute && piezasRuta.length > 0 && piezasRuta.length < pieces.length && (
+            <button type="button" id="btn-download-scope" onClick={() => setDescargaTodo((v) => !v)} className="mt-2 -ml-1 h-10 px-1 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg">
+              {descargaTodo ? pt.descargaRuta : pt.descargaTodo}
+            </button>
+          )}
           {!zones && (
             <button
               type="button"

@@ -20,6 +20,10 @@ export interface SiteSummary {
   /** Foto de portada (archivo en public/images/pieces) y la pieza a la que pertenece. */
   cover_image?: string;
   cover_piece_id?: string;
+  /** Región de la portada (cdmx, edomex, morelos, yucatan…), tipo de sitio y orden: vienen de CONTROL. */
+  region?: string;
+  site_type?: 'museo' | 'zona_arqueologica' | 'recorrido_urbano' | 'santuario';
+  order?: number;
 }
 
 export interface MapCoords {
