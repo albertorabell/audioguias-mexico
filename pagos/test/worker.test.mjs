@@ -687,6 +687,21 @@ test('/contacto: guarda el mensaje 90 días, no admite basura ni bots y lo lee s
   assert.equal((await ct({ m: 'uno más' })).status, 429);
 });
 
+test('/contacto: la reseña lleva calificación de 1 a 5, frase opcional y permiso de publicación', async () => {
+  env.STATS_KEY = 'k';
+  const ct = (body) => call('/contacto', { body, origin: ORIGIN });
+  assert.equal((await ct({ t: 'resena', r: 5, m: 'Me encantó la ruta', ok: true, s: 'MNA', l: 'es' })).status, 204);
+  assert.equal((await ct({ t: 'resena', r: 3 })).status, 204); // solo estrellas
+  assert.equal((await ct({ t: 'resena', m: 'sin estrellas' })).status, 400);
+  assert.equal((await ct({ t: 'resena', r: 9 })).status, 400);
+  assert.equal((await ct({ t: 'resena', r: 0 })).status, 400);
+  const { mensajes } = await (await call('/mensajes', { method: 'GET', origin: null, headers: { Authorization: 'Bearer k' } })).json();
+  const con = mensajes.find((x) => x.t === 'resena' && x.r === 5);
+  assert.equal(con.ok, true);
+  assert.equal(con.s, 'mna');
+  assert.equal(mensajes.find((x) => x.t === 'resena' && x.r === 3).ok, false);
+});
+
 test('/audio y /texto aceptan alemán, portugués e italiano', async () => {
   env.AUDIO = new FakeR2({ 'libre/de/p00_corto.mp3': Buffer.from('DE'), 'libre/pt/p00_corto.mp3': Buffer.from('PT'), 'libre/it/p00_corto.mp3': Buffer.from('IT') });
   for (const l of ['de', 'pt', 'it']) {

@@ -1,9 +1,14 @@
 import { PAYMENTS_API_URL } from '../config/payments';
 
 export interface ContactPayload {
-  /** mensaje | error */
-  t: 'mensaje' | 'error';
+  /** mensaje | error | resena */
+  t: 'mensaje' | 'error' | 'resena';
+  /** mensaje (en una reseña puede ir vacío) */
   m: string;
+  /** reseña: calificación de 1 a 5 */
+  r?: number;
+  /** reseña: permiso para publicarla (sin nombre) */
+  ok?: boolean;
   /** correo de respuesta (opcional) */
   c?: string;
   /** parada */

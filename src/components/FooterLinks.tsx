@@ -4,6 +4,14 @@ import { useLanguage } from '../utils/LanguageContext';
 import { avisoText } from '../i18n/aviso';
 import { contactoText } from '../i18n/contacto';
 import { ContactForm } from './ContactForm';
+import { CONTACT_EMAIL } from '../config/contacto';
+
+/** Pone el correo como enlace dentro de un párrafo. */
+function conCorreo(texto: string): React.ReactNode {
+  const partes = texto.split(CONTACT_EMAIL);
+  if (partes.length < 2) return texto;
+  return partes.flatMap((p, i) => (i === 0 ? [p] : [<a key={i} href={`mailto:${CONTACT_EMAIL}`} className="font-semibold underline underline-offset-4">{CONTACT_EMAIL}</a>, p]));
+}
 
 type Panel = 'privacy' | 'about' | 'contact' | null;
 
@@ -90,7 +98,7 @@ export const FooterLinks: React.FC = () => {
             {open === 'about' && (
               <div className="mt-2 space-y-3">
                 {t.aboutBody.map((p) => (
-                  <p key={p} className="text-ui leading-relaxed text-ink-2">{p}</p>
+                  <p key={p} className="text-ui leading-relaxed text-ink-2">{conCorreo(p)}</p>
                 ))}
               </div>
             )}
