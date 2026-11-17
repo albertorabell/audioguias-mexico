@@ -13,7 +13,7 @@ import path from 'node:path';
 export const SITIOS = {
   mna: { bbox: [-99.1890, 19.4240, -99.1835, 19.4285], caminos: true },
   teotihuacan: { bbox: [-98.8620, 19.6740, -98.8340, 19.7060], caminos: true },
-  chapultepec: { bbox: [-99.1870, 19.4175, -99.1775, 19.4245], caminos: true },
+  chapultepec: { bbox: [-99.1850, 19.4190, -99.1790, 19.4230], caminos: false },
   centro_historico: { bbox: [-99.1490, 19.4280, -99.1280, 19.4400], caminos: false },
   chichen_itza: { bbox: [-88.5760, 20.6680, -88.5620, 20.6900], caminos: true },
   templo_mayor_catedral: { bbox: [-99.1350, 19.4320, -99.1290, 19.4370], caminos: true },
