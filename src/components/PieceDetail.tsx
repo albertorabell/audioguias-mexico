@@ -16,7 +16,7 @@ import { PieceTour, pieceTourSeen } from './PieceTour';
 import { LinkedText } from './LinkedText';
 import { PiecePeek } from './PiecePeek';
 import { PieceFeedback } from './PieceFeedback';
-import { track, noteAudio, setAudioProbe } from '../utils/analytics';
+import { track, noteAudio, setAudioProbe, noteFirstAudio } from '../utils/analytics';
 
 setAudioProbe(() => ttsPlayer.getState().isPlaying);
 
@@ -177,11 +177,17 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const linksOn = !textMissing && !!resolvePiece;
   const canOpenLink = (id: string) => id !== pieceId && !!resolvePiece?.(id);
 
+  // Para contar cada error de audio una sola vez (el aviso se repite en cada cambio de estado)
+  const lastErrorTracked = useRef('');
   // Estado del audio de ESTA pieza
   useEffect(() => {
     const unsubscribe = ttsPlayer.subscribe((_, state) => {
       setTts(state);
-      if (state.errorMessage) setErrorMessage(state.errorMessage);
+      if (state.errorMessage) {
+        setErrorMessage(state.errorMessage);
+        if (lastErrorTracked.current !== state.errorMessage) track('audio_error', { p: pieceId, l: currentLanguage });
+        lastErrorTracked.current = state.errorMessage;
+      } else lastErrorTracked.current = '';
     });
     return () => {
       unsubscribe();
@@ -250,6 +256,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   /** `fresh` = arrancar desde el principio aunque el estado del audio anterior aún no se haya limpiado (cambio de versión). */
   const togglePlay = (fresh = false) => {
     if (locked) {
+      track('paywall_block', { p: pieceId, l: currentLanguage });
       onOpenPaywall();
       return;
     }
@@ -275,9 +282,11 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         setFinished(true);
         heard.current.max = 1;
         track('audio_end', { p: pieceId, l: currentLanguage, m: mode === 'expres' ? 'corto' : 'largo' });
+        if (isFree) track('free_end', { p: pieceId, l: currentLanguage });
       }
     };
     heard.current.started = true;
+    noteFirstAudio();
     track('audio_play', { p: pieceId, l: currentLanguage, m: mode === 'expres' ? 'corto' : 'largo', k: audio[mode]?.url ? 'mp3' : 'voz' });
     ttsPlayer.play(mode === 'expres' ? guionCorto : guionLargo, titulo, onEnd, {
       roomName: contextTitle,
