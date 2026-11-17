@@ -321,3 +321,15 @@ export function aplicarControlASites(lista, sitiosCtl, avisar = () => {}) {
   });
   return conIndice.map((x) => x.s);
 }
+
+/**
+ * Conteos de los sitios con lógica propia (MNA, Teotihuacán), que no pasan por entradaSitio: salas y obras reales publicadas.
+ * conteos = { MNA: { salas, piezas }, TEOTIHUACAN: { salas, piezas } }. Un sitio sin entrada de conteo no se toca.
+ */
+export function aplicarConteosASites(lista, conteos) {
+  return lista.map((s) => {
+    const c = conteos[String(s.id).toUpperCase()];
+    if (!c) return s;
+    return { ...s, total_stops: c.salas, highlights_count: c.piezas };
+  });
+}
