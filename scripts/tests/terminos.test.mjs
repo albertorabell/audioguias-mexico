@@ -17,3 +17,17 @@ test('términos: están los 7 idiomas, con las mismas secciones y los datos de c
     assert.ok(t.seller.includes(SELLER), `${l}: vendedor`);
   }
 });
+
+test('privacidad: 7 idiomas con las mismas secciones y los plazos reales', async () => {
+  const { PRIVACY } = await import('../../src/i18n/privacidad.js');
+  const n = PRIVACY.es.blocks.length;
+  for (const l of IDIOMAS) {
+    const p = PRIVACY[l];
+    assert.ok(p, l);
+    assert.equal(p.blocks.length, n, `${l}: mismas secciones que en español`);
+    const todo = p.blocks.map((b) => b[1]).join(' ');
+    assert.ok(todo.includes(CONTACT), `${l}: lleva el correo de contacto`);
+    assert.ok(/90/.test(todo) && /60/.test(todo), `${l}: plazos de 60 y 90 días`);
+    assert.ok(/Resend/.test(todo) && /Stripe/.test(todo), `${l}: nombra a Stripe y Resend`);
+  }
+});

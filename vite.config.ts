@@ -57,7 +57,7 @@ export default defineConfig(() => {
           // sites.json (el catálogo) tampoco se guarda al instalar: se pide primero a la red (ver más abajo) para que nadie vea un catálogo viejo.
           globIgnores: ['panel.html', 'data/pieces.json', 'data/rooms.json', 'data/sites.json'],
           // Las páginas de guía (/guias/...) son páginas completas para Google: la app no debe reemplazarlas por su pantalla de inicio
-          navigateFallbackDenylist: [/^\/panel\.html/, /^\/terminos\//, /^\/sitemap\.xml/, /^\/robots\.txt/, /^\/guias\//, /^\/en\/guides\//, /^\/fr\/guides\//, /^\/pl\/przewodniki\//, /^\/de\/fuehrer\//, /^\/pt\/guias\//, /^\/it\/guide\//],
+          navigateFallbackDenylist: [/^\/panel\.html/, /^\/terminos\//, /^\/privacidad\//, /^\/sitemap\.xml/, /^\/robots\.txt/, /^\/guias\//, /^\/en\/guides\//, /^\/fr\/guides\//, /^\/pl\/przewodniki\//, /^\/de\/fuehrer\//, /^\/pt\/guias\//, /^\/it\/guide\//],
           // pieces.json crece con cada idioma traducido (más de 2 MB con inglés, francés y polaco).
           // Se sube el límite para que se siga guardando para usar sin internet.
           maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
