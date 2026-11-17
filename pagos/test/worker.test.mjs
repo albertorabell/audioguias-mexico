@@ -533,6 +533,7 @@ test('/evento: cuenta lo permitido, rechaza lo raro y /estadisticas pide la clav
   assert.equal((await ev({ e: 'piece_view', p: 'mna_s06_piedra_sol', l: 'es', s: 'MNA' })).status, 204);
   assert.equal((await ev({ e: 'piece_view', p: 'mna_s06_piedra_sol', l: 'es' })).status, 204);
   assert.equal((await ev({ e: 'audio_play', p: 'mna_s06_piedra_sol', l: 'fr', m: 'largo', k: 'mp3' })).status, 204);
+  assert.equal((await ev({ e: 'guide_sample', s: 'mna', p: 'mna_s06_piedra_sol', l: 'es' })).status, 204); // toque del botón «Escuchar 30 s» de las guías
   assert.equal((await ev({ e: 'purchase' })).status, 400); // las compras las cuenta el servidor, no la app
   assert.equal((await ev({ e: 'inventado' })).status, 400);
   assert.equal((await ev({ e: 'app_open', s: 'otro' })).status, 400);
@@ -547,6 +548,7 @@ test('/evento: cuenta lo permitido, rechaza lo raro y /estadisticas pide la clav
   assert.equal(hoy['piece_view|mna|mna_s06_piedra_sol|es||'], 1);
   assert.equal(hoy['piece_view||mna_s06_piedra_sol|es||'], 1); // sin sitio: se cuenta sin sitio, no en el primero de la lista
   assert.equal(hoy['audio_play||mna_s06_piedra_sol|fr|largo|mp3'], 1);
+  assert.equal(hoy['guide_sample|mna|mna_s06_piedra_sol|es||'], 1);
   // sin dato personal alguno: solo contadores
   assert.ok(!JSON.stringify(conteos).includes('dev_'));
 });

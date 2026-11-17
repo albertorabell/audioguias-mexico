@@ -1,7 +1,7 @@
 // Páginas públicas para Google: lo que dicen, y que NUNCA lleven texto de pago.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { clipDe, botonMuestra, armarLlms, armarMapaGuias, enApp, armarPagina, armarSitemap, duracion, recorridoPrincipal, textoEnHtml, recortar, idiomaDisponible, direccion, contar, slugificar, armarPiezaPagina, piezaPublicable, direccionPieza } from '../seo-lib.mjs';
+import { ajustes, clipDe, botonMuestra, armarLlms, armarMapaGuias, enApp, armarPagina, armarSitemap, duracion, recorridoPrincipal, textoEnHtml, recortar, idiomaDisponible, direccion, contar, slugificar, armarPiezaPagina, piezaPublicable, direccionPieza } from '../seo-lib.mjs';
 
 const cfg = { articulo: 'el', slugs: { es: 'museo', en: 'museum', fr: 'musee', pl: 'muzeum' }, nombres: { en: 'The Museum', fr: 'Le Musée', pl: 'Muzeum' } };
 
@@ -217,4 +217,17 @@ test('mapa de guías para la canónica de /sitio/, y dirección dentro de la app
   assert.deepEqual(m, { v: 1, sitios: { mna: '/guias/museo/' }, paradas: { 'mna/a': '/guias/museo/piedra-del-sol/' } });
   assert.equal(enApp('MNA', 'fr'), '/sitio/mna?idioma=fr');
   assert.equal(enApp('MNA', 'fr', 'a b'), '/sitio/mna/a%20b?idioma=fr');
+});
+
+test('botón «Escuchar 30 s»: con servidor de medición lleva sitio, pieza, idioma y dirección; sin él no mide', () => {
+  const antes = ajustes.api;
+  try {
+    ajustes.api = 'https://pagos.example/';
+    const con = botonMuestra('en', '/audio/muestras/x_en.mp3', { sitio: 'MNA', pieza: 'mna_s06_piedra_sol' });
+    assert.ok(con.includes('data-api="https://pagos.example"') && con.includes('data-site="mna"') && con.includes('data-piece="mna_s06_piedra_sol"') && con.includes('data-lang="en"'));
+    ajustes.api = '';
+    assert.ok(!botonMuestra('en', '/audio/muestras/x_en.mp3', { sitio: 'MNA' }).includes('data-api'));
+  } finally {
+    ajustes.api = antes;
+  }
 });

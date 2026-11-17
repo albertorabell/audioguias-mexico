@@ -373,10 +373,16 @@ export function clipDe(existe, pieceId, lang) {
   return '';
 }
 
-export function botonMuestra(lang, src) {
+/** Dirección del servidor de cobro (donde se cuentan los toques del botón). La pone el script de compilación; vacía = no se mide. */
+export const ajustes = { api: '' };
+
+/** `medir` = { sitio, pieza }: de dónde es el clip, para contar los toques (anónimos, solo un contador). */
+export function botonMuestra(lang, src, medir = {}) {
   if (!src) return '';
   const [jugar, pausar] = MUESTRA[lang] || MUESTRA.es;
-  return `<p class="muestra"><button type="button" class="muestra-btn" data-src="${esc(src)}" data-play="${esc(jugar)}" data-pause="${esc(pausar)}" aria-pressed="false">${esc(jugar)}</button></p>`;
+  const dato = (k, v) => (v ? ` data-${k}="${esc(v)}"` : '');
+  const medicion = ajustes.api ? `${dato('api', ajustes.api.replace(/\/$/, ''))}${dato('site', String(medir.sitio || '').toLowerCase())}${dato('piece', medir.pieza)}${dato('lang', lang)}` : '';
+  return `<p class="muestra"><button type="button" class="muestra-btn" data-src="${esc(src)}" data-play="${esc(jugar)}" data-pause="${esc(pausar)}"${medicion} aria-pressed="false">${esc(jugar)}</button></p>`;
 }
 
 /** Dirección de un sitio (y de una pieza) dentro de la app. */
@@ -456,7 +462,7 @@ ${muestra ? '<script src="/guias-muestra.js" defer></script>\n' : ''}</body>
  * Arma el HTML de la página de un sitio en un idioma.
  * datos: { sitio, manifiesto, salas, piezas, cfg (de PAGINAS), lang, idiomas (los que sí salen), otras: [{ nombre, url }], portada }
  */
-export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], cfg, lang = 'es', idiomas = [lang], otras = [], portada = '', gratisEnlaces = [], muestra = '' }) {
+export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], cfg, lang = 'es', idiomas = [lang], otras = [], portada = '', gratisEnlaces = [], muestra = '', muestraPieza = '' }) {
   const t = T[lang];
   const slug = cfg.slugs[lang];
   const url = `${DOMINIO}${direccion(slug, lang)}`;
@@ -570,7 +576,7 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
 
   const cuerpo = `<h1>${esc(t.h1(nombre))}</h1>
 ${lead ? `<p class="lead">${esc(lead)}</p>` : ''}
-${botonMuestra(lang, muestra)}
+${botonMuestra(lang, muestra, { sitio: sitio.id, pieza: muestraPieza })}
 ${portada ? `<img class="portada" src="${esc(portada)}" alt="${esc(nombre)}" width="1200" height="800" fetchpriority="high">` : ''}
 ${cta()}
 ${intro ? `<h2>${esc(t.sobre(aireLibre))}</h2>\n${textoEnHtml(intro)}` : ''}
@@ -685,7 +691,7 @@ export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = nu
   const cuerpo = `<p class="dato"><a href="${urlSitio}">${esc(nombre)}</a></p>
 <h1>${esc(nombrePieza)}</h1>
 ${gancho ? `<p class="lead">${esc(gancho)}</p>` : ''}
-${botonMuestra(lang, muestra)}
+${botonMuestra(lang, muestra, { sitio: sitio.id, pieza: pieza.piece_id })}
 ${portada ? `<img class="portada" src="${esc(portada)}" alt="${esc(nombrePieza)}" width="1200" height="800" fetchpriority="high">` : ''}
 <p class="dato">${esc(t.ubic(nombreSala, nombre))}</p>
 ${textoEnHtml(texto)}

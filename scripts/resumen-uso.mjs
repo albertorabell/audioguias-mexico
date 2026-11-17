@@ -22,6 +22,7 @@ export function resumir(conteos, dias) {
   const porAliado = {};
   const primerAudio = {};
   const rutaParadas = {};
+  const muestraGuias = {};
   const porSitio = { app_open: {}, audio_play: {}, paywall_open: {}, checkout_start: {}, purchase: {} };
   for (const dia of Object.values(conteos || {})) {
     for (const [clave, n] of Object.entries(dia)) {
@@ -29,6 +30,10 @@ export function resumir(conteos, dias) {
       if (e === 'app_open' && k) porOrigen[k] = (porOrigen[k] || 0) + n;
       if (e === 'ally_visit' && k) porAliado[k] = (porAliado[k] || 0) + n;
       if (e === 'first_audio' && k) primerAudio[k] = (primerAudio[k] || 0) + n;
+      if (e === 'guide_sample') {
+        const clave = [s, p].filter(Boolean).join(' / ') || '(sin dato)';
+        muestraGuias[clave] = (muestraGuias[clave] || 0) + n;
+      }
       if (e === 'route_stop' && p) {
         rutaParadas[p] = rutaParadas[p] || {};
         rutaParadas[p][k] = (rutaParadas[p][k] || 0) + n;
@@ -68,6 +73,9 @@ export function resumir(conteos, dias) {
     '',
     '## De dónde llegan',
     ...lista(porOrigen),
+    '',
+    '## Botón «Escuchar 30 s» de las guías (toques, por sitio / pieza)',
+    ...lista(muestraGuias),
     '',
     '## Aliados y QR (etiqueta del enlace)',
     ...lista(porAliado),
