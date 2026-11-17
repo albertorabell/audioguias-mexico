@@ -37,11 +37,11 @@ function consulta(s) {
   const [w, so, e, n] = s.bbox;
   const b = `(${so},${w},${n},${e})`;
   if (s.solo_comida) {
-    return `[out:json][timeout:120];
+    return `[out:json][timeout:240];
 nwr["amenity"~"^(restaurant|fast_food|cafe|bar)$"]["name"]${b};
 out center tags;`;
   }
-  return `[out:json][timeout:120];
+  return `[out:json][timeout:240];
 nwr["name"][!"highway"][!"route"][!"public_transport"]${b}->.lugares;
 .lugares out center tags;
 out count;
@@ -69,7 +69,7 @@ async function pedir(q) {
     for (let intento = 0; intento < 2; intento++) {
       try {
         const t0 = Date.now();
-        const r = await fetch(url, { signal: AbortSignal.timeout(150000), method: 'POST', headers: { 'User-Agent': AGENTE, 'Content-Type': 'application/x-www-form-urlencoded' }, body: `data=${encodeURIComponent(q)}` });
+        const r = await fetch(url, { signal: AbortSignal.timeout(280000), method: 'POST', headers: { 'User-Agent': AGENTE, 'Content-Type': 'application/x-www-form-urlencoded' }, body: `data=${encodeURIComponent(q)}` });
         console.log(`  ${url} → HTTP ${r.status} en ${Math.round((Date.now() - t0) / 1000)} s`);
         if (r.ok) return await r.json();
         ultimo = `${url} HTTP ${r.status}`;

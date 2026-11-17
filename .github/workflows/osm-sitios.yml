@@ -27,8 +27,8 @@ jobs:
   osm:
     runs-on: ubuntu-24.04
     env:
-      SITIOS: ${{ inputs.sitios }}
-      RECORTAR: ${{ inputs.recortar_mapas || 'sí' }}
+      SITIOS: ${{ inputs.sitios || 'chapultepec,centro_historico' }}
+      RECORTAR: ${{ inputs.recortar_mapas || 'no' }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v4
