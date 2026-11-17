@@ -68,7 +68,7 @@ export function getAssetUrl(path: string): string {
     }
   }
 
-  if (!baseDir || baseDir === '.') {
+  if (baseDir === '.') {
     return `./${cleanPath}`;
   }
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Landmark } from 'lucide-react';
-import { resolvePieceImageCandidates } from '../utils/urlHelper';
+import { resolvePieceImageCandidates, getAssetUrl } from '../utils/urlHelper';
 import { useStrings } from '../utils/LanguageContext';
 
 export interface PieceImageProps {
@@ -14,6 +14,8 @@ export interface PieceImageProps {
   pieceTitle?: string;
   title?: string;
   roomName?: string;
+  /** Pide primero la miniatura de 480 px (public/images/pieces/thumbs/); si no existe, usa la foto completa. */
+  thumb?: boolean;
 }
 
 export const PieceImage: React.FC<PieceImageProps> = ({
@@ -27,6 +29,7 @@ export const PieceImage: React.FC<PieceImageProps> = ({
   pieceTitle,
   title,
   roomName,
+  thumb = false,
 }) => {
   const strings = useStrings();
   const t = strings.media;
@@ -42,8 +45,11 @@ export const PieceImage: React.FC<PieceImageProps> = ({
 
   // Lista unificada de candidatos usando resolvePieceImageCandidates
   const candidateUrls = useMemo<string[]>(() => {
-    return resolvePieceImageCandidates(rawTarget, pieceId);
-  }, [rawTarget, pieceId]);
+    const full = resolvePieceImageCandidates(rawTarget, pieceId);
+    if (!thumb || !rawTarget || /^(https?:|data:)/.test(rawTarget)) return full;
+    const name = rawTarget.replace(/^\/?(public\/)?/, '').replace(/^\/?(images\/pieces\/)?/, '').replace(/^\.\//, '').replace(/\.[^.]+$/, '.webp');
+    return [getAssetUrl(`images/pieces/thumbs/${name}`), ...full];
+  }, [rawTarget, pieceId, thumb]);
 
   const currentSrc = candidateUrls[attemptIndex] || '';
 

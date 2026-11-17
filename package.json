@@ -6,7 +6,7 @@
   "scripts": {
     "sync-data": "node scripts/sync-sheets.js",
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "npm run sync-data && tsc && vite build && node scripts/generar-paginas-seo.mjs",
+    "build": "npm run sync-data && node scripts/miniaturas-portada.mjs && tsc && vite build && node scripts/generar-paginas-seo.mjs",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
@@ -27,6 +27,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.4",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.1.14",
     "typescript": "~5.8.2",
     "vite": "^6.2.3",

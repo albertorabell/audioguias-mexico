@@ -6,7 +6,7 @@ import {VitePWA} from 'vite-plugin-pwa';
 
 export default defineConfig(() => {
   return {
-    base: './', // <-- Resuelve las rutas en GitHub Pages
+    base: '/', // Rutas absolutas: la app también vive en /sitio/<sitio>, donde las relativas se romperían
     plugins: [
       react(),
       tailwindcss(),
@@ -26,8 +26,8 @@ export default defineConfig(() => {
           theme_color: '#FBF6EE',
           background_color: '#FBF6EE',
           display: 'standalone',
-          start_url: './',
-          scope: './',
+          start_url: '/',
+          scope: '/',
           orientation: 'portrait',
           icons: [
             {
@@ -54,7 +54,8 @@ export default defineConfig(() => {
           globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff,woff2,pmtiles,pbf}'],
           // El tablero de uso (panel.html) es solo para el dueño: no se guarda en el teléfono de los visitantes.
           // data/pieces.json y data/rooms.json son copias de data/mna/ que usan los scripts, no la app: no se guardan dos veces.
-          globIgnores: ['panel.html', 'data/pieces.json', 'data/rooms.json'],
+          // sites.json (el catálogo) tampoco se guarda al instalar: se pide primero a la red (ver más abajo) para que nadie vea un catálogo viejo.
+          globIgnores: ['panel.html', 'data/pieces.json', 'data/rooms.json', 'data/sites.json'],
           // Las páginas de guía (/guias/...) son páginas completas para Google: la app no debe reemplazarlas por su pantalla de inicio
           navigateFallbackDenylist: [/^\/panel\.html/, /^\/sitemap\.xml/, /^\/robots\.txt/, /^\/guias\//, /^\/en\/guides\//, /^\/fr\/guides\//, /^\/pl\/przewodniki\//, /^\/de\/fuehrer\//, /^\/pt\/guias\//, /^\/it\/guide\//],
           // pieces.json crece con cada idioma traducido (más de 2 MB con inglés, francés y polaco).
@@ -119,6 +120,17 @@ export default defineConfig(() => {
               options: {
                 cacheName: 'piece-images-v1',
                 expiration: { maxEntries: 600, maxAgeSeconds: 60 * 60 * 24 * 90 },
+                cacheableResponse: { statuses: [200] },
+              },
+            },
+            {
+              // Catálogo de sitios: primero la red (hasta 4 s); sin internet o con señal mala se usa la última copia guardada.
+              urlPattern: ({ url }: { url: URL }) => /\/data\/sites\.json$/i.test(url.pathname),
+              handler: 'NetworkFirst',
+              options: {
+                cacheName: 'museum-sites-v1',
+                networkTimeoutSeconds: 4,
+                expiration: { maxEntries: 2, maxAgeSeconds: 60 * 60 * 24 * 60 },
                 cacheableResponse: { statuses: [200] },
               },
             },

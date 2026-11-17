@@ -829,3 +829,50 @@ test('armar a tu medida: más tiempo, más obras; se puede quitar una obra y el 
   await page.locator('#btn-start-route-fixed').click();
   await expect(page.locator('#museum-top-header')).toContainText(/Parada 1 de \d+/);
 });
+
+// ───────────────────────── Direcciones reales (/sitio/…) ─────────────────────────
+
+test('direcciones: /sitio/mna abre el museo directo, la barra sigue a la pantalla y la etiqueta canónica la acompaña', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/sitio/mna');
+  await expect(page.locator('#free-pieces')).toBeVisible();
+  await expect(page).toHaveURL(/\/sitio\/mna$/);
+  await expect(page.locator('link[rel=canonical]')).toHaveAttribute('href', 'https://xolotli.com/sitio/mna');
+  // Al abrir una obra, la dirección lleva su parada
+  await page.locator('#free-pieces').getByTestId('free-piece-card').first().click();
+  await expect(page.locator('#btn-master-play-piece')).toBeVisible();
+  await expect(page).toHaveURL(/\/sitio\/mna\/[^/]+$/);
+  await expect(page.locator('link[rel=canonical]')).toHaveAttribute('href', /^https:\/\/xolotli\.com\/sitio\/mna\/[^/]+$/);
+  // «Atrás» regresa al sitio y luego al inicio, con su dirección
+  await page.goBack();
+  await expect(page).toHaveURL(/\/sitio\/mna$/);
+});
+
+test('direcciones: un enlace con parada (/sitio/mna/<parada>) abre esa obra', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/sitio/mna');
+  await page.locator('#free-pieces').getByTestId('free-piece-card').first().click();
+  await expect(page.locator('#btn-master-play-piece')).toBeVisible();
+  const ruta = new URL(page.url()).pathname;
+  await page.goto('/');
+  await expect(page.locator('#sites-grid-section')).toBeVisible();
+  await page.goto(ruta);
+  await expect(page.locator('#btn-master-play-piece')).toBeVisible();
+  await expect(page).toHaveURL(new RegExp(`${ruta}$`));
+});
+
+test('direcciones: el enlace viejo ?sitio=MNA&idioma=en sigue funcionando y pasa a la dirección nueva', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/?sitio=MNA&idioma=en');
+  await expect(page.locator('#free-pieces')).toBeVisible();
+  await expect(page).toHaveURL(/\/sitio\/mna$/);
+  await expect(page).not.toHaveURL(/sitio=|idioma=/);
+});
+
+test('direcciones: un sitio que no existe vuelve al inicio con la dirección limpia', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/sitio/noexiste');
+  await expect(page.locator('#sites-grid-section')).toBeVisible();
+  await expect(page).toHaveURL(/localhost:\d+\/$/);
+  await expect(page.locator('link[rel=canonical]')).toHaveAttribute('href', 'https://xolotli.com/');
+});
