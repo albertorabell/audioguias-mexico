@@ -24,6 +24,7 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 import { TabBar, DockTab } from './components/ui/TabBar';
 import { calculateRouteTimeMinutes } from './utils/routeOptimizer';
 import { getAssetUrl, normalizePiece, findPiece } from './utils/urlHelper';
+import { leerRuta, rutaDe, canonicaDe } from './utils/rutas';
 import { ttsPlayer } from './utils/ttsPlayer';
 import { useBackClose } from './utils/useBackClose';
 import { useLanguage } from './utils/LanguageContext';
@@ -488,13 +489,17 @@ export default function App() {
     }
   };
 
-  // Enlace directo a un sitio (?sitio=MNA): lo usan las páginas de guía que ve Google. Se abre una sola vez al cargar y la marca se quita de la dirección.
+  // Enlace directo a un sitio: /sitio/mna, /sitio/mna/<parada> (direcciones reales) o el formato viejo ?sitio=MNA (lo siguen usando las páginas de guía y los QR ya impresos).
+  // Se abre una sola vez al cargar; la marca vieja se quita de la dirección.
   const enlaceDirectoUsado = useRef(false);
+  const paradaPedida = useRef('');
+  const enlaceAbriendo = useRef(false);
   useEffect(() => {
     if (enlaceDirectoUsado.current || rawSites.length === 0) return;
     enlaceDirectoUsado.current = true;
     const url = new URL(window.location.href);
-    const pedido = url.searchParams.get('sitio');
+    const ruta = leerRuta(url.pathname);
+    const pedido = ruta?.sitio || url.searchParams.get('sitio');
     if (!pedido) return;
     url.searchParams.delete('sitio');
     const idioma = url.searchParams.get('idioma');
@@ -502,9 +507,47 @@ export default function App() {
     if (isActiveLanguage(idioma)) setLanguage(idioma);
     window.history.replaceState(window.history.state, '', url);
     const sitio = rawSites.find((s) => s.id.toLowerCase() === pedido.toLowerCase() && s.status !== 'coming_soon');
-    if (sitio) void handleSelectSite(sitio);
+    if (sitio) {
+      paradaPedida.current = ruta?.parada || '';
+      enlaceAbriendo.current = true;
+      void handleSelectSite(sitio).finally(() => {
+        enlaceAbriendo.current = false;
+      });
+    } else if (ruta) {
+      // Sitio que no existe o aún no se publica: se queda en el inicio, con la dirección limpia
+      window.history.replaceState(window.history.state, '', '/');
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rawSites]);
+
+  // Si el enlace traía una parada (/sitio/mna/<parada>), se abre en cuanto los datos del sitio estén cargados
+  useEffect(() => {
+    const id = paradaPedida.current;
+    if (!id || !selectedSite || !siteData || siteData.siteId !== selectedSite.id) return;
+    paradaPedida.current = '';
+    const next = roomNavFor(id);
+    if (next) showPiece(next);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [siteData, selectedSite]);
+
+  // La dirección de la barra sigue a la pantalla: inicio = /, un sitio = /sitio/<sitio>, una parada = /sitio/<sitio>/<parada>.
+  // Cada pantalla apilada tiene su entrada en el historial, así "atrás" también regresa a la dirección anterior.
+  // La etiqueta canónica va con la misma dirección, para que Google sepa cuál es la «oficial» de cada página.
+  useEffect(() => {
+    // Hasta que el catálogo carga (y mientras se abre un enlace directo) no se toca la dirección: ahí viene la del enlace
+    if (rawSites.length === 0 || enlaceAbriendo.current) return;
+    const pieza = screen.kind === 'piece' ? screen.nav.ids[screen.nav.index] || '' : '';
+    const ruta = screen.kind === 'home' || !selectedSite ? '/' : rutaDe(selectedSite.id, pieza);
+    if (window.location.pathname !== ruta) {
+      try {
+        window.history.replaceState(window.history.state, '', `${ruta}${window.location.search}${window.location.hash}`);
+      } catch {
+        /* sin historial */
+      }
+    }
+    const canonica = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+    if (canonica) canonica.href = canonicaDe(ruta);
+  }, [screen, selectedSite, rawSites]);
 
   /** Abre una pieza dentro de su sala (anterior / siguiente recorren la sala). */
   const openPieceInRoom = useCallback(

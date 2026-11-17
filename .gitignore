@@ -40,3 +40,6 @@ audios-descarga/
 
 # Datos de sitios sin publicar, solo para su página de Google
 .seo-data/
+
+# Miniaturas de portada: se generan en cada build (scripts/miniaturas-portada.mjs)
+public/images/pieces/thumbs/

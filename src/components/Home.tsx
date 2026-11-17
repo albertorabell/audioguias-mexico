@@ -119,11 +119,12 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
                       filename={coverPiece.image_filename}
                       pieceId={coverPiece.piece_id}
                       alt=""
+                      thumb
                       className="w-full h-full object-cover"
                     />
                   )}
                   {!isMain && rawSite.cover_image && rawSite.cover_piece_id && (
-                    <PieceImage filename={rawSite.cover_image} pieceId={rawSite.cover_piece_id} alt="" className="w-full h-full object-cover" />
+                    <PieceImage filename={rawSite.cover_image} pieceId={rawSite.cover_piece_id} alt="" thumb className="w-full h-full object-cover" />
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/0 to-black/0 pointer-events-none" />
                   <span className="absolute left-2.5 right-2.5 bottom-2 text-cap font-semibold text-white/90 flex items-center gap-1">
