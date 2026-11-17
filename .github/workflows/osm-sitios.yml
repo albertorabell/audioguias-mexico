@@ -14,7 +14,7 @@ on:
         default: 'sí'
   push:
     branches: ['feature/mapas-osm']
-    paths: ['.github/workflows/osm-sitios.yml', 'scripts/mapa/osm-sitios.mjs']
+    paths: ['.github/workflows/osm-sitios.yml', 'scripts/mapa/osm-sitios.mjs', 'scripts/mapa/commons-planos.mjs']
 
 permissions:
   contents: write
@@ -36,6 +36,9 @@ jobs:
           node-version: 20
       - name: Traer datos de OpenStreetMap
         run: node scripts/mapa/osm-sitios.mjs osm-datos "$SITIOS"
+      - name: Buscar planos con licencia abierta en Wikimedia Commons
+        continue-on-error: true
+        run: node scripts/mapa/commons-planos.mjs osm-datos/planos
       - name: Recortar mapas sin internet de los sitios nuevos
         if: ${{ env.RECORTAR == 'sí' || env.RECORTAR == 'si' }}
         continue-on-error: true
