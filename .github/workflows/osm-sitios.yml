@@ -2,7 +2,8 @@ name: Datos de OpenStreetMap de todos los sitios (lugares, edificios, caminos y 
 
 # Trae de OpenStreetMap lo necesario para ubicar paradas y dibujar los planos de los 12 sitios y, si se pide,
 # recorta el mapa sin internet de los sitios que aún no lo tienen. No publica nada en el sitio:
-# guarda todo en la rama osm-datos para revisarlo.
+# guarda todo en la rama osm-datos para revisarlo (la rama se reemplaza en cada corrida: pide los sitios que necesites).
+# Botón manual en Actions. Overpass a veces tarda o falla con un sitio: se vuelve a pedir solo ese sitio.
 on:
   workflow_dispatch:
     inputs:
@@ -12,9 +13,6 @@ on:
       recortar_mapas:
         description: 'Recortar mapas sin internet de los sitios nuevos (sí/no)'
         default: 'sí'
-  push:
-    branches: ['feature/mapas-osm']
-    paths: ['.github/workflows/osm-sitios.yml', 'scripts/mapa/osm-sitios.mjs', 'scripts/mapa/commons-planos.mjs']
 
 permissions:
   contents: write
@@ -27,8 +25,8 @@ jobs:
   osm:
     runs-on: ubuntu-24.04
     env:
-      SITIOS: ${{ inputs.sitios || 'chapultepec' }}
-      RECORTAR: ${{ inputs.recortar_mapas || 'no' }}
+      SITIOS: ${{ inputs.sitios }}
+      RECORTAR: ${{ inputs.recortar_mapas }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v4
