@@ -95,3 +95,9 @@ for (const h of hechas) {
 
 fs.writeFileSync(path.join(DIST, 'sitemap.xml'), armarSitemap(grupos));
 console.log(`SEO: sitemap.xml con ${grupos.flat().length + 1} direcciones`);
+
+// Copia de la app para las direcciones /sitio/… (ver public/_redirects): la misma página, con otro nombre de archivo
+if (existe('index.html')) {
+  fs.copyFileSync(path.join(DIST, 'index.html'), path.join(DIST, 'app.html'));
+  console.log('SEO: app.html (copia de index.html para /sitio/…)');
+}
