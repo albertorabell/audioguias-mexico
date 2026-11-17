@@ -1,0 +1,71 @@
+name: Datos de OpenStreetMap de todos los sitios (lugares, edificios, caminos y mapas sin internet)
+
+# Trae de OpenStreetMap lo necesario para ubicar paradas y dibujar los planos de los 12 sitios y, si se pide,
+# recorta el mapa sin internet de los sitios que aún no lo tienen. No publica nada en el sitio:
+# guarda todo en la rama osm-datos para revisarlo.
+on:
+  workflow_dispatch:
+    inputs:
+      sitios:
+        description: 'Sitios separados por coma (vacío = todos)'
+        default: ''
+      recortar_mapas:
+        description: 'Recortar mapas sin internet de los sitios nuevos (sí/no)'
+        default: 'sí'
+  push:
+    branches: ['feature/mapas-osm']
+    paths: ['.github/workflows/osm-sitios.yml', 'scripts/mapa/osm-sitios.mjs']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: osm-sitios
+  cancel-in-progress: false
+
+jobs:
+  osm:
+    runs-on: ubuntu-24.04
+    env:
+      SITIOS: ${{ inputs.sitios }}
+      RECORTAR: ${{ inputs.recortar_mapas || 'sí' }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Traer datos de OpenStreetMap
+        run: node scripts/mapa/osm-sitios.mjs osm-datos "$SITIOS"
+      - name: Recortar mapas sin internet de los sitios nuevos
+        if: ${{ env.RECORTAR == 'sí' || env.RECORTAR == 'si' }}
+        continue-on-error: true
+        run: |
+          cd "$RUNNER_TEMP"
+          curl -sSL -o pm.tgz https://github.com/protomaps/go-pmtiles/releases/download/v1.22.3/go-pmtiles_1.22.3_Linux_x86_64.tar.gz
+          tar xzf pm.tgz pmtiles
+          build=$(curl -sS -m 60 https://build-metadata.protomaps.dev/builds.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(sorted(b['key'] for b in d)[-1])")
+          echo "Mapa base: $build"
+          mkdir -p "$GITHUB_WORKSPACE/osm-datos/maps"
+          while read -r sitio bbox zoom; do
+            [ -z "$sitio" ] && continue
+            ./pmtiles extract "https://build.protomaps.com/$build" "$GITHUB_WORKSPACE/osm-datos/maps/$sitio.pmtiles" --bbox="$bbox" --maxzoom="$zoom" > "x-$sitio.log" 2>&1 \
+              && echo "$sitio: $(du -h "$GITHUB_WORKSPACE/osm-datos/maps/$sitio.pmtiles" | cut -f1)" \
+              || echo "::warning::$sitio falló: $(tail -c 300 "x-$sitio.log")"
+          done <<'LISTA'
+          coyoacan -99.195,19.315,-99.135,19.365 17
+          cuernavaca_historica -99.255,18.900,-99.210,18.940 17
+          xochicalco -99.315,18.790,-99.275,18.820 17
+          chalcatzingo -98.795,18.660,-98.750,18.695 17
+          basilica_guadalupe -99.128,19.477,-99.105,19.492 17
+          tacos -99.195,19.380,-99.120,19.450 16
+          LISTA
+      - name: Guardar en la rama osm-datos
+        if: always()
+        run: |
+          git config user.name "mapa-bot"
+          git config user.email "mapa-bot@users.noreply.github.com"
+          git checkout -q --orphan osm-datos
+          git rm -rfq --cached . > /dev/null 2>&1 || true
+          git add -f osm-datos
+          git commit -qm "Datos de OpenStreetMap de los sitios"
+          git push -f origin osm-datos
