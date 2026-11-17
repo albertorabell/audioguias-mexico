@@ -1,6 +1,6 @@
 # Guía de estilo de los guiones
 
-> **Metas vigentes (mandan sobre la sección 2 de abajo):** guion corto de 105 a 150 palabras, que se entienda solo; guion largo de 470 a 720 palabras en párrafos separados por línea en blanco, sin repetir frases del corto (descubrimiento, significado, dato curioso, conexión). El puente son una o dos frases hacia la siguiente pieza, con un verbo de movimiento. Números y siglos en letras, «antes de Cristo» completo, sin decimales con punto. Tuteo, voz cálida de locutor, español de México. Nombres mayas sin apóstrofos para que la voz los lea bien (la pronunciación va en `glosario/pronunciacion.csv`).
+> **Metas vigentes (mandan sobre la sección 2 de abajo):** guion corto de 105 a 150 palabras, que se entienda solo; guion largo de 470 a 720 palabras en párrafos separados por línea en blanco, sin repetir frases del corto (descubrimiento, significado, dato curioso, conexión). El puente son una o dos frases hacia la siguiente pieza, con un verbo de movimiento. Números y siglos en letras (la pantalla los muestra en cifras sola, con `src/utils/numerosPantalla.js`; el texto de voz y los MP3 no cambian), «antes de Cristo» completo, sin decimales con punto. Tuteo, voz cálida de locutor, español de México. Nombres mayas sin apóstrofos para que la voz los lea bien (la pronunciación va en `glosario/pronunciacion.csv`).
 >
 > El resto del texto es la guía original; los números de la sección 1 son el diagnóstico de los textos antiguos del MNA.
 
