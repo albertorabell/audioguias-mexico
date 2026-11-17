@@ -271,3 +271,45 @@ export function aplicarPreciosASites(lista, tabla) {
     return out;
   });
 }
+
+const IDIOMAS_NOMBRE = ['en', 'fr', 'pl', 'de', 'pt', 'it', 'ja', 'zh', 'ko', 'ru'];
+const TIPOS_SITIO = new Set(['museo', 'zona_arqueologica', 'recorrido_urbano', 'santuario']);
+
+/**
+ * Pone en sites.json lo que viene de CONTROL para todos los sitios (también MNA y Teotihuacán, que no pasan por
+ * entradaSitio): nombre por idioma (columnas nombre_en, nombre_fr…), tipo de sitio (museo, zona_arqueologica,
+ * recorrido_urbano, santuario), región y orden en la portada. Una celda vacía no borra lo que ya había.
+ * Después ordena la lista por `orden`; los sitios sin orden (p. ej. «próximamente») quedan al final, en su orden actual.
+ */
+export function aplicarControlASites(lista, sitiosCtl, avisar = () => {}) {
+  const porId = new Map((Array.isArray(sitiosCtl) ? sitiosCtl : []).map((s) => [String(s.site_id || '').toUpperCase(), s]));
+  const salida = (Array.isArray(lista) ? lista : []).map((s) => {
+    const c = porId.get(String(s.id).toUpperCase());
+    if (!c) return s;
+    const out = { ...s };
+    for (const l of IDIOMAS_NOMBRE) {
+      const v = String(c[`nombre_${l}`] || '').trim();
+      if (v) out[`name_${l}`] = v;
+    }
+    const tipo = String(c.tipo || '').trim();
+    if (tipo) {
+      if (TIPOS_SITIO.has(tipo)) out.site_type = tipo;
+      else avisar(`CONTROL: el tipo «${tipo}» de ${c.site_id} no es válido (usa ${[...TIPOS_SITIO].join(', ')}).`);
+    }
+    const region = String(c.region || '').trim();
+    if (region) out.region = region;
+    const orden = Number(String(c.orden || '').replace(',', '.'));
+    if (String(c.orden || '').trim()) {
+      if (Number.isFinite(orden)) out.order = orden;
+      else avisar(`CONTROL: el orden «${c.orden}» de ${c.site_id} no es un número.`);
+    }
+    return out;
+  });
+  const conIndice = salida.map((s, i) => ({ s, i }));
+  conIndice.sort((a, b) => {
+    const oa = Number.isFinite(a.s.order) ? a.s.order : Infinity;
+    const ob = Number.isFinite(b.s.order) ? b.s.order : Infinity;
+    return oa === ob ? a.i - b.i : oa - ob;
+  });
+  return conIndice.map((x) => x.s);
+}
