@@ -12,6 +12,8 @@ SITE_IDS = "mna,teotihuacan,chapultepec,centro_historico,chichen_itza,templo_may
 PRECIOS_URL = "https://xolotli.com/data/precios.json"
 PASS_DAYS = "30"
 MAX_DEVICES = "2"
+# Remitente del correo «recuperar mi pase». Solo funciona cuando el dominio xolotli.com está verificado en Resend y existe el secreto RESEND_API_KEY en GitHub; sin esa clave la función queda oculta.
+RECOVERY_FROM = "Xolotli <pases@xolotli.com>"
 # MODO DE PRUEBAS: "1" = todos entran gratis (no se pide pase). Para volver a cobrar, cambia a "0" y vuelve a publicar el servidor.
 ACCESO_LIBRE = "1"
 # Identificadores de precio de Stripe (empiezan con price_). Se crean en el panel de Stripe.

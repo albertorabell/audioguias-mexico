@@ -939,7 +939,7 @@ async function sendRecoveryEmail(env, to, lang, lines) {
   const res = await fetch('https://api.resend.com/emails', {
     method: 'POST',
     headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ from: env.RECOVERY_FROM, to: [to], subject: t.subject, text: `${t.hello}\n\n${lines.map((l) => `• ${l}`).join('\n')}\n\n${t.bye}\n\nXolotli · xolotli.com` }),
+    body: JSON.stringify({ from: env.RECOVERY_FROM, reply_to: 'contacto@xolotli.com', to: [to], subject: t.subject, text: `${t.hello}\n\n${lines.map((l) => `• ${l}`).join('\n')}\n\n${t.bye}\n\nXolotli · xolotli.com` }),
   });
   return res.ok;
 }
