@@ -152,7 +152,7 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
           {grupos.map((g) => (
             <div key={g.region || 'otros'} className="mb-8">
               {g.region && <h2 className="mb-3 text-ui font-bold text-ink-2">{t.region[g.region] || g.region}</h2>}
-              <div className="grid gap-4">
+              <div className="grid gap-3">
                 {g.items.map((rawSite) => {
                   const site = localizeSite(rawSite, currentLanguage);
                   // Las cifras y la foto de portada del MNA vienen de sus datos; los demás sitios usan las de sites.json
@@ -173,27 +173,26 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
                           onSelectSite(rawSite);
                         }
                       }}
-                      className="flex flex-col rounded-[16px] overflow-hidden bg-surface border border-line cursor-pointer active:scale-[0.99] transition-transform"
+                      className="flex rounded-[16px] overflow-hidden bg-surface border border-line cursor-pointer active:scale-[0.99] transition-transform"
                     >
-                      <div className="relative aspect-[16/9] bg-raised">
+                      <div className="relative w-[34%] max-w-[8.5rem] shrink-0 bg-raised">
                         {isMain && coverPiece && (
-                          <PieceImage filename={coverPiece.image_filename} pieceId={coverPiece.piece_id} alt="" thumb className="w-full h-full object-cover" />
+                          <PieceImage filename={coverPiece.image_filename} pieceId={coverPiece.piece_id} alt="" thumb className="absolute inset-0 w-full h-full object-cover" />
                         )}
                         {!isMain && rawSite.cover_image && rawSite.cover_piece_id && (
-                          <PieceImage filename={rawSite.cover_image} pieceId={rawSite.cover_piece_id} alt="" thumb className="w-full h-full object-cover" />
+                          <PieceImage filename={rawSite.cover_image} pieceId={rawSite.cover_piece_id} alt="" thumb className="absolute inset-0 w-full h-full object-cover" />
                         )}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/0 to-black/0 pointer-events-none" />
-                        <span className="absolute left-3 right-3 bottom-2.5 text-cap font-semibold text-white/90 flex items-center gap-1">
-                          <MapPin className="w-3.5 h-3.5 shrink-0" strokeWidth={2} />
-                          <span className="truncate">{site.location}</span>
-                        </span>
                       </div>
-                      <div className="p-4 flex items-start justify-between gap-3">
-                        <div className="min-w-0">
-                          <h3 className="font-serif text-[1.1875rem] leading-snug font-medium tracking-[-0.01em] text-balance">{site.name}</h3>
-                          {statsText && <p className="mt-1 text-cap text-ink-2">{statsText}</p>}
+                      <div className="min-w-0 flex-1 px-3.5 py-3 flex flex-col">
+                        <h3 className="font-serif text-[1.0625rem] leading-snug font-medium tracking-[-0.01em] text-balance">{site.name}</h3>
+                        <p className="mt-0.5 text-cap text-ink-3 flex items-center gap-1 min-w-0">
+                          <MapPin className="w-3 h-3 shrink-0" strokeWidth={2} />
+                          <span className="truncate">{site.location}</span>
+                        </p>
+                        <div className="mt-auto pt-2 flex items-end justify-between gap-2">
+                          <span className="text-cap text-ink-2 leading-tight">{statsText}</span>
+                          {precio && <span className="shrink-0 rounded-full border border-line bg-raised px-2 py-0.5 text-cap font-semibold text-ink">{precio}</span>}
                         </div>
-                        {precio && <span className="shrink-0 rounded-full border border-line bg-raised px-2.5 py-1 text-cap font-semibold text-ink">{precio}</span>}
                       </div>
                     </div>
                   );
