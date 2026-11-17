@@ -1,3 +1,4 @@
+import { formatPrice } from '../utils/price';
 import React, { useMemo, useState } from 'react';
 import {
   Accessibility,
@@ -87,11 +88,7 @@ function passPrice(site: SiteSummary, lang: string, locale: string): string {
   const usd = lang !== 'es' && site.pass_price_usd ? site.pass_price_usd : 0;
   const amount = usd || site.pass_price_mxn || 0;
   if (!amount) return '';
-  try {
-    return new Intl.NumberFormat(locale, { style: 'currency', currency: usd ? 'USD' : 'MXN', maximumFractionDigits: 0 }).format(amount);
-  } catch {
-    return `${amount} ${usd ? 'USD' : 'MXN'}`;
-  }
+  return formatPrice(amount, usd ? 'USD' : 'MXN', locale);
 }
 
 /** Ícono de cada tema de «Antes de ir» (columna `tema` del Sheet). */

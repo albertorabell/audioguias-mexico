@@ -1,10 +1,11 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { X, Sparkles, CheckCircle, Shield, WifiOff, Clock, ExternalLink, RefreshCw, LogOut, KeyRound, Copy, Lock, Tag, Share2, Play, Square } from 'lucide-react';
 import { formatRemainingHours } from '../utils/license';
+import { formatPrice } from '../utils/price';
 import { useLanguage } from '../utils/LanguageContext';
 import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
 import { PAYMENTS_ENABLED } from '../config/payments';
-import { fetchPricing, PricingInfo, redeemCode, startCheckout, PaymentErrorCode, previewPromo, getSavedPromo, savePromo, clearSavedPromo } from '../utils/payments';
+import { fetchPricing, PricingInfo, redeemCode, requestRecovery, startCheckout, PaymentErrorCode, previewPromo, getSavedPromo, savePromo, clearSavedPromo } from '../utils/payments';
 import { SPEECH_LOCALE } from '../i18n/languages';
 import { track } from '../utils/analytics';
 import { ttsPlayer } from '../utils/ttsPlayer';
@@ -25,6 +26,9 @@ interface PaywallModalProps {
   /** Nombre de cada sitio por id, para decir qué incluye un pase combinado. */
   siteNames?: Record<string, string>;
   passExpiresAt?: number;
+  /** El pase está comprado pero aún no empieza (empieza con el primer audio de pago). */
+  passPending?: boolean;
+  passDays?: number;
   /** Código del pase activo (para el segundo dispositivo). */
   passCode?: string;
   /** Se llama cuando el pase cambió (por ejemplo, se activó con un código) para releerlo. */
@@ -36,13 +40,7 @@ interface PaywallModalProps {
   sample?: { url: string; title: string } | null;
 }
 
-const money = (amount: number, currency: string, locale: string) => {
-  try {
-    return new Intl.NumberFormat(locale, { style: 'currency', currency: currency.toUpperCase(), maximumFractionDigits: amount % 1 === 0 ? 0 : 2 }).format(amount);
-  } catch {
-    return `${amount} ${currency.toUpperCase()}`;
-  }
-};
+const money = formatPrice;
 
 export const PaywallModal: React.FC<PaywallModalProps> = ({
   isOpen,
@@ -56,6 +54,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   passSite,
   siteNames,
   passExpiresAt,
+  passPending,
+  passDays,
   passCode,
   onPassChanged,
   onSimulatePurchase,
@@ -70,6 +70,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const [error, setError] = useState<PaymentErrorCode | null>(null);
   const [showCode, setShowCode] = useState(false);
   const [codeInput, setCodeInput] = useState('');
+  const [showRecover, setShowRecover] = useState(false);
+  const [recoverEmail, setRecoverEmail] = useState('');
+  const [recoverMsg, setRecoverMsg] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const [samplePlaying, setSamplePlaying] = useState(false);
   const sampleRef = useRef<HTMLAudioElement | null>(null);
@@ -266,6 +269,15 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     }
   };
 
+  const handleRecover = async () => {
+    setError(null);
+    setRecoverMsg(null);
+    setBusy('recover');
+    const r = await requestRecovery(recoverEmail, currentLanguage);
+    setBusy(null);
+    setRecoverMsg(r.ok ? t.recover.sent : t.recover.failed);
+  };
+
   const handleCopy = async () => {
     if (!passCode) return;
     try {
@@ -289,7 +301,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     }
   };
 
-  const remaining = passExpiresAt ? formatRemainingHours(passExpiresAt) : '';
+  const remaining = passExpiresAt && !passPending ? formatRemainingHours(passExpiresAt) : '';
 
   return (
     <div id="modal-paywall" className="fixed inset-0 z-50 bg-scrim backdrop-blur-sm flex items-end sm:items-center justify-center" onClick={onClose}>
@@ -327,6 +339,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 <div>
                   <p className="text-ui font-bold">{passSite && passSite.toLowerCase() !== siteId.toLowerCase() ? t.combo.active : t.activeTitle}</p>
                   {remaining && <p className="text-cap text-ink-2">{t.remaining(remaining)}</p>}
+                  {passPending && <p data-testid="pass-pending" className="text-cap text-ink-2">{t.pendingStart(passDays ?? pricing?.passDays ?? 30)}</p>}
                 </div>
               </div>
               {(canSimulate || import.meta.env.DEV) && (
@@ -391,6 +404,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
               </p>
             )}
             <p className="text-cap text-ink-3 mt-1">{t.priceNote}</p>
+            <ul data-testid="before-pay" className="mt-3 space-y-1 text-left text-cap text-ink-2">
+              {t.beforePay(pricing?.passDays ?? Math.round(hours / 24), maxDevices, pricing?.startWindowDays ?? 30).map((line, i) => (
+                <li key={i}>{line}</li>
+              ))}
+            </ul>
           </div>
         )}
 
@@ -563,6 +581,55 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   >
                     {busy === 'code' ? t.verifying : t.activate}
                   </button>
+                </form>
+              )}
+            </div>
+          )}
+
+          {!hasPass && PAYMENTS_ENABLED && !codeOnly && pricing?.recovery && (
+            <div>
+              <button
+                type="button"
+                id="btn-recover-pass"
+                onClick={() => {
+                  setShowRecover((v) => !v);
+                  setRecoverMsg(null);
+                }}
+                aria-expanded={showRecover}
+                className="w-full min-h-11 inline-flex items-center justify-center gap-2 text-ui font-semibold text-ink-2 cursor-pointer rounded-full active:bg-raised"
+              >
+                <span>{t.recover.toggle}</span>
+              </button>
+              {showRecover && (
+                <form
+                  className="mt-2"
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    if (recoverEmail.trim() && busy === null) handleRecover();
+                  }}
+                >
+                  <p className="text-cap text-ink-2 mb-2">{t.recover.hint}</p>
+                  <div className="flex items-stretch gap-2">
+                    <input
+                      id="input-recover-email"
+                      type="email"
+                      value={recoverEmail}
+                      onChange={(e) => setRecoverEmail(e.target.value)}
+                      placeholder={t.recover.placeholder}
+                      aria-label={t.recover.label}
+                      autoComplete="email"
+                      maxLength={254}
+                      className="flex-1 min-w-0 min-h-12 px-4 rounded-full bg-bg border border-line-strong text-ink outline-none focus:border-jade"
+                    />
+                    <button type="submit" id="btn-send-recovery" disabled={busy !== null || !recoverEmail.trim()} className="btn-primary min-h-12 disabled:opacity-50">
+                      {busy === 'recover' ? t.verifying : t.recover.send}
+                    </button>
+                  </div>
+                  {recoverMsg && (
+                    <p role="status" data-testid="recover-msg" className="mt-2 text-cap text-ink-2">
+                      {recoverMsg}
+                    </p>
+                  )}
                 </form>
               )}
             </div>

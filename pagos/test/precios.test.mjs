@@ -16,6 +16,7 @@ class FakeKV {
   async get(k) { return this.m.has(k) ? this.m.get(k) : null; }
   async put(k, v) { this.m.set(k, v); }
   async delete(k) { this.m.delete(k); }
+  async list({ prefix = '' } = {}) { return { keys: [...this.m.keys()].filter((k) => k.startsWith(prefix)).map((name) => ({ name })), list_complete: true }; }
 }
 class FakeR2 {
   constructor(files) { this.files = files; }
@@ -340,7 +341,8 @@ test('código de acceso: da un pase del sitio, el mismo dispositivo no gasta otr
   assert.equal(a.status, 200);
   const da = await a.json();
   assert.equal(da.site, 'hotel');
-  assert.ok(da.expiresAt - Date.now() < 24 * 3600_000 + 5000);
+  assert.equal(da.activated, false); // el pase de un código también empieza con el primer audio de pago
+  assert.equal(da.days, 1);
   assert.match(da.code, /^[A-Z0-9]{4}-[A-Z0-9]{4}$/);
   // El mismo dispositivo lo repite: mismo pase, sin gastar otro uso
   const again = await (await useCode('hotelmx1', DEV1)).json();
@@ -444,4 +446,19 @@ test('si un combo sale de la tabla, su pase deja de abrir sitios (el de "todos" 
   const audio = (id, t) => call(`/audio/pago/es/${id}_corto.mp3?t=${encodeURIComponent(t)}`, { method: 'GET', origin: null });
   assert.equal((await audio('teo_p1', await token('centro'))).status, 401);
   assert.equal((await audio('teo_p1', await token('todos'))).status, 200);
+});
+
+test('/admin/canjes: reporte de usos por código, solo con la clave', async () => {
+  env.CODES_KEY = CODES_KEY;
+  await publish([{ code: 'VIATOR-AAAA-BBBB', site: 'hotel', hours: 720, uses: 1 }, { code: 'HOTELX99', site: 'hotel' }]);
+  await useCode('VIATORAAAABBBB', DEV1);
+  const sin = await call('/admin/canjes', { method: 'GET', origin: null });
+  assert.equal(sin.status, 401);
+  const r = await call('/admin/canjes', { method: 'GET', origin: null, headers: { Authorization: `Bearer ${CODES_KEY}` } });
+  assert.equal(r.status, 200);
+  const d = await r.json();
+  assert.equal(d.total, 2);
+  assert.equal(d.used, 1);
+  assert.equal(d.redemptions, 1);
+  assert.deepEqual(d.codes.find((c) => c.code === 'VIATORAAAABBBB'), { code: 'VIATORAAAABBBB', site: 'hotel', hours: 720, maxUses: 1, uses: 1, expiresAt: 0 });
 });

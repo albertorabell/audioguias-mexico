@@ -6,7 +6,8 @@
 //
 // Formato de precios.json:
 //   { "sites": { "mna": { "prefijo": "mna_", "nombre": "…", "acceso": "pago|gratis|codigo", "mxn": 99, "usd": 6 } },
-//     "combos": { "centro": { "nombre": { "es": "…", "en": "…" }, "sitios": ["centro_historico", "templo_mayor_catedral"] | "todos", "mxn": 139, "usd": 8 } } }
+//     "combos": { "centro": { "nombre": { "es": "…", "en": "…" }, "sitios": ["centro_historico", "templo_mayor_catedral"] | "todos", "mxn": 139, "usd": 8, "dias": 30 } } }
+//   `dias` (opcional) = cuánto dura el pase desde el primer audio de pago; sin él, la duración general (PASS_DAYS, 30).
 //
 // Un pase combinado abre varios sitios a la vez. Su id ("centro") es el «sitio» que lleva la clave del pase; "todos" abre cualquier sitio.
 //
@@ -52,12 +53,13 @@ export function parsePrecios(raw) {
     if (!SITE_RE.test(key) || sites[key] || !c || typeof c !== 'object' || !amount(c.mxn)) continue;
     const names = c.nombre && typeof c.nombre === 'object' ? c.nombre : { es: c.nombre };
     const nombre = {};
-    for (const l of ['es', 'en', 'fr', 'pl']) if (text(names[l])) nombre[l] = text(names[l]);
+    for (const l of ['es', 'en', 'fr', 'pl', 'de', 'pt', 'it']) if (text(names[l])) nombre[l] = text(names[l]);
     // "todos" = cualquier sitio; si no, solo cuentan los sitios que existen en la tabla
     const list = c.sitios === 'todos' ? 'todos' : (Array.isArray(c.sitios) ? c.sitios : []).map((x) => String(x).toLowerCase()).filter((x) => sites[x]);
     if (list !== 'todos' && list.length < 1) continue;
     if (key === COMBO && list !== 'todos') continue; // "todos" siempre significa todos
-    combos[key] = { nombre: { es: nombre.es || key, ...nombre }, sitios: list === 'todos' ? 'todos' : [...new Set(list)], mxn: amount(c.mxn), usd: amount(c.usd) };
+    const dias = Math.round(Number(c.dias));
+    combos[key] = { nombre: { es: nombre.es || key, ...nombre }, sitios: list === 'todos' ? 'todos' : [...new Set(list)], mxn: amount(c.mxn), usd: amount(c.usd), ...(dias >= 1 && dias <= 400 ? { dias } : {}) };
   }
   return { sites, combos };
 }

@@ -41,7 +41,7 @@ beforeEach(() => {
   env = {
     ALLOWED_ORIGINS: ORIGIN,
     SITE_IDS: 'mna',
-    PASS_HOURS: '72',
+    PASS_DAYS: '30',
     MAX_DEVICES: '2',
     STRIPE_PRICE_ID_MXN: 'price_mxn_1',
     STRIPE_PRICE_ID_USD: 'price_usd_1',
@@ -168,13 +168,17 @@ test('origen no permitido: POST bloqueado y preflight rechazado', async () => {
   assert.equal(ok.headers.get('Access-Control-Allow-Origin'), ORIGIN);
 });
 
-test('/redeem: pago confirmado entrega clave, código y vencimiento a 72 horas', async () => {
+test('/redeem: pago confirmado entrega clave y código; el pase de 30 días aún no empieza', async () => {
   const before = Date.now();
   const r = await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } });
   assert.equal(r.status, 200);
   const d = await r.json();
   assert.match(d.code, /^[A-HJ-NP-Z2-9]{4}-[A-HJ-NP-Z2-9]{4}$/);
-  assert.ok(Math.abs(d.expiresAt - (before + 72 * 3600_000)) < 5000);
+  assert.equal(d.activated, false);
+  assert.equal(d.days, 30);
+  // Se puede empezar hasta 30 días después de comprar; la clave llega como máximo hasta ese plazo + 30 días
+  assert.ok(Math.abs(d.startBy - (before + 30 * 86400_000)) < 5000);
+  assert.ok(Math.abs(d.expiresAt - (before + 60 * 86400_000)) < 5000);
   assert.equal(d.devices, 1);
   assert.equal(d.maxDevices, 2);
   assert.equal(d.site, 'mna');
@@ -182,6 +186,7 @@ test('/redeem: pago confirmado entrega clave, código y vencimiento a 72 horas',
   assert.equal(payload.site, 'mna');
   assert.equal(payload.dev, DEV1);
   assert.equal(payload.exp, d.expiresAt);
+  assert.equal(payload.act, 0);
 });
 
 test('/redeem: no pagado, sesión inexistente, otro sitio o formato inválido', async () => {
@@ -256,7 +261,7 @@ test('pase vencido: no se puede entrar con el código', async () => {
   const a = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).json();
   const key = 's:cs_test_PAGADA123456';
   const pass = JSON.parse(await env.PASES.get(key));
-  pass.expiresAt = Date.now() - 1000;
+  pass.activatedAt = Date.now() - 31 * 86400_000; // empezó hace 31 días: 30 días de pase ya pasaron
   await env.PASES.put(key, JSON.stringify(pass));
   const r = await call('/code', { body: { code: a.code, deviceId: DEV2 } });
   assert.equal(r.status, 410);
@@ -273,7 +278,9 @@ test('/config lee los precios reales de Stripe', async () => {
   const d = await r.json();
   assert.deepEqual(d.prices.mxn, { amount: 79, currency: 'mxn' });
   assert.deepEqual(d.prices.usd, { amount: 4.99, currency: 'usd' });
-  assert.equal(d.passHours, 72);
+  assert.equal(d.passHours, 720);
+  assert.equal(d.passDays, 30);
+  assert.equal(d.startWindowDays, 30);
   assert.equal(d.maxDevices, 2);
 });
 
@@ -343,7 +350,7 @@ test('una sesión pagada hace más de 30 días ya no se puede canjear por primer
 test('el registro del pase vive más que la ventana de canje (no se puede repetir el canje con el mismo enlace)', async () => {
   const r = await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } });
   assert.equal(r.status, 200);
-  const minimo = 30 * 86400 + 72 * 3600; // ventana de canje + duración del pase
+  const minimo = 30 * 86400 + 30 * 86400; // ventana para empezar + duración del pase
   assert.ok(env.PASES.lastTtl >= minimo, `TTL ${env.PASES.lastTtl} < ${minimo}`);
   // Un segundo dispositivo al agregarse vuelve a guardar el registro con la misma vida larga
   const code = (await r.json()).code;
@@ -786,4 +793,113 @@ test('Sin ACCESO_LIBRE (o en "0"): todo sigue pidiendo pase', async () => {
   env.AUDIO = new FakeR2({ 'texto/es.json': Buffer.from('{}'), 'pago/es/p01_corto.mp3': Buffer.from('0123456789') });
   assert.equal((await call('/texto/es.json', { method: 'GET', origin: ORIGIN })).status, 401);
   assert.equal((await call('/audio/pago/es/p01_corto.mp3', { method: 'GET', origin: ORIGIN })).status, 401);
+});
+
+
+// ---------------------------------------------------------------------------
+// El pase empieza con el primer audio de pago
+// ---------------------------------------------------------------------------
+const audioGet = (token, method = 'GET') => call(`/audio/pago/es/p01_corto.mp3?t=${encodeURIComponent(token)}`, { method, origin: null });
+
+test('pase nuevo: comprar y bajar el texto NO lo empieza; el primer audio de pago sí', async () => {
+  const d = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).json();
+  const key = 's:cs_test_PAGADA123456';
+  assert.equal(JSON.parse(await env.PASES.get(key)).activatedAt, 0);
+  // La comprobación de tamaño (HEAD) no lo empieza
+  assert.equal((await audioGet(d.token, 'HEAD')).status, 200);
+  assert.equal(JSON.parse(await env.PASES.get(key)).activatedAt, 0);
+  const before = Date.now();
+  assert.equal((await audioGet(d.token)).status, 200);
+  const pass = JSON.parse(await env.PASES.get(key));
+  assert.ok(pass.activatedAt >= before && pass.activatedAt <= Date.now());
+  // Vence 30 días después de ese primer audio
+  const s = await (await call('/status', { body: { token: d.token } })).json();
+  assert.equal(s.activated, true);
+  assert.ok(Math.abs(s.expiresAt - (pass.activatedAt + 30 * 86400_000)) < 1000);
+  // Y la clave nueva que llega ya lleva el vencimiento real
+  const fresh = await verifyToken(s.token, SECRET);
+  assert.equal(fresh.act, pass.activatedAt);
+  assert.equal(fresh.exp, pass.activatedAt + 30 * 86400_000);
+});
+
+test('pase empezado: pasados sus 30 días el audio y el texto se niegan aunque la clave vieja siga firmada', async () => {
+  const d = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).json();
+  assert.equal((await audioGet(d.token)).status, 200);
+  const key = 's:cs_test_PAGADA123456';
+  const pass = JSON.parse(await env.PASES.get(key));
+  pass.activatedAt = Date.now() - 31 * 86400_000;
+  await env.PASES.put(key, JSON.stringify(pass));
+  assert.equal((await audioGet(d.token)).status, 401);
+  assert.equal((await call(`/texto/es.json?t=${encodeURIComponent(d.token)}`, { method: 'GET', origin: null })).status, 401);
+});
+
+test('pase sin empezar: pasados 30 días de la compra ya no se puede empezar', async () => {
+  const d = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).json();
+  const key = 's:cs_test_PAGADA123456';
+  const pass = JSON.parse(await env.PASES.get(key));
+  pass.boughtAt = Date.now() - 31 * 86400_000;
+  await env.PASES.put(key, JSON.stringify(pass));
+  assert.equal((await audioGet(d.token)).status, 401);
+  assert.equal(JSON.parse(await env.PASES.get(key)).activatedAt, 0);
+  const s = await (await call('/status', { body: { token: d.token } })).json();
+  assert.equal(s.valid, false);
+});
+
+test('segundo teléfono: si el pase ya empezó en el primero, comparte el mismo vencimiento', async () => {
+  const a = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).json();
+  const b = await (await call('/code', { body: { code: a.code, deviceId: DEV2 } })).json();
+  assert.equal(b.activated, false);
+  assert.equal((await audioGet(a.token)).status, 200); // empieza en el teléfono 1
+  const key = 's:cs_test_PAGADA123456';
+  const act = JSON.parse(await env.PASES.get(key)).activatedAt;
+  // El teléfono 2 todavía tiene la clave sin fecha, pero el servidor lo reconoce
+  assert.equal((await audioGet(b.token)).status, 200);
+  assert.equal(JSON.parse(await env.PASES.get(key)).activatedAt, act);
+  const c = await (await call('/code', { body: { code: a.code, deviceId: DEV2 } })).json();
+  assert.equal(c.activated, true);
+  assert.equal(c.expiresAt, act + 30 * 86400_000);
+});
+
+test('reembolso: el pase cancelado deja de abrir audios aunque no hubiera empezado', async () => {
+  const d = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).json();
+  await env.PASES.put('r:' + 'cs_test_PAGADA123456'.slice(-12), '1');
+  assert.equal((await audioGet(d.token)).status, 401);
+});
+
+test('/recuperar: sin servicio de correo no se ofrece; con él, responde igual haya o no compras', async () => {
+  assert.equal((await call('/recuperar', { body: { email: 'a@b.mx' } })).status, 503);
+  assert.equal((await (await call('/config', { method: 'GET' })).json()).recovery, undefined);
+  env.RESEND_API_KEY = 're_x';
+  env.RECOVERY_FROM = 'Xolo <pases@xolotli.com>';
+  assert.equal((await (await call('/config', { method: 'GET' })).json()).recovery, true);
+  assert.equal((await call('/recuperar', { body: { email: 'mal' } })).status, 400);
+});
+
+test('/recuperar: manda el código al correo de la compra, libera los teléfonos y no lo muestra en la respuesta', async () => {
+  env.RESEND_API_KEY = 're_x';
+  env.RECOVERY_FROM = 'Xolo <pases@xolotli.com>';
+  stripeSessions.cs_test_PAGADA123456.customer_details = { email: 'ana@correo.mx' };
+  const d = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).json();
+  const sent = [];
+  const prev = globalThis.fetch;
+  globalThis.fetch = async (url, init = {}) => {
+    const u = String(url);
+    if (u.includes('/v1/checkout/sessions?customer_details')) return new Response(JSON.stringify({ data: [stripeSessions.cs_test_PAGADA123456] }), { status: 200 });
+    if (u === 'https://api.resend.com/emails') { sent.push(JSON.parse(init.body)); return new Response('{}', { status: 200 }); }
+    return prev(url, init);
+  };
+  const r = await call('/recuperar', { body: { email: 'ANA@correo.mx', lang: 'en' } });
+  assert.equal(r.status, 200);
+  const body = await r.json();
+  assert.deepEqual(body, { ok: true });
+  assert.equal(sent.length, 1);
+  assert.deepEqual(sent[0].to, ['ana@correo.mx']);
+  assert.ok(sent[0].text.includes(d.code));
+  assert.equal(sent[0].subject, 'Your Xolo pass');
+  // Los lugares del pase se liberaron: un teléfono nuevo entra con el código
+  assert.equal(JSON.parse(await env.PASES.get('s:cs_test_PAGADA123456')).devices.length, 0);
+  // Otro correo: misma respuesta, ningún envío
+  const other = await call('/recuperar', { body: { email: 'otro@correo.mx' } });
+  assert.deepEqual(await other.json(), { ok: true });
+  assert.equal(sent.length, 1);
 });

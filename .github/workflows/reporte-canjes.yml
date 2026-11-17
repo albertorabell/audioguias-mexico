@@ -1,0 +1,23 @@
+name: Reporte de canjes de códigos (botón manual)
+
+# Pestaña Actions > "Reporte de canjes de códigos" > Run workflow. Muestra cuántas veces se usó cada código de acceso (Viator, hoteles…).
+# No lleva datos de personas.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reporte:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Reporte
+        env:
+          PAGOS_API_URL: ${{ vars.PAGOS_API_URL }}
+          CODES_KEY: ${{ secrets.CODES_KEY }}
+        run: node scripts/reporte-canjes.mjs | tee reporte.txt | tee -a "$GITHUB_STEP_SUMMARY"

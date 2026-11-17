@@ -7,10 +7,10 @@ compatibility_date = "2025-01-01"
 # Direcciones desde las que se permite usar el servidor. Para probar pagos desde una dirección de prueba (https://<rama>.audioguias.pages.dev), agrégala aquí por separado.
 ALLOWED_ORIGINS = "https://xolotli.com,https://www.xolotli.com"
 # Respaldo: solo se usa si no se puede leer la tabla de precios (PRECIOS_URL)
-SITE_IDS = "mna,teotihuacan,chapultepec,centro_historico,chichen_itza,templo_mayor_catedral"
+SITE_IDS = "mna,teotihuacan,chapultepec,centro_historico,chichen_itza,templo_mayor_catedral,museo_frida_kahlo,cuernavaca_historica,xochicalco,chalcatzingo,coyoacan,basilica_guadalupe"
 # Tabla de precios y acceso por sitio (la genera la sincronización desde la hoja CONTROL). Si no se puede leer, se usa el precio general de Stripe.
 PRECIOS_URL = "https://xolotli.com/data/precios.json"
-PASS_HOURS = "72"
+PASS_DAYS = "30"
 MAX_DEVICES = "2"
 # MODO DE PRUEBAS: "1" = todos entran gratis (no se pide pase). Para volver a cobrar, cambia a "0" y vuelve a publicar el servidor.
 ACCESO_LIBRE = "1"
@@ -62,9 +62,9 @@ name = "audioguias-pagos-pruebas"
 [env.pruebas.vars]
 # Solo la dirección de prueba de la rama feature/pagos-prueba (Cloudflare cambia la diagonal de la rama por un guion).
 ALLOWED_ORIGINS = "https://feature-pagos-prueba.audioguias.pages.dev"
-SITE_IDS = "mna,teotihuacan,chapultepec,centro_historico,chichen_itza,templo_mayor_catedral"
+SITE_IDS = "mna,teotihuacan,chapultepec,centro_historico,chichen_itza,templo_mayor_catedral,museo_frida_kahlo,cuernavaca_historica,xochicalco,chalcatzingo,coyoacan,basilica_guadalupe"
 PRECIOS_URL = "https://xolotli.com/data/precios.json"
-PASS_HOURS = "72"
+PASS_DAYS = "30"
 MAX_DEVICES = "2"
 # Aquí SÍ se pide pase: es la razón de existir de este entorno.
 ACCESO_LIBRE = "0"
