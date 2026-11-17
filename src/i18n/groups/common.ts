@@ -3,8 +3,8 @@ import type { SupportedLanguage } from '../languages';
 
 export const common = defineGroup(
   {
-    appName: 'Audioguía Xolo',
-    editorialBadge: 'Contenido editorial de Audioguía Xolo',
+    appName: 'Xolo',
+    editorialBadge: 'Contenido editorial de Xolo',
     close: 'Cerrar',
     back: 'Atrás',
     loading: 'Cargando…',
@@ -17,8 +17,8 @@ export const common = defineGroup(
     languageNames: { es: 'español', en: 'inglés', fr: 'francés', pl: 'polaco', de: 'alemán', pt: 'portugués', it: 'italiano', ru: 'ruso', ja: 'japonés' } as Record<SupportedLanguage, string>,
   },
   {
-    appName: 'Audioguía Xolo',
-    editorialBadge: 'Editorial content by Audioguía Xolo',
+    appName: 'Xolo',
+    editorialBadge: 'Editorial content by Xolo',
     close: 'Close',
     back: 'Back',
     loading: 'Loading…',
@@ -31,8 +31,8 @@ export const common = defineGroup(
     languageNames: { es: 'Spanish', en: 'English', fr: 'French', pl: 'Polish', de: 'German', pt: 'Portuguese', it: 'Italian', ru: 'Russian', ja: 'Japanese' } as Record<SupportedLanguage, string>,
   },
   {
-    appName: 'Audioguía Xolo',
-    editorialBadge: 'Contenu éditorial d’Audioguía Xolo',
+    appName: 'Xolo',
+    editorialBadge: 'Contenu éditorial d’Xolo',
     close: 'Fermer',
     back: 'Retour',
     loading: 'Chargement…',

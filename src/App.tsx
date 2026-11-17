@@ -5,7 +5,7 @@ import { X } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, PieceData, SiteLicense, Room } from './types';
 import { getSiteLicense, activatePass, revokePass, hasActivePass, isFreeAccess, setFreeAccess, setFreeSites } from './utils/license';
 import { fetchAccessMode, readPaymentReturn, redeemPendingSession, refreshPendingPasses, RETRYABLE_ERRORS, capturePromoFromUrl } from './utils/payments';
-import { PASS_HOURS } from './config/pass';
+import { PASS_HOURS, PASS_DAYS } from './config/pass';
 import { Home } from './components/Home';
 import { MuseumScreen, ContinueInfo, byOrder } from './components/MuseumScreen';
 import { RoutesScreen, ActiveTour } from './components/RoutesScreen';
@@ -318,8 +318,8 @@ export default function App() {
       }
       if (result.ok) {
         setLicenseVersion((v) => v + 1);
-        const hours = Math.round((result.data.expires_at - Date.now()) / 3600000) || PASS_HOURS;
-        setPaymentNotice({ kind: 'success', text: t.paywall.notice.success(hours) });
+        const days = Math.round((result.data.expires_at - Date.now()) / 86400000) || PASS_DAYS;
+        setPaymentNotice({ kind: 'success', text: t.paywall.notice.success(days) });
       } else if (returned || !RETRYABLE_ERRORS.includes(result.error)) {
         setPaymentNotice({ kind: 'error', text: t.paywall.errors[result.error] });
       } else {

@@ -26,7 +26,7 @@ import {
 } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, Room, PieceData, BeforeVisitItem } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
-import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
+import { PASS_DAYS, PASS_MAX_DEVICES } from '../config/pass';
 import { SPEECH_LOCALE } from '../i18n/languages';
 import { getRoomShortLabel } from '../utils/roomLabel';
 import { calculateRouteTimeMinutes, formatRouteDuration, formatRouteDurationShort } from '../utils/routeOptimizer';
@@ -458,7 +458,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             <h2 id="pass-title" className="font-serif text-[1.625rem] leading-tight font-medium">
               {m.passTitle}
             </h2>
-            <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.passLead(PASS_HOURS)}</p>
+            <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.passLead(PASS_DAYS)}</p>
             {freePieces.length > 0 && (
               <button
                 type="button"

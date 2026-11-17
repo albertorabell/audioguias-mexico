@@ -9,8 +9,8 @@ const rooms = (c: number) => p(c, 'sala', 'sale');
 
 export const IT_GROUPS: Record<string, any> = {
   common: {
-    appName: 'Audioguía Xolo',
-    editorialBadge: 'Contenuto editoriale di Audioguía Xolo',
+    appName: 'Xolo',
+    editorialBadge: 'Contenuto editoriale di Xolo',
     close: 'Chiudi',
     back: 'Indietro',
     loading: 'Caricamento…',
@@ -43,7 +43,7 @@ export const IT_GROUPS: Record<string, any> = {
       install: 'Installa l’app',
       understood: 'Capito',
       cardTitle: 'Installa l’app sul tuo telefono',
-      cardBody: 'Avrà una sua icona, si apre senza internet e, se esci per sbaglio, la riapri da lì.',
+      cardBody: 'Avrà una sua icona e si apre senza internet, così funziona anche dove non c’è campo.',
       cardButton: 'Come installarla',
       cardDismiss: 'Non mostrare più',
       guideTitle: 'Installare l’app',
@@ -234,10 +234,10 @@ export const IT_GROUPS: Record<string, any> = {
     copy: 'Copia',
     copied: 'Copiato!',
     share: 'Condividi',
-    shareText: (site: string, code: string) => `Il mio codice Audioguía Xolo per ${site}: ${code}. Inseriscilo su xolotli.com per entrare.`,
+    shareText: (site: string, code: string) => `Il mio codice Xolo per ${site}: ${code}. Inseriscilo su xolotli.com per entrare.`,
     sampleListen: "Ascolta un campione gratuito",
     sampleStop: "Ferma il campione",
-    offerTitle: (h: number) => `Accesso completo per ${h} ore`,
+    offerTitle: (h: number) => `Accesso completo per ${h} giorni`,
     priceNote: 'Pagamento unico • Nessun abbonamento',
     combo: {
       includes: (names: string) => `Include: ${names}.`,
@@ -250,7 +250,7 @@ export const IT_GROUPS: Record<string, any> = {
       desc: 'Questo sito si apre con un codice che ricevi sul posto (hotel, biglietteria o convenzione). Inseriscilo qui sotto.',
     },
     benefits: {
-      accessTitle: (h: number) => `${h} ore di accesso completo`,
+      accessTitle: (h: number) => `${h} giorni di accesso completo`,
       accessDesc: 'Visita con calma. Il pass non si rinnova da solo.',
       guidesTitle: 'Audio e testo di ogni opera',
       guidesDesc: 'In versione breve e completa, con sfide di osservazione, miti e schede.',
@@ -311,7 +311,7 @@ export const IT_GROUPS: Record<string, any> = {
     },
     notice: {
       confirming: 'Conferma del pagamento in corso…',
-      success: (h: number) => `Pagamento confermato! Il tuo pass di ${h} ore è già attivo.`,
+      success: (h: number) => `Pagamento confermato! Il tuo pass di ${h} giorni è già attivo.`,
       cancelled: 'Il pagamento è stato annullato. Non è stato addebitato nulla.',
       codeOk: 'Pass attivato su questo dispositivo.',
     },
@@ -347,11 +347,11 @@ export const IT_GROUPS: Record<string, any> = {
       howSteps: (free: number, hours: number, devices: number) => [
         'Entra nel museo o nel sito e scegli una sala o una zona, oppure segui un percorso già pronto.',
         free > 0 ? `A ogni tappa, ascolta la sua storia. ${free} tappe sono gratuite.` : 'A ogni tappa, ascolta la sua storia.',
-        `Con il pass da ${hours} ore ascolti tutto il sito che scegli, su un massimo di ${devices} telefoni.`,
+        `Con il pass da ${hours} giorni ascolti tutto il sito che scegli, su un massimo di ${devices} telefoni.`,
       ],
-      passBadgeTitle: (hours: number, devices: number) => `Un pass da ${hours} ore, ${devices} telefoni`,
+      passBadgeTitle: (hours: number, devices: number) => `Un pass da ${hours} giorni, ${devices} telefoni`,
       passBadgeText: 'Ideale per andare in coppia o con amici: attivi il secondo telefono con un breve codice, senza pratiche.',
-      valueChips: (hours: number, devices: number) => ['Tappe gratuite da provare', `Pass da ${hours} ore per ${devices} telefoni`, 'Funziona senza internet'],
+      valueChips: (hours: number, devices: number) => ['Tappe gratuite da provare', `Pass da ${hours} giorni per ${devices} telefoni`, 'Funziona senza internet'],
       tryFree: 'Prova la tappa gratuita',
     },
     museum: {
@@ -383,7 +383,7 @@ export const IT_GROUPS: Record<string, any> = {
       freeSub: 'Senza registrazione e senza carta. Se ti piace come suona, sblocca il resto del percorso.',
       freeUnlock: 'Sblocca tutte le opere',
       passTitle: 'Cosa include il pass',
-      passLead: (h: number) => `Un solo pagamento, nessun abbonamento. Il pass dura ${h} ore.`,
+      passLead: (h: number) => `Un solo pagamento, nessun abbonamento. Il pass dura ${h} giorni.`,
       passItems: (stops: string, devices: number) => [
         { title: `${stops} con audio e testo`, desc: 'Ascolta la storia davanti a ciascuna, in versione breve o completa. Puoi anche leggerla.' },
         { title: 'Sfide di osservazione, miti e schede', desc: 'Cosa cercare con lo sguardo, la leggenda di ciascuna e i suoi dati chiave.' },

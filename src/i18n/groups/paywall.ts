@@ -15,10 +15,10 @@ export const paywall = defineGroup(
     copy: 'Copiar',
     copied: '¡Copiado!',
     share: 'Compartir',
-    shareText: (site: string, code: string) => `Mi código de Audioguía Xolo para ${site}: ${code}. Escríbelo en xolotli.com para entrar.`,
+    shareText: (site: string, code: string) => `Mi código de Xolo para ${site}: ${code}. Escríbelo en xolotli.com para entrar.`,
     sampleListen: "Escuchar una muestra gratis",
     sampleStop: "Detener la muestra",
-    offerTitle: (hours: number) => `Acceso total ${hours} horas`,
+    offerTitle: (hours: number) => `Acceso total ${hours} días`,
     priceNote: 'Pago único • Sin suscripción',
     combo: {
       includes: (names: string) => `Incluye: ${names}.`,
@@ -31,7 +31,7 @@ export const paywall = defineGroup(
       desc: 'Este sitio se abre con un código que te dan en el lugar (hotel, taquilla o convenio). Escríbelo abajo.',
     },
     benefits: {
-      accessTitle: (hours: number) => `${hours} horas de acceso completo`,
+      accessTitle: (hours: number) => `${hours} días de acceso completo`,
       accessDesc: 'Recórrelo con calma. El pase no se renueva solo.',
       guidesTitle: 'Audio y texto de cada obra',
       guidesDesc: 'En versión corta y completa, con retos de observación, mitos y fichas.',
@@ -92,7 +92,7 @@ export const paywall = defineGroup(
     } as Record<PaymentErrorCode, string>,
     notice: {
       confirming: 'Confirmando tu pago…',
-      success: (hours: number) => `¡Pago confirmado! Tu pase de ${hours} horas ya está activo.`,
+      success: (hours: number) => `¡Pago confirmado! Tu pase de ${hours} días ya está activo.`,
       cancelled: 'El pago se canceló. No se hizo ningún cargo.',
       codeOk: 'Pase activado en este dispositivo.',
     },
@@ -109,10 +109,10 @@ export const paywall = defineGroup(
     copy: 'Copy',
     copied: 'Copied!',
     share: 'Share',
-    shareText: (site: string, code: string) => `My Audioguía Xolo code for ${site}: ${code}. Enter it at xolotli.com to get in.`,
+    shareText: (site: string, code: string) => `My Xolo code for ${site}: ${code}. Enter it at xolotli.com to get in.`,
     sampleListen: "Listen to a free sample",
     sampleStop: "Stop the sample",
-    offerTitle: (hours: number) => `Full access for ${hours} hours`,
+    offerTitle: (hours: number) => `Full access for ${hours} days`,
     priceNote: 'One-time payment • No subscription',
     combo: {
       includes: (names: string) => `Includes: ${names}.`,
@@ -125,7 +125,7 @@ export const paywall = defineGroup(
       desc: 'This site opens with a code you are given on the spot (hotel, ticket office or partner). Type it below.',
     },
     benefits: {
-      accessTitle: (hours: number) => `${hours} hours of full access`,
+      accessTitle: (hours: number) => `${hours} days of full access`,
       accessDesc: 'Take your time. The pass does not renew by itself.',
       guidesTitle: 'Audio and text for every work',
       guidesDesc: 'In a short and a full version, with observation challenges, myths and fact sheets.',
@@ -186,7 +186,7 @@ export const paywall = defineGroup(
     } as Record<PaymentErrorCode, string>,
     notice: {
       confirming: 'Confirming your payment…',
-      success: (hours: number) => `Payment confirmed! Your ${hours}-hour pass is now active.`,
+      success: (hours: number) => `Payment confirmed! Your ${hours}-day pass is now active.`,
       cancelled: 'The payment was cancelled. You were not charged.',
       codeOk: 'Pass activated on this device.',
     },
@@ -203,10 +203,10 @@ export const paywall = defineGroup(
     copy: 'Copier',
     copied: 'Copié !',
     share: 'Partager',
-    shareText: (site: string, code: string) => `Mon code Audioguía Xolo pour ${site} : ${code}. Saisis-le sur xolotli.com pour entrer.`,
+    shareText: (site: string, code: string) => `Mon code Xolo pour ${site} : ${code}. Saisis-le sur xolotli.com pour entrer.`,
     sampleListen: "Écouter un extrait gratuit",
     sampleStop: "Arrêter l'extrait",
-    offerTitle: (hours: number) => `Accès total ${hours} heures`,
+    offerTitle: (hours: number) => `Accès total ${hours} jours`,
     priceNote: 'Paiement unique • Sans abonnement',
     combo: {
       includes: (names: string) => `Comprend : ${names}.`,
@@ -219,7 +219,7 @@ export const paywall = defineGroup(
       desc: 'Ce site s’ouvre avec un code remis sur place (hôtel, billetterie ou partenaire). Saisissez-le ci-dessous.',
     },
     benefits: {
-      accessTitle: (hours: number) => `${hours} heures d’accès complet`,
+      accessTitle: (hours: number) => `${hours} jours d’accès complet`,
       accessDesc: 'Visitez à votre rythme. Le pass ne se renouvelle pas tout seul.',
       guidesTitle: 'Audio et texte de chaque œuvre',
       guidesDesc: 'En version courte et complète, avec défis d’observation, mythes et fiches.',
@@ -280,7 +280,7 @@ export const paywall = defineGroup(
     } as Record<PaymentErrorCode, string>,
     notice: {
       confirming: 'Confirmation de votre paiement…',
-      success: (hours: number) => `Paiement confirmé ! Votre pass de ${hours} heures est maintenant actif.`,
+      success: (hours: number) => `Paiement confirmé ! Votre pass de ${hours} jours est maintenant actif.`,
       cancelled: 'Le paiement a été annulé. Aucun montant n’a été débité.',
       codeOk: 'Pass activé sur cet appareil.',
     },

@@ -9,8 +9,8 @@ const rooms = (c: number) => p(c, 'sala', 'salas');
 
 export const PT_GROUPS: Record<string, any> = {
   common: {
-    appName: 'Audioguía Xolo',
-    editorialBadge: 'Conteúdo editorial do Audioguía Xolo',
+    appName: 'Xolo',
+    editorialBadge: 'Conteúdo editorial do Xolo',
     close: 'Fechar',
     back: 'Voltar',
     loading: 'Carregando…',
@@ -43,7 +43,7 @@ export const PT_GROUPS: Record<string, any> = {
       install: 'Instalar o app',
       understood: 'Entendi',
       cardTitle: 'Instale o app no seu celular',
-      cardBody: 'Ele terá um ícone próprio, abre sem internet e, se você sair sem querer, é só abri-lo de novo por ali.',
+      cardBody: 'Ele terá um ícone próprio e abre sem internet, então funciona mesmo onde não há sinal.',
       cardButton: 'Como instalar',
       cardDismiss: 'Não mostrar mais',
       guideTitle: 'Instalar o app',
@@ -234,10 +234,10 @@ export const PT_GROUPS: Record<string, any> = {
     copy: 'Copiar',
     copied: 'Copiado!',
     share: 'Compartilhar',
-    shareText: (site: string, code: string) => `Meu código Audioguía Xolo para ${site}: ${code}. Digite em xolotli.com para entrar.`,
+    shareText: (site: string, code: string) => `Meu código Xolo para ${site}: ${code}. Digite em xolotli.com para entrar.`,
     sampleListen: "Ouvir uma amostra grátis",
     sampleStop: "Parar a amostra",
-    offerTitle: (h: number) => `Acesso total por ${h} horas`,
+    offerTitle: (h: number) => `Acesso total por ${h} dias`,
     priceNote: 'Pagamento único • Sem assinatura',
     combo: {
       includes: (names: string) => `Inclui: ${names}.`,
@@ -250,7 +250,7 @@ export const PT_GROUPS: Record<string, any> = {
       desc: 'Este local é aberto com um código que você recebe no próprio lugar (hotel, bilheteria ou convênio). Digite-o abaixo.',
     },
     benefits: {
-      accessTitle: (h: number) => `${h} horas de acesso completo`,
+      accessTitle: (h: number) => `${h} dias de acesso completo`,
       accessDesc: 'Visite com calma. O passe não se renova sozinho.',
       guidesTitle: 'Áudio e texto de cada obra',
       guidesDesc: 'Em versão curta e completa, com desafios de observação, mitos e fichas.',
@@ -311,7 +311,7 @@ export const PT_GROUPS: Record<string, any> = {
     },
     notice: {
       confirming: 'Confirmando seu pagamento…',
-      success: (h: number) => `Pagamento confirmado! Seu passe de ${h} horas já está ativo.`,
+      success: (h: number) => `Pagamento confirmado! Seu passe de ${h} dias já está ativo.`,
       cancelled: 'O pagamento foi cancelado. Nenhuma cobrança foi feita.',
       codeOk: 'Passe ativado neste dispositivo.',
     },
@@ -347,11 +347,11 @@ export const PT_GROUPS: Record<string, any> = {
       howSteps: (free: number, hours: number, devices: number) => [
         'Entre no museu ou no local e escolha uma sala ou uma zona, ou siga um roteiro já montado.',
         free > 0 ? `Em cada parada, ouça a sua história. ${free} paradas são grátis.` : 'Em cada parada, ouça a sua história.',
-        `Com o passe de ${hours} horas você ouve todo o local que escolher, em até ${devices} celulares.`,
+        `Com o passe de ${hours} dias você ouve todo o local que escolher, em até ${devices} celulares.`,
       ],
-      passBadgeTitle: (hours: number, devices: number) => `Um passe de ${hours} horas, ${devices} celulares`,
+      passBadgeTitle: (hours: number, devices: number) => `Um passe de ${hours} dias, ${devices} celulares`,
       passBadgeText: 'Ideal para ir a dois ou com amigos: você ativa o segundo celular com um código curto, sem burocracia.',
-      valueChips: (hours: number, devices: number) => ['Paradas grátis para testar', `Passe de ${hours} h para ${devices} celulares`, 'Funciona sem internet'],
+      valueChips: (hours: number, devices: number) => ['Paradas grátis para testar', `Passe de ${hours} dias para ${devices} celulares`, 'Funciona sem internet'],
       tryFree: 'Testar a parada grátis',
     },
     museum: {
@@ -383,7 +383,7 @@ export const PT_GROUPS: Record<string, any> = {
       freeSub: 'Sem cadastro e sem cartão. Se gostar de como soa, desbloqueie o resto do roteiro.',
       freeUnlock: 'Desbloquear todas as obras',
       passTitle: 'O que o passe inclui',
-      passLead: (h: number) => `Um único pagamento, sem assinatura. O passe dura ${h} horas.`,
+      passLead: (h: number) => `Um único pagamento, sem assinatura. O passe dura ${h} dias.`,
       passItems: (stops: string, devices: number) => [
         { title: `${stops} com áudio e texto`, desc: 'Ouça a história diante de cada uma, em versão curta ou completa. Você também pode lê-la.' },
         { title: 'Desafios de observação, mitos e fichas', desc: 'O que procurar com o olhar, a lenda de cada uma e seus dados principais.' },

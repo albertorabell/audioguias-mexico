@@ -3,7 +3,7 @@ import { X, Sparkles, CheckCircle, Shield, WifiOff, Clock, ExternalLink, Refresh
 import { formatRemainingHours } from '../utils/license';
 import { formatPrice } from '../utils/price';
 import { useLanguage } from '../utils/LanguageContext';
-import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
+import { PASS_DAYS, PASS_MAX_DEVICES } from '../config/pass';
 import { PAYMENTS_ENABLED } from '../config/payments';
 import { fetchPricing, PricingInfo, redeemCode, requestRecovery, startCheckout, PaymentErrorCode, previewPromo, getSavedPromo, savePromo, clearSavedPromo } from '../utils/payments';
 import { SPEECH_LOCALE } from '../i18n/languages';
@@ -190,7 +190,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   if (!isOpen) return null;
 
   const locale = SPEECH_LOCALE[currentLanguage];
-  const hours = pricing?.passHours ?? PASS_HOURS;
+  const hours = pricing?.passDays ?? PASS_DAYS; // (el nombre es histórico: ahora son días)
   const maxDevices = pricing?.maxDevices ?? PASS_MAX_DEVICES;
 
   // Moneda: español → pesos; otros idiomas → dólares si el sitio tiene precio en dólares
@@ -405,7 +405,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             )}
             <p className="text-cap text-ink-3 mt-1">{t.priceNote}</p>
             <ul data-testid="before-pay" className="mt-3 space-y-1 text-left text-cap text-ink-2">
-              {t.beforePay(pricing?.passDays ?? Math.round(hours / 24), maxDevices, pricing?.startWindowDays ?? 30).map((line, i) => (
+              {t.beforePay(hours, maxDevices, pricing?.startWindowDays ?? 30).map((line, i) => (
                 <li key={i}>{line}</li>
               ))}
             </ul>

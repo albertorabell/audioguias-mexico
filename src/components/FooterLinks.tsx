@@ -33,7 +33,7 @@ export const FooterLinks: React.FC = () => {
     const url = `${window.location.origin}/`;
     try {
       if (navigator.share) {
-        await navigator.share({ title: 'Audioguía Xolo', text: t.shareText, url });
+        await navigator.share({ title: 'Xolo', text: t.shareText, url });
         return;
       }
       await navigator.clipboard.writeText(url);
