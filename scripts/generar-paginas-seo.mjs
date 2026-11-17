@@ -3,7 +3,7 @@
 // Uso: node scripts/generar-paginas-seo.mjs [carpeta-dist]   (por defecto: dist)
 import fs from 'node:fs';
 import path from 'node:path';
-import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza } from './seo-lib.mjs';
+import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias } from './seo-lib.mjs';
 
 const DIST = path.resolve(process.argv[2] || 'dist');
 const leer = (rel) => JSON.parse(fs.readFileSync(path.join(DIST, rel), 'utf-8'));
@@ -40,6 +40,10 @@ for (const [id, cfg] of Object.entries(PAGINAS)) {
 }
 
 const grupos = [];
+const llms = [];
+const paraMapa = [];
+// Clips de 30 s publicados (public/audio/muestras/): el botón «Escuchar 30 s» sale solo donde hay clip
+const hayClip = (ruta) => existe(ruta.replace(/^\//, ''));
 const escribir = (rel, html) => {
   const dir = path.join(DIST, rel);
   fs.mkdirSync(dir, { recursive: true });
@@ -70,7 +74,9 @@ for (const h of hechas) {
       }));
     const delIdioma = paginasPieza(lang);
     const gratisEnlaces = delIdioma.map((p) => ({ titulo: tituloDePieza(p, lang), url: direccionPieza(h.cfg, p, lang) }));
-    const { html, url } = armarPagina({ sitio: h.sitio, manifiesto: h.manifiesto, salas: h.salas, piezas: h.piezas, cfg: h.cfg, lang, idiomas: h.idiomas, otras, portada: h.portada, gratisEnlaces });
+    // Clip de la primera pieza gratis que tenga uno en este idioma (hoy: la Piedra del Sol del MNA)
+    const muestraPieza = gratis.map((p) => clipDe(hayClip, p.piece_id, lang)).find(Boolean) || '';
+    const { html, url } = armarPagina({ sitio: h.sitio, manifiesto: h.manifiesto, salas: h.salas, piezas: h.piezas, cfg: h.cfg, lang, idiomas: h.idiomas, otras, portada: h.portada, gratisEnlaces, muestra: h.cfg.proximamente ? '' : muestraPieza });
     escribir(direccion(h.cfg.slugs[lang], lang), html);
     grupo.push({ lang, url });
     console.log(`SEO: ${url} (${(html.length / 1024).toFixed(1)} KB)`);
@@ -84,16 +90,36 @@ for (const h of hechas) {
     const g = [];
     const sala = h.salas.find((r) => r.room_id === (p.room_id || p.roomId)) || null;
     for (const lang of langs) {
-      const { html, url } = armarPiezaPagina({ sitio: h.sitio, manifiesto: h.manifiesto, cfg: h.cfg, pieza: p, sala, lang, idiomas: langs, portada: fotoDe(p) || h.portada });
+      const { html, url } = armarPiezaPagina({ sitio: h.sitio, manifiesto: h.manifiesto, cfg: h.cfg, pieza: p, sala, lang, idiomas: langs, portada: fotoDe(p) || h.portada, muestra: clipDe(hayClip, p.piece_id, lang) });
       escribir(direccionPieza(h.cfg, p, lang), html);
       g.push({ lang, url });
     }
     grupos.push(g);
   }
   console.log(`SEO: ${h.id}: ${gratis.length} piezas gratis`);
+
+  // Para llms.txt (sitios ya publicados) y para el mapa de canónicas de /sitio/
+  if (!h.cfg.proximamente) {
+    const paginas = Object.fromEntries(h.idiomas.map((l) => [l, `${DOMINIO}${direccion(h.cfg.slugs[l], l)}`]));
+    const nombreEs = h.sitio.name;
+    const mxn = Number(h.sitio.pass_price_mxn ?? h.manifiesto.pass_price_mxn) || 0;
+    const usd = Number(h.sitio.pass_price_usd ?? h.manifiesto.pass_price_usd) || 0;
+    llms.push({
+      nombre: nombreEs,
+      resumen: String(h.sitio.description || '').trim(),
+      precio: [mxn ? `MX$${mxn}` : '', usd ? `US$${usd}` : ''].filter(Boolean).join(' / '),
+      paginas,
+      gratis: paginasPieza('es').map((p) => ({ titulo: tituloDePieza(p, 'es'), url: `${DOMINIO}${direccionPieza(h.cfg, p, 'es')}` })),
+    });
+    paraMapa.push({ id: h.id, urlSitio: direccion(h.cfg.slugs.es, 'es'), paradas: Object.fromEntries(paginasPieza('es').map((p) => [p.piece_id, direccionPieza(h.cfg, p, 'es')])) });
+  }
 }
 
 fs.writeFileSync(path.join(DIST, 'sitemap.xml'), armarSitemap(grupos));
+fs.writeFileSync(path.join(DIST, 'llms.txt'), armarLlms(llms));
+fs.mkdirSync(path.join(DIST, 'data'), { recursive: true });
+fs.writeFileSync(path.join(DIST, 'data/guias.json'), JSON.stringify(armarMapaGuias(paraMapa)));
+console.log(`SEO: llms.txt (${llms.length} sitios) y data/guias.json`);
 console.log(`SEO: sitemap.xml con ${grupos.flat().length + 1} direcciones`);
 
 // Copia de la app para las direcciones /sitio/… (ver public/_redirects): la misma página, con otro nombre de archivo

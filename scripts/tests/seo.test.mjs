@@ -1,7 +1,7 @@
 // Páginas públicas para Google: lo que dicen, y que NUNCA lleven texto de pago.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { armarPagina, armarSitemap, duracion, recorridoPrincipal, textoEnHtml, recortar, idiomaDisponible, direccion, contar, slugificar, armarPiezaPagina, piezaPublicable, direccionPieza } from '../seo-lib.mjs';
+import { clipDe, botonMuestra, armarLlms, armarMapaGuias, enApp, armarPagina, armarSitemap, duracion, recorridoPrincipal, textoEnHtml, recortar, idiomaDisponible, direccion, contar, slugificar, armarPiezaPagina, piezaPublicable, direccionPieza } from '../seo-lib.mjs';
 
 const cfg = { articulo: 'el', slugs: { es: 'museo', en: 'museum', fr: 'musee', pl: 'muzeum' }, nombres: { en: 'The Museum', fr: 'Le Musée', pl: 'Muzeum' } };
 
@@ -36,11 +36,11 @@ test('página: título, descripción, dirección canónica, datos estructurados 
   assert.match(titulo, /Museo Nacional de Antropología: audioguía/);
   assert.ok(descripcion.length <= 160);
   assert.ok(html.includes('<link rel="canonical" href="https://xolotli.com/guias/museo-nacional-de-antropologia/">'));
-  assert.ok(html.includes('href="/?sitio=MNA&amp;idioma=es"'));
+  assert.ok(html.includes('href="/sitio/mna?idioma=es"'));
   assert.ok(html.includes('<h1>Museo Nacional de Antropología: audioguía para tu visita</h1>'));
   assert.ok(html.includes('Qué ver en el Museo Nacional de Antropología: Corta'));
   const ld = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
-  assert.deepEqual(ld['@graph'].map((x) => x['@type'].toString()), ['Museum,TouristAttraction', 'WebPage', 'BreadcrumbList']);
+  assert.deepEqual(ld['@graph'].map((x) => x['@type'].toString()), ['Museum,TouristAttraction', 'Product', 'WebPage', 'BreadcrumbList']);
   assert.ok(html.includes('og:image" content="https://xolotli.com/images/pieces/a.webp"'));
 });
 
@@ -94,7 +94,7 @@ test('página en inglés: dirección propia, hreflang, botón con idioma y nada 
   assert.ok(html.includes('<html lang="en">'));
   assert.ok(html.includes('hreflang="es" href="https://xolotli.com/guias/museo/"'));
   assert.ok(html.includes('hreflang="x-default"'));
-  assert.ok(html.includes('href="/?sitio=MNA&amp;idioma=en"'));
+  assert.ok(html.includes('href="/sitio/mna?idioma=en"'));
   assert.ok(html.includes('Hours') && html.includes('Tue to Sun.'));
   assert.ok(!html.includes('Martes a domingo'));
   assert.ok(!html.includes('Larga'));
@@ -117,8 +117,8 @@ test('direcciones y plurales', () => {
 test('sitio sin publicar: la página dice «próximamente» y no lleva botón ni precio', () => {
   const { html } = armarPagina({ sitio, manifiesto, salas, piezas, cfg: { ...cfg, proximamente: true } });
   assert.ok(html.includes('Próximamente: esta audioguía'));
-  assert.ok(!html.includes('/?sitio='));
-  assert.ok(!html.includes('72 horas'));
+  assert.ok(!html.includes('/sitio/mna'));
+  assert.ok(!html.includes('30 días'));
   assert.ok(!html.includes('gratis'));
 });
 
@@ -145,7 +145,7 @@ test('pieza: página con su texto, sin marcas de enlace, escapada, y botón a la
   assert.ok(!html.includes('mna_x'));
   assert.ok(html.includes('Ubicación: Sala Uno, Museo Nacional de Antropología.'));
   assert.ok(html.includes('hreflang="en" href="https://xolotli.com/en/guides/museum/sun-stone/"'));
-  assert.ok(html.includes('href="/?sitio=MNA&amp;idioma=es"'));
+  assert.ok(html.includes('href="/sitio/mna/a?idioma=es"'));
 });
 
 test('pieza en inglés: nada de español', () => {
@@ -176,4 +176,45 @@ test('alemán y portugués: dirección propia, hreflang y textos en su idioma; s
   assert.ok(de.html.includes('Audioguide für deinen Besuch'));
   const pt = armarPagina({ sitio: s2, manifiesto, salas, piezas, cfg: cfg2, lang: 'pt', idiomas: ['es', 'de', 'pt'] });
   assert.ok(pt.html.includes('<html lang="pt">') && pt.html.includes('og:locale" content="pt_BR"'));
+});
+
+test('botón «Escuchar 30 s»: solo si hay clip, nunca arranca solo, y en el idioma de la página', () => {
+  const existe = (r) => r === '/audio/muestras/piedra_sol_es.mp3' || r === '/audio/muestras/x_en.mp3';
+  assert.equal(clipDe(existe, 'mna_s06_piedra_sol', 'es'), '/audio/muestras/piedra_sol_es.mp3');
+  assert.equal(clipDe(existe, 'x', 'en'), '/audio/muestras/x_en.mp3');
+  assert.equal(clipDe(existe, 'x', 'fr'), '');
+  assert.equal(botonMuestra('es', ''), '');
+  assert.ok(botonMuestra('en', '/audio/muestras/x_en.mp3').includes('▶ Listen for 30 s'));
+  const con = armarPagina({ sitio, manifiesto, salas, piezas, cfg, muestra: '/audio/muestras/piedra_sol_es.mp3' }).html;
+  assert.ok(con.includes('data-src="/audio/muestras/piedra_sol_es.mp3"') && con.includes('▶ Escuchar 30 s') && con.includes('/guias-muestra.js'));
+  assert.ok(!/autoplay/i.test(con));
+  const sin = armarPagina({ sitio, manifiesto, salas, piezas, cfg }).html;
+  assert.ok(!sin.includes('muestra-btn"') && !sin.includes('guias-muestra.js'));
+});
+
+test('precio: oferta en datos estructurados y «30 días» en el texto (ya no 72 horas)', () => {
+  const { html } = armarPagina({ sitio: { ...sitio, pass_price_usd: 7 }, manifiesto, salas, piezas, cfg });
+  const ld = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
+  const prod = ld['@graph'].find((x) => x['@type'] === 'Product');
+  assert.deepEqual(prod.offers.map((o) => [o.price, o.priceCurrency]), [[99, 'MXN'], [7, 'USD']]);
+  assert.ok(html.includes('Pase de 30 días por $99 MXN'));
+  assert.ok(!html.includes('72'));
+  const en = armarPagina({ sitio: { ...sitio, pass_price_usd: 7, name_en: 'Museum' }, manifiesto, salas, piezas, cfg, lang: 'en', idiomas: ['es', 'en'] }).html;
+  assert.ok(en.includes('30-day pass for US$7'));
+});
+
+test('llms.txt: sitios, idiomas, paradas gratis y precio; nada de texto de pago', () => {
+  const t = armarLlms([{ nombre: 'Museo', resumen: 'El recinto.', precio: 'MX$99 / US$7', paginas: { es: 'https://xolotli.com/guias/museo/', en: 'https://xolotli.com/en/guides/museum/' }, gratis: [{ titulo: 'Piedra del Sol', url: 'https://xolotli.com/guias/museo/piedra-del-sol/' }] }]);
+  assert.ok(t.startsWith('# Audioguía Xolo'));
+  assert.ok(t.includes('- [Museo](https://xolotli.com/guias/museo/): El recinto. Pase de 30 días: MX$99 / US$7.'));
+  assert.ok(t.includes('[en](https://xolotli.com/en/guides/museum/)'));
+  assert.ok(t.includes('[Piedra del Sol](https://xolotli.com/guias/museo/piedra-del-sol/)'));
+  assert.ok(t.includes('sitemap.xml'));
+});
+
+test('mapa de guías para la canónica de /sitio/, y dirección dentro de la app', () => {
+  const m = armarMapaGuias([{ id: 'MNA', urlSitio: '/guias/museo/', paradas: { a: '/guias/museo/piedra-del-sol/' } }, { id: 'X' }]);
+  assert.deepEqual(m, { v: 1, sitios: { mna: '/guias/museo/' }, paradas: { 'mna/a': '/guias/museo/piedra-del-sol/' } });
+  assert.equal(enApp('MNA', 'fr'), '/sitio/mna?idioma=fr');
+  assert.equal(enApp('MNA', 'fr', 'a b'), '/sitio/mna/a%20b?idioma=fr');
 });

@@ -494,6 +494,17 @@ export default function App() {
   const enlaceDirectoUsado = useRef(false);
   const paradaPedida = useRef('');
   const enlaceAbriendo = useRef(false);
+  // Mapa de páginas de guía (data/guias.json): solo se pide si la visita llega por una dirección /sitio/… (la ve Google)
+  const [mapaGuias, setMapaGuias] = useState<{ sitios?: Record<string, string>; paradas?: Record<string, string> } | null>(null);
+  useEffect(() => {
+    if (!leerRuta(window.location.pathname)) return;
+    fetch(getAssetUrl('data/guias.json'))
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => {
+        if (j && typeof j === 'object' && j.sitios) setMapaGuias(j);
+      })
+      .catch(() => {});
+  }, []);
   useEffect(() => {
     if (enlaceDirectoUsado.current || rawSites.length === 0) return;
     enlaceDirectoUsado.current = true;
@@ -546,8 +557,8 @@ export default function App() {
       }
     }
     const canonica = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
-    if (canonica) canonica.href = canonicaDe(ruta);
-  }, [screen, selectedSite, rawSites]);
+    if (canonica) canonica.href = canonicaDe(ruta, mapaGuias);
+  }, [screen, selectedSite, rawSites, mapaGuias]);
 
   /** Abre una pieza dentro de su sala (anterior / siguiente recorren la sala). */
   const openPieceInRoom = useCallback(

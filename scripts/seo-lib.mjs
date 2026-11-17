@@ -166,7 +166,7 @@ const T = {
     volver: (n) => `Ver la guía de ${n}`,
     piezaDesc: (p, n) => `${p} en ${n}: su historia, qué significa y dónde encontrarla. Texto gratuito de la audioguía.`,
     abrir: 'Abrir la audioguía',
-    precio: (p) => `Pase de 72 horas por ${p}, sin suscripción. `,
+    precio: (p) => `Pase de 30 días por ${p}, sin suscripción. `,
     gratis: (c) => `${c} para escuchar gratis, sin registro.`,
     sobre: (aire) => (aire ? 'Sobre el sitio' : 'Sobre el museo'),
     queVer: (n, art, ruta) => `Qué ver en ${[art, n].filter(Boolean).join(' ')}: ${ruta}`,
@@ -190,7 +190,7 @@ const T = {
     volver: (n) => `See the guide to ${n}`,
     piezaDesc: (p, n) => `${p} at ${n}: its story, what it means and where to find it. Free text from the audio guide.`,
     abrir: 'Open the audio guide',
-    precio: (p) => `72-hour pass for ${p}, no subscription. `,
+    precio: (p) => `30-day pass for ${p}, no subscription. `,
     gratis: (c) => `${c} to listen to for free, no sign-up.`,
     sobre: (aire) => (aire ? 'About the site' : 'About the museum'),
     queVer: (n, art, ruta) => `What to see: ${ruta}`,
@@ -214,7 +214,7 @@ const T = {
     volver: (n) => `Voir le guide : ${n}`,
     piezaDesc: (p, n) => `${p} – ${n} : son histoire, sa signification et où la trouver. Texte gratuit de l’audioguide.`,
     abrir: 'Ouvrir l’audioguide',
-    precio: (p) => `Pass de 72 heures pour ${p}, sans abonnement. `,
+    precio: (p) => `Pass de 30 jours pour ${p}, sans abonnement. `,
     gratis: (c) => `${c} à écouter gratuitement, sans inscription.`,
     sobre: (aire) => (aire ? 'À propos du site' : 'À propos du musée'),
     queVer: (n, art, ruta) => `Que voir : ${ruta}`,
@@ -238,7 +238,7 @@ const T = {
     volver: (n) => `Zobacz przewodnik: ${n}`,
     piezaDesc: (p, n) => `${p} – ${n}: historia, znaczenie i miejsce, gdzie ją znaleźć. Bezpłatny tekst z audioprzewodnika.`,
     abrir: 'Otwórz audioprzewodnik',
-    precio: (p) => `Karnet na 72 godziny za ${p}, bez subskrypcji. `,
+    precio: (p) => `Karnet na 30 dni za ${p}, bez subskrypcji. `,
     gratis: (c) => `${c} do posłuchania za darmo, bez rejestracji.`,
     sobre: (aire) => (aire ? 'O stanowisku' : 'O muzeum'),
     queVer: (n, art, ruta) => `Co zobaczyć: ${ruta}`,
@@ -262,7 +262,7 @@ const T = {
     volver: (n) => `Zum Führer: ${n}`,
     piezaDesc: (p, n) => `${p} – ${n}: Geschichte, Bedeutung und Fundort. Kostenloser Text aus dem Audioguide.`,
     abrir: 'Audioguide öffnen',
-    precio: (p) => `72-Stunden-Pass für ${p}, ohne Abo. `,
+    precio: (p) => `30-Tage-Pass für ${p}, ohne Abo. `,
     gratis: (c) => `${c} zum kostenlosen Anhören, ohne Anmeldung.`,
     sobre: (aire) => (aire ? 'Über den Ort' : 'Über das Museum'),
     queVer: (n, art, ruta) => `Was es zu sehen gibt: ${ruta}`,
@@ -286,7 +286,7 @@ const T = {
     volver: (n) => `Ver o guia: ${n}`,
     piezaDesc: (p, n) => `${p} em ${n}: sua história, o que significa e onde encontrá-la. Texto gratuito do audioguia.`,
     abrir: 'Abrir o audioguia',
-    precio: (p) => `Passe de 72 horas por ${p}, sem assinatura. `,
+    precio: (p) => `Passe de 30 dias por ${p}, sem assinatura. `,
     gratis: (c) => `${c} para ouvir de graça, sem cadastro.`,
     sobre: (aire) => (aire ? 'Sobre o local' : 'Sobre o museu'),
     queVer: (n, art, ruta) => `O que ver: ${ruta}`,
@@ -310,7 +310,7 @@ const T = {
     volver: (n) => `Vai alla guida: ${n}`,
     piezaDesc: (p, n) => `${p} – ${n}: la sua storia, cosa significa e dove trovarla. Testo gratuito dell’audioguida.`,
     abrir: 'Apri l’audioguida',
-    precio: (p) => `Pass di 72 ore per ${p}, senza abbonamento. `,
+    precio: (p) => `Pass di 30 giorni per ${p}, senza abbonamento. `,
     gratis: (c) => `${c} da ascoltare gratis, senza registrazione.`,
     sobre: (aire) => (aire ? 'Sul luogo' : 'Sul museo'),
     queVer: (n, art, ruta) => `Cosa vedere: ${ruta}`,
@@ -350,6 +350,38 @@ export function idiomaDisponible({ sitio, manifiesto = {}, cfg }, lang) {
   return hechas >= 2;
 }
 
+
+/** Botón «Escuchar 30 s»: nunca arranca solo; la persona lo toca. */
+const MUESTRA = {
+  es: ['▶ Escuchar 30 s', '⏸ Pausar'],
+  en: ['▶ Listen for 30 s', '⏸ Pause'],
+  fr: ['▶ Écouter 30 s', '⏸ Pause'],
+  pl: ['▶ Posłuchaj 30 s', '⏸ Pauza'],
+  de: ['▶ 30 Sek. anhören', '⏸ Pause'],
+  pt: ['▶ Ouvir 30 s', '⏸ Pausar'],
+  it: ['▶ Ascolta 30 s', '⏸ Pausa'],
+};
+// Piezas cuyo clip se llama distinto (los primeros clips se cortaron con el nombre corto)
+const CLIP_ALIAS = { mna_s06_piedra_sol: 'piedra_sol' };
+
+/** Dirección del clip de 30 s de una pieza en un idioma, si existe. `existe(ruta)` dice si el archivo está publicado. */
+export function clipDe(existe, pieceId, lang) {
+  for (const base of [pieceId, CLIP_ALIAS[pieceId]].filter(Boolean)) {
+    const ruta = `/audio/muestras/${base}_${lang}.mp3`;
+    if (existe(ruta)) return ruta;
+  }
+  return '';
+}
+
+export function botonMuestra(lang, src) {
+  if (!src) return '';
+  const [jugar, pausar] = MUESTRA[lang] || MUESTRA.es;
+  return `<p class="muestra"><button type="button" class="muestra-btn" data-src="${esc(src)}" data-play="${esc(jugar)}" data-pause="${esc(pausar)}" aria-pressed="false">${esc(jugar)}</button></p>`;
+}
+
+/** Dirección de un sitio (y de una pieza) dentro de la app. */
+export const enApp = (sitioId, lang, piezaId = '') => `/sitio/${encodeURIComponent(String(sitioId).toLowerCase())}${piezaId ? `/${encodeURIComponent(piezaId)}` : ''}?idioma=${lang}`;
+
 const ESTILOS = `<style>
 :root{--bg:#FBF6EE;--ink:#2a1f1a;--ink2:#5a4a40;--linea:#e4d9c9;--acento:#a30f48}
 @media (prefers-color-scheme:dark){:root{--bg:#1c1613;--ink:#f1e8dc;--ink2:#c4b5a5;--linea:#3a2f28;--acento:#ff6b9a}}
@@ -374,12 +406,15 @@ li{margin:.5rem 0}
 .cta{margin:1.5rem 0 0}
 a.boton{display:block;text-align:center;background:var(--acento);color:#fff;text-decoration:none;font:700 1.0625rem system-ui,sans-serif;padding:.9rem 1rem;border-radius:999px}
 a{color:var(--acento)}
+.muestra{margin:1.25rem 0 0}
+.muestra-btn{display:inline-block;cursor:pointer;background:transparent;color:var(--acento);border:2px solid var(--acento);font:700 1rem system-ui,sans-serif;padding:.65rem 1.25rem;border-radius:999px}
+.muestra-btn[aria-pressed=true]{background:var(--acento);color:#fff}
 ul.otras{list-style:none;padding:0}
 footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--linea);font:.9375rem system-ui,sans-serif;color:var(--ink2)}
 </style>`;
 
 /** Cascarón común de todas las páginas: cabecera, datos para Google, estilos y pie. */
-function plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie }) {
+function plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie, muestra = false }) {
   return `<!doctype html>
 <html lang="${lang}">
 <head>
@@ -412,7 +447,7 @@ ${cuerpo}
 </main>
 <footer><p><a href="/">Audioguía Xolo</a>: ${esc(pie)}</p></footer>
 </div>
-</body>
+${muestra ? '<script src="/guias-muestra.js" defer></script>\n' : ''}</body>
 </html>
 `;
 }
@@ -421,7 +456,7 @@ ${cuerpo}
  * Arma el HTML de la página de un sitio en un idioma.
  * datos: { sitio, manifiesto, salas, piezas, cfg (de PAGINAS), lang, idiomas (los que sí salen), otras: [{ nombre, url }], portada }
  */
-export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], cfg, lang = 'es', idiomas = [lang], otras = [], portada = '', gratisEnlaces = [] }) {
+export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], cfg, lang = 'es', idiomas = [lang], otras = [], portada = '', gratisEnlaces = [], muestra = '' }) {
   const t = T[lang];
   const slug = cfg.slugs[lang];
   const url = `${DOMINIO}${direccion(slug, lang)}`;
@@ -446,7 +481,7 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
   const minutos = rutas.map(minutosDe).filter((m) => m > 0);
   const rango = minutos.length ? `${duracion(Math.min(...minutos))}${Math.min(...minutos) === Math.max(...minutos) ? '' : lang === 'es' ? ` a ${duracion(Math.max(...minutos))}` : lang === 'pl' ? ` do ${duracion(Math.max(...minutos))}` : lang === 'fr' ? ` à ${duracion(Math.max(...minutos))}` : lang === 'de' ? ` bis ${duracion(Math.max(...minutos))}` : (lang === 'pt' || lang === 'it') ? ` a ${duracion(Math.max(...minutos))}` : ` to ${duracion(Math.max(...minutos))}`}` : '';
   const precio = moneda(lang, sitio, manifiesto);
-  const abrir = `/?sitio=${encodeURIComponent(sitio.id)}&idioma=${lang}`;
+  const abrir = enApp(sitio.id, lang);
 
   const titulo = t.titulo(nombre);
   const descripcion = recortar(t.desc(nombre, contar(lang, piezas.length, aireLibre), rango, gratis.length && !cfg.proximamente ? contar(lang, gratis.length, aireLibre) : ''));
@@ -464,8 +499,16 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
     ...(loc(sitio, 'location') ? { address: loc(sitio, 'location') } : sitio.location ? { address: sitio.location } : {}),
     ...(portada ? { image: `${DOMINIO}${portada}` } : {}),
   };
+  // Precio del pase (para buscadores y asistentes de IA): solo cuando el sitio ya se vende
+  const mxnN = Number(sitio.pass_price_mxn ?? manifiesto.pass_price_mxn) || 0;
+  const usdN = Number(sitio.pass_price_usd ?? manifiesto.pass_price_usd) || 0;
+  const ofertas = [mxnN ? { '@type': 'Offer', price: mxnN, priceCurrency: 'MXN', availability: 'https://schema.org/InStock', url } : null, usdN ? { '@type': 'Offer', price: usdN, priceCurrency: 'USD', availability: 'https://schema.org/InStock', url } : null].filter(Boolean);
+  const producto = !cfg.proximamente && ofertas.length
+    ? [{ '@type': 'Product', '@id': `${url}#audioguia`, name: titulo, description: descripcion, brand: { '@type': 'Brand', name: 'Xolo' }, ...(portada ? { image: `${DOMINIO}${portada}` } : {}), offers: ofertas }]
+    : [];
   const grafo = [
     lugar,
+    ...producto,
     {
       '@type': 'WebPage',
       '@id': url,
@@ -527,6 +570,7 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
 
   const cuerpo = `<h1>${esc(t.h1(nombre))}</h1>
 ${lead ? `<p class="lead">${esc(lead)}</p>` : ''}
+${botonMuestra(lang, muestra)}
 ${portada ? `<img class="portada" src="${esc(portada)}" alt="${esc(nombre)}" width="1200" height="800" fetchpriority="high">` : ''}
 ${cta()}
 ${intro ? `<h2>${esc(t.sobre(aireLibre))}</h2>\n${textoEnHtml(intro)}` : ''}
@@ -537,7 +581,7 @@ ${antes.length ? `<h2>${esc(t.antes)}</h2>\n${bloqueAntes}` : ''}
 ${gratisEnlaces.length ? `<h2>${esc(t.gratisTitulo(aireLibre))}</h2>\n<ul>${gratisEnlaces.map((g) => `<li><a href="${esc(g.url)}">${esc(g.titulo)}</a></li>`).join('')}</ul>` : ''}
 ${cta()}
 ${enlacesOtras}`;
-  const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie: t.pie });
+  const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie: t.pie, muestra: !!muestra });
   return { html, url, titulo, descripcion };
 }
 
@@ -593,7 +637,7 @@ export const direccionPieza = (cfg, p, lang) => `${direccion(cfg.slugs[lang], la
 /**
  * Página de una pieza gratis. datos: { sitio, cfg, pieza, sala, lang, idiomas (en los que esta pieza tiene página), idiomasSitio, portada }
  */
-export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = null, lang = 'es', idiomas = [lang], portada = '' }) {
+export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = null, lang = 'es', idiomas = [lang], portada = '', muestra = '' }) {
   const t = T[lang];
   const nombre = (lang === 'es' ? sitio.name : sitio[`name_${lang}`] || cfg.nombres?.[lang]) || sitio.name;
   const nombrePieza = tituloDePieza(pieza, lang);
@@ -604,7 +648,7 @@ export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = nu
   const gancho = String(loc(pieza, 'frase_gancho') || '').trim();
   const texto = stripLinks(textoPieza(pieza, lang));
   const precio = moneda(lang, sitio, manifiesto);
-  const abrir = `/?sitio=${encodeURIComponent(sitio.id)}&idioma=${lang}`;
+  const abrir = enApp(sitio.id, lang, pieza.piece_id);
 
   const titulo = t.piezaTitulo(nombrePieza, nombre);
   const descripcion = recortar(gancho ? `${gancho} ${t.piezaDesc(nombrePieza, nombre)}` : t.piezaDesc(nombrePieza, nombre));
@@ -641,12 +685,61 @@ export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = nu
   const cuerpo = `<p class="dato"><a href="${urlSitio}">${esc(nombre)}</a></p>
 <h1>${esc(nombrePieza)}</h1>
 ${gancho ? `<p class="lead">${esc(gancho)}</p>` : ''}
+${botonMuestra(lang, muestra)}
 ${portada ? `<img class="portada" src="${esc(portada)}" alt="${esc(nombrePieza)}" width="1200" height="800" fetchpriority="high">` : ''}
 <p class="dato">${esc(t.ubic(nombreSala, nombre))}</p>
 ${textoEnHtml(texto)}
 ${cta}
 <p><a href="${urlSitio}">${esc(t.volver(nombre))}</a></p>`;
 
-  const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie: t.pie });
+  const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie: t.pie, muestra: !!muestra });
   return { html, url, titulo, descripcion };
+}
+
+
+// ───────────────────────── Para asistentes de IA y para la canónica de /sitio/ ─────────────────────────
+
+/**
+ * llms.txt: un resumen del sitio para asistentes de IA (formato llmstxt.org). Solo lo que ya es público: nunca texto de pago.
+ * sitios: [{ nombre, resumen, precio, paginas: { es: url, en: url… }, gratis: [{ titulo, url }] }]
+ */
+export function armarLlms(sitios) {
+  const linea = (x) => {
+    const otros = Object.entries(x.paginas).filter(([l]) => l !== 'es').map(([l, u]) => `[${l}](${u})`);
+    const gratis = (x.gratis || []).map((g) => `[${g.titulo}](${g.url})`);
+    return [
+      `- [${x.nombre}](${x.paginas.es || Object.values(x.paginas)[0]})${x.resumen ? `: ${x.resumen}` : ''}${x.precio ? ` Pase de 30 días: ${x.precio}.` : ''}`,
+      otros.length ? `  - Otros idiomas: ${otros.join(' · ')}` : '',
+      gratis.length ? `  - Texto gratuito de estas paradas: ${gratis.join(' · ')}` : '',
+    ].filter(Boolean).join('\n');
+  };
+  return `# Audioguía Xolo
+
+> Audioguías en el celular para museos y zonas arqueológicas de México (Ciudad de México, Teotihuacán, Chichén Itzá, Cuernavaca, Xochicalco, Chalcatzingo y más). Se escuchan frente a la obra, sin grupo, y funcionan sin internet una vez descargadas. Disponibles en español, inglés, francés, polaco, alemán, portugués e italiano. La marca de la app es Xolo; el sitio es xolotli.com.
+
+Cada guía tiene una página pública con su descripción, recorridos, salas o zonas y las paradas que se pueden probar gratis. El texto completo de las demás paradas es de pago y no se publica en estas páginas.
+
+## Guías por sitio
+
+${sitios.map(linea).join('\n')}
+
+## Cómo funciona
+
+- Cada sitio se vende como un pase de 30 días, sin suscripción; también hay pases que juntan varios sitios.
+- Cada sitio incluye paradas gratuitas para probar, sin registro.
+- Los recorridos sugeridos (de menos de una hora a varias horas) llevan al visitante parada por parada.
+- Sitemap: https://xolotli.com/sitemap.xml
+`;
+}
+
+/** Mapa para la app: qué página de /guias/ es la oficial (canónica) de cada sitio y de cada parada gratis. Solo español. */
+export function armarMapaGuias(hechas) {
+  const sitios = {};
+  const paradas = {};
+  for (const h of hechas) {
+    const id = String(h.id).toLowerCase();
+    if (h.urlSitio) sitios[id] = h.urlSitio;
+    for (const [pieceId, url] of Object.entries(h.paradas || {})) paradas[`${id}/${pieceId}`] = url;
+  }
+  return { v: 1, sitios, paradas };
 }

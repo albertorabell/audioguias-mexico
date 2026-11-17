@@ -25,3 +25,13 @@ test('canonicaDe: raíz, sitio y parada; el resto cae a la raíz', () => {
   assert.equal(canonicaDe('/sitio/mna/x1'), 'https://xolotli.com/sitio/mna/x1');
   assert.equal(canonicaDe('/cualquier/cosa'), 'https://xolotli.com/');
 });
+
+test('canonicaDe con el mapa de guías: sitio → su guía; parada gratis → su página; parada de pago → la guía del sitio', () => {
+  const mapa = { v: 1, sitios: { mna: '/guias/museo/' }, paradas: { 'mna/mna_s06_piedra_sol': '/guias/museo/piedra-del-sol/' } };
+  assert.equal(canonicaDe('/sitio/MNA', mapa), 'https://xolotli.com/guias/museo/');
+  assert.equal(canonicaDe('/sitio/mna/mna_s06_piedra_sol', mapa), 'https://xolotli.com/guias/museo/piedra-del-sol/');
+  assert.equal(canonicaDe('/sitio/mna/mna_s06_coatlicue', mapa), 'https://xolotli.com/guias/museo/');
+  assert.equal(canonicaDe('/sitio/otro/x', mapa), 'https://xolotli.com/sitio/otro/x');
+  assert.equal(canonicaDe('/', mapa), 'https://xolotli.com/');
+  assert.equal(canonicaDe('/sitio/mna', null), 'https://xolotli.com/sitio/mna');
+});
