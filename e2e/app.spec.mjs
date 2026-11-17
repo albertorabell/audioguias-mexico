@@ -654,7 +654,8 @@ test('textos de pago: sin internet, con pase, se usa la copia guardada en el tel
   // se corta el servidor de textos y se vuelve a abrir la app
   api.texto = 'caido';
   await page.route('https://pagos.test/texto/**', (route) => route.abort());
-  await page.reload();
+  // Recargar dentro de una obra ahora la deja abierta (la dirección lleva la parada); se reabre la app desde el inicio
+  await page.goto('/');
   await abrirPieza(page, FREE.title);
   // la versión completa quedó guardada como preferencia: ya se abre en ella
   await expect(page.locator('#btn-mode-full')).toHaveAttribute('aria-checked', 'true');
@@ -770,7 +771,8 @@ test('velocidad de la voz: 0.75×, 1×, 1.5× y 2×; se aplica al MP3, se marca 
   await page.locator('#btn-speed-2').click();
   await expect(vel).toContainText('2×');
   // Se recuerda al recargar
-  await page.reload();
+  // Recargar dentro de una obra ahora la deja abierta (la dirección lleva la parada); se reabre la app desde el inicio
+  await page.goto('/');
   await abrirPieza(page, FREE.title);
   await expect(page.locator('#speed-control #btn-speed')).toContainText('2×');
   expect(await page.evaluate(() => localStorage.getItem('audioguias_velocidad'))).toBe('2');
