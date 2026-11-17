@@ -6,6 +6,7 @@
 // Un idioma solo sale si el sitio tiene sus textos traducidos (nunca se publica una página en inglés con texto en español).
 
 import { stripLinks } from '../src/utils/pieceLinks.js';
+import { aDigitos } from '../src/utils/numerosPantalla.js';
 
 export const DOMINIO = 'https://xolotli.com';
 export const IDIOMAS = ['es', 'en', 'fr', 'pl', 'de', 'pt', 'it'];
@@ -651,8 +652,8 @@ export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = nu
   const urlSitio = `${DOMINIO}${direccion(cfg.slugs[lang], lang)}`;
   const loc = (obj, campo) => (lang === 'es' ? obj?.[campo] : obj?.[`${campo}_${lang}`]);
   const nombreSala = sala ? String((lang === 'es' ? sala.nombre_oficial : sala[`nombre_oficial_${lang}`]) || '').trim() : '';
-  const gancho = String(loc(pieza, 'frase_gancho') || '').trim();
-  const texto = stripLinks(textoPieza(pieza, lang));
+  const gancho = aDigitos(String(loc(pieza, 'frase_gancho') || '').trim(), lang);
+  const texto = aDigitos(stripLinks(textoPieza(pieza, lang)), lang);
   const precio = moneda(lang, sitio, manifiesto);
   const abrir = enApp(sitio.id, lang, pieza.piece_id);
 

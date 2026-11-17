@@ -16,6 +16,7 @@ import { PieceTour, pieceTourSeen } from './PieceTour';
 import { LinkedText } from './LinkedText';
 import { PiecePeek } from './PiecePeek';
 import { PieceFeedback } from './PieceFeedback';
+import { aDigitos } from '../utils/numerosPantalla.js';
 import { track, noteAudio, setAudioProbe, noteFirstAudio } from '../utils/analytics';
 
 setAudioProbe(() => ttsPlayer.getState().isPlaying);
@@ -156,6 +157,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const isFree = piece.is_free !== undefined ? piece.is_free : !piece.is_premium;
   const locked = !isFree && !hasPass;
   const readLang = scriptLanguage(piece, currentLanguage);
+  // Números en cifras SOLO para mostrar (el texto de voz y los MP3 siguen con los números en letras)
+  const pant = (t: string): string => (readLang === 'es' ? aDigitos(t) : t);
+  const pantEs = (t: string): string => (currentLanguage === 'es' ? aDigitos(t) : t);
 
   const audio = useMemo(
     () => ({
@@ -440,7 +444,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         <header className="px-5 pt-5">
           <h1 className="font-serif text-[2.125rem] leading-[1.06] font-medium tracking-[-0.02em] text-balance">{titulo}</h1>
           {fraseGancho && fraseGancho !== guionCorto && (
-            <p className="mt-3 font-serif italic text-[1.1875rem] leading-snug text-ink-2 text-pretty">{fraseGancho}</p>
+            <p className="mt-3 font-serif italic text-[1.1875rem] leading-snug text-ink-2 text-pretty">{pantEs(fraseGancho)}</p>
           )}
         </header>
 
@@ -482,7 +486,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
 
         <section id="piece-text" className="px-5 mt-5">
           <p className="font-serif text-read text-ink whitespace-pre-line text-pretty">
-            <LinkedText text={mode === 'expres' ? guionCorto : guionLargo} canOpen={canOpenLink} onOpen={linksOn ? setPeekId : undefined} />
+            <LinkedText text={pant(mode === 'expres' ? guionCorto : guionLargo)} canOpen={canOpenLink} onOpen={linksOn ? setPeekId : undefined} />
           </p>
           {canExpand && mode === 'expres' && (
             <button
@@ -528,7 +532,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             </p>
           )}
           {puente && (
-            <p className="mt-6 pl-4 border-l-2 border-jade/60 font-serif italic text-[1.0625rem] leading-relaxed text-ink-2">{puente}</p>
+            <p className="mt-6 pl-4 border-l-2 border-jade/60 font-serif italic text-[1.0625rem] leading-relaxed text-ink-2">{pantEs(puente)}</p>
           )}
         </section>
 
@@ -571,7 +575,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                       >
                         {on && <Check className="w-4 h-4" strokeWidth={3} />}
                       </span>
-                      <span className={`text-[1rem] leading-snug ${on ? 'text-ink-2' : 'text-ink'}`}>{reto}</span>
+                      <span className={`text-[1rem] leading-snug ${on ? 'text-ink-2' : 'text-ink'}`}>{pantEs(reto)}</span>
                     </button>
                   </li>
                 );
@@ -588,11 +592,11 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             <div className="mt-4 rounded-2xl bg-surface border border-line overflow-hidden">
               <div className="p-4">
                 <p className="text-cap font-bold text-tezontle">{u.piece.mythSaid}</p>
-                <p className="mt-1 text-[1.0625rem] leading-snug text-ink">{stripLabel(mito.pregunta)}</p>
+                <p className="mt-1 text-[1.0625rem] leading-snug text-ink">{pantEs(stripLabel(mito.pregunta))}</p>
               </div>
               <div className="p-4 border-t border-line">
                 <p className="text-cap font-bold text-jade-ink">{u.piece.mythReal}</p>
-                <p className="mt-1 text-[1rem] leading-relaxed text-ink-2">{stripLabel(mito.respuesta)}</p>
+                <p className="mt-1 text-[1rem] leading-relaxed text-ink-2">{pantEs(stripLabel(mito.respuesta))}</p>
               </div>
             </div>
           </section>
@@ -607,7 +611,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               {specs.map(([k, v]) => (
                 <div key={k} className="grid grid-cols-[7.5rem_1fr] gap-3 py-3 border-b border-line">
                   <dt className="text-cap text-ink-3 pt-0.5">{k}</dt>
-                  <dd className="text-ui text-ink">{v}</dd>
+                  <dd className="text-ui text-ink">{pantEs(v)}</dd>
                 </div>
               ))}
             </dl>
