@@ -4,6 +4,7 @@ import { useLanguage } from '../utils/LanguageContext';
 import { avisoText } from '../i18n/aviso';
 import { contactoText } from '../i18n/contacto';
 import { ContactForm } from './ContactForm';
+import { termsText } from '../i18n/terminos.js';
 import { CONTACT_EMAIL } from '../config/contacto';
 
 /** Pone el correo como enlace dentro de un párrafo. */
@@ -13,7 +14,7 @@ function conCorreo(texto: string): React.ReactNode {
   return partes.flatMap((p, i) => (i === 0 ? [p] : [<a key={i} href={`mailto:${CONTACT_EMAIL}`} className="font-semibold underline underline-offset-4">{CONTACT_EMAIL}</a>, p]));
 }
 
-type Panel = 'privacy' | 'about' | 'contact' | null;
+type Panel = 'privacy' | 'terms' | 'about' | 'contact' | null;
 
 /**
  * Pie de la pantalla principal: privacidad, quiénes somos, contacto y compartir.
@@ -23,6 +24,7 @@ export const FooterLinks: React.FC = () => {
   const { currentLanguage } = useLanguage();
   const t = avisoText(currentLanguage);
   const tc = contactoText(currentLanguage);
+  const tt = termsText(currentLanguage);
   const [open, setOpen] = useState<Panel>(null);
   const [copied, setCopied] = useState(false);
   const closeRef = useRef<HTMLButtonElement>(null);
@@ -53,12 +55,13 @@ export const FooterLinks: React.FC = () => {
   };
 
   const link = 'min-h-11 px-3 text-ui font-semibold text-ink-2 underline underline-offset-4 decoration-line-strong cursor-pointer';
-  const title = open === 'privacy' ? t.privacyTitle : open === 'about' ? t.aboutTitle : t.contactTitle;
+  const title = open === 'privacy' ? t.privacyTitle : open === 'terms' ? tt.title : open === 'about' ? t.aboutTitle : t.contactTitle;
 
   return (
     <footer className="mt-12 border-t border-line pt-4 pb-6" aria-label={t.tagline}>
       <nav className="flex flex-wrap justify-center gap-x-1 gap-y-0">
         <button type="button" className={link} onClick={() => setOpen('privacy')}>{t.privacy}</button>
+        <button type="button" className={link} onClick={() => setOpen('terms')}>{tt.label}</button>
         <button type="button" className={link} onClick={() => setOpen('about')}>{t.about}</button>
         <button type="button" className={link} onClick={() => setOpen('contact')}>{t.contact}</button>
         <button type="button" className={link} onClick={share}>{copied ? t.shared : t.share}</button>
@@ -92,6 +95,20 @@ export const FooterLinks: React.FC = () => {
                   </section>
                 ))}
                 <p className="text-cap text-ink-3">{t.privacyUpdated}</p>
+              </div>
+            )}
+
+            {open === 'terms' && (
+              <div className="mt-2 space-y-4">
+                <p className="text-ui leading-relaxed text-ink-2">{tt.intro}</p>
+                {tt.blocks.map(([h, body]) => (
+                  <section key={h}>
+                    <h4 className="text-ui font-bold text-ink">{h}</h4>
+                    <p className="mt-1 text-ui leading-relaxed text-ink-2">{body}</p>
+                  </section>
+                ))}
+                <p className="text-cap text-ink-3">{tt.updated}</p>
+                <p className="pt-4 text-[0.6875rem] leading-snug text-ink-3 opacity-70">{tt.seller}</p>
               </div>
             )}
 

@@ -3,6 +3,7 @@
 // Uso: node scripts/generar-paginas-seo.mjs [carpeta-dist]   (por defecto: dist)
 import fs from 'node:fs';
 import path from 'node:path';
+import { TERMS, TERMS_UPDATED } from '../src/i18n/terminos.js';
 import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes } from './seo-lib.mjs';
 
 const DIST = path.resolve(process.argv[2] || 'dist');
@@ -118,6 +119,22 @@ for (const h of hechas) {
     paraMapa.push({ id: h.id, urlSitio: direccion(h.cfg.slugs.es, 'es'), paradas: Object.fromEntries(paginasPieza('es').map((p) => [p.piece_id, direccionPieza(h.cfg, p, 'es')])) });
   }
 }
+
+// Términos de venta y reembolsos (Stripe pide una dirección pública): /terminos/<idioma>/ en los 7 idiomas
+for (const l of IDIOMAS) {
+  const t = TERMS[l];
+  const esc2 = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const enlaces = IDIOMAS.map((x) => (x === l ? `<strong>${x.toUpperCase()}</strong>` : `<a href="/terminos/${x}/">${x.toUpperCase()}</a>`)).join(' · ');
+  escribir(`terminos/${l}`, `<!doctype html>
+<html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${esc2(t.title)} · Xolotli</title><meta name="robots" content="noindex"><link rel="canonical" href="${DOMINIO}/terminos/${l}/">
+<style>body{font:17px/1.6 system-ui,sans-serif;max-width:40rem;margin:0 auto;padding:1.5rem;color:#1c1917}h1{font-size:1.7rem}h2{font-size:1.05rem;margin:1.6rem 0 .2rem}p{margin:.2rem 0}.s{margin-top:2rem;font-size:.7rem;color:#78716c}nav{font-size:.9rem;color:#57534e}a{color:#9d174d}</style></head>
+<body><nav>${enlaces}</nav><h1>${esc2(t.title)}</h1><p>${esc2(t.intro)}</p>
+${t.blocks.map(([h, b]) => `<h2>${esc2(h)}</h2><p>${esc2(b)}</p>`).join('\n')}
+<p class="s">${esc2(t.updated)}</p><p class="s">${esc2(t.seller)}</p>
+<p><a href="/">xolotli.com</a></p></body></html>`);
+}
+console.log(`SEO: términos en ${IDIOMAS.length} idiomas (${TERMS_UPDATED})`);
 
 fs.writeFileSync(path.join(DIST, 'sitemap.xml'), armarSitemap(grupos));
 fs.writeFileSync(path.join(DIST, 'llms.txt'), armarLlms(llms));
