@@ -67,5 +67,124 @@
     "maxZoom": 17,
     "near_meters": 3000,
     "labels": true
+  },
+  "coyoacan": {
+    "pmtiles": "maps/coyoacan.pmtiles",
+    "center": [
+      -99.163,
+      19.3495
+    ],
+    "zoom": 15,
+    "bounds": [
+      -99.195,
+      19.315,
+      -99.135,
+      19.365
+    ],
+    "maxZoom": 17,
+    "near_meters": 5000,
+    "labels": true,
+    "labels_route_only": true
+  },
+  "cuernavaca_historica": {
+    "pmtiles": "maps/cuernavaca_historica.pmtiles",
+    "center": [
+      -99.2345,
+      18.9205
+    ],
+    "zoom": 16,
+    "bounds": [
+      -99.255,
+      18.9,
+      -99.21,
+      18.94
+    ],
+    "maxZoom": 17,
+    "near_meters": 3000,
+    "labels": true
+  },
+  "xochicalco": {
+    "pmtiles": "maps/xochicalco.pmtiles",
+    "center": [
+      -99.2965,
+      18.804
+    ],
+    "zoom": 16,
+    "bounds": [
+      -99.315,
+      18.79,
+      -99.275,
+      18.82
+    ],
+    "maxZoom": 17,
+    "near_meters": 2500
+  },
+  "chalcatzingo": {
+    "pmtiles": "maps/chalcatzingo.pmtiles",
+    "center": [
+      -98.772,
+      18.677
+    ],
+    "zoom": 16,
+    "bounds": [
+      -98.795,
+      18.66,
+      -98.75,
+      18.695
+    ],
+    "maxZoom": 17,
+    "near_meters": 2500
+  },
+  "basilica_guadalupe": {
+    "pmtiles": "maps/basilica_guadalupe.pmtiles",
+    "center": [
+      -99.117,
+      19.485
+    ],
+    "zoom": 17,
+    "bounds": [
+      -99.128,
+      19.477,
+      -99.105,
+      19.492
+    ],
+    "maxZoom": 17,
+    "near_meters": 2000,
+    "labels": true
+  },
+  "tacos": {
+    "pmtiles": "maps/tacos.pmtiles",
+    "center": [
+      -99.16,
+      19.418
+    ],
+    "zoom": 14,
+    "bounds": [
+      -99.195,
+      19.38,
+      -99.12,
+      19.45
+    ],
+    "maxZoom": 16,
+    "near_meters": 8000,
+    "labels": true,
+    "labels_route_only": true
+  },
+  "museo_frida_kahlo": {
+    "pmtiles": "maps/coyoacan.pmtiles",
+    "center": [
+      -99.16235,
+      19.35515
+    ],
+    "zoom": 17,
+    "bounds": [
+      -99.195,
+      19.315,
+      -99.135,
+      19.365
+    ],
+    "maxZoom": 17,
+    "near_meters": 2500,
+    "labels": true
   }
 }

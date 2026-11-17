@@ -8,11 +8,12 @@ import { FloorPlan } from './FloorPlan';
 import { MuseumPlan } from './MuseumPlan';
 import { SitePlanView } from './SitePlanView';
 import { getSitePlan } from '../config/sitePlan';
-import '../config/plans/chapultepec';
+import '../config/plans';
 import { FloorSwitch } from './MuseumScreen';
 import { ActiveTour } from './RoutesScreen';
 import { ErrorBoundary } from './ErrorBoundary';
-import type { LiveStop } from './LiveMap';
+import type { LiveStop, LiveBuilding } from './LiveMap';
+import { getBuildings, outlineCenter, planLang } from '../config/buildings';
 
 // MapLibre pesa bastante: solo se descarga cuando alguien abre el mapa real.
 const LiveMap = lazy(() => import('./LiveMap'));
@@ -43,8 +44,9 @@ interface MapScreenProps {
 
 /** Pestaña "Mapa": plano esquemático con salas grandes y legibles, "estás aquí" y las paradas del recorrido. */
 export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFloorChange, zoneMap, hereRoomId, tour, hasPass, onOpenPaywall, onSelectRoom, liveMap, onOpenPiece, hasScheme, siteId, herePieceId, onOpenStop }) => {
-  const { strings } = useLanguage();
+  const { strings, currentLanguage } = useLanguage();
   const u = strings.ui;
+  const lang = planLang(currentLanguage);
 
   const roomOfPiece = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p.room_id])), [pieces]);
   const worksByRoom = useMemo(() => {
@@ -66,8 +68,26 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
   const scheme = hasScheme ?? !!zoneMap;
   const sitePlan = getSitePlan(siteId);
   const hasPlan = !zoneMap && ((siteId || '').toLowerCase() === 'mna' || !!sitePlan);
-  // Si hay mapa real (OpenStreetMap) se abre primero; el esquema queda en la otra pestaña. En el MNA el plano del museo es lo principal.
-  const [view, setView] = useState<'live' | 'scheme'>(hasPlan ? 'scheme' : 'live');
+  // Edificios con plano interior: sus paradas se ven en el plano, no una por una en el mapa real
+  const buildingList = useMemo(() => getBuildings(siteId), [siteId]);
+  const insideOf = useMemo(() => {
+    const out: Record<string, string> = {};
+    for (const b of buildingList) {
+      const ids = b.pieces === 'plan' ? (sitePlan ? Object.keys(sitePlan.pins) : pieces.map((p) => p.piece_id)) : b.pieces;
+      for (const id of ids) if (!out[id]) out[id] = b.id;
+    }
+    return out;
+  }, [buildingList, sitePlan, pieces]);
+  const allInside = pieces.length > 0 && pieces.every((p) => insideOf[p.piece_id]);
+  // Si hay mapa real (OpenStreetMap) se abre primero; el plano queda en la otra pestaña. Si todas las paradas están dentro de un edificio (MNA), el plano es lo principal.
+  const [view, setView] = useState<'live' | 'scheme'>(hasPlan && (allInside || !liveMap) ? 'scheme' : 'live');
+  const [focusArea, setFocusArea] = useState<string | null>(null);
+  const enterBuilding = (id: string) => {
+    const b = buildingList.find((x) => x.id === id);
+    setFocusArea(b?.area || null);
+    setView('scheme');
+    if (typeof window !== 'undefined') window.scrollTo({ top: 0 });
+  };
   // Sin esquema (Centro Histórico) solo hay mapa real
   const showLive = !!liveMap && (view === 'live' || !scheme);
   const stopId = (s: { piece_id?: string; id?: string; poi_id?: string }) => s.piece_id || s.id || s.poi_id || '';
@@ -75,13 +95,22 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
   const liveStops = useMemo<LiveStop[]>(() => {
     const idx = new Map<string, number>(routeIds.map((id, i): [string, number] => [id, i]));
     return pieces
-      .filter((p) => typeof p.lat === 'number' && typeof p.lng === 'number')
+      .filter((p) => !insideOf[p.piece_id] && typeof p.lat === 'number' && typeof p.lng === 'number')
       .map((p) => {
         const i = idx.get(p.piece_id);
         return { id: p.piece_id, title: p.titulo, lat: p.lat as number, lng: p.lng as number, tourNum: i === undefined ? undefined : i + 1, done: tour && i !== undefined ? i < tour.index : false };
       });
-  }, [pieces, routeIds, tour]);
-  const missingCoords = useMemo(() => pieces.some((p) => typeof p.lat !== 'number' || typeof p.lng !== 'number'), [pieces]);
+  }, [pieces, routeIds, tour, insideOf]);
+  const liveBuildings = useMemo<LiveBuilding[]>(() => {
+    const idx = new Map<string, number>(routeIds.map((id, i): [string, number] => [id, i]));
+    return buildingList.map((b) => {
+      const ids = pieces.filter((p) => insideOf[p.piece_id] === b.id).map((p) => p.piece_id);
+      const nums = ids.map((id) => idx.get(id)).filter((i): i is number => i !== undefined && (!tour || i >= tour.index)).map((i) => i + 1).sort((a, c) => a - c);
+      const stops = pieces.filter((p) => insideOf[p.piece_id] === b.id).sort((a, c) => (a.orden_sugerido || 0) - (c.orden_sugerido || 0)).map((p) => { const i = idx.get(p.piece_id); return { id: p.piece_id, title: p.titulo, num: i === undefined ? p.orden_sugerido : i + 1 }; });
+      return { id: b.id, name: b.name[lang], outline: b.outline && b.outline.length >= 3 ? b.outline : [], center: b.outline && b.outline.length >= 3 ? outlineCenter(b.outline) : b.center!, count: ids.length, tourNums: nums, stops, hasPlan: hasPlan && (b.pieces === 'plan' || !!b.area || !sitePlan || b.pieces.some((id) => !!sitePlan.pins[id])) };
+    }).filter((b) => b.count > 0);
+  }, [buildingList, pieces, insideOf, routeIds, tour, lang, hasPlan, sitePlan]);
+  const missingCoords = useMemo(() => pieces.some((p) => !insideOf[p.piece_id] && (typeof p.lat !== 'number' || typeof p.lng !== 'number')), [pieces, insideOf]);
   const currentId = tour ? routeIds[tour.index] : undefined;
 
   const hereRoom = rooms.find((r) => r.room_id === hereRoomId);
@@ -112,7 +141,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
         {showLive && liveMap && (
           <ErrorBoundary fallback={<p className="text-ui text-ink-2 px-1">{u.map.hint}</p>}>
             <Suspense fallback={<div className="h-[62vh] min-h-[360px] rounded-2xl bg-surface border border-line" />}>
-              <LiveMap config={liveMap} stops={liveStops} routeIds={routeIds} currentId={currentId} onOpenStop={(id) => onOpenPiece?.(id)} />
+              <LiveMap config={liveMap} stops={liveStops} routeIds={routeIds} currentId={currentId} onOpenStop={(id) => onOpenPiece?.(id)} buildings={liveBuildings} insideOf={insideOf} onEnterBuilding={hasPlan ? enterBuilding : undefined} />
             </Suspense>
             {missingCoords && <p className="mt-3 px-1 text-cap text-ink-3">{u.map.noCoords}</p>}
           </ErrorBoundary>
@@ -131,7 +160,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
         {!showLive && (<>
         {hasPlan && sitePlan ? (
           <div className="mt-4">
-            <SitePlanView plan={sitePlan} pieces={pieces} floor={floor} onFloorChange={onFloorChange} herePieceId={herePieceId} tour={tour} hasPass={hasPass} onOpenPaywall={onOpenPaywall} onOpenPiece={onOpenPiece} onOpenStop={onOpenStop} />
+            <SitePlanView focusArea={focusArea} plan={sitePlan} pieces={pieces} floor={floor} onFloorChange={onFloorChange} herePieceId={herePieceId} tour={tour} hasPass={hasPass} onOpenPaywall={onOpenPaywall} onOpenPiece={onOpenPiece} onOpenStop={onOpenStop} />
           </div>
         ) : hasPlan ? (
           <div className="mt-4">

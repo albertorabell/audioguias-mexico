@@ -11,7 +11,7 @@ import { MuseumScreen, ContinueInfo, byOrder } from './components/MuseumScreen';
 import { RoutesScreen, ActiveTour } from './components/RoutesScreen';
 import { MapScreen } from './components/MapScreen';
 import { getSitePlan } from './config/sitePlan';
-import './config/plans/chapultepec';
+import './config/plans';
 import { SearchScreen } from './components/SearchScreen';
 import { RoomView } from './components/RoomView';
 import { PieceDetail, NextInfo } from './components/PieceDetail';
@@ -799,6 +799,15 @@ export default function App() {
   // Mapa en vivo marcado "solo_prueba": solo aparece abriendo la app con ?preview
   const verPrevia = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('preview');
   const liveMap = manifest?.live_map && (!manifest.live_map.solo_prueba || verPrevia) ? manifest.live_map : undefined;
+  // Al entrar a un sitio se baja su mapa sin internet en segundo plano (queda guardado; ver vite.config.ts). No con «ahorro de datos».
+  const mapaPmtiles = liveMap?.pmtiles;
+  useEffect(() => {
+    if (!mapaPmtiles || typeof window === 'undefined') return;
+    const conn = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
+    if (conn?.saveData) return;
+    const t = window.setTimeout(() => { fetch(new URL(mapaPmtiles.replace(/^\.?\/*/, '/'), window.location.origin).href).catch(() => {}); }, 4000);
+    return () => window.clearTimeout(t);
+  }, [mapaPmtiles]);
   const hasMap = !isZones || !!manifest?.zone_map || !!liveMap;
   let content: React.ReactNode = null;
   if (screen.kind === 'home' || !site) {

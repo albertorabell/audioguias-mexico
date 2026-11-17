@@ -51,7 +51,8 @@ export function medir(dist, topes) {
   if (fotoMayor) revisar(`Foto más pesada (${fotoMayor.ruta})`, fotoMayor.bytes / KB, topes.foto_kb, 'KB');
 
   // Lo que el teléfono guarda al instalar la app (mismas extensiones que el service worker; ver vite.config.ts)
-  const guardado = todos.filter((f) => /\.(js|css|html|ico|png|svg|json|woff2?|pmtiles|pbf)$/.test(f.ruta) && !['panel.html', 'data/pieces.json', 'data/rooms.json'].includes(f.ruta));
+  // Los mapas .pmtiles ya no se guardan al instalar (se bajan al abrir cada sitio): no cuentan aquí.
+  const guardado = todos.filter((f) => /\.(js|css|html|ico|png|svg|json|woff2?|pbf)$/.test(f.ruta) && !['panel.html', 'data/pieces.json', 'data/rooms.json'].includes(f.ruta));
   revisar('Lo que se guarda para usar sin internet', guardado.reduce((n, f) => n + f.bytes, 0) / KB / KB, topes.guardado_sin_internet_mb, 'MB');
 
   return { filas, fallos };
