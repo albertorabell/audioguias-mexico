@@ -14,16 +14,7 @@ function markIntroSeen(): void {
 }
 
 /** Qué botón señala cada paso de `intro.museum` (mismo orden). null = paso al centro. */
-const MUSEUM_TARGETS: (string | undefined)[] = [
-  undefined,
-  '#first-route-card',
-  '#btn-open-wizard',
-  '#floor-switch',
-  '#rooms-list li:first-child button',
-  '#museum-dock-bar',
-  '#offline-tour-banner',
-  undefined,
-];
+const MUSEUM_TARGETS: (string | undefined)[] = ['#btn-start-tour', undefined, '#offline-tour-banner'];
 
 interface IntroTourProps {
   open: boolean;

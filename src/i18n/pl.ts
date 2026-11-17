@@ -490,14 +490,9 @@ export const PL_GROUPS: Record<string, any> = {
     done: 'Rozumiem',
     stepOf: (n: number, total: number) => `${n} z ${total}`,
     museum: [
-      { title: 'Witaj w przewodniku', text: 'Pokażę Ci każdy przycisk i powiem, do czego służy. Wystarczy dotykać „Dalej”.' },
-      { title: 'Gotowe trasy', text: 'Tu są gotowe trasy. Dotknij jednej, a przewodnik poprowadzi Cię dzieło po dziele. Przesuń w bok, by zobaczyć więcej.' },
-      { title: 'Ułóż własną trasę', text: 'Dotknij tego przycisku, powiedz, ile masz czasu i co lubisz, a ułożymy trasę.' },
-      { title: 'Zmień piętro', text: 'Dotknij tutaj, aby zobaczyć sale na parterze albo na piętrze.' },
-      { title: 'Sale', text: 'Każdy wiersz to sala. Dotknij go, aby zobaczyć dzieła w kolejności zwiedzania.' },
-      { title: 'Cztery przyciski zawsze na dole', text: 'Muzeum, Trasy, Plan i Szukaj. Dotknij ich, aby w każdej chwili zmienić sekcję.' },
-      { title: 'Bez internetu', text: 'W salach prawie nie ma zasięgu. Zanim wejdziesz, dotknij tutaj, aby pobrać wszystko.' },
-      { title: 'Gotowe!', text: 'Otwórz dowolne dzieło, a pokażę Ci, jak go słuchać. Ta pomoc jest zawsze pod „Jak to działa?”.' },
+      { title: 'Zacznij tutaj', text: 'Dotknij „Zacznij trasę”, a przewodnik poprowadzi cię przystanek po przystanku, w kolejności zwiedzania.' },
+      { title: 'Słuchaj albo czytaj', text: 'Na każdym przystanku dotknij zielonego przycisku, aby usłyszeć historię. To, co słyszysz, jest tym, co czytasz.' },
+      { title: 'Bez internetu', text: 'Tam, gdzie prawie nie ma zasięgu, pobierz wszystko przed wejściem: dotknij tutaj.' },
     ],
     piece: [
       { title: 'Dotknij, aby słuchać', text: 'Ten zielony przycisk opowiada historię dzieła. Dotknij go ponownie, aby wstrzymać. Pasek wypełnia się podczas odtwarzania.' },

@@ -18,12 +18,15 @@ interface OfflineTourBannerProps {
   /** Piezas cuyos audios MP3 se guardan (por ejemplo las de la ruta activa). Si falta, no se descargan audios. */
   audioPieces?: PieceData[];
   routeTitle?: string;
+  /** Aviso antes de descargar; si falta se usa el de los museos. */
+  notCachedText?: string;
 }
 
 export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
   pieces,
   audioPieces = [],
   routeTitle,
+  notCachedText,
 }) => {
   const { strings, currentLanguage } = useLanguage();
   const t = strings.offline;
@@ -129,7 +132,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
         <div className="min-w-0 flex-1">
           <h4 className="text-ui font-bold text-ink">{isCached ? t.readyTitle : t.downloadTitle}</h4>
           <p className="text-cap text-ink-3 mt-1 leading-relaxed">
-            {isCached ? t.cachedDesc(routeTitle) : t.notCachedDesc}
+            {isCached ? t.cachedDesc(routeTitle) : notCachedText || t.notCachedDesc}
             {!isCached && audioUrls.length > 0 && ` ${t.audioSize(audioUrls.length, audioMb)}`}
           </p>
         </div>

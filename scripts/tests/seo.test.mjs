@@ -205,7 +205,7 @@ test('precio: oferta en datos estructurados y «30 días» en el texto (ya no 72
 
 test('llms.txt: sitios, idiomas, paradas gratis y precio; nada de texto de pago', () => {
   const t = armarLlms([{ nombre: 'Museo', resumen: 'El recinto.', precio: 'MX$99 / US$7', paginas: { es: 'https://xolotli.com/guias/museo/', en: 'https://xolotli.com/en/guides/museum/' }, gratis: [{ titulo: 'Piedra del Sol', url: 'https://xolotli.com/guias/museo/piedra-del-sol/' }] }]);
-  assert.ok(t.startsWith('# Audioguía Xolo'));
+  assert.ok(t.startsWith('# Xolotli'));
   assert.ok(t.includes('- [Museo](https://xolotli.com/guias/museo/): El recinto. Pase de 30 días: MX$99 / US$7.'));
   assert.ok(t.includes('[en](https://xolotli.com/en/guides/museum/)'));
   assert.ok(t.includes('[Piedra del Sol](https://xolotli.com/guias/museo/piedra-del-sol/)'));

@@ -433,7 +433,7 @@ function plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, 
 ${hreflang}
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Audioguía Xolo">
+<meta property="og:site_name" content="Xolotli">
 <meta property="og:locale" content="${OG_LOCALE[lang]}">
 <meta property="og:title" content="${esc(titulo)}">
 <meta property="og:description" content="${esc(descripcion)}">
@@ -448,11 +448,11 @@ ${ESTILOS}
 </head>
 <body>
 <div class="envoltura">
-<header class="marca"><a href="/">Audioguía Xolo</a>${selector}</header>
+<header class="marca"><a href="/">Xolotli</a>${selector}</header>
 <main>
 ${cuerpo}
 </main>
-<footer><p><a href="/">Audioguía Xolo</a>: ${esc(pie)}</p></footer>
+<footer><p><a href="/">Xolotli</a>: ${esc(pie)}</p></footer>
 </div>
 ${muestra ? '<script src="/guias-muestra.js" defer></script>\n' : ''}</body>
 </html>
@@ -524,12 +524,12 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
       description: descripcion,
       inLanguage: lang,
       about: { '@id': `${url}#lugar` },
-      isPartOf: { '@type': 'WebSite', name: 'Audioguía Xolo', url: `${DOMINIO}/` },
+      isPartOf: { '@type': 'WebSite', name: 'Xolotli', url: `${DOMINIO}/` },
     },
     {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Audioguía Xolo', item: `${DOMINIO}/` },
+        { '@type': 'ListItem', position: 1, name: 'Xolotli', item: `${DOMINIO}/` },
         { '@type': 'ListItem', position: 2, name: nombre, item: url },
       ],
     },
@@ -673,12 +673,12 @@ export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = nu
       description: descripcion,
       inLanguage: lang,
       ...(portada ? { primaryImageOfPage: { '@type': 'ImageObject', url: `${DOMINIO}${portada}` } } : {}),
-      isPartOf: { '@type': 'WebSite', name: 'Audioguía Xolo', url: `${DOMINIO}/` },
+      isPartOf: { '@type': 'WebSite', name: 'Xolotli', url: `${DOMINIO}/` },
     },
     {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Audioguía Xolo', item: `${DOMINIO}/` },
+        { '@type': 'ListItem', position: 1, name: 'Xolotli', item: `${DOMINIO}/` },
         { '@type': 'ListItem', position: 2, name: nombre, item: urlSitio },
         { '@type': 'ListItem', position: 3, name: nombrePieza, item: url },
       ],
@@ -720,7 +720,7 @@ export function armarLlms(sitios) {
       gratis.length ? `  - Texto gratuito de estas paradas: ${gratis.join(' · ')}` : '',
     ].filter(Boolean).join('\n');
   };
-  return `# Audioguía Xolo
+  return `# Xolotli
 
 > Audioguías en el celular para museos y zonas arqueológicas de México (Ciudad de México, Teotihuacán, Chichén Itzá, Cuernavaca, Xochicalco, Chalcatzingo y más). Se escuchan frente a la obra, sin grupo, y funcionan sin internet una vez descargadas. Disponibles en español, inglés, francés, polaco, alemán, portugués e italiano. La marca de la app es Xolo; el sitio es xolotli.com.
 

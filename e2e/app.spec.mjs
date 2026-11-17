@@ -35,30 +35,21 @@ test('guía del museo: se abre con «¿Cómo se usa?», señala los botones real
   const intro = page.locator('#modal-intro');
   await expect(intro).toBeVisible();
   await expect(page.getByTestId('intro-step-label')).toHaveText(/^1 de \d+$/);
-  await expect(page.getByTestId('intro-title')).toHaveText('Bienvenido a tu guía');
-  // El segundo paso señala el primer recorrido: el resaltado cae sobre esa tarjeta
-  await page.locator('#btn-intro-next').click();
-  await expect(page.getByTestId('intro-title')).toHaveText('Recorridos ya armados');
+  await expect(page.getByTestId('intro-title')).toHaveText('Empieza aquí');
+  // El primer paso señala el botón «Empezar recorrido»
   await expect(async () => {
     const spot = await page.getByTestId('coach-spot').boundingBox();
-    const card = await caja(page, '#first-route-card');
-    expect(Math.abs(spot.y - (card.y - 6))).toBeLessThan(4);
-    expect(Math.abs(spot.x - (card.x - 6))).toBeLessThan(4);
-  }).toPass();
-  // Tercer paso: el botón de armar ruta
-  await page.locator('#btn-intro-next').click();
-  await expect(page.getByTestId('intro-title')).toHaveText('Arma tu propia ruta');
-  await expect(async () => {
-    const spot = await page.getByTestId('coach-spot').boundingBox();
-    const btn = await caja(page, '#btn-open-wizard');
+    const btn = await caja(page, '#btn-start-tour');
     expect(Math.abs(spot.y - (btn.y - 6))).toBeLessThan(4);
   }).toPass();
+  await page.locator('#btn-intro-next').click();
+  await expect(page.getByTestId('intro-title')).toHaveText('Escucha o lee');
   // «Anterior» regresa un paso
   await page.locator('#btn-intro-back').click();
-  await expect(page.getByTestId('intro-title')).toHaveText('Recorridos ya armados');
-  // Hasta el último paso
+  await expect(page.getByTestId('intro-title')).toHaveText('Empieza aquí');
+  // Hasta el último paso (son tres)
   while ((await page.locator('#btn-intro-next').count()) > 0) await page.locator('#btn-intro-next').click();
-  await expect(page.getByTestId('intro-title')).toHaveText('¡Listo!');
+  await expect(page.getByTestId('intro-title')).toHaveText('Úsala sin internet');
   await page.locator('#btn-intro-configure').click();
   await expect(intro).toHaveCount(0);
   await expect(page.locator('#q1-title')).toBeVisible();

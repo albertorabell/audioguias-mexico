@@ -511,14 +511,9 @@ export const DE_GROUPS: Record<string, any> = {
     done: 'Verstanden',
     stepOf: (n: number, total: number) => `${n} von ${total}`,
     museum: [
-      { title: 'Willkommen bei deinem Guide', text: 'Ich zeige dir jede Schaltfläche und erkläre, wofür sie da ist. Tippe einfach auf „Weiter“.' },
-      { title: 'Fertige Rundgänge', text: 'Hier findest du fertige Rundgänge. Tippe auf einen, und der Guide führt dich Werk für Werk. Wische zur Seite, um mehr zu sehen.' },
-      { title: 'Stelle deine eigene Route zusammen', text: 'Tippe auf diese Schaltfläche, sag uns, wie viel Zeit du hast und was dir gefällt, und wir stellen den Rundgang zusammen.' },
-      { title: 'Etage wechseln', text: 'Tippe hier, um die Säle im Erdgeschoss oder im Obergeschoss zu sehen.' },
-      { title: 'Die Säle', text: 'Jede Zeile ist ein Saal. Tippe darauf, um seine Werke in der Reihenfolge des Rundgangs zu sehen.' },
-      { title: 'Vier Schaltflächen immer unten', text: 'Museum, Rundgänge, Karte und Suchen. Tippe darauf, um jederzeit den Bereich zu wechseln.' },
-      { title: 'Ohne Internet nutzen', text: 'In den Sälen gibt es fast keinen Empfang. Tippe hier vor dem Eintreten, um alles herunterzuladen.' },
-      { title: 'Fertig!', text: 'Öffne ein beliebiges Werk, dort erkläre ich dir, wie du es anhörst. Diese Hilfe findest du immer unter „Wie funktioniert das?“.' },
+      { title: 'Hier beginnen', text: 'Tippe auf „Rundgang starten“, und der Guide führt dich Station für Station in der Reihenfolge des Rundgangs.' },
+      { title: 'Hören oder lesen', text: 'Tippe an jeder Station auf den grünen Knopf, um die Geschichte zu hören. Was du hörst, ist das, was du liest.' },
+      { title: 'Ohne Internet', text: 'Wo es kaum Empfang gibt, lade vorher alles herunter: tippe hier.' },
     ],
     piece: [
       { title: 'Tippe hier zum Anhören', text: 'Diese grüne Schaltfläche erzählt die Geschichte des Werks. Tippe erneut, um zu pausieren. Der Balken füllt sich, während es läuft.' },

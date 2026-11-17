@@ -511,14 +511,9 @@ export const IT_GROUPS: Record<string, any> = {
     done: 'Capito',
     stepOf: (n: number, total: number) => `${n} di ${total}`,
     museum: [
-      { title: 'Benvenuto nella tua guida', text: 'Ti indicherò ogni pulsante e a cosa serve. Tocca semplicemente “Avanti”.' },
-      { title: 'Percorsi già pronti', text: 'Qui ci sono percorsi pronti. Toccane uno e la guida ti porta opera per opera. Scorri di lato per vederne altri.' },
-      { title: 'Crea il tuo percorso', text: 'Tocca questo pulsante, dicci quanto tempo hai e cosa ti piace, e prepariamo il percorso per te.' },
-      { title: 'Cambia piano', text: 'Tocca qui per vedere le sale del piano terra o del piano superiore.' },
-      { title: 'Le sale', text: 'Ogni riga è una sala. Toccala per vedere le sue opere nell’ordine in cui si visitano.' },
-      { title: 'Quattro pulsanti sempre in basso', text: 'Museo, Percorsi, Mappa e Cerca. Toccali per cambiare sezione quando vuoi.' },
-      { title: 'Usala senza internet', text: 'Dentro le sale non c’è quasi segnale. Prima di entrare, tocca qui per scaricare tutto.' },
-      { title: 'Fatto!', text: 'Apri una qualsiasi opera e lì ti spiego come ascoltarla. Questo aiuto è sempre disponibile in “Come si usa?”.' },
+      { title: 'Inizia da qui', text: 'Tocca «Inizia il percorso» e la guida ti accompagna tappa per tappa, nell’ordine in cui si cammina.' },
+      { title: 'Ascolta o leggi', text: 'A ogni tappa tocca il pulsante verde per ascoltare la storia. Quello che ascolti è quello che leggi.' },
+      { title: 'Usala senza internet', text: 'Dove c’è poco campo, scarica tutto prima di entrare: tocca qui.' },
     ],
     piece: [
       { title: 'Tocca qui per ascoltare', text: 'Questo pulsante verde racconta la storia dell’opera. Toccalo di nuovo per mettere in pausa. La barra si riempie mentre suona.' },

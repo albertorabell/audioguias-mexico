@@ -17,6 +17,7 @@ import { LinkedText } from './LinkedText';
 import { PiecePeek } from './PiecePeek';
 import { PieceFeedback } from './PieceFeedback';
 import { aDigitos } from '../utils/numerosPantalla.js';
+import { portadaTexts } from '../i18n/portada';
 import { track, noteAudio, setAudioProbe, noteFirstAudio } from '../utils/analytics';
 
 setAudioProbe(() => ttsPlayer.getState().isPlaying);
@@ -464,6 +465,14 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             {hasAudioFile ? <AudioLines className="w-4 h-4 text-jade-ink" /> : <Smartphone className="w-4 h-4" />}
             {hasAudioFile ? tp.realAudio : tp.voiceIn(strings.common.languageNames[readLang])}
           </p>
+          {finished && isFree && !hasPass && (
+            <div id="finished-buy" className="mt-4 rounded-2xl bg-oro/15 border border-oro/50 p-4">
+              <p className="text-[1.0625rem] font-bold leading-snug text-ink">{portadaTexts(currentLanguage).gustoTitulo}</p>
+              <button type="button" id="btn-finished-pass" onClick={onOpenPaywall} className="btn-primary w-full mt-3">
+                {portadaTexts(currentLanguage).gustoBoton}
+              </button>
+            </div>
+          )}
           {finished && mode === 'expres' && canExpand && (
             <div id="finished-more" className="mt-4 rounded-2xl bg-jade/15 border border-jade/50 p-4">
               <p className="text-[1.0625rem] font-bold leading-snug text-ink">{u.piece.moreAfterTitle}</p>

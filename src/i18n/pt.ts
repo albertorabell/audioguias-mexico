@@ -511,14 +511,9 @@ export const PT_GROUPS: Record<string, any> = {
     done: 'Entendi',
     stepOf: (n: number, total: number) => `${n} de ${total}`,
     museum: [
-      { title: 'Bem-vindo ao seu guia', text: 'Vou mostrar cada botão e para que serve. É só tocar em “Próximo”.' },
-      { title: 'Roteiros já montados', text: 'Aqui há roteiros prontos. Toque em um e o guia leva você obra por obra. Deslize para o lado para ver mais.' },
-      { title: 'Monte sua própria rota', text: 'Toque neste botão, diga quanto tempo você tem e do que gosta, e montamos o roteiro.' },
-      { title: 'Troque de andar', text: 'Toque aqui para ver as salas do térreo ou do andar superior.' },
-      { title: 'As salas', text: 'Cada linha é uma sala. Toque nela para ver suas obras na ordem em que são percorridas.' },
-      { title: 'Quatro botões sempre embaixo', text: 'Museu, Roteiros, Mapa e Buscar. Toque neles para mudar de seção quando quiser.' },
-      { title: 'Use sem internet', text: 'Dentro das salas quase não há sinal. Antes de entrar, toque aqui para baixar tudo.' },
-      { title: 'Pronto!', text: 'Abra qualquer obra e ali explico como ouvi-la. Esta ajuda fica sempre em “Como se usa?”.' },
+      { title: 'Comece aqui', text: 'Toque em “Começar roteiro” e o guia leva você parada por parada, na ordem em que se caminha.' },
+      { title: 'Ouça ou leia', text: 'Em cada parada, toque no botão verde para ouvir a história. O que você ouve é o que você lê.' },
+      { title: 'Use sem internet', text: 'Onde quase não há sinal, baixe tudo antes de entrar: toque aqui.' },
     ],
     piece: [
       { title: 'Toque aqui para ouvir', text: 'Este botão verde conta a história da obra. Toque de novo para pausar. A barra vai enchendo enquanto toca.' },

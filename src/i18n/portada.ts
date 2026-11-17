@@ -27,6 +27,16 @@ export interface PortadaTexts {
   combosTodos: string;
   /** Cómo funciona (una sola vez) */
   comoTitulo: string;
+  /** Etiqueta de las caminatas (tramos entre paradas) */
+  caminata: string;
+  /** Al terminar una parada gratis */
+  gustoTitulo: string;
+  /** Aviso de descarga en sitios al aire libre y recorridos urbanos (en los museos se usa el de «offline») */
+  descargaAbierto: string;
+  /** Descargar más de la ruta recomendada */
+  descargaTodo: string;
+  descargaRuta: string;
+  gustoBoton: string;
   region: Record<string, string>;
 }
 
@@ -48,6 +58,12 @@ const es: PortadaTexts = {
   combosIncluye: (n) => `${n} sitios`,
   combosTodos: 'Todos los sitios',
   comoTitulo: 'Cómo funciona',
+  caminata: 'Caminata',
+  gustoTitulo: "¿Te gustó? Desbloquea el resto de las paradas",
+  descargaAbierto: "En la zona y en las calles la señal suele ser débil. Descarga fotos y audios antes de salir.",
+  descargaTodo: "Descargar todo el sitio",
+  descargaRuta: "Descargar solo la ruta recomendada",
+  gustoBoton: "Ver el pase de 30 días",
   region: { cdmx: 'Ciudad de México', edomex: 'Estado de México', morelos: 'Morelos', yucatan: 'Yucatán' },
 };
 
@@ -69,6 +85,12 @@ const en: PortadaTexts = {
   combosIncluye: (n) => `${n} sites`,
   combosTodos: 'All sites',
   comoTitulo: 'How it works',
+  caminata: 'Walk',
+  gustoTitulo: "Enjoyed it? Unlock the rest of the stops",
+  descargaAbierto: "Signal is often weak on site and in the streets. Download photos and audio before you leave.",
+  descargaTodo: "Download the whole site",
+  descargaRuta: "Download only the recommended route",
+  gustoBoton: "See the 30-day pass",
   region: { cdmx: 'Mexico City', edomex: 'State of Mexico', morelos: 'Morelos', yucatan: 'Yucatán' },
 };
 
@@ -90,6 +112,12 @@ const fr: PortadaTexts = {
   combosIncluye: (n) => `${n} sites`,
   combosTodos: 'Tous les sites',
   comoTitulo: 'Comment ça marche',
+  caminata: 'Marche',
+  gustoTitulo: "Ça vous a plu ? Débloquez les autres étapes",
+  descargaAbierto: "Le réseau est souvent faible sur place et dans les rues. Téléchargez photos et audios avant de partir.",
+  descargaTodo: "Télécharger tout le site",
+  descargaRuta: "Télécharger seulement le parcours recommandé",
+  gustoBoton: "Voir le pass de 30 jours",
   region: { cdmx: 'Mexico', edomex: 'État de Mexico', morelos: 'Morelos', yucatan: 'Yucatán' },
 };
 
@@ -111,6 +139,12 @@ const pl: PortadaTexts = {
   combosIncluye: (n) => `Miejsca: ${n}`,
   combosTodos: 'Wszystkie miejsca',
   comoTitulo: 'Jak to działa',
+  caminata: 'Spacer',
+  gustoTitulo: "Podobało się? Odblokuj pozostałe przystanki",
+  descargaAbierto: "Na miejscu i na ulicach zasięg bywa słaby. Pobierz zdjęcia i nagrania przed wyjściem.",
+  descargaTodo: "Pobierz całe miejsce",
+  descargaRuta: "Pobierz tylko polecaną trasę",
+  gustoBoton: "Zobacz karnet na 30 dni",
   region: { cdmx: 'Miasto Meksyk', edomex: 'Stan Meksyk', morelos: 'Morelos', yucatan: 'Jukatan' },
 };
 
@@ -132,6 +166,12 @@ const de: PortadaTexts = {
   combosIncluye: (n) => `${n} Orte`,
   combosTodos: 'Alle Orte',
   comoTitulo: 'So funktioniert es',
+  caminata: 'Fußweg',
+  gustoTitulo: "Gefallen? Schalte die übrigen Stationen frei",
+  descargaAbierto: "Vor Ort und in den Straßen ist der Empfang oft schwach. Lade Fotos und Audios vor dem Losgehen herunter.",
+  descargaTodo: "Den ganzen Ort herunterladen",
+  descargaRuta: "Nur die empfohlene Route herunterladen",
+  gustoBoton: "30-Tage-Pass ansehen",
   region: { cdmx: 'Mexiko-Stadt', edomex: 'Bundesstaat México', morelos: 'Morelos', yucatan: 'Yucatán' },
 };
 
@@ -153,6 +193,12 @@ const pt: PortadaTexts = {
   combosIncluye: (n) => `${n} locais`,
   combosTodos: 'Todos os locais',
   comoTitulo: 'Como funciona',
+  caminata: 'Caminhada',
+  gustoTitulo: "Gostou? Desbloqueie as demais paradas",
+  descargaAbierto: "No local e nas ruas o sinal costuma ser fraco. Baixe fotos e áudios antes de sair.",
+  descargaTodo: "Baixar o local inteiro",
+  descargaRuta: "Baixar só o roteiro recomendado",
+  gustoBoton: "Ver o passe de 30 dias",
   region: { cdmx: 'Cidade do México', edomex: 'Estado do México', morelos: 'Morelos', yucatan: 'Iucatã' },
 };
 
@@ -174,6 +220,12 @@ const it: PortadaTexts = {
   combosIncluye: (n) => `${n} siti`,
   combosTodos: 'Tutti i siti',
   comoTitulo: 'Come funziona',
+  caminata: 'Camminata',
+  gustoTitulo: "Ti è piaciuto? Sblocca le altre tappe",
+  descargaAbierto: "Sul posto e per strada il campo è spesso debole. Scarica foto e audio prima di uscire.",
+  descargaTodo: "Scarica tutto il sito",
+  descargaRuta: "Scarica solo il percorso consigliato",
+  gustoBoton: "Vedi il pass da 30 giorni",
   region: { cdmx: 'Città del Messico', edomex: 'Stato del Messico', morelos: 'Morelos', yucatan: 'Yucatán' },
 };
 
