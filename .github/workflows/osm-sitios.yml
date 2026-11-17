@@ -35,8 +35,11 @@ jobs:
         with:
           node-version: 20
       - name: Traer datos de OpenStreetMap
+        timeout-minutes: 40
+        continue-on-error: true
         run: node scripts/mapa/osm-sitios.mjs osm-datos "$SITIOS"
       - name: Buscar planos con licencia abierta en Wikimedia Commons
+        timeout-minutes: 15
         continue-on-error: true
         run: node scripts/mapa/commons-planos.mjs osm-datos/planos
       - name: Recortar mapas sin internet de los sitios nuevos

@@ -37,11 +37,11 @@ function consulta(s) {
   const [w, so, e, n] = s.bbox;
   const b = `(${so},${w},${n},${e})`;
   if (s.solo_comida) {
-    return `[out:json][timeout:180];
+    return `[out:json][timeout:120];
 nwr["amenity"~"^(restaurant|fast_food|cafe|bar)$"]["name"]${b};
 out center tags;`;
   }
-  return `[out:json][timeout:180];
+  return `[out:json][timeout:120];
 nwr["name"][!"highway"][!"route"][!"public_transport"]${b}->.lugares;
 .lugares out center tags;
 out count;
@@ -68,7 +68,9 @@ async function pedir(q) {
   for (const url of SERVIDORES) {
     for (let intento = 0; intento < 2; intento++) {
       try {
-        const r = await fetch(url, { method: 'POST', headers: { 'User-Agent': AGENTE, 'Content-Type': 'application/x-www-form-urlencoded' }, body: `data=${encodeURIComponent(q)}` });
+        const t0 = Date.now();
+        const r = await fetch(url, { signal: AbortSignal.timeout(150000), method: 'POST', headers: { 'User-Agent': AGENTE, 'Content-Type': 'application/x-www-form-urlencoded' }, body: `data=${encodeURIComponent(q)}` });
+        console.log(`  ${url} → HTTP ${r.status} en ${Math.round((Date.now() - t0) / 1000)} s`);
         if (r.ok) return await r.json();
         ultimo = `${url} HTTP ${r.status}`;
         if (r.status === 429 || r.status === 504) await new Promise((ok) => setTimeout(ok, 20000));
@@ -123,6 +125,7 @@ for (const id of elegidos) {
     resumen.push(linea);
   } catch (e) {
     console.error(`${id}: ${e.message}`);
+    fs.writeFileSync(path.join(salida, `${id}.error.txt`), String(e.message));
     resumen.push(`${id}: ERROR ${e.message}`);
   }
   await new Promise((ok) => setTimeout(ok, 8000));

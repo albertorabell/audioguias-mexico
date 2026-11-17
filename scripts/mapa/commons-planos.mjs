@@ -27,7 +27,7 @@ const LIBRE = /^(public domain|pd|cc0|cc[- ]by(-sa)?([- ][\d.]+)?|cc by(-sa)? [\
 async function api(params) {
   const u = new URL(API);
   for (const [k, v] of Object.entries({ format: 'json', formatversion: '2', ...params })) u.searchParams.set(k, v);
-  const r = await fetch(u, { headers: { 'User-Agent': AGENTE } });
+  const r = await fetch(u, { signal: AbortSignal.timeout(60000), headers: { 'User-Agent': AGENTE } });
   if (!r.ok) throw new Error(`Commons HTTP ${r.status}`);
   return r.json();
 }
@@ -81,7 +81,7 @@ for (const [sitio, consultas] of Object.entries(BUSQUEDAS)) {
     if (!src) continue;
     const nombre = f.titulo.replace(/^File:/, '').replace(/[^\w.\-]+/g, '_').slice(0, 120) + (src === f.url ? '' : '.jpg');
     try {
-      const r = await fetch(src, { headers: { 'User-Agent': AGENTE } });
+      const r = await fetch(src, { signal: AbortSignal.timeout(60000), headers: { 'User-Agent': AGENTE } });
       if (r.ok) { fs.writeFileSync(path.join(dir, nombre), Buffer.from(await r.arrayBuffer())); f.archivo = nombre; }
     } catch (e) { f.error = e.message; }
     await new Promise((ok) => setTimeout(ok, 400));
