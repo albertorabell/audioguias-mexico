@@ -324,4 +324,8 @@ export interface SiteLicense {
   code?: string;
   /** Sitios que abre este pase: los ids, o ["todos"]. Si falta, solo abre el suyo (`site_id`). */
   covers?: string[];
+  /** false = comprado pero todavía sin empezar (empieza con el primer audio de pago); `expires_at` es entonces solo una cota. */
+  activated?: boolean;
+  /** Duración del pase en días desde el primer audio de pago. */
+  days?: number;
 }

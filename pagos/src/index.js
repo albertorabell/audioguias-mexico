@@ -14,6 +14,8 @@
 //   GET  /estadisticas  resumen de esos conteos (solo con la clave STATS_KEY)
 //   GET  /config     precios y forma de acceso (del sitio pedido con ?site=, o los de Stripe si no hay tabla) y reglas del pase
 //   POST /admin/codigos  el robot de GitHub publica los códigos de acceso (hoja CODIGOS); solo con la clave CODES_KEY
+//   GET  /admin/canjes   reporte de cuántas veces se usó cada código de acceso (solo con la clave CODES_KEY)
+//   POST /recuperar      manda al correo de la compra el código del pase (solo si hay servicio de correo configurado)
 //   GET  /audio/libre/<idioma>/<pieza>_<modo>.mp3          audios de piezas gratis (públicos, sin clave)
 //   GET  /audio/pago/<idioma>/<pieza>_<modo>.mp3?t=<clave> audios de piezas de pago (solo con clave vigente)
 //   (en el bucket R2 están en las carpetas libre/ y pago/ con el mismo nombre)
@@ -50,13 +52,45 @@ function settings(env) {
   return {
     origins: list(env.ALLOWED_ORIGINS, ''),
     sites: list(env.SITE_IDS, 'mna').map((x) => x.toLowerCase()),
-    hours: num(env.PASS_HOURS, 72),
+    // Duración del pase en días. PASS_DAYS manda; PASS_HOURS se acepta por compatibilidad (se redondea a días hacia arriba)
+    days: env.PASS_DAYS ? num(env.PASS_DAYS, 30) : env.PASS_HOURS ? Math.max(1, Math.ceil(num(env.PASS_HOURS, 720) / 24)) : 30,
     maxDevices: num(env.MAX_DEVICES, 2),
     // Cuántos días después de pagar se puede canjear por primera vez (el pase empieza a contar al canjear)
     sessionDays: num(env.SESSION_MAX_DAYS, 30),
     // Modo de pruebas: con "1" todo el contenido de pago se entrega sin pase (no se necesita Stripe)
     free: String(env.ACCESO_LIBRE ?? '0').trim() === '1',
   };
+}
+
+const DAY_MS = 86_400_000;
+/** Horas de un pase (para lo que aún se cuenta en horas: códigos de acceso, respuesta de /config). */
+const hoursOf = (cfg) => cfg.days * 24;
+
+/**
+ * Estado de un pase. El pase de 30 días (o el que diga su combo) EMPIEZA con el primer audio de pago:
+ *  - sin empezar: se puede empezar hasta `sessionDays` después de comprar; pasado ese plazo vence sin haberse usado.
+ *  - empezado: dura `days` desde `activatedAt`.
+ * Los pases viejos (sin `days`) siguen venciendo en `expiresAt`.
+ */
+export function passState(pass, cfg, now = Date.now()) {
+  if (!pass) return { active: false, pending: false, expiresAt: 0 };
+  if (pass.revoked) return { active: false, pending: false, expiresAt: pass.expiresAt || 0, revoked: true };
+  if (!pass.days) return { active: (pass.expiresAt || 0) > now, pending: false, expiresAt: pass.expiresAt || 0 };
+  if (pass.activatedAt) {
+    const expiresAt = pass.activatedAt + pass.days * DAY_MS;
+    return { active: expiresAt > now, pending: false, expiresAt, activatedAt: pass.activatedAt };
+  }
+  const startBy = (pass.boughtAt || pass.createdAt || now) + cfg.sessionDays * DAY_MS;
+  // Cota máxima de la clave mientras no ha empezado: el servidor revisa el pase en cada audio de pago, así que esta fecha solo acota
+  return { active: startBy > now, pending: true, startBy, expiresAt: startBy + pass.days * DAY_MS, activatedAt: 0 };
+}
+
+/** Pase nuevo. `days` sale del combo (si lo trae) o de la duración general. */
+function newPass(cfg, book, site, extra = {}) {
+  const now = Date.now();
+  const days = Math.max(1, Math.round(extra.days || book?.table?.combos[site]?.dias || cfg.days));
+  const { days: _d, ...rest } = extra;
+  return { site, devices: [], createdAt: now, boughtAt: extra.boughtAt || now, days, activatedAt: 0, expiresAt: 0, code: makeCode(), ...rest };
 }
 
 /**
@@ -155,27 +189,64 @@ async function loadPass(env, sessionId) {
 // El registro del pase debe vivir MÁS que la ventana en que una sesión pagada todavía se puede canjear
 // (sessionDays) más lo que dura el pase. Si se borrara antes, la misma sesión pagada daría otro pase nuevo.
 async function savePass(env, cfg, sessionId, pass) {
-  // Lo que falte para que venza este pase (puede ser más que PASS_HOURS si viene de un código con más horas)
-  const left = Math.max(Math.ceil((pass.expiresAt - Date.now()) / 1000), cfg.hours * 3600);
-  const ttl = cfg.sessionDays * 86400 + left + 86400;
+  // El registro vive hasta el último momento en que el pase podría seguir sirviendo (empezarlo a tiempo + su duración) más un margen
+  const st = passState(pass, cfg);
+  const last = Math.max(st.expiresAt || 0, Date.now() + (pass.days || cfg.days) * DAY_MS);
+  const ttl = Math.max(60, Math.ceil((last - Date.now()) / 1000) + cfg.sessionDays * 86400 + 86400);
   await env.PASES.put(`s:${sessionId}`, JSON.stringify(pass), { expirationTtl: ttl });
 }
 
 /** Agrega el dispositivo al pase (si cabe) y devuelve la respuesta con la clave. */
 async function grantAccess(env, cfg, book, sessionId, pass, deviceId) {
-  const now = Date.now();
   if (pass.revoked || (await isRevoked(env, sid12(sessionId)))) return { error: 'revoked', status: 403 };
-  if (pass.expiresAt <= now) return { error: 'expired', status: 410 };
+  const st = passState(pass, cfg);
+  if (!st.active) return { error: 'expired', status: 410 };
   if (!pass.devices.includes(deviceId)) {
     if (pass.devices.length >= cfg.maxDevices) return { error: 'device_limit', status: 403 };
     pass.devices.push(deviceId);
     await savePass(env, cfg, sessionId, pass);
   }
-  const token = await signToken({ sid: sessionId.slice(-12), site: pass.site, dev: deviceId, exp: pass.expiresAt }, env.TOKEN_SECRET);
+  return { status: 200, body: await passGrantBody(env, cfg, book, sessionId, pass, deviceId) };
+}
+
+/** La clave y los datos que recibe la app. Mientras el pase no empieza, la clave lleva `act: 0` y el servidor revisa el pase en cada audio de pago. */
+async function passGrantBody(env, cfg, book, sessionId, pass, deviceId) {
+  const st = passState(pass, cfg);
+  const token = await signToken({ sid: sessionId.slice(-12), sess: sessionId, site: pass.site, dev: deviceId, exp: st.expiresAt, act: st.activatedAt || 0 }, env.TOKEN_SECRET);
   return {
-    status: 200,
-    body: { token, site: pass.site, covers: coverageOf(book.table, pass.site), expiresAt: pass.expiresAt, code: pass.code, devices: pass.devices.length, maxDevices: cfg.maxDevices },
+    token,
+    site: pass.site,
+    covers: coverageOf(book.table, pass.site),
+    expiresAt: st.expiresAt,
+    activated: !st.pending,
+    days: pass.days || Math.ceil(cfg.days),
+    ...(st.pending ? { startBy: st.startBy } : {}),
+    code: pass.code,
+    devices: pass.devices.length,
+    maxDevices: cfg.maxDevices,
   };
+}
+
+/**
+ * Antes de entregar un audio o texto de pago con una clave que aún no tiene fecha de inicio (act: 0): se revisa el pase.
+ * `activate` = true (audio de pago): si todavía no había empezado, empieza ahora.
+ * Devuelve true si el pase sirve.
+ */
+async function pendingPassAllows(env, cfg, payload, activate) {
+  if (payload.act) return true; // ya con fecha de inicio: la clave misma lleva el vencimiento
+  if (!payload.sess) return true; // claves anteriores a este cambio: valen lo que dice su fecha
+  const pass = await loadPass(env, payload.sess);
+  if (!pass) return false;
+  let st = passState(pass, cfg);
+  if (!st.active) return false;
+  if (st.pending && activate) {
+    pass.activatedAt = Date.now();
+    pass.expiresAt = pass.activatedAt + pass.days * DAY_MS;
+    await savePass(env, cfg, payload.sess, pass);
+    await countEvent(env, 'pass_start', { s: pass.site });
+    st = passState(pass, cfg);
+  }
+  return st.active;
 }
 
 
@@ -191,7 +262,7 @@ async function isRevoked(env, id12) {
 
 /** Cancela el pase de una sesión pagada: deja de abrir audios y textos, y su código deja de funcionar. */
 async function revokeSession(env, cfg, sessionId) {
-  const ttl = cfg.sessionDays * 86400 + cfg.hours * 3600 + 86400;
+  const ttl = cfg.sessionDays * 86400 + 400 * 86400 + 86400; // más que el pase más largo (un año)
   await env.PASES.put(revokedKey(sid12(sessionId)), '1', { expirationTtl: ttl });
   const pass = await loadPass(env, sessionId);
   if (pass) {
@@ -265,7 +336,7 @@ const EVENTS = new Set([
   'route_start', 'tour_done', 'install', 'offline_download', 'search', 'purchase', 'refund', 'code_redeem',
   'screen_view', 'visit_country', 'audio_stop', 'util_si', 'util_no',
   'pass_code_shared', 'sample_play', 'app_error', 'visitor_new',
-  'first_audio', 'audio_error', 'paywall_block', 'free_end', 'route_stop', 'ally_visit',
+  'first_audio', 'audio_error', 'paywall_block', 'free_end', 'route_stop', 'ally_visit', 'pass_start', 'pass_recover',
 ]);
 const PIECE_RE = /^[a-z0-9_]{3,60}$/;
 const DAILY_KEY_LIMIT = 3000;
@@ -707,9 +778,9 @@ async function handleRedeem(request, env, cfg, cors) {
     // enlace de regreso (historial, captura de pantalla) podría canjearlo otra vez cuando el registro del pase ya no exista.
     const ageSeconds = Date.now() / 1000 - Number(session.created);
     if (!Number.isFinite(ageSeconds) || ageSeconds > cfg.sessionDays * 86400) return json({ error: 'expired' }, 410, cors);
-    // Primera vez que se canjea: el pase empieza a contar ahora
-    pass = { site, devices: [], createdAt: Date.now(), expiresAt: Date.now() + cfg.hours * 3600_000, code: makeCode() };
-    await env.PASES.put(codeKey(pass.code), sessionId, { expirationTtl: cfg.hours * 3600 + 7 * 86400 });
+    // Primera vez que se canjea: el pase queda comprado; su vigencia empieza con el primer audio de pago
+    pass = newPass(cfg, book, site, { boughtAt: Number.isFinite(Number(session.created)) ? Number(session.created) * 1000 : Date.now(), via: 'compra', email: session.customer_details?.email ? String(session.customer_details.email).toLowerCase().slice(0, 200) : undefined });
+    await env.PASES.put(codeKey(pass.code), sessionId, { expirationTtl: Math.ceil(passState(pass, cfg).expiresAt / 1000 - Date.now() / 1000) + 7 * 86400 });
     await savePass(env, cfg, sessionId, pass);
     await countEvent(env, 'purchase', { s: site, k: String(session.currency || '').toLowerCase() });
   }
@@ -742,11 +813,12 @@ async function redeemAccessCode(env, cfg, book, rawCode, siteId, deviceId) {
   if (acc.maxUses && (acc.uses || 0) >= acc.maxUses) return { error: 'code_exhausted', status: 410 };
   const bytes = crypto.getRandomValues(new Uint8Array(12));
   const sessionId = `acc_${Array.from(bytes, (b) => b.toString(16).padStart(2, '0')).join('')}`;
-  const hours = acc.hours || cfg.hours;
-  const pass = { site: acc.site, devices: [], createdAt: Date.now(), expiresAt: Date.now() + hours * 3600_000, code: makeCode(), via: 'codigo' };
-  await env.PASES.put(codeKey(pass.code), sessionId, { expirationTtl: hours * 3600 + 7 * 86400 });
+  // El pase de un código también empieza con el primer audio de pago; `hours` de la hoja (si trae) fija cuántos días dura
+  const pass = newPass(cfg, book, acc.site, { via: 'codigo', ...(acc.hours ? { days: Math.max(1, Math.ceil(acc.hours / 24)) } : {}) });
+  const life = Math.ceil(passState(pass, cfg).expiresAt / 1000 - Date.now() / 1000) + 7 * 86400;
+  await env.PASES.put(codeKey(pass.code), sessionId, { expirationTtl: life });
   await savePass(env, cfg, sessionId, pass);
-  await env.PASES.put(`ad:${norm}:${deviceId}`, sessionId, { expirationTtl: hours * 3600 + 7 * 86400 });
+  await env.PASES.put(`ad:${norm}:${deviceId}`, sessionId, { expirationTtl: life });
   acc.uses = (acc.uses || 0) + 1;
   await env.PASES.put(accessKey(norm), JSON.stringify(acc));
   await countEvent(env, 'code_redeem', { s: acc.site });
@@ -835,17 +907,119 @@ async function handleAdminCodes(request, env, cors) {
     const vence = Number.isFinite(expiresAt) ? expiresAt : 0;
     // Un código con fecha de vencimiento se borra solo del almacén una semana después de vencer (KV pide al menos 60 s)
     const ttl = vence ? Math.max(60, Math.ceil((vence - Date.now()) / 1000) + 7 * 86400) : 0;
-    await env.PASES.put(key, JSON.stringify({ site, hours: Math.min(num(c.hours), 24 * 30) || 0, maxUses: num(c.uses), expiresAt: vence, uses: prev?.uses || 0 }), ttl ? { expirationTtl: ttl } : undefined);
+    await env.PASES.put(key, JSON.stringify({ site, hours: Math.min(num(c.hours), 24 * 400) || 0, maxUses: num(c.uses), expiresAt: vence, uses: prev?.uses || 0 }), ttl ? { expirationTtl: ttl } : undefined);
     result.saved++;
   }
   return json(result, 200, cors);
+}
+
+// ---------------------------------------------------------------------------
+// Recuperar el pase con el correo de la compra (C3). El código NUNCA se muestra en pantalla: solo se manda al correo con el que se pagó.
+// Necesita un servicio de correo (Resend): variables RESEND_API_KEY y RECOVERY_FROM. Sin ellas la función no se ofrece.
+// ---------------------------------------------------------------------------
+const MAX_RESETS = 3;
+const recoveryReady = (env) => Boolean(env.RESEND_API_KEY && env.RECOVERY_FROM);
+
+const RECOVERY_TEXT = {
+  es: { subject: 'Tu pase de Xolo', hello: 'Estos son tus pases de Xolo. Escribe el código en la app (Pase → «Ya tengo un código») en tu teléfono nuevo.', line: (n, c, d) => `${n}: código ${c} (dura ${d} días desde el primer audio de pago)`, bye: 'Si no pediste este correo, ignóralo: nadie puede usar tu pase sin el código.' },
+  en: { subject: 'Your Xolo pass', hello: 'Here are your Xolo passes. Type the code in the app (Pass → "I have a code") on your new phone.', line: (n, c, d) => `${n}: code ${c} (lasts ${d} days from the first paid audio)`, bye: 'If you did not ask for this email, ignore it: nobody can use your pass without the code.' },
+  fr: { subject: 'Votre pass Xolo', hello: 'Voici vos pass Xolo. Saisissez le code dans l’application (Pass → « J’ai un code ») sur votre nouveau téléphone.', line: (n, c, d) => `${n} : code ${c} (valable ${d} jours à partir du premier audio payant)`, bye: 'Si vous n’avez pas demandé cet e-mail, ignorez-le : personne ne peut utiliser votre pass sans le code.' },
+  pl: { subject: 'Twój karnet Xolo', hello: 'Oto Twoje karnety Xolo. Wpisz kod w aplikacji (Karnet → „Mam kod”) na nowym telefonie.', line: (n, c, d) => `${n}: kod ${c} (ważny ${d} dni od pierwszego płatnego nagrania)`, bye: 'Jeśli to nie Ty poprosiłeś o tę wiadomość, zignoruj ją: bez kodu nikt nie użyje Twojego karnetu.' },
+  de: { subject: 'Dein Xolo-Pass', hello: 'Hier sind deine Xolo-Pässe. Gib den Code in der App ein (Pass → „Ich habe einen Code“), auf deinem neuen Handy.', line: (n, c, d) => `${n}: Code ${c} (gilt ${d} Tage ab dem ersten kostenpflichtigen Audio)`, bye: 'Wenn du diese E-Mail nicht angefordert hast, ignoriere sie: Ohne den Code kann niemand deinen Pass nutzen.' },
+  pt: { subject: 'Seu passe Xolo', hello: 'Estes são seus passes Xolo. Digite o código no app (Passe → «Já tenho um código») no seu novo celular.', line: (n, c, d) => `${n}: código ${c} (vale ${d} dias a partir do primeiro áudio pago)`, bye: 'Se você não pediu este e-mail, ignore: ninguém pode usar seu passe sem o código.' },
+  it: { subject: 'Il tuo pass Xolo', hello: 'Ecco i tuoi pass Xolo. Inserisci il codice nell’app (Pass → «Ho un codice») sul tuo nuovo telefono.', line: (n, c, d) => `${n}: codice ${c} (vale ${d} giorni dal primo audio a pagamento)`, bye: 'Se non hai richiesto questa e-mail, ignorala: nessuno può usare il tuo pass senza il codice.' },
+};
+
+async function sendRecoveryEmail(env, to, lang, lines) {
+  const t = RECOVERY_TEXT[lang] || RECOVERY_TEXT.es;
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ from: env.RECOVERY_FROM, to: [to], subject: t.subject, text: `${t.hello}\n\n${lines.map((l) => `• ${l}`).join('\n')}\n\n${t.bye}\n\nXolotli · xolotli.com` }),
+  });
+  return res.ok;
+}
+
+async function handleRecover(request, env, cfg, cors) {
+  if (!recoveryReady(env)) return json({ error: 'not_configured' }, 503, cors);
+  const body = await readJson(request);
+  const email = String(body?.email || '').trim().toLowerCase();
+  if (!EMAIL_RE.test(email)) return json({ error: 'bad_request' }, 400, cors);
+  if ((await codeFails(env, request)) >= CODE_FAIL_LIMIT) return json({ error: 'too_many_attempts' }, 429, cors);
+  await noteCodeFail(env, request); // cada intento cuenta: esto no es para probar correos ajenos
+  const lang = Object.hasOwn(RECOVERY_TEXT, String(body?.lang || '').slice(0, 2)) ? String(body.lang).slice(0, 2) : 'es';
+  const book = await loadBook(env, cfg);
+  let list;
+  try {
+    list = await stripeCall(env, 'GET', `checkout/sessions?customer_details[email]=${encodeURIComponent(email)}&limit=20`);
+  } catch (e) {
+    console.error('recuperar', e.message);
+    return json({ error: 'stripe_error' }, 502, cors);
+  }
+  const lines = [];
+  for (const sess of list?.data || []) {
+    if (sess.payment_status !== 'paid' || String(sess.customer_details?.email || '').toLowerCase() !== email) continue;
+    const site = sess.metadata?.site_id;
+    if (!book.ids.has(site) || (await isRevoked(env, sid12(sess.id)))) continue;
+    const pass = await loadPass(env, sess.id);
+    if (!pass || !passState(pass, cfg).active) continue;
+    // Teléfono perdido o cambiado: se liberan los lugares del pase (hasta MAX_RESETS veces)
+    if (pass.devices.length && (pass.resets || 0) < MAX_RESETS) {
+      pass.devices = [];
+      pass.resets = (pass.resets || 0) + 1;
+      await savePass(env, cfg, sess.id, pass);
+    }
+    const name = book.table?.combos[site]?.nombre?.[lang] || book.table?.combos[site]?.nombre?.es || book.table?.sites[site]?.nombre || site;
+    lines.push((RECOVERY_TEXT[lang] || RECOVERY_TEXT.es).line(name, pass.code, pass.days || cfg.days));
+  }
+  // Misma respuesta haya o no pases: no se confirma a nadie si un correo tiene compras
+  if (lines.length) {
+    const ok = await sendRecoveryEmail(env, email, lang, lines).catch(() => false);
+    if (ok) await countEvent(env, 'pass_recover', {});
+  }
+  return json({ ok: true }, 200, cors);
+}
+
+/** Reporte de canjes de los códigos de acceso (para Viator y similares). Solo con la clave CODES_KEY. Sin datos de personas: solo cuántas veces se usó cada código. */
+async function handleAdminRedemptions(request, env, cors) {
+  const auth = request.headers.get('Authorization') || '';
+  if (!env.CODES_KEY) return json({ error: 'not_configured' }, 503, cors);
+  if (!timingSafeEqual(auth, `Bearer ${env.CODES_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
+  if (typeof env.PASES.list !== 'function') return json({ error: 'not_configured' }, 503, cors);
+  const rows = [];
+  let cursor;
+  for (let page = 0; page < 10; page++) {
+    const res = await env.PASES.list({ prefix: 'a:', limit: 1000, ...(cursor ? { cursor } : {}) });
+    for (const k of res.keys || []) {
+      const acc = JSON.parse((await env.PASES.get(k.name)) || 'null');
+      if (acc) rows.push({ code: k.name.slice(2), site: acc.site, hours: acc.hours || 0, maxUses: acc.maxUses || 0, uses: acc.uses || 0, expiresAt: acc.expiresAt || 0 });
+    }
+    if (res.list_complete || !res.cursor) break;
+    cursor = res.cursor;
+  }
+  rows.sort((a, b) => a.code.localeCompare(b.code));
+  return json({ total: rows.length, used: rows.filter((r) => r.uses > 0).length, redemptions: rows.reduce((n, r) => n + r.uses, 0), codes: rows }, 200, cors);
 }
 
 async function handleStatus(request, env, cors) {
   const body = await readJson(request);
   const payload = body ? await verifyToken(body.token, env.TOKEN_SECRET) : null;
   if (payload && (await isRevoked(env, payload.sid))) return json({ valid: false, revoked: true }, 200, cors);
-  return payload ? json({ valid: true, expiresAt: payload.exp, site: payload.site }, 200, cors) : json({ valid: false }, 200, cors);
+  if (!payload) return json({ valid: false }, 200, cors);
+  // Con clave sin fecha de inicio: se dice cómo va el pase y, si ya empezó (en este u otro teléfono), se manda una clave nueva con su vencimiento real
+  if (!payload.act && payload.sess) {
+    const cfg = settings(env);
+    const pass = await loadPass(env, payload.sess);
+    const st = passState(pass, cfg);
+    if (!pass || !st.active) return json({ valid: false, expired: true }, 200, cors);
+    if (!st.pending) {
+      const book = await loadBook(env, cfg);
+      const g = await passGrantBody(env, cfg, book, payload.sess, pass, payload.dev);
+      return json({ valid: true, expiresAt: g.expiresAt, site: g.site, activated: true, days: g.days, token: g.token }, 200, cors);
+    }
+    return json({ valid: true, expiresAt: st.expiresAt, site: payload.site, activated: false, startBy: st.startBy, days: pass.days }, 200, cors);
+  }
+  return json({ valid: true, expiresAt: payload.exp, site: payload.site, activated: true }, 200, cors);
 }
 
 const toPrices = (e) => ({
@@ -854,14 +1028,14 @@ const toPrices = (e) => ({
 });
 
 async function handleConfig(env, cfg, cors, url) {
-  if (cfg.free) return json({ free: true, prices: {}, passHours: cfg.hours, maxDevices: cfg.maxDevices }, 200, { ...cors, 'Cache-Control': 'no-store' });
+  if (cfg.free) return json({ free: true, prices: {}, passHours: hoursOf(cfg), passDays: cfg.days, maxDevices: cfg.maxDevices }, 200, { ...cors, 'Cache-Control': 'no-store' });
   const book = await loadBook(env, cfg);
   const siteId = siteKey(url.searchParams.get('site'));
   const site = book.table ? book.table.sites[siteId] : null;
   // Pases combinados que abren este sitio (todos, si no se pidió uno)
   const combos = Object.entries(book.table?.combos || {})
     .filter(([id]) => !siteId || coversSite(book.table, id, siteId))
-    .map(([id, c]) => ({ id, name: c.nombre, sites: c.sitios, prices: toPrices(c) }));
+    .map(([id, c]) => ({ id, name: c.nombre, sites: c.sitios, prices: toPrices(c), days: c.dias || cfg.days }));
   let prices = toPrices(site);
   // Sitio sin precio propio (o sin tabla): el precio general de Stripe
   if (!prices.mxn) {
@@ -872,7 +1046,7 @@ async function handleConfig(env, cfg, cors, url) {
       return json({ error: 'stripe_error' }, 502, cors);
     }
   }
-  return json({ prices, access: site?.acceso || 'pago', ...(combos.length ? { combos } : {}), passHours: cfg.hours, maxDevices: cfg.maxDevices }, 200, { ...cors, 'Cache-Control': 'public, max-age=300' });
+  return json({ prices, access: site?.acceso || 'pago', ...(combos.length ? { combos } : {}), passHours: hoursOf(cfg), passDays: cfg.days, maxDevices: cfg.maxDevices, startWindowDays: cfg.sessionDays, ...(recoveryReady(env) ? { recovery: true } : {}) }, 200, { ...cors, 'Cache-Control': 'public, max-age=300' });
 }
 
 /**
@@ -910,6 +1084,8 @@ async function handleAudio(request, env, cfg, cors, url) {
     if (!isFreeSite(book, siteForPiece(book.table, m[3]))) {
       const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
       if (!tokenAllowsPiece(book, payload, m[3]) || (await isRevoked(env, payload.sid))) return new Response('Sin acceso', { status: 401, headers: cors });
+      // El primer audio de pago hace que empiece a contar el pase (solo al pedir el archivo, no al comprobar su tamaño)
+      if (!(await pendingPassAllows(env, cfg, payload, request.method !== 'HEAD'))) return new Response('Sin acceso', { status: 401, headers: cors });
     }
   }
 
@@ -956,7 +1132,7 @@ async function handleText(request, env, cfg, cors, url) {
   const book = await loadBook(env, cfg);
   if (!cfg.free) {
     const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
-    if (payload && (payload.site === COMBO || book.ids.has(payload.site)) && !(await isRevoked(env, payload.sid))) {
+    if (payload && (payload.site === COMBO || book.ids.has(payload.site)) && !(await isRevoked(env, payload.sid)) && (await pendingPassAllows(env, cfg, payload, false))) {
       scope = payload.site;
     } else {
       const free = siteKey(url.searchParams.get('site'));
@@ -1015,6 +1191,7 @@ export default {
       if (url.pathname === '/health') return json({ ok: true }, 200, cors);
       if (url.pathname === '/config' && request.method === 'GET') return handleConfig(env, cfg, cors, url);
       if (url.pathname === '/admin/codigos' && request.method === 'POST') return handleAdminCodes(request, env, cors);
+      if (url.pathname === '/admin/canjes' && request.method === 'GET') return handleAdminRedemptions(request, env, cors);
       if (url.pathname.startsWith('/texto/') && (request.method === 'GET' || request.method === 'HEAD')) return handleText(request, env, cfg, cors, url);
       if (url.pathname.startsWith('/audio/') && (request.method === 'GET' || request.method === 'HEAD')) return handleAudio(request, env, cfg, cors, url);
       if (request.method === 'POST' && url.pathname === '/stripe-webhook') return handleStripeWebhook(request, env, cfg, cors);
@@ -1027,6 +1204,7 @@ export default {
         if (url.pathname === '/promo') return handlePromo(request, env, cfg, cors);
         if (url.pathname === '/redeem') return handleRedeem(request, env, cfg, cors);
         if (url.pathname === '/code') return handleCode(request, env, cfg, cors);
+        if (url.pathname === '/recuperar') return handleRecover(request, env, cfg, cors);
         if (url.pathname === '/status') return handleStatus(request, env, cors);
       }
       return json({ error: 'not_found' }, 404, cors);

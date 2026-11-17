@@ -4,7 +4,7 @@ import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useSta
 import { X } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, PieceData, SiteLicense, Room } from './types';
 import { getSiteLicense, activatePass, revokePass, hasActivePass, isFreeAccess, setFreeAccess, setFreeSites } from './utils/license';
-import { fetchAccessMode, readPaymentReturn, redeemPendingSession, RETRYABLE_ERRORS, capturePromoFromUrl } from './utils/payments';
+import { fetchAccessMode, readPaymentReturn, redeemPendingSession, refreshPendingPasses, RETRYABLE_ERRORS, capturePromoFromUrl } from './utils/payments';
 import { PASS_HOURS } from './config/pass';
 import { Home } from './components/Home';
 import { MuseumScreen, ContinueInfo, byOrder } from './components/MuseumScreen';
@@ -233,6 +233,21 @@ export default function App() {
   const [paymentNotice, setPaymentNotice] = useState<{ kind: 'info' | 'success' | 'error'; text: string } | null>(null);
   const [currentLicense, setCurrentLicense] = useState<SiteLicense | null>(null);
   const [licenseVersion, setLicenseVersion] = useState(0);
+
+  // Un pase comprado empieza con el primer audio de pago: al abrir la app y al volver a ella se actualiza su vencimiento real
+  useEffect(() => {
+    const refresh = () => {
+      refreshPendingPasses().then((changed) => {
+        if (changed) setLicenseVersion((v) => v + 1);
+      });
+    };
+    refresh();
+    const onVisible = () => {
+      if (document.visibilityState === 'visible') refresh();
+    };
+    document.addEventListener('visibilitychange', onVisible);
+    return () => document.removeEventListener('visibilitychange', onVisible);
+  }, []);
   const [floor, setFloor] = useState<'PB' | 'PA'>('PB');
   /** Última pieza vista (para "sigue donde te quedaste" y "estás aquí" en el plano). */
   const [lastNav, setLastNav] = useState<PieceNav | null>(null);
@@ -959,6 +974,8 @@ export default function App() {
               passSite={currentLicense?.site_id}
               siteNames={siteNames}
               passExpiresAt={currentLicense?.expires_at}
+              passPending={currentLicense?.activated === false}
+              passDays={currentLicense?.days}
               passCode={currentLicense?.code}
               onPassChanged={() => setCurrentLicense(getSiteLicense(selectedSite.id))}
               onSimulatePurchase={handleSimulatePurchase}

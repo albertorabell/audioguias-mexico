@@ -134,6 +134,9 @@ export interface PassGrant {
   expiresAt?: number;
   /** Código corto para activar el pase en un segundo dispositivo. */
   code?: string;
+  /** false = aún no empieza (empieza con el primer audio de pago). */
+  activated?: boolean;
+  days?: number;
 }
 
 /** Guarda un pase en este dispositivo. Sin `grant` es un pase de prueba (modo demo / pruebas). */
@@ -146,6 +149,8 @@ export function activatePass(siteId: string, hours = PASS_HOURS, grant: PassGran
     ...(grant.token ? { token: grant.token } : {}),
     ...(grant.code ? { code: grant.code } : {}),
     ...(grant.covers?.length ? { covers: grant.covers } : {}),
+    ...(grant.activated === false ? { activated: false } : {}),
+    ...(grant.days ? { days: grant.days } : {}),
   };
   try {
     localStorage.setItem(keyFor(siteId), JSON.stringify(license));
@@ -183,4 +188,20 @@ export function formatRemainingHours(expiresAt: number): string {
   const hours = Math.floor(diffMs / (1000 * 60 * 60));
   const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
   return hours >= 1 ? `${hours}h ${minutes}m` : `${Math.max(1, minutes)}m`;
+}
+
+/** Los pases guardados que todavía no empiezan (comprados, sin primer audio de pago). */
+export function pendingLicenses(): SiteLicense[] {
+  const out: SiteLicense[] = [];
+  try {
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i) || '';
+      if (!key.startsWith(STORAGE_KEY_PREFIX)) continue;
+      const lic: SiteLicense = JSON.parse(localStorage.getItem(key) || 'null');
+      if (lic && lic.token && lic.activated === false) out.push(lic);
+    }
+  } catch {
+    /* sin almacenamiento */
+  }
+  return out;
 }

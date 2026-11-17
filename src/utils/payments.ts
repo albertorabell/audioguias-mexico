@@ -1,7 +1,7 @@
 import { PAYMENTS_API_URL, PAYMENTS_ENABLED } from '../config/payments';
 import { SupportedLanguage } from '../i18n/languages';
 import { PASS_HOURS } from '../config/pass';
-import { activatePass, getOrCreateDeviceId } from './license';
+import { activatePass, getOrCreateDeviceId, pendingLicenses } from './license';
 import type { SiteLicense } from '../types';
 
 /** Códigos de error que puede devolver el servidor de pagos (o la conexión). */
@@ -62,8 +62,14 @@ export interface PricingInfo {
   /** Cómo se entra a este sitio: pase de pago o solo con un código. */
   access?: 'pago' | 'codigo' | 'gratis';
   /** Pases combinados que abren este sitio. `sites` son los ids de los sitios que abre, o "todos". */
-  combos?: Array<{ id: string; name: Partial<Record<'es' | 'en' | 'fr' | 'pl', string>>; sites: string[] | 'todos'; prices: PriceSet }>;
+  combos?: Array<{ id: string; name: Partial<Record<'es' | 'en' | 'fr' | 'pl', string>>; sites: string[] | 'todos'; prices: PriceSet; days?: number }>;
   passHours: number;
+  /** Días que dura el pase desde el primer audio de pago. */
+  passDays?: number;
+  /** Días después de comprar en que todavía se puede empezar el pase. */
+  startWindowDays?: number;
+  /** El servidor puede mandar el código del pase al correo de la compra. */
+  recovery?: boolean;
   maxDevices: number;
 }
 
@@ -90,7 +96,28 @@ export async function startCheckout(siteId: string, lang: SupportedLanguage, pro
 }
 
 function storeGrant(fallbackSite: string, d: any): SiteLicense {
-  return activatePass(String(d.site || fallbackSite), PASS_HOURS, { token: d.token, expiresAt: d.expiresAt, code: d.code, covers: Array.isArray(d.covers) ? d.covers.map(String) : undefined });
+  return activatePass(String(d.site || fallbackSite), PASS_HOURS, { token: d.token, expiresAt: d.expiresAt, code: d.code, covers: Array.isArray(d.covers) ? d.covers.map(String) : undefined, activated: d.activated === false ? false : undefined, days: Number(d.days) || undefined });
+}
+
+/**
+ * Un pase comprado empieza con el primer audio de pago (en este teléfono o en otro). Aquí se le pregunta al servidor
+ * si ya empezó; si sí, se guarda la clave nueva con su vencimiento real. Devuelve true si algo cambió.
+ */
+export async function refreshPendingPasses(): Promise<boolean> {
+  let changed = false;
+  for (const lic of pendingLicenses()) {
+    const r = await post('/status', { token: lic.token });
+    if (!r.ok) continue;
+    if (r.data?.valid === false) {
+      // El plazo para empezarlo pasó (o lo cancelaron): ya no sirve
+      activatePass(lic.site_id, 0, { expiresAt: Date.now() });
+      changed = true;
+    } else if (r.data?.activated && r.data?.token) {
+      activatePass(lic.site_id, 0, { token: r.data.token, expiresAt: r.data.expiresAt, code: lic.code, covers: lic.covers, days: Number(r.data.days) || lic.days });
+      changed = true;
+    }
+  }
+  return changed;
 }
 
 /** El visitante regresó de Stripe: se confirma el pago y el pase queda guardado en este dispositivo. */
@@ -103,6 +130,12 @@ async function redeemSession(sessionId: string, siteId = ''): Promise<PaymentRes
 export async function redeemCode(code: string, siteId: string): Promise<PaymentResult<SiteLicense>> {
   const r = await post('/code', { code, siteId: siteId.toLowerCase(), deviceId: getOrCreateDeviceId() });
   return r.ok ? { ok: true, data: storeGrant(siteId, r.data) } : r;
+}
+
+/** Pide que el código del pase llegue al correo con el que se pagó. Siempre responde igual haya o no compras (así no se revela quién compró). */
+export async function requestRecovery(email: string, lang: SupportedLanguage): Promise<PaymentResult<{ ok: true }>> {
+  const r = await post('/recuperar', { email: email.trim(), lang });
+  return r.ok ? { ok: true, data: { ok: true } } : r;
 }
 
 export type PaymentReturn = { status: 'paid'; sessionId: string } | { status: 'cancelled' };

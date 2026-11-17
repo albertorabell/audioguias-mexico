@@ -211,7 +211,8 @@ export function leerAcceso(valor) {
 
 /**
  * Pestaña PASE_COMBINADO: un renglón por paquete. Columnas: id, nombre (y nombre_en, nombre_fr, nombre_pl), sitios
- * (ids separados por coma, o «todos»), precio_mxn, precio_usd, activo (NO lo apaga), notas.
+ * (ids separados por coma, o «todos»), precio_mxn, precio_usd, dias (cuánto dura el pase desde el primer audio de pago; vacío = 30),
+ * activo (NO lo apaga), notas.
  * Devuelve la lista de paquetes sin validar contra los sitios (eso lo hace construirPrecios).
  */
 export function leerCombos(filas, avisar = () => {}) {
@@ -232,7 +233,9 @@ export function leerCombos(filas, avisar = () => {}) {
     const sitios = quitarAcentos(o.sitios).toLowerCase().trim() === 'todos' ? 'todos' : o.sitios.split(/[,;]/).map((x) => x.trim().toLowerCase()).filter(Boolean);
     const nombre = { es: o.nombre || id };
     for (const l of ['en', 'fr', 'pl', 'de', 'pt', 'it']) if (o[`nombre_${l}`]) nombre[l] = o[`nombre_${l}`];
-    out.push({ id, nombre, sitios, mxn, usd: monto(o.precio_usd) });
+    const dias = Math.round(Number(String(o.dias || '').replace(',', '.')));
+    if (o.dias && !(dias >= 1 && dias <= 400)) avisar(`PASE_COMBINADO «${id}»: dias «${o.dias}» no es un número de 1 a 400; se usan 30.`);
+    out.push({ id, nombre, sitios, mxn, usd: monto(o.precio_usd), ...(dias >= 1 && dias <= 400 ? { dias } : {}) });
   });
   return out;
 }
@@ -262,7 +265,7 @@ export function construirPrecios(sitios, combos = [], avisar = () => {}) {
       if (!lista.length) { avisar(`PASE_COMBINADO «${c.id}»: no queda ningún sitio válido; no se vende.`); continue; }
     }
     if (c.id === 'todos' && lista !== 'todos') { avisar('PASE_COMBINADO: el id «todos» está reservado para el paquete que abre todos los sitios.'); continue; }
-    out[c.id] = { nombre: c.nombre, sitios: lista, mxn: c.mxn, usd: c.usd ?? null };
+    out[c.id] = { nombre: c.nombre, sitios: lista, mxn: c.mxn, usd: c.usd ?? null, ...(c.dias ? { dias: c.dias } : {}) };
   }
   return { sites, combos: out };
 }
