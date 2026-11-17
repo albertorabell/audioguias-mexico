@@ -24,7 +24,7 @@ import { linkIds, hasBrokenLink } from '../src/utils/pieceLinks.js';
 import { hayClave, leerPestana } from './google-sheets-lib.mjs';
 import { PAGINAS } from './seo-lib.mjs';
 import { cargarSitios, estaPublicado, CONTROL_ID as CONTROL_ID_PRECIOS } from './sitios-lib.mjs';
-import { aplicarDefiniciones, partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites, leerAntesDeIr, leerCombos, construirPrecios, aplicarPreciosASites, aplicarControlASites } from './sitios-extra-lib.mjs';
+import { aplicarDefiniciones, partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites, leerAntesDeIr, leerCombos, construirPrecios, aplicarPreciosASites, aplicarControlASites, aplicarConteosASites } from './sitios-extra-lib.mjs';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
@@ -927,6 +927,8 @@ export async function sync() {
       return entradaSitio(site, entry.rooms, entry.pieces, previa, { preview: entry.preview });
     });
     write(sitesPath, mezclarSites(actual, nuevas));
+    // MNA y Teotihuacán no pasan por entradaSitio: sus conteos salen de las salas y piezas realmente publicadas
+    write(sitesPath, aplicarConteosASites(JSON.parse(fs.readFileSync(sitesPath, 'utf-8')), { MNA: { salas: rooms.length, piezas: publicPieces.length }, ...(teo ? { TEOTIHUACAN: { salas: teo.rooms.length, piezas: teo.pieces.length } } : {}) }));
     console.log(`✅ sites.json: ${nuevas.map((n) => `${n.id} (${n.status})`).join(', ')}.`);
   }
 

@@ -177,3 +177,12 @@ test('aplicarControlASites: nombres por idioma, tipo, región y orden desde CONT
   assert.equal(out[3].site_type, undefined, 'tipo inválido no se escribe');
   assert.equal(avisos.length, 2);
 });
+
+test('conteos de MNA y Teotihuacán salen de lo publicado; otros sitios no se tocan', async () => {
+  const { aplicarConteosASites } = await import('../sitios-extra-lib.mjs');
+  const lista = [{ id: 'MNA', total_stops: 22, highlights_count: 178 }, { id: 'TEOTIHUACAN', total_stops: 9, highlights_count: 33 }, { id: 'COYOACAN', total_stops: 5, highlights_count: 22 }];
+  const r = aplicarConteosASites(lista, { MNA: { salas: 12, piezas: 127 } });
+  assert.deepEqual([r[0].total_stops, r[0].highlights_count], [12, 127]);
+  assert.deepEqual(r[1], lista[1]);
+  assert.deepEqual(r[2], lista[2]);
+});
