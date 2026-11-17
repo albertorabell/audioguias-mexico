@@ -42,7 +42,7 @@ export function construirRutasSitio(siteId, piezas, salas, defs, rutasPorId, avi
       if (!conocidas.has(k)) avisar(`${siteId}: la columna rutas usa un valor que no está en la pestaña RUTAS`, `${p.piece_id} → "${k}"`);
     }
   }
-  return defs.map(({ key, ...ruta }) => {
+  const rutas = defs.map(({ key, ...ruta }) => {
     const stops = piezas
       .map((p, i) => ({ p, i }))
       .filter(({ p }) => rutasDe(p).includes(key))
@@ -63,8 +63,16 @@ export function construirRutasSitio(siteId, piezas, salas, defs, rutasPorId, avi
         map_coords: { x: p.map_x, y: p.map_y },
         tags: [siteId],
       }));
-    return { ...ruta, stops };
+    return { key, ...ruta, stops };
   });
+  // Una ruta que se quedó sin paradas (por ejemplo, porque todas sus piezas están ocultas con publicar = NO) no se muestra
+  return rutas
+    .filter(({ key, stops }) => {
+      if (stops.length >= 1) return true;
+      avisar(`${siteId}: la ruta "${key}" no tiene paradas publicadas y no se muestra`, `${stops.length} parada(s)`);
+      return false;
+    })
+    .map(({ key, ...ruta }) => ruta);
 }
 
 /**
