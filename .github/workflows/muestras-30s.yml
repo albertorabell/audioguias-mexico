@@ -37,6 +37,7 @@ jobs:
           IDIOMAS: ${{ inputs.idiomas || 'es,en,fr,pl,de,pt,it' }}
         run: |
           set -euo pipefail
+          sudo apt-get install -y -qq ffmpeg >/dev/null
           mkdir -p public/audio/muestras
           for l in ${IDIOMAS//,/ }; do
             curl -fsS "$BASE/audio/libre/$l/${PIEZA}_corto.mp3" -o "/tmp/$l.mp3"
