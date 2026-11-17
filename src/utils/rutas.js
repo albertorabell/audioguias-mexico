@@ -24,8 +24,22 @@ export function rutaDe(sitioId, paradaId = '') {
   return paradaId ? `${base}/${encodeURIComponent(paradaId)}` : base;
 }
 
-/** Dirección canónica (la que debe declarar la página para Google) de una ruta. */
-export function canonicaDe(pathname) {
+/**
+ * Dirección canónica (la «oficial» para Google) de una ruta de la app.
+ * Las páginas de /guias/ son las que se indexan: /sitio/<sitio> declara como oficial la guía de ese sitio, y
+ * /sitio/<sitio>/<parada> la página de la parada si es gratis (si no, la guía del sitio: las de pago no tienen página).
+ * `mapa` es data/guias.json; sin él (o para un sitio sin guía) cada dirección es su propia canónica.
+ *
+ * @param {string} pathname
+ * @param {{ sitios?: Record<string, string>, paradas?: Record<string, string> } | null} [mapa]
+ */
+export function canonicaDe(pathname, mapa = null) {
   const r = leerRuta(pathname);
-  return r ? `${DOMINIO}${rutaDe(r.sitio, r.parada)}` : `${DOMINIO}/`;
+  if (!r) return `${DOMINIO}/`;
+  const id = r.sitio.toLowerCase();
+  const parada = r.parada && mapa?.paradas?.[`${id}/${r.parada}`];
+  if (parada) return `${DOMINIO}${parada}`;
+  const guia = mapa?.sitios?.[id];
+  if (guia) return `${DOMINIO}${guia}`;
+  return `${DOMINIO}${rutaDe(r.sitio, r.parada)}`;
 }
