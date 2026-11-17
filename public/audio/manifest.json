@@ -6,7 +6,7 @@
         "corto": {
           "hash": "c0c46859837fa64c",
           "file": "de/bas_01_calzada_misterios_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 45,
           "bytes": 268560,
           "provider": "azure"
@@ -14,7 +14,7 @@
         "largo": {
           "hash": "36775ee3cec7b1b9",
           "file": "de/bas_01_calzada_misterios_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 197,
           "bytes": 1183680,
           "provider": "azure"
@@ -330,7 +330,7 @@
         "corto": {
           "hash": "a14a92fdc742c436",
           "file": "de/bas_19_imagen_guadalupana_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 38,
           "bytes": 230688,
           "provider": "azure"
@@ -338,7 +338,7 @@
         "largo": {
           "hash": "a4e976d3f00efe5f",
           "file": "de/bas_19_imagen_guadalupana_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 192,
           "bytes": 1150128,
           "provider": "azure"
@@ -456,7 +456,7 @@
         "corto": {
           "hash": "6001047f7f7b08f3",
           "file": "de/cdmx_07_palacio_postal_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 49,
           "bytes": 292176,
           "provider": "azure"
@@ -464,7 +464,7 @@
         "largo": {
           "hash": "a7fbb2ab4ffe5ed1",
           "file": "de/cdmx_07_palacio_postal_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 199,
           "bytes": 1195056,
           "provider": "azure"
@@ -780,7 +780,7 @@
         "corto": {
           "hash": "4e7c2d039bd3abcf",
           "file": "de/cdmx_25_zocalo_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 45,
           "bytes": 271728,
           "provider": "azure"
@@ -788,7 +788,7 @@
         "largo": {
           "hash": "1ea07159c17e569b",
           "file": "de/cdmx_25_zocalo_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 203,
           "bytes": 1215648,
           "provider": "azure"
@@ -1374,7 +1374,7 @@
         "corto": {
           "hash": "1b8447e798e0ad25",
           "file": "de/chap_07_carruaje_juarez_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 48,
           "bytes": 288288,
           "provider": "azure"
@@ -1382,7 +1382,7 @@
         "largo": {
           "hash": "fdab203d2cd53941",
           "file": "de/chap_07_carruaje_juarez_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 253,
           "bytes": 1518192,
           "provider": "azure"
@@ -1428,7 +1428,7 @@
         "corto": {
           "hash": "82edaac626c4bd74",
           "file": "de/chap_09_mural_siqueiros_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 46,
           "bytes": 275760,
           "provider": "azure"
@@ -1436,7 +1436,7 @@
         "largo": {
           "hash": "9fa3f45c0e09198b",
           "file": "de/chap_09_mural_siqueiros_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 269,
           "bytes": 1616688,
           "provider": "azure"
@@ -1878,7 +1878,7 @@
         "corto": {
           "hash": "88a6ef8d930b7a31",
           "file": "de/chi_02_castillo_general_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 44,
           "bytes": 266688,
           "provider": "azure"
@@ -1886,7 +1886,7 @@
         "largo": {
           "hash": "1b14498b29a5ea16",
           "file": "de/chi_02_castillo_general_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 178,
           "bytes": 1067904,
           "provider": "azure"
@@ -1986,7 +1986,7 @@
         "corto": {
           "hash": "b503036f37f1d67c",
           "file": "de/chi_08_gran_juego_pelota_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 39,
           "bytes": 236736,
           "provider": "azure"
@@ -1994,7 +1994,7 @@
         "largo": {
           "hash": "161419aa018e221d",
           "file": "de/chi_08_gran_juego_pelota_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 181,
           "bytes": 1086480,
           "provider": "azure"
@@ -2778,7 +2778,7 @@
         "corto": {
           "hash": "7bfbcd8c244d06cc",
           "file": "de/coy_02_puerta_de_piedra_atrio_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 36,
           "bytes": 214272,
           "provider": "azure"
@@ -2786,7 +2786,7 @@
         "largo": {
           "hash": "375a29dad0fc1d1d",
           "file": "de/coy_02_puerta_de_piedra_atrio_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 125,
           "bytes": 749376,
           "provider": "azure"
@@ -3012,7 +3012,7 @@
         "corto": {
           "hash": "ca346a65f42c4c8b",
           "file": "de/coy_15_esquina_casa_azul_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 41,
           "bytes": 244800,
           "provider": "azure"
@@ -3020,7 +3020,7 @@
         "largo": {
           "hash": "b28640ff9f7fda8e",
           "file": "de/coy_15_esquina_casa_azul_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 101,
           "bytes": 607104,
           "provider": "azure"
@@ -3174,7 +3174,7 @@
         "corto": {
           "hash": "0ac1683ac2dd0d7c",
           "file": "de/cue_01_zapata_plaza_armas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 51,
           "bytes": 304992,
           "provider": "azure"
@@ -3182,7 +3182,7 @@
         "largo": {
           "hash": "40516fef04efdf1f",
           "file": "de/cue_01_zapata_plaza_armas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 198,
           "bytes": 1186128,
           "provider": "azure"
@@ -3300,7 +3300,7 @@
         "corto": {
           "hash": "3a99c494ed0d5051",
           "file": "de/cue_09_rivera_conquista_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 51,
           "bytes": 303408,
           "provider": "azure"
@@ -3308,7 +3308,7 @@
         "largo": {
           "hash": "adf8752bd73173c3",
           "file": "de/cue_09_rivera_conquista_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 209,
           "bytes": 1256400,
           "provider": "azure"
@@ -3894,7 +3894,7 @@
         "corto": {
           "hash": "a28fc2235fb44835",
           "file": "de/mna_s00_el_paraguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 47,
           "bytes": 281808,
           "provider": "azure"
@@ -3902,7 +3902,7 @@
         "largo": {
           "hash": "38b7d6c87f13e6bf",
           "file": "de/mna_s00_el_paraguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 173,
           "bytes": 1035072,
           "provider": "azure"
@@ -4812,7 +4812,7 @@
         "corto": {
           "hash": "15d173b7d273d6a0",
           "file": "de/mna_s06_piedra_sol_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 44,
           "bytes": 262800,
           "provider": "azure"
@@ -4820,7 +4820,7 @@
         "largo": {
           "hash": "e8dd263a0e1587a3",
           "file": "de/mna_s06_piedra_sol_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 287,
           "bytes": 1719936,
           "provider": "azure"
@@ -7584,7 +7584,7 @@
         "corto": {
           "hash": "97c11212f3c53c2f",
           "file": "de/teo_27_tetitla_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 29,
           "bytes": 175536,
           "provider": "azure"
@@ -7592,7 +7592,7 @@
         "largo": {
           "hash": "57654bef31ed94fb",
           "file": "de/teo_27_tetitla_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 132,
           "bytes": 792000,
           "provider": "azure"
@@ -8286,7 +8286,7 @@
         "corto": {
           "hash": "6fc844e9b12ffa74",
           "file": "de/xoc_02_ciudad_en_cerros_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 45,
           "bytes": 267552,
           "provider": "azure"
@@ -8294,7 +8294,7 @@
         "largo": {
           "hash": "120eda87672812a4",
           "file": "de/xoc_02_ciudad_en_cerros_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 134,
           "bytes": 804672,
           "provider": "azure"
@@ -8304,7 +8304,7 @@
         "corto": {
           "hash": "b059de484c4b8bf5",
           "file": "de/xoc_03_camino_entrada_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 278928,
           "provider": "azure"
@@ -8312,7 +8312,7 @@
         "largo": {
           "hash": "13981c8d3fd3a6c3",
           "file": "de/xoc_03_camino_entrada_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 109,
           "bytes": 652176,
           "provider": "azure"
@@ -8484,7 +8484,7 @@
         "corto": {
           "hash": "e9c34601d8d4f552",
           "file": "de/xoc_13_serpientes_emplumadas_1_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 49,
           "bytes": 294192,
           "provider": "azure"
@@ -8492,7 +8492,7 @@
         "largo": {
           "hash": "a1a279be3d0b862b",
           "file": "de/xoc_13_serpientes_emplumadas_1_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 127,
           "bytes": 759456,
           "provider": "azure"
@@ -8774,7 +8774,7 @@
         "corto": {
           "hash": "6d9e06e2c4eede9d",
           "file": "en/bas_01_calzada_misterios_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 41,
           "bytes": 247680,
           "provider": "azure"
@@ -8782,7 +8782,7 @@
         "largo": {
           "hash": "df5e1961f9a248b7",
           "file": "en/bas_01_calzada_misterios_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 179,
           "bytes": 1075248,
           "provider": "azure"
@@ -9098,7 +9098,7 @@
         "corto": {
           "hash": "86a66ed99a39d555",
           "file": "en/bas_19_imagen_guadalupana_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 37,
           "bytes": 223344,
           "provider": "azure"
@@ -9106,7 +9106,7 @@
         "largo": {
           "hash": "e37fe83a0e300d93",
           "file": "en/bas_19_imagen_guadalupana_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 177,
           "bytes": 1061136,
           "provider": "azure"
@@ -9224,7 +9224,7 @@
         "corto": {
           "hash": "44d8ebe064ef7fcb",
           "file": "en/cdmx_07_palacio_postal_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 45,
           "bytes": 269712,
           "provider": "azure"
@@ -9232,7 +9232,7 @@
         "largo": {
           "hash": "fba0666c8129ef53",
           "file": "en/cdmx_07_palacio_postal_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 179,
           "bytes": 1073376,
           "provider": "azure"
@@ -9548,7 +9548,7 @@
         "corto": {
           "hash": "9567adaef273c052",
           "file": "en/cdmx_25_zocalo_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 41,
           "bytes": 248400,
           "provider": "azure"
@@ -9556,7 +9556,7 @@
         "largo": {
           "hash": "b8af140a23a7f4ed",
           "file": "en/cdmx_25_zocalo_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 188,
           "bytes": 1125504,
           "provider": "azure"
@@ -10142,7 +10142,7 @@
         "corto": {
           "hash": "ee3a369fd1146088",
           "file": "en/chap_07_carruaje_juarez_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 43,
           "bytes": 258048,
           "provider": "azure"
@@ -10150,7 +10150,7 @@
         "largo": {
           "hash": "f4967ddfef01f5df",
           "file": "en/chap_07_carruaje_juarez_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 233,
           "bytes": 1400112,
           "provider": "azure"
@@ -10196,7 +10196,7 @@
         "corto": {
           "hash": "135a241abb317285",
           "file": "en/chap_09_mural_siqueiros_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 240768,
           "provider": "azure"
@@ -10204,7 +10204,7 @@
         "largo": {
           "hash": "5e8a6efa2c2d5cc0",
           "file": "en/chap_09_mural_siqueiros_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 250,
           "bytes": 1501056,
           "provider": "azure"
@@ -10646,7 +10646,7 @@
         "corto": {
           "hash": "eff0b9d48fcb4bce",
           "file": "en/chi_02_castillo_general_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 44,
           "bytes": 263664,
           "provider": "azure"
@@ -10654,7 +10654,7 @@
         "largo": {
           "hash": "04b0c89b2b4cc128",
           "file": "en/chi_02_castillo_general_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 167,
           "bytes": 999216,
           "provider": "azure"
@@ -10754,7 +10754,7 @@
         "corto": {
           "hash": "ae5c3f20e735b3ee",
           "file": "en/chi_08_gran_juego_pelota_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 35,
           "bytes": 211824,
           "provider": "azure"
@@ -10762,7 +10762,7 @@
         "largo": {
           "hash": "c994504aa147a780",
           "file": "en/chi_08_gran_juego_pelota_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 169,
           "bytes": 1011888,
           "provider": "azure"
@@ -11546,7 +11546,7 @@
         "corto": {
           "hash": "5fca41dce4e91e82",
           "file": "en/coy_02_puerta_de_piedra_atrio_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 36,
           "bytes": 216576,
           "provider": "azure"
@@ -11554,7 +11554,7 @@
         "largo": {
           "hash": "a86c28ad74bebe77",
           "file": "en/coy_02_puerta_de_piedra_atrio_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 118,
           "bytes": 707328,
           "provider": "azure"
@@ -11780,7 +11780,7 @@
         "corto": {
           "hash": "e9bc61d6a3257ce7",
           "file": "en/coy_15_esquina_casa_azul_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 38,
           "bytes": 225648,
           "provider": "azure"
@@ -11788,7 +11788,7 @@
         "largo": {
           "hash": "0def92031a2b3ba8",
           "file": "en/coy_15_esquina_casa_azul_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 92,
           "bytes": 552528,
           "provider": "azure"
@@ -11942,7 +11942,7 @@
         "corto": {
           "hash": "1ac5bdd75d7a4807",
           "file": "en/cue_01_zapata_plaza_armas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 48,
           "bytes": 290448,
           "provider": "azure"
@@ -11950,7 +11950,7 @@
         "largo": {
           "hash": "a801bb88f38c47fe",
           "file": "en/cue_01_zapata_plaza_armas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 185,
           "bytes": 1112832,
           "provider": "azure"
@@ -12068,7 +12068,7 @@
         "corto": {
           "hash": "7db3e7e80dfb26a0",
           "file": "en/cue_09_rivera_conquista_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 48,
           "bytes": 289440,
           "provider": "azure"
@@ -12076,7 +12076,7 @@
         "largo": {
           "hash": "234e03ff77d497f4",
           "file": "en/cue_09_rivera_conquista_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 196,
           "bytes": 1174320,
           "provider": "azure"
@@ -12662,7 +12662,7 @@
         "corto": {
           "hash": "29b5f97b8851387e",
           "file": "en/mna_s00_el_paraguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 44,
           "bytes": 261504,
           "provider": "azure"
@@ -12670,7 +12670,7 @@
         "largo": {
           "hash": "84c81389a52324a0",
           "file": "en/mna_s00_el_paraguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 160,
           "bytes": 960480,
           "provider": "azure"
@@ -13580,7 +13580,7 @@
         "corto": {
           "hash": "a1ebcfdfe1658216",
           "file": "en/mna_s06_piedra_sol_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 41,
           "bytes": 243360,
           "provider": "azure"
@@ -13588,7 +13588,7 @@
         "largo": {
           "hash": "55141d4d5cd72347",
           "file": "en/mna_s06_piedra_sol_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 268,
           "bytes": 1608192,
           "provider": "azure"
@@ -16352,7 +16352,7 @@
         "corto": {
           "hash": "0792c642aebb6461",
           "file": "en/teo_27_tetitla_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 27,
           "bytes": 161568,
           "provider": "azure"
@@ -16360,7 +16360,7 @@
         "largo": {
           "hash": "1a39590a0f7fc894",
           "file": "en/teo_27_tetitla_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 115,
           "bytes": 692784,
           "provider": "azure"
@@ -17054,7 +17054,7 @@
         "corto": {
           "hash": "f728de77f0302605",
           "file": "en/xoc_02_ciudad_en_cerros_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 43,
           "bytes": 256176,
           "provider": "azure"
@@ -17062,7 +17062,7 @@
         "largo": {
           "hash": "32da539fe13e29cb",
           "file": "en/xoc_02_ciudad_en_cerros_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 124,
           "bytes": 746064,
           "provider": "azure"
@@ -17072,7 +17072,7 @@
         "corto": {
           "hash": "0aefd5b07325af3f",
           "file": "en/xoc_03_camino_entrada_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 41,
           "bytes": 248688,
           "provider": "azure"
@@ -17080,7 +17080,7 @@
         "largo": {
           "hash": "5913bab439bf50c8",
           "file": "en/xoc_03_camino_entrada_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 98,
           "bytes": 588672,
           "provider": "azure"
@@ -17252,7 +17252,7 @@
         "corto": {
           "hash": "fd8ad5972fc3eaa3",
           "file": "en/xoc_13_serpientes_emplumadas_1_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 45,
           "bytes": 270000,
           "provider": "azure"
@@ -17260,7 +17260,7 @@
         "largo": {
           "hash": "ac8de0d49bb59d9b",
           "file": "en/xoc_13_serpientes_emplumadas_1_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 120,
           "bytes": 719712,
           "provider": "azure"
@@ -17542,7 +17542,7 @@
         "corto": {
           "hash": "30aef9232e1662e7",
           "file": "es/bas_01_calzada_misterios_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 40,
           "bytes": 239184,
           "provider": "azure"
@@ -17550,7 +17550,7 @@
         "largo": {
           "hash": "4969316144d73ea5",
           "file": "es/bas_01_calzada_misterios_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 174,
           "bytes": 1045152,
           "provider": "azure"
@@ -17866,7 +17866,7 @@
         "corto": {
           "hash": "80f103db92ab93ab",
           "file": "es/bas_19_imagen_guadalupana_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 35,
           "bytes": 210096,
           "provider": "azure"
@@ -17874,7 +17874,7 @@
         "largo": {
           "hash": "65c4811d401a1269",
           "file": "es/bas_19_imagen_guadalupana_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 166,
           "bytes": 997344,
           "provider": "azure"
@@ -17992,7 +17992,7 @@
         "corto": {
           "hash": "b68e8488f6218c5d",
           "file": "es/cdmx_07_palacio_postal_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 42,
           "bytes": 254160,
           "provider": "azure"
@@ -18000,7 +18000,7 @@
         "largo": {
           "hash": "0351bc4b5dd418fe",
           "file": "es/cdmx_07_palacio_postal_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 170,
           "bytes": 1022256,
           "provider": "azure"
@@ -18316,7 +18316,7 @@
         "corto": {
           "hash": "9820e6f2b849ca13",
           "file": "es/cdmx_25_zocalo_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 39,
           "bytes": 235728,
           "provider": "azure"
@@ -18324,7 +18324,7 @@
         "largo": {
           "hash": "9c99ea1f252dbd87",
           "file": "es/cdmx_25_zocalo_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 178,
           "bytes": 1070640,
           "provider": "azure"
@@ -18910,7 +18910,7 @@
         "corto": {
           "hash": "4778144c288fb4a2",
           "file": "es/chap_07_carruaje_juarez_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 42,
           "bytes": 251280,
           "provider": "azure"
@@ -18918,7 +18918,7 @@
         "largo": {
           "hash": "95000d4a526b6be9",
           "file": "es/chap_07_carruaje_juarez_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 223,
           "bytes": 1338768,
           "provider": "azure"
@@ -18964,7 +18964,7 @@
         "corto": {
           "hash": "6210a75e225d1bec",
           "file": "es/chap_09_mural_siqueiros_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 241776,
           "provider": "azure"
@@ -18972,7 +18972,7 @@
         "largo": {
           "hash": "47502f3616a8a252",
           "file": "es/chap_09_mural_siqueiros_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 235,
           "bytes": 1407888,
           "provider": "azure"
@@ -19414,7 +19414,7 @@
         "corto": {
           "hash": "197a292bb9c332c0",
           "file": "es/chi_02_castillo_general_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 239328,
           "provider": "azure"
@@ -19422,7 +19422,7 @@
         "largo": {
           "hash": "d36581ab2ec1a3b3",
           "file": "es/chi_02_castillo_general_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 159,
           "bytes": 952848,
           "provider": "azure"
@@ -19522,7 +19522,7 @@
         "corto": {
           "hash": "82ffd409cad34dba",
           "file": "es/chi_08_gran_juego_pelota_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 35,
           "bytes": 209952,
           "provider": "azure"
@@ -19530,7 +19530,7 @@
         "largo": {
           "hash": "5860d621a7e2c927",
           "file": "es/chi_08_gran_juego_pelota_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 161,
           "bytes": 963360,
           "provider": "azure"
@@ -20314,7 +20314,7 @@
         "corto": {
           "hash": "82d44203a351b637",
           "file": "es/coy_02_puerta_de_piedra_atrio_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 33,
           "bytes": 195408,
           "provider": "azure"
@@ -20322,7 +20322,7 @@
         "largo": {
           "hash": "cb6f6024a92ad250",
           "file": "es/coy_02_puerta_de_piedra_atrio_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 113,
           "bytes": 680976,
           "provider": "azure"
@@ -20548,7 +20548,7 @@
         "corto": {
           "hash": "a1626504f42019d7",
           "file": "es/coy_15_esquina_casa_azul_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 36,
           "bytes": 217008,
           "provider": "azure"
@@ -20556,7 +20556,7 @@
         "largo": {
           "hash": "f8e0380e3eef0df5",
           "file": "es/coy_15_esquina_casa_azul_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 92,
           "bytes": 551520,
           "provider": "azure"
@@ -20710,7 +20710,7 @@
         "corto": {
           "hash": "cf3ae717704a3d0d",
           "file": "es/cue_01_zapata_plaza_armas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 45,
           "bytes": 269280,
           "provider": "azure"
@@ -20718,7 +20718,7 @@
         "largo": {
           "hash": "d5734c70a019f99e",
           "file": "es/cue_01_zapata_plaza_armas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 170,
           "bytes": 1019520,
           "provider": "azure"
@@ -20836,7 +20836,7 @@
         "corto": {
           "hash": "a9d51782f69a1b8f",
           "file": "es/cue_09_rivera_conquista_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 44,
           "bytes": 262800,
           "provider": "azure"
@@ -20844,7 +20844,7 @@
         "largo": {
           "hash": "c72769eeba03a349",
           "file": "es/cue_09_rivera_conquista_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 184,
           "bytes": 1105488,
           "provider": "azure"
@@ -21430,7 +21430,7 @@
         "corto": {
           "hash": "e62983583324f379",
           "file": "es/mna_s00_el_paraguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 41,
           "bytes": 247968,
           "provider": "azure"
@@ -21438,7 +21438,7 @@
         "largo": {
           "hash": "af09d34ab0e9ff14",
           "file": "es/mna_s00_el_paraguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 155,
           "bytes": 929952,
           "provider": "azure"
@@ -22348,7 +22348,7 @@
         "corto": {
           "hash": "f4c54df8a35d7bda",
           "file": "es/mna_s06_piedra_sol_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 39,
           "bytes": 235872,
           "provider": "azure"
@@ -22356,7 +22356,7 @@
         "largo": {
           "hash": "df08df1da05f95bd",
           "file": "es/mna_s06_piedra_sol_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 253,
           "bytes": 1520352,
           "provider": "azure"
@@ -25120,7 +25120,7 @@
         "corto": {
           "hash": "950709c25357874b",
           "file": "es/teo_27_tetitla_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 28,
           "bytes": 165744,
           "provider": "azure"
@@ -25128,7 +25128,7 @@
         "largo": {
           "hash": "7ef564765c2db39d",
           "file": "es/teo_27_tetitla_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 115,
           "bytes": 688032,
           "provider": "azure"
@@ -25822,7 +25822,7 @@
         "corto": {
           "hash": "e4d0350c4bd04228",
           "file": "es/xoc_02_ciudad_en_cerros_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 41,
           "bytes": 247248,
           "provider": "azure"
@@ -25830,7 +25830,7 @@
         "largo": {
           "hash": "f8dfff037bc4cd51",
           "file": "es/xoc_02_ciudad_en_cerros_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 122,
           "bytes": 733392,
           "provider": "azure"
@@ -25840,7 +25840,7 @@
         "corto": {
           "hash": "a59cf21e343a7e5a",
           "file": "es/xoc_03_camino_entrada_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 39,
           "bytes": 233280,
           "provider": "azure"
@@ -25848,7 +25848,7 @@
         "largo": {
           "hash": "5d5af705912e47df",
           "file": "es/xoc_03_camino_entrada_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 94,
           "bytes": 566784,
           "provider": "azure"
@@ -26020,7 +26020,7 @@
         "corto": {
           "hash": "6f69e9871e2e035d",
           "file": "es/xoc_13_serpientes_emplumadas_1_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 43,
           "bytes": 258768,
           "provider": "azure"
@@ -26028,7 +26028,7 @@
         "largo": {
           "hash": "2e6afbc463a5191e",
           "file": "es/xoc_13_serpientes_emplumadas_1_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 114,
           "bytes": 685584,
           "provider": "azure"
@@ -26310,7 +26310,7 @@
         "corto": {
           "hash": "1743672cf36ff5e9",
           "file": "fr/bas_01_calzada_misterios_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 41,
           "bytes": 246384,
           "provider": "azure"
@@ -26318,7 +26318,7 @@
         "largo": {
           "hash": "9dcf9c1ba0d4fdd8",
           "file": "fr/bas_01_calzada_misterios_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 179,
           "bytes": 1074960,
           "provider": "azure"
@@ -26634,7 +26634,7 @@
         "corto": {
           "hash": "aaa354485231339f",
           "file": "fr/bas_19_imagen_guadalupana_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 33,
           "bytes": 196128,
           "provider": "azure"
@@ -26642,7 +26642,7 @@
         "largo": {
           "hash": "85b1536df44b646e",
           "file": "fr/bas_19_imagen_guadalupana_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 169,
           "bytes": 1013760,
           "provider": "azure"
@@ -26760,7 +26760,7 @@
         "corto": {
           "hash": "77503c91c1a0684f",
           "file": "fr/cdmx_07_palacio_postal_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 42,
           "bytes": 253584,
           "provider": "azure"
@@ -26768,7 +26768,7 @@
         "largo": {
           "hash": "646b349e48117f80",
           "file": "fr/cdmx_07_palacio_postal_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 175,
           "bytes": 1048608,
           "provider": "azure"
@@ -27084,7 +27084,7 @@
         "corto": {
           "hash": "6767fc0217e19b95",
           "file": "fr/cdmx_25_zocalo_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 41,
           "bytes": 246384,
           "provider": "azure"
@@ -27092,7 +27092,7 @@
         "largo": {
           "hash": "26a0095b7b0b26af",
           "file": "fr/cdmx_25_zocalo_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 181,
           "bytes": 1088784,
           "provider": "azure"
@@ -27678,7 +27678,7 @@
         "corto": {
           "hash": "9aed013a82236c2d",
           "file": "fr/chap_07_carruaje_juarez_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 44,
           "bytes": 263088,
           "provider": "azure"
@@ -27686,7 +27686,7 @@
         "largo": {
           "hash": "f12ca5712651a6d7",
           "file": "fr/chap_07_carruaje_juarez_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 228,
           "bytes": 1369584,
           "provider": "azure"
@@ -27732,7 +27732,7 @@
         "corto": {
           "hash": "31e8a98ec2fceae4",
           "file": "fr/chap_09_mural_siqueiros_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 237024,
           "provider": "azure"
@@ -27740,7 +27740,7 @@
         "largo": {
           "hash": "229fc346000ed219",
           "file": "fr/chap_09_mural_siqueiros_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 241,
           "bytes": 1443456,
           "provider": "azure"
@@ -28182,7 +28182,7 @@
         "corto": {
           "hash": "739c0fc8b05a6c55",
           "file": "fr/chi_02_castillo_general_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 239328,
           "provider": "azure"
@@ -28190,7 +28190,7 @@
         "largo": {
           "hash": "5d3293617802b7a6",
           "file": "fr/chi_02_castillo_general_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 160,
           "bytes": 957024,
           "provider": "azure"
@@ -28290,7 +28290,7 @@
         "corto": {
           "hash": "91d44c92eceb18b8",
           "file": "fr/chi_08_gran_juego_pelota_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 35,
           "bytes": 211968,
           "provider": "azure"
@@ -28298,7 +28298,7 @@
         "largo": {
           "hash": "4d41b389ee7e32e4",
           "file": "fr/chi_08_gran_juego_pelota_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 159,
           "bytes": 951120,
           "provider": "azure"
@@ -29082,7 +29082,7 @@
         "corto": {
           "hash": "acdd68a063829189",
           "file": "fr/coy_02_puerta_de_piedra_atrio_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 33,
           "bytes": 199584,
           "provider": "azure"
@@ -29090,7 +29090,7 @@
         "largo": {
           "hash": "dc0c6500f5f4d8fe",
           "file": "fr/coy_02_puerta_de_piedra_atrio_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 113,
           "bytes": 679536,
           "provider": "azure"
@@ -29316,7 +29316,7 @@
         "corto": {
           "hash": "95ef127e961fec16",
           "file": "fr/coy_15_esquina_casa_azul_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 35,
           "bytes": 209376,
           "provider": "azure"
@@ -29324,7 +29324,7 @@
         "largo": {
           "hash": "48db5d72a128547c",
           "file": "fr/coy_15_esquina_casa_azul_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 94,
           "bytes": 562752,
           "provider": "azure"
@@ -29478,7 +29478,7 @@
         "corto": {
           "hash": "bbc0e570bab4fefc",
           "file": "fr/cue_01_zapata_plaza_armas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 45,
           "bytes": 271440,
           "provider": "azure"
@@ -29486,7 +29486,7 @@
         "largo": {
           "hash": "773ab79c1b99f749",
           "file": "fr/cue_01_zapata_plaza_armas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 179,
           "bytes": 1073376,
           "provider": "azure"
@@ -29604,7 +29604,7 @@
         "corto": {
           "hash": "378e41a629133aab",
           "file": "fr/cue_09_rivera_conquista_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 44,
           "bytes": 262800,
           "provider": "azure"
@@ -29612,7 +29612,7 @@
         "largo": {
           "hash": "b1e3b8bb936ee6bd",
           "file": "fr/cue_09_rivera_conquista_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 187,
           "bytes": 1123056,
           "provider": "azure"
@@ -30198,7 +30198,7 @@
         "corto": {
           "hash": "51f1753fea59cf50",
           "file": "fr/mna_s00_el_paraguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 40,
           "bytes": 237744,
           "provider": "azure"
@@ -30206,7 +30206,7 @@
         "largo": {
           "hash": "22499301d0309032",
           "file": "fr/mna_s00_el_paraguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 153,
           "bytes": 918864,
           "provider": "azure"
@@ -31116,7 +31116,7 @@
         "corto": {
           "hash": "bed1528c63ca5750",
           "file": "fr/mna_s06_piedra_sol_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 240480,
           "provider": "azure"
@@ -31124,7 +31124,7 @@
         "largo": {
           "hash": "a95a73aa7b8f4d0b",
           "file": "fr/mna_s06_piedra_sol_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 257,
           "bytes": 1542384,
           "provider": "azure"
@@ -33888,7 +33888,7 @@
         "corto": {
           "hash": "6ae941b65e17711b",
           "file": "fr/teo_27_tetitla_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 25,
           "bytes": 151776,
           "provider": "azure"
@@ -33896,7 +33896,7 @@
         "largo": {
           "hash": "c0c8093bdfde234b",
           "file": "fr/teo_27_tetitla_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 116,
           "bytes": 693792,
           "provider": "azure"
@@ -34590,7 +34590,7 @@
         "corto": {
           "hash": "32eb678591d19bbe",
           "file": "fr/xoc_02_ciudad_en_cerros_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 41,
           "bytes": 246240,
           "provider": "azure"
@@ -34598,7 +34598,7 @@
         "largo": {
           "hash": "9dafc50ea275df84",
           "file": "fr/xoc_02_ciudad_en_cerros_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 124,
           "bytes": 746208,
           "provider": "azure"
@@ -34608,7 +34608,7 @@
         "corto": {
           "hash": "dc2d0eeef54de8fa",
           "file": "fr/xoc_03_camino_entrada_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 39,
           "bytes": 236592,
           "provider": "azure"
@@ -34616,7 +34616,7 @@
         "largo": {
           "hash": "45ea183a024d5fec",
           "file": "fr/xoc_03_camino_entrada_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 96,
           "bytes": 574992,
           "provider": "azure"
@@ -34788,7 +34788,7 @@
         "corto": {
           "hash": "a55ad04e75f83a5f",
           "file": "fr/xoc_13_serpientes_emplumadas_1_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 44,
           "bytes": 264240,
           "provider": "azure"
@@ -34796,7 +34796,7 @@
         "largo": {
           "hash": "f109c5c119ae6e5c",
           "file": "fr/xoc_13_serpientes_emplumadas_1_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 117,
           "bytes": 702000,
           "provider": "azure"
@@ -35078,7 +35078,7 @@
         "corto": {
           "hash": "46a748d9f159c79b",
           "file": "it/bas_01_calzada_misterios_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 44,
           "bytes": 265392,
           "provider": "azure"
@@ -35086,7 +35086,7 @@
         "largo": {
           "hash": "a44dc690f2e08db0",
           "file": "it/bas_01_calzada_misterios_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 190,
           "bytes": 1142784,
           "provider": "azure"
@@ -35402,7 +35402,7 @@
         "corto": {
           "hash": "25f3d611261a03c5",
           "file": "it/bas_19_imagen_guadalupana_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 38,
           "bytes": 227664,
           "provider": "azure"
@@ -35410,7 +35410,7 @@
         "largo": {
           "hash": "cb6b371d9d94c304",
           "file": "it/bas_19_imagen_guadalupana_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 181,
           "bytes": 1087488,
           "provider": "azure"
@@ -35528,7 +35528,7 @@
         "corto": {
           "hash": "9d46a7c8fc891464",
           "file": "it/cdmx_07_palacio_postal_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 47,
           "bytes": 283680,
           "provider": "azure"
@@ -35536,7 +35536,7 @@
         "largo": {
           "hash": "bdf8e707f174e91a",
           "file": "it/cdmx_07_palacio_postal_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 186,
           "bytes": 1118160,
           "provider": "azure"
@@ -35852,7 +35852,7 @@
         "corto": {
           "hash": "07a5015d48021c17",
           "file": "it/cdmx_25_zocalo_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 43,
           "bytes": 255888,
           "provider": "azure"
@@ -35860,7 +35860,7 @@
         "largo": {
           "hash": "df82690450fa59f0",
           "file": "it/cdmx_25_zocalo_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 196,
           "bytes": 1173024,
           "provider": "azure"
@@ -36446,7 +36446,7 @@
         "corto": {
           "hash": "aebe124f1c409734",
           "file": "it/chap_07_carruaje_juarez_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 277776,
           "provider": "azure"
@@ -36454,7 +36454,7 @@
         "largo": {
           "hash": "df880bf9a2e3066b",
           "file": "it/chap_07_carruaje_juarez_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 241,
           "bytes": 1443456,
           "provider": "azure"
@@ -36500,7 +36500,7 @@
         "corto": {
           "hash": "da73b90d969b4a70",
           "file": "it/chap_09_mural_siqueiros_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 44,
           "bytes": 265392,
           "provider": "azure"
@@ -36508,7 +36508,7 @@
         "largo": {
           "hash": "2f5a8f847f269740",
           "file": "it/chap_09_mural_siqueiros_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 260,
           "bytes": 1562256,
           "provider": "azure"
@@ -36950,7 +36950,7 @@
         "corto": {
           "hash": "d5215bf5a97efb47",
           "file": "it/chi_02_castillo_general_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 42,
           "bytes": 254016,
           "provider": "azure"
@@ -36958,7 +36958,7 @@
         "largo": {
           "hash": "073c5144af33c0bd",
           "file": "it/chi_02_castillo_general_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 169,
           "bytes": 1016640,
           "provider": "azure"
@@ -37058,7 +37058,7 @@
         "corto": {
           "hash": "d063d4dcfc299878",
           "file": "it/chi_08_gran_juego_pelota_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 40,
           "bytes": 237744,
           "provider": "azure"
@@ -37066,7 +37066,7 @@
         "largo": {
           "hash": "019546dec93e43b6",
           "file": "it/chi_08_gran_juego_pelota_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 176,
           "bytes": 1058400,
           "provider": "azure"
@@ -37850,7 +37850,7 @@
         "corto": {
           "hash": "e101511ccf3b4fae",
           "file": "it/coy_02_puerta_de_piedra_atrio_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 36,
           "bytes": 215136,
           "provider": "azure"
@@ -37858,7 +37858,7 @@
         "largo": {
           "hash": "5de06a41401fd04c",
           "file": "it/coy_02_puerta_de_piedra_atrio_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 123,
           "bytes": 738720,
           "provider": "azure"
@@ -38084,7 +38084,7 @@
         "corto": {
           "hash": "c982536a4bd555a1",
           "file": "it/coy_15_esquina_casa_azul_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 238320,
           "provider": "azure"
@@ -38092,7 +38092,7 @@
         "largo": {
           "hash": "f32a701f84cd3c04",
           "file": "it/coy_15_esquina_casa_azul_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 98,
           "bytes": 590976,
           "provider": "azure"
@@ -38246,7 +38246,7 @@
         "corto": {
           "hash": "8702b740fc9b6af4",
           "file": "it/cue_01_zapata_plaza_armas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 49,
           "bytes": 296208,
           "provider": "azure"
@@ -38254,7 +38254,7 @@
         "largo": {
           "hash": "d04ed6565b933790",
           "file": "it/cue_01_zapata_plaza_armas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 188,
           "bytes": 1129680,
           "provider": "azure"
@@ -38372,7 +38372,7 @@
         "corto": {
           "hash": "2a6d0a11df98c5b7",
           "file": "it/cue_09_rivera_conquista_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 51,
           "bytes": 306000,
           "provider": "azure"
@@ -38380,7 +38380,7 @@
         "largo": {
           "hash": "398a2dc531db53d8",
           "file": "it/cue_09_rivera_conquista_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 202,
           "bytes": 1212048,
           "provider": "azure"
@@ -38966,7 +38966,7 @@
         "corto": {
           "hash": "fdab63ad621567b4",
           "file": "it/mna_s00_el_paraguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 44,
           "bytes": 264384,
           "provider": "azure"
@@ -38974,7 +38974,7 @@
         "largo": {
           "hash": "da719a780ffbc63d",
           "file": "it/mna_s00_el_paraguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 166,
           "bytes": 993024,
           "provider": "azure"
@@ -39884,7 +39884,7 @@
         "corto": {
           "hash": "4b4a9b00decdd8bc",
           "file": "it/mna_s06_piedra_sol_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 42,
           "bytes": 249552,
           "provider": "azure"
@@ -39892,7 +39892,7 @@
         "largo": {
           "hash": "a24ac79861e8b49d",
           "file": "it/mna_s06_piedra_sol_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 274,
           "bytes": 1642464,
           "provider": "azure"
@@ -42656,7 +42656,7 @@
         "corto": {
           "hash": "dcc7d8766c0cf14a",
           "file": "it/teo_27_tetitla_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 28,
           "bytes": 167184,
           "provider": "azure"
@@ -42664,7 +42664,7 @@
         "largo": {
           "hash": "8111c9658c2db63d",
           "file": "it/teo_27_tetitla_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 123,
           "bytes": 738720,
           "provider": "azure"
@@ -43358,7 +43358,7 @@
         "corto": {
           "hash": "5d047f91e15c671e",
           "file": "it/xoc_02_ciudad_en_cerros_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 44,
           "bytes": 263520,
           "provider": "azure"
@@ -43366,7 +43366,7 @@
         "largo": {
           "hash": "d330447719714e2d",
           "file": "it/xoc_02_ciudad_en_cerros_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 130,
           "bytes": 778464,
           "provider": "azure"
@@ -43376,7 +43376,7 @@
         "corto": {
           "hash": "238bcd0570ea345d",
           "file": "it/xoc_03_camino_entrada_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 43,
           "bytes": 257328,
           "provider": "azure"
@@ -43384,7 +43384,7 @@
         "largo": {
           "hash": "149f4c8d295767c1",
           "file": "it/xoc_03_camino_entrada_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 105,
           "bytes": 627264,
           "provider": "azure"
@@ -43556,7 +43556,7 @@
         "corto": {
           "hash": "3f17437e8353b1fa",
           "file": "it/xoc_13_serpientes_emplumadas_1_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 47,
           "bytes": 284112,
           "provider": "azure"
@@ -43564,7 +43564,7 @@
         "largo": {
           "hash": "0584eab07e37bc79",
           "file": "it/xoc_13_serpientes_emplumadas_1_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 122,
           "bytes": 732528,
           "provider": "azure"
@@ -43846,7 +43846,7 @@
         "corto": {
           "hash": "c6a7102b52dc602d",
           "file": "pl/bas_01_calzada_misterios_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 45,
           "bytes": 271728,
           "provider": "azure"
@@ -43854,7 +43854,7 @@
         "largo": {
           "hash": "51303640839895c9",
           "file": "pl/bas_01_calzada_misterios_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 195,
           "bytes": 1172592,
           "provider": "azure"
@@ -44170,7 +44170,7 @@
         "corto": {
           "hash": "601b1bb35702c6e8",
           "file": "pl/bas_19_imagen_guadalupana_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 37,
           "bytes": 219168,
           "provider": "azure"
@@ -44178,7 +44178,7 @@
         "largo": {
           "hash": "cea18fd0d26c4fe9",
           "file": "pl/bas_19_imagen_guadalupana_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 186,
           "bytes": 1114416,
           "provider": "azure"
@@ -44296,7 +44296,7 @@
         "corto": {
           "hash": "4544147460b6dd8d",
           "file": "pl/cdmx_07_palacio_postal_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 275616,
           "provider": "azure"
@@ -44304,7 +44304,7 @@
         "largo": {
           "hash": "3450885928777d37",
           "file": "pl/cdmx_07_palacio_postal_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 189,
           "bytes": 1132848,
           "provider": "azure"
@@ -44620,7 +44620,7 @@
         "corto": {
           "hash": "32eedc7bd3be06e5",
           "file": "pl/cdmx_25_zocalo_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 42,
           "bytes": 252144,
           "provider": "azure"
@@ -44628,7 +44628,7 @@
         "largo": {
           "hash": "9bcd2b535d4733b9",
           "file": "pl/cdmx_25_zocalo_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 201,
           "bytes": 1208736,
           "provider": "azure"
@@ -45214,7 +45214,7 @@
         "corto": {
           "hash": "4f98d756bbdc8581",
           "file": "pl/chap_07_carruaje_juarez_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 48,
           "bytes": 286848,
           "provider": "azure"
@@ -45222,7 +45222,7 @@
         "largo": {
           "hash": "04ee86d06992be4a",
           "file": "pl/chap_07_carruaje_juarez_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 252,
           "bytes": 1512576,
           "provider": "azure"
@@ -45268,7 +45268,7 @@
         "corto": {
           "hash": "345f1c23d5134749",
           "file": "pl/chap_09_mural_siqueiros_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 47,
           "bytes": 279072,
           "provider": "azure"
@@ -45276,7 +45276,7 @@
         "largo": {
           "hash": "1d64a504f8497ca2",
           "file": "pl/chap_09_mural_siqueiros_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 271,
           "bytes": 1625328,
           "provider": "azure"
@@ -45718,7 +45718,7 @@
         "corto": {
           "hash": "77f6c6da9c1fd9e3",
           "file": "pl/chi_02_castillo_general_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 46,
           "bytes": 274032,
           "provider": "azure"
@@ -45726,7 +45726,7 @@
         "largo": {
           "hash": "84f0c03f99723c7d",
           "file": "pl/chi_02_castillo_general_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 181,
           "bytes": 1084320,
           "provider": "azure"
@@ -45826,7 +45826,7 @@
         "corto": {
           "hash": "c67556f4b26578c7",
           "file": "pl/chi_08_gran_juego_pelota_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 40,
           "bytes": 240048,
           "provider": "azure"
@@ -45834,7 +45834,7 @@
         "largo": {
           "hash": "df412382461545da",
           "file": "pl/chi_08_gran_juego_pelota_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 179,
           "bytes": 1074960,
           "provider": "azure"
@@ -46618,7 +46618,7 @@
         "corto": {
           "hash": "35cc2dbac76b36ae",
           "file": "pl/coy_02_puerta_de_piedra_atrio_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 34,
           "bytes": 204624,
           "provider": "azure"
@@ -46626,7 +46626,7 @@
         "largo": {
           "hash": "044ed5a00a8e6329",
           "file": "pl/coy_02_puerta_de_piedra_atrio_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 121,
           "bytes": 728640,
           "provider": "azure"
@@ -46852,7 +46852,7 @@
         "corto": {
           "hash": "bc5ca61931ef45d1",
           "file": "pl/coy_15_esquina_casa_azul_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 41,
           "bytes": 244080,
           "provider": "azure"
@@ -46860,7 +46860,7 @@
         "largo": {
           "hash": "3b769e4b347458a5",
           "file": "pl/coy_15_esquina_casa_azul_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 100,
           "bytes": 600336,
           "provider": "azure"
@@ -47014,7 +47014,7 @@
         "corto": {
           "hash": "b1e050cb27a8aeac",
           "file": "pl/cue_01_zapata_plaza_armas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 52,
           "bytes": 310896,
           "provider": "azure"
@@ -47022,7 +47022,7 @@
         "largo": {
           "hash": "690c1de5e5252533",
           "file": "pl/cue_01_zapata_plaza_armas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 194,
           "bytes": 1163520,
           "provider": "azure"
@@ -47140,7 +47140,7 @@
         "corto": {
           "hash": "7f02ce322fcf69b3",
           "file": "pl/cue_09_rivera_conquista_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 49,
           "bytes": 293760,
           "provider": "azure"
@@ -47148,7 +47148,7 @@
         "largo": {
           "hash": "366cd2c7849dbe80",
           "file": "pl/cue_09_rivera_conquista_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 206,
           "bytes": 1233648,
           "provider": "azure"
@@ -47734,7 +47734,7 @@
         "corto": {
           "hash": "40137c4a857cb34f",
           "file": "pl/mna_s00_el_paraguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 47,
           "bytes": 283536,
           "provider": "azure"
@@ -47742,7 +47742,7 @@
         "largo": {
           "hash": "e19e33ef7964fb0a",
           "file": "pl/mna_s00_el_paraguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 165,
           "bytes": 990576,
           "provider": "azure"
@@ -48652,7 +48652,7 @@
         "corto": {
           "hash": "3a82c43d3ab9c953",
           "file": "pl/mna_s06_piedra_sol_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 45,
           "bytes": 268560,
           "provider": "azure"
@@ -48660,7 +48660,7 @@
         "largo": {
           "hash": "52c2d969e88fc672",
           "file": "pl/mna_s06_piedra_sol_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 278,
           "bytes": 1667952,
           "provider": "azure"
@@ -51424,7 +51424,7 @@
         "corto": {
           "hash": "a295a17d4a03435c",
           "file": "pl/teo_27_tetitla_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 31,
           "bytes": 185040,
           "provider": "azure"
@@ -51432,7 +51432,7 @@
         "largo": {
           "hash": "0784122826290130",
           "file": "pl/teo_27_tetitla_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 125,
           "bytes": 750816,
           "provider": "azure"
@@ -52126,7 +52126,7 @@
         "corto": {
           "hash": "1175608637961b51",
           "file": "pl/xoc_02_ciudad_en_cerros_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 44,
           "bytes": 261360,
           "provider": "azure"
@@ -52134,7 +52134,7 @@
         "largo": {
           "hash": "d8d40f13b229afdd",
           "file": "pl/xoc_02_ciudad_en_cerros_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 135,
           "bytes": 812736,
           "provider": "azure"
@@ -52144,7 +52144,7 @@
         "corto": {
           "hash": "c5b6c9fe285c4425",
           "file": "pl/xoc_03_camino_entrada_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 45,
           "bytes": 271152,
           "provider": "azure"
@@ -52152,7 +52152,7 @@
         "largo": {
           "hash": "a994f9e2bd666bcb",
           "file": "pl/xoc_03_camino_entrada_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 103,
           "bytes": 620352,
           "provider": "azure"
@@ -52324,7 +52324,7 @@
         "corto": {
           "hash": "189051e28ee4f20c",
           "file": "pl/xoc_13_serpientes_emplumadas_1_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 48,
           "bytes": 287856,
           "provider": "azure"
@@ -52332,7 +52332,7 @@
         "largo": {
           "hash": "928c3e589e2afc2d",
           "file": "pl/xoc_13_serpientes_emplumadas_1_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 126,
           "bytes": 753408,
           "provider": "azure"
@@ -52614,7 +52614,7 @@
         "corto": {
           "hash": "05cd7d799d665d7d",
           "file": "pt/bas_01_calzada_misterios_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 42,
           "bytes": 254448,
           "provider": "azure"
@@ -52622,7 +52622,7 @@
         "largo": {
           "hash": "1168f9c9b2d55cca",
           "file": "pt/bas_01_calzada_misterios_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 182,
           "bytes": 1089504,
           "provider": "azure"
@@ -52938,7 +52938,7 @@
         "corto": {
           "hash": "b84c7e1bbdbf52d0",
           "file": "pt/bas_19_imagen_guadalupana_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 35,
           "bytes": 209952,
           "provider": "azure"
@@ -52946,7 +52946,7 @@
         "largo": {
           "hash": "10902f164626efbd",
           "file": "pt/bas_19_imagen_guadalupana_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 172,
           "bytes": 1031616,
           "provider": "azure"
@@ -53064,7 +53064,7 @@
         "corto": {
           "hash": "80a42aaca500d7de",
           "file": "pt/cdmx_07_palacio_postal_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 275184,
           "provider": "azure"
@@ -53072,7 +53072,7 @@
         "largo": {
           "hash": "c6c0cc9f531fc3a6",
           "file": "pt/cdmx_07_palacio_postal_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 181,
           "bytes": 1086624,
           "provider": "azure"
@@ -53388,7 +53388,7 @@
         "corto": {
           "hash": "2e477ce6c3b89012",
           "file": "pt/cdmx_25_zocalo_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 41,
           "bytes": 248544,
           "provider": "azure"
@@ -53396,7 +53396,7 @@
         "largo": {
           "hash": "e334c6e0cbc3f2ab",
           "file": "pt/cdmx_25_zocalo_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 188,
           "bytes": 1128816,
           "provider": "azure"
@@ -53982,7 +53982,7 @@
         "corto": {
           "hash": "0e512d242f6fe39f",
           "file": "pt/chap_07_carruaje_juarez_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 45,
           "bytes": 271152,
           "provider": "azure"
@@ -53990,7 +53990,7 @@
         "largo": {
           "hash": "701a57c0f8834a64",
           "file": "pt/chap_07_carruaje_juarez_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 235,
           "bytes": 1407024,
           "provider": "azure"
@@ -54036,7 +54036,7 @@
         "corto": {
           "hash": "49b97fe10bcfc603",
           "file": "pt/chap_09_mural_siqueiros_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 43,
           "bytes": 255168,
           "provider": "azure"
@@ -54044,7 +54044,7 @@
         "largo": {
           "hash": "d67c87bbb10a1ef5",
           "file": "pt/chap_09_mural_siqueiros_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 247,
           "bytes": 1484208,
           "provider": "azure"
@@ -54486,7 +54486,7 @@
         "corto": {
           "hash": "a08fab7dc60f59f9",
           "file": "pt/chi_02_castillo_general_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 42,
           "bytes": 249264,
           "provider": "azure"
@@ -54494,7 +54494,7 @@
         "largo": {
           "hash": "4532be4a54610937",
           "file": "pt/chi_02_castillo_general_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 165,
           "bytes": 987840,
           "provider": "azure"
@@ -54594,7 +54594,7 @@
         "corto": {
           "hash": "beb74c2a9b84c636",
           "file": "pt/chi_08_gran_juego_pelota_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 37,
           "bytes": 221040,
           "provider": "azure"
@@ -54602,7 +54602,7 @@
         "largo": {
           "hash": "6477b6bd3f87c581",
           "file": "pt/chi_08_gran_juego_pelota_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 165,
           "bytes": 990000,
           "provider": "azure"
@@ -55386,7 +55386,7 @@
         "corto": {
           "hash": "37660aaea85b8fad",
           "file": "pt/coy_02_puerta_de_piedra_atrio_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 33,
           "bytes": 200448,
           "provider": "azure"
@@ -55394,7 +55394,7 @@
         "largo": {
           "hash": "7ff3df7fd00dacb1",
           "file": "pt/coy_02_puerta_de_piedra_atrio_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 117,
           "bytes": 700992,
           "provider": "azure"
@@ -55620,7 +55620,7 @@
         "corto": {
           "hash": "10a566cd6e4d8aec",
           "file": "pt/coy_15_esquina_casa_azul_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 37,
           "bytes": 222912,
           "provider": "azure"
@@ -55628,7 +55628,7 @@
         "largo": {
           "hash": "a7496dec199d7c4f",
           "file": "pt/coy_15_esquina_casa_azul_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 93,
           "bytes": 558576,
           "provider": "azure"
@@ -55782,7 +55782,7 @@
         "corto": {
           "hash": "bd5eb14637bc78af",
           "file": "pt/cue_01_zapata_plaza_armas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 48,
           "bytes": 288864,
           "provider": "azure"
@@ -55790,7 +55790,7 @@
         "largo": {
           "hash": "599088acdabffd69",
           "file": "pt/cue_01_zapata_plaza_armas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 183,
           "bytes": 1095696,
           "provider": "azure"
@@ -55908,7 +55908,7 @@
         "corto": {
           "hash": "8f222311b9dec1a0",
           "file": "pt/cue_09_rivera_conquista_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 46,
           "bytes": 278928,
           "provider": "azure"
@@ -55916,7 +55916,7 @@
         "largo": {
           "hash": "bd920c3839152aca",
           "file": "pt/cue_09_rivera_conquista_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 194,
           "bytes": 1162368,
           "provider": "azure"
@@ -56502,7 +56502,7 @@
         "corto": {
           "hash": "37c847b184dbd4fe",
           "file": "pt/mna_s00_el_paraguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 43,
           "bytes": 258192,
           "provider": "azure"
@@ -56510,7 +56510,7 @@
         "largo": {
           "hash": "1a947eb31bde999d",
           "file": "pt/mna_s00_el_paraguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 158,
           "bytes": 946080,
           "provider": "azure"
@@ -57420,7 +57420,7 @@
         "corto": {
           "hash": "a2ece79957e7e307",
           "file": "pt/mna_s06_piedra_sol_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 242064,
           "provider": "azure"
@@ -57428,7 +57428,7 @@
         "largo": {
           "hash": "1dcced6099b563c6",
           "file": "pt/mna_s06_piedra_sol_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 265,
           "bytes": 1590912,
           "provider": "azure"
@@ -60192,7 +60192,7 @@
         "corto": {
           "hash": "4b7c1b9676d75c3b",
           "file": "pt/teo_27_tetitla_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 28,
           "bytes": 166176,
           "provider": "azure"
@@ -60200,7 +60200,7 @@
         "largo": {
           "hash": "593d4273ee32a358",
           "file": "pt/teo_27_tetitla_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 119,
           "bytes": 712368,
           "provider": "azure"
@@ -60894,7 +60894,7 @@
         "corto": {
           "hash": "050d327d1b9d40ad",
           "file": "pt/xoc_02_ciudad_en_cerros_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 42,
           "bytes": 253872,
           "provider": "azure"
@@ -60902,7 +60902,7 @@
         "largo": {
           "hash": "4c27c3c8592dd074",
           "file": "pt/xoc_02_ciudad_en_cerros_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 128,
           "bytes": 769104,
           "provider": "azure"
@@ -60912,7 +60912,7 @@
         "corto": {
           "hash": "b745b4cc33ac9d8f",
           "file": "pt/xoc_03_camino_entrada_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 40,
           "bytes": 241776,
           "provider": "azure"
@@ -60920,7 +60920,7 @@
         "largo": {
           "hash": "1484403182e6a6a1",
           "file": "pt/xoc_03_camino_entrada_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 98,
           "bytes": 589104,
           "provider": "azure"
@@ -61092,7 +61092,7 @@
         "corto": {
           "hash": "088d535afeeb71ec",
           "file": "pt/xoc_13_serpientes_emplumadas_1_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 45,
           "bytes": 272880,
           "provider": "azure"
@@ -61100,7 +61100,7 @@
         "largo": {
           "hash": "37fd7b4c28faac00",
           "file": "pt/xoc_13_serpientes_emplumadas_1_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 121,
           "bytes": 725040,
           "provider": "azure"
