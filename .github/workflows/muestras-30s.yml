@@ -1,0 +1,48 @@
+name: Cortar muestras de 30 segundos (botón manual)
+
+# Baja el audio Exprés de una pieza GRATIS desde el servidor de audio, corta los primeros 30 s con un fundido final
+# y deja un MP3 por idioma en public/audio/muestras/. No gasta voz. Sube los archivos a la misma rama donde se corra.
+on:
+  workflow_dispatch:
+    inputs:
+      pieza:
+        description: 'Pieza gratis de la que sale la muestra (piece_id)'
+        type: string
+        default: mna_s06_piedra_sol
+      sitio_prefijo:
+        description: 'Nombre corto del archivo de salida'
+        type: string
+        default: piedra_sol
+      idiomas:
+        description: 'Idiomas separados por coma'
+        type: string
+        default: 'es,en,fr,pl,de,pt,it'
+
+permissions:
+  contents: write
+
+jobs:
+  cortar:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - name: Bajar, cortar y guardar
+        env:
+          BASE: ${{ vars.PAGOS_API_URL }}
+          PIEZA: ${{ inputs.pieza }}
+          NOMBRE: ${{ inputs.sitio_prefijo }}
+          IDIOMAS: ${{ inputs.idiomas }}
+        run: |
+          set -euo pipefail
+          mkdir -p public/audio/muestras
+          for l in ${IDIOMAS//,/ }; do
+            curl -fsS "$BASE/audio/libre/$l/${PIEZA}_corto.mp3" -o "/tmp/$l.mp3"
+            ffmpeg -y -loglevel error -i "/tmp/$l.mp3" -t 30 -af "afade=t=out:st=28.5:d=1.5" -c:a libmp3lame -b:a 48k -ac 1 "public/audio/muestras/${NOMBRE}_$l.mp3"
+          done
+          ls -l public/audio/muestras
+      - name: Guardar en la rama
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git add public/audio/muestras
+          git commit -m "Muestras de 30 s (${{ inputs.sitio_prefijo }})" || echo "sin cambios"
+          git push
