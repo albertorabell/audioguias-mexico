@@ -1,2 +1,4 @@
 https://www.xolotli.com/* https://xolotli.com/:splat 301
-/sitio/* /index.html 200
+# Las direcciones /sitio/… se sirven con la app (app.html es copia de index.html, la hace scripts/generar-paginas-seo.mjs).
+# Cloudflare no aplica reglas que apuntan a /index.html, por eso va a un archivo con otro nombre.
+/sitio/* /app.html 200
