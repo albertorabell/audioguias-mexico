@@ -3,6 +3,9 @@ name: Cortar muestras de 30 segundos (botón manual)
 # Baja el audio Exprés de una pieza GRATIS desde el servidor de audio, corta los primeros 30 s con un fundido final
 # y deja un MP3 por idioma en public/audio/muestras/. No gasta voz. Sube los archivos a la misma rama donde se corra.
 on:
+  push:
+    branches: ['feature/paquete-5-clips']
+    paths: ['.github/workflows/muestras-30s.yml']
   workflow_dispatch:
     inputs:
       pieza:
@@ -29,9 +32,9 @@ jobs:
       - name: Bajar, cortar y guardar
         env:
           BASE: ${{ vars.PAGOS_API_URL }}
-          PIEZA: ${{ inputs.pieza }}
-          NOMBRE: ${{ inputs.sitio_prefijo }}
-          IDIOMAS: ${{ inputs.idiomas }}
+          PIEZA: ${{ inputs.pieza || 'mna_s06_piedra_sol' }}
+          NOMBRE: ${{ inputs.sitio_prefijo || 'piedra_sol' }}
+          IDIOMAS: ${{ inputs.idiomas || 'es,en,fr,pl,de,pt,it' }}
         run: |
           set -euo pipefail
           mkdir -p public/audio/muestras
@@ -44,5 +47,5 @@ jobs:
         run: |
           git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
           git add public/audio/muestras
-          git commit -m "Muestras de 30 s (${{ inputs.sitio_prefijo }})" || echo "sin cambios"
+          git commit -m "Muestras de 30 s (${{ inputs.sitio_prefijo || 'piedra_sol' }})" || echo "sin cambios"
           git push
