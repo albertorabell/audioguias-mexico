@@ -18,6 +18,30 @@ export function resumir(conteos, dias) {
       if (e === 'audio_play') audioPorTipo[k === 'voz' ? 'voz' : 'mp3'] += n;
     }
   }
+  const porOrigen = {};
+  const porAliado = {};
+  const primerAudio = {};
+  const rutaParadas = {};
+  const porSitio = { app_open: {}, audio_play: {}, paywall_open: {}, checkout_start: {}, purchase: {} };
+  for (const dia of Object.values(conteos || {})) {
+    for (const [clave, n] of Object.entries(dia)) {
+      const [e, s, p, , , k] = clave.split('|');
+      if (e === 'app_open' && k) porOrigen[k] = (porOrigen[k] || 0) + n;
+      if (e === 'ally_visit' && k) porAliado[k] = (porAliado[k] || 0) + n;
+      if (e === 'first_audio' && k) primerAudio[k] = (primerAudio[k] || 0) + n;
+      if (e === 'route_stop' && p) {
+        rutaParadas[p] = rutaParadas[p] || {};
+        rutaParadas[p][k] = (rutaParadas[p][k] || 0) + n;
+      }
+      if (porSitio[e] && s) porSitio[e][s] = (porSitio[e][s] || 0) + n;
+    }
+  }
+  const pct = (a, b) => (b ? `${Math.round((a / b) * 100)} %` : '—');
+  const lista = (obj, orden) => {
+    const ent = Object.entries(obj).sort(orden || ((a, b) => b[1] - a[1]));
+    return ent.length ? ent.map(([k, n]) => `- ${k}: ${n}`) : ['(todavía no hay datos)'];
+  };
+  const sitios = [...new Set(Object.values(porSitio).flatMap((o) => Object.keys(o)))].sort();
   const top = Object.entries(porObra).sort((a, b) => b[1] - a[1]).slice(0, 10);
   const lineas = [
     `# Uso de la app (últimos ${dias} días)`,
@@ -29,6 +53,32 @@ export function resumir(conteos, dias) {
     `- Pagos iniciados: **${tot.checkout_start || 0}** · compras confirmadas: **${tot.purchase || 0}** · reembolsos/disputas: ${tot.refund || 0}`,
     `- Cambios de idioma: ${tot.lang_change || 0} · recorridos iniciados: ${tot.route_start || 0} · terminados: ${tot.tour_done || 0}`,
     `- Descargas sin internet: ${tot.offline_download || 0} · app instalada: ${tot.install || 0} · búsquedas: ${tot.search || 0}`,
+    '',
+    '## Embudo (de la visita a la compra)',
+    `1. Visitas (app abierta): **${tot.app_open || 0}**`,
+    `2. Primer audio: **${tot.first_audio || 0}** (${pct(tot.first_audio || 0, tot.app_open || 0)} de las visitas)`,
+    `3. Terminaron una parada gratis: **${tot.free_end || 0}** (${pct(tot.free_end || 0, tot.first_audio || 0)} de los primeros audios)`,
+    `4. Tocaron una parada de pago: **${tot.paywall_block || 0}** · vieron el precio: **${tot.paywall_open || 0}**`,
+    `5. Abrieron el pago: **${tot.checkout_start || 0}** (${pct(tot.checkout_start || 0, tot.paywall_open || 0)} de quienes vieron el precio)`,
+    `6. Pagaron: **${tot.purchase || 0}** (${pct(tot.purchase || 0, tot.checkout_start || 0)} de quienes abrieron el pago)`,
+    `- Errores de audio: ${tot.audio_error || 0} · errores de la app: ${tot.app_error || 0}`,
+    '',
+    '## Tiempo hasta el primer audio (segundos, por tramos)',
+    ...lista(primerAudio, (a, b) => parseInt(a[0], 10) - parseInt(b[0], 10)),
+    '',
+    '## De dónde llegan',
+    ...lista(porOrigen),
+    '',
+    '## Aliados y QR (etiqueta del enlace)',
+    ...lista(porAliado),
+    '',
+    '## Por sitio (aperturas · audios · vieron precio · abrieron pago · compras)',
+    ...(sitios.length ? sitios.map((x) => `- ${x}: ${porSitio.app_open[x] || 0} · ${porSitio.audio_play[x] || 0} · ${porSitio.paywall_open[x] || 0} · ${porSitio.checkout_start[x] || 0} · ${porSitio.purchase[x] || 0}`) : ['(todavía no hay datos)']),
+    '',
+    '## Rutas: cuántas veces se llegó a cada parada',
+    ...(Object.keys(rutaParadas).length
+      ? Object.entries(rutaParadas).flatMap(([r, ps]) => [`- ${r}: ` + Object.entries(ps).sort((a, b) => Number(a[0]) - Number(b[0])).map(([i, n]) => `parada ${i}: ${n}`).join(' · ')])
+      : ['(todavía no hay datos)']),
     '',
     '## Obras más vistas',
     ...(top.length ? top.map(([id, n], i) => `${i + 1}. ${id} — ${n}`) : ['(todavía no hay datos)']),

@@ -14,3 +14,20 @@ test('resumen de uso: suma días, ordena obras y separa voz buena / voz del tel�
   assert.ok(t.indexOf('1. b_dos — 6') < t.indexOf('2. a_uno — 5'));
   assert.match(resumir({}, 30), /todavía no hay datos/);
 });
+
+test('resumen de uso: embudo, aliados, primer audio y paradas de ruta', () => {
+  const conteos = {
+    '2026-11-16': {
+      'app_open|mna||es||qr': 10, 'first_audio|||||10': 4, 'first_audio|||||60': 2, 'free_end|mna|a_uno|es||': 3,
+      'paywall_block|mna|a_uno|es||': 2, 'paywall_open|mna|||||': 2, 'checkout_start|mna||es||': 1, 'purchase|mna|||||mxn': 1,
+      'ally_visit|||||hotel_x': 3, 'route_stop|mna|ruta_a|||1': 5, 'route_stop|mna|ruta_a|||2': 3, 'audio_error|mna|a_uno|es||': 1,
+    },
+  };
+  const t = resumir(conteos, 7);
+  assert.match(t, /2\. Primer audio: \*\*6\*\* \(60 % de las visitas\)/);
+  assert.match(t, /6\. Pagaron: \*\*1\*\* \(100 % de quienes abrieron el pago\)/);
+  assert.match(t, /- hotel_x: 3/);
+  assert.match(t, /ruta_a: parada 1: 5 · parada 2: 3/);
+  assert.match(t, /- 10: 4\n- 60: 2/);
+  assert.match(t, /Errores de audio: 1/);
+});

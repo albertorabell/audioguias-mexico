@@ -30,7 +30,7 @@ import { useLanguage } from './utils/LanguageContext';
 import { isActiveLanguage } from './i18n/languages';
 import { localizeSite, localizeRoute } from './i18n/content';
 import { getRoomLabel } from './utils/roomLabel';
-import { track, setAnalyticsSite, trafficSource, noteScreen, notePaywall } from './utils/analytics';
+import { track, setAnalyticsSite, trafficSource, allySource, noteScreen, notePaywall } from './utils/analytics';
 import { cachedPremiumText, clearPremiumText, loadPremiumText, mergePremiumText, PremiumTextMap } from './utils/premiumText';
 import { resolvePieceAudio } from './utils/audioSource';
 
@@ -145,6 +145,7 @@ export default function App() {
     // Un QR o enlace con ?c=CODIGO deja guardado el código de descuento para cuando se abra la ventana de pago
     capturePromoFromUrl();
     track('app_open', { l: currentLanguage, k: trafficSource() });
+    if (allySource()) track('ally_visit', { k: allySource() });
     // Visitante nuevo: solo una marca en este navegador (sin identificador); permite ver cuántas personas llegan por primera vez
     try {
       if (!localStorage.getItem('audioguias_visto')) {
@@ -520,6 +521,8 @@ export default function App() {
   const openTourStop = useCallback(
     (route: SiteRoute, i: number, how: 'auto' | 'replace' = 'auto') => {
       setTour({ route, index: i });
+      // En qué parada de la ruta va la gente (para ver dónde se quedan): nombre de la ruta + número de parada
+      track('route_stop', { p: String(route.id || '').toLowerCase().replace(/[^a-z0-9_]/g, '_').slice(0, 60), k: String(i + 1) });
       showPiece({ kind: 'tour', ids: route.stops.map(stopId), index: i }, how);
     },
     [showPiece]
@@ -529,7 +532,7 @@ export default function App() {
     if (!route.stops?.length) return;
     const top = stackRef.current[stackRef.current.length - 1];
     setDoneRoute(null);
-    track('route_start');
+    track('route_start', { p: String(route.id || '').toLowerCase().replace(/[^a-z0-9_]/g, '_').slice(0, 60) });
     openTourStop(route, 0, top.kind === 'wizard' ? 'replace' : 'auto');
   };
 

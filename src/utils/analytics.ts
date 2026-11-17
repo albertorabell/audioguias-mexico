@@ -26,7 +26,13 @@ export type AnalyticsEvent =
   | 'pass_code_shared'
   | 'sample_play'
   | 'app_error'
-  | 'visitor_new';
+  | 'visitor_new'
+  | 'first_audio'
+  | 'audio_error'
+  | 'paywall_block'
+  | 'free_end'
+  | 'route_stop'
+  | 'ally_visit';
 
 /**
  * De dónde llegó la persona, en una categoría muy general (nunca la dirección completa ni ningún código).
@@ -59,6 +65,48 @@ try {
   }
 } catch {
   /* sin acceso a la dirección: se queda en «directo» */
+}
+
+/**
+ * Etiqueta de campaña o aliado (hotel, tour, QR impreso) que viene en ?utm_source= o ?aliado=. Solo letras, números, «_» y «-»
+ * (máximo 20): es el nombre del enlace, no de una persona. Sin etiqueta devuelve ''.
+ */
+export function allyTag(search: string): string {
+  try {
+    const params = new URLSearchParams(search);
+    const raw = params.get('aliado') || params.get('utm_source') || '';
+    return raw.toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 20);
+  } catch {
+    return '';
+  }
+}
+
+let ALLY = '';
+try {
+  if (typeof window !== 'undefined') ALLY = allyTag(window.location.search);
+} catch {
+  /* sin acceso a la dirección */
+}
+
+/** Etiqueta de aliado de esta visita (solo se manda con la apertura de la app). */
+export function allySource(): string {
+  return ALLY;
+}
+
+/** Cubo de segundos (para el tiempo hasta el primer audio): 10, 30, 60, 120, 300, 600, 600+. */
+export function secondsBucket(sec: number): string {
+  for (const c of [10, 30, 60, 120, 300, 600]) if (sec <= c) return String(c);
+  return '600mas';
+}
+
+const OPENED_AT = typeof performance !== 'undefined' ? performance.now() : 0;
+let firstAudioSent = false;
+/** Primer audio de la visita: cuenta UNA vez cuánto tardó en llegar (por tramos) desde que se abrió la app. */
+export function noteFirstAudio(): void {
+  if (firstAudioSent) return;
+  firstAudioSent = true;
+  const sec = typeof performance !== 'undefined' ? Math.round((performance.now() - OPENED_AT) / 1000) : 0;
+  track('first_audio', { k: secondsBucket(sec) });
 }
 
 /** Origen de esta visita (solo se manda con la apertura de la app). */
