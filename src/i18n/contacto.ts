@@ -26,6 +26,13 @@ export interface ContactoText {
   likeNo: string;
   likeThanks: string;
   likeNoMore: string;
+  reviewTitle: string;
+  reviewSub: string;
+  reviewStars: (n: number) => string;
+  reviewPlaceholder: string;
+  reviewPermit: string;
+  reviewSend: string;
+  reviewThanks: string;
   privacy: [string, string];
 }
 
@@ -50,7 +57,14 @@ const es: ContactoText = {
   likeNo: 'No',
   likeThanks: 'Gracias por tu respuesta.',
   likeNoMore: '¿Quieres contarnos qué mejorar?',
-  privacy: ['Si nos escribes', 'El formulario de «Contacto» y «Reportar un error» guarda el mensaje que escribes, el sitio, la parada y el idioma que veías y, solo si tú lo escribes, tu correo para responderte. Se borra a los 90 días. Las respuestas de «¿Te gustó esta parada?» son un conteo anónimo por parada, sin nada que te identifique.'],
+  reviewTitle: '¿Qué te pareció esta ruta?',
+  reviewSub: 'Tu opinión ayuda a otras personas a decidir.',
+  reviewStars: (n) => `${n} de 5 estrellas`,
+  reviewPlaceholder: 'Una frase, si quieres (opcional)',
+  reviewPermit: 'Pueden publicar mi opinión, sin mi nombre.',
+  reviewSend: 'Enviar opinión',
+  reviewThanks: 'Gracias por tu opinión.',
+  privacy: ['Si nos escribes', 'Si nos escribes o dejas una opinión al terminar una ruta, se guarda lo que escribes, las estrellas, el sitio, la parada y el idioma que veías y, solo si tú lo escribes, tu correo para responderte. Se borra a los 90 días. Una opinión solo se publica si marcas el permiso, y siempre sin tu nombre. Las respuestas de «¿Te gustó esta parada?» son un conteo anónimo por parada, sin nada que te identifique.'],
 };
 
 const en: ContactoText = {
@@ -74,7 +88,14 @@ const en: ContactoText = {
   likeNo: 'No',
   likeThanks: 'Thanks for your answer.',
   likeNoMore: 'Want to tell us what to improve?',
-  privacy: ['If you write to us', 'The “Contact” and “Report a problem” forms save the message you write, the site, stop and language you were viewing and, only if you type it, your email so we can reply. It is deleted after 90 days. The answers to “Did you like this stop?” are an anonymous count per stop, with nothing that identifies you.'],
+  reviewTitle: 'How was this route?',
+  reviewSub: 'Your opinion helps other people decide.',
+  reviewStars: (n) => `${n} out of 5 stars`,
+  reviewPlaceholder: 'One sentence, if you like (optional)',
+  reviewPermit: 'You may publish my opinion, without my name.',
+  reviewSend: 'Send review',
+  reviewThanks: 'Thank you for your review.',
+  privacy: ['If you write to us', 'If you write to us or leave a review after a route, we save what you write, the stars, the site, stop and language you were viewing and, only if you type it, your email so we can reply. It is deleted after 90 days. A review is only published if you tick the permission box, and always without your name. The answers to “Did you like this stop?” are an anonymous count per stop, with nothing that identifies you.'],
 };
 
 const fr: ContactoText = {
@@ -98,7 +119,14 @@ const fr: ContactoText = {
   likeNo: 'Non',
   likeThanks: 'Merci pour votre réponse.',
   likeNoMore: 'Voulez-vous nous dire quoi améliorer ?',
-  privacy: ['Si vous nous écrivez', 'Les formulaires « Contact » et « Signaler un problème » enregistrent le message que vous écrivez, le site, l’étape et la langue affichés et, seulement si vous le saisissez, votre e-mail pour vous répondre. Ils sont supprimés après 90 jours. Les réponses à « Cette étape vous a plu ? » sont un comptage anonyme par étape, sans rien qui vous identifie.'],
+  reviewTitle: 'Que pensez-vous de ce parcours ?',
+  reviewSub: 'Votre avis aide les autres à choisir.',
+  reviewStars: (n) => `${n} étoiles sur 5`,
+  reviewPlaceholder: 'Une phrase, si vous le souhaitez (facultatif)',
+  reviewPermit: 'Vous pouvez publier mon avis, sans mon nom.',
+  reviewSend: 'Envoyer mon avis',
+  reviewThanks: 'Merci pour votre avis.',
+  privacy: ['Si vous nous écrivez', 'Si vous nous écrivez ou laissez un avis à la fin d’un parcours, nous enregistrons ce que vous écrivez, les étoiles, le site, l’étape et la langue affichés et, seulement si vous le saisissez, votre e-mail pour vous répondre. Ces données sont supprimées après 90 jours. Un avis n’est publié que si vous cochez l’autorisation, et toujours sans votre nom. Les réponses à « Cette étape vous a plu ? » sont un comptage anonyme par étape, sans rien qui vous identifie.'],
 };
 
 const pl: ContactoText = {
@@ -122,7 +150,14 @@ const pl: ContactoText = {
   likeNo: 'Nie',
   likeThanks: 'Dziękujemy za odpowiedź.',
   likeNoMore: 'Chcesz napisać, co poprawić?',
-  privacy: ['Jeśli do nas piszesz', 'Formularze „Kontakt” i „Zgłoś błąd” zapisują wiadomość, którą piszesz, miejsce, przystanek i język, który widziałeś, oraz — tylko jeśli go wpiszesz — twój e-mail, aby odpowiedzieć. Są usuwane po 90 dniach. Odpowiedzi na „Czy ten przystanek ci się podobał?” to anonimowy licznik dla każdego przystanku, bez niczego, co by cię identyfikowało.'],
+  reviewTitle: 'Jak oceniasz tę trasę?',
+  reviewSub: 'Twoja opinia pomaga innym zdecydować.',
+  reviewStars: (n) => `${n} z 5 gwiazdek`,
+  reviewPlaceholder: 'Jedno zdanie, jeśli chcesz (opcjonalnie)',
+  reviewPermit: 'Możecie opublikować moją opinię, bez mojego imienia.',
+  reviewSend: 'Wyślij opinię',
+  reviewThanks: 'Dziękujemy za opinię.',
+  privacy: ['Jeśli do nas piszesz', 'Jeśli do nas piszesz lub zostawiasz opinię po zakończeniu trasy, zapisujemy to, co napiszesz, gwiazdki, miejsce, przystanek i język, który widziałeś, oraz — tylko jeśli go wpiszesz — twój e-mail, aby odpowiedzieć. Dane są usuwane po 90 dniach. Opinia jest publikowana tylko wtedy, gdy zaznaczysz zgodę, i zawsze bez twojego imienia. Odpowiedzi na „Czy ten przystanek ci się podobał?” to anonimowy licznik dla każdego przystanku, bez niczego, co by cię identyfikowało.'],
 };
 
 const de: ContactoText = {
@@ -146,7 +181,14 @@ const de: ContactoText = {
   likeNo: 'Nein',
   likeThanks: 'Danke für deine Antwort.',
   likeNoMore: 'Möchtest du uns sagen, was wir verbessern können?',
-  privacy: ['Wenn du uns schreibst', 'Die Formulare „Kontakt“ und „Fehler melden“ speichern deine Nachricht, den angezeigten Ort, die Station und die Sprache und – nur wenn du sie eingibst – deine E-Mail-Adresse für die Antwort. Sie werden nach 90 Tagen gelöscht. Die Antworten auf „Hat dir diese Station gefallen?“ sind eine anonyme Zählung pro Station, ohne etwas, das dich identifiziert.'],
+  reviewTitle: 'Wie war diese Route?',
+  reviewSub: 'Deine Meinung hilft anderen bei der Entscheidung.',
+  reviewStars: (n) => `${n} von 5 Sternen`,
+  reviewPlaceholder: 'Ein Satz, wenn du magst (optional)',
+  reviewPermit: 'Ihr dürft meine Meinung ohne meinen Namen veröffentlichen.',
+  reviewSend: 'Bewertung senden',
+  reviewThanks: 'Danke für deine Bewertung.',
+  privacy: ['Wenn du uns schreibst', 'Wenn du uns schreibst oder nach einer Route eine Bewertung hinterlässt, speichern wir, was du schreibst, die Sterne, den angezeigten Ort, die Station und die Sprache und – nur wenn du sie eingibst – deine E-Mail-Adresse für die Antwort. Die Daten werden nach 90 Tagen gelöscht. Eine Bewertung wird nur veröffentlicht, wenn du das Häkchen setzt, und immer ohne deinen Namen. Die Antworten auf „Hat dir diese Station gefallen?“ sind eine anonyme Zählung pro Station, ohne etwas, das dich identifiziert.'],
 };
 
 const pt: ContactoText = {
@@ -170,7 +212,14 @@ const pt: ContactoText = {
   likeNo: 'Não',
   likeThanks: 'Obrigado pela resposta.',
   likeNoMore: 'Quer contar o que melhorar?',
-  privacy: ['Se você nos escreve', 'Os formulários “Contato” e “Informar um erro” guardam a mensagem que você escreve, o local, a parada e o idioma que estava vendo e, só se você digitar, seu e-mail para responder. São apagados após 90 dias. As respostas de “Você gostou desta parada?” são uma contagem anônima por parada, sem nada que identifique você.'],
+  reviewTitle: 'O que você achou desta rota?',
+  reviewSub: 'Sua opinião ajuda outras pessoas a decidir.',
+  reviewStars: (n) => `${n} de 5 estrelas`,
+  reviewPlaceholder: 'Uma frase, se quiser (opcional)',
+  reviewPermit: 'Vocês podem publicar minha opinião, sem o meu nome.',
+  reviewSend: 'Enviar opinião',
+  reviewThanks: 'Obrigado pela sua opinião.',
+  privacy: ['Se você nos escreve', 'Se você nos escreve ou deixa uma opinião ao terminar uma rota, guardamos o que você escreve, as estrelas, o local, a parada e o idioma que estava vendo e, só se você digitar, seu e-mail para responder. Os dados são apagados após 90 dias. Uma opinião só é publicada se você marcar a permissão, e sempre sem o seu nome. As respostas de “Você gostou desta parada?” são uma contagem anônima por parada, sem nada que identifique você.'],
 };
 
 const it: ContactoText = {
@@ -194,7 +243,14 @@ const it: ContactoText = {
   likeNo: 'No',
   likeThanks: 'Grazie per la risposta.',
   likeNoMore: 'Vuoi dirci cosa migliorare?',
-  privacy: ['Se ci scrivi', 'I moduli «Contatto» e «Segnala un errore» salvano il messaggio che scrivi, il sito, la tappa e la lingua che stavi vedendo e, solo se lo digiti, la tua e-mail per risponderti. Vengono cancellati dopo 90 giorni. Le risposte a «Ti è piaciuta questa tappa?» sono un conteggio anonimo per tappa, senza nulla che ti identifichi.'],
+  reviewTitle: 'Come ti è sembrato questo percorso?',
+  reviewSub: 'La tua opinione aiuta altre persone a decidere.',
+  reviewStars: (n) => `${n} stelle su 5`,
+  reviewPlaceholder: 'Una frase, se vuoi (facoltativa)',
+  reviewPermit: 'Potete pubblicare la mia opinione, senza il mio nome.',
+  reviewSend: 'Invia opinione',
+  reviewThanks: 'Grazie per la tua opinione.',
+  privacy: ['Se ci scrivi', 'Se ci scrivi o lasci un’opinione al termine di un percorso, salviamo ciò che scrivi, le stelle, il sito, la tappa e la lingua che stavi vedendo e, solo se lo digiti, la tua e-mail per risponderti. I dati vengono cancellati dopo 90 giorni. Un’opinione viene pubblicata solo se spunti il permesso, e sempre senza il tuo nome. Le risposte a «Ti è piaciuta questa tappa?» sono un conteggio anonimo per tappa, senza nulla che ti identifichi.'],
 };
 
 const TEXTS: Partial<Record<SupportedLanguage, ContactoText>> = { es, en, fr, pl, de, pt, it };

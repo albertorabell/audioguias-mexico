@@ -530,11 +530,15 @@ async function handleContact(request, env, cfg, cors) {
   // Campo trampa: las personas no lo ven ni lo llenan; si trae algo, es un programa. Se responde "bien" sin guardar.
   if (typeof b.web === 'string' && b.web.trim()) return new Response(null, { status: 204, headers: cors });
   const clean = (v, max) => String(v ?? '').replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, '').trim().slice(0, max);
+  // Reseña al terminar una ruta: calificación de 1 a 5 (obligatoria) y frase opcional; `ok` = permiso para publicarla.
+  const isReview = b.t === 'resena';
+  const stars = isReview ? Math.round(Number(b.r)) : 0;
+  if (isReview && !(stars >= 1 && stars <= 5)) return json({ error: 'bad_request' }, 400, cors);
   const message = clean(b.m, 2000);
-  if (message.length < 3) return json({ error: 'bad_request' }, 400, cors);
+  if (message.length < 3 && !isReview) return json({ error: 'bad_request' }, 400, cors);
   const reply = clean(b.c, 120);
   if (reply && !EMAIL_RE.test(reply)) return json({ error: 'bad_email' }, 400, cors);
-  const kind = b.t === 'error' ? 'error' : 'mensaje';
+  const kind = isReview ? 'resena' : b.t === 'error' ? 'error' : 'mensaje';
   const piece = clean(b.p, 80);
   const site = siteKey(b.s);
   const lang = /^[a-z]{2}$/.test(String(b.l || '')) ? b.l : '';
@@ -544,11 +548,11 @@ async function handleContact(request, env, cfg, cors) {
     const n = parseInt((await env.PASES.get(capKey)) || '0', 10) || 0;
     if (n >= CONTACT_DAILY_MAX) return json({ error: 'busy' }, 429, cors);
     await env.PASES.put(capKey, String(n + 1), { expirationTtl: 2 * 86400 });
-    const rec = { t: kind, m: message, ...(reply ? { c: reply } : {}), ...(piece ? { p: piece } : {}), ...(site ? { s: site } : {}), ...(lang ? { l: lang } : {}), at: new Date().toISOString() };
+    const rec = { t: kind, m: message, ...(isReview ? { r: stars, ok: b.ok === true } : {}), ...(reply ? { c: reply } : {}), ...(piece ? { p: piece } : {}), ...(site ? { s: site } : {}), ...(lang ? { l: lang } : {}), at: new Date().toISOString() };
     await env.PASES.put(`ct:m:${Date.now()}-${crypto.randomUUID().slice(0, 8)}`, JSON.stringify(rec), { expirationTtl: CONTACT_TTL });
     try {
       const where = [site && `sitio: ${site}`, piece && `parada: ${piece}`, lang && `idioma: ${lang}`].filter(Boolean).join(' · ');
-      await sendContactMail(env, `[Xolotli] ${kind === 'error' ? 'Reporte de error' : 'Mensaje'}${piece ? ` (${piece})` : ''}`, `${message}\n\n---\n${where || 'sin detalles'}\n${reply ? `Responder a: ${reply}` : 'Sin correo de respuesta'}\n`, reply);
+      await sendContactMail(env, `[Xolotli] ${kind === 'resena' ? `Reseña ${stars}/5${b.ok === true ? ' (publicable)' : ''}` : kind === 'error' ? 'Reporte de error' : 'Mensaje'}${piece ? ` (${piece})` : ''}`, `${message || '(sin texto)'}\n\n---\n${where || 'sin detalles'}\n${reply ? `Responder a: ${reply}` : 'Sin correo de respuesta'}\n`, reply);
     } catch (e) {
       console.error('contacto_correo', e && e.message);
     }

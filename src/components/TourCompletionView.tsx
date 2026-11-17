@@ -3,6 +3,7 @@ import { Flag, RotateCcw } from 'lucide-react';
 import { RouteStop } from '../types';
 import { formatRouteDuration } from '../utils/routeOptimizer';
 import { useStrings } from '../utils/LanguageContext';
+import { ReviewCard } from './ReviewCard';
 
 interface TourCompletionViewProps {
   routeName: string;
@@ -55,6 +56,8 @@ export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
             </div>
           ))}
         </dl>
+
+        <ReviewCard routeName={routeName} />
 
         <div className="mt-10 flex flex-col gap-2.5">
           <button type="button" onClick={onExploreRooms} className="btn-primary w-full">
