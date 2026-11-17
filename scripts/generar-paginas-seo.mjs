@@ -3,11 +3,14 @@
 // Uso: node scripts/generar-paginas-seo.mjs [carpeta-dist]   (por defecto: dist)
 import fs from 'node:fs';
 import path from 'node:path';
-import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias } from './seo-lib.mjs';
+import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes } from './seo-lib.mjs';
 
 const DIST = path.resolve(process.argv[2] || 'dist');
 const leer = (rel) => JSON.parse(fs.readFileSync(path.join(DIST, rel), 'utf-8'));
 const existe = (rel) => fs.existsSync(path.join(DIST, rel));
+
+// Dirección del servidor de cobro: ahí se cuentan (de forma anónima) los toques del botón «Escuchar 30 s»
+ajustes.api = process.env.VITE_PAYMENTS_API_URL || '';
 
 const SEO_DIR = path.resolve('.seo-data');
 // Sitios aún sin publicar en la app (solo «próximamente»): sus datos viven en .seo-data/, fuera de lo que se publica
@@ -75,8 +78,9 @@ for (const h of hechas) {
     const delIdioma = paginasPieza(lang);
     const gratisEnlaces = delIdioma.map((p) => ({ titulo: tituloDePieza(p, lang), url: direccionPieza(h.cfg, p, lang) }));
     // Clip de la primera pieza gratis que tenga uno en este idioma (hoy: la Piedra del Sol del MNA)
-    const muestraPieza = gratis.map((p) => clipDe(hayClip, p.piece_id, lang)).find(Boolean) || '';
-    const { html, url } = armarPagina({ sitio: h.sitio, manifiesto: h.manifiesto, salas: h.salas, piezas: h.piezas, cfg: h.cfg, lang, idiomas: h.idiomas, otras, portada: h.portada, gratisEnlaces, muestra: h.cfg.proximamente ? '' : muestraPieza });
+    const conClip = gratis.map((p) => ({ p, src: clipDe(hayClip, p.piece_id, lang) })).find((x) => x.src);
+    const muestraPieza = conClip?.src || '';
+    const { html, url } = armarPagina({ sitio: h.sitio, manifiesto: h.manifiesto, salas: h.salas, piezas: h.piezas, cfg: h.cfg, lang, idiomas: h.idiomas, otras, portada: h.portada, gratisEnlaces, muestra: h.cfg.proximamente ? '' : muestraPieza, muestraPieza: conClip?.p.piece_id || '' });
     escribir(direccion(h.cfg.slugs[lang], lang), html);
     grupo.push({ lang, url });
     console.log(`SEO: ${url} (${(html.length / 1024).toFixed(1)} KB)`);

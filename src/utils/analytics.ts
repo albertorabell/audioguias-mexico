@@ -25,6 +25,7 @@ export type AnalyticsEvent =
   | 'util_no'
   | 'pass_code_shared'
   | 'sample_play'
+  | 'guide_sample'
   | 'app_error'
   | 'visitor_new'
   | 'first_audio'

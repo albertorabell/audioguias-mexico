@@ -21,6 +21,7 @@ test('resumen de uso: embudo, aliados, primer audio y paradas de ruta', () => {
       'app_open|mna||es||qr': 10, 'first_audio|||||10': 4, 'first_audio|||||60': 2, 'free_end|mna|a_uno|es||': 3,
       'paywall_block|mna|a_uno|es||': 2, 'paywall_open|mna|||||': 2, 'checkout_start|mna||es||': 1, 'purchase|mna|||||mxn': 1,
       'ally_visit|||||hotel_x': 3, 'route_stop|mna|ruta_a|||1': 5, 'route_stop|mna|ruta_a|||2': 3, 'audio_error|mna|a_uno|es||': 1,
+      'guide_sample|mna|mna_s06_piedra_sol|es||': 4, 'guide_sample|mna|mna_s06_piedra_sol|en||': 1,
     },
   };
   const t = resumir(conteos, 7);
@@ -30,4 +31,5 @@ test('resumen de uso: embudo, aliados, primer audio y paradas de ruta', () => {
   assert.match(t, /ruta_a: parada 1: 5 · parada 2: 3/);
   assert.match(t, /- 10: 4\n- 60: 2/);
   assert.match(t, /Errores de audio: 1/);
+  assert.match(t, /Escuchar 30 s.*\n- mna \/ mna_s06_piedra_sol: 5/);
 });
