@@ -4,6 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { TERMS, TERMS_UPDATED } from '../src/i18n/terminos.js';
+import { PRIVACY } from '../src/i18n/privacidad.js';
 import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes } from './seo-lib.mjs';
 
 const DIST = path.resolve(process.argv[2] || 'dist');
@@ -120,21 +121,29 @@ for (const h of hechas) {
   }
 }
 
-// Términos de venta y reembolsos (Stripe pide una dirección pública): /terminos/<idioma>/ en los 7 idiomas
-for (const l of IDIOMAS) {
-  const t = TERMS[l];
-  const esc2 = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  const enlaces = IDIOMAS.map((x) => (x === l ? `<strong>${x.toUpperCase()}</strong>` : `<a href="/terminos/${x}/">${x.toUpperCase()}</a>`)).join(' · ');
-  escribir(`terminos/${l}`, `<!doctype html>
+// Términos de venta y aviso de privacidad (Stripe pide una dirección pública de cada uno):
+// /terminos/<idioma>/ y /privacidad/<idioma>/ en los 7 idiomas. Sin índice de buscadores y fuera del sitemap.
+const esc2 = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const textosLegales = {
+  terminos: (l) => ({ title: TERMS[l].title, intro: TERMS[l].intro, blocks: TERMS[l].blocks, updated: TERMS[l].updated, seller: TERMS[l].seller }),
+  privacidad: (l) => ({ title: PRIVACY[l].title, intro: PRIVACY[l].intro, blocks: PRIVACY[l].blocks, updated: PRIVACY[l].updated, seller: '' }),
+};
+for (const [carpeta, texto] of Object.entries(textosLegales)) {
+  const otra = carpeta === 'terminos' ? 'privacidad' : 'terminos';
+  for (const l of IDIOMAS) {
+    const t = texto(l);
+    const enlaces = IDIOMAS.map((x) => (x === l ? `<strong>${x.toUpperCase()}</strong>` : `<a href="/${carpeta}/${x}/">${x.toUpperCase()}</a>`)).join(' · ');
+    escribir(`${carpeta}/${l}`, `<!doctype html>
 <html lang="${l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc2(t.title)} · Xolotli</title><meta name="robots" content="noindex"><link rel="canonical" href="${DOMINIO}/terminos/${l}/">
+<title>${esc2(t.title)} · Xolotli</title><meta name="robots" content="noindex"><link rel="canonical" href="${DOMINIO}/${carpeta}/${l}/">
 <style>body{font:17px/1.6 system-ui,sans-serif;max-width:40rem;margin:0 auto;padding:1.5rem;color:#1c1917}h1{font-size:1.7rem}h2{font-size:1.05rem;margin:1.6rem 0 .2rem}p{margin:.2rem 0}.s{margin-top:2rem;font-size:.7rem;color:#78716c}nav{font-size:.9rem;color:#57534e}a{color:#9d174d}</style></head>
 <body><nav>${enlaces}</nav><h1>${esc2(t.title)}</h1><p>${esc2(t.intro)}</p>
 ${t.blocks.map(([h, b]) => `<h2>${esc2(h)}</h2><p>${esc2(b)}</p>`).join('\n')}
-<p class="s">${esc2(t.updated)}</p><p class="s">${esc2(t.seller)}</p>
-<p><a href="/">xolotli.com</a></p></body></html>`);
+<p class="s">${esc2(t.updated)}</p>${t.seller ? `<p class="s">${esc2(t.seller)}</p>` : ''}
+<p><a href="/${otra}/${l}/">${esc2(otra === 'terminos' ? TERMS[l].label : PRIVACY[l].title)}</a> · <a href="/">xolotli.com</a></p></body></html>`);
+  }
 }
-console.log(`SEO: términos en ${IDIOMAS.length} idiomas (${TERMS_UPDATED})`);
+console.log(`SEO: términos y privacidad en ${IDIOMAS.length} idiomas (${TERMS_UPDATED})`);
 
 fs.writeFileSync(path.join(DIST, 'sitemap.xml'), armarSitemap(grupos));
 fs.writeFileSync(path.join(DIST, 'llms.txt'), armarLlms(llms));
