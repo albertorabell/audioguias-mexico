@@ -37,6 +37,9 @@ export interface PortadaTexts {
   descargaTodo: string;
   descargaRuta: string;
   gustoBoton: string;
+  /** Lista de recorridos: abrir y cerrar las paradas de cada uno */
+  verParadas: string;
+  ocultarParadas: string;
   region: Record<string, string>;
 }
 
@@ -64,6 +67,8 @@ const es: PortadaTexts = {
   descargaTodo: "Descargar todo el sitio",
   descargaRuta: "Descargar solo la ruta recomendada",
   gustoBoton: "Ver el pase de 30 días",
+  verParadas: "Ver paradas",
+  ocultarParadas: "Ocultar paradas",
   region: { cdmx: 'Ciudad de México', edomex: 'Estado de México', morelos: 'Morelos', yucatan: 'Yucatán' },
 };
 
@@ -91,6 +96,8 @@ const en: PortadaTexts = {
   descargaTodo: "Download the whole site",
   descargaRuta: "Download only the recommended route",
   gustoBoton: "See the 30-day pass",
+  verParadas: "See stops",
+  ocultarParadas: "Hide stops",
   region: { cdmx: 'Mexico City', edomex: 'State of Mexico', morelos: 'Morelos', yucatan: 'Yucatán' },
 };
 
@@ -118,6 +125,8 @@ const fr: PortadaTexts = {
   descargaTodo: "Télécharger tout le site",
   descargaRuta: "Télécharger seulement le parcours recommandé",
   gustoBoton: "Voir le pass de 30 jours",
+  verParadas: "Voir les étapes",
+  ocultarParadas: "Masquer les étapes",
   region: { cdmx: 'Mexico', edomex: 'État de Mexico', morelos: 'Morelos', yucatan: 'Yucatán' },
 };
 
@@ -145,6 +154,8 @@ const pl: PortadaTexts = {
   descargaTodo: "Pobierz całe miejsce",
   descargaRuta: "Pobierz tylko polecaną trasę",
   gustoBoton: "Zobacz karnet na 30 dni",
+  verParadas: "Zobacz przystanki",
+  ocultarParadas: "Ukryj przystanki",
   region: { cdmx: 'Miasto Meksyk', edomex: 'Stan Meksyk', morelos: 'Morelos', yucatan: 'Jukatan' },
 };
 
@@ -172,6 +183,8 @@ const de: PortadaTexts = {
   descargaTodo: "Den ganzen Ort herunterladen",
   descargaRuta: "Nur die empfohlene Route herunterladen",
   gustoBoton: "30-Tage-Pass ansehen",
+  verParadas: "Stationen ansehen",
+  ocultarParadas: "Stationen ausblenden",
   region: { cdmx: 'Mexiko-Stadt', edomex: 'Bundesstaat México', morelos: 'Morelos', yucatan: 'Yucatán' },
 };
 
@@ -199,6 +212,8 @@ const pt: PortadaTexts = {
   descargaTodo: "Baixar o local inteiro",
   descargaRuta: "Baixar só o roteiro recomendado",
   gustoBoton: "Ver o passe de 30 dias",
+  verParadas: "Ver paradas",
+  ocultarParadas: "Ocultar paradas",
   region: { cdmx: 'Cidade do México', edomex: 'Estado do México', morelos: 'Morelos', yucatan: 'Iucatã' },
 };
 
@@ -226,6 +241,8 @@ const it: PortadaTexts = {
   descargaTodo: "Scarica tutto il sito",
   descargaRuta: "Scarica solo il percorso consigliato",
   gustoBoton: "Vedi il pass da 30 giorni",
+  verParadas: "Vedi le tappe",
+  ocultarParadas: "Nascondi le tappe",
   region: { cdmx: 'Città del Messico', edomex: 'Stato del Messico', morelos: 'Morelos', yucatan: 'Yucatán' },
 };
 
