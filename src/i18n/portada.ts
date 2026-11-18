@@ -16,6 +16,8 @@ export interface PortadaTexts {
   idiomas: string;
   sinSenal: string;
   desde: (precio: string) => string;
+  /** Mientras el acceso es gratis: aviso de que pronto se cobrará */
+  gratisAhora: string;
   telefonos: (n: number) => string;
   /** Tarjetas */
   sitiosTitulo: string;
@@ -53,6 +55,7 @@ const es: PortadaTexts = {
   idiomas: '7 idiomas',
   sinSenal: 'Sin señal',
   desde: (p) => `Desde ${p}`,
+  gratisAhora: 'Por tiempo limitado, todos los recorridos son gratis.',
   telefonos: (n) => `${n} teléfonos`,
   sitiosTitulo: 'Elige tu sitio',
   pase: (p) => `Pase ${p}`,
@@ -82,6 +85,7 @@ const en: PortadaTexts = {
   idiomas: '7 languages',
   sinSenal: 'Works offline',
   desde: (p) => `From ${p}`,
+  gratisAhora: 'For a limited time, all tours are free.',
   telefonos: (n) => `${n} phones`,
   sitiosTitulo: 'Choose your site',
   pase: (p) => `Pass ${p}`,
@@ -111,6 +115,7 @@ const fr: PortadaTexts = {
   idiomas: '7 langues',
   sinSenal: 'Sans réseau',
   desde: (p) => `Dès ${p}`,
+  gratisAhora: 'Pour une durée limitée, tous les parcours sont gratuits.',
   telefonos: (n) => `${n} téléphones`,
   sitiosTitulo: 'Choisissez votre site',
   pase: (p) => `Pass ${p}`,
@@ -140,6 +145,7 @@ const pl: PortadaTexts = {
   idiomas: '7 języków',
   sinSenal: 'Bez zasięgu',
   desde: (p) => `Od ${p}`,
+  gratisAhora: 'Przez ograniczony czas wszystkie trasy są bezpłatne.',
   telefonos: (n) => `${n} telefony`,
   sitiosTitulo: 'Wybierz miejsce',
   pase: (p) => `Karnet ${p}`,
@@ -169,6 +175,7 @@ const de: PortadaTexts = {
   idiomas: '7 Sprachen',
   sinSenal: 'Ohne Empfang',
   desde: (p) => `Ab ${p}`,
+  gratisAhora: 'Für kurze Zeit sind alle Rundgänge kostenlos.',
   telefonos: (n) => `${n} Handys`,
   sitiosTitulo: 'Wähle deinen Ort',
   pase: (p) => `Pass ${p}`,
@@ -198,6 +205,7 @@ const pt: PortadaTexts = {
   idiomas: '7 idiomas',
   sinSenal: 'Sem sinal',
   desde: (p) => `A partir de ${p}`,
+  gratisAhora: 'Por tempo limitado, todos os roteiros são grátis.',
   telefonos: (n) => `${n} celulares`,
   sitiosTitulo: 'Escolha seu local',
   pase: (p) => `Passe ${p}`,
@@ -227,6 +235,7 @@ const it: PortadaTexts = {
   idiomas: '7 lingue',
   sinSenal: 'Senza campo',
   desde: (p) => `Da ${p}`,
+  gratisAhora: 'Per un periodo limitato, tutti i percorsi sono gratuiti.',
   telefonos: (n) => `${n} telefoni`,
   sitiosTitulo: 'Scegli il tuo sito',
   pase: (p) => `Pass ${p}`,
