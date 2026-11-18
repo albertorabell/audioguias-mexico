@@ -7,7 +7,7 @@
   };
   var data = null, visits = null, messages = null, exact = false;
 
-  $('api').value = store.get('panel_api');
+  $('api').value = store.get('panel_api') || 'https://audioguias-pagos.albertorabell.workers.dev';
   $('key').value = store.get('panel_key');
 
   function fmt(n) { return Number(n || 0).toLocaleString('es-MX'); }

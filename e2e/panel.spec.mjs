@@ -26,8 +26,8 @@ test('panel: entra con la clave, dibuja las gráficas de visitantes, compara con
     if (url.includes('/estadisticas')) return route.fulfill({ headers: h, json: { dias: 60, exacto: true, conteos: conteos(60) } });
     return route.fulfill({ headers: h, json: { conteos: {}, mensajes: [] } });
   });
+  await page.addInitScript(() => localStorage.setItem('panel_api', 'https://pagos.test'));
   await page.goto('/panel.html');
-  await page.fill('#api', 'https://pagos.test');
   await page.fill('#key', 'clave');
   await page.click('#loginForm button[type=submit]');
   await expect(page.locator('#chVisitas svg.chart')).toBeVisible();
@@ -50,8 +50,8 @@ test('panel: entra con la clave, dibuja las gráficas de visitantes, compara con
 test('panel: una clave incorrecta avisa y no muestra nada', async ({ page }) => {
   await aislar(page);
   await page.route('https://pagos.test/**', (route) => route.fulfill({ status: 401, headers: { 'access-control-allow-origin': '*' }, json: { error: 'unauthorized' } }));
+  await page.addInitScript(() => localStorage.setItem('panel_api', 'https://pagos.test'));
   await page.goto('/panel.html');
-  await page.fill('#api', 'https://pagos.test');
   await page.fill('#key', 'mala');
   await page.click('#loginForm button[type=submit]');
   await expect(page.locator('#loginErr')).toContainText('clave');
