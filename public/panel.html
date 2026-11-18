@@ -66,8 +66,11 @@
       <label>Dirección del servidor de pagos
         <input id="api" type="url" placeholder="https://audioguias-pagos.….workers.dev" required autocomplete="off">
       </label>
+      <label>Usuario (tu correo; solo sirve para que el navegador guarde la contraseña)
+        <input id="user" name="username" type="email" autocomplete="username" autocapitalize="off" spellcheck="false">
+      </label>
       <label>Clave de estadísticas
-        <input id="key" type="password" required autocomplete="off">
+        <input id="key" name="password" type="password" required autocomplete="current-password">
       </label>
       <button type="submit">Ver números</button>
       <p class="note" style="margin:0">Se guardan solo en este navegador.</p>
