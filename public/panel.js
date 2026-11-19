@@ -7,7 +7,9 @@
   };
   var data = null, visits = null, messages = null, exact = false;
 
-  $('api').value = store.get('panel_api');
+  // El servidor es siempre el mismo: se ignora cualquier dirección guardada antes (daba 404 si estaba mal escrita)
+  store.del('panel_api');
+  $('api').value = window.PANEL_API_TEST || 'https://audioguias-pagos.albertorabell.workers.dev';
   $('key').value = store.get('panel_key');
 
   function fmt(n) { return Number(n || 0).toLocaleString('es-MX'); }

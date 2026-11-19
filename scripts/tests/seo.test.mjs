@@ -33,7 +33,7 @@ test('recorrido principal: el marcado; si no, el más corto', () => {
 test('página: título, descripción, dirección canónica, datos estructurados y botón a la app', () => {
   const { html, url, titulo, descripcion } = armarPagina({ sitio, manifiesto, salas, piezas, cfg: { ...cfg, slugs: { es: 'museo-nacional-de-antropologia' } }, portada: '/images/pieces/a.webp' });
   assert.equal(url, 'https://xolotli.com/guias/museo-nacional-de-antropologia/');
-  assert.match(titulo, /Museo Nacional de Antropología: audioguía/);
+  assert.match(titulo, /Museo Nacional de Antropología: qué ver, cómo llegar y audioguía/);
   assert.ok(descripcion.length <= 160);
   assert.ok(html.includes('<link rel="canonical" href="https://xolotli.com/guias/museo-nacional-de-antropologia/">'));
   assert.ok(html.includes('href="/sitio/mna?idioma=es"'));
@@ -230,4 +230,30 @@ test('botón «Escuchar 30 s»: con servidor de medición lleva sitio, pieza, id
   } finally {
     ajustes.api = antes;
   }
+});
+
+// ── Páginas agrupadas ──
+import { HUBS, armarHub, direccionHub } from '../seo-lib.mjs';
+
+test('hubs: cada grupo tiene dirección, título, texto en los 7 idiomas y no repite direcciones', () => {
+  const vistas = new Set();
+  for (const hub of Object.values(HUBS)) {
+    for (const l of ['es', 'en', 'fr', 'pl', 'de', 'pt', 'it']) {
+      for (const campo of ['h1', 'titulo', 'lead', 'intro', 'slugs']) assert.ok(hub[campo][l] && hub[campo][l].length > 3, `${campo} ${l}`);
+      const d = direccionHub(hub, l);
+      assert.ok(!vistas.has(d), `repetida ${d}`);
+      vistas.add(d);
+    }
+  }
+});
+
+test('hubs: arma la página con enlaces a los sitios, hreflang y datos estructurados; con menos de 2 sitios no sale', () => {
+  const hub = HUBS.morelos;
+  const entradas = [{ nombre: 'Cuernavaca Histórica', url: '/guias/cuernavaca-historica/', lead: 'Centro.' }, { nombre: 'Xochicalco', url: '/guias/zona-arqueologica-de-xochicalco/', lead: '' }];
+  const r = armarHub({ hub, lang: 'es', idiomas: ['es', 'en'], entradas });
+  assert.match(r.html, /<title>Qué ver en Morelos/);
+  assert.match(r.html, /href="\/guias\/cuernavaca-historica\/"/);
+  assert.match(r.html, /hreflang="en" href="https:\/\/xolotli.com\/en\/guides\/what-to-see-in-morelos\/"/);
+  assert.match(r.html, /CollectionPage/);
+  assert.equal(armarHub({ hub, lang: 'es', entradas: entradas.slice(0, 1) }), null);
 });

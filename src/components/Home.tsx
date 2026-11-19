@@ -6,6 +6,7 @@ import { localizeSite } from '../i18n/content';
 import { portadaTexts } from '../i18n/portada';
 import { PASS_DAYS, PASS_MAX_DEVICES } from '../config/pass';
 import { formatPrice } from '../utils/price';
+import { isFreeAccess } from '../utils/license';
 import { InstallCard } from './InstallHelp';
 import { FooterLinks } from './FooterLinks';
 import { MuestraBoton } from './MuestraBoton';
@@ -42,6 +43,9 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
   const t = portadaTexts(currentLanguage);
   const u = strings.ui.home;
   const locale = currentLanguage === 'es' ? 'es-MX' : currentLanguage;
+  // Acceso gratis por ahora: los precios se ven tachados, con $0 y el aviso de que pronto se cobrará
+  const gratis = isFreeAccess();
+  const cero = (s: SiteSummary) => formatPrice(0, currentLanguage !== 'es' && s.pass_price_usd ? 'USD' : 'MXN', locale);
 
   // Los sitios en revisión (status "preview") solo se ven abriendo la app con ?preview al final de la dirección
   const verPrevia = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('preview');
@@ -113,7 +117,7 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
     }
   })();
 
-  const franja = [t.paradas(datos.paradas), t.idiomas, t.sinSenal, datos.desde ? t.desde(datos.desde) : '', t.telefonos(PASS_MAX_DEVICES)].filter((x) => x && !x.startsWith('0 '));
+  const franja = [t.paradas(datos.paradas), t.idiomas, t.sinSenal, !gratis && datos.desde ? t.desde(datos.desde) : '', t.telefonos(PASS_MAX_DEVICES)].filter((x) => x && !x.startsWith('0 '));
 
   return (
     <div className="min-h-dvh bg-bg text-ink pb-12">
@@ -149,6 +153,9 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
 
         <section id="sites-grid-section" aria-label={t.sitiosTitulo}>
           {isLoading && <div className="h-80 rounded-[20px] bg-surface animate-pulse" />}
+          {gratis && datos.desde && (
+            <p className="mb-4 rounded-xl border border-jade/30 bg-jade/10 px-3.5 py-2.5 text-ui font-semibold text-jade-ink">{t.gratisAhora}</p>
+          )}
           {grupos.map((g) => (
             <div key={g.region || 'otros'} className="mb-8">
               {g.region && <h2 className="mb-3 text-ui font-bold text-ink-2">{t.region[g.region] || g.region}</h2>}
@@ -189,10 +196,10 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
                           <MapPin className="w-3 h-3 shrink-0" strokeWidth={2} />
                           <span className="truncate">{site.location}</span>
                         </p>
-                        <div className="mt-auto pt-2 flex items-end justify-between gap-2">
-                          <span className="text-cap text-ink-2 leading-tight">{statsText}</span>
-                          {precio && <span className="shrink-0 rounded-full border border-line bg-raised px-2 py-0.5 text-cap font-semibold text-ink">{precio}</span>}
-                        </div>
+                          <div className="mt-auto pt-2 flex items-end justify-between gap-2">
+                            <span className="text-cap text-ink-2 leading-tight">{statsText}</span>
+                            {precio && <span className="shrink-0 rounded-full border border-line bg-raised px-2 py-0.5 text-cap font-semibold text-ink">{gratis ? <><s className="font-normal text-ink-3">{precio}</s> <span className="text-jade-ink">{cero(rawSite)}</span></> : precio}</span>}
+                          </div>
                       </div>
                     </div>
                   );
@@ -213,7 +220,11 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
                     <span className="block text-[1rem] font-semibold text-ink">{c.nombre}</span>
                     {c.n !== 'todos' && <span className="block text-cap text-ink-3">{t.combosIncluye(c.n)}</span>}
                   </span>
-                  <span className="shrink-0 rounded-full border border-line bg-raised px-2.5 py-1 text-cap font-semibold text-ink">{c.precio}</span>
+                  {gratis ? (
+                    <s className="shrink-0 text-cap text-ink-3">{c.precio}</s>
+                  ) : (
+                    <span className="shrink-0 rounded-full border border-line bg-raised px-2.5 py-1 text-cap font-semibold text-ink">{c.precio}</span>
+                  )}
                 </li>
               ))}
             </ul>

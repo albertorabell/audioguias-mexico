@@ -38,6 +38,8 @@ import { OfflineTourBanner } from './OfflineTourBanner';
 import { portadaTexts } from '../i18n/portada';
 import { IntroTour } from './IntroTour';
 import { RoutePreviewSheet } from './RoutePreviewSheet';
+import { RouteListRow, routeCovers } from './RouteListRow';
+import { esCaminata } from '../utils/caminata';
 
 export interface ContinueInfo {
   eyebrow: string;
@@ -197,6 +199,8 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   const shelf = useMemo(() => [...routes].sort((a, b) => minutesOf(a) - minutesOf(b)).slice(0, 6), [routes]);
 
   /** El recorrido del botón «Empezar recorrido»: el que el Sheet marca como principal, o el más corto. */
+  const coverByRoute = useMemo(() => routeCovers(shelf, pieceById), [shelf, pieceById]);
+
   const mainRoute = useMemo(() => routes.find((r) => r.principal) || shelf[0], [routes, shelf]);
 
   // Descarga sin internet: por defecto solo la ruta recomendada (menos datos); un botón permite bajar todo el sitio
@@ -312,7 +316,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 {u.home.tryFree}
               </button>
             )}
-            {lead && <p className="mt-6 font-serif text-[1.1875rem] leading-[1.5] text-ink-2 text-pretty">{lead}</p>}
+            {lead && <p className="mt-6 font-serif text-[1.0625rem] leading-[1.6] text-ink-2 text-pretty">{lead}</p>}
             <p id="site-facts" className="mt-4 text-ui text-ink-2">
               {m.facts(u.worksCount(pieces.length), u.roomsCount(rooms.length))}
               {range && ` ${range.min === range.max ? m.routeOne(inlineDuration(range.min)) : m.routeRange(inlineDuration(range.min), inlineDuration(range.max))}`}
@@ -373,34 +377,33 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
               {m.routesTitle}
             </h2>
             <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.routesSub}</p>
-            {/* Cuadrícula de celdas iguales: con un número impar de rutas, «Armar la mía» ocupa la celda libre */}
-            <ul className="mt-4 grid grid-cols-2 gap-3">
+            {/* Una fila por recorrido, como la lista de sitios: foto, nombre, duración y paradas, y dos botones */}
+            <ul className="mt-4 flex flex-col gap-3">
               {shelf.map((route, i) => (
-                <li key={route.id} className="flex">
-                  <button
-                    type="button"
-                    id={i === 0 ? 'first-route-card' : undefined}
-                    onClick={() => setPreviewRoute(route)}
-                    className="w-full min-h-[10.5rem] flex flex-col items-start gap-2 rounded-2xl border border-line bg-surface p-4 text-left cursor-pointer row-press"
-                  >
-                    <span className="font-serif text-[1.75rem] leading-none tabular-nums text-ink whitespace-nowrap">
-                      {formatRouteDurationShort(minutesOf(route))}
-                    </span>
-                    <span className="text-cap text-ink-3">{u.worksCount(route.stops.length)}</span>
-                    <span className="mt-auto text-[1rem] font-bold leading-snug text-ink text-pretty line-clamp-4">{route.name}</span>
-                  </button>
-                </li>
+                <RouteListRow
+                  key={route.id}
+                  id={i === 0 ? 'first-route-card' : undefined}
+                  route={route}
+                  duration={formatRouteDurationShort(minutesOf(route))}
+                  stopsText={u.worksCount(route.stops.filter((st) => !esCaminata({ piece_id: st.piece_id || st.id || st.poi_id })).length)}
+                  cover={coverByRoute.get(route.id)}
+                  pieceById={pieceById}
+                  startLabel={u.routes.start}
+                  seeLabel={pt.verParadas}
+                  hideLabel={pt.ocultarParadas}
+                  onStart={onStartRoute}
+                />
               ))}
               {onOpenWizard && (
-                <li className={`flex ${shelf.length % 2 === 0 ? 'col-span-2' : ''}`}>
+                <li>
                   <button
                     type="button"
                     id="btn-open-wizard"
                     onClick={onOpenWizard}
-                    className={`w-full ${shelf.length % 2 === 0 ? 'min-h-[4.5rem] flex-row items-center' : 'min-h-[10.5rem] flex-col items-start'} flex gap-2 rounded-2xl border border-dashed border-jade-ink/40 p-4 text-left cursor-pointer row-press`}
+                    className="w-full min-h-[4.5rem] flex flex-row items-center gap-3 rounded-2xl border border-dashed border-jade-ink/40 p-4 text-left cursor-pointer row-press"
                   >
                     <SlidersHorizontal className="w-6 h-6 text-jade-ink shrink-0" strokeWidth={1.8} />
-                    <span className={shelf.length % 2 === 0 ? 'min-w-0 flex-1' : 'mt-auto'}>
+                    <span className="min-w-0 flex-1">
                       <span className="block text-[1rem] font-bold leading-snug text-ink">{m.buildOwn}</span>
                       <span className="mt-0.5 block text-cap text-ink-3">{m.buildOwnSub}</span>
                     </span>

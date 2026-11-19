@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { TERMS, TERMS_UPDATED } from '../src/i18n/terminos.js';
 import { PRIVACY } from '../src/i18n/privacidad.js';
-import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes } from './seo-lib.mjs';
+import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes, HUBS, armarHub, direccionHub, recortar } from './seo-lib.mjs';
 
 const DIST = path.resolve(process.argv[2] || 'dist');
 const leer = (rel) => JSON.parse(fs.readFileSync(path.join(DIST, rel), 'utf-8'));
@@ -56,6 +56,15 @@ const escribir = (rel, html) => {
 };
 const fotoDe = (p) => (p?.image_filename && existe(`images/pieces/${p.image_filename}`) ? `/images/pieces/${p.image_filename}` : '');
 
+// Páginas agrupadas: solo los sitios publicados (no «próximamente») y disponibles en cada idioma; sin menos de 2 sitios no sale
+const nombreEn = (o, lang) => (lang === 'es' ? o.sitio.name : o.sitio[`name_${lang}`] || o.cfg.nombres?.[lang]) || o.sitio.name;
+const entradasHub = (hub, lang) =>
+  hub.sitios
+    .map((id) => hechas.find((o) => o.id === id && !o.cfg.proximamente && o.idiomas.includes(lang)))
+    .filter(Boolean)
+    .map((o) => ({ nombre: nombreEn(o, lang), url: direccion(o.cfg.slugs[lang], lang), lead: recortar(String((lang === 'es' ? o.sitio.description : o.sitio[`description_${lang}`]) || '').trim(), 170) }));
+const idiomasHub = (hub) => Object.keys(hub.slugs).filter((l) => entradasHub(hub, l).length >= 2);
+
 for (const h of hechas) {
   const grupo = [];
   // Piezas gratis con página (su texto ya es público en la app). Los sitios «próximamente» no tienen.
@@ -71,12 +80,13 @@ for (const h of hechas) {
     });
   };
   for (const lang of h.idiomas) {
-    const otras = hechas
+    const enlacesHub = Object.values(HUBS).filter((hub) => hub.sitios.includes(h.id) && idiomasHub(hub).includes(lang)).map((hub) => ({ nombre: hub.h1[lang], url: direccionHub(hub, lang) }));
+    const otras = [...enlacesHub, ...hechas
       .filter((o) => o.id !== h.id && o.idiomas.includes(lang))
       .map((o) => ({
         nombre: (lang === 'es' ? o.sitio.name : o.sitio[`name_${lang}`] || o.cfg.nombres?.[lang]) || o.sitio.name,
         url: direccion(o.cfg.slugs[lang], lang),
-      }));
+      }))];
     const delIdioma = paginasPieza(lang);
     const gratisEnlaces = delIdioma.map((p) => ({ titulo: tituloDePieza(p, lang), url: direccionPieza(h.cfg, p, lang) }));
     // Clip de la primera pieza gratis que tenga uno en este idioma (hoy: la Piedra del Sol del MNA)
@@ -119,6 +129,20 @@ for (const h of hechas) {
     });
     paraMapa.push({ id: h.id, urlSitio: direccion(h.cfg.slugs.es, 'es'), paradas: Object.fromEntries(paginasPieza('es').map((p) => [p.piece_id, direccionPieza(h.cfg, p, 'es')])) });
   }
+}
+
+// Páginas agrupadas por tema
+for (const hub of Object.values(HUBS)) {
+  const idiomas = idiomasHub(hub);
+  const g = [];
+  for (const lang of idiomas) {
+    const r = armarHub({ hub, lang, idiomas, entradas: entradasHub(hub, lang) });
+    if (!r) continue;
+    escribir(direccionHub(hub, lang), r.html);
+    g.push({ lang, url: r.url });
+    console.log(`SEO: ${r.url} (agrupada)`);
+  }
+  if (g.length) grupos.push(g);
 }
 
 // Términos de venta y aviso de privacidad (Stripe pide una dirección pública de cada uno):
