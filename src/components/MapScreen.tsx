@@ -38,12 +38,14 @@ interface MapScreenProps {
   /** Sitio actual: si tiene plano propio (MNA) se usa en lugar de la cuadrícula. */
   siteId?: string;
   herePieceId?: string | null;
+  /** Paradas de la ruta principal (la de «Empezar recorrido»): numeran los pines cuando no hay un recorrido en curso. */
+  previewRouteIds?: string[];
   /** Abre la parada i de la ruta activa. */
   onOpenStop?: (index: number) => void;
 }
 
 /** Pestaña "Mapa": plano esquemático con salas grandes y legibles, "estás aquí" y las paradas del recorrido. */
-export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFloorChange, zoneMap, hereRoomId, tour, hasPass, onOpenPaywall, onSelectRoom, liveMap, onOpenPiece, hasScheme, siteId, herePieceId, onOpenStop }) => {
+export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFloorChange, zoneMap, hereRoomId, tour, hasPass, onOpenPaywall, onSelectRoom, liveMap, onOpenPiece, hasScheme, siteId, herePieceId, onOpenStop, previewRouteIds }) => {
   const { strings, currentLanguage } = useLanguage();
   const u = strings.ui;
   const lang = planLang(currentLanguage);
@@ -91,7 +93,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
   // Sin esquema (Centro Histórico) solo hay mapa real
   const showLive = !!liveMap && (view === 'live' || !scheme);
   const stopId = (s: { piece_id?: string; id?: string; poi_id?: string }) => s.piece_id || s.id || s.poi_id || '';
-  const routeIds = useMemo(() => (tour ? tour.route.stops.map(stopId) : []), [tour]);
+  const routeIds = useMemo(() => (tour ? tour.route.stops.map(stopId) : previewRouteIds || []), [tour, previewRouteIds]);
   const liveStops = useMemo<LiveStop[]>(() => {
     const idx = new Map<string, number>(routeIds.map((id, i): [string, number] => [id, i]));
     return pieces

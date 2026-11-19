@@ -799,6 +799,13 @@ export default function App() {
   // Mapa en vivo marcado "solo_prueba": solo aparece abriendo la app con ?preview
   const verPrevia = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('preview');
   const liveMap = manifest?.live_map && (!manifest.live_map.solo_prueba || verPrevia) ? manifest.live_map : undefined;
+  // Ruta principal del sitio (la marcada en el Sheet o la más corta): numera los pines del mapa antes de empezar un recorrido
+  const previewRouteIds = useMemo(() => {
+    const rs = manifest?.routes || [];
+    const mins = (r: { estimated_minutes?: number }) => (typeof r.estimated_minutes === 'number' ? r.estimated_minutes : 9999);
+    const main = rs.find((r) => (r as { principal?: boolean }).principal) || [...rs].sort((a, b) => mins(a) - mins(b))[0];
+    return (main?.stops || []).map((st) => String(st.piece_id || st.id || st.poi_id || ''));
+  }, [manifest]);
   // Al entrar a un sitio se baja su mapa sin internet en segundo plano (queda guardado; ver vite.config.ts). No con «ahorro de datos».
   const mapaPmtiles = liveMap?.pmtiles;
   useEffect(() => {
@@ -880,6 +887,7 @@ export default function App() {
           siteId={selectedSite?.id}
           herePieceId={currentPiece?.piece_id || null}
           onOpenStop={(i) => activeTour && openTourStop(activeTour.route, i)}
+          previewRouteIds={previewRouteIds}
         />
       );
     } else {

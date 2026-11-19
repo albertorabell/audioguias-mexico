@@ -1,0 +1,130 @@
+<svg id="xolo-xochicalco-museo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img">
+<defs>
+  <style>
+    .bg { fill: #FAF7F2; }
+    .site-ground { fill: #F3EFE8; stroke: #DFD8CC; stroke-width: 1.5; }
+    .garden { fill: #E3ECD8; stroke: #BACBA6; stroke-width: 1.5; }
+    .water { fill: #D7E7EE; stroke: #9EC0D0; stroke-width: 1.5; }
+    .floor { fill: #FFFFFF; stroke: none; }
+    .room-fill { fill: #F6F2EB; stroke: none; }
+    .room-hi { fill: #FCEEF3; stroke: none; }
+    .patio { fill: #FAF7F2; stroke: #D8CFC2; stroke-width: 1.5; }
+    .tower { fill: #DDD5C9; stroke: #3A322C; stroke-width: 5.2; stroke-linecap: square; stroke-linejoin: miter; }
+    .wall-ext { fill: none; stroke: #3A322C; stroke-width: 5.5; stroke-linecap: square; stroke-linejoin: miter; }
+    .wall-int { fill: none; stroke: #6B6158; stroke-width: 2.3; stroke-linecap: square; stroke-linejoin: miter; }
+    .wall-glass { fill: none; stroke: #5E9AB5; stroke-width: 3.4; stroke-dasharray: 7,3; }
+    .door-gap { fill: none; stroke: #F6F2EB; stroke-width: 6.5; stroke-linecap: butt; }
+    .door-gap-w { fill: none; stroke: #FFFFFF; stroke-width: 6.5; stroke-linecap: butt; }
+    .pier { fill: #3A322C; stroke: none; }
+    .stair { fill: none; stroke: #8B8075; stroke-width: 1.3; }
+    .canopy { fill: #3A322C; fill-opacity: 0.06; stroke: #8B8075; stroke-width: 1.4; stroke-dasharray: 6,4; }
+    .dome { fill: none; stroke: #A99E92; stroke-width: 1.4; stroke-dasharray: 4,3; }
+    .mural-accent { fill: none; stroke: #E5195F; stroke-width: 4.5; stroke-linecap: round; }
+    .accent-ring { fill: none; stroke: #E5195F; stroke-width: 1.4; stroke-dasharray: 3,2; }
+    .compass-ring { fill: #FFFFFF; stroke: #DCD5C9; stroke-width: 1.5; }
+    .scale-line { stroke: #6B6158; stroke-width: 2; }
+    .lbl { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 700; fill: #3A322C; text-anchor: middle; dominant-baseline: middle; }
+    .lbl-sm { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 9.8px; font-weight: 600; fill: #6B6158; text-anchor: middle; dominant-baseline: middle; }
+    .street { font-family: system-ui, -apple-system, sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: 1.8px; fill: #8E8378; text-anchor: middle; }
+    .compass { font-family: system-ui, -apple-system, sans-serif; font-size: 11.5px; font-weight: 700; fill: #E5195F; text-anchor: middle; }
+    .pin-circle { fill: #E5195F; stroke: #FFFFFF; stroke-width: 2.2; }
+    .pin-num { font-family: system-ui, -apple-system, sans-serif; font-size: 11.5px; font-weight: 700; fill: #FFFFFF; text-anchor: middle; dominant-baseline: central; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #1A1A1E; }
+      .site-ground { fill: #222228; stroke: #34343D; }
+      .garden { fill: #213024; stroke: #35503A; }
+      .water { fill: #1D2E38; stroke: #2F5061; }
+      .floor { fill: #26262D; }
+      .room-fill { fill: #2C2C34; }
+      .room-hi { fill: #3D2430; }
+      .patio { fill: #202026; stroke: #3E3E4A; }
+      .tower { fill: #3A3A44; stroke: #E8E2D9; }
+      .wall-ext { stroke: #E8E2D9; }
+      .wall-int { stroke: #9D968E; }
+      .wall-glass { stroke: #7CC2DF; }
+      .door-gap { stroke: #2C2C34; }
+      .door-gap-w { stroke: #26262D; }
+      .pier { fill: #E8E2D9; }
+      .stair { stroke: #8F8982; }
+      .canopy { fill: #FFFFFF; fill-opacity: 0.06; stroke: #8F8982; }
+      .dome { stroke: #7C7770; }
+      .mural-accent { stroke: #FF4081; }
+      .accent-ring { stroke: #FF4081; }
+      .compass-ring { fill: #26262D; stroke: #4A4A56; }
+      .scale-line { stroke: #A8A29E; }
+      .lbl { fill: #F4F1EC; }
+      .lbl-sm { fill: #B8B0A7; }
+      .street { fill: #8D8780; }
+      .compass { fill: #FF4081; }
+      .pin-circle { fill: #FF3B7F; stroke: #1A1A1E; }
+    }
+  </style>
+</defs>
+  <rect class="bg" x="0" y="0" width="1000" height="700"/>
+  <rect class="site-ground" x="20" y="20" width="960" height="660"/>
+  <polygon class="floor" points="192.8,177.0 220.9,177.0 220.9,231.0 192.8,231.0"/>
+  <polygon class="floor" points="225.2,236.4 365.6,196.4 430.4,139.2 473.6,139.2 473.6,171.6 378.6,220.2 233.8,263.4"/>
+  <polygon data-room-id="pasillo_joyas" class="patio" points="439.0,150.0 486.6,150.0 486.6,470.8 439.0,470.8"/>
+  <polygon data-room-id="intro_vestibulo" class="room-fill" points="389.4,470.8 560.0,470.8 570.8,511.8 570.8,619.8 389.4,619.8"/>
+  <ellipse class="patio" cx="670.1600000000001" cy="557.1600000000001" rx="106" ry="93"/>
+  <polygon class="water" points="408.8,622.0 570.8,622.0 560.0,679.2 425.0,686.8"/>
+  <polygon data-room-id="sala_1_dones" class="room-fill" points="604.3,112.2 575.7,161.8 518.4,161.8 489.8,112.2 518.4,62.6 575.7,62.6"/>
+  <polygon data-room-id="sala_2_guerreros" class="room-fill" points="512.5,77.6 483.9,127.2 426.6,127.2 398.0,77.6 426.6,28.1 483.9,28.1"/>
+  <polygon data-room-id="sala_3_estela" class="room-hi" points="419.6,115.4 391.0,165.0 333.7,165.0 305.1,115.4 333.7,65.9 391.0,65.9"/>
+  <polygon data-room-id="sala_4_manos" class="room-fill" points="363.4,290.4 334.8,340.0 277.6,340.0 249.0,290.4 277.6,240.8 334.8,240.8"/>
+  <polygon data-room-id="sala_5_juego" class="room-hi" points="263.0,341.2 234.4,390.7 177.1,390.7 148.5,341.2 177.1,291.6 234.4,291.6"/>
+  <polygon data-room-id="sala_6_cotidiano" class="room-fill" points="166.9,287.2 138.3,336.7 81.0,336.7 52.4,287.2 81.0,237.6 138.3,237.6"/>
+  <polygon class="floor" points="229.8,260.4 215.7,274.5 195.8,274.5 181.7,260.4 181.7,240.5 195.8,226.4 215.7,226.4 229.8,240.5"/>
+  <polygon class="wall-ext" points="604.3,112.2 575.7,161.8 518.4,161.8 489.8,112.2 518.4,62.6 575.7,62.6"/>
+  <polygon class="dome" points="547.0,112.2 547.0,112.2 547.0,112.2 547.0,112.2 547.0,112.2 547.0,112.2"/>
+  <polygon class="wall-ext" points="512.5,77.6 483.9,127.2 426.6,127.2 398.0,77.6 426.6,28.1 483.9,28.1"/>
+  <polygon class="dome" points="455.2,77.6 455.2,77.6 455.2,77.6 455.2,77.6 455.2,77.6 455.2,77.6"/>
+  <polygon class="wall-ext" points="419.6,115.4 391.0,165.0 333.7,165.0 305.1,115.4 333.7,65.9 391.0,65.9"/>
+  <polygon class="dome" points="362.4,115.4 362.4,115.4 362.4,115.4 362.4,115.4 362.4,115.4 362.4,115.4"/>
+  <polygon class="wall-ext" points="363.4,290.4 334.8,340.0 277.6,340.0 249.0,290.4 277.6,240.8 334.8,240.8"/>
+  <polygon class="dome" points="306.2,290.4 306.2,290.4 306.2,290.4 306.2,290.4 306.2,290.4 306.2,290.4"/>
+  <polygon class="wall-ext" points="263.0,341.2 234.4,390.7 177.1,390.7 148.5,341.2 177.1,291.6 234.4,291.6"/>
+  <polygon class="dome" points="205.8,341.2 205.8,341.2 205.8,341.2 205.8,341.2 205.8,341.2 205.8,341.2"/>
+  <polygon class="wall-ext" points="166.9,287.2 138.3,336.7 81.0,336.7 52.4,287.2 81.0,237.6 138.3,237.6"/>
+  <polygon class="dome" points="109.6,287.2 109.6,287.2 109.6,287.2 109.6,287.2 109.6,287.2 109.6,287.2"/>
+  <polygon class="wall-int" points="229.8,260.4 215.7,274.5 195.8,274.5 181.7,260.4 181.7,240.5 195.8,226.4 215.7,226.4 229.8,240.5"/>
+  <polygon class="wall-ext" points="439.0,150.0 486.6,150.0 486.6,470.8 439.0,470.8"/>
+  <polygon class="wall-ext" points="389.4,470.8 560.0,470.8 570.8,511.8 570.8,619.8 389.4,619.8"/>
+  <ellipse class="wall-int" cx="670.1600000000001" cy="557.1600000000001" rx="106" ry="93"/>
+  <rect class="wall-int" x="486.56000000000006" y="263.4" width="8" height="10"/>
+  <rect class="wall-int" x="486.56000000000006" y="295.8" width="8" height="10"/>
+  <rect class="wall-int" x="486.56000000000006" y="328.20000000000005" width="8" height="10"/>
+  <rect class="wall-int" x="486.56000000000006" y="360.6" width="8" height="10"/>
+  <rect class="wall-int" x="486.56000000000006" y="393.0" width="8" height="10"/>
+  <line class="door-gap" x1="447.7" y1="470.8" x2="477.9" y2="470.8"/>
+  <line class="door-gap" x1="570.8" y1="538.8" x2="570.8" y2="576.6"/>
+  <line class="door-gap-w" x1="192.8" y1="177.0" x2="220.9" y2="177.0"/>
+  <text class="lbl" x="547" y="106">S1</text>
+  <text class="lbl-sm" x="547" y="124">Dones de la tierra</text>
+  <text class="lbl" x="455" y="72">S2</text>
+  <text class="lbl-sm" x="455" y="90">Guerreros</text>
+  <text class="lbl" x="362" y="109">S3</text>
+  <text class="lbl-sm" x="362" y="127">Resguardo</text>
+  <text class="lbl" x="306" y="284">S4</text>
+  <text class="lbl-sm" x="306" y="302">Manos creadoras</text>
+  <text class="lbl" x="206" y="335">S5</text>
+  <text class="lbl-sm" x="206" y="353">Juego de pelota</text>
+  <text class="lbl" x="110" y="281">S6</text>
+  <text class="lbl-sm" x="110" y="299">Vida cotidiana</text>
+  <text class="lbl" x="480" y="539">INTRODUCCIÓN</text>
+  <text class="lbl-sm" x="480" y="555">y exposiciones temporales</text>
+  <text class="lbl-sm" x="505" y="312" style="text-anchor:start">PASILLO DE LAS JOYAS</text>
+  <text class="lbl-sm" x="670" y="557">VESTÍBULO · ACCESO</text>
+  <text class="lbl-sm" x="207" y="164">SALIDA</text>
+  <text class="street" x="300" y="690">MUSEO DE SITIO DE XOCHICALCO · SEGÚN PLANO INAH</text>
+  <g transform="translate(952,36)">
+    <circle cx="0" cy="0" r="20" class="compass-ring"/>
+    <text class="compass" x="0" y="4">N ↑</text>
+  </g>
+  <g transform="translate(860,678)">
+    <line class="scale-line" x1="0" y1="0" x2="80" y2="0"/>
+    <line class="scale-line" x1="0" y1="-4" x2="0" y2="4"/>
+    <line class="scale-line" x1="80" y1="-4" x2="80" y2="4"/>
+    <text class="lbl-sm" x="40" y="-10">20 m</text>
+  </g>
+</svg>

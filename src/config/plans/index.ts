@@ -2,4 +2,9 @@
 import './chapultepec';
 import './templo_mayor_catedral';
 import './mna';
+import './frida';
+import './basilica';
+import './cuernavaca';
+import './xochicalco';
+import './chalcatzingo';
 import './edificios';
