@@ -316,7 +316,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 {u.home.tryFree}
               </button>
             )}
-            {lead && <p className="mt-6 font-serif text-[1.1875rem] leading-[1.5] text-ink-2 text-pretty">{lead}</p>}
+            {lead && <p className="mt-6 font-serif text-[1.0625rem] leading-[1.6] text-ink-2 text-pretty">{lead}</p>}
             <p id="site-facts" className="mt-4 text-ui text-ink-2">
               {m.facts(u.worksCount(pieces.length), u.roomsCount(rooms.length))}
               {range && ` ${range.min === range.max ? m.routeOne(inlineDuration(range.min)) : m.routeRange(inlineDuration(range.min), inlineDuration(range.max))}`}
