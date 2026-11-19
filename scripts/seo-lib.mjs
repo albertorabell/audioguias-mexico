@@ -156,9 +156,9 @@ export function contar(lang, n, aireLibre) {
 
 const T = {
   es: {
-    titulo: (n) => `${n}: audioguía y guía de visita`,
+    titulo: (n) => `${n}: qué ver, cómo llegar y audioguía`,
     h1: (n) => `${n}: audioguía para tu visita`,
-    desc: (n, cuantas, rango, gratis) => `${n}: audioguía en tu celular con ${cuantas} explicadas${rango ? `, recorridos de ${rango}` : ''}${gratis ? `, ${gratis} gratis para probar` : ''} y uso sin internet.`,
+    desc: (n, cuantas, rango, gratis) => `${n}: qué ver y cómo llegar. Audioguía en tu celular con ${cuantas} explicadas${rango ? `, recorridos de ${rango}` : ''}${gratis ? `, ${gratis} gratis para probar` : ''} y uso sin internet.`,
     pronto: 'Próximamente: esta audioguía estará disponible muy pronto.',
     gratisTitulo: (aire) => (aire ? 'Paradas para probar gratis' : 'Obras para probar gratis'),
     piezaTitulo: (p, n) => `${p}: historia y ubicación (${n})`,
@@ -180,9 +180,9 @@ const T = {
     pie: 'audioguías en tu celular para museos y zonas arqueológicas de México. Funcionan sin internet una vez descargadas.',
   },
   en: {
-    titulo: (n) => `${n}: audio guide and visitor guide`,
+    titulo: (n) => `${n}: what to see, how to get there and audio guide`,
     h1: (n) => `${n}: audio guide for your visit`,
-    desc: (n, cuantas, rango, gratis) => `${n}: audio guide on your phone with ${cuantas} explained${rango ? `, tours from ${rango}` : ''}${gratis ? `, ${gratis} free to try` : ''} and offline use.`,
+    desc: (n, cuantas, rango, gratis) => `${n}: what to see and how to get there. Audio guide on your phone with ${cuantas} explained${rango ? `, tours from ${rango}` : ''}${gratis ? `, ${gratis} free to try` : ''} and offline use.`,
     pronto: 'Coming soon: this audio guide will be available shortly.',
     gratisTitulo: (aire) => (aire ? 'Free stops to try' : 'Free works to try'),
     piezaTitulo: (p, n) => `${p}: history and location (${n})`,
@@ -204,9 +204,9 @@ const T = {
     pie: 'audio guides on your phone for museums and archaeological sites in Mexico. They work offline once downloaded.',
   },
   fr: {
-    titulo: (n) => `${n} : audioguide et guide de visite`,
+    titulo: (n) => `${n} : que voir, comment s’y rendre et audioguide`,
     h1: (n) => `${n} : l’audioguide pour votre visite`,
-    desc: (n, cuantas, rango, gratis) => `${n} : audioguide sur votre téléphone avec ${cuantas} expliquées${rango ? `, parcours de ${rango}` : ''}${gratis ? `, ${gratis} gratuites à essayer` : ''} et utilisation hors ligne.`,
+    desc: (n, cuantas, rango, gratis) => `${n} : que voir et comment s’y rendre. Audioguide sur votre téléphone avec ${cuantas} expliquées${rango ? `, parcours de ${rango}` : ''}${gratis ? `, ${gratis} gratuites à essayer` : ''} et utilisation hors ligne.`,
     pronto: 'Bientôt disponible : cet audioguide sera prêt très prochainement.',
     gratisTitulo: (aire) => (aire ? 'Étapes gratuites à essayer' : 'Œuvres gratuites à essayer'),
     piezaTitulo: (p, n) => `${p} : histoire et emplacement (${n})`,
@@ -228,9 +228,9 @@ const T = {
     pie: 'audioguides sur votre téléphone pour les musées et sites archéologiques du Mexique. Ils fonctionnent hors ligne une fois téléchargés.',
   },
   pl: {
-    titulo: (n) => `${n}: audioprzewodnik i poradnik zwiedzania`,
+    titulo: (n) => `${n}: co zobaczyć, jak dojechać i audioprzewodnik`,
     h1: (n) => `${n}: audioprzewodnik na Twoją wizytę`,
-    desc: (n, cuantas, rango, gratis) => `${n}: audioprzewodnik w telefonie, ${cuantas} objaśnionych${rango ? `, trasy od ${rango}` : ''}${gratis ? `, ${gratis} za darmo na próbę` : ''} i działanie bez internetu.`,
+    desc: (n, cuantas, rango, gratis) => `${n}: co zobaczyć i jak dojechać. Audioprzewodnik w telefonie, ${cuantas} objaśnionych${rango ? `, trasy od ${rango}` : ''}${gratis ? `, ${gratis} za darmo na próbę` : ''} i działanie bez internetu.`,
     pronto: 'Wkrótce: ten audioprzewodnik będzie dostępny już niedługo.',
     gratisTitulo: (aire) => (aire ? 'Przystanki do wypróbowania za darmo' : 'Dzieła do wypróbowania za darmo'),
     piezaTitulo: (p, n) => `${p}: historia i lokalizacja (${n})`,
@@ -252,9 +252,9 @@ const T = {
     pie: 'audioprzewodniki w telefonie po muzeach i stanowiskach archeologicznych Meksyku. Po pobraniu działają bez internetu.',
   },
   de: {
-    titulo: (n) => `${n}: Audioguide und Besucherführer`,
+    titulo: (n) => `${n}: Sehenswertes, Anreise und Audioguide`,
     h1: (n) => `${n}: Audioguide für deinen Besuch`,
-    desc: (n, cuantas, rango, gratis) => `${n}: Audioguide auf dem Handy, ${cuantas} erklärt${rango ? `, Touren von ${rango}` : ''}${gratis ? `, ${gratis} gratis zum Ausprobieren` : ''}, auch offline nutzbar.`,
+    desc: (n, cuantas, rango, gratis) => `${n}: Sehenswertes und Anreise. Audioguide auf dem Handy, ${cuantas} erklärt${rango ? `, Touren von ${rango}` : ''}${gratis ? `, ${gratis} gratis zum Ausprobieren` : ''}, auch offline nutzbar.`,
     pronto: 'Demnächst: Dieser Audioguide ist bald verfügbar.',
     gratisTitulo: (aire) => (aire ? 'Gratis-Stopps zum Ausprobieren' : 'Gratis-Werke zum Ausprobieren'),
     piezaTitulo: (p, n) => `${p}: Geschichte und Standort (${n})`,
@@ -276,9 +276,9 @@ const T = {
     pie: 'Audioguides auf dem Handy für Museen und archäologische Stätten in Mexiko. Nach dem Download funktionieren sie offline.',
   },
   pt: {
-    titulo: (n) => `${n}: audioguia e guia de visita`,
+    titulo: (n) => `${n}: o que ver, como chegar e audioguia`,
     h1: (n) => `${n}: audioguia para a sua visita`,
-    desc: (n, cuantas, rango, gratis) => `${n}: audioguia no celular com ${cuantas} explicadas${rango ? `, roteiros de ${rango}` : ''}${gratis ? `, ${gratis} grátis para testar` : ''} e uso sem internet.`,
+    desc: (n, cuantas, rango, gratis) => `${n}: o que ver e como chegar. Audioguia no celular com ${cuantas} explicadas${rango ? `, roteiros de ${rango}` : ''}${gratis ? `, ${gratis} grátis para testar` : ''} e uso sem internet.`,
     pronto: 'Em breve: este audioguia estará disponível em pouco tempo.',
     gratisTitulo: (aire) => (aire ? 'Paradas grátis para testar' : 'Obras grátis para testar'),
     piezaTitulo: (p, n) => `${p}: história e localização (${n})`,
@@ -300,9 +300,9 @@ const T = {
     pie: 'audioguias no celular para museus e sítios arqueológicos do México. Funcionam sem internet depois de baixados.',
   },
   it: {
-    titulo: (n) => `${n}: audioguida e guida alla visita`,
+    titulo: (n) => `${n}: cosa vedere, come arrivare e audioguida`,
     h1: (n) => `${n}: l’audioguida per la tua visita`,
-    desc: (n, cuantas, rango, gratis) => `${n}: audioguida sul tuo cellulare con ${cuantas} spiegate${rango ? `, percorsi da ${rango}` : ''}${gratis ? `, ${gratis} gratis da provare` : ''} e uso senza internet.`,
+    desc: (n, cuantas, rango, gratis) => `${n}: cosa vedere e come arrivare. Audioguida sul tuo cellulare con ${cuantas} spiegate${rango ? `, percorsi da ${rango}` : ''}${gratis ? `, ${gratis} gratis da provare` : ''} e uso senza internet.`,
     pronto: 'Prossimamente: questa audioguida sarà disponibile a breve.',
     gratisTitulo: (aire) => (aire ? 'Tappe gratuite da provare' : 'Opere gratuite da provare'),
     piezaTitulo: (p, n) => `${p}: storia e posizione (${n})`,
@@ -749,4 +749,139 @@ export function armarMapaGuias(hechas) {
     for (const [pieceId, url] of Object.entries(h.paradas || {})) paradas[`${id}/${pieceId}`] = url;
   }
   return { v: 1, sitios, paradas };
+}
+
+// ───────────── Páginas agrupadas (hubs): «Zonas arqueológicas de México», «Qué ver en la Ciudad de México», «Qué ver en Morelos» ─────────────
+// Reúnen los sitios que ya tienen página y llevan a cada uno. Solo salen los sitios disponibles en ese idioma.
+const L = ['es', 'en', 'fr', 'pl', 'de', 'pt', 'it'];
+const por = (o) => Object.fromEntries(L.map((l, i) => [l, o[i]]));
+
+export const HUBS = {
+  zonas: {
+    sitios: ['TEOTIHUACAN', 'CHICHEN_ITZA', 'XOCHICALCO', 'CHALCATZINGO'],
+    slugs: por(['zonas-arqueologicas-de-mexico', 'archaeological-sites-in-mexico', 'sites-archeologiques-du-mexique', 'stanowiska-archeologiczne-w-meksyku', 'archaeologische-staetten-in-mexiko', 'sitios-arqueologicos-do-mexico', 'siti-archeologici-del-messico']),
+    h1: por(['Zonas arqueológicas de México', 'Archaeological sites in Mexico', 'Sites archéologiques du Mexique', 'Stanowiska archeologiczne w Meksyku', 'Archäologische Stätten in Mexiko', 'Sítios arqueológicos do México', 'Siti archeologici del Messico']),
+    titulo: por(['Zonas arqueológicas de México: qué ver y audioguías', 'Archaeological sites in Mexico: what to see and audio guides', 'Sites archéologiques du Mexique : que voir et audioguides', 'Stanowiska archeologiczne w Meksyku: co zobaczyć i audioprzewodniki', 'Archäologische Stätten in Mexiko: Sehenswertes und Audioguides', 'Sítios arqueológicos do México: o que ver e audioguias', 'Siti archeologici del Messico: cosa vedere e audioguide']),
+    lead: por([
+      'Teotihuacán, Chichén Itzá, Xochicalco y Chalcatzingo: audioguías en tu celular, parada por parada y con uso sin internet.',
+      'Teotihuacan, Chichén Itzá, Xochicalco and Chalcatzingo: audio guides on your phone, stop by stop and usable offline.',
+      'Teotihuacan, Chichén Itzá, Xochicalco et Chalcatzingo : audioguides sur votre téléphone, étape par étape et utilisables hors ligne.',
+      'Teotihuacán, Chichén Itzá, Xochicalco i Chalcatzingo: audioprzewodniki w telefonie, przystanek po przystanku, działające bez internetu.',
+      'Teotihuacán, Chichén Itzá, Xochicalco und Chalcatzingo: Audioguides auf dem Handy, Station für Station und offline nutzbar.',
+      'Teotihuacán, Chichén Itzá, Xochicalco e Chalcatzingo: audioguias no celular, parada por parada e com uso sem internet.',
+      'Teotihuacán, Chichén Itzá, Xochicalco e Chalcatzingo: audioguide sul tuo cellulare, tappa per tappa e utilizzabili offline.',
+    ]),
+    intro: por([
+      'Cada guía te lleva por la zona en el orden en que se camina, con recorridos de distinta duración para que elijas según tu tiempo. Cada página reúne además cómo llegar, horarios y consejos para tu visita.',
+      'Each guide walks you through the site in the order you walk it, with tours of different lengths so you can choose by the time you have. Each page also gathers how to get there, opening hours and tips for your visit.',
+      'Chaque guide vous accompagne sur le site dans l’ordre de la visite, avec des parcours de durées différentes pour choisir selon votre temps. Chaque page réunit aussi comment s’y rendre, les horaires et des conseils pour votre visite.',
+      'Każdy przewodnik prowadzi po stanowisku w kolejności zwiedzania, a trasy o różnej długości pozwalają wybrać według czasu, którym dysponujesz. Na każdej stronie znajdziesz też, jak dojechać, godziny otwarcia i wskazówki.',
+      'Jeder Guide führt dich in der Reihenfolge des Rundgangs über die Stätte, mit Touren unterschiedlicher Länge, damit du nach deiner Zeit wählen kannst. Auf jeder Seite findest du außerdem Anreise, Öffnungszeiten und Tipps für deinen Besuch.',
+      'Cada guia leva você pelo sítio na ordem em que se caminha, com roteiros de durações diferentes para escolher conforme o seu tempo. Cada página também reúne como chegar, horários e dicas para a sua visita.',
+      'Ogni guida ti accompagna nel sito nell’ordine in cui si cammina, con percorsi di durata diversa per scegliere in base al tempo che hai. Ogni pagina riunisce anche come arrivare, orari e consigli per la visita.',
+    ]),
+  },
+  cdmx: {
+    sitios: ['MNA', 'CHAPULTEPEC', 'CENTRO_HISTORICO', 'TEMPLO_MAYOR_CATEDRAL', 'MUSEO_FRIDA_KAHLO', 'COYOACAN', 'BASILICA_GUADALUPE'],
+    slugs: por(['que-ver-en-la-ciudad-de-mexico', 'what-to-see-in-mexico-city', 'que-voir-a-mexico', 'co-zobaczyc-w-miescie-meksyk', 'sehenswuerdigkeiten-mexiko-stadt', 'o-que-ver-na-cidade-do-mexico', 'cosa-vedere-a-citta-del-messico']),
+    h1: por(['Qué ver en la Ciudad de México: museos y lugares con audioguía', 'What to see in Mexico City: museums and sites with audio guides', 'Que voir à Mexico : musées et lieux avec audioguide', 'Co zobaczyć w Mieście Meksyk: muzea i miejsca z audioprzewodnikiem', 'Sehenswürdigkeiten in Mexiko-Stadt: Museen und Orte mit Audioguide', 'O que ver na Cidade do México: museus e lugares com audioguia', 'Cosa vedere a Città del Messico: musei e luoghi con audioguida']),
+    titulo: por(['Qué ver en la Ciudad de México: museos, centro histórico y más', 'What to see in Mexico City: museums, historic centre and more', 'Que voir à Mexico : musées, centre historique et plus', 'Co zobaczyć w Mieście Meksyk: muzea, centrum historyczne i więcej', 'Sehenswürdigkeiten in Mexiko-Stadt: Museen, Altstadt und mehr', 'O que ver na Cidade do México: museus, centro histórico e mais', 'Cosa vedere a Città del Messico: musei, centro storico e altro']),
+    lead: por([
+      'Museos, zonas históricas y lugares emblemáticos de la capital, con audioguías en tu celular, parada por parada y con uso sin internet.',
+      'Museums, historic areas and emblematic places in the capital, with audio guides on your phone, stop by stop and usable offline.',
+      'Musées, quartiers historiques et lieux emblématiques de la capitale, avec des audioguides sur votre téléphone, étape par étape et hors ligne.',
+      'Muzea, historyczne dzielnice i symboliczne miejsca stolicy, z audioprzewodnikami w telefonie, przystanek po przystanku, bez internetu.',
+      'Museen, historische Viertel und Wahrzeichen der Hauptstadt, mit Audioguides auf dem Handy, Station für Station und offline nutzbar.',
+      'Museus, zonas históricas e lugares emblemáticos da capital, com audioguias no celular, parada por parada e com uso sem internet.',
+      'Musei, zone storiche e luoghi simbolo della capitale, con audioguide sul tuo cellulare, tappa per tappa e utilizzabili offline.',
+    ]),
+    intro: por([
+      'La Ciudad de México tiene muchos lugares que vale la pena escuchar con calma. Elige uno y la audioguía te lleva por él en el orden en que se camina; cada página reúne además cómo llegar, horarios y consejos.',
+      'Mexico City has many places worth taking your time with. Pick one and the audio guide takes you through it in the order you walk it; each page also gathers how to get there, opening hours and tips.',
+      'Mexico compte de nombreux lieux qui méritent qu’on prenne son temps. Choisissez-en un et l’audioguide vous y accompagne dans l’ordre de la visite ; chaque page réunit aussi comment s’y rendre, les horaires et des conseils.',
+      'Miasto Meksyk ma wiele miejsc, które warto poznawać bez pośpiechu. Wybierz jedno, a audioprzewodnik poprowadzi cię po nim w kolejności zwiedzania; na każdej stronie znajdziesz też, jak dojechać, godziny otwarcia i wskazówki.',
+      'Mexiko-Stadt hat viele Orte, die man in Ruhe erleben sollte. Such dir einen aus, und der Audioguide führt dich in der Reihenfolge des Rundgangs hindurch; auf jeder Seite findest du außerdem Anreise, Öffnungszeiten und Tipps.',
+      'A Cidade do México tem muitos lugares que merecem ser vistos com calma. Escolha um e o audioguia leva você por ele na ordem em que se caminha; cada página também reúne como chegar, horários e dicas.',
+      'Città del Messico ha molti luoghi che meritano di essere vissuti con calma. Scegline uno e l’audioguida ti accompagna nell’ordine in cui si cammina; ogni pagina riunisce anche come arrivare, orari e consigli.',
+    ]),
+  },
+  morelos: {
+    sitios: ['CUERNAVACA_HISTORICA', 'XOCHICALCO', 'CHALCATZINGO'],
+    slugs: por(['que-ver-en-morelos', 'what-to-see-in-morelos', 'que-voir-au-morelos', 'co-zobaczyc-w-morelos', 'sehenswuerdigkeiten-in-morelos', 'o-que-ver-em-morelos', 'cosa-vedere-a-morelos']),
+    h1: por(['Qué ver en Morelos', 'What to see in Morelos', 'Que voir au Morelos', 'Co zobaczyć w Morelos', 'Sehenswürdigkeiten in Morelos', 'O que ver em Morelos', 'Cosa vedere a Morelos']),
+    titulo: por(['Qué ver en Morelos: Cuernavaca, Xochicalco y Chalcatzingo con audioguía', 'What to see in Morelos: Cuernavaca, Xochicalco and Chalcatzingo with audio guides', 'Que voir au Morelos : Cuernavaca, Xochicalco et Chalcatzingo en audioguide', 'Co zobaczyć w Morelos: Cuernavaca, Xochicalco i Chalcatzingo z audioprzewodnikiem', 'Sehenswürdigkeiten in Morelos: Cuernavaca, Xochicalco und Chalcatzingo mit Audioguide', 'O que ver em Morelos: Cuernavaca, Xochicalco e Chalcatzingo com audioguia', 'Cosa vedere a Morelos: Cuernavaca, Xochicalco e Chalcatzingo con audioguida']),
+    lead: por([
+      'Cuernavaca histórica, Xochicalco y Chalcatzingo: audioguías en tu celular para recorrer Morelos a pie, parada por parada y sin internet.',
+      'Historic Cuernavaca, Xochicalco and Chalcatzingo: audio guides on your phone to explore Morelos on foot, stop by stop and offline.',
+      'Cuernavaca historique, Xochicalco et Chalcatzingo : audioguides sur votre téléphone pour parcourir le Morelos à pied, étape par étape et hors ligne.',
+      'Historyczna Cuernavaca, Xochicalco i Chalcatzingo: audioprzewodniki w telefonie do zwiedzania Morelos pieszo, przystanek po przystanku i bez internetu.',
+      'Das historische Cuernavaca, Xochicalco und Chalcatzingo: Audioguides auf dem Handy, um Morelos zu Fuß zu erkunden, Station für Station und offline.',
+      'Cuernavaca histórica, Xochicalco e Chalcatzingo: audioguias no celular para percorrer Morelos a pé, parada por parada e sem internet.',
+      'Cuernavaca storica, Xochicalco e Chalcatzingo: audioguide sul cellulare per esplorare il Morelos a piedi, tappa per tappa e offline.',
+    ]),
+    intro: por([
+      'Morelos reúne una ciudad histórica y dos zonas arqueológicas que se pueden recorrer con calma. Cada guía te lleva en el orden en que se camina, y cada página reúne cómo llegar, horarios y consejos.',
+      'Morelos brings together a historic city and two archaeological sites you can explore at your own pace. Each guide takes you in the order you walk, and each page gathers how to get there, opening hours and tips.',
+      'Le Morelos réunit une ville historique et deux sites archéologiques à parcourir sans se presser. Chaque guide vous accompagne dans l’ordre de la visite, et chaque page réunit comment s’y rendre, les horaires et des conseils.',
+      'Morelos łączy historyczne miasto i dwa stanowiska archeologiczne, które można zwiedzać bez pośpiechu. Każdy przewodnik prowadzi w kolejności zwiedzania, a na każdej stronie znajdziesz, jak dojechać, godziny otwarcia i wskazówki.',
+      'Morelos vereint eine historische Stadt und zwei archäologische Stätten, die du in Ruhe erkunden kannst. Jeder Guide führt dich in der Reihenfolge des Rundgangs, und auf jeder Seite findest du Anreise, Öffnungszeiten und Tipps.',
+      'Morelos reúne uma cidade histórica e dois sítios arqueológicos que dá para percorrer com calma. Cada guia leva você na ordem em que se caminha, e cada página reúne como chegar, horários e dicas.',
+      'Il Morelos riunisce una città storica e due siti archeologici da visitare con calma. Ogni guida ti accompagna nell’ordine in cui si cammina, e ogni pagina riunisce come arrivare, orari e consigli.',
+    ]),
+  },
+};
+
+const HUB_ETIQUETAS = {
+  guias: por(['Las guías', 'The guides', 'Les guides', 'Przewodniki', 'Die Guides', 'Os guias', 'Le guide']),
+  todas: por(['Ver todas las audioguías', 'See all audio guides', 'Voir tous les audioguides', 'Zobacz wszystkie audioprzewodniki', 'Alle Audioguides ansehen', 'Ver todos os audioguias', 'Vedi tutte le audioguide']),
+};
+
+/** Dirección de una página agrupada en un idioma. */
+export const direccionHub = (hub, lang) => `${RUTA[lang]}${hub.slugs[lang]}/`;
+
+/**
+ * Página agrupada. entradas = [{ nombre, url, lead }] de los sitios disponibles en ese idioma (en el orden del grupo).
+ * idiomas = idiomas en que sale esta página (para hreflang). Si hay menos de 2 entradas no se arma (devuelve null).
+ */
+export function armarHub({ hub, lang, idiomas = [lang], entradas = [] }) {
+  if (entradas.length < 2) return null;
+  const url = `${DOMINIO}${direccionHub(hub, lang)}`;
+  const titulo = hub.titulo[lang];
+  const descripcion = recortar(hub.lead[lang]);
+  const alternativas = idiomas.map((l) => ({ l, href: `${DOMINIO}${direccionHub(hub, l)}` }));
+  const hreflang = [...alternativas.map((a) => `<link rel="alternate" hreflang="${a.l}" href="${a.href}">`), `<link rel="alternate" hreflang="x-default" href="${alternativas.find((a) => a.l === 'es')?.href || url}">`].join('\n');
+  const selector = idiomas.length > 1 ? `<nav class="idiomas" aria-label="Idioma">${alternativas.map((a) => (a.l === lang ? `<span aria-current="true">${a.l.toUpperCase()}</span>` : `<a href="${a.href}" hreflang="${a.l}" lang="${a.l}">${a.l.toUpperCase()}</a>`)).join('')}</nav>` : '';
+  const jsonld = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'CollectionPage',
+        '@id': url,
+        url,
+        name: titulo,
+        description: descripcion,
+        inLanguage: lang,
+        isPartOf: { '@type': 'WebSite', name: 'Xolotli', url: `${DOMINIO}/` },
+        mainEntity: { '@type': 'ItemList', itemListElement: entradas.map((e, i) => ({ '@type': 'ListItem', position: i + 1, name: e.nombre, url: `${DOMINIO}${e.url}` })) },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Xolotli', item: `${DOMINIO}/` },
+          { '@type': 'ListItem', position: 2, name: hub.h1[lang], item: url },
+        ],
+      },
+    ],
+  }).replace(/</g, '\\u003c');
+  const lista = entradas.map((e) => `<li><strong><a href="${esc(e.url)}">${esc(e.nombre)}</a></strong>${lleno(e.lead) ? `<br>${esc(e.lead)}` : ''}</li>`).join('\n');
+  const cuerpo = `<h1>${esc(hub.h1[lang])}</h1>
+<p class="lead">${esc(hub.lead[lang])}</p>
+<p>${esc(hub.intro[lang])}</p>
+<h2>${esc(HUB_ETIQUETAS.guias[lang])}</h2>
+<ul>
+${lista}
+</ul>
+<p class="cta"><a class="boton" href="/">${esc(HUB_ETIQUETAS.todas[lang])}</a></p>`;
+  const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada: '', jsonld, selector, cuerpo, pie: T[lang].pie });
+  return { html, url, titulo, descripcion };
 }
