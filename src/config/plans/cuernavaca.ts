@@ -3,12 +3,13 @@ import { registerBuildings } from '../buildings';
 
 /**
  * Cuernavaca: Palacio de Cortés con plano esquemático estilo Xolo (borrador generado con Gemini, 19-nov-2026),
- * public/plano/palacio-cortes-pb.svg y palacio-cortes-pa.svg, lienzo 1000x700. Por verificar contra la planta del INAH
+ * public/plano/palacio-cortes-pb.svg y palacio-cortes-pa.svg, lienzo 1000x700 (se dibuja a 400x280). Por verificar contra la planta del INAH
  * (Catálogo Nacional de Monumentos Históricos, ficha 38734). La Catedral sigue sin plano: al tocarla se ve la lista.
  */
 const T = (es: string, en: string, fr: string, pl: string, de: string, pt: string, it: string) => ({ es, en, fr, pl, de, pt, it });
 const A = true;
-const at = (x: number, y: number): [number, number] => [x * 10, y * 7];
+// Lienzo de 1000x700 dibujado a 400x280 para que los pines tengan el mismo tamaño que en los demás planos
+const at = (x: number, y: number): [number, number] => [x * 4, y * 2.8];
 
 const pins: Record<string, PlanPin> = {
   cue_02_fortaleza_cortes: { floor: 'PB', at: at(16.5, 49), approx: A },
@@ -26,8 +27,8 @@ export const CUERNAVACA_PLAN: SitePlan = {
   siteId: 'cuernavaca_historica',
   aria: T('Plano del Palacio de Cortés', 'Plan of the Palace of Cortés', 'Plan du palais de Cortés', 'Plan Pałacu Cortésa', 'Plan des Cortés-Palastes', 'Planta do Palácio de Cortés', 'Pianta del Palazzo di Cortés'),
   floors: {
-    PB: { img: planImg('palacio-cortes-pb.svg'), size: [1000, 700], view: [0, 0, 1000, 700], name: T('Planta baja', 'Ground floor', 'Rez-de-chaussée', 'Parter', 'Erdgeschoss', 'Térreo', 'Piano terra') },
-    PA: { img: planImg('palacio-cortes-pa.svg'), size: [1000, 700], view: [0, 0, 1000, 700], name: T('Planta alta', 'Upper floor', 'Étage', 'Piętro', 'Obergeschoss', 'Andar superior', 'Piano superiore') },
+    PB: { img: planImg('palacio-cortes-pb.svg'), size: [400, 280], view: [0, 0, 400, 280], name: T('Planta baja', 'Ground floor', 'Rez-de-chaussée', 'Parter', 'Erdgeschoss', 'Térreo', 'Piano terra') },
+    PA: { img: planImg('palacio-cortes-pa.svg'), size: [400, 280], view: [0, 0, 400, 280], name: T('Planta alta', 'Upper floor', 'Étage', 'Piętro', 'Obergeschoss', 'Andar superior', 'Piano superiore') },
   },
   pins,
   areas: [],

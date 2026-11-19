@@ -4,11 +4,12 @@ import { OUTLINES } from './outlines';
 
 /**
  * Nueva Basílica de Guadalupe: planta circular esquemática estilo Xolo (borrador generado con Gemini, 19-nov-2026),
- * public/plano/basilica-nueva-interior.svg, lienzo 1000x700. El contorno en el mapa real sale de OSM.
+ * public/plano/basilica-nueva-interior.svg, lienzo 1000x700 (se dibuja a 400x280). El contorno en el mapa real sale de OSM.
  * El Museo de la Basílica sigue sin plano: al tocarlo se ve la lista de sus paradas.
  */
 const T = (es: string, en: string, fr: string, pl: string, de: string, pt: string, it: string) => ({ es, en, fr, pl, de, pt, it });
-const at = (x: number, y: number): [number, number] => [x * 10, y * 7];
+// Lienzo de 1000x700 dibujado a 400x280 para que los pines tengan el mismo tamaño que en los demás planos
+const at = (x: number, y: number): [number, number] => [x * 4, y * 2.8];
 
 const pins: Record<string, PlanPin> = {
   bas_12_cristo_atentado: { floor: 'nueva', at: at(32, 62), approx: true },
@@ -20,7 +21,7 @@ export const BASILICA_PLAN: SitePlan = {
   siteId: 'basilica_guadalupe',
   aria: T('Plano de la Nueva Basílica', 'Plan of the New Basilica', 'Plan de la Nouvelle basilique', 'Plan Nowej Bazyliki', 'Plan der Neuen Basilika', 'Planta da Nova Basílica', 'Pianta della Nuova Basilica'),
   floors: {
-    nueva: { img: planImg('basilica-nueva-interior.svg'), size: [1000, 700], view: [0, 0, 1000, 700], name: T('Nueva Basílica', 'New Basilica', 'Nouvelle basilique', 'Nowa Bazylika', 'Neue Basilika', 'Nova Basílica', 'Nuova Basilica') },
+    nueva: { img: planImg('basilica-nueva-interior.svg'), size: [400, 280], view: [0, 0, 400, 280], name: T('Nueva Basílica', 'New Basilica', 'Nouvelle basilique', 'Nowa Bazylika', 'Neue Basilika', 'Nova Basílica', 'Nuova Basilica') },
   },
   pins,
   areas: [],

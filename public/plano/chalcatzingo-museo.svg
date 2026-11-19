@@ -29,35 +29,7 @@
     .compass { font-family: system-ui, -apple-system, sans-serif; font-size: 11.5px; font-weight: 700; fill: #E5195F; text-anchor: middle; }
     .pin-circle { fill: #E5195F; stroke: #FFFFFF; stroke-width: 2.2; }
     .pin-num { font-family: system-ui, -apple-system, sans-serif; font-size: 11.5px; font-weight: 700; fill: #FFFFFF; text-anchor: middle; dominant-baseline: central; }
-    @media (prefers-color-scheme: dark) {
-      .bg { fill: #1A1A1E; }
-      .site-ground { fill: #222228; stroke: #34343D; }
-      .garden { fill: #213024; stroke: #35503A; }
-      .water { fill: #1D2E38; stroke: #2F5061; }
-      .floor { fill: #26262D; }
-      .room-fill { fill: #2C2C34; }
-      .room-hi { fill: #3D2430; }
-      .patio { fill: #202026; stroke: #3E3E4A; }
-      .tower { fill: #3A3A44; stroke: #E8E2D9; }
-      .wall-ext { stroke: #E8E2D9; }
-      .wall-int { stroke: #9D968E; }
-      .wall-glass { stroke: #7CC2DF; }
-      .door-gap { stroke: #2C2C34; }
-      .door-gap-w { stroke: #26262D; }
-      .pier { fill: #E8E2D9; }
-      .stair { stroke: #8F8982; }
-      .canopy { fill: #FFFFFF; fill-opacity: 0.06; stroke: #8F8982; }
-      .dome { stroke: #7C7770; }
-      .mural-accent { stroke: #FF4081; }
-      .accent-ring { stroke: #FF4081; }
-      .compass-ring { fill: #26262D; stroke: #4A4A56; }
-      .scale-line { stroke: #A8A29E; }
-      .lbl { fill: #F4F1EC; }
-      .lbl-sm { fill: #B8B0A7; }
-      .street { fill: #8D8780; }
-      .compass { fill: #FF4081; }
-      .pin-circle { fill: #FF3B7F; stroke: #1A1A1E; }
-    }
+    
   </style>
 </defs>
   <rect class="bg" x="0" y="0" width="1000" height="700"/>

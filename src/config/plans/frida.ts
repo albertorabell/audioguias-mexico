@@ -4,12 +4,13 @@ import { OUTLINES } from './outlines';
 
 /**
  * Museo Frida Kahlo (Casa Azul). Plano esquemático estilo Xolo (borrador generado con Gemini, 19-nov-2026):
- * public/plano/casa-azul-pb.svg y casa-azul-pa.svg, lienzo 1000x700. No es a escala ni está verificado contra un plano oficial
+ * public/plano/casa-azul-pb.svg y casa-azul-pa.svg, lienzo 1000x700 (se dibuja a 400x280). No es a escala ni está verificado contra un plano oficial
  * (el museo no publica uno): todas las posiciones van como aproximadas hasta confirmarlas en sitio.
  */
 const T = (es: string, en: string, fr: string, pl: string, de: string, pt: string, it: string) => ({ es, en, fr, pl, de, pt, it });
 const A = true;
-const at = (x: number, y: number): [number, number] => [x * 10, y * 7];
+// Lienzo de 1000x700 dibujado a 400x280 para que los pines tengan el mismo tamaño que en los demás planos
+const at = (x: number, y: number): [number, number] => [x * 4, y * 2.8];
 
 const pins: Record<string, PlanPin> = {
   fri_01_primeras_salas_retratos: { floor: 'PB', at: at(15, 64), approx: A },
@@ -35,8 +36,8 @@ export const FRIDA_PLAN: SitePlan = {
   siteId: 'museo_frida_kahlo',
   aria: T('Plano de la Casa Azul', 'Plan of the Blue House', 'Plan de la Maison bleue', 'Plan Niebieskiego Domu', 'Plan des Blauen Hauses', 'Planta da Casa Azul', 'Pianta della Casa Azul'),
   floors: {
-    PB: { img: planImg('casa-azul-pb.svg'), size: [1000, 700], view: [0, 0, 1000, 700], name: T('Planta baja y jardín', 'Ground floor and garden', 'Rez-de-chaussée et jardin', 'Parter i ogród', 'Erdgeschoss und Garten', 'Térreo e jardim', 'Piano terra e giardino') },
-    PA: { img: planImg('casa-azul-pa.svg'), size: [1000, 700], view: [0, 0, 1000, 700], name: T('Planta alta', 'Upper floor', 'Étage', 'Piętro', 'Obergeschoss', 'Andar superior', 'Piano superiore') },
+    PB: { img: planImg('casa-azul-pb.svg'), size: [400, 280], view: [0, 0, 400, 280], name: T('Planta baja y jardín', 'Ground floor and garden', 'Rez-de-chaussée et jardin', 'Parter i ogród', 'Erdgeschoss und Garten', 'Térreo e jardim', 'Piano terra e giardino') },
+    PA: { img: planImg('casa-azul-pa.svg'), size: [400, 280], view: [0, 0, 400, 280], name: T('Planta alta', 'Upper floor', 'Étage', 'Piętro', 'Obergeschoss', 'Andar superior', 'Piano superiore') },
   },
   pins,
   areas: [],
