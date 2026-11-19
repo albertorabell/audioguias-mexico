@@ -24,6 +24,7 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 import { TabBar, DockTab } from './components/ui/TabBar';
 import { calculateRouteTimeMinutes } from './utils/routeOptimizer';
 import { getAssetUrl, normalizePiece, findPiece } from './utils/urlHelper';
+import { withCoordFixes } from './config/coordFixes';
 import { leerRuta, rutaDe, canonicaDe } from './utils/rutas';
 import { ttsPlayer } from './utils/ttsPlayer';
 import { useBackClose } from './utils/useBackClose';
@@ -265,7 +266,7 @@ export default function App() {
   const [privateText, setPrivateText] = useState<PremiumTextMap | null>(null);
   const [textState, setTextState] = useState<'none' | 'loading' | 'ok' | 'error'>('none');
   const [textReload, setTextReload] = useState(0);
-  const fullPieces = useMemo(() => mergePremiumText(activeRawPieces, privateText), [activeRawPieces, privateText]);
+  const fullPieces = useMemo(() => withCoordFixes(mergePremiumText(activeRawPieces, privateText)), [activeRawPieces, privateText]);
   const pieces = useMemo(() => fullPieces.map((p) => localizePiece(p)), [fullPieces, localizePiece]);
   const manifest = useMemo(() => {
     if (!rawManifest) return null;
