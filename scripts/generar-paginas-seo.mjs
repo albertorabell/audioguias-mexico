@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { TERMS, TERMS_UPDATED } from '../src/i18n/terminos.js';
 import { PRIVACY } from '../src/i18n/privacidad.js';
-import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes, HUBS, armarHub, direccionHub } from './seo-lib.mjs';
+import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes, HUBS, armarHub, direccionHub, recortar } from './seo-lib.mjs';
 
 const DIST = path.resolve(process.argv[2] || 'dist');
 const leer = (rel) => JSON.parse(fs.readFileSync(path.join(DIST, rel), 'utf-8'));
@@ -62,7 +62,7 @@ const entradasHub = (hub, lang) =>
   hub.sitios
     .map((id) => hechas.find((o) => o.id === id && !o.cfg.proximamente && o.idiomas.includes(lang)))
     .filter(Boolean)
-    .map((o) => ({ nombre: nombreEn(o, lang), url: direccion(o.cfg.slugs[lang], lang), lead: String((lang === 'es' ? o.sitio.description : o.sitio[`description_${lang}`]) || '').trim() }));
+    .map((o) => ({ nombre: nombreEn(o, lang), url: direccion(o.cfg.slugs[lang], lang), lead: recortar(String((lang === 'es' ? o.sitio.description : o.sitio[`description_${lang}`]) || '').trim(), 170) }));
 const idiomasHub = (hub) => Object.keys(hub.slugs).filter((l) => entradasHub(hub, l).length >= 2);
 
 for (const h of hechas) {
