@@ -1,0 +1,105 @@
+<svg id="xolo-palacio-cortes-pb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" role="img">
+<defs>
+  <style>
+    .bg { fill: #FAF7F2; }
+    .site-ground { fill: #F3EFE8; stroke: #DFD8CC; stroke-width: 1.5; }
+    .garden { fill: #E3ECD8; stroke: #BACBA6; stroke-width: 1.5; }
+    .water { fill: #D7E7EE; stroke: #9EC0D0; stroke-width: 1.5; }
+    .floor { fill: #FFFFFF; stroke: none; }
+    .room-fill { fill: #F6F2EB; stroke: none; }
+    .room-hi { fill: #FCEEF3; stroke: none; }
+    .patio { fill: #FAF7F2; stroke: #D8CFC2; stroke-width: 1.5; }
+    .tower { fill: #DDD5C9; stroke: #3A322C; stroke-width: 5.2; stroke-linecap: square; stroke-linejoin: miter; }
+    .wall-ext { fill: none; stroke: #3A322C; stroke-width: 5.5; stroke-linecap: square; stroke-linejoin: miter; }
+    .wall-int { fill: none; stroke: #6B6158; stroke-width: 2.3; stroke-linecap: square; stroke-linejoin: miter; }
+    .wall-glass { fill: none; stroke: #5E9AB5; stroke-width: 3.4; stroke-dasharray: 7,3; }
+    .door-gap { fill: none; stroke: #F6F2EB; stroke-width: 6.5; stroke-linecap: butt; }
+    .door-gap-w { fill: none; stroke: #FFFFFF; stroke-width: 6.5; stroke-linecap: butt; }
+    .pier { fill: #3A322C; stroke: none; }
+    .stair { fill: none; stroke: #8B8075; stroke-width: 1.3; }
+    .canopy { fill: #3A322C; fill-opacity: 0.06; stroke: #8B8075; stroke-width: 1.4; stroke-dasharray: 6,4; }
+    .dome { fill: none; stroke: #A99E92; stroke-width: 1.4; stroke-dasharray: 4,3; }
+    .mural-accent { fill: none; stroke: #E5195F; stroke-width: 4.5; stroke-linecap: round; }
+    .accent-ring { fill: none; stroke: #E5195F; stroke-width: 1.4; stroke-dasharray: 3,2; }
+    .compass-ring { fill: #FFFFFF; stroke: #DCD5C9; stroke-width: 1.5; }
+    .scale-line { stroke: #6B6158; stroke-width: 2; }
+    .lbl { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 700; fill: #3A322C; text-anchor: middle; dominant-baseline: middle; }
+    .lbl-sm { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 9.8px; font-weight: 600; fill: #6B6158; text-anchor: middle; dominant-baseline: middle; }
+    .street { font-family: system-ui, -apple-system, sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: 1.8px; fill: #8E8378; text-anchor: middle; }
+    .compass { font-family: system-ui, -apple-system, sans-serif; font-size: 11.5px; font-weight: 700; fill: #E5195F; text-anchor: middle; }
+    .pin-circle { fill: #E5195F; stroke: #FFFFFF; stroke-width: 2.2; }
+    .pin-num { font-family: system-ui, -apple-system, sans-serif; font-size: 11.5px; font-weight: 700; fill: #FFFFFF; text-anchor: middle; dominant-baseline: central; }
+    
+  </style>
+</defs>
+  <rect class="bg" x="0" y="0" width="1000" height="700"/>
+  <rect class="site-ground" x="35" y="45" width="930" height="590"/>
+  <rect data-room-id="patio_cuexcomate" class="garden" x="720" y="105" width="210" height="450"/>
+  <rect data-room-id="loggia_oeste" class="floor" x="125" y="165" width="85" height="390"/>
+  <rect data-room-id="salas_pb_norte" class="room-fill" x="210" y="105" width="510" height="125"/>
+  <rect data-room-id="patio_central" class="patio" x="295" y="230" width="345" height="195"/>
+  <rect data-room-id="salas_pb_sur" class="room-hi" x="210" y="425" width="510" height="130"/>
+  <rect data-room-id="boveda_escalera" class="room-fill" x="640" y="230" width="80" height="195"/>
+  <path class="wall-ext" d="M 125,555 L 125,180 L 210,180 L 210,105 L 720,105 L 720,555 Z"/>
+  <circle data-room-id="torre_reloj" class="room-hi" cx="145" cy="140" r="42"/>
+  <circle class="wall-ext" cx="145" cy="140" r="42"/>
+  <rect class="wall-int" x="295" y="230" width="345" height="195"/>
+  <line class="wall-int" x1="210" y1="180" x2="210" y2="555"/>
+  <line class="wall-int" x1="210" y1="230" x2="720" y2="230"/>
+  <line class="wall-int" x1="210" y1="425" x2="720" y2="425"/>
+  <line class="wall-int" x1="450" y1="105" x2="450" y2="230"/>
+  <line class="wall-int" x1="465" y1="425" x2="465" y2="555"/>
+  <rect class="patio" x="545" y="132" width="75" height="62"/>
+  <rect class="wall-int" x="545" y="132" width="75" height="62"/>
+  <line class="stair" x1="650.0" y1="250.0" x2="710.0" y2="250.0"/>
+  <line class="stair" x1="650.0" y1="260.7" x2="710.0" y2="260.7"/>
+  <line class="stair" x1="650.0" y1="271.4" x2="710.0" y2="271.4"/>
+  <line class="stair" x1="650.0" y1="282.1" x2="710.0" y2="282.1"/>
+  <line class="stair" x1="650.0" y1="292.9" x2="710.0" y2="292.9"/>
+  <line class="stair" x1="650.0" y1="303.6" x2="710.0" y2="303.6"/>
+  <line class="stair" x1="650.0" y1="314.3" x2="710.0" y2="314.3"/>
+  <line class="stair" x1="650.0" y1="325.0" x2="710.0" y2="325.0"/>
+  <line class="stair" x1="680.0" y1="250.0" x2="680.0" y2="325.0"/>
+  <circle class="pier" cx="125" cy="245" r="5"/>
+  <circle class="pier" cx="125" cy="305" r="5"/>
+  <circle class="pier" cx="125" cy="365" r="5"/>
+  <circle class="pier" cx="125" cy="425" r="5"/>
+  <circle class="pier" cx="320" cy="230" r="3.8"/>
+  <circle class="pier" cx="320" cy="425" r="3.8"/>
+  <circle class="pier" cx="365" cy="230" r="3.8"/>
+  <circle class="pier" cx="365" cy="425" r="3.8"/>
+  <circle class="pier" cx="410" cy="230" r="3.8"/>
+  <circle class="pier" cx="410" cy="425" r="3.8"/>
+  <circle class="pier" cx="455" cy="230" r="3.8"/>
+  <circle class="pier" cx="455" cy="425" r="3.8"/>
+  <circle class="pier" cx="500" cy="230" r="3.8"/>
+  <circle class="pier" cx="500" cy="425" r="3.8"/>
+  <circle class="pier" cx="545" cy="230" r="3.8"/>
+  <circle class="pier" cx="545" cy="425" r="3.8"/>
+  <circle class="pier" cx="590" cy="230" r="3.8"/>
+  <circle class="pier" cx="590" cy="425" r="3.8"/>
+  <circle class="room-fill" cx="835" cy="340" r="34"/>
+  <circle class="wall-int" cx="835" cy="340" r="34"/>
+  <line class="door-gap-w" x1="125" y1="322" x2="125" y2="352"/>
+  <line class="door-gap" x1="210" y1="322" x2="210" y2="352"/>
+  <line class="door-gap" x1="720" y1="320" x2="720" y2="355"/>
+  <text class="lbl-sm" x="145" y="140">TORRE</text>
+  <text class="lbl-sm" x="168" y="220">4 ARCOS O</text>
+  <text class="lbl" x="468" y="282">PATIO CENTRAL</text>
+  <text class="lbl-sm" x="330" y="128">SALAS PB · OLMECA</text>
+  <text class="lbl-sm" x="582" y="163">CUBO LUZ</text>
+  <text class="lbl-sm" x="335" y="452">VENTANAS ARQ. TLAHUICAS</text>
+  <text class="lbl-sm" x="595" y="452">MONOLITOS</text>
+  <text class="lbl-sm" x="835" y="290">CUEXCOMATE</text>
+  <text class="street" x="62" y="345" transform="rotate(-90 62 345)">JARDÍN JUÁREZ / PLAZA DE ARMAS</text>
+  <g transform="translate(952,36)">
+    <circle cx="0" cy="0" r="20" class="compass-ring"/>
+    <text class="compass" x="0" y="4">N ↑</text>
+  </g>
+  <g transform="translate(860,678)">
+    <line class="scale-line" x1="0" y1="0" x2="80" y2="0"/>
+    <line class="scale-line" x1="0" y1="-4" x2="0" y2="4"/>
+    <line class="scale-line" x1="80" y1="-4" x2="80" y2="4"/>
+    <text class="lbl-sm" x="40" y="-10">15 m</text>
+  </g>
+</svg>

@@ -11,7 +11,7 @@ import { MuseumScreen, ContinueInfo, byOrder } from './components/MuseumScreen';
 import { RoutesScreen, ActiveTour } from './components/RoutesScreen';
 import { MapScreen } from './components/MapScreen';
 import { getSitePlan } from './config/sitePlan';
-import './config/plans/chapultepec';
+import './config/plans';
 import { SearchScreen } from './components/SearchScreen';
 import { RoomView } from './components/RoomView';
 import { PieceDetail, NextInfo } from './components/PieceDetail';
@@ -24,6 +24,7 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 import { TabBar, DockTab } from './components/ui/TabBar';
 import { calculateRouteTimeMinutes } from './utils/routeOptimizer';
 import { getAssetUrl, normalizePiece, findPiece } from './utils/urlHelper';
+import { withCoordFixes } from './config/coordFixes';
 import { leerRuta, rutaDe, canonicaDe } from './utils/rutas';
 import { ttsPlayer } from './utils/ttsPlayer';
 import { useBackClose } from './utils/useBackClose';
@@ -265,7 +266,7 @@ export default function App() {
   const [privateText, setPrivateText] = useState<PremiumTextMap | null>(null);
   const [textState, setTextState] = useState<'none' | 'loading' | 'ok' | 'error'>('none');
   const [textReload, setTextReload] = useState(0);
-  const fullPieces = useMemo(() => mergePremiumText(activeRawPieces, privateText), [activeRawPieces, privateText]);
+  const fullPieces = useMemo(() => withCoordFixes(mergePremiumText(activeRawPieces, privateText)), [activeRawPieces, privateText]);
   const pieces = useMemo(() => fullPieces.map((p) => localizePiece(p)), [fullPieces, localizePiece]);
   const manifest = useMemo(() => {
     if (!rawManifest) return null;
@@ -799,6 +800,22 @@ export default function App() {
   // Mapa en vivo marcado "solo_prueba": solo aparece abriendo la app con ?preview
   const verPrevia = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('preview');
   const liveMap = manifest?.live_map && (!manifest.live_map.solo_prueba || verPrevia) ? manifest.live_map : undefined;
+  // Ruta principal del sitio (la marcada en el Sheet o la más corta): numera los pines del mapa antes de empezar un recorrido
+  const previewRouteIds = useMemo(() => {
+    const rs = manifest?.routes || [];
+    const mins = (r: { estimated_minutes?: number }) => (typeof r.estimated_minutes === 'number' ? r.estimated_minutes : 9999);
+    const main = rs.find((r) => (r as { principal?: boolean }).principal) || [...rs].sort((a, b) => mins(a) - mins(b))[0];
+    return (main?.stops || []).map((st) => String(st.piece_id || st.id || st.poi_id || ''));
+  }, [manifest]);
+  // Al entrar a un sitio se baja su mapa sin internet en segundo plano (queda guardado; ver vite.config.ts). No con «ahorro de datos».
+  const mapaPmtiles = liveMap?.pmtiles;
+  useEffect(() => {
+    if (!mapaPmtiles || typeof window === 'undefined') return;
+    const conn = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
+    if (conn?.saveData) return;
+    const t = window.setTimeout(() => { fetch(new URL(mapaPmtiles.replace(/^\.?\/*/, '/'), window.location.origin).href).catch(() => {}); }, 4000);
+    return () => window.clearTimeout(t);
+  }, [mapaPmtiles]);
   const hasMap = !isZones || !!manifest?.zone_map || !!liveMap;
   let content: React.ReactNode = null;
   if (screen.kind === 'home' || !site) {
@@ -871,6 +888,7 @@ export default function App() {
           siteId={selectedSite?.id}
           herePieceId={currentPiece?.piece_id || null}
           onOpenStop={(i) => activeTour && openTourStop(activeTour.route, i)}
+          previewRouteIds={previewRouteIds}
         />
       );
     } else {

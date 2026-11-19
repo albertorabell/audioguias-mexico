@@ -1,0 +1,210 @@
+{
+ "salida": "public/plano/tmc-catedral",
+ "edificios": [
+  "way/862852010",
+  "way/862420735"
+ ],
+ "nivel": "0",
+ "metro": 4.2,
+ "margen": 30,
+ "areas": {
+  "Altar de los Reyes": {
+   "id": "reyes",
+   "hue": 48,
+   "nombre": "Altar de los Reyes"
+  },
+  "Capilla de Nuestra Señora de Zapopan": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de Nuestra Señora de Zapopan"
+  },
+  "Sacristía Mayor": {
+   "id": "res",
+   "hue": 220,
+   "nombre": "Sacristía Mayor"
+  },
+  "Sala Capitular de la Catedral": {
+   "id": "res",
+   "hue": 220,
+   "nombre": "Sala Capitular de la Catedral"
+  },
+  "Capilla de las Ánimas del Purgatorio": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de las Ánimas del Purgatorio"
+  },
+  "Altar Mayor": {
+   "id": "mayor",
+   "hue": 48,
+   "nombre": "Altar Mayor"
+  },
+  "Crujía o Pasillo Procesional": {
+   "id": "crujia",
+   "hue": 40,
+   "nombre": "Crujía o Pasillo Procesional"
+  },
+  "Coro": {
+   "id": "coro",
+   "hue": 12,
+   "nombre": "Coro"
+  },
+  "Capilla de San Felipe de Jésus": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de San Felipe de Jésus"
+  },
+  "Capilla de Nuestra Señora de los Dolores": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de Nuestra Señora de los Dolores"
+  },
+  "Transepto Poniente": {
+   "id": "trans",
+   "hue": 40,
+   "nombre": "Transepto Poniente"
+  },
+  "Capilla del Señor de Buen Despacho (Santísimo)": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla del Señor de Buen Despacho (Santísimo)"
+  },
+  "Capilla de Nuestra Señora de la Soledad": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de Nuestra Señora de la Soledad"
+  },
+  "Capilla de San José": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de San José"
+  },
+  "Capilla de los Santos Cosme y Damian": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de los Santos Cosme y Damian"
+  },
+  "Capilla de los Santos Ángeles": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de los Santos Ángeles"
+  },
+  "Capilla del Santo Cristo o de las Reliquias": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla del Santo Cristo o de las Reliquias"
+  },
+  "Capilla de San Pedro": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de San Pedro"
+  },
+  "Transepto Oriente": {
+   "id": "trans",
+   "hue": 40,
+   "nombre": "Transepto Oriente"
+  },
+  "Capilla de Nuestra Señora de la Antigua": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de Nuestra Señora de la Antigua"
+  },
+  "Capilla de Nuestra Señora de Guadalupe": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de Nuestra Señora de Guadalupe"
+  },
+  "Capilla de la Inmaculada Concepción": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de la Inmaculada Concepción"
+  },
+  "Capilla de San Isidro": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de San Isidro"
+  },
+  "Capilla de Nuestra Señora de las Angustias de Granada": {
+   "id": "cap",
+   "hue": 28,
+   "tipo": "capilla",
+   "nombre": "Capilla de Nuestra Señora de las Angustias de Granada"
+  },
+  "Altar del Perdón": {
+   "id": "perdon",
+   "hue": 48,
+   "nombre": "Altar del Perdón"
+  },
+  "Bautisterio": {
+   "id": "baut",
+   "hue": 280,
+   "nombre": "Bautisterio"
+  },
+  "Altar": {
+   "id": "sag-altar",
+   "hue": 280,
+   "nombre": "Altar"
+  },
+  "Sacristía": {
+   "id": "sag-sac",
+   "hue": 280,
+   "nombre": "Sacristía"
+  }
+ },
+ "puntos": {
+  "tmc_07_nave_central": [
+   19.43388,
+   -99.1331
+  ],
+  "tmc_08_coro_organos": [
+   19.43413,
+   -99.133102
+  ],
+  "tmc_09_altar_perdon": [
+   19.433986,
+   -99.133118
+  ],
+  "tmc_10_altar_reyes": [
+   19.434816,
+   -99.133006
+  ],
+  "tmc_11_capillas_veneno": [
+   19.4341,
+   -99.133326
+  ],
+  "tmc_12_san_felipe_iturbide": [
+   19.434631,
+   -99.133249
+  ],
+  "tmc_13_sacristia_cripta": [
+   19.434723,
+   -99.132777
+  ],
+  "tmc_14_suelo_hundimiento": [
+   19.4344,
+   -99.13307
+  ],
+  "entrada": [
+   19.43376,
+   -99.1331
+  ],
+  "norte": [
+   19.43504,
+   -99.13309
+  ]
+ }
+}
