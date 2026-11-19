@@ -51,7 +51,8 @@ export default defineConfig(() => {
           ],
         },
         workbox: {
-          globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff,woff2,pmtiles,pbf}'],
+          // Los mapas sin internet (maps/*.pmtiles, 1 a 5 MB cada uno) NO se guardan al instalar: se guardan los del sitio que la persona abre (ver abajo).
+          globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff,woff2,pbf}'],
           // El tablero de uso (panel.html) es solo para el dueño: no se guarda en el teléfono de los visitantes.
           // data/pieces.json y data/rooms.json son copias de data/mna/ que usan los scripts, no la app: no se guardan dos veces.
           // sites.json (el catálogo) tampoco se guarda al instalar: se pide primero a la red (ver más abajo) para que nadie vea un catálogo viejo.
@@ -62,6 +63,16 @@ export default defineConfig(() => {
           // Se sube el límite para que se siga guardando para usar sin internet.
           maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
           runtimeCaching: [
+            {
+              // Mapa sin internet de cada sitio: se baja la primera vez que se abre el sitio (App.tsx) y queda guardado.
+              urlPattern: ({ url }: { url: URL }) => /\/maps\/[^/]+\.pmtiles$/i.test(url.pathname),
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'xolo-mapas-v1',
+                expiration: { maxEntries: 16, maxAgeSeconds: 60 * 60 * 24 * 120 },
+                cacheableResponse: { statuses: [0, 200] },
+              },
+            },
             {
               // Tipografías de Google: la hoja de estilos se revisa en segundo plano y los archivos de letra se guardan un año,
               // así la app conserva sus letras sin internet dentro del museo.

@@ -1,4 +1,6 @@
 import { PlanPin, SitePlan, planImg, registerSitePlan } from '../sitePlan';
+import { registerBuildings } from '../buildings';
+import { OUTLINES } from './outlines';
 
 /**
  * Castillo de Chapultepec. Muros: dos dibujos limpios (public/plano/chap-pb.svg 412x760 y chap-pa.svg 384x815).
@@ -57,3 +59,7 @@ export const CHAPULTEPEC_PLAN: SitePlan = {
   ],
 };
 registerSitePlan(CHAPULTEPEC_PLAN);
+
+registerBuildings('chapultepec', [
+  { id: 'castillo', name: T('Castillo de Chapultepec', 'Chapultepec Castle', 'Château de Chapultepec', 'Zamek Chapultepec', 'Schloss Chapultepec', 'Castelo de Chapultepec', 'Castello di Chapultepec'), outline: OUTLINES.castillo_chapultepec, pieces: Object.keys(pins).filter((k) => k !== 'chap_01_rampa') },
+]);

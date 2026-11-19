@@ -3,7 +3,18 @@ import { Plus, Minus, LocateFixed, Maximize2, ChevronRight, Lock } from 'lucide-
 import { PieceData } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
 import { ActiveTour } from './RoutesScreen';
-import { PLAN_UI, PlanFloor, PlanLang, PlanPin, Rect, SitePlan } from '../config/sitePlan';
+import { PLAN_UI, PlanFloor, PlanLang, PlanPin, Pt, Rect, SitePlan } from '../config/sitePlan';
+import { roomFill } from '../config/mnaPlan';
+
+/** ¿El punto está dentro del polígono? (para saber qué paradas caen en una sala). */
+const inPoly = (p: Pt, poly: Pt[]) => {
+  let inside = false;
+  for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+    const [xi, yi] = poly[i], [xj, yj] = poly[j];
+    if (yi > p[1] !== yj > p[1] && p[0] < ((xj - xi) * (p[1] - yi)) / (yj - yi) + xi) inside = !inside;
+  }
+  return inside;
+};
 
 type Mode = 'follow' | 'overview' | 'area' | 'free';
 
@@ -12,24 +23,31 @@ const LANGS: PlanLang[] = ['es', 'en', 'fr', 'pl', 'de', 'pt', 'it'];
 interface Props {
   plan: SitePlan;
   pieces: PieceData[];
-  floor: PlanFloor;
-  onFloorChange: (f: PlanFloor) => void;
+  floor: 'PB' | 'PA';
+  onFloorChange: (f: 'PB' | 'PA') => void;
   herePieceId?: string | null;
   tour: ActiveTour | null;
   hasPass?: boolean;
   onOpenPaywall?: () => void;
   onOpenPiece?: (pieceId: string) => void;
   onOpenStop?: (index: number) => void;
+  /** Zona del plano que se enfoca al entrar desde el mapa real (id de PlanArea). */
+  focusArea?: string | null;
 }
 
 const stopId = (s: { piece_id?: string; id?: string; poi_id?: string }) => s.piece_id || s.id || s.poi_id || '';
 
 /** Plano de un sitio con paradas ubicadas con exactitud (estándar de planos). Lee todo de la configuración del sitio. */
-export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChange, herePieceId, tour, hasPass = false, onOpenPaywall, onOpenPiece, onOpenStop }) => {
+export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor: floorProp, onFloorChange: onFloorProp, herePieceId, tour, hasPass = false, onOpenPaywall, onOpenPiece, onOpenStop, focusArea }) => {
   const { currentLanguage } = useLanguage();
+  // La planta (o edificio) se lleva aquí: un plano puede tener claves propias además de PB y PA
+  const floorKeys = Object.keys(plan.floors);
+  const [floor, setFloorState] = useState<PlanFloor>(plan.floors[floorProp] ? floorProp : floorKeys[0]);
+  const onFloorChange = (f: PlanFloor) => { setFloorState(f); if (f === 'PB' || f === 'PA') onFloorProp(f); };
+  const [selRoom, setSelRoom] = useState<string | null>(null);
   const lang = (LANGS.includes(currentLanguage as PlanLang) ? currentLanguage : 'es') as PlanLang;
   const t = PLAN_UI[lang];
-  const fl = plan.floors[floor] ?? plan.floors.PB!;
+  const fl = plan.floors[floor] ?? plan.floors[floorKeys[0]]!;
   const wrapRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const [size, setSize] = useState({ w: 0, h: 0 });
@@ -44,7 +62,8 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
   const pieceById = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p])), [pieces]);
   const pinList = useMemo<[string, PlanPin][]>(() => Object.keys(plan.pins).map((k): [string, PlanPin] => [k, plan.pins[k]]), [plan]);
   const open = (p: PieceData) => hasPass || p.is_free;
-  const floorsAvailable = (['PB', 'PA'] as PlanFloor[]).filter((f) => plan.floors[f] && pinList.some(([id, p]) => p.floor === f && pieceById.has(id)));
+  const floorsAvailable = floorKeys.filter((f) => plan.floors[f] && pinList.some(([id, p]) => p.floor === f && pieceById.has(id)));
+  const standardFloors = floorKeys.every((f) => f === 'PB' || f === 'PA');
 
   // paradas del recorrido activo con su posición
   const stops = useMemo(() => {
@@ -54,6 +73,15 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
   const stopIndex = useMemo(() => new Map(stops.map((s) => [s.id, s.i])), [stops]);
   const curIdx = tour ? tour.index : -1;
   const herePin = herePieceId ? plan.pins[herePieceId] : undefined;
+
+  // al entrar desde el mapa real a un edificio, se enfoca su zona
+  useEffect(() => {
+    const a = focusArea ? plan.areas.find((x) => x.id === focusArea) : undefined;
+    if (!a) return;
+    if (a.floor !== floor) onFloorChange(a.floor);
+    setAreaId(a.id);
+    setMode('area');
+  }, [focusArea]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // al abrir una parada, el plano muestra su planta
   useEffect(() => { if (herePin && herePin.floor !== floor) onFloorChange(herePin.floor); }, [herePieceId]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -108,7 +136,7 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
     animate(target(), first.current ? 0 : 420);
     first.current = false;
   }, [size.w, size.h, mode, areaId, floor, herePieceId]); // eslint-disable-line react-hooks/exhaustive-deps
-  useEffect(() => { setMode(herePin && herePin.floor === floor ? 'follow' : 'overview'); setAreaId(null); setSel(null); }, [floor]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { setMode(herePin && herePin.floor === floor ? 'follow' : 'overview'); setAreaId(null); setSel(null); setSelRoom(null); }, [floor]); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => { if (herePin) { setMode('follow'); setSel(null); } }, [herePieceId]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // gestos: arrastrar, pellizcar, rueda
@@ -198,7 +226,7 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
   return (
     <div id="floor-plan">
       {floorsAvailable.length > 1 && (
-        <div role="tablist" className="grid grid-cols-2 p-1 rounded-2xl bg-surface border border-line mb-3">
+        <div role="tablist" className="grid p-1 rounded-2xl bg-surface border border-line mb-3" style={{ gridTemplateColumns: `repeat(${floorsAvailable.length}, minmax(0, 1fr))` }}>
           {floorsAvailable.map((f) => (
             <button key={f} type="button" role="tab" id={`plan-floor-${f}`} aria-selected={floor === f} onClick={() => onFloorChange(f)} className={`min-h-11 rounded-xl text-ui font-bold cursor-pointer transition-colors ${floor === f ? 'bg-raised text-ink shadow-sm' : 'text-ink-3'}`}>
               {plan.floors[f]!.name[lang]}
@@ -210,6 +238,23 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
         <svg ref={svgRef} viewBox={vb.join(' ')} role="group" aria-label={plan.aria[lang]} className="w-full h-full block select-none" style={{ touchAction: 'none', cursor: 'grab' }}>
           <rect x={-400} y={-400} width={1400} height={1800} fill="#f8f8f8" className="dark:[filter:invert(0.9)_hue-rotate(180deg)]" pointerEvents="none" />
           <image href={fl.img} x={0} y={0} width={fl.size[0]} height={fl.size[1]} className="dark:[filter:invert(0.9)_hue-rotate(180deg)]" pointerEvents="none" />
+          {/* salas al estilo del plano del MNA: color, número y nombre; al tocar se listan sus paradas */}
+          {(plan.rooms || []).filter((r) => r.floor === floor).map((r) => {
+            const on = selRoom === r.id || (!!herePin && herePin.floor === floor && inPoly(herePin.at, r.poly));
+            const xs = r.poly.map((p) => p[0]), ys = r.poly.map((p) => p[1]);
+            const [lx, ly] = r.label || [Math.min(...xs) + 6, Math.min(...ys) + 16];
+            const fs = r.labelSize ?? 1;
+            return (
+              <g key={r.id} style={{ cursor: 'pointer' }} onClick={() => { setSel(null); setSelRoom(r.id); }}>
+                <polygon points={r.poly.map((p) => p.join(',')).join(' ')} fill={roomFill(r.hue, on)} stroke={on ? 'var(--c-jade)' : 'var(--c-ink-3)'} strokeWidth={on ? 2.4 : 1} strokeLinejoin="round" />
+                {fs > 0 && r.num && <text x={lx} y={ly} fontSize={15 * fs} fontWeight={700} fill="var(--c-ink)" pointerEvents="none" className="font-serif">{r.num}</text>}
+                {fs > 0 && <text x={lx + (r.num ? (r.num.length * 9 + 4) * fs : 0)} y={ly - 1} fontSize={7.4 * fs} fontWeight={600} fill="var(--c-ink-3)" pointerEvents="none">{r.name[lang]}</text>}
+              </g>
+            );
+          })}
+          {(plan.labels || []).filter((l) => l.floor === floor).map((l, i) => (
+            <text key={i} x={l.at[0]} y={l.at[1]} textAnchor="middle" fontSize={l.size || 8} fontWeight={l.bold ? 700 : 600} fill="var(--c-ink-3)" pointerEvents="none">{l.text[lang]}</text>
+          ))}
           {/* camino de la ruta activa (solo entre paradas consecutivas de esta planta) */}
           {stops.slice(0, -1).map((s, k) => {
             const nx = stops[k + 1];
@@ -226,7 +271,7 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
             const n = pc.orden_sugerido;
             const r = on ? 8.6 : 7;
             return (
-              <g key={id} style={{ cursor: 'pointer' }} onClick={() => setSel(id)} aria-label={open(pc) ? pc.titulo : t.locked}>
+              <g key={id} style={{ cursor: 'pointer' }} onClick={() => { setSelRoom(null); setSel(id); }} aria-label={open(pc) ? pc.titulo : t.locked}>
                 <circle cx={p.at[0]} cy={p.at[1]} r={r} fill="var(--c-ink-2)" opacity={on ? 1 : 0.85} stroke={on ? 'var(--c-jade)' : 'var(--c-surface)'} strokeWidth={on ? 2.2 : 1.4} strokeDasharray={p.approx ? '2 1.6' : undefined} />
                 {n ? <text x={p.at[0]} y={p.at[1] + 2.8} textAnchor="middle" fontSize={n > 9 ? 7 : 8} fontWeight={700} fill="var(--c-bg)" pointerEvents="none">{n}</text> : null}
                 {(near || on) && open(pc) && (
@@ -289,7 +334,46 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
       )}
 
       <div className="mt-3 rounded-[20px] bg-surface border border-line p-4">
-        {selPiece ? (
+        {!selPiece && selRoom && (() => {
+          const r = (plan.rooms || []).find((x) => x.id === selRoom);
+          if (!r) return null;
+          const inside = pinList.filter(([id, p]) => p.floor === r.floor && pieceById.has(id) && inPoly(p.at, r.poly)).map(([id]) => pieceById.get(id)!).sort((a, b) => (a.orden_sugerido || 0) - (b.orden_sugerido || 0));
+          const openList = inside.filter(open);
+          const locked = inside.length - openList.length;
+          return (
+            <>
+              <div className="flex items-start gap-3">
+                {r.num && <span className="font-serif text-[2rem] leading-none text-ink tabular-nums">{r.num}</span>}
+                <div className="min-w-0 flex-1">
+                  <p className="font-serif text-h3 text-ink leading-tight">{r.name[lang]}</p>
+                  <p className="text-cap text-ink-3">{inside.length} {t.roomStops}</p>
+                </div>
+                <button type="button" onClick={() => setSelRoom(null)} aria-label="×" className="w-9 h-9 -mr-2 -mt-1 rounded-full flex items-center justify-center text-ink-3 cursor-pointer active:bg-raised">×</button>
+              </div>
+              <ul className="mt-2">
+                {openList.map((p) => (
+                  <li key={p.piece_id}>
+                    <button type="button" onClick={() => onOpenPiece?.(p.piece_id)} className="w-full min-h-12 flex items-center gap-3 py-2 text-left border-b border-line cursor-pointer active:bg-raised">
+                      <span className="w-7 h-7 shrink-0 rounded-full bg-ink text-bg text-[13px] font-bold flex items-center justify-center tabular-nums">{p.orden_sugerido || '·'}</span>
+                      <span className="flex-1 min-w-0 text-ui font-semibold text-ink">{p.titulo}</span>
+                      <ChevronRight className="w-4 h-4 text-ink-3 shrink-0" />
+                    </button>
+                  </li>
+                ))}
+                {locked > 0 && (
+                  <li>
+                    <button type="button" onClick={() => onOpenPaywall?.()} className="w-full min-h-12 flex items-center gap-3 py-2 text-left border-b border-line cursor-pointer active:bg-raised">
+                      <Lock className="w-5 h-5 shrink-0 text-ink-3" />
+                      <span className="flex-1 min-w-0 text-ui font-semibold text-ink-2">+{locked}</span>
+                      <span className="text-cap font-semibold text-jade-ink">{t.unlock}</span>
+                    </button>
+                  </li>
+                )}
+              </ul>
+            </>
+          );
+        })()}
+        {selRoom && !selPiece ? null : selPiece ? (
           <>
             <button type="button" onClick={() => onOpenPiece?.(selPiece.piece_id)} disabled={!open(selPiece)} className="w-full flex items-center gap-3 text-left cursor-pointer disabled:cursor-default">
               <span className="flex-1 min-w-0">
@@ -309,7 +393,7 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
             <p className="font-serif text-h3 text-ink leading-tight mt-0.5">{open(nextPiece) ? nextPiece.titulo : t.locked}</p>
             <div className="mt-3 rounded-2xl bg-bg px-3 py-2.5">
               {nextPin && nextPin.floor !== floor ? (
-                <button type="button" onClick={() => onFloorChange(nextPin.floor)} className="text-cap font-semibold text-jade-ink cursor-pointer">{nextPin.floor === 'PA' ? t.goUp : t.goDown} · {t.otherFloor}</button>
+                <button type="button" onClick={() => onFloorChange(nextPin.floor)} className="text-cap font-semibold text-jade-ink cursor-pointer">{standardFloors ? `${nextPin.floor === 'PA' ? t.goUp : t.goDown} · ${t.otherFloor}` : `${t.viewFloor}: ${plan.floors[nextPin.floor]?.name[lang] || ''}`}</button>
               ) : (
                 <span className="text-cap text-ink-2 line-clamp-3">{open(nextPiece) ? nextPiece.puente_narrativo : ''}</span>
               )}
@@ -320,6 +404,7 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
           <p className="text-cap text-ink-3">{t.hint}</p>
         )}
       </div>
+      {plan.source && <p className="mt-2 px-1 text-[11px] text-ink-3">{t.source}: {plan.source[lang]}</p>}
     </div>
   );
 };
