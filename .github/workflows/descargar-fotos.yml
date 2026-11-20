@@ -62,7 +62,7 @@ jobs:
           set -o pipefail
           archivo="scripts/fotos/consultas-${SITIO//_/-}.json"
           if [ -n "$CONSULTAS" ]; then archivo="$CONSULTAS"; fi
-          node scripts/buscar-fotos.mjs --consultas "$archivo" --salida candidatas
+          if [[ "$archivo" == *openverse* ]]; then node scripts/buscar-openverse.mjs --consultas "$archivo" --salida candidatas; else node scripts/buscar-fotos.mjs --consultas "$archivo" --salida candidatas; fi
           git config user.name "fotos-bot"
           git config user.email "fotos-bot@users.noreply.github.com"
           git checkout -q --orphan fotos-candidatas
