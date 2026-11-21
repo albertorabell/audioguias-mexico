@@ -257,3 +257,13 @@ test('hubs: arma la página con enlaces a los sitios, hreflang y datos estructur
   assert.match(r.html, /CollectionPage/);
   assert.equal(armarHub({ hub, lang: 'es', entradas: entradas.slice(0, 1) }), null);
 });
+
+import { ofertaDigital } from '../seo-lib.mjs';
+test('oferta del pase: trae política de devolución (30 días, enlace a los términos) y envío gratuito inmediato', () => {
+  const o = ofertaDigital(149, 'MXN', 'https://xolotli.com/guias/x/', 'fr');
+  assert.equal(o.hasMerchantReturnPolicy.merchantReturnDays, 30);
+  assert.equal(o.hasMerchantReturnPolicy.merchantReturnLink, 'https://xolotli.com/terminos/fr/');
+  assert.equal(o.shippingDetails.shippingRate.value, 0);
+  assert.equal(o.shippingDetails.shippingRate.currency, 'MXN');
+  assert.ok(o.shippingDetails.shippingDestination.length > 5);
+});

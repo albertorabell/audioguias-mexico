@@ -509,7 +509,7 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
   // Precio del pase (para buscadores y asistentes de IA): solo cuando el sitio ya se vende
   const mxnN = Number(sitio.pass_price_mxn ?? manifiesto.pass_price_mxn) || 0;
   const usdN = Number(sitio.pass_price_usd ?? manifiesto.pass_price_usd) || 0;
-  const ofertas = [mxnN ? { '@type': 'Offer', price: mxnN, priceCurrency: 'MXN', availability: 'https://schema.org/InStock', url } : null, usdN ? { '@type': 'Offer', price: usdN, priceCurrency: 'USD', availability: 'https://schema.org/InStock', url } : null].filter(Boolean);
+  const ofertas = [mxnN ? ofertaDigital(mxnN, 'MXN', url, lang) : null, usdN ? ofertaDigital(usdN, 'USD', url, lang) : null].filter(Boolean);
   const producto = !cfg.proximamente && ofertas.length
     ? [{ '@type': 'Product', '@id': `${url}#audioguia`, name: titulo, description: descripcion, brand: { '@type': 'Brand', name: 'Xolo' }, ...(portada ? { image: `${DOMINIO}${portada}` } : {}), offers: ofertas }]
     : [];
@@ -884,4 +884,32 @@ ${lista}
 <p class="cta"><a class="boton" href="/">${esc(HUB_ETIQUETAS.todas[lang])}</a></p>`;
   const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada: '', jsonld, selector, cuerpo, pie: T[lang].pie });
   return { html, url, titulo, descripcion };
+}
+
+// ───────────── Oferta del pase (producto digital) ─────────────
+// Política de devolución = la de los Términos (reembolso completo en 30 días si no se ha usado) y envío = ninguno (acceso inmediato en línea).
+const PAISES_OFERTA = ['MX', 'US', 'CA', 'ES', 'FR', 'DE', 'IT', 'PT', 'PL', 'BR', 'GB', 'AR', 'CO', 'CL', 'PE'];
+const cero = { '@type': 'QuantitativeValue', minValue: 0, maxValue: 0, unitCode: 'DAY' };
+export function ofertaDigital(price, priceCurrency, url, lang = 'es') {
+  return {
+    '@type': 'Offer',
+    price,
+    priceCurrency,
+    availability: 'https://schema.org/InStock',
+    url,
+    hasMerchantReturnPolicy: {
+      '@type': 'MerchantReturnPolicy',
+      applicableCountry: PAISES_OFERTA,
+      returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+      merchantReturnDays: 30,
+      returnFees: 'https://schema.org/FreeReturn',
+      merchantReturnLink: `${DOMINIO}/terminos/${lang}/`,
+    },
+    shippingDetails: {
+      '@type': 'OfferShippingDetails',
+      shippingRate: { '@type': 'MonetaryAmount', value: 0, currency: priceCurrency },
+      shippingDestination: PAISES_OFERTA.map((c) => ({ '@type': 'DefinedRegion', addressCountry: c })),
+      deliveryTime: { '@type': 'ShippingDeliveryTime', handlingTime: cero, transitTime: cero },
+    },
+  };
 }
