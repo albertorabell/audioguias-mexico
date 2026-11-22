@@ -267,3 +267,25 @@ test('oferta del pase: trae política de devolución (30 días, enlace a los té
   assert.equal(o.shippingDetails.shippingRate.currency, 'MXN');
   assert.ok(o.shippingDetails.shippingDestination.length > 5);
 });
+
+test('portada con texto: enlaces a las guías, otros idiomas y JSON-LD con la lista', async () => {
+  const { armarPortadaEstatica, inyectarPortada } = await import('../seo-lib.mjs');
+  const portada = armarPortadaEstatica({
+    sitios: [{ nombre: 'Museo <Uno>', lugar: 'CDMX', lead: 'Un museo.', mxn: 149, nombres: { en: 'Museum One' }, urls: { es: '/guias/museo-uno/', en: '/en/guides/museum-one/' } }, { nombre: 'Sin página', urls: {} }],
+    hubs: [{ nombre: 'Zonas arqueológicas', url: '/guias/zonas/' }],
+  });
+  assert.match(portada.cuerpo, /<h1>Xolotli: audioguías/);
+  assert.match(portada.cuerpo, /href="\/guias\/museo-uno\/"/);
+  assert.match(portada.cuerpo, /href="\/en\/guides\/museum-one\/" hreflang="en"/);
+  assert.match(portada.cuerpo, /Museo &lt;Uno&gt;/);
+  assert.doesNotMatch(portada.cuerpo, /Sin página/);
+  assert.equal(portada.itemList.itemListElement.length, 1);
+
+  const base = '<head><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"X"}]}</script></head><body><div id="root" class="a b">\n  </div><script src="/x.js"></script></body>';
+  const html = inyectarPortada(base, portada);
+  assert.match(html, /<div id="root" class="a b">\n<style>/);
+  assert.match(html, /"@type":"ItemList"/);
+  assert.match(html, /"@type":"WebSite"/);
+  assert.equal(inyectarPortada(base, portada).match(/"@type":"ItemList"/g).length, 1);
+  assert.equal(inyectarPortada('<div id="root">ya tiene algo</div>', portada), null);
+});

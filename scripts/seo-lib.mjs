@@ -913,3 +913,75 @@ export function ofertaDigital(price, priceCurrency, url, lang = 'es') {
     },
   };
 }
+
+// ───────────── Portada (/) con texto en el HTML ─────────────
+// La portada es la app (React): sin JavaScript llegaba con el cuerpo vacío, y los buscadores y los asistentes de IA que
+// leen la dirección sin ejecutar JavaScript no veían nada ni encontraban los enlaces a las guías. Este texto va dentro de
+// <div id="root">: React lo reemplaza al arrancar, así que a la persona no le cambia nada.
+
+const ETIQUETAS_IDIOMA = { es: 'Español', en: 'English', fr: 'Français', pl: 'Polski', de: 'Deutsch', pt: 'Português', it: 'Italiano' };
+
+/**
+ * sitios: [{ nombre, lugar, lead, mxn, urls: { es: '/guias/…/', en: '/en/guides/…/' } }]  (solo sitios publicados, en el orden de la portada)
+ * hubs: [{ nombre, url }]  (páginas agrupadas en español)
+ */
+export function armarPortadaEstatica({ sitios = [], hubs = [], idiomas = IDIOMAS } = {}) {
+  const lista = sitios
+    .filter((s) => s.urls?.es)
+    .map((s) => `<li><strong><a href="${esc(s.urls.es)}">${esc(s.nombre)}</a></strong>${lleno(s.lugar) ? ` <span>${esc(s.lugar)}</span>` : ''}${lleno(s.lead) ? `<br>${esc(recortar(s.lead, 170))}` : ''}${s.mxn ? `<br><small>Pase de 30 días: MX$${esc(s.mxn)}</small>` : ''}</li>`)
+    .join('\n');
+  const otrosIdiomas = idiomas
+    .filter((l) => l !== 'es')
+    .map((l) => {
+      const enlaces = sitios.filter((s) => s.urls?.[l]).map((s) => `<a href="${esc(s.urls[l])}" hreflang="${l}" lang="${l}">${esc(s.nombres?.[l] || s.nombre)}</a>`);
+      return enlaces.length ? `<li><strong>${esc(ETIQUETAS_IDIOMA[l] || l)}:</strong> ${enlaces.join(' · ')}</li>` : '';
+    })
+    .filter(Boolean)
+    .join('\n');
+  const temas = hubs.length ? `<h2>Guías por tema</h2>\n<ul>\n${hubs.map((h) => `<li><a href="${esc(h.url)}">${esc(h.nombre)}</a></li>`).join('\n')}\n</ul>\n` : '';
+  const cuerpo = `<style>.portada-estatica{font:17px/1.6 system-ui,sans-serif;max-width:46rem;margin:0 auto;padding:1.5rem;color:#1c1917}.portada-estatica h1{font-size:1.8rem;line-height:1.2}.portada-estatica h2{font-size:1.2rem;margin:1.8rem 0 .4rem}.portada-estatica li{margin:.5rem 0}.portada-estatica a{color:#9d174d}.portada-estatica small,.portada-estatica span{color:#57534e}</style>
+<main class="portada-estatica">
+<h1>Xolotli: audioguías de museos y zonas arqueológicas de México</h1>
+<p>Escucha la historia frente a lo que estás viendo. Sin grupo, sin señal, en 7 idiomas: español, inglés, francés, polaco, alemán, portugués e italiano. Las guías funcionan en el celular y, una vez descargadas, sin internet.</p>
+<p>Por tiempo limitado, todos los recorridos son gratis.</p>
+<h2>Guías por sitio</h2>
+<ul>
+${lista}
+</ul>
+${temas}<h2>Cómo funciona</h2>
+<ol>
+<li>Entra al museo o al sitio y elige una sala o una zona, o sigue un recorrido ya armado.</li>
+<li>En cada parada, escucha su historia.</li>
+<li>Con el pase de 30 días escuchas todo el sitio que elijas, en hasta 2 teléfonos.</li>
+</ol>
+${otrosIdiomas ? `<h2>Guides in other languages</h2>\n<ul>\n${otrosIdiomas}\n</ul>\n` : ''}<p><a href="/terminos/es/">Términos y reembolsos</a> · <a href="/privacidad/es/">Privacidad</a> · <a href="/llms.txt">llms.txt</a></p>
+</main>`;
+  const itemList = {
+    '@type': 'ItemList',
+    '@id': `${DOMINIO}/#guias`,
+    name: 'Guías de Xolotli por sitio',
+    itemListElement: sitios.filter((s) => s.urls?.es).map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: s.nombre, url: `${DOMINIO}${s.urls.es}` })),
+  };
+  return { cuerpo, itemList };
+}
+
+/**
+ * Mete la portada con texto dentro de <div id="root"> del index.html compilado y añade la lista de guías al JSON-LD.
+ * Si no encuentra el <div id="root"> vacío devuelve null (el que llama avisa y deja el archivo como estaba).
+ */
+export function inyectarPortada(indexHtml, { cuerpo, itemList }) {
+  const raiz = /(<div id="root"[^>]*>)\s*(<\/div>)/;
+  if (!raiz.test(indexHtml)) return null;
+  let html = indexHtml.replace(raiz, (_, a, b) => `${a}\n${cuerpo}\n${b}`);
+  html = html.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/, (todo, json) => {
+    try {
+      const datos = JSON.parse(json);
+      const grafo = Array.isArray(datos['@graph']) ? datos['@graph'] : [datos];
+      if (!grafo.some((x) => x['@type'] === 'ItemList')) grafo.push(itemList);
+      return `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': grafo }).replace(/</g, '\\u003c')}</script>`;
+    } catch {
+      return todo;
+    }
+  });
+  return html;
+}
