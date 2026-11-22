@@ -132,6 +132,17 @@ test('/checkout: inglés usa el precio en dólares; sin precio en dólares usa p
   assert.equal(new URLSearchParams(stripeCalls[0].body).get('line_items[0][price]'), 'price_mxn_1');
 });
 
+test('/checkout: la moneda elegida manda sobre el idioma (español en dólares, inglés en pesos)', async () => {
+  await call('/checkout', { body: { siteId: 'mna', lang: 'es', currency: 'usd', deviceId: DEV1, returnUrl: `${ORIGIN}/audioguias-mexico/` } });
+  assert.equal(new URLSearchParams(stripeCalls[0].body).get('line_items[0][price]'), 'price_usd_1');
+  stripeCalls.length = 0;
+  await call('/checkout', { body: { siteId: 'mna', lang: 'en', currency: 'mxn', deviceId: DEV1, returnUrl: `${ORIGIN}/audioguias-mexico/` } });
+  assert.equal(new URLSearchParams(stripeCalls[0].body).get('line_items[0][price]'), 'price_mxn_1');
+  stripeCalls.length = 0;
+  await call('/checkout', { body: { siteId: 'mna', lang: 'es', currency: 'eur', deviceId: DEV1, returnUrl: `${ORIGIN}/audioguias-mexico/` } });
+  assert.equal(new URLSearchParams(stripeCalls[0].body).get('line_items[0][price]'), 'price_mxn_1');
+});
+
 test('el id del sitio llega como en sites.json ("MNA") y se acepta igual que "mna"', async () => {
   const r = await call('/checkout', { body: { siteId: 'MNA', lang: 'es', deviceId: DEV1, returnUrl: `${ORIGIN}/audioguias-mexico/` } });
   assert.equal(r.status, 200);

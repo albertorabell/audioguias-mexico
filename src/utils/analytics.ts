@@ -44,7 +44,15 @@ export type TrafficSource = 'app_instalada' | 'qr' | 'buscador' | 'redes' | 'otr
 export function classifySource(search: string, referrer: string, ownHost: string, standalone: boolean): TrafficSource {
   if (standalone) return 'app_instalada';
   const params = new URLSearchParams(search);
-  if (params.has('c') || params.has('qr') || params.has('utm_source')) return 'qr';
+  if (params.has('c') || params.has('qr')) return 'qr';
+  // Enlaces con etiqueta (utm_*): se clasifican por su medio o su origen, no como QR
+  const utm = `${params.get('utm_medium') || ''} ${params.get('utm_source') || ''}`.toLowerCase();
+  if (utm.trim()) {
+    if (/(social|instagram|facebook|tiktok|twitter|youtube|whatsapp|linkedin|reddit|pinterest)/.test(utm)) return 'redes';
+    if (/(organic|cpc|search|google|bing)/.test(utm)) return 'buscador';
+    if (/\bqr\b/.test(utm)) return 'qr';
+    return 'otro_sitio';
+  }
   if (!referrer) return 'directo';
   let host = '';
   try {
