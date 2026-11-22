@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { TERMS, TERMS_UPDATED } from '../src/i18n/terminos.js';
 import { PRIVACY } from '../src/i18n/privacidad.js';
-import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes, HUBS, armarHub, direccionHub, recortar } from './seo-lib.mjs';
+import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes, HUBS, armarHub, direccionHub, recortar, armarPortadaEstatica, inyectarPortada } from './seo-lib.mjs';
 
 const DIST = path.resolve(process.argv[2] || 'dist');
 const leer = (rel) => JSON.parse(fs.readFileSync(path.join(DIST, rel), 'utf-8'));
@@ -176,8 +176,32 @@ fs.writeFileSync(path.join(DIST, 'data/guias.json'), JSON.stringify(armarMapaGui
 console.log(`SEO: llms.txt (${llms.length} sitios) y data/guias.json`);
 console.log(`SEO: sitemap.xml con ${grupos.flat().length + 1} direcciones`);
 
-// Copia de la app para las direcciones /sitio/… (ver public/_redirects): la misma página, con otro nombre de archivo
+// Copia de la app para las direcciones /sitio/… (ver public/_redirects): la misma página, con otro nombre de archivo.
+// Se hace ANTES de ponerle texto a la portada, para que /sitio/… siga siendo la app vacía de siempre.
 if (existe('index.html')) {
   fs.copyFileSync(path.join(DIST, 'index.html'), path.join(DIST, 'app.html'));
   console.log('SEO: app.html (copia de index.html para /sitio/…)');
+
+  // Portada con texto y enlaces a las guías en el HTML (sin esto, quien no ejecuta JavaScript la ve vacía)
+  const orden = (o) => sitios.findIndex((s) => String(s.id).toUpperCase() === o.id);
+  const sitiosPortada = hechas
+    .filter((o) => !o.cfg.proximamente)
+    .sort((a, b) => orden(a) - orden(b))
+    .map((o) => ({
+      nombre: o.sitio.name,
+      nombres: Object.fromEntries(IDIOMAS.map((l) => [l, nombreEn(o, l)])),
+      lugar: o.sitio.location || '',
+      lead: String(o.sitio.description || '').trim(),
+      mxn: Number(o.sitio.pass_price_mxn ?? o.manifiesto.pass_price_mxn) || 0,
+      urls: Object.fromEntries(o.idiomas.map((l) => [l, direccion(o.cfg.slugs[l], l)])),
+    }));
+  const hubsPortada = Object.values(HUBS).filter((hub) => idiomasHub(hub).includes('es')).map((hub) => ({ nombre: hub.h1.es, url: direccionHub(hub, 'es') }));
+  const indexHtml = fs.readFileSync(path.join(DIST, 'index.html'), 'utf-8');
+  const conTexto = inyectarPortada(indexHtml, armarPortadaEstatica({ sitios: sitiosPortada, hubs: hubsPortada }));
+  if (conTexto) {
+    fs.writeFileSync(path.join(DIST, 'index.html'), conTexto);
+    console.log(`SEO: portada con texto y ${sitiosPortada.length} enlaces a guías`);
+  } else {
+    console.warn('SEO: AVISO: no encontré <div id="root"></div> vacío en index.html; la portada queda sin texto');
+  }
 }
