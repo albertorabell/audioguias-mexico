@@ -33,7 +33,7 @@ test('recorrido principal: el marcado; si no, el más corto', () => {
 test('página: título, descripción, dirección canónica, datos estructurados y botón a la app', () => {
   const { html, url, titulo, descripcion } = armarPagina({ sitio, manifiesto, salas, piezas, cfg: { ...cfg, slugs: { es: 'museo-nacional-de-antropologia' } }, portada: '/images/pieces/a.webp' });
   assert.equal(url, 'https://xolotli.com/guias/museo-nacional-de-antropologia/');
-  assert.match(titulo, /Museo Nacional de Antropología: qué ver, cómo llegar y audioguía/);
+  assert.match(titulo, /Museo Nacional de Antropología: audioguía y qué ver/);
   assert.ok(descripcion.length <= 160);
   assert.ok(html.includes('<link rel="canonical" href="https://xolotli.com/guias/museo-nacional-de-antropologia/">'));
   assert.ok(html.includes('href="/sitio/mna?idioma=es"'));
@@ -197,16 +197,16 @@ test('precio: oferta en datos estructurados y «30 días» en el texto (ya no 72
   const ld = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
   const prod = ld['@graph'].find((x) => x['@type'] === 'Product');
   assert.deepEqual(prod.offers.map((o) => [o.price, o.priceCurrency]), [[99, 'MXN'], [7, 'USD']]);
-  assert.ok(html.includes('Pase de 30 días por $99 MXN'));
+  assert.ok(html.includes('Acceso completo de 30 días por $99 MXN'));
   assert.ok(!html.includes('72'));
   const en = armarPagina({ sitio: { ...sitio, pass_price_usd: 7, name_en: 'Museum' }, manifiesto, salas, piezas, cfg, lang: 'en', idiomas: ['es', 'en'] }).html;
-  assert.ok(en.includes('30-day pass for US$7'));
+  assert.ok(en.includes('30-day full access for US$7'));
 });
 
 test('llms.txt: sitios, idiomas, paradas gratis y precio; nada de texto de pago', () => {
   const t = armarLlms([{ nombre: 'Museo', resumen: 'El recinto.', precio: 'MX$99 / US$7', paginas: { es: 'https://xolotli.com/guias/museo/', en: 'https://xolotli.com/en/guides/museum/' }, gratis: [{ titulo: 'Piedra del Sol', url: 'https://xolotli.com/guias/museo/piedra-del-sol/' }] }]);
   assert.ok(t.startsWith('# Xolotli'));
-  assert.ok(t.includes('- [Museo](https://xolotli.com/guias/museo/): El recinto. Pase de 30 días: MX$99 / US$7.'));
+  assert.ok(t.includes('- [Museo](https://xolotli.com/guias/museo/): El recinto. Acceso completo de 30 días: MX$99 / US$7.'));
   assert.ok(t.includes('[en](https://xolotli.com/en/guides/museum/)'));
   assert.ok(t.includes('[Piedra del Sol](https://xolotli.com/guias/museo/piedra-del-sol/)'));
   assert.ok(t.includes('sitemap.xml'));
@@ -288,4 +288,19 @@ test('portada con texto: enlaces a las guías, otros idiomas y JSON-LD con la li
   assert.match(html, /"@type":"WebSite"/);
   assert.equal(inyectarPortada(base, portada).match(/"@type":"ItemList"/g).length, 1);
   assert.equal(inyectarPortada('<div id="root">ya tiene algo</div>', portada), null);
+});
+
+test('portadas por idioma: título, hreflang recíproco con x-default, lista de guías y aviso de entrada', async () => {
+  const { armarPortadaIdioma, hreflangPortadas } = await import('../seo-lib.mjs');
+  const sitios = [{ nombre: 'Museo Uno', nombres: { en: 'Museum One' }, lugar: 'CDMX', lead: 'x', leads: { en: 'The museum.' }, mxn: 99, usd: 7, urls: { es: '/guias/museo-uno/', en: '/en/guides/museum-one/' } }];
+  const r = armarPortadaIdioma({ lang: 'en', sitios, hubs: [], idiomas: ['es', 'en', 'fr'] });
+  assert.equal(r.url, 'https://xolotli.com/en/');
+  assert.ok(r.titulo.length <= 60);
+  assert.ok(r.descripcion.length <= 160);
+  assert.ok(r.html.includes('href="/en/guides/museum-one/"'));
+  assert.ok(r.html.includes('30-day full access: US$7'));
+  assert.ok(r.html.includes('Admission to the site is not included.'));
+  assert.ok(r.html.includes('hreflang="x-default" href="https://xolotli.com/"'));
+  assert.ok(r.html.includes('hreflang="fr" href="https://xolotli.com/fr/"'));
+  assert.ok(hreflangPortadas(['es', 'en']).includes('hreflang="es" href="https://xolotli.com/"'));
 });
