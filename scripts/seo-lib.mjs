@@ -942,7 +942,8 @@ const PORTADA = {
   es: {
     titulo: 'Xolotli: audioguías de museos y zonas arqueológicas de México',
     desc: 'Audioguías en tu celular para el Museo Nacional de Antropología, Teotihuacán, Chichén Itzá y más. Recorridos, mapas y modo sin internet.',
-    lead: 'Escucha la historia frente a lo que estás viendo. Sin grupo, sin señal, en 7 idiomas: español, inglés, francés, polaco, alemán, portugués e italiano. Las guías funcionan en el celular y, una vez descargadas, sin internet.',
+    lead: "Descubre museos, ciudades y zonas arqueológicas con audioguías que te cuentan lo que estás viendo, a tu ritmo y sin depender de un grupo.",
+    ben: [["Más de 400 paradas explicadas por expertos", "Desde la Piedra del Sol hasta las pirámides de Teotihuacán y Chichén Itzá."], ["Tú decides el recorrido", "Elige una sala o una zona, o sigue una ruta ya armada. Pausa, salta o repite cuando quieras."], ["Funciona sin internet", "Descarga la guía antes de entrar y escúchala aunque no haya señal."], ["En 7 idiomas", "Español, inglés, francés, alemán, italiano, portugués y polaco."]],
     gratis: 'Por tiempo limitado, todos los recorridos son gratis.',
     guias: 'Guías por sitio', temas: 'Guías por tema', otros: 'Otros idiomas', como: 'Cómo funciona',
     pasos: ['Entra al museo o al sitio y elige una sala o una zona, o sigue un recorrido ya armado.', 'En cada parada, escucha su historia.', 'Con el acceso completo de 30 días escuchas todo el sitio que elijas, en hasta 2 teléfonos.'],
@@ -952,7 +953,8 @@ const PORTADA = {
   en: {
     titulo: 'Xolotli: audio guides for museums and ruins in Mexico',
     desc: 'Audio guides on your phone for the National Museum of Anthropology, Teotihuacan, Chichen Itza and more. Tours, maps and offline mode in 7 languages.',
-    lead: 'Listen to the story right in front of what you are seeing. No group, no signal needed, in 7 languages: Spanish, English, French, Polish, German, Portuguese and Italian. The guides work on your phone and, once downloaded, offline.',
+    lead: "Discover museums, cities and archaeological sites with audio guides that tell you about what you are looking at, at your own pace and without depending on a group.",
+    ben: [["More than 400 stops explained by experts", "From the Sun Stone to the pyramids of Teotihuacan and Chichen Itza."], ["You choose the route", "Pick a room or a zone, or follow a ready-made tour. Pause, skip or replay whenever you like."], ["Works without internet", "Download the guide before you go in and listen even with no signal."], ["In 7 languages", "Spanish, English, French, German, Italian, Portuguese and Polish."]],
     gratis: 'For a limited time, all tours are free.',
     guias: 'Guides by site', temas: 'Guides by theme', otros: 'Other languages', como: 'How it works',
     pasos: ['Enter the museum or site and pick a room or zone, or follow a ready-made tour.', 'At each stop, listen to its story.', 'With the 30-day full access you listen to the whole site you choose, on up to 2 phones.'],
@@ -962,7 +964,8 @@ const PORTADA = {
   fr: {
     titulo: 'Xolotli : audioguides pour musées et sites du Mexique',
     desc: 'Audioguides sur votre téléphone pour le Musée national d’anthropologie, Teotihuacan, Chichén Itzá et plus. Parcours, cartes et mode hors ligne en 7 langues.',
-    lead: 'Écoutez l’histoire face à ce que vous voyez. Sans groupe, sans réseau, en 7 langues : espagnol, anglais, français, polonais, allemand, portugais et italien. Les guides fonctionnent sur votre téléphone et, une fois téléchargés, hors ligne.',
+    lead: "Découvrez musées, villes et sites archéologiques avec des audioguides qui vous racontent ce que vous voyez, à votre rythme, sans dépendre d’un groupe.",
+    ben: [["Plus de 400 étapes expliquées par des experts", "De la Pierre du Soleil aux pyramides de Teotihuacan et de Chichén Itzá."], ["Vous choisissez le parcours", "Choisissez une salle ou une zone, ou suivez un parcours tout prêt. Pause, saut ou répétition à volonté."], ["Fonctionne sans internet", "Téléchargez le guide avant d’entrer et écoutez-le même sans réseau."], ["En 7 langues", "Espagnol, anglais, français, allemand, italien, portugais et polonais."]],
     gratis: 'Pour une durée limitée, tous les parcours sont gratuits.',
     guias: 'Guides par site', temas: 'Guides par thème', otros: 'Autres langues', como: 'Comment ça marche',
     pasos: ['Entrez dans le musée ou sur le site et choisissez une salle ou une zone, ou suivez un parcours tout prêt.', 'À chaque étape, écoutez son histoire.', 'Avec l’accès complet de 30 jours, vous écoutez tout le site de votre choix, sur 2 téléphones maximum.'],
@@ -972,7 +975,8 @@ const PORTADA = {
   pl: {
     titulo: 'Xolotli: audioprzewodniki po muzeach i stanowiskach Meksyku',
     desc: 'Audioprzewodniki w telefonie: Narodowe Muzeum Antropologii, Teotihuacan, Chichén Itzá i więcej. Trasy, mapy i tryb offline w 7 językach.',
-    lead: 'Słuchaj historii dokładnie przed tym, co oglądasz. Bez grupy i bez zasięgu, w 7 językach: hiszpańskim, angielskim, francuskim, polskim, niemieckim, portugalskim i włoskim. Przewodniki działają w telefonie, a po pobraniu także bez internetu.',
+    lead: "Odkrywaj muzea, miasta i stanowiska archeologiczne z audioprzewodnikami, które opowiadają o tym, co widzisz – w twoim tempie i bez grupy.",
+    ben: [["Ponad 400 przystanków objaśnionych przez ekspertów", "Od Kamienia Słońca po piramidy Teotihuacan i Chichén Itzá."], ["Ty wybierasz trasę", "Wybierz salę lub strefę albo gotową trasę. Zatrzymaj, pomiń lub powtórz, kiedy chcesz."], ["Działa bez internetu", "Pobierz przewodnik przed wejściem i słuchaj nawet bez zasięgu."], ["W 7 językach", "Hiszpański, angielski, francuski, niemiecki, włoski, portugalski i polski."]],
     gratis: 'Przez ograniczony czas wszystkie trasy są bezpłatne.',
     guias: 'Przewodniki według miejsc', temas: 'Przewodniki tematyczne', otros: 'Inne języki', como: 'Jak to działa',
     pasos: ['Wejdź do muzeum lub na stanowisko i wybierz salę lub strefę albo gotową trasę.', 'Przy każdym przystanku posłuchaj jego historii.', 'Z pełnym dostępem na 30 dni słuchasz całego wybranego miejsca na maksymalnie 2 telefonach.'],
@@ -982,7 +986,8 @@ const PORTADA = {
   de: {
     titulo: 'Xolotli: Audioguides für Museen und Ruinen in Mexiko',
     desc: 'Audioguides auf dem Handy für das Nationale Anthropologiemuseum, Teotihuacan, Chichén Itzá und mehr. Touren, Karten und Offline-Modus in 7 Sprachen.',
-    lead: 'Hör die Geschichte genau dort, wo du sie siehst. Ohne Gruppe, ohne Empfang, in 7 Sprachen: Spanisch, Englisch, Französisch, Polnisch, Deutsch, Portugiesisch und Italienisch. Die Guides laufen auf deinem Handy und nach dem Download auch offline.',
+    lead: "Entdecke Museen, Städte und archäologische Stätten mit Audioguides, die dir erzählen, was du gerade siehst – in deinem Tempo und ohne Gruppe.",
+    ben: [["Mehr als 400 Stationen, von Experten erklärt", "Vom Sonnenstein bis zu den Pyramiden von Teotihuacan und Chichén Itzá."], ["Du bestimmst die Route", "Wähle einen Raum oder Bereich oder folge einer fertigen Tour. Pausieren, überspringen oder wiederholen, wann du willst."], ["Funktioniert ohne Internet", "Lade den Guide vor dem Eintritt herunter und hör ihn auch ohne Empfang."], ["In 7 Sprachen", "Spanisch, Englisch, Französisch, Deutsch, Italienisch, Portugiesisch und Polnisch."]],
     gratis: 'Für begrenzte Zeit sind alle Touren kostenlos.',
     guias: 'Guides nach Ort', temas: 'Guides nach Thema', otros: 'Andere Sprachen', como: 'So funktioniert es',
     pasos: ['Betritt das Museum oder die Stätte und wähle einen Raum oder Bereich oder folge einer fertigen Tour.', 'Hör dir an jeder Station ihre Geschichte an.', 'Mit dem 30-Tage-Vollzugang hörst du die gesamte gewählte Stätte, auf bis zu 2 Handys.'],
@@ -992,7 +997,8 @@ const PORTADA = {
   pt: {
     titulo: 'Xolotli: audioguias de museus e sítios arqueológicos do México',
     desc: 'Audioguias no celular para o Museu Nacional de Antropologia, Teotihuacán, Chichén Itzá e mais. Roteiros, mapas e modo offline em 7 idiomas.',
-    lead: 'Ouça a história diante do que você está vendo. Sem grupo, sem sinal, em 7 idiomas: espanhol, inglês, francês, polonês, alemão, português e italiano. Os guias funcionam no celular e, depois de baixados, sem internet.',
+    lead: "Descubra museus, cidades e sítios arqueológicos com audioguias que contam o que você está vendo, no seu ritmo e sem depender de um grupo.",
+    ben: [["Mais de 400 paradas explicadas por especialistas", "Da Pedra do Sol às pirâmides de Teotihuacán e Chichén Itzá."], ["Você escolhe o roteiro", "Escolha uma sala ou uma zona, ou siga um roteiro pronto. Pause, pule ou repita quando quiser."], ["Funciona sem internet", "Baixe o guia antes de entrar e ouça mesmo sem sinal."], ["Em 7 idiomas", "Espanhol, inglês, francês, alemão, italiano, português e polonês."]],
     gratis: 'Por tempo limitado, todos os roteiros são gratuitos.',
     guias: 'Guias por local', temas: 'Guias por tema', otros: 'Outros idiomas', como: 'Como funciona',
     pasos: ['Entre no museu ou no sítio e escolha uma sala ou uma zona, ou siga um roteiro pronto.', 'Em cada parada, ouça a sua história.', 'Com o acesso completo de 30 dias você ouve todo o local que escolher, em até 2 celulares.'],
@@ -1002,7 +1008,8 @@ const PORTADA = {
   it: {
     titulo: 'Xolotli: audioguide per musei e siti archeologici del Messico',
     desc: 'Audioguide sul cellulare per il Museo Nazionale di Antropologia, Teotihuacan, Chichén Itzá e altro. Percorsi, mappe e modalità offline in 7 lingue.',
-    lead: 'Ascolta la storia davanti a ciò che stai guardando. Senza gruppo, senza rete, in 7 lingue: spagnolo, inglese, francese, polacco, tedesco, portoghese e italiano. Le guide funzionano sul cellulare e, una volta scaricate, anche offline.',
+    lead: "Scopri musei, città e siti archeologici con audioguide che ti raccontano ciò che stai guardando, con i tuoi tempi e senza dipendere da un gruppo.",
+    ben: [["Oltre 400 tappe spiegate da esperti", "Dalla Pietra del Sole alle piramidi di Teotihuacan e Chichén Itzá."], ["Scegli tu il percorso", "Scegli una sala o una zona, o segui un percorso già pronto. Pausa, salta o ripeti quando vuoi."], ["Funziona senza internet", "Scarica la guida prima di entrare e ascoltala anche senza rete."], ["In 7 lingue", "Spagnolo, inglese, francese, tedesco, italiano, portoghese e polacco."]],
     gratis: 'Per un periodo limitato, tutti i percorsi sono gratuiti.',
     guias: 'Guide per luogo', temas: 'Guide per tema', otros: 'Altre lingue', como: 'Come funziona',
     pasos: ['Entra nel museo o nel sito e scegli una sala o una zona, oppure segui un percorso già pronto.', 'A ogni tappa, ascolta la sua storia.', 'Con l’accesso completo di 30 giorni ascolti tutto il sito che scegli, su 2 telefoni al massimo.'],
@@ -1052,6 +1059,9 @@ function contenidoPortada({ lang, sitios, hubs, idiomas }) {
       : '';
   return `<h1>${esc(t.titulo)}</h1>
 <p>${esc(t.lead)}</p>
+<ul>
+${t.ben.map(([a, b]) => `<li><strong>${esc(a)}.</strong> ${esc(b)}</li>`).join('\n')}
+</ul>
 ${PROMO_GRATIS ? `<p>${esc(t.gratis)}</p>\n` : ''}<p><a href="/?idioma=${lang}">${esc(t.cta)}</a></p>
 <h2>${esc(t.guias)}</h2>
 <ul>
