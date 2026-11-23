@@ -425,6 +425,8 @@ class TTSPlayer {
       lang?: SupportedLanguage;
       /** Uso interno: pide el MP3 sin CORS (si el servidor de audio no reconoce el origen de la página, el audio igual suena). */
       noCors?: boolean;
+      /** Empezar el MP3 en este segundo (continuar donde se quedó). */
+      startAt?: number;
     }
   ): void {
     // Los enlaces entre piezas ([texto](piece_id)) nunca se leen en voz alta: solo el texto visible
@@ -469,6 +471,13 @@ class TTSPlayer {
         audio.playbackRate = this.playbackRate;
 
         audio.onloadedmetadata = () => {
+          if (meta?.startAt && meta.startAt > 0 && audio.duration > meta.startAt) {
+            try {
+              audio.currentTime = meta.startAt;
+            } catch {
+              // el navegador no deja saltar todavía: empieza desde el principio
+            }
+          }
           if (audio.duration && !isNaN(audio.duration) && isFinite(audio.duration)) {
             this.estimatedDuration = audio.duration;
             this.notify();
