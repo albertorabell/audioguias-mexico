@@ -13,6 +13,7 @@ class FakeKV {
   constructor() { this.m = new Map(); }
   async get(k) { return this.m.has(k) ? this.m.get(k) : null; }
   async put(k, v, opts) { this.m.set(k, v); this.lastTtl = opts?.expirationTtl; }
+  async delete(k) { this.m.delete(k); }
   async list({ prefix = '' } = {}) { return { keys: [...this.m.keys()].filter((k) => k.startsWith(prefix)).map((name) => ({ name })), list_complete: true }; }
 }
 
@@ -76,6 +77,7 @@ beforeEach(() => {
       };
       return ok({ data: PROMOS[code] ? [PROMOS[code]] : [] });
     }
+    if (u.endsWith('/v1/coupons') && init.method === 'POST') return ok({ id: 'coupon_aliado_1' });
     const p = u.match(/\/v1\/prices\/(.+)$/);
     if (p) return ok(p[1] === 'price_mxn_1' ? { unit_amount: 7900, currency: 'mxn' } : { unit_amount: 499, currency: 'usd' });
     throw new Error('llamada inesperada: ' + u);
@@ -930,4 +932,50 @@ test('/recuperar: manda el código al correo de la compra, libera los teléfonos
   const other = await call('/recuperar', { body: { email: 'otro@correo.mx' } });
   assert.deepEqual(await other.json(), { ok: true });
   assert.equal(sent.length, 1);
+});
+
+test('aliados: se publican, /aliado no muestra la comisión y el checkout aplica el descuento del hotel', async () => {
+  env.CODES_KEY = 'clave-de-codigos';
+  env.STATS_KEY = 'clave-de-stats';
+  const auth = { Authorization: 'Bearer clave-de-codigos' };
+  let r = await call('/admin/aliados', { headers: { Authorization: 'Bearer mala' }, body: { aliados: [] } });
+  assert.equal(r.status, 401);
+  r = await call('/admin/aliados', { headers: auth, body: { aliados: [{ slug: 'presidente', nombre: 'Hotel Presidente', off: 15, com: 10 }, { slug: 'Mal Slug', off: 10, com: 10 }, { slug: 'apagado', nombre: 'X', off: 5, com: 5, active: false }] } });
+  assert.deepEqual(await r.json(), { saved: 2, removed: 0, rejected: ['mal slug'] });
+  r = await call('/aliado?slug=presidente', { method: 'GET' });
+  assert.deepEqual(await r.json(), { slug: 'presidente', nombre: 'Hotel Presidente', percentOff: 15 });
+  assert.equal((await call('/aliado?slug=apagado', { method: 'GET' })).status, 404);
+  assert.equal((await call('/aliado?slug=nadie', { method: 'GET' })).status, 404);
+  stripeCalls.length = 0;
+  r = await call('/checkout', { body: { siteId: 'mna', lang: 'es', deviceId: DEV1, aliado: 'presidente', returnUrl: `${ORIGIN}/audioguias-mexico/` } });
+  assert.equal(r.status, 200);
+  const coupon = stripeCalls.find((c) => c.url.endsWith('/v1/coupons'));
+  assert.equal(new URLSearchParams(coupon.body).get('percent_off'), '15');
+  const sess = new URLSearchParams(stripeCalls.find((c) => c.url.endsWith('/v1/checkout/sessions')).body);
+  assert.equal(sess.get('discounts[0][coupon]'), 'coupon_aliado_1');
+  assert.equal(sess.get('metadata[aliado]'), 'presidente');
+  // aliado apagado o inexistente: se avisa, no se cobra completo en silencio
+  r = await call('/checkout', { body: { siteId: 'mna', lang: 'es', deviceId: DEV1, aliado: 'apagado', returnUrl: `${ORIGIN}/audioguias-mexico/` } });
+  assert.equal(r.status, 404);
+  // al republicar sin el aliado, se borra
+  r = await call('/admin/aliados', { headers: auth, body: { aliados: [{ slug: 'presidente', nombre: 'Hotel Presidente', off: 20, com: 12 }] } });
+  assert.deepEqual(await r.json(), { saved: 1, removed: 1, rejected: [] });
+});
+
+test('aliados: la compra con enlace de hotel suma ventas y comisión en el reporte', async () => {
+  env.CODES_KEY = 'clave-de-codigos';
+  env.STATS_KEY = 'clave-de-stats';
+  await call('/admin/aliados', { headers: { Authorization: 'Bearer clave-de-codigos' }, body: { aliados: [{ slug: 'presidente', nombre: 'Hotel Presidente', off: 15, com: 10 }] } });
+  stripeSessions.cs_test_ALIADO1234567 = { id: 'cs_test_ALIADO1234567', payment_status: 'paid', created: Math.floor(Date.now() / 1000), currency: 'mxn', amount_total: 8500, metadata: { site_id: 'mna', aliado: 'presidente' } };
+  assert.equal((await call('/redeem', { body: { sessionId: 'cs_test_ALIADO1234567', deviceId: DEV1 } })).status, 200);
+  await call('/evento', { body: { e: 'ally_visit', k: 'presidente' } });
+  await call('/evento', { body: { e: 'ally_visit', k: 'presidente' } });
+  assert.equal((await call('/aliados/reporte', { method: 'GET', headers: { Authorization: 'Bearer mala' } })).status, 401);
+  const rep = await (await call('/aliados/reporte?dias=30', { method: 'GET', headers: { Authorization: 'Bearer clave-de-stats' } })).json();
+  const a = rep.aliados.find((x) => x.slug === 'presidente');
+  assert.equal(a.compras, 1);
+  assert.equal(a.visitas, 2);
+  assert.equal(a.ventas.mxn, 8500);
+  assert.equal(a.comision.mxn, 850);
+  assert.equal(a.com, 10);
 });

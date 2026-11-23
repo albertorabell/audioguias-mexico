@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { leerAcceso, leerCombos, construirPrecios, aplicarPreciosASites, manifiestoSitio } from '../sitios-extra-lib.mjs';
-import { leerCodigos } from '../publicar-codigos.mjs';
+import { leerCodigos, leerAliados } from '../publicar-codigos.mjs';
 
 test('leerAcceso entiende pago, gratis y código con o sin acentos', () => {
   for (const v of ['', 'pago', 'Pago', 'de pago']) assert.equal(leerAcceso(v), 'pago');
@@ -97,4 +97,21 @@ test('leerCodigos: normaliza, valida y avisa', () => {
   ]);
   assert.equal(avisos.length, 4);
   assert.deepEqual(leerCodigos([cab]), { codes: [], avisos: [] });
+});
+
+test('leerAliados: porcentajes con % o coma, slug limpio y avisos', () => {
+  const { aliados, avisos } = leerAliados([
+    ['slug', 'nombre', 'descuento', 'comision', 'activo', 'nota'],
+    ['Presidente', 'Hotel Presidente', '15%', '10', '', ''],
+    ['casa azul', 'Casa Azul', '10', '7,5', 'NO', ''],
+    ['presidente', 'Repetido', '5', '5', '', ''],
+    ['ñandú', 'Mal slug', '5', '5', '', ''],
+    ['caro', 'Descuento alto', '95', '5', '', ''],
+    ['', '', '', '', '', ''],
+  ]);
+  assert.deepEqual(aliados, [
+    { slug: 'presidente', nombre: 'Hotel Presidente', off: 15, com: 10, active: true },
+    { slug: 'casa-azul', nombre: 'Casa Azul', off: 10, com: 7.5, active: false },
+  ]);
+  assert.equal(avisos.length, 3);
 });
