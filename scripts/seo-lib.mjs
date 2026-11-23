@@ -126,6 +126,12 @@ export function recortar(texto, max = 155) {
   return t.slice(0, max - 1).replace(/\s+\S*$/, '') + '…';
 }
 
+/** De varias versiones (de la más completa a la más corta) elige la primera que cabe en `max` caracteres, SIN cortar frases. Si ninguna cabe, recorta la última. */
+export function elegirCompleta(variantes, max = 155) {
+  const limpias = variantes.map((v) => String(v || '').replace(/\s+/g, ' ').trim()).filter(Boolean);
+  return limpias.find((v) => v.length <= max) || recortar(limpias[limpias.length - 1] || '', max);
+}
+
 /** El recorrido de «qué ver»: el marcado como principal; si no hay, el más corto con paradas. */
 export function recorridoPrincipal(rutas) {
   const con = (rutas || []).filter((r) => r.stops?.length);
@@ -156,18 +162,19 @@ export function contar(lang, n, aireLibre) {
 
 const T = {
   es: {
-    titulo: (n) => `${n}: qué ver, cómo llegar y audioguía`,
+    titulo: (n) => `${n}: audioguía y qué ver`,
     h1: (n) => `${n}: audioguía para tu visita`,
     desc: (n, cuantas, rango, gratis) => `${n}: qué ver y cómo llegar. Audioguía en tu celular con ${cuantas} explicadas${rango ? `, recorridos de ${rango}` : ''}${gratis ? `, ${gratis} gratis para probar` : ''} y uso sin internet.`,
     pronto: 'Próximamente: esta audioguía estará disponible muy pronto.',
     gratisTitulo: (aire) => (aire ? 'Paradas para probar gratis' : 'Obras para probar gratis'),
     piezaTitulo: (p, n) => `${p}: historia y ubicación (${n})`,
+    piezaTituloCorto: (p) => `${p}: historia y ubicación`,
     ubic: (sala, n) => `Ubicación: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Escucha la audioguía completa de ${n}`,
     volver: (n) => `Ver la guía de ${n}`,
     piezaDesc: (p, n) => `${p} en ${n}: su historia, qué significa y dónde encontrarla. Texto gratuito de la audioguía.`,
     abrir: 'Abrir la audioguía',
-    precio: (p) => `Pase de 30 días por ${p}, sin suscripción. `,
+    precio: (p) => `Acceso completo de 30 días por ${p}, sin suscripción. La entrada al recinto no está incluida. `,
     gratis: (c) => `${c} para escuchar gratis, sin registro.`,
     sobre: (aire) => (aire ? 'Sobre el sitio' : 'Sobre el museo'),
     queVer: (n, art, ruta) => `Qué ver en ${[art, n].filter(Boolean).join(' ')}: ${ruta}`,
@@ -180,18 +187,19 @@ const T = {
     pie: 'audioguías en tu celular para museos y zonas arqueológicas de México. Funcionan sin internet una vez descargadas.',
   },
   en: {
-    titulo: (n) => `${n}: what to see, how to get there and audio guide`,
+    titulo: (n) => `${n}: audio guide and what to see`,
     h1: (n) => `${n}: audio guide for your visit`,
     desc: (n, cuantas, rango, gratis) => `${n}: what to see and how to get there. Audio guide on your phone with ${cuantas} explained${rango ? `, tours from ${rango}` : ''}${gratis ? `, ${gratis} free to try` : ''} and offline use.`,
     pronto: 'Coming soon: this audio guide will be available shortly.',
     gratisTitulo: (aire) => (aire ? 'Free stops to try' : 'Free works to try'),
     piezaTitulo: (p, n) => `${p}: history and location (${n})`,
+    piezaTituloCorto: (p) => `${p}: history and location`,
     ubic: (sala, n) => `Location: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Listen to the full audio guide for ${n}`,
     volver: (n) => `See the guide to ${n}`,
     piezaDesc: (p, n) => `${p} at ${n}: its story, what it means and where to find it. Free text from the audio guide.`,
     abrir: 'Open the audio guide',
-    precio: (p) => `30-day pass for ${p}, no subscription. `,
+    precio: (p) => `30-day full access for ${p}, no subscription. Admission to the site is not included. `,
     gratis: (c) => `${c} to listen to for free, no sign-up.`,
     sobre: (aire) => (aire ? 'About the site' : 'About the museum'),
     queVer: (n, art, ruta) => `What to see: ${ruta}`,
@@ -204,18 +212,19 @@ const T = {
     pie: 'audio guides on your phone for museums and archaeological sites in Mexico. They work offline once downloaded.',
   },
   fr: {
-    titulo: (n) => `${n} : que voir, comment s’y rendre et audioguide`,
+    titulo: (n) => `${n} : audioguide et visite`,
     h1: (n) => `${n} : l’audioguide pour votre visite`,
     desc: (n, cuantas, rango, gratis) => `${n} : que voir et comment s’y rendre. Audioguide sur votre téléphone avec ${cuantas} expliquées${rango ? `, parcours de ${rango}` : ''}${gratis ? `, ${gratis} gratuites à essayer` : ''} et utilisation hors ligne.`,
     pronto: 'Bientôt disponible : cet audioguide sera prêt très prochainement.',
     gratisTitulo: (aire) => (aire ? 'Étapes gratuites à essayer' : 'Œuvres gratuites à essayer'),
     piezaTitulo: (p, n) => `${p} : histoire et emplacement (${n})`,
+    piezaTituloCorto: (p) => `${p} : histoire et emplacement`,
     ubic: (sala, n) => `Emplacement : ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Écoutez l’audioguide complet de ${n}`,
     volver: (n) => `Voir le guide : ${n}`,
     piezaDesc: (p, n) => `${p} – ${n} : son histoire, sa signification et où la trouver. Texte gratuit de l’audioguide.`,
     abrir: 'Ouvrir l’audioguide',
-    precio: (p) => `Pass de 30 jours pour ${p}, sans abonnement. `,
+    precio: (p) => `Accès complet de 30 jours pour ${p}, sans abonnement. Le billet d’entrée du site n’est pas inclus. `,
     gratis: (c) => `${c} à écouter gratuitement, sans inscription.`,
     sobre: (aire) => (aire ? 'À propos du site' : 'À propos du musée'),
     queVer: (n, art, ruta) => `Que voir : ${ruta}`,
@@ -228,18 +237,19 @@ const T = {
     pie: 'audioguides sur votre téléphone pour les musées et sites archéologiques du Mexique. Ils fonctionnent hors ligne une fois téléchargés.',
   },
   pl: {
-    titulo: (n) => `${n}: co zobaczyć, jak dojechać i audioprzewodnik`,
+    titulo: (n) => `${n}: audioprzewodnik i zwiedzanie`,
     h1: (n) => `${n}: audioprzewodnik na Twoją wizytę`,
     desc: (n, cuantas, rango, gratis) => `${n}: co zobaczyć i jak dojechać. Audioprzewodnik w telefonie, ${cuantas} objaśnionych${rango ? `, trasy od ${rango}` : ''}${gratis ? `, ${gratis} za darmo na próbę` : ''} i działanie bez internetu.`,
     pronto: 'Wkrótce: ten audioprzewodnik będzie dostępny już niedługo.',
     gratisTitulo: (aire) => (aire ? 'Przystanki do wypróbowania za darmo' : 'Dzieła do wypróbowania za darmo'),
     piezaTitulo: (p, n) => `${p}: historia i lokalizacja (${n})`,
+    piezaTituloCorto: (p) => `${p}: historia i lokalizacja`,
     ubic: (sala, n) => `Lokalizacja: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Posłuchaj pełnego audioprzewodnika: ${n}`,
     volver: (n) => `Zobacz przewodnik: ${n}`,
     piezaDesc: (p, n) => `${p} – ${n}: historia, znaczenie i miejsce, gdzie ją znaleźć. Bezpłatny tekst z audioprzewodnika.`,
     abrir: 'Otwórz audioprzewodnik',
-    precio: (p) => `Karnet na 30 dni za ${p}, bez subskrypcji. `,
+    precio: (p) => `Pełny dostęp na 30 dni za ${p}, bez subskrypcji. Bilet wstępu na miejsce nie jest wliczony. `,
     gratis: (c) => `${c} do posłuchania za darmo, bez rejestracji.`,
     sobre: (aire) => (aire ? 'O stanowisku' : 'O muzeum'),
     queVer: (n, art, ruta) => `Co zobaczyć: ${ruta}`,
@@ -252,18 +262,19 @@ const T = {
     pie: 'audioprzewodniki w telefonie po muzeach i stanowiskach archeologicznych Meksyku. Po pobraniu działają bez internetu.',
   },
   de: {
-    titulo: (n) => `${n}: Sehenswertes, Anreise und Audioguide`,
+    titulo: (n) => `${n}: Audioguide und Rundgang`,
     h1: (n) => `${n}: Audioguide für deinen Besuch`,
     desc: (n, cuantas, rango, gratis) => `${n}: Sehenswertes und Anreise. Audioguide auf dem Handy, ${cuantas} erklärt${rango ? `, Touren von ${rango}` : ''}${gratis ? `, ${gratis} gratis zum Ausprobieren` : ''}, auch offline nutzbar.`,
     pronto: 'Demnächst: Dieser Audioguide ist bald verfügbar.',
     gratisTitulo: (aire) => (aire ? 'Gratis-Stopps zum Ausprobieren' : 'Gratis-Werke zum Ausprobieren'),
     piezaTitulo: (p, n) => `${p}: Geschichte und Standort (${n})`,
+    piezaTituloCorto: (p) => `${p}: Geschichte und Standort`,
     ubic: (sala, n) => `Standort: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Hör dir den vollständigen Audioguide an: ${n}`,
     volver: (n) => `Zum Führer: ${n}`,
     piezaDesc: (p, n) => `${p} – ${n}: Geschichte, Bedeutung und Fundort. Kostenloser Text aus dem Audioguide.`,
     abrir: 'Audioguide öffnen',
-    precio: (p) => `30-Tage-Pass für ${p}, ohne Abo. `,
+    precio: (p) => `30 Tage Vollzugang für ${p}, ohne Abo. Der Eintritt zur Stätte ist nicht enthalten. `,
     gratis: (c) => `${c} zum kostenlosen Anhören, ohne Anmeldung.`,
     sobre: (aire) => (aire ? 'Über den Ort' : 'Über das Museum'),
     queVer: (n, art, ruta) => `Was es zu sehen gibt: ${ruta}`,
@@ -276,18 +287,19 @@ const T = {
     pie: 'Audioguides auf dem Handy für Museen und archäologische Stätten in Mexiko. Nach dem Download funktionieren sie offline.',
   },
   pt: {
-    titulo: (n) => `${n}: o que ver, como chegar e audioguia`,
+    titulo: (n) => `${n}: audioguia e o que ver`,
     h1: (n) => `${n}: audioguia para a sua visita`,
     desc: (n, cuantas, rango, gratis) => `${n}: o que ver e como chegar. Audioguia no celular com ${cuantas} explicadas${rango ? `, roteiros de ${rango}` : ''}${gratis ? `, ${gratis} grátis para testar` : ''} e uso sem internet.`,
     pronto: 'Em breve: este audioguia estará disponível em pouco tempo.',
     gratisTitulo: (aire) => (aire ? 'Paradas grátis para testar' : 'Obras grátis para testar'),
     piezaTitulo: (p, n) => `${p}: história e localização (${n})`,
+    piezaTituloCorto: (p) => `${p}: história e localização`,
     ubic: (sala, n) => `Localização: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Ouça o audioguia completo de ${n}`,
     volver: (n) => `Ver o guia: ${n}`,
     piezaDesc: (p, n) => `${p} em ${n}: sua história, o que significa e onde encontrá-la. Texto gratuito do audioguia.`,
     abrir: 'Abrir o audioguia',
-    precio: (p) => `Passe de 30 dias por ${p}, sem assinatura. `,
+    precio: (p) => `Acesso completo por 30 dias por ${p}, sem assinatura. O ingresso do local não está incluído. `,
     gratis: (c) => `${c} para ouvir de graça, sem cadastro.`,
     sobre: (aire) => (aire ? 'Sobre o local' : 'Sobre o museu'),
     queVer: (n, art, ruta) => `O que ver: ${ruta}`,
@@ -300,18 +312,19 @@ const T = {
     pie: 'audioguias no celular para museus e sítios arqueológicos do México. Funcionam sem internet depois de baixados.',
   },
   it: {
-    titulo: (n) => `${n}: cosa vedere, come arrivare e audioguida`,
+    titulo: (n) => `${n}: audioguida e cosa vedere`,
     h1: (n) => `${n}: l’audioguida per la tua visita`,
     desc: (n, cuantas, rango, gratis) => `${n}: cosa vedere e come arrivare. Audioguida sul tuo cellulare con ${cuantas} spiegate${rango ? `, percorsi da ${rango}` : ''}${gratis ? `, ${gratis} gratis da provare` : ''} e uso senza internet.`,
     pronto: 'Prossimamente: questa audioguida sarà disponibile a breve.',
     gratisTitulo: (aire) => (aire ? 'Tappe gratuite da provare' : 'Opere gratuite da provare'),
     piezaTitulo: (p, n) => `${p}: storia e posizione (${n})`,
+    piezaTituloCorto: (p) => `${p}: storia e posizione`,
     ubic: (sala, n) => `Posizione: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Ascolta l’audioguida completa di ${n}`,
     volver: (n) => `Vai alla guida: ${n}`,
     piezaDesc: (p, n) => `${p} – ${n}: la sua storia, cosa significa e dove trovarla. Testo gratuito dell’audioguida.`,
     abrir: 'Apri l’audioguida',
-    precio: (p) => `Pass di 30 giorni per ${p}, senza abbonamento. `,
+    precio: (p) => `Accesso completo di 30 giorni a ${p}, senza abbonamento. Il biglietto d’ingresso al sito non è incluso. `,
     gratis: (c) => `${c} da ascoltare gratis, senza registrazione.`,
     sobre: (aire) => (aire ? 'Sul luogo' : 'Sul museo'),
     queVer: (n, art, ruta) => `Cosa vedere: ${ruta}`,
@@ -491,7 +504,9 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
   const abrir = enApp(sitio.id, lang);
 
   const titulo = t.titulo(nombre);
-  const descripcion = recortar(t.desc(nombre, contar(lang, piezas.length, aireLibre), rango, gratis.length && !cfg.proximamente ? contar(lang, gratis.length, aireLibre) : ''));
+  const nPiezas = contar(lang, piezas.length, aireLibre);
+  const nGratis = gratis.length && !cfg.proximamente ? contar(lang, gratis.length, aireLibre) : '';
+  const descripcion = elegirCompleta([t.desc(nombre, nPiezas, rango, nGratis), t.desc(nombre, nPiezas, '', nGratis), t.desc(nombre, nPiezas, rango, ''), t.desc(nombre, nPiezas, '', '')]);
 
   const alternativas = idiomas.map((l) => ({ l, href: `${DOMINIO}${direccion(cfg.slugs[l], l)}` }));
   const hreflang = [...alternativas.map((a) => `<link rel="alternate" hreflang="${a.l}" href="${a.href}">`), `<link rel="alternate" hreflang="x-default" href="${alternativas.find((a) => a.l === 'es')?.href || url}">`].join('\n');
@@ -600,7 +615,7 @@ export function armarSitemap(paginas, fecha = new Date()) {
       ? grupo.map((g) => `\n    <xhtml:link rel="alternate" hreflang="${g.lang}" href="${esc(g.url)}"/>`).join('') +
         `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${esc((grupo.find((g) => g.lang === 'es') || grupo[0]).url)}"/>`
       : '';
-  const items = [`  <url><loc>${DOMINIO}/</loc><lastmod>${dia}</lastmod></url>`];
+  const items = paginas.some((g) => g.some((x) => x.url === `${DOMINIO}/`)) ? [] : [`  <url><loc>${DOMINIO}/</loc><lastmod>${dia}</lastmod></url>`];
   for (const grupo of paginas) {
     for (const g of grupo) items.push(`  <url><loc>${esc(g.url)}</loc><lastmod>${dia}</lastmod>${alt(grupo)}\n  </url>`);
   }
@@ -657,8 +672,8 @@ export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = nu
   const precio = moneda(lang, sitio, manifiesto);
   const abrir = enApp(sitio.id, lang, pieza.piece_id);
 
-  const titulo = t.piezaTitulo(nombrePieza, nombre);
-  const descripcion = recortar(gancho ? `${gancho} ${t.piezaDesc(nombrePieza, nombre)}` : t.piezaDesc(nombrePieza, nombre));
+  const titulo = elegirCompleta([t.piezaTitulo(nombrePieza, nombre), t.piezaTituloCorto(nombrePieza)], 62);
+  const descripcion = elegirCompleta([gancho ? `${gancho} ${t.piezaDesc(nombrePieza, nombre)}` : '', t.piezaDesc(nombrePieza, nombre)]);
 
   const alt = idiomas.map((l) => ({ l, href: `${DOMINIO}${direccionPieza(cfg, pieza, l)}` }));
   const hreflang = [...alt.map((a) => `<link rel="alternate" hreflang="${a.l}" href="${a.href}">`), `<link rel="alternate" hreflang="x-default" href="${alt.find((a) => a.l === 'es')?.href || url}">`].join('\n');
@@ -715,7 +730,7 @@ export function armarLlms(sitios) {
     const otros = Object.entries(x.paginas).filter(([l]) => l !== 'es').map(([l, u]) => `[${l}](${u})`);
     const gratis = (x.gratis || []).map((g) => `[${g.titulo}](${g.url})`);
     return [
-      `- [${x.nombre}](${x.paginas.es || Object.values(x.paginas)[0]})${x.resumen ? `: ${x.resumen}` : ''}${x.precio ? ` Pase de 30 días: ${x.precio}.` : ''}`,
+      `- [${x.nombre}](${x.paginas.es || Object.values(x.paginas)[0]})${x.resumen ? `: ${x.resumen}` : ''}${x.precio ? ` Acceso completo de 30 días: ${x.precio}.` : ''}`,
       otros.length ? `  - Otros idiomas: ${otros.join(' · ')}` : '',
       gratis.length ? `  - Texto gratuito de estas paradas: ${gratis.join(' · ')}` : '',
     ].filter(Boolean).join('\n');
@@ -732,7 +747,7 @@ ${sitios.map(linea).join('\n')}
 
 ## Cómo funciona
 
-- Cada sitio se vende como un pase de 30 días, sin suscripción; también hay pases que juntan varios sitios.
+- Cada sitio se vende como acceso completo de 30 días, sin suscripción (la entrada al recinto no está incluida); también hay pases que juntan varios sitios.
 - Cada sitio incluye paradas gratuitas para probar, sin registro.
 - Los recorridos sugeridos (de menos de una hora a varias horas) llevan al visitante parada por parada.
 - Sitemap: https://xolotli.com/sitemap.xml
@@ -809,7 +824,7 @@ export const HUBS = {
     sitios: ['CUERNAVACA_HISTORICA', 'XOCHICALCO', 'CHALCATZINGO'],
     slugs: por(['que-ver-en-morelos', 'what-to-see-in-morelos', 'que-voir-au-morelos', 'co-zobaczyc-w-morelos', 'sehenswuerdigkeiten-in-morelos', 'o-que-ver-em-morelos', 'cosa-vedere-a-morelos']),
     h1: por(['Qué ver en Morelos', 'What to see in Morelos', 'Que voir au Morelos', 'Co zobaczyć w Morelos', 'Sehenswürdigkeiten in Morelos', 'O que ver em Morelos', 'Cosa vedere a Morelos']),
-    titulo: por(['Qué ver en Morelos: Cuernavaca, Xochicalco y Chalcatzingo con audioguía', 'What to see in Morelos: Cuernavaca, Xochicalco and Chalcatzingo with audio guides', 'Que voir au Morelos : Cuernavaca, Xochicalco et Chalcatzingo en audioguide', 'Co zobaczyć w Morelos: Cuernavaca, Xochicalco i Chalcatzingo z audioprzewodnikiem', 'Sehenswürdigkeiten in Morelos: Cuernavaca, Xochicalco und Chalcatzingo mit Audioguide', 'O que ver em Morelos: Cuernavaca, Xochicalco e Chalcatzingo com audioguia', 'Cosa vedere a Morelos: Cuernavaca, Xochicalco e Chalcatzingo con audioguida']),
+    titulo: por(['Qué ver en Morelos: Cuernavaca, Xochicalco y Chalcatzingo', 'What to see in Morelos: Cuernavaca, Xochicalco and Chalcatzingo', 'Que voir au Morelos : Cuernavaca, Xochicalco et Chalcatzingo', 'Co zobaczyć w Morelos: Cuernavaca, Xochicalco i Chalcatzingo', 'Sehenswürdigkeiten in Morelos: Cuernavaca, Xochicalco, Chalcatzingo', 'O que ver em Morelos: Cuernavaca, Xochicalco e Chalcatzingo', 'Cosa vedere a Morelos: Cuernavaca, Xochicalco e Chalcatzingo']),
     lead: por([
       'Cuernavaca histórica, Xochicalco y Chalcatzingo: audioguías en tu celular para recorrer Morelos a pie, parada por parada y sin internet.',
       'Historic Cuernavaca, Xochicalco and Chalcatzingo: audio guides on your phone to explore Morelos on foot, stop by stop and offline.',
@@ -847,7 +862,7 @@ export function armarHub({ hub, lang, idiomas = [lang], entradas = [] }) {
   if (entradas.length < 2) return null;
   const url = `${DOMINIO}${direccionHub(hub, lang)}`;
   const titulo = hub.titulo[lang];
-  const descripcion = recortar(hub.lead[lang]);
+  const descripcion = elegirCompleta([hub.lead[lang]]);
   const alternativas = idiomas.map((l) => ({ l, href: `${DOMINIO}${direccionHub(hub, l)}` }));
   const hreflang = [...alternativas.map((a) => `<link rel="alternate" hreflang="${a.l}" href="${a.href}">`), `<link rel="alternate" hreflang="x-default" href="${alternativas.find((a) => a.l === 'es')?.href || url}">`].join('\n');
   const selector = idiomas.length > 1 ? `<nav class="idiomas" aria-label="Idioma">${alternativas.map((a) => (a.l === lang ? `<span aria-current="true">${a.l.toUpperCase()}</span>` : `<a href="${a.href}" hreflang="${a.l}" lang="${a.l}">${a.l.toUpperCase()}</a>`)).join('')}</nav>` : '';
@@ -914,62 +929,180 @@ export function ofertaDigital(price, priceCurrency, url, lang = 'es') {
   };
 }
 
-// ───────────── Portada (/) con texto en el HTML ─────────────
+// ───────────── Portadas (/ y /en/, /fr/…) con texto en el HTML ─────────────
 // La portada es la app (React): sin JavaScript llegaba con el cuerpo vacío, y los buscadores y los asistentes de IA que
-// leen la dirección sin ejecutar JavaScript no veían nada ni encontraban los enlaces a las guías. Este texto va dentro de
-// <div id="root">: React lo reemplaza al arrancar, así que a la persona no le cambia nada.
+// leen la dirección sin ejecutar JavaScript no veían nada ni encontraban los enlaces a las guías. «/» lleva este texto dentro
+// de <div id="root"> (React lo reemplaza al arrancar, así que a la persona no le cambia nada). Los otros idiomas son páginas
+// estáticas propias (/en/, /fr/, /pl/, /de/, /pt/, /it/) con su título, descripción y lista de guías, enlazadas entre sí con hreflang.
+
+/** Un solo interruptor: mientras todo sea gratis por tiempo limitado, las portadas lo dicen. Ponlo en false al empezar a cobrar. */
+export const PROMO_GRATIS = true;
+
+const PORTADA = {
+  es: {
+    titulo: 'Xolotli: audioguías de museos y zonas arqueológicas de México',
+    desc: 'Audioguías en tu celular para el Museo Nacional de Antropología, Teotihuacán, Chichén Itzá y más. Recorridos, mapas y modo sin internet.',
+    lead: "Descubre museos, ciudades y zonas arqueológicas con audioguías que te cuentan lo que estás viendo, a tu ritmo y sin depender de un grupo.",
+    ben: [["Más de 400 paradas explicadas por expertos", "Desde la Piedra del Sol hasta las pirámides de Teotihuacán y Chichén Itzá."], ["Tú decides el recorrido", "Elige una sala o una zona, o sigue una ruta ya armada. Pausa, salta o repite cuando quieras."], ["Funciona sin internet", "Descarga la guía antes de entrar y escúchala aunque no haya señal."], ["En 7 idiomas", "Español, inglés, francés, alemán, italiano, portugués y polaco."]],
+    gratis: 'Por tiempo limitado, todos los recorridos son gratis.',
+    guias: 'Guías por sitio', temas: 'Guías por tema', otros: 'Otros idiomas', como: 'Cómo funciona',
+    pasos: ['Entra al museo o al sitio y elige una sala o una zona, o sigue un recorrido ya armado.', 'En cada parada, escucha su historia.', 'Con el acceso completo de 30 días escuchas todo el sitio que elijas, en hasta 2 teléfonos.'],
+    cta: 'Abrir la app', acceso: (p) => `Acceso completo de 30 días: ${p}`, nota: 'La entrada al recinto no está incluida.',
+    terminos: 'Términos y reembolsos', privacidad: 'Privacidad',
+  },
+  en: {
+    titulo: 'Xolotli: audio guides for museums and ruins in Mexico',
+    desc: 'Audio guides on your phone for the National Museum of Anthropology, Teotihuacan, Chichen Itza and more. Tours, maps and offline mode in 7 languages.',
+    lead: "Discover museums, cities and archaeological sites with audio guides that tell you about what you are looking at, at your own pace and without depending on a group.",
+    ben: [["More than 400 stops explained by experts", "From the Sun Stone to the pyramids of Teotihuacan and Chichen Itza."], ["You choose the route", "Pick a room or a zone, or follow a ready-made tour. Pause, skip or replay whenever you like."], ["Works without internet", "Download the guide before you go in and listen even with no signal."], ["In 7 languages", "Spanish, English, French, German, Italian, Portuguese and Polish."]],
+    gratis: 'For a limited time, all tours are free.',
+    guias: 'Guides by site', temas: 'Guides by theme', otros: 'Other languages', como: 'How it works',
+    pasos: ['Enter the museum or site and pick a room or zone, or follow a ready-made tour.', 'At each stop, listen to its story.', 'With the 30-day full access you listen to the whole site you choose, on up to 2 phones.'],
+    cta: 'Open the app', acceso: (p) => `30-day full access: ${p}`, nota: 'Admission to the site is not included.',
+    terminos: 'Terms and refunds', privacidad: 'Privacy',
+  },
+  fr: {
+    titulo: 'Xolotli : audioguides pour musées et sites du Mexique',
+    desc: 'Audioguides sur votre téléphone pour le Musée national d’anthropologie, Teotihuacan, Chichén Itzá et plus. Parcours, cartes et mode hors ligne en 7 langues.',
+    lead: "Découvrez musées, villes et sites archéologiques avec des audioguides qui vous racontent ce que vous voyez, à votre rythme, sans dépendre d’un groupe.",
+    ben: [["Plus de 400 étapes expliquées par des experts", "De la Pierre du Soleil aux pyramides de Teotihuacan et de Chichén Itzá."], ["Vous choisissez le parcours", "Choisissez une salle ou une zone, ou suivez un parcours tout prêt. Pause, saut ou répétition à volonté."], ["Fonctionne sans internet", "Téléchargez le guide avant d’entrer et écoutez-le même sans réseau."], ["En 7 langues", "Espagnol, anglais, français, allemand, italien, portugais et polonais."]],
+    gratis: 'Pour une durée limitée, tous les parcours sont gratuits.',
+    guias: 'Guides par site', temas: 'Guides par thème', otros: 'Autres langues', como: 'Comment ça marche',
+    pasos: ['Entrez dans le musée ou sur le site et choisissez une salle ou une zone, ou suivez un parcours tout prêt.', 'À chaque étape, écoutez son histoire.', 'Avec l’accès complet de 30 jours, vous écoutez tout le site de votre choix, sur 2 téléphones maximum.'],
+    cta: 'Ouvrir l’application', acceso: (p) => `Accès complet de 30 jours : ${p}`, nota: 'Le billet d’entrée du site n’est pas inclus.',
+    terminos: 'Conditions et remboursements', privacidad: 'Confidentialité',
+  },
+  pl: {
+    titulo: 'Xolotli: audioprzewodniki po muzeach i stanowiskach Meksyku',
+    desc: 'Audioprzewodniki w telefonie: Narodowe Muzeum Antropologii, Teotihuacan, Chichén Itzá i więcej. Trasy, mapy i tryb offline w 7 językach.',
+    lead: "Odkrywaj muzea, miasta i stanowiska archeologiczne z audioprzewodnikami, które opowiadają o tym, co widzisz – w twoim tempie i bez grupy.",
+    ben: [["Ponad 400 przystanków objaśnionych przez ekspertów", "Od Kamienia Słońca po piramidy Teotihuacan i Chichén Itzá."], ["Ty wybierasz trasę", "Wybierz salę lub strefę albo gotową trasę. Zatrzymaj, pomiń lub powtórz, kiedy chcesz."], ["Działa bez internetu", "Pobierz przewodnik przed wejściem i słuchaj nawet bez zasięgu."], ["W 7 językach", "Hiszpański, angielski, francuski, niemiecki, włoski, portugalski i polski."]],
+    gratis: 'Przez ograniczony czas wszystkie trasy są bezpłatne.',
+    guias: 'Przewodniki według miejsc', temas: 'Przewodniki tematyczne', otros: 'Inne języki', como: 'Jak to działa',
+    pasos: ['Wejdź do muzeum lub na stanowisko i wybierz salę lub strefę albo gotową trasę.', 'Przy każdym przystanku posłuchaj jego historii.', 'Z pełnym dostępem na 30 dni słuchasz całego wybranego miejsca na maksymalnie 2 telefonach.'],
+    cta: 'Otwórz aplikację', acceso: (p) => `Pełny dostęp na 30 dni: ${p}`, nota: 'Bilet wstępu na miejsce nie jest wliczony.',
+    terminos: 'Regulamin i zwroty', privacidad: 'Prywatność',
+  },
+  de: {
+    titulo: 'Xolotli: Audioguides für Museen und Ruinen in Mexiko',
+    desc: 'Audioguides auf dem Handy für das Nationale Anthropologiemuseum, Teotihuacan, Chichén Itzá und mehr. Touren, Karten und Offline-Modus in 7 Sprachen.',
+    lead: "Entdecke Museen, Städte und archäologische Stätten mit Audioguides, die dir erzählen, was du gerade siehst – in deinem Tempo und ohne Gruppe.",
+    ben: [["Mehr als 400 Stationen, von Experten erklärt", "Vom Sonnenstein bis zu den Pyramiden von Teotihuacan und Chichén Itzá."], ["Du bestimmst die Route", "Wähle einen Raum oder Bereich oder folge einer fertigen Tour. Pausieren, überspringen oder wiederholen, wann du willst."], ["Funktioniert ohne Internet", "Lade den Guide vor dem Eintritt herunter und hör ihn auch ohne Empfang."], ["In 7 Sprachen", "Spanisch, Englisch, Französisch, Deutsch, Italienisch, Portugiesisch und Polnisch."]],
+    gratis: 'Für begrenzte Zeit sind alle Touren kostenlos.',
+    guias: 'Guides nach Ort', temas: 'Guides nach Thema', otros: 'Andere Sprachen', como: 'So funktioniert es',
+    pasos: ['Betritt das Museum oder die Stätte und wähle einen Raum oder Bereich oder folge einer fertigen Tour.', 'Hör dir an jeder Station ihre Geschichte an.', 'Mit dem 30-Tage-Vollzugang hörst du die gesamte gewählte Stätte, auf bis zu 2 Handys.'],
+    cta: 'App öffnen', acceso: (p) => `30 Tage Vollzugang: ${p}`, nota: 'Der Eintritt zur Stätte ist nicht enthalten.',
+    terminos: 'Bedingungen und Erstattungen', privacidad: 'Datenschutz',
+  },
+  pt: {
+    titulo: 'Xolotli: audioguias de museus e sítios arqueológicos do México',
+    desc: 'Audioguias no celular para o Museu Nacional de Antropologia, Teotihuacán, Chichén Itzá e mais. Roteiros, mapas e modo offline em 7 idiomas.',
+    lead: "Descubra museus, cidades e sítios arqueológicos com audioguias que contam o que você está vendo, no seu ritmo e sem depender de um grupo.",
+    ben: [["Mais de 400 paradas explicadas por especialistas", "Da Pedra do Sol às pirâmides de Teotihuacán e Chichén Itzá."], ["Você escolhe o roteiro", "Escolha uma sala ou uma zona, ou siga um roteiro pronto. Pause, pule ou repita quando quiser."], ["Funciona sem internet", "Baixe o guia antes de entrar e ouça mesmo sem sinal."], ["Em 7 idiomas", "Espanhol, inglês, francês, alemão, italiano, português e polonês."]],
+    gratis: 'Por tempo limitado, todos os roteiros são gratuitos.',
+    guias: 'Guias por local', temas: 'Guias por tema', otros: 'Outros idiomas', como: 'Como funciona',
+    pasos: ['Entre no museu ou no sítio e escolha uma sala ou uma zona, ou siga um roteiro pronto.', 'Em cada parada, ouça a sua história.', 'Com o acesso completo de 30 dias você ouve todo o local que escolher, em até 2 celulares.'],
+    cta: 'Abrir o aplicativo', acceso: (p) => `Acesso completo por 30 dias: ${p}`, nota: 'O ingresso do local não está incluído.',
+    terminos: 'Termos e reembolsos', privacidad: 'Privacidade',
+  },
+  it: {
+    titulo: 'Xolotli: audioguide per musei e siti archeologici del Messico',
+    desc: 'Audioguide sul cellulare per il Museo Nazionale di Antropologia, Teotihuacan, Chichén Itzá e altro. Percorsi, mappe e modalità offline in 7 lingue.',
+    lead: "Scopri musei, città e siti archeologici con audioguide che ti raccontano ciò che stai guardando, con i tuoi tempi e senza dipendere da un gruppo.",
+    ben: [["Oltre 400 tappe spiegate da esperti", "Dalla Pietra del Sole alle piramidi di Teotihuacan e Chichén Itzá."], ["Scegli tu il percorso", "Scegli una sala o una zona, o segui un percorso già pronto. Pausa, salta o ripeti quando vuoi."], ["Funziona senza internet", "Scarica la guida prima di entrare e ascoltala anche senza rete."], ["In 7 lingue", "Spagnolo, inglese, francese, tedesco, italiano, portoghese e polacco."]],
+    gratis: 'Per un periodo limitato, tutti i percorsi sono gratuiti.',
+    guias: 'Guide per luogo', temas: 'Guide per tema', otros: 'Altre lingue', como: 'Come funziona',
+    pasos: ['Entra nel museo o nel sito e scegli una sala o una zona, oppure segui un percorso già pronto.', 'A ogni tappa, ascolta la sua storia.', 'Con l’accesso completo di 30 giorni ascolti tutto il sito che scegli, su 2 telefoni al massimo.'],
+    cta: 'Apri l’app', acceso: (p) => `Accesso completo di 30 giorni: ${p}`, nota: 'Il biglietto d’ingresso al sito non è incluso.',
+    terminos: 'Termini e rimborsi', privacidad: 'Privacy',
+  },
+};
 
 const ETIQUETAS_IDIOMA = { es: 'Español', en: 'English', fr: 'Français', pl: 'Polski', de: 'Deutsch', pt: 'Português', it: 'Italiano' };
 
+/** Dirección de la portada de un idioma: «/» para español y «/en/», «/fr/»… para los demás. */
+export const direccionPortada = (lang) => (lang === 'es' ? '/' : `/${lang}/`);
+
+const precioDe = (s, lang) => {
+  const usd = Number(s.usd) || 0;
+  const mxn = Number(s.mxn) || 0;
+  if (lang !== 'es' && usd) return `US$${usd}`;
+  return mxn ? `MX$${mxn}` : '';
+};
+
 /**
- * sitios: [{ nombre, lugar, lead, mxn, urls: { es: '/guias/…/', en: '/en/guides/…/' } }]  (solo sitios publicados, en el orden de la portada)
- * hubs: [{ nombre, url }]  (páginas agrupadas en español)
+ * Lo que va dentro de la portada de un idioma (sin estilos). sitios: [{ nombre, nombres, lugar, lead, leads, mxn, usd, urls }]
+ * hubs: [{ nombre, url }] (páginas agrupadas en ESE idioma).
  */
-export function armarPortadaEstatica({ sitios = [], hubs = [], idiomas = IDIOMAS } = {}) {
-  const lista = sitios
-    .filter((s) => s.urls?.es)
-    .map((s) => `<li><strong><a href="${esc(s.urls.es)}">${esc(s.nombre)}</a></strong>${lleno(s.lugar) ? ` <span>${esc(s.lugar)}</span>` : ''}${lleno(s.lead) ? `<br>${esc(recortar(s.lead, 170))}` : ''}${s.mxn ? `<br><small>Pase de 30 días: MX$${esc(s.mxn)}</small>` : ''}</li>`)
-    .join('\n');
-  const otrosIdiomas = idiomas
-    .filter((l) => l !== 'es')
-    .map((l) => {
-      const enlaces = sitios.filter((s) => s.urls?.[l]).map((s) => `<a href="${esc(s.urls[l])}" hreflang="${l}" lang="${l}">${esc(s.nombres?.[l] || s.nombre)}</a>`);
-      return enlaces.length ? `<li><strong>${esc(ETIQUETAS_IDIOMA[l] || l)}:</strong> ${enlaces.join(' · ')}</li>` : '';
+function contenidoPortada({ lang, sitios, hubs, idiomas }) {
+  const t = PORTADA[lang];
+  const nombreDe = (s) => (lang === 'es' ? s.nombre : s.nombres?.[lang] || s.nombre);
+  const leadDe = (s) => (lang === 'es' ? s.lead : s.leads?.[lang] || '');
+  const visibles = sitios.filter((s) => s.urls?.[lang]);
+  const lista = visibles
+    .map((s) => {
+      const precio = precioDe(s, lang);
+      return `<li><strong><a href="${esc(s.urls[lang])}">${esc(nombreDe(s))}</a></strong>${lang === 'es' && lleno(s.lugar) ? ` <span>${esc(s.lugar)}</span>` : ''}${lleno(leadDe(s)) ? `<br>${esc(recortar(leadDe(s), 170))}` : ''}${precio ? `<br><small>${esc(t.acceso(precio))}</small>` : ''}</li>`;
     })
-    .filter(Boolean)
     .join('\n');
-  const temas = hubs.length ? `<h2>Guías por tema</h2>\n<ul>\n${hubs.map((h) => `<li><a href="${esc(h.url)}">${esc(h.nombre)}</a></li>`).join('\n')}\n</ul>\n` : '';
-  const cuerpo = `<style>.portada-estatica{font:17px/1.6 system-ui,sans-serif;max-width:46rem;margin:0 auto;padding:1.5rem;color:#1c1917}.portada-estatica h1{font-size:1.8rem;line-height:1.2}.portada-estatica h2{font-size:1.2rem;margin:1.8rem 0 .4rem}.portada-estatica li{margin:.5rem 0}.portada-estatica a{color:#9d174d}.portada-estatica small,.portada-estatica span{color:#57534e}</style>
-<main class="portada-estatica">
-<h1>Xolotli: audioguías de museos y zonas arqueológicas de México</h1>
-<p>Escucha la historia frente a lo que estás viendo. Sin grupo, sin señal, en 7 idiomas: español, inglés, francés, polaco, alemán, portugués e italiano. Las guías funcionan en el celular y, una vez descargadas, sin internet.</p>
-<p>Por tiempo limitado, todos los recorridos son gratis.</p>
-<h2>Guías por sitio</h2>
+  const temas = hubs.length ? `<h2>${esc(t.temas)}</h2>\n<ul>\n${hubs.map((h) => `<li><a href="${esc(h.url)}">${esc(h.nombre)}</a></li>`).join('\n')}\n</ul>\n` : '';
+  const otros =
+    lang === 'es'
+      ? idiomas
+          .filter((l) => l !== 'es')
+          .map((l) => {
+            const enlaces = sitios.filter((s) => s.urls?.[l]).map((s) => `<a href="${esc(s.urls[l])}" hreflang="${l}" lang="${l}">${esc(s.nombres?.[l] || s.nombre)}</a>`);
+            return enlaces.length ? `<li><strong><a href="${direccionPortada(l)}" hreflang="${l}" lang="${l}">${esc(ETIQUETAS_IDIOMA[l] || l)}</a>:</strong> ${enlaces.join(' · ')}</li>` : '';
+          })
+          .filter(Boolean)
+          .join('\n')
+      : '';
+  return `<h1>${esc(t.titulo)}</h1>
+<p>${esc(t.lead)}</p>
+<ul>
+${t.ben.map(([a, b]) => `<li><strong>${esc(a)}.</strong> ${esc(b)}</li>`).join('\n')}
+</ul>
+${PROMO_GRATIS ? `<p>${esc(t.gratis)}</p>\n` : ''}<p><a href="/?idioma=${lang}">${esc(t.cta)}</a></p>
+<h2>${esc(t.guias)}</h2>
 <ul>
 ${lista}
 </ul>
-${temas}<h2>Cómo funciona</h2>
+${temas}<h2>${esc(t.como)}</h2>
 <ol>
-<li>Entra al museo o al sitio y elige una sala o una zona, o sigue un recorrido ya armado.</li>
-<li>En cada parada, escucha su historia.</li>
-<li>Con el pase de 30 días escuchas todo el sitio que elijas, en hasta 2 teléfonos.</li>
+${t.pasos.map((x) => `<li>${esc(x)}</li>`).join('\n')}
 </ol>
-${otrosIdiomas ? `<h2>Guides in other languages</h2>\n<ul>\n${otrosIdiomas}\n</ul>\n` : ''}<p><a href="/terminos/es/">Términos y reembolsos</a> · <a href="/privacidad/es/">Privacidad</a> · <a href="/llms.txt">llms.txt</a></p>
+<p>${esc(t.nota)}</p>
+${otros ? `<h2>${esc(t.otros)}</h2>\n<ul>\n${otros}\n</ul>\n` : ''}<p><a href="/terminos/${lang}/">${esc(t.terminos)}</a> · <a href="/privacidad/${lang}/">${esc(t.privacidad)}</a>${lang === 'es' ? ' · <a href="/llms.txt">llms.txt</a>' : ''}</p>`;
+}
+
+const itemListDe = (lang, sitios) => ({
+  '@type': 'ItemList',
+  '@id': `${DOMINIO}${direccionPortada(lang)}#guias`,
+  name: PORTADA[lang].guias,
+  itemListElement: sitios.filter((s) => s.urls?.[lang]).map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: lang === 'es' ? s.nombre : s.nombres?.[lang] || s.nombre, url: `${DOMINIO}${s.urls[lang]}` })),
+});
+
+/** Enlaces hreflang de las portadas (con x-default hacia «/»). */
+export const hreflangPortadas = (idiomas = IDIOMAS) =>
+  [...idiomas.map((l) => `<link rel="alternate" hreflang="${l}" href="${DOMINIO}${direccionPortada(l)}">`), `<link rel="alternate" hreflang="x-default" href="${DOMINIO}/">`].join('\n');
+
+/**
+ * Portada en español para meter dentro de <div id="root"> (la app la reemplaza al arrancar).
+ * sitios: [{ nombre, nombres, lugar, lead, leads, mxn, usd, urls: { es: '/guias/…/', en: '/en/guides/…/' } }]
+ */
+export function armarPortadaEstatica({ sitios = [], hubs = [], idiomas = IDIOMAS } = {}) {
+  const cuerpo = `<style>.portada-estatica{font:17px/1.6 system-ui,sans-serif;max-width:46rem;margin:0 auto;padding:1.5rem;color:#1c1917}.portada-estatica h1{font-size:1.8rem;line-height:1.2}.portada-estatica h2{font-size:1.2rem;margin:1.8rem 0 .4rem}.portada-estatica li{margin:.5rem 0}.portada-estatica a{color:#9d174d}.portada-estatica small,.portada-estatica span{color:#57534e}</style>
+<main class="portada-estatica">
+${contenidoPortada({ lang: 'es', sitios, hubs, idiomas })}
 </main>`;
-  const itemList = {
-    '@type': 'ItemList',
-    '@id': `${DOMINIO}/#guias`,
-    name: 'Guías de Xolotli por sitio',
-    itemListElement: sitios.filter((s) => s.urls?.es).map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: s.nombre, url: `${DOMINIO}${s.urls.es}` })),
-  };
-  return { cuerpo, itemList };
+  return { cuerpo, itemList: itemListDe('es', sitios) };
 }
 
 /**
- * Mete la portada con texto dentro de <div id="root"> del index.html compilado y añade la lista de guías al JSON-LD.
- * Si no encuentra el <div id="root"> vacío devuelve null (el que llama avisa y deja el archivo como estaba).
+ * Mete la portada con texto dentro de <div id="root"> del index.html compilado, añade la lista de guías al JSON-LD y,
+ * si se dan, los hreflang de las portadas por idioma. Si no encuentra el <div id="root"> vacío devuelve null.
  */
-export function inyectarPortada(indexHtml, { cuerpo, itemList }) {
+export function inyectarPortada(indexHtml, { cuerpo, itemList }, hreflang = '') {
   const raiz = /(<div id="root"[^>]*>)\s*(<\/div>)/;
   if (!raiz.test(indexHtml)) return null;
   let html = indexHtml.replace(raiz, (_, a, b) => `${a}\n${cuerpo}\n${b}`);
@@ -983,5 +1116,24 @@ export function inyectarPortada(indexHtml, { cuerpo, itemList }) {
       return todo;
     }
   });
+  if (hreflang && !/hreflang=/.test(html)) html = html.replace('</head>', `${hreflang}\n</head>`);
   return html;
+}
+
+/** Página estática de la portada de un idioma que no es español (/en/, /fr/, /pl/, /de/, /pt/, /it/). */
+export function armarPortadaIdioma({ lang, sitios = [], hubs = [], idiomas = IDIOMAS, portada = '/pwa-512x512.png' }) {
+  const t = PORTADA[lang];
+  const url = `${DOMINIO}${direccionPortada(lang)}`;
+  const selector = `<nav class="idiomas" aria-label="Language">${idiomas.map((l) => (l === lang ? `<span aria-current="true">${l.toUpperCase()}</span>` : `<a href="${DOMINIO}${direccionPortada(l)}" hreflang="${l}" lang="${l}">${l.toUpperCase()}</a>`)).join('')}</nav>`;
+  const jsonld = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': [
+      { '@type': 'WebSite', '@id': `${DOMINIO}/#sitio`, name: 'Xolotli', url: `${DOMINIO}/`, inLanguage: idiomas },
+      { '@type': 'Organization', '@id': `${DOMINIO}/#organizacion`, name: 'Xolotli', alternateName: 'Xolo', url: `${DOMINIO}/`, logo: `${DOMINIO}/pwa-512x512.png` },
+      { '@type': 'WebPage', '@id': url, url, name: t.titulo, description: t.desc, inLanguage: lang, isPartOf: { '@id': `${DOMINIO}/#sitio` } },
+      itemListDe(lang, sitios),
+    ],
+  }).replace(/</g, '\\u003c');
+  const html = plantilla({ lang, titulo: t.titulo, descripcion: t.desc, url, hreflang: hreflangPortadas(idiomas), portada, jsonld, selector, cuerpo: contenidoPortada({ lang, sitios, hubs, idiomas }), pie: T[lang].pie });
+  return { html, url, titulo: t.titulo, descripcion: t.desc };
 }

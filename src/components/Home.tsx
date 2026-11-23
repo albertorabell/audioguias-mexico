@@ -139,6 +139,13 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
         <section className="pt-5 pb-6">
           <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{t.promesa}</h1>
           <p className="mt-3 text-[1.0625rem] leading-relaxed text-ink-2 max-w-[42ch]">{t.promesaSub}</p>
+          <ul className="mt-5 space-y-2.5 max-w-[46ch]">
+            {t.beneficios.map(([titulo, texto]) => (
+              <li key={titulo} className="text-[0.9375rem] leading-snug text-ink-2">
+                <strong className="font-semibold text-ink">{titulo}.</strong> {texto}
+              </li>
+            ))}
+          </ul>
           <div className="mt-5">
             <MuestraBoton />
           </div>

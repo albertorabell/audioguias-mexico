@@ -484,8 +484,7 @@ function buildPieces(items, opts = {}) {
         image_filename: image,
         // Columnas opcionales de verificación (si no existen en el Sheets, quedan vacías)
         numero_catalogo: (p.numero_catalogo || '').trim(),
-        fuente: (p.fuente || '').trim(),
-        verificado: String(p.verificado || '').trim().toUpperCase() === 'TRUE',
+        // «fuente» y «verificado» se quedan en el Sheet (control interno): no se publican en el JSON de la app.
         // Crédito de la foto (opcional). Las fotos con licencia CC BY / CC BY-SA exigen mostrar autor y licencia.
         foto_autor: (p.foto_autor || '').trim(),
         foto_licencia: (p.foto_licencia || '').trim(),
