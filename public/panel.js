@@ -106,12 +106,16 @@
       ['Audios iniciados', sum(rs, 'audio_play')],
       ['App instalada', sum(rs, 'install')],
       ['Escucharon la muestra', sum(rs, 'sample_play')],
+      ['Muestra de 30 s: tocaron', sum(rs, 'sample_tap')],
+      ['Muestra de 30 s: sonó', sum(rs, 'guide_sample')],
+      ['Muestra de 30 s: oyeron la mitad', sum(rs, 'sample_half')],
+      ['Reseñas (estrellas)', sum(rs, 'review')],
       ['Compartieron su código', sum(rs, 'pass_code_shared')],
       ['Errores de la app', sum(rs, 'app_error')]
     ];
     $('tiles').innerHTML = '';
     var before = site ? rows(true).filter(function (r) { return r.s === site; }) : rows(true);
-    var evOf = { 'Aperturas de la app': 'app_open', 'Visitantes nuevos': 'visitor_new', 'Vieron el pase': 'paywall_open', 'Iniciaron el pago': 'checkout_start', 'Compras': 'purchase', 'Entraron con código': 'code_redeem', 'Reembolsos': 'refund', 'Audios iniciados': 'audio_play', 'App instalada': 'install', 'Escucharon la muestra': 'sample_play', 'Compartieron su código': 'pass_code_shared', 'Errores de la app': 'app_error' };
+    var evOf = { 'Aperturas de la app': 'app_open', 'Visitantes nuevos': 'visitor_new', 'Vieron el pase': 'paywall_open', 'Iniciaron el pago': 'checkout_start', 'Compras': 'purchase', 'Entraron con código': 'code_redeem', 'Reembolsos': 'refund', 'Audios iniciados': 'audio_play', 'App instalada': 'install', 'Escucharon la muestra': 'sample_play', 'Muestra de 30 s: tocaron': 'sample_tap', 'Muestra de 30 s: sonó': 'guide_sample', 'Muestra de 30 s: oyeron la mitad': 'sample_half', 'Reseñas (estrellas)': 'review', 'Compartieron su código': 'pass_code_shared', 'Errores de la app': 'app_error' };
     tiles.forEach(function (t) {
       var d = el('div', undefined, 'card tile'); d.appendChild(el('b', fmt(t[1]))); d.appendChild(el('span', t[0]));
       var prevN = Number($('days').value) * 2 <= 400 ? sum(before, evOf[t[0]]) : 0; // con periodos largos no hay datos del anterior completos

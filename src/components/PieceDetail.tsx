@@ -12,12 +12,14 @@ import { useBackClose } from '../utils/useBackClose';
 import { TopBar } from './ui/TopBar';
 import { PassButton } from './ui/HeaderControls';
 import { PieceDock } from './PieceDock';
-import { PieceTour, pieceTourSeen } from './PieceTour';
+import { PieceTour, pieceTourSeen, markPieceTourSeen } from './PieceTour';
 import { guardarPosicion, olvidarPosicion, posicionPara } from '../utils/reanudar';
 import { TextSizeControl } from './ui/TextSizeControl';
 import { TextoIluminado } from './TextoIluminado';
 import { LinkedText } from './LinkedText';
 import { PiecePeek } from './PiecePeek';
+import { ReviewCard, anotarParadaOida, tocaResenaParcial } from './ReviewCard';
+import { getAnalyticsSite } from '../utils/analytics';
 import { PieceFeedback } from './PieceFeedback';
 import { aDigitos } from '../utils/numerosPantalla.js';
 import { portadaTexts } from '../i18n/portada';
@@ -152,7 +154,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [zoomOpen, setZoomOpen] = useState(false);
   // La guía de esta pantalla se abre sola la primera vez que se abre una obra
-  const [tourOpen, setTourOpen] = useState<boolean>(() => !pieceTourSeen());
+  // La guía de uso ya no se abre sola (no debe estorbar el primer audio): la primera vez solo se ofrece con un aviso pequeño
+  const [tourOpen, setTourOpen] = useState(false);
+  const [tourHint, setTourHint] = useState<boolean>(() => !pieceTourSeen());
   // "Atrás" del teléfono cierra la foto ampliada en vez de salir de la pieza
   useBackClose(zoomOpen, () => setZoomOpen(false));
   const [found, setFound] = useState<Record<number, boolean>>({});
@@ -244,6 +248,22 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     if (isThis && tts.isHtmlAudio) guardarPosicion(pieceId, mode, tts.currentTime);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [Math.floor(tts.currentTime / 3), isThis, tts.isPaused]);
+  // Opinión a media visita: después de 4 paradas escuchadas en este sitio aparece al final de la ficha (nunca bloquea)
+  const [pedirResena, setPedirResena] = useState(() => tocaResenaParcial(getAnalyticsSite() || ''));
+  useEffect(() => {
+    if (!isPlaying) return;
+    const site = getAnalyticsSite() || '';
+    anotarParadaOida(site, pieceId);
+    if (!pedirResena && tocaResenaParcial(site)) setPedirResena(true);
+  }, [isPlaying, pieceId, pedirResena]);
+
+  // Quien ya logró escuchar no necesita el aviso de la guía de uso (sigue disponible en el botón de ayuda)
+  useEffect(() => {
+    if (isPlaying && tourHint) {
+      setTourHint(false);
+      markPieceTourSeen();
+    }
+  }, [isPlaying, tourHint]);
   const reanudarEn = !isThis && !finished && audio[mode] ? posicionPara(pieceId, mode, seconds[mode]) : 0;
   const timeLabel = started ? `${fmtClock(tts.currentTime)} / ${fmtClock(tts.duration)}` : durationLabel(seconds[mode]);
 
@@ -399,6 +419,18 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
           </>
         }
       />
+
+      {tourHint && !tourOpen && (
+        <div className="mx-4 mt-2 flex items-center gap-2 rounded-full border border-line bg-raised pl-3 pr-1 py-1 text-cap text-ink-2 w-fit max-w-[calc(100%-2rem)]">
+          <CircleHelp className="w-4 h-4 shrink-0" strokeWidth={1.9} />
+          <button type="button" id="btn-piece-help-hint" onClick={() => { setTourHint(false); setTourOpen(true); }} className="font-semibold text-ink underline-offset-2 hover:underline cursor-pointer">
+            {strings.intro.openLabel}
+          </button>
+          <button type="button" aria-label={strings.intro.close} onClick={() => { setTourHint(false); markPieceTourSeen(); }} className="h-8 w-8 inline-flex items-center justify-center rounded-full cursor-pointer">
+            <X className="w-4 h-4" />
+          </button>
+        </div>
+      )}
 
       {errorMessage && (
         <div role="alert" className="sticky top-[calc(env(safe-area-inset-top,0px)+3.75rem)] z-20 mx-4 mt-3 p-3.5 rounded-2xl bg-raised border border-tezontle/50 flex items-start gap-3 shadow-xl shadow-black/30 animate-fadeIn">
@@ -717,6 +749,11 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               ))}
             </div>
           </section>
+        )}
+        {pedirResena && (
+          <div className="px-5">
+            <ReviewCard parcial routeName={contextTitle || ''} />
+          </div>
         )}
       </article>
 

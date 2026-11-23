@@ -10,7 +10,7 @@ const IDIOMAS_MUESTRA = ['es', 'en', 'fr', 'pl', 'de', 'pt', 'it'];
 
 /**
  * «▶ Escucha 30 segundos»: 30 s de la Piedra del Sol para probar la voz antes de elegir un sitio.
- * Nunca suena solo: empieza al tocar el botón. Se mide con el mismo evento de las guías (guide_sample, sitio «portada»).
+ * Nunca suena solo: empieza al tocar el botón. Se mide con los mismos eventos que las guías (sitio mna, origen k=portada).
  */
 export const MuestraBoton: React.FC = () => {
   const { currentLanguage } = useLanguage();
@@ -34,12 +34,26 @@ export const MuestraBoton: React.FC = () => {
       a.addEventListener('ended', () => setSonando(false));
       a.addEventListener('pause', () => setSonando(false));
       a.addEventListener('play', () => setSonando(true));
+      // Se cuenta cuando de verdad empieza a sonar (no solo el toque) y cuando llega a la mitad
+      let sono = false;
+      let mitad = false;
+      a.addEventListener('playing', () => {
+        if (sono) return;
+        sono = true;
+        track('guide_sample', { s: 'mna', p: 'mna_s06_piedra_sol', l: lang, k: 'portada' });
+      });
+      a.addEventListener('timeupdate', () => {
+        if (!mitad && a.duration && a.currentTime / a.duration >= 0.5) {
+          mitad = true;
+          track('sample_half', { s: 'mna', l: lang, k: 'portada' });
+        }
+      });
       audio.current = a;
     }
     const a = audio.current;
     if (a.paused) {
       void a.play().catch(() => setSonando(false));
-      track('guide_sample', { s: 'portada', p: 'mna_s06_piedra_sol', l: lang });
+      track('sample_tap', { s: 'mna', l: lang, k: 'portada' });
     } else {
       a.pause();
     }

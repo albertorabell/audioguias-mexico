@@ -12,7 +12,7 @@ export function pieceTourSeen(): boolean {
   }
 }
 
-function markPieceTourSeen(): void {
+export function markPieceTourSeen(): void {
   try {
     localStorage.setItem(PIECE_TOUR_KEY, '1');
   } catch {

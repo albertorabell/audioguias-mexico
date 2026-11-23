@@ -167,6 +167,7 @@ export function contar(lang, n, aireLibre) {
 const T = {
   es: {
     titulo: (n) => `${n}: audioguía y qué ver`,
+    tituloCorto: (n) => `${n}: audioguía`,
     h1: (n) => `${n}: audioguía para tu visita`,
     desc: (n, cuantas, rango, gratis) => `${n}: qué ver y cómo llegar. Audioguía en tu celular con ${cuantas} explicadas${rango ? `, recorridos de ${rango}` : ''}${gratis ? `, ${gratis} gratis para probar` : ''} y uso sin internet.`,
     pronto: 'Próximamente: esta audioguía estará disponible muy pronto.',
@@ -192,6 +193,7 @@ const T = {
   },
   en: {
     titulo: (n) => `${n}: audio guide and what to see`,
+    tituloCorto: (n) => `${n}: audio guide`,
     h1: (n) => `${n}: audio guide for your visit`,
     desc: (n, cuantas, rango, gratis) => `${n}: what to see and how to get there. Audio guide on your phone with ${cuantas} explained${rango ? `, tours from ${rango}` : ''}${gratis ? `, ${gratis} free to try` : ''} and offline use.`,
     pronto: 'Coming soon: this audio guide will be available shortly.',
@@ -217,6 +219,7 @@ const T = {
   },
   fr: {
     titulo: (n) => `${n} : audioguide et visite`,
+    tituloCorto: (n) => `${n} : audioguide`,
     h1: (n) => `${n} : l’audioguide pour votre visite`,
     desc: (n, cuantas, rango, gratis) => `${n} : que voir et comment s’y rendre. Audioguide sur votre téléphone avec ${cuantas} expliquées${rango ? `, parcours de ${rango}` : ''}${gratis ? `, ${gratis} gratuites à essayer` : ''} et utilisation hors ligne.`,
     pronto: 'Bientôt disponible : cet audioguide sera prêt très prochainement.',
@@ -242,6 +245,7 @@ const T = {
   },
   pl: {
     titulo: (n) => `${n}: audioprzewodnik i zwiedzanie`,
+    tituloCorto: (n) => `${n}: audioprzewodnik`,
     h1: (n) => `${n}: audioprzewodnik na Twoją wizytę`,
     desc: (n, cuantas, rango, gratis) => `${n}: co zobaczyć i jak dojechać. Audioprzewodnik w telefonie, ${cuantas} objaśnionych${rango ? `, trasy od ${rango}` : ''}${gratis ? `, ${gratis} za darmo na próbę` : ''} i działanie bez internetu.`,
     pronto: 'Wkrótce: ten audioprzewodnik będzie dostępny już niedługo.',
@@ -267,6 +271,7 @@ const T = {
   },
   de: {
     titulo: (n) => `${n}: Audioguide und Rundgang`,
+    tituloCorto: (n) => `${n}: Audioguide`,
     h1: (n) => `${n}: Audioguide für deinen Besuch`,
     desc: (n, cuantas, rango, gratis) => `${n}: Sehenswertes und Anreise. Audioguide auf dem Handy, ${cuantas} erklärt${rango ? `, Touren von ${rango}` : ''}${gratis ? `, ${gratis} gratis zum Ausprobieren` : ''}, auch offline nutzbar.`,
     pronto: 'Demnächst: Dieser Audioguide ist bald verfügbar.',
@@ -292,6 +297,7 @@ const T = {
   },
   pt: {
     titulo: (n) => `${n}: audioguia e o que ver`,
+    tituloCorto: (n) => `${n}: audioguia`,
     h1: (n) => `${n}: audioguia para a sua visita`,
     desc: (n, cuantas, rango, gratis) => `${n}: o que ver e como chegar. Audioguia no celular com ${cuantas} explicadas${rango ? `, roteiros de ${rango}` : ''}${gratis ? `, ${gratis} grátis para testar` : ''} e uso sem internet.`,
     pronto: 'Em breve: este audioguia estará disponível em pouco tempo.',
@@ -317,6 +323,7 @@ const T = {
   },
   it: {
     titulo: (n) => `${n}: audioguida e cosa vedere`,
+    tituloCorto: (n) => `${n}: audioguida`,
     h1: (n) => `${n}: l’audioguida per la tua visita`,
     desc: (n, cuantas, rango, gratis) => `${n}: cosa vedere e come arrivare. Audioguida sul tuo cellulare con ${cuantas} spiegate${rango ? `, percorsi da ${rango}` : ''}${gratis ? `, ${gratis} gratis da provare` : ''} e uso senza internet.`,
     pronto: 'Prossimamente: questa audioguida sarà disponibile a breve.',
@@ -474,7 +481,7 @@ ${ESTILOS}
 <main>
 ${cuerpo}
 </main>
-<footer><p><a href="/">Xolotli</a>: ${esc(pie)}</p></footer>
+<footer data-nosnippet><p><a href="/">Xolotli</a>: ${esc(pie)}</p></footer>
 </div>
 ${muestra ? '<script src="/guias-muestra.js" defer></script>\n' : ''}</body>
 </html>
@@ -512,14 +519,15 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
   const precio = moneda(lang, sitio, manifiesto);
   const abrir = enApp(sitio.id, lang);
 
-  const titulo = t.titulo(nombre);
+  const sinPar = String(nombre).replace(/\s*\([^)]*\)\s*/g, ' ').trim();
+  const titulo = elegirCompleta([t.titulo(nombre), t.titulo(sinPar), t.tituloCorto(nombre), t.tituloCorto(sinPar)], 60);
   const nPiezas = contar(lang, piezas.length, aireLibre);
   const nGratis = gratis.length && !cfg.proximamente ? contar(lang, gratis.length, aireLibre) : '';
   const descripcion = elegirCompleta([t.desc(nombre, nPiezas, rango, nGratis), t.desc(nombre, nPiezas, '', nGratis), t.desc(nombre, nPiezas, rango, ''), t.desc(nombre, nPiezas, '', '')]);
 
   const alternativas = idiomas.map((l) => ({ l, href: `${DOMINIO}${direccion(cfg.slugs[l], l)}` }));
   const hreflang = [...alternativas.map((a) => `<link rel="alternate" hreflang="${a.l}" href="${a.href}">`), `<link rel="alternate" hreflang="x-default" href="${alternativas.find((a) => a.l === 'es')?.href || url}">`].join('\n');
-  const selector = idiomas.length > 1 ? `<nav class="idiomas" aria-label="Idioma">${alternativas.map((a) => (a.l === lang ? `<span aria-current="true">${a.l.toUpperCase()}</span>` : `<a href="${a.href}" hreflang="${a.l}" lang="${a.l}">${a.l.toUpperCase()}</a>`)).join('')}</nav>` : '';
+  const selector = idiomas.length > 1 ? `<nav class="idiomas" data-nosnippet aria-label="Idioma">${alternativas.map((a) => (a.l === lang ? `<span aria-current="true">${a.l.toUpperCase()}</span>` : `<a href="${a.href}" hreflang="${a.l}" lang="${a.l}">${a.l.toUpperCase()}</a>`)).join(' ')}</nav>` : '';
 
   const lugar = {
     '@type': aireLibre ? ['TouristAttraction'] : ['Museum', 'TouristAttraction'],
@@ -598,7 +606,7 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
 <p class="nota">${precio ? esc(t.precio(precio)) : ''}${gratis.length ? esc(t.gratis(contar(lang, gratis.length, aireLibre))) : ''}</p>`;
 
   const enlacesOtras = otras.length
-    ? `<h2>${esc(t.otras)}</h2>\n<ul class="otras">${otras.map((o) => `<li><a href="${esc(o.url)}">${esc(o.nombre)}</a></li>`).join('')}</ul>`
+    ? `<div data-nosnippet><h2>${esc(t.otras)}</h2>\n<ul class="otras">${otras.map((o) => `<li><a href="${esc(o.url)}">${esc(o.nombre)}</a></li>`).join('')}</ul></div>`
     : '';
 
   const cuerpo = `<h1>${esc(t.h1(nombre))}</h1>
@@ -719,16 +727,17 @@ export function faqDeGuia({ lang, nombre, precioTexto = '', nGratis = '', idioma
 export const tituloFaq = (lang, nombre) => FAQ[lang].h(nombre);
 
 /** sitemap.xml: la portada y cada página de guía, con sus versiones en otros idiomas. */
-export function armarSitemap(paginas, fecha = new Date()) {
-  const dia = fecha.toISOString().slice(0, 10);
+// Sin <lastmod>: el contenido viene de las hojas y cada compilación daría la fecha de hoy a todo. Google pide que esa fecha
+// sea la del último cambio real; si no se puede saber, es mejor no ponerla.
+export function armarSitemap(paginas) {
   const alt = (grupo) =>
     grupo.length > 1
       ? grupo.map((g) => `\n    <xhtml:link rel="alternate" hreflang="${g.lang}" href="${esc(g.url)}"/>`).join('') +
         `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${esc((grupo.find((g) => g.lang === 'es') || grupo[0]).url)}"/>`
       : '';
-  const items = paginas.some((g) => g.some((x) => x.url === `${DOMINIO}/`)) ? [] : [`  <url><loc>${DOMINIO}/</loc><lastmod>${dia}</lastmod></url>`];
+  const items = paginas.some((g) => g.some((x) => x.url === `${DOMINIO}/`)) ? [] : [`  <url><loc>${DOMINIO}/</loc></url>`];
   for (const grupo of paginas) {
-    for (const g of grupo) items.push(`  <url><loc>${esc(g.url)}</loc><lastmod>${dia}</lastmod>${alt(grupo)}\n  </url>`);
+    for (const g of grupo) items.push(`  <url><loc>${esc(g.url)}</loc>${alt(grupo)}\n  </url>`);
   }
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${items.join('\n')}\n</urlset>\n`;
 }
@@ -783,12 +792,13 @@ export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = nu
   const precio = moneda(lang, sitio, manifiesto);
   const abrir = enApp(sitio.id, lang, pieza.piece_id);
 
-  const titulo = elegirCompleta([t.piezaTitulo(nombrePieza, nombre), t.piezaTituloCorto(nombrePieza)], 62);
+  const sitioCorto = String(nombre).replace(/\s*\([^)]*\)\s*/g, ' ').trim();
+  const titulo = elegirCompleta([t.piezaTitulo(nombrePieza, nombre), t.piezaTitulo(nombrePieza, sitioCorto), t.piezaTituloCorto(nombrePieza), nombrePieza], 60);
   const descripcion = elegirCompleta([gancho ? `${gancho} ${t.piezaDesc(nombrePieza, nombre)}` : '', t.piezaDesc(nombrePieza, nombre)]);
 
   const alt = idiomas.map((l) => ({ l, href: `${DOMINIO}${direccionPieza(cfg, pieza, l)}` }));
   const hreflang = [...alt.map((a) => `<link rel="alternate" hreflang="${a.l}" href="${a.href}">`), `<link rel="alternate" hreflang="x-default" href="${alt.find((a) => a.l === 'es')?.href || url}">`].join('\n');
-  const selector = idiomas.length > 1 ? `<nav class="idiomas" aria-label="Idioma">${alt.map((a) => (a.l === lang ? `<span aria-current="true">${a.l.toUpperCase()}</span>` : `<a href="${a.href}" hreflang="${a.l}" lang="${a.l}">${a.l.toUpperCase()}</a>`)).join('')}</nav>` : '';
+  const selector = idiomas.length > 1 ? `<nav class="idiomas" data-nosnippet aria-label="Idioma">${alt.map((a) => (a.l === lang ? `<span aria-current="true">${a.l.toUpperCase()}</span>` : `<a href="${a.href}" hreflang="${a.l}" lang="${a.l}">${a.l.toUpperCase()}</a>`)).join(' ')}</nav>` : '';
 
   const grafo = [
     {
@@ -820,6 +830,7 @@ export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = nu
 ${gancho ? `<p class="lead">${esc(gancho)}</p>` : ''}
 ${botonMuestra(lang, muestra, { sitio: sitio.id, pieza: pieza.piece_id })}
 ${portada ? `<img class="portada" src="${esc(portada)}" alt="${esc(nombrePieza)}" width="1200" height="800" fetchpriority="high">` : ''}
+<p class="cta"><a class="boton" href="${esc(abrir)}">${esc(t.piezaCta(nombre))}</a></p>
 <p class="dato">${esc(t.ubic(nombreSala, nombre))}</p>
 ${textoEnHtml(texto)}
 ${cta}
@@ -976,7 +987,7 @@ export function armarHub({ hub, lang, idiomas = [lang], entradas = [] }) {
   const descripcion = elegirCompleta([hub.lead[lang]]);
   const alternativas = idiomas.map((l) => ({ l, href: `${DOMINIO}${direccionHub(hub, l)}` }));
   const hreflang = [...alternativas.map((a) => `<link rel="alternate" hreflang="${a.l}" href="${a.href}">`), `<link rel="alternate" hreflang="x-default" href="${alternativas.find((a) => a.l === 'es')?.href || url}">`].join('\n');
-  const selector = idiomas.length > 1 ? `<nav class="idiomas" aria-label="Idioma">${alternativas.map((a) => (a.l === lang ? `<span aria-current="true">${a.l.toUpperCase()}</span>` : `<a href="${a.href}" hreflang="${a.l}" lang="${a.l}">${a.l.toUpperCase()}</a>`)).join('')}</nav>` : '';
+  const selector = idiomas.length > 1 ? `<nav class="idiomas" data-nosnippet aria-label="Idioma">${alternativas.map((a) => (a.l === lang ? `<span aria-current="true">${a.l.toUpperCase()}</span>` : `<a href="${a.href}" hreflang="${a.l}" lang="${a.l}">${a.l.toUpperCase()}</a>`)).join(' ')}</nav>` : '';
   const jsonld = JSON.stringify({
     '@context': 'https://schema.org',
     '@graph': [
@@ -1052,9 +1063,9 @@ export const PROMO_GRATIS = true;
 const PORTADA = {
   es: {
     titulo: 'Xolotli: audioguías de museos y zonas arqueológicas de México',
-    desc: 'Audioguías en tu celular para el Museo Nacional de Antropología, Teotihuacán, Chichén Itzá y más. Recorridos, mapas y modo sin internet.',
+    desc: 'Audioguías en 7 idiomas para el Museo de Antropología, Teotihuacán, Chichén Itzá y más. Elige tu recorrido y escucha las historias, incluso sin internet.',
     lead: "Descubre museos, ciudades y zonas arqueológicas con audioguías que te cuentan lo que estás viendo, a tu ritmo y sin depender de un grupo.",
-    ben: [["Más de 400 paradas explicadas por expertos", "Desde la Piedra del Sol hasta las pirámides de Teotihuacán y Chichén Itzá."], ["Tú decides el recorrido", "Elige una sala o una zona, o sigue una ruta ya armada. Pausa, salta o repite cuando quieras."], ["Funciona sin internet", "Descarga la guía antes de entrar y escúchala aunque no haya señal."], ["En 7 idiomas", "Español, inglés, francés, alemán, italiano, portugués y polaco."]],
+    ben: [["Más de 400 paradas cuidadosamente documentadas", "Desde la Piedra del Sol hasta las pirámides de Teotihuacán y Chichén Itzá."], ["Tú decides el recorrido", "Elige una sala o una zona, o sigue una ruta ya armada. Pausa, salta o repite cuando quieras."], ["Funciona sin internet", "Descarga la guía antes de entrar y escúchala aunque no haya señal."], ["En 7 idiomas", "Español, inglés, francés, alemán, italiano, portugués y polaco."]],
     gratis: 'Por tiempo limitado, todos los recorridos son gratis.',
     guias: 'Guías por sitio', temas: 'Guías por tema', otros: 'Otros idiomas', como: 'Cómo funciona',
     pasos: ['Entra al museo o al sitio y elige una sala o una zona, o sigue un recorrido ya armado.', 'En cada parada, escucha su historia.', 'Con el acceso completo de 30 días escuchas todo el sitio que elijas, en hasta 2 teléfonos.'],
@@ -1063,9 +1074,9 @@ const PORTADA = {
   },
   en: {
     titulo: 'Xolotli: audio guides for museums and ruins in Mexico',
-    desc: 'Audio guides on your phone for the National Museum of Anthropology, Teotihuacan, Chichen Itza and more. Tours, maps and offline mode in 7 languages.',
+    desc: 'Audio guides in 7 languages for the Anthropology Museum, Teotihuacan, Chichen Itza and more. Pick your route and hear the stories, even offline.',
     lead: "Discover museums, cities and archaeological sites with audio guides that tell you about what you are looking at, at your own pace and without depending on a group.",
-    ben: [["More than 400 stops explained by experts", "From the Sun Stone to the pyramids of Teotihuacan and Chichen Itza."], ["You choose the route", "Pick a room or a zone, or follow a ready-made tour. Pause, skip or replay whenever you like."], ["Works without internet", "Download the guide before you go in and listen even with no signal."], ["In 7 languages", "Spanish, English, French, German, Italian, Portuguese and Polish."]],
+    ben: [["More than 400 carefully researched stops", "From the Sun Stone to the pyramids of Teotihuacan and Chichen Itza."], ["You choose the route", "Pick a room or a zone, or follow a ready-made tour. Pause, skip or replay whenever you like."], ["Works without internet", "Download the guide before you go in and listen even with no signal."], ["In 7 languages", "Spanish, English, French, German, Italian, Portuguese and Polish."]],
     gratis: 'For a limited time, all tours are free.',
     guias: 'Guides by site', temas: 'Guides by theme', otros: 'Other languages', como: 'How it works',
     pasos: ['Enter the museum or site and pick a room or zone, or follow a ready-made tour.', 'At each stop, listen to its story.', 'With the 30-day full access you listen to the whole site you choose, on up to 2 phones.'],
@@ -1074,9 +1085,9 @@ const PORTADA = {
   },
   fr: {
     titulo: 'Xolotli : audioguides pour musées et sites du Mexique',
-    desc: 'Audioguides sur votre téléphone pour le Musée national d’anthropologie, Teotihuacan, Chichén Itzá et plus. Parcours, cartes et mode hors ligne en 7 langues.',
+    desc: 'Audioguides en 7 langues pour le Musée d’anthropologie, Teotihuacan, Chichén Itzá et plus. Choisissez votre parcours et écoutez les histoires, même hors ligne.',
     lead: "Découvrez musées, villes et sites archéologiques avec des audioguides qui vous racontent ce que vous voyez, à votre rythme, sans dépendre d’un groupe.",
-    ben: [["Plus de 400 étapes expliquées par des experts", "De la Pierre du Soleil aux pyramides de Teotihuacan et de Chichén Itzá."], ["Vous choisissez le parcours", "Choisissez une salle ou une zone, ou suivez un parcours tout prêt. Pause, saut ou répétition à volonté."], ["Fonctionne sans internet", "Téléchargez le guide avant d’entrer et écoutez-le même sans réseau."], ["En 7 langues", "Espagnol, anglais, français, allemand, italien, portugais et polonais."]],
+    ben: [["Plus de 400 étapes soigneusement documentées", "De la Pierre du Soleil aux pyramides de Teotihuacan et de Chichén Itzá."], ["Vous choisissez le parcours", "Choisissez une salle ou une zone, ou suivez un parcours tout prêt. Pause, saut ou répétition à volonté."], ["Fonctionne sans internet", "Téléchargez le guide avant d’entrer et écoutez-le même sans réseau."], ["En 7 langues", "Espagnol, anglais, français, allemand, italien, portugais et polonais."]],
     gratis: 'Pour une durée limitée, tous les parcours sont gratuits.',
     guias: 'Guides par site', temas: 'Guides par thème', otros: 'Autres langues', como: 'Comment ça marche',
     pasos: ['Entrez dans le musée ou sur le site et choisissez une salle ou une zone, ou suivez un parcours tout prêt.', 'À chaque étape, écoutez son histoire.', 'Avec l’accès complet de 30 jours, vous écoutez tout le site de votre choix, sur 2 téléphones maximum.'],
@@ -1085,9 +1096,9 @@ const PORTADA = {
   },
   pl: {
     titulo: 'Xolotli: audioprzewodniki po muzeach i stanowiskach Meksyku',
-    desc: 'Audioprzewodniki w telefonie: Narodowe Muzeum Antropologii, Teotihuacan, Chichén Itzá i więcej. Trasy, mapy i tryb offline w 7 językach.',
+    desc: 'Audioprzewodniki w 7 językach: Muzeum Antropologii, Teotihuacan, Chichén Itzá i więcej. Wybierz trasę i słuchaj historii, także offline.',
     lead: "Odkrywaj muzea, miasta i stanowiska archeologiczne z audioprzewodnikami, które opowiadają o tym, co widzisz – w twoim tempie i bez grupy.",
-    ben: [["Ponad 400 przystanków objaśnionych przez ekspertów", "Od Kamienia Słońca po piramidy Teotihuacan i Chichén Itzá."], ["Ty wybierasz trasę", "Wybierz salę lub strefę albo gotową trasę. Zatrzymaj, pomiń lub powtórz, kiedy chcesz."], ["Działa bez internetu", "Pobierz przewodnik przed wejściem i słuchaj nawet bez zasięgu."], ["W 7 językach", "Hiszpański, angielski, francuski, niemiecki, włoski, portugalski i polski."]],
+    ben: [["Ponad 400 starannie opracowanych przystanków", "Od Kamienia Słońca po piramidy Teotihuacan i Chichén Itzá."], ["Ty wybierasz trasę", "Wybierz salę lub strefę albo gotową trasę. Zatrzymaj, pomiń lub powtórz, kiedy chcesz."], ["Działa bez internetu", "Pobierz przewodnik przed wejściem i słuchaj nawet bez zasięgu."], ["W 7 językach", "Hiszpański, angielski, francuski, niemiecki, włoski, portugalski i polski."]],
     gratis: 'Przez ograniczony czas wszystkie trasy są bezpłatne.',
     guias: 'Przewodniki według miejsc', temas: 'Przewodniki tematyczne', otros: 'Inne języki', como: 'Jak to działa',
     pasos: ['Wejdź do muzeum lub na stanowisko i wybierz salę lub strefę albo gotową trasę.', 'Przy każdym przystanku posłuchaj jego historii.', 'Z pełnym dostępem na 30 dni słuchasz całego wybranego miejsca na maksymalnie 2 telefonach.'],
@@ -1096,9 +1107,9 @@ const PORTADA = {
   },
   de: {
     titulo: 'Xolotli: Audioguides für Museen und Ruinen in Mexiko',
-    desc: 'Audioguides auf dem Handy für das Nationale Anthropologiemuseum, Teotihuacan, Chichén Itzá und mehr. Touren, Karten und Offline-Modus in 7 Sprachen.',
+    desc: 'Audioguides in 7 Sprachen für das Anthropologiemuseum, Teotihuacan, Chichén Itzá und mehr. Route wählen und Geschichten hören, auch offline.',
     lead: "Entdecke Museen, Städte und archäologische Stätten mit Audioguides, die dir erzählen, was du gerade siehst – in deinem Tempo und ohne Gruppe.",
-    ben: [["Mehr als 400 Stationen, von Experten erklärt", "Vom Sonnenstein bis zu den Pyramiden von Teotihuacan und Chichén Itzá."], ["Du bestimmst die Route", "Wähle einen Raum oder Bereich oder folge einer fertigen Tour. Pausieren, überspringen oder wiederholen, wann du willst."], ["Funktioniert ohne Internet", "Lade den Guide vor dem Eintritt herunter und hör ihn auch ohne Empfang."], ["In 7 Sprachen", "Spanisch, Englisch, Französisch, Deutsch, Italienisch, Portugiesisch und Polnisch."]],
+    ben: [["Mehr als 400 sorgfältig recherchierte Stationen", "Vom Sonnenstein bis zu den Pyramiden von Teotihuacan und Chichén Itzá."], ["Du bestimmst die Route", "Wähle einen Raum oder Bereich oder folge einer fertigen Tour. Pausieren, überspringen oder wiederholen, wann du willst."], ["Funktioniert ohne Internet", "Lade den Guide vor dem Eintritt herunter und hör ihn auch ohne Empfang."], ["In 7 Sprachen", "Spanisch, Englisch, Französisch, Deutsch, Italienisch, Portugiesisch und Polnisch."]],
     gratis: 'Für begrenzte Zeit sind alle Touren kostenlos.',
     guias: 'Guides nach Ort', temas: 'Guides nach Thema', otros: 'Andere Sprachen', como: 'So funktioniert es',
     pasos: ['Betritt das Museum oder die Stätte und wähle einen Raum oder Bereich oder folge einer fertigen Tour.', 'Hör dir an jeder Station ihre Geschichte an.', 'Mit dem 30-Tage-Vollzugang hörst du die gesamte gewählte Stätte, auf bis zu 2 Handys.'],
@@ -1107,9 +1118,9 @@ const PORTADA = {
   },
   pt: {
     titulo: 'Xolotli: audioguias de museus e sítios arqueológicos do México',
-    desc: 'Audioguias no celular para o Museu Nacional de Antropologia, Teotihuacán, Chichén Itzá e mais. Roteiros, mapas e modo offline em 7 idiomas.',
+    desc: 'Audioguias em 7 idiomas para o Museu de Antropologia, Teotihuacán, Chichén Itzá e mais. Escolha seu roteiro e ouça as histórias, mesmo sem internet.',
     lead: "Descubra museus, cidades e sítios arqueológicos com audioguias que contam o que você está vendo, no seu ritmo e sem depender de um grupo.",
-    ben: [["Mais de 400 paradas explicadas por especialistas", "Da Pedra do Sol às pirâmides de Teotihuacán e Chichén Itzá."], ["Você escolhe o roteiro", "Escolha uma sala ou uma zona, ou siga um roteiro pronto. Pause, pule ou repita quando quiser."], ["Funciona sem internet", "Baixe o guia antes de entrar e ouça mesmo sem sinal."], ["Em 7 idiomas", "Espanhol, inglês, francês, alemão, italiano, português e polonês."]],
+    ben: [["Mais de 400 paradas cuidadosamente documentadas", "Da Pedra do Sol às pirâmides de Teotihuacán e Chichén Itzá."], ["Você escolhe o roteiro", "Escolha uma sala ou uma zona, ou siga um roteiro pronto. Pause, pule ou repita quando quiser."], ["Funciona sem internet", "Baixe o guia antes de entrar e ouça mesmo sem sinal."], ["Em 7 idiomas", "Espanhol, inglês, francês, alemão, italiano, português e polonês."]],
     gratis: 'Por tempo limitado, todos os roteiros são gratuitos.',
     guias: 'Guias por local', temas: 'Guias por tema', otros: 'Outros idiomas', como: 'Como funciona',
     pasos: ['Entre no museu ou no sítio e escolha uma sala ou uma zona, ou siga um roteiro pronto.', 'Em cada parada, ouça a sua história.', 'Com o acesso completo de 30 dias você ouve todo o local que escolher, em até 2 celulares.'],
@@ -1118,9 +1129,9 @@ const PORTADA = {
   },
   it: {
     titulo: 'Xolotli: audioguide per musei e siti archeologici del Messico',
-    desc: 'Audioguide sul cellulare per il Museo Nazionale di Antropologia, Teotihuacan, Chichén Itzá e altro. Percorsi, mappe e modalità offline in 7 lingue.',
+    desc: 'Audioguide in 7 lingue per il Museo di Antropologia, Teotihuacan, Chichén Itzá e altro. Scegli il percorso e ascolta le storie, anche offline.',
     lead: "Scopri musei, città e siti archeologici con audioguide che ti raccontano ciò che stai guardando, con i tuoi tempi e senza dipendere da un gruppo.",
-    ben: [["Oltre 400 tappe spiegate da esperti", "Dalla Pietra del Sole alle piramidi di Teotihuacan e Chichén Itzá."], ["Scegli tu il percorso", "Scegli una sala o una zona, o segui un percorso già pronto. Pausa, salta o ripeti quando vuoi."], ["Funziona senza internet", "Scarica la guida prima di entrare e ascoltala anche senza rete."], ["In 7 lingue", "Spagnolo, inglese, francese, tedesco, italiano, portoghese e polacco."]],
+    ben: [["Oltre 400 tappe accuratamente documentate", "Dalla Pietra del Sole alle piramidi di Teotihuacan e Chichén Itzá."], ["Scegli tu il percorso", "Scegli una sala o una zona, o segui un percorso già pronto. Pausa, salta o ripeti quando vuoi."], ["Funziona senza internet", "Scarica la guida prima di entrare e ascoltala anche senza rete."], ["In 7 lingue", "Spagnolo, inglese, francese, tedesco, italiano, portoghese e polacco."]],
     gratis: 'Per un periodo limitato, tutti i percorsi sono gratuiti.',
     guias: 'Guide per luogo', temas: 'Guide per tema', otros: 'Altre lingue', como: 'Come funziona',
     pasos: ['Entra nel museo o nel sito e scegli una sala o una zona, oppure segui un percorso già pronto.', 'A ogni tappa, ascolta la sua storia.', 'Con l’accesso completo di 30 giorni ascolti tutto il sito che scegli, su 2 telefoni al massimo.'],
@@ -1238,7 +1249,7 @@ export function inyectarPortada(indexHtml, { cuerpo, itemList }, hreflang = '') 
 export function armarPortadaIdioma({ lang, sitios = [], hubs = [], idiomas = IDIOMAS, portada = '/pwa-512x512.png' }) {
   const t = PORTADA[lang];
   const url = `${DOMINIO}${direccionPortada(lang)}`;
-  const selector = `<nav class="idiomas" aria-label="Language">${idiomas.map((l) => (l === lang ? `<span aria-current="true">${l.toUpperCase()}</span>` : `<a href="${DOMINIO}${direccionPortada(l)}" hreflang="${l}" lang="${l}">${l.toUpperCase()}</a>`)).join('')}</nav>`;
+  const selector = `<nav class="idiomas" data-nosnippet aria-label="Language">${idiomas.map((l) => (l === lang ? `<span aria-current="true">${l.toUpperCase()}</span>` : `<a href="${DOMINIO}${direccionPortada(l)}" hreflang="${l}" lang="${l}">${l.toUpperCase()}</a>`)).join(' ')}</nav>`;
   const jsonld = JSON.stringify({
     '@context': 'https://schema.org',
     '@graph': [

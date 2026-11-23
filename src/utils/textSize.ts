@@ -4,7 +4,9 @@ import { useEffect, useState } from 'react';
  * Tamaño del texto de la app (independiente del tamaño de letra del teléfono; se suma a él en Android).
  * Se guarda en el teléfono y se aplica al tamaño base de la página (html), así todo lo que está en rem crece junto.
  */
-export const TEXT_STEPS = [100, 115, 130, 150] as const;
+export const TEXT_STEPS = [100, 115, 130, 150, 175, 200] as const;
+/** Hasta aquí crece TODA la app; más allá solo crece el texto de lectura de las obras (botones y barras no se salen de la pantalla). */
+export const UI_MAX = 150;
 const KEY = 'xolo_text_scale';
 const EVENT = 'xolo-text-scale';
 
@@ -19,7 +21,9 @@ export function getTextScale(): number {
 
 export function applyTextScale(pct: number = getTextScale()): void {
   if (typeof document === 'undefined') return;
-  document.documentElement.style.fontSize = pct === 100 ? '' : `${pct}%`;
+  const ui = Math.min(pct, UI_MAX);
+  document.documentElement.style.fontSize = ui === 100 ? '' : `${ui}%`;
+  document.documentElement.style.setProperty('--lectura', String(pct / ui));
 }
 
 export function setTextScale(pct: number): void {

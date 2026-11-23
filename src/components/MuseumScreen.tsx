@@ -645,7 +645,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
         <section className="px-5 mt-12">
           <OfflineTourBanner
             key={bajaTodo ? 'todo' : 'ruta'}
-            dataUrls={manifest?.pieces_path ? [site.path, manifest.rooms_path, manifest.pieces_path].filter((u): u is string => !!u) : undefined}
+            dataUrls={[site.path, manifest?.rooms_path, manifest?.pieces_path].filter((u): u is string => !!u)}
             pieces={bajaTodo ? pieces : piezasRuta}
             audioPieces={bajaTodo ? audioPieces : audioPieces.filter((p) => idsRuta.has(p.piece_id))}
             routeTitle={bajaTodo ? undefined : mainRoute?.name}

@@ -598,6 +598,14 @@ export default function App() {
     }
     const canonica = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
     if (canonica) canonica.href = canonicaDe(ruta, mapaGuias);
+    // Las pantallas de la app no compiten en Google con las guías (que son las que deben salir en los resultados)
+    let robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
+    if (!robots) {
+      robots = document.createElement('meta');
+      robots.name = 'robots';
+      document.head.appendChild(robots);
+    }
+    robots.content = ruta === '/' ? 'index, follow' : 'noindex, follow';
   }, [screen, selectedSite, rawSites, mapaGuias]);
 
   /** Abre una pieza dentro de su sala (anterior / siguiente recorren la sala). */
