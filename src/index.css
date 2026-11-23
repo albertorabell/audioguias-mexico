@@ -366,3 +366,15 @@ html.sin-copia img {
     display: none !important;
   }
 }
+
+/* Texto iluminado mientras suena el audio (estimado por frase) */
+.frase-activa {
+  background: color-mix(in srgb, var(--c-oro, #fbbf24) 28%, transparent);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.frase-pendiente {
+  opacity: 0.72;
+}

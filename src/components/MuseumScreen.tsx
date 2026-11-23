@@ -445,7 +445,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                   >
                     <span className="relative block bg-raised">
                       <PieceImage filename={p.image_filename} pieceId={p.piece_id} alt="" className="block w-full aspect-[4/3] object-cover" />
-                      <span className="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-jade text-on-jade text-[12px] font-bold">{u.free}</span>
+                      <span className="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-jade text-on-jade text-[0.75rem] font-bold">{u.free}</span>
                     </span>
                     <span className="block p-3">
                       <span className="block text-[1rem] font-bold leading-snug text-ink">{p.title}</span>
@@ -703,7 +703,7 @@ export const FloorSwitch: React.FC<{
             }`}
           >
             <span className="block text-ui font-bold leading-tight">{o.label}</span>
-            <span className="block text-[12px] leading-tight mt-0.5">
+            <span className="block text-[0.75rem] leading-tight mt-0.5">
               {o.sub}
               {o.n ? ` · ${u.roomsCount(o.n)}` : ''}
             </span>

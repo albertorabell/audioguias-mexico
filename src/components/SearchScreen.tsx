@@ -89,7 +89,7 @@ export const SearchScreen: React.FC<SearchScreenProps> = ({
               value={q}
               onChange={(e) => setQ(e.target.value)}
               placeholder={u.search.placeholder}
-              className="flex-1 min-w-0 bg-transparent outline-none text-[16px] text-ink placeholder:text-ink-3 [&::-webkit-search-cancel-button]:hidden"
+              className="flex-1 min-w-0 bg-transparent outline-none text-[1rem] text-ink placeholder:text-ink-3 [&::-webkit-search-cancel-button]:hidden"
             />
             {q && (
               <button type="button" onClick={() => { setQ(''); inputRef.current?.focus(); }} aria-label={t.clear} className="btn-icon -mr-3 text-ink-3 shrink-0">

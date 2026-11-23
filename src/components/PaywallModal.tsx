@@ -475,7 +475,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   ))}
                 </div>
               )}
-              <p className="flex items-center justify-center gap-1.5 text-[12px] text-ink-3">
+              <p className="flex items-center justify-center gap-1.5 text-[0.75rem] text-ink-3">
                 <Lock className="w-3 h-3" />
                 <span>{t.secureNote}</span>
               </p>

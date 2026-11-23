@@ -354,7 +354,7 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor: floorProp, 
                 {openList.map((p) => (
                   <li key={p.piece_id}>
                     <button type="button" onClick={() => onOpenPiece?.(p.piece_id)} className="w-full min-h-12 flex items-center gap-3 py-2 text-left border-b border-line cursor-pointer active:bg-raised">
-                      <span className="w-7 h-7 shrink-0 rounded-full bg-ink text-bg text-[13px] font-bold flex items-center justify-center tabular-nums">{p.orden_sugerido || '·'}</span>
+                      <span className="w-7 h-7 shrink-0 rounded-full bg-ink text-bg text-[0.8125rem] font-bold flex items-center justify-center tabular-nums">{p.orden_sugerido || '·'}</span>
                       <span className="flex-1 min-w-0 text-ui font-semibold text-ink">{p.titulo}</span>
                       <ChevronRight className="w-4 h-4 text-ink-3 shrink-0" />
                     </button>
@@ -404,7 +404,7 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor: floorProp, 
           <p className="text-cap text-ink-3">{t.hint}</p>
         )}
       </div>
-      {plan.source && <p className="mt-2 px-1 text-[11px] text-ink-3">{t.source}: {plan.source[lang]}</p>}
+      {plan.source && <p className="mt-2 px-1 text-[0.6875rem] text-ink-3">{t.source}: {plan.source[lang]}</p>}
     </div>
   );
 };

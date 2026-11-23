@@ -174,7 +174,7 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
       const isCurrent = s.id === currentId;
       el.className = [
         'rounded-full flex items-center justify-center font-bold border-2 cursor-pointer shadow',
-        inTour ? 'w-8 h-8 text-[13px]' : 'w-4 h-4',
+        inTour ? 'w-8 h-8 text-[0.8125rem]' : 'w-4 h-4',
         inTour ? (s.done ? 'bg-raised text-ink-3 border-line' : 'bg-jade text-on-jade border-white') : 'bg-white border-jade',
         isCurrent ? 'ring-4 ring-jade/40' : '',
       ].join(' ');
@@ -355,7 +355,7 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
               {sb.stops.map((st) => (
                 <li key={st.id}>
                   <button type="button" onClick={() => onOpenStop(st.id)} className="w-full min-h-12 flex items-center gap-3 py-2 text-left border-b border-line cursor-pointer active:bg-raised">
-                    <span className="w-7 h-7 shrink-0 rounded-full bg-ink text-bg text-[13px] font-bold flex items-center justify-center tabular-nums">{st.num ?? '·'}</span>
+                    <span className="w-7 h-7 shrink-0 rounded-full bg-ink text-bg text-[0.8125rem] font-bold flex items-center justify-center tabular-nums">{st.num ?? '·'}</span>
                     <span className="flex-1 min-w-0 text-ui font-semibold text-ink">{st.title}</span>
                   </button>
                 </li>

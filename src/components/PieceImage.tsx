@@ -85,7 +85,7 @@ export const PieceImage: React.FC<PieceImageProps> = ({
       >
         <Landmark className="w-[38%] max-w-12 h-auto opacity-60" strokeWidth={1.4} aria-hidden="true" />
         <span className="hidden @min-[160px]:block mt-2 text-cap font-semibold text-ink-2 line-clamp-1 max-w-full">{displayTitle}</span>
-        <span className="hidden @min-[160px]:block text-[12px]">{t.photoSoon}</span>
+        <span className="hidden @min-[160px]:block text-[0.75rem]">{t.photoSoon}</span>
       </div>
     );
   }

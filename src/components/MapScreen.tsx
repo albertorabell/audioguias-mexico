@@ -189,7 +189,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
           </span>
           {tour && (
             <span className="inline-flex items-center gap-2">
-              <span className="w-5 h-5 rounded-full border-2 border-jade text-jade-ink text-[10px] font-bold flex items-center justify-center">1</span>
+              <span className="w-5 h-5 rounded-full border-2 border-jade text-jade-ink text-[0.625rem] font-bold flex items-center justify-center">1</span>
               {u.map.tourStop}
             </span>
           )}
