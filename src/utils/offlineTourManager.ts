@@ -53,7 +53,8 @@ export async function clearOfflineTourCache(): Promise<void> {
 export async function downloadTourOffline(
   urlsToCache: string[],
   onProgress?: (p: OfflineProgress) => void,
-  signature = 'true'
+  signature = 'true',
+  refrescarTodo = false
 ): Promise<boolean> {
   const t = getStrings(getCurrentLanguage()).offline;
   if (!('caches' in window)) {
@@ -71,6 +72,7 @@ export async function downloadTourOffline(
   const uniqueUrls = Array.from(new Set(urlsToCache.filter(Boolean)));
   const total = uniqueUrls.length;
   let cached = 0;
+  const failed: string[] = [];
 
   onProgress?.({
     status: 'downloading',
@@ -89,25 +91,46 @@ export async function downloadTourOffline(
 
       onProgress?.({
         status: 'downloading',
-        progressPercent: Math.round(((i + 1) / total) * 100),
-        cachedCount: i + 1,
+        progressPercent: Math.round((i / total) * 100),
+        cachedCount: cached,
         totalCount: total,
         currentLabel: t.downloadingFile(filename),
       });
 
       try {
+        // Los archivos que ya están guardados (fotos, audios) no se bajan otra vez al reintentar; los datos (.json) sí, por si cambiaron.
+        if (!refrescarTodo && !/\.json(\?|$)/i.test(url) && (await cache.match(url))) {
+          cached++;
+          continue;
+        }
         // Use no-cors fallback if cors fails for external image CDNs
-        let response = await fetch(url, { mode: 'cors' }).catch(async () => {
+        const response = await fetch(url, { mode: 'cors' }).catch(async () => {
           return await fetch(url, { mode: 'no-cors' });
         });
 
         if (response && (response.ok || response.type === 'opaque')) {
           await cache.put(url, response);
           cached++;
+        } else {
+          failed.push(url);
         }
       } catch (e) {
+        failed.push(url);
         console.warn(`[OfflineTour] Could not cache asset ${url}:`, e);
       }
+    }
+
+    // Solo se marca como completo si TODO quedó guardado; si falta algo, se avisa y el botón vuelve a intentar solo lo que falta.
+    if (failed.length > 0) {
+      onProgress?.({
+        status: 'error',
+        progressPercent: Math.round((cached / total) * 100),
+        cachedCount: cached,
+        totalCount: total,
+        currentLabel: t.errorLabel,
+        errorMessage: `${t.failed} (${cached}/${total})`,
+      });
+      return false;
     }
 
     localStorage.setItem(LOCAL_STORAGE_OFFLINE_KEY, signature);

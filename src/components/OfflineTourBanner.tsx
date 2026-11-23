@@ -20,6 +20,8 @@ interface OfflineTourBannerProps {
   routeTitle?: string;
   /** Aviso antes de descargar; si falta se usa el de los museos. */
   notCachedText?: string;
+  /** Archivos de datos del sitio (su manifiesto, salas y piezas). Si falta, se usan los del MNA. */
+  dataUrls?: string[];
 }
 
 export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
@@ -27,6 +29,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
   audioPieces = [],
   routeTitle,
   notCachedText,
+  dataUrls,
 }) => {
   const { strings, currentLanguage } = useLanguage();
   const t = strings.offline;
@@ -58,9 +61,9 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
   const urls = useMemo(() => {
     const list: string[] = [
       getAssetUrl('data/sites.json'),
-      getAssetUrl('data/mna/site.json'),
-      getAssetUrl('data/mna/pieces.json'),
-      getAssetUrl('data/mna/rooms.json'),
+      ...(dataUrls && dataUrls.length
+        ? dataUrls.map((u) => getAssetUrl(u))
+        : [getAssetUrl('data/mna/site.json'), getAssetUrl('data/mna/pieces.json'), getAssetUrl('data/mna/rooms.json')]),
     ];
     pieces.forEach((p) => {
       const img = p.image_filename || p.identification?.hero_image;
@@ -69,7 +72,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
     });
     audioUrls.forEach((url) => list.push(url));
     return Array.from(new Set(list));
-  }, [pieces, audioUrls]);
+  }, [pieces, audioUrls, dataUrls]);
   // Huella de la lista: si cambia (otro idioma, se compró el pase, hay obras nuevas) se vuelve a ofrecer la descarga
   const signature = useMemo(() => offlineSignature(urls), [urls]);
 
@@ -93,7 +96,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
     track('offline_download');
     const success = await downloadTourOffline(urls, (p) => {
       setProgress(p);
-    }, signature);
+    }, signature, isCached);
 
     if (success) {
       setIsCached(true);
