@@ -1,3 +1,4 @@
+import { slugDeRuta } from './aliado';
 import { PAYMENTS_API_URL } from '../config/payments';
 
 /**
@@ -41,10 +42,10 @@ export type AnalyticsEvent =
  */
 export type TrafficSource = 'app_instalada' | 'qr' | 'buscador' | 'redes' | 'otro_sitio' | 'directo';
 
-export function classifySource(search: string, referrer: string, ownHost: string, standalone: boolean): TrafficSource {
+export function classifySource(search: string, referrer: string, ownHost: string, standalone: boolean, pathname = ''): TrafficSource {
   if (standalone) return 'app_instalada';
   const params = new URLSearchParams(search);
-  if (params.has('c') || params.has('qr')) return 'qr';
+  if (params.has('c') || params.has('qr') || slugDeRuta(pathname)) return 'qr';
   // Enlaces con etiqueta (utm_*): se clasifican por su medio o su origen, no como QR
   const utm = `${params.get('utm_medium') || ''} ${params.get('utm_source') || ''}`.toLowerCase();
   if (utm.trim()) {
@@ -70,7 +71,7 @@ let SOURCE: TrafficSource = 'directo';
 try {
   if (typeof window !== 'undefined') {
     const standalone = !!(window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || (navigator as any).standalone === true;
-    SOURCE = classifySource(window.location.search, document.referrer, window.location.hostname, standalone);
+    SOURCE = classifySource(window.location.search, document.referrer, window.location.hostname, standalone, window.location.pathname);
   }
 } catch {
   /* sin acceso a la dirección: se queda en «directo» */
@@ -80,10 +81,10 @@ try {
  * Etiqueta de campaña o aliado (hotel, tour, QR impreso) que viene en ?utm_source= o ?aliado=. Solo letras, números, «_» y «-»
  * (máximo 20): es el nombre del enlace, no de una persona. Sin etiqueta devuelve ''.
  */
-export function allyTag(search: string): string {
+export function allyTag(search: string, pathname = ''): string {
   try {
     const params = new URLSearchParams(search);
-    const raw = params.get('aliado') || params.get('utm_source') || '';
+    const raw = slugDeRuta(pathname) || params.get('aliado') || params.get('utm_source') || '';
     return raw.toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 20);
   } catch {
     return '';
@@ -92,7 +93,7 @@ export function allyTag(search: string): string {
 
 let ALLY = '';
 try {
-  if (typeof window !== 'undefined') ALLY = allyTag(window.location.search);
+  if (typeof window !== 'undefined') ALLY = allyTag(window.location.search, window.location.pathname);
 } catch {
   /* sin acceso a la dirección */
 }

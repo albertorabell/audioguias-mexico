@@ -53,6 +53,8 @@
   svg.chart .line.s1, svg.chart .line.s2, svg.chart .line.s3, svg.chart .line.s4 { fill:none; }
   .legend .sw { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:6px; }
   .legend .sw.s1 { background:var(--bar); } .legend .sw.s2 { background:var(--bar2); } .legend .sw.s3 { background:var(--bar3); } .legend .sw.s4 { background:var(--bad); }
+  .tabbtn { background:transparent; color:var(--ink2); border-color:var(--line); }
+  .tabbtn.on { background:var(--bar); color:#fff; border-color:var(--bar); }
   [hidden] { display:none !important; }
 </style>
 </head>
@@ -89,6 +91,11 @@
       </label>
       <button id="logout" type="button" style="background:transparent;color:var(--ink2);border-color:var(--line)">Salir</button>
     </div>
+    <div class="row" role="tablist">
+      <button type="button" id="tabBtnUso" class="tabbtn on">Uso de la app</button>
+      <button type="button" id="tabBtnAliados" class="tabbtn">Aliados (hoteles)</button>
+    </div>
+    <div id="tabUso">
     <div class="tiles" id="tiles"></div>
 
     <h2>Visitantes que van llegando</h2>
@@ -140,6 +147,16 @@
     <div class="card" id="msgs"></div>
 
     <p class="note">«Visitas» son aperturas de la app, no personas: quien vuelve cuenta otra vez. Los días van en hora UTC. <span id="exactNote"></span></p>
+    </div>
+
+    <div id="tabAliados" hidden>
+      <h2>Aliados: hoteles, Airbnb y tours</h2>
+      <p class="sub">Cada aliado entra por su enlace o QR (xolotli.com/h/<i>nombre</i>). Se dan de alta, se suben o bajan y se les cambia el descuento y la comisión en la pestaña ALIADOS de la hoja CONTROL; después corre «Publicar códigos de acceso» en GitHub. «Visitas» son aperturas desde su enlace. La comisión se calcula sobre lo cobrado, con el porcentaje vigente el día de la compra; las compras reembolsadas no cuentan.</p>
+      <div class="tiles" id="atiles"></div>
+      <h3>Por aliado (periodo elegido arriba)</h3>
+      <div class="card scroll"><table id="atabla"></table></div>
+      <p class="note" id="anote"></p>
+    </div>
   </section>
 </main>
 <script src="/panel.js"></script>

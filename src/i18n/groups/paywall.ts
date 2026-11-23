@@ -50,6 +50,7 @@ export const paywall = defineGroup(
       label: 'Código de descuento',
       apply: 'Aplicar',
       applied: (code: string, pct: number) => `Código ${code}: ${pct} % de descuento`,
+      allyApplied: (n: string, pct: number) => `Huésped de ${n}: ${pct} % de descuento`,
     },
     haveCode: 'Ya tengo un código',
     recover: {
@@ -145,6 +146,7 @@ export const paywall = defineGroup(
       label: 'Discount code',
       apply: 'Apply',
       applied: (code: string, pct: number) => `Code ${code}: ${pct}% off`,
+      allyApplied: (n: string, pct: number) => `Guest of ${n}: ${pct}% off`,
     },
     haveCode: 'I already have a code',
     recover: {
@@ -240,6 +242,7 @@ export const paywall = defineGroup(
       label: 'Code de réduction',
       apply: 'Appliquer',
       applied: (code: string, pct: number) => `Code ${code} : ${pct} % de réduction`,
+      allyApplied: (n: string, pct: number) => `Client de ${n} : ${pct} % de réduction`,
     },
     haveCode: 'J’ai déjà un code',
     recover: {

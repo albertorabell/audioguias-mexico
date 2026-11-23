@@ -87,9 +87,9 @@ export async function fetchAccessMode(): Promise<boolean | null> {
 }
 
 /** Pide la página de pago de Stripe. Si sale bien, hay que mandar al visitante a `url`. */
-export async function startCheckout(siteId: string, lang: SupportedLanguage, promo?: string, currency?: 'mxn' | 'usd'): Promise<PaymentResult<{ url: string }>> {
+export async function startCheckout(siteId: string, lang: SupportedLanguage, promo?: string, currency?: 'mxn' | 'usd', aliado?: string): Promise<PaymentResult<{ url: string }>> {
   const returnUrl = `${window.location.origin}${window.location.pathname}`;
-  const r = await post('/checkout', { siteId: siteId.toLowerCase(), lang, deviceId: getOrCreateDeviceId(), returnUrl, ...(promo ? { promo } : {}), ...(currency ? { currency } : {}) });
+  const r = await post('/checkout', { siteId: siteId.toLowerCase(), lang, deviceId: getOrCreateDeviceId(), returnUrl, ...(promo ? { promo } : {}), ...(currency ? { currency } : {}), ...(aliado ? { aliado } : {}) });
   if (!r.ok) return r;
   if (typeof r.data?.url !== 'string' || !/^https:\/\//.test(r.data.url)) return { ok: false, error: 'stripe_error' };
   return { ok: true, data: { url: r.data.url } };
@@ -311,4 +311,11 @@ export function capturePassFromUrl(): string | null {
 /** Dirección que activa el pase en otro teléfono (la usa el QR y el botón de compartir). */
 export function passShareUrl(code: string): string {
   return `https://xolotli.com/?pase=${encodeURIComponent(code)}`;
+}
+
+/** Nombre y descuento de un aliado activo (hotel, Airbnb…), para su enlace xolotli.com/h/<slug>. */
+export async function fetchAliado(slug: string): Promise<{ slug: string; nombre: string; percentOff: number } | null> {
+  const r = await call(`/aliado?slug=${encodeURIComponent(slug)}`);
+  if (!r.ok || typeof r.data?.slug !== 'string') return null;
+  return { slug: r.data.slug, nombre: String(r.data.nombre || r.data.slug), percentOff: Number(r.data.percentOff) || 0 };
 }

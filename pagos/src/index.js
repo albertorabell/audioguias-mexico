@@ -12,6 +12,9 @@
 //   POST /contacto     mensaje o reporte de error del formulario de la app; se guarda 90 días y avisa por correo
 //   GET  /mensajes     esos mensajes (solo con la clave STATS_KEY)
 //   GET  /estadisticas  resumen de esos conteos (solo con la clave STATS_KEY)
+//   GET  /aliado?slug=  nombre y descuento de un hotel/aliado activo (público; nunca la comisión)
+//   POST /admin/aliados  el robot de GitHub publica la hoja ALIADOS (descuento y comisión de cada uno); solo con CODES_KEY
+//   GET  /aliados/reporte  visitas, compras y comisión por aliado (solo con la clave STATS_KEY)
 //   GET  /config     precios y forma de acceso (del sitio pedido con ?site=, o los de Stripe si no hay tabla) y reglas del pase
 //   POST /admin/codigos  el robot de GitHub publica los códigos de acceso (hoja CODIGOS); solo con la clave CODES_KEY
 //   GET  /admin/canjes   reporte de cuántas veces se usó cada código de acceso (solo con la clave CODES_KEY)
@@ -323,6 +326,7 @@ async function handleStripeWebhook(request, env, cfg, cors) {
   const session = list?.data?.[0];
   if (!session || !book.ids.has(session.metadata?.site_id)) return json({ received: true, ignored: true }, 200, cors);
   await revokeSession(env, cfg, session.id);
+  if (session.metadata?.aliado && /^[a-z0-9_-]{2,20}$/.test(session.metadata.aliado)) await env.PASES.delete(`as:${session.metadata.aliado}:${sid12(session.id)}`);
   await countEvent(env, 'refund', { s: session.metadata.site_id, k: event.type === 'charge.dispute.created' ? 'disputa' : 'reembolso' });
   return json({ received: true, revoked: true }, 200, cors);
 }
@@ -580,10 +584,8 @@ async function handleMessages(request, env, url, cors) {
   return json({ total: out.length, mensajes: out }, 200, cors);
 }
 
-async function handleStats(request, env, url, cors) {
-  const auth = request.headers.get('Authorization') || '';
-  if (!env.STATS_KEY || !timingSafeEqual(auth, `Bearer ${env.STATS_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
-  const days = Math.min(Math.max(parseInt(url.searchParams.get('dias') || '30', 10) || 30, 1), 400);
+/** Conteos por día de los últimos `days` días: { 'AAAA-MM-DD': { 'evento|sitio|…': n } }. */
+async function leerConteos(env, days) {
   const fechas = [];
   for (let i = 0; i < days; i++) fechas.push(new Date(Date.now() - i * 86400_000).toISOString().slice(0, 10));
   const out = {};
@@ -611,7 +613,122 @@ async function handleStats(request, env, url, cors) {
       for (const [k, n] of Object.entries(c)) destino[k] = (destino[k] || 0) + n;
     }
   }
-  return json({ dias: days, zona: 'UTC', exacto: !!env.CONTADOR, conteos: out }, 200, cors);
+  return out;
+}
+
+async function handleStats(request, env, url, cors) {
+  const auth = request.headers.get('Authorization') || '';
+  if (!env.STATS_KEY || !timingSafeEqual(auth, `Bearer ${env.STATS_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
+  const days = Math.min(Math.max(parseInt(url.searchParams.get('dias') || '30', 10) || 30, 1), 400);
+  return json({ dias: days, zona: 'UTC', exacto: !!env.CONTADOR, conteos: await leerConteos(env, days) }, 200, cors);
+}
+
+// ---------------------------------------------------------------------------
+// Aliados (hoteles, Airbnb, tours). Los define Alberto en la hoja ALIADOS de CONTROL (slug, nombre, descuento, comisión, activo);
+// el robot de GitHub los publica aquí. Cada aliado tiene su dirección (xolotli.com/h/<slug>), su descuento para los huéspedes
+// y su comisión. La comisión NUNCA sale en las respuestas públicas, solo en el reporte con la clave de estadísticas.
+// ---------------------------------------------------------------------------
+const ALIADO_RE = /^[a-z0-9_-]{2,20}$/;
+const aliadoKey = (slug) => `al:${slug}`;
+const SALE_TTL = 800 * 86400;
+
+async function readAliado(env, slug) {
+  if (!ALIADO_RE.test(slug)) return null;
+  const raw = await env.PASES.get(aliadoKey(slug));
+  return raw ? JSON.parse(raw) : null;
+}
+
+/** Aliado activo (o null). */
+async function loadAliado(env, slug) {
+  const a = await readAliado(env, slug);
+  return a && a.active ? a : null;
+}
+
+async function handleAliado(env, url, cors) {
+  const slug = String(url.searchParams.get('slug') || '').trim().toLowerCase();
+  const a = await loadAliado(env, slug);
+  if (!a) return json({ error: 'not_found' }, 404, cors);
+  return json({ slug, nombre: a.nombre, percentOff: a.off }, 200, cors);
+}
+
+async function handleAdminAliados(request, env, cors) {
+  const auth = request.headers.get('Authorization') || '';
+  if (!env.CODES_KEY) return json({ error: 'not_configured' }, 503, cors);
+  if (!timingSafeEqual(auth, `Bearer ${env.CODES_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
+  let body;
+  try {
+    const text = await request.text();
+    if (text.length > 100_000) return json({ error: 'bad_request' }, 400, cors);
+    body = JSON.parse(text);
+  } catch {
+    return json({ error: 'bad_request' }, 400, cors);
+  }
+  const result = { saved: 0, removed: 0, rejected: [] };
+  const keep = new Set();
+  for (const a of Array.isArray(body?.aliados) ? body.aliados.slice(0, 300) : []) {
+    const slug = String(a?.slug || '').trim().toLowerCase();
+    const off = Number(a?.off);
+    const com = Number(a?.com);
+    if (!ALIADO_RE.test(slug) || !(off >= 0 && off <= 90) || !(com >= 0 && com <= 50)) {
+      result.rejected.push(slug || '(sin slug)');
+      continue;
+    }
+    keep.add(slug);
+    await env.PASES.put(aliadoKey(slug), JSON.stringify({ nombre: String(a.nombre || slug).slice(0, 80), off, com, active: a.active !== false }));
+    result.saved++;
+  }
+  // Los que ya no están en la hoja se borran (sus ventas pasadas se conservan para el reporte)
+  if (typeof env.PASES.list === 'function') {
+    const res = await env.PASES.list({ prefix: 'al:', limit: 1000 });
+    for (const k of res.keys || []) {
+      if (!keep.has(k.name.slice(3))) {
+        await env.PASES.delete(k.name);
+        result.removed++;
+      }
+    }
+  }
+  return json(result, 200, cors);
+}
+
+/** Anota la venta de un aliado (una vez por compra). La comisión se fija con el porcentaje vigente en ese momento. */
+async function recordAllySale(env, session) {
+  const slug = String(session.metadata?.aliado || '').toLowerCase();
+  if (!ALIADO_RE.test(slug)) return;
+  const a = await readAliado(env, slug);
+  await env.PASES.put(`as:${slug}:${sid12(session.id)}`, JSON.stringify({ at: Date.now(), site: session.metadata?.site_id || '', cur: String(session.currency || '').toLowerCase(), cents: Number(session.amount_total) || 0, com: a ? a.com : 0 }), { expirationTtl: SALE_TTL });
+}
+
+async function handleAllyReport(request, env, url, cors) {
+  const auth = request.headers.get('Authorization') || '';
+  if (!env.STATS_KEY || !timingSafeEqual(auth, `Bearer ${env.STATS_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
+  if (typeof env.PASES.list !== 'function') return json({ error: 'not_configured' }, 503, cors);
+  const days = Math.min(Math.max(parseInt(url.searchParams.get('dias') || '30', 10) || 30, 1), 400);
+  const since = Date.now() - days * 86400_000;
+  const rows = {};
+  const list = await env.PASES.list({ prefix: 'al:', limit: 1000 });
+  for (const k of list.keys || []) {
+    const a = JSON.parse((await env.PASES.get(k.name)) || 'null');
+    if (a) rows[k.name.slice(3)] = { slug: k.name.slice(3), nombre: a.nombre, off: a.off, com: a.com, active: a.active, visitas: 0, compras: 0, ventas: {}, comision: {} };
+  }
+  const conteos = await leerConteos(env, days);
+  for (const day of Object.values(conteos)) {
+    for (const [key, n] of Object.entries(day)) {
+      const parts = key.split('|');
+      if (parts[0] === 'ally_visit' && rows[parts[5]]) rows[parts[5]].visitas += n;
+    }
+  }
+  for (const slug of Object.keys(rows)) {
+    const sales = await env.PASES.list({ prefix: `as:${slug}:`, limit: 1000 });
+    for (const k of sales.keys || []) {
+      const v = JSON.parse((await env.PASES.get(k.name)) || 'null');
+      if (!v || v.at < since) continue;
+      const r = rows[slug];
+      r.compras++;
+      r.ventas[v.cur] = (r.ventas[v.cur] || 0) + v.cents;
+      r.comision[v.cur] = (r.comision[v.cur] || 0) + Math.round((v.cents * v.com) / 100);
+    }
+  }
+  return json({ dias: days, zona: 'UTC', aliados: Object.values(rows).sort((x, y) => y.compras - x.compras || y.visitas - x.visitas) }, 200, cors);
 }
 
 // ---------------------------------------------------------------------------
@@ -726,6 +843,15 @@ async function handleCheckout(request, env, cfg, cors) {
     if (promo.error) return json({ error: promo.error }, promo.error === 'stripe_error' ? 502 : 404, cors);
   }
 
+  // Aliado (hotel): descuento para sus huéspedes. Un código de descuento escrito a mano manda sobre el del aliado.
+  let aliado = null;
+  let aliadoSlug = '';
+  if (body.aliado) {
+    aliadoSlug = String(body.aliado).trim().toLowerCase();
+    aliado = await loadAliado(env, aliadoSlug);
+    if (!aliado) return json({ error: 'promo_invalid' }, 404, cors);
+  }
+
   const params = new URLSearchParams();
   params.set('mode', 'payment');
   if (q.inline) {
@@ -742,12 +868,21 @@ async function handleCheckout(request, env, cfg, cors) {
   params.set('client_reference_id', deviceId);
   params.set('metadata[site_id]', siteId);
   params.set('metadata[device_id]', deviceId);
+  if (aliado) {
+    params.set('metadata[aliado]', aliadoSlug);
+    params.set('metadata[aliado_off]', String(aliado.off));
+  }
   if (promo) {
     params.set('discounts[0][promotion_code]', promo.id);
     params.set('metadata[promo]', promo.code);
   }
 
   try {
+    if (aliado && !promo && aliado.off > 0) {
+      const c = new URLSearchParams({ percent_off: String(aliado.off), duration: 'once', max_redemptions: '1', name: `Aliado ${aliadoSlug}`.slice(0, 40) });
+      const coupon = await stripeCall(env, 'POST', 'coupons', c);
+      params.set('discounts[0][coupon]', coupon.id);
+    }
     const session = await stripeCall(env, 'POST', 'checkout/sessions', params);
     return json({ url: session.url, sessionId: session.id }, 200, cors);
   } catch (e) {
@@ -790,6 +925,7 @@ async function handleRedeem(request, env, cfg, cors) {
     await env.PASES.put(codeKey(pass.code), sessionId, { expirationTtl: Math.ceil(passState(pass, cfg).expiresAt / 1000 - Date.now() / 1000) + 7 * 86400 });
     await savePass(env, cfg, sessionId, pass);
     await countEvent(env, 'purchase', { s: site, k: String(session.currency || '').toLowerCase() });
+    await recordAllySale(env, session);
   }
   const r = await grantAccess(env, cfg, book, sessionId, pass, deviceId);
   return r.error ? json({ error: r.error }, r.status, cors) : json(r.body, 200, cors);
@@ -1195,6 +1331,9 @@ export default {
       if (url.pathname === '/estadisticas' && request.method === 'GET') return handleStats(request, env, url, cors);
       if (url.pathname === '/mensajes' && request.method === 'GET') return handleMessages(request, env, url, cors);
       if (url.pathname === '/recorridos' && request.method === 'GET') return handleVisits(request, env, url, cors);
+      if (url.pathname === '/aliado' && request.method === 'GET') return handleAliado(env, url, cors);
+      if (url.pathname === '/aliados/reporte' && request.method === 'GET') return handleAllyReport(request, env, url, cors);
+      if (url.pathname === '/admin/aliados' && request.method === 'POST') return handleAdminAliados(request, env, cors);
       if (url.pathname === '/health') return json({ ok: true }, 200, cors);
       if (url.pathname === '/config' && request.method === 'GET') return handleConfig(env, cfg, cors, url);
       if (url.pathname === '/admin/codigos' && request.method === 'POST') return handleAdminCodes(request, env, cors);

@@ -269,6 +269,7 @@ export const DE_GROUPS: Record<string, any> = {
       label: 'Rabattcode',
       apply: 'Einlösen',
       applied: (code: string, pct: number) => `Code ${code}: ${pct} % Rabatt`,
+      allyApplied: (n: string, pct: number) => `Gast von ${n}: ${pct} % Rabatt`,
     },
     haveCode: 'Ich habe schon einen Code',
     recover: {

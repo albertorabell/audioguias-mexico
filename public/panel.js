@@ -5,7 +5,7 @@
     set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
     del: function (k) { try { localStorage.removeItem(k); } catch (e) {} }
   };
-  var data = null, visits = null, messages = null, exact = false;
+  var data = null, visits = null, messages = null, exact = false, allies = null;
 
   // El servidor es siempre el mismo: se ignora cualquier dirección guardada antes (daba 404 si estaba mal escrita)
   store.del('panel_api');
@@ -43,12 +43,18 @@
       var mr = await fetch(api + '/mensajes', { headers: { Authorization: 'Bearer ' + key } });
       if (mr.ok) messages = (await mr.json()).mensajes || [];
     } catch (e) { /* el servidor aún no tiene el formulario: la sección queda vacía */ }
+    allies = null;
+    try {
+      var ar = await fetch(api + '/aliados/reporte?dias=' + days, { headers: { Authorization: 'Bearer ' + key } });
+      if (ar.ok) allies = (await ar.json()).aliados || [];
+    } catch (e) { /* el servidor aún no tiene aliados: la pestaña queda vacía */ }
     store.set('panel_api', api);
     store.set('panel_key', key);
     $('login').hidden = true;
     $('view').hidden = false;
     fillSites();
     render();
+    if (!$('tabAliados').hidden) renderAllies();
   }
 
   function fail(msg) { $('loginErr').textContent = msg; $('loginErr').hidden = false; $('login').hidden = false; $('view').hidden = true; }
@@ -348,6 +354,41 @@
   }
 
   $('loginForm').addEventListener('submit', function (e) { e.preventDefault(); load(); });
+  function money(obj) {
+    var parts = [];
+    ['mxn', 'usd'].forEach(function (c) { if (obj && obj[c]) parts.push((obj[c] / 100).toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' ' + c.toUpperCase()); });
+    return parts.length ? parts.join(' + ') : '–';
+  }
+  function renderAllies() {
+    var tiles = $('atiles'), table = $('atabla');
+    tiles.innerHTML = ''; table.innerHTML = '';
+    if (allies === null) { $('anote').textContent = 'El servidor todavía no tiene la sección de aliados: publica el servidor de pagos con la versión nueva.'; return; }
+    var v = 0, c = 0, sales = {}, com = {};
+    allies.forEach(function (a) {
+      v += a.visitas; c += a.compras;
+      Object.keys(a.ventas).forEach(function (k) { sales[k] = (sales[k] || 0) + a.ventas[k]; });
+      Object.keys(a.comision).forEach(function (k) { com[k] = (com[k] || 0) + a.comision[k]; });
+    });
+    [['Visitas por enlaces de aliados', fmt(v)], ['Compras', fmt(c)], ['Vendido', money(sales)], ['Comisión por pagar', money(com)]].forEach(function (t) {
+      var d = el('div', undefined, 'card tile'); d.appendChild(el('b', t[1])); d.appendChild(el('span', t[0])); tiles.appendChild(d);
+    });
+    var head = el('tr'); ['Aliado', 'Dto.', 'Com.', 'Visitas', 'Compras', 'Conversión', 'Vendido', 'Comisión'].forEach(function (h) { head.appendChild(el('th', h)); }); table.appendChild(head);
+    allies.forEach(function (a) {
+      var tr = el('tr');
+      tr.appendChild(el('td', a.nombre + (a.active ? '' : ' (apagado)')));
+      tr.lastChild.title = 'xolotli.com/h/' + a.slug;
+      [a.off + ' %', a.com + ' %', fmt(a.visitas), fmt(a.compras), pct(a.compras, a.visitas), money(a.ventas), money(a.comision)].forEach(function (x) { tr.appendChild(el('td', x)); });
+      table.appendChild(tr);
+    });
+    $('anote').textContent = allies.length ? '' : 'Todavía no hay aliados: agrégalos en la pestaña ALIADOS de CONTROL y publica.';
+  }
+  function showTab(name) {
+    $('tabUso').hidden = name !== 'uso'; $('tabAliados').hidden = name !== 'aliados';
+    $('tabBtnUso').className = 'tabbtn' + (name === 'uso' ? ' on' : ''); $('tabBtnAliados').className = 'tabbtn' + (name === 'aliados' ? ' on' : '');
+    if (name === 'aliados') renderAllies();
+  }
+  $('tabBtnUso').addEventListener('click', function () { showTab('uso'); });
+  $('tabBtnAliados').addEventListener('click', function () { showTab('aliados'); });
   $('days').addEventListener('change', load);
   $('site').addEventListener('change', render);
   $('gran').addEventListener('change', render);

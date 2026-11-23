@@ -6,6 +6,7 @@ import { useLanguage } from '../utils/LanguageContext';
 import { PASS_DAYS, PASS_MAX_DEVICES } from '../config/pass';
 import { PAYMENTS_ENABLED } from '../config/payments';
 import { fetchPricing, PricingInfo, redeemCode, requestRecovery, startCheckout, PaymentErrorCode, previewPromo, getSavedPromo, savePromo, clearSavedPromo, passShareUrl } from '../utils/payments';
+import { aliadoGuardado, olvidarAliado } from '../utils/aliado';
 import { SPEECH_LOCALE } from '../i18n/languages';
 import { track } from '../utils/analytics';
 import { ttsPlayer } from '../utils/ttsPlayer';
@@ -82,7 +83,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   // Código de descuento: lo que se escribe, el que ya se revisó y se aplicó, y si se está revisando
   const [showPromo, setShowPromo] = useState(false);
   const [promoInput, setPromoInput] = useState('');
-  const [promo, setPromo] = useState<{ code: string; percentOff: number } | null>(null);
+  const [manualPromo, setPromo] = useState<{ code: string; percentOff: number } | null>(null);
+  // Descuento del hotel o aliado cuyo enlace/QR abrió la persona (guardado 30 días). Un código escrito a mano manda sobre este.
+  const [ally, setAlly] = useState(() => aliadoGuardado());
+  const promo = manualPromo ?? (ally && ally.percentOff > 0 ? { code: ally.nombre, percentOff: ally.percentOff, ally: true as const } : null);
   const [promoError, setPromoError] = useState<PaymentErrorCode | null>(null);
   const [promoBusy, setPromoBusy] = useState(false);
 
@@ -140,7 +144,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   // Si la persona llegó con un código (QR del hotel), se revisa solo al abrir la ventana
   useEffect(() => {
-    if (!isOpen || !PAYMENTS_ENABLED || promo || hasPass) return;
+    if (!isOpen || !PAYMENTS_ENABLED || manualPromo || hasPass) return;
     const saved = getSavedPromo();
     if (saved) {
       setShowPromo(true);
@@ -257,13 +261,19 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     setError(null);
     setBusy(isCombo ? `combo:${target}` : 'checkout');
     track('checkout_start', { l: currentLanguage, s: target });
-    const r = await startCheckout(target, currentLanguage, isCombo ? undefined : promo?.code, isCombo ? undefined : bothCurrencies ? (usingUsd ? 'usd' : 'mxn') : undefined);
+    const r = await startCheckout(target, currentLanguage, isCombo ? undefined : manualPromo?.code, isCombo ? undefined : bothCurrencies ? (usingUsd ? 'usd' : 'mxn') : undefined, ally?.slug);
     if (r.ok) {
       // Se sale a la página segura de Stripe; al pagar, Stripe regresa a esta app
       window.location.assign(r.data.url);
       return;
     }
     setBusy(null);
+    if (ally && r.error === 'promo_invalid' && !manualPromo) {
+      // El aliado se apagó: se olvida y la persona vuelve a ver el precio normal
+      olvidarAliado();
+      setAlly(null);
+      return;
+    }
     if (r.error === 'promo_invalid' || r.error === 'promo_not_for_site') {
       // El código dejó de servir (venció o se agotó): se quita y se avisa, sin cobrar nada
       setPromo(null);
@@ -427,7 +437,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             </p>
             {promo && (
               <p data-testid="promo-applied" className="mt-1 text-cap font-semibold text-jade-ink">
-                {t.promo.applied(promo.code, promo.percentOff)}
+                {'ally' in promo ? t.promo.allyApplied(promo.code, promo.percentOff) : t.promo.applied(promo.code, promo.percentOff)}
               </p>
             )}
             <p className="text-cap text-ink-3 mt-1">{t.priceNote}</p>

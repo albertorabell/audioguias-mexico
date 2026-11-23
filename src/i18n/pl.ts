@@ -243,6 +243,7 @@ export const PL_GROUPS: Record<string, any> = {
       label: 'Kod rabatowy',
       apply: 'Zastosuj',
       applied: (code: string, pct: number) => `Kod ${code}: rabat ${pct}%`,
+      allyApplied: (n: string, pct: number) => `Gość ${n}: rabat ${pct}%`,
     },
     haveCode: 'Mam kod',
     recover: {

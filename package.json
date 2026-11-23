@@ -29,6 +29,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.4",
+    "pdfkit": "^0.21.0",
     "sharp": "^0.35.5",
     "tailwindcss": "^4.1.14",
     "typescript": "~5.8.2",

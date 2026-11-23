@@ -4,7 +4,7 @@ import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useSta
 import { X } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, PieceData, SiteLicense, Room } from './types';
 import { getSiteLicense, activatePass, revokePass, hasActivePass, isFreeAccess, setFreeAccess, setFreeSites } from './utils/license';
-import { fetchAccessMode, readPaymentReturn, redeemPendingSession, refreshPendingPasses, RETRYABLE_ERRORS, capturePromoFromUrl, capturePassFromUrl, redeemCode } from './utils/payments';
+import { fetchAccessMode, readPaymentReturn, redeemPendingSession, refreshPendingPasses, RETRYABLE_ERRORS, capturePromoFromUrl, capturePassFromUrl, redeemCode, fetchAliado } from './utils/payments';
 import { PASS_HOURS, PASS_DAYS } from './config/pass';
 import { Home } from './components/Home';
 import { MuseumScreen, ContinueInfo, byOrder } from './components/MuseumScreen';
@@ -27,6 +27,7 @@ import { getAssetUrl, normalizePiece, findPiece } from './utils/urlHelper';
 import { withCoordFixes } from './config/coordFixes';
 import { leerRuta, rutaDe, canonicaDe } from './utils/rutas';
 import { guardarParada, leerRegistro } from './utils/reanudar';
+import { slugDeRuta, guardarAliado } from './utils/aliado';
 import { ttsPlayer } from './utils/ttsPlayer';
 import { useBackClose } from './utils/useBackClose';
 import { useLanguage } from './utils/LanguageContext';
@@ -147,6 +148,18 @@ export default function App() {
   useEffect(() => {
     // Un QR o enlace con ?c=CODIGO deja guardado el código de descuento para cuando se abra la ventana de pago
     capturePromoFromUrl();
+    // Enlace o QR de un hotel (xolotli.com/h/<slug>): se guarda su descuento y la dirección vuelve a la portada
+    const aliadoSlug = slugDeRuta(window.location.pathname);
+    if (aliadoSlug) {
+      try {
+        window.history.replaceState(window.history.state, '', `/${window.location.search}${window.location.hash}`);
+      } catch {
+        /* sin acceso a la dirección */
+      }
+      void fetchAliado(aliadoSlug).then((a) => {
+        if (a) guardarAliado(a);
+      });
+    }
     track('app_open', { l: currentLanguage, k: trafficSource() });
     if (allySource()) track('ally_visit', { k: allySource() });
     // Visitante nuevo: solo una marca en este navegador (sin identificador); permite ver cuántas personas llegan por primera vez
