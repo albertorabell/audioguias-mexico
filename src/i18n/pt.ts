@@ -234,6 +234,7 @@ export const PT_GROUPS: Record<string, any> = {
     copy: 'Copiar',
     copied: 'Copiado!',
     share: 'Compartilhar',
+    qrHint: 'Escaneie este QR com o outro celular e o passe é ativado sozinho.',
     shareText: (site: string, code: string) => `Meu código Xolo para ${site}: ${code}. Digite em xolotli.com para entrar.`,
     sampleListen: "Ouvir uma amostra grátis",
     sampleStop: "Parar a amostra",

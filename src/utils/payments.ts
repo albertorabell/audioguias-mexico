@@ -290,3 +290,25 @@ export function capturePromoFromUrl(): string | null {
   }
   return getSavedPromo();
 }
+
+/** Un QR o enlace con ?pase=CODIGO trae el código del pase para el segundo teléfono. Se quita de la dirección y se devuelve. */
+export function capturePassFromUrl(): string | null {
+  if (typeof window === 'undefined') return null;
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get('pase');
+    if (raw === null) return null;
+    params.delete('pase');
+    const qs = params.toString();
+    window.history.replaceState(window.history.state, '', `${window.location.pathname}${qs ? `?${qs}` : ''}${window.location.hash}`);
+    const code = raw.trim().toUpperCase();
+    return /^[A-Z0-9]{8}$/.test(code) ? code : null;
+  } catch {
+    return null;
+  }
+}
+
+/** Dirección que activa el pase en otro teléfono (la usa el QR y el botón de compartir). */
+export function passShareUrl(code: string): string {
+  return `https://xolotli.com/?pase=${encodeURIComponent(code)}`;
+}

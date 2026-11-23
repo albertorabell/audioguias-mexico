@@ -234,6 +234,7 @@ export const DE_GROUPS: Record<string, any> = {
     copy: 'Kopieren',
     copied: 'Kopiert!',
     share: 'Teilen',
+    qrHint: 'Scanne diesen QR-Code mit dem anderen Handy, dann aktiviert sich der Pass von selbst.',
     shareText: (site: string, code: string) => `Mein Audioguía-Xolo-Code für ${site}: ${code}. Gib ihn auf xolotli.com ein, um Zugang zu erhalten.`,
     sampleListen: "Kostenlose Hörprobe anhören",
     sampleStop: "Hörprobe stoppen",
