@@ -208,6 +208,7 @@ export const PL_GROUPS: Record<string, any> = {
     copy: 'Kopiuj',
     copied: 'Skopiowano!',
     share: 'Udostępnij',
+    qrHint: 'Zeskanuj ten kod QR drugim telefonem, a karnet aktywuje się sam.',
     shareText: (site: string, code: string) => `Mój kod Xolo dla ${site}: ${code}. Wpisz go na xolotli.com, aby wejść.`,
     sampleListen: "Posłuchaj darmowej próbki",
     sampleStop: "Zatrzymaj próbkę",

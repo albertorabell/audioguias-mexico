@@ -4,7 +4,7 @@ import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useSta
 import { X } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, PieceData, SiteLicense, Room } from './types';
 import { getSiteLicense, activatePass, revokePass, hasActivePass, isFreeAccess, setFreeAccess, setFreeSites } from './utils/license';
-import { fetchAccessMode, readPaymentReturn, redeemPendingSession, refreshPendingPasses, RETRYABLE_ERRORS, capturePromoFromUrl } from './utils/payments';
+import { fetchAccessMode, readPaymentReturn, redeemPendingSession, refreshPendingPasses, RETRYABLE_ERRORS, capturePromoFromUrl, capturePassFromUrl, redeemCode } from './utils/payments';
 import { PASS_HOURS, PASS_DAYS } from './config/pass';
 import { Home } from './components/Home';
 import { MuseumScreen, ContinueInfo, byOrder } from './components/MuseumScreen';
@@ -306,6 +306,20 @@ export default function App() {
   useEffect(() => {
     if (paymentCheckedRef.current) return;
     paymentCheckedRef.current = true;
+    // Segundo teléfono: el QR o enlace del pase trae el código y se activa solo
+    const passCode = capturePassFromUrl();
+    if (passCode) {
+      setPaymentNotice({ kind: 'info', text: t.paywall.notice.confirming });
+      redeemCode(passCode, '').then((r) => {
+        if (r.ok) {
+          setLicenseVersion((v) => v + 1);
+          setPaymentNotice({ kind: 'success', text: t.paywall.notice.codeOk });
+        } else {
+          setPaymentNotice({ kind: 'error', text: t.paywall.errors[r.error] });
+        }
+      });
+      return;
+    }
     const returned = readPaymentReturn();
     if (returned?.status === 'cancelled') {
       setPaymentNotice({ kind: 'info', text: t.paywall.notice.cancelled });

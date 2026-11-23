@@ -5,7 +5,7 @@ import { formatPrice } from '../utils/price';
 import { useLanguage } from '../utils/LanguageContext';
 import { PASS_DAYS, PASS_MAX_DEVICES } from '../config/pass';
 import { PAYMENTS_ENABLED } from '../config/payments';
-import { fetchPricing, PricingInfo, redeemCode, requestRecovery, startCheckout, PaymentErrorCode, previewPromo, getSavedPromo, savePromo, clearSavedPromo } from '../utils/payments';
+import { fetchPricing, PricingInfo, redeemCode, requestRecovery, startCheckout, PaymentErrorCode, previewPromo, getSavedPromo, savePromo, clearSavedPromo, passShareUrl } from '../utils/payments';
 import { SPEECH_LOCALE } from '../i18n/languages';
 import { track } from '../utils/analytics';
 import { ttsPlayer } from '../utils/ttsPlayer';
@@ -189,6 +189,23 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     }
   }, [isOpen]);
 
+  // QR con el enlace que activa el pase en el otro teléfono (se genera aquí, sin servidor)
+  const [qrSvg, setQrSvg] = useState('');
+  useEffect(() => {
+    if (!passCode) {
+      setQrSvg('');
+      return;
+    }
+    let alive = true;
+    import('qrcode')
+      .then((m) => m.toString(passShareUrl(passCode), { type: 'svg', margin: 1, width: 176, errorCorrectionLevel: 'M' }))
+      .then((svg) => alive && setQrSvg(svg))
+      .catch(() => alive && setQrSvg(''));
+    return () => {
+      alive = false;
+    };
+  }, [passCode]);
+
   if (!isOpen) return null;
 
   const locale = SPEECH_LOCALE[currentLanguage];
@@ -298,7 +315,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const handleShare = async () => {
     if (!passCode) return;
     try {
-      await navigator.share({ title: siteName, text: t.shareText(siteName, passCode) });
+      await navigator.share({ title: siteName, text: t.shareText(siteName, passCode), url: passShareUrl(passCode) });
       track('pass_code_shared');
     } catch {
       /* la persona cerró el menú de compartir: no pasa nada */
@@ -378,6 +395,12 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                     </button>
                   )}
                 </div>
+                {qrSvg && (
+                  <div className="mt-3 flex flex-col items-center gap-1.5">
+                    <div data-testid="pass-qr" className="w-44 h-44 rounded-xl bg-white p-1 [&>svg]:w-full [&>svg]:h-full" dangerouslySetInnerHTML={{ __html: qrSvg }} />
+                    <p className="text-cap text-ink-3 text-center">{t.qrHint}</p>
+                  </div>
+                )}
                 <p className="text-cap mt-2 text-ink-3">{t.codeHint(maxDevices)}</p>
               </div>
             )}
