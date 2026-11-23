@@ -378,3 +378,6 @@ html.sin-copia img {
 .frase-pendiente {
   opacity: 0.72;
 }
+
+/* Texto de lectura de la obra: con A+ por encima de 150 % crece solo esto (el resto de la app se queda en 150 %) */
+#piece-text { zoom: var(--lectura, 1); }

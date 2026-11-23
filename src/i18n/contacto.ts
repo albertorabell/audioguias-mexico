@@ -28,6 +28,9 @@ export interface ContactoText {
   likeNoMore: string;
   reviewTitle: string;
   reviewSub: string;
+  /** Aviso breve a media visita (después de 4 paradas escuchadas) */
+  reviewMidTitle: string;
+  reviewLater: string;
   reviewStars: (n: number) => string;
   reviewPlaceholder: string;
   reviewPermit: string;
@@ -58,6 +61,8 @@ const es: ContactoText = {
   likeThanks: 'Gracias por tu respuesta.',
   likeNoMore: '¿Quieres contarnos qué mejorar?',
   reviewTitle: '¿Qué te pareció esta ruta?',
+  reviewMidTitle: '¿Qué tal va tu visita?',
+  reviewLater: 'Ahora no',
   reviewSub: 'Tu opinión ayuda a otras personas a decidir.',
   reviewStars: (n) => `${n} de 5 estrellas`,
   reviewPlaceholder: 'Una frase, si quieres (opcional)',
@@ -89,6 +94,8 @@ const en: ContactoText = {
   likeThanks: 'Thanks for your answer.',
   likeNoMore: 'Want to tell us what to improve?',
   reviewTitle: 'How was this route?',
+  reviewMidTitle: 'How is your visit going?',
+  reviewLater: 'Not now',
   reviewSub: 'Your opinion helps other people decide.',
   reviewStars: (n) => `${n} out of 5 stars`,
   reviewPlaceholder: 'One sentence, if you like (optional)',
@@ -120,6 +127,8 @@ const fr: ContactoText = {
   likeThanks: 'Merci pour votre réponse.',
   likeNoMore: 'Voulez-vous nous dire quoi améliorer ?',
   reviewTitle: 'Que pensez-vous de ce parcours ?',
+  reviewMidTitle: 'Comment se passe votre visite ?',
+  reviewLater: 'Plus tard',
   reviewSub: 'Votre avis aide les autres à choisir.',
   reviewStars: (n) => `${n} étoiles sur 5`,
   reviewPlaceholder: 'Une phrase, si vous le souhaitez (facultatif)',
@@ -151,6 +160,8 @@ const pl: ContactoText = {
   likeThanks: 'Dziękujemy za odpowiedź.',
   likeNoMore: 'Chcesz napisać, co poprawić?',
   reviewTitle: 'Jak oceniasz tę trasę?',
+  reviewMidTitle: 'Jak mija zwiedzanie?',
+  reviewLater: 'Nie teraz',
   reviewSub: 'Twoja opinia pomaga innym zdecydować.',
   reviewStars: (n) => `${n} z 5 gwiazdek`,
   reviewPlaceholder: 'Jedno zdanie, jeśli chcesz (opcjonalnie)',
@@ -182,6 +193,8 @@ const de: ContactoText = {
   likeThanks: 'Danke für deine Antwort.',
   likeNoMore: 'Möchtest du uns sagen, was wir verbessern können?',
   reviewTitle: 'Wie war diese Route?',
+  reviewMidTitle: 'Wie gefällt dir der Besuch bisher?',
+  reviewLater: 'Später',
   reviewSub: 'Deine Meinung hilft anderen bei der Entscheidung.',
   reviewStars: (n) => `${n} von 5 Sternen`,
   reviewPlaceholder: 'Ein Satz, wenn du magst (optional)',
@@ -213,6 +226,8 @@ const pt: ContactoText = {
   likeThanks: 'Obrigado pela resposta.',
   likeNoMore: 'Quer contar o que melhorar?',
   reviewTitle: 'O que você achou desta rota?',
+  reviewMidTitle: 'Como está sendo a sua visita?',
+  reviewLater: 'Agora não',
   reviewSub: 'Sua opinião ajuda outras pessoas a decidir.',
   reviewStars: (n) => `${n} de 5 estrelas`,
   reviewPlaceholder: 'Uma frase, se quiser (opcional)',
@@ -244,6 +259,8 @@ const it: ContactoText = {
   likeThanks: 'Grazie per la risposta.',
   likeNoMore: 'Vuoi dirci cosa migliorare?',
   reviewTitle: 'Come ti è sembrato questo percorso?',
+  reviewMidTitle: 'Come sta andando la visita?',
+  reviewLater: 'Non ora',
   reviewSub: 'La tua opinione aiuta altre persone a decidere.',
   reviewStars: (n) => `${n} stelle su 5`,
   reviewPlaceholder: 'Una frase, se vuoi (facoltativa)',

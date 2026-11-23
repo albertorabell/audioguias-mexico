@@ -78,7 +78,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
 
   useEffect(() => {
     let alive = true;
-    checkIsTourCached(signature).then((cached) => {
+    checkIsTourCached(signature, urls).then((cached) => {
       if (!alive) return;
       setIsCached(cached);
       setProgress(

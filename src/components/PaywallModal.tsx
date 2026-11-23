@@ -240,9 +240,9 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   // Solo con código: el sitio no se vende con pase (lo dice la ficha del sitio o, si responde, el servidor)
   const codeOnly = pricing?.access ? pricing.access === 'codigo' : access === 'code';
-  // Pases combinados que abren este sitio, con su precio en la moneda del idioma
+  // Pases combinados que abren este sitio, en la misma moneda que eligió la persona para el pase del sitio
   const combos = (pricing?.combos || []).flatMap((c) => {
-    const amount = currentLanguage !== 'es' && c.prices.usd ? c.prices.usd : c.prices.mxn;
+    const amount = usingUsd && c.prices.usd ? c.prices.usd : c.prices.mxn;
     if (!amount) return [];
     const names = c.name as Record<string, string | undefined>;
     return [
@@ -261,7 +261,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     setError(null);
     setBusy(isCombo ? `combo:${target}` : 'checkout');
     track('checkout_start', { l: currentLanguage, s: target });
-    const r = await startCheckout(target, currentLanguage, isCombo ? undefined : manualPromo?.code, isCombo ? undefined : bothCurrencies ? (usingUsd ? 'usd' : 'mxn') : undefined, ally?.slug);
+    const r = await startCheckout(target, currentLanguage, isCombo ? undefined : manualPromo?.code, bothCurrencies || isCombo ? (usingUsd ? 'usd' : 'mxn') : undefined, ally?.slug);
     if (r.ok) {
       // Se sale a la página segura de Stripe; al pagar, Stripe regresa a esta app
       window.location.assign(r.data.url);

@@ -90,11 +90,13 @@ test('guía del museo: ya vista, no se abre sola al volver a entrar; en inglés 
   await expect(page.getByTestId('intro-title')).toHaveText('Start here');
 });
 
-test('guía de la obra: la primera vez señala escuchar, versión corta/completa, texto, siguiente, regresar y buscar', async ({ page }) => {
+test('guía de la obra: la primera vez solo se ofrece (no tapa el audio) y señala escuchar, versión corta/completa, texto, siguiente, regresar y buscar', async ({ page }) => {
   await page.goto('/');
   await page.evaluate(() => localStorage.removeItem('audioguias_tour_pieza'));
   await abrirPieza(page, FREE.title);
   const tour = page.locator('#modal-piece-tour');
+  await expect(tour).toBeHidden();
+  await page.locator('#btn-piece-help-hint').click();
   await expect(tour).toBeVisible();
   await expect(page.getByTestId('intro-title')).toHaveText('Toca aquí para escuchar');
   // El resaltado cae sobre el botón de escuchar

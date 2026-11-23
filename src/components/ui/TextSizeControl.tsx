@@ -2,14 +2,14 @@ import React from 'react';
 import { useLanguage } from '../../utils/LanguageContext';
 import { setTextScale, stepTextScale, TEXT_STEPS, useTextScale } from '../../utils/textSize';
 
-const ETIQUETAS: Record<string, { menos: string; mas: string; tamano: string }> = {
-  es: { menos: 'Texto más pequeño', mas: 'Texto más grande', tamano: 'Tamaño del texto' },
-  en: { menos: 'Smaller text', mas: 'Larger text', tamano: 'Text size' },
-  fr: { menos: 'Texte plus petit', mas: 'Texte plus grand', tamano: 'Taille du texte' },
-  pl: { menos: 'Mniejszy tekst', mas: 'Większy tekst', tamano: 'Rozmiar tekstu' },
-  de: { menos: 'Kleinerer Text', mas: 'Größerer Text', tamano: 'Textgröße' },
-  pt: { menos: 'Texto menor', mas: 'Texto maior', tamano: 'Tamanho do texto' },
-  it: { menos: 'Testo più piccolo', mas: 'Testo più grande', tamano: 'Dimensione del testo' },
+const ETIQUETAS: Record<string, { menos: string; mas: string; tamano: string; normal: string }> = {
+  es: { menos: 'Texto más pequeño', mas: 'Texto más grande', tamano: 'Tamaño del texto', normal: 'Tamaño normal' },
+  en: { menos: 'Smaller text', mas: 'Larger text', tamano: 'Text size', normal: 'Normal size' },
+  fr: { menos: 'Texte plus petit', mas: 'Texte plus grand', tamano: 'Taille du texte', normal: 'Taille normale' },
+  pl: { menos: 'Mniejszy tekst', mas: 'Większy tekst', tamano: 'Rozmiar tekstu', normal: 'Normalny rozmiar' },
+  de: { menos: 'Kleinerer Text', mas: 'Größerer Text', tamano: 'Textgröße', normal: 'Normale Größe' },
+  pt: { menos: 'Texto menor', mas: 'Texto maior', tamano: 'Tamanho do texto', normal: 'Tamanho normal' },
+  it: { menos: 'Testo più piccolo', mas: 'Testo più grande', tamano: 'Dimensione del testo', normal: 'Dimensione normale' },
 };
 
 /** Dos botones: texto más pequeño (A−) y más grande (A+). Se recuerda la elección. */
@@ -28,6 +28,11 @@ export const TextSizeControl: React.FC<{ className?: string }> = ({ className = 
       <button type="button" id="btn-text-larger" aria-label={t.mas} disabled={max} onClick={() => setTextScale(stepTextScale(pct, 1))} className={`${base} text-[1.0625rem]`}>
         A<span aria-hidden="true">+</span>
       </button>
+      {pct >= 150 && (
+        <button type="button" id="btn-text-reset" aria-label={t.normal} title={t.normal} onClick={() => setTextScale(100)} className={`${base} text-[0.75rem]`}>
+          <span aria-hidden="true">↺</span>
+        </button>
+      )}
     </div>
   );
 };

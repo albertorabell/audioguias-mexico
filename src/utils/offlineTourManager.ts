@@ -26,14 +26,27 @@ export function offlineSignature(urls: string[]): string {
   return `${urls.length}-${(h >>> 0).toString(36)}`;
 }
 
-/** true si ya se guardó esta misma lista (misma huella). Sin huella basta con que haya algo guardado. */
-export async function checkIsTourCached(signature?: string): Promise<boolean> {
+/**
+ * true si ya se guardó esta misma lista (misma huella). Sin huella basta con que haya algo guardado.
+ * Con `urls` además se revisa archivo por archivo: el navegador puede borrar parte de lo guardado cuando falta espacio,
+ * y entonces no se debe decir «listo para usar sin internet» (al volver a descargar solo se baja lo que falta).
+ */
+export async function checkIsTourCached(signature?: string, urls?: string[]): Promise<boolean> {
   try {
     const flag = localStorage.getItem(LOCAL_STORAGE_OFFLINE_KEY);
     if (!flag) return false;
     if (signature && flag !== signature) return false;
     if (!('caches' in window)) return false;
-    return await caches.has(CACHE_NAME);
+    if (!(await caches.has(CACHE_NAME))) return false;
+    if (!urls?.length) return true;
+    const cache = await caches.open(CACHE_NAME);
+    for (const u of new Set(urls.filter(Boolean))) {
+      if (!(await cache.match(u))) {
+        localStorage.removeItem(LOCAL_STORAGE_OFFLINE_KEY);
+        return false;
+      }
+    }
+    return true;
   } catch {
     return false;
   }
