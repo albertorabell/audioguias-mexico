@@ -50,7 +50,7 @@ export interface PortadaTexts {
 const es: PortadaTexts = {
   promesa: "México tiene historias extraordinarias. Escúchalas donde ocurrieron.",
   promesaSub: "Descubre museos, ciudades y zonas arqueológicas con audioguías que te cuentan lo que estás viendo, a tu ritmo y sin depender de un grupo.",
-  beneficios: [["Más de 400 paradas explicadas por expertos", "Desde la Piedra del Sol hasta las pirámides de Teotihuacán y Chichén Itzá."], ["Tú decides el recorrido", "Elige una sala o una zona, o sigue una ruta ya armada. Pausa, salta o repite cuando quieras."], ["Funciona sin internet", "Descarga la guía antes de entrar y escúchala aunque no haya señal."], ["En 7 idiomas", "Español, inglés, francés, alemán, italiano, portugués y polaco."]],
+  beneficios: [["Más de 400 paradas cuidadosamente documentadas", "Desde la Piedra del Sol hasta las pirámides de Teotihuacán y Chichén Itzá."], ["Tú decides el recorrido", "Elige una sala o una zona, o sigue una ruta ya armada. Pausa, salta o repite cuando quieras."], ["Funciona sin internet", "Descarga la guía antes de entrar y escúchala aunque no haya señal."], ["En 7 idiomas", "Español, inglés, francés, alemán, italiano, portugués y polaco."]],
   muestra: 'Escucha 30 segundos',
   muestraPausa: 'Pausar',
   muestraDe: 'La Piedra del Sol, en el Museo Nacional de Antropología',
@@ -81,7 +81,7 @@ const es: PortadaTexts = {
 const en: PortadaTexts = {
   promesa: "Mexico has extraordinary stories. Hear them where they happened.",
   promesaSub: "Discover museums, cities and archaeological sites with audio guides that tell you about what you are looking at, at your own pace and without depending on a group.",
-  beneficios: [["More than 400 stops explained by experts", "From the Sun Stone to the pyramids of Teotihuacan and Chichen Itza."], ["You choose the route", "Pick a room or a zone, or follow a ready-made tour. Pause, skip or replay whenever you like."], ["Works without internet", "Download the guide before you go in and listen even with no signal."], ["In 7 languages", "Spanish, English, French, German, Italian, Portuguese and Polish."]],
+  beneficios: [["More than 400 carefully researched stops", "From the Sun Stone to the pyramids of Teotihuacan and Chichen Itza."], ["You choose the route", "Pick a room or a zone, or follow a ready-made tour. Pause, skip or replay whenever you like."], ["Works without internet", "Download the guide before you go in and listen even with no signal."], ["In 7 languages", "Spanish, English, French, German, Italian, Portuguese and Polish."]],
   muestra: 'Listen for 30 seconds',
   muestraPausa: 'Pause',
   muestraDe: 'The Sun Stone, at the National Museum of Anthropology',
@@ -112,7 +112,7 @@ const en: PortadaTexts = {
 const fr: PortadaTexts = {
   promesa: "Le Mexique regorge d’histoires extraordinaires. Écoutez-les là où elles se sont déroulées.",
   promesaSub: "Découvrez musées, villes et sites archéologiques avec des audioguides qui vous racontent ce que vous voyez, à votre rythme, sans dépendre d’un groupe.",
-  beneficios: [["Plus de 400 étapes expliquées par des experts", "De la Pierre du Soleil aux pyramides de Teotihuacan et de Chichén Itzá."], ["Vous choisissez le parcours", "Choisissez une salle ou une zone, ou suivez un parcours tout prêt. Pause, saut ou répétition à volonté."], ["Fonctionne sans internet", "Téléchargez le guide avant d’entrer et écoutez-le même sans réseau."], ["En 7 langues", "Espagnol, anglais, français, allemand, italien, portugais et polonais."]],
+  beneficios: [["Plus de 400 étapes soigneusement documentées", "De la Pierre du Soleil aux pyramides de Teotihuacan et de Chichén Itzá."], ["Vous choisissez le parcours", "Choisissez une salle ou une zone, ou suivez un parcours tout prêt. Pause, saut ou répétition à volonté."], ["Fonctionne sans internet", "Téléchargez le guide avant d’entrer et écoutez-le même sans réseau."], ["En 7 langues", "Espagnol, anglais, français, allemand, italien, portugais et polonais."]],
   muestra: 'Écouter 30 secondes',
   muestraPausa: 'Pause',
   muestraDe: 'La Pierre du Soleil, au Musée national d’anthropologie',
@@ -143,7 +143,7 @@ const fr: PortadaTexts = {
 const pl: PortadaTexts = {
   promesa: "Meksyk ma niezwykłe historie. Posłuchaj ich tam, gdzie się wydarzyły.",
   promesaSub: "Odkrywaj muzea, miasta i stanowiska archeologiczne z audioprzewodnikami, które opowiadają o tym, co widzisz – w twoim tempie i bez grupy.",
-  beneficios: [["Ponad 400 przystanków objaśnionych przez ekspertów", "Od Kamienia Słońca po piramidy Teotihuacan i Chichén Itzá."], ["Ty wybierasz trasę", "Wybierz salę lub strefę albo gotową trasę. Zatrzymaj, pomiń lub powtórz, kiedy chcesz."], ["Działa bez internetu", "Pobierz przewodnik przed wejściem i słuchaj nawet bez zasięgu."], ["W 7 językach", "Hiszpański, angielski, francuski, niemiecki, włoski, portugalski i polski."]],
+  beneficios: [["Ponad 400 starannie opracowanych przystanków", "Od Kamienia Słońca po piramidy Teotihuacan i Chichén Itzá."], ["Ty wybierasz trasę", "Wybierz salę lub strefę albo gotową trasę. Zatrzymaj, pomiń lub powtórz, kiedy chcesz."], ["Działa bez internetu", "Pobierz przewodnik przed wejściem i słuchaj nawet bez zasięgu."], ["W 7 językach", "Hiszpański, angielski, francuski, niemiecki, włoski, portugalski i polski."]],
   muestra: 'Posłuchaj 30 sekund',
   muestraPausa: 'Pauza',
   muestraDe: 'Kamień Słońca w Narodowym Muzeum Antropologii',
@@ -174,7 +174,7 @@ const pl: PortadaTexts = {
 const de: PortadaTexts = {
   promesa: "Mexiko hat außergewöhnliche Geschichten. Hör sie dort, wo sie geschehen sind.",
   promesaSub: "Entdecke Museen, Städte und archäologische Stätten mit Audioguides, die dir erzählen, was du gerade siehst – in deinem Tempo und ohne Gruppe.",
-  beneficios: [["Mehr als 400 Stationen, von Experten erklärt", "Vom Sonnenstein bis zu den Pyramiden von Teotihuacan und Chichén Itzá."], ["Du bestimmst die Route", "Wähle einen Raum oder Bereich oder folge einer fertigen Tour. Pausieren, überspringen oder wiederholen, wann du willst."], ["Funktioniert ohne Internet", "Lade den Guide vor dem Eintritt herunter und hör ihn auch ohne Empfang."], ["In 7 Sprachen", "Spanisch, Englisch, Französisch, Deutsch, Italienisch, Portugiesisch und Polnisch."]],
+  beneficios: [["Mehr als 400 sorgfältig recherchierte Stationen", "Vom Sonnenstein bis zu den Pyramiden von Teotihuacan und Chichén Itzá."], ["Du bestimmst die Route", "Wähle einen Raum oder Bereich oder folge einer fertigen Tour. Pausieren, überspringen oder wiederholen, wann du willst."], ["Funktioniert ohne Internet", "Lade den Guide vor dem Eintritt herunter und hör ihn auch ohne Empfang."], ["In 7 Sprachen", "Spanisch, Englisch, Französisch, Deutsch, Italienisch, Portugiesisch und Polnisch."]],
   muestra: '30 Sekunden anhören',
   muestraPausa: 'Pause',
   muestraDe: 'Der Sonnenstein im Nationalmuseum für Anthropologie',
@@ -205,7 +205,7 @@ const de: PortadaTexts = {
 const pt: PortadaTexts = {
   promesa: "O México tem histórias extraordinárias. Ouça-as onde aconteceram.",
   promesaSub: "Descubra museus, cidades e sítios arqueológicos com audioguias que contam o que você está vendo, no seu ritmo e sem depender de um grupo.",
-  beneficios: [["Mais de 400 paradas explicadas por especialistas", "Da Pedra do Sol às pirâmides de Teotihuacán e Chichén Itzá."], ["Você escolhe o roteiro", "Escolha uma sala ou uma zona, ou siga um roteiro pronto. Pause, pule ou repita quando quiser."], ["Funciona sem internet", "Baixe o guia antes de entrar e ouça mesmo sem sinal."], ["Em 7 idiomas", "Espanhol, inglês, francês, alemão, italiano, português e polonês."]],
+  beneficios: [["Mais de 400 paradas cuidadosamente documentadas", "Da Pedra do Sol às pirâmides de Teotihuacán e Chichén Itzá."], ["Você escolhe o roteiro", "Escolha uma sala ou uma zona, ou siga um roteiro pronto. Pause, pule ou repita quando quiser."], ["Funciona sem internet", "Baixe o guia antes de entrar e ouça mesmo sem sinal."], ["Em 7 idiomas", "Espanhol, inglês, francês, alemão, italiano, português e polonês."]],
   muestra: 'Ouça 30 segundos',
   muestraPausa: 'Pausar',
   muestraDe: 'A Pedra do Sol, no Museu Nacional de Antropologia',
@@ -236,7 +236,7 @@ const pt: PortadaTexts = {
 const it: PortadaTexts = {
   promesa: "Il Messico ha storie straordinarie. Ascoltale dove sono accadute.",
   promesaSub: "Scopri musei, città e siti archeologici con audioguide che ti raccontano ciò che stai guardando, con i tuoi tempi e senza dipendere da un gruppo.",
-  beneficios: [["Oltre 400 tappe spiegate da esperti", "Dalla Pietra del Sole alle piramidi di Teotihuacan e Chichén Itzá."], ["Scegli tu il percorso", "Scegli una sala o una zona, o segui un percorso già pronto. Pausa, salta o ripeti quando vuoi."], ["Funziona senza internet", "Scarica la guida prima di entrare e ascoltala anche senza rete."], ["In 7 lingue", "Spagnolo, inglese, francese, tedesco, italiano, portoghese e polacco."]],
+  beneficios: [["Oltre 400 tappe accuratamente documentate", "Dalla Pietra del Sole alle piramidi di Teotihuacan e Chichén Itzá."], ["Scegli tu il percorso", "Scegli una sala o una zona, o segui un percorso già pronto. Pausa, salta o ripeti quando vuoi."], ["Funziona senza internet", "Scarica la guida prima di entrare e ascoltala anche senza rete."], ["In 7 lingue", "Spagnolo, inglese, francese, tedesco, italiano, portoghese e polacco."]],
   muestra: 'Ascolta 30 secondi',
   muestraPausa: 'Pausa',
   muestraDe: 'La Pietra del Sole, al Museo Nazionale di Antropologia',

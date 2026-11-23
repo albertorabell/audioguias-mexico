@@ -68,7 +68,8 @@ test('página: un sitio al aire libre habla de paradas y zonas', () => {
 
 test('sitemap: la portada y cada guía, con fecha', () => {
   const x = armarSitemap([[{ lang: 'es', url: 'https://xolotli.com/guias/a/' }]], new Date('2026-10-28T12:00:00Z'));
-  assert.ok(x.includes('<loc>https://xolotli.com/</loc><lastmod>2026-10-28</lastmod>'));
+  assert.ok(x.includes('<loc>https://xolotli.com/</loc>'));
+  assert.ok(!x.includes('lastmod'));
   assert.ok(x.includes('<loc>https://xolotli.com/guias/a/</loc>'));
 });
 

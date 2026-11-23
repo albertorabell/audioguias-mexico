@@ -4,3 +4,10 @@
   Permissions-Policy: geolocation=(self), camera=(), microphone=(), payment=()
   Strict-Transport-Security: max-age=31536000
   Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https:; media-src 'self' blob: https:; connect-src 'self' https:; worker-src 'self' blob:; child-src 'self' blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+
+# Las pantallas de la app (y los enlaces de hoteles) no se indexan: en Google deben salir las guías (/guias/…, /en/guides/…)
+/sitio/*
+  X-Robots-Tag: noindex, follow
+
+/h/*
+  X-Robots-Tag: noindex, follow
