@@ -40,7 +40,7 @@ test('página: título, descripción, dirección canónica, datos estructurados 
   assert.ok(html.includes('<h1>Museo Nacional de Antropología: audioguía para tu visita</h1>'));
   assert.ok(html.includes('Qué ver en el Museo Nacional de Antropología: Corta'));
   const ld = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
-  assert.deepEqual(ld['@graph'].map((x) => x['@type'].toString()), ['Museum,TouristAttraction', 'Product', 'WebPage', 'BreadcrumbList']);
+  assert.deepEqual(ld['@graph'].map((x) => x['@type'].toString()), ['Museum,TouristAttraction', 'Product', 'FAQPage', 'WebPage', 'BreadcrumbList']);
   assert.ok(html.includes('og:image" content="https://xolotli.com/og/guias__museo-nacional-de-antropologia.jpg"'));
 });
 
@@ -326,4 +326,18 @@ test('inyectarPortada: los hreflang del <head> se añaden aunque el cuerpo ya tr
   const out = inyectarPortada(idx, p, hreflangPortadas());
   assert.ok(out.slice(0, out.indexOf('</head>')).includes('hreflang="x-default"'));
   assert.ok(out.includes('content="https://xolotli.com/og/inicio.jpg"'));
+});
+
+test('FAQ de la guía: visible, en JSON-LD, sin inventar datos, y no sale en sitios «próximamente»', async () => {
+  const { faqDeGuia } = await import('../seo-lib.mjs');
+  const { html } = armarPagina({ sitio, manifiesto, salas, piezas, cfg });
+  assert.ok(html.includes('<dl class="faq">'));
+  assert.ok(html.includes('Preguntas frecuentes sobre la audioguía de Museo Nacional de Antropología'));
+  assert.ok(html.includes('hasta 2 teléfonos'));
+  const f = faqDeGuia({ lang: 'en', nombre: 'Museum', precioTexto: '30-day full access for US$7.', nGratis: '2 stops', idiomas: ['es', 'en'] });
+  assert.equal(f.length, 6);
+  assert.ok(f[3][1].includes('Español, English'));
+  assert.equal(faqDeGuia({ lang: 'fr', nombre: 'X', idiomas: ['fr'] }).some(([q]) => /gratuitement/.test(q)), false);
+  const pronto = armarPagina({ sitio, manifiesto, salas, piezas, cfg: { ...cfg, proximamente: true } }).html;
+  assert.ok(!pronto.includes('<dl class="faq">'));
 });

@@ -537,9 +537,11 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
   const producto = !cfg.proximamente && ofertas.length
     ? [{ '@type': 'Product', '@id': `${url}#audioguia`, name: titulo, description: descripcion, brand: { '@type': 'Brand', name: 'Xolo' }, ...(portada ? { image: `${DOMINIO}${portada}` } : {}), offers: ofertas }]
     : [];
+  const preguntas = cfg.proximamente ? [] : faqDeGuia({ lang, nombre, precioTexto: precio ? t.precio(precio) : '', nGratis, idiomas });
   const grafo = [
     lugar,
     ...producto,
+    ...(preguntas.length ? [{ '@type': 'FAQPage', '@id': `${url}#preguntas`, inLanguage: lang, mainEntity: preguntas.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }] : []),
     {
       '@type': 'WebPage',
       '@id': url,
@@ -611,10 +613,110 @@ ${listaSalas ? `<h2>${esc(t.lugares(aireLibre))}</h2>\n<ul>\n${listaSalas}\n</ul
 ${antes.length ? `<h2>${esc(t.antes)}</h2>\n${bloqueAntes}` : ''}
 ${gratisEnlaces.length ? `<h2>${esc(t.gratisTitulo(aireLibre))}</h2>\n<ul>${gratisEnlaces.map((g) => `<li><a href="${esc(g.url)}">${esc(g.titulo)}</a></li>`).join('')}</ul>` : ''}
 ${cta()}
+${preguntas.length ? `<h2>${esc(tituloFaq(lang, nombre))}</h2>\n<dl class="faq">${preguntas.map(([q, a]) => `<dt><strong>${esc(q)}</strong></dt><dd>${esc(a)}</dd>`).join('')}</dl>` : ''}
 ${enlacesOtras}`;
   const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie: t.pie, muestra: !!muestra });
   return { html, url, titulo, descripcion };
 }
+
+
+// ───────────── Preguntas frecuentes de cada guía (solo lo que es cierto para todos los sitios) ─────────────
+const FAQ = {
+  es: {
+    h: (n) => `Preguntas frecuentes sobre la audioguía de ${n}`,
+    q: ['¿Cómo funciona?', '¿Necesito internet?', '¿Cuánto cuesta?', '¿En qué idiomas está?', '¿Puedo probarla gratis?', '¿Se puede usar en más de un teléfono?'],
+    a: {
+      como: (n) => `Abres Xolotli en el navegador de tu celular, eliges ${n} y escuchas cada parada mientras recorres el lugar. No tienes que instalar nada desde una tienda de apps.`,
+      red: 'Durante el recorrido no: descargas la guía antes de entrar (necesitas conexión una vez) y después se escucha sin señal.',
+      idiomas: (l) => `Disponible en: ${l}.`,
+      prueba: (g) => `Sí: ${g} se pueden escuchar sin pagar.`,
+      tel: 'Sí, el acceso completo funciona en hasta 2 teléfonos.',
+    },
+  },
+  en: {
+    h: (n) => `Frequently asked questions about the ${n} audio guide`,
+    q: ['How does it work?', 'Do I need internet?', 'How much does it cost?', 'Which languages is it in?', 'Can I try it for free?', 'Can I use it on more than one phone?'],
+    a: {
+      como: (n) => `You open Xolotli in your phone’s browser, pick ${n} and listen to each stop as you walk around. There is nothing to install from an app store.`,
+      red: 'Not during the visit: you download the guide before you go in (you need a connection once) and then it plays without signal.',
+      idiomas: (l) => `Available in: ${l}.`,
+      prueba: (g) => `Yes: ${g} can be listened to without paying.`,
+      tel: 'Yes, the full access works on up to 2 phones.',
+    },
+  },
+  fr: {
+    h: (n) => `Questions fréquentes sur l’audioguide de ${n}`,
+    q: ['Comment ça marche ?', 'Faut-il une connexion internet ?', 'Combien ça coûte ?', 'Dans quelles langues ?', 'Puis-je l’essayer gratuitement ?', 'Puis-je l’utiliser sur plusieurs téléphones ?'],
+    a: {
+      como: (n) => `Vous ouvrez Xolotli dans le navigateur de votre téléphone, choisissez ${n} et écoutez chaque étape pendant la visite. Rien à installer depuis une boutique d’applications.`,
+      red: 'Pas pendant la visite : vous téléchargez le guide avant d’entrer (une connexion est nécessaire une fois), puis il s’écoute sans réseau.',
+      idiomas: (l) => `Disponible en : ${l}.`,
+      prueba: (g) => `Oui : ${g} peuvent être écoutés sans payer.`,
+      tel: 'Oui, l’accès complet fonctionne sur 2 téléphones maximum.',
+    },
+  },
+  pl: {
+    h: (n) => `Najczęstsze pytania o audioprzewodnik: ${n}`,
+    q: ['Jak to działa?', 'Czy potrzebuję internetu?', 'Ile to kosztuje?', 'W jakich językach jest dostępny?', 'Czy mogę wypróbować za darmo?', 'Czy mogę używać go na więcej niż jednym telefonie?'],
+    a: {
+      como: (n) => `Otwierasz Xolotli w przeglądarce telefonu, wybierasz ${n} i słuchasz każdego przystanku podczas zwiedzania. Nie trzeba nic instalować ze sklepu z aplikacjami.`,
+      red: 'Nie w trakcie zwiedzania: pobierasz przewodnik przed wejściem (raz potrzebne jest połączenie), a potem działa bez zasięgu.',
+      idiomas: (l) => `Dostępny w językach: ${l}.`,
+      prueba: (g) => `Tak: ${g} można odsłuchać bez płacenia.`,
+      tel: 'Tak, pełny dostęp działa na maksymalnie 2 telefonach.',
+    },
+  },
+  de: {
+    h: (n) => `Häufige Fragen zum Audioguide ${n}`,
+    q: ['Wie funktioniert er?', 'Brauche ich Internet?', 'Was kostet er?', 'In welchen Sprachen gibt es ihn?', 'Kann ich ihn kostenlos testen?', 'Kann ich ihn auf mehreren Handys nutzen?'],
+    a: {
+      como: (n) => `Du öffnest Xolotli im Browser deines Handys, wählst ${n} und hörst jede Station beim Rundgang. Du musst nichts aus einem App-Store installieren.`,
+      red: 'Nicht während des Besuchs: Du lädst den Guide vor dem Eintritt herunter (einmal ist eine Verbindung nötig) und hörst ihn danach ohne Empfang.',
+      idiomas: (l) => `Verfügbar auf: ${l}.`,
+      prueba: (g) => `Ja: ${g} kannst du ohne Bezahlung anhören.`,
+      tel: 'Ja, der Vollzugang funktioniert auf bis zu 2 Handys.',
+    },
+  },
+  pt: {
+    h: (n) => `Perguntas frequentes sobre o audioguia de ${n}`,
+    q: ['Como funciona?', 'Preciso de internet?', 'Quanto custa?', 'Em quais idiomas está?', 'Posso experimentar de graça?', 'Posso usar em mais de um celular?'],
+    a: {
+      como: (n) => `Você abre o Xolotli no navegador do celular, escolhe ${n} e ouve cada parada enquanto percorre o local. Não é preciso instalar nada de uma loja de aplicativos.`,
+      red: 'Durante a visita, não: você baixa o guia antes de entrar (é preciso conexão uma vez) e depois ele toca sem sinal.',
+      idiomas: (l) => `Disponível em: ${l}.`,
+      prueba: (g) => `Sim: ${g} podem ser ouvidas sem pagar.`,
+      tel: 'Sim, o acesso completo funciona em até 2 celulares.',
+    },
+  },
+  it: {
+    h: (n) => `Domande frequenti sull’audioguida di ${n}`,
+    q: ['Come funziona?', 'Serve internet?', 'Quanto costa?', 'In quali lingue è disponibile?', 'Posso provarla gratis?', 'Posso usarla su più di un telefono?'],
+    a: {
+      como: (n) => `Apri Xolotli nel browser del telefono, scegli ${n} e ascolti ogni tappa mentre visiti il luogo. Non serve installare nulla da uno store di app.`,
+      red: 'Non durante la visita: scarichi la guida prima di entrare (serve una connessione una volta) e poi si ascolta senza rete.',
+      idiomas: (l) => `Disponibile in: ${l}.`,
+      prueba: (g) => `Sì: ${g} si possono ascoltare senza pagare.`,
+      tel: 'Sì, l’accesso completo funziona su 2 telefoni al massimo.',
+    },
+  },
+};
+
+/** Preguntas y respuestas de una guía: [[pregunta, respuesta]]. Solo afirma lo que vale para todos los sitios (cómo funciona, sin internet, precio, idiomas, prueba, teléfonos). */
+export function faqDeGuia({ lang, nombre, precioTexto = '', nGratis = '', idiomas = [lang] }) {
+  const f = FAQ[lang];
+  if (!f) return [];
+  const r = f.a;
+  const costo = [precioTexto ? precioTexto.trim() : '', PROMO_GRATIS ? PORTADA[lang].gratis : ''].filter(Boolean).join(' ');
+  return [
+    [f.q[0], r.como(nombre)],
+    [f.q[1], r.red],
+    costo ? [f.q[2], costo] : null,
+    [f.q[3], r.idiomas(idiomas.map((l) => ETIQUETAS_IDIOMA[l] || l).join(', '))],
+    nGratis ? [f.q[4], r.prueba(nGratis)] : null,
+    [f.q[5], r.tel],
+  ].filter(Boolean);
+}
+export const tituloFaq = (lang, nombre) => FAQ[lang].h(nombre);
 
 /** sitemap.xml: la portada y cada página de guía, con sus versiones en otros idiomas. */
 export function armarSitemap(paginas, fecha = new Date()) {
