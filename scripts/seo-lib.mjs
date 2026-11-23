@@ -1262,3 +1262,9 @@ export function armarPortadaIdioma({ lang, sitios = [], hubs = [], idiomas = IDI
   const html = plantilla({ lang, titulo: t.titulo, descripcion: t.desc, url, hreflang: hreflangPortadas(idiomas), portada, jsonld, selector, cuerpo: contenidoPortada({ lang, sitios, hubs, idiomas }), pie: T[lang].pie });
   return { html, url, titulo: t.titulo, descripcion: t.desc };
 }
+
+/** Copia de la app para /sitio/… y /h/…: la misma página con «noindex, follow» (los enlaces sí se siguen). */
+export function appSinIndice(html) {
+  const sinRobots = html.replace(/<meta name="robots"[^>]*>\s*/i, '');
+  return sinRobots.replace(/<head>/i, '<head>\n    <meta name="robots" content="noindex, follow" data-fijo="1" />');
+}

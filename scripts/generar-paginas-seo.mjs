@@ -7,7 +7,7 @@ import { hacerOg, ogNombre } from './og-lib.mjs';
 import path from 'node:path';
 import { TERMS, TERMS_UPDATED } from '../src/i18n/terminos.js';
 import { PRIVACY } from '../src/i18n/privacidad.js';
-import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes, HUBS, armarHub, direccionHub, recortar, OG_LEMA, armarPortadaEstatica, inyectarPortada, armarPortadaIdioma, hreflangPortadas, direccionPortada } from './seo-lib.mjs';
+import { appSinIndice, PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes, HUBS, armarHub, direccionHub, recortar, OG_LEMA, armarPortadaEstatica, inyectarPortada, armarPortadaIdioma, hreflangPortadas, direccionPortada } from './seo-lib.mjs';
 
 const DIST = path.resolve(process.argv[2] || 'dist');
 const leer = (rel) => JSON.parse(fs.readFileSync(path.join(DIST, rel), 'utf-8'));
@@ -223,8 +223,10 @@ console.log(`SEO: sitemap.xml con ${grupos.flat().length} direcciones`);
 // Copia de la app para las direcciones /sitio/… (ver public/_redirects): la misma página, con otro nombre de archivo.
 // Se hace ANTES de ponerle texto a la portada, para que /sitio/… siga siendo la app vacía de siempre.
 if (existe('index.html')) {
-  fs.copyFileSync(path.join(DIST, 'index.html'), path.join(DIST, 'app.html'));
-  console.log('SEO: app.html (copia de index.html para /sitio/…)');
+  // app.html solo sirve /sitio/… y /h/…: no se indexa (en Google deben salir las guías). Va en la página porque Cloudflare
+  // no aplica las cabeceras de _headers a las direcciones reescritas con _redirects.
+  fs.writeFileSync(path.join(DIST, 'app.html'), appSinIndice(fs.readFileSync(path.join(DIST, 'index.html'), 'utf-8')));
+  console.log('SEO: app.html (copia de index.html para /sitio/…, con noindex)');
 
   // Portada con texto y enlaces a las guías en el HTML (sin esto, quien no ejecuta JavaScript la ve vacía)
   const indexHtml = fs.readFileSync(path.join(DIST, 'index.html'), 'utf-8');
