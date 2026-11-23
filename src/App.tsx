@@ -600,6 +600,7 @@ export default function App() {
     if (canonica) canonica.href = canonicaDe(ruta, mapaGuias);
     // Las pantallas de la app no compiten en Google con las guías (que son las que deben salir en los resultados)
     let robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
+    if (robots?.dataset.fijo) return; // app.html (/sitio/…, /h/…) ya viene con noindex fijo
     if (!robots) {
       robots = document.createElement('meta');
       robots.name = 'robots';

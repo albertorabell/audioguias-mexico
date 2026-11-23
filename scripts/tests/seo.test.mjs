@@ -1,7 +1,7 @@
 // Páginas públicas para Google: lo que dicen, y que NUNCA lleven texto de pago.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { ajustes, clipDe, botonMuestra, armarLlms, armarMapaGuias, enApp, armarPagina, armarSitemap, duracion, recorridoPrincipal, textoEnHtml, recortar, idiomaDisponible, direccion, contar, slugificar, armarPiezaPagina, piezaPublicable, direccionPieza } from '../seo-lib.mjs';
+import { appSinIndice, ajustes, clipDe, botonMuestra, armarLlms, armarMapaGuias, enApp, armarPagina, armarSitemap, duracion, recorridoPrincipal, textoEnHtml, recortar, idiomaDisponible, direccion, contar, slugificar, armarPiezaPagina, piezaPublicable, direccionPieza } from '../seo-lib.mjs';
 
 const cfg = { articulo: 'el', slugs: { es: 'museo', en: 'museum', fr: 'musee', pl: 'muzeum' }, nombres: { en: 'The Museum', fr: 'Le Musée', pl: 'Muzeum' } };
 
@@ -341,4 +341,10 @@ test('FAQ de la guía: visible, en JSON-LD, sin inventar datos, y no sale en sit
   assert.equal(faqDeGuia({ lang: 'fr', nombre: 'X', idiomas: ['fr'] }).some(([q]) => /gratuitement/.test(q)), false);
   const pronto = armarPagina({ sitio, manifiesto, salas, piezas, cfg: { ...cfg, proximamente: true } }).html;
   assert.ok(!pronto.includes('<dl class="faq">'));
+});
+
+test('appSinIndice: pone noindex, follow una sola vez', () => {
+  const a = appSinIndice('<html><head><meta name="robots" content="index, follow"><title>x</title></head></html>');
+  assert.equal((a.match(/name="robots"/g) || []).length, 1);
+  assert.match(a, /content="noindex, follow"/);
 });
