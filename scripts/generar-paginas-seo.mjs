@@ -2,10 +2,12 @@
 // (dist/guias/…, dist/en/guides/…, dist/fr/guides/…, dist/pl/przewodniki/…) y dist/sitemap.xml.
 // Uso: node scripts/generar-paginas-seo.mjs [carpeta-dist]   (por defecto: dist)
 import fs from 'node:fs';
+import sharp from 'sharp';
+import { hacerOg, ogNombre } from './og-lib.mjs';
 import path from 'node:path';
 import { TERMS, TERMS_UPDATED } from '../src/i18n/terminos.js';
 import { PRIVACY } from '../src/i18n/privacidad.js';
-import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes, HUBS, armarHub, direccionHub, recortar, armarPortadaEstatica, inyectarPortada, armarPortadaIdioma, hreflangPortadas, direccionPortada } from './seo-lib.mjs';
+import { PAGINAS, IDIOMAS, DOMINIO, armarPagina, armarSitemap, direccion, idiomaDisponible, armarPiezaPagina, piezaPublicable, direccionPieza, tituloDePieza, clipDe, armarLlms, armarMapaGuias, ajustes, HUBS, armarHub, direccionHub, recortar, OG_LEMA, armarPortadaEstatica, inyectarPortada, armarPortadaIdioma, hreflangPortadas, direccionPortada } from './seo-lib.mjs';
 
 const DIST = path.resolve(process.argv[2] || 'dist');
 const leer = (rel) => JSON.parse(fs.readFileSync(path.join(DIST, rel), 'utf-8'));
@@ -54,6 +56,9 @@ const escribir = (rel, html) => {
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, 'index.html'), html);
 };
+// Imágenes para compartir (1200×630): se juntan aquí y se escriben al final en dist/og/
+const ogs = [];
+const pedirOg = (url, titulo, sub, foto) => ogs.push({ url, titulo, sub, foto: foto ? path.join(DIST, foto) : '' });
 const fotoDe = (p) => (p?.image_filename && existe(`images/pieces/${p.image_filename}`) ? `/images/pieces/${p.image_filename}` : '');
 
 // Páginas agrupadas: solo los sitios publicados (no «próximamente») y disponibles en cada idioma; sin menos de 2 sitios no sale
@@ -94,6 +99,7 @@ for (const h of hechas) {
     const muestraPieza = conClip?.src || '';
     const { html, url } = armarPagina({ sitio: h.sitio, manifiesto: h.manifiesto, salas: h.salas, piezas: h.piezas, cfg: h.cfg, lang, idiomas: h.idiomas, otras, portada: h.portada, gratisEnlaces, muestra: h.cfg.proximamente ? '' : muestraPieza, muestraPieza: conClip?.p.piece_id || '' });
     escribir(direccion(h.cfg.slugs[lang], lang), html);
+    pedirOg(url, nombreEn(h, lang), OG_LEMA[lang], h.portada);
     grupo.push({ lang, url });
     console.log(`SEO: ${url} (${(html.length / 1024).toFixed(1)} KB)`);
   }
@@ -108,6 +114,7 @@ for (const h of hechas) {
     for (const lang of langs) {
       const { html, url } = armarPiezaPagina({ sitio: h.sitio, manifiesto: h.manifiesto, cfg: h.cfg, pieza: p, sala, lang, idiomas: langs, portada: fotoDe(p) || h.portada, muestra: clipDe(hayClip, p.piece_id, lang) });
       escribir(direccionPieza(h.cfg, p, lang), html);
+      pedirOg(url, tituloDePieza(p, lang), nombreEn(h, lang), fotoDe(p) || h.portada);
       g.push({ lang, url });
     }
     grupos.push(g);
@@ -139,6 +146,7 @@ for (const hub of Object.values(HUBS)) {
     const r = armarHub({ hub, lang, idiomas, entradas: entradasHub(hub, lang) });
     if (!r) continue;
     escribir(direccionHub(hub, lang), r.html);
+    pedirOg(r.url, hub.h1[lang] || hub.h1.es, OG_LEMA[lang], hechas.find((o) => hub.sitios.includes(o.id) && o.portada)?.portada);
     g.push({ lang, url: r.url });
     console.log(`SEO: ${r.url} (agrupada)`);
   }
@@ -191,10 +199,19 @@ const grupoPortadas = [{ lang: 'es', url: `${DOMINIO}/` }];
 for (const lang of IDIOMAS.filter((l) => l !== 'es')) {
   const r = armarPortadaIdioma({ lang, sitios: sitiosPortada, hubs: hubsPortadaPorIdioma[lang], idiomas: IDIOMAS });
   escribir(direccionPortada(lang).replace(/^\/|\/$/g, ''), r.html);
+  pedirOg(r.url, OG_LEMA[lang], IDIOMAS.map((l) => l.toUpperCase()).join(' · '), hechas.find((o) => o.portada)?.portada);
   grupoPortadas.push({ lang, url: r.url });
   console.log(`SEO: ${r.url} (portada)`);
 }
 grupos.unshift(grupoPortadas);
+pedirOg(`${DOMINIO}/`, OG_LEMA.es, IDIOMAS.map((l) => l.toUpperCase()).join(' · '), hechas.find((o) => o.portada)?.portada);
+
+// Escribe las imágenes para compartir (dist/og/<página>.jpg)
+{
+  let bien = 0;
+  for (const o of ogs) if (await hacerOg({ sharp, foto: o.foto, titulo: o.titulo, sub: o.sub, destino: path.join(DIST, 'og', ogNombre(o.url)) })) bien++;
+  console.log(`SEO: ${bien}/${ogs.length} imágenes para compartir en dist/og/`);
+}
 
 fs.writeFileSync(path.join(DIST, 'sitemap.xml'), armarSitemap(grupos));
 fs.writeFileSync(path.join(DIST, 'llms.txt'), armarLlms(llms));
