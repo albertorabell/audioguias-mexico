@@ -26,6 +26,7 @@ import { calculateRouteTimeMinutes } from './utils/routeOptimizer';
 import { getAssetUrl, normalizePiece, findPiece } from './utils/urlHelper';
 import { withCoordFixes } from './config/coordFixes';
 import { leerRuta, rutaDe, canonicaDe } from './utils/rutas';
+import { guardarParada, leerRegistro } from './utils/reanudar';
 import { ttsPlayer } from './utils/ttsPlayer';
 import { useBackClose } from './utils/useBackClose';
 import { useLanguage } from './utils/LanguageContext';
@@ -537,6 +538,16 @@ export default function App() {
     const id = paradaPedida.current;
     if (!id || !selectedSite || !siteData || siteData.siteId !== selectedSite.id) return;
     paradaPedida.current = '';
+    // Si venía en un recorrido (la página se recargó, por ejemplo al abrir la cámara), se sigue en ese recorrido
+    const reg = leerRegistro();
+    if (reg && reg.r && reg.p === id && reg.s.toLowerCase() === selectedSite.id.toLowerCase()) {
+      const ruta = manifest?.routes?.find((r) => r.id === reg.r);
+      const i = ruta ? ruta.stops.findIndex((st) => stopId(st) === id) : -1;
+      if (ruta && i >= 0) {
+        openTourStop(ruta, i);
+        return;
+      }
+    }
     const next = roomNavFor(id);
     if (next) showPiece(next);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -549,6 +560,7 @@ export default function App() {
     // Hasta que el catálogo carga (y mientras se abre un enlace directo) no se toca la dirección: ahí viene la del enlace
     if (rawSites.length === 0 || enlaceAbriendo.current) return;
     const pieza = screen.kind === 'piece' ? screen.nav.ids[screen.nav.index] || '' : '';
+    if (pieza && selectedSite) guardarParada(selectedSite.id, screen.kind === 'piece' && screen.nav.kind === 'tour' ? tour?.route.id || '' : '', pieza);
     const ruta = screen.kind === 'home' || !selectedSite ? '/' : rutaDe(selectedSite.id, pieza);
     if (window.location.pathname !== ruta) {
       try {

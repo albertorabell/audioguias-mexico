@@ -13,6 +13,7 @@ import { TopBar } from './ui/TopBar';
 import { PassButton } from './ui/HeaderControls';
 import { PieceDock } from './PieceDock';
 import { PieceTour, pieceTourSeen } from './PieceTour';
+import { guardarPosicion, olvidarPosicion, posicionPara } from '../utils/reanudar';
 import { TextSizeControl } from './ui/TextSizeControl';
 import { TextoIluminado } from './TextoIluminado';
 import { LinkedText } from './LinkedText';
@@ -100,6 +101,16 @@ const readMode = (): Mode => {
 
 const LABEL_RE = /^\s*(mito|realidad|myth|reality|mythe|réalité|mit|rzeczywistość)\s*:\s*/i;
 const stripLabel = (s: string) => s.replace(LABEL_RE, '');
+
+const REANUDAR: Record<string, (t: string) => string> = {
+  es: (t) => `Continuar desde ${t}`,
+  en: (t) => `Resume from ${t}`,
+  fr: (t) => `Reprendre à ${t}`,
+  pl: (t) => `Wznów od ${t}`,
+  de: (t) => `Weiter ab ${t}`,
+  pt: (t) => `Continuar de ${t}`,
+  it: (t) => `Riprendi da ${t}`,
+};
 
 const fmtClock = (sec: number) => {
   const s = Math.max(0, Math.round(sec));
@@ -228,6 +239,12 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const isPlaying = isThis && tts.isPlaying;
   if (isThis && tts.duration > 0) heard.current.max = Math.max(heard.current.max, tts.currentTime / tts.duration);
   const started = isThis;
+  // Guardar el segundo del audio (cada ~3 s) para poder continuar si la página se recarga
+  useEffect(() => {
+    if (isThis && tts.isHtmlAudio) guardarPosicion(pieceId, mode, tts.currentTime);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [Math.floor(tts.currentTime / 3), isThis, tts.isPaused]);
+  const reanudarEn = !isThis && !finished && audio[mode] ? posicionPara(pieceId, mode, seconds[mode]) : 0;
   const timeLabel = started ? `${fmtClock(tts.currentTime)} / ${fmtClock(tts.duration)}` : durationLabel(seconds[mode]);
 
   // Tras cambiar de versión, el audio de la nueva arranca solo
@@ -261,7 +278,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   }, [mode]);
 
   /** `fresh` = arrancar desde el principio aunque el estado del audio anterior aún no se haya limpiado (cambio de versión). */
-  const togglePlay = (fresh = false) => {
+  const togglePlay = (fresh = false, startAt = 0) => {
     if (locked) {
       track('paywall_block', { p: pieceId, l: currentLanguage });
       onOpenPaywall();
@@ -288,6 +305,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
       if (!ttsPlayer.getState().errorMessage) {
         setFinished(true);
         heard.current.max = 1;
+        olvidarPosicion(pieceId);
         track('audio_end', { p: pieceId, l: currentLanguage, m: mode === 'expres' ? 'corto' : 'largo' });
         if (isFree) track('free_end', { p: pieceId, l: currentLanguage });
       }
@@ -302,6 +320,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
       mode,
       audioUrl: audio[mode]?.url,
       lang: readLang,
+      ...(startAt > 0 ? { startAt } : {}),
     });
   };
 
@@ -496,7 +515,19 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         </section>
 
         <section id="piece-text" className="px-5 mt-5">
-          <div className="mb-2 flex justify-end">
+          <div className="mb-2 flex items-center justify-between gap-2">
+            {reanudarEn > 0 ? (
+              <button
+                type="button"
+                id="btn-resume-audio"
+                onClick={() => togglePlay(true, reanudarEn)}
+                className="min-h-11 px-4 rounded-full bg-raised border border-line text-ui font-semibold text-jade-ink cursor-pointer active:scale-[0.98]"
+              >
+                ▶ {(REANUDAR[currentLanguage] || REANUDAR.es)(fmtClock(reanudarEn))}
+              </button>
+            ) : (
+              <span />
+            )}
             <TextSizeControl />
           </div>
           <p className="font-serif text-read text-ink whitespace-pre-line text-pretty">
