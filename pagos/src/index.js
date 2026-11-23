@@ -675,14 +675,16 @@ const usable = (id) => Boolean(id) && !String(id).startsWith('REEMPLAZA');
  *  - { inline: { currency, cents, name } }  precio propio del sitio, tomado de la tabla (Stripe lo recibe como precio en línea)
  *  - { priceId }                            el precio general de Stripe (sitio sin precio propio, o sin tabla)
  *  - { error }                              el sitio no se vende (gratis o solo por código) o falta configurar
- * Español cobra en pesos; los demás idiomas en dólares si hay precio en dólares y, si no, en pesos.
+ * Sin `currency`: español cobra en pesos; los demás idiomas en dólares si hay precio en dólares y, si no, en pesos.
+ * Con `currency` ('mxn' | 'usd') la persona elige la moneda sin importar el idioma (si no hay precio en esa moneda, cae al otro).
  */
-function quote(env, book, siteId, lang) {
+function quote(env, book, siteId, lang, currency) {
   const combo = book.table?.combos[siteId];
   const entry = combo || book.table?.sites[siteId];
   if (book.table && entry && (entry.acceso ?? 'pago') !== 'pago') return { error: 'not_for_sale' };
   if (entry && (entry.mxn || entry.usd)) {
-    const usd = lang !== 'es' && entry.usd ? entry.usd : null;
+    const wantsUsd = currency === 'usd' ? true : currency === 'mxn' ? false : lang !== 'es';
+    const usd = wantsUsd && entry.usd ? entry.usd : null;
     const amount = usd ?? entry.mxn;
     if (amount) {
       const label = combo ? combo.nombre[lang] || combo.nombre.es : entry.nombre;
@@ -690,7 +692,7 @@ function quote(env, book, siteId, lang) {
     }
   }
   if (combo || siteId === COMBO) return { error: 'bad_request' };
-  const useUsd = lang !== 'es' && usable(env.STRIPE_PRICE_ID_USD);
+  const useUsd = (currency === 'usd' ? true : currency === 'mxn' ? false : lang !== 'es') && usable(env.STRIPE_PRICE_ID_USD);
   const priceId = useUsd ? env.STRIPE_PRICE_ID_USD : env.STRIPE_PRICE_ID_MXN;
   return usable(priceId) ? { priceId } : { error: 'not_configured' };
 }
@@ -713,7 +715,8 @@ async function handleCheckout(request, env, cfg, cors) {
   if (!cfg.origins.includes(ret.origin)) return json({ error: 'bad_return_url' }, 400, cors);
   const base = `${ret.origin}${ret.pathname}`;
 
-  const q = quote(env, book, siteId, lang);
+  const currency = body.currency === 'usd' || body.currency === 'mxn' ? body.currency : undefined;
+  const q = quote(env, book, siteId, lang, currency);
   if (q.error) return json({ error: q.error }, q.error === 'not_configured' ? 503 : 400, cors);
 
   // Código de descuento (opcional). Si viene y no sirve, se avisa en lugar de cobrar el precio completo sin que la persona lo note.

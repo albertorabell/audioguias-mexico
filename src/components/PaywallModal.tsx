@@ -66,6 +66,8 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const t = strings.paywall;
 
   const [pricing, setPricing] = useState<PricingInfo | null>(null);
+  // Moneda elegida por la persona (null = la que corresponde al idioma). Es independiente del idioma de la app.
+  const [currencyChoice, setCurrencyChoice] = useState<'mxn' | 'usd' | null>(null);
   const [busy, setBusy] = useState<string | null>(null); // 'checkout', 'code' o 'combo:<id>'
   const [error, setError] = useState<PaymentErrorCode | null>(null);
   const [showCode, setShowCode] = useState(false);
@@ -196,11 +198,13 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   // Moneda: español → pesos; otros idiomas → dólares si el sitio tiene precio en dólares
   const mxn = pricing?.prices.mxn ? money(pricing.prices.mxn.amount, pricing.prices.mxn.currency, locale) : passPriceMxn ? money(passPriceMxn, 'MXN', locale) : '';
   const usdValue = pricing?.prices.usd ? money(pricing.prices.usd.amount, pricing.prices.usd.currency, locale) : passPriceUsd ? money(passPriceUsd, 'USD', locale) : '';
-  const primaryPrice = currentLanguage !== 'es' && pricing?.prices.usd ? usdValue : mxn;
-  const priceLine = pricing ? (currentLanguage !== 'es' && pricing.prices.usd ? usdValue : mxn) : t.price(mxn, usdValue);
+  const bothCurrencies = !!pricing?.prices.usd && !!pricing?.prices.mxn;
+  const wantsUsd = currencyChoice ? currencyChoice === 'usd' : currentLanguage !== 'es';
+  const primaryPrice = wantsUsd && pricing?.prices.usd ? usdValue : mxn;
+  const priceLine = pricing ? primaryPrice : t.price(mxn, usdValue);
 
   // Precio con descuento (solo para mostrarlo; el cobro real lo calcula Stripe)
-  const usingUsd = currentLanguage !== 'es' && !!pricing?.prices.usd;
+  const usingUsd = wantsUsd && !!pricing?.prices.usd;
   const baseAmount = usingUsd ? pricing!.prices.usd!.amount : pricing?.prices.mxn ? pricing.prices.mxn.amount : passPriceMxn || 0;
   const baseCurrency = usingUsd ? pricing!.prices.usd!.currency : pricing?.prices.mxn?.currency || 'MXN';
   const discounted = promo ? money(Math.round(baseAmount * (100 - promo.percentOff)) / 100, baseCurrency, locale) : null;
@@ -236,7 +240,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     setError(null);
     setBusy(isCombo ? `combo:${target}` : 'checkout');
     track('checkout_start', { l: currentLanguage, s: target });
-    const r = await startCheckout(target, currentLanguage, isCombo ? undefined : promo?.code);
+    const r = await startCheckout(target, currentLanguage, isCombo ? undefined : promo?.code, isCombo ? undefined : bothCurrencies ? (usingUsd ? 'usd' : 'mxn') : undefined);
     if (r.ok) {
       // Se sale a la página segura de Stripe; al pagar, Stripe regresa a esta app
       window.location.assign(r.data.url);
@@ -456,6 +460,21 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 <span>{busy === 'checkout' ? t.redirecting : t.payButton(promo && discounted ? discounted : primaryPrice)}</span>
                 <ExternalLink className="w-4 h-4" />
               </button>
+              {bothCurrencies && (
+                <div role="group" aria-label="Currency" className="flex items-center justify-center gap-2 text-cap">
+                  {(['mxn', 'usd'] as const).map((c) => (
+                    <button
+                      key={c}
+                      type="button"
+                      aria-pressed={(c === 'usd') === usingUsd}
+                      onClick={() => setCurrencyChoice(c)}
+                      className={`min-h-11 px-4 rounded-full font-semibold cursor-pointer border ${(c === 'usd') === usingUsd ? 'bg-raised text-ink border-line' : 'text-ink-3 border-transparent'}`}
+                    >
+                      {c === 'usd' ? usdValue : mxn}
+                    </button>
+                  ))}
+                </div>
+              )}
               <p className="flex items-center justify-center gap-1.5 text-[12px] text-ink-3">
                 <Lock className="w-3 h-3" />
                 <span>{t.secureNote}</span>

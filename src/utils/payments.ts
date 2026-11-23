@@ -87,9 +87,9 @@ export async function fetchAccessMode(): Promise<boolean | null> {
 }
 
 /** Pide la página de pago de Stripe. Si sale bien, hay que mandar al visitante a `url`. */
-export async function startCheckout(siteId: string, lang: SupportedLanguage, promo?: string): Promise<PaymentResult<{ url: string }>> {
+export async function startCheckout(siteId: string, lang: SupportedLanguage, promo?: string, currency?: 'mxn' | 'usd'): Promise<PaymentResult<{ url: string }>> {
   const returnUrl = `${window.location.origin}${window.location.pathname}`;
-  const r = await post('/checkout', { siteId: siteId.toLowerCase(), lang, deviceId: getOrCreateDeviceId(), returnUrl, ...(promo ? { promo } : {}) });
+  const r = await post('/checkout', { siteId: siteId.toLowerCase(), lang, deviceId: getOrCreateDeviceId(), returnUrl, ...(promo ? { promo } : {}), ...(currency ? { currency } : {}) });
   if (!r.ok) return r;
   if (typeof r.data?.url !== 'string' || !/^https:\/\//.test(r.data.url)) return { ok: false, error: 'stripe_error' };
   return { ok: true, data: { url: r.data.url } };
