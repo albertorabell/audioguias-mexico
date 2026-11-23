@@ -41,7 +41,7 @@ test('página: título, descripción, dirección canónica, datos estructurados 
   assert.ok(html.includes('Qué ver en el Museo Nacional de Antropología: Corta'));
   const ld = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
   assert.deepEqual(ld['@graph'].map((x) => x['@type'].toString()), ['Museum,TouristAttraction', 'Product', 'WebPage', 'BreadcrumbList']);
-  assert.ok(html.includes('og:image" content="https://xolotli.com/images/pieces/a.webp"'));
+  assert.ok(html.includes('og:image" content="https://xolotli.com/og/guias__museo-nacional-de-antropologia.jpg"'));
 });
 
 test('página: salas en orden, «Antes de ir» con listas, y el texto se escapa', () => {
@@ -303,4 +303,27 @@ test('portadas por idioma: título, hreflang recíproco con x-default, lista de 
   assert.ok(r.html.includes('hreflang="x-default" href="https://xolotli.com/"'));
   assert.ok(r.html.includes('hreflang="fr" href="https://xolotli.com/fr/"'));
   assert.ok(hreflangPortadas(['es', 'en']).includes('hreflang="es" href="https://xolotli.com/"'));
+});
+
+test('imágenes sociales: nombre de archivo por dirección, título partido y og:image propio en cada página', async () => {
+  const { ogNombre, partirTitulo, capaOg } = await import('../og-lib.mjs');
+  assert.equal(ogNombre('https://xolotli.com/'), 'inicio.jpg');
+  assert.equal(ogNombre('/en/'), 'en.jpg');
+  assert.equal(ogNombre('https://xolotli.com/en/guides/museum/sun-stone/'), 'en__guides__museum__sun-stone.jpg');
+  const l = partirTitulo('Templo Mayor y Catedral Metropolitana de la Ciudad de México y más');
+  assert.ok(l.length <= 3 && l.every((x) => x.length <= 34));
+  assert.ok(capaOg({ titulo: 'A & B <x>' }).toString().includes('A &amp; B &lt;x&gt;'));
+  const { armarPortadaIdioma } = await import('../seo-lib.mjs');
+  const r = armarPortadaIdioma({ lang: 'fr', sitios: [], hubs: [] });
+  assert.ok(r.html.includes('<meta property="og:image" content="https://xolotli.com/og/fr.jpg">'));
+  assert.ok(r.html.includes('og:image:width" content="1200"'));
+});
+
+test('inyectarPortada: los hreflang del <head> se añaden aunque el cuerpo ya traiga enlaces con hreflang', async () => {
+  const { armarPortadaEstatica, inyectarPortada, hreflangPortadas } = await import('../seo-lib.mjs');
+  const idx = '<html><head><meta property="og:image" content="https://xolotli.com/pwa-512x512.png"><script type="application/ld+json">{}</script></head><body><div id="root"></div></body></html>';
+  const p = armarPortadaEstatica({ sitios: [{ nombre: 'M', nombres: { en: 'M' }, urls: { es: '/guias/m/', en: '/en/guides/m/' } }] });
+  const out = inyectarPortada(idx, p, hreflangPortadas());
+  assert.ok(out.slice(0, out.indexOf('</head>')).includes('hreflang="x-default"'));
+  assert.ok(out.includes('content="https://xolotli.com/og/inicio.jpg"'));
 });

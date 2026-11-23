@@ -7,9 +7,13 @@
 
 import { stripLinks } from '../src/utils/pieceLinks.js';
 import { aDigitos } from '../src/utils/numerosPantalla.js';
+import { ogNombre } from './og-lib.mjs';
 
 export const DOMINIO = 'https://xolotli.com';
 export const IDIOMAS = ['es', 'en', 'fr', 'pl', 'de', 'pt', 'it'];
+
+/** Frase corta de marca que va en las imágenes para compartir. */
+export const OG_LEMA = { es: 'Audioguías de México', en: 'Audio guides for Mexico', fr: 'Audioguides du Mexique', pl: 'Audioprzewodniki po Meksyku', de: 'Audioguides für Mexiko', pt: 'Audioguias do México', it: 'Audioguide del Messico' };
 
 const RUTA = { es: '/guias/', en: '/en/guides/', fr: '/fr/guides/', pl: '/pl/przewodniki/', de: '/de/fuehrer/', pt: '/pt/guias/', it: '/it/guide/' };
 const OG_LOCALE = { es: 'es_MX', en: 'en_US', fr: 'fr_FR', pl: 'pl_PL', de: 'de_DE', pt: 'pt_BR', it: 'it_IT' };
@@ -451,7 +455,12 @@ ${hreflang}
 <meta property="og:title" content="${esc(titulo)}">
 <meta property="og:description" content="${esc(descripcion)}">
 <meta property="og:url" content="${url}">
-${portada ? `<meta property="og:image" content="${DOMINIO}${esc(portada)}">\n` : ''}<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="${DOMINIO}/og/${ogNombre(url)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(titulo)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${DOMINIO}/og/${ogNombre(url)}">
 <meta name="theme-color" content="#FBF6EE">
 <link rel="icon" type="image/svg+xml" href="/icon.svg">
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -1116,7 +1125,10 @@ export function inyectarPortada(indexHtml, { cuerpo, itemList }, hreflang = '') 
       return todo;
     }
   });
-  if (hreflang && !/hreflang=/.test(html)) html = html.replace('</head>', `${hreflang}\n</head>`);
+  // OJO: se revisa solo el <head> (el cuerpo ya trae enlaces con hreflang y no cuentan como etiquetas del encabezado)
+  const cabeza = html.slice(0, html.indexOf('</head>'));
+  if (hreflang && !/<link rel="alternate" hreflang=/.test(cabeza)) html = html.replace('</head>', `${hreflang}\n</head>`);
+  html = html.replace(/(<meta (?:property="og:image"|name="twitter:image") content=")[^"]*(")/g, `$1${DOMINIO}/og/${ogNombre('/')}$2`);
   return html;
 }
 
