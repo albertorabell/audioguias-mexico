@@ -11,6 +11,7 @@ import { InstallCard } from './InstallHelp';
 import { FooterLinks } from './FooterLinks';
 import { MuestraBoton } from './MuestraBoton';
 import { LanguageMenu, ThemeButton } from './ui/HeaderControls';
+import { TextSizeControl } from './ui/TextSizeControl';
 import { PieceImage } from './PieceImage';
 import { getAssetUrl } from '../utils/urlHelper';
 
@@ -130,6 +131,7 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
           </span>
           <div className="flex items-center">
             <LanguageMenu />
+            <TextSizeControl />
             <ThemeButton />
           </div>
         </div>

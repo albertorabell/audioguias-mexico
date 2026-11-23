@@ -13,6 +13,8 @@ import { TopBar } from './ui/TopBar';
 import { PassButton } from './ui/HeaderControls';
 import { PieceDock } from './PieceDock';
 import { PieceTour, pieceTourSeen } from './PieceTour';
+import { TextSizeControl } from './ui/TextSizeControl';
+import { TextoIluminado } from './TextoIluminado';
 import { LinkedText } from './LinkedText';
 import { PiecePeek } from './PiecePeek';
 import { PieceFeedback } from './PieceFeedback';
@@ -428,7 +430,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             )}
           </div>
           {piece.foto_autor && (
-            <figcaption className="px-5 pt-1.5 text-right text-[12px] text-ink-3">
+            <figcaption className="px-5 pt-1.5 text-right text-[0.75rem] text-ink-3">
               {tp.photoBy}{' '}
               {piece.foto_url && /^https?:\/\//i.test(piece.foto_url) ? (
                 <a href={piece.foto_url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">
@@ -494,8 +496,11 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         </section>
 
         <section id="piece-text" className="px-5 mt-5">
+          <div className="mb-2 flex justify-end">
+            <TextSizeControl />
+          </div>
           <p className="font-serif text-read text-ink whitespace-pre-line text-pretty">
-            <LinkedText text={pant(mode === 'expres' ? guionCorto : guionLargo)} canOpen={canOpenLink} onOpen={linksOn ? setPeekId : undefined} />
+            <TextoIluminado text={pant(mode === 'expres' ? guionCorto : guionLargo)} progress={tts.progress} active={isThis && !textMissing} canOpen={canOpenLink} onOpen={linksOn ? setPeekId : undefined} />
           </p>
           {canExpand && mode === 'expres' && (
             <button

@@ -52,7 +52,7 @@ export const TabBar: React.FC<TabBarProps> = ({ activeTab, onSelectTab, tourActi
                   <span className="absolute -top-0.5 -right-1 w-2.5 h-2.5 rounded-full bg-jade ring-2 ring-bg" aria-hidden="true" />
                 )}
               </span>
-              <span className={`text-[12px] leading-none ${active ? 'font-bold' : 'font-medium'}`}>{label}</span>
+              <span className={`text-[0.75rem] leading-none ${active ? 'font-bold' : 'font-medium'}`}>{label}</span>
             </button>
           );
         })}

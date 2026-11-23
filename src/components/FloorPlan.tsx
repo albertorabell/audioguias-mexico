@@ -80,7 +80,7 @@ export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, 
         <span className={`font-serif text-[1.375rem] leading-none tabular-nums ${here ? 'text-jade-ink' : 'text-ink-3'}`}>
           {getRoomShortLabel(room)}
         </span>
-        <span className={`block text-[12.5px] font-semibold leading-tight text-ink ${wide ? 'text-[14px]' : 'line-clamp-2 mt-1'}`}>
+        <span className={`block text-[12.5px] font-semibold leading-tight text-ink ${wide ? 'text-[0.875rem]' : 'line-clamp-2 mt-1'}`}>
           {room.nombre_oficial}
         </span>
         {here && (
@@ -89,7 +89,7 @@ export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, 
           </span>
         )}
         {!here && stops.length > 0 && (
-          <span className="absolute -top-2 -right-1.5 min-w-6 h-6 px-1.5 rounded-full bg-bg border-2 border-jade text-jade-ink text-[11px] font-bold flex items-center justify-center tabular-nums" aria-hidden="true">
+          <span className="absolute -top-2 -right-1.5 min-w-6 h-6 px-1.5 rounded-full bg-bg border-2 border-jade text-jade-ink text-[0.6875rem] font-bold flex items-center justify-center tabular-nums" aria-hidden="true">
             {stops.slice(0, 2).join('·')}
             {stops.length > 2 ? '…' : ''}
           </span>
@@ -120,7 +120,7 @@ export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, 
       });
     return (
       <div className="rounded-[20px] bg-raised/50 border border-line p-2.5" id="floor-plan">
-        <p className="mb-2 text-center text-[12px] font-semibold text-ink-3">{label(zoneMap.top_label)}</p>
+        <p className="mb-2 text-center text-[0.75rem] font-semibold text-ink-3">{label(zoneMap.top_label)}</p>
         <div
           className="grid gap-2"
           style={{ gridTemplateColumns: '1fr 1.2fr 1fr', gridTemplateRows: `repeat(${rows}, minmax(4.25rem, auto))${south.length ? ' minmax(3.5rem, auto)' : ''}` }}
@@ -138,7 +138,7 @@ export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, 
             </div>
           )}
         </div>
-        <p className="mt-2 text-center text-[12px] font-semibold text-ink-3">{label(zoneMap.bottom_label)}</p>
+        <p className="mt-2 text-center text-[0.75rem] font-semibold text-ink-3">{label(zoneMap.bottom_label)}</p>
       </div>
     );
   }
@@ -169,7 +169,7 @@ export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, 
                 aria-hidden="true"
               >
                 <span className="text-cap font-semibold text-ink-3">{floor === 'PB' ? u.patio : u.patioBelow}</span>
-                {floor === 'PB' && <span className="mt-1 text-[11px] text-ink-3/80">{u.umbrella}</span>}
+                {floor === 'PB' && <span className="mt-1 text-[0.6875rem] text-ink-3/80">{u.umbrella}</span>}
               </div>
             )}
             <div style={{ gridColumn: 3, gridRow: first + i }}>{L.east[i] && tile(L.east[i])}</div>
@@ -183,7 +183,7 @@ export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, 
           </div>
         )}
       </div>
-      <p className="mt-2 text-center text-[12px] font-semibold text-ink-3">{floor === 'PB' ? u.entrance : u.stairs}</p>
+      <p className="mt-2 text-center text-[0.75rem] font-semibold text-ink-3">{floor === 'PB' ? u.entrance : u.stairs}</p>
     </div>
   );
 };

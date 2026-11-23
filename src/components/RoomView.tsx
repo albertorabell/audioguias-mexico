@@ -221,7 +221,7 @@ export const RoomView: React.FC<RoomViewProps> = ({
                   {locked ? (
                     <Lock className="w-4 h-4 text-oro-ink shrink-0" aria-label={u.lockedAria} />
                   ) : (
-                    !hasPass && <span className="text-[12px] font-semibold text-jade-ink shrink-0">{u.free}</span>
+                    !hasPass && <span className="text-[0.75rem] font-semibold text-jade-ink shrink-0">{u.free}</span>
                   )}
                 </button>
               </li>

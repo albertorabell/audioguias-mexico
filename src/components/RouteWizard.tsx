@@ -101,7 +101,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({ manifest, rooms = [], 
               return (
                 <button key={opt.mins} type="button" role="radio" aria-checked={on} onClick={() => setTimeMinutes(opt.mins)} className={`${chip(on)} py-2.5`}>
                   <span className={`block text-[1.0625rem] font-bold leading-tight ${on ? 'text-jade-ink' : 'text-ink'}`}>{opt.label}</span>
-                  <span className="block mt-0.5 text-[12px] leading-tight text-ink-3">{t.worksApprox(counts[opt.mins] ?? 0)}</span>
+                  <span className="block mt-0.5 text-[0.75rem] leading-tight text-ink-3">{t.worksApprox(counts[opt.mins] ?? 0)}</span>
                 </button>
               );
             })}
