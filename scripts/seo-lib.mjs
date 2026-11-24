@@ -1241,6 +1241,8 @@ export function inyectarPortada(indexHtml, { cuerpo, itemList }, hreflang = '') 
   // OJO: se revisa solo el <head> (el cuerpo ya trae enlaces con hreflang y no cuentan como etiquetas del encabezado)
   const cabeza = html.slice(0, html.indexOf('</head>'));
   if (hreflang && !/<link rel="alternate" hreflang=/.test(cabeza)) html = html.replace('</head>', `${hreflang}\n</head>`);
+  // Las demás páginas traen esta etiqueta; la portada también, para que todas digan lo mismo (incluye max-image-preview).
+  if (!/<meta\s+name="robots"/i.test(cabeza)) html = html.replace('</head>', '<meta name="robots" content="index, follow, max-image-preview:large">\n</head>');
   html = html.replace(/(<meta (?:property="og:image"|name="twitter:image") content=")[^"]*(")/g, `$1${DOMINIO}/og/${ogNombre('/')}$2`);
   return html;
 }
