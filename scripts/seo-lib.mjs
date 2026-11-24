@@ -970,6 +970,7 @@ export const HUBS = {
 
 const HUB_ETIQUETAS = {
   guias: por(['Las guías', 'The guides', 'Les guides', 'Przewodniki', 'Die Guides', 'Os guias', 'Le guide']),
+  faq: por(['Preguntas frecuentes', 'Frequently asked questions', 'Questions fréquentes', 'Najczęściej zadawane pytania', 'Häufige Fragen', 'Perguntas frequentes', 'Domande frequenti']),
   todas: por(['Ver todas las audioguías', 'See all audio guides', 'Voir tous les audioguides', 'Zobacz wszystkie audioprzewodniki', 'Alle Audioguides ansehen', 'Ver todos os audioguias', 'Vedi tutte le audioguide']),
 };
 
@@ -977,7 +978,40 @@ const HUB_ETIQUETAS = {
 export const direccionHub = (hub, lang) => `${RUTA[lang]}${hub.slugs[lang]}/`;
 
 /**
- * Página agrupada. entradas = [{ nombre, url, lead }] de los sitios disponibles en ese idioma (en el orden del grupo).
+ * Datos de un sitio para su ficha dentro de una página agrupada. Todo sale de las mismas hojas que la guía del sitio (nada inventado):
+ * resumen de «Sobre el lugar», recorridos con duración y número de paradas, precio del pase y piezas gratis con página.
+ * Solo incluye lo que existe en ese idioma.
+ */
+export function detalleDeSitio({ sitio, manifiesto = {}, piezas = [], cfg, lang = 'es' }) {
+  const t = T[lang];
+  const aireLibre = manifiesto.layout === 'zones';
+  const loc = (obj, campo) => (lang === 'es' ? obj[campo] : obj[`${campo}_${lang}`]);
+  const rutas = (manifiesto.routes || [])
+    .filter((r) => r.stops?.length && (lang === 'es' || lleno(r[`name_${lang}`])))
+    .map((r) => ({ nombre: loc(r, 'name'), d: lang === 'es' && r.duration ? r.duration : duracion(minutosDe(r)), n: contar(lang, r.stops.length, aireLibre) }))
+    .filter((r) => lleno(r.nombre));
+  const intro = String(loc(sitio, 'intro') || '').trim();
+  const precio = cfg.proximamente ? '' : moneda(lang, sitio, manifiesto);
+  const vistos = new Set();
+  const gratis = cfg.proximamente
+    ? []
+    : piezas
+        .filter((p) => piezaPublicable(p, lang))
+        .map((p) => ({ titulo: tituloDePieza(p, lang), url: direccionPieza(cfg, p, lang) }))
+        .filter((g) => (vistos.has(g.url) ? false : (vistos.add(g.url), true)));
+  return {
+    intro: lleno(intro) ? recortar(intro.replace(/\s+/g, ' '), 420) : '',
+    rutas,
+    precio: precio ? t.precio(precio).trim() : '',
+    gratisTitulo: gratis.length ? t.gratisTitulo(aireLibre) : '',
+    gratis: gratis.slice(0, 6),
+    recorridosTitulo: t.recorridos,
+  };
+}
+
+/**
+ * Página agrupada. entradas = [{ nombre, url, lead, detalle? }] de los sitios disponibles en ese idioma (en el orden del grupo).
+ * detalle = lo que devuelve detalleDeSitio (si falta, la entrada sale solo con nombre y resumen, como antes).
  * idiomas = idiomas en que sale esta página (para hreflang). Si hay menos de 2 entradas no se arma (devuelve null).
  */
 export function armarHub({ hub, lang, idiomas = [lang], entradas = [] }) {
@@ -988,6 +1022,8 @@ export function armarHub({ hub, lang, idiomas = [lang], entradas = [] }) {
   const alternativas = idiomas.map((l) => ({ l, href: `${DOMINIO}${direccionHub(hub, l)}` }));
   const hreflang = [...alternativas.map((a) => `<link rel="alternate" hreflang="${a.l}" href="${a.href}">`), `<link rel="alternate" hreflang="x-default" href="${alternativas.find((a) => a.l === 'es')?.href || url}">`].join('\n');
   const selector = idiomas.length > 1 ? `<nav class="idiomas" data-nosnippet aria-label="Idioma">${alternativas.map((a) => (a.l === lang ? `<span aria-current="true">${a.l.toUpperCase()}</span>` : `<a href="${a.href}" hreflang="${a.l}" lang="${a.l}">${a.l.toUpperCase()}</a>`)).join(' ')}</nav>` : '';
+  // Preguntas comunes a todos los sitios (sin la primera, que nombra un sitio concreto)
+  const preguntas = faqDeGuia({ lang, nombre: hub.h1[lang], idiomas: [lang, ...idiomas.filter((l) => l !== lang)] }).slice(1);
   const jsonld = JSON.stringify({
     '@context': 'https://schema.org',
     '@graph': [
@@ -1001,6 +1037,7 @@ export function armarHub({ hub, lang, idiomas = [lang], entradas = [] }) {
         isPartOf: { '@type': 'WebSite', name: 'Xolotli', url: `${DOMINIO}/` },
         mainEntity: { '@type': 'ItemList', itemListElement: entradas.map((e, i) => ({ '@type': 'ListItem', position: i + 1, name: e.nombre, url: `${DOMINIO}${e.url}` })) },
       },
+      ...(preguntas.length ? [{ '@type': 'FAQPage', '@id': `${url}#preguntas`, inLanguage: lang, mainEntity: preguntas.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }] : []),
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
@@ -1010,14 +1047,22 @@ export function armarHub({ hub, lang, idiomas = [lang], entradas = [] }) {
       },
     ],
   }).replace(/</g, '\\u003c');
-  const lista = entradas.map((e) => `<li><strong><a href="${esc(e.url)}">${esc(e.nombre)}</a></strong>${lleno(e.lead) ? `<br>${esc(e.lead)}` : ''}</li>`).join('\n');
+  const ficha = (e) => {
+    const d = e.detalle;
+    const partes = [`<h3><a href="${esc(e.url)}">${esc(e.nombre)}</a></h3>`];
+    if (lleno(e.lead)) partes.push(`<p>${esc(e.lead)}</p>`);
+    if (d?.intro) partes.push(`<p>${esc(d.intro)}</p>`);
+    if (d?.rutas?.length) partes.push(`<p><strong>${esc(d.recorridosTitulo)}:</strong> ${d.rutas.map((r) => `${esc(r.nombre)} (${esc(r.d)} · ${esc(r.n)})`).join(' · ')}</p>`);
+    if (d?.gratis?.length) partes.push(`<p><strong>${esc(d.gratisTitulo)}:</strong> ${d.gratis.map((g) => `<a href="${esc(g.url)}">${esc(g.titulo)}</a>`).join(' · ')}</p>`);
+    if (d?.precio) partes.push(`<p class="nota">${esc(d.precio)}</p>`);
+    return `<section>\n${partes.join('\n')}\n</section>`;
+  };
   const cuerpo = `<h1>${esc(hub.h1[lang])}</h1>
 <p class="lead">${esc(hub.lead[lang])}</p>
 <p>${esc(hub.intro[lang])}</p>
 <h2>${esc(HUB_ETIQUETAS.guias[lang])}</h2>
-<ul>
-${lista}
-</ul>
+${entradas.map(ficha).join('\n')}
+${preguntas.length ? `<h2>${esc(HUB_ETIQUETAS.faq[lang])}</h2>\n<dl class="faq">${preguntas.map(([q, a]) => `<dt><strong>${esc(q)}</strong></dt><dd>${esc(a)}</dd>`).join('')}</dl>` : ''}
 <p class="cta"><a class="boton" href="/">${esc(HUB_ETIQUETAS.todas[lang])}</a></p>`;
   const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada: '', jsonld, selector, cuerpo, pie: T[lang].pie });
   return { html, url, titulo, descripcion };
