@@ -356,6 +356,19 @@ test('inyectarPortada: la portada trae meta robots en el <head> y no la duplica 
   assert.equal(out2.slice(0, out2.indexOf('</head>')).match(/name="robots"/g).length, 1);
 });
 
+test('IndexNow: URLs del sitemap, archivo de cada URL, cambios y lotes', async () => {
+  const { urlsDelSitemap, archivoDeUrl, cambiadas, lotes, huella } = await import('../indexnow-lib.mjs');
+  const xml = '<urlset><url><loc>https://xolotli.com/</loc></url><url><loc>https://xolotli.com/en/guides/x/</loc>\n<xhtml:link rel="alternate" hreflang="es" href="https://xolotli.com/guias/x/"/></url></urlset>';
+  assert.deepEqual(urlsDelSitemap(xml), ['https://xolotli.com/', 'https://xolotli.com/en/guides/x/']);
+  assert.equal(archivoDeUrl('https://xolotli.com/'), 'index.html');
+  assert.equal(archivoDeUrl('https://xolotli.com/en/guides/x/'), 'en/guides/x/index.html');
+  assert.deepEqual(cambiadas({ a: '1', b: '2', c: '3' }, { a: '1', b: 'x' }), ['b', 'c']);
+  assert.notEqual(huella('a'), huella('b'));
+  const l = lotes(['u1', 'u2', 'u3'], { key: 'k', tam: 2 });
+  assert.equal(l.length, 2);
+  assert.equal(l[0].keyLocation, 'https://xolotli.com/k.txt');
+  assert.deepEqual(l[1].urlList, ['u3']);
+});
 
 test('hubs: cada sitio sale con ficha (resumen, recorridos, piezas gratis, precio) y el grupo con preguntas frecuentes; nada del guion', () => {
   const hub = HUBS.morelos;
