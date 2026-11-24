@@ -234,7 +234,7 @@ test('botón «Escuchar 30 s»: con servidor de medición lleva sitio, pieza, id
 });
 
 // ── Páginas agrupadas ──
-import { HUBS, armarHub, direccionHub } from '../seo-lib.mjs';
+import { HUBS, armarHub, direccionHub, detalleDeSitio } from '../seo-lib.mjs';
 
 test('hubs: cada grupo tiene dirección, título, texto en los 7 idiomas y no repite direcciones', () => {
   const vistas = new Set();
@@ -354,4 +354,31 @@ test('inyectarPortada: la portada trae meta robots en el <head> y no la duplica 
   const con = '<html><head><meta name="robots" content="index, follow"><script type="application/ld+json">{}</script></head><body><div id="root"></div></body></html>';
   const out2 = inyectarPortada(con, p);
   assert.equal(out2.slice(0, out2.indexOf('</head>')).match(/name="robots"/g).length, 1);
+});
+
+
+test('hubs: cada sitio sale con ficha (resumen, recorridos, piezas gratis, precio) y el grupo con preguntas frecuentes; nada del guion', () => {
+  const hub = HUBS.morelos;
+  const d = detalleDeSitio({ sitio, manifiesto, piezas, cfg, lang: 'es' });
+  assert.equal(d.rutas.length, 2);
+  assert.deepEqual(d.gratis.map((g) => g.titulo), ['Piedra del Sol']);
+  assert.match(d.gratis[0].url, /^\/guias\/museo\/piedra-del-sol\/$/);
+  assert.match(d.precio, /99/);
+  const entradas = [
+    { nombre: 'Museo A', url: '/guias/museo/', lead: 'Centro.', detalle: d },
+    { nombre: 'Museo B', url: '/guias/otro/', lead: '', detalle: detalleDeSitio({ sitio, manifiesto, piezas, cfg, lang: 'es' }) },
+  ];
+  const r = armarHub({ hub, lang: 'es', idiomas: ['es', 'en'], entradas });
+  assert.match(r.html, /<h3><a href="\/guias\/museo\/">Museo A<\/a><\/h3>/);
+  assert.match(r.html, /Larga \(3 h/);
+  assert.match(r.html, /href="\/guias\/museo\/piedra-del-sol\/">Piedra del Sol<\/a>/);
+  assert.match(r.html, /"@type":"FAQPage"/);
+  assert.match(r.html, /<h2>Preguntas frecuentes<\/h2>/);
+  assert.ok(!r.html.includes('SECRETO DE PAGO'), 'el hub no lleva texto de guiones');
+  // un sitio «próximamente» no ofrece precio ni piezas
+  const pronto = detalleDeSitio({ sitio, manifiesto, piezas, cfg: { ...cfg, proximamente: true }, lang: 'es' });
+  assert.equal(pronto.precio, '');
+  assert.equal(pronto.gratis.length, 0);
+  // en otro idioma solo salen recorridos con nombre traducido
+  assert.equal(detalleDeSitio({ sitio, manifiesto, piezas, cfg, lang: 'en' }).rutas.length, 0);
 });
