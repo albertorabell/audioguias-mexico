@@ -70,6 +70,24 @@ jobs:
             echo "Dirección de prueba de la rama $RAMA: $url" >> "$GITHUB_STEP_SUMMARY"
             echo "::notice title=Dirección de prueba::$url"
           fi
+      - name: Recuperar las huellas de la publicación anterior (IndexNow)
+        if: ${{ github.ref_name == 'main' }}
+        uses: actions/cache/restore@v4
+        with:
+          path: .indexnow
+          key: indexnow-sin-uso
+          restore-keys: indexnow-
+      - name: Avisar a Bing y otros buscadores de las páginas nuevas o cambiadas (IndexNow)
+        # No debe tumbar la publicación: si falla, solo avisa. Las huellas solo se guardan si el envío salió bien.
+        if: ${{ github.ref_name == 'main' }}
+        continue-on-error: true
+        run: node scripts/indexnow.mjs
+      - name: Guardar las huellas (IndexNow)
+        if: ${{ github.ref_name == 'main' }}
+        uses: actions/cache/save@v4
+        with:
+          path: .indexnow
+          key: indexnow-${{ github.run_id }}
       - name: Conectar el dominio xolotli.com
         if: ${{ inputs.conectar_dominio == 'si' || inputs.conectar_dominio == 'sí' }}
         run: python3 scripts/cloudflare-dominio.py
