@@ -177,6 +177,9 @@ const T = {
     ubic: (sala, n) => `Ubicación: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Escucha la audioguía completa de ${n}`,
     volver: (n) => `Ver la guía de ${n}`,
+    pzUbic: 'Ubicación',
+    pzTexto: 'Lo que cuenta la audioguía',
+    pzMas: (n) => `Más paradas gratis de ${n}`,
     piezaDesc: (p, n) => `${p} en ${n}: su historia, qué significa y dónde encontrarla. Texto gratuito de la audioguía.`,
     abrir: 'Abrir la audioguía',
     precio: (p) => `Acceso completo de 30 días por ${p}, sin suscripción. La entrada al recinto no está incluida. `,
@@ -203,6 +206,9 @@ const T = {
     ubic: (sala, n) => `Location: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Listen to the full audio guide for ${n}`,
     volver: (n) => `See the guide to ${n}`,
+    pzUbic: 'Location',
+    pzTexto: 'What the audio guide says',
+    pzMas: (n) => `More free stops at ${n}`,
     piezaDesc: (p, n) => `${p} at ${n}: its story, what it means and where to find it. Free text from the audio guide.`,
     abrir: 'Open the audio guide',
     precio: (p) => `30-day full access for ${p}, no subscription. Admission to the site is not included. `,
@@ -229,6 +235,9 @@ const T = {
     ubic: (sala, n) => `Emplacement : ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Écoutez l’audioguide complet de ${n}`,
     volver: (n) => `Voir le guide : ${n}`,
+    pzUbic: 'Emplacement',
+    pzTexto: 'Ce que raconte l’audioguide',
+    pzMas: (n) => `Plus d’étapes gratuites : ${n}`,
     piezaDesc: (p, n) => `${p} – ${n} : son histoire, sa signification et où la trouver. Texte gratuit de l’audioguide.`,
     abrir: 'Ouvrir l’audioguide',
     precio: (p) => `Accès complet de 30 jours pour ${p}, sans abonnement. Le billet d’entrée du site n’est pas inclus. `,
@@ -255,6 +264,9 @@ const T = {
     ubic: (sala, n) => `Lokalizacja: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Posłuchaj pełnego audioprzewodnika: ${n}`,
     volver: (n) => `Zobacz przewodnik: ${n}`,
+    pzUbic: 'Lokalizacja',
+    pzTexto: 'Co mówi audioprzewodnik',
+    pzMas: (n) => `Więcej bezpłatnych przystanków: ${n}`,
     piezaDesc: (p, n) => `${p} – ${n}: historia, znaczenie i miejsce, gdzie ją znaleźć. Bezpłatny tekst z audioprzewodnika.`,
     abrir: 'Otwórz audioprzewodnik',
     precio: (p) => `Pełny dostęp na 30 dni za ${p}, bez subskrypcji. Bilet wstępu na miejsce nie jest wliczony. `,
@@ -281,6 +293,9 @@ const T = {
     ubic: (sala, n) => `Standort: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Hör dir den vollständigen Audioguide an: ${n}`,
     volver: (n) => `Zum Führer: ${n}`,
+    pzUbic: 'Standort',
+    pzTexto: 'Was der Audioguide erzählt',
+    pzMas: (n) => `Weitere kostenlose Stationen: ${n}`,
     piezaDesc: (p, n) => `${p} – ${n}: Geschichte, Bedeutung und Fundort. Kostenloser Text aus dem Audioguide.`,
     abrir: 'Audioguide öffnen',
     precio: (p) => `30 Tage Vollzugang für ${p}, ohne Abo. Der Eintritt zur Stätte ist nicht enthalten. `,
@@ -307,6 +322,9 @@ const T = {
     ubic: (sala, n) => `Localização: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Ouça o audioguia completo de ${n}`,
     volver: (n) => `Ver o guia: ${n}`,
+    pzUbic: 'Localização',
+    pzTexto: 'O que a audioguia conta',
+    pzMas: (n) => `Mais paradas grátis em ${n}`,
     piezaDesc: (p, n) => `${p} em ${n}: sua história, o que significa e onde encontrá-la. Texto gratuito do audioguia.`,
     abrir: 'Abrir o audioguia',
     precio: (p) => `Acesso completo por 30 dias por ${p}, sem assinatura. O ingresso do local não está incluído. `,
@@ -333,6 +351,9 @@ const T = {
     ubic: (sala, n) => `Posizione: ${sala ? `${sala}, ` : ''}${n}.`,
     piezaCta: (n) => `Ascolta l’audioguida completa di ${n}`,
     volver: (n) => `Vai alla guida: ${n}`,
+    pzUbic: 'Dove si trova',
+    pzTexto: 'Cosa racconta l’audioguida',
+    pzMas: (n) => `Altre tappe gratuite: ${n}`,
     piezaDesc: (p, n) => `${p} – ${n}: la sua storia, cosa significa e dove trovarla. Testo gratuito dell’audioguida.`,
     abrir: 'Apri l’audioguida',
     precio: (p) => `Accesso completo di 30 giorni a ${p}, senza abbonamento. Il biglietto d’ingresso al sito non è incluso. `,
@@ -779,7 +800,7 @@ export const direccionPieza = (cfg, p, lang) => `${direccion(cfg.slugs[lang], la
 /**
  * Página de una pieza gratis. datos: { sitio, cfg, pieza, sala, lang, idiomas (en los que esta pieza tiene página), idiomasSitio, portada }
  */
-export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = null, lang = 'es', idiomas = [lang], portada = '', muestra = '' }) {
+export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = null, lang = 'es', idiomas = [lang], portada = '', muestra = '', hermanas = [] }) {
   const t = T[lang];
   const nombre = (lang === 'es' ? sitio.name : sitio[`name_${lang}`] || cfg.nombres?.[lang]) || sitio.name;
   const nombrePieza = tituloDePieza(pieza, lang);
@@ -793,7 +814,7 @@ export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = nu
   const abrir = enApp(sitio.id, lang, pieza.piece_id);
 
   const sitioCorto = String(nombre).replace(/\s*\([^)]*\)\s*/g, ' ').trim();
-  const titulo = elegirCompleta([t.piezaTitulo(nombrePieza, nombre), t.piezaTitulo(nombrePieza, sitioCorto), t.piezaTituloCorto(nombrePieza), nombrePieza], 60);
+  const titulo = elegirCompleta([t.piezaTitulo(nombrePieza, nombre), t.piezaTitulo(nombrePieza, sitioCorto), `${nombrePieza} | ${nombre}`, `${nombrePieza} | ${sitioCorto}`, t.piezaTituloCorto(nombrePieza), nombrePieza], 60);
   const descripcion = elegirCompleta([gancho ? `${gancho} ${t.piezaDesc(nombrePieza, nombre)}` : '', t.piezaDesc(nombrePieza, nombre)]);
 
   const alt = idiomas.map((l) => ({ l, href: `${DOMINIO}${direccionPieza(cfg, pieza, l)}` }));
@@ -825,15 +846,20 @@ export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = nu
   const cta = `<p class="cta"><a class="boton" href="${esc(abrir)}">${esc(t.piezaCta(nombre))}</a></p>
 <p class="nota">${precio ? esc(t.precio(precio)) : ''}</p>`;
 
+  const otrasParadas = hermanas.length ? `<ul>${hermanas.map((h) => `<li><a href="${esc(h.url)}">${esc(h.titulo)}</a></li>`).join('')}</ul>` : '';
+
   const cuerpo = `<p class="dato"><a href="${urlSitio}">${esc(nombre)}</a></p>
 <h1>${esc(nombrePieza)}</h1>
 ${gancho ? `<p class="lead">${esc(gancho)}</p>` : ''}
 ${botonMuestra(lang, muestra, { sitio: sitio.id, pieza: pieza.piece_id })}
 ${portada ? `<img class="portada" src="${esc(portada)}" alt="${esc(nombrePieza)}" width="1200" height="800" fetchpriority="high">` : ''}
 <p class="cta"><a class="boton" href="${esc(abrir)}">${esc(t.piezaCta(nombre))}</a></p>
-<p class="dato">${esc(t.ubic(nombreSala, nombre))}</p>
+<h2>${esc(t.pzUbic)}</h2>
+<p class="dato">${esc(`${nombreSala ? `${nombreSala}, ` : ''}${nombre}.`)}</p>
+<h2>${esc(t.pzTexto)}</h2>
 ${textoEnHtml(texto)}
 ${cta}
+${otrasParadas ? `<h2>${esc(t.pzMas(nombre))}</h2>\n${otrasParadas}` : ''}
 <p><a href="${urlSitio}">${esc(t.volver(nombre))}</a></p>`;
 
   const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie: t.pie, muestra: !!muestra });

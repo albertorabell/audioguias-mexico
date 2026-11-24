@@ -144,9 +144,22 @@ test('pieza: página con su texto, sin marcas de enlace, escapada, y botón a la
   assert.ok(html.includes('<h1>Piedra del Sol</h1>'));
   assert.ok(html.includes('Otro párrafo &lt;b&gt;.'));
   assert.ok(!html.includes('mna_x'));
-  assert.ok(html.includes('Ubicación: Sala Uno, Museo Nacional de Antropología.'));
+  assert.ok(html.includes('<h2>Ubicación</h2>'));
+  assert.ok(html.includes('Sala Uno, Museo Nacional de Antropología.'));
+  assert.ok(html.includes('<h2>Lo que cuenta la audioguía</h2>'));
+  assert.ok(!html.includes('Más paradas gratis'), 'sin hermanas no hay sección');
   assert.ok(html.includes('hreflang="en" href="https://xolotli.com/en/guides/museum/sun-stone/"'));
   assert.ok(html.includes('href="/sitio/mna/a?idioma=es"'));
+});
+
+test('pieza: enlaces a paradas hermanas, título con el nombre del museo y sin pasar de 60 caracteres', () => {
+  const hermanas = [{ titulo: 'Coatlicue', url: '/guias/museo/coatlicue/' }, { titulo: 'Calendario', url: '/guias/museo/calendario/' }];
+  const { html, titulo } = armarPiezaPagina({ sitio, manifiesto, cfg, pieza: libre, sala: salas[1], lang: 'es', idiomas: ['es'], hermanas });
+  assert.ok(html.includes('<h2>Más paradas gratis de Museo Nacional de Antropología</h2>'));
+  assert.ok(html.includes('<a href="/guias/museo/coatlicue/">Coatlicue</a>'));
+  assert.ok(html.includes('<a href="/guias/museo/calendario/">Calendario</a>'));
+  assert.ok(titulo.length <= 60);
+  assert.ok(titulo.includes('Museo Nacional de Antropología'), titulo);
 });
 
 test('pieza en inglés: nada de español', () => {
