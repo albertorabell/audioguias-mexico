@@ -112,7 +112,10 @@ for (const h of hechas) {
     const g = [];
     const sala = h.salas.find((r) => r.room_id === (p.room_id || p.roomId)) || null;
     for (const lang of langs) {
-      const { html, url } = armarPiezaPagina({ sitio: h.sitio, manifiesto: h.manifiesto, cfg: h.cfg, pieza: p, sala, lang, idiomas: langs, portada: fotoDe(p) || h.portada, muestra: clipDe(hayClip, p.piece_id, lang) });
+      // Hasta 3 paradas gratis hermanas en el mismo idioma: primero las de la misma sala, luego las demás
+      const mismaSala = (q) => (q.room_id || q.roomId) === (p.room_id || p.roomId);
+      const hermanas = paginasPieza(lang).filter((q) => q !== p).sort((a, b) => Number(mismaSala(b)) - Number(mismaSala(a))).slice(0, 3).map((q) => ({ titulo: tituloDePieza(q, lang), url: direccionPieza(h.cfg, q, lang) }));
+      const { html, url } = armarPiezaPagina({ sitio: h.sitio, manifiesto: h.manifiesto, cfg: h.cfg, pieza: p, sala, lang, idiomas: langs, portada: fotoDe(p) || h.portada, muestra: clipDe(hayClip, p.piece_id, lang), hermanas });
       escribir(direccionPieza(h.cfg, p, lang), html);
       pedirOg(url, tituloDePieza(p, lang), nombreEn(h, lang), fotoDe(p) || h.portada);
       g.push({ lang, url });
