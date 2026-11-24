@@ -924,7 +924,7 @@ export const HUBS = {
     sitios: ['TEOTIHUACAN', 'CHICHEN_ITZA', 'XOCHICALCO', 'CHALCATZINGO'],
     slugs: por(['zonas-arqueologicas-de-mexico', 'archaeological-sites-in-mexico', 'sites-archeologiques-du-mexique', 'stanowiska-archeologiczne-w-meksyku', 'archaeologische-staetten-in-mexiko', 'sitios-arqueologicos-do-mexico', 'siti-archeologici-del-messico']),
     h1: por(['Zonas arqueológicas de México', 'Archaeological sites in Mexico', 'Sites archéologiques du Mexique', 'Stanowiska archeologiczne w Meksyku', 'Archäologische Stätten in Mexiko', 'Sítios arqueológicos do México', 'Siti archeologici del Messico']),
-    titulo: por(['Zonas arqueológicas de México: qué ver y audioguías', 'Archaeological sites in Mexico: what to see and audio guides', 'Sites archéologiques du Mexique : que voir et audioguides', 'Stanowiska archeologiczne w Meksyku: co zobaczyć i audioprzewodniki', 'Archäologische Stätten in Mexiko: Sehenswertes und Audioguides', 'Sítios arqueológicos do México: o que ver e audioguias', 'Siti archeologici del Messico: cosa vedere e audioguide']),
+    titulo: por(['Zonas arqueológicas de México: qué ver y audioguías', 'Archaeological sites in Mexico: what to see and audio guides', 'Sites archéologiques du Mexique : que voir et audioguides', 'Stanowiska archeologiczne w Meksyku: co zobaczyć', 'Archäologische Stätten in Mexiko: Tipps und Audioguides', 'Sítios arqueológicos do México: o que ver e audioguias', 'Siti archeologici del Messico: cosa vedere e audioguide']),
     lead: por([
       'Teotihuacán, Chichén Itzá, Xochicalco y Chalcatzingo: audioguías en tu celular, parada por parada y con uso sin internet.',
       'Teotihuacan, Chichén Itzá, Xochicalco and Chalcatzingo: audio guides on your phone, stop by stop and usable offline.',
@@ -957,7 +957,7 @@ export const HUBS = {
     sitios: ['MNA', 'CHAPULTEPEC', 'CENTRO_HISTORICO', 'TEMPLO_MAYOR_CATEDRAL', 'MUSEO_FRIDA_KAHLO', 'COYOACAN', 'BASILICA_GUADALUPE'],
     slugs: por(['que-ver-en-la-ciudad-de-mexico', 'what-to-see-in-mexico-city', 'que-voir-a-mexico', 'co-zobaczyc-w-miescie-meksyk', 'sehenswuerdigkeiten-mexiko-stadt', 'o-que-ver-na-cidade-do-mexico', 'cosa-vedere-a-citta-del-messico']),
     h1: por(['Qué ver en la Ciudad de México: museos y lugares con audioguía', 'What to see in Mexico City: museums and sites with audio guides', 'Que voir à Mexico : musées et lieux avec audioguide', 'Co zobaczyć w Mieście Meksyk: muzea i miejsca z audioprzewodnikiem', 'Sehenswürdigkeiten in Mexiko-Stadt: Museen und Orte mit Audioguide', 'O que ver na Cidade do México: museus e lugares com audioguia', 'Cosa vedere a Città del Messico: musei e luoghi con audioguida']),
-    titulo: por(['Qué ver en la Ciudad de México: museos, centro histórico y más', 'What to see in Mexico City: museums, historic centre and more', 'Que voir à Mexico : musées, centre historique et plus', 'Co zobaczyć w Mieście Meksyk: muzea, centrum historyczne i więcej', 'Sehenswürdigkeiten in Mexiko-Stadt: Museen, Altstadt und mehr', 'O que ver na Cidade do México: museus, centro histórico e mais', 'Cosa vedere a Città del Messico: musei, centro storico e altro']),
+    titulo: por(['Qué ver en la Ciudad de México: museos y centro histórico', 'What to see in Mexico City: museums and historic centre', 'Que voir à Mexico : musées, centre historique et plus', 'Co zobaczyć w Mieście Meksyk: muzea i centrum historyczne', 'Sehenswürdigkeiten in Mexiko-Stadt: Museen und Altstadt', 'O que ver na Cidade do México: museus e centro histórico', 'Cosa vedere a Città del Messico: musei e centro storico']),
     lead: por([
       'Museos, zonas históricas y lugares emblemáticos de la capital, con audioguías en tu celular, parada por parada y con uso sin internet.',
       'Museums, historic areas and emblematic places in the capital, with audio guides on your phone, stop by stop and usable offline.',
@@ -990,7 +990,7 @@ export const HUBS = {
     sitios: ['CUERNAVACA_HISTORICA', 'XOCHICALCO', 'CHALCATZINGO'],
     slugs: por(['que-ver-en-morelos', 'what-to-see-in-morelos', 'que-voir-au-morelos', 'co-zobaczyc-w-morelos', 'sehenswuerdigkeiten-in-morelos', 'o-que-ver-em-morelos', 'cosa-vedere-a-morelos']),
     h1: por(['Qué ver en Morelos', 'What to see in Morelos', 'Que voir au Morelos', 'Co zobaczyć w Morelos', 'Sehenswürdigkeiten in Morelos', 'O que ver em Morelos', 'Cosa vedere a Morelos']),
-    titulo: por(['Qué ver en Morelos: Cuernavaca, Xochicalco y Chalcatzingo', 'What to see in Morelos: Cuernavaca, Xochicalco and Chalcatzingo', 'Que voir au Morelos : Cuernavaca, Xochicalco et Chalcatzingo', 'Co zobaczyć w Morelos: Cuernavaca, Xochicalco i Chalcatzingo', 'Sehenswürdigkeiten in Morelos: Cuernavaca, Xochicalco, Chalcatzingo', 'O que ver em Morelos: Cuernavaca, Xochicalco e Chalcatzingo', 'Cosa vedere a Morelos: Cuernavaca, Xochicalco e Chalcatzingo']),
+    titulo: por(['Qué ver en Morelos: Cuernavaca, Xochicalco y Chalcatzingo', 'What to see in Morelos: Cuernavaca, Xochicalco, Chalcatzingo', 'Que voir au Morelos : Cuernavaca, Xochicalco et Chalcatzingo', 'Co zobaczyć w Morelos: Cuernavaca, Xochicalco i Chalcatzingo', 'Sehenswürdigkeiten in Morelos: Cuernavaca, Xochicalco', 'O que ver em Morelos: Cuernavaca, Xochicalco e Chalcatzingo', 'Cosa vedere a Morelos: Cuernavaca, Xochicalco e Chalcatzingo']),
     lead: por([
       'Cuernavaca histórica, Xochicalco y Chalcatzingo: audioguías en tu celular para recorrer Morelos a pie, parada por parada y sin internet.',
       'Historic Cuernavaca, Xochicalco and Chalcatzingo: audio guides on your phone to explore Morelos on foot, stop by stop and offline.',
@@ -1216,7 +1216,7 @@ const PORTADA = {
     terminos: 'Bedingungen und Erstattungen', privacidad: 'Datenschutz',
   },
   pt: {
-    titulo: 'Xolotli: audioguias de museus e sítios arqueológicos do México',
+    titulo: 'Xolotli: audioguias de museus e sítios do México',
     desc: 'Audioguias em 7 idiomas para o Museu de Antropologia, Teotihuacán, Chichén Itzá e mais. Escolha seu roteiro e ouça as histórias, mesmo sem internet.',
     lead: "Descubra museus, cidades e sítios arqueológicos com audioguias que contam o que você está vendo, no seu ritmo e sem depender de um grupo.",
     ben: [["Mais de 400 paradas cuidadosamente documentadas", "Da Pedra do Sol às pirâmides de Teotihuacán e Chichén Itzá."], ["Você escolhe o roteiro", "Escolha uma sala ou uma zona, ou siga um roteiro pronto. Pause, pule ou repita quando quiser."], ["Funciona sem internet", "Baixe o guia antes de entrar e ouça mesmo sem sinal."], ["Em 7 idiomas", "Espanhol, inglês, francês, alemão, italiano, português e polonês."]],
