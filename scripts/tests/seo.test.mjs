@@ -368,6 +368,7 @@ test('IndexNow: URLs del sitemap, archivo de cada URL, cambios y lotes', async (
   assert.equal(l.length, 2);
   assert.equal(l[0].keyLocation, 'https://xolotli.com/k.txt');
   assert.deepEqual(l[1].urlList, ['u3']);
+});
 
 test('hubs: cada sitio sale con ficha (resumen, recorridos, piezas gratis, precio) y el grupo con preguntas frecuentes; nada del guion', () => {
   const hub = HUBS.morelos;
