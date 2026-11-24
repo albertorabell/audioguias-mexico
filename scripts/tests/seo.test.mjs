@@ -342,3 +342,16 @@ test('FAQ de la guía: visible, en JSON-LD, sin inventar datos, y no sale en sit
   const pronto = armarPagina({ sitio, manifiesto, salas, piezas, cfg: { ...cfg, proximamente: true } }).html;
   assert.ok(!pronto.includes('<dl class="faq">'));
 });
+
+test('inyectarPortada: la portada trae meta robots en el <head> y no la duplica si ya existe', async () => {
+  const { armarPortadaEstatica, inyectarPortada } = await import('../seo-lib.mjs');
+  const p = armarPortadaEstatica({ sitios: [] });
+  const sin = '<html><head><script type="application/ld+json">{}</script></head><body><div id="root"></div></body></html>';
+  const out = inyectarPortada(sin, p);
+  const cabeza = out.slice(0, out.indexOf('</head>'));
+  assert.equal(cabeza.match(/name="robots"/g).length, 1);
+  assert.ok(cabeza.includes('content="index, follow, max-image-preview:large"'));
+  const con = '<html><head><meta name="robots" content="index, follow"><script type="application/ld+json">{}</script></head><body><div id="root"></div></body></html>';
+  const out2 = inyectarPortada(con, p);
+  assert.equal(out2.slice(0, out2.indexOf('</head>')).match(/name="robots"/g).length, 1);
+});
