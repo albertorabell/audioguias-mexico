@@ -240,7 +240,7 @@ test('hubs: cada grupo tiene dirección, título, texto en los 7 idiomas y no re
   const vistas = new Set();
   for (const hub of Object.values(HUBS)) {
     for (const l of ['es', 'en', 'fr', 'pl', 'de', 'pt', 'it']) {
-      for (const campo of ['h1', 'titulo', 'lead', 'intro', 'slugs']) assert.ok(hub[campo][l] && hub[campo][l].length > 3, `${campo} ${l}`);
+      for (const campo of ['h1', 'titulo', 'lead', 'intro', 'slugs', 'editorial']) assert.ok(hub[campo][l] && hub[campo][l].length > 3, `${campo} ${l}`);
       const d = direccionHub(hub, l);
       assert.ok(!vistas.has(d), `repetida ${d}`);
       vistas.add(d);
@@ -394,4 +394,19 @@ test('hubs: cada sitio sale con ficha (resumen, recorridos, piezas gratis, preci
   assert.equal(pronto.gratis.length, 0);
   // en otro idioma solo salen recorridos con nombre traducido
   assert.equal(detalleDeSitio({ sitio, manifiesto, piezas, cfg, lang: 'en' }).rutas.length, 0);
+});
+
+
+test('hubs: el texto editorial sale en cada idioma con su encabezado, en 3 párrafos, y sin dejar español en otros idiomas', () => {
+  const encabezados = { es: 'Cómo planear tu visita', en: 'How to plan your visit', fr: 'Comment organiser votre visite', pl: 'Jak zaplanować wizytę', de: 'So planst du deinen Besuch', pt: 'Como planejar sua visita', it: 'Come pianificare la visita' };
+  const entradas = [{ nombre: 'A', url: '/a/', lead: '' }, { nombre: 'B', url: '/b/', lead: '' }];
+  for (const [clave, hub] of Object.entries(HUBS)) {
+    for (const l of Object.keys(encabezados)) {
+      assert.equal(hub.editorial[l].split(/\n\n/).length, 3, `${clave} ${l}: 3 párrafos`);
+      assert.ok(hub.editorial[l].length > 700, `${clave} ${l}: largo`);
+      const { html } = armarHub({ hub, lang: l, idiomas: [l], entradas });
+      assert.ok(html.includes(`<h2>${encabezados[l]}</h2>`), `${clave} ${l}: encabezado`);
+      if (l !== 'es') assert.ok(!/ (que|para|los|las) /.test(` ${hub.editorial[l]} `.replace(/\s+/g, ' ')) || l === 'pt' || l === 'it' || l === 'fr', `${clave} ${l}: sin español`);
+    }
+  }
 });
