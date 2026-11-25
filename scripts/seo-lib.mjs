@@ -123,6 +123,15 @@ export function textoEnHtml(text) {
     .join('\n');
 }
 
+/** «Coyoacán, Ciudad de México» → dirección postal de schema.org (localidad, región y país). Sin coma se deja el texto tal cual. */
+export function direccionPostal(texto) {
+  const t = String(texto || '').trim();
+  if (!t) return '';
+  const partes = t.split(',').map((x) => x.trim()).filter(Boolean);
+  if (partes.length < 2) return t;
+  return { '@type': 'PostalAddress', addressLocality: partes.slice(0, -1).join(', '), addressRegion: partes[partes.length - 1], addressCountry: 'MX' };
+}
+
 /** Recorta a ~max caracteres sin partir palabras. */
 export function recortar(texto, max = 155) {
   const t = String(texto || '').replace(/\s+/g, ' ').trim();
@@ -192,6 +201,7 @@ const T = {
     lugares: (aire) => (aire ? 'Zonas' : 'Salas'),
     antes: 'Antes de ir',
     otras: 'Otras guías',
+    cerca: 'Cerca de aquí',
     pie: 'audioguías en tu celular para museos y zonas arqueológicas de México. Funcionan sin internet una vez descargadas.',
   },
   en: {
@@ -221,6 +231,7 @@ const T = {
     lugares: (aire) => (aire ? 'Zones' : 'Rooms'),
     antes: 'Before you go',
     otras: 'Other guides',
+    cerca: 'Nearby',
     pie: 'audio guides on your phone for museums and archaeological sites in Mexico. They work offline once downloaded.',
   },
   fr: {
@@ -250,6 +261,7 @@ const T = {
     lugares: (aire) => (aire ? 'Zones' : 'Salles'),
     antes: 'Avant de partir',
     otras: 'Autres guides',
+    cerca: 'À proximité',
     pie: 'audioguides sur votre téléphone pour les musées et sites archéologiques du Mexique. Ils fonctionnent hors ligne une fois téléchargés.',
   },
   pl: {
@@ -279,6 +291,7 @@ const T = {
     lugares: (aire) => (aire ? 'Strefy' : 'Sale'),
     antes: 'Przed wizytą',
     otras: 'Inne przewodniki',
+    cerca: 'W pobliżu',
     pie: 'audioprzewodniki w telefonie po muzeach i stanowiskach archeologicznych Meksyku. Po pobraniu działają bez internetu.',
   },
   de: {
@@ -308,6 +321,7 @@ const T = {
     lugares: (aire) => (aire ? 'Bereiche' : 'Säle'),
     antes: 'Vor dem Besuch',
     otras: 'Weitere Führer',
+    cerca: 'In der Nähe',
     pie: 'Audioguides auf dem Handy für Museen und archäologische Stätten in Mexiko. Nach dem Download funktionieren sie offline.',
   },
   pt: {
@@ -337,6 +351,7 @@ const T = {
     lugares: (aire) => (aire ? 'Zonas' : 'Salas'),
     antes: 'Antes de ir',
     otras: 'Outros guias',
+    cerca: 'Perto daqui',
     pie: 'audioguias no celular para museus e sítios arqueológicos do México. Funcionam sem internet depois de baixados.',
   },
   it: {
@@ -366,6 +381,7 @@ const T = {
     lugares: (aire) => (aire ? 'Zone' : 'Sale'),
     antes: 'Prima di andare',
     otras: 'Altre guide',
+    cerca: 'Nelle vicinanze',
     pie: 'audioguide sul cellulare per musei e siti archeologici del Messico. Funzionano senza internet una volta scaricate.',
   },
 };
@@ -513,7 +529,7 @@ ${muestra ? '<script src="/guias-muestra.js" defer></script>\n' : ''}</body>
  * Arma el HTML de la página de un sitio en un idioma.
  * datos: { sitio, manifiesto, salas, piezas, cfg (de PAGINAS), lang, idiomas (los que sí salen), otras: [{ nombre, url }], portada }
  */
-export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], cfg, lang = 'es', idiomas = [lang], otras = [], portada = '', gratisEnlaces = [], muestra = '', muestraPieza = '' }) {
+export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], cfg, lang = 'es', idiomas = [lang], otras = [], cerca = [], portada = '', portadaSrcset = '', gratisEnlaces = [], muestra = '', muestraPieza = '' }) {
   const t = T[lang];
   const slug = cfg.slugs[lang];
   const url = `${DOMINIO}${direccion(slug, lang)}`;
@@ -556,7 +572,7 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
     name: nombre,
     ...(lead ? { description: lead } : {}),
     url,
-    ...(loc(sitio, 'location') ? { address: loc(sitio, 'location') } : sitio.location ? { address: sitio.location } : {}),
+    ...(direccionPostal(loc(sitio, 'location') || sitio.location) ? { address: direccionPostal(loc(sitio, 'location') || sitio.location) } : {}),
     ...(portada ? { image: `${DOMINIO}${portada}` } : {}),
   };
   // Precio del pase (para buscadores y asistentes de IA): solo cuando el sitio ya se vende
@@ -633,7 +649,7 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
   const cuerpo = `<h1>${esc(t.h1(nombre))}</h1>
 ${lead ? `<p class="lead">${esc(lead)}</p>` : ''}
 ${botonMuestra(lang, muestra, { sitio: sitio.id, pieza: muestraPieza })}
-${portada ? `<img class="portada" src="${esc(portada)}" alt="${esc(nombre)}" width="1200" height="800" fetchpriority="high">` : ''}
+${portada ? `<img class="portada" src="${esc(portada)}"${portadaSrcset ? ` srcset="${esc(portadaSrcset)}" sizes="(min-width: 42rem) 632px, calc(100vw - 2.5rem)"` : ''} alt="${esc(nombre)}" width="1200" height="800" fetchpriority="high">` : ''}
 ${cta()}
 ${intro ? `<h2>${esc(t.sobre(aireLibre))}</h2>\n${textoEnHtml(intro)}` : ''}
 ${principal ? `<h2>${esc(t.queVer(nombre, lang === 'es' ? cfg.articulo : '', principal.nombreL))}</h2>\n<p>${esc(t.queVerSub(contar(lang, principal.stops.length, aireLibre), duracion(minutosDe(principal))))}</p>\n<ol>\n${queVer}\n</ol>` : ''}
@@ -643,6 +659,7 @@ ${antes.length ? `<h2>${esc(t.antes)}</h2>\n${bloqueAntes}` : ''}
 ${gratisEnlaces.length ? `<h2>${esc(t.gratisTitulo(aireLibre))}</h2>\n<ul>${gratisEnlaces.map((g) => `<li><a href="${esc(g.url)}">${esc(g.titulo)}</a></li>`).join('')}</ul>` : ''}
 ${cta()}
 ${preguntas.length ? `<h2>${esc(tituloFaq(lang, nombre))}</h2>\n<dl class="faq">${preguntas.map(([q, a]) => `<dt><strong>${esc(q)}</strong></dt><dd>${esc(a)}</dd>`).join('')}</dl>` : ''}
+${cerca.length ? `<h2>${esc(t.cerca)}</h2>\n<ul>${cerca.map((o) => `<li><a href="${esc(o.url)}">${esc(o.nombre)}</a></li>`).join('')}</ul>` : ''}
 ${enlacesOtras}`;
   const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie: t.pie, muestra: !!muestra });
   return { html, url, titulo, descripcion };
@@ -800,7 +817,7 @@ export const direccionPieza = (cfg, p, lang) => `${direccion(cfg.slugs[lang], la
 /**
  * Página de una pieza gratis. datos: { sitio, cfg, pieza, sala, lang, idiomas (en los que esta pieza tiene página), idiomasSitio, portada }
  */
-export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = null, lang = 'es', idiomas = [lang], portada = '', muestra = '', hermanas = [] }) {
+export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = null, lang = 'es', idiomas = [lang], portada = '', portadaSrcset = '', muestra = '', hermanas = [] }) {
   const t = T[lang];
   const nombre = (lang === 'es' ? sitio.name : sitio[`name_${lang}`] || cfg.nombres?.[lang]) || sitio.name;
   const nombrePieza = tituloDePieza(pieza, lang);
@@ -852,7 +869,7 @@ export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = nu
 <h1>${esc(nombrePieza)}</h1>
 ${gancho ? `<p class="lead">${esc(gancho)}</p>` : ''}
 ${botonMuestra(lang, muestra, { sitio: sitio.id, pieza: pieza.piece_id })}
-${portada ? `<img class="portada" src="${esc(portada)}" alt="${esc(nombrePieza)}" width="1200" height="800" fetchpriority="high">` : ''}
+${portada ? `<img class="portada" src="${esc(portada)}"${portadaSrcset ? ` srcset="${esc(portadaSrcset)}" sizes="(min-width: 42rem) 632px, calc(100vw - 2.5rem)"` : ''} alt="${esc(nombrePieza)}" width="1200" height="800" fetchpriority="high">` : ''}
 <p class="cta"><a class="boton" href="${esc(abrir)}">${esc(t.piezaCta(nombre))}</a></p>
 <h2>${esc(t.pzUbic)}</h2>
 <p class="dato">${esc(`${nombreSala ? `${nombreSala}, ` : ''}${nombre}.`)}</p>
