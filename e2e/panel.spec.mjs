@@ -57,3 +57,46 @@ test('panel: una clave incorrecta avisa y no muestra nada', async ({ page }) => 
   await expect(page.locator('#loginErr')).toContainText('clave');
   await expect(page.locator('#view')).toBeHidden();
 });
+
+test('panel: la pestaña de Cloudflare dibuja páginas, orígenes y Core Web Vitals; sin configurar explica cómo activarla', async ({ page }) => {
+  await aislar(page);
+  let configurado = false;
+  await page.route('https://pagos.test/**', async (route) => {
+    const h = { 'access-control-allow-origin': '*', 'access-control-allow-headers': '*' };
+    const url = route.request().url();
+    if (route.request().method() === 'OPTIONS') return route.fulfill({ status: 204, headers: h });
+    if (url.includes('/estadisticas')) return route.fulfill({ headers: h, json: { dias: 60, exacto: true, conteos: conteos(60) } });
+    if (url.includes('/analitica')) {
+      if (!configurado) return route.fulfill({ headers: h, json: { configurado: false } });
+      return route.fulfill({
+        headers: h,
+        json: {
+          configurado: true, dias: 30, avisos: [],
+          paginas: [{ clave: '/guias/museo-frida-kahlo-casa-azul/', cargas: 30, visitas: 20 }, { clave: '/', cargas: 5, visitas: 4 }],
+          origenes: [{ clave: 'www.google.com', cargas: 12, visitas: 9 }, { clave: '(vacío)', cargas: 3, visitas: 3 }],
+          paises: [{ clave: 'Mexico', cargas: 9, visitas: 7 }],
+          dispositivos: [{ clave: 'mobile', cargas: 9, visitas: 7 }],
+          navegadores: [{ clave: 'Chrome', cargas: 9, visitas: 7 }],
+          vitales: { muestras: 40, lcp_ms: 1800, inp_ms: 120, cls: 0.01 },
+        },
+      });
+    }
+    return route.fulfill({ headers: h, json: { conteos: {}, mensajes: [] } });
+  });
+  await page.addInitScript(() => window.PANEL_API_TEST = 'https://pagos.test');
+  await page.goto('/panel.html');
+  await page.fill('#key', 'clave');
+  await page.click('#loginForm button[type=submit]');
+  await expect(page.locator('#chVisitas svg.chart')).toBeVisible();
+  // Sin token: la pestaña dice cómo activarla
+  await page.click('#tabBtnCf');
+  await expect(page.locator('#cfnote')).toContainText('CF_ANALYTICS_TOKEN');
+  // Con datos: páginas, orígenes y vitales
+  configurado = true;
+  await page.selectOption('#days', '7');
+  await expect(page.locator('#cfpages')).toContainText('/guias/museo-frida-kahlo-casa-azul/');
+  await expect(page.locator('#cfrefs')).toContainText('www.google.com');
+  await expect(page.locator('#cfrefs')).toContainText('Directo (sin origen)');
+  await expect(page.locator('#cftiles .tile', { hasText: 'LCP' })).toContainText('1.8 s');
+  await expect(page.locator('#cftiles .tile', { hasText: 'INP' })).toContainText('120 ms');
+});

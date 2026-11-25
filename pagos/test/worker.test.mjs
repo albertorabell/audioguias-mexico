@@ -979,3 +979,51 @@ test('aliados: la compra con enlace de hotel suma ventas y comisión en el repor
   assert.equal(a.comision.mxn, 850);
   assert.equal(a.com, 10);
 });
+
+test('/analitica: pide la clave, avisa si no está configurada y resume lo que devuelve Cloudflare (cada bloque por separado)', async () => {
+  env.STATS_KEY = 'k-stats';
+  const get = () => call('/analitica?dias=7', { method: 'GET', origin: null, headers: { Authorization: 'Bearer k-stats' } });
+  assert.equal((await call('/analitica', { method: 'GET', origin: null })).status, 401);
+  assert.equal((await call('/analitica', { method: 'GET', origin: null, headers: { Authorization: 'Bearer mala' } })).status, 401);
+  // Sin token ni cuenta: responde, pero sin configurar
+  const sin = await get();
+  assert.equal(sin.status, 200);
+  assert.deepEqual(await sin.json(), { configurado: false });
+
+  env.CF_ANALYTICS_TOKEN = 'token-de-lectura';
+  env.CF_ACCOUNT_ID = 'cuenta123';
+  const previo = globalThis.fetch;
+  const consultas = [];
+  globalThis.fetch = async (url, init = {}) => {
+    if (!String(url).startsWith('https://api.cloudflare.com/client/v4/graphql')) return previo(url, init);
+    const b = JSON.parse(init.body);
+    consultas.push({ auth: init.headers.Authorization, q: b.query, v: b.variables });
+    const ok = (acc) => new Response(JSON.stringify({ data: { viewer: { accounts: [acc] } }, errors: null }), { status: 200 });
+    if (b.query.includes('rumWebVitalsEventsAdaptiveGroups')) return ok({ rumWebVitalsEventsAdaptiveGroups: [{ count: 40, quantiles: { largestContentfulPaintP75: 1800, interactionToNextPaintP75: 120, cumulativeLayoutShiftP75: 0.01 } }] });
+    if (b.query.includes('userAgentBrowser')) return new Response(JSON.stringify({ data: null, errors: [{ message: 'unknown field' }] }), { status: 200 });
+    if (b.query.includes('requestPath')) return ok({ rumPageloadEventsAdaptiveGroups: [{ count: 30, sum: { visits: 20 }, dimensions: { requestPath: '/guias/museo-frida-kahlo-casa-azul/' } }, { count: 5, sum: { visits: 4 }, dimensions: { requestPath: '/' } }] });
+    if (b.query.includes('refererHost')) return ok({ rumPageloadEventsAdaptiveGroups: [{ count: 12, sum: { visits: 9 }, dimensions: { refererHost: 'www.google.com' } }, { count: 3, sum: { visits: 3 }, dimensions: { refererHost: '' } }] });
+    return ok({ rumPageloadEventsAdaptiveGroups: [{ count: 9, sum: { visits: 7 }, dimensions: { countryName: 'MX', deviceType: 'mobile' } }] });
+  };
+  try {
+    const r = await get();
+    assert.equal(r.status, 200);
+    const d = await r.json();
+    assert.equal(d.configurado, true);
+    assert.equal(d.dias, 7);
+    assert.equal(d.paginas[0].clave, '/guias/museo-frida-kahlo-casa-azul/');
+    assert.equal(d.paginas[0].cargas, 30);
+    assert.equal(d.paginas[0].visitas, 20);
+    assert.equal(d.origenes[0].clave, 'www.google.com');
+    assert.equal(d.origenes[1].clave, '(vacío)');
+    assert.deepEqual(d.vitales, { muestras: 40, lcp_ms: 1800, inp_ms: 120, cls: 0.01 });
+    // Un bloque que falla no tira a los demás: navegadores queda vacío y se avisa
+    assert.deepEqual(d.navegadores, []);
+    assert.ok(d.avisos.some((a) => a.startsWith('navegadores:')));
+    assert.ok(consultas.every((c) => c.auth === 'Bearer token-de-lectura' && c.v.cuenta === 'cuenta123'));
+    // El token no sale nunca en la respuesta
+    assert.ok(!JSON.stringify(d).includes('token-de-lectura'));
+  } finally {
+    globalThis.fetch = previo;
+  }
+});

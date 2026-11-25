@@ -5,7 +5,7 @@
     set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
     del: function (k) { try { localStorage.removeItem(k); } catch (e) {} }
   };
-  var data = null, visits = null, messages = null, exact = false, allies = null;
+  var data = null, visits = null, messages = null, exact = false, allies = null, cf = null;
 
   // El servidor es siempre el mismo: se ignora cualquier dirección guardada antes (daba 404 si estaba mal escrita)
   store.del('panel_api');
@@ -48,6 +48,11 @@
       var ar = await fetch(api + '/aliados/reporte?dias=' + days, { headers: { Authorization: 'Bearer ' + key } });
       if (ar.ok) allies = (await ar.json()).aliados || [];
     } catch (e) { /* el servidor aún no tiene aliados: la pestaña queda vacía */ }
+    cf = null;
+    try {
+      var cr = await fetch(api + '/analitica?dias=' + Math.min(Number(days), 30), { headers: { Authorization: 'Bearer ' + key } });
+      if (cr.ok) cf = await cr.json();
+    } catch (e) { /* el servidor aún no tiene la analítica: la pestaña dice cómo activarla */ }
     store.set('panel_api', api);
     store.set('panel_key', key);
     $('login').hidden = true;
@@ -55,6 +60,7 @@
     fillSites();
     render();
     if (!$('tabAliados').hidden) renderAllies();
+    if (!$('tabCf').hidden) renderCf();
   }
 
   function fail(msg) { $('loginErr').textContent = msg; $('loginErr').hidden = false; $('login').hidden = false; $('view').hidden = true; }
@@ -386,13 +392,57 @@
     });
     $('anote').textContent = allies.length ? '' : 'Todavía no hay aliados: agrégalos en la pestaña ALIADOS de CONTROL y publica.';
   }
+  function renderCf() {
+    var note = $('cfnote'), tiles = $('cftiles');
+    tiles.innerHTML = '';
+    ['cfpages', 'cfrefs', 'cfcountries', 'cfdevices', 'cfbrowsers'].forEach(function (id) { $(id).innerHTML = ''; });
+    if (cf === null) { note.textContent = 'El servidor todavía no tiene esta sección: publica el servidor de pagos con la versión nueva.'; return; }
+    if (!cf.configurado) {
+      note.textContent = 'Falta activarla: crea en Cloudflare un token de solo lectura (permiso «Account Analytics: Read») y guárdalo en GitHub como secreto CF_ANALYTICS_TOKEN; luego publica el servidor de pagos. Los pasos están en pagos/README.md.';
+      return;
+    }
+    note.textContent = (cf.avisos && cf.avisos.length) ? 'Cloudflare no pudo darme algunos datos: ' + cf.avisos.join(' · ') : '';
+    function sumOf(list, f) { return (list || []).reduce(function (a, x) { return a + (x[f] || 0); }, 0); }
+    var cargas = sumOf(cf.paginas, 'cargas');
+    var visitas = (cf.dispositivos || []).some(function (x) { return x.visitas === null; }) ? null : sumOf(cf.dispositivos, 'visitas');
+    var v = cf.vitales;
+    function sec(ms) { return ms == null ? '–' : (Math.round(ms / 100) / 10).toLocaleString('es-MX') + ' s'; }
+    [['Cargas de página', fmt(sumOf(cf.dispositivos, 'cargas'))],
+     ['Visitas', visitas === null ? '–' : fmt(visitas)],
+     ['LCP (carga)', v ? sec(v.lcp_ms) : '–'],
+     ['INP (respuesta)', v && v.inp_ms != null ? Math.round(v.inp_ms) + ' ms' : '–'],
+     ['CLS (estabilidad)', v && v.cls != null ? String(Math.round(v.cls * 1000) / 1000) : '–']].forEach(function (t) {
+      var d = el('div', undefined, 'card tile'); d.appendChild(el('b', t[1])); d.appendChild(el('span', t[0])); tiles.appendChild(d);
+    });
+    function cfBars(box, list, limit, label) {
+      var max = 0;
+      (list || []).forEach(function (x) { if (x.cargas > max) max = x.cargas; });
+      var tot = sumOf(list, 'cargas');
+      (list || []).slice(0, limit).forEach(function (x) {
+        var row = el('div', undefined, 'hbar');
+        row.appendChild(el('span', label ? label(x.clave) : x.clave));
+        var track = el('div', undefined, 'track'), fill = el('div', undefined, 'fill'); fill.style.width = (max ? (x.cargas / max) * 100 : 0) + '%'; track.appendChild(fill); row.appendChild(track);
+        row.appendChild(el('span', fmt(x.cargas) + ' · ' + pct(x.cargas, tot), 'n'));
+        box.appendChild(row);
+      });
+      if (!(list || []).length) box.textContent = 'Todavía no hay datos (Cloudflare empieza a contar cuando carga el script en las páginas).';
+    }
+    cfBars($('cfpages'), cf.paginas, 15);
+    cfBars($('cfrefs'), cf.origenes, 12, function (k) { return k === '(vacío)' ? 'Directo (sin origen)' : k; });
+    cfBars($('cfcountries'), cf.paises, 12);
+    cfBars($('cfdevices'), cf.dispositivos, 5);
+    cfBars($('cfbrowsers'), cf.navegadores, 8);
+  }
+
   function showTab(name) {
-    $('tabUso').hidden = name !== 'uso'; $('tabAliados').hidden = name !== 'aliados';
-    $('tabBtnUso').className = 'tabbtn' + (name === 'uso' ? ' on' : ''); $('tabBtnAliados').className = 'tabbtn' + (name === 'aliados' ? ' on' : '');
+    $('tabUso').hidden = name !== 'uso'; $('tabAliados').hidden = name !== 'aliados'; $('tabCf').hidden = name !== 'cf';
+    $('tabBtnUso').className = 'tabbtn' + (name === 'uso' ? ' on' : ''); $('tabBtnAliados').className = 'tabbtn' + (name === 'aliados' ? ' on' : ''); $('tabBtnCf').className = 'tabbtn' + (name === 'cf' ? ' on' : '');
     if (name === 'aliados') renderAllies();
+    if (name === 'cf') renderCf();
   }
   $('tabBtnUso').addEventListener('click', function () { showTab('uso'); });
   $('tabBtnAliados').addEventListener('click', function () { showTab('aliados'); });
+  $('tabBtnCf').addEventListener('click', function () { showTab('cf'); });
   $('days').addEventListener('change', load);
   $('site').addEventListener('change', render);
   $('gran').addEventListener('change', render);

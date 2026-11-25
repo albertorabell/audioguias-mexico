@@ -94,6 +94,7 @@
     <div class="row" role="tablist">
       <button type="button" id="tabBtnUso" class="tabbtn on">Uso de la app</button>
       <button type="button" id="tabBtnAliados" class="tabbtn">Aliados (hoteles)</button>
+      <button type="button" id="tabBtnCf" class="tabbtn">Visitas web (Cloudflare)</button>
     </div>
     <div id="tabUso">
     <div class="tiles" id="tiles"></div>
@@ -147,6 +148,24 @@
     <div class="card" id="msgs"></div>
 
     <p class="note">«Visitas» son aperturas de la app, no personas: quien vuelve cuenta otra vez. Los días van en hora UTC. <span id="exactNote"></span></p>
+    </div>
+
+    <div id="tabCf" hidden>
+      <h2>Visitas a las páginas públicas</h2>
+      <p class="sub">Lo mide Cloudflare Web Analytics en las páginas de las guías (xolotli.com/guias/…), antes de que la persona abra la app. Los días van en hora UTC y el periodo es el elegido arriba (máximo 30 días). Son «cargas de página», no personas.</p>
+      <p class="note" id="cfnote"></p>
+      <div class="tiles" id="cftiles"></div>
+      <h3>Páginas más vistas</h3>
+      <div class="card" id="cfpages"></div>
+      <h3>De dónde llegan</h3>
+      <div class="card" id="cfrefs"></div>
+      <h3>País</h3>
+      <div class="card" id="cfcountries"></div>
+      <h3>Dispositivo</h3>
+      <div class="card" id="cfdevices"></div>
+      <h3>Navegador</h3>
+      <div class="card" id="cfbrowsers"></div>
+      <p class="note">Core Web Vitals (percentil 75, medido en los celulares de la gente): LCP bueno hasta 2,5 s, INP bueno hasta 200 ms, CLS bueno hasta 0,1.</p>
     </div>
 
     <div id="tabAliados" hidden>
