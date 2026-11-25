@@ -61,6 +61,36 @@ const ogs = [];
 const pedirOg = (url, titulo, sub, foto) => ogs.push({ url, titulo, sub, foto: foto ? path.join(DIST, foto) : '' });
 const fotoDe = (p) => (p?.image_filename && existe(`images/pieces/${p.image_filename}`) ? `/images/pieces/${p.image_filename}` : '');
 
+// Versiones más chicas (640 y 960 px) de las fotos que salen en las páginas públicas, para que el celular no baje la de 1280 px.
+// Se crean aquí, en dist/images/pieces/w640 y w960, solo de las fotos usadas. Si algo falla se devuelve '' y la página usa la foto completa.
+const VARIANTES = [640, 960];
+const srcsetCache = new Map();
+async function srcsetDe(src) {
+  if (!src) return '';
+  if (srcsetCache.has(src)) return srcsetCache.get(src);
+  let r = '';
+  try {
+    const origen = path.join(DIST, src.replace(/^\//, ''));
+    const base = path.basename(src);
+    const { width } = await sharp(origen).metadata();
+    const partes = [];
+    for (const w of VARIANTES) {
+      if (!width || w >= width) continue;
+      const rel = `images/pieces/w${w}/${base}`;
+      if (!existe(rel)) {
+        fs.mkdirSync(path.join(DIST, `images/pieces/w${w}`), { recursive: true });
+        await sharp(origen).resize({ width: w }).webp({ quality: 78 }).toFile(path.join(DIST, rel));
+      }
+      partes.push(`/${rel} ${w}w`);
+    }
+    if (partes.length) r = [...partes, `${src} ${width}w`].join(', ');
+  } catch (e) {
+    console.warn(`SEO: sin versiones chicas de ${src} (${e.message})`);
+  }
+  srcsetCache.set(src, r);
+  return r;
+}
+
 // Páginas agrupadas: solo los sitios publicados (no «próximamente») y disponibles en cada idioma; sin menos de 2 sitios no sale
 const nombreEn = (o, lang) => (lang === 'es' ? o.sitio.name : o.sitio[`name_${lang}`] || o.cfg.nombres?.[lang]) || o.sitio.name;
 const entradasHub = (hub, lang) =>
@@ -89,15 +119,20 @@ for (const h of hechas) {
     const otras = [...enlacesHub, ...hechas
       .filter((o) => o.id !== h.id && o.idiomas.includes(lang))
       .map((o) => ({
+        id: o.id,
         nombre: (lang === 'es' ? o.sitio.name : o.sitio[`name_${lang}`] || o.cfg.nombres?.[lang]) || o.sitio.name,
         url: direccion(o.cfg.slugs[lang], lang),
       }))];
+    // «Cerca de aquí»: solo sitios que de verdad están a poca distancia uno del otro (mismo barrio o mismo parque)
+    const CERCA = { COYOACAN: ['MUSEO_FRIDA_KAHLO'], MUSEO_FRIDA_KAHLO: ['COYOACAN'], MNA: ['CHAPULTEPEC'], CHAPULTEPEC: ['MNA'], CENTRO_HISTORICO: ['TEMPLO_MAYOR_CATEDRAL'], TEMPLO_MAYOR_CATEDRAL: ['CENTRO_HISTORICO'] };
+    const cerca = (CERCA[h.id] || []).map((id) => otras.find((o) => o.id === id)).filter(Boolean);
+    const otrasSinCerca = otras.filter((o) => !cerca.includes(o));
     const delIdioma = paginasPieza(lang);
     const gratisEnlaces = delIdioma.map((p) => ({ titulo: tituloDePieza(p, lang), url: direccionPieza(h.cfg, p, lang) }));
     // Clip de la primera pieza gratis que tenga uno en este idioma (hoy: la Piedra del Sol del MNA)
     const conClip = gratis.map((p) => ({ p, src: clipDe(hayClip, p.piece_id, lang) })).find((x) => x.src);
     const muestraPieza = conClip?.src || '';
-    const { html, url } = armarPagina({ sitio: h.sitio, manifiesto: h.manifiesto, salas: h.salas, piezas: h.piezas, cfg: h.cfg, lang, idiomas: h.idiomas, otras, portada: h.portada, gratisEnlaces, muestra: h.cfg.proximamente ? '' : muestraPieza, muestraPieza: conClip?.p.piece_id || '' });
+    const { html, url } = armarPagina({ sitio: h.sitio, manifiesto: h.manifiesto, salas: h.salas, piezas: h.piezas, cfg: h.cfg, lang, idiomas: h.idiomas, otras: otrasSinCerca, cerca, portada: h.portada, portadaSrcset: await srcsetDe(h.portada), gratisEnlaces, muestra: h.cfg.proximamente ? '' : muestraPieza, muestraPieza: conClip?.p.piece_id || '' });
     escribir(direccion(h.cfg.slugs[lang], lang), html);
     pedirOg(url, nombreEn(h, lang), OG_LEMA[lang], h.portada);
     grupo.push({ lang, url });
@@ -115,7 +150,7 @@ for (const h of hechas) {
       // Hasta 3 paradas gratis hermanas en el mismo idioma: primero las de la misma sala, luego las demás
       const mismaSala = (q) => (q.room_id || q.roomId) === (p.room_id || p.roomId);
       const hermanas = paginasPieza(lang).filter((q) => q !== p).sort((a, b) => Number(mismaSala(b)) - Number(mismaSala(a))).slice(0, 3).map((q) => ({ titulo: tituloDePieza(q, lang), url: direccionPieza(h.cfg, q, lang) }));
-      const { html, url } = armarPiezaPagina({ sitio: h.sitio, manifiesto: h.manifiesto, cfg: h.cfg, pieza: p, sala, lang, idiomas: langs, portada: fotoDe(p) || h.portada, muestra: clipDe(hayClip, p.piece_id, lang), hermanas });
+      const { html, url } = armarPiezaPagina({ sitio: h.sitio, manifiesto: h.manifiesto, cfg: h.cfg, pieza: p, sala, lang, idiomas: langs, portada: fotoDe(p) || h.portada, portadaSrcset: await srcsetDe(fotoDe(p) || h.portada), muestra: clipDe(hayClip, p.piece_id, lang), hermanas });
       escribir(direccionPieza(h.cfg, p, lang), html);
       pedirOg(url, tituloDePieza(p, lang), nombreEn(h, lang), fotoDe(p) || h.portada);
       g.push({ lang, url });

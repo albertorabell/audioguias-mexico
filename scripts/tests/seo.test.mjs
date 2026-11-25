@@ -1,7 +1,7 @@
 // Páginas públicas para Google: lo que dicen, y que NUNCA lleven texto de pago.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { ajustes, clipDe, botonMuestra, armarLlms, armarMapaGuias, enApp, armarPagina, armarSitemap, duracion, recorridoPrincipal, textoEnHtml, recortar, idiomaDisponible, direccion, contar, slugificar, armarPiezaPagina, piezaPublicable, direccionPieza } from '../seo-lib.mjs';
+import { direccionPostal, ajustes, clipDe, botonMuestra, armarLlms, armarMapaGuias, enApp, armarPagina, armarSitemap, duracion, recorridoPrincipal, textoEnHtml, recortar, idiomaDisponible, direccion, contar, slugificar, armarPiezaPagina, piezaPublicable, direccionPieza } from '../seo-lib.mjs';
 
 const cfg = { articulo: 'el', slugs: { es: 'museo', en: 'museum', fr: 'musee', pl: 'muzeum' }, nombres: { en: 'The Museum', fr: 'Le Musée', pl: 'Muzeum' } };
 
@@ -422,4 +422,19 @@ test('hubs: el texto editorial sale en cada idioma con su encabezado, en 3 párr
       if (l !== 'es') assert.ok(!/ (que|para|los|las) /.test(` ${hub.editorial[l]} `.replace(/\s+/g, ' ')) || l === 'pt' || l === 'it' || l === 'fr', `${clave} ${l}: sin español`);
     }
   }
+});
+
+test('guía: dirección postal estructurada, bloque «Cerca de aquí» y srcset solo cuando se da', () => {
+  assert.deepEqual(direccionPostal('Coyoacán, Ciudad de México'), { '@type': 'PostalAddress', addressLocality: 'Coyoacán', addressRegion: 'Ciudad de México', addressCountry: 'MX' });
+  assert.equal(direccionPostal('Coyoacán'), 'Coyoacán');
+  assert.equal(direccionPostal(''), '');
+  const cerca = [{ nombre: 'Museo Frida Kahlo', url: '/guias/museo-frida-kahlo-casa-azul/' }];
+  const con = armarPagina({ sitio, manifiesto, salas, piezas, cfg, cerca, portada: '/images/pieces/a.webp', portadaSrcset: '/images/pieces/w640/a.webp 640w, /images/pieces/a.webp 1280w' }).html;
+  assert.ok(con.includes('<h2>Cerca de aquí</h2>'));
+  assert.ok(con.includes('<a href="/guias/museo-frida-kahlo-casa-azul/">Museo Frida Kahlo</a>'));
+  assert.ok(con.includes('srcset="/images/pieces/w640/a.webp 640w, /images/pieces/a.webp 1280w"'));
+  const sin = armarPagina({ sitio, manifiesto, salas, piezas, cfg, portada: '/images/pieces/a.webp' }).html;
+  assert.ok(!sin.includes('Cerca de aquí') && !sin.includes('srcset='));
+  const pieza = armarPiezaPagina({ sitio, manifiesto, cfg, pieza: libre, lang: 'es', idiomas: ['es'], portada: '/images/pieces/a.webp', portadaSrcset: '/images/pieces/w640/a.webp 640w, /images/pieces/a.webp 1280w' }).html;
+  assert.ok(pieza.includes('srcset="/images/pieces/w640/a.webp 640w'));
 });
