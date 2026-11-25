@@ -56,7 +56,7 @@ jobs:
           TOKEN_SECRET: ${{ secrets.TOKEN_SECRET }}
 
       # Claves opcionales: solo se guardan si las creaste en GitHub (si no, esas funciones quedan apagadas y no pasa nada)
-      - name: Guardar claves opcionales (reembolsos automáticos, resumen de uso, aviso del formulario y correo de recuperación de pases)
+      - name: Guardar claves opcionales (reembolsos automáticos, resumen de uso, aviso del formulario, correo de recuperación de pases y analítica de Cloudflare)
         working-directory: pagos
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -65,8 +65,12 @@ jobs:
           STATS_KEY: ${{ secrets.STATS_KEY }}
           CONTACT_TO: ${{ secrets.CONTACT_TO }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          CF_ANALYTICS_TOKEN: ${{ secrets.CF_ANALYTICS_TOKEN }}
+          CF_SITE_TAG: ${{ secrets.CF_SITE_TAG }}
+          # El ID de cuenta ya existe en GitHub (CLOUDFLARE_ACCOUNT_ID); el servidor lo recibe con otro nombre para consultar la analítica
+          CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          for v in STRIPE_WEBHOOK_SECRET STATS_KEY CONTACT_TO RESEND_API_KEY; do
+          for v in STRIPE_WEBHOOK_SECRET STATS_KEY CONTACT_TO RESEND_API_KEY CF_ANALYTICS_TOKEN CF_SITE_TAG CF_ACCOUNT_ID; do
             if [ -n "${!v}" ]; then
               printf '%s' "${!v}" | npx --yes wrangler@4 secret put "$v"
             else

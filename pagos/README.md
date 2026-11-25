@@ -51,3 +51,20 @@ Prueban con Stripe, KV y R2 simulados: checkout, canje, límite de dispositivos,
 - No hay límite de solicitudes por IP. Si algún día hay abuso, se agrega una regla de *Rate limiting* en Cloudflare para `POST /redeem`, `/code` y `/checkout`.
 - Los MP3 se guardan en R2 como `libre/<idioma>/<pieza>_<modo>.mp3` o `pago/<idioma>/<pieza>_<modo>.mp3` (sin el sitio). Antes de agregar un **segundo museo** con audios de pago hay que incluir el sitio en la ruta y comprobar que el `site` del token coincida.
 - El candado protege los **MP3** y los **textos** de pago (`GET /texto/<idioma>.json`, guardados en R2 y entregados solo con pase). El JSON público trae solo el adelanto.
+
+## Analítica de Cloudflare en el panel (pestaña «Visitas web»)
+
+`GET /analitica` (solo con `STATS_KEY`) le pide a Cloudflare Web Analytics las visitas a las páginas públicas de las guías, de dónde llegan (Google, otros sitios, directo), país, dispositivo, navegador y los Core Web Vitals reales. El panel lo dibuja en su pestaña «Visitas web (Cloudflare)». Cada bloque se pide por separado: si Cloudflare rechaza uno, los demás se muestran y arriba aparece un aviso con el motivo.
+
+Para activarla hace falta un token de **solo lectura** (no el que usa GitHub para publicar):
+
+1. Cloudflare > icono de perfil (arriba a la derecha) > **My Profile** > **API Tokens** > **Create Token** > **Create Custom Token** > **Get started**.
+2. Nombre: `Panel Xolotli analitica (solo lectura)`.
+3. Permissions: una sola fila: **Account** > **Account Analytics** > **Read**. Nada más.
+4. Account Resources: **Include** > tu cuenta.
+5. Create Token > copia el valor que empieza por letras y números largos (solo se muestra una vez).
+6. GitHub > repositorio `audioguias-mexico` > **Settings** > **Secrets and variables** > **Actions** > **New repository secret**. Nombre: `CF_ANALYTICS_TOKEN`; valor: el token. Add secret.
+7. GitHub > **Actions** > «Publicar el servidor de pagos» > **Run workflow**. Ese paso guarda el token en el servidor (junto con el ID de cuenta, que ya está en `CLOUDFLARE_ACCOUNT_ID`).
+8. Abre `/panel.html`, entra con tu clave y pulsa la pestaña «Visitas web (Cloudflare)».
+
+Opcional: si en Cloudflare tienes más de un sitio de Web Analytics y no quieres mezclarlos, guarda también el secreto `CF_SITE_TAG` (el «site tag» del sitio, en Cloudflare > Web Analytics).

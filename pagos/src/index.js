@@ -9,6 +9,7 @@
 //   POST /evento      la app cuenta (sin datos personales) qué se usa: obra vista, audio, pantalla del pase...
 //   POST /recorrido    al cerrar la app, el resumen anónimo de la visita (pantallas, audios, duración); sin identificador
 //   GET  /recorridos   resumen de esas visitas (solo con la clave STATS_KEY); se borran a los 60 días
+//   GET  /analitica   visitas a las páginas públicas, de dónde llegan y Core Web Vitals, de Cloudflare Web Analytics (solo con STATS_KEY; pide los secretos CF_ANALYTICS_TOKEN y CF_ACCOUNT_ID)
 //   POST /contacto     mensaje o reporte de error del formulario de la app; se guarda 90 días y avisa por correo
 //   GET  /mensajes     esos mensajes (solo con la clave STATS_KEY)
 //   GET  /estadisticas  resumen de esos conteos (solo con la clave STATS_KEY)
@@ -487,6 +488,103 @@ async function handleVisits(request, env, url, cors) {
     for (const [k, n] of Object.entries(JSON.parse(raw).c)) total[k] = (total[k] || 0) + n;
   }
   return json({ dias: days, zona: 'UTC', conteos: total }, 200, cors);
+}
+
+
+// ---------------------------------------------------------------------------
+// Analítica de Cloudflare (Web Analytics): lo que la app no ve, como las visitas a las páginas públicas de las guías,
+// de dónde llegan y los Core Web Vitals reales. Se piden a la API GraphQL de Cloudflare con un token de SOLO LECTURA
+// (permiso «Account Analytics: Read»). Cada bloque se pide por separado: si uno falla, los demás se muestran igual.
+// ---------------------------------------------------------------------------
+const CF_GRAPHQL = 'https://api.cloudflare.com/client/v4/graphql';
+
+async function consultaCloudflare(env, consulta, variables) {
+  const res = await fetch(CF_GRAPHQL, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${env.CF_ANALYTICS_TOKEN}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query: consulta, variables }),
+  });
+  let cuerpo = null;
+  try {
+    cuerpo = await res.json();
+  } catch (e) {
+    /* respuesta sin JSON */
+  }
+  if (!res.ok) throw new Error(`Cloudflare respondió ${res.status}`);
+  if (cuerpo && Array.isArray(cuerpo.errors) && cuerpo.errors.length) throw new Error(String(cuerpo.errors[0].message || 'error de Cloudflare').slice(0, 200));
+  const cuenta = cuerpo && cuerpo.data && cuerpo.data.viewer && cuerpo.data.viewer.accounts && cuerpo.data.viewer.accounts[0];
+  if (!cuenta) throw new Error('Cloudflare no devolvió datos de la cuenta (revisa CF_ACCOUNT_ID y el permiso del token)');
+  return cuenta;
+}
+
+/** Una consulta de visitas agrupadas por una dimensión. Devuelve [{ clave, cargas, visitas }] de mayor a menor. */
+async function gruposDeCargas(env, filtro, dimension, limite) {
+  const q = (conVisitas) => `query ($cuenta: String!, $filtro: AccountRumPageloadEventsAdaptiveGroupsFilter_InputObject!) {
+  viewer { accounts(filter: { accountTag: $cuenta }) {
+    rumPageloadEventsAdaptiveGroups(filter: $filtro, limit: ${limite}, orderBy: [count_DESC]) {
+      count ${conVisitas ? 'sum { visits }' : ''}
+      dimensions { ${dimension} }
+    }
+  } }
+}`;
+  let cuenta;
+  try {
+    cuenta = await consultaCloudflare(env, q(true), { cuenta: env.CF_ACCOUNT_ID, filtro });
+  } catch (e) {
+    // Si el campo de visitas no existe en esta cuenta, se piden solo las cargas de página
+    cuenta = await consultaCloudflare(env, q(false), { cuenta: env.CF_ACCOUNT_ID, filtro });
+  }
+  return (cuenta.rumPageloadEventsAdaptiveGroups || []).map((g) => ({
+    clave: String((g.dimensions && g.dimensions[dimension]) || '').slice(0, 200) || '(vacío)',
+    cargas: Number(g.count) || 0,
+    visitas: g.sum && g.sum.visits != null ? Number(g.sum.visits) || 0 : null,
+  }));
+}
+
+async function vitalesDeCloudflare(env, filtro) {
+  const consulta = `query ($cuenta: String!, $filtro: AccountRumWebVitalsEventsAdaptiveGroupsFilter_InputObject!) {
+  viewer { accounts(filter: { accountTag: $cuenta }) {
+    rumWebVitalsEventsAdaptiveGroups(filter: $filtro, limit: 1) {
+      count
+      quantiles { largestContentfulPaintP75 interactionToNextPaintP75 cumulativeLayoutShiftP75 }
+    }
+  } }
+}`;
+  const cuenta = await consultaCloudflare(env, consulta, { cuenta: env.CF_ACCOUNT_ID, filtro });
+  const g = (cuenta.rumWebVitalsEventsAdaptiveGroups || [])[0];
+  if (!g) return null;
+  const qn = g.quantiles || {};
+  const num = (v) => (v == null ? null : Number(v));
+  return { muestras: Number(g.count) || 0, lcp_ms: num(qn.largestContentfulPaintP75), inp_ms: num(qn.interactionToNextPaintP75), cls: num(qn.cumulativeLayoutShiftP75) };
+}
+
+async function handleAnalytics(request, env, url, cors) {
+  const auth = request.headers.get('Authorization') || '';
+  if (!env.STATS_KEY || !timingSafeEqual(auth, `Bearer ${env.STATS_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
+  // Sin el token y el ID de cuenta, la sección del panel dice cómo activarla
+  if (!env.CF_ANALYTICS_TOKEN || !env.CF_ACCOUNT_ID) return json({ configurado: false }, 200, cors);
+  const dias = Math.min(Math.max(parseInt(url.searchParams.get('dias') || '7', 10) || 7, 1), 30);
+  const filtro = { datetime_geq: new Date(Date.now() - dias * 86400_000).toISOString(), datetime_leq: new Date().toISOString() };
+  if (env.CF_SITE_TAG) filtro.siteTag = env.CF_SITE_TAG;
+  const pedidos = {
+    paginas: gruposDeCargas(env, filtro, 'requestPath', 25),
+    origenes: gruposDeCargas(env, filtro, 'refererHost', 15),
+    paises: gruposDeCargas(env, filtro, 'countryName', 15),
+    dispositivos: gruposDeCargas(env, filtro, 'deviceType', 5),
+    navegadores: gruposDeCargas(env, filtro, 'userAgentBrowser', 8),
+    vitales: vitalesDeCloudflare(env, filtro),
+  };
+  const claves = Object.keys(pedidos);
+  const resultados = await Promise.allSettled(claves.map((k) => pedidos[k]));
+  const salida = { configurado: true, dias, zona: 'UTC', avisos: [] };
+  resultados.forEach((r, i) => {
+    if (r.status === 'fulfilled') salida[claves[i]] = r.value;
+    else {
+      salida[claves[i]] = claves[i] === 'vitales' ? null : [];
+      salida.avisos.push(`${claves[i]}: ${String((r.reason && r.reason.message) || r.reason).slice(0, 200)}`);
+    }
+  });
+  return json(salida, 200, cors);
 }
 
 
@@ -1331,6 +1429,7 @@ export default {
       if (url.pathname === '/estadisticas' && request.method === 'GET') return handleStats(request, env, url, cors);
       if (url.pathname === '/mensajes' && request.method === 'GET') return handleMessages(request, env, url, cors);
       if (url.pathname === '/recorridos' && request.method === 'GET') return handleVisits(request, env, url, cors);
+      if (url.pathname === '/analitica' && request.method === 'GET') return handleAnalytics(request, env, url, cors);
       if (url.pathname === '/aliado' && request.method === 'GET') return handleAliado(env, url, cors);
       if (url.pathname === '/aliados/reporte' && request.method === 'GET') return handleAllyReport(request, env, url, cors);
       if (url.pathname === '/admin/aliados' && request.method === 'POST') return handleAdminAliados(request, env, cors);
